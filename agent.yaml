@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: exa-lead-gen-agent
+version: 1.0.0
+description: >
+  Generate enriched lead lists with structured company data using Exa deep search.
+  ICP research, micro-vertical query expansion, parallel batch subagents, deduplication,
+  ICP scoring, and CSV output — all from a single prompt.
+
+model:
+  preferred: claude-opus-4-6
+  fallback:
+    - claude-sonnet-4-5-20250929
+  constraints:
+    temperature: 0.2
+    max_tokens: 8192
+
+skills:
+  - exa-lead-gen
+
+runtime:
+  max_turns: 100
+  timeout: 600

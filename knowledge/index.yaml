@@ -1,0 +1,3 @@
+documents:
+  - path: mcp-setup.md
+    always_load: true
