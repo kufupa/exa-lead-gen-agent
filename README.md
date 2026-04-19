@@ -8,6 +8,20 @@ Generate enriched lead lists with structured company data using Exa deep search.
 npx @open-gitagent/gitagent run -r https://github.com/shreyas-lyzr/exa-lead-gen-agent
 ```
 
+## Hotel leads (xAI)
+
+1. **Research** — `hotel_decision_maker_research.py` writes a JSON + optional CSV (needs `XAI_API_KEY`).
+2. **Contact enrichment** — `hotel_contact_enrichment.py` re-reads that JSON, runs `grok-4.20-reasoning` with web + X search per contact (skips rows that already score high on direct channels), merges email/phone/X/LinkedIn back in.
+
+```bash
+pip install -r requirements.txt
+export XAI_API_KEY=...
+python hotel_decision_maker_research.py --url https://example-hotel.com
+python hotel_contact_enrichment.py --in-json hotel_leads__....json --out-json enriched.json --mode realtime
+# Cheaper overnight: --mode batch --checkpoint .cache/enrich.json --resume
+python hotel_contact_enrichment.py --in-json in.json --out-json out.json --dry-run
+```
+
 ## Prerequisites
 
 Requires an [Exa API key](https://dashboard.exa.ai/api-keys). Add the Exa MCP server before running:
@@ -42,6 +56,8 @@ exa-lead-gen-agent/
 ├── README.md
 ├── skills/
 │   └── exa-lead-gen/
+│       └── SKILL.md
+│   └── people-research/
 │       └── SKILL.md
 └── knowledge/
     ├── index.yaml
