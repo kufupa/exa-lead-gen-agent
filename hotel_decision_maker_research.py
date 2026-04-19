@@ -4,7 +4,8 @@ Hotel decision-maker research via xAI Grok multi-agent (web + X search).
 
 Usage:
   export XAI_API_KEY=...
-  python hotel_decision_maker_research.py --url https://example-hotel.com --out-json leads.json
+  python hotel_decision_maker_research.py --url https://example-hotel.com
+  # JSON default: hotel_leads__<host>__...__<hash8>.json ; CSV default: hotel_leads.csv (append rows)
 
 Dry-run (no API key, no network):
   python hotel_decision_maker_research.py --url https://example-hotel.com --dry-run-prompt
@@ -14,12 +15,14 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
 import json
 import os
 import re
-from pathlib import Path
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any, Literal
+from urllib.parse import urlparse
 
 from pydantic import BaseModel, Field
 
@@ -119,13 +122,143 @@ class LeadResearchResult(BaseModel):
     contacts: list[Contact]
 
 
+def _slug_for_filename(raw: str, max_len: int) -> str:
+    s = raw.lower()
+    s = re.sub(r"[^a-z0-9]+", "_", s)
+    s = re.sub(r"_+", "_", s).strip("_")
+    if len(s) > max_len:
+        s = s[:max_len].rstrip("_")
+    return s or "x"
+
+
+def _normalize_url(url: str) -> str:
+    u = url.strip()
+    if not u.startswith(("http://", "https://")):
+        u = "https://" + u
+    return u
+
+
+def default_json_path_from_url(url: str) -> str:
+    """Filesystem-safe JSON path: hotel_leads__<host>__<path?>__<hash8>.json."""
+    normalized = _normalize_url(url)
+    parsed = urlparse(normalized)
+    netloc = (parsed.netloc or "nohost").lower()
+    path = (parsed.path or "").strip("/")
+    slug_net = _slug_for_filename(netloc, 60)
+    parts = [f"hotel_leads__{slug_net}"]
+    if path:
+        parts.append(_slug_for_filename(path.replace("/", "_"), 50))
+    base = "__".join(parts)
+    if len(base) > 100:
+        base = base[:100].rstrip("_")
+    h8 = hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:8]
+    return f"{base}__{h8}.json"
+
+
+CSV_EXTRA_FIELDS = ("source_target_url", "generated_at_utc")
+
+
+def csv_fieldnames() -> list[str]:
+    return list(Contact.model_fields.keys()) + list(CSV_EXTRA_FIELDS)
+
+
+def append_csv(
+    path: str,
+    contacts: list[Contact],
+    *,
+    source_target_url: str,
+    generated_at_utc: str,
+) -> None:
+    """Append data rows; write header only if file is missing or empty."""
+    if not contacts:
+        return
+    fieldnames = csv_fieldnames()
+    p = Path(path)
+    write_header = not p.exists() or p.stat().st_size == 0
+    with p.open("a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        if write_header:
+            w.writeheader()
+        for c in contacts:
+            row = c.model_dump()
+            row["evidence"] = json.dumps([e.model_dump() for e in c.evidence], ensure_ascii=False)
+            row["source_target_url"] = source_target_url
+            row["generated_at_utc"] = generated_at_utc
+            w.writerow(row)
+
+
+def read_csv_contacts(path: str) -> list[Contact]:
+    """Load Contact rows from CSV (ignores extra columns like source_target_url)."""
+    p = Path(path)
+    if not p.exists() or p.stat().st_size == 0:
+        return []
+    out: list[Contact] = []
+    with p.open(newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        if not reader.fieldnames:
+            return []
+        for row in reader:
+            if not row:
+                continue
+            payload: dict[str, Any] = {}
+            for k in Contact.model_fields:
+                if k not in row:
+                    continue
+                v = row[k]
+                if v == "":
+                    continue
+                payload[k] = v
+            if "evidence" in payload and isinstance(payload["evidence"], str):
+                payload["evidence"] = json.loads(payload["evidence"])
+            try:
+                out.append(Contact.model_validate(payload))
+            except Exception:
+                continue
+    return out
+
+
+def rewrite_csv_deduped(path: str, contacts: list[Contact]) -> None:
+    """Rewrite CSV with one header; keep highest-utility row per dedupe_key."""
+    merged = dedupe_and_rank(contacts, max_contacts=max(len(contacts), 1))
+    fieldnames = csv_fieldnames()
+    with Path(path).open("w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        w.writeheader()
+        for c in merged:
+            row = c.model_dump()
+            row["evidence"] = json.dumps([e.model_dump() for e in c.evidence], ensure_ascii=False)
+            row["source_target_url"] = ""
+            row["generated_at_utc"] = ""
+            w.writerow(row)
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(
         description="Research hotel decision-makers for booking / guest / revenue tech."
     )
     p.add_argument("--url", required=True, help="Hotel website URL")
-    p.add_argument("--out-json", default="hotel_leads.json", help="Output JSON path")
-    p.add_argument("--out-csv", default=None, help="Optional CSV path")
+    p.add_argument(
+        "--out-json",
+        default=None,
+        metavar="PATH",
+        help="Output JSON path (default: hotel_leads__<url_slug>__<hash>.json)",
+    )
+    p.add_argument(
+        "--out-csv",
+        default="hotel_leads.csv",
+        metavar="PATH",
+        help="CSV path; rows are appended unless --csv-dedupe (default: hotel_leads.csv)",
+    )
+    p.add_argument(
+        "--no-csv",
+        action="store_true",
+        help="Do not write CSV output",
+    )
+    p.add_argument(
+        "--csv-dedupe",
+        action="store_true",
+        help="After append, read full CSV, merge rows by dedupe_key, rewrite with one header",
+    )
     p.add_argument("--max-contacts", type=int, default=25, help="Max contacts to return")
     p.add_argument(
         "--agent-count",
@@ -369,20 +502,6 @@ def usage_to_dict(usage: Any) -> dict[str, Any]:
     return out or {"repr": repr(usage)}
 
 
-def write_csv(path: str, contacts: list[Contact]) -> None:
-    if not contacts:
-        Path(path).write_text("", encoding="utf-8")
-        return
-    fieldnames = list(Contact.model_fields.keys())
-    with open(path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
-        w.writeheader()
-        for c in contacts:
-            row = c.model_dump()
-            row["evidence"] = json.dumps([e.model_dump() for e in c.evidence], ensure_ascii=False)
-            w.writerow(row)
-
-
 def _run_research(args: argparse.Namespace) -> tuple[LeadResearchResult, dict[str, Any]]:
     from xai_sdk import Client
     from xai_sdk.chat import user
@@ -426,6 +545,8 @@ def _run_research(args: argparse.Namespace) -> tuple[LeadResearchResult, dict[st
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    out_json = args.out_json or default_json_path_from_url(args.url)
+    csv_path: str | None = None if args.no_csv else args.out_csv
 
     if args.dry_run_prompt:
         print("=== Round 1 system prompt ===\n")
@@ -434,12 +555,16 @@ def main(argv: list[str] | None = None) -> int:
         print(build_round2_user_message())
         print("\n=== Round 3 user message ===\n")
         print(build_round3_user_message(args.max_contacts))
+        print("\n=== Resolved default outputs (dry-run) ===\n")
+        print(f"out_json: {out_json}")
+        print(f"out_csv:  {csv_path or '(disabled)'}")
         return 0
 
     if not os.getenv("XAI_API_KEY"):
         raise SystemExit("Missing XAI_API_KEY")
 
     started = datetime.now(timezone.utc)
+    generated_iso = started.isoformat()
     result, usage = _run_research(args)
     processed = process_contacts(
         result.contacts,
@@ -460,15 +585,27 @@ def main(argv: list[str] | None = None) -> int:
         "contacts": [c.model_dump() for c in processed],
     }
 
-    with open(args.out_json, "w", encoding="utf-8") as f:
+    with open(out_json, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    if args.out_csv:
-        write_csv(args.out_csv, processed)
+    if csv_path:
+        if args.csv_dedupe:
+            prior = read_csv_contacts(csv_path)
+            rewrite_csv_deduped(csv_path, prior + processed)
+        else:
+            append_csv(
+                csv_path,
+                processed,
+                source_target_url=args.url,
+                generated_at_utc=generated_iso,
+            )
 
-    print(f"Wrote {len(processed)} contacts to {args.out_json}")
-    if args.out_csv:
-        print(f"Wrote CSV to {args.out_csv}")
+    print(f"Wrote {len(processed)} contacts to {out_json}")
+    if csv_path:
+        msg = f"Appended CSV rows to {csv_path}"
+        if args.csv_dedupe:
+            msg += " (deduped rewrite)"
+        print(msg)
     return 0
 
 

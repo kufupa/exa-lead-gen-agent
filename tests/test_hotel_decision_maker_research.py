@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import pytest
@@ -12,12 +13,16 @@ from hotel_decision_maker_research import (
     Contact,
     Evidence,
     LeadResearchResult,
+    append_csv,
     build_parser,
     build_round1_prompt,
     dedupe_and_rank,
+    default_json_path_from_url,
     is_linkedin_only_evidence,
     process_contacts,
+    read_csv_contacts,
     recompute_intimacy,
+    rewrite_csv_deduped,
     utility_score,
 )
 
@@ -38,6 +43,87 @@ def test_invalid_intimacy_grade_rejected() -> None:
 def test_default_agent_count_is_16() -> None:
     args = build_parser().parse_args(["--url", "https://example.com"])
     assert args.agent_count == 16
+    assert args.out_json is None
+    assert args.out_csv == "hotel_leads.csv"
+    assert args.no_csv is False
+
+
+def test_default_json_path_from_url_pattern() -> None:
+    p = default_json_path_from_url("https://WWW.Example.COM/hotel/stay")
+    assert p.startswith("hotel_leads__")
+    assert p.endswith(".json")
+    assert "www_example_com" in p
+    assert re.search(r"__[0-9a-f]{8}\.json$", p)
+
+
+def test_default_json_path_differs_by_url() -> None:
+    a = default_json_path_from_url("https://a.example.com/")
+    b = default_json_path_from_url("https://b.example.com/")
+    assert a != b
+
+
+def test_append_csv_single_header(tmp_path: Path) -> None:
+    path = str(tmp_path / "leads.csv")
+    ev = [
+        Evidence(
+            source_url="https://h.com",
+            source_type="official_site",
+            quote_or_fact="Bio",
+        ),
+        Evidence(
+            source_url="https://h.com/2",
+            source_type="official_site",
+            quote_or_fact="Bio2",
+        ),
+    ]
+    c1 = Contact(
+        full_name="N1",
+        title="T1",
+        decision_maker_score="high",
+        intimacy_grade="high",
+        fit_reason="f",
+        contact_evidence_summary="s",
+        evidence=ev,
+    )
+    c2 = c1.model_copy(update={"full_name": "N2", "title": "T2"})
+    append_csv(path, [c1], source_target_url="https://h.com", generated_at_utc="2026-01-01T00:00:00+00:00")
+    append_csv(path, [c2], source_target_url="https://h.com", generated_at_utc="2026-01-02T00:00:00+00:00")
+    lines = Path(path).read_text(encoding="utf-8").strip().splitlines()
+    assert sum(1 for line in lines if line.startswith("full_name,")) == 1
+    assert len(lines) == 3
+
+
+def test_rewrite_csv_deduped_keeps_best_utility(tmp_path: Path) -> None:
+    path = str(tmp_path / "d.csv")
+    ev = [
+        Evidence(
+            source_url="https://x.com/a",
+            source_type="official_site",
+            quote_or_fact="a",
+        ),
+        Evidence(
+            source_url="https://x.com/b",
+            source_type="official_site",
+            quote_or_fact="b",
+        ),
+    ]
+    low = Contact(
+        full_name="Same",
+        title="VP",
+        linkedin_url="https://linkedin.com/in/same",
+        decision_maker_score="low",
+        intimacy_grade="low",
+        fit_reason="f",
+        contact_evidence_summary="s",
+        evidence=ev,
+    )
+    high = low.model_copy(
+        update={"decision_maker_score": "high", "intimacy_grade": "high", "title": "VP Sales"}
+    )
+    rewrite_csv_deduped(path, [low, high])
+    rows = read_csv_contacts(path)
+    assert len(rows) == 1
+    assert rows[0].decision_maker_score == "high"
 
 
 def test_prompt_mentions_intimacy_grade_rules() -> None:
@@ -257,6 +343,8 @@ def test_dry_run_writes_no_api(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) 
     assert r.returncode == 0
     assert "intimacy_grade" in r.stdout
     assert "direct public business email" in r.stdout
+    assert "out_json:" in r.stdout
+    assert "hotel_leads__" in r.stdout
 
 
 def test_json_export_roundtrip(tmp_path: Path) -> None:
