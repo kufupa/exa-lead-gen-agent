@@ -16,14 +16,17 @@ from hotel_decision_maker_research import (
     append_csv,
     build_parser,
     build_round1_prompt,
+    build_round3_user_message,
     dedupe_and_rank,
     default_json_path_from_url,
     is_linkedin_only_evidence,
+    normalize_contact_bounds,
     process_contacts,
     read_csv_contacts,
     recompute_intimacy,
     rewrite_csv_deduped,
     utility_score,
+    utility_score_v2,
 )
 
 
@@ -42,7 +45,11 @@ def test_invalid_intimacy_grade_rejected() -> None:
 
 def test_default_agent_count_is_16() -> None:
     args = build_parser().parse_args(["--url", "https://example.com"])
+    normalize_contact_bounds(args)
     assert args.agent_count == 16
+    assert args.min_contacts == 10
+    assert args.target_contacts == 25
+    assert args.max_contacts == 50
     assert args.out_json is None
     assert args.out_csv == "hotel_leads.csv"
     assert args.no_csv is False
@@ -127,9 +134,64 @@ def test_rewrite_csv_deduped_keeps_best_utility(tmp_path: Path) -> None:
 
 
 def test_prompt_mentions_intimacy_grade_rules() -> None:
-    prompt = build_round1_prompt("https://hotel.example", 25)
+    prompt = build_round1_prompt("https://hotel.example", 10, 25, 50)
     assert "intimacy_grade" in prompt
     assert "direct public business email" in prompt
+    assert "10" in prompt
+    assert "25" in prompt
+    assert "50" in prompt
+
+
+def test_round3_prompt_rejects_shrinkage_phrase() -> None:
+    p = build_round3_user_message(10, 25, 50)
+    assert "fewer is fine" not in p.lower()
+    assert "at least 10" in p
+    assert "target ~25" in p
+
+
+def test_normalize_max_contacts_clamped() -> None:
+    args = build_parser().parse_args(
+        ["--url", "https://x.com", "--max-contacts", "99", "--target-contacts", "60", "--min-contacts", "5"]
+    )
+    normalize_contact_bounds(args)
+    assert args.max_contacts == 50
+    assert args.min_contacts == 5
+    assert args.target_contacts == 50
+
+
+def test_utility_score_v2_prefers_contact_fill() -> None:
+    ev = [
+        Evidence(
+            source_url="https://o.com",
+            source_type="official_site",
+            quote_or_fact="Bio",
+        ),
+        Evidence(
+            source_url="https://o.com/2",
+            source_type="official_site",
+            quote_or_fact="Bio2",
+        ),
+    ]
+    bare = Contact(
+        full_name="Exec",
+        title="CEO",
+        decision_maker_score="high",
+        intimacy_grade="high",
+        fit_reason="f",
+        contact_evidence_summary="s",
+        evidence=ev,
+    )
+    rich = bare.model_copy(
+        update={
+            "full_name": "Mgr",
+            "title": "Mgr",
+            "decision_maker_score": "high",
+            "intimacy_grade": "high",
+            "email": "mgr@hotel.com",
+            "phone": "+44 20 7138 0000",
+        }
+    )
+    assert utility_score_v2(rich) > utility_score_v2(bare)
 
 
 def test_intimacy_high_when_direct_email_on_contact() -> None:
@@ -345,6 +407,9 @@ def test_dry_run_writes_no_api(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) 
     assert "direct public business email" in r.stdout
     assert "out_json:" in r.stdout
     assert "hotel_leads__" in r.stdout
+    assert "min=10" in r.stdout
+    assert "target=25" in r.stdout
+    assert "max=50" in r.stdout
 
 
 def test_json_export_roundtrip(tmp_path: Path) -> None:

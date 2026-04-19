@@ -19,6 +19,7 @@ import hashlib
 import json
 import os
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Literal
@@ -259,7 +260,29 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="After append, read full CSV, merge rows by dedupe_key, rewrite with one header",
     )
-    p.add_argument("--max-contacts", type=int, default=25, help="Max contacts to return")
+    p.add_argument(
+        "--min-contacts",
+        type=int,
+        default=10,
+        help="Minimum distinct people to return when public data allows (default: 10)",
+    )
+    p.add_argument(
+        "--target-contacts",
+        type=int,
+        default=25,
+        help="Target list size to aim for (default: 25; prompts use 20–30 band)",
+    )
+    p.add_argument(
+        "--max-contacts",
+        type=int,
+        default=50,
+        help="Maximum contacts to return; allowed range 10–50 (default: 50)",
+    )
+    p.add_argument(
+        "--extra-contact-pass",
+        action="store_true",
+        help="Fourth model pass focused on phone/email/X enrichment for listed people",
+    )
     p.add_argument(
         "--agent-count",
         type=int,
@@ -291,33 +314,75 @@ def build_parser() -> argparse.ArgumentParser:
     return p
 
 
-def build_round1_prompt(url: str, max_contacts: int) -> str:
+def normalize_contact_bounds(args: argparse.Namespace) -> None:
+    """Clamp min/target/max to valid ranges; warn on stderr when clamping."""
+    mc = args.max_contacts
+    if mc < 10 or mc > 50:
+        print(
+            f"Warning: --max-contacts {mc} out of range; clamped to [10, 50].",
+            file=sys.stderr,
+        )
+        args.max_contacts = max(10, min(50, mc))
+    min_c = args.min_contacts
+    if min_c < 1:
+        print("Warning: --min-contacts < 1; clamped to 1.", file=sys.stderr)
+        min_c = 1
+    if min_c > args.max_contacts:
+        print(
+            f"Warning: --min-contacts {min_c} > --max-contacts {args.max_contacts}; clamped min to max.",
+            file=sys.stderr,
+        )
+        min_c = args.max_contacts
+    args.min_contacts = min_c
+
+    tc = args.target_contacts
+    if tc < args.min_contacts:
+        print(
+            f"Warning: --target-contacts {tc} < --min-contacts {args.min_contacts}; clamped target to min.",
+            file=sys.stderr,
+        )
+        tc = args.min_contacts
+    if tc > args.max_contacts:
+        print(
+            f"Warning: --target-contacts {tc} > --max-contacts {args.max_contacts}; clamped target to max.",
+            file=sys.stderr,
+        )
+        tc = args.max_contacts
+    args.target_contacts = tc
+
+
+def build_round1_prompt(url: str, min_contacts: int, target_contacts: int, max_contacts: int) -> str:
     return f"""You are a B2B prospecting research agent.
 
 Hotel website (primary anchor): {url}
 
-Goal: find up to {max_contacts} likely decision-makers for:
-- AI booking automation
-- reservations automation
-- guest messaging
-- revenue-tech adoption
+COUNT (strict):
+- Return at least **{min_contacts}** distinct people if public sources can support that many after broad search.
+- **Target ~{target_contacts}** contacts; aim for the **20–30** band when data allows.
+- Never return more than **{max_contacts}** contacts.
+- If you are below **{min_contacts}**, add **adjacent ICP roles** (same hotel, brand, or management company): reservations/revenue/sales/marketing/IT-digital/guest experience/CRM/commercial ops/F&B where they touch guest comms — do **not** stop early just because you already have a few senior names.
 
-Prioritize CONTACT USEFULNESS over raw seniority. A reachable manager beats an unreachable VP.
+ICP (each person should plausibly care about at least one):
+- AI booking automation, reservations automation, guest messaging, revenue-tech adoption.
 
-Research rules:
-- Use web search and X search as needed. Triangulate with multiple independent public sources when possible.
-- Prefer official hotel / brand / management company pages, press releases, conference bios.
-- Never fabricate emails, phones, or LinkedIn URLs. Use null when unknown.
+BREADTH — cast a wide net across role buckets:
+- Property + regional ops, reservations, revenue, sales & marketing, IT & systems, guest experience / CRM, distribution, management company / brand HQ overlapping this property.
+
+CONTACT HUNT (most effort here — not LinkedIn alone):
+- For each person, actively search for **phone**, **email**, **X handle** using: official /team /leadership /press pages, PDFs, conference speaker bios, podcasts, news interviews, press office lines, site contact pages.
+- **LinkedIn is bare minimum metadata**: if a public LinkedIn profile exists, set `linkedin_url`. LinkedIn alone does **not** count as finishing contact research — you still need non-LinkedIn evidence **or** structured phone/email/x_handle / substantive `other_contact_detail` with quoted routes.
+
+Prioritize **reachable contact data** over raw title prestige. Never fabricate emails, phones, handles, or URLs — use null when unknown after search.
 
 Scoring — decision_maker_score (low | medium | high):
 - high: clear influence over reservations, distribution, revenue, digital guest journey, commercial strategy, or property systems tied to booking stack
-- medium: plausible stakeholder (e.g. department lead) with partial influence or weaker role confirmation
+- medium: plausible stakeholder with partial influence or weaker role confirmation
 - low: weak relevance OR no practical path to influence booking / guest messaging / revenue tech
 
 Scoring — intimacy_grade (low | medium | high) from strongest PUBLIC contact evidence:
 - high: direct public business email for that person OR direct public business phone/extension OR official profile page with business contact clearly tied to them
-- medium: strong role confirmation plus department/team/company route likely to reach them (e.g. reservations office, group sales, commercial office, named office line, corporate alias tied to function)
-- low: only LinkedIn / name+title / weak directories / generic hotel form with no role-specific route
+- medium: strong role confirmation plus department/team/company route likely to reach them
+- low: only LinkedIn / name+title / weak directories / generic form with no role-specific route
 
 Return JSON matching the response schema (contacts array only). Each contact must include:
 - full_name, title, optional company, linkedin_url, email, email2, phone, phone2, x_handle, other_contact_detail
@@ -326,19 +391,35 @@ Return JSON matching the response schema (contacts array only). Each contact mus
 """
 
 
-def build_round2_user_message() -> str:
-    return """Second research pass on the same hotel target:
-- Strengthen evidence for each remaining contact (prefer official pages + second independent source).
-- Remove or merge duplicates and weak candidates.
-- Fill optional contact channels only when publicly verifiable.
+def build_round2_user_message(min_contacts: int, max_contacts: int) -> str:
+    return f"""Second pass — **enrich, do not shrink below {min_contacts}** unless impossible:
+
+- For every contact, **fill** `phone`, `phone2`, `email`, `email2`, `x_handle`, `other_contact_detail` from **quoted** public sources when available.
+- Strengthen evidence (official pages + independent second source) but **do not drop** people just for being junior — only merge **true duplicates** (same human).
+- If the list would fall below **{min_contacts}**, **replace** with additional ICP-relevant candidates from the hotel / brand / management company until you meet the floor or exhaust public sources.
+- Keep total contacts at most **{max_contacts}**.
+
 Return JSON matching the same schema (contacts array only)."""
 
 
-def build_round3_user_message(max_contacts: int) -> str:
-    return f"""Final pass:
-- Rank by real-world outreach usefulness (weighted toward intimacy_grade).
-- Cap at {max_contacts} contacts; fewer is fine if evidence is thin.
-- Ensure every contact has non-empty evidence and honest scores.
+def build_round3_user_message(min_contacts: int, target_contacts: int, max_contacts: int) -> str:
+    return f"""Final pass — **no early shrink**:
+
+- Rank so rows with **filled phone / email / X** and strong evidence rank ahead of empty-channel senior titles.
+- Output **at least {min_contacts}** and **up to {max_contacts}** contacts whenever public data supports it; **target ~{target_contacts}** (20–30 band).
+- **Do not** return a tiny list because it feels “cleaner” — prefer **medium-intimacy** contacts with **verified** department phone or email in `other_contact_detail` over empty senior rows.
+- If you still have fewer than {min_contacts} after exhaustive search, return as many as honestly exist and explain scarcity only in `contact_evidence_summary` fields (do not add commentary outside JSON).
+
+Return JSON matching the same schema (contacts array only)."""
+
+
+def build_round4_contact_blitz_message(min_contacts: int, target_contacts: int, max_contacts: int) -> str:
+    return f"""Extra pass — **contact blitz only**:
+
+- Take the current candidate list and run **targeted** web + X searches per person for **direct phone**, **business email**, **X handle**; mine bios, PDFs, press, events.
+- You may **add** new ICP contacts only if they improve coverage and respect **max {max_contacts}** total.
+- Keep at least **{min_contacts}** contacts if sources allow; target **~{target_contacts}**.
+
 Return JSON matching the same schema (contacts array only)."""
 
 
@@ -416,6 +497,55 @@ def utility_score(contact: Contact) -> float:
     return 0.65 * intimacy + 0.35 * decision
 
 
+def has_non_linkedin_evidence(contact: Contact) -> bool:
+    return any(ev.source_type != "linkedin" for ev in contact.evidence)
+
+
+def contact_fill_score(contact: Contact) -> float:
+    """Higher = more outreach-usable structured contact data (capped)."""
+    s = 0.0
+    for em in (contact.email, contact.email2):
+        if not (em and em.strip()):
+            continue
+        if not is_generic_functional_email(em):
+            s += 2.0
+        else:
+            s += 0.5
+    if contact.phone and contact.phone.strip():
+        s += 2.0
+    if contact.phone2 and contact.phone2.strip():
+        s += 0.5
+    if contact.x_handle and contact.x_handle.strip():
+        s += 1.0
+    o = (contact.other_contact_detail or "").strip()
+    if o and (EMAIL_IN_TEXT.search(o) or PHONE_IN_TEXT.search(o)):
+        s += 0.5
+    if s > 6.0:
+        s = 6.0
+    if contact.linkedin_url and contact.linkedin_url.strip():
+        has_direct = bool(
+            (contact.phone and contact.phone.strip())
+            or (contact.x_handle and contact.x_handle.strip())
+            or (
+                contact.email
+                and contact.email.strip()
+                and not is_generic_functional_email(contact.email)
+            )
+        )
+        if has_non_linkedin_evidence(contact) or has_direct:
+            s += 0.1
+    return s
+
+
+def utility_score_v2(contact: Contact) -> float:
+    """Rank: contact fill first among ICP signals (see plan weights)."""
+    rank = {"low": 1.0, "medium": 2.0, "high": 3.0}
+    intimacy = rank[contact.intimacy_grade]
+    decision = rank[contact.decision_maker_score]
+    fill = contact_fill_score(contact) / 6.0
+    return 0.45 * intimacy + 0.25 * decision + 0.30 * fill
+
+
 def dedupe_key(contact: Contact) -> str:
     if contact.linkedin_url and contact.linkedin_url.strip():
         return "li:" + contact.linkedin_url.strip().lower()
@@ -428,7 +558,7 @@ def dedupe_key(contact: Contact) -> str:
 
 
 def dedupe_and_rank(contacts: list[Contact], max_contacts: int) -> list[Contact]:
-    sorted_rows = sorted(contacts, key=utility_score, reverse=True)
+    sorted_rows = sorted(contacts, key=utility_score_v2, reverse=True)
     seen: set[str] = set()
     out: list[Contact] = []
     for c in sorted_rows:
@@ -511,24 +641,55 @@ def _run_research(args: argparse.Namespace) -> tuple[LeadResearchResult, dict[st
     if not api_key:
         raise SystemExit("Missing XAI_API_KEY")
 
+    effective_max_turns = max(args.max_turns, 20) if args.max_contacts >= 30 else args.max_turns
+
     client = Client(api_key=api_key)
     chat = client.chat.create(
         model="grok-4.20-multi-agent",
         agent_count=args.agent_count,
         tools=[web_search(), x_search()],
         store_messages=True,
-        max_turns=args.max_turns,
+        max_turns=effective_max_turns,
         response_format=LeadResearchResult,
     )
 
-    chat.append(user(build_round1_prompt(args.url, args.max_contacts)))
+    chat.append(
+        user(
+            build_round1_prompt(
+                args.url,
+                args.min_contacts,
+                args.target_contacts,
+                args.max_contacts,
+            )
+        )
+    )
     _ = chat.sample()
 
-    chat.append(user(build_round2_user_message()))
+    chat.append(user(build_round2_user_message(args.min_contacts, args.max_contacts)))
     _ = chat.sample()
 
-    chat.append(user(build_round3_user_message(args.max_contacts)))
+    chat.append(
+        user(
+            build_round3_user_message(
+                args.min_contacts,
+                args.target_contacts,
+                args.max_contacts,
+            )
+        )
+    )
     final = chat.sample()
+
+    if getattr(args, "extra_contact_pass", False):
+        chat.append(
+            user(
+                build_round4_contact_blitz_message(
+                    args.min_contacts,
+                    args.target_contacts,
+                    args.max_contacts,
+                )
+            )
+        )
+        final = chat.sample()
 
     raw = (final.content or "").strip()
     if not raw:
@@ -545,19 +706,46 @@ def _run_research(args: argparse.Namespace) -> tuple[LeadResearchResult, dict[st
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    normalize_contact_bounds(args)
     out_json = args.out_json or default_json_path_from_url(args.url)
     csv_path: str | None = None if args.no_csv else args.out_csv
 
     if args.dry_run_prompt:
         print("=== Round 1 system prompt ===\n")
-        print(build_round1_prompt(args.url, args.max_contacts))
+        print(
+            build_round1_prompt(
+                args.url,
+                args.min_contacts,
+                args.target_contacts,
+                args.max_contacts,
+            )
+        )
         print("\n=== Round 2 user message ===\n")
-        print(build_round2_user_message())
+        print(build_round2_user_message(args.min_contacts, args.max_contacts))
         print("\n=== Round 3 user message ===\n")
-        print(build_round3_user_message(args.max_contacts))
+        print(
+            build_round3_user_message(
+                args.min_contacts,
+                args.target_contacts,
+                args.max_contacts,
+            )
+        )
+        if args.extra_contact_pass:
+            print("\n=== Round 4 contact blitz ===\n")
+            print(
+                build_round4_contact_blitz_message(
+                    args.min_contacts,
+                    args.target_contacts,
+                    args.max_contacts,
+                )
+            )
         print("\n=== Resolved default outputs (dry-run) ===\n")
         print(f"out_json: {out_json}")
         print(f"out_csv:  {csv_path or '(disabled)'}")
+        print(
+            f"contacts: min={args.min_contacts} target={args.target_contacts} max={args.max_contacts} "
+            f"extra_contact_pass={args.extra_contact_pass}"
+        )
         return 0
 
     if not os.getenv("XAI_API_KEY"):
@@ -573,12 +761,18 @@ def main(argv: list[str] | None = None) -> int:
         allow_linkedin=args.allow_linkedin,
     )
 
+    effective_max_turns = max(args.max_turns, 20) if args.max_contacts >= 30 else args.max_turns
     payload: dict[str, Any] = {
         "target_url": args.url,
         "generated_at_utc": started.isoformat(),
         "model": "grok-4.20-multi-agent",
         "agent_count": args.agent_count,
         "max_turns": args.max_turns,
+        "max_turns_effective": effective_max_turns,
+        "min_contacts": args.min_contacts,
+        "target_contacts": args.target_contacts,
+        "max_contacts": args.max_contacts,
+        "extra_contact_pass": args.extra_contact_pass,
         "strict_evidence": args.strict_evidence,
         "allow_linkedin": args.allow_linkedin,
         "usage": usage,
