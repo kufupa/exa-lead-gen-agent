@@ -16,6 +16,7 @@ model:
 
 skills:
   - exa-lead-gen
+  - people-research
 
 runtime:
   max_turns: 100

@@ -10,14 +10,14 @@ npx @open-gitagent/gitagent run -r https://github.com/shreyas-lyzr/exa-lead-gen-
 
 ## Hotel leads (xAI)
 
-1. **Research** — `hotel_decision_maker_research.py` writes a JSON + optional CSV (needs `XAI_API_KEY`).
+1. **Research** — `hotel_decision_maker_research.py` writes JSON under **`jsons/`** and appends CSV under **`csv/`** by default (needs `XAI_API_KEY`).
 2. **Contact enrichment** — `hotel_contact_enrichment.py` re-reads that JSON, runs `grok-4.20-reasoning` with web + X search per contact (skips rows that already score high on direct channels), merges email/phone/X/LinkedIn back in.
 
 ```bash
 pip install -r requirements.txt
 export XAI_API_KEY=...
 python hotel_decision_maker_research.py --url https://example-hotel.com
-python hotel_contact_enrichment.py --in-json hotel_leads__....json --out-json enriched.json --mode realtime
+python hotel_contact_enrichment.py --in-json jsons/hotel_leads__....json --out-json jsons/hotel_leads__....enriched.json --mode realtime
 # Cheaper overnight: --mode batch --checkpoint .cache/enrich.json --resume
 python hotel_contact_enrichment.py --in-json in.json --out-json out.json --dry-run
 ```
@@ -51,6 +51,8 @@ claude mcp add --transport http exa "https://mcp.exa.ai/mcp?exaApiKey=YOUR_EXA_A
 ```
 exa-lead-gen-agent/
 ├── agent.yaml
+├── csv/
+├── jsons/
 ├── SOUL.md
 ├── RULES.md
 ├── README.md

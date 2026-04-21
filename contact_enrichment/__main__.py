@@ -25,7 +25,7 @@ def _default_concurrency() -> int:
 
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Deep-enrich hotel lead JSON with xAI (web + X search).")
-    p.add_argument("--in-json", required=True, help="Input JSON from hotel_decision_maker_research.py")
+    p.add_argument("--in-json", required=True, help="Input JSON from hotel_decision_maker_research.py (e.g. jsons/hotel_leads__....json)")
     p.add_argument("--out-json", required=True, help="Output JSON path")
     p.add_argument("--mode", choices=("realtime", "batch"), default="realtime")
     p.add_argument("--model", default="grok-4.20-reasoning", help="xAI model id")

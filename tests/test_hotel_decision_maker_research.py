@@ -51,13 +51,13 @@ def test_default_agent_count_is_16() -> None:
     assert args.target_contacts == 25
     assert args.max_contacts == 50
     assert args.out_json is None
-    assert args.out_csv == "hotel_leads.csv"
+    assert args.out_csv == "csv/hotel_leads.csv"
     assert args.no_csv is False
 
 
 def test_default_json_path_from_url_pattern() -> None:
     p = default_json_path_from_url("https://WWW.Example.COM/hotel/stay")
-    assert p.startswith("hotel_leads__")
+    assert p.startswith("jsons/hotel_leads__")
     assert p.endswith(".json")
     assert "www_example_com" in p
     assert re.search(r"__[0-9a-f]{8}\.json$", p)

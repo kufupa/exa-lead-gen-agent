@@ -5,7 +5,7 @@ Hotel decision-maker research via xAI Grok multi-agent (web + X search).
 Usage:
   export XAI_API_KEY=...
   python hotel_decision_maker_research.py --url https://example-hotel.com
-  # JSON default: hotel_leads__<host>__...__<hash8>.json ; CSV default: hotel_leads.csv (append rows)
+  # JSON default: jsons/hotel_leads__<host>__...__<hash8>.json ; CSV default: csv/hotel_leads.csv (append rows)
 
 Dry-run (no API key, no network):
   python hotel_decision_maker_research.py --url https://example-hotel.com --dry-run-prompt
@@ -140,7 +140,7 @@ def _normalize_url(url: str) -> str:
 
 
 def default_json_path_from_url(url: str) -> str:
-    """Filesystem-safe JSON path: hotel_leads__<host>__<path?>__<hash8>.json."""
+    """Filesystem-safe JSON path: jsons/hotel_leads__<host>__<path?>__<hash8>.json."""
     normalized = _normalize_url(url)
     parsed = urlparse(normalized)
     netloc = (parsed.netloc or "nohost").lower()
@@ -153,7 +153,7 @@ def default_json_path_from_url(url: str) -> str:
     if len(base) > 100:
         base = base[:100].rstrip("_")
     h8 = hashlib.sha256(normalized.encode("utf-8")).hexdigest()[:8]
-    return f"{base}__{h8}.json"
+    return f"jsons/{base}__{h8}.json"
 
 
 CSV_EXTRA_FIELDS = ("source_target_url", "generated_at_utc")
@@ -242,13 +242,13 @@ def build_parser() -> argparse.ArgumentParser:
         "--out-json",
         default=None,
         metavar="PATH",
-        help="Output JSON path (default: hotel_leads__<url_slug>__<hash>.json)",
+        help="Output JSON path (default: jsons/hotel_leads__<url_slug>__<hash>.json)",
     )
     p.add_argument(
         "--out-csv",
-        default="hotel_leads.csv",
+        default="csv/hotel_leads.csv",
         metavar="PATH",
-        help="CSV path; rows are appended unless --csv-dedupe (default: hotel_leads.csv)",
+        help="CSV path; rows are appended unless --csv-dedupe (default: csv/hotel_leads.csv)",
     )
     p.add_argument(
         "--no-csv",
@@ -779,10 +779,12 @@ def main(argv: list[str] | None = None) -> int:
         "contacts": [c.model_dump() for c in processed],
     }
 
+    Path(out_json).parent.mkdir(parents=True, exist_ok=True)
     with open(out_json, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     if csv_path:
+        Path(csv_path).parent.mkdir(parents=True, exist_ok=True)
         if args.csv_dedupe:
             prior = read_csv_contacts(csv_path)
             rewrite_csv_deduped(csv_path, prior + processed)
