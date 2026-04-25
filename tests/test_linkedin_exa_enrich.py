@@ -2,6 +2,7 @@
 """Tests for linkedin_enrich types and logic."""
 from __future__ import annotations
 import pytest
+import types
 from pydantic import ValidationError
 from linkedin_enrich.types import LinkedInProfile, ExperienceEntry
 
@@ -74,7 +75,7 @@ def test_linkedin_profile_rejects_caveats_over_max():
 
 from unittest.mock import MagicMock
 from linkedin_enrich.exa_fetch import discover_linkedin_urls, fetch_linkedin_profiles, normalize_linkedin_url
-from linkedin_enrich.grok_structure import build_structuring_prompt
+from linkedin_enrich.grok_structure import build_structuring_prompt, structure_profile
 
 
 def test_normalize_linkedin_url():
@@ -157,3 +158,130 @@ def test_structuring_prompt_contains_url_and_markdown():
     assert "linkedin.com/in/foo" in prompt
     assert "CEO at TestCo" in prompt
     assert "Experience" in prompt
+
+
+def _install_fake_structure_deps(monkeypatch, *, final_content, final_usage, usage_return):
+    chat = MagicMock()
+    final = types.SimpleNamespace(content=final_content, usage=final_usage)
+    chat.sample.return_value = final
+
+    client_instance = types.SimpleNamespace(chat=types.SimpleNamespace(create=MagicMock(return_value=chat)))
+    client_ctor = MagicMock(return_value=client_instance)
+    fake_xai_sdk = types.SimpleNamespace(Client=client_ctor)
+    fake_xai_chat = types.SimpleNamespace(
+        system=lambda text: ("system", text),
+        user=lambda text: ("user", text),
+    )
+    fake_research = types.SimpleNamespace(usage_to_dict=MagicMock(return_value=usage_return))
+
+    monkeypatch.setitem(__import__("sys").modules, "xai_sdk", fake_xai_sdk)
+    monkeypatch.setitem(__import__("sys").modules, "xai_sdk.chat", fake_xai_chat)
+    monkeypatch.setitem(__import__("sys").modules, "hotel_decision_maker_research", fake_research)
+
+    return client_ctor, chat, fake_research
+
+
+def test_structure_profile_success_parses_json(monkeypatch):
+    usage_dict = {"input_tokens": 12, "output_tokens": 34}
+    valid_json = (
+        '{"linkedin_url":"https://www.linkedin.com/in/test-person-123","display_name":"Test Person",'
+        '"headline":"CEO","experience":[{"title":"CEO","organization":"TestCo","date_range":"2020 - Present"}],'
+        '"data_quality":"strong"}'
+    )
+    client_ctor, chat, fake_research = _install_fake_structure_deps(
+        monkeypatch,
+        final_content=valid_json,
+        final_usage={"prompt_tokens": 12},
+        usage_return=usage_dict,
+    )
+
+    profile, usage = structure_profile(
+        api_key="test-key",
+        model="grok-test",
+        linkedin_url="https://www.linkedin.com/in/test-person-123",
+        markdown="# Test Person",
+    )
+
+    assert isinstance(profile, LinkedInProfile)
+    assert profile.display_name == "Test Person"
+    assert usage == usage_dict
+    fake_research.usage_to_dict.assert_called_once_with({"prompt_tokens": 12})
+    client_ctor.assert_called_once_with(api_key="test-key")
+    create_kwargs = client_ctor.return_value.chat.create.call_args.kwargs
+    assert create_kwargs["response_format"] is LinkedInProfile
+    assert create_kwargs["max_turns"] == 1
+    assert "tools" not in create_kwargs
+    assert chat.append.call_count == 2
+
+
+def test_structure_profile_returns_none_on_invalid_json(monkeypatch):
+    usage_dict = {"total_tokens": 99}
+    client_ctor, _chat, fake_research = _install_fake_structure_deps(
+        monkeypatch,
+        final_content='{"display_name": "Missing closing brace"',
+        final_usage={"completion_tokens": 9},
+        usage_return=usage_dict,
+    )
+
+    profile, usage = structure_profile(
+        api_key="test-key",
+        model="grok-test",
+        linkedin_url="https://www.linkedin.com/in/test-person-123",
+        markdown="# Broken JSON",
+    )
+
+    assert profile is None
+    assert usage == usage_dict
+    fake_research.usage_to_dict.assert_called_once_with({"completion_tokens": 9})
+    create_kwargs = client_ctor.return_value.chat.create.call_args.kwargs
+    assert create_kwargs["response_format"] is LinkedInProfile
+    assert create_kwargs["max_turns"] == 1
+    assert "tools" not in create_kwargs
+
+
+def test_structure_profile_returns_none_on_empty_content(monkeypatch):
+    usage_dict = {"input_tokens": 2, "output_tokens": 0}
+    client_ctor, _chat, fake_research = _install_fake_structure_deps(
+        monkeypatch,
+        final_content="   ",
+        final_usage={"prompt_tokens": 2},
+        usage_return=usage_dict,
+    )
+
+    profile, usage = structure_profile(
+        api_key="test-key",
+        model="grok-test",
+        linkedin_url="https://www.linkedin.com/in/test-person-123",
+        markdown="",
+    )
+
+    assert profile is None
+    assert usage == usage_dict
+    fake_research.usage_to_dict.assert_called_once_with({"prompt_tokens": 2})
+    create_kwargs = client_ctor.return_value.chat.create.call_args.kwargs
+    assert create_kwargs["response_format"] is LinkedInProfile
+    assert create_kwargs["max_turns"] == 1
+    assert "tools" not in create_kwargs
+
+
+def test_structure_profile_chat_create_uses_response_format_and_no_tools(monkeypatch):
+    client_ctor, _chat, _fake_research = _install_fake_structure_deps(
+        monkeypatch,
+        final_content="",
+        final_usage=None,
+        usage_return={"unused": True},
+    )
+
+    profile, usage = structure_profile(
+        api_key="another-key",
+        model="grok-check",
+        linkedin_url="https://www.linkedin.com/in/test-person-123",
+        markdown="profile text",
+    )
+
+    assert profile is None
+    assert usage == {}
+    create_kwargs = client_ctor.return_value.chat.create.call_args.kwargs
+    assert create_kwargs["response_format"] is LinkedInProfile
+    assert create_kwargs["max_turns"] == 1
+    assert "tools" not in create_kwargs
