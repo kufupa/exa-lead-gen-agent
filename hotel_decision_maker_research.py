@@ -117,6 +117,7 @@ class Contact(BaseModel):
     fit_reason: str
     contact_evidence_summary: str
     evidence: list[Evidence]
+    linkedin_profile: Any | None = None
 
 
 class LeadResearchResult(BaseModel):

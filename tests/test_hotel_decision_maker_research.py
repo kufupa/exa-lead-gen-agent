@@ -436,3 +436,40 @@ def test_json_export_roundtrip(tmp_path: Path) -> None:
     path.write_text(payload.model_dump_json(indent=2), encoding="utf-8")
     loaded = LeadResearchResult.model_validate_json(path.read_text(encoding="utf-8"))
     assert loaded.contacts[0].full_name == "Z"
+
+
+def test_contact_accepts_linkedin_profile():
+    from linkedin_enrich.types import LinkedInProfile
+
+    profile = LinkedInProfile(
+        linkedin_url="https://www.linkedin.com/in/test",
+        display_name="Test",
+        headline="CEO",
+        data_quality="strong",
+    )
+    c = Contact(
+        full_name="Test Person",
+        title="CEO",
+        decision_maker_score="high",
+        intimacy_grade="medium",
+        fit_reason="Owns distribution.",
+        contact_evidence_summary="Found on site.",
+        evidence=[],
+        linkedin_profile=profile,
+    )
+    assert c.linkedin_profile is not None
+    d = c.model_dump()
+    assert d["linkedin_profile"]["headline"] == "CEO"
+
+
+def test_contact_linkedin_profile_defaults_none():
+    c = Contact(
+        full_name="Test",
+        title="Manager",
+        decision_maker_score="low",
+        intimacy_grade="low",
+        fit_reason="Test.",
+        contact_evidence_summary="Test.",
+        evidence=[],
+    )
+    assert c.linkedin_profile is None
