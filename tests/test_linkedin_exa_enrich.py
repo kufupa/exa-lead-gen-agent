@@ -70,3 +70,31 @@ def test_linkedin_profile_rejects_caveats_over_max():
             linkedin_url="https://www.linkedin.com/in/test-person-123",
             caveats="x" * 801,
         )
+
+
+from unittest.mock import MagicMock
+from linkedin_enrich.exa_fetch import fetch_linkedin_profiles, normalize_linkedin_url
+
+
+def test_normalize_linkedin_url():
+    assert normalize_linkedin_url("https://www.linkedin.com/in/foo/") == "https://www.linkedin.com/in/foo"
+    assert normalize_linkedin_url("https://uk.linkedin.com/in/foo") == "https://www.linkedin.com/in/foo"
+    assert normalize_linkedin_url("http://linkedin.com/in/foo") == "https://www.linkedin.com/in/foo"
+
+
+def test_fetch_deduplicates_urls():
+    """Two contacts with same normalized URL should produce one Exa call."""
+    mock_exa = MagicMock()
+    mock_result = MagicMock()
+    mock_result.results = [MagicMock(url="https://www.linkedin.com/in/foo", text="# Foo\nCEO at Bar")]
+    mock_exa.get_contents.return_value = mock_result
+
+    urls = [
+        "https://www.linkedin.com/in/foo",
+        "https://uk.linkedin.com/in/foo/",
+        "https://www.linkedin.com/in/foo",
+    ]
+    result = fetch_linkedin_profiles(mock_exa, urls)
+    assert mock_exa.get_contents.call_count == 1
+    assert "https://www.linkedin.com/in/foo" in result
+    assert "# Foo" in result["https://www.linkedin.com/in/foo"]
