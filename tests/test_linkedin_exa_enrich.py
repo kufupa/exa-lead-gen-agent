@@ -285,3 +285,17 @@ def test_structure_profile_chat_create_uses_response_format_and_no_tools(monkeyp
     assert create_kwargs["response_format"] is LinkedInProfile
     assert create_kwargs["max_turns"] == 1
     assert "tools" not in create_kwargs
+
+
+import subprocess
+import sys
+
+
+def test_linkedin_exa_enrich_dry_run():
+    r = subprocess.run(
+        [sys.executable, "scripts/linkedin_exa_enrich.py", "--help"],
+        capture_output=True, text=True
+    )
+    assert r.returncode == 0
+    assert "--in-json" in r.stdout
+    assert "--discover-missing" in r.stdout
