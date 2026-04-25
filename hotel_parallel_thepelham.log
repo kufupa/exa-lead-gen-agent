@@ -1,0 +1,5 @@
+=== START thepelham 2026-04-21T14:28:03Z ===
+Wrote 18 contacts to hotel_leads_thepelham.json
+Appended CSV rows to hotel_leads_thepelham.csv
+Wrote hotel_leads_thepelham.enriched.json (row keys=4, failures=0)
+=== DONE thepelham 2026-04-21T14:34:28Z ===

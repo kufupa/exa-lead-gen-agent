@@ -1,0 +1,578 @@
+{
+  "target_url": "https://www.thetwentytwo.com/london/",
+  "generated_at_utc": "2026-04-21T14:28:04.461788+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6010,
+    "prompt_tokens": 366016,
+    "total_tokens": 391972,
+    "prompt_text_tokens": 366016,
+    "reasoning_tokens": 19946,
+    "cached_prompt_text_tokens": 222592,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Elsa Remoy-Hodt",
+      "title": "Global Managing Director",
+      "company": "The Twenty Two",
+      "linkedin_url": "https://uk.linkedin.com/in/elsa-remoy-hodt-73609933",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations/groups: stay@the22.london; Main hotel phone: +44 (0) 203 988 5022 (official site for commercial inquiries)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Global oversight of London and NYC properties including commercial strategy, revenue-tech adoption, booking systems and guest operations.",
+      "contact_evidence_summary": "Multiple news articles confirm promotion and role; LinkedIn profile; ties to proprietors and strategy. Department routes via official reservations email/phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/elsa-remoy-hodt-the-twenty-two-london-nyc/",
+          "source_type": "news",
+          "quote_or_fact": "Elsa Remoy-Hodt has been promoted to global managing director of The Twenty Two, overseeing the luxury hotel and members club's locations in London and New York."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/elsa-remoy-hodt-73609933",
+          "source_type": "linkedin",
+          "quote_or_fact": "Global Managing Director at The Twenty Two. Boutique Hotel & Members Club in London & NYC."
+        },
+        {
+          "source_url": "https://www.thetwentytwo.com/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Primary contact for groups of 4+ rooms and general inquiries: stay@the22.london and +44 (0) 203 988 5022."
+        }
+      ]
+    },
+    {
+      "full_name": "Stephanie Moran",
+      "title": "Head of Events",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Events/sales: stay@the22.london; +44 (0) 203 988 5022",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Events sales role intersects with group bookings, revenue management and guest communication platforms.",
+      "contact_evidence_summary": "RocketReach lists as Head of Events. Official site events inquiries route through main contacts.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/the-twenty-two-management_b7e9d5bbc2a88ce4",
+          "source_type": "directory",
+          "quote_or_fact": "Stephanie Moran (Head of Events)"
+        },
+        {
+          "source_url": "https://www.thetwentytwo.com/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Events and group bookings handled via stay@the22.london."
+        }
+      ]
+    },
+    {
+      "full_name": "Ben Hesketh",
+      "title": "General Manager",
+      "company": "The Twenty Two London",
+      "linkedin_url": "https://uk.linkedin.com/in/ben-hesketh-74721328",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations/groups: stay@the22.london; Main hotel phone: +44 (0) 203 988 5022",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Property leadership with direct influence over reservations, revenue, guest experience and tech stack decisions.",
+      "contact_evidence_summary": "Listed on company LinkedIn as General Manager; supported by directory listings. Reachable via official hotel contacts.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/the-twenty-two",
+          "source_type": "linkedin",
+          "quote_or_fact": "Ben Hesketh. General Manager."
+        },
+        {
+          "source_url": "https://rocketreach.co/the-twenty-two-management_b7e9d5bbc2a88ce4",
+          "source_type": "directory",
+          "quote_or_fact": "Management team includes General Manager roles tied to property leadership."
+        }
+      ]
+    },
+    {
+      "full_name": "Sam Russell",
+      "title": "Global Director of Sales & Events",
+      "company": "The Twenty Two",
+      "linkedin_url": "https://uk.linkedin.com/in/sam-russell11",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales inquiries route via stay@the22.london or main phone +44 (0) 203 988 5022",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads global sales, events and distribution; key stakeholder for AI booking automation, revenue tech and guest acquisition channels.",
+      "contact_evidence_summary": "Prospeo and LinkedIn confirm title; company page lists role. Strong sales focus makes department email/phone viable route.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Sam Russell Global Director Of Sales & Events @the22.london"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/sam-russell11",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sam Russell at The Twenty Two, sales professional with multi-market management focus."
+        }
+      ]
+    },
+    {
+      "full_name": "Josephine Jul Jensen",
+      "title": "Director of Rooms Operations",
+      "company": "The Twenty Two",
+      "linkedin_url": "https://uk.linkedin.com/in/josephine-jul-jensen-483aab55",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations and rooms division: stay@the22.london / +44 (0) 203 988 5022",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Background in revenue management and reservations; oversees rooms division critical to booking automation, revenue tech and guest journey.",
+      "contact_evidence_summary": "LinkedIn profile and prior roles in revenue/reservations at the brand; directory mentions. Strong ICP alignment with department routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/josephine-jul-jensen-483aab55",
+          "source_type": "linkedin",
+          "quote_or_fact": "Josephine Jul Jensen at The Twenty Two with revenue and reservations experience."
+        },
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Key commercial and operations leadership listed in revenue context."
+        }
+      ]
+    },
+    {
+      "full_name": "Lachlan Bond",
+      "title": "Director of Front Office",
+      "company": "The Twenty Two London",
+      "linkedin_url": "https://uk.linkedin.com/in/lachlan-bond-b80736306",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Front office/guest journey: stay@the22.london or concierge@the22.london; main phone +44 (0) 203 988 5022",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees front office operations directly tied to reservations handling, guest messaging, check-in automation and experience tech.",
+      "contact_evidence_summary": "LinkedIn confirms Director of Front Office role; RocketReach and hospitality directories. Reachable via official front-of-house channels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/lachlan-bond-b80736306",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Front Office at The Twenty Two."
+        },
+        {
+          "source_url": "https://rocketreach.co/lachlan-bond-email_232356405",
+          "source_type": "directory",
+          "quote_or_fact": "Lachlan Bond, Front Office leadership at The Twenty Two."
+        }
+      ]
+    },
+    {
+      "full_name": "Cyril Baligand",
+      "title": "Director of Operations",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Operations/reservations route: stay@the22.london; +44 (0) 203 988 5022",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Operations leadership influences property systems, reservations processes and revenue operations tech adoption.",
+      "contact_evidence_summary": "Listed in Prospeo and RocketReach management org chart. Medium intimacy via official ops/reservations contacts.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Cyril Baligand Director Of Operations @the22.london"
+        },
+        {
+          "source_url": "https://rocketreach.co/the-twenty-two-management_b7e9d5bbc2a88ce4",
+          "source_type": "directory",
+          "quote_or_fact": "Management team includes operations leadership."
+        }
+      ]
+    },
+    {
+      "full_name": "India Elborne",
+      "title": "Business Development Director",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "BD/sales route via stay@the22.london and main phone +44 (0) 203 988 5022",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Business development and commercial growth role tied to distribution channels, partnerships and booking tech.",
+      "contact_evidence_summary": "RocketReach org chart lists as Business Development Director. Supported by company directories.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/the-twenty-two-management_b7e9d5bbc2a88ce4",
+          "source_type": "directory",
+          "quote_or_fact": "India Elborne (Business Development Director)"
+        },
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Commercial leadership listed alongside sales roles."
+        }
+      ]
+    },
+    {
+      "full_name": "Patrick Dooley",
+      "title": "Global Head of Experience",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Guest experience/CRM: concierge@the22.london or stay@the22.london; main +44 (0) 203 988 5022",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads guest experience and CRM; directly relevant to guest messaging, personalization and automation tools.",
+      "contact_evidence_summary": "Directory and team mentions confirm global experience leadership. Department phone/email provides route.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Experience and commercial roles highlighted in leadership."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-twenty-two",
+          "source_type": "linkedin",
+          "quote_or_fact": "Team includes experience/guest relations leadership."
+        }
+      ]
+    },
+    {
+      "full_name": "Lachlan Bond",
+      "title": "Front Office Manager",
+      "company": "The Twenty Two London",
+      "linkedin_url": "https://uk.linkedin.com/in/lachlan-bond-ba9b4067",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Front desk/guest relations: concierge@the22.london or stay@the22.london",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Front office handles daily reservations, guest messaging and experience systems.",
+      "contact_evidence_summary": "LinkedIn and RocketReach confirm front office leadership. Strong operational route via hotel contacts.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/lachlan-bond-ba9b4067",
+          "source_type": "linkedin",
+          "quote_or_fact": "Front Office leadership at The Twenty Two London."
+        },
+        {
+          "source_url": "https://www.thetwentytwo.com/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Front of House team and concierge contacts published."
+        }
+      ]
+    },
+    {
+      "full_name": "Claudio Ribeiro",
+      "title": "F&B Reservations Manager",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Restaurant reservations: stay@the22.london or +44 (0) 203 988 5022 (for larger bookings)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages F&B reservations automation and guest messaging/comms, adjacent but direct touchpoint for booking tech.",
+      "contact_evidence_summary": "RocketReach and LinkedIn company mentions confirm reservations management in F&B. Official reservation lines apply.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/claudio-ribeiro-email_19209482",
+          "source_type": "directory",
+          "quote_or_fact": "Claudio Ribeiro, F and B Reservations Manager at The Twenty Two."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-twenty-two",
+          "source_type": "linkedin",
+          "quote_or_fact": "Restaurant and F&B team listed with reservations focus."
+        }
+      ]
+    },
+    {
+      "full_name": "Tiago Mira",
+      "title": "Director of Food and Beverage",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "F&B reservations: stay@the22.london or +44 (0) 203 988 5022",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "F&B leadership with reservations and guest comms responsibilities relevant to automation.",
+      "contact_evidence_summary": "Prospeo lists title with @the22.london. Reservations contact details from official site apply.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Tiago Mira Director Of Food And Beverage @the22.london"
+        },
+        {
+          "source_url": "https://www.thetwentytwo.com/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Restaurant reservations handled through published channels."
+        }
+      ]
+    },
+    {
+      "full_name": "Roberta Priore",
+      "title": "Reception Manager",
+      "company": "The Twenty Two London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reception/guest relations: concierge@the22.london or stay@the22.london",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages reception which interfaces with reservations, guest messaging and daily comms automation.",
+      "contact_evidence_summary": "Public profiles and job-related mentions confirm reception leadership. Official concierge and stay emails provide path.",
+      "evidence": [
+        {
+          "source_url": "https://intch.org/19513695",
+          "source_type": "other",
+          "quote_or_fact": "Roberta Priore is the Reception Manager at The Twenty Two."
+        },
+        {
+          "source_url": "https://www.thetwentytwo.com/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Front of House and concierge teams referenced with contact details."
+        }
+      ]
+    },
+    {
+      "full_name": "Joyce Huang",
+      "title": "Sales Manager",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales: stay@the22.london; +44 (0) 203 988 5022",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales role supporting booking, group sales and revenue generation tech.",
+      "contact_evidence_summary": "Team mentions in directories and LinkedIn company page. Lower intimacy with only generic routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/the-twenty-two",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sales team members listed under commercial roles."
+        },
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Sales leadership and managers noted."
+        }
+      ]
+    },
+    {
+      "full_name": "Steven Rojas",
+      "title": "Global Marketing Director",
+      "company": "The Twenty Two",
+      "linkedin_url": "https://www.linkedin.com/in/steven-rojas-global",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Marketing/guest comms route via stay@the22.london or main +44 (0) 203 988 5022",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Direct responsibility for marketing, digital presence and guest messaging/communications tech.",
+      "contact_evidence_summary": "Confirmed in Prospeo directory and LinkedIn company/individual profiles. Generic contacts provide medium reach.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Steven Rojas Global Marketing Director @the22.london"
+        },
+        {
+          "source_url": "https://www.linkedin.com/in/steven-rojas-global",
+          "source_type": "linkedin",
+          "quote_or_fact": "Steven Rojas at The Twenty Two, marketing leadership role."
+        }
+      ]
+    },
+    {
+      "full_name": "Violeta Julieta Majeri",
+      "title": "Director of Housekeeping & Butlers",
+      "company": "The Twenty Two",
+      "linkedin_url": "https://uk.linkedin.com/in/violeta-julieta-majeri-3083b232",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Guest services route via concierge@the22.london or main phone",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees butler and housekeeping guest services intersecting with personalized messaging and experience tech.",
+      "contact_evidence_summary": "Company LinkedIn and Prospeo list title. Lower intimacy as primarily operational but public role confirmation.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/the-twenty-two",
+          "source_type": "linkedin",
+          "quote_or_fact": "Violeta Julieta Majeri, Director of Housekeeping & Butlers."
+        },
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Violeta Julieta Majeri Director Of Housekeeping & Butlers @the22.london"
+        }
+      ]
+    },
+    {
+      "full_name": "Giuseppe Immesi",
+      "title": "Director of Property + Facilities",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Systems/facilities: main phone +44 (0) 203 988 5022",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Manages property systems and tech infrastructure that supports booking and guest tech stack.",
+      "contact_evidence_summary": "Prospeo directory confirmation of role. Limited direct contact data but public listing.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/the-twenty-two-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Giuseppe Immesi Director Of Property + Facilities @the22.london"
+        }
+      ]
+    },
+    {
+      "full_name": "Michelle Walder",
+      "title": "Former Managing Director",
+      "company": "The Twenty Two",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Historical contact via main +44 (0) 203 988 5022",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Prior MD with deep knowledge of property commercial and revenue strategy (for context/referral).",
+      "contact_evidence_summary": "News articles from 2023 appointment. Role has evolved but provides network value; evidence is historical news.",
+      "evidence": [
+        {
+          "source_url": "https://boutiquehotelnews.com/news/movers-and-shakers/twenty-two-managing-director/",
+          "source_type": "news",
+          "quote_or_fact": "The Twenty Two has appointed Michelle Walder as its managing director, effective 3 July 2023."
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79026437/michelle-walder",
+          "source_type": "news",
+          "quote_or_fact": "Michelle Walder appointed Managing Director at The Twenty Two."
+        }
+      ]
+    }
+  ]
+}

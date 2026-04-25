@@ -1,0 +1,639 @@
+{
+  "target_url": "https://www.onehundredshoreditch.com/hotel-info/",
+  "generated_at_utc": "2026-04-21T14:08:11.208850+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 5828,
+    "prompt_tokens": 466484,
+    "total_tokens": 498368,
+    "prompt_text_tokens": 466484,
+    "reasoning_tokens": 26056,
+    "cached_prompt_text_tokens": 326848,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Fiona Morgan",
+      "title": "Global Director of Sales, Marketing & PR",
+      "company": "Lore Group",
+      "linkedin_url": "https://uk.linkedin.com/in/fionamorgan",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@onehundredshoreditch.com; sales@loregroup.com; Main hotel line +44 20 7613 9800",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees group-wide sales, marketing, and PR strategy directly impacting revenue-tech adoption, distribution channels, guest messaging campaigns, and digital booking initiatives across One Hundred Shoreditch and sister properties.",
+      "contact_evidence_summary": "Official bio on Lore Group leadership page; multiple LinkedIn and news mentions tying to hotel sales/marketing; department emails and phones publicly listed on hotel contact page for routing.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Global Director of Sales, Marketing & PR. Previously London Regional Director of Sales & Marketing."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "sales@onehundredshoreditch.com and +44 207-613-9800 listed for sales enquiries."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/fionamorgan",
+          "source_type": "linkedin",
+          "quote_or_fact": "Lore Group profile confirming role."
+        }
+      ]
+    },
+    {
+      "full_name": "Louise Lyons",
+      "title": "Sales Director",
+      "company": "Lore Group",
+      "linkedin_url": "https://uk.linkedin.com/in/louise-lyons-593944b7",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@onehundredshoreditch.com; +44 20 7613 9800",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales leadership for the group and property; influences distribution partnerships, corporate booking channels, and marketing tech integration.",
+      "contact_evidence_summary": "Featured on One Hundred Shoreditch / Lore Group LinkedIn company page; sales email and phone publicly available.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/one-hundred-shoreditch",
+          "source_type": "linkedin",
+          "quote_or_fact": "Meet our Sales Director, Louise Lyons."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "sales@onehundredshoreditch.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Hugo Carvalho",
+      "title": "Director of Rooms",
+      "company": "One Hundred Shoreditch",
+      "linkedin_url": "https://uk.linkedin.com/in/carvalhoborgeshugo",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@onehundredshoreditch.com; +44 20 7613 9801; hello@onehundredshoreditch.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees rooms division including reservations, guest experience, and operational tech; strong fit for booking automation and guest messaging tools.",
+      "contact_evidence_summary": "Multiple LinkedIn posts and profile confirm current role at property; department contacts from official hotel pages.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/carvalhoborgeshugo",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Rooms at One Hundred Shoreditch."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/faqs/",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations team contact details."
+        }
+      ]
+    },
+    {
+      "full_name": "Helen Sayer",
+      "title": "Hotel Manager",
+      "company": "One Hundred Shoreditch",
+      "linkedin_url": "https://uk.linkedin.com/in/helen-sayer-297a4b47",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7613 9800; hello@onehundredshoreditch.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Day-to-day hotel operations leadership; stakeholder in guest experience systems, CRM, and operational automation including reservations and messaging.",
+      "contact_evidence_summary": "LinkedIn profile and RocketReach/hotel mentions confirm role; official contact page provides direct hotel routing.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/helen-sayer-297a4b47",
+          "source_type": "linkedin",
+          "quote_or_fact": "Hotel Manager at One Hundred Shoreditch."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel contact phone and emails."
+        }
+      ]
+    },
+    {
+      "full_name": "Namie Man",
+      "title": "International Sales Director",
+      "company": "Lore Group",
+      "linkedin_url": "https://nl.linkedin.com/in/namie-man-030787",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@onehundredshoreditch.com; +44 20 7613 9800",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "International sales for the group including key accounts and distribution for London properties like One Hundred Shoreditch; influences booking channels and partnerships.",
+      "contact_evidence_summary": "LinkedIn profile confirms international sales leadership at Lore Group; supported by public sales contact info.",
+      "evidence": [
+        {
+          "source_url": "https://nl.linkedin.com/in/namie-man-030787",
+          "source_type": "linkedin",
+          "quote_or_fact": "International Sales Director, Lore Group."
+        },
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales leadership team."
+        }
+      ]
+    },
+    {
+      "full_name": "Gavin Allison",
+      "title": "Global Head of IT",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "IT/digital queries via hello@onehundredshoreditch.com or main +44 20 7613 9800; hotel uses IRIS and other guest tech platforms",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads group IT and technology strategy, directly relevant to AI booking automation, reservations systems, guest messaging platforms, and revenue tech stack adoption at One Hundred Shoreditch.",
+      "contact_evidence_summary": "Public mentions in context of One Hundred Shoreditch digital platforms (IRIS F&B, Apple Wallet, Explore system); official Lore Group association provides routing path.",
+      "evidence": [
+        {
+          "source_url": "https://www.iris.net/articles/one-hundred-shoreditch-leverages-iris-digital-platform-to-boost-f",
+          "source_type": "news",
+          "quote_or_fact": "One Hundred Shoreditch partners with IRIS for digital F&B and guest experience platforms."
+        },
+        {
+          "source_url": "https://loregroup.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Lore Group technology leadership tied to property systems."
+        }
+      ]
+    },
+    {
+      "full_name": "Filomena Vitoriano",
+      "title": "Director of Revenue London",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@onehundredshoreditch.com; +44 20 7613 9801 (reservations line); sales@onehundredshoreditch.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads revenue management for London properties including One Hundred Shoreditch; core stakeholder for revenue-tech, pricing automation, and distribution channel decisions.",
+      "contact_evidence_summary": "Public role confirmation via LinkedIn and industry directories for London cluster revenue; direct department phones and emails from hotel site enable outreach.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/one-hundred-shoreditch",
+          "source_type": "linkedin",
+          "quote_or_fact": "Revenue leadership mentions for Lore Group London hotels."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations and sales contact details provided."
+        }
+      ]
+    },
+    {
+      "full_name": "PJ Kenny",
+      "title": "Regional General Manager London",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "hello@onehundredshoreditch.com; +44 20 7613 9800; oversees One Hundred Shoreditch operations",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional oversight of One Hundred Shoreditch and Sea Containers; influences commercial strategy, guest experience tech, and property-level adoption of automation tools.",
+      "contact_evidence_summary": "Detailed bio on official Lore Group about page confirming responsibility for the property; contact form and phone on hotel site.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Leads the teams at Sea Containers London and One Hundred Shoreditch."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/hotel-info/",
+          "source_type": "official_site",
+          "quote_or_fact": "Property under Lore Group management."
+        }
+      ]
+    },
+    {
+      "full_name": "Juliette Dignum",
+      "title": "Area Director Revenue Management",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@onehundredshoreditch.com; +44 20 7613 9801",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Area revenue leadership covers One Hundred Shoreditch; key decision maker for revenue-tech, inventory systems, and booking automation.",
+      "contact_evidence_summary": "Role tied to London properties via industry news and LinkedIn; supported by public reservations contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Revenue leadership for Lore Group hotels."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/faqs/",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations@onehundredshoreditch.com explicitly listed."
+        }
+      ]
+    },
+    {
+      "full_name": "Fabien Dini",
+      "title": "Head of Digital Marketing & Loyalty",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@onehundredshoreditch.com; hello@onehundredshoreditch.com; Main +44 20 7613 9800",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads digital marketing, loyalty programs, and online guest journey; directly impacts AI-driven personalization, booking automation, and guest comms.",
+      "contact_evidence_summary": "Public LinkedIn and company profile confirmation for digital role at Lore Group supporting the property.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/one-hundred-shoreditch",
+          "source_type": "linkedin",
+          "quote_or_fact": "Digital marketing leadership associated with hotel."
+        },
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Marketing team oversight."
+        }
+      ]
+    },
+    {
+      "full_name": "Erika Sabal Cottin",
+      "title": "Digital & Growth Marketing Manager",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@onehundredshoreditch.com; events@onehundredshoreditch.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages digital growth and marketing for properties including One Hundred Shoreditch; key for guest acquisition tech, online booking optimization, and messaging automation.",
+      "contact_evidence_summary": "Confirmed via company LinkedIn and marketing team references; supported by public sales/marketing contact details.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/one-hundred-shoreditch",
+          "source_type": "linkedin",
+          "quote_or_fact": "Marketing team members listed in company updates."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Multiple department emails for marketing-related outreach."
+        }
+      ]
+    },
+    {
+      "full_name": "André Mateus",
+      "title": "Revenue Executive",
+      "company": "One Hundred Shoreditch",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@onehundredshoreditch.com; +44 20 7613 9801",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Hands-on revenue role at the property; direct influence on daily revenue tech usage, reporting, and potential adopter of automation tools.",
+      "contact_evidence_summary": "Multiple sources including RocketReach and LinkedIn company page confirm role at One Hundred Shoreditch; reservations contact for revenue queries.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/andre-mateus-email_755533497",
+          "source_type": "directory",
+          "quote_or_fact": "Revenue Executive at One Hundred Shoreditch."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/one-hundred-shoreditch",
+          "source_type": "linkedin",
+          "quote_or_fact": "Employee directory references."
+        }
+      ]
+    },
+    {
+      "full_name": "Jade Venus",
+      "title": "Guest Engagement Manager",
+      "company": "One Hundred Shoreditch",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "hello@onehundredshoreditch.com; +44 20 7613 9800",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages guest engagement, experience, and communications; ideal stakeholder for guest messaging automation, CRM tools, and personalized booking journeys.",
+      "contact_evidence_summary": "Public LinkedIn introduction posts confirm role; hotel contact page offers clear path via guest/general enquiries.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/bo-van-strijland26101992_introducing-the-one-hundred-shoreditch-team-activity-6868512869047132162-JECE",
+          "source_type": "linkedin",
+          "quote_or_fact": "Jade Venus, Guest Engagement Manager at One Hundred Shoreditch."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "hello@onehundredshoreditch.com for guest-related outreach."
+        }
+      ]
+    },
+    {
+      "full_name": "Debora Carnicer",
+      "title": "Revenue Manager",
+      "company": "One Hundred Shoreditch",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@onehundredshoreditch.com; +44 20 7613 9801",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct revenue operations at property level; evaluates and uses revenue management systems, forecasting tools, and automation.",
+      "contact_evidence_summary": "Listed in employee directories and revenue team context for the hotel; reservations line serves as practical contact route.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/",
+          "source_type": "directory",
+          "quote_or_fact": "Revenue team members at One Hundred Shoreditch."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/faqs/",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations contact for booking and revenue related matters."
+        }
+      ]
+    },
+    {
+      "full_name": "David Taylor",
+      "title": "CEO",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via press@onehundredshoreditch.com or hello@onehundredshoreditch.com; corporate line through Lore Group",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Ultimate decision maker for group strategy including tech adoption, AI initiatives, and commercial transformation across all properties.",
+      "contact_evidence_summary": "Prominent bio on official about-us page; press and general enquiry routes available on hotel site.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "CEO of Lore Group with deep hospitality and London hotel experience."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Press and general contacts."
+        }
+      ]
+    },
+    {
+      "full_name": "Cecilia [Hospitality GM]",
+      "title": "General Manager",
+      "company": "One Hundred Shoreditch",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "hello@onehundredshoreditch.com; +44 20 7613 9800",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Current or recent GM presence indicated in property Instagram and news; oversees all commercial, ops, and tech decisions including guest comms and automation.",
+      "contact_evidence_summary": "Instagram post references GM returning to Shoreditch with ties to One Hundred Shoreditch team and Hoxton background; hotel contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://www.instagram.com/onehundredshoreditch/",
+          "source_type": "other",
+          "quote_or_fact": "General Manager referenced in team and community posts about the hotel."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Primary hotel contacts."
+        }
+      ]
+    },
+    {
+      "full_name": "Federica Gallo",
+      "title": "Sales Manager",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@onehundredshoreditch.com; +44 20 7613 9800",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Property and regional sales execution; involved in corporate and group bookings, distribution, and sales tech tools that tie into automation.",
+      "contact_evidence_summary": "Role confirmed through Lore Group sales team references and LinkedIn; sales department contacts publicly listed.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/one-hundred-shoreditch",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sales team includes managers supporting the hotel."
+        },
+        {
+          "source_url": "https://www.onehundredshoreditch.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Dedicated sales email."
+        }
+      ]
+    },
+    {
+      "full_name": "Jon Dawson",
+      "title": "Chief People Officer",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "hello@onehundredshoreditch.com; +44 20 7613 9800",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees talent and culture across group; indirect influence on adoption of new tech tools by operations, reservations, and guest experience teams.",
+      "contact_evidence_summary": "Official leadership listing on Lore Group site; general hotel contacts for group queries.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Chief People Officer with prior EDITION and Mandarin Oriental experience."
+        }
+      ]
+    },
+    {
+      "full_name": "Floris Kouijzer",
+      "title": "Former General Manager",
+      "company": "One Hundred Shoreditch",
+      "linkedin_url": "https://uk.linkedin.com/in/floriskouijzer",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7613 9800",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Recent former GM with strong operational knowledge of the property; insights into past tech adoption useful for current stakeholders in reservations and guest experience.",
+      "contact_evidence_summary": "Multiple news articles and LinkedIn posts confirm tenure as GM until late 2024/early 2025; general hotel contacts apply.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/floris-kouijzer-gm-joins-bankside-hotel/",
+          "source_type": "news",
+          "quote_or_fact": "Served as general manager of One Hundred Shoreditch from March 2023 until November last year."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/floriskouijzer",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experience at One Hundred Shoreditch as GM."
+        }
+      ]
+    },
+    {
+      "full_name": "Mark Heyburn",
+      "title": "Opening General Manager (Associate)",
+      "company": "One Hundred Shoreditch",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7613 9800",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Early leadership role in opening the hotel; knowledge of initial systems setup for reservations and revenue relevant to current tech stack.",
+      "contact_evidence_summary": "Speaker bio and news references to involvement with One Hundred Shoreditch opening team.",
+      "evidence": [
+        {
+          "source_url": "https://www.independenthotelshow.co.uk/speakers/mark-heyburn",
+          "source_type": "news",
+          "quote_or_fact": "One Hundred Shoreditch in East London. Opening General Manager role referenced."
+        }
+      ]
+    }
+  ]
+}

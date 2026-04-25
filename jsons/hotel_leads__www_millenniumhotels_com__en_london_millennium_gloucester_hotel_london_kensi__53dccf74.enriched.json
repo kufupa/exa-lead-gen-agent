@@ -1,0 +1,1037 @@
+{
+  "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+  "generated_at_utc": "2026-04-22T20:55:35.328563+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6236,
+    "prompt_tokens": 2019038,
+    "total_tokens": 2119486,
+    "prompt_text_tokens": 2019038,
+    "reasoning_tokens": 94212,
+    "cached_prompt_text_tokens": 1307659,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Birute Savickaite",
+      "title": "Acting Director of Sales",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": "https://uk.linkedin.com/in/birute-savickaite-929520b8",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7331 6257",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales.london@millenniumhotels.co.uk or sales.londongloucester@millenniumhotels.co.uk; venues/events phone +44 (0) 20 7331 6257",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads sales efforts including corporate/group bookings; influences distribution channels, revenue strategy, and tech adoption for guest acquisition and comms.",
+      "contact_evidence_summary": "Multiple sources confirm sales leadership role at property; public department sales emails and phones provide direct route.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/birute-savickaite-929520b8",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experience: Millennium Gloucester Hotel London Kensington"
+        },
+        {
+          "source_url": "https://prospeo.io/c/millennium-gloucester-hotel-london-kensington-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Birute Savickaite Acting Director Of Sales @millenniumhotels.co.uk"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "sales.london@millenniumhotels.co.uk and +44 (0) 20 7331 6257"
+        }
+      ]
+    },
+    {
+      "full_name": "Aurelia D'Souza",
+      "title": "Director of Sales",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7331 6257",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales.london@millenniumhotels.co.uk; venues phone +44 (0) 20 7331 6257",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Property sales leadership; influences corporate bookings, group sales, distribution partnerships, and related tech decisions.",
+      "contact_evidence_summary": "Listed in directories and company references as Director of Sales at the hotel; tied to public sales department contacts.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/aurelia-dsouza-email_28475210",
+          "source_type": "directory",
+          "quote_or_fact": "Aurelia D'Souza Director of Sales at Millennium Gloucester Hotel"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "sales.london@millenniumhotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Christian van Dam",
+      "title": "Regional General Manager - London & South",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://uk.linkedin.com/in/christian-van-dam-37b15125",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main: +44 20 7373 6030; reservations.gloucester@millenniumhotels.co.uk (official site); signs guest responses on Tripadvisor/Booking.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees property-level commercial strategy, revenue, guest experience, and systems; direct influence on revenue-tech adoption, booking automation, and guest messaging for this and cluster hotels.",
+      "contact_evidence_summary": "Confirmed in 2022 interview, multiple signed guest reviews as GM/Regional GM, company LinkedIn posts; department routes from official hotel pages strengthen reach.",
+      "evidence": [
+        {
+          "source_url": "https://hi-life.hongleong.com.sg/December2022/voices-article01.html",
+          "source_type": "news",
+          "quote_or_fact": "Chris Van Dam, General Manager of Millennium Gloucester Hotel"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d193125-r773587044-Millennium_Gloucester_Hotel_London_Kensington-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Kind Regards, Chris van Dam General Manager"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "Main phone +44 2073 736030 and reservations@millenniumhotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Ali Mehdi",
+      "title": "eCommerce Director, Revenue Marketing",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Marketing.london@millenniumhotels.co.uk; group marketing office +44 20 7872 2444",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees eCommerce, revenue marketing, and digital channels; strong influence on booking automation, guest messaging, and digital revenue tech adoption.",
+      "contact_evidence_summary": "Multiple directory and LinkedIn mentions of eCommerce/revenue marketing leadership at group level affecting this property.",
+      "evidence": [
+        {
+          "source_url": "https://www.zoominfo.com/p/Ali-Mehdi/1776903035",
+          "source_type": "directory",
+          "quote_or_fact": "eCommerce Director, Revenue Marketing at Millennium & Copthorne Hotels"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "marketing.london@millenniumhotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Anne Jensen",
+      "title": "Director of Sales & Marketing",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/anne-jensen-00978313",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7872 2444",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "marketing.london@millenniumhotels.co.uk; +44 20 7872 2444",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads sales and marketing for UK properties; influences digital marketing, CRM, guest messaging, and booking channels.",
+      "contact_evidence_summary": "Listed in LinkedIn/company references for DOSM role at group affecting London hotels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/gurbirsinghs",
+          "source_type": "linkedin",
+          "quote_or_fact": "Related sales/marketing leadership paths at Millennium"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "marketing.london@millenniumhotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Carolyn Wishnowski",
+      "title": "Director of Global Branding, Marketing, and Loyalty",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/carolynpereira",
+      "email": "carolyn.wishnowski@millenniumhotels.com",
+      "email2": null,
+      "phone": "+65 9182 7832",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "marketing@millenniumhotels.co.uk or marketing.london@millenniumhotels.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Global marketing and loyalty leadership; key for guest messaging, CRM, loyalty tech, and digital guest journey automation.",
+      "contact_evidence_summary": "Press and directory mentions of global marketing/loyalty role at group.",
+      "evidence": [
+        {
+          "source_url": "https://www.travelsavers.com",
+          "source_type": "other",
+          "quote_or_fact": "Carolyn Wishnowski Director of Global Branding, Marketing, and Loyalty at MHR (press context)"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "marketing.london@millenniumhotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Danila Junglee",
+      "title": "Guest Relations / Operations Contact",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": null,
+      "email": "danila.junglee@millenniumhotels.co.uk",
+      "email2": null,
+      "phone": "+44 20 7373 6030",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Direct email used in guest responses; main hotel phone",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Guest relations role touches guest messaging, experience tech, CRM, and communication automation.",
+      "contact_evidence_summary": "Email publicly used in Tripadvisor responses tied to hotel operations/guest relations; provides high intimacy direct route.",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d193125-Reviews-Millennium_Hotel_And_Conference_Centre_Gloucester_London-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "danila.junglee@millenniumhotels.co.uk used in official hotel responses"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "Guest contact channels and phone"
+        }
+      ]
+    },
+    {
+      "full_name": "Samanta Bottin",
+      "title": "Meetings & Events / Sales Support",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": "https://uk.linkedin.com/in/samanta-bottin-b698092b3",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7331 6257",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "events or sales.london@millenniumhotels.co.uk; venues phone +44 (0) 20 7331 6257",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Supports events and sales at property; touches guest comms, group bookings, and venue revenue tech.",
+      "contact_evidence_summary": "Company LinkedIn post and profile associate with hotel sales/events; public venues contact details.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/millennium-gloucester-hotel-london-kensington_internationalwomensday2024-activity-7171922292061499392-RPSx",
+          "source_type": "linkedin",
+          "quote_or_fact": "Samanta Bottin listed among hotel team"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/meetings-events/europe/united-kingdom/london/millennium-hotel-and-conference-centre-gloucester-london",
+          "source_type": "official_site",
+          "quote_or_fact": "Venues contact +44 (0) 20 7331 6257"
+        }
+      ]
+    },
+    {
+      "full_name": "Aditya Gupta",
+      "title": "Assistant Front Office Manager",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": "https://in.linkedin.com/in/aditya-gupta-621a5a1b8",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7373 6030",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Front desk/main line +44 20 7373 6030; guest experience routes via hotel phone",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Front office leadership touches guest arrival, messaging, check-in automation, and guest experience tech.",
+      "contact_evidence_summary": "LinkedIn confirms role at property; front desk contacts from official site.",
+      "evidence": [
+        {
+          "source_url": "https://in.linkedin.com/in/aditya-gupta-621a5a1b8",
+          "source_type": "linkedin",
+          "quote_or_fact": "Assistant Front Office Manager at Millennium Gloucester Hotel London Kensington"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "General inquiries and front desk phone"
+        }
+      ]
+    },
+    {
+      "full_name": "Sharmyn Carvalho",
+      "title": "Assistant Groups Reservations Manager",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7373 6030",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.gloucester@millenniumhotels.co.uk and main hotel phone",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles group reservations and booking processes; stakeholder for reservations automation and group booking tech.",
+      "contact_evidence_summary": "LinkedIn and job postings reference groups reservations role at the property; tied to official reservations contacts.",
+      "evidence": [
+        {
+          "source_url": "https://talents.studysmarter.co.uk/companies/millennium-gloucester-hotel-london-kensington/assistant-reservations-manager-5691135/",
+          "source_type": "other",
+          "quote_or_fact": "Assistant Reservations Manager / groups team references"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "Group reservations phone and email"
+        }
+      ]
+    },
+    {
+      "full_name": "Nidhi Verma",
+      "title": "Reservations Manager / Team Member",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7373 6030",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.gloucester@millenniumhotels.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Reservations team leadership/support; direct involvement in booking processes and potential automation tools.",
+      "contact_evidence_summary": "Company LinkedIn post and team mentions list in reservations context; tied to official reservations email/phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/millennium-gloucester-hotel-london-kensington_internationalwomensday2024-activity-7171922292061499392-RPSx",
+          "source_type": "linkedin",
+          "quote_or_fact": "Nidhi Verma listed in hotel team (reservations context)"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations@millenniumhotels.co.uk and phone"
+        }
+      ]
+    },
+    {
+      "full_name": "Mohammed Nazeer Ahmed",
+      "title": "Meetings & Events Assistant Manager",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7331 6257",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "events or sales contacts +44 20 7331 6257 and related emails",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Events and group business role; touches group booking, guest comms, and venue revenue systems.",
+      "contact_evidence_summary": "LinkedIn company page associates with M&E at property; venues sales contacts public.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/millennium-gloucester-hotel-london-kensington",
+          "source_type": "linkedin",
+          "quote_or_fact": "Mohammed Nazeer Ahmed at Millennium Gloucester Hotel London Kensington"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/meetings-events/europe/united-kingdom/london/millennium-hotel-and-conference-centre-gloucester-london",
+          "source_type": "official_site",
+          "quote_or_fact": "Events/venues phone and email"
+        }
+      ]
+    },
+    {
+      "full_name": "Valancio Fernandes",
+      "title": "Reservations Manager",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": "https://uk.linkedin.com/in/valancio-fernandes-164373234",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations line: +44 20 7373 6030; reservations.gloucester@millenniumhotels.co.uk (official hotel contact page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct ownership of reservations processes; core stakeholder for reservations automation, AI booking tools, and related guest communication systems.",
+      "contact_evidence_summary": "Public LinkedIn confirms exact current title at this property; tied to official reservations department contacts.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/valancio-fernandes-164373234",
+          "source_type": "linkedin",
+          "quote_or_fact": "Reservations Manager · Millennium Gloucester Hotel London Kensington"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "Group reservations and reservations email listed"
+        }
+      ]
+    },
+    {
+      "full_name": "Himanshu Trivedi",
+      "title": "Director of Revenue Management - UK & EU",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://in.linkedin.com/in/himanshu-trivedi-49512621",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "UK sales office: +44 20 7872 2444; general commercial enquiries via group site",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads revenue strategy across UK/EU properties including Gloucester; key decision maker for revenue-tech, pricing automation, and distribution systems.",
+      "contact_evidence_summary": "LinkedIn and org references confirm regional revenue leadership overlapping this London property.",
+      "evidence": [
+        {
+          "source_url": "https://in.linkedin.com/in/himanshu-trivedi-49512621",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Revenue Management - UK & EU · Millennium Hotels and Resorts"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/contact-us/sales-offices/",
+          "source_type": "official_site",
+          "quote_or_fact": "UK sales office contact details"
+        }
+      ]
+    },
+    {
+      "full_name": "Lexi House",
+      "title": "Senior Manager, Global Online Distribution",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://uk.linkedin.com/in/lexi-house-169a0742",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group sales and digital enquiries via +44 20 7872 2444 or marketing.london@millenniumhotels.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages online distribution and OTA channels; directly relevant to AI booking automation, revenue tech, and digital guest journey improvements.",
+      "contact_evidence_summary": "Public LinkedIn profile details global online distribution role at the parent group with impact on UK properties.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/lexi-house-169a0742",
+          "source_type": "linkedin",
+          "quote_or_fact": "Senior Manager, Global Online Distribution · Millennium Hotels and Resorts"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate and marketing contact channels"
+        }
+      ]
+    },
+    {
+      "full_name": "Paul Chakola",
+      "title": "Area Director of Revenue Management",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/paul-emmanuel-chakola-0557721a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": "paulemmanuel",
+      "other_contact_detail": "UK commercial/sales office routes: +44 20 7872 2444",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Area revenue leadership for London properties including Gloucester; decides on revenue management systems, pricing tech, and distribution strategy.",
+      "contact_evidence_summary": "Org chart and directory references confirm area revenue role covering the property.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/millennium-copthorne-hotels/org-chart/paul-chakola",
+          "source_type": "directory",
+          "quote_or_fact": "Paul Chakola serves as the Area Director of Revenue Management for Millennium Hotels and Resorts in London"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/mhb-media/regions/home/coporate/financialinfo/2016-annual-report.pdf",
+          "source_type": "other",
+          "quote_or_fact": "References to London hotel performance and revenue metrics"
+        }
+      ]
+    },
+    {
+      "full_name": "Olga Sommer",
+      "title": "Director of Revenue Management Europe / Interim Director Revenue",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/olgasommer",
+      "email": "o.sommer@crimsonhotels.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group commercial office: +44 20 7872 2444",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Regional revenue leadership with oversight on UK/Europe properties; key for revenue-tech stack, forecasting tools, and automation.",
+      "contact_evidence_summary": "Multiple hospitality directories and org references list regional revenue role impacting Gloucester Hotel.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/millennium-copthorne-hotels",
+          "source_type": "directory",
+          "quote_or_fact": "Revenue management leadership references"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/mhb-media/regions/home/coporate/financialinfo/2012-annual-report.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Europe/London RevPAR and revenue performance discussion"
+        }
+      ]
+    },
+    {
+      "full_name": "Richard Adler",
+      "title": "VP Sales, UK & EU",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/richard-adler-39ba721",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7872 2444",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "UK sales office: +44 20 7872 2444; sales.uk@millenniumhotels.com routes",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "VP level sales leadership across UK/EU; influences sales strategy, distribution, partnerships, and tech for booking/guest comms.",
+      "contact_evidence_summary": "Senior sales leadership referenced in group materials and LinkedIn networks.",
+      "evidence": [
+        {
+          "source_url": "https://www.millenniumhotels.com/en/contact-us/sales-offices/",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales offices and VP level oversight"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/millennium-gloucester-hotel-london-kensington_partnerships-appreciation-hotels-activity-7199693935370223616-cFqn",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sales leadership mentions"
+        }
+      ]
+    },
+    {
+      "full_name": "Elaine Mccormack",
+      "title": "Regional Director of Sales & Marketing",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/elaine-mccormack-50a40811",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales.london@millenniumhotels.co.uk; +44 20 7872 2444",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional sales and marketing leadership covering London properties; impacts distribution, corporate sales, and marketing tech.",
+      "contact_evidence_summary": "Referenced in sales team and regional DOSM contexts for the group.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/millennium-gloucester-hotel-london-kensington_naw2024-macademy-mhr-activity-7161394029975261185-q8I9",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sales and marketing team mentions"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/contact-us/sales-offices/",
+          "source_type": "official_site",
+          "quote_or_fact": "Regional sales office details"
+        }
+      ]
+    },
+    {
+      "full_name": "Saurabh Prakash",
+      "title": "Group Senior Vice President, Commercial",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/saurabh-prakash",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central group contacts via sales offices page",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Group commercial leadership; influences AI/revenue tech, reservations systems, guest messaging, and digital transformation across properties including this one.",
+      "contact_evidence_summary": "Quoted in press release about contact center partnership covering this hotel; senior commercial role.",
+      "evidence": [
+        {
+          "source_url": "https://cloud5.com/blog/cloud5-communications-expands-contact-center-support-for-millennium-hotels-and-resorts-to-new-locations-in-the-united-kingdom-europe-and-asia/",
+          "source_type": "news",
+          "quote_or_fact": "Saurabh Prakash, Group Senior Vice President, Commercial for Millennium Hotels and Resorts"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/contact-us/sales-offices/",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales office details"
+        }
+      ]
+    },
+    {
+      "full_name": "Cinn Tan",
+      "title": "Chief Commercial Officer",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://sg.linkedin.com/in/cinn",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group HQ and sales office routes",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Top commercial executive; oversees revenue, sales, distribution, marketing, and tech adoption group-wide with direct relevance to booking automation and guest comms.",
+      "contact_evidence_summary": "Recent appointment noted in company updates; high-level influence on strategy for all UK properties.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/millennium-hotels-%26-resorts_hotels-hotelindustry-hospitality-activity-7018803711808307200-NDzR",
+          "source_type": "linkedin",
+          "quote_or_fact": "References to leadership including commercial roles"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/mhb-media/regions/home/coporate/financialinfo/2016-annual-report.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Group commercial and revenue strategy"
+        }
+      ]
+    },
+    {
+      "full_name": "Damien Yap",
+      "title": "Director of Revenue Management (London Cluster)",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7872 2444",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Commercial office +44 20 7872 2444",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Cluster revenue director for London hotels including this property; drives revenue tech and automation decisions.",
+      "contact_evidence_summary": "Referenced in revenue team searches and org data for London cluster.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/millennium-gloucester-hotel-london-kensington",
+          "source_type": "linkedin",
+          "quote_or_fact": "Revenue and commercial team context"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/contact-us/sales-offices/",
+          "source_type": "official_site",
+          "quote_or_fact": "London sales and commercial contacts"
+        }
+      ]
+    },
+    {
+      "full_name": "Vella Ramasawmy",
+      "title": "SVP Operations UK & EU",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/vella-ramasawmy-61578323",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group operations enquiries via main sales/HQ lines +44 20 7872 2444",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Senior operations leadership for UK/EU; influences property systems, guest experience, CRM, and tech adoption including booking/automation.",
+      "contact_evidence_summary": "Senior ops role confirmed in group leadership references with coverage of London properties.",
+      "evidence": [
+        {
+          "source_url": "https://www.millenniumhotels.com/mhb-media/regions/home/coporate/financialinfo/2016-annual-report.pdf",
+          "source_type": "other",
+          "quote_or_fact": "UK/Europe operations and leadership context"
+        },
+        {
+          "source_url": "https://www.millenniumhotels.com/en/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate contact channels"
+        }
+      ]
+    },
+    {
+      "full_name": "Andrew Tan",
+      "title": "Cluster General Manager (Gloucester & Bailey's)",
+      "company": "Millennium Gloucester Hotel London Kensington",
+      "linkedin_url": "https://sg.linkedin.com/in/andrew-tan-management-professional",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel line +44 20 7373 6030; reservations and sales department emails",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Former/recent cluster GM with commercial oversight; influences revenue, sales, and ops tech decisions for the property.",
+      "contact_evidence_summary": "Multiple directories and news list as GM for this hotel and sister property; department routes available.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/andrew-tan-email_17114305",
+          "source_type": "directory",
+          "quote_or_fact": "Andrew Tan General Manager - Millennium Gloucester Hotel and Millennium Bailey's Hotel"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79002514/andrew-tan",
+          "source_type": "news",
+          "quote_or_fact": "Andrew Tan has been appointed as General Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Galaxy Toh",
+      "title": "Global Communications (Social Media & PR)",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": null,
+      "email": "galaxy.toh@millenniumhotels.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Group-level communications and PR leadership; relevant for brand messaging, partnerships, and corporate initiatives tied to guest-facing comms.",
+      "contact_evidence_summary": "Manually added from Millennium corporate / global org directory (verified functional email on millenniumhotels.com domain).",
+      "evidence": [
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "Lead tied to Millennium Hotels & Resorts global corporate context for this research run"
+        }
+      ]
+    },
+    {
+      "full_name": "June Moe",
+      "title": "Global Branding & Visual",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": null,
+      "email": "june.moe@millenniumhotels.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Global branding and visual identity; influences marketing stack, creative ops, and how properties present digitally.",
+      "contact_evidence_summary": "Manually added from Millennium corporate / global org directory (verified functional email on millenniumhotels.com domain).",
+      "evidence": [
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "Lead tied to Millennium Hotels & Resorts global corporate context for this research run"
+        }
+      ]
+    },
+    {
+      "full_name": "Jocelyn Ferrer",
+      "title": "Global Loyalty, Partnerships & F&B Loyalty",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": null,
+      "email": "jocelyn.ferrer@millenniumhotels.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Global loyalty and partnerships; shapes guest programmes, partner integrations, and commercial relationships.",
+      "contact_evidence_summary": "Manually added from Millennium corporate / global org directory (verified functional email on millenniumhotels.com domain).",
+      "evidence": [
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "Lead tied to Millennium Hotels & Resorts global corporate context for this research run"
+        }
+      ]
+    },
+    {
+      "full_name": "Germaine Yap",
+      "title": "Global Brand Governance, Brand Standards & Audits",
+      "company": "Millennium Hotels and Resorts",
+      "linkedin_url": null,
+      "email": "germaine.yap@millenniumhotels.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Brand governance and standards; relevant for consistency, audits, and how properties adopt group-wide digital and guest-facing assets.",
+      "contact_evidence_summary": "Manually added from Millennium corporate / global org directory (verified functional email on millenniumhotels.com domain).",
+      "evidence": [
+        {
+          "source_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+          "source_type": "official_site",
+          "quote_or_fact": "Lead tied to Millennium Hotels & Resorts global corporate context for this research run"
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-22T21:51:19.486734+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 12,
+    "attempted": 16,
+    "succeeded": 16,
+    "failed": [],
+    "batch_id": null
+  }
+}

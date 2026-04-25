@@ -1,0 +1,87 @@
+=== PHASE1 https://www.themayfairhotel.co.uk/ 2026-04-21T13:58:35Z ===
+Wrote 13 contacts to hotel_leads__www_themayfairhotel_co_uk__a4cd7585.json
+Appended CSV rows to hotel_leads.csv
+=== PHASE2 hotel_leads__www_themayfairhotel_co_uk__a4cd7585.json -> hotel_leads__www_themayfairhotel_co_uk__a4cd7585.enriched.json 2026-04-21T14:03:48Z ===
+Wrote 15 contacts to hotel_leads__www_themayfairhotel_co_uk__a4cd7585.json
+Appended CSV rows to hotel_leads.csv
+=== PHASE2 hotel_leads__www_themayfairhotel_co_uk__a4cd7585.json -> hotel_leads__www_themayfairhotel_co_uk__a4cd7585.enriched.json ===
+Wrote hotel_leads__www_themayfairhotel_co_uk__a4cd7585.enriched.json (row keys=12, failures=0)
+=== PHASE1 https://www.onehundredshoreditch.com/hotel-info/ 2026-04-21T14:06:30Z ===
+Wrote C:\Users\gamin\Desktop\startup\exa-lead-gen-agent\hotel_leads__www_themayfairhotel_co_uk__a4cd7585.enriched.json (row keys=14, failures=0)
+=== PHASE1 https://www.onehundredshoreditch.com/hotel-info/ ===
+Wrote 19 contacts to hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.json
+Appended CSV rows to hotel_leads.csv
+=== PHASE2 hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.json -> hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.enriched.json 2026-04-21T14:11:37Z ===
+Wrote 20 contacts to hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.json
+Appended CSV rows to hotel_leads.csv
+=== PHASE2 hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.json -> hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.enriched.json ===
+Wrote hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.enriched.json (row keys=14, failures=0)
+=== PHASE1 https://www.thistle.com/ 2026-04-21T14:14:57Z ===
+Wrote C:\Users\gamin\Desktop\startup\exa-lead-gen-agent\hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.enriched.json (row keys=20, failures=0)
+=== PHASE1 https://www.thistle.com/ ===
+Wrote 24 contacts to hotel_leads__www_thistle_com__82fb7fd2.json
+Appended CSV rows to hotel_leads.csv
+=== PHASE2 hotel_leads__www_thistle_com__82fb7fd2.json -> hotel_leads__www_thistle_com__82fb7fd2.enriched.json 2026-04-21T14:19:27Z ===
+Wrote 19 contacts to hotel_leads__www_thistle_com__82fb7fd2.json
+Appended CSV rows to hotel_leads.csv
+=== PHASE2 hotel_leads__www_thistle_com__82fb7fd2.json -> hotel_leads__www_thistle_com__82fb7fd2.enriched.json ===
+Wrote hotel_leads__www_thistle_com__82fb7fd2.enriched.json (row keys=24, failures=0)
+=== PHASE1 https://www.thegoring.com/ 2026-04-21T14:23:36Z ===
+
+Traceback (most recent call last):
+  File "C:\Users\gamin\Desktop\startup\exa-lead-gen-agent\hotel_contact_enrichment.py", line 9, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\Users\gamin\Desktop\startup\exa-lead-gen-agent\contact_enrichment\__main__.py", line 132, in main
+    new_rows, fails = run_realtime(
+                      ^^^^^^^^^^^^^
+  File "C:\Users\gamin\Desktop\startup\exa-lead-gen-agent\contact_enrichment\realtime.py", line 115, in run_realtime
+    r = fut.result()
+        ^^^^^^^^^^^^
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gamin\Desktop\startup\exa-lead-gen-agent\contact_enrichment\realtime.py", line 59, in _run_single_contact
+    _ = chat.sample()
+        ^^^^^^^^^^^^^
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\site-packages\xai_sdk\sync\chat.py", line 109, in sample
+    response_pb = self._stub.GetCompletion(self._make_request(1))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\site-packages\grpc\_interceptor.py", line 276, in __call__
+    response, ignored_call = self._with_call(
+                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\site-packages\grpc\_interceptor.py", line 331, in _with_call
+    return call.result(), call
+           ^^^^^^^^^^^^^
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\site-packages\grpc\_channel.py", line 438, in result
+    raise self
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\site-packages\grpc\_interceptor.py", line 314, in continuation
+    response, call = self._thunk(new_method).with_call(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\site-packages\grpc\_channel.py", line 1173, in with_call
+    return _end_unary_response_blocking(state, call, True, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gamin\AppData\Local\Programs\Python\Python312\Lib\site-packages\grpc\_channel.py", line 990, in _end_unary_response_blocking
+    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+grpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Received http2 header with status: 520"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_status:2, grpc_message:"Received http2 header with status: 520"}"
+>
+PHASE2 exit 1
+Wrote 18 contacts to hotel_leads__www_thegoring_com__89b90276.json
+Appended CSV rows to hotel_leads.csv
+=== PHASE2 hotel_leads__www_thegoring_com__89b90276.json -> hotel_leads__www_thegoring_com__89b90276.enriched.json 2026-04-21T14:28:02Z ===
+Wrote hotel_leads__www_thegoring_com__89b90276.enriched.json (row keys=18, failures=0)
+=== PHASE1 https://www.seacontainerslondon.com/ 2026-04-21T14:31:21Z ===
+Wrote 15 contacts to hotel_leads__www_seacontainerslondon_com__f0fff127.json
+Appended CSV rows to hotel_leads.csv
+=== PHASE2 hotel_leads__www_seacontainerslondon_com__f0fff127.json -> hotel_leads__www_seacontainerslondon_com__f0fff127.enriched.json 2026-04-21T14:35:56Z ===
+Wrote hotel_leads__www_seacontainerslondon_com__f0fff127.enriched.json (row keys=13, failures=0)
+=== ALL_DONE 2026-04-21T14:39:15Z ===

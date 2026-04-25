@@ -646,7 +646,7 @@ def _run_research(args: argparse.Namespace) -> tuple[LeadResearchResult, dict[st
 
     client = Client(api_key=api_key)
     chat = client.chat.create(
-        model="grok-4.20-multi-agent",
+        model="grok-4.20-reasoning",
         agent_count=args.agent_count,
         tools=[web_search(), x_search()],
         store_messages=True,
@@ -766,7 +766,7 @@ def main(argv: list[str] | None = None) -> int:
     payload: dict[str, Any] = {
         "target_url": args.url,
         "generated_at_utc": started.isoformat(),
-        "model": "grok-4.20-multi-agent",
+        "model": "grok-4.20-reasoning",
         "agent_count": args.agent_count,
         "max_turns": args.max_turns,
         "max_turns_effective": effective_max_turns,

@@ -1,0 +1,623 @@
+{
+  "target_url": "https://w6hotel.co.uk/",
+  "generated_at_utc": "2026-04-21T15:47:40.893994+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 5591,
+    "prompt_tokens": 882723,
+    "total_tokens": 926081,
+    "prompt_text_tokens": 882723,
+    "reasoning_tokens": 37767,
+    "cached_prompt_text_tokens": 672400,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Nick O’Keeffe",
+      "title": "Development Director",
+      "company": "Axiom Hospitality",
+      "linkedin_url": null,
+      "email": "nick.okeeffe@axiomhospitality.com",
+      "email2": null,
+      "phone": "+44 (0)20 3987 7199",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@axiomhospitality.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Development and commercial projects at management company with W6 ties; evaluates new tech, automation and property systems.",
+      "contact_evidence_summary": "Direct email and phone published on official contact page alongside team listing. Highest intimacy non-property contact.",
+      "evidence": [
+        {
+          "source_url": "https://www.axiomhospitality.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Nick O’Keeffe: nick.okeeffe@axiomhospitality.com, +44 (0)20 3987 7199"
+        },
+        {
+          "source_url": "https://www.axiomhospitality.com/team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Nick O’Keeffe, Development Director"
+        }
+      ]
+    },
+    {
+      "full_name": "Adil Ghani Asghar",
+      "title": "Revenue Director / Director",
+      "company": "West 6 Hotels Limited / W6 Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/adil-asghar-1388b864",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 208 834 7005",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "stay@w6hotel.co.uk; registered addresses include hotel and 49 Shepherds Bush Road, London W6 7LU",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Revenue Director role at owning company for W6 Hotel; direct influence over revenue management, distribution channels, booking systems and tech adoption.",
+      "contact_evidence_summary": "LinkedIn and Companies House confirm active Director and revenue responsibilities at West 6 Hotels Ltd. Strongest current ICP match with verified company routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/adil-asghar-1388b864",
+          "source_type": "linkedin",
+          "quote_or_fact": "Adil Asghar at West 6 Hotels ltd (Revenue Director context)"
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07548106/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Adil Ghani Asghar, Director of WEST 6 HOTELS LIMITED"
+        }
+      ]
+    },
+    {
+      "full_name": "Mohil Panchal",
+      "title": "Director of Revenue Management",
+      "company": "MNS Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 3667 7300",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@mnshospitality.co.uk; hotel address 38-40 Glenthorne Road (same as W6)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads revenue management for managed properties including W6 Hotel; core ICP for revenue-tech, AI booking automation and performance systems.",
+      "contact_evidence_summary": "Official team page of MNS Hospitality (management company at hotel address). Company specializes in revenue, PMS, channel management and sales for such properties.",
+      "evidence": [
+        {
+          "source_url": "https://mnshospitality.co.uk/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Mohil Panchal listed as Director of Revenue Management"
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/13018760",
+          "source_type": "official_site",
+          "quote_or_fact": "W6 MANAGEMENT LIMITED tied to Patel directors at hotel address"
+        }
+      ]
+    },
+    {
+      "full_name": "Viral Maheshbhai Patel",
+      "title": "Managing Director & Co-Founder",
+      "company": "MNS Hospitality / W6 Management Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 3667 7300",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@mnshospitality.co.uk; 38-40 Glenthorne Road, London W6 0LS",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "MD of management company operating at the W6 Hotel address; oversees commercial ops, systems and property performance including tech adoption.",
+      "contact_evidence_summary": "Official MNS team page and Companies House director appointment for W6 MANAGEMENT LIMITED. Company focuses on revenue and distribution services relevant to ICP.",
+      "evidence": [
+        {
+          "source_url": "https://mnshospitality.co.uk/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Viral Patel, MD & Co-Founder"
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/13018760/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Viral Maheshbhai Patel, Director of W6 MANAGEMENT LIMITED"
+        }
+      ]
+    },
+    {
+      "full_name": "Anael Peu",
+      "title": "Chief Commercial & Information Officer",
+      "company": "Axiom Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3987 7199",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@axiomhospitality.com; nick.okeeffe@axiomhospitality.com as example route",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees commercial strategy and IT/information systems at management company with historical ties to W6 (Axiom W6 Hotel); ideal for revenue-tech, booking automation and guest messaging platforms.",
+      "contact_evidence_summary": "Listed on official Axiom Hospitality team page (management company linked via former branding So Sienna/Axiom W6). Company contact page provides verified routes.",
+      "evidence": [
+        {
+          "source_url": "https://www.axiomhospitality.com/team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Anael Peu, Chief Commercial & Information Officer"
+        },
+        {
+          "source_url": "https://www.axiomhospitality.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "info@axiomhospitality.com and phone +44(0)20 3987 7199"
+        }
+      ]
+    },
+    {
+      "full_name": "Paul Deeks",
+      "title": "IT Director",
+      "company": "Axiom Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3987 7199",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@axiomhospitality.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads IT and systems at the management company for properties including historical W6; directly influences PMS, booking engines, automation and digital guest journey tech.",
+      "contact_evidence_summary": "Official team page listing. Medium intimacy via verified company contact page and historical brand overlap with W6 Hotel.",
+      "evidence": [
+        {
+          "source_url": "https://www.axiomhospitality.com/team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Paul Deeks, IT Director"
+        },
+        {
+          "source_url": "https://w6hotel.co.uk/",
+          "source_type": "official_site",
+          "quote_or_fact": "Uses Channex IBE for bookings (tech stack relevant to IT Director influence)"
+        }
+      ]
+    },
+    {
+      "full_name": "Darren Kerr",
+      "title": "Commercial Director – London",
+      "company": "Axiom Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3987 7199",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@axiomhospitality.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Commercial leadership for London properties including W6 overlap; responsible for revenue, distribution and tech-enabled sales strategies.",
+      "contact_evidence_summary": "Official Axiom team page. Company manages portfolio with W6 ties via prior Axiom W6 branding.",
+      "evidence": [
+        {
+          "source_url": "https://www.axiomhospitality.com/team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Darren Kerr, Commercial Director – London"
+        }
+      ]
+    },
+    {
+      "full_name": "Ramona Dirlea",
+      "title": "Director of Rooms Operations",
+      "company": "Axiom Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3987 7199",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@axiomhospitality.com; stay@w6hotel.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees rooms division including reservations, guest experience and operational systems; key stakeholder for booking automation and guest messaging.",
+      "contact_evidence_summary": "Listed on Axiom leadership team page. Added as adjacent high-relevance role from management company with property overlap.",
+      "evidence": [
+        {
+          "source_url": "https://www.axiomhospitality.com/team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Ramona Dirlea, Director of Rooms Operations"
+        }
+      ]
+    },
+    {
+      "full_name": "Lisa Crosby",
+      "title": "Sales Director",
+      "company": "Axiom Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3987 7199",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@axiomhospitality.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales leadership influences distribution channels, OTA relationships and automation tools for direct bookings at managed properties like W6.",
+      "contact_evidence_summary": "Axiom official team page. Broadens sales & distribution bucket.",
+      "evidence": [
+        {
+          "source_url": "https://www.axiomhospitality.com/team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Lisa Crosby, Sales Director"
+        }
+      ]
+    },
+    {
+      "full_name": "Mohammed Asghar",
+      "title": "Director",
+      "company": "West 6 Hotels Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 208 834 7005",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "stay@w6hotel.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Director of owning company; ultimate oversight of property commercial strategy and tech investments.",
+      "contact_evidence_summary": "Companies House records. Included to cover ownership alongside management company for comprehensive coverage.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07548106/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Mohammed Asghar, Director (DOB June 1948)"
+        }
+      ]
+    },
+    {
+      "full_name": "Alex Lewis",
+      "title": "Business Performance Director",
+      "company": "Axiom Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3987 7199",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@axiomhospitality.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Business performance and revenue oversight at management level overlapping W6; strong fit for revenue-tech and data-driven booking optimization.",
+      "contact_evidence_summary": "Axiom team page. Supports target count with verified management company data.",
+      "evidence": [
+        {
+          "source_url": "https://www.axiomhospitality.com/team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Alex Lewis, Business Performance Director"
+        }
+      ]
+    },
+    {
+      "full_name": "Silvia G",
+      "title": "Guest Relations Manager",
+      "company": "W6 Hotel / The SO Group",
+      "linkedin_url": null,
+      "email": "silvia@the-so.com",
+      "email2": null,
+      "phone": "+44 (0) 208 834 7005",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@the-so.com; stay@w6hotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles guest relations and communications; directly relevant to guest messaging, CRM and booking inquiries automation.",
+      "contact_evidence_summary": "Multiple public TripAdvisor management responses (2015-2016) from Silvia G explicitly tied to W6 Hotel/So Sienna with direct email for follow-up and offers. Historical but strongest public personal contact for the property. Scarcity of current named staff on hotel site drives inclusion of verified department routes.",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d1053999-r334033072-W6_Hotel-London_England.html",
+          "source_type": "news",
+          "quote_or_fact": "Silvia G, Guest Relations Manager at W6 Hotel... contact me directly on silvia@the-so.com"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d1053999-r396238520-W6_Hotel-London_England.html",
+          "source_type": "news",
+          "quote_or_fact": "Signed as Guest Relations Manager responding on behalf of the hotel"
+        },
+        {
+          "source_url": "https://w6hotel.co.uk/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "stay@w6hotel.co.uk and +44 (0) 208 834 7005 listed as primary contacts"
+        }
+      ]
+    },
+    {
+      "full_name": "Kevin Rajoo",
+      "title": "Group Contact / Sales & Marketing",
+      "company": "The SO Hotels & Apartments",
+      "linkedin_url": null,
+      "email": "kevinrajoo@the-so.com",
+      "email2": null,
+      "phone": "+44 20 7159 0314",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "X account @TheSoHotels; hotel phone +44 (0) 208 834 7005",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Public contact for the group operating W6 Hotel; involved in sales, marketing or reservations touching booking automation and guest comms.",
+      "contact_evidence_summary": "Email publicly listed on official SO Hotels Facebook page. Group X account promotes bookings. Ties to historical operation of the property with direct channel.",
+      "evidence": [
+        {
+          "source_url": "https://www.facebook.com/sohotels/",
+          "source_type": "other",
+          "quote_or_fact": "kevinrajoo@the-so.com listed as contact info for SO Hotels & Luxury Apartments"
+        },
+        {
+          "source_url": "https://x.com/TheSoHotels",
+          "source_type": "x",
+          "quote_or_fact": "Official X account for The So Hotels and Service Apartments promoting bookings and discounts"
+        }
+      ]
+    },
+    {
+      "full_name": "Emma Figge",
+      "title": "Director of Marketing",
+      "company": "Axiom Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3987 7199",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@axiomhospitality.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing and likely digital guest communications/CRM; relevant for guest messaging and direct booking tech.",
+      "contact_evidence_summary": "Official team page. Medium intimacy through company-wide contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://www.axiomhospitality.com/team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Emma Figge, Director of Marketing"
+        }
+      ]
+    },
+    {
+      "full_name": "Kandarp Devendrabhai Patel",
+      "title": "Co-Founder & CFO / Secretary",
+      "company": "MNS Hospitality / W6 Management Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 3667 7300",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@mnshospitality.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Finance and founding leadership in management company; influences budget for revenue tech and systems at W6 Hotel.",
+      "contact_evidence_summary": "MNS team page and Companies House. Strengthened by verified company phone/email.",
+      "evidence": [
+        {
+          "source_url": "https://mnshospitality.co.uk/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Kandarp Patel, Co-Founder & CFO"
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/13018760",
+          "source_type": "official_site",
+          "quote_or_fact": "Associated with W6 MANAGEMENT LIMITED at hotel address"
+        }
+      ]
+    },
+    {
+      "full_name": "Samar Shah",
+      "title": "Operations Director",
+      "company": "MNS Hospitality",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 3667 7300",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@mnshospitality.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Operations leadership for managed hotels including W6; influences reservations, guest journey and commercial ops.",
+      "contact_evidence_summary": "MNS Hospitality official team page. Added for ops bucket and to enrich list with management company stakeholders.",
+      "evidence": [
+        {
+          "source_url": "https://mnshospitality.co.uk/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Samar Shah, Operations Director"
+        }
+      ]
+    },
+    {
+      "full_name": "Mussdiq Ghani Asghar",
+      "title": "Company Secretary / Director",
+      "company": "West 6 Hotels Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 208 834 7005",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "stay@w6hotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Key administrative and family leadership role in owning entity; supports ops and decision making on property tech.",
+      "contact_evidence_summary": "Companies House listing. Helps reach target band with ownership layer. Public data limited for small private operator.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07548106/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Mussdiq Ghani Asghar, Secretary / Director"
+        }
+      ]
+    },
+    {
+      "full_name": "Mahmood Hussain",
+      "title": "Managing Director",
+      "company": "The SO Hotels and Luxury Apartments",
+      "linkedin_url": "https://uk.linkedin.com/in/mahmood-hussain-2b393b16",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7159 0314",
+      "phone2": "+44 (0)208 834 7005",
+      "x_handle": null,
+      "other_contact_detail": "the-so.com historical contacts; +44 20 7159 0314; stay@w6hotel.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "MD of the SO Group that previously/overlap managed W6 Hotel (formerly So Sienna); influences commercial, revenue and operations strategy across portfolio.",
+      "contact_evidence_summary": "LinkedIn profile and Companies House (Khaja Mahmood Hussain as director). Portfolio sale documents confirm SO Group management of Hammersmith property.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/mahmood-hussain-2b393b16",
+          "source_type": "linkedin",
+          "quote_or_fact": "Managing Director at The SO Hotels and Luxury Apartments"
+        },
+        {
+          "source_url": "https://www.eehventures.net/brokerage/so-portfolio",
+          "source_type": "other",
+          "quote_or_fact": "Portfolio including 38-40 Glenthorne Road managed by SO Group"
+        }
+      ]
+    },
+    {
+      "full_name": "Mehmet Boyraz",
+      "title": "Assistant Restaurant Manager",
+      "company": "The SO Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0) 208 834 7005",
+      "x_handle": null,
+      "other_contact_detail": "@the-so.com domain emails; hotel F&B contact via main line +44 (0) 208 834 7005",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "F&B operations that interface with guest experience and communications; adjacent role per guidelines for guest comms touchpoints.",
+      "contact_evidence_summary": "Listed in directory as Assistant Restaurant Manager with company email domain. Included as adjacent to meet breadth target without dropping below 10.",
+      "evidence": [
+        {
+          "source_url": "https://www.zoominfo.com/p/Mehmet-Boyraz/8991837016",
+          "source_type": "directory",
+          "quote_or_fact": "Assistant Restaurant Manager at The So Hotels with @the-so.com email"
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-21T15:55:47.586279+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 17,
+    "attempted": 2,
+    "succeeded": 2,
+    "failed": [],
+    "batch_id": null
+  }
+}

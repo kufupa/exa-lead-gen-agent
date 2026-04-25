@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "model": "grok-4.20-reasoning",
+  "max_turns": 32,
+  "fetched_at_utc": "2026-04-24T17:59:48.710385+00:00",
+  "linkedin_url_requested": "https://www.linkedin.com/in/jonathan-raggett-aa787097",
+  "usage": {
+    "completion_tokens": 761,
+    "prompt_tokens": 29607,
+    "total_tokens": 34310,
+    "prompt_text_tokens": 29607,
+    "reasoning_tokens": 3942,
+    "cached_prompt_text_tokens": 19520,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "cost_estimate": {
+    "approx_total_usd": 0.132432,
+    "token_component_usd": 0.087432,
+    "web_search_tool_component_usd": 0.045,
+    "counts": {
+      "prompt_tokens": 29607,
+      "cached_prompt_text_tokens": 19520,
+      "completion_tokens": 761,
+      "reasoning_tokens": 3942,
+      "total_tokens_reported": 34310,
+      "web_search_invocations_estimated": 9,
+      "num_sources_used": 0
+    },
+    "rates_used": {
+      "input_usd_per_million_tokens": 2.0,
+      "output_usd_per_million_tokens": 6.0,
+      "web_search_usd_per_1000_invocations": 5.0,
+      "notes": "Approximate. xAI bills tool calls separately from tokens (see https://docs.x.ai/docs/models Tools Pricing). Cached prompt tokens may be cheaper than full input — verify in console."
+    }
+  },
+  "enrichment": {
+    "linkedin_url": "https://www.linkedin.com/in/jonathan-raggett-aa787097",
+    "profile_display_name": "Jonathan Raggett",
+    "headline": "CEO at The Red Carnation Hotel Collection (Red Carnation Hotels)",
+    "location": "London, England, United Kingdom",
+    "connections_or_followers_text": "2K followers · 500+ connections",
+    "about": "After almost forty years in the hospitality industry, I remain passionate about the opportunities that it offers to anyone who is prepared to work hard.",
+    "experience": [
+      {
+        "title": "CEO",
+        "organization": "The Red Carnation Hotel Collection (Red Carnation Hotels)",
+        "employment_type": null,
+        "date_range": "2022 - Present",
+        "location": "London, England, United Kingdom",
+        "description": "Responsible for the global operation of approximately 20 luxury five-star hotels. Oversees strategy, team development, sustainability initiatives, and maintaining the group's reputation for exceptional service."
+      },
+      {
+        "title": "Managing Director",
+        "organization": "The Red Carnation Hotel Collection (Red Carnation Hotels)",
+        "employment_type": null,
+        "date_range": "2000 - 2022",
+        "location": "London, England, United Kingdom",
+        "description": "Promoted from General Manager role. Led the collection's growth and operations across multiple countries including UK properties in London, Edinburgh, and Dorset."
+      },
+      {
+        "title": "General Manager",
+        "organization": "The Rubens at the Palace (Red Carnation Hotels)",
+        "employment_type": null,
+        "date_range": "1998 - 2000",
+        "location": "London, England, United Kingdom",
+        "description": "Initial role upon joining the Red Carnation Hotel Collection."
+      }
+    ],
+    "education": [
+      {
+        "school": "Westminster College",
+        "degree_or_field": "Higher National Diploma (HND) in Hotel Management",
+        "date_range": null
+      }
+    ],
+    "skills": [],
+    "languages": [],
+    "certifications": [],
+    "volunteer_or_causes": [
+      "Chair of Trustees, Hospitality Action (since 2023)"
+    ],
+    "publications_or_projects": [
+      "2021 bucket list (Dec 2020)",
+      "My Top 10 Bucket List Destinations 2020 (Jan 2020)",
+      "My 2019 #TTCTop10 Bucket List (Feb 2019)",
+      "My travel top ten (Dec 2017)",
+      "My Top Ten Travel Bucket List (May 2015)"
+    ],
+    "activity_highlights": [
+      "Shared that Red Carnation Hotels named UK Top Employer for 2026",
+      "Highlighted recognition as one of the Best Places to Work (twice in three years)",
+      "Featured guest on Travel Trends Podcast discussing luxury hospitality, leadership, and career journey",
+      "Posts on industry awards, team culture, sustainability in luxury hotels, and charity initiatives"
+    ],
+    "source_urls": [
+      "https://www.linkedin.com/in/jonathan-raggett-aa787097",
+      "https://redcarnationhotels.com/our-story/our-people/executive-team",
+      "https://uk.linkedin.com/in/jonathan-raggett-aa787097"
+    ],
+    "data_quality": "strong",
+    "caveats": "Full LinkedIn profile details (complete experience descriptions, skills) limited by public access/login wall. Pre-1998 career experience referenced but not detailed in sources. Education dates not publicly available."
+  }
+}

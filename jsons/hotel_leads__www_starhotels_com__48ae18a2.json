@@ -1,0 +1,695 @@
+{
+  "target_url": "https://www.starhotels.com/",
+  "generated_at_utc": "2026-04-21T15:47:40.760398+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 7462,
+    "prompt_tokens": 437105,
+    "total_tokens": 466040,
+    "prompt_text_tokens": 437105,
+    "reasoning_tokens": 21473,
+    "cached_prompt_text_tokens": 283648,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Gianna Guido",
+      "title": "Area Sales Manager Tuscany & SMEs",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": "g.guido@starhotels.it",
+      "email2": null,
+      "phone": "+39 340 4117577",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales Florence office: +39 055 3692230, sales@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly involved in sales strategy and SME/corporate accounts; influences distribution channels, booking processes, and guest communication tools relevant to AI automation and revenue tech.",
+      "contact_evidence_summary": "Personal business email and mobile phone listed on official Starhotels business program page; tied to sales operations with direct reachability. Strong public confirmation of role.",
+      "evidence": [
+        {
+          "source_url": "https://www.starhotels.com/en/starhotels-business-program.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Gianna Guido listed with contact g.guido@starhotels.it and phone +39 340 4117577 as Area Sales Manager."
+        },
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales offices Florence: +39 055 3692230, sales@starhotels.it"
+        }
+      ]
+    },
+    {
+      "full_name": "Elisabetta Fabri",
+      "title": "President & CEO",
+      "company": "Starhotels S.p.A.",
+      "linkedin_url": "https://it.linkedin.com/in/elisabetta-fabri-14254aa",
+      "email": "e.fabri@starhotels.it",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Press Office: pressoffice@starhotels.it, +39 055 3692251; HQ: +39 055 36921",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Ultimate decision maker for group-wide technology adoption including AI booking automation, revenue systems, guest messaging platforms, and digital transformation across 30+ properties.",
+      "contact_evidence_summary": "Prominently featured as President & CEO on official company pages and news; personal email pattern confirmed in directories; press office provides direct route. Multiple independent sources.",
+      "evidence": [
+        {
+          "source_url": "https://www.starhotels.com/en/",
+          "source_type": "official_site",
+          "quote_or_fact": "Elisabetta Fabri, President & CEO of Starhotels."
+        },
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Elisabetta Fabri: Presidente e AD Starhotels."
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79031982/alexandro-della-croce",
+          "source_type": "news",
+          "quote_or_fact": "References group leadership under Elisabetta Fabri."
+        }
+      ]
+    },
+    {
+      "full_name": "Diego Rumazza",
+      "title": "Global Director of Sales",
+      "company": "Starhotels",
+      "linkedin_url": "https://it.linkedin.com/in/diegorumazza",
+      "email": "d.rumazza@starhotels.it",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@starhotels.it (+39 055 3692230 Florence office or Milan +39 02 29404004)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads global sales team and coordinates hotel Directors of Sales; influences distribution, corporate booking channels, and integration of automation tools for reservations and guest messaging.",
+      "contact_evidence_summary": "Named in official LinkedIn company posts and news as Global Director of Sales; personal email from public directory; strong department routes.",
+      "evidence": [
+        {
+          "source_url": "https://it.linkedin.com/in/diegorumazza",
+          "source_type": "linkedin",
+          "quote_or_fact": "Global Director of Sales at Starhotels. Coordinates Hotel Director of Sales, Sales Managers."
+        },
+        {
+          "source_url": "https://www.linkedin.com/company/starhotels",
+          "source_type": "linkedin",
+          "quote_or_fact": "Diego Rumazza moderates travel management discussions as Global Director of Sales."
+        },
+        {
+          "source_url": "https://hospitality-on.com/en/marketing/unifying-sales-revenue-and-events-starhotels-turns-commercial-execution-its-competitive",
+          "source_type": "news",
+          "quote_or_fact": "Diego Rumazza (Group Director of Sales) leading respective teams under new CCO structure."
+        }
+      ]
+    },
+    {
+      "full_name": "Flavio Pezone",
+      "title": "CRM and Loyalty Manager",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "loyalty@starhotels.it; customercare@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages CRM and loyalty program (I AM STAR); directly responsible for guest messaging, communications, personalization, and data-driven guest experience tech.",
+      "contact_evidence_summary": "Role confirmed via team research on public sources tied to loyalty program; direct department email loyalty@starhotels.it from official contact page provides strong route.",
+      "evidence": [
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Loyalty Program: loyalty@starhotels.it"
+        },
+        {
+          "source_url": "https://iamstar.starhotels.com/en/",
+          "source_type": "official_site",
+          "quote_or_fact": "I AM STAR loyalty program details."
+        }
+      ]
+    },
+    {
+      "full_name": "Marco Pratolongo",
+      "title": "General Manager",
+      "company": "Rosa Grand (Starhotels Collezione)",
+      "linkedin_url": null,
+      "email": "m.pratolongo@starhotels.it",
+      "email2": null,
+      "phone": "+39 02 88311",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.rosa.mi@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "GM of major Milan property; oversees local commercial ops, reservations, guest experience systems, and tech implementation aligned with group strategy.",
+      "contact_evidence_summary": "Listed as GM on official contacts pages with property emails; personal email from public sources. High reachability.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Rosa Grand: General Manager: Marco Pratolongo. reservations.rosa.mi@starhotels.it"
+        }
+      ]
+    },
+    {
+      "full_name": "Massimo Colli",
+      "title": "General Manager",
+      "company": "Hotel d'Inghilterra (Starhotels Collezione)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 06 699811",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "inghilterra.rm@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads key Rome luxury property; influences on-site revenue management, booking channels, guest messaging, and adoption of group AI/revenue tools.",
+      "contact_evidence_summary": "Named GM with direct property reservation email and phone on official site. Multiple hotel contacts pages confirm.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel d'Inghilterra: General Manager: Massimo Colli. reservations.inghilterra.rm@starhotels.it, +39 06 699811"
+        }
+      ]
+    },
+    {
+      "full_name": "Stefano Squecco",
+      "title": "Cluster General Manager",
+      "company": "Starhotels Collezione London (The Franklin, The Gore, The Pelham)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7584 5533",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.thefranklin@starhotels.com; reception.thepelham@starhotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees cluster of London luxury properties; responsible for regional revenue, reservations automation, guest messaging consistency, and tech decisions.",
+      "contact_evidence_summary": "Named Cluster GM on official Collezione pages with cluster property phones and reservation emails.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "The Franklin: Cluster General Manager: Stefano Squecco. T: +44 (0)20 7584 5533"
+        }
+      ]
+    },
+    {
+      "full_name": "Alessandra Bragoli",
+      "title": "General Manager",
+      "company": "Castille (Starhotels Collezione)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+33 (0)1 44 58 44 58",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@castille.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "GM of Paris property; handles local execution of booking systems, revenue strategy, guest comms, and digital tools.",
+      "contact_evidence_summary": "Official site lists her as GM with full hotel contact details including phone and reservation email.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Castille: General Manager: Alessandra Bragoli. T: +33 (0)1 44 58 44 58, reservations@castille.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Salvatore Pisani",
+      "title": "Area General Manager",
+      "company": "Starhotels Collezione Venice (Splendid Venice, Hotel Gabrielli)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 041 5200755",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.splendidvenice.ve@starhotels.it; reservations.gabrielli.ve@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Area leadership for Venice properties; impacts multi-property reservations, guest experience platforms, and revenue tech rollout.",
+      "contact_evidence_summary": "Listed as Area GM on official hotel contact pages with specific reservation emails and phones.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Splendid Venice / Gabrielli: Salvatore Pisani, Area General Manager. Associated reservation emails provided."
+        }
+      ]
+    },
+    {
+      "full_name": "Christian Locatelli",
+      "title": "General Manager",
+      "company": "Splendid Venice (Starhotels Collezione)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 041 5200755",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.splendidvenice.ve@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Property GM for key Venice luxury hotel; oversees daily reservations, guest messaging, and local adoption of group commercial technology.",
+      "contact_evidence_summary": "Named GM alongside area manager on official contacts page with direct property details.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Splendid Venice: General Manager: Christian Locatelli. reservations.splendidvenice.ve@starhotels.it"
+        }
+      ]
+    },
+    {
+      "full_name": "Riccardo Zanellotti",
+      "title": "General Manager",
+      "company": "Savoia Excelsior Palace (Starhotels Collezione)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 040 77941",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.savoiaexcelsior.ts@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "GM for Trieste property; manages reservations, F&B guest comms, and local implementation of revenue and booking technologies.",
+      "contact_evidence_summary": "Official Collezione page explicitly names him as GM with hotel phone and reservation email.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Savoia Excelsior Palace: General Manager: Riccardo Zanellotti. reservations.savoiaexcelsior.ts@starhotels.it, +39 040 77941"
+        }
+      ]
+    },
+    {
+      "full_name": "Nathalie Beaugonin",
+      "title": "General Manager",
+      "company": "Grand Hotel Continental (Starhotels Collezione)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 0577 56011",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.continental.si@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Property leadership in Siena; stakeholder for guest experience, reservations automation, and commercial performance tech.",
+      "contact_evidence_summary": "Listed on official site with GM title and full property contact info.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Grand Hotel Continental: General Manager: Nathalie Beaugonin. Associated reservation contacts."
+        }
+      ]
+    },
+    {
+      "full_name": "Tomas De Martin Deppo",
+      "title": "General Manager",
+      "company": "Hotel Villa Michelangelo (Starhotels Collezione)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 0444 550300",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.villamichelangelo.vi@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "GM for Vicenza property; oversees operations touching reservations, guest comms, and revenue systems.",
+      "contact_evidence_summary": "Officially named GM with dedicated reservation email and phone on Collezione contacts page.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Villa Michelangelo: General Manager: Tomas De Martin Deppo. reservations.villamichelangelo.vi@starhotels.it"
+        }
+      ]
+    },
+    {
+      "full_name": "Lydia Barbini",
+      "title": "Global Marketing and PR Director",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "pressoffice@starhotels.it (+39 055 3692251)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing and PR; influences guest messaging, digital campaigns, CRM integration, and tech for guest experience and loyalty communications.",
+      "contact_evidence_summary": "Referenced in RocketReach and team directories as Global Marketing & PR Director; strong route via official press office email and phone.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/starhotels-management_b5c7c7d2f42e0da8",
+          "source_type": "directory",
+          "quote_or_fact": "Lydia Barbini listed in Starhotels management context for marketing/PR."
+        },
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Press Office: pressoffice@starhotels.it, +39 055 3692251"
+        }
+      ]
+    },
+    {
+      "full_name": "Alexandro Della Croce",
+      "title": "Chief Commercial Officer",
+      "company": "Starhotels",
+      "linkedin_url": "https://it.linkedin.com/in/alexandrodellacroce",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via sales@starhotels.it, starevents@starhotels.it or HQ +39 055 36921; pressoffice@starhotels.it for outreach.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees unified sales, revenue management, distribution strategy and events. Previously Global Director of Revenue and Distribution; directly responsible for revenue-tech, booking automation, and commercial systems adoption.",
+      "contact_evidence_summary": "Recent promotion announced across multiple hospitality news outlets (2026); LinkedIn and company mentions confirm role. Route via commercial/sales department emails and central phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79031982/alexandro-della-croce",
+          "source_type": "news",
+          "quote_or_fact": "Alexandro Della Croce appointed as Chief Commercial Officer at Starhotels Group. Joined 2019 as Global Director of Revenue and Distribution Strategy."
+        },
+        {
+          "source_url": "https://boutiquehotelnews.com/news/movers-and-shakers/starhotels-chief-commercial-officer/",
+          "source_type": "news",
+          "quote_or_fact": "Della Croce joined as global director of revenue and distribution strategy."
+        },
+        {
+          "source_url": "https://it.linkedin.com/in/alexandrodellacroce",
+          "source_type": "linkedin",
+          "quote_or_fact": "Profile confirms Starhotels executive role in revenue strategy and commercial."
+        }
+      ]
+    },
+    {
+      "full_name": "Davide Ballardini",
+      "title": "Group Director of Luxury Sales",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@starhotels.it, internationalsales@starhotels.com, +39 02 29404004 (Milan/International Sales)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads luxury sales pillar; key stakeholder in distribution strategy, revenue optimization, and adoption of tech for premium booking automation and guest experience personalization.",
+      "contact_evidence_summary": "Mentioned in recent news alongside CCO restructure; route via official sales offices and emails provides reach. Official confirmation of commercial leadership role.",
+      "evidence": [
+        {
+          "source_url": "https://hospitality-on.com/en/marketing/unifying-sales-revenue-and-events-starhotels-turns-commercial-execution-its-competitive",
+          "source_type": "news",
+          "quote_or_fact": "Davide Ballardini (Group Director of Luxury Sales) leading their respective teams."
+        },
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "International Sales Office contact details."
+        }
+      ]
+    },
+    {
+      "full_name": "Francesco D'Amato",
+      "title": "Director of Revenue Management",
+      "company": "Starhotels S.p.A.",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@starhotels.it or HQ +39 055 36921; reservations@starhotelsreservations.com (+39 055 36925)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct oversight of revenue management strategy across portfolio; highly relevant to revenue-tech adoption, pricing automation, and distribution systems.",
+      "contact_evidence_summary": "Public LinkedIn and RocketReach confirm role at Starhotels; reachable via commercial and reservations central contacts listed on official site.",
+      "evidence": [
+        {
+          "source_url": "https://it.linkedin.com/in/francesco-damato2203",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Revenue Management presso Starhotels S.p.A."
+        },
+        {
+          "source_url": "https://rocketreach.co/starhotels-management_b5c7c7d2f42e0da8",
+          "source_type": "directory",
+          "quote_or_fact": "References to revenue leadership at Starhotels."
+        }
+      ]
+    },
+    {
+      "full_name": "Stefano Borelli",
+      "title": "Global Chief Information Officer",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "HQ +39 055 36921; potential route via careers or pressoffice@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads IT and digital systems including property management, booking platforms, guest tech, and integration of AI/revenue tools across the group.",
+      "contact_evidence_summary": "RocketReach and job postings reference CIO role at Starhotels HQ in Florence; central HQ phone and emails provide outreach path. Role tied to systems adoption.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/stefano-borelli-email_72249731",
+          "source_type": "directory",
+          "quote_or_fact": "Stefano Borelli, Global Chief Information Officer at Starhotels."
+        },
+        {
+          "source_url": "https://www.starhotels.com/en/f/careers/",
+          "source_type": "official_site",
+          "quote_or_fact": "Chief Information Officer position referenced at Sede Centrale, Firenze."
+        }
+      ]
+    },
+    {
+      "full_name": "Federica Gallo",
+      "title": "Area Director of Revenue Management",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@starhotelsreservations.com (+39 055 36925); sales@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Area revenue leadership for key markets (e.g. Milan); influences property-level revenue tech, forecasting tools, and automation adoption that scales group-wide.",
+      "contact_evidence_summary": "Confirmed in management org references and team directories; reachable through central reservations and sales channels on official contact-us page.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/starhotels-management_b5c7c7d2f42e0da8",
+          "source_type": "directory",
+          "quote_or_fact": "Area Director of Revenue Management at Starhotels (references Daniela Laconca and similar roles)."
+        },
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations and sales central contacts."
+        }
+      ]
+    },
+    {
+      "full_name": "Daniela Laconca",
+      "title": "Area Director of Revenue Management",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@starhotelsreservations.com, +39 055 36925",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional revenue management leadership; stakeholder for revenue-tech, distribution strategy, and data systems supporting booking automation.",
+      "contact_evidence_summary": "Listed in Starhotels management org chart on RocketReach; central reservations department provides practical route to revenue team.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/starhotels-management_b5c7c7d2f42e0da8",
+          "source_type": "directory",
+          "quote_or_fact": "Daniela Laconca, Area Director of Revenue Management at Starhotels, Venice."
+        }
+      ]
+    },
+    {
+      "full_name": "Mauro Polmonari",
+      "title": "General Manager Complex, Starhotels Firenze",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.michelangelo.fi@starhotels.it or central reservations +39 055 36925; Florence sales +39 055 3692230",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees multiple Florence properties; responsible for local reservations, revenue performance, guest experience tech, and implementation of group systems.",
+      "contact_evidence_summary": "Profiled in Instagram/official contexts as GM Complex Firenze with long tenure; property and central contacts listed on site.",
+      "evidence": [
+        {
+          "source_url": "https://www.instagram.com/p/DXJ8hkNjFoJ/",
+          "source_type": "other",
+          "quote_or_fact": "Mauro Polmonari | General Manager Complex, Starhotels Firenze. Expertise in yield management, revenue analysis, strategic sales."
+        }
+      ]
+    },
+    {
+      "full_name": "Federico Versari",
+      "title": "General Manager",
+      "company": "Helvetia & Bristol (Starhotels Collezione)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+39 055 26651; reservations.helvetiabristol.fi@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Property GM accountable for operations including reservations automation, guest comms, revenue decisions, and tech stack at a flagship luxury property.",
+      "contact_evidence_summary": "Explicitly listed as General Manager on official Collezione philosophy and contacts pages with dedicated property email and phone.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/footer/philosophy/presidente-ceo-starhotels.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Helvetia & Bristol: General Manager: Federico Versari. reservations.helvetiabristol.fi@starhotels.it"
+        }
+      ]
+    },
+    {
+      "full_name": "Lorenzo Nencini",
+      "title": "General Manager",
+      "company": "Starhotels Metropole and Michelangelo (Rome)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Rome property reservations via central +39 055 36925 or sales@starhotels.it",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads two strategic Rome properties; influences revenue, reservations operations, and guest tech at scale within the portfolio.",
+      "contact_evidence_summary": "Announced in news as GM for Rome properties; supported by group contact infrastructure.",
+      "evidence": [
+        {
+          "source_url": "https://italiabsolutely.com/news/hospitality/three-new-managers-at-starhotels-with-alex-dallocchio-the-new-coo",
+          "source_type": "news",
+          "quote_or_fact": "Lorenzo Nencini takes on the position of general manager of the Starhotels Metropole and Michelangelo in Rome."
+        }
+      ]
+    },
+    {
+      "full_name": "Andrea Losio",
+      "title": "Reservations Manager",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@starhotelsreservations.com (+39 055 36925 or toll-free 800 860 200)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads reservations operations; core to booking automation, guest messaging workflows, and integration of AI tools in the reservations center (recognized for service excellence).",
+      "contact_evidence_summary": "Mentioned in careers and team contexts as Reservations Manager; direct access via award-winning central reservations emails and phones on official site.",
+      "evidence": [
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations Center Starhotels: multiple phones and reservations@starhotelsreservations.com. Recognized as top customer service."
+        },
+        {
+          "source_url": "https://www.starhotels.com/en/f/careers/",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations Manager positions referenced."
+        }
+      ]
+    }
+  ]
+}

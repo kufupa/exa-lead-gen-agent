@@ -1,0 +1,584 @@
+{
+  "target_url": "https://www.themayfairhotel.co.uk/",
+  "generated_at_utc": "2026-04-21T13:58:36.472415+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 5615,
+    "prompt_tokens": 535171,
+    "total_tokens": 565995,
+    "prompt_text_tokens": 535171,
+    "reasoning_tokens": 25209,
+    "cached_prompt_text_tokens": 347008,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Patrick Katzenberg",
+      "title": "General Manager",
+      "company": "The May Fair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/patrick-katzenberg-00064ab7",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": "@edwardianppk",
+      "other_contact_detail": "Main enquiries: +44 (0)20 7769 8200; Reservations: +44 (0)20 7769 3066; reservations@themayfairhotel.co.uk; Corporate sales: mayfairsales@edwardian.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Property GM with oversight of all operations, reservations, revenue strategy, guest experience, and technology adoption decisions including AI booking and guest messaging tools.",
+      "contact_evidence_summary": "Confirmed current GM via Jan 2026 news announcement (replaced Sahid Soufan); strong LinkedIn profile; official hotel contact pages provide direct routes to property leadership; X handle associated with Edwardian/May Fair activity.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/new-general-manager-joins-the-may-fair-hotel/",
+          "source_type": "news",
+          "quote_or_fact": "The May Fair Hotel has appointed a new general manager... Patrick Katzenberg moves to the hotel from The Londoner"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/patrick-katzenberg-00064ab7",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager of The May Fair, part of Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate Rates & Sales. Email: mayfairsales@edwardian.com; Reservations phone and email listed"
+        }
+      ]
+    },
+    {
+      "full_name": "Hasnain N. Alloo",
+      "title": "Executive Vice President & Commercial Director",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/hasnainalloo",
+      "email": "hasnain.alloo@edwardian.com",
+      "email2": null,
+      "phone": "+447971334351",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@edwardian.com; press@edwardian.com; main group line via edwardian.com/contact-us",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads commercial strategy, sales, revenue, distribution and marketing across Edwardian properties including The May Fair; key decision maker for revenue-tech, AI booking automation and guest comms platforms.",
+      "contact_evidence_summary": "Multiple press mentions and LinkedIn as Commercial Director/EVP; group sales and press emails provide route to commercial leadership; overlaps directly with The May Fair Hotel operations.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/hasnainalloo",
+          "source_type": "linkedin",
+          "quote_or_fact": "EVP & Commercial Director at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://www.edwardian.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "SALES ENQUIRIES Email: sales@edwardian.com; PRESS ENQUIRIES Email: press@edwardian.com"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/new-general-manager-joins-the-may-fair-hotel/",
+          "source_type": "news",
+          "quote_or_fact": "Katzenberg boasts solid experience with the Edwardian Hotels group, which operates both The May Fair Hotel and The Londoner"
+        }
+      ]
+    },
+    {
+      "full_name": "Anjie Keegel",
+      "title": "Head of Sales",
+      "company": "The May Fair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/anjie-keegel-368817a",
+      "email": "anjie.keegel@edwardian.com",
+      "email2": "mayfairsales@edwardian.com",
+      "phone": "+44 7722 282656",
+      "phone2": "+44 (0)20 7769 3066",
+      "x_handle": null,
+      "other_contact_detail": "mayfairsales@edwardian.com; +44 (0)20 7769 3066",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads sales and business development for The May Fair Hotel; influences corporate bookings, distribution partnerships, and adoption of automation tools for reservations and guest messaging.",
+      "contact_evidence_summary": "Edwardian LinkedIn posts and news confirm appointment as Director/Head of Sales at The May Fair; official corporate sales email provides direct department route.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/anjie-keegel-368817a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales at The May Fair Hotel / Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate Rates & Sales. Email: mayfairsales@edwardian.com"
+        },
+        {
+          "source_url": "https://docs.edwardian.com/documents/46986/356157/Anjie%20Keegal%20Introducing%20our%20new%20Head%20of%20Business%20Travel%20and%20Meetings%20%26%20Events%20Sales%20.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Appointment announcement as new Head of Business Travel and Meetings & Events Sales"
+        }
+      ]
+    },
+    {
+      "full_name": "Sheetal Varia",
+      "title": "Director of Revenue",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/sheetal-varia-98a83a49",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@edwardian.com; +44 (0)20 7769 8200",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads revenue strategy for Edwardian group properties including The May Fair Hotel; directly influences revenue-tech adoption, pricing automation, and distribution decisions relevant to AI tools.",
+      "contact_evidence_summary": "LinkedIn profile confirms Director of Revenue at Edwardian Hotels London; supported by group revenue job postings; sales department routes available for outreach.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/sheetal-varia-98a83a49",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Revenue. Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://harri.com/Revenue-BEWjlYRRtrSf/job/2652703-cluster-revenue-manager",
+          "source_type": "other",
+          "quote_or_fact": "Cluster Revenue Manager... reporting to the Director of Revenue and Distribution"
+        },
+        {
+          "source_url": "https://www.edwardian.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales enquiries email listed for commercial team"
+        }
+      ]
+    },
+    {
+      "full_name": "Siraj Singh",
+      "title": "Director of Marketing & E-Commerce",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/siraj-singh-a3823b26",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "press@edwardian.com; reservations@themayfairhotel.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees digital marketing, e-commerce, website booking engine, and guest communications across group including The May Fair; ideal for AI guest messaging, online distribution and booking automation.",
+      "contact_evidence_summary": "Multiple sources confirm role in marketing/e-commerce for Edwardian and The May Fair (director title in press releases and directories); press email provides route.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/siraj-singh-a3823b26",
+          "source_type": "linkedin",
+          "quote_or_fact": "Commerce for Edwardian Hotels London; prior E-Commerce Executive at The May Fair Hotel"
+        },
+        {
+          "source_url": "https://www.travelweekly.com/Hotels/London/The-May-Fair-Hotel-Radisson-Collection-p59037668",
+          "source_type": "directory",
+          "quote_or_fact": "Siraj Singh, Director of Marketing"
+        },
+        {
+          "source_url": "https://document-tc.galaxy.tf/wdpdf-ip96i8gmlx1pf8tplzkyjxmk/download-press-release.pdf",
+          "source_type": "news",
+          "quote_or_fact": "Siraj Singh, Director of Marketing and E-commerce at Edwardian Hotels London, which owns The May Fair Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Katie Fenn",
+      "title": "Sales Director",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/katie-fenn-42a19926",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "mayfairsales@edwardian.com; sales@edwardian.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales leadership role focused on corporate, groups and partnerships for the group and The May Fair; influences booking channels, revenue from key segments and tech for sales automation.",
+      "contact_evidence_summary": "LinkedIn and Edwardian company posts confirm sales director role; multiple sales email routes from official site tied to commercial team.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/katie-fenn-42a19926",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sales Director at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/hasnainalloo_london-activity-7435468955844149249-K2zw",
+          "source_type": "other",
+          "quote_or_fact": "Mentions Katie Fenn in context of The May Fair Hotel commercial activities"
+        },
+        {
+          "source_url": "https://www.edwardian.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales enquiries contact details"
+        }
+      ]
+    },
+    {
+      "full_name": "Maria Dolores Ghiringhelli",
+      "title": "Group Guest Experience Manager",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/ghrmdl",
+      "email": "maria.ghiringhelli@themayfairhotel.co.uk",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7769 8200; reservations@themayfairhotel.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads guest experience and previously Group Reservations Manager; directly relevant to guest messaging, CRM, personalization and automation technologies across properties including The May Fair.",
+      "contact_evidence_summary": "LinkedIn confirms current Group Guest Experience Manager role (prior reservations); official reservations and enquiries lines provide reach for guest journey stakeholders.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/ghrmdl",
+          "source_type": "linkedin",
+          "quote_or_fact": "Group Guest Experience Manager at Edwardian Hotels London; previously Group Reservations Manager"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Focus on seamless guest experience; reservations contact listed"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Enquiries and reservations phone/email"
+        }
+      ]
+    },
+    {
+      "full_name": "Mohit Dua",
+      "title": "Director of Revenue and Distribution - Rooms",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://www.linkedin.com/in/mohit-dua-050b0214",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7769 3066",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@edwardian.com; reservations@themayfairhotel.co.uk; +44 (0)20 7769 3066",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct responsibility for revenue management, distribution channels, and rooms inventory across the group including The May Fair; primary stakeholder for revenue-tech, AI booking automation and channel management tools.",
+      "contact_evidence_summary": "Confirmed in group job postings and RocketReach/LinkedIn references as Director of Revenue and Distribution; department sales/reservations routes provide reach; central role covers the target property.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/mohit-dua-email_14136987",
+          "source_type": "directory",
+          "quote_or_fact": "Mohit Dua... is currently a Director of Revenue and Distribution - Rooms at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://harri.com/Revenue-BEWjlYRRtrSf/job/2652703-cluster-revenue-manager",
+          "source_type": "other",
+          "quote_or_fact": "reporting to the Director of Revenue and Distribution – Rooms"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate Rates & Sales email and reservations contact details"
+        }
+      ]
+    },
+    {
+      "full_name": "Anett Helbig",
+      "title": "Cluster Revenue Manager",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://www.linkedin.com/in/anett-helbig",
+      "email": "sales@edwardian.com",
+      "email2": null,
+      "phone": "+44 (0)20 7769 3066",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@edwardian.com; +44 (0)20 7769 3066",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages revenue and clusters including prior role at The May Fair Hotel; hands-on with revenue systems, forecasting, distribution channels and automation opportunities.",
+      "contact_evidence_summary": "Confirmed via RocketReach and group revenue job context as Cluster Revenue Manager (ex C&E Revenue Manager at The May Fair); department contacts applicable.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/anett-helbig-email_255584643",
+          "source_type": "directory",
+          "quote_or_fact": "Anett Helbig... Cluster Revenue Manager @ Edwardian Hotels London; 2016-2019 C and E Revenue Manager @ The May Fair Hotel"
+        },
+        {
+          "source_url": "https://harri.com/Revenue-BEWjlYRRtrSf/job/2652703-cluster-revenue-manager",
+          "source_type": "other",
+          "quote_or_fact": "Cluster Revenue Manager role at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations and sales contacts"
+        }
+      ]
+    },
+    {
+      "full_name": "Fatima Anida",
+      "title": "Sales Director (Middle East & Diplomatic)",
+      "company": "The May Fair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/fatima-anida-96783983",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "mayfairsales@edwardian.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional sales leadership for key international segments at The May Fair; influences distribution, corporate contracts, booking processes and guest communication strategies.",
+      "contact_evidence_summary": "LinkedIn and Edwardian commercial team mentions in posts; tied to May Fair sales via company activity; official sales email available.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/fatima-anida-96783983",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experience: The May Fair Hotel"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/hasnainalloo_london-activity-7435468955844149249-K2zw",
+          "source_type": "other",
+          "quote_or_fact": "Mentions Fatima Anida in The May Fair Hotel brand film/commercial context"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate sales email"
+        }
+      ]
+    },
+    {
+      "full_name": "Daniele Chimera",
+      "title": "Deputy General Manager",
+      "company": "The May Fair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/daniele-chimera-19b74989",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7769 8200; reservations@themayfairhotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Senior operations leadership at property level; stakeholder in daily reservations, guest experience, systems and operational tech including potential for messaging/automation.",
+      "contact_evidence_summary": "LinkedIn confirms role at The May Fair Hotel; official property contact pages allow routing to operations leadership.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/daniele-chimera-19b74989",
+          "source_type": "linkedin",
+          "quote_or_fact": "The May Fair Hotel"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/",
+          "source_type": "official_site",
+          "quote_or_fact": "Property focus on seamless guest experience and reservations"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Enquiries phone and email"
+        }
+      ]
+    },
+    {
+      "full_name": "Rosario Crivari",
+      "title": "Meeting & Events Operations Director",
+      "company": "The May Fair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/rosario-crivari-b17a53111",
+      "email": "events@themayfairhotel.co.uk",
+      "email2": "mayfairsales@edwardian.com",
+      "phone": "+44 (0)20 7915 3898",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "events@themayfairhotel.co.uk (inferred from group pattern); mayfairsales@edwardian.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees groups, events and meetings business which drives significant revenue and bookings at The May Fair; touches group sales systems, CRM and automation.",
+      "contact_evidence_summary": "LinkedIn profile and Edwardian commercial team references; events sales are key ICP-adjacent for booking automation; department emails provide plausible route.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/rosario-crivari-b17a53111",
+          "source_type": "linkedin",
+          "quote_or_fact": "Meeting & Events Operations Director at The May Fair / Edwardian"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Request for Proposal and corporate sales contacts"
+        },
+        {
+          "source_url": "https://harri.com/Meeting-sales-Bd1Nz1kVzhTV/job/2691539-events-and-groups-planning-executive",
+          "source_type": "other",
+          "quote_or_fact": "Expanding Groups and Events Team at The May Fair Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Becky Casey",
+      "title": "Vice President, Sales (North America)",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://www.linkedin.com/in/becky-casey-955bb311",
+      "email": "becky.casey@edwardian.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@edwardian.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Regional sales leadership for North American market driving international distribution and bookings to The May Fair and group properties; relevant for channel automation and partnership tech.",
+      "contact_evidence_summary": "Listed in company org chart and directory sources; group sales email provides outreach path for distribution stakeholders.",
+      "evidence": [
+        {
+          "source_url": "https://www.zoominfo.com/c/edwardian-hotels-london/368427572",
+          "source_type": "directory",
+          "quote_or_fact": "Becky Casey Vice President, Sales (North America)"
+        },
+        {
+          "source_url": "https://www.edwardian.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales enquiries email"
+        }
+      ]
+    },
+    {
+      "full_name": "Declan Lott",
+      "title": "Vice President of Sales for North America",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://www.linkedin.com/in/declan-lott-a0205b1",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@edwardian.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees North American sales efforts for the group including The May Fair; key for international distribution, revenue from key accounts and tech-enabled booking processes.",
+      "contact_evidence_summary": "News announcement of rejoining as VP Sales North America; ties into commercial team with sales@edwardian.com route.",
+      "evidence": [
+        {
+          "source_url": "https://www.hotel-online.com/news/declan-lott-rejoins-edwardian-hotels-london-as-vice-president-of-sales-for-north-america",
+          "source_type": "news",
+          "quote_or_fact": "Declan Lott Rejoins Edwardian Hotels London as Vice President of Sales for North America"
+        },
+        {
+          "source_url": "https://www.edwardian.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales contact information"
+        }
+      ]
+    },
+    {
+      "full_name": "Nico Fournier",
+      "title": "Director of Sales",
+      "company": "The May Fair Hotel",
+      "linkedin_url": "https://www.linkedin.com/in/nicofournier1",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "mayfairsales@edwardian.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Past Director of Sales at The May Fair (2021 appointment); sales expertise relevant to booking and revenue tech even if role has evolved; provides context for property commercial team.",
+      "contact_evidence_summary": "Official Edwardian PDF announcement; sales email still active for department; included as adjacent confirmed sales leadership tied to property.",
+      "evidence": [
+        {
+          "source_url": "https://docs.edwardian.com/documents/46986/224323/Nico%20Fournier%2C%20Introducing%20our%20new%20Director%20of%20Sales%2C%20The%20May%20Fair%2C%20A%20Radisson%20Collection%20Hotel%20.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Edwardian Hotels London is delighted to announce Nico Fournier as the new Director of Sales at The May Fair"
+        },
+        {
+          "source_url": "https://www.themayfairhotel.co.uk/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate sales email"
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-21T14:08:10.054863+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 1,
+    "attempted": 14,
+    "succeeded": 14,
+    "failed": [],
+    "batch_id": null
+  }
+}

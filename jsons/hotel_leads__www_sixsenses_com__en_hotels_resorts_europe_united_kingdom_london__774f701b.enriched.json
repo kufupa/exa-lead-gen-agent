@@ -1,0 +1,2185 @@
+{
+  "target_url": "https://www.sixsenses.com/en/hotels-resorts/europe/united-kingdom/london/",
+  "generated_at_utc": "2026-04-25T13:41:46.779766+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6549,
+    "prompt_tokens": 2560796,
+    "total_tokens": 2683737,
+    "prompt_text_tokens": 2560796,
+    "reasoning_tokens": 116392,
+    "cached_prompt_text_tokens": 1404912,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Marco Orru",
+      "title": "Director of Sales - Leisure & Consortia",
+      "company": "Six Senses London",
+      "linkedin_url": "https://uk.linkedin.com/in/marco-orru-01a87217",
+      "email": "marco.orru@sixsenses.com",
+      "email2": null,
+      "phone": "+44 7428 016906",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads leisure and consortia sales including distribution channels, partnerships, and booking automation opportunities.",
+      "contact_evidence_summary": "Role confirmed in leadership and sales team announcements; direct email and phone from ILTM exhibitor directory and related press; LinkedIn profile.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Stefan Mueller, Director of Sales and Marketing (with supporting sales team including leisure focus)"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/marco-orru-01a87217",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales - Leisure & Consortia at Six Senses London"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/marco-orru-01a87217",
+        "display_name": "Marco Orru'",
+        "headline": "Director Of Sales - Leisure And Consortia - U.K. , U.S. And South America at Six Senses London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I love life and try and make all my relationships both business and personal long lasting. Live to love business development and making deals happen. Bespoke Sales & Brand Representation services for Luxury & Lifestyle Hotels and Resorts. I acquired and developed the right skills, relationship, networking and experiences necessary to support my customers, my actual goals and my continued improvement in the well known UK/EMEA and US markets. A highly driven Sales & Marketing person with a Tourism Management degree and more than 20 years experience working for well known, high end and new hospitality brands. Specialties: Luxury Sales & Business Development/ Hospitality / Travel / Corporate / High end Leisure / MICE / Networking / People Management. Known for driving improved revenue through understanding clients requirements and analyzing business and competitor trends. Account management; business development; global networking; creating and building strong relationship, teams and succeeding business goals. Goal driven individual responsible for managing over 300 Global accounts across multiple market segments, generating multi million $ revenue and maximizing market share and revenue from key feeder markets of UK/EMEA, U.S., South America. I am a firm believer in rolling up my sleeves and leading the way to get things done with the right team.",
+        "experience": [
+          {
+            "title": "Regional Director Of Global Sales - RSO EMEA",
+            "organization": "Small Luxury Hotels of the World",
+            "date_range": "Jan 2016 - Jun 2017 • 1 year and 5 months",
+            "location": "London, United Kingdom",
+            "description": "New York, London, Paris, Rome, Zurich, Madrid, Tokyo, Bangkok, Hong Kong, Beijing, Singapore, Sidney, Jamaica, Maldives, Mauritius and many more top destinations. Head of Business Travel in the EMEA region: Affiliations, Global networking, Consortia, Mega Agencies, BTA and NAM for more than 300 key global accounts relationship for this prestigious portfolio of 520 luxury hotels carefully selected across 80 countries. Main focus: orchestrate brand-wide Strategic Plans to ensure optimal brand exposure and achieve a strong return on investment, i.e. active travel and trade show presence and detailed post trip follow-up; planning and execution of ongoing sales calls, road shows and client events/fam trips i.e. multiple hotel participation whenever possible together with EMEA VP sales Leisure team within the High end Leisure agencies and M&I networking activities; growth initiatives including direct sales targeting new global accounts; ensure alignment of individual hotel and company objectives and provide client/account profiles to the hotels as needed to increase overall lead volume and conversion of Global Sales leads to definite; ensure new properties are actively promoted to existing and new clients, leverage all brand initiatives to grow the new business. Brand Expert for assigned geographic region: maintains regional / segment key Consortia, BT agents and Corp"
+          },
+          {
+            "title": "Associate Director Of Sales",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jun 2017 - Aug 2018 • 1 year and 2 months",
+            "location": "London, United Kingdom",
+            "description": "Responsible for positioning, sourcing, developing and account managing business from designated market sectors, such as UK/EMEA and U.S. high end Leisure and Corporate agencies and TTOO, with the potential for European markets (English, Spanish, French, Italian speakers). Responsible for driving sales from all main European and U.S. markets and developing and implementing strategy to maximize hotel revenue from affiliations and networking/consortia; determine, recommend and win prospective clients from market information and other resources. Management: deputizing for the Director of Sales, I support the setting targets, as well as managing direct reports and development planning. Supporting recruitment, induction efforts and annual budget setting and ongoing budget management. Responsible for overseeing all business development activities within the various named global accounts. Responsible for creating and implementing a strategy aligned with current global sales initiatives based on current and future growth plans as well as identify key contacts within targeted named accounts, solicit new business, identify and facilitate the RFP process and secure new business. Planning: Working closely with the DoS and contribute to forecasts, departmental budget and yield maximization; identifies customer requirements and expectations relative to regions and segments; uses resources and data to develop strategic plans to sell segments; understands IHG sales and business processes, supports corporate, leisure and M&I and hotel goals and contributes the enhancement of customer value. Communication: develops and delivers effective presentation (orally and written) where ideas, opinions, recommendations and conclusions are easy to understand; works with KADs whose end users work with assigned incentive intermediaries; establishes relationships and collaboration with IHG hotel partners. Department: Sales • Level: Director"
+          },
+          {
+            "title": "Regional Associate Director Of Global Sales - UK IE And Northern Europe RSO",
+            "organization": "Banyan Tree Hotels & Resorts",
+            "date_range": "Aug 2018 - Jan 2020 • 1 year and 5 months",
+            "location": "London, United Kingdom",
+            "description": "Banyan Tree Hotels & Resorts has grown into one of the world's leading international Responsible operators in the Luxury hospitality and spa industry that manages more than 40 Resorts and Hotels, 60 Spas, 70 Retail galleries and three Championship golf courses in 28 countries. Brand positioning and Key accounts management. With attentive yet discreet service and associates representing more than 50 nationalities, Banyan Tree Hotels & Resorts provide naturally-luxurious, ecological, culturally-sensitive experiences. Banyan Tree Hotels & Resorts brings you over 100 Unique Destination For Life Time Responsible Travel relationship in the unique and sustainable networking: preferred properties including Seychelles, Maldives, Mauritius, Thailand, China, Indonesia, South Korea, Laos, Malaysia, Vietnam, Greece, Morocco, Cuba, Mexico. Head of relationship with EMEA Affiliations, Global networking, Consortia, Mega Agencies, BTA and key UK and Northern Europe Luxury TTOO relationship for this prestigious portfolio of niche luxury hotels carefully selected across Asia, Europe, Africa and Americas. Main focus: orchestrate brand-wide Strategic Plans to ensure optimal brand exposure and achieve a strong return on investment, i.e. active travel and trade show presence and detailed post trip follow-up; planning and execution of sales calls, road shows and client events/fam trips. Multiple hotels participation in the High end Leisure agencies and M&I networking activities; growth initiatives including direct sales targeting new global accounts; ensure alignment of individual hotel and company objectives and provide client/account profiles to the hotels as needed to increase overall lead volume and conversion of Global Sales leads to definite; ensure new properties are actively promoted to existing and new clients, leverage all brand initiatives to grow the new relevant business. Exceeded personal sales targets on 2018&2019."
+          },
+          {
+            "title": "Regional Director Of Sales - NORAM U.K. RSO - Luxury And Lifestyle Collection",
+            "organization": "Eurostars Hotels",
+            "date_range": "Jan 2020 - Jul 2024 • 4 years and 6 months",
+            "location": "Remote - New York and London",
+            "description": "Head of Regional sales in the U.S.- Canada and U.K. markets - TMC/Consortia, Business Travel, Leisure and M&I segments. I coordinate brand-wide strategic plans to ensure optimal brand exposure and strong commercial positioning. Eurostars Hotels Group owns and operates multi-brands strategy in several segments of hospitality - 270 hotels, 19 countries/worldwide presence in Europe, America and North Africa ( Luxury, Premium/Upscale and Midscale) with Eurostars Hotels, Áurea Hotels, Exe Hotel, Ikonik Hotels, Tandem Suites and Crisol properties. Main activities: brand-chain level. Sales: High-end leisure and M&I sales for the Luxury and Lifestyle collection. TMC/Consortia and BT- Entertainment. Evaluation&Strategic sales plans. Pre-opening activities: sales and marketing , MICE and group sales, Business travel sales RFP management. Revenue: Stakeholder meetings. Competitive analysis and strategic positioning. Forecasting and global sales budgets, pricing, marketing, PR and social media strategies. Distribution systems configuration and optimisation. Operations and asset management: Site Inspections and standards. Guest satisfaction and rewards program – FAM analysis and partnership with clients and suppliers/Compset. Profit and loss analysis. Refurbishment assessment, F&B, Spa and wellness. Sustainability. Reservation services follow up + Luxury client advisory services."
+          },
+          {
+            "title": "Director Of Sales - Leisure And Consortia - U.K. , U.S. And South America",
+            "organization": "Six Senses London",
+            "date_range": "Sep 2025 - Present • 5 months",
+            "location": "London Area, United Kingdom",
+            "description": "Looking forward to supporting the U.K. and America geographical luxury feeder markets and partners."
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://uk.linkedin.com/in/marco-orru-01a87217"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jatin Shastri",
+      "title": "Director of Marketing and Communications",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/jatin-shastri/",
+      "email": "jatin.shastri@sixsenses.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Official media contact from press release",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing, communications, and digital guest journey; directly influences guest messaging, CRM, and potential AI-driven personalization/booking automation.",
+      "contact_evidence_summary": "Title and direct email confirmed in official Six Senses press release for hotel opening; multiple news articles on leadership team; LinkedIn profile exists.",
+      "evidence": [
+        {
+          "source_url": "https://www.sixsenses.com/en/corporate/media-center/press-releases/2026/six-senses-london-opens-at-the-whiteley/",
+          "source_type": "official_site",
+          "quote_or_fact": "Media contacts: Jatin Shastri Director of Marketing & Communications Six Senses London jatin.shastri@sixsenses.com"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Jatin Shastri, director of marketing and communications"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/announcement/41013929/six-senses-london-announces-opening-date-and-founding-leadership-team",
+          "source_type": "news",
+          "quote_or_fact": "Jatin Shastri, Director of Marketing and Communications"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Nick Yarnell",
+      "title": "General Manager & Regional General Manager Europe",
+      "company": "Six Senses London",
+      "linkedin_url": "https://uk.linkedin.com/in/nick-yarnell-2a944a8",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000; reservations-london@sixsenses.com (official from site); route via GM office",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees entire property and European region; ultimate decision maker on commercial strategy, revenue-tech, reservations automation, and guest experience systems.",
+      "contact_evidence_summary": "Featured as GM and Regional GM in all opening press, IHG podcasts, BoutiqueHotelier, The Caterer, and LinkedIn; strong public profile.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Leading the property is general manager Nick Yarnell, whose career spans more than 30 years... currently serves as regional general manager for Europe"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/nick-yarnell-2a944a8",
+          "source_type": "linkedin",
+          "quote_or_fact": "Regional General Manager - Six Senses London"
+        },
+        {
+          "source_url": "https://www.sixsenses.com/en/hotels-resorts/europe/united-kingdom/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations-london@sixsenses.com | +44 20 3278 8000"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/nick-yarnell-2a944a8",
+        "display_name": "Nick Yarnell",
+        "headline": "General Manager at Six Senses London | Award winning Hotelier | Pillow fanatic",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Specialties: Multicultural operator with over 30 years proven track record of success opening and running luxury properties on 4 continents, including long stints in 4 hotels on the 50 Best list.\n\nTotal Experience: 28 years and 6 months",
+        "experience": [
+          {
+            "title": "Reception Manager",
+            "organization": "Connaught Hotel",
+            "date_range": "Jan 1992 - Jan 1998",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Housekeeping",
+            "organization": "Four Seasons Los Angeles at Beverly Hills",
+            "date_range": "Jan 1999 - Jan 2002",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Ast. Dir Housekeeping",
+            "organization": "Four Sseasons Beverly Hills at Los Angeles",
+            "date_range": "Jan 1999 - Jan 2002",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms",
+            "organization": "Four Seasons Hotel Maldives",
+            "date_range": "Jan 1999 - Jun 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms Bali",
+            "organization": "Four Seasons Hotel Maldives",
+            "date_range": "Jan 2005 - Jan 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms",
+            "organization": "Four Seasons Hotel George V",
+            "date_range": "Jul 2007 - Nov 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Four Seasons Hotel Marrakech",
+            "date_range": "Dec 2010 - Sep 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Regional General Manager",
+            "organization": "Six Senses Hotels Resorts Spas",
+            "date_range": "Sep 2014 - Jan 2021",
+            "location": "London, England, United Kingdom",
+            "description": "Six Senses London will open with 110 guest rooms and suites and 14 branded residences offering access to the hotel’s facilities and all the privileges that come with a Six Senses home, including bespoke interior design, concierge service, dining, housekeeping, and wellness programming. There’s a cozy lobby bar and lounge (for talking to friends or the plants), an all-day dining restaurant with an open kitchen, and a seating area in the courtyard. In a space reminiscent of an… Show more"
+          },
+          {
+            "title": "Regional General Manager",
+            "organization": "Six Senses Hotels Resorts Spas",
+            "date_range": "Sep 2014 - Jan 2021",
+            "location": "Portugal",
+            "description": "Six Senses Douro Valley GM; Regional GM for Europe"
+          },
+          {
+            "title": "COO General Manager",
+            "organization": "Discovery Land Company",
+            "date_range": "Jan 2021 - Jan 2023",
+            "location": "Melides, Setúbal, Portugal",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Six Senses London",
+            "date_range": "Jan 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Six Senses London will open with 109 guest rooms and suites and 14 branded residences offering access to the hotel’s facilities and all the privileges that come with a Six Senses home, including bespoke interior design, concierge service, dining, housekeeping, and wellness programming. There’s a cozy lobby bar and lounge (for talking to friends or the plants), an all-day dining restaurant with an open kitchen, and a seating area in the courtyard. Six Senses Spa will mirror the different energies of the city life, from the sensory stimulation and movement of the street to the stillness and calm of a quiet café or park. Highlights include 3,500 square feet (325 square meters) dedicated to fitness, a 65-foot (20-meter) indoor swimming pool, the Alchemy Bar, and a relaxation room with vaulted ceilings. On the second floor, residents and members will access a new kind of social and wellness club featuring a central bar and lounge, co-working spaces, a restaurant, and wellness and treatment rooms. It will offer pioneering programming to encourage growth, reflection and reconnection."
+          }
+        ],
+        "education": [
+          {
+            "school": "The London School of Economics and Political Science (LSE)",
+            "degree_or_field": "B.Sc. Econ, International History",
+            "date_range": "1987 - 1990"
+          },
+          {
+            "school": "The London School of Economics and Political Science (LSE)",
+            "degree_or_field": "Bachelor's degree, International Relations and Affairs, 2:1",
+            "date_range": "1987 - 1990"
+          },
+          {
+            "school": "University of West London",
+            "degree_or_field": "Diploma, Hotel and Tourism",
+            "date_range": "1992 - 1995"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "General Management Certification. (PDP)",
+            "date_range": "1995 - 1995"
+          }
+        ],
+        "skills": [
+          "multicultural",
+          "running",
+          "luxury",
+          "hotels",
+          "hotel",
+          "design",
+          "housekeeping",
+          "wellness",
+          "programming",
+          "spa",
+          "stimulation",
+          "fitness",
+          "relaxation",
+          "treatment",
+          "director",
+          "interior design"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Ellie Mainwaring",
+      "title": "Global Senior Manager, Brand PR (Luxury & Lifestyle Brands)",
+      "company": "IHG Hotels & Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/elliemainwaring",
+      "email": "ellie.mainwaring@ihg.com",
+      "email2": null,
+      "phone": "+44 7823 372559",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Brand-level PR and communications for Six Senses luxury properties including London; influences guest messaging and brand digital strategy across the portfolio.",
+      "contact_evidence_summary": "Named as media contact in official Six Senses London opening press release with direct email and phone from IHG sources; covers the property.",
+      "evidence": [
+        {
+          "source_url": "https://www.sixsenses.com/en/corporate/media-center/press-releases/2026/six-senses-london-opens-at-the-whiteley/",
+          "source_type": "official_site",
+          "quote_or_fact": "Ellie Mainwaring: Global Senior Manager, Brand PR (Luxury & Lifestyle Brands), IHG Hotels & Resorts ellie.mainwaring@ihg.com"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Leadership team announcements tied to IHG/Six Senses brand support"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/elliemainwaring",
+        "display_name": "Ellie Mainwaring",
+        "headline": "Global Luxury Communications at IHG, working across Six Senses, Regent, InterContinental, Kimpton and Vignette Collection",
+        "location": "Fairford, England, United Kingdom (GB)",
+        "about": "Global luxury communications strategist. Ex Dyson, Harrods and now with IHG Hotels &…",
+        "experience": [
+          {
+            "title": "Senior Account Executive",
+            "organization": "Silver Ball PR",
+            "date_range": "Dec 2010 - Nov 2015",
+            "location": null,
+            "description": "Supporting accounts including Cheltenham Fashion Week, The Vineyard Group, Moorish Humous and RHS Malvern Spring Festival. The role involved managing many areas of PR activation with key tasks including: • Media Relations • Client Relations • Copywriting in all forms (e.g. press releases, social media content, blog posts, editorial etc.) • Social Media Management • Brainstorming for fresh and creative campaign ideas • Event Management • Networking & Hospitality • Photography & Videography • Cutting Compilation • Utilising Adobe InDesign and Photoshop to produce client collateral"
+          },
+          {
+            "title": "PR Marketing",
+            "organization": "Beards",
+            "date_range": "Jun 2013 - Nov 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "News Desk",
+            "organization": "Gloucestershire Media",
+            "date_range": "Feb 2014 - Feb 2014",
+            "location": "Cheltenham",
+            "description": null
+          },
+          {
+            "title": "Feature Writer Columnist",
+            "organization": "COTSWOLD STYLE LIMITED",
+            "date_range": "Aug 2014 - Jul 2019",
+            "location": "Cheltenham",
+            "description": "Founding and writing the ‘Castaway Collection’ column and opening ‘Real Life’, 5-page spread interview feature. Pieces appear across multiple titles within the two magazine groups including Cotswold Style and Live 24-Seven magazines. Previous examples have included: • Tim Henman, Former UK No.1 Tennis Player • Sarah Willingham, Food Entrepreneur & Dragon on BBC Dragon’s Den • Jo Malone MBE, Founder of Jo Malone London and Jo Loves • Lorraine Kelly, Breakfast Television Presenter • Jay Rayner, The Observer Food Critic & Television Foodie • Tiffanie Darke, Creative Director Sunday Times Style • Sophie Ellis-Bextor, Musician & Model • Antonio Carluccio OBE OMRI, television chef and founder of Carluccio’s restaurant chain"
+          },
+          {
+            "title": "Account Manager",
+            "organization": "Silver Ball PR",
+            "date_range": "Jan 2016 - Feb 2017",
+            "location": null,
+            "description": "Management of lifestyle accounts including Deliveroo, Bottlegreen, Giffords Circus, Coppa Club, Three Counties, Swire Hotels. Key responsibilities included: • Planning and implementing impactful PR campaigns • Developing PR strategies from formulation through to execution • Identifying and securing varied and effective media opportunities • Being on hand as the key client point of contact • Supervising junior team activity and workload • Compiling new business proposals and pitches"
+          },
+          {
+            "title": "Account Manager, Consumer Lifestyle",
+            "organization": "Speed Communications",
+            "date_range": "Feb 2017 - Feb 2018",
+            "location": "Bristol, United Kingdom",
+            "description": "• Client & media relations • Ensuring seamless delivery of campaigns • Management of junior team members, acting as the central lynchpin for the account team • Overseeing and encouraging team development and progression, supporting and guiding growth • Media listening and awareness of news hijacking opportunities • Developing and managing compelling content creation that’s engaging and on-brand • Working with senior teams to develop strong, well-researched and creative proposals • Presenting and ‘selling’ proposals and plans to clients with confidence, energy and conviction • Contributing to new business pitches"
+          },
+          {
+            "title": "Account Manager",
+            "organization": "Bloxham PR",
+            "date_range": "Feb 2018 - Nov 2018",
+            "location": "Maisemore, Gloucestershire",
+            "description": "Heading up the agencies lifestyle division, representing a varied client portfolio of luxury fashion, beauty, events and leisure clients with responsibility for planning and executing impactful multi-channel PR campaigns. The role included, but was not limited to: • The development and ownership of multi-layered PR strategy and brand storytelling - including media events, experiential, product launches, brand partnerships, influencer engagement, events and social media • Owning and nurturing senior level media and digital influencer relationships. Securing strong digital and print press coverage across target media segments, encompassing features, profile placement, thought leader comment, news and product placements • Leading junior team members, setting high standards of excellence and ensuring consistent alignment to strategy and objectives • Inspiring innovative and engaging social media campaigns, influencer outreach and collaboration activity, to facilitate effective execution from the team • Developing strong collaborative client relationships with all key stakeholders"
+          },
+          {
+            "title": "Senior Account Manager",
+            "organization": "Bloxham PR",
+            "date_range": "Nov 2018 - Jul 2019",
+            "location": "Maisemore, Gloucestershire",
+            "description": null
+          },
+          {
+            "title": "Global Communications Lead, Hair Care",
+            "organization": "Dyson",
+            "date_range": "Jun 2019 - Jul 2022",
+            "location": "Malmesbury, Wiltshire",
+            "description": "Global communications lead for Dyson Hair Care. Conceptualising, developing and executing integrated Global communications strategies that hero category credentials to position Dyson as the No.1 beauty technology portfolio globally. Responsibilities focus on strategically conceptualising, driving and delivering creative, high impact multi-channel communications campaigns, together with leading sub-categories and NPD launches."
+          },
+          {
+            "title": "Mentor Creative Mentor Network",
+            "organization": "Soho House & Co",
+            "date_range": "Sep 2021 - May 2023",
+            "location": "Oxfordshire, England, United Kingdom",
+            "description": "Providing young people with supportive careers guidance as part of a network of leading professionals from across the creative industries. The scheme brings together a dynamic community of mentors from varying paths and platforms. Creative Mentor Network vision: a society in which every young person can achieve their creative potential, irrespective of their start in life, opening creative industries to everyone. Training has encompassed an exploration of the barriers to entry for young people, unpacking theories surrounding diversity and inclusion, and exploring coaching strategies. www.creativementornetwork.org"
+          },
+          {
+            "title": "Global Lead Content Editor",
+            "organization": "Dyson",
+            "date_range": "Jul 2022 - May 2023",
+            "location": "Global",
+            "description": "Leading Dyson's Global content agenda. With a specific focus on editorial, social and CRM, the role spearheads a new content model for Dyson, leading an agile, responsive and insights informed team to deliver high frequency, quality story-telling which drives engagement across all platforms. An extension of the Communications team, operating as a publisher/journalist, plugged in to cross functional teams (Marketing, Creative, Insights, Experience, Direct, Communications, Retail and beyond) to define and deliver Dyson’s editorial strategy and execute content plans. Working hand in hand with Dyson’s 35+ Markets to deliver inspirational content against a tightly defined set of global guidelines whilst leveraging regional and cultural insight. Responsibilities: • Ownership of Dyson’s global editorial calendar, ensuring synergy across all channels • Seeking compelling stories for Dyson, bringing them to life through varied content types • Identification and ownership of content partnerships • Integration of key narratives within NPD, evergreen and seasonal moments • Cross functional stakeholder integration to develop scroll-stopping content • Continually evolving Dyson's editorial approach based on key learnings and insights • Shaping the Dyson tone of voice and identity, setting the standards for premium execution • Upholding Dyson’s best practices in grammar, messaging, writing and style • Setting global guidelines and frameworks for Market execution • Defining formats, content stories and executions for emerging social channels expanding reach and engagement"
+          },
+          {
+            "title": "Global Senior Communications Manager, Luxury Lifestyle",
+            "organization": "IHG Hotels & Resorts",
+            "date_range": "May 2023 - Present",
+            "location": "Global",
+            "description": "Conceptualising and executing PR plans for IHG’s Luxury & Lifestyle Collection, including InterContinental, Kimpton, Regent, Six Senses, Hotel Indigo, and Vignette Collection."
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/elliemainwaring"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Astrid Deppisch",
+      "title": "Director of Revenue",
+      "company": "Six Senses London",
+      "linkedin_url": "https://uk.linkedin.com/in/astrid-deppisch",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Route via reservations-london@sixsenses.com or main hotel line +44 20 3278 8000; ask for Revenue department",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Owns revenue management strategy; primary decision maker for revenue-tech, pricing automation, and booking optimization tools.",
+      "contact_evidence_summary": "Named Director of Revenue (CRME) in all major leadership announcements (Jan 2026); strong LinkedIn profile confirming role at property.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Astrid Deppisch, director of revenue"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/astrid-deppisch",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Revenue at Six Senses London, CRME"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/announcement/41013929/six-senses-london-announces-opening-date-and-founding-leadership-team",
+          "source_type": "news",
+          "quote_or_fact": "Astrid Deppisch, Director of Revenue"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Stefan Müller",
+      "title": "Director of Sales and Marketing",
+      "company": "Six Senses London",
+      "linkedin_url": "https://uk.linkedin.com/in/stefan-müller-82a9b54",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000; reservations-london@sixsenses.com; sales inquiries via main line",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales, marketing, distribution channels, and partnerships; key stakeholder for booking automation, revenue partnerships, and guest acquisition tech.",
+      "contact_evidence_summary": "Confirmed in leadership team announcements across multiple outlets; LinkedIn profile active with role at Six Senses London.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Stefan Mueller, director of sales and marketing"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/stefan-müller-82a9b54",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales & Marketing at Six Senses London"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/six-senses-london-announces-leadership-team",
+          "source_type": "news",
+          "quote_or_fact": "Stefan Mueller, director of sales and marketing"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/stefan-müller-82a9b54",
+        "display_name": "Stefan Müller",
+        "headline": "Director of Sales & Marketing at Six Senses London",
+        "location": "London, England, United Kingdom",
+        "about": "Over 30 year's experiences in the 5 - star luxury hotel industry. Very customer focused to exceed the expectations of the clients and to guarantee a positive outcome in revenue and awareness for the hotel. Strong and motivating leader and team player with the focus to achieve always the best possible results for the company, but as well clients and partners. Energetic, innovative, positive, enthusiastic person with very strong commercial skills.\n\nTotal Experience: 33 years and 6 months",
+        "experience": [
+          {
+            "title": "Apprenticeship As A Hotel Qualified Hotelier",
+            "organization": "Hotel National",
+            "date_range": "Sep 1991 - Sep 1994",
+            "location": "Bamberg",
+            "description": "Study Hotel Business"
+          },
+          {
+            "title": "Commis De Rang Demi Chef De Rang",
+            "organization": "Rocco Forte",
+            "date_range": "Oct 1994 - Aug 1995",
+            "location": "Nuremberg",
+            "description": null
+          },
+          {
+            "title": "Community Service",
+            "organization": "Marianum / Caritas",
+            "date_range": "Sep 1995 - Aug 1996",
+            "location": "Munich",
+            "description": "Charity Work"
+          },
+          {
+            "title": "Commis De Rang Chef De Rang",
+            "organization": "Hotel Königshof",
+            "date_range": "Sep 1996 - Feb 1999",
+            "location": "Munich",
+            "description": null
+          },
+          {
+            "title": "Demi Chef De Rang Chef De Rang",
+            "organization": "Hotel Rafael / Mandarin Oriental",
+            "date_range": "Mar 1999 - Dec 2000",
+            "location": "Munich",
+            "description": null
+          },
+          {
+            "title": "Head Waiter",
+            "organization": "Mandarin Oriental",
+            "date_range": "Jan 2001 - Apr 2002",
+            "location": "Munich",
+            "description": null
+          },
+          {
+            "title": "Assistant Restaurant Manager",
+            "organization": "Mandarin Oriental",
+            "date_range": "May 2002 - Feb 2003",
+            "location": "Munich",
+            "description": null
+          },
+          {
+            "title": "Banqueting Sales Manager",
+            "organization": "Mandarin Oriental",
+            "date_range": "Mar 2003 - Jan 2005",
+            "location": "Munich",
+            "description": null
+          },
+          {
+            "title": "Sales Manager Senior Sales Manager - All Market Segments",
+            "organization": "Mandarin Oriental",
+            "date_range": "Feb 2005 - Sep 2007",
+            "location": "Munich",
+            "description": null
+          },
+          {
+            "title": "Sales Manager Senior Sales Manager - Corporate",
+            "organization": "Mandarin Oriental, Hyde Park London",
+            "date_range": "Sep 2007 - Aug 2009",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "Mandarin Oriental Hyde Park, London",
+            "date_range": "Sep 2009 - Mar 2011",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Excelsior Hotel Ernst",
+            "date_range": "Mar 2011 - Jun 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Excelsior Hotel Ernst",
+            "date_range": "Jul 2013 - Dec 2016",
+            "location": "Cologne Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Baglioni Hotel London",
+            "date_range": "Jan 2017 - Jan 2019",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Shangri-La The Shard, London",
+            "date_range": "Jan 2019 - Jan 2024",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Six Senses London",
+            "date_range": "Jan 2024 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "luxury",
+          "hotel",
+          "commercial",
+          "director",
+          "sales",
+          "marketing",
+          "design",
+          "housekeeping",
+          "wellness",
+          "programming",
+          "spa",
+          "fitness",
+          "relaxation",
+          "treatment",
+          "team player",
+          "interior design",
+          "sales manager",
+          "charity work"
+        ],
+        "activity_themes": [
+          "Six Senses London pre-opening and March 2026 launch",
+          "Luxury hotel openings and announcements in London",
+          "Hospitality leadership appointments and executive transitions",
+          "Wellness, spa and fitness club developments",
+          "Mayfair Times Community Awards in hospitality",
+          "Partnerships and pop-ups at luxury properties"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/stefan-müller-82a9b54"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Marina Georgopoulou",
+      "title": "Reservations Manager",
+      "company": "Six Senses London",
+      "linkedin_url": "https://uk.linkedin.com/in/marina-georgopoulou-423460138",
+      "email": "reservations-london@sixsenses.com",
+      "email2": null,
+      "phone": "+44 20 3278 8000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations-london@sixsenses.com; main line +44 20 3278 8000 (Reservations & Revenue department)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly manages reservations processes; ideal stakeholder for AI booking automation, channel management, and guest communication tools.",
+      "contact_evidence_summary": "Role at Six Senses London confirmed via LinkedIn and team hiring context under Director of Revenue; department email provides direct route.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/marina-georgopoulou-423460138",
+          "source_type": "linkedin",
+          "quote_or_fact": "Reservations Manager at Six Senses London"
+        },
+        {
+          "source_url": "https://www.sixsenses.com/en/hotels-resorts/europe/united-kingdom/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations-london@sixsenses.com tied to Reservations & Revenue"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/marina-georgopoulou-423460138",
+        "display_name": "Marina Georgopoulou",
+        "headline": "Reservations Manager | Pre-Opening Team Six Senses London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Meticulous Reservations Manager with a demonstrated history of working in the hospitality industry. Skilled in customer service and satisfaction. Strong professional with a Master's degree focused in Tourism and Travel Services Management. Fluent in English, Spanish and French.\n\nTotal Experience: 10 years and 6 months",
+        "experience": [
+          {
+            "title": "Assistant Service Manager",
+            "organization": "ERGON RESTAURANT",
+            "date_range": "Mar 2014 - Oct 2014",
+            "location": "Skiathos, Greece",
+            "description": null
+          },
+          {
+            "title": "Head Waitress",
+            "organization": "ERGON FOODS",
+            "date_range": "Nov 2014 - Sep 2015",
+            "location": "Thessaloniki, Greece",
+            "description": null
+          },
+          {
+            "title": "Head Waitress",
+            "organization": "Pier One",
+            "date_range": "Oct 2015 - Mar 2016",
+            "location": "Limassol, Cyprus",
+            "description": null
+          },
+          {
+            "title": "Front Office And Guest Relations Manager",
+            "organization": "Madraki Village Boutique Hotel",
+            "date_range": "Apr 2016 - Aug 2020",
+            "location": "Greece, Skiathos",
+            "description": null
+          },
+          {
+            "title": "Reservations Specialist",
+            "organization": "The Londoner Hotel",
+            "date_range": "Sep 2021 - Aug 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "The Londoner Hotel",
+            "date_range": "Sep 2022 - Jul 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Nobu Hotel London Portman Square",
+            "date_range": "Jul 2024 - Jul 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Six Senses London",
+            "date_range": "Jun 2025 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Ioannina",
+            "degree_or_field": "Bachelor of Education (B.Ed.), Ancient/Classical Greek Language and Literature",
+            "date_range": "2008 - 2012"
+          },
+          {
+            "school": "University of West Attica",
+            "degree_or_field": "Master's degree, Tourism and Travel Services Management",
+            "date_range": "2016 - 2018"
+          },
+          {
+            "school": "University of the Aegean",
+            "degree_or_field": "Master of Science - MS, Innovation and Entrepreneurship in Tourism",
+            "date_range": "2016 - 2018"
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "customer service",
+          "fluent english",
+          "front office",
+          "reservations",
+          "hospitality",
+          "tourism",
+          "management",
+          "fluent",
+          "spanish"
+        ],
+        "activity_themes": [
+          "Six Senses London pre-opening and launch",
+          "Luxury hotel and restaurant openings in London",
+          "Hospitality team leadership and recruitment",
+          "Sustainability roles in Six Senses properties",
+          "Industry events including ILTM Cannes"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Etienne Romestaing",
+      "title": "Director of Rooms",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/%C3%A9tienne-romestaing-1668071b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000; reservations-london@sixsenses.com (primary route for rooms/reservations team)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees rooms division including reservations, front office, and guest journey systems; direct influence on reservations automation and PMS/tech stack.",
+      "contact_evidence_summary": "Listed in founding leadership team in BoutiqueHotelier, HospitalityNet, and The Caterer articles (Jan 2026).",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Etienne Romestaing, director of rooms"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/announcement/41013929/six-senses-london-announces-opening-date-and-founding-leadership-team",
+          "source_type": "news",
+          "quote_or_fact": "Etienne Romestaing, Director of Rooms"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/%C3%A9tienne-romestaing-1668071b",
+        "display_name": "Étienne Romestaing",
+        "headline": "Director Of Rooms at Six Senses London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 1 year and 1 month",
+        "experience": [
+          {
+            "title": "Director Of Rooms",
+            "organization": "Six Senses London",
+            "date_range": "Jan 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Company: 201-500 employees • Founded 2025 • Privately Held • Hospitality\nDepartment: Operations • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Lycée aux Lazaristes - Lyon",
+            "degree_or_field": "baccalauréat",
+            "date_range": "2002 - 2005"
+          },
+          {
+            "school": "Institut d'Economie scientifique et de Gestion",
+            "degree_or_field": "Master of Science (MSc)",
+            "date_range": "2005 - 2010"
+          },
+          {
+            "school": "St. Francis Xavier University",
+            "degree_or_field": null,
+            "date_range": "2008 - 2009"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Master’s Degree",
+            "date_range": "2014 - 2015"
+          }
+        ],
+        "skills": [
+          "director"
+        ],
+        "activity_themes": [
+          "Six Senses London opening on March 1 2026",
+          "Luxury hospitality leadership team announcements",
+          "Career transitions in Six Senses properties",
+          "Hospitality industry recognitions and awards",
+          "Networking in high-end hotel management"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/thecaterer_six-senses-london-announces-leadership-team-activity-7420442731455549440-T5Hh",
+          "https://www.linkedin.com/posts/six-senses-london-confirms-opening-date-and-activity-7417971208010235904-8nCT",
+          "https://www.linkedin.com/posts/kajolkamble_sixsenseslondon-sixsenses-ihg-activity-7417662724941291520-uJy2",
+          "https://www.linkedin.com/posts/ugne-radzeviciute-61744616b_sixsenseslondon-sixsenses-ihg-activity-7417658682567450625-zEqj",
+          "https://www.linkedin.com/posts/étienne-romestaing-1668071b_sixsenseslondon-sixsenses-ihg-activity-7417582436336685057-b4Iw"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Anabela Teixeira",
+      "title": "Director of Revenue Management & Distribution",
+      "company": "Six Senses",
+      "linkedin_url": "https://www.linkedin.com/in/anabela-teixeira-85748ba",
+      "email": "anabela.teixeira@sixsenses.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Corporate: mail@sixsenses.com; +66 2631 9777",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Brand-level revenue management and distribution for Six Senses properties including London; influences group-wide revenue-tech and automation standards.",
+      "contact_evidence_summary": "Brand role overlapping with London property confirmed via LinkedIn and Six Senses career/leadership context.",
+      "evidence": [
+        {
+          "source_url": "https://careers.ihg.com/",
+          "source_type": "other",
+          "quote_or_fact": "Director of Revenue Management & Distribution roles at Six Senses brand level"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anabela-teixeira-85748ba",
+        "display_name": "Anabela Teixeira",
+        "headline": "Director of Revenue Management | Business Analyst",
+        "location": "Lisboa, Lisbon, Portugal (PT)",
+        "about": "A fascinating and ever-evolving challenge, a role that will never be static…  With a deep understanding of all areas of a hotel operation, especially all of the property’s revenue generating functions, highly motivated, team player and passionate about moving the business forward, working in close collaboration with GM, Division and Department Heads.   \n\nTotal Experience: 24 years and 3 months",
+        "experience": [
+          {
+            "title": "Floor Supervisor",
+            "organization": "Four Seasons Hotel Ritz Lisbon",
+            "date_range": "Oct 2001 - Feb 2003",
+            "location": "Lisbon Area, Portugal",
+            "description": null
+          },
+          {
+            "title": "Reservations Agent",
+            "organization": "Four Seasons Hotel Ritz Lisbon",
+            "date_range": "Feb 2003 - Jul 2004",
+            "location": "Lisbon Area, Portugal",
+            "description": null
+          },
+          {
+            "title": "Sales Marketing Assistant",
+            "organization": "Four Seasons Hotel Ritz Lisbon",
+            "date_range": "Jul 2004 - Apr 2012",
+            "location": "Lisbon Area, Portugal",
+            "description": "Assisting Sales Managers, Director of Sales & Marketing and General Manager;"
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Four Seasons Hotel Ritz Lisbon",
+            "date_range": "Apr 2012 - Sep 2022",
+            "location": "Lisbon, Portugal",
+            "description": "Produce property-level business reporting of all relevant performance KPIs on a daily, weekly, monthly and quarterly basis. • Provide forecast results, variances and budget comparisons • Analyze overall monthly hotel performance and provide summary report with strategies to increase performance • Competitor analysis, market • Inventory availability, pricing and control • Monitor overbooking levels and opportunities • Continually monitor revenue pace; respond to unexpected variances • Perform competitive benchmark studies and follow market trends • Create and maintain a 12-month rolling demand calendar • Assess, analyze and price group business strategies, including function space and group room contribution to food and beverage • Conduct quarterly property performance review with Area Director of Marketing and Revenue • Evaluate performance of distribution partners and contracted rates (OTA, transient, leisure, tour operator, corporate, consortia, crew, groups, etc.) • Promote and measure upsell revenue"
+          },
+          {
+            "title": "Director Revenue Management And Distribution",
+            "organization": "Six Senses Hotels Resorts Spas",
+            "date_range": "Oct 2022 - Present",
+            "location": "Lamego, Viseu, Portugal",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Escola de Hotelaria e Turismo do Estoril",
+            "degree_or_field": "High School, Hotel Management",
+            "date_range": null
+          },
+          {
+            "school": "Four Seasons Hotels & Resorts",
+            "degree_or_field": "Revenue Management certification",
+            "date_range": "2014 - 2014"
+          },
+          {
+            "school": "Four Seasons Hotels and Resorts",
+            "degree_or_field": "Marketing Conference 2019, Raising the BAR, EMEA and APAC conference in Dubai",
+            "date_range": "2019 - 2019"
+          }
+        ],
+        "skills": [
+          "team player",
+          "revenue management",
+          "hotel",
+          "operation",
+          "property",
+          "collaboration",
+          "director",
+          "management",
+          "distribution",
+          "reporting",
+          "budget",
+          "analysis",
+          "inventory",
+          "pricing",
+          "food",
+          "marketing",
+          "rates",
+          "reservations",
+          "sales"
+        ],
+        "activity_themes": [
+          "Six Senses Douro Valley seasonal events and harvest (vindimas)",
+          "Luxury weddings and destination celebrations in Douro Valley",
+          "Sustainability, wellness and organic garden experiences",
+          "Hotel awards including Michelin Keys and World's 50 Best",
+          "New Six Senses property openings and developments",
+          "Exclusive experiences such as garden parties, supercars and secret picnics"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/anabela-teixeira-85748ba"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Ruairi McDowell",
+      "title": "Chief Concierge",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/ruairi-mcdowell-362930a6",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000; reservations-london@sixsenses.com for guest experience routes",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads guest experience and personalized service; influences guest messaging, CRM, and concierge tech/automation tools.",
+      "contact_evidence_summary": "Confirmed as Chief Concierge in founding leadership team press and news articles.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Ruairi McDowell, chief concierge"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/announcement/41013929/six-senses-london-announces-opening-date-and-founding-leadership-team",
+          "source_type": "news",
+          "quote_or_fact": "Ruairi McDowell, Chief Concierge"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ruairi-mcdowell-362930a6",
+        "display_name": "Ruairi McDowell",
+        "headline": "Chief Concierge at Six Senses London, The Whiteley.",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 16 years and 2 months",
+        "experience": [
+          {
+            "title": "Porter Supervisor",
+            "organization": "The Royal National Hotel",
+            "date_range": "Jan 2004 - Jan 2005",
+            "location": null,
+            "description": "Department: Operations • Level: Specialist"
+          },
+          {
+            "title": "Porter",
+            "organization": "Millennium Gloucester Hotel",
+            "date_range": "Jan 2005 - Jan 2006",
+            "location": null,
+            "description": "Department: Trades • Level: Specialist"
+          },
+          {
+            "title": "Porter",
+            "organization": "Millennium Knightsbridge Hotel",
+            "date_range": "Nov 2010 - Sep 2012",
+            "location": "Knightsbridge, London",
+            "description": "Department: Trades • Level: Specialist"
+          },
+          {
+            "title": "Junior Concierge Luggage Porter",
+            "organization": "Millennium Mayfair Hotel",
+            "date_range": "Sep 2012 - Mar 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Concierge",
+            "organization": "ME London Hotel",
+            "date_range": "Mar 2013 - Aug 2013",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Assistant Head Concierge Duty Manager",
+            "organization": "ME London Hotel",
+            "date_range": "Aug 2013 - Jul 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Concierge",
+            "organization": "ME London Hotel",
+            "date_range": "Aug 2017 - Aug 2019",
+            "location": null,
+            "description": "Department: Customer Service • Level: Head"
+          },
+          {
+            "title": "Head Concierge",
+            "organization": "The Westminster, London",
+            "date_range": "Jan 2020 - Jun 2022",
+            "location": null,
+            "description": "Department: Customer Service • Level: Head"
+          },
+          {
+            "title": "Head Concierge",
+            "organization": "Kimpton Fitzroy London",
+            "date_range": "May 2022 - Jan 2025",
+            "location": "Russell Square, London",
+            "description": "Department: Customer Service • Level: Head"
+          },
+          {
+            "title": "Chief Concierge",
+            "organization": "Six Senses London",
+            "date_range": "Jan 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Customer Service • Level: C-Level"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Hertfordshire",
+            "degree_or_field": "Bachelor of Business Administration (BBA), Business Administration and Management, General",
+            "date_range": "2007 - 2011"
+          },
+          {
+            "school": "The London Oratory School",
+            "degree_or_field": "A-Levels, GCSE & A Levels",
+            "date_range": "1998 - 2005"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [
+          "Gratitude for hospitality experiences at Six Senses properties",
+          "HR hiring and coordinator roles in luxury hotels",
+          "Concierge of the Year Awards and industry recognition",
+          "Excitement for new fitness facility openings at The Whiteley",
+          "Luxury hotel executive appointments and transitions",
+          "Colleague reflections and farewells from Kimpton Fitzroy London"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/i-am-incredibly-grateful-to-olesia-for-her-activity-7380274255952900096-x8pk",
+          "https://www.linkedin.com/posts/lucy-clamp-19004069_hr-coordinator-job-details-hotel-jobs-activity-7379125865449795584-YRXf",
+          "https://www.linkedin.com/posts/air-courier-international-ltd_conciergeawards-hospitality-aircourierinternational-activity-7378688056444219392-X3r7",
+          "https://www.linkedin.com/posts/ryan-muncey-108ba696_thirdspace-thewhiteley-fitnesscommunity-activity-7372194093755551744-Z6IX",
+          "https://www.linkedin.com/posts/boutique-hotelier_marie-charlotte-gauter-joins-admiralty-arch-activity-7370759412304732160-slt5",
+          "https://www.linkedin.com/posts/julia-mastrogiannaki-44055812_as-my-time-at-kimpton-fitzroy-london-comes-activity-7378812047008014336-BFo7"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Ido Shitrit",
+      "title": "Director of Engineering and Safety",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/ido-shitrit-cmgr-mcmi-cibse-ciwfm-tech-iosh-acieh-34a392141",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000; route via engineering/IT for systems",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees hotel systems, IT infrastructure, and digital tools; stakeholder for integration of new booking, revenue, or guest messaging platforms.",
+      "contact_evidence_summary": "Named in senior leadership team announcements across news outlets (BoutiqueHotelier, HospitalityNet).",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Ido Shitrit, director of engineering and safety"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/announcement/41013929/six-senses-london-announces-opening-date-and-founding-leadership-team",
+          "source_type": "news",
+          "quote_or_fact": "Ido Shitrit, Director of Engineering and Safety"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ido-shitrit-cmgr-mcmi-cibse-ciwfm-tech-iosh-acieh-34a392141",
+        "display_name": "Ido Shitrit",
+        "headline": "Director of Technical Services at The Whiteley & Six Senses",
+        "location": "United Kingdom (GB)",
+        "about": "I am an effective Director of Engineering with over nine years’ experience running maintenance operations and large projects at a leading London hotel. I am customer-focused and tenacious with experience across project management, team leadership, electrical engineering and waste management. I pride myself on excellent stakeholder management, workflow coordination and communication skills, managing large teams of internal staff and external contractors. I am an effective project leader and problem-solver with advanced programming skills and an ability to work with minimal direction to solve problems, resolve conflicts and respond to customer queries. Specialities: Project Management,Energy Management, Hotel Maintenance,Health and Safety & Compliance, Team Leadership, Customer Service.\n\nTotal Experience: 14 years and 2 months",
+        "experience": [
+          {
+            "title": "Mechanical Engineer",
+            "organization": "David Citadel",
+            "date_range": "Nov 2011 - Mar 2013",
+            "location": "Israel",
+            "description": "In this role, I managed the repairs and maintenance of plant rooms, including air handling units, cooling towers and pool plant rooms, managing stock and ordering relevant parts needed for continuity of service with minimum disruption. I assisted the lead engineer with laundry equipment maintenance upkeep including boilers, washing machines, tumble drivers and automated machines, ensuing everything ran in line with expectations."
+          },
+          {
+            "title": "Technical Quality Control Supervisor",
+            "organization": "Hotel Café Royal",
+            "date_range": "Mar 2013 - Jan 2015",
+            "location": "London, United Kingdom",
+            "description": "During this role, I maintained and updated an inventory of faults in the building, managing employees and contractors towards resolution at the highest standard, handing over rooms to hotel operations upon completion. I also developed the engineering department, negotiating a service agreement and supporting the Director of Engineering with the drafting and agreement of the yearly budget, ensuring sufficient flexibility for issue resolution."
+          },
+          {
+            "title": "Assistant Director Of Engineering",
+            "organization": "Hotel Café Royal",
+            "date_range": "Jan 2015 - Jul 2017",
+            "location": "London, United Kingdom",
+            "description": "In this role, I managed the day-to-day operation of the 160-room hotel including guest rooms, spa, public areas, meeting rooms and plant rooms, managing 20 engineers across various tasks and ensuring tasks were appropriately allocated. Highlights from my role include: • Delivered training and development programmes for the engineers, ensuring relevant regulations were met • Undertook waste management and delivered an energy-efficient approach to running of plants and equipment • Managed the engineering budget and stock required to run the hotel with minimal levels of disruption"
+          },
+          {
+            "title": "Project Manager",
+            "organization": "Hotel Café Royal",
+            "date_range": "Jul 2017 - Nov 2018",
+            "location": "London, United Kingdom",
+            "description": "During this role, I planned and executed a £7m refurbishment project, converting the ground floor of the hotel from a restaurant and reception space into a new grand modern lobby space and library, as well as conversion of a members lounge and smaller serving pantry into a new all-day dining restaurant space with a central show kitchen. Highlights from my role include: • Led the tender process, analysing various offers and choosing contractors best suited to delivering a complex project, ensuring minimal disruption to hotel guests during the renovation period, as the hotel remained open • Liaised with the mechanical, electrical, plumbing and lighting consultant as well as structural engineers, architects and interior designers, in order to ensure development progressed in line with overall strategic objectives • Managed health and safety site compliance, ensuring that the refurbishment met all relevant regulations"
+          },
+          {
+            "title": "Director Of Engineering",
+            "organization": "Hotel Café Royal",
+            "date_range": "Nov 2018 - Jun 2022",
+            "location": "London, United Kingdom",
+            "description": "In this role, I manage a team of 20 engineers at the hotel, with an overall £2.4m budget, which is currently running £35k under. I this role I support team training and development, negotiating a £30k annual budget specifically for training courses. Highlights from my role include: • Improved the health and safety compliance percentage significantly from 77% to 91%, within a one-year period • Led a £250k project to replace the lighting for all 160 guest rooms, retrofitting new energy-saving LED lighting • Oversaw a £350k styling and artwork project in the guest rooms and public areas, from purchasing to installation"
+          },
+          {
+            "title": "Director Of Engineering And Facilities",
+            "organization": "The NoMad Hotel London",
+            "date_range": "Jun 2022 - Apr 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Technical Services",
+            "organization": "The Whiteley London",
+            "date_range": "Apr 2023 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Technical Services At Six Senses London",
+            "organization": "Six Senses Hotels Resorts Spas",
+            "date_range": "Dec 2023 - Present",
+            "location": null,
+            "description": "I am happy to share that my role at The Whiteley Estate is expanding and I have joined the pre opening team for Six senses. I am so proud to work for companies like Savills and Six Senses who share very similar values."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "engineering",
+          "running",
+          "maintenance",
+          "operations",
+          "projects",
+          "hotel",
+          "management",
+          "leadership",
+          "electrical",
+          "workflow",
+          "coordination",
+          "contractors",
+          "programming",
+          "energy",
+          "health",
+          "safety",
+          "compliance",
+          "operation",
+          "spa",
+          "engineers",
+          "training",
+          "regulations",
+          "budget",
+          "lighting",
+          "styling",
+          "purchasing",
+          "renovation",
+          "mechanical",
+          "boilers",
+          "ran",
+          "project management",
+          "team leadership",
+          "electrical engineering",
+          "waste management",
+          "stakeholder management",
+          "communication skills",
+          "energy management",
+          "customer service",
+          "technical services",
+          "quality control",
+          "project manager",
+          "structural engineers",
+          "cooling towers",
+          "equipment maintenance"
+        ],
+        "activity_themes": [
+          "Motivational and insightful content sharing",
+          "Luxury hospitality recruitment and careers",
+          "Career transitions and departures in hotels",
+          "Team achievements and yearly reflections",
+          "Professional networking in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/ido-shitrit-cmgr-mcmi-cibse-ciwfm-tech-iosh-acieh-34a392141"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Nico Eden",
+      "title": "Director of Six Senses Place",
+      "company": "Six Senses London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 3278 8000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000; sixsensesplace.com membership inquiries",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads the private members club (Six Senses Place); responsible for membership bookings, CRM, community comms and guest experience tech.",
+      "contact_evidence_summary": "Named in expanded leadership team coverage in BoutiqueHotelier and related articles.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Nico Eden, director of Six Senses Place"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/six-senses-london-announces-leadership-team",
+          "source_type": "news",
+          "quote_or_fact": "Nico Eden, director of Six Senses Place, the brand's first private members club"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Taffryn Kinsey-Ellis",
+      "title": "Director of Wellness",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/taffryn-kinsey-ellis-cidesco-cibtac-honours-6862b5146",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees wellness and spa operations; influences guest experience, personalized messaging, and booking for wellness services (adjacent to guest comms tech).",
+      "contact_evidence_summary": "Confirmed Director of Wellness in multiple leadership team announcements (Jan 2026).",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Taffryn Kinsey-Ellis as director of wellness"
+        },
+        {
+          "source_url": "https://europeanspamagazine.com/six-senses-london-reveals-founding-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Director of wellness Taffryn Kinsey-Ellis"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/taffryn-kinsey-ellis-cidesco-cibtac-honours-6862b5146",
+        "display_name": "Taffryn Kinsey Ellis",
+        "headline": null,
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Six Senses London opening and founding leadership team",
+          "Gratitude, vision and leadership in luxury wellness brands",
+          "Sauna rituals, training and aufguss sessions",
+          "UK Spa Association networking events",
+          "Train the trainer milestones and mentoring",
+          "Team achievements, quality scores and operational excellence",
+          "Authentic leadership, empathy and resilience"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/taffryn-kinsey-ellis-cidesco-cibtac-honours-6862b5146_six-senses-london-confirms-opening-date-and-activity-7418069170384211968-QykM"
+        ],
+        "data_quality": "partial",
+        "caveats": "Profile text contains no explicit headline, about, experience or education sections. Output based on name, location, licenses/certifications, honors/awards and activity only; no job titles or employment history directly listed."
+      }
+    },
+    {
+      "full_name": "Ailsa Kerr",
+      "title": "Director of Programming",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/ailsa-kerr-experience",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Curates programming, talks, and workshops; ties to guest experience, community engagement, and messaging/CRM tools.",
+      "contact_evidence_summary": "Included in expanded senior leadership and programming team coverage from BoutiqueHotelier.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Ailsa Kerr, Director of Programming"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Antoine Gaillard",
+      "title": "Director of Food and Beverage",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/antoine-gaillard-9888aa62",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees F&B operations including dining reservations and guest comms; adjacent to overall guest experience and booking automation.",
+      "contact_evidence_summary": "Listed in senior leadership team in all major Jan 2026 announcements.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Antoine Gaillard, director of food and beverage"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/announcement/41013929/six-senses-london-announces-opening-date-and-founding-leadership-team",
+          "source_type": "news",
+          "quote_or_fact": "Antoine Gaillard, Director of Food and Beverage"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/antoine-gaillard-9888aa62",
+        "display_name": "Antoine Gaillard",
+        "headline": "Director of Food and Beverage Pre-Opening",
+        "location": "United Kingdom (GB)",
+        "about": "Inspired Leader // Entrepreneurial Spirit // People Focused Leadership\n\nTotal Experience: 14 years and 8 months",
+        "experience": [
+          {
+            "title": "Management Training",
+            "organization": "Hyatt Regency Indian Wells Resort & Spa",
+            "date_range": "Jun 2010 - May 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Assistant Manager",
+            "organization": "Pershing Hall",
+            "date_range": "Jun 2011 - Jun 2013",
+            "location": "Paris, Île-de-France, France",
+            "description": null
+          },
+          {
+            "title": "Beverage Manager",
+            "organization": "The Social Company (Jason Atherton Restaurants)",
+            "date_range": "Jun 2013 - Dec 2015",
+            "location": "Shanghai, China",
+            "description": "Menu creation, cost and margin management, recruitment, staff training, bar operation, event organization ."
+          },
+          {
+            "title": "Restaurant Bar Director",
+            "organization": "The Social Company (Jason Atherton Restaurants)",
+            "date_range": "May 2014 - Dec 2015",
+            "location": "Shanghai City",
+            "description": "Michelin starred restaurant group"
+          },
+          {
+            "title": "Assistant General Manager",
+            "organization": "The Social Company (Jason Atherton Restaurants)",
+            "date_range": "Jan 2016 - Jun 2017",
+            "location": "London, Royaume-Uni",
+            "description": "Michelin starred restaurant group - Opening of fine dining restaurant SOSHARU, a social japanese dining experience in London Restaurants & cocktail Bar"
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Dorchester Collection",
+            "date_range": "Jun 2017 - Jan 2018",
+            "location": "45 Park lane",
+            "description": "CUT by Wolfgang Puck"
+          },
+          {
+            "title": "Director Of Restaurant And Bar",
+            "organization": "Dorchester Collection",
+            "date_range": "Jan 2018 - Dec 2020",
+            "location": "London, United Kingdom",
+            "description": "CUT by Wolfgang Puck, Bar 45, Private Room, In room Dining within 45 Park Lane***** Luxury hotel - Dorchester Collection"
+          },
+          {
+            "title": "General Manager Multi Site",
+            "organization": "D&D London",
+            "date_range": "Apr 2021 - Nov 2021",
+            "location": "London",
+            "description": "New street warehouse complex New Street Grill/Old Bengal Bar/Fish Market/New St Wine. Contract intentionally ended due to relocation and parental leave."
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "Roanoke Hospitality LLC",
+            "date_range": "Apr 2022 - Nov 2022",
+            "location": "Chicago, Illinois, United States",
+            "description": "Director of group operations multi site - Roanoke Restaurant - Opening of Grill on 21 & F&B ops Lasalle Hotel***** Marriott Autograph Collection - Bandol restaurant Hyatt Centric - Circa 18M Revenue"
+          },
+          {
+            "title": "Director Of Food Beverage",
+            "organization": "Lake Shore Country Club",
+            "date_range": "Nov 2022 - Dec 2023",
+            "location": null,
+            "description": "Luxurious five Star Platinum Private Club, 3 Restaurants & Bars, 18 Holes Golf course, Rackets, Swimming Pool & Events Spaces."
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Six Senses Hotels Resorts Spas",
+            "date_range": "Dec 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Vatel France",
+            "degree_or_field": "Bachelor's degree, Luxury Hospitality and Catering Management",
+            "date_range": "2007 - 2010"
+          },
+          {
+            "school": "Saint Stanislas Private School",
+            "degree_or_field": "Baccalaureate, Sciences, Distinction",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "leadership",
+          "director",
+          "food",
+          "management",
+          "recruitment",
+          "training",
+          "operation",
+          "restaurants",
+          "japanese",
+          "operations",
+          "hotel",
+          "luxury",
+          "relocation",
+          "staff training",
+          "fine dining"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and execution",
+          "Six Senses team updates and transitions",
+          "Creative clarity and decision making",
+          "Talent development and leadership growth",
+          "Luxury hospitality industry events (ILTM)",
+          "Inter-property team movements and welcomes"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/antoine-gaillard-9888aa62"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Sarah Tromans",
+      "title": "Regional Director of Finance",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/sarahtromans",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Regional finance oversight with visibility into revenue performance, tech ROI, and commercial operations.",
+      "contact_evidence_summary": "Named in leadership team press as Regional Director of Finance.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Sarah Tromans, regional director of finance"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sarahtromans",
+        "display_name": "Sarah Tromans",
+        "headline": "Regional Director of Finance, Six Senses London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 29 years and 10 months",
+        "experience": [
+          {
+            "title": "Assistant Controller",
+            "organization": "Hilton London Metropole Hotel",
+            "date_range": "Jan 1996 - Jan 2000",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Finance Manager",
+            "organization": "Hilton London Paddington",
+            "date_range": "Jan 2000 - Jan 2003",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Director Of Finance",
+            "organization": "Hilton Curacao",
+            "date_range": "Apr 2003 - Aug 2004",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director\nCompany: 10,001+ employees • Founded 1919 • Public Company • Hospitality"
+          },
+          {
+            "title": "Director Of Finance",
+            "organization": "The Marquette Hotel",
+            "date_range": "Aug 2004 - Jul 2008",
+            "location": "Minneapolis, Minnesota, United States",
+            "description": "Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Director Of Finance",
+            "organization": "The Drake Hotel, Hilton Worldwide",
+            "date_range": "Jul 2008 - Jun 2017",
+            "location": "Chicago. IL. USA",
+            "description": "Department: Finance & Accounting • Level: Director\nCompany: 501-1000 employees • Founded 1920 • Public Company • Hospitality"
+          },
+          {
+            "title": "Director Of Finance And Business Support",
+            "organization": "InterContinental Chicago Magnificent Mile",
+            "date_range": "Jun 2017 - Jun 2020",
+            "location": "Chicago, IL USA",
+            "description": "Department: Finance & Accounting • Level: Director\nCompany: 201-500 employees • Founded 1989 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Director, Finance Business Partner",
+            "organization": "InterContinental London Park Lane",
+            "date_range": "Jun 2020 - Jan 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Director\nCompany: 201-500 employees • Founded 1975 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Director Of Finance",
+            "organization": "Six Senses London",
+            "date_range": "Jan 2024 - Jun 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Director\nCompany: 201-500 employees • Founded 2025 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Regional Director Of Finance",
+            "organization": "Six Senses London",
+            "date_range": "Jun 2025 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Director\nCompany: 201-500 employees • Founded 2025 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Surrey",
+            "degree_or_field": "BSc (Hons)",
+            "date_range": "1989 - 1993"
+          },
+          {
+            "school": "Chartered Institute of Management Accountants",
+            "degree_or_field": "ACMA / CGMA",
+            "date_range": null
+          },
+          {
+            "school": "Chartwell Learning",
+            "degree_or_field": "Positive Power & Influence Programme",
+            "date_range": "2022 - 2022"
+          }
+        ],
+        "skills": [
+          "director",
+          "finance"
+        ],
+        "activity_themes": [
+          "Six Senses London opens on March 1, 2026 with new city rhythm, curiosity and inspiration"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/sarahtromans"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Claire Frost",
+      "title": "Director of Human Resources",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/clairefrost2",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000; careers@sixsenses.com for HR queries",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "HR leadership for team training and adoption of new tech tools (AI booking, CRM); adjacent stakeholder.",
+      "contact_evidence_summary": "Confirmed in founding leadership team announcements.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Claire Frost, director of human resources"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/clairefrost2",
+        "display_name": "Claire Frost",
+        "headline": "Director of Human Resources at Six Senses London",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 14 years and 6 months",
+        "experience": [
+          {
+            "title": "Human Resources Coordinator",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Oct 2010 - Mar 2014 • 3 years and 5 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Human Resources Coordinator",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2012 - Mar 2014 • 1 year and 8 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Director Of Human Resources",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Mar 2014 - Jun 2016 • 2 years and 3 months",
+            "location": "Boston, MA",
+            "description": "Lead day to day operations of Human Resources department Managed benefits program and worker's compensation administration Worked closely with the operations on a variety of employee relations issues Responsible for recruitment and collaborated with managers on retention and development Organized and supervised employee events"
+          },
+          {
+            "title": "Assistant Director Of People And Culture",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jun 2016 - Nov 2021 • 5 years and 5 months",
+            "location": null,
+            "description": "Four Seasons Hotel London at Park Lane Supporting Regional Director of People and Culture"
+          },
+          {
+            "title": "Assistant Director Of People And Culture",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Feb 2019 - Nov 2021 • 2 years and 9 months",
+            "location": null,
+            "description": "Four Seasons Hotel London at Park Lane Supporting Regional Director of People and Culture"
+          },
+          {
+            "title": "Director Of Human Resources",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Dec 2021 - Apr 2023 • 1 year and 4 months",
+            "location": "London, England, United Kingdom",
+            "description": "The Carlton Tower Jumeirah & Jumeirah Lowndes Hotel"
+          },
+          {
+            "title": "Director Of Human Resources",
+            "organization": "Six Senses London",
+            "date_range": "Jan 2024 - Present • 2 years and 1 month",
+            "location": "London, England, United Kingdom",
+            "description": "Opening 2025"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "hotel",
+          "recruitment",
+          "strategy",
+          "hr",
+          "driving",
+          "operations",
+          "benefits",
+          "compensation",
+          "administration",
+          "responsible",
+          "organized",
+          "human resources",
+          "hr policies",
+          "employee relations"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/clairefrost2"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Patrick Jones",
+      "title": "Director of Sustainability",
+      "company": "Six Senses London",
+      "linkedin_url": "https://www.linkedin.com/in/patrick-jones-74114286",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Sustainability initiatives may integrate with guest comms and experience (e.g., eco-messaging); adjacent ops role.",
+      "contact_evidence_summary": "Named Director of Sustainability in expanded leadership coverage.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Patrick Jones, director of sustainability"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/patrick-jones-74114286",
+        "display_name": "Patrick Jones",
+        "headline": "Director of Sustainability, Six Senses London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Follow me on Instagram: @sustainable_london\n\nTotal Experience: 9 years and 5 months",
+        "experience": [
+          {
+            "title": "Diversity And Inclusion Coordinator",
+            "organization": "Semester At Sea / ISE",
+            "date_range": "Jun 2014 - Aug 2014",
+            "location": null,
+            "description": "Department: Human Resources • Level: Specialist"
+          },
+          {
+            "title": "Stewarding Attendant",
+            "organization": "Fairmont Hotels & Resorts",
+            "date_range": "Jul 2016 - Sep 2016",
+            "location": "Fairmont Banff Springs",
+            "description": "- Worked in 6 different high volume kitchens - Maintained resolve in stressful situations; provided directions and solutions to team mates - Health & Safety Committee Member - Bravogram Star of the Month Nominee (Jul 2016) Trained in the following positions: - Pot Washer - Banquet Busperson\nDepartment: Trades • Level: Specialist"
+          },
+          {
+            "title": "Banquet Server",
+            "organization": "Fairmont Hotels & Resorts",
+            "date_range": "Sep 2016 - Mar 2020",
+            "location": "Fairmont Palliser",
+            "description": "- Heartist of the Month Nominee: November 2019 Trained in the following positions: - Outlet Host - Expediter / Food Porter - Fairmont Gold Server - Banquet Barperson - Banquet Porter - In Room Dining Server - Kitchen Assistant - Housekeeping (Stripping & Turndown Service)\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Language Mentor (French)",
+            "organization": "University of Calgary",
+            "date_range": "Sep 2016 - May 2018",
+            "location": "Calgary, Canada Area",
+            "description": null
+          },
+          {
+            "title": "Founder Co-President",
+            "organization": "Sustainable Development Goals Alliance (SDGA)",
+            "date_range": "Oct 2017 - Jul 2018",
+            "location": "Calgary, Canada Area",
+            "description": "Department: C-Suite • Level: Founder"
+          },
+          {
+            "title": "Director, Sustainability",
+            "organization": "United Nations Association in Canada - Calgary Branch (UNAC-Calgary)",
+            "date_range": "May 2018 - Apr 2020",
+            "location": "Calgary, Canada Area",
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Sustainability Engagement Assistant",
+            "organization": "University of Calgary",
+            "date_range": "Jul 2018 - Nov 2019",
+            "location": "Calgary, Canada Area",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Sustainability Capital Projects Manager",
+            "organization": "Fairmont Hotels & Resorts",
+            "date_range": "Mar 2020 - Sep 2022",
+            "location": null,
+            "description": "- Canada's Top 30 Under 30 in Hospitality, KML 2022 - Managed interim regional sustainability duties Aug. 2020 - Sept. 2022"
+          },
+          {
+            "title": "Regional Director, Sustainability",
+            "organization": "Fairmont Hotels & Resorts",
+            "date_range": "Sep 2022 - Jul 2025",
+            "location": "Fairmont Canadian Western Mountain Region",
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Environmental Consultant",
+            "organization": "Fairmont Hotels & Resorts",
+            "date_range": "Apr 2025 - Jul 2025",
+            "location": null,
+            "description": "Department: Consulting • Level: Specialist"
+          },
+          {
+            "title": "Director Of Sustainability",
+            "organization": "Six Senses London",
+            "date_range": "Jun 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Operations • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "capital projects",
+          "instagram",
+          "director",
+          "sustainability",
+          "environmental",
+          "capital",
+          "projects",
+          "hospitality",
+          "diversity",
+          "server",
+          "food",
+          "gold",
+          "housekeeping",
+          "engagement",
+          "health",
+          "safety"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/patrick-jones-74114286"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Charlotte Pulver",
+      "title": "Head Alchemist",
+      "company": "Six Senses London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel: +44 20 3278 8000",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Key role in wellness/spa programming; supports guest experience and personalized comms (adjacent to guest journey tech).",
+      "contact_evidence_summary": "Listed in leadership and wellness team announcements.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/six-senses-london-unveils-leadership-team/",
+          "source_type": "news",
+          "quote_or_fact": "Charlotte Pulver as head alchemist"
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T14:20:32.026395+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 3,
+    "attempted": 16,
+    "succeeded": 16,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T14:34:31.587336+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 17,
+      "structured": 14,
+      "discovered": 1,
+      "errors": 0
+    }
+  }
+}

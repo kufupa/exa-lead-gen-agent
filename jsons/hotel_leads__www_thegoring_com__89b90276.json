@@ -1,0 +1,578 @@
+{
+  "target_url": "https://www.thegoring.com/",
+  "generated_at_utc": "2026-04-21T14:23:37.406911+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 4546,
+    "prompt_tokens": 517227,
+    "total_tokens": 547715,
+    "prompt_text_tokens": 517227,
+    "reasoning_tokens": 25942,
+    "cached_prompt_text_tokens": 327296,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Celia Pestana-Beck",
+      "title": "Revenue and Reservations Manager",
+      "company": "The Goring",
+      "linkedin_url": "https://uk.linkedin.com/in/celia-pestana-beck-b36b8524",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thegoring.com (reservations/revenue team route); main switchboard +44 (0)20 7396 9000; reception@thegoring.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct oversight of reservations processes, revenue management systems and inventory; core decision maker for reservations automation, revenue-tech and AI booking tools.",
+      "contact_evidence_summary": "Role confirmed via LinkedIn profile and employee directories/LeadIQ references. Strong public route through official reservations contact. No personal email/phone found.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/celia-pestana-beck-b36b8524",
+          "source_type": "linkedin",
+          "quote_or_fact": "Profile lists current role at The Goring in revenue and reservations."
+        },
+        {
+          "source_url": "https://www.thegoring.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Lists reservations@thegoring.com and +44 (0)20 7396 9000 for reservations inquiries."
+        }
+      ]
+    },
+    {
+      "full_name": "Sophie Ford",
+      "title": "Human Resources Manager",
+      "company": "The Goring",
+      "linkedin_url": "https://uk.linkedin.com/in/sophie-ford-712b4a53",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "people@thegoring.com (from careers page); main +44 (0)20 7396 9000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "HR lead for team enablement on new tech platforms; stakeholder in adoption of AI/automation tools affecting staff in reservations, sales and guest experience.",
+      "contact_evidence_summary": "Named in RocketReach/org charts and HR Grapevine article as HR Manager. Careers page provides people@thegoring.com route. Official people context.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/sophie-ford-712b4a53",
+          "source_type": "linkedin",
+          "quote_or_fact": "Human Resources Manager at The Goring."
+        },
+        {
+          "source_url": "https://www.thegoring.com/careers/",
+          "source_type": "official_site",
+          "quote_or_fact": "Email people@thegoring.com for opportunities."
+        },
+        {
+          "source_url": "https://www.hrgrapevine.com/content/article/2026-01-22-how-the-goring-hotel-built-the-worlds-happiest-workplace",
+          "source_type": "news",
+          "quote_or_fact": "Sophie Ford, Human Resources Manager, The Goring Hotel."
+        }
+      ]
+    },
+    {
+      "full_name": "Paula McColgan",
+      "title": "Director of Sales and Marketing",
+      "company": "The Goring",
+      "linkedin_url": "https://uk.linkedin.com/in/paula-mccolgan-3542111b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thegoring.com or +44 (0)20 7396 9000 for sales routing; press via thegoring@jpublicrelations.com (+44 (0)20 3890 5838)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads all sales, marketing, distribution and guest acquisition strategies; key influencer on guest messaging platforms, digital marketing tech and partnership decisions for booking automation.",
+      "contact_evidence_summary": "Detailed bio and photo on official Our People page. Multiple news announcements of appointment. Active LinkedIn profile. Department contact routes publicly listed.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Paula McColgan, Director of Sales and Marketing. Bio on Irish charm, experience at Lanesborough, Mandarin Oriental and orchestrating guest flow."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/paula-mccolgan-3542111b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales & Marketing at The Goring with 25+ years experience."
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/the-goring-welcomes-new-director-of-sales-and-marketing/",
+          "source_type": "news",
+          "quote_or_fact": "Appointed Director of Sales and Marketing in May 2021 after roles at Kimpton and Lanesborough."
+        }
+      ]
+    },
+    {
+      "full_name": "Michael Voigt",
+      "title": "Managing Director",
+      "company": "The Goring",
+      "linkedin_url": "https://uk.linkedin.com/in/michael-voigt-fih-mi-7547041b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main phone +44 (0)20 7396 9000; reservations@thegoring.com; press thegoring@jpublicrelations.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees full hotel operations including sales, marketing, revenue, finance, HR and guest experience; ultimate decision maker on technology stack for booking automation, revenue management and digital guest journey.",
+      "contact_evidence_summary": "Prominently featured with bio on official Our People page and Who's Who PDF. Recent news on promotion to MD. Detailed LinkedIn profile. Multiple public contact routes.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Michael Voigt, Managing Director. Bio details prestigious career at Connaught, L’Oscar, Pennyhill Park and Four Seasons."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/michael-voigt-fih-mi-7547041b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Managing Director at The Goring responsible for operations including Sales and Marketing, Finance and HR."
+        },
+        {
+          "source_url": "https://www.thegoring.com/media/unfbffkr/whos-who-at-the-goring.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Michael Voigt listed as General Manager (updated to MD in 2024 news); entrepreneurial leader in luxury hospitality."
+        }
+      ]
+    },
+    {
+      "full_name": "Charlotte Chiene",
+      "title": "Director of Sales",
+      "company": "The Goring",
+      "linkedin_url": "https://uk.linkedin.com/in/charlotte-chiene-4884b152",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Route via reservations@thegoring.com or main line +44 (0)20 7396 9000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct responsibility for sales, ultra-luxury distribution channels and booking relationships; strong stakeholder for AI-driven booking automation and guest acquisition tech.",
+      "contact_evidence_summary": "Listed on official Our People page with bio. Public LinkedIn confirms role at The Goring. Sales inquiries route through official hotel contacts.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Charlotte Chiene, Director of Sales. Bio references experience at Dorchester Collection, Lanesborough and ultra-luxury guest experience."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/charlotte-chiene-4884b152",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales at The Goring."
+        }
+      ]
+    },
+    {
+      "full_name": "Jeremy Goring",
+      "title": "CEO",
+      "company": "The Goring",
+      "linkedin_url": "https://uk.linkedin.com/in/jeremy-goring-2261a610",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main phone +44 (0)20 7396 9000; reservations@thegoring.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Fourth-generation family owner/CEO with strategic oversight of innovation, excellence and all commercial decisions including tech adoption for reservations, revenue and guest comms.",
+      "contact_evidence_summary": "Featured as CEO on official Our People page and Who's Who PDF with extensive bio. Public LinkedIn. Family-owned independent hotel context emphasizes his influence.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Jeremy Goring, CEO. Bio on family legacy, Lausanne graduate, Independent Hotelier of the Year 2012."
+        },
+        {
+          "source_url": "https://www.thegoring.com/media/unfbffkr/whos-who-at-the-goring.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Jeremy Goring, CEO - detailed history since 2005 focusing on innovation and excellence."
+        }
+      ]
+    },
+    {
+      "full_name": "Antonietta Blau",
+      "title": "Assistant Reservations and Revenue Manager",
+      "company": "The Goring",
+      "linkedin_url": "https://uk.linkedin.com/in/antonietta-blau-524318123",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thegoring.com (direct team route); +44 (0)20 7396 9000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Hands-on role in reservations operations and revenue management; direct user and influencer of booking automation, revenue systems and guest messaging workflows.",
+      "contact_evidence_summary": "LinkedIn profile explicitly lists title at The Goring. Supported by company staff directories. Official reservations contact provides clear path to the team.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/antonietta-blau-524318123",
+          "source_type": "linkedin",
+          "quote_or_fact": "Assistant Reservations and Revenue Manager at The Goring."
+        },
+        {
+          "source_url": "https://www.thegoring.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Public reservations email and phone for the department she works in."
+        }
+      ]
+    },
+    {
+      "full_name": "David Morgan-Hewitt",
+      "title": "Chairman",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7396 9000; reservations@thegoring.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Long-tenured leader (35+ years) transitioned to Chairman; influences overall strategy, awards, operations and commercial priorities including tech for guest experience and revenue.",
+      "contact_evidence_summary": "Prominent on official Our People page and historical Who's Who PDF. Recent LinkedIn/company posts on 35-year anniversary. Strong institutional knowledge provides context for influence.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "David Morgan-Hewitt, Chairman. Bio on 35 years, awards including Luxury Travel Advisor GM of the Year."
+        },
+        {
+          "source_url": "https://www.thegoring.com/media/unfbffkr/whos-who-at-the-goring.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Listed as Managing Director (prior role) with extensive transformation oversight."
+        }
+      ]
+    },
+    {
+      "full_name": "Barbara Baldassini",
+      "title": "Reservations and Events Supervisor",
+      "company": "The Goring",
+      "linkedin_url": "https://uk.linkedin.com/in/barbara-baldassini-b26a3b20b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thegoring.com; +44 (0)20 7396 9000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Supervises reservations and events booking processes; direct exposure to booking systems, automation opportunities and guest communication flows.",
+      "contact_evidence_summary": "LinkedIn profile confirms current title at The Goring. Ties into the sales/revenue/reservations team referenced in multiple directories.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/barbara-baldassini-b26a3b20b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Reservations and Events Supervisor at The Goring."
+        },
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contextual support from reservations team pages and contact routes."
+        }
+      ]
+    },
+    {
+      "full_name": "Samantha Lopez",
+      "title": "Guest Relations Manager",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reception@thegoring.com or reservations@thegoring.com; main phone +44 (0)20 7396 9000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages guest relations, personalized comms, CRM elements and high-value guest journey; relevant for guest messaging and experience automation tools.",
+      "contact_evidence_summary": "Named in official hotel Facebook posts as Guest Relations Manager. Role also referenced in org charts and directories. Public contact pages offer routing to guest-facing teams.",
+      "evidence": [
+        {
+          "source_url": "https://www.facebook.com/TheGoring/photos/our-guest-relations-manager-samantha-lopez-not-only-looks-after-our-most-discern/1273486749344873/",
+          "source_type": "other",
+          "quote_or_fact": "Our Guest Relations Manager Samantha Lopez not only looks after our most discerning of guests..."
+        },
+        {
+          "source_url": "https://www.thegoring.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact details for reception and reservations support guest relations function."
+        }
+      ]
+    },
+    {
+      "full_name": "Adrien Lecerf",
+      "title": "Front Office Manager",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7396 9000; reservations@thegoring.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads front office which interfaces directly with reservations, check-in processes, guest comms and initial booking experience; stakeholder in operational tech for guest journey.",
+      "contact_evidence_summary": "Profiled on official Our People page with bio. Front office ties closely to reservations function with public contact paths.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Adrien Lecerf, Front Office Manager. Bio on greeting guests, heading up front office team with 8+ years experience."
+        }
+      ]
+    },
+    {
+      "full_name": "Anastasiia Lukina",
+      "title": "Events and Marketing Coordinator",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thegoring.com or people@thegoring.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Supports marketing and events which involve guest messaging, CRM, booking for events and digital promotion; relevant for marketing automation and guest comms tech.",
+      "contact_evidence_summary": "LinkedIn and company references confirm marketing/events role at The Goring. Broadens the sales/marketing bucket with public department routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/the-goring",
+          "source_type": "linkedin",
+          "quote_or_fact": "Employee connections and profiles reference events/marketing support roles."
+        },
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Context from sales/marketing leadership pages."
+        }
+      ]
+    },
+    {
+      "full_name": "Richard Hart",
+      "title": "IT Manager",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7396 9000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Manages property IT, systems and digital infrastructure including potential booking platforms, PMS, CRM and revenue tools; direct influence on tech adoption for AI automation and guest journey systems.",
+      "contact_evidence_summary": "Identified via LinkedIn and staff directories as IT lead at The Goring. Public hotel contact provides reach for systems-related inquiries. Fits digital/IT bucket per ICP breadth.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/the-goring",
+          "source_type": "linkedin",
+          "quote_or_fact": "IT/systems roles referenced in company profile and employee connections."
+        },
+        {
+          "source_url": "https://www.thegoring.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "General contact routes applicable to internal departments including IT."
+        }
+      ]
+    },
+    {
+      "full_name": "Jeet Chauhan",
+      "title": "Director of Food & Beverage",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7396 9000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees F&B operations including events, dining experiences and guest interactions that involve booking, messaging and CRM elements for restaurant reservations.",
+      "contact_evidence_summary": "Listed with full bio on official Our People page. F&B touches guest comms and experience tech.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Jeet Chauhan, Director of Food & Beverage. Bio on overseeing dining with perfection, prior experience at The Savoy and Oberoi."
+        }
+      ]
+    },
+    {
+      "full_name": "John Andrews",
+      "title": "Head Concierge (Director of Concierge)",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7396 9000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads concierge services central to guest experience, recommendations, and personalized comms; adjacent to guest messaging and experience platforms.",
+      "contact_evidence_summary": "Featured on official Our People page and Who's Who PDF as 'Big John' / Head Concierge with Golden Keys membership. Public profile supports reach via main hotel lines.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "‘Big John’ Andrews, Head/Director of Concierge. Bio on London expertise and guest memorable experiences."
+        },
+        {
+          "source_url": "https://www.thegoring.com/media/unfbffkr/whos-who-at-the-goring.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "John Andrews, Head Concierge - member of Golden Keys, prior Berkeley and Lanesborough."
+        }
+      ]
+    },
+    {
+      "full_name": "Jean-Baptiste Lemoine",
+      "title": "Deputy Director of Food and Beverage",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7396 9000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Sommelier and deputy F&B role involved in dining bookings, guest personalization and events; supports guest messaging and experience tech in restaurant context.",
+      "contact_evidence_summary": "Profiled on official Our People page. Ties to F&B guest comms.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Jean-Baptiste Lemoine, Deputy Director of Food and Beverage. Bio on wine pairing and experience at Alain Ducasse."
+        }
+      ]
+    },
+    {
+      "full_name": "Fernanda Lewis",
+      "title": "Director of Housekeeping",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7396 9000",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Operational leadership in housekeeping with indirect ties to overall guest experience standards and staff coordination that may intersect with CRM/guest comms platforms.",
+      "contact_evidence_summary": "Official Our People page profile. Less direct commercial role but included per breadth instructions for property ops adjacent to guest experience.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Fernanda Lewis, Director of Housekeeping. Bio on attention to detail and problem-solving for excellent service."
+        }
+      ]
+    },
+    {
+      "full_name": "Graham Squire",
+      "title": "Executive Chef",
+      "company": "The Goring",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7396 9000",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads Michelin-starred dining experience; adjacent for F&B booking automation and guest personalization tech in restaurant reservations.",
+      "contact_evidence_summary": "Official page and PDF bio. Included as F&B leadership per instructions for roles touching guest comms/experience.",
+      "evidence": [
+        {
+          "source_url": "https://www.thegoring.com/about/our-people/",
+          "source_type": "official_site",
+          "quote_or_fact": "Graham Squire, Executive Chef. Bio on Michelin experience at Claridge’s, Le Manoir and Trinity."
+        },
+        {
+          "source_url": "https://www.thegoring.com/media/unfbffkr/whos-who-at-the-goring.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Graham Squire, Executive Chef - joined 2019, appointed 2022."
+        }
+      ]
+    }
+  ]
+}

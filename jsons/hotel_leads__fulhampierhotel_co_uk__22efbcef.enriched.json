@@ -1,0 +1,2147 @@
+{
+  "target_url": "https://fulhampierhotel.co.uk/",
+  "generated_at_utc": "2026-04-25T13:53:22.254285+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6478,
+    "prompt_tokens": 419275,
+    "total_tokens": 452910,
+    "prompt_text_tokens": 419275,
+    "reasoning_tokens": 27157,
+    "cached_prompt_text_tokens": 240089,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Chris Wickham",
+      "title": "Head of Sales - Events",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://uk.linkedin.com/in/chris-wickham-97ba2315",
+      "email": "spacestohire@fulhampier.com",
+      "email2": null,
+      "phone": "020 3841 9053",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales and events: spacestohire@fulhampier.com | Conferences & Events: 020 3841 9053 (from fulhampier.com and FC contact)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Heads sales for events and hospitality at the Pier (overlaps hotel bookings and revenue); influences distribution and revenue-tech adoption.",
+      "contact_evidence_summary": "LinkedIn profile and RocketReach org chart confirm title; official venue hiring and contact pages provide sales routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/chris-wickham-97ba2315",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Sales - Events · Fulham Pier."
+        },
+        {
+          "source_url": "https://rocketreach.co/fulham-pier-management_b6c26c1ac7afbbd0",
+          "source_type": "directory",
+          "quote_or_fact": "Chris Wickham ( Head of Sales - Events) in management team."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/spaces-to-hire",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact spacestohire@fulhampier.com for more information."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/chris-wickham-97ba2315",
+        "display_name": "Chris Wickham",
+        "headline": "Fulham Pier - Head of Sales | Events | Strategy | Business Development",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 18 years and 9 months",
+        "experience": [
+          {
+            "title": "Senior Hospitality Account Manager At Ascot Racecourse",
+            "organization": "Sodexo",
+            "date_range": "Feb 2007 - Oct 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Hospitality Sales Manager",
+            "organization": "Ascot Hospitality - Sodexo Prestige",
+            "date_range": "Oct 2010 - May 2013",
+            "location": null,
+            "description": "Management of 4 Sales Hospitality Account Managers to deliver restaurant hospitality budgets for the full racing calender including Royal Ascot. Team appraisals Coaching and mentoring. Account Management. Proactively continuing the bring revenue into the business. Develop and implement sales strategy. Ongoing development of policies & procedures. Involved at Board & Implementation level of new CRM and planning software (8 month project). Developed and implemented new ticket fulfillment procedures. Planning and participated in Sales presence during racedays. Representing the business at external networking events."
+          },
+          {
+            "title": "Head Of Sales",
+            "organization": "ON-impact",
+            "date_range": "Jun 2013 - Sep 2013",
+            "location": "Berkshire",
+            "description": "Develop company new business strategy. Client Services. Account Management. Project management. CRM management"
+          },
+          {
+            "title": "Hospitality Sales Marketing Manager",
+            "organization": "Major Events - Henley Royal Regatta Hospitality - RHS Chelsea Flower Show Hospitality",
+            "date_range": "Oct 2013 - Dec 2022",
+            "location": "Berkshire",
+            "description": "Achieving set Hospitality revenues for Official Henley Royal Regatta Hospitality & Official RHS Chelsea Flower Show Hospitality Working with the operational team to create, develop and deliver the Corporate Hospitality offer Delivering offer to market Create and implement sales strategy Generate new business Generate long term relationships with partners and clients To design, implement and manage the accreditation process for each event Create and present latest sales and pipeline reports to all major stakeholders CRM development and management Managing a sales and sales operational team"
+          },
+          {
+            "title": "Head Of Sales, Major Events Bateaux UK",
+            "organization": "Sodexo, Sports & Leisure",
+            "date_range": "May 2019 - Feb 2022",
+            "location": null,
+            "description": "Whilst maintaining the overall responsibility of Major Events Hospitality, I was asked to work with the Bateaux team to create and manage a high-performing sales strategy and team within the venue. During this time: I drove a re-structure of the team Implemented Sales SOP's & KPI's Coaching & Mentoring of a new sales function As a result we were on target to achieve annual private charter sales for the first time in 2 years before the Pandemic. During the pandemic, I was also involved in the implementation of a new operational system across 20+ venues. I was tasked with ensuring the platform was fit for purpose for the Bateaux and Major Events business. I was also involved in the implementation of Salesforce across our business and was influential in the design of the user journeys, reports and dashboards and system KPI's"
+          },
+          {
+            "title": "Head Of Sales London MICE Major Events Hospitality",
+            "organization": "Sodexo Prestige Venues & Events",
+            "date_range": "Jan 2022 - May 2023",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales - AbleMaxx Venue Portfolio Destination Wembley",
+            "organization": "AbleMaxx Limited",
+            "date_range": "Apr 2023 - Jan 2024",
+            "location": "Marlow, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Sales - Events",
+            "organization": "Fulham Pier",
+            "date_range": "Feb 2024 - Present",
+            "location": "Fulham",
+            "description": "Driving Conferencing & Events in London's newest premium waterfront destination. Conferences, Exhibitions, Trade shows, Internal and external meetings, Private celebrations, Product launches, filming, and more........... more information coming soon"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of the West of England",
+            "degree_or_field": "BA (Hons), Graphic Design",
+            "date_range": "2002 - 2005"
+          }
+        ],
+        "skills": [
+          "sales",
+          "driving",
+          "waterfront",
+          "hospitality",
+          "performing",
+          "strategy",
+          "sop",
+          "kpi",
+          "coaching",
+          "mentoring",
+          "salesforce",
+          "design",
+          "reports",
+          "less",
+          "management",
+          "budgets",
+          "racing",
+          "appraisals",
+          "crm",
+          "planning",
+          "software",
+          "networking",
+          "marketing",
+          "accreditation",
+          "director",
+          "trade shows",
+          "product launches",
+          "sales strategy",
+          "sales manager",
+          "account management",
+          "business strategy",
+          "client services",
+          "project management",
+          "development management"
+        ],
+        "activity_themes": [
+          "Venue fit-outs and transformations for AP House Manchester",
+          "Agency representation and business appreciation",
+          "Networking at PGA Golf Shows",
+          "Team visits to heritage portfolio offices in Scotland",
+          "Events planning and scheduling for 2026 at Allianz Stadium"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/portview_aphouse-creatingextraordinaryspaces-activity-7422229982967500800-wzPn",
+          "https://www.linkedin.com/posts/mags-shaw-b907b812_when-representation-is-agency-appreciated-activity-7420522531746463745-uBBh",
+          "https://www.linkedin.com/posts/joe-king79_well-im-almost-home-after-a-fantastic-week-activity-7420793069916024832-DcmR",
+          "https://www.linkedin.com/posts/natalie-taylor-robinson_great-to-be-up-in-scotland-over-the-last-activity-7420188896124203008-9qj5",
+          "https://www.linkedin.com/posts/vincent-coles-38aa73138_allianzstadium-events-meetings-activity-7414247644149268480-v5oH"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Rachel Peacock",
+      "title": "Head of Marketing",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://uk.linkedin.com/in/rachel-peacock-6bbb9378",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3006 2168",
+      "x_handle": null,
+      "other_contact_detail": "Marketing/PR: pr@fulhampierhotel.co.uk or hi@fulhampier.com (official sites)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing, PR and digital presence for Fulham Pier including hotel; influences guest comms, digital booking channels and revenue marketing tech.",
+      "contact_evidence_summary": "LinkedIn profile and RocketReach confirm Head of Marketing; official contact pages list PR and marketing emails.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/rachel-peacock-6bbb9378",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Marketing - Fulham Pier. Marketing professional with 12 years' experience..."
+        },
+        {
+          "source_url": "https://rocketreach.co/fulham-pier-management_b6c26c1ac7afbbd0",
+          "source_type": "directory",
+          "quote_or_fact": "Rachel Peacock (Head of Marketing) listed."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Media: pr@fulhampierhotel.co.uk"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/rachel-peacock-6bbb9378",
+        "display_name": "Rachel Peacock",
+        "headline": "Head of Marketing - Fulham Pier",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Marketing professional with 12 years’ experience in Marketing, PR and Events, specialising in Destination Marketing with a strong background in F&B, Hotels, Attractions and Retail. Creative and commercially minded with a proven track record in driving footfall, budget tracking, leading teams, brand management, driving commercial opportunities and digital growth. Thrives in a fast-paced workplace, an excellent communicator, a nerd for numbers and well-versed in effectively juggling multiple stakeholders, agencies and clients.",
+        "experience": [
+          {
+            "title": "Senior Retail Sales Assistant And Visual Merchandiser",
+            "organization": "EziBuy",
+            "date_range": "Feb 2009 - Jan 2011",
+            "location": "Wellington & Wairarapa, New Zealand",
+            "description": "Responsibilities: - Merchandising shoes, sleepwear, homeware and accessories for maximum sales impact - Stock inventory, preparation and organisation - Driving sales, assisting customers with needs and processing payments"
+          },
+          {
+            "title": "Marketing Tutor",
+            "organization": "Victoria University of Wellington",
+            "date_range": "Feb 2009 - Feb 2011",
+            "location": null,
+            "description": "Tutored groups of 20-30 students at a range of Marketing levels and marked asssignments."
+          },
+          {
+            "title": "Marketing Coordinator For SKYCITY Auckland's Restaurants And Bars",
+            "organization": "SKYCITY Entertainment Group",
+            "date_range": "Feb 2011 - Dec 2011",
+            "location": "Auckland, New Zealand",
+            "description": "Key Achievements: Industry awards across the portfolio including multiple finalists for Cuisine Magazine's Restaurant of the Year Key Responsibilities: Brand and Retail Campaigns Retail and discount focused campaigns utilising channels like direct mail and email for the casual dining portfolio, and high-level brand campaigns for the premium portfolio including television, print and cinema. Project Management Responsible for campaigns such as the…"
+          },
+          {
+            "title": "Marketing Executive Of Restaurants And Bars",
+            "organization": "SKYCITY Entertainment Group",
+            "date_range": "Dec 2011 - Oct 2014",
+            "location": "SKYCITY Entertainment Group Limited",
+            "description": "Key Achievements: Industry awards across the portfolio including multiple finalists for Cuisine Magazine's Restaurant of the Year Launch of eight new restaurants and bars Federal Street Festival event launch and success Key Responsibilities: Brand Launches Assisting in the opening of new restaurants are bars including brand development and concept, logo design, website creation, media campaigns and launch events. Brand and Retail Campaigns Retail and…"
+          },
+          {
+            "title": "Marketing Executive Of Hotels, Tourism And Conventions",
+            "organization": "SKYCITY Entertainment Group",
+            "date_range": "Oct 2014 - Oct 2015",
+            "location": "SKYCITY Entertainment Group Limited - Auckland",
+            "description": "Key Achievements: Finalist in the TVNZ Marketing Awards Broke the record twice for the Sky Tower's School Holiday visitation since it’s 1997 opening Key Responsibilities: Budget Planning and Tracking Managing the Sky Tower budget and associated campaign spends. Brand and Partnership Management Championing the Sky Tower brand and working with key partners like Sony Pictures and the New Zealand Fire Service on joint ventures. Analysis and Reporting…"
+          },
+          {
+            "title": "Marketing Manager (NZ)",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Oct 2015 - Apr 2018",
+            "location": "Auckland, New Zealand",
+            "description": "Head of Marketing for the national portfolio of IHG Hotels in New Zealand: - InterContinental Wellington - Crowne Plaza Auckland - Crowne Plaza Christchurch - Crowne Plaza Queenstown - Holiday Inn Auckland Airport - Holiday Inn Rotorua Key Achievements: AUA Marketing Team of the Year 2018 AUA Marketing Team of the Year 2017 Expansion of Marketing Cluster from four hotels to six Key Responsibilities: Stakeholder Management Regular…"
+          },
+          {
+            "title": "Senior Marketing Manager",
+            "organization": "Heart of London Business Alliance",
+            "date_range": "Jul 2018 - Jan 2020",
+            "location": "London, United Kingdom",
+            "description": "Heart of London Business Alliance operates two Business Improvement Districts, representing 500 businesses in the Piccadilly & St James’s and Leicester Square & Piccadilly Circus areas. Our role is to serve as a robust voice on behalf of the businesses and property owners we represent, placing the issues affecting business onto the wider agenda and working in partnership with others to act as a positive catalyst for change. We promote the district to a global audience, ensuring that the area is… Show more"
+          },
+          {
+            "title": "Senior Marketing Manager",
+            "organization": "Battersea Power Station",
+            "date_range": "Jan 2020 - Mar 2023",
+            "location": "London, United Kingdom",
+            "description": "De-commissioned in 1983, the iconic Grade II* listed Battersea Power Station and surrounding area has now been brought back to life as one of the most exciting and innovative mixed-use neighbourhoods in the world – a place for locals, tourists and residents to enjoy a unique blend of restaurants, shops, attractions, entertainment venues, parks and cultural spaces. Split across Commercial and Consumer Marketing I sit across many facets of the business. I currently: - Manage and support our… Show more"
+          },
+          {
+            "title": "Associate Director - Consumer Marketing",
+            "organization": "Battersea Power Station",
+            "date_range": "Apr 2023 - Jan 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Marketing",
+            "organization": "Fulham Pier",
+            "date_range": "Jan 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "St Christopher's School, Bahrain",
+            "degree_or_field": null,
+            "date_range": "1997 - 2002"
+          },
+          {
+            "school": "Palmerston North Girls High School",
+            "degree_or_field": null,
+            "date_range": "2003 - 2006"
+          },
+          {
+            "school": "Victoria University of Wellington",
+            "degree_or_field": "Bachelor of Commerce (B.Com.), Marketing/Marketing Management, General",
+            "date_range": "2007 - 2010"
+          }
+        ],
+        "skills": [
+          "marketing",
+          "pr",
+          "hotels",
+          "retail",
+          "creative",
+          "driving",
+          "budget",
+          "management",
+          "commercial",
+          "digital",
+          "restaurants",
+          "cuisine",
+          "design",
+          "campaigns",
+          "entertainment",
+          "parks",
+          "property",
+          "director",
+          "sales",
+          "merchandising",
+          "shoes",
+          "accessories",
+          "inventory",
+          "preparation",
+          "organisation",
+          "processing",
+          "payments",
+          "television",
+          "print",
+          "cinema",
+          "responsible",
+          "cluster",
+          "tourism",
+          "planning",
+          "analysis",
+          "reporting",
+          "destination marketing",
+          "brand management",
+          "brand development",
+          "logo design",
+          "website creation",
+          "consumer marketing",
+          "retail sales",
+          "direct mail",
+          "project management",
+          "stakeholder management",
+          "fire service",
+          "joint ventures"
+        ],
+        "activity_themes": [
+          "Year in review reflecting on achievements at Fulham Pier in 2025",
+          "Sharing video highlights from Fulham Pier's first year as a London riverside destination"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/rachel-peacock-6bbb9378_wow-what-a-year-it-feels-a-little-cheesy-activity-7414302100332904448-LXam",
+          "https://www.linkedin.com/posts/fulhampier_as-we-settle-into-the-new-year-it-feels-activity-7413995486824685568-ORoe"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Catherine Monaghan",
+      "title": "Head of Marketing",
+      "company": "Fulham Pier / Sodexo Live!",
+      "linkedin_url": "https://www.linkedin.com/in/catherine-monaghan-45407146",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Marketing and PR: pr@fulhampierhotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Marketing leadership (possible prior or parallel to current Head); influences digital guest acquisition and comms tech.",
+      "contact_evidence_summary": "Directory listings tie to Fulham Pier marketing; PR contact from official hotel page provides route.",
+      "evidence": [
+        {
+          "source_url": "https://salesflow.io/contact/catherine-monaghan-head-of-marketing---fulham-pier/",
+          "source_type": "directory",
+          "quote_or_fact": "Catherine Monaghan - Head of Marketing – Fulham Pier, Sodexo Live!"
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Media contact pr@fulhampierhotel.co.uk."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/catherine-monaghan-45407146",
+        "display_name": "Catherine Monaghan",
+        "headline": "Strategic Head of Marketing | Food & Drink Enthusiast | Campaign Creator | Brand Fanatic",
+        "location": "London, England, United Kingdom",
+        "about": "Strategic thinking Senior Marketing Manager with a wealth of experience in the food and hospitality sector. Most recently responsible for leading a fast-paced marketing team to drive sales growth and brand awareness in the retail food to go sector. A personable, upbeat individual who is highly capable of positively influencing others, taking businesses on a journey to develop brands which better connect with customers.\n\nTotal Experience: 14 years and 7 months",
+        "experience": [
+          {
+            "title": "Proposal Manager",
+            "organization": "Compass Group UK & Ireland",
+            "date_range": "Dec 2010 - Jan 2013",
+            "location": null,
+            "description": "Received, collated and advised on clarification questions from potential customers to my clients Engaged with sellers and retention staff to understand future timelines and deadlines to help with the timely completion of work Created and tailored templates to fulfill my clients visions Responsible for all aspects of contractor management for outsourced design work Designed templates for PowerPoint presentations, cross sector case studies and curriculum vitae"
+          },
+          {
+            "title": "Marketing Executive",
+            "organization": "Compass Group",
+            "date_range": "Jan 2013 - Feb 2014",
+            "location": "UK",
+            "description": "A marketing executive looking after consumer propositions, cross sector within Compass Group UK & Ireland."
+          },
+          {
+            "title": "Marketing Manager - Consumer Solutions",
+            "organization": "Compass Group",
+            "date_range": "Mar 2014 - Feb 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Marketing Manager - Food, Hot Beverages Bakery",
+            "organization": "Compass Group",
+            "date_range": "Feb 2015 - Jan 2016",
+            "location": "Chertsey",
+            "description": null
+          },
+          {
+            "title": "Marketing Manager - Offer Insight",
+            "organization": "Chartwells UK",
+            "date_range": "Jan 2016 - Jan 2018",
+            "location": "Chertsey, Surrey, United Kingdom",
+            "description": "Led a team of 3 whose remits included: digital marketing, social media management, branding and brand management, uptake and food & offer development. My main responsibility was to lead sector specific projects which delivered increased financial performance and better consumer engagement through targeted marketing. These projects included the following: 1. Created a new internal café brand, ‘Joe’s’, that was built on insight gathered from more than 1,500 consumers. Developed a bespoke annual marketing plan to provide products which surprised and delighted consumers. We grew the brand to over 50 outlets in a 12 month period and delivered 10% increase in PBIT compared to the previous offering. 2. Developed and launched a 'made in house' chilled food to go range which drove average transaction value by +8.5%, grew daily transactions by +7% and improved in unit GP% by +15%. This included creation of all marketing and promotional materials, development of pricing structure and management of the food development process (including briefing and sign off of all products in conjunction with our chef team). 3. Introduced 'FOOD@' umbrella brand to Chartwells run universities and colleges. Led a team of 4 that delivered 'FOOD@' which bought a more connected overall offer that encompassed a better digital presence, physical environment transformation, and, targeted promotions which allowed us to better connect with consumers on campus."
+          },
+          {
+            "title": "Retail Marketing Manager",
+            "organization": "EAT.",
+            "date_range": "Jan 2018 - Apr 2020",
+            "location": "London, United Kingdom",
+            "description": "• Line management of 5 whose remits include; digital and social media, campaign management, PR and launch events, out of store and local level sales driving initiatives, in-house creative design and customer service • Managed the end to end process for 10 campaign launches in a 18-month period that included; key seasonal campaigns, category re-launches and CSR partnerships • Grew the relationship with EAT.s Charity Partner, Fit and Fed (a Street Games initiative), which culminated in a summer campaign focused on raising money and awareness of the charity through the sale of product • Delivered a new website CMS system into the business allowing for internal management of the website, better flexibility and an improved customer experience • Responsible for the management of the marketing budget • Involved in the re-design of the EAT. brand including the re-development of packaging, in shop assets and renewed online presence • Oversaw the tender process and KPI setting for a new Social Media agency to improve online presence and engagement with customers and potential customers • Improved press presence around key campaign launches through the creation of press releases & gifting, influencer engagement and launch events"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "Crussh - Fit Food & Juice Bars",
+            "date_range": "Jun 2020 - May 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Client Services",
+            "organization": "Cracked Foodservice Marketing Ltd",
+            "date_range": "Jun 2021 - Dec 2023",
+            "location": "Weybridge, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Marketing - Fulham Pier",
+            "organization": "Sodexo Live!",
+            "date_range": "Mar 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Kings College London",
+            "degree_or_field": "2:1, Biochemistry",
+            "date_range": "2007 - 2010"
+          }
+        ],
+        "skills": [
+          "marketing",
+          "food",
+          "hospitality",
+          "responsible",
+          "sales",
+          "retail",
+          "bakery",
+          "digital",
+          "management",
+          "branding",
+          "projects",
+          "engagement",
+          "pricing",
+          "briefing",
+          "promotions",
+          "pr",
+          "driving",
+          "creative",
+          "design",
+          "campaigns",
+          "partnerships",
+          "charity",
+          "cms",
+          "flexibility",
+          "budget",
+          "packaging",
+          "kpi",
+          "sellers",
+          "completion",
+          "powerpoint",
+          "presentations",
+          "strategic thinking",
+          "sales growth",
+          "brand awareness",
+          "client services",
+          "services marketing",
+          "digital marketing",
+          "marketing social",
+          "social media",
+          "brand management",
+          "retail marketing",
+          "line management",
+          "campaign management",
+          "customer service",
+          "customer experience",
+          "management marketing",
+          "press releases",
+          "contractor management",
+          "case studies",
+          "social media management"
+        ],
+        "activity_themes": [
+          "Collaboration with The Boat Race confirming Fulham Pier as a key riverside destination",
+          "Update on joining Rhubarb Hospitality Collection and Oak View Group during busy season"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/fulhampier_were-delighted-to-announce-a-new-collaboration-activity-7422692487476977664-c1Iz",
+          "https://www.linkedin.com/posts/emma-jones-46074436_havingjoined-rhubarb-hospitality-collection-activity-7407456143809093632-4eJA"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jon Don-Carolis",
+      "title": "Commercial Director",
+      "company": "Fulham Pier / Fulham FC",
+      "linkedin_url": "https://uk.linkedin.com/in/jondoncarolis",
+      "email": "jdon-carolis@fulhamfc.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Events/Sales enquiries: spacestohire@fulhampier.com; Press: 0208 336 7508 (from fulhamfc.com contact page and fulhampier.com)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees commercial performance, revenue streams, partnerships and distribution strategy across Fulham Pier including the hotel; directly tied to revenue-tech and booking-related decisions.",
+      "contact_evidence_summary": "Multiple press releases and official Fulham Pier pages quote him on commercial initiatives and partnerships; LinkedIn and company org references confirm role; department emails and phones available via official sites.",
+      "evidence": [
+        {
+          "source_url": "https://www.fulhampier.com/page/fulham-pier-is-proud-to-announce-a-new-partnership-with-aspinal-of-london",
+          "source_type": "official_site",
+          "quote_or_fact": "Jon Don-Carolis, Commercial Director at Fulham Football Club, said: “We are thrilled to welcome Aspinal of London to Fulham Pier..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Commercial Director role confirmed in company posts and employee tags related to Fulham Pier revenue and events."
+        },
+        {
+          "source_url": "https://www.fulhamfc.com/more/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact details for hospitality and press overlapping with Pier commercial team."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Lina Lemezonaite",
+      "title": "Commercial Director",
+      "company": "Siggis Capital (Fulham Pier Hotel projects)",
+      "linkedin_url": "https://uk.linkedin.com/in/lina-lemezonaite-60133044",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel reservations and commercial route: stay@fulhampierhotel.co.uk | +44 (0)20 3006 2168 (official hotel contact page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Defines system architecture, distribution strategy, and commercial performance for Fulham Pier Hotel; responsible for revenue-tech and booking automation initiatives across properties.",
+      "contact_evidence_summary": "HOSPACE speaker bio and LinkedIn post tie her directly to Fulham Pier Hotel commercial and systems work; strong public confirmation of relevance to ICP.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospace.org/speakers",
+          "source_type": "news",
+          "quote_or_fact": "Lina Lemezonaite... responsible for commercial performance across diverse property types, including defining system architecture and distribution strategy. Lina's current projects include Fulham Pier Hotel."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/cattmcleod_congratulations-fulham-pier-hotel-janos-activity-7438936206865965056-2Zel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Congratulations Fulham Pier Hotel — Janos Szabo, Lina Lemezonaite and all the team who have created this elegant riverside property."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Primary hotel contact channels for commercial/reservations follow-up."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/lina-lemezonaite-60133044",
+        "display_name": "Lina Lemezonaite",
+        "headline": "Commercial Director @ Siggis Capital",
+        "location": "United Kingdom (GB)",
+        "about": "Commercial leader with 10+ years’ experience in new openings, rebranding and…",
+        "experience": [
+          {
+            "title": "Legal Assistant",
+            "organization": "Law firm SORAINEN",
+            "date_range": "Nov 2010 - Oct 2012 • 1 year and 11 months",
+            "location": "Lithuania",
+            "description": null
+          },
+          {
+            "title": "Associate",
+            "organization": "Law firm SORAINEN",
+            "date_range": "Nov 2012 - Jun 2013 • 7 months",
+            "location": "Lithuania",
+            "description": null
+          },
+          {
+            "title": "Gap Year - Legal Interpreter Translator",
+            "organization": "Self-employed",
+            "date_range": "Jul 2013 - Aug 2014 • 1 year and 1 month",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Guest Service Agent",
+            "organization": "Qbic Hotels",
+            "date_range": "Sep 2014 - Feb 2015 • 5 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Marketing E-commerce Manager",
+            "organization": "Qbic Hotels",
+            "date_range": "Mar 2015 - Mar 2016 • 1 year",
+            "location": "London, United Kingdom",
+            "description": "• Grew website revenue by 14.4% YoY, conversion rate – by 45.6% (to 3.15%), and unique purchases – by 20.3% • Optimised exit capture and basket recovery (c. £200k worth additional sales per year) and paid search (c. £20k upift in sales in the first 6 months alone) • Managed email campaigns (CTOR over 20%, CTR 10%) • Co-led the launch of new branding and website which subsequently won the WMA Web Award “Outstanding Website”, 2015 • Assisted with launch of integration into meta-search platforms"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Qbic Hotels",
+            "date_range": "Apr 2016 - Jan 2017 • 9 months",
+            "location": "London, United Kingdom",
+            "description": "• Achieved and exceeded budget on room revenue • Maintained and improved the position against the competitive set with STR RevPar index 112% when leaving • Maintained and improved the segment mix reducing the OTA channel to 45% YTD • Structured and launched a new promotion strategy linked to returning customers and customer loyalty together with “MyQbic” customer portal • Internally led the development of a new Internet Booking Engine that increased conversion rate by over 20% • Managed meta search campaigns: reduced cost of acquisition to c. 10% and increased conversion to c. 6.5% • Managed reservations team of 2 people"
+          },
+          {
+            "title": "Revenue Manager (New Opening)",
+            "organization": "Good Hotel Group",
+            "date_range": "Feb 2017 - Sep 2018 • 1 year and 7 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Revenue Manager",
+            "organization": "The Collective",
+            "date_range": "Sep 2018 - Dec 2020 • 2 years and 3 months",
+            "location": "London, United Kingdom",
+            "description": "- tendered, designed, led and successfully launched hotel systems architecture for the Collective Canary Wharf and systems architecture transition of 6 Dome apartment properties - created a new brand identity for the Dome portfolio incl. the Dome Apartments website which won WMA Web Award “Hotel and Lodging Outstanding Website”, 2020 - managed a challenging sequential opening of the Collective Canary Wharf property, in charge of hotel marketing pre/post-opening - achieved and exceeded room revenue budgets - managed team of 3"
+          },
+          {
+            "title": "Director Of Revenue Distribution",
+            "organization": "The Collective",
+            "date_range": "Jan 2021 - Jun 2021 • 5 months",
+            "location": "United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Sales",
+            "organization": "The Collective",
+            "date_range": "Jul 2021 - Mar 2023 • 1 year and 8 months",
+            "location": "United Kingdom",
+            "description": "- successfully navigated the portfolio through Covid-19 amongst other volatile changes by promptly designing a commercial response plan, managing the strategic pivot of stock (geared towards more residential units) and deploying property specific strategies including expansion of distribution channels, proactive marketing campaigns, sales team tactics, market/customer re-orientation, etc. - introduced unit-based dynamic pricing model for residential lettings - designed and introduced a bespoke data model that allowed for informed decisions on dynamic pricing, sales and renewal incentives for residential lettings, hotel revenue and sales decisions, and dynamic inventory shifts between uses - was promoted twice during the Covid19 period having been recognized as a growing influence within the company - managed team of 7"
+          },
+          {
+            "title": "Commercial Director",
+            "organization": "Siggis Capital",
+            "date_range": "Apr 2023 - Present • 2 years and 9 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Balys Dvarionas Decennary Music School",
+            "degree_or_field": "Violin and piano classes",
+            "date_range": "1996 - 2006"
+          },
+          {
+            "school": "St. Christopher's High School",
+            "degree_or_field": null,
+            "date_range": "1999 - 2007"
+          },
+          {
+            "school": "B. Dvarionas Decennary Music School",
+            "degree_or_field": "Youth Symphony Orchestra (Strings group/ Violins III)",
+            "date_range": "2000 - 2005"
+          },
+          {
+            "school": "Vilnius University Faculty of Law",
+            "degree_or_field": "Master, Law",
+            "date_range": "2007 - 2012"
+          }
+        ],
+        "skills": [
+          "commercial",
+          "director",
+          "sales",
+          "designing",
+          "residential",
+          "property",
+          "distribution",
+          "proactive",
+          "marketing",
+          "campaigns",
+          "tactics",
+          "pricing",
+          "lettings",
+          "incentives",
+          "hotel",
+          "inventory",
+          "budget",
+          "strategy",
+          "reservations",
+          "commerce",
+          "branding",
+          "integration",
+          "legal",
+          "architecture",
+          "apartments",
+          "lodging",
+          "budgets",
+          "guest service",
+          "customer loyalty"
+        ],
+        "activity_themes": [
+          "New hotel project launches and openings in London",
+          "Hospitality venue awards and member club establishments",
+          "Culinary icons, chef collaborations and recognitions",
+          "UK hotel partner events and celebrations",
+          "Real estate interviews with agents and occupiers",
+          "Premium hospitality conferences like HOSPACE",
+          "Event space naming and opening year reflections",
+          "Luxury hotel leadership opportunities and developments"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/lina-lemezonaite-60133044"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Janos Szabo",
+      "title": "General Manager",
+      "company": "Fulham Pier Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/janos-szabo-339a17331",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3006 2168",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Direct hotel line: +44 (0)20 3006 2168; Reservations: stay@fulhampierhotel.co.uk; Media: pr@fulhampierhotel.co.uk (from https://fulhampierhotel.co.uk/contact/)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees all hotel operations including reservations systems, guest experience, revenue management and tech stack adoption as GM of the boutique property.",
+      "contact_evidence_summary": "Public TripAdvisor responses signed as GM; FT article interview; LinkedIn profile; multiple official hotel pages list contact routes that reach the GM office.",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d33474021-Reviews-Fulham_Pier_Hotel-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Response from Janos S, General Manager at Fulham Pier Hotel. Multiple detailed replies confirming role."
+        },
+        {
+          "source_url": "https://www.ft.com/content/8d7a6a6b-d2c2-4e45-ad16-0e5784243bad",
+          "source_type": "news",
+          "quote_or_fact": "Janos Szabo, the general manager who is showing me around..."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact phone and emails for hotel management and reservations."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/janos-szabo-339a17331",
+          "source_type": "linkedin",
+          "quote_or_fact": "Janos Szabo - Fulham Pier Hotel, General Manager / Hotel Manager."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/janos-szabo-339a17331",
+        "display_name": "Janos Szabo",
+        "headline": "Hotel Manager at Fulham Pier Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 6 years and 3 months",
+        "experience": [
+          {
+            "title": "Front Of House Manager",
+            "organization": "Treehouse Hotels",
+            "date_range": "Nov 2019 - Jan 2025 • 5 years and 2 months",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager\nCompany: 1001-5000 employees • Founded 2019 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Fulham Pier Hotel",
+            "date_range": "Jan 2025 - Present • 1 year and 1 month",
+            "location": "Greater London, England, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel"
+        ],
+        "activity_themes": [
+          "Sustainable and mission-driven hospitality",
+          "Luxury hotel design and openings",
+          "Community volunteering in hotels",
+          "Team achievements and front office excellence",
+          "Hospitality partnerships with fashion and sport",
+          "Professional development milestones"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/1-hotels_1hotels-doallthegoodyoucan-missiondrivenhospitality-activity-7411420855542435840-AGYb",
+          "https://www.linkedin.com/posts/oliverjimw_cipd-cipdlevel7-hr-activity-7404504929698205696-2wPk",
+          "https://www.linkedin.com/posts/neem-london_what-does-winter-mean-for-a-slow-fashion-activity-7402764954283712512-_SNy",
+          "https://www.linkedin.com/posts/1-hotels_to-our-cherished-1-hotels-community-as-activity-7399809517170872321-KZmn",
+          "https://www.linkedin.com/posts/berndpichler_giving-back-to-the-community-is-a-core-pillar-activity-7389291743495684098-xq-o",
+          "https://www.linkedin.com/posts/treehousehotels_treehousehotels-treehouselondon-staytreehouse-activity-7390387244978630656-ozmd",
+          "https://www.linkedin.com/posts/forbes-travel-guide_forbestravelguide-hospitality-hospitalityindustry-activity-7393679351218692096-nXSN",
+          "https://www.linkedin.com/posts/neem-london_we-have-hit-10k-from-creating-a-strategy-activity-7393684853235458048-5CMg"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Anya McGeachan",
+      "title": "Reservations Manager",
+      "company": "Fulham Pier Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/anya-mcgeachan-888b59276",
+      "email": "stay@fulhampierhotel.co.uk",
+      "email2": null,
+      "phone": "+44 (0)20 3006 2168",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations direct: stay@fulhampierhotel.co.uk | Main phone: +44 (0)20 3006 2168 (official contact page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly manages reservations, expertise in SevenRooms systems; primary stakeholder for AI booking automation, guest messaging and reservations tech.",
+      "contact_evidence_summary": "LinkedIn profile explicitly states Reservations Manager at Fulham Pier with SevenRooms expertise; ties to official reservations email and hotel phone; job postings confirm role at the property.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/anya-mcgeachan-888b59276",
+          "source_type": "linkedin",
+          "quote_or_fact": "Reservations Manager at Fulham Pier with expertise in SevenRooms and systems…"
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact us on whatsapp, email or phone for reservations."
+        },
+        {
+          "source_url": "https://community.sodexojobs.co.uk/members/modules/job/detail.php?record=139422",
+          "source_type": "directory",
+          "quote_or_fact": "Reservations Manager role posted for Fulham Pier, Craven Cottage."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/anya-mcgeachan-888b59276",
+        "display_name": "Anya McGeachan",
+        "headline": "Reservations Manager at Fulham Pier\nHead Receptionist at Aqua Restaurant Group",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 2 years",
+        "experience": [
+          {
+            "title": "Reservations Agent",
+            "organization": "Aqua Restaurant Group",
+            "date_range": "Oct 2023 - Mar 2024 • 5 months",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Senior Receptionist",
+            "organization": "The Ivy Asia",
+            "date_range": "Mar 2024 - Oct 2024 • 7 months",
+            "location": null,
+            "description": "Department: Administrative • Level: Senior"
+          },
+          {
+            "title": "Assistant Reception Manager",
+            "organization": "The Ivy Asia",
+            "date_range": "Oct 2024 - Apr 2025 • 6 months",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Fulham Pier",
+            "date_range": "May 2025 - Present • 6 months",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Head Receptionist",
+            "organization": "Aqua Restaurant Group",
+            "date_range": "Current",
+            "location": null,
+            "description": "Department: Customer Service • Level: Head"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "reservations"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://uk.linkedin.com/in/anya-mcgeachan-888b59276"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Glen Sutton",
+      "title": "Director",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://www.linkedin.com/in/glen-sutton-426aa11b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "General enquiries via hi@fulhampier.com or hotel phone +44 (0)20 3006 2168",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Strategic director overseeing Fulham Pier development including hotel operations, branding and commercial decisions tied to guest experience and revenue.",
+      "contact_evidence_summary": "Featured in Field Grey blog interview as Director; multiple official references and LinkedIn company activity; department routes available.",
+      "evidence": [
+        {
+          "source_url": "https://www.field-grey.com/blog/shaping-identities-at-fulham-pier-a-conversation-with-director-glen-sutton/",
+          "source_type": "news",
+          "quote_or_fact": "Working closely with Fulham Pier Director Glen Sutton... I’ve been involved for about five years, starting as a consultant before joining the board as a director."
+        },
+        {
+          "source_url": "https://www.field-grey.com/blog/meet-the-team-at-fulham-pier/",
+          "source_type": "news",
+          "quote_or_fact": "Working closely with Fulham Pier Director Glen Sutton, Field Grey designed..."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Leadership references for the Pier complex including hotel."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/glen-sutton-426aa11b",
+        "display_name": "Glen Sutton",
+        "headline": null,
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "weak",
+        "caveats": "Minimal profile text provided; likely login wall or restricted view. No headline, experience, education or other details available."
+      }
+    },
+    {
+      "full_name": "Mark Harris-Quinn",
+      "title": "Operations Director",
+      "company": "Fulham FC & Fulham Pier",
+      "linkedin_url": "https://www.linkedin.com/in/mark-harris-quinn-362b59210",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Operations and hospitality contact via main Pier/hotel channels: +44 (0)20 3006 2168 or spacestohire@fulhampier.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Operations leadership across FC and Pier (including hotel); influences systems, guest ops and tech adoption for commercial areas.",
+      "contact_evidence_summary": "LinkedIn posts and official event coverage confirm role overlapping Pier/hotel; general contact routes from FC and Pier sites.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/mark-harris-quinn-362b59210_fulhamfc-sportindustryawards-hospitality-activity-7431314890306482176-k3tD",
+          "source_type": "linkedin",
+          "quote_or_fact": "Operations Director , Fulham Football Club & Fulham Pier."
+        },
+        {
+          "source_url": "https://www.fulhamfc.com/more/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Hospitality and operations contact details."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/mark-harris-quinn-362b59210",
+        "display_name": "Mark Harris-Quinn",
+        "headline": "Operations Director, Fulham Football Club & Fulham Pier",
+        "location": "London, England, United Kingdom",
+        "about": "I am a senior professional with over 29 years of experience in high-end hospitality… Total Experience: 31 years and 11 months",
+        "experience": [
+          {
+            "title": "Operations Manager The Oval Cricket Ground (Retail Public Catering)",
+            "organization": "NATIONAL LEISURE CATERING LIMITED",
+            "date_range": "Feb 1994 - Feb 1996",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Operations Manager, Wembley Conference Centre",
+            "organization": "NATIONAL LEISURE CATERING LIMITED",
+            "date_range": "Feb 1996 - Feb 1997",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Logistics Manager, Ascot Racecourse",
+            "organization": "Sodexo Prestige Venues & Events",
+            "date_range": "Feb 1997 - Mar 1999",
+            "location": "Ascot, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Public Operations Manager, Ascot Racecourse",
+            "organization": "Sodexo Prestige Venues & Events",
+            "date_range": "Mar 1999 - Feb 2002",
+            "location": "Ascot, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Operations Manager, Lord's Cricket Ground",
+            "organization": "Sodexo Prestige Venues & Events",
+            "date_range": "Feb 2002 - Mar 2003",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Operations Manager Lord's Cricket Ground",
+            "organization": "Marylebone Cricket Club",
+            "date_range": "Mar 2003 - Sep 2009",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager Lord's Cricket Ground (Head Of Catering)",
+            "organization": "Marylebone Cricket Club",
+            "date_range": "Sep 2009 - Jan 2013",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager, SOAS University Of London",
+            "organization": "Elior UK",
+            "date_range": "Jan 2013 - Sep 2017",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager, Inmarsat",
+            "organization": "Elior UK",
+            "date_range": "Sep 2017 - Oct 2018",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager, Catering, Events, Domestics And Laundry At Haileybury",
+            "organization": "Chartwells Independent",
+            "date_range": "Oct 2018 - Jun 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Operations Manager-South East",
+            "organization": "Aspens Services Ltd",
+            "date_range": "Jun 2021 - Feb 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Account Director",
+            "organization": "CH&CO",
+            "date_range": "Feb 2022 - Apr 2023",
+            "location": "Kew Gardens",
+            "description": null
+          },
+          {
+            "title": "Account Director",
+            "organization": "Gather & Gather",
+            "date_range": "Apr 2023 - Sep 2024",
+            "location": "Southampton Football Club",
+            "description": null
+          },
+          {
+            "title": "Operations Director",
+            "organization": "Sodexo Live!",
+            "date_range": "Sep 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Chace School Enfield",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "operations",
+          "director",
+          "logistics",
+          "catering",
+          "retail"
+        ],
+        "activity_themes": [
+          "Sodexo Live! partnerships with Edinburgh Zoo",
+          "Fulham FC pitch recovery and match events",
+          "Football legends matches at Southampton FC",
+          "Fulham Pier spa and wellness facility openings",
+          "Hospitality developments at Craven Cottage",
+          "Community walking football and family events",
+          "Charity runs supporting London Marathon"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/mark-harris-quinn-362b59210"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Lucy Gould",
+      "title": "Sales Manager",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://www.linkedin.com/in/lucy-gould-3b2934173",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales: spacestohire@fulhampier.com or hotel reservations stay@fulhampierhotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales role focused on hospitality and events at the Pier with overlap to hotel revenue and booking channels.",
+      "contact_evidence_summary": "RocketReach and LinkedIn references to sales team at Fulham Pier; supported by official sales contact emails.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/lucy-gould-email_238337243",
+          "source_type": "directory",
+          "quote_or_fact": "Lucy Gould - Sales Manager @ Fulham Pier."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/spaces-to-hire",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales contact for venue including hospitality."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lucy-gould-3b2934173",
+        "display_name": "Lucy Gould",
+        "headline": "Sales Manager at Fulham Pier",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 6 years and 10 months",
+        "experience": [
+          {
+            "title": "Stewardess On Princess V75 M Y",
+            "organization": "Independent Contractor",
+            "date_range": "Jun 2017 - Jul 2017 • 1 month",
+            "location": "Southampton, United Kingdom and France",
+            "description": null
+          },
+          {
+            "title": "Hostess On Flotilla",
+            "organization": "Sunsail",
+            "date_range": "Jul 2018 - Sep 2018 • 2 months",
+            "location": "Croatia",
+            "description": "Company: 501-1000 employees • Founded 1974 • Privately Held • Travel Arrangements"
+          },
+          {
+            "title": "Administrative Assistant",
+            "organization": "NHS",
+            "date_range": "Jul 2019 - Jun 2021 • 1 year and 11 months",
+            "location": "Winchester, Hampshire, United Kingdom",
+            "description": "Company: Myself Only • Self-Employed • Food and Beverage Services\nDepartment: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Stewardess Deckhand",
+            "organization": "CNB76 S/Y",
+            "date_range": "Jun 2021 - Oct 2021 • 4 months",
+            "location": "Mediterranean",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Event Sales Executive",
+            "organization": "Clays",
+            "date_range": "Oct 2021 - Oct 2022 • 1 year",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 2019 • Privately Held • Hospitality\nDepartment: Sales • Level: Specialist"
+          },
+          {
+            "title": "Senior Account Executive",
+            "organization": "Clays",
+            "date_range": "Oct 2022 - May 2023 • 7 months",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 2019 • Privately Held • Hospitality\nDepartment: Sales • Level: Senior"
+          },
+          {
+            "title": "Account Manager",
+            "organization": "Clays",
+            "date_range": "May 2023 - Mar 2025 • 1 year and 10 months",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 2019 • Privately Held • Hospitality\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Fulham Pier",
+            "date_range": "Mar 2025 - Present • 10 months",
+            "location": "London Area, United Kingdom",
+            "description": "Company: 51-200 employees • Privately Held • Hospitality\nDepartment: Sales • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "The British & Irish Modern Music Institute",
+            "degree_or_field": null,
+            "date_range": "2017 - 2020 • 3 years"
+          }
+        ],
+        "skills": [
+          "sales",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Hospitality industry events and celebrations",
+          "Christmas shifts in venue and stadium hospitality",
+          "High-end restaurant recommendations and achievements",
+          "Career milestones in sales, production and AI",
+          "Sports events and global team building activities"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/yoana-petrova-bmap_acronis-teamup-oneteam-activity-7417868475970469888-nLzE",
+          "https://www.linkedin.com/posts/venuesearchlondon_hospitalityrocks-hospitalityindustry-eventsindustry-activity-7417252447129292800-PcAi",
+          "https://www.linkedin.com/posts/nicol-bassett_after-almost-three-years-at-hogarth-working-activity-7416143684099796992-z3IQ",
+          "https://www.linkedin.com/posts/abi-lake-2628971ba_another-year-at-the-awesome-group-and-my-activity-7414648017477382144-YHWv",
+          "https://www.linkedin.com/posts/mark-harris-quinn-362b59210_brasserieconstance-fulhampier-michelrouxjr-activity-7414656211784163328-DUoC",
+          "https://www.linkedin.com/posts/callum-antony-smith-b4b667122_after-four-incredibly-rewarding-years-at-activity-7413679177654013953-_QaL",
+          "https://www.linkedin.com/posts/zoë-armstrong-964585141_2025-at-lidl-gb-has-been-a-busy-one-i-activity-7407510588802613248-yvts",
+          "https://www.linkedin.com/posts/sophieshepherd1986_tell-me-you-worked-the-christmas-shift-without-activity-7406336265572438016-Ejjv"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jimmy Ord",
+      "title": "Head of Sales & Business Development (Premium)",
+      "company": "Fulham FC (overlaps Fulham Pier)",
+      "linkedin_url": "https://www.linkedin.com/in/jimmy-ord",
+      "email": "jord@fulhamfc.com",
+      "email2": "sales@fulhamfc.com",
+      "phone": "07557 177 901",
+      "phone2": "02083 367 538",
+      "x_handle": "@JimmyOrd",
+      "other_contact_detail": "Hospitality sales: sales@fulhamfc.com or spacestohire@fulhampier.com (FC and Pier contacts)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales and biz dev in premium hospitality at FC with direct overlap to Pier hotel and events revenue/booking.",
+      "contact_evidence_summary": "LinkedIn and event posts confirm premium sales leadership; supported by FC hospitality contact pages.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/fulhampier_were-delighted-to-announce-a-new-collaboration-activity-7422692487476977664-c1Iz",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Sales & Biz Dev Premium at FC referenced in Pier-related posts."
+        },
+        {
+          "source_url": "https://riverside.fulhamfc.com/hospitality",
+          "source_type": "official_site",
+          "quote_or_fact": "Speak with our sales team to discuss Hospitality options."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jimmy-ord",
+        "display_name": "Jimmy Ord",
+        "headline": "Commercial Venue Leader, Sport | Entertainment | Hospitality",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Commercial venue leader with a track record of building profitable premium businesses and…",
+        "experience": [
+          {
+            "title": "Resort Sales",
+            "organization": "Lingfield Park Resort",
+            "date_range": "Apr 2012 - Jun 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "New Stadium Sales",
+            "organization": "Tottenham Hotspur Football Club",
+            "date_range": "Jun 2016 - Jan 2018",
+            "location": "London, England, United Kingdom",
+            "description": "Generated over £18million in new stadium hospitality revenue - Acquired the most new business through targeted business development initiatives - Sold the most seats in the new stadium's flagship experiences: The H Club and The Tunnel Club"
+          },
+          {
+            "title": "Senior Sales Executive",
+            "organization": "Fulham Football Club",
+            "date_range": "Jan 2018 - Apr 2019",
+            "location": "Fulham FC Training Ground, London",
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Fulham Football Club",
+            "date_range": "Apr 2019 - Mar 2022",
+            "location": "Fulham FC Training Ground, London",
+            "description": "26% growth in Season Ticket revenue (EFL) - Launching Fulham Palace to host premium experiences during the riverside development project - Winner of Best Football Club Hospitality"
+          },
+          {
+            "title": "Head Of Sales Business Development",
+            "organization": "Fulham Football Club",
+            "date_range": "Mar 2022 - Present",
+            "location": "London, United Kingdom",
+            "description": "99% growth in Season Ticket revenue (Premier League) - 32% growth in premium matchday revenue (Premier League) - Design and delivery of Club's New Riverside Stand sales strategy - Record partnership agreement with Club's OTA's"
+          }
+        ],
+        "education": [
+          {
+            "school": "Oxted School & Sixth Form College",
+            "degree_or_field": "Economics, Biology, English & Law",
+            "date_range": "2005 - 2012"
+          }
+        ],
+        "skills": [
+          "business development",
+          "sales strategy",
+          "sales manager",
+          "commercial",
+          "sales",
+          "design",
+          "strategy",
+          "football",
+          "hospitality"
+        ],
+        "activity_themes": [
+          "Fulham Pier and Riverside venue awards and achievements",
+          "Sports business awards and Michelin restaurant recognition",
+          "Industry panels and speaking events in sports and entertainment",
+          "Football club news, tributes, and operational updates",
+          "Live event hosting like BRIT Awards at Co-op Live"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Mar Gonzalez Moreira",
+      "title": "Head of Events and Hospitality",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://www.linkedin.com/in/margonzalezmoreira",
+      "email": "spacestohire@fulhampier.com",
+      "email2": null,
+      "phone": "+44 (0)20 3006 2168",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Events: spacestohire@fulhampier.com | +44 (0)20 3006 2168",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages events and hospitality which drive hotel occupancy, guest messaging and revenue tech integration.",
+      "contact_evidence_summary": "Company LinkedIn and venue pages reference events/hospitality leadership; official contact emails and phones provided.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Events and Hospitality role active in Fulham Pier postings."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/spaces-to-hire",
+          "source_type": "official_site",
+          "quote_or_fact": "Venue hiring and events contacts."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/margonzalezmoreira",
+        "display_name": "Mar Gonzalez",
+        "headline": "Head of Hospitality and Events",
+        "location": "London Area, United Kingdom (GB)",
+        "about": "Total Experience: 7 years and 10 months",
+        "experience": [
+          {
+            "title": "Interior Designer",
+            "organization": "SENAVE",
+            "date_range": "Oct 2016 - Jul 2017",
+            "location": "A Coruña, Galicia, España",
+            "description": "Department: Design • Level: Specialist"
+          },
+          {
+            "title": "Waitress",
+            "organization": "Brindisa Kitchens",
+            "date_range": "Jul 2017 - Jan 2022",
+            "location": "London, Greater London, Reino Unido",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Customer Service Sales Assistant",
+            "organization": "Inditex",
+            "date_range": "Oct 2018 - Dec 2019",
+            "location": "London, Greater London, Reino Unido",
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Event Manager",
+            "organization": "Bateaux London",
+            "date_range": "May 2021 - Jan 2023",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Event Manager",
+            "organization": "Twickenham Stadium",
+            "date_range": "Jan 2023 - Apr 2023",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Head Of Hospitalty And Events",
+            "organization": "Fulham Pier",
+            "date_range": "Apr 2023 - Present",
+            "location": "Craven Cottage",
+            "description": "Company: 51-200 employees • Privately Held • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of A Coruna",
+            "degree_or_field": "Interior Design",
+            "date_range": "2008 -"
+          },
+          {
+            "school": "Escuela Superior Marcelo Macías",
+            "degree_or_field": "Visual merchandising",
+            "date_range": "2016 -"
+          },
+          {
+            "school": "Anglia Ruskin University",
+            "degree_or_field": "Bachelor of Business and Events management",
+            "date_range": "2020 -"
+          }
+        ],
+        "skills": [
+          "sales",
+          "customer service"
+        ],
+        "activity_themes": [
+          "Career transition and new beginnings in hospitality/events",
+          "Farewell to Fulham Pier after 2.5 years with Sodexo Live!",
+          "Sustainable events industry participation",
+          "Christmas events and stewarding at Fulham Cottage",
+          "Collaborations with sports business schools and Fulham FC Foundation",
+          "Hospitality career reflections and new roles"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/fulham-fc_wishing-a-merry-christmas-to-the-fulham-family-activity-7409880798528618496-Yqbr",
+          "https://www.linkedin.com/posts/emily-hayward-abb42324a_thankyou-eventsafety-thecottage-activity-7404807205574721536-E1M4",
+          "https://www.linkedin.com/posts/richemslie_4-weeks-inand-loving-it-thank-you-all-activity-7391827917288361985-0uuX",
+          "https://www.linkedin.com/posts/lucy-gould-3b2934173_ses25-sustainableevents-eventsindustry-activity-7392529597197885441-BQRx",
+          "https://www.linkedin.com/posts/yacinesignoret_delighted-to-be-renewing-our-collaboration-activity-7389332247088156672-FArI",
+          "https://www.linkedin.com/posts/jaffa-zeeno-7661ab216_after-20-years-in-hospitality-ive-officially-activity-7390500934520504320-ejGi",
+          "https://www.linkedin.com/posts/margonzalezmoreira_newbeginnings-hospitality-events-activity-7388121551205969920-pLDP"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Nicholas White",
+      "title": "Head of Guest Experience",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://www.linkedin.com/in/nicholas-white-84818515",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Guest experience and hotel route: stay@fulhampierhotel.co.uk or +44 (0)20 3006 2168; hi@fulhampier.com (from fulhampier.com and hotel site)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads guest journey, CRM, messaging and experience tech across the Pier including hotel; key for guest messaging and automation tools.",
+      "contact_evidence_summary": "RocketReach org chart and LinkedIn company page confirm Head of Guest Experience; official Fulham Pier posts reference the role and team; department contacts available.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/fulham-pier-management_b6c26c1ac7afbbd0",
+          "source_type": "directory",
+          "quote_or_fact": "Nick White (Head of Guest Experience) listed in Fulham Pier management team."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Guest Experience at Fulham Pier. Posts about shaping memorable guest journeys."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "References to Guest Experience team leadership."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/nicholas-white-84818515",
+        "display_name": "Nicholas White",
+        "headline": "Head of Guest Experience at Fulham Pier",
+        "location": "London Area, United Kingdom (GB)",
+        "about": "I am a visitor experience specialist and creative director who has launched several major attractions and location based entertainment venues. My hallmark is building successful and dynamic teams that deliver exceptional standards of service. I have overseen the entertainment and experience propositions at four major London tourist destinations and I also oversaw events and VIP experiences at Hamleys of London. In July 2022 I devised and launched Wyvernwood (TripAdvisor Travellers Choice Award Winner 2024); a 27-acre immersive adventure park in North Essex and have recently assumed the role of Head of Guest Experience at Fulham Pier; a unique new destination positioned along the River Thames.\n\nTotal Experience: 17 years and 8 months",
+        "experience": [
+          {
+            "title": "Performance Trainer",
+            "organization": "Merlin Entertainments",
+            "date_range": "Jun 2006 - Apr 2015 • 8 years and 10 months",
+            "location": null,
+            "description": "The No 1 visitor attraction operator in Europe, No 2 in the world behind Disney employing 21,000 staff worldwide. Merlin currently run over 100 attractions and operate over 4 continents. In my role as a Trainer: • Responsible for training new actors to perform over 20 different character roles for up to 4000 people per day to the highest quality whilst meeting with brand specs and strict time limits. • Created and introduced a unique statistic based incentive scheme that recorded achievements and recognition across all departments, boosting team morale. • Oversaw the much-publicised move from the famous Tooley Street site to the new flagship venue in County Hall in March 2013. • Created and ran practical workshops to help actors maintain energy, motivation and physical/vocal strength, as well as helping them deal with conflict management, health & safety and customer care."
+          },
+          {
+            "title": "PR Media Captain For GB And Western Europe",
+            "organization": "Diageo / Ogilvy PR / RPM Ltd",
+            "date_range": "Jun 2011 - May 2013 • 1 year and 11 months",
+            "location": null,
+            "description": "Diageo is a multinational alcoholic beverages company based in London. It is the world's largest producer of spirits. As PR & Media Captain: ·The face of Captain Morgan for the 2011 re-branding and re-launch of Captain Morgan’s Spiced in UK markets and also its introduction in Belgium. ·Create exceptional experiences for celebrity and high profile clientele at major media events. ·Present YouTube broadcasts, entertaining and improvising with the public at events throughout Europe and for various UK magazines and newspapers. ·Comprehensive media training by Ogilvy PR to conform with Diageo Marketing Code. ·Attend sales conferences throughout Europe to give speeches and presentations to both Diageo employees and clients. ·Training other Captains to make regional appearances at smaller scale venues."
+          },
+          {
+            "title": "Performance Team Leader",
+            "organization": "Merlin Entertainments plc",
+            "date_range": "Apr 2015 - Jan 2018 • 2 years and 9 months",
+            "location": "Dreamworks Tours - Shrek's Adventure! London",
+            "description": "As Performance Team Leader: • Part of the initial management team who launched this unique attraction on London’s South Bank. • Helped ensure the efficient operational running of the performance department through consistent delivery of performance, monitoring standards and giving constructive feedback and support when necessary and any other supporting administrative duties. • Maintained exceptionally high theatrical performance standards for the Performance Department, with show creation, costume standards and show specification monitoring. • Guided training and workshops. • Supported and enhanced the unique ‘visitor experience’ with show proposals and creation. • Ensured the smooth running of shows on a day to day basis by acting as the Duty Performance representative. • Engaged with actors and costume team on a daily basis, dealing with any problems, arising issues and other matters that are of relevance to the department whilst promoting honesty, integrity and professionalism. • Helped co-ordinate actor auditions on a regular basis to allow for the recruitment of talented and motivated employees."
+          },
+          {
+            "title": "Experience And Entertainment Manager",
+            "organization": "Hamleys of London",
+            "date_range": "Jan 2018 - Jul 2021 • 3 years and 6 months",
+            "location": "London, United Kingdom",
+            "description": "Hamleys is the oldest and largest toy shop in the world and one of the world's best-known retailers of toys. My role: • Responsible for overseeing the experience in-store for the millions of visitors to Hamleys each year by providing world class entertainment, creativity and discipline across all areas. An active ambassador of the company’s brand image. • Responsible for the delivery of all seasonal, corporate and marketing events in store to ensure that they are executed professionally at all times from conception to completion. • Providing a high level of customer experience to guests who require a personal shopper, birthday party or VIP package; including overseeing private hire for the entire venue. Aiming to maximise corporate, personal shops and party income whilst actively seeking new opportunities and ensuring the highest standards of implementation in store. • Creating and implementing all in-store theatre including Christmas at Hamleys, the launch of ‘Harry Potter at Hamleys’ and ‘Frozen II at Hamleys’ as well as various seasonal shows."
+          },
+          {
+            "title": "Experiences Director",
+            "organization": "Wyvernwood",
+            "date_range": "Jul 2021 - Jun 2024 • 2 years and 11 months",
+            "location": "Alresford, Essex",
+            "description": "Wyvernwood - The Enchanted Lost Kingdom, is a 27-acre outdoor immersive adventure park which launched in Alresford, Essex in the Summer of 2022. TripAdvisor Travellers Choice Award Winner 2024. My role: - Responsible for overseeing the creative development of Wyvernwood; project managing its launch and conceptualising the park’s design, guest journey and daily experiences. - Responsible for recruiting all seasonal park team-members and training them to deliver an exceptional guest experience. - Devised and implemented all entertainment and activities within the park from initial concept through to installation and launch. - Responsible for the delivery of all seasonal events onsite, including corporate events, private hires, school trips and birthday parties. - Working closely with the Managing Director and key stakeholders to achieve annual targets and KPIs. - Being a main point of contact with all third-party contractors to ensure projects are delivered on time and on budget."
+          },
+          {
+            "title": "Head Of Guest Experience",
+            "organization": "Fulham Pier",
+            "date_range": "Jul 2024 - Present • 1 year and 7 months",
+            "location": "Fulham, London",
+            "description": "Fulham Pier is London's newest riverside destination · Positioned along the Thames and nestled by parkland, we’ve transformed this pocket of South-West London into a unique retreat. My role: • A key strategic lead in coordinating multiple service offerings; including hotel, restaurants, members club, creche, spa, conference & events, and entertainment venues. • Lead and inspire the guest experience team to deliver seamless, high-quality customer service across all touchpoints, both in-venue and via digital channels. • Championing a guest-centric culture focused on creating memorable and meaningful moments throughout the entire visitor journey. • Coordinating closely with cross-functional teams—including F&B, security, guest relations, maintenance, and events—to support the entire guest journey. • Serve as the escalation point for complex guest complaints, resolving issues effectively to maintain customer satisfaction and brand integrity. • Ensuring inclusivity and accessibility across the venue as well as via communication and booking channels. • Responsible for maintaining strong ties with the local community, BID partners and local authorities. • Maintaining operational readiness during high-pressure scenarios, including multiple event on-sales and peak guest flow periods. • Ensuring optimal presentation, cleanliness, safety, and accessibility across all areas of the venue, driving continuous improvements; identifying and mitigating service delivery risks, ensuring uninterrupted and exceptional experiences for all guests. • Monitoring and sharing guest sentiment, reviews, and feedback with all teams to drive service excellence and engagement strategies. Integrating AI and traditional tools to enhance guest engagement. • Coaching and mentoring staff to uphold the highest standards in service, communication, and operational responsiveness during complex and fast-paced situations."
+          }
+        ],
+        "education": [
+          {
+            "school": "Brunel University",
+            "degree_or_field": "(BA) Hons Degree, Modern Drama, 2:1",
+            "date_range": "2001 - 2003 • 2 years"
+          },
+          {
+            "school": "Mountview Academy of Theatre Arts",
+            "degree_or_field": "Diploma, Acting",
+            "date_range": "2004 - 2005 • 1 year"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/nicholas-white-84818515"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jeremy Ford",
+      "title": "Food Director",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://uk.linkedin.com/in/jeremyford1",
+      "email": "jeremy.ford@sodexo.com",
+      "email2": "stay@fulhampierhotel.co.uk",
+      "phone": "0734112256",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "F&B and guest experience route: stay@fulhampierhotel.co.uk or hi@fulhampier.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads F&B operations which intersect with guest comms, experience and hotel dining/CRM touchpoints.",
+      "contact_evidence_summary": "LinkedIn profile for Fulham Pier Food Director; supported by venue operational pages.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/jeremyford1",
+          "source_type": "linkedin",
+          "quote_or_fact": "Food Director with extensive leadership experience at Fulham Pier."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "F&B leadership within the Pier complex including hotel guests."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/jeremyford1",
+        "display_name": "Jeremy Ford",
+        "headline": "Head of Culinary - Fulham Pier",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Professional Summary Accomplished Food Director with extensive leadership experience… Total Experience: 7 years and 10 months",
+        "experience": [
+          {
+            "title": "Director Of Food",
+            "organization": "Gather & Gather",
+            "date_range": "Mar 2018 - Mar 2020",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Food",
+            "organization": "CH&CO",
+            "date_range": "Mar 2020 - Dec 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Food",
+            "organization": "Company of Cooks",
+            "date_range": "Apr 2022 - Dec 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Culinary",
+            "organization": "Fulham Pier",
+            "date_range": "Jan 2026 - Present",
+            "location": "London",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of West London",
+            "degree_or_field": "Bsc International Gastronomy, Gastronomy",
+            "date_range": null
+          },
+          {
+            "school": "Bournemouth and Poole College",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "food",
+          "director",
+          "leadership",
+          "culinary"
+        ],
+        "activity_themes": [
+          "New F&B Director roles in hospitality",
+          "Memories of top kitchens with celebrity chefs",
+          "Year-end gratitude to industry network",
+          "New Year Honours list achievements",
+          "Royal visits and brewery openings",
+          "Michelin Guide restaurant listings",
+          "High-profile state banquets and hosting",
+          "Supplier visits for chef development",
+          "Partnerships with Michelin-starred chefs",
+          "Work-life balance in hospitality"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": "Experience dates overlap and include future dates; about text is truncated; limited role descriptions and no education dates provided in source text."
+      }
+    },
+    {
+      "full_name": "Harry Champion",
+      "title": "Head of Restaurants",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://www.linkedin.com/in/harrychamp",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Restaurant and guest enquiries via stay@fulhampierhotel.co.uk or main phone",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads restaurant operations intersecting with hotel guest experience, F&B messaging and on-property comms tech.",
+      "contact_evidence_summary": "Referenced in Fulham Pier team and org overviews; department contact routes via official hotel and Pier sites.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Leadership roles including Head of Restaurants referenced in company descriptions."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Brasserie Constance and restaurant operations under Pier leadership."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/harrychamp",
+        "display_name": "Harry F. Champion AIH",
+        "headline": "Head of Restaurants - Fulham Pier - Brasserie Constance & Lighthouse Social",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Gold Service Scholarship 2022 Finalist - Highly Commended BA(Hons) International Hospitality Management Graduate from Bournemouth University. Young Guns winner 2018\n\nTotal Experience: 13 years and 4 months",
+        "experience": [
+          {
+            "title": "Wine Waiter",
+            "organization": "The Goodwood Group",
+            "date_range": "Jan 2012 - Jul 2019",
+            "location": "West Sussex, United Kingdom",
+            "description": "Having worked at Goodwood part time for over 5 years, I have been able to increase my responsibilities. From starting out as waiting staff, progressing to wine waiter, to most recently being in charge of a 10 strong team, organising drinks receptions for over 1500 people."
+          },
+          {
+            "title": "Waiter",
+            "organization": "Mosimann's",
+            "date_range": "Sep 2016 - Sep 2017",
+            "location": null,
+            "description": "A year placement at Mosimann's private dining club, based in Belgravia, London. During My time here, I had the opportunity to work in multiple departments, gaining valuable experience of the Private members club sector. I gained administrative experience in back office and reception. I was taught valuable operational experience in private rooms, restaurant, bar and kitchen."
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Mosimann's at Guards Polo Club Ltd",
+            "date_range": "Jun 2018 - Jun 2019",
+            "location": "Windsor Great Park - Smiths Lawn",
+            "description": null
+          },
+          {
+            "title": "Private Members Club Manager",
+            "organization": "Levy Restaurants",
+            "date_range": "Jun 2019 - Aug 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Private Events Manager",
+            "organization": "Tottenham Hotspur Football Club",
+            "date_range": "Aug 2022 - Feb 2025",
+            "location": "Tottenham Hotspur Stadium",
+            "description": null
+          },
+          {
+            "title": "Head Of Restaurants At Fulham Pier",
+            "organization": "Fulham Pier",
+            "date_range": "Feb 2025 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Bournemouth University",
+            "degree_or_field": "Bachelor of Arts (B.A.), International Hospitality Management",
+            "date_range": "2014 - 2018"
+          }
+        ],
+        "skills": [
+          "gold",
+          "hospitality",
+          "management",
+          "restaurants",
+          "receptions",
+          "hospitality management",
+          "back office",
+          "private events"
+        ],
+        "activity_themes": [
+          "Team achievements and new restaurant openings",
+          "Gold Service Scholarship and hospitality awards",
+          "Chef appointments and London restaurant news",
+          "Sustainability and circular economy in events",
+          "Charity dinners and industry fundraising",
+          "Wine society and professional mentoring"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/harrychamp",
+          "https://www.linkedin.com/posts/harrychamp_very-happy-with-this-h-activity-7415044756742770688-XU4t",
+          "https://www.linkedin.com/posts/harrychamp_very-proud-of-the-team-and-what-we-have-achieved-activity-7409289882822463488-nEl9",
+          "https://www.linkedin.com/posts/steven-cova-37356513_closing-this-chapter-at-gategroup-has-been-activity-7378761379727556608-U9vQ",
+          "https://www.linkedin.com/posts/wshrestaurants_so-you-may-of-heard-ben-murphy-is-to-be-activity-7369005798494064642-Ndnz"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Sam Innes",
+      "title": "Guest Experience Supervisor",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://www.linkedin.com/in/sam-innes-0bba1128a",
+      "email": "stay@fulhampierhotel.co.uk",
+      "email2": null,
+      "phone": "+44 (0)20 3006 2168",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Guest experience: stay@fulhampierhotel.co.uk or main hotel phone +44 (0)20 3006 2168",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Frontline leadership for guest journeys, messaging and experience at the Pier and hotel; touches CRM and automation.",
+      "contact_evidence_summary": "LinkedIn company career posts mention Guest Experience Supervisor role with direct ties to memorable guest journeys; hotel contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "We’re looking for a hands-on Guest Experience Supervisor who will be at the forefront of providing exceptional leadership and support to our Guest Experience team."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/welcome/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact our reception team for guest experience matters."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sam-innes-0bba1128a",
+        "display_name": "Sam Innes",
+        "headline": "Guest Experience Supervisor At Fulham Pier",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 4 years",
+        "experience": [
+          {
+            "title": "Fitness Instructor",
+            "organization": "Fitness First UK",
+            "date_range": "Oct 2021 - Jul 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Visitor Services",
+            "organization": "Twist Museum",
+            "date_range": "Oct 2022 - Feb 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Guest Experience Supervisor",
+            "organization": "Fulham Pier",
+            "date_range": "Mar 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Liverpool Hope University",
+            "degree_or_field": "Creative and Performing Arts",
+            "date_range": "2015 - 2018"
+          }
+        ],
+        "skills": [
+          "fitness"
+        ],
+        "activity_themes": [
+          "Fulham Pier events and networking",
+          "Fulham FC stadium tour awards and assessments",
+          "Hospitality venue reviews and team pride",
+          "London corporate event spaces and promotions",
+          "Venue openings and management practices",
+          "Employee wellness and workplace culture"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/sam-innes-0bba1128a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Nikhil Vyas",
+      "title": "Head of Culinary",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://www.linkedin.com/in/nikhil-vyas-54744427",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "F&B/guest: stay@fulhampierhotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Culinary leadership for on-site dining experienced by hotel guests; influences guest comms and experience tech indirectly.",
+      "contact_evidence_summary": "Referenced in team overviews for Fulham Pier F&B; general contact details from hotel and Pier official sites.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Culinary / F&B leadership in hospitality posts."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/facilities/",
+          "source_type": "official_site",
+          "quote_or_fact": "Dining experiences tied to hotel guests."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/nikhil-vyas-54744427",
+        "display_name": "Nikhil Vyas",
+        "headline": "Head Pastry Chef at Fulham Pier",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 23 years and 1 month",
+        "experience": [
+          {
+            "title": "Trainee Commis (stage )",
+            "organization": "Auberge du pere bise",
+            "date_range": "Jul 2001 - Nov 2001",
+            "location": null,
+            "description": "2 michelin star restaurant in a small town Talloires near Annecy in east of France ."
+          },
+          {
+            "title": "Demi Chef De Partie Pastry",
+            "organization": "Savoy Hotel london",
+            "date_range": "Oct 2002 - Jan 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Chef De Partie Pastry",
+            "organization": "Marriott International",
+            "date_range": "Jan 2004 - Dec 2005",
+            "location": null,
+            "description": "Grosvenor House Hotel, London la terraza restaurant,Park room ,22 conference room in 86 Park lane,Ballroom and 2000 cover capacity Great room."
+          },
+          {
+            "title": "Head Pastry Chef",
+            "organization": "Q-Hotels",
+            "date_range": "Dec 2005 - Feb 2007",
+            "location": null,
+            "description": "4 Star Bridgewood Manor Hotel ,2 rossette Squires Restaurant,cafe and 9 conference and banquet room"
+          },
+          {
+            "title": "Head Pastry Chef (Royal Institute Of British Architects )",
+            "organization": "CH & Co",
+            "date_range": "May 2007 - Aug 2010",
+            "location": null,
+            "description": "Fine dining Restaurant,Cafe and 22 conference rooms"
+          },
+          {
+            "title": "Head Pastry Chef",
+            "organization": "Taj Hotels Palaces Resorts Safaris",
+            "date_range": "Sep 2010 - Apr 2018",
+            "location": null,
+            "description": "51 buckingham gate 88 suite luxury hotel and St james court Hotel"
+          },
+          {
+            "title": "Head Pastry Chef",
+            "organization": "Sofitel London Heathrow Hotel",
+            "date_range": "Apr 2018 - Oct 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Pastry Chef",
+            "organization": "Taj Hotels",
+            "date_range": "Sep 2021 - Apr 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Pastry Chef",
+            "organization": "Cliveden House",
+            "date_range": "Apr 2022 - Jul 2022",
+            "location": "United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Pastry Chef",
+            "organization": "Kalm Kitchen Ltd",
+            "date_range": "Jul 2022 - Mar 2023",
+            "location": "Guildford, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Pastry Chef",
+            "organization": "The Athenaeum Hotel and Residences",
+            "date_range": "Mar 2023 - Feb 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Pastry Chef",
+            "organization": "Fulham Pier",
+            "date_range": "Apr 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "IHMCT Trivandrum",
+            "degree_or_field": null,
+            "date_range": "1997 - 2000"
+          },
+          {
+            "school": "Institut Vatel,Nimes ,France",
+            "degree_or_field": "MBA in international hospitality, Strategy Planning , Managerial accounting,Hospitality Law,Organisational Behaviour,leisure managemen",
+            "date_range": "2001 - 2002"
+          }
+        ],
+        "skills": [
+          "pastry",
+          "hotel",
+          "luxury",
+          "fine dining"
+        ],
+        "activity_themes": [
+          "Culinary innovations like Christmas chocolate amenities",
+          "Hospitality career moves, training and mentorship",
+          "Luxury hotel leadership transitions and appointments",
+          "Personal success stories from non-elite backgrounds",
+          "Organizational culture, values and leadership insights",
+          "Industry news on business expansions and new roles"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/nikhil-vyas-54744427"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Monika Peda",
+      "title": "Head of Creative Programme",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://uk.linkedin.com/in/monika-peda",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Creative/guest experience route via hi@fulhampier.com or hotel contacts",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Creative programming supports guest experience and events at the Pier with some overlap to hotel guest comms.",
+      "contact_evidence_summary": "RocketReach and LinkedIn confirm role at Fulham Pier; general contacts from official site for follow-up.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/monika-peda-email_75409469",
+          "source_type": "directory",
+          "quote_or_fact": "Monika Peda, Head of Creative Programme at Fulham Pier."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/monika-peda",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experience tied to Fulham Pier creative and hospitality."
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T14:10:31.410614+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 0,
+    "attempted": 18,
+    "succeeded": 18,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T14:38:12.489826+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 16,
+      "fetched": 2,
+      "structured": 0,
+      "discovered": 0,
+      "errors": 0
+    }
+  }
+}

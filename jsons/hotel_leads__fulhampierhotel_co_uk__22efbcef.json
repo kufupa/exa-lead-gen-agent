@@ -1,0 +1,653 @@
+{
+  "target_url": "https://fulhampierhotel.co.uk/",
+  "generated_at_utc": "2026-04-25T13:53:22.254285+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6478,
+    "prompt_tokens": 419275,
+    "total_tokens": 452910,
+    "prompt_text_tokens": 419275,
+    "reasoning_tokens": 27157,
+    "cached_prompt_text_tokens": 240089,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Chris Wickham",
+      "title": "Head of Sales - Events",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://uk.linkedin.com/in/chris-wickham-97ba2315",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales and events: spacestohire@fulhampier.com | Conferences & Events: 020 3841 9053 (from fulhampier.com and FC contact)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Heads sales for events and hospitality at the Pier (overlaps hotel bookings and revenue); influences distribution and revenue-tech adoption.",
+      "contact_evidence_summary": "LinkedIn profile and RocketReach org chart confirm title; official venue hiring and contact pages provide sales routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/chris-wickham-97ba2315",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Sales - Events · Fulham Pier."
+        },
+        {
+          "source_url": "https://rocketreach.co/fulham-pier-management_b6c26c1ac7afbbd0",
+          "source_type": "directory",
+          "quote_or_fact": "Chris Wickham ( Head of Sales - Events) in management team."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/spaces-to-hire",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact spacestohire@fulhampier.com for more information."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Rachel Peacock",
+      "title": "Head of Marketing",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://uk.linkedin.com/in/rachel-peacock-6bbb9378",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Marketing/PR: pr@fulhampierhotel.co.uk or hi@fulhampier.com (official sites)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing, PR and digital presence for Fulham Pier including hotel; influences guest comms, digital booking channels and revenue marketing tech.",
+      "contact_evidence_summary": "LinkedIn profile and RocketReach confirm Head of Marketing; official contact pages list PR and marketing emails.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/rachel-peacock-6bbb9378",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Marketing - Fulham Pier. Marketing professional with 12 years' experience..."
+        },
+        {
+          "source_url": "https://rocketreach.co/fulham-pier-management_b6c26c1ac7afbbd0",
+          "source_type": "directory",
+          "quote_or_fact": "Rachel Peacock (Head of Marketing) listed."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Media: pr@fulhampierhotel.co.uk"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Catherine Monaghan",
+      "title": "Head of Marketing",
+      "company": "Fulham Pier / Sodexo Live!",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Marketing and PR: pr@fulhampierhotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Marketing leadership (possible prior or parallel to current Head); influences digital guest acquisition and comms tech.",
+      "contact_evidence_summary": "Directory listings tie to Fulham Pier marketing; PR contact from official hotel page provides route.",
+      "evidence": [
+        {
+          "source_url": "https://salesflow.io/contact/catherine-monaghan-head-of-marketing---fulham-pier/",
+          "source_type": "directory",
+          "quote_or_fact": "Catherine Monaghan - Head of Marketing – Fulham Pier, Sodexo Live!"
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Media contact pr@fulhampierhotel.co.uk."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Jon Don-Carolis",
+      "title": "Commercial Director",
+      "company": "Fulham Pier / Fulham FC",
+      "linkedin_url": "https://uk.linkedin.com/in/jondoncarolis",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Events/Sales enquiries: spacestohire@fulhampier.com; Press: 0208 336 7508 (from fulhamfc.com contact page and fulhampier.com)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees commercial performance, revenue streams, partnerships and distribution strategy across Fulham Pier including the hotel; directly tied to revenue-tech and booking-related decisions.",
+      "contact_evidence_summary": "Multiple press releases and official Fulham Pier pages quote him on commercial initiatives and partnerships; LinkedIn and company org references confirm role; department emails and phones available via official sites.",
+      "evidence": [
+        {
+          "source_url": "https://www.fulhampier.com/page/fulham-pier-is-proud-to-announce-a-new-partnership-with-aspinal-of-london",
+          "source_type": "official_site",
+          "quote_or_fact": "Jon Don-Carolis, Commercial Director at Fulham Football Club, said: “We are thrilled to welcome Aspinal of London to Fulham Pier..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Commercial Director role confirmed in company posts and employee tags related to Fulham Pier revenue and events."
+        },
+        {
+          "source_url": "https://www.fulhamfc.com/more/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact details for hospitality and press overlapping with Pier commercial team."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Lina Lemezonaite",
+      "title": "Commercial Director",
+      "company": "Siggis Capital (Fulham Pier Hotel projects)",
+      "linkedin_url": "https://uk.linkedin.com/in/lina-lemezonaite-60133044",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel reservations and commercial route: stay@fulhampierhotel.co.uk | +44 (0)20 3006 2168 (official hotel contact page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Defines system architecture, distribution strategy, and commercial performance for Fulham Pier Hotel; responsible for revenue-tech and booking automation initiatives across properties.",
+      "contact_evidence_summary": "HOSPACE speaker bio and LinkedIn post tie her directly to Fulham Pier Hotel commercial and systems work; strong public confirmation of relevance to ICP.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospace.org/speakers",
+          "source_type": "news",
+          "quote_or_fact": "Lina Lemezonaite... responsible for commercial performance across diverse property types, including defining system architecture and distribution strategy. Lina's current projects include Fulham Pier Hotel."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/cattmcleod_congratulations-fulham-pier-hotel-janos-activity-7438936206865965056-2Zel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Congratulations Fulham Pier Hotel — Janos Szabo, Lina Lemezonaite and all the team who have created this elegant riverside property."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Primary hotel contact channels for commercial/reservations follow-up."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Janos Szabo",
+      "title": "General Manager",
+      "company": "Fulham Pier Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/janos-szabo-339a17331",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Direct hotel line: +44 (0)20 3006 2168; Reservations: stay@fulhampierhotel.co.uk; Media: pr@fulhampierhotel.co.uk (from https://fulhampierhotel.co.uk/contact/)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees all hotel operations including reservations systems, guest experience, revenue management and tech stack adoption as GM of the boutique property.",
+      "contact_evidence_summary": "Public TripAdvisor responses signed as GM; FT article interview; LinkedIn profile; multiple official hotel pages list contact routes that reach the GM office.",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d33474021-Reviews-Fulham_Pier_Hotel-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Response from Janos S, General Manager at Fulham Pier Hotel. Multiple detailed replies confirming role."
+        },
+        {
+          "source_url": "https://www.ft.com/content/8d7a6a6b-d2c2-4e45-ad16-0e5784243bad",
+          "source_type": "news",
+          "quote_or_fact": "Janos Szabo, the general manager who is showing me around..."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact phone and emails for hotel management and reservations."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/janos-szabo-339a17331",
+          "source_type": "linkedin",
+          "quote_or_fact": "Janos Szabo - Fulham Pier Hotel, General Manager / Hotel Manager."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Anya McGeachan",
+      "title": "Reservations Manager",
+      "company": "Fulham Pier Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/anya-mcgeachan-888b59276",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations direct: stay@fulhampierhotel.co.uk | Main phone: +44 (0)20 3006 2168 (official contact page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Directly manages reservations, expertise in SevenRooms systems; primary stakeholder for AI booking automation, guest messaging and reservations tech.",
+      "contact_evidence_summary": "LinkedIn profile explicitly states Reservations Manager at Fulham Pier with SevenRooms expertise; ties to official reservations email and hotel phone; job postings confirm role at the property.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/anya-mcgeachan-888b59276",
+          "source_type": "linkedin",
+          "quote_or_fact": "Reservations Manager at Fulham Pier with expertise in SevenRooms and systems…"
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact us on whatsapp, email or phone for reservations."
+        },
+        {
+          "source_url": "https://community.sodexojobs.co.uk/members/modules/job/detail.php?record=139422",
+          "source_type": "directory",
+          "quote_or_fact": "Reservations Manager role posted for Fulham Pier, Craven Cottage."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Glen Sutton",
+      "title": "Director",
+      "company": "Fulham Pier",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "General enquiries via hi@fulhampier.com or hotel phone +44 (0)20 3006 2168",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Strategic director overseeing Fulham Pier development including hotel operations, branding and commercial decisions tied to guest experience and revenue.",
+      "contact_evidence_summary": "Featured in Field Grey blog interview as Director; multiple official references and LinkedIn company activity; department routes available.",
+      "evidence": [
+        {
+          "source_url": "https://www.field-grey.com/blog/shaping-identities-at-fulham-pier-a-conversation-with-director-glen-sutton/",
+          "source_type": "news",
+          "quote_or_fact": "Working closely with Fulham Pier Director Glen Sutton... I’ve been involved for about five years, starting as a consultant before joining the board as a director."
+        },
+        {
+          "source_url": "https://www.field-grey.com/blog/meet-the-team-at-fulham-pier/",
+          "source_type": "news",
+          "quote_or_fact": "Working closely with Fulham Pier Director Glen Sutton, Field Grey designed..."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Leadership references for the Pier complex including hotel."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Mark Harris-Quinn",
+      "title": "Operations Director",
+      "company": "Fulham FC & Fulham Pier",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Operations and hospitality contact via main Pier/hotel channels: +44 (0)20 3006 2168 or spacestohire@fulhampier.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Operations leadership across FC and Pier (including hotel); influences systems, guest ops and tech adoption for commercial areas.",
+      "contact_evidence_summary": "LinkedIn posts and official event coverage confirm role overlapping Pier/hotel; general contact routes from FC and Pier sites.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/mark-harris-quinn-362b59210_fulhamfc-sportindustryawards-hospitality-activity-7431314890306482176-k3tD",
+          "source_type": "linkedin",
+          "quote_or_fact": "Operations Director , Fulham Football Club & Fulham Pier."
+        },
+        {
+          "source_url": "https://www.fulhamfc.com/more/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Hospitality and operations contact details."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Lucy Gould",
+      "title": "Sales Manager",
+      "company": "Fulham Pier",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales: spacestohire@fulhampier.com or hotel reservations stay@fulhampierhotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales role focused on hospitality and events at the Pier with overlap to hotel revenue and booking channels.",
+      "contact_evidence_summary": "RocketReach and LinkedIn references to sales team at Fulham Pier; supported by official sales contact emails.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/lucy-gould-email_238337243",
+          "source_type": "directory",
+          "quote_or_fact": "Lucy Gould - Sales Manager @ Fulham Pier."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/spaces-to-hire",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales contact for venue including hospitality."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Jimmy Ord",
+      "title": "Head of Sales & Business Development (Premium)",
+      "company": "Fulham FC (overlaps Fulham Pier)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hospitality sales: sales@fulhamfc.com or spacestohire@fulhampier.com (FC and Pier contacts)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales and biz dev in premium hospitality at FC with direct overlap to Pier hotel and events revenue/booking.",
+      "contact_evidence_summary": "LinkedIn and event posts confirm premium sales leadership; supported by FC hospitality contact pages.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/fulhampier_were-delighted-to-announce-a-new-collaboration-activity-7422692487476977664-c1Iz",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Sales & Biz Dev Premium at FC referenced in Pier-related posts."
+        },
+        {
+          "source_url": "https://riverside.fulhamfc.com/hospitality",
+          "source_type": "official_site",
+          "quote_or_fact": "Speak with our sales team to discuss Hospitality options."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Mar Gonzalez Moreira",
+      "title": "Head of Events and Hospitality",
+      "company": "Fulham Pier",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Events: spacestohire@fulhampier.com | +44 (0)20 3006 2168",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages events and hospitality which drive hotel occupancy, guest messaging and revenue tech integration.",
+      "contact_evidence_summary": "Company LinkedIn and venue pages reference events/hospitality leadership; official contact emails and phones provided.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Events and Hospitality role active in Fulham Pier postings."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/spaces-to-hire",
+          "source_type": "official_site",
+          "quote_or_fact": "Venue hiring and events contacts."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Nicholas White",
+      "title": "Head of Guest Experience",
+      "company": "Fulham Pier",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Guest experience and hotel route: stay@fulhampierhotel.co.uk or +44 (0)20 3006 2168; hi@fulhampier.com (from fulhampier.com and hotel site)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads guest journey, CRM, messaging and experience tech across the Pier including hotel; key for guest messaging and automation tools.",
+      "contact_evidence_summary": "RocketReach org chart and LinkedIn company page confirm Head of Guest Experience; official Fulham Pier posts reference the role and team; department contacts available.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/fulham-pier-management_b6c26c1ac7afbbd0",
+          "source_type": "directory",
+          "quote_or_fact": "Nick White (Head of Guest Experience) listed in Fulham Pier management team."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Guest Experience at Fulham Pier. Posts about shaping memorable guest journeys."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "References to Guest Experience team leadership."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Jeremy Ford",
+      "title": "Food Director",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://uk.linkedin.com/in/jeremyford1",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "F&B and guest experience route: stay@fulhampierhotel.co.uk or hi@fulhampier.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads F&B operations which intersect with guest comms, experience and hotel dining/CRM touchpoints.",
+      "contact_evidence_summary": "LinkedIn profile for Fulham Pier Food Director; supported by venue operational pages.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/jeremyford1",
+          "source_type": "linkedin",
+          "quote_or_fact": "Food Director with extensive leadership experience at Fulham Pier."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "F&B leadership within the Pier complex including hotel guests."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Harry Champion",
+      "title": "Head of Restaurants",
+      "company": "Fulham Pier",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Restaurant and guest enquiries via stay@fulhampierhotel.co.uk or main phone",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads restaurant operations intersecting with hotel guest experience, F&B messaging and on-property comms tech.",
+      "contact_evidence_summary": "Referenced in Fulham Pier team and org overviews; department contact routes via official hotel and Pier sites.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Leadership roles including Head of Restaurants referenced in company descriptions."
+        },
+        {
+          "source_url": "https://www.fulhampier.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Brasserie Constance and restaurant operations under Pier leadership."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Sam Innes",
+      "title": "Guest Experience Supervisor",
+      "company": "Fulham Pier",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Guest experience: stay@fulhampierhotel.co.uk or main hotel phone +44 (0)20 3006 2168",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Frontline leadership for guest journeys, messaging and experience at the Pier and hotel; touches CRM and automation.",
+      "contact_evidence_summary": "LinkedIn company career posts mention Guest Experience Supervisor role with direct ties to memorable guest journeys; hotel contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "We’re looking for a hands-on Guest Experience Supervisor who will be at the forefront of providing exceptional leadership and support to our Guest Experience team."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/welcome/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact our reception team for guest experience matters."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Nikhil Vyas",
+      "title": "Head of Culinary",
+      "company": "Fulham Pier",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "F&B/guest: stay@fulhampierhotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Culinary leadership for on-site dining experienced by hotel guests; influences guest comms and experience tech indirectly.",
+      "contact_evidence_summary": "Referenced in team overviews for Fulham Pier F&B; general contact details from hotel and Pier official sites.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/fulhampier",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Culinary / F&B leadership in hospitality posts."
+        },
+        {
+          "source_url": "https://fulhampierhotel.co.uk/facilities/",
+          "source_type": "official_site",
+          "quote_or_fact": "Dining experiences tied to hotel guests."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Monika Peda",
+      "title": "Head of Creative Programme",
+      "company": "Fulham Pier",
+      "linkedin_url": "https://uk.linkedin.com/in/monika-peda",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Creative/guest experience route via hi@fulhampier.com or hotel contacts",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Creative programming supports guest experience and events at the Pier with some overlap to hotel guest comms.",
+      "contact_evidence_summary": "RocketReach and LinkedIn confirm role at Fulham Pier; general contacts from official site for follow-up.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/monika-peda-email_75409469",
+          "source_type": "directory",
+          "quote_or_fact": "Monika Peda, Head of Creative Programme at Fulham Pier."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/monika-peda",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experience tied to Fulham Pier creative and hospitality."
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}

@@ -1,0 +1,3031 @@
+{
+  "target_url": "https://inte.the-connaught.co.uk/",
+  "generated_at_utc": "2026-04-25T13:41:46.853806+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6575,
+    "prompt_tokens": 2548091,
+    "total_tokens": 2682399,
+    "prompt_text_tokens": 2548091,
+    "reasoning_tokens": 127733,
+    "cached_prompt_text_tokens": 1327988,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Sandeep Bhalla",
+      "title": "Managing Director",
+      "company": "The Connaught",
+      "linkedin_url": "https://uk.linkedin.com/in/sandeep-bhalla-6020995",
+      "email": "sbhalla@the-connaught.co.uk",
+      "email2": null,
+      "phone": "+44 (0)20 7314 3530",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees entire property including commercial strategy, reservations, revenue management, guest experience and technology decisions tied to booking and guest comms.",
+      "contact_evidence_summary": "Direct personal business email and dedicated phone listed on official Maybourne contact page clearly tied to him as MD. Multiple independent news and LinkedIn confirm current role at The Connaught.",
+      "evidence": [
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Sandeep Bhalla, Managing Director Tel: +44 (0)20 7314 3530 Email: sbhalla@the-connaught.co.uk"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/sandeep-bhalla-6020995",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager at The Connaught"
+        },
+        {
+          "source_url": "https://hotelsmag.com/news/sandeep-bhalla-of-the-connaught-hotels-magazines-2024-gm-hotelier-of-the-world/",
+          "source_type": "news",
+          "quote_or_fact": "Sandeep Bhalla is general manager of The Connaught in London, part of Maybourne Hotel Group"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/sandeep-bhalla-6020995",
+        "display_name": "Sandeep Bhalla",
+        "headline": "General Manager at The Connaught",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 26 years and 3 months",
+        "experience": [
+          {
+            "title": "Food And Beverage Manager",
+            "organization": "Burj Al Arab",
+            "date_range": "Jan 1999 - Jan 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Berkeley Hotel",
+            "date_range": "Oct 2007 - Nov 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Berkeley",
+            "date_range": "Oct 2012 - Sep 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Connaught",
+            "date_range": "Sep 2018 - Jun 2019",
+            "location": "London, Greater London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Connaught",
+            "date_range": "Jul 2019 - Present",
+            "location": "London, Greater London, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Institute of Hotel Management",
+            "degree_or_field": "3 Years Diploma in Hotel Management",
+            "date_range": "1991 - 1994"
+          },
+          {
+            "school": "Osmania University",
+            "degree_or_field": "Bachelor of Arts (B.A.)",
+            "date_range": "1994 - 1994"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "General Managers Programme",
+            "date_range": "2014 - 2014"
+          }
+        ],
+        "skills": [
+          "food",
+          "hotel",
+          "director"
+        ],
+        "activity_themes": [
+          "Luxury hotel management and Forbes five-star recognitions",
+          "Team celebrations and staff recognition events",
+          "Hospitality recruitment for spa and operational roles",
+          "Career development and storytelling in hospitality",
+          "Industry promotions, networking and peer congratulations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/the-connaught_building-a-successful-career-is-a-lot-like-activity-7384230524447318017-mDoO",
+          "https://www.linkedin.com/posts/sandeep-bhalla-6020995_forbestravelguide-fivestars-luxuryhotel-activity-7040605922573852672-hYHD",
+          "https://www.linkedin.com/posts/karen-de-koning-mih-is-91a07282_onwardsandupwards-activity-6952979335108571136-LKaD",
+          "https://www.linkedin.com/posts/grove-of-narberth_promotion-hospitality-hospitalitynews-activity-6952935811482857472-UuAH",
+          "https://www.linkedin.com/posts/sandeep-bhalla-6020995_earlier-this-week-we-celebrated-our-team-activity-6953362449613910016-B_0z",
+          "https://www.linkedin.com/posts/sandeep-bhalla-6020995_recruitment-hotel-hospitality-activity-6937033205057290240-f9jR",
+          "https://www.linkedin.com/posts/the-connaught_recruitment-hotel-hospitality-activity-6934524817551331328-Trkf",
+          "https://www.linkedin.com/posts/ganesh-chandrasekkar_im-delighted-to-accept-the-role-of-group-activity-6687121649680171008-Wop8"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Simon Scoot",
+      "title": "Chief Commercial Officer",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/simonscoot",
+      "email": "sscoot@maybourne.com",
+      "email2": null,
+      "phone": "+44 (0)20 7173 1896",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads all commercial, sales, revenue and distribution strategy across Maybourne properties including The Connaught; key decision maker for revenue-tech, booking automation and digital channels.",
+      "contact_evidence_summary": "Direct email and phone listed on official Maybourne personnel page. LinkedIn and company announcements confirm role.",
+      "evidence": [
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact/maybourne",
+          "source_type": "official_site",
+          "quote_or_fact": "Simon Scoot, Chief Commercial Officer Tel: +44 (0)207 173 1896 Email: sscoot@maybourne.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/maybourne-hotel-group",
+          "source_type": "linkedin",
+          "quote_or_fact": "Simon Scoot mentioned in company posts as key commercial leader"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/simonscoot",
+        "display_name": "Simon Scoot",
+        "headline": "Luxury Hospitality & Branding Leader | CMO @ Maybourne | Former IHG Luxury Strategy | Founder & Entrepreneur | NED",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "As Chief Marketing Officer at Maybourne, I am responsible for defining and executing the brand and commercial strategy that drives revenue outperformance and positions the brand at the pinnacle of luxury hospitality. Our selective portfolio spans storied and extraordinary hotels, branded residences, members’ clubs, wellness, retail, and dining concepts. Previously, I founded Lido Branding, delivering strategic assignments for ultra-luxury hotels, healthcare, private equity, family offices, and start-ups. In 2020, as part of a consortium, we secured an Innovate UK Award that enabled the development of AIUS, an innovative technology venture in security and intelligence. With a career grounded in international hospitality and luxury operations, past highlights include: • Leading global brand strategy for IHG’s luxury & lifestyle portfolio • Operating InterContinental London Park Lane (flagship) • Repositioning landmark properties in Hong Kong, Bangkok, Paris, London, and New York I bring a rare blend of C-suite leadership, international perspective, brand expertise, and entrepreneurial innovation. I help organisations grow, transform, and compete to win at the very top of the luxury market.",
+        "experience": [
+          {
+            "title": "Various Sales Marketing Leadership Roles",
+            "organization": "Various Companies",
+            "date_range": "Jan 1990 - Dec 1999",
+            "location": "Global",
+            "description": null
+          },
+          {
+            "title": "Area Director Of Sales",
+            "organization": "London Hilton On Park Lane",
+            "date_range": "Jan 1999 - Feb 2002",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Marketing",
+            "organization": "Regent Hong Kong",
+            "date_range": "Mar 2002 - Dec 2004",
+            "location": "Hong Kong",
+            "description": null
+          },
+          {
+            "title": "Director Brand Marketing, InterContinental Hotels Resorts",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jan 2005 - Dec 2005",
+            "location": "UK",
+            "description": null
+          },
+          {
+            "title": "Director Of Marketing",
+            "organization": "InterContinental London Park Lane",
+            "date_range": "Jan 2006 - Sep 2007",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "InterContinental London Park Lane",
+            "date_range": "Oct 2007 - Oct 2009",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Vice President Global Brand Marketing - Luxury Lifestyle",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Oct 2009 - Apr 2018",
+            "location": "UK",
+            "description": null
+          },
+          {
+            "title": "Group Chief Marketing Officer",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Jul 2018 - Sep 2018",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Founder Managing Director",
+            "organization": "LiDo Branding Limited",
+            "date_range": "Oct 2018 - Sep 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Adviser",
+            "organization": "Loveday & Co",
+            "date_range": "Jan 2019 - Jun 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Adviser",
+            "organization": "Luxury Hotel Partners Ltd",
+            "date_range": "Apr 2019 - Jul 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Non Executive Director",
+            "organization": "Aius",
+            "date_range": "Nov 2020 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Co-founded a technology venture developing advanced security and intelligence solutions for hospitality and related sectors. Secured funding via Innovate UK, then bootstrapped initial development, building product concept, partnerships, early market positioning and significant interest from major hotel companies."
+          },
+          {
+            "title": "Chief Marketing Officer",
+            "organization": "Maybourne",
+            "date_range": "Jul 2023 - Present",
+            "location": "London",
+            "description": "Leading brand and commercial strategy to position Maybourne at the pinnacle of luxury hospitality. Driving revenue outperformance across hotels, residences, clubs, wellness, retail, restaurants, and bars. Building a global platform for growth, while strengthening the heritage and distinctiveness of Maybourne’s portfolio."
+          }
+        ],
+        "education": [
+          {
+            "school": "Bedford Modern School",
+            "degree_or_field": null,
+            "date_range": "1980 - 1985"
+          },
+          {
+            "school": "University of Leicester",
+            "degree_or_field": "Bachelor of Arts - BA, History",
+            "date_range": "1985 - 1988"
+          },
+          {
+            "school": "Cornell School of Hotel Administration",
+            "degree_or_field": "Professional Development Programme, Strategic Marketing for Hotels & Restaurants",
+            "date_range": "2004 - 2004"
+          },
+          {
+            "school": "Northwestern University - Kellogg School of Management",
+            "degree_or_field": "Exec Ed Kellogg on Branding, Brand Strategy",
+            "date_range": "2014 - 2014"
+          },
+          {
+            "school": "Marketing Week Mini MBA with Mark Ritson",
+            "degree_or_field": "Mini MBA, Marketing",
+            "date_range": "2018 - 2018"
+          },
+          {
+            "school": "CIM | The Chartered Institute of Marketing",
+            "degree_or_field": "Fellow, Marketing",
+            "date_range": "2025 - 2026"
+          }
+        ],
+        "skills": [
+          "marketing",
+          "responsible",
+          "commercial",
+          "strategy",
+          "luxury",
+          "hospitality",
+          "hotels",
+          "wellness",
+          "retail",
+          "branding",
+          "healthcare",
+          "technology",
+          "security",
+          "intelligence",
+          "operations",
+          "c",
+          "leadership",
+          "innovation",
+          "p",
+          "less",
+          "driving",
+          "restaurants",
+          "director",
+          "sales",
+          "hotel",
+          "funding",
+          "partnerships",
+          "positioning",
+          "private equity",
+          "brand strategy",
+          "brand marketing",
+          "luxury lifestyle"
+        ],
+        "activity_themes": [
+          "Luxury hospitality leadership and self-awareness",
+          "Sales and marketing strategy kickoffs and performance reviews",
+          "Ultra high-net-worth customer journeys and digital influence",
+          "Team culture, dedication and retention in luxury hotels",
+          "Brand strategy for ultra-affluent segments"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/kostas-sfaltos-9215a219_ep072-kostas-sfaltos-md-the-berkeley-activity-7420434367757418497-3l-G",
+          "https://www.linkedin.com/posts/carolineshen_commercialstrategies-salesandmarketingkickoff-activity-7420329437856018433-DdIm",
+          "https://www.linkedin.com/posts/luux-media_ultraaffluent-luxurystrategy-customerjourney-activity-7419680502732730369-Rh9Z",
+          "https://www.linkedin.com/posts/the-maybourne-beverly-hills_putpeopleatourheart-makethemagichappen-activity-7420230415082352640-iV2M"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Dani Degen",
+      "title": "Global Head of Revenue & Reservations",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/dani-degen-9649bb25",
+      "email": "ddegen@maybourne.com",
+      "email2": null,
+      "phone": "+44 (0)20 7107 8911",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly responsible for revenue management, reservations strategy and systems across all Maybourne hotels including The Connaught. Core stakeholder for reservations automation, revenue-tech and AI booking tools.",
+      "contact_evidence_summary": "Phone and title listed on official Maybourne personnel contact page. LinkedIn confirms exact title and long tenure. Multiple company references.",
+      "evidence": [
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact/maybourne",
+          "source_type": "official_site",
+          "quote_or_fact": "Dani Degen, Global Head of Revenue & Reservations Tel: +44 (0)207 107 8911 Email: ddegen@maybourne.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/dani-degen-9649bb25",
+          "source_type": "linkedin",
+          "quote_or_fact": "Global Head of Revenue and Reservations at Maybourne Hotel Group"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/dani-degen-9649bb25",
+        "display_name": "Dani Degen",
+        "headline": "Gobal Head of Revenue and Reservations",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 24 years and 5 months",
+        "experience": [
+          {
+            "title": "Revenue Manager",
+            "organization": "Marriott International",
+            "date_range": "May 2001 - Dec 2001",
+            "location": "London Marriott Hotel Marble Arch",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Marriott International",
+            "date_range": "Dec 2001 - Dec 2002",
+            "location": "Central London",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "The Cumberland Hotel. Formerly ‘Le Méridien Marble Arch’",
+            "date_range": "Jan 2003 - Dec 2004",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Area Director Of Revenue Management",
+            "organization": "Thistle Hotels",
+            "date_range": "Jan 2005 - Jul 2005",
+            "location": "The Cumberland Hotel & Thistle Marble Arch",
+            "description": "Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Aug 2005 - Mar 2010",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Group Director Of Revenue And Reservations",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Apr 2010 - Present",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Gobal Head Of Revenue And Reservations",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Jun 2023 - Present",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Customer Service • Level: Specialist"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "reservations",
+          "cluster",
+          "director",
+          "management",
+          "revenue management"
+        ],
+        "activity_themes": [
+          "Luxury hotel openings and re-openings",
+          "Maybourne Hotel Group awards and recognitions",
+          "Walpole Power List and luxury industry highlights",
+          "Hospitality sector events and summits",
+          "New hotel residences and properties"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/dani-degen-9649bb25"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Rachel Louis",
+      "title": "Global Head of Sales",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/rachel-louis-4669781b",
+      "email": "ralouis@maybourne.com",
+      "email2": null,
+      "phone": "+44 (0)20 7107 8805",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees global and regional sales, distribution channels and group business for properties including The Connaught. Influences booking platforms, automation and sales tech adoption.",
+      "contact_evidence_summary": "Direct email and phone on official Maybourne contact page. Speaker bios and LinkedIn confirm role.",
+      "evidence": [
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact/maybourne",
+          "source_type": "official_site",
+          "quote_or_fact": "Rachel Louis, Global Head of Sales Tel: +44(0)20 7107 8805 Email: ralouis@maybourne.com"
+        },
+        {
+          "source_url": "https://www.independenthotelshow.co.uk/speakers/rachel-louis",
+          "source_type": "news",
+          "quote_or_fact": "Rachel Louis is the Global Head of Sales at Maybourne"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/rachel-louis-4669781b",
+        "display_name": "Rachel Louis",
+        "headline": "Sales and marketing strategist specialising in growth and elevation for luxury hospitality.",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 22 years and 10 months",
+        "experience": [
+          {
+            "title": "Business Sales Account Manager",
+            "organization": "Tiffany & Co.",
+            "date_range": "Aug 2002 - Jul 2004",
+            "location": null,
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Regional Assistant Director Of Sales",
+            "organization": "Morgans Hotel Group",
+            "date_range": "Aug 2004 - Apr 2006",
+            "location": null,
+            "description": "Department: Administrative • Level: Director"
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "Maybourne",
+            "date_range": "May 2006 - Sep 2007",
+            "location": null,
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Sales, InterContinental London Park Lane",
+            "organization": "InterContinental Hotels & Resorts",
+            "date_range": "Oct 2007 - May 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Area Director Of Sales, The Dorchester, Coworth Park 45 Park Lane",
+            "organization": "The Dorchester",
+            "date_range": "May 2010 - May 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Owner Founder",
+            "organization": "Orchidea Collection",
+            "date_range": "May 2013 - Oct 2022",
+            "location": null,
+            "description": "Department: C-Suite • Level: Founder"
+          },
+          {
+            "title": "Regional Director UK Ireland",
+            "organization": "Preferred Hotels & Resorts",
+            "date_range": "Oct 2022 - Dec 2023",
+            "location": null,
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Senior Director Of Sales",
+            "organization": "Maybourne",
+            "date_range": "Apr 2024 - Sep 2024",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Sales • Level: Senior"
+          },
+          {
+            "title": "Global Head Of Sales",
+            "organization": "Maybourne",
+            "date_range": "Oct 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Sales • Level: Head"
+          }
+        ],
+        "education": [
+          {
+            "school": "Northumbria University",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "sales",
+          "director"
+        ],
+        "activity_themes": [
+          "Luxury hospitality leadership and team recognition",
+          "Judging TTG Luxury Travel Awards",
+          "Maybourne sales team at ILTM Cannes",
+          "Engagement with travel media and journalists",
+          "Recognizing colleague achievements in luxury hotels",
+          "Industry events and networking in luxury hospitality"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/rachel-louis-4669781b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jenny Watkins",
+      "title": "Corporate Director of Revenue",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/jenny-w-50821032",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8911",
+      "x_handle": null,
+      "other_contact_detail": "Revenue & Reservations team route via Dani Degen phone +44 (0)20 7107 8911 or Connaught.reservations@maybourne.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Corporate oversight of revenue strategy and systems for all properties including The Connaught. Key influencer for revenue-tech and automation tools.",
+      "contact_evidence_summary": "LinkedIn and TheOrg directory confirm corporate revenue leadership at Maybourne. Routed through official revenue head contact.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/jenny-w-50821032",
+          "source_type": "linkedin",
+          "quote_or_fact": "Corporate Director of Revenue at Maybourne"
+        },
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Jenny W. Corporate Director Of Revenue"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/jenny-w-50821032",
+        "display_name": "Jenny W.",
+        "headline": "Corporate Director of Revenue at Maybourne Hotel Group",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 21 years and 2 months",
+        "experience": [
+          {
+            "title": "Graduate Manager",
+            "organization": "Malmaison",
+            "date_range": "Aug 2004 - Apr 2006",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Founded 1994 • Privately Held • Hospitality\nDepartment: Education • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "The Parkcity",
+            "date_range": "May 2006 - May 2007",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Charlotte Street Hotel",
+            "date_range": "May 2007 - Oct 2008",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Founded 1985 • Public Company • Hospitality\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "The Langham, London",
+            "date_range": "Nov 2008 - Aug 2009",
+            "location": null,
+            "description": "Company: 5001-10,000 employees • Privately Held • Hospitality\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Crosby Street Hotel, New York",
+            "date_range": "Aug 2009 - Apr 2012",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Founded 1985 • Public Company • Hospitality\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager, The Berkeley",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Apr 2012 - Jun 2014",
+            "location": "London, United Kingdom",
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Jul 2014 - Nov 2015",
+            "location": "London, United Kingdom",
+            "description": "Company: 10,001+ employees • Public Company • Hospitality\nDepartment: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Group Revenue Reservations Manager",
+            "organization": "Virgin Limited Edition",
+            "date_range": "Nov 2015 - Sep 2017",
+            "location": "London, United Kingdom",
+            "description": "Company: 51-200 employees • Privately Held • Hospitality\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Revenue Manager, Claridge's",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Sep 2017 - Mar 2024",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Corporate Director Of Revenue",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Mar 2024 - Present",
+            "location": "London, United Kingdom",
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Oxford Brookes University",
+            "degree_or_field": "BSc, Hospitality Management",
+            "date_range": "2000 - 2004"
+          }
+        ],
+        "skills": [
+          "director",
+          "management",
+          "reservations",
+          "revenue management"
+        ],
+        "activity_themes": [
+          "Luxury hotel awards and rankings",
+          "Hospitality career transitions",
+          "Sustainability and ESG initiatives",
+          "Hotel management appointments",
+          "Spa and wellness projects",
+          "London property investments",
+          "Personal growth and reflection",
+          "Community and charity milestones"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/jenny-w-50821032",
+          "https://www.linkedin.com/posts/sam-riches-b8972b44_as-the-year-draws-to-a-close-as-does-my-activity-7412045206381830144-EhHr",
+          "https://www.linkedin.com/posts/firmdale-hotels-plc_firmdalehotels-crosbystreethotel-haymarkethotel-activity-7406637997325959168-_Ya6",
+          "https://www.linkedin.com/posts/thomas-woynar-a0b21848_the-top-rated-hotels-of-all-time-by-tablet-activity-7405349931298967552-k0f2",
+          "https://www.linkedin.com/posts/nick-scott-595b7211_esg-sustainability-activity-7401991343973244929-3qxf",
+          "https://www.linkedin.com/posts/rebecca-lewis-568671247_a-month-ago-i-swapped-luxury-hospitality-activity-7401303112050921472-gB1b",
+          "https://www.linkedin.com/posts/robert-touzel-7b301649_a-fun-yet-challenging-experience-to-plot-activity-7400155490254479361-PtPL",
+          "https://www.linkedin.com/posts/helenafield1980_im-working-on-an-exciting-new-spa-and-wellness-activity-7397211942802624512-J6G6"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Sarah Pemble",
+      "title": "Regional Director of Sales, London",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/sarahpemble",
+      "email": "spemble@maybourne.com",
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Sales team route via Rachel Louis phone +44 (0)20 7107 8805 or ralouis@maybourne.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Regional sales leadership covering London properties including The Connaught. Influences distribution, sales channels and related tech.",
+      "contact_evidence_summary": "LinkedIn profile and company posts confirm current regional sales director role for London at Maybourne. Strong department contact available.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/sarahpemble",
+          "source_type": "linkedin",
+          "quote_or_fact": "Regional Director of Sales, London at Maybourne"
+        },
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Sarah Pemble: Regional Director Of Sales, London"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/sarahpemble",
+        "display_name": "Sarah Pemble",
+        "headline": "Regional Director of Sales, London, Maybourne Hotels Limited",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 9 months",
+        "experience": [
+          {
+            "title": "Regional Director Of Sales, London",
+            "organization": "Maybourne Hotels Limited",
+            "date_range": "May 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "I am delighted to share my move within the Maybourne as Regional Director of Sales, London. Such an honour and privilege to represent Claridge's, The Connaught, The Berkeley & The Emory, Our hotels are guided by a shared purpose and vision: to create stories of distinction and lead the future of luxury lifestyle. Thanking Rachel Louis & Simon Scoot for this opportunity and our wonderful colleagues and clients for continued support."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "luxury lifestyle",
+          "director",
+          "sales",
+          "p",
+          "less",
+          "hotels",
+          "stories",
+          "luxury"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and hotel industry updates",
+          "Professional promotions and career moves",
+          "Industry events and conferences (MIPIM, micebook)",
+          "Awards, Michelin stars and recognitions",
+          "Leadership programs and hospitality careers",
+          "Networking in luxury travel sector"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/travel-manager-activity-7427011224531382272-QmeF",
+          "https://www.linkedin.com/posts/jon-d-gray_terrific-time-in-south-florida-great-run-activity-7424599908667543552-qaFq",
+          "https://www.linkedin.com/posts/alexander-dietrich-9046b8_mipim-activity-7427303655193677825-ScG-",
+          "https://www.linkedin.com/posts/scott-dunn-begins-40th-year-of-operations-activity-7427316360851922944-DoaM",
+          "https://www.linkedin.com/posts/alexslors_great-fun-chatting-about-our-excellent-hospa-activity-7426635653230153728-FZiy",
+          "https://www.linkedin.com/posts/keziya-smith-mba-6200a6204_i-am-happy-to-share-that-ive-been-promoted-activity-7425547031961702400-pmhx",
+          "https://www.linkedin.com/posts/laura-weyler-22260012_micebook-roi-ai-activity-7426277133959933952-2iUr",
+          "https://www.linkedin.com/posts/elliott-nice-953318b_cornwall-cornwalljobs-cornwallcareers-activity-7426570762658041856-5abe"
+        ],
+        "data_quality": "partial",
+        "caveats": "Only one experience entry listed (total experience: 9 months). No education history or original posts; activity is likes only. Recommendation section present but not structured in schema."
+      }
+    },
+    {
+      "full_name": "Janine Moeller",
+      "title": "Director of Rooms",
+      "company": "The Connaught",
+      "linkedin_url": "https://uk.linkedin.com/in/janine-moeller-mih-is-8a0a6793",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7499 7070",
+      "x_handle": null,
+      "other_contact_detail": "Connaught general enquiries +44 (0)20 7499 7070 or reservations +44 (0)20 7107 8843, Connaught.reservations@maybourne.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees rooms division including reservations, front office and guest experience at The Connaught. Influences booking processes, guest comms and related systems.",
+      "contact_evidence_summary": "LinkedIn confirms Director of Rooms at The Connaught. Property contact details from official site provide reach path.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/janine-moeller-mih-is-8a0a6793",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Rooms at The Connaught"
+        },
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "The Connaught General Enquiries and Reservations numbers listed"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/janine-moeller-mih-is-8a0a6793",
+        "display_name": "Janine Moeller MIH IS",
+        "headline": "Director of Rooms at The Connaught",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 19 years",
+        "experience": [
+          {
+            "title": "Auszubildene Hotelfachfrau Apprentice Specialist Hotel Industry",
+            "organization": "Holiday Inn Hamburg",
+            "date_range": "Feb 2007 - Jul 2009 • 2 years and 5 months",
+            "location": "Hamburg Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Holiday Inn Hamburg",
+            "date_range": "Jul 2009 - Jul 2010 • 1 year",
+            "location": "Hamburg Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "The Berkeley hotel",
+            "date_range": "Jul 2010 - Jun 2012 • 1 year and 11 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Shiftleader",
+            "organization": "The Berkeley hotel",
+            "date_range": "Jun 2012 - Dec 2013 • 1 year and 6 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "Claridge's",
+            "date_range": "Dec 2013 - Sep 2015 • 1 year and 9 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reception Manager",
+            "organization": "Claridge's",
+            "date_range": "Sep 2015 - Oct 2018 • 3 years and 1 month",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "The Connaught",
+            "date_range": "Oct 2018 - Apr 2022 • 3 years and 6 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms",
+            "organization": "The Connaught",
+            "date_range": "Apr 2022 - Present • 3 years and 9 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Europa-Schule Gymnasium Schwarzenbek",
+            "degree_or_field": "Abitur, diploma qualifying for University Admission",
+            "date_range": null
+          },
+          {
+            "school": "Cranfield School of Management",
+            "degree_or_field": null,
+            "date_range": "2023 - 2024 • 1 year"
+          }
+        ],
+        "skills": [
+          "director",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Luxury hospitality events and soirées at The Connaught",
+          "Career transitions and team appreciation in hotels",
+          "Charity cycling events and fundraising by hoteliers",
+          "Hotel leadership conferences and awards",
+          "Milestones in hotel openings and management",
+          "Professional networking in European hospitality industry"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/tobiascornet-therightbalance_fridays-soir%C3%A9e-at-the-connaught-was-the-activity-7420742072812421121-uf9c",
+          "https://www.linkedin.com/posts/juliette-schwartz-16373220_grateful-proud-a-little-emotional-as-activity-7419738834915184641-r-ag",
+          "https://www.linkedin.com/posts/warren-miller81_hotelleadershipconference-masterinnholders-activity-7419770596705824770-ZbCO",
+          "https://www.linkedin.com/posts/andrew-stembridge-a85b505_hospitalityaction-masterinnholders-twincitiesride-activity-7419370029541928960-vSs8",
+          "https://www.linkedin.com/posts/master-innholders_announced-last-night-at-the-hotel-leadership-activity-7419310077691498496-HqTk",
+          "https://www.linkedin.com/posts/boris-messmer-22a83855_today-we-achieved-a-milestone-im-proud-activity-7401383567525584897-fNhj",
+          "https://de.www.linkedin.com/posts/patrick-zenz-spitzweg_zwischen-april-und-november-ist-viel-passiert-activity-7399762012110684160-y6SL"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Patrick Antille",
+      "title": "Corporate Director of Sales - USA & Canada",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/patrickantille",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Sales department route via official Rachel Louis contact details",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads key market sales (USA/Canada) for the group including The Connaught; influences international distribution and booking channels.",
+      "contact_evidence_summary": "TheOrg directory and LinkedIn confirm corporate sales director role. Routed through group sales leadership contacts.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Patrick Antille: Corporate Director Of Sales - USA & Canada"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/patrickantille",
+          "source_type": "linkedin",
+          "quote_or_fact": "Corporate Director of Sales at Maybourne Hotel Group"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/patrickantille",
+        "display_name": "Patrick Antille",
+        "headline": "Crafting ultra-luxury hotel experiences in London, Beverly Hills and the South of France. Discover the World of Maybourne and let me guide you in realizing your clients’ dreams.",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 14 years and 2 months",
+        "experience": [
+          {
+            "title": "Language Travel Consultant Trainee",
+            "organization": "ESL Education S.A",
+            "date_range": "Dec 2009 - May 2010",
+            "location": "Montreux, Switzerland",
+            "description": "Gaining understanding of clients’ requirements and converting enquiries into confirmed bookings - Organising language travels with third parties – courses, accommodation and travel arrangements - Promotion of ESL products at educational fairs - Handling of customers complaints and follow-up"
+          },
+          {
+            "title": "Front Desk Agent",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2012 - Jul 2013",
+            "location": "London, United Kingdom",
+            "description": "Offering guests efficient check-in/check-out services and personalized rooming experience • Preparing guests billing and performing credit audit, cashiering duties and currency exchange • Maximising revenue by upselling rooms/suites and cross-selling of other hotel services • Development of an analytic tool allowing measurement of additional revenue generated by upselling • Handling all guests requests and complaints • Cross-exposure training in Guest Services, PBX/Communication and Housekeeping departments Four Seasons Hotel London at Park Lane winner of: The Catey Award for Hotel of the Year 2012 and Hotel of the Year Award for London 2012-2013 from the Automobile Association"
+          },
+          {
+            "title": "Sales Executive At The Dorchester, 45 Park Lane And Coworth Park",
+            "organization": "Dorchester Collection",
+            "date_range": "Jul 2013 - Feb 2015",
+            "location": "London, United Kingdom",
+            "description": "Reactive management of groups and events sales with focus on North American MICE market • Maximising revenue by upselling, cross selling and negotiating using internal sales strategy • Contract and addendum management and negotiation"
+          },
+          {
+            "title": "Sales Manager At The Dorchester, 45 Park Lane And Coworth Park",
+            "organization": "Dorchester Collection",
+            "date_range": "Mar 2015 - Nov 2017",
+            "location": "London, United Kingdom",
+            "description": "Proactive account management and business development on key markets: - Domestic – UK Corporate transients and groups - International – US Leisure West Coast/Midwest/Texas and Canada • Representation of the hotels on international sales trips, tradeshows and FAM trips • Management and negotiation of corporate RPFs • Management and in-depth knowledge of industry consortia (FH&R, Virtuoso, Signature, Travel Leaders) • Management of American Express global accounts (maternity cover May 16 to May 17)"
+          },
+          {
+            "title": "Sales Manager At Mandarin Oriental Hyde Park, London",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Nov 2017 - Jun 2019",
+            "location": "London, United Kingdom",
+            "description": "Proactive account management and business development targeting: - Leisure: UK and European high-end accounts, including Fan Club, Amex and consortia accounts - Corporate: key international and local accounts, including global volume accounts • Implementation and execution of re-launch strategy following £100M hotel renovation • Awarded Fan of the Year 2018 (employee of the year) and Fan of Quarter 3 2021 (employee of the quarter)"
+          },
+          {
+            "title": "Senior Sales Manager At Mandarin Oriental Hyde Park, London",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Jun 2019 - Jan 2022",
+            "location": "London, United Kingdom",
+            "description": "Proactive account management and business development targeting North American groups/MICE"
+          },
+          {
+            "title": "Senior Sales Manager - Europe",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Feb 2022 - May 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales - USA",
+            "organization": "Maybourne",
+            "date_range": "Jun 2023 - Mar 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Corporate Director Of Sales - USA Canada",
+            "organization": "Maybourne",
+            "date_range": "Feb 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Ecole Supérieure de Commerce de Sierre, Switzerland",
+            "degree_or_field": "Swiss Bilingual (French/German) Professional Maturity Certificate",
+            "date_range": "1999 - 2003"
+          },
+          {
+            "school": "University of Applied Sciences of Western Switzerland",
+            "degree_or_field": "Bachelor Degree, Business Administration, B",
+            "date_range": "2005 - 2009"
+          },
+          {
+            "school": "Glion Institute of Higher Education",
+            "degree_or_field": "Postgraduate Diploma, Hospitality Administration, with Distinction",
+            "date_range": "2011 - 2012"
+          }
+        ],
+        "skills": [
+          "sales manager",
+          "travel arrangements",
+          "cross selling",
+          "sales strategy",
+          "international sales",
+          "director",
+          "sales",
+          "mandarin",
+          "courses",
+          "esl",
+          "selling",
+          "strategy",
+          "billing",
+          "performing",
+          "audit",
+          "cashiering",
+          "currency",
+          "hotel",
+          "training",
+          "pbx",
+          "housekeeping",
+          "hotels",
+          "management",
+          "negotiation",
+          "renovation"
+        ],
+        "activity_themes": [
+          "Promoting Maybourne Hotel Group at ILTM Cannes",
+          "Luxury hospitality events and new openings (e.g. Maybourne Riviera)",
+          "Networking with travel advisors, Internova, and Amex Travel",
+          "Industry events and partnerships in ultra-luxury hotels",
+          "Talent development and leadership in hospitality sector"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/patrickantille"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Katharina Kustos",
+      "title": "Director of Sales",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/katharina-kustos-8bab2b10",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Sales leadership route via Rachel Louis official contacts",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales director role with experience across Maybourne London hotels (Claridge's, Connaught, Berkeley). Influences sales strategy and tech.",
+      "contact_evidence_summary": "LinkedIn and TheOrg confirm director of sales role tied to Maybourne properties. Strong department evidence.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/katharina-kustos-8bab2b10",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales & Marketing roles at Maybourne properties"
+        },
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Katharina Kustos: Director Of Sales"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/katharina-kustos-8bab2b10",
+        "display_name": "Katharina Kustos",
+        "headline": "Luxury Hospitality Commercial Leader | Sales, Groups & Events | P&L Ownership | Repositioning | Global Account Development | Driving ADR, RevPAR & Revenue Growth",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Luxury hospitality commercial leader with over 18 years’ experience driving Sales, Groups, Events, Marketing and Revenue performance for some of the world’s most iconic brands, including Fairmont/Accor, Waldorf Astoria/ Hilton, Maybourne Hotel Group, Park Hyatt, GHM and Jumeirah. My expertise spans multi-property leadership, commercial strategy, repositioning, luxury consortia partnerships (AMEX FHR, Virtuoso, Signature), P&L ownership, forecasting and global market development across the UK, Europe, North America and Australia. I have a proven track record of elevating luxury brand positioning, securing top-tier consortia acceptance, driving year-on-year revenue growth, expanding high-yield international production and strengthening Groups and Events performance. Recognised for developing high-performing commercial teams, building strong relationships with owners and asset managers, and shaping market strategies that unlock long-term revenue potential. Luxury-focused. Commercially driven. Globally experienced. Areas of expertise: Commercial strategy | Multi-property leadership | Sales & events optimisation | P&L & forecasting | Luxury consortia | Market expansion | Repositioning | High-performing team leadership | Owner & asset management relations | Brand alignment | Cross-functional collaboration",
+        "experience": [
+          {
+            "title": "Management Trainee At Jumeirah Beach Hotel - MICE And Events Department",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Dec 2006 - Aug 2007",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Management Trainee At Jumeirah Sales Office - Gulf Region",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Sep 2007 - Nov 2007",
+            "location": "Dubai, United Arab Emirates",
+            "description": "Responsible for pre-opening projects for the Gulf Region"
+          },
+          {
+            "title": "Business Development Executive At Jumeirah Beach Hotel - Corporate MICE",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Dec 2007 - Oct 2008",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Business Development Executive At Jumeirah's Beach Cluster Team - Corporate MICE",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Nov 2008 - Jun 2009",
+            "location": "Dubai, United Arab Emirates",
+            "description": "As part of the proactive sales team responsible for Madinat Jumeirah, Jumeirah Beach Hotel and Burj Al Arab."
+          },
+          {
+            "title": "Sales Manager - Corporate MICE",
+            "organization": "Park Hyatt Dubai",
+            "date_range": "Jul 2009 - Nov 2010",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Associate Director Of Sales",
+            "organization": "Park Hyatt Dubai",
+            "date_range": "Dec 2010 - May 2012",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Park Hyatt Dubai",
+            "date_range": "Jun 2012 - Feb 2013",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Cluster Director Of Sales And Marketing",
+            "organization": "The Legian Bali, GHM/ The Chedi Club Bali (Leading Hotels of the World)",
+            "date_range": "Feb 2013 - Jul 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Waldorf Astoria Hotels & Resorts, Hilton",
+            "date_range": "Jul 2014 - Apr 2016",
+            "location": null,
+            "description": "Led Sales, Group Sales and Events/Reservations for the hotel, managing a team of 8. Secured the property’s acceptance into Virtuoso, Signature and AMEX FHR, elevating the hotel’s visibility within the global luxury travel market. Increased luxury consortia contribution by 200 percent and strengthened high-yield groups and events business, improving shoulder-month occupancy and overall segment mix. Collaborated closely with the Hilton sales force and leading local DMCs to grow international demand, elevate luxury leisure and group production, and expand high-value opportunities across key global feeder markets."
+          },
+          {
+            "title": "Cluster Director Of Sales",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "May 2016 - Apr 2018",
+            "location": null,
+            "description": "Led Sales, Groups & Events strategy across three flagship London luxury hotels. Drove all luxury consortia account management (AMEX FHR, Virtuoso, Signature, Traveller Made) across the UK, Europe and Australia for the full Maybourne cluster. Diversified the business mix by developing high-value relationships with private members’ clubs, Mayfair casinos and elite partner communities, strengthening luxury leisure and corporate production. Managed UNWTO and ultra-high-net-worth individual travel for top suites and premium inventory, maximising high-yield revenue. Worked closely with the DOSM to oversee cluster commercial planning, P&L alignment and long-range sales strategy for all three properties."
+          },
+          {
+            "title": "Director Of Sales Marketing (London-Based)",
+            "organization": "Fairmont Royal Pavilion - Barbados, Accor",
+            "date_range": "May 2018 - Present",
+            "location": null,
+            "description": "Lead all Sales, Groups, Events, Marketing, Revenue and Reservations functions (team of 6). Develop and execute commercial strategy across the UK, Europe, US, Canada and North America. Secured and achieved the property’s acceptance into AMEX FHR, Virtuoso, Signature and Traveller Made, strengthening global luxury production and elevating brand visibility. Increased group and events contribution, strengthening shoulder-night occupancy and improving MICE performance. Hold full responsibility for P&L management, forecasting, budgeting and long-range commercial planning. Led the full post-renovation repositioning following the 2017 upgrade, restoring competitive presence in key international feeder markets. Drove sustained year-on-year total revenue growth by reshaping market strategy, elevating luxury partnerships and unlocking high-yield international production. Diversified market mix with strong expansion from the US, EU and LATAM. Maintain strong ownership and asset management relations through weekly commercial reviews. Work closely with the Accor Luxury Regional Team and Accor GSO to enhance global account penetration and incremental revenue generation."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "market development",
+          "team leadership",
+          "asset management",
+          "sales manager",
+          "business development",
+          "account management",
+          "sales strategy",
+          "luxury",
+          "hospitality",
+          "commercial",
+          "driving",
+          "sales",
+          "marketing",
+          "hotel",
+          "property",
+          "leadership",
+          "strategy",
+          "partnerships",
+          "p",
+          "forecasting",
+          "positioning",
+          "yield",
+          "production",
+          "performing",
+          "management",
+          "collaboration",
+          "director",
+          "reservations",
+          "shoulder",
+          "budgeting",
+          "planning",
+          "renovation",
+          "cluster",
+          "proactive",
+          "responsible",
+          "hotels",
+          "inventory",
+          "projects"
+        ],
+        "activity_themes": [
+          "Luxury travel partner events and team anniversaries",
+          "International luxury travel business delegations in Middle East",
+          "Luxury travel conferences like Internova PLUS",
+          "Travel advisor industry awards and Hall of Fame",
+          "Leadership and future of travel industry discussions",
+          "Luxury hotel leadership team recognitions and thanks",
+          "High-end hotel experiential promotions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/celebrated-experiences_today-were-proud-to-celebrate-several-team-activity-7422941846626160640-Z-OH",
+          "https://www.linkedin.com/posts/itokoji_monaco-in-the-desert-wind-a-delegation-activity-7423057973318426624-Ctup",
+          "https://www.linkedin.com/posts/dennisgrunden_internovaplus-luxurytravel-weareinternova-activity-7420095597493518337-M6Wf",
+          "https://www.linkedin.com/posts/american-society-of-travel-advisors_astaglobes2026-activity-7420498946395013122-lExD",
+          "https://www.linkedin.com/posts/vanessamcgovern_globaltravelcollection-wearegtc-internovatravelgroup-activity-7420524454801235968-8pev",
+          "https://www.linkedin.com/posts/albert-m-herrera_travelindustry-futureoftravel-leadership-activity-7420512014055186433-yuiI",
+          "https://www.linkedin.com/posts/kempinskiengelberg_the-leadership-team-of-kempinski-palace-engelberg-activity-7409624360631570432-gIxP",
+          "https://www.linkedin.com/posts/thesavoy_breakfast-with-a-view-at-the-savoy-activity-7418957229220962304-5amJ"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Angelo MacCaferri",
+      "title": "Global Head of Business Development",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/angelo-maccaferri-06b3822",
+      "email": "amaccaferri@maybourne.com",
+      "email2": null,
+      "phone": "+44 (0)20 7107 8950",
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Business development/sales route via Rachel Louis or Simon Scoot official contacts",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads business development and partnerships which impact distribution, revenue partnerships and tech integrations for booking.",
+      "contact_evidence_summary": "Listed on TheOrg sales and revenue management team page. Role confirmation via directory and company structure.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Angelo MacCaferri: Global Head Of Business Development"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/angelo-maccaferri-06b3822",
+        "display_name": "Angelo Maccaferri",
+        "headline": "Global Head of Business Development",
+        "location": "United Kingdom (GB)",
+        "about": "Responsible for the expansion of the Maybourne Hotel Group.\n\nTotal Experience: 17 years and 10 months",
+        "experience": [
+          {
+            "title": "Internship",
+            "organization": "Four Seasons George V",
+            "date_range": "Jun 2004 - Jul 2004",
+            "location": "Paris Area, France",
+            "description": null
+          },
+          {
+            "title": "Internship",
+            "organization": "Rocco Forte Hotels",
+            "date_range": "Feb 2006 - Jul 2006",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Internship",
+            "organization": "Elysian Development",
+            "date_range": "Jan 2008 - May 2008",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Guest Reception Agent",
+            "organization": "The Plaza Hotel - New York",
+            "date_range": "Sep 2008 - Aug 2009",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Development Assistant",
+            "organization": "M Project",
+            "date_range": "Sep 2009 - Mar 2010",
+            "location": "Bologna Area, Italy",
+            "description": null
+          },
+          {
+            "title": "Real Estate Advisory - Intern",
+            "organization": "Banca IMI",
+            "date_range": "Apr 2010 - Jul 2010",
+            "location": "Milan Area, Italy",
+            "description": null
+          },
+          {
+            "title": "Merchant Banking - Intern",
+            "organization": "Banca Intesa",
+            "date_range": "Jul 2010 - Nov 2010",
+            "location": "Milan Area, Italy",
+            "description": null
+          },
+          {
+            "title": "Development Assistant To The Chairman",
+            "organization": "Rocco Forte Hotels",
+            "date_range": "Nov 2010 - Apr 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Development Executive",
+            "organization": "Rocco Forte Hotels",
+            "date_range": "May 2015 - Jan 2020",
+            "location": "London, UK",
+            "description": null
+          },
+          {
+            "title": "Development Director",
+            "organization": "Rocco Forte Hotels",
+            "date_range": "Feb 2020 - Aug 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Develop the expansion strategy of the Group, analysing potential opportunities, visiting sites, finding third-party investors, negotiate management contracts/leases and taking the deal to completion."
+          },
+          {
+            "title": "Director Of Business Development",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Sep 2022 - Jun 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Global Head Of Business Development",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Jun 2023 - Present",
+            "location": null,
+            "description": "Responsible for the global expansion strategy of Maybourne hotels and branded residences. Reporting directly to our two co-CEOs."
+          }
+        ],
+        "education": [
+          {
+            "school": "Università Bocconi",
+            "degree_or_field": "Undergraduate, International Economics and Management",
+            "date_range": "2002 - 2005"
+          },
+          {
+            "school": "New York University",
+            "degree_or_field": "Masters, Hospitality Industry Studies",
+            "date_range": "2006 - 2008"
+          }
+        ],
+        "skills": [
+          "business development",
+          "real estate",
+          "responsible",
+          "hotel",
+          "strategy",
+          "hotels",
+          "reporting",
+          "ceos",
+          "director",
+          "investors",
+          "management",
+          "completion",
+          "banking"
+        ],
+        "activity_themes": [
+          "Luxury hotel expansion and global business development",
+          "Branded residences and hospitality real estate investments",
+          "Industry panels, forums and networking in hospitality",
+          "Hotel acquisitions, joint ventures and menu tastings",
+          "Maybourne Hotel Group events and FAM tours"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/angelo-maccaferri-06b3822"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Paula Fitzherbert",
+      "title": "Global Head of Communications",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": null,
+      "email": "pfitzherbert@maybourne.com",
+      "email2": null,
+      "phone": "+44 (0)20 7107 8850",
+      "phone2": "+44 (0)20 7107 8901",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads all communications and PR which includes guest messaging, social, content and CRM-related guest comms initiatives across the group.",
+      "contact_evidence_summary": "Direct phone and email listed on both Maybourne personnel and dedicated press contact pages. Strong official tie.",
+      "evidence": [
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact/maybourne",
+          "source_type": "official_site",
+          "quote_or_fact": "Paula Fitzherbert, Global Head of Communications Tel: + 44 (0)207 107 8850 Email: pfitzherbert@maybourne.com"
+        },
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact/press",
+          "source_type": "official_site",
+          "quote_or_fact": "Paula Fitzherbert, Global Head of Communications Tel: +44 (0)20 7107 8901 Email: pfitzherbert@maybourne.com"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Charlotte Alexander-Stace",
+      "title": "Communications Director",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/charlotte-alexander-8814975b",
+      "email": "calexanderstace@maybourne.com",
+      "email2": null,
+      "phone": "+44 (0)20 7107 8822",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Supports communications strategy including guest messaging, content and social channels that tie into guest experience and CRM tech.",
+      "contact_evidence_summary": "Direct phone and email on official Maybourne press enquiries page.",
+      "evidence": [
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact/press",
+          "source_type": "official_site",
+          "quote_or_fact": "Charlotte Alexander-Stace, Communications Director Tel: +44 (0)20 7107 8822 Email: calexanderstace@maybourne.com"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/charlotte-alexander-8814975b",
+        "display_name": "Charlotte Alexander",
+        "headline": "Communications Director - Claridge’s, The Connaught, The Berkeley, The Maybourne Beverly Hills &  The Maybourne Riviera",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 18 years and 6 months",
+        "experience": [
+          {
+            "title": "Account Executive",
+            "organization": "The Ideas Network",
+            "date_range": "May 2007 - Jun 2008",
+            "location": "London, United Kingdom",
+            "description": "Worked on the following accounts: Oliver Bonas Wyevale Woolworths"
+          },
+          {
+            "title": "Senior Account Executive",
+            "organization": "Maverick Publicity",
+            "date_range": "Jun 2008 - Aug 2010",
+            "location": "London, United Kingdom",
+            "description": "Worked predominantly on the figleaves.com account. Additionally, Marc O'Polo and Charnos."
+          },
+          {
+            "title": "Fashion Junior Account Manager",
+            "organization": "Brandnation",
+            "date_range": "Aug 2010 - Aug 2013",
+            "location": "London, United Kingdom",
+            "description": "Working across the following brands: Glamorous.com House of Holland Scandale Wacoal b.tempt'd Soviet Kangol Silhouette"
+          },
+          {
+            "title": "PR Events Manager",
+            "organization": "Coco de Mer",
+            "date_range": "Aug 2013 - Oct 2014",
+            "location": "London, United Kingdom",
+            "description": "PR - Heading up the PR department for the world-renowned luxury lingerie and erotica brand ensuring the brands' messages are frequently and correctly portrayed in the luxury press. Events - Organising and hosting all press and consumer events both in store and in external locations such as the Soho House group venues. Linking with other high end brands to sponsor and support these events for the best possible on-brand experience for guests and customers. Social Media - Responsible for all social media channels, creating compelling content and incentives for the Coco de Mer audience, liaising with followers and providing customer service, and constant analysis of all social media activity. Marketing - Assisting in creating and carrying out the brand's Marketing strategy including store window design, point of sale, data caption and content for E commerce."
+          },
+          {
+            "title": "Account Director",
+            "organization": "Seven Dials PR",
+            "date_range": "Nov 2014 - Dec 2016",
+            "location": "Poland Street, London",
+            "description": "Strategic and creative thinking, and press office management for Fortnum & Mason, Brown's Hotel, HIX Mayfair, The Hari Hotel and Papier. PR - Campaign planning and creation, in-depth product knowledge and product creation, running proactive and reactive press office, measurement and evaluation of results. Influencer outreach and partnership management. Creative writing. Events - Management of client events from launches and private dinners, to awards ceremonies. Sourcing photographers, securing key press attendance including Diary press and selling in to press post-event. Social Media - channel management, content creation and overseeing digital partnerships. New business - seeking out and building on opportunities, creds and pitch creation and creative ideas. Confident pitcher. Management - team and individual management, review management and a particular interest in nurturing individuals and providing motivation."
+          },
+          {
+            "title": "Head Of Luxury",
+            "organization": "Seven Dials PR",
+            "date_range": "Jan 2017 - Feb 2019",
+            "location": "Poland Street, London",
+            "description": "Leading on PR stratagies for luxury lifestyle clients including Fortnum & Mason, Brown's Hotel, GAIL's Bakery, Papier, The Lucky Onion, Johnstons of Elgin, 45 Jermyn St. and The Old Vic."
+          },
+          {
+            "title": "Communications Director",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Mar 2019 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Claridge’s, The Connaught, The Berkeley, The Maybourne Beverly Hills & The Maybourne Riviera"
+          }
+        ],
+        "education": [
+          {
+            "school": "St George's College",
+            "degree_or_field": "Art, English Literature, History of Art A Levels, B, B, B",
+            "date_range": "2001 - 2004"
+          },
+          {
+            "school": "The Nottingham Trent University",
+            "degree_or_field": "BA (Hons) Fashion Marketing & Communications, 2:1",
+            "date_range": "2004 - 2007"
+          }
+        ],
+        "skills": [
+          "social media",
+          "customer service",
+          "brand marketing",
+          "marketing strategy",
+          "creative thinking",
+          "press office",
+          "office management",
+          "product knowledge",
+          "creative writing",
+          "channel management",
+          "content creation",
+          "luxury lifestyle",
+          "communications",
+          "director",
+          "pr",
+          "luxury",
+          "hosting",
+          "responsible",
+          "incentives",
+          "analysis",
+          "marketing",
+          "strategy",
+          "design",
+          "commerce",
+          "less",
+          "creative",
+          "management",
+          "hotel",
+          "planning",
+          "running",
+          "proactive",
+          "evaluation",
+          "writing",
+          "dinners",
+          "sourcing",
+          "photographers",
+          "selling",
+          "digital",
+          "partnerships",
+          "bakery",
+          "fashion"
+        ],
+        "activity_themes": [
+          "Luxury brand social media experimentation",
+          "Agency and brand career milestones",
+          "Bespoke brand typeface and identity design",
+          "PR talent recruitment for luxury hotel group",
+          "Digital marketing appointments in hospitality",
+          "Celebrity media appearances and promotions",
+          "Professional coaching and support in PR"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/beatrice-gane_experimenting-with-social-media-is-one-of-activity-7403770891605811200-w2KG",
+          "https://www.linkedin.com/posts/sophie-agar-80173563_an-incredible-milestone-for-taymoor-atighetchi-activity-7359181251943038977-TYrg",
+          "https://www.linkedin.com/posts/charlotte-egan-26b30b10_charlotte-egan-fundraising-activity-7316039093228896256-QuFW",
+          "https://www.linkedin.com/posts/benlewin_brand-typeface-font-activity-7224326998737780736-km84",
+          "https://www.linkedin.com/posts/charlotte-alexander-8814975b_looking-for-pr-talent-as-we-enter-our-busiest-activity-6973261702691745792-Dc1J",
+          "https://www.linkedin.com/posts/ellena-rowlin-71a665b1_im-happy-to-share-that-im-starting-a-new-activity-6919703972119232513-Gned",
+          "https://www.linkedin.com/posts/rowan-adams-64b94a12_bring-the-outdoors-in-with-kelly-brooks-activity-6511633918557593600-yXR1",
+          "https://www.linkedin.com/posts/tash-ullah_coaching-activity-6432222050722553856-1tKG"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Christina Norton",
+      "title": "Director of Content and Social Media",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/christina-norton-01831415",
+      "email": "cnorton@maybourne.com",
+      "email2": null,
+      "phone": "+44 (0)20 7314 3410",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads content and social media which directly impacts guest messaging, digital guest journey and CRM engagement tools.",
+      "contact_evidence_summary": "Direct phone and email listed on official press contact page.",
+      "evidence": [
+        {
+          "source_url": "https://www.maybourne.com/en/about-us/contact/press",
+          "source_type": "official_site",
+          "quote_or_fact": "Christina Norton, Director of Content and Social Media Tel: +44 (0)20 7314 3410"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/christina-norton-01831415",
+        "display_name": "Christina Norton",
+        "headline": "Director of Content and Social Media - Claridge’s, The Connaught, The Berkeley, The Maybourne Beverly Hills, The Maybourne Riviera, The Emory, Surrenne",
+        "location": "London, England, United Kingdom",
+        "about": "Experienced Communications and Creative Brand Director. Skilled in creative content creation, partnerships, social networking, hospitality industry, event management and corporate communications. Artist and photography enthusiast with a BA in Jewellery Design from Central Saint Martins.",
+        "experience": [
+          {
+            "title": "Jewellery Designer Internship",
+            "organization": "John Hardy",
+            "date_range": "Dec 2001 - Dec 2001",
+            "location": "Bali Province, Indonesia",
+            "description": null
+          },
+          {
+            "title": "Fashion Intern And Personal Assistant",
+            "organization": "Ralph Lauren",
+            "date_range": "Jul 2002 - Aug 2002",
+            "location": "Paris Area, France",
+            "description": null
+          },
+          {
+            "title": "Internship",
+            "organization": "Lorenz Bäumer Paris",
+            "date_range": "Jul 2004 - Aug 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Telephone Operator",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Nov 2004 - Dec 2007",
+            "location": "London, United Kingdom",
+            "description": "Part time telephone operator while completing my degree at Central Saint Martins"
+          },
+          {
+            "title": "Image Analyst",
+            "organization": "WGSN",
+            "date_range": "Jan 2008 - Mar 2009",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Public Relations Executive",
+            "organization": "Idea Generation",
+            "date_range": "Mar 2009 - Jan 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Public Relations Coordinator",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Mar 2010 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Public Relations Executive",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Mar 2012 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Public Relations Manager",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Apr 2013 - Feb 2022",
+            "location": "London, United Kingdom",
+            "description": "Group Public Relations Manager at Maybourne Hotel Group overseeing communications for Claridge's, The Connaught and The Berkeley."
+          },
+          {
+            "title": "Director Of Content And Social Media",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Feb 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "UWC South East Asia",
+            "degree_or_field": "International Baccalaureat, English, French, Art, Science Technology & Society, Maths, Theory of knowledge",
+            "date_range": "1999 - 2003"
+          },
+          {
+            "school": "University of the Arts London",
+            "degree_or_field": "Foundation degree",
+            "date_range": "2003 - 2004"
+          },
+          {
+            "school": "Central Saint Martins, University of the Arts London",
+            "degree_or_field": "BA, Jewellery Design",
+            "date_range": "2004 - 2007"
+          }
+        ],
+        "skills": [
+          "content creation",
+          "social networking",
+          "hospitality industry",
+          "event management",
+          "corporate communications",
+          "social media",
+          "public relations",
+          "communications",
+          "creative",
+          "director",
+          "partnerships",
+          "networking",
+          "hospitality",
+          "management",
+          "artist",
+          "photography",
+          "enthusiast",
+          "design",
+          "fashion",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Luxury hotel openings and launches",
+          "Maybourne Hotel Group team celebrations",
+          "Connaught Bar milestones and features",
+          "Hospitality industry awards",
+          "Career announcements in luxury hospitality",
+          "Luxury travel and photography events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/christina-norton-01831415"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Francois Bechu",
+      "title": "Revenue Manager",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/francois-bechu-28018512",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8911",
+      "x_handle": null,
+      "other_contact_detail": "Revenue team via Dani Degen official phone +44 (0)20 7107 8911",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Hands-on revenue management supporting group strategy including The Connaught. Stakeholder in revenue management systems and automation.",
+      "contact_evidence_summary": "TheOrg directory lists as Revenue Manager on sales/revenue team. Routed through group revenue leadership contact.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Francois Bechu: Revenue Manager"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/francois-bechu-28018512",
+        "display_name": "Francois Bechu",
+        "headline": "Revenue Manager at Maybourne Hotel Group",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 7 years",
+        "experience": [
+          {
+            "title": "Conference And Banqueting Director",
+            "organization": "Le Meridien Picadilly",
+            "date_range": "Jan 1995 - Jan 2002",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Current",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director"
+        ],
+        "activity_themes": [
+          "Liked post about visiting Hotel Cristina with 180 degree views across St Aubin's Bay"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/francois-bechu-28018512"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Kristy Lee",
+      "title": "Corporate Director of Entertainment Sales",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/kristy-lee-5518277",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Sales route via official Global Head of Sales contacts",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads entertainment and related sales which overlaps with guest experience, events and messaging/CRM touchpoints.",
+      "contact_evidence_summary": "Listed in TheOrg sales/revenue team directory confirming corporate director role.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Kristy Lee: Corporate Director Of Entertainment Sales"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kristy-lee-5518277",
+        "display_name": "Kristy Lee",
+        "headline": "Corporate Director  Entertainment Sales @ Maybourne | Claridge's, The Connaught, The Berkeley, The Maybourne Beverly Hills , The Maybourne Riviera , The Emory",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 26 years and 11 months",
+        "experience": [
+          {
+            "title": "Conference Services Assistant",
+            "organization": "Fairmont Hotels & Resorts",
+            "date_range": "Jan 1999 - Jan 2002",
+            "location": "San Francisco, California, United States",
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Catering Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2002 - Jul 2005",
+            "location": "San Francisco, California, United States",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Catering And Conference Services Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2005 - Mar 2008",
+            "location": "Beverly Hills, California, United States",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Head Of Entertainment",
+            "organization": "Claridge's",
+            "date_range": "May 2008 - Dec 2014",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Marketing • Level: Head"
+          },
+          {
+            "title": "Director Of Entertainment Sales",
+            "organization": "Maybourne",
+            "date_range": "Dec 2014 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Corporate Director Of Entertainment Sales",
+            "organization": "Maybourne",
+            "date_range": "Apr 2024 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "San Francisco State University",
+            "degree_or_field": "B.S., Hospitality Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "entertainment",
+          "sales",
+          "catering"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and hotel management",
+          "Spa, wellness and industry appointments",
+          "Sales conferences and leadership",
+          "Maybourne hotel roadshows and stories",
+          "Diversity, equity and black excellence in tech",
+          "Hospitality appointments and strategic roles"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Michael Calvert",
+      "title": "Senior Transient Sales Manager",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/michael-calvert-a55ba550",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Transient sales route via group sales contacts from official page",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Focuses on transient (individual) bookings and sales for properties including The Connaught. Directly touches booking channels and automation.",
+      "contact_evidence_summary": "Listed on TheOrg sales and revenue management team page.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Michael Calvert: Senior Transient Sales Manager"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/michael-calvert-a55ba550",
+        "display_name": "Michael Calvert",
+        "headline": "Director of Sales - West Coast | Global Sales | Maybourne Hotel Group",
+        "location": "Los Angeles, California, United States (US)",
+        "about": "Passionate and driven sales leader specializing in luxury consortia and new business development. I have a strong knowledge of luxury leisure and entertainment markets, and I enjoy creating memorable and personalized experiences for my clients. At The Maybourne Beverly Hills, I managed the Residence Hotel program and luxury leisure consortia agencies. Prior to joining Maybourne, I was the Senior Sales Manager for Entertainment at The West Hollywood EDITION, where I prospected local accounts for entertainment, business travel, and group segments. I also developed account relationships within Marriott International's worldwide portfolio, and leveraged my network and connections to generate leads and referrals. I used my skills in hospitality, sales, and negotiation to achieve and exceed revenue goals, and to ensure customer satisfaction and loyalty.\n\nTotal Experience: 12 years and 8 months",
+        "experience": [
+          {
+            "title": "Front Office Agent",
+            "organization": "Wyndham Hotel Group",
+            "date_range": "May 2011 - Aug 2011",
+            "location": "Overland Park, Kansas",
+            "description": "•Checked guests in and out of the hotel using IQware •Organized and responded to 10+ emails concerning meeting space each day •Set up breakfast for 100+ guests daily, assisted with breakfast operation, and washed dishes •Satisfied any guest requests"
+          },
+          {
+            "title": "Intern",
+            "organization": "Marriott International",
+            "date_range": "Sep 2011 - Nov 2011",
+            "location": "Providence, Rhode Island",
+            "description": "•Rotated each week through five departments: Front Desk, Night Audit, Housekeeping, Kitchen, and Dining Room. •Learned and performed the basic functions in each department •Navigated through several property systems: PMS, Guestware, and TESA •Assisted with scheduling employee shifts"
+          },
+          {
+            "title": "Bellman",
+            "organization": "Marriott International",
+            "date_range": "May 2012 - Aug 2012",
+            "location": "Kansas",
+            "description": "Kansas City Country Club Marriott Valeted 30+ cars daily Carried luggage up to guest rooms while explaining hotel features to guests Shuttled guests to and from shopping center in 13 passenger van Scheduled car services for guests"
+          },
+          {
+            "title": "Intern",
+            "organization": "The Grace Hotel",
+            "date_range": "Feb 2013 - May 2013",
+            "location": "Sydney Area, Australia",
+            "description": "Developed an internship for future study abroad students with the Operations Manager and Front Office Manager Completed a competitive analysis of the hotel and its five star competition set Collaborated with the Yield Manager to determine occupancy and revenue goals"
+          },
+          {
+            "title": "Travel Director",
+            "organization": "ITA",
+            "date_range": "Oct 2013 - Sep 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Housekeeper",
+            "organization": "Marriott International",
+            "date_range": "Nov 2013 - May 2014",
+            "location": "Kansas City, Missouri",
+            "description": null
+          },
+          {
+            "title": "Concierge",
+            "organization": "Marriott International",
+            "date_range": "Nov 2013 - May 2014",
+            "location": "Kansas City, Missouri",
+            "description": null
+          },
+          {
+            "title": "Room Operations Manager",
+            "organization": "Marriott International",
+            "date_range": "May 2014 - Feb 2016",
+            "location": "New York, New York",
+            "description": "Combination of Housekeeping Manager and Front Desk Manager positions at the New York Marriott Marquis Hotel. Housekeeping Manager (VIP's and Suites)- managed a team of 30+ housekeepers each day. Worked with the sales team to perfect site visits with VIP clients. Front Desk Manager- managed a team of associates to interact with guests during arrival and departure processes in a hotel of 1966 rooms. Completed Voyage Program organized my Marriott International."
+          },
+          {
+            "title": "Front Desk Manager",
+            "organization": "Marriott International",
+            "date_range": "Feb 2016 - May 2017",
+            "location": "New York, NY",
+            "description": "Front Desk Manager (Manager On Duty) for the New York Marriott Marquis. During my time in this role, I was able to assist in the promotion of two employees through development and trainings. I trained several new managers throughout the year on topics ranging from systems to management styles. On a weekly basis I scheduled 10 employees, and on a quarterly basis I reviewed the performances of my team. While working the Overnight shift, I was tasked with handling issues on my own (or with limited staffing). I grew my team's abilities so that I could delegate challenges and minimize issues efficiently."
+          },
+          {
+            "title": "Destination Sales Executive",
+            "organization": "Marriott International",
+            "date_range": "May 2017 - Jul 2018",
+            "location": "Tarrytown, NY",
+            "description": "Destination Sales Executive at the Westchester Marriott Hotel. Engage Marriott's remote sales office to drive group sales to the Westchester Marriott hotel. Conduct unique site visits for groups, large and small; finding ways to make each visit personalized and impactful. Work closely with the Event Management team to exceed group’s expectations onsite."
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Marriott International",
+            "date_range": "Jul 2018 - Oct 2021",
+            "location": null,
+            "description": "Sales Executive, Renaissance Long Beach Hotel and Torrance Marriott Redondo Beach"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "W Hotels",
+            "date_range": "Mar 2020 - Sep 2020",
+            "location": "Los Angeles, California, United States",
+            "description": "Sales Executive at the W Hollywood and W West Beverly Hills Hotels"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Marriott International",
+            "date_range": "Sep 2020 - Oct 2021",
+            "location": null,
+            "description": "Sales Executive, Renaissance Long Beach Hotel and Torrance Marriott Redondo Beach"
+          },
+          {
+            "title": "Senior Sales Manager, Entertainment",
+            "organization": "The West Hollywood EDITION",
+            "date_range": "Oct 2021 - May 2022",
+            "location": "West Hollywood, California, United States",
+            "description": "Senior Sales Manager, Entertainment for West Hollywood EDITION. Prospect local accounts for Entertainment, business travel and group segments. Develops account relationships within Marriott International’s worldwide portfolio."
+          },
+          {
+            "title": "Senior Transient Sales Manager The Maybourne Beverly Hills",
+            "organization": "Maybourne",
+            "date_range": "Dec 2022 - Dec 2023",
+            "location": null,
+            "description": "Manage Luxury consortia and corporate accounts. Engage travel agencies to promote property exposure to travelers."
+          },
+          {
+            "title": "Director Of Leisure Sales And Residences The Maybourne Beverly Hills",
+            "organization": "Maybourne",
+            "date_range": "Dec 2023 - Mar 2025",
+            "location": null,
+            "description": "Responsible for Leisure Travel Sales, including managing luxury consortia programs in conjunction with Global Sales team. Lead the sales efforts for the residential apartments at The Maybourne Beverly Hills. Proactively target Virtuoso, Signature, Serandipians, AMEX FHR across North America and increase brand awareness and revenue share."
+          },
+          {
+            "title": "Director Of Sales - West Coast",
+            "organization": "Maybourne",
+            "date_range": "Mar 2025 - Present",
+            "location": "Beverly Hills, California, United States",
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Johnson and Wales University",
+            "degree_or_field": "Summa Cum Laude",
+            "date_range": "2010 - 2013"
+          }
+        ],
+        "skills": [
+          "business development",
+          "sales manager",
+          "business travel",
+          "customer satisfaction",
+          "leisure travel",
+          "brand awareness",
+          "front office",
+          "competitive analysis",
+          "event management",
+          "systems management",
+          "new business development",
+          "sales",
+          "luxury",
+          "entertainment",
+          "hotel",
+          "referrals",
+          "hospitality"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/michael-calvert-a55ba550"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Ellen Radford Dodd",
+      "title": "Group Sales Executive",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/ellen-radford-dodd-702ab1196",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Group sales via official sales leadership contacts",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Executes group sales for the hotels including The Connaught. Plausible stakeholder in group booking systems and automation.",
+      "contact_evidence_summary": "Listed on TheOrg sales/revenue management team. Department sales contacts available from official page.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Ellen Radford Dodd: Group Sales Executive"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ellen-radford-dodd-702ab1196",
+        "display_name": "Ellen Radford Dodd",
+        "headline": "Group Sales Executive at Maybourne Hotel Group",
+        "location": "United Kingdom (GB)",
+        "about": "After completing my 12 month placement in the Ritz Carlton Abama in Tenerife, I am currently in my final year of studying International Hotel Management at Shannon College, NUIG.\n\nTotal Experience: 5 years and 8 months",
+        "experience": [
+          {
+            "title": "Waitress",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "Jun 2018 - Jan 2019",
+            "location": "Tenerife",
+            "description": "El Mirador Restaurant"
+          },
+          {
+            "title": "Club Lounge Concierge",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "Jan 2019 - May 2019",
+            "location": "Tenerife",
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "May 2019 - Jun 2019",
+            "location": "Tenerife",
+            "description": null
+          },
+          {
+            "title": "Housekeeping Supervisor",
+            "organization": "Claridge's",
+            "date_range": "Jun 2021 - Jul 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales And Marketing Coordinator",
+            "organization": "The Lanesborough",
+            "date_range": "Jul 2022 - May 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Sales Executive",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "May 2023 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Shannon College of Hotel Management",
+            "degree_or_field": "Bachelor of Business Administration - BBA",
+            "date_range": "2017 - 2022"
+          },
+          {
+            "school": "Holy Child Killiney",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hotel management",
+          "hotel",
+          "management",
+          "sales",
+          "housekeeping",
+          "marketing"
+        ],
+        "activity_themes": [
+          "Luxury hospitality networking and events",
+          "Career journeys in London and Irish hospitality",
+          "Hotel guest experience and industry forums",
+          "Teamwork and professional development",
+          "Alumni connections to Shannon College",
+          "Maybourne Hotel Group activities"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/ellen-radford-dodd-702ab1196"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Michela Celena",
+      "title": "Sales Manager",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/michela-celena-6b2a7844",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Sales department via official Global Head of Sales phone/email",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales manager supporting bookings and client communications for the group hotels. Touches guest comms and booking processes.",
+      "contact_evidence_summary": "Listed in TheOrg sales and revenue team. Routed through group sales contacts.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Michela Celena: Sales Manager"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/michela-celena-6b2a7844",
+        "display_name": "Michela Celena",
+        "headline": "Sales Manager at Maybourne Hotel Group",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Sales Manager",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Current",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Sales • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales manager",
+          "sales"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/michela-celena-6b2a7844",
+          "https://www.linkedin.com/company/maybourne-hotel-group"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Beirong Liu",
+      "title": "Senior Sales Manager",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://www.linkedin.com/in/beirong-liu-20346296",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 7107 8805",
+      "x_handle": null,
+      "other_contact_detail": "Sales route via Rachel Louis official details",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Senior sales role supporting distribution and client acquisition for properties including The Connaught.",
+      "contact_evidence_summary": "TheOrg directory confirms senior sales manager on the team.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/maybourne-hotels-limited/teams/sales-and-revenue-management",
+          "source_type": "directory",
+          "quote_or_fact": "Beirong Liu: Senior Sales Manager"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/beirong-liu-20346296",
+        "display_name": "Beirong Liu",
+        "headline": "Senior Sales Manager at Maybourne Hotel Group",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 11 years and 7 months",
+        "experience": [
+          {
+            "title": "Business Development Executive",
+            "organization": "Corinthia London",
+            "date_range": "Apr 2014 - Apr 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Corinthia London",
+            "date_range": "Apr 2017 - May 2019",
+            "location": "SW1A 2BD",
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager Asia",
+            "organization": "The Langham, London",
+            "date_range": "Jun 2019 - Feb 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Mar 2020 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "The Peninsula Hotels",
+            "date_range": "Jul 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "London Metropolitan University",
+            "degree_or_field": "Master Degree, International Hotel and Restaurant Management",
+            "date_range": "2010 - 2011"
+          }
+        ],
+        "skills": [
+          "sales",
+          "sales manager",
+          "business development"
+        ],
+        "activity_themes": [
+          "Luxury London hotel openings and executive appointments",
+          "Hospitality industry career transitions and rejoins",
+          "Hotel group anniversaries and celebrations",
+          "Pet-friendly initiatives and World Animal Day",
+          "Professional networking in London hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/susan-wheatley-631aa112_friday-evening-we-had-the-privilege-to-join-activity-7355286891350401024-egA8",
+          "https://www.linkedin.com/posts/innakiseleva_im-so-thrilled-to-have-rejoined-the-corinthia-activity-7347720504234917888-HEGh",
+          "https://www.linkedin.com/posts/heena-balani-20b643bb_celebrations-christmas-porticopeople-activity-6743284434054721536-fY5v",
+          "https://www.linkedin.com/posts/robalanbrown_london-hotels-nobuhotels-activity-6740659916786159616-vS8e",
+          "https://www.linkedin.com/posts/corinagoetz_please-follow-my-company-star-cat-ltd-for-activity-6730054363462545408-3r8o",
+          "https://www.linkedin.com/posts/the-peninsula-hotels_we-are-pleased-to-announce-the-first-three-activity-6726677244628094976-FjEk",
+          "https://www.linkedin.com/posts/silvia-madeira-8b224334_london-nobuhotels-marylebone-activity-6720263426553257984-_GXl",
+          "https://www.linkedin.com/posts/laura-hillman-13058a23_in-2012-i-took-a-leap-of-faith-and-packed-activity-6719139201243234304-cG8P"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Chris Judd",
+      "title": "CRM Manager",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/chris-judd-081710100",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "CRM/guest comms route via Paula Fitzherbert communications contacts (+44 20 7107 8850, pfitzherbert@maybourne.com)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Manages CRM systems and guest data/communications. Directly relevant to guest messaging, personalization and related tech adoption.",
+      "contact_evidence_summary": "LinkedIn and RocketReach/ZoomInfo mentions confirm CRM Manager role at Maybourne. Routed through official comms leadership.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/chris-judd-081710100",
+          "source_type": "linkedin",
+          "quote_or_fact": "CRM Manager at Maybourne"
+        },
+        {
+          "source_url": "https://rocketreach.co/chris-judd-email_122520974",
+          "source_type": "directory",
+          "quote_or_fact": "Chris Judd, CRM Manager at Maybourne"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/chris-judd-081710100",
+        "display_name": "Chris Judd",
+        "headline": "CRM Manager at Maybourne Hotel Group",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Experienced digital marketing manager with proven track record of creating and managing marketing campaigns across digital, social and email channels to meet business goals. I have recently completed, passed and obtained a Professional Diploma in Digital Marketing from the Digital Marketing Institute - the world's most recognized Digital Marketing diploma. On the course I learnt key digital marketing disciplines. From PPC to SEO, Content to Video, Social and Analytics.\n\nTotal Experience: 19 years and 8 months",
+        "experience": [
+          {
+            "title": "Editorial Assistant",
+            "organization": "The Non-League Paper",
+            "date_range": "Jul 2004 - May 2011 • 6 years and 10 months",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Lifestyle Manager - Tickets Specialist",
+            "organization": "Ten Lifestyle Group",
+            "date_range": "Nov 2011 - Dec 2015 • 4 years and 1 month",
+            "location": "London, United Kingdom",
+            "description": "Ten Lifestyle assists its members to discover, organise and book travel, dining and live entertainment. Specialising in global sporting and live entertainment events, I made personalised recommendations and ticket, VIP and hospitality bookings for high net-worth clients from around the world. My knowledge and expertise was vital in finding our members the most suitable packages whether it be entertaining clients, family or friends."
+          },
+          {
+            "title": "Marketing Executive",
+            "organization": "Ten Lifestyle Group",
+            "date_range": "Dec 2015 - May 2018 • 2 years and 5 months",
+            "location": "London, United Kingdom",
+            "description": "Supporting our concierge and loyalty programmes with bespoke communications programmes. These include personalised eCRM, marketing campaigns, engagement tools, and globally distributed content. I work closely with our client partners to create a communications package that works for them - driving engagement, penetration, and impact. Ten Group is is a leading, technology-enabled lifestyle and travel platform, providing trusted concierge services to its members around the clock, 365 days a year. The Group currently has a headcount of over 800 staff around the world and is listed on the AIM market of the London Stock Exchange."
+          },
+          {
+            "title": "Senior Digital Marketing Executive",
+            "organization": "Ten Lifestyle Group",
+            "date_range": "May 2018 - Aug 2019 • 1 year and 3 months",
+            "location": "London, United Kingdom",
+            "description": "Online marketing - developing and executing online marketing plans to deliver continuous growth of online traffic, online reservations and e-commerce sales."
+          },
+          {
+            "title": "Email Marketing Manager",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Aug 2019 - Sep 2024 • 5 years and 1 month",
+            "location": "Knightsbridge",
+            "description": "As Email Marketing Manager I am responsible for all marketing communications for our three 5* hotels in London – Claridge’s, The Connaught and The Berkeley as well as The Maybourne Beverly Hills in LA and The Maybourne Riviera on the Côte d'Azur. Key Responsibilities: • Project management – gathering content, briefing agency partners and managing approvals. • Creating, designing and sending out B2C newsletters for all our hotels – promoting new products and providing hotel updates. • Email optimization – working with designers to improve KPI objectives including delivery rate, open rate, clicks and bounces with the aim of improving the UX to drive content engagement and conversions. • Reporting on email marketing performance and providing actionable insights to key stakeholders. • Email automation – managing our automation marketing tools to provide a seamless experience for our guests. • E-commerce marketing – managing all marketing communications for the online shops at all hotels across the group. Reporting all key performance metrics including conversions, CPA and ROAS. • B2B marketing – working with the Sales team to send out regular B2B newsletters, providing top clients with latest offers and news from across the business. As a member of the wider Digital and Brand Marketing teams other responsibilities included: • Website updates across the business, ensuring that webpages are always accurate and up-to-date. • Working closely with the Digital Project Manager and external agencies to implement on-site SEO recommendations, to improve rankings on SERP and increase relevant traffic to the websites. • Assisting the Digital Project Manager with all PPC and Display Ad campaigns."
+          },
+          {
+            "title": "CRM Manager",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Aug 2019 - Present • 5 years and 5 months",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Marketing • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Journalism Training Centre",
+            "degree_or_field": "Foundation Skills Certificate in Journalism",
+            "date_range": "2004 - 2004"
+          },
+          {
+            "school": "Digital Marketing Institute",
+            "degree_or_field": "Professional Diploma in Digital Marketing",
+            "date_range": "2021 - 2022 • 1 year"
+          }
+        ],
+        "skills": [
+          "digital",
+          "marketing",
+          "campaigns",
+          "ppc",
+          "seo",
+          "analytics",
+          "reservations",
+          "commerce",
+          "sales",
+          "editorial",
+          "crm",
+          "responsible",
+          "communications",
+          "hotels",
+          "c",
+          "management",
+          "briefing",
+          "designing",
+          "b2c",
+          "newsletters",
+          "hotel",
+          "optimization",
+          "kpi",
+          "ux",
+          "engagement",
+          "reporting",
+          "automation",
+          "metrics",
+          "cpa",
+          "b2b",
+          "websites",
+          "less",
+          "entertainment",
+          "hospitality",
+          "driving",
+          "technology",
+          "digital marketing",
+          "marketing digital",
+          "online marketing",
+          "email marketing",
+          "marketing communications",
+          "project management",
+          "performance metrics",
+          "b2b marketing",
+          "brand marketing",
+          "project manager",
+          "concierge services"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and hotel bar scene updates",
+          "Wellness, spa and members club developments",
+          "Career transitions and new professional roles",
+          "Marketing critiques for luxury brand advertising",
+          "Hospitality marketing and SEO campaigns",
+          "Sports partnerships and sponsorships",
+          "Career changes from corporate to creative fields",
+          "Entrepreneurship and legal tech startups"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/chris-judd-081710100"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Simone Stewart",
+      "title": "Global Head of Digital & eCommerce",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/simone-stewart-b1040332",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Route through commercial team contacts (e.g. Simon Scoot or Rachel Louis phones/emails from official page) or general Maybourne enquiries",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads digital, eCommerce and online booking platforms across the group. Direct influence on AI booking automation, website systems and digital guest journey tech.",
+      "contact_evidence_summary": "Public industry articles and LinkedIn profile confirm exact title at Maybourne. Strong role confirmation plus commercial dept routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/simone-stewart-b1040332",
+          "source_type": "linkedin",
+          "quote_or_fact": "Global Head of Digital & eCommerce at Maybourne Hotel Group"
+        },
+        {
+          "source_url": "https://ideas.com/ways-to-strengthen-collaboration-between-hospitality-marketing-revenue-management-teams/",
+          "source_type": "news",
+          "quote_or_fact": "Simone Stewart, global head of digital and eCommerce at Maybourne"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/simone-stewart-b1040332",
+        "display_name": "Simone Stewart",
+        "headline": "Global Head of Digital & eCommerce",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Global Head of Digital & eCommerce with experience across the hospitality, luxury and…",
+        "experience": [
+          {
+            "title": "Marketing PR Intern",
+            "organization": "Tigerlily Swimwear",
+            "date_range": "Sep 2009 - Sep 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Online Marketing Coordinator",
+            "organization": "D&D London",
+            "date_range": "Aug 2013 - Mar 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Customer Relations Marketing Executive",
+            "organization": "D&D London",
+            "date_range": "Apr 2014 - Nov 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Development Manager",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Nov 2014 - Feb 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Marketing Manager",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Feb 2016 - Nov 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Account Director",
+            "organization": "Propeller Digital",
+            "date_range": "Nov 2017 - Jul 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Sales Marketing",
+            "organization": "Propeller Digital",
+            "date_range": "Jul 2020 - Jan 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Digital ECommerce",
+            "organization": "AMAN",
+            "date_range": "Jan 2022 - Jan 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Global Head Of Digital ECommerce",
+            "organization": "AMAN",
+            "date_range": "Feb 2023 - Apr 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Global Head Of Digital ECommerce",
+            "organization": "Maybourne",
+            "date_range": "Mar 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "The University of Western Australia",
+            "degree_or_field": "Bachelor Commerce/Economics Marketing Financial Accounting HR International Business Economics",
+            "date_range": "2007 - 2012"
+          }
+        ],
+        "skills": [
+          "digital",
+          "ecommerce",
+          "hospitality",
+          "luxury",
+          "marketing",
+          "sales",
+          "director",
+          "pr",
+          "customer relations",
+          "digital marketing",
+          "online marketing"
+        ],
+        "activity_themes": [
+          "Luxury hospitality brand updates and hotel openings",
+          "Leadership development programs and company culture",
+          "Claridge’s and Maybourne property news and retreats",
+          "Career moves and appointments in commercial roles",
+          "Luxury brand collaborations and awards",
+          "AI tools and digital transformation in business"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/simone-stewart-b1040332_a-delicious-new-chapter-claridges-bakery-activity-7419675805699436544-7Gy0",
+          "https://www.linkedin.com/posts/simone-stewart-b1040332_surrenne-retreats-have-arrived-first-stop-activity-7417749621701062656-hW0Z"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Rebecca Burdess",
+      "title": "Global Head of Guest Experience & Services",
+      "company": "Maybourne Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/rebecca-burdess-59613458",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Route via communications or reservations dept contacts from official Maybourne pages (e.g. Paula Fitzherbert or Connaught reservations)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads guest experience and The Maybourne Society (loyalty/CRM). Influences personalized guest messaging, CRM systems and guest journey technology.",
+      "contact_evidence_summary": "LinkedIn profile and multiple news/Facebook posts from industry events confirm global head role at Maybourne. Strong public role evidence plus dept routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/rebecca-burdess-59613458",
+          "source_type": "linkedin",
+          "quote_or_fact": "Global Head of The Maybourne Society at Maybourne"
+        },
+        {
+          "source_url": "https://www.facebook.com/50BestHotels/posts/rebecca-burdess-global-head-of-guest-experience-services-at-maybourne-took-the-s/878065494527038/",
+          "source_type": "news",
+          "quote_or_fact": "Rebecca Burdess, global head of guest experience & services at Maybourne"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/rebecca-burdess-59613458",
+        "display_name": "Rebecca Burdess",
+        "headline": "Global Head of The Maybourne Society",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "As the Global Head of The Maybourne Society, I provide strategic leadership across VIC… Total Experience: 16 years and 6 months",
+        "experience": [
+          {
+            "title": "Director, Caribbean",
+            "organization": "Quintessentially",
+            "date_range": "Jan 2007 - Aug 2011",
+            "location": "Barbados",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Client Relations",
+            "organization": "The Admirable Crichton",
+            "date_range": "Dec 2012 - Jun 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Client Services Corporate Sales",
+            "organization": "Fortnum & Mason",
+            "date_range": "Jun 2014 - Jan 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Membership Partnerships Director",
+            "organization": "The Birley Group",
+            "date_range": "Jan 2017 - Jun 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Experienced Sales, Client Services Partnerships Lead",
+            "organization": null,
+            "date_range": "Sep 2019 - Jun 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Guest Experience Services Director",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Jun 2022 - Jun 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Global Head Of Guest Experience Services",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Jun 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Global Head Of The Maybourne Society",
+            "organization": "Maybourne",
+            "date_range": "Aug 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Sacred Heart School, Convent of Mercy, Drogheda, Co. Louth",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "strategic leadership",
+          "client services",
+          "client relations",
+          "leadership",
+          "partnerships",
+          "director",
+          "sales"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and hotel events",
+          "Philanthropy and charitable causes",
+          "Health awareness for Parkinson's and neurodegenerative diseases",
+          "Education scholarships and Irish cultural heritage",
+          "Luxury travel destinations and experiences",
+          "Family legacy and independent producers",
+          "Social impact and child protection initiatives",
+          "Personal growth, branding and AI philosophy"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/rebecca-burdess-59613458"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T14:19:18.397485+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 7,
+    "attempted": 15,
+    "succeeded": 15,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T14:36:58.065309+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 21,
+      "structured": 21,
+      "discovered": 2,
+      "errors": 0
+    }
+  }
+}

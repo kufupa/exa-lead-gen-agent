@@ -1,0 +1,881 @@
+{
+  "target_url": "https://www.hotelcaferoyal.com/",
+  "generated_at_utc": "2026-04-19T22:20:35.342553+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6895,
+    "prompt_tokens": 2547210,
+    "total_tokens": 2661273,
+    "prompt_text_tokens": 2547210,
+    "reasoning_tokens": 107168,
+    "cached_prompt_text_tokens": 2100390,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Aimee Sieczko",
+      "title": "Head of Marketing",
+      "company": "Hotel Café Royal",
+      "linkedin_url": "https://uk.linkedin.com/in/aimee-sieczko-459aa0a0",
+      "email": "aimee.sieczko@hotelcaferoyal.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "pressoffice@hotelcaferoyal.com / +44 (0)20 7406 3347 (official press and marketing route from contact and press pages)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing, digital campaigns, partnerships and guest communications strategy; directly influences guest messaging, digital booking journeys and tech adoption for the property.",
+      "contact_evidence_summary": "Direct public business email shared in company LinkedIn hiring post; confirmed role in RocketReach, official site hiring and marketing references. Strong department routes via pressoffice.",
+      "evidence": [
+        {
+          "source_url": "https://www.hotelcaferoyal.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Press and Media: pressoffice@hotelcaferoyal.com, +44 (0)20 7406 3347"
+        },
+        {
+          "source_url": "https://rocketreach.co/hotel-cafe-royal-management_b5e14facf42e6afc",
+          "source_type": "directory",
+          "quote_or_fact": "Aimee Sieczko (Head of Marketing at Hotel Café Royal)"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/aimee-sieczko-459aa0a0",
+          "source_type": "linkedin",
+          "quote_or_fact": "Profile confirms Head of Marketing role and public email in associated posts"
+        }
+      ]
+    },
+    {
+      "full_name": "Laura Cammarano",
+      "title": "Director of Global Sales",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": "laura.cammarano@thesetcollection.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "eventsandgroups@hotelcaferoyal.com or The Set sales routes; previous property sales experience provides context",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads global sales strategy for the collection (previously Director of Sales at Hotel Café Royal for 6 years); influences group, corporate and distribution channels relevant to automation.",
+      "contact_evidence_summary": "Official bio page on thesetcollection.com details role and history at the hotel; LinkedIn confirmation.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/tscontact-lc",
+          "source_type": "official_site",
+          "quote_or_fact": "Laura Cammarano, Director of Global Sales... After spending 6 years as Director of Sales at Hotel Café Royal"
+        }
+      ]
+    },
+    {
+      "full_name": "Victoria Sheppard",
+      "title": "Press and Media Contact",
+      "company": "Hotel Café Royal",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)7976 464481",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "pressoffice@hotelcaferoyal.com / +44 (0)20 7406 3347; Victoria Sheppard listed as specific press contact",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles press, media and communications for the hotel; touches guest experience storytelling, partnerships and digital PR relevant to messaging tech.",
+      "contact_evidence_summary": "Named in official press page with direct phone. Strong public contact evidence.",
+      "evidence": [
+        {
+          "source_url": "https://www.hotelcaferoyal.com/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "Victoria Sheppard: +44 (0)20 7459 4022 or mobile +44 (0) 7976464481 for press"
+        }
+      ]
+    },
+    {
+      "full_name": "Hanna Popiel",
+      "title": "Director of MICE Sales",
+      "company": "Hotel Café Royal",
+      "linkedin_url": "https://uk.linkedin.com/in/hanna-popiel-404585100",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "eventsandgroups@hotelcaferoyal.com / +44 (0)20 7406 3300 (events and groups sales route)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads MICE/group sales which tie into reservations, revenue and event guest communications tech.",
+      "contact_evidence_summary": "Confirmed in Prospeo, directories and LinkedIn. Official events contact page provides route.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/hotel-cafe-royal-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Hanna Popiel Director Of Mice Sales @hotelcaferoyal.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/hanna-popiel-404585100",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of MICE Sales at Hotel Café Royal"
+        },
+        {
+          "source_url": "https://www.hotelcaferoyal.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Events and Groups: eventsandgroups@hotelcaferoyal.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Inna Nekrassova",
+      "title": "Director of Revenue",
+      "company": "Hotel Café Royal",
+      "linkedin_url": "https://uk.linkedin.com/in/inna-in-revenue",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@hotelcaferoyal.com / +44 (0)20 7138 9072 (official reservations line); enquiries@hotelcaferoyal.com / +44 (0)20 7406 3333",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees revenue management, distribution channels, pricing strategy and RMS for the property; public speaker on revenue tech, automation and commercial strategy.",
+      "contact_evidence_summary": "Confirmed in Global Revenue Forum speaker bio, LinkedIn, news/podcasts (2025-2026 references). Department reservation routes from official contact page provide reach.",
+      "evidence": [
+        {
+          "source_url": "https://www.globalrevenueforum.com/london-2026/agenda/speakers/3867520",
+          "source_type": "news",
+          "quote_or_fact": "Currently Director of Revenue at Hotel Café Royal... certified IDeaS G3 RMS expert"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/inna-in-revenue",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Revenue at Hotel Café Royal"
+        },
+        {
+          "source_url": "https://www.hotelcaferoyal.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations contact details listed"
+        }
+      ]
+    },
+    {
+      "full_name": "Ton van Geffen",
+      "title": "Head of Distribution and Loyalty",
+      "company": "The Set Collection",
+      "linkedin_url": "https://nl.linkedin.com/in/ton-van-geffen-06435536",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thesetcollection.com / +44 (0)20 4525 1968 (The Set central reservations from contact page); applies to Hotel Café Royal distribution",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads distribution, loyalty and channel strategy across The Set Collection including Hotel Café Royal; core stakeholder for AI booking automation, OTAs, revenue tech and guest journey systems.",
+      "contact_evidence_summary": "Official executive team page lists exact title; LinkedIn confirms role at The Set. Strong department reservation routes.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Ton van Geffen - Head of Distribution and Loyalty"
+        },
+        {
+          "source_url": "https://nl.linkedin.com/in/ton-van-geffen-06435536",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Distribution and Loyalty, The Set"
+        },
+        {
+          "source_url": "https://www.thesetcollection.com/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "The Set reservations contact details"
+        }
+      ]
+    },
+    {
+      "full_name": "Eugene Leonard",
+      "title": "General Manager",
+      "company": "Hotel Café Royal",
+      "linkedin_url": "https://uk.linkedin.com/in/eugene-leonard-hotelier",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "enquiries@hotelcaferoyal.com / +44 (0)20 7406 3333 (general inquiries line from official contact page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees all property operations, commercial performance, guest experience and tech decisions including reservations, revenue and digital systems at Hotel Café Royal.",
+      "contact_evidence_summary": "Official press announcement and PDF on hotel site; multiple news articles and LinkedIn confirmation of appointment. General hotel contact routes available.",
+      "evidence": [
+        {
+          "source_url": "https://www.hotelcaferoyal.com/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "We are pleased to announce Eugene Leonard as the new General Manager of Hotel Café Royal"
+        },
+        {
+          "source_url": "https://www.hotelcaferoyal.com/content/uploads/2024/08/New_General_Manager_at_Hotel_Cafe_Royal_August_2024.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "PDF announcing Eugene Leonard as GM reporting to Philip Haller"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/eugene-leonard-hotelier",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager at Hotel Café Royal"
+        }
+      ]
+    },
+    {
+      "full_name": "Marie Kelly",
+      "title": "Director of Reservations / Member Liaison & Performance",
+      "company": "The Set Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/marie-kelly-4934a144",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thesetcollection.com / +44 (0)20 4525 1968 (The Set reservations); reservations@hotelcaferoyal.com for property overlap",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Directly responsible for reservations strategy, performance and systems across The Set (previously Reservations Manager at Hotel Café Royal); ideal for reservations automation and booking tech.",
+      "contact_evidence_summary": "Official executive team page and LinkedIn confirm current and previous roles. Strong reservations department contacts.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Marie Kelly - Director of Member Liaison & Performance"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/marie-kelly-4934a144",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director Of Reservations at The Set Collection; previously Reservations Manager at Hotel Café Royal"
+        }
+      ]
+    },
+    {
+      "full_name": "Olga Mudryakova",
+      "title": "Director of Sales and Marketing",
+      "company": "Hotel Café Royal",
+      "linkedin_url": "https://uk.linkedin.com/in/olga-mudryakova",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "eventsandgroups@hotelcaferoyal.com / +44 (0)20 7406 3300; pressoffice@hotelcaferoyal.com (sales and marketing routes)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales, marketing and distribution efforts for the property; influences revenue, group bookings, digital strategy and guest comms tech.",
+      "contact_evidence_summary": "Confirmed across LinkedIn, RocketReach, Prospeo.io, TheOrg and news mentions. Department sales/events contacts available.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/olga-mudryakova",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales and Marketing at Hotel Café Royal"
+        },
+        {
+          "source_url": "https://prospeo.io/c/hotel-cafe-royal-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Olga Mudryakova Director Of Sales And Marketing @hotelcaferoyal.com"
+        },
+        {
+          "source_url": "https://rocketreach.co/hotel-cafe-royal-management_b5e14facf42e6afc",
+          "source_type": "directory",
+          "quote_or_fact": "Olga Mudryakova (Director of Sales and Marketing)"
+        }
+      ]
+    },
+    {
+      "full_name": "Tom de Jong",
+      "title": "Senior Director of Sales",
+      "company": "The Set Collection",
+      "linkedin_url": "https://nl.linkedin.com/in/tom-de-jong-7a544035",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "eventsandgroups@hotelcaferoyal.com or The Set reservations routes",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Senior sales leadership at brand level influencing sales strategy, distribution and commercial ops for Hotel Café Royal.",
+      "contact_evidence_summary": "Official executive team page; LinkedIn profile.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Tom de Jong - Senior Director of Sales"
+        },
+        {
+          "source_url": "https://nl.linkedin.com/in/tom-de-jong-7a544035",
+          "source_type": "linkedin",
+          "quote_or_fact": "Senior Director of Sales at The Set"
+        }
+      ]
+    },
+    {
+      "full_name": "Ashlee Thomas",
+      "title": "Director of Sales – North America",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "The Set reservations@thesetcollection.com / +44 (0)20 4525 1968",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional sales leadership for key market; influences international distribution, group sales and booking channels for the collection including this property.",
+      "contact_evidence_summary": "Official executive team page confirmation.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Ashlee Thomas - Director of Sales – North America"
+        }
+      ]
+    },
+    {
+      "full_name": "Ben Murphy",
+      "title": "Director of Sales - Entertainment & Leisure",
+      "company": "Hotel Café Royal",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "eventsandgroups@hotelcaferoyal.com / +44 (0)20 7406 3300",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales leadership in key segments (entertainment, leisure) that intersect with revenue, reservations and guest comms tech.",
+      "contact_evidence_summary": "Mentioned in directories, LinkedIn and careers context at the hotel.",
+      "evidence": [
+        {
+          "source_url": "https://www.hotelcaferoyal.com/careers/",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales and events roles referenced in context of commercial team"
+        }
+      ]
+    },
+    {
+      "full_name": "Monica Bewak",
+      "title": "Regional Director of Events & Groups",
+      "company": "Hotel Café Royal",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "eventsandgroups@hotelcaferoyal.com / +44 (0)20 7406 3300",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads events and groups sales which heavily rely on reservations automation, CRM and guest messaging systems.",
+      "contact_evidence_summary": "Mentioned in hotel careers page and team references for events leadership.",
+      "evidence": [
+        {
+          "source_url": "https://www.hotelcaferoyal.com/careers/",
+          "source_type": "official_site",
+          "quote_or_fact": "Deputy Head of Events & Groups works with Head/Regional Director of Events & Groups"
+        }
+      ]
+    },
+    {
+      "full_name": "Kirk McDonald",
+      "title": "Director of Sales – Middle East",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "The Set reservations@thesetcollection.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional sales leadership supporting global distribution and commercial strategy impacting the property.",
+      "contact_evidence_summary": "Official executive team page.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Kirk McDonald - Director of Sales – Middle East"
+        }
+      ]
+    },
+    {
+      "full_name": "Kasia Rudnik",
+      "title": "Senior Director of Marketing",
+      "company": "The Set Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/kasiarudnik",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "pressoffice@hotelcaferoyal.com / +44 (0)20 7406 3347 or enquiries@hotelcaferoyal.com (marketing and communications routes)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads marketing, digital and CRM strategy across The Set properties including Hotel Café Royal; influences guest messaging, digital booking and loyalty tech.",
+      "contact_evidence_summary": "Official executive team page; LinkedIn profile; references in brand marketing case studies. Department marketing/press routes available.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Kasia Rudnik - Senior Director of Marketing"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/kasiarudnik",
+          "source_type": "linkedin",
+          "quote_or_fact": "Senior Director of Marketing at The Set"
+        }
+      ]
+    },
+    {
+      "full_name": "Amit Chakrawarti",
+      "title": "Director of IT",
+      "company": "Hotel Café Royal",
+      "linkedin_url": "https://uk.linkedin.com/in/amit-chakrawarti-16b4bbaa",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "enquiries@hotelcaferoyal.com / +44 (0)20 7406 3333; data protection contact route via GDPR page",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees IT systems, digital infrastructure, data and tech stack for the property including booking, CRM and guest experience platforms.",
+      "contact_evidence_summary": "Mentioned in directories, LinkedIn and as DPO on hotel GDPR statement page providing contact route.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/hotel-cafe-royal-management_b5e14facf42e6afc",
+          "source_type": "directory",
+          "quote_or_fact": "Director of IT at Hotel Café Royal"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/amit-chakrawarti-16b4bbaa",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of IT at Hotel Café Royal"
+        },
+        {
+          "source_url": "https://www.hotelcaferoyal.com/gdpr-statement/",
+          "source_type": "official_site",
+          "quote_or_fact": "Amit Chakrawarti named as Data Protection contact"
+        }
+      ]
+    },
+    {
+      "full_name": "Francesco Pappagallo",
+      "title": "Digital Marketing Manager",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "enquiries@hotelcaferoyal.com / +44 (0)20 7406 3333 or pressoffice@hotelcaferoyal.com (digital marketing and guest comms routes)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Manages digital marketing and online guest journey for the brand including Hotel Café Royal; key for AI-driven guest messaging, digital booking and CRM tech.",
+      "contact_evidence_summary": "Listed on official The Set executive team page. Role confirmed in brand digital references.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Francesco Pappagallo - Digital Marketing Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Robin Stangroom",
+      "title": "Chief Executive Officer",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "The Set reservations and general enquiries routes; +44 (0)20 4525 1968",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "CEO with background in commercial, revenue, reservations and distribution; ultimate decision maker for tech adoption across properties including Hotel Café Royal.",
+      "contact_evidence_summary": "Official executive team page lists as CEO; news articles note previous roles in revenue/reservations/commercial.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Robin Stangroom - Chief Executive Officer"
+        },
+        {
+          "source_url": "https://cpp-luxury.com/in-conversation-with-robin-stangroom-managing-director-the-set-collection-exclusive-interview/",
+          "source_type": "news",
+          "quote_or_fact": "Robin Stangroom, CEO of The Set Collection"
+        }
+      ]
+    },
+    {
+      "full_name": "Philip Haller",
+      "title": "Chief Operating Officer",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "General The Set and hotel enquiries routes via +44 (0)20 7406 3333",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "COO to whom the Hotel Café Royal GM reports; oversees operations, commercial performance and tech strategy for the collection.",
+      "contact_evidence_summary": "Multiple news articles on GM appointment reference Philip Haller as COO of The Set Hotels to whom Eugene Leonard reports.",
+      "evidence": [
+        {
+          "source_url": "https://www.hotelcaferoyal.com/content/uploads/2024/08/New_General_Manager_at_Hotel_Cafe_Royal_August_2024.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Leonard will report directly to The Set Hotels' Chief Operating Officer, Philip Haller"
+        },
+        {
+          "source_url": "https://boutiquehotelnews.com/news/movers-and-shakers/hotel-cafe-royal/",
+          "source_type": "news",
+          "quote_or_fact": "Leonard will report directly to The Set Collection’s chief operating officer, Philip Haller"
+        }
+      ]
+    },
+    {
+      "full_name": "Abigail Riley",
+      "title": "Senior Marketing Manager",
+      "company": "The Set Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/abigail-riley-593226159",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "pressoffice@hotelcaferoyal.com or marketing routes via enquiries",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Senior marketing role at brand level supporting digital, content and guest experience communications for Hotel Café Royal.",
+      "contact_evidence_summary": "Official executive team page and LinkedIn profile.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Abigail Riley - Senior Marketing Manager"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/abigail-riley-593226159",
+          "source_type": "linkedin",
+          "quote_or_fact": "Senior Marketing Manager at The Set"
+        }
+      ]
+    },
+    {
+      "full_name": "Mathura Premaruban",
+      "title": "Director of P.R. & Partnerships",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "pressoffice@hotelcaferoyal.com / +44 (0)20 7406 3347 (official PR route)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads PR, partnerships and communications that overlap with guest experience, marketing and digital comms tech.",
+      "contact_evidence_summary": "Listed on official executive team page. PR contact routes from hotel press page.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Mathura Premaruban - Director of P.R. & Partnerships"
+        },
+        {
+          "source_url": "https://www.hotelcaferoyal.com/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "Press and Media enquiries directed to marketing/PR department"
+        }
+      ]
+    },
+    {
+      "full_name": "Michal Galili",
+      "title": "Director of Sales - North America",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "The Set reservations routes",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Regional sales director influencing international booking channels and group business for the brand properties.",
+      "contact_evidence_summary": "Listed on official The Set executive team page.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Michal Galili - Director of Sales- North America"
+        }
+      ]
+    },
+    {
+      "full_name": "Louise Rios",
+      "title": "Director of Sales – Latin America",
+      "company": "The Set Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "The Set reservations routes",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Regional sales role contributing to global booking and distribution strategy for the collection.",
+      "contact_evidence_summary": "Official executive team page lists the role.",
+      "evidence": [
+        {
+          "source_url": "https://www.thesetcollection.com/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Louise Rios - Director of Sales – Latin America"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3594 @@
+{
+  "version": 1,
+  "updated_at_utc": "2026-04-24T10:37:52.719051+00:00",
+  "by_id": {
+    "oh_2f566dd800a9ae6ebab5e67d": {
+      "outreach_id": "oh_2f566dd800a9ae6ebab5e67d",
+      "primary_email": "pressoffice@hotelcaferoyal.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Abigail Riley",
+        "title": "Senior Marketing Manager",
+        "company": "The Set Collection",
+        "contact_key": "li:https://uk.linkedin.com/in/abigail-riley-593226159"
+      },
+      "intimate_row_hash": "cc7f59f9eb93d9f1347d91cc28cada2eb87802ed",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_1e842d7f2efb97c0ba05aa77": {
+      "outreach_id": "oh_1e842d7f2efb97c0ba05aa77",
+      "primary_email": "alake@chesterfieldmayfair.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Adam Lake",
+        "title": "General Manager",
+        "company": "The Chesterfield Mayfair",
+        "contact_key": "li:https://uk.linkedin.com/in/adam-lake-a993204"
+      },
+      "intimate_row_hash": "6cc8f76919456e117c8e0640d619eea400869689",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_e7c522546546916ccca9e295": {
+      "outreach_id": "oh_e7c522546546916ccca9e295",
+      "primary_email": "alecerf@thegoring.com",
+      "target_url": "https://www.thegoring.com/",
+      "hotel_canonical_url": "https://www.thegoring.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_thegoring_com__89b90276.enriched.json",
+        "full_name": "Adrien Lecerf",
+        "title": "Front Office Manager",
+        "company": "The Goring",
+        "contact_key": "li:https://www.linkedin.com/in/adrien-lecerf-00b508b8"
+      },
+      "intimate_row_hash": "29d8800cdfa6524b2b01813bebff1f7c0c72cb25",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_24d7f8575deefdac95488903": {
+      "outreach_id": "oh_24d7f8575deefdac95488903",
+      "primary_email": "aimee.sieczko@hotelcaferoyal.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Aimee Sieczko",
+        "title": "Head of Marketing",
+        "company": "Hotel Café Royal",
+        "contact_key": "li:https://uk.linkedin.com/in/aimee-sieczko-459aa0a0"
+      },
+      "intimate_row_hash": "39cc9ec2da1743f2159e998726b42bfeed2a9ba9",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_4e4a649a536a39b18fe3621d": {
+      "outreach_id": "oh_4e4a649a536a39b18fe3621d",
+      "primary_email": "agarcia@chesterfieldmayfair.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Alberto Garcia",
+        "title": "Front Office Manager",
+        "company": "The Chesterfield Mayfair",
+        "contact_key": "li:https://uk.linkedin.com/in/albgarciasanchez"
+      },
+      "intimate_row_hash": "245356c04b1d2e283a0e7e36cee457517391d1bc",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_da25cf963bc7c64b85dfba72": {
+      "outreach_id": "oh_da25cf963bc7c64b85dfba72",
+      "primary_email": "alexandra.withers@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Alexandra Withers",
+        "title": "Senior Manager, Global Product Communications",
+        "company": "Belmond",
+        "contact_key": "em:alexandra.withers@belmond.com"
+      },
+      "intimate_row_hash": "4f4499b15180577142341a83c6f8b110b17d84b7",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_40036849f0d0539d6a07ebcf": {
+      "outreach_id": "oh_40036849f0d0539d6a07ebcf",
+      "primary_email": "marketing.london@millenniumhotels.co.uk",
+      "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+      "hotel_canonical_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_millenniumhotels_com__en_london_millennium_gloucester_hotel_london_kensi__53dccf74.enriched.json",
+        "full_name": "Ali Mehdi",
+        "title": "eCommerce Director, Revenue Marketing",
+        "company": "Millennium Hotels and Resorts",
+        "contact_key": "em:marketing.london@millenniumhotels.co.uk"
+      },
+      "intimate_row_hash": "417eda5fb9842800942f75aaa5827bdace89db83",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "declined",
+        "decided_at_utc": "2026-04-22T21:31:44.369229+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_44bb49eecc74d4462e6acecf": {
+      "outreach_id": "oh_44bb49eecc74d4462e6acecf",
+      "primary_email": "ali.tighe@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Ali Tighe",
+        "title": "Director of Public Relations and Digital MARCOM",
+        "company": "Four Seasons Tamarindo",
+        "contact_key": "em:ali.tighe@fourseasons.com"
+      },
+      "intimate_row_hash": "5ed6a44c6637512c3208e76757e2b113a1fab176",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_9e49e4e0f0fdb71aebe6ed76": {
+      "outreach_id": "oh_9e49e4e0f0fdb71aebe6ed76",
+      "primary_email": "amit@hotelcaferoyal.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Amit Chakrawarti",
+        "title": "Director of IT",
+        "company": "Hotel Café Royal",
+        "contact_key": "li:https://uk.linkedin.com/in/amit-chakrawarti-16b4bbaa"
+      },
+      "intimate_row_hash": "cf19797caf2a3bae4c17fd86642ff6ca8741d308",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_83ca0b9df521819628c4b3c8": {
+      "outreach_id": "oh_83ca0b9df521819628c4b3c8",
+      "primary_email": "anastasia.aroukatos@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Anastasia Aroukatos",
+        "title": "Manager, Global Product Communications",
+        "company": "Belmond",
+        "contact_key": "em:anastasia.aroukatos@belmond.com"
+      },
+      "intimate_row_hash": "51f4e8a9071a4bd7022417c7a7dce1354423f480",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_aad59b97539082ca990bcc2d": {
+      "outreach_id": "oh_aad59b97539082ca990bcc2d",
+      "primary_email": "andrewbeale@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Andrew Beale",
+        "title": "Chairman and Managing Director",
+        "company": "Beales Hotels",
+        "contact_key": "em:andrewbeale@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "1af1d41d662150a8384c4cb506bf9db68fe86bdf",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_ab23aaf14e21b9a6b74845af": {
+      "outreach_id": "oh_ab23aaf14e21b9a6b74845af",
+      "primary_email": "apike@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Andrew Pike",
+        "title": "Managing Director",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "li:https://uk.linkedin.com/in/andrewpike-milestone-hotel"
+      },
+      "intimate_row_hash": "5e1f6b9cc5e39a3503865bbd202f9dc86986fb4f",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_3af2b1ac5c00b1321c25cff5": {
+      "outreach_id": "oh_3af2b1ac5c00b1321c25cff5",
+      "primary_email": "angela@iconicluxuryhotels.com",
+      "target_url": "https://www.11cadogangardens.co.uk/",
+      "hotel_canonical_url": "https://www.11cadogangardens.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_cadogangardens.enriched.json",
+        "full_name": "Angela Day",
+        "title": "Head of Public Relations",
+        "company": "Iconic Luxury Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/angela-day-45b90346"
+      },
+      "intimate_row_hash": "b7bf350b7f6eacf804de31d7ff1c81720fb8ee72",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_de194ae6b808178d9287bbd8": {
+      "outreach_id": "oh_de194ae6b808178d9287bbd8",
+      "primary_email": "anja.geiger@apexhotels.co.uk",
+      "target_url": "https://www.apexhotels.co.uk/",
+      "hotel_canonical_url": "https://www.apexhotels.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_apexhotels_co_uk__2ddecc50.enriched.json",
+        "full_name": "Anja Geiger",
+        "title": "Senior Corporate Sales Manager",
+        "company": "Apex Hotels",
+        "contact_key": "em:anja.geiger@apexhotels.co.uk"
+      },
+      "intimate_row_hash": "99b261eea03b7fa4dca7cee0e3ee05a646a45466",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:11.418822+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "8ef029abe9f46916",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Apex Hotels + Corporate Sales + Booking Channels",
+        "body": "Hi Anja,\n\nHope you’re well :)\n\nI came across Apex Hotels as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we have a close view of the operational challenges.\n\nYour role as Senior Corporate Sales Manager looks like an ideal perspective given how directly it connects to booking channels, distribution and client comms.\n\nI’d love to ask you a few focused questions if you might have 10 minutes sometime in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:50:20.102399+00:00"
+      },
+      "send": null
+    },
+    "oh_947de5c8f4be7c064c8a7a94": {
+      "outreach_id": "oh_947de5c8f4be7c064c8a7a94",
+      "primary_email": "anjie.keegel@edwardian.com",
+      "target_url": "https://www.themayfairhotel.co.uk/",
+      "hotel_canonical_url": "https://www.themayfairhotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_themayfairhotel_co_uk__a4cd7585.enriched.json",
+        "full_name": "Anjie Keegel",
+        "title": "Head of Sales",
+        "company": "The May Fair Hotel",
+        "contact_key": "li:https://uk.linkedin.com/in/anjie-keegel-368817a"
+      },
+      "intimate_row_hash": "9b053be0fcd8ff6d92dd5ceee8b765b848b0fcaa",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_a3802b89281c6740f4460bd4": {
+      "outreach_id": "oh_a3802b89281c6740f4460bd4",
+      "primary_email": "a.maas@leonardo-hotels.com",
+      "target_url": "https://www.leonardo-hotels.com/",
+      "hotel_canonical_url": "https://www.leonardo-hotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_leonardo_hotels_com__e99e3d8b.enriched.json",
+        "full_name": "Anke Rohn-Maas",
+        "title": "CHRO Central Europe",
+        "company": "Leonardo Hotels Central Europe",
+        "contact_key": "li:https://de.linkedin.com/in/anke-rohn-maas-12b91054"
+      },
+      "intimate_row_hash": "b89f1067fce79949d1959a00d474a9ae04d3a00a",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:38.177563+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "9b96eb8d9fd7f7c2",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Leonardo Hotels + CHRO + Reservations Workflow",
+        "body": "Hi Anke,\n\nHope you’re well :)\n\nI came across Leonardo Hotels as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. Cole is my partner and his family is active in hotel ownership and operations in South Africa, so we have picked this space as we are close to the problem and want to help the industry.\n\nYou seem like a great person to talk to given your role as CHRO Central Europe influencing digital transformation training and tech adoption for reservations, guest experience and CRM teams across the portfolio.\n\nI’d love to ask you a few focused questions if you might have 10 minutes sometime in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:49:11.940154+00:00"
+      },
+      "send": null
+    },
+    "oh_47c528e5e8bfa504dc817e84": {
+      "outreach_id": "oh_47c528e5e8bfa504dc817e84",
+      "primary_email": "arichards@rubenshotel.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Anton Richards",
+        "title": "Director of Sales",
+        "company": "Red Carnation Hotels",
+        "contact_key": "em:arichards@rubenshotel.com"
+      },
+      "intimate_row_hash": "2ef3b2ca90e5847c46609769f6b5b4604ae06ff5",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:44.662836+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "005c569c08aefca3",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Chesterfield Mayfair + Director of Sales + Reservations",
+        "body": "Hi Anton,\n\nHope you’re well :)\n\nI came across Chesterfield Mayfair through my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole's family is active in hotel ownership and operations in South Africa. This has given us a close view of the operational challenges in the sector.\n\nYou seem like a great person to talk to because of your role as Director of Sales for Red Carnation Hotels' London properties including the Chesterfield Mayfair, where you influence sales, distribution and revenue strategies.\n\nI’d love to ask you a few focused questions if you might have 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:38:04.415827+00:00"
+      },
+      "send": null
+    },
+    "oh_a583ee1d6dab5717767d3512": {
+      "outreach_id": "oh_a583ee1d6dab5717767d3512",
+      "primary_email": "ashlee.thomas@thesetcollection.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Ashlee Thomas",
+        "title": "Director of Sales – North America",
+        "company": "The Set Collection",
+        "contact_key": "li:https://www.linkedin.com/in/ashleerthomas"
+      },
+      "intimate_row_hash": "2abea11d67edc6a3661f5713c6b7972dec32ded0",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_aa0e8f6a2a02683bcf9281a3": {
+      "outreach_id": "oh_aa0e8f6a2a02683bcf9281a3",
+      "primary_email": "ashleybeale@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Ashley Beale",
+        "title": "Director and General Manager",
+        "company": "Beales Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/ashley-beale-015692104"
+      },
+      "intimate_row_hash": "b503d28bb17c8333afcfd3733eb4d575dc9ec5d6",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_3574863ff65b0aaf45f3a6e8": {
+      "outreach_id": "oh_3574863ff65b0aaf45f3a6e8",
+      "primary_email": "atinoco@chesterfieldmayfair.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Ashley Tinoco",
+        "title": "Executive Chef",
+        "company": "The Chesterfield Mayfair",
+        "contact_key": "em:atinoco@chesterfieldmayfair.com"
+      },
+      "intimate_row_hash": "d857d16c9923638c5eac8cdac7598e447962cc4f",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_c7d4d7b05bba9d9344f7d552": {
+      "outreach_id": "oh_c7d4d7b05bba9d9344f7d552",
+      "primary_email": "bailey.outerbridge@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Bailey Outerbridge",
+        "title": "Director of Public Relations",
+        "company": "Four Seasons Hotel New York Downtown",
+        "contact_key": "em:bailey.outerbridge@fourseasons.com"
+      },
+      "intimate_row_hash": "6a97e6f1a90e2e9aeb4b194c3e1a06cd70a9b00d",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:35.230262+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_02a1d9eda29760d4b15ad180": {
+      "outreach_id": "oh_02a1d9eda29760d4b15ad180",
+      "primary_email": "becky.casey@edwardian.com",
+      "target_url": "https://www.themayfairhotel.co.uk/",
+      "hotel_canonical_url": "https://www.themayfairhotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_themayfairhotel_co_uk__a4cd7585.enriched.json",
+        "full_name": "Becky Casey",
+        "title": "Vice President, Sales (North America)",
+        "company": "Edwardian Hotels London",
+        "contact_key": "li:https://www.linkedin.com/in/becky-casey-955bb311"
+      },
+      "intimate_row_hash": "616da750888d9216922a5202c5a37e19576cdca6",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_bd4b287331fd815d7e48908b": {
+      "outreach_id": "oh_bd4b287331fd815d7e48908b",
+      "primary_email": "eventsandgroups@hotelcaferoyal.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Monica Bewak",
+        "title": "Regional Director of Events & Groups",
+        "company": "Hotel Café Royal",
+        "contact_key": "li:https://www.linkedin.com/in/monicabewak"
+      },
+      "intimate_row_hash": "c5fffe6f0a06e50925a9e6eace0b0988bdbabe0b",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_59246ba4fb4d43094c08465c": {
+      "outreach_id": "oh_59246ba4fb4d43094c08465c",
+      "primary_email": "bensmith@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Ben Smith",
+        "title": "Assistant Conference & Banqueting Manager",
+        "company": "Beales Hotels",
+        "contact_key": "em:bensmith@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "683efe21a5d810e3d69b036314a346df1ac81fef",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_da2479a900dabc142a25e6d1": {
+      "outreach_id": "oh_da2479a900dabc142a25e6d1",
+      "primary_email": "bsur@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Blake Sur",
+        "title": "Executive Director of Middle East Sales",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:bsur@milestonehotel.com"
+      },
+      "intimate_row_hash": "70b94f61c43e5df52776938e5d8dd21822723cc8",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_164805535b131dd6a3909451": {
+      "outreach_id": "oh_164805535b131dd6a3909451",
+      "primary_email": "carolyn.beaudry@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Carolyn Beaudry",
+        "title": "Senior Manager, Global Brand Advocacy & Events",
+        "company": "Belmond",
+        "contact_key": "em:carolyn.beaudry@belmond.com"
+      },
+      "intimate_row_hash": "0e7641e4b4e8479028fad4f44a955f81a058db5c",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_8891feb1457eef67ab0ce317": {
+      "outreach_id": "oh_8891feb1457eef67ab0ce317",
+      "primary_email": "carolyn.wishnowski@millenniumhotels.com",
+      "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+      "hotel_canonical_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_millenniumhotels_com__en_london_millennium_gloucester_hotel_london_kensi__53dccf74.enriched.json",
+        "full_name": "Carolyn Wishnowski",
+        "title": "Director of Global Branding, Marketing, and Loyalty",
+        "company": "Millennium Hotels and Resorts",
+        "contact_key": "li:https://www.linkedin.com/in/carolynpereira"
+      },
+      "intimate_row_hash": "37bc3a8aee48f67eb75a809a921aebae573a43f2",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:45.426076+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "bbedba7ed8fba7e3",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Millennium Hotels + Global Branding + Loyalty",
+        "body": "Hi Carolyn,\n\nHope you're well :)\n\nI came across Millennium Hotels through my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole is a close collaborator in this and his family is active in hotel ownership and operations in South Africa.\n\nYour global leadership in branding, marketing and loyalty makes you a great person to speak with given the overlap with guest messaging and digital journey automation.\n\nI'd love to ask a few focused questions if you might have around 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:45:35.878692+00:00"
+      },
+      "send": null
+    },
+    "oh_1aab11e1d416424b3e9f8801": {
+      "outreach_id": "oh_1aab11e1d416424b3e9f8801",
+      "primary_email": "cecilia.horner@thehox.com",
+      "target_url": "https://www.onehundredshoreditch.com/hotel-info/",
+      "hotel_canonical_url": "https://www.onehundredshoreditch.com/hotel-info",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.enriched.json",
+        "full_name": "Cecilia [Hospitality GM]",
+        "title": "General Manager",
+        "company": "One Hundred Shoreditch",
+        "contact_key": "li:https://www.linkedin.com/in/cecilia-horner-46134b245"
+      },
+      "intimate_row_hash": "d8165f6fa9bb1b56470ac43ce73ebbf068ac09cd",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_b8c1fc0ead6952c3fc064223": {
+      "outreach_id": "oh_b8c1fc0ead6952c3fc064223",
+      "primary_email": "cchiene@thegoring.com",
+      "target_url": "https://www.thegoring.com/",
+      "hotel_canonical_url": "https://www.thegoring.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_thegoring_com__89b90276.enriched.json",
+        "full_name": "Charlotte Chiene",
+        "title": "Director of Sales",
+        "company": "The Goring",
+        "contact_key": "li:https://uk.linkedin.com/in/charlotte-chiene-4884b152"
+      },
+      "intimate_row_hash": "9c41d74e1ada6acedba28461fab1f6ba9e8c9403",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_bf178b136cd42b9948c99b44": {
+      "outreach_id": "oh_bf178b136cd42b9948c99b44",
+      "primary_email": "chrishall@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Chris Hall",
+        "title": "Former General Manager",
+        "company": "Beales Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/chris-hall-943a76165"
+      },
+      "intimate_row_hash": "5b057b7160692b7e53555430497ef28c7b7bf1cb",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_54f78e7b8c61896c667ac1d7": {
+      "outreach_id": "oh_54f78e7b8c61896c667ac1d7",
+      "primary_email": "ckf@ckfranzen.com",
+      "target_url": "https://www.theadria.com/",
+      "hotel_canonical_url": "https://www.theadria.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_theadria_com__bda0c5d8.enriched.json",
+        "full_name": "Chris K. Franzen",
+        "title": "Managing Director",
+        "company": "Bürgenstock Collection",
+        "contact_key": "li:https://www.linkedin.com/in/chrisfranzen"
+      },
+      "intimate_row_hash": "e92f468b32c361b7152eee230b74f41cf6b85b73",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_9c119266d050a3d6a7c8d0d7": {
+      "outreach_id": "oh_9c119266d050a3d6a7c8d0d7",
+      "primary_email": "chris.shiel@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Chris Shiel",
+        "title": "Commercial Director",
+        "company": "Four Seasons Hotel New York",
+        "contact_key": "em:chris.shiel@fourseasons.com"
+      },
+      "intimate_row_hash": "3bd628e1194fbc8b457bff0bb5b88ae109fe21fd",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:32.216461+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "3b005466203f366e",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Four Seasons New York + Commercial Director + Revenue",
+        "body": "Hi Chris,\n\nHope you’re well :)\n\nI came across Four Seasons Hotel New York as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. Cole, my partner, comes from a family active in hotel ownership and operations in South Africa, so we have picked this space as we are close to the problem and want to help the industry.\n\nWith your role as Commercial Director overseeing sales, marketing and revenue-related strategies including tech adoption at this iconic property, you seem like the ideal person to speak with.\n\nI’d love to ask you a few focused questions if you might have 10 minutes sometime in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:38:39.283307+00:00"
+      },
+      "send": null
+    },
+    "oh_53e318dd8c23efa565ed0a11": {
+      "outreach_id": "oh_53e318dd8c23efa565ed0a11",
+      "primary_email": "ciaran.thomassmith@seacontainerslondon.com",
+      "target_url": "https://www.seacontainerslondon.com/",
+      "hotel_canonical_url": "https://www.seacontainerslondon.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_seacontainers.enriched.json",
+        "full_name": "Ciaran Thomas Smith",
+        "title": "Front Office Manager",
+        "company": "Sea Containers London (Lore Group)",
+        "contact_key": "li:https://uk.linkedin.com/in/ciaran-thomas-smith"
+      },
+      "intimate_row_hash": "4e56627ba5abd631c7ea73dc39e655891853fffe",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_587f781f696eab89b3c96a3c": {
+      "outreach_id": "oh_587f781f696eab89b3c96a3c",
+      "primary_email": "cgolden@rchmail.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Claire Golden",
+        "title": "Director of People & Culture",
+        "company": "Red Carnation Hotels",
+        "contact_key": "em:cgolden@rchmail.com"
+      },
+      "intimate_row_hash": "1a1ab4b24027bdaf020f5b841d5b8ca94408172e",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:45.661490+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "ed8be6db79709063",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "People & Culture + Red Carnation + Guest Experience",
+        "body": "Hi Claire,\n\nHope you’re well :)\n\nI came across Chesterfield Mayfair as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole's family is active in hotel ownership and operations in South Africa, so this is an area close to us.\n\nYou seem like a great person to talk to because of your leadership in People & Culture at Red Carnation Hotels, where you support training on new systems and guest experience standards across properties.\n\nI’d love to ask you a few focused questions if you might have 10 minutes sometime in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:39:49.227123+00:00"
+      },
+      "send": null
+    },
+    "oh_4e3de2e4dbbd6761e9c67308": {
+      "outreach_id": "oh_4e3de2e4dbbd6761e9c67308",
+      "primary_email": "dana.berry@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Dana Berry",
+        "title": "Senior Director of Public Relations",
+        "company": "Four Seasons Resort Orlando",
+        "contact_key": "em:dana.berry@fourseasons.com"
+      },
+      "intimate_row_hash": "6313007bc69c0d56e2bf235697f4c95f1d93e7cc",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:19.184279+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_280eeea83f7134e705148afb": {
+      "outreach_id": "oh_280eeea83f7134e705148afb",
+      "primary_email": "dputz@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Daniel Putz",
+        "title": "Executive Chef",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:dputz@milestonehotel.com"
+      },
+      "intimate_row_hash": "8b88bf389c22e837c803d840f78325e016b42520",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_a077043e5d33ac0ed2f56617": {
+      "outreach_id": "oh_a077043e5d33ac0ed2f56617",
+      "primary_email": "daniellamoorby@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Daniella Moorby",
+        "title": "General Manager",
+        "company": "Beales Hotels",
+        "contact_key": "em:daniellamoorby@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "ecd9f5aa95a1ae8b58dd2759e2eddd94560fa9bd",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_f7117980a71719fea01e0854": {
+      "outreach_id": "oh_f7117980a71719fea01e0854",
+      "primary_email": "danila.junglee@millenniumhotels.co.uk",
+      "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+      "hotel_canonical_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_millenniumhotels_com__en_london_millennium_gloucester_hotel_london_kensi__53dccf74.enriched.json",
+        "full_name": "Danila Junglee",
+        "title": "Guest Relations / Operations Contact",
+        "company": "Millennium Gloucester Hotel London Kensington",
+        "contact_key": "em:danila.junglee@millenniumhotels.co.uk"
+      },
+      "intimate_row_hash": "7a8a1656ea63626423c8f11d3bec2d432b4bf30d",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:46.636460+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "3389a88a4dd54aae",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Millennium Gloucester + Guest Relations + Reservations Workflow",
+        "body": "Hi Danila,\n\nHope you’re well :)\n\nI came across the Millennium Gloucester Hotel as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we’ve picked this space as we’re close to the problem and want to help the industry.\n\nYour guest relations and operations role seems like a great fit because it touches guest messaging, experience tech, CRM, and communication automation.\n\nI’d love to ask you a few focused questions if you might have 10 minutes sometime within the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:52:29.249389+00:00"
+      },
+      "send": null
+    },
+    "oh_87935cce987bcc72f945b71f": {
+      "outreach_id": "oh_87935cce987bcc72f945b71f",
+      "primary_email": "conciergech@chesterfieldmayfair.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Darren Briggs",
+        "title": "Head Concierge",
+        "company": "The Chesterfield Mayfair",
+        "contact_key": "em:conciergech@chesterfieldmayfair.com"
+      },
+      "intimate_row_hash": "6a189b247a63eb5d7cf8131619bfb47c8d9bfa71",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_21d2b4f7122cf7ac2db77035": {
+      "outreach_id": "oh_21d2b4f7122cf7ac2db77035",
+      "primary_email": "declan.lott@edwardian.com",
+      "target_url": "https://www.themayfairhotel.co.uk/",
+      "hotel_canonical_url": "https://www.themayfairhotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_themayfair.enriched.json",
+        "full_name": "Declan Lott",
+        "title": "Vice President, Sales (North America)",
+        "company": "Edwardian Hotels London",
+        "contact_key": "li:https://www.linkedin.com/in/declan-lott-a0205b1"
+      },
+      "intimate_row_hash": "f35c2cbeb66b1b9ea8f2b387ba6cacd131c5c2b7",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_b81a691fa44389083c6f97e0": {
+      "outreach_id": "oh_b81a691fa44389083c6f97e0",
+      "primary_email": "d.rumazza@starhotels.it",
+      "target_url": "https://www.starhotels.com/",
+      "hotel_canonical_url": "https://www.starhotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_starhotels_com__48ae18a2.enriched.json",
+        "full_name": "Diego Rumazza",
+        "title": "Global Director of Sales",
+        "company": "Starhotels",
+        "contact_key": "li:https://it.linkedin.com/in/diegorumazza"
+      },
+      "intimate_row_hash": "73db0e6c4bc63e06f357e171380fedd524cfeef7",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_971d97a4c5fe3103a7434ddd": {
+      "outreach_id": "oh_971d97a4c5fe3103a7434ddd",
+      "primary_email": "dominik.feller@theadria.com",
+      "target_url": "https://www.theadria.com/",
+      "hotel_canonical_url": "https://www.theadria.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_theadria_com__bda0c5d8.enriched.json",
+        "full_name": "Dominik Feller",
+        "title": "General Manager",
+        "company": "The Adria",
+        "contact_key": "li:https://uk.linkedin.com/in/dominik-feller-mih-4718b440"
+      },
+      "intimate_row_hash": "7770faf88c925b469044496c5f300697f8b376d9",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_e62043d9b3b8aded6e85663c": {
+      "outreach_id": "oh_e62043d9b3b8aded6e85663c",
+      "primary_email": "e.fabri@starhotels.it",
+      "target_url": "https://www.starhotels.com/",
+      "hotel_canonical_url": "https://www.starhotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_starhotels_com__48ae18a2.enriched.json",
+        "full_name": "Elisabetta Fabri",
+        "title": "President & CEO",
+        "company": "Starhotels S.p.A.",
+        "contact_key": "li:https://it.linkedin.com/in/elisabetta-fabri-14254aa"
+      },
+      "intimate_row_hash": "b5f00237599b16d3991ac7583b97ed1cf687a54a",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_7a18a649e12bcac1486cfa0a": {
+      "outreach_id": "oh_7a18a649e12bcac1486cfa0a",
+      "primary_email": "emmabeale@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Emma Beale",
+        "title": "Group Revenue Manager",
+        "company": "Beales Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/emma-beale-68294317b"
+      },
+      "intimate_row_hash": "39c1c4f63c325d6eddcc80202b0cb796f218840e",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_d625116c367e5012adcfb54e": {
+      "outreach_id": "oh_d625116c367e5012adcfb54e",
+      "primary_email": "meetms@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Emma Smith",
+        "title": "Sales, Conference & Banqueting Executive",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:meetms@milestonehotel.com"
+      },
+      "intimate_row_hash": "54f1572588c45bdf61382c592eb56c4cb77b8483",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_6fcae32f64b57bfd093345e6": {
+      "outreach_id": "oh_6fcae32f64b57bfd093345e6",
+      "primary_email": "meeting.helvetiabristol.fi@starhotels.it",
+      "target_url": "https://www.starhotels.com/",
+      "hotel_canonical_url": "https://www.starhotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_starhotels_com__48ae18a2.enriched.json",
+        "full_name": "Federico Versari",
+        "title": "General Manager",
+        "company": "Helvetia & Bristol (Starhotels Collezione)",
+        "contact_key": "li:https://www.linkedin.com/in/federicoversari"
+      },
+      "intimate_row_hash": "5b3d561e85783b179cedee1a798ecaa4c442a048",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_aef0052ed18f9767dbb31b1f": {
+      "outreach_id": "oh_aef0052ed18f9767dbb31b1f",
+      "primary_email": "foregan@chesterfieldmayfair.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Fiachra O'Regan",
+        "title": "Food and Beverage Manager",
+        "company": "The Chesterfield Mayfair",
+        "contact_key": "em:foregan@chesterfieldmayfair.com"
+      },
+      "intimate_row_hash": "29f6ba4afb7414050a7729d71a4f830602ed024f",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_28504f61fa1d0c99c944073c": {
+      "outreach_id": "oh_28504f61fa1d0c99c944073c",
+      "primary_email": "press@clermonthotel.group",
+      "target_url": "https://www.thistle.com/",
+      "hotel_canonical_url": "https://www.thistle.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_thistle_com__82fb7fd2.enriched.json",
+        "full_name": "Geeta Defoe",
+        "title": "Director of Sales & Marketing",
+        "company": "Clermont Hotel Group",
+        "contact_key": "li:https://www.linkedin.com/in/geeta-defoe-803392b"
+      },
+      "intimate_row_hash": "116bfb3dfc8854f7e38d4dfae088093bd4ecbbb2",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_9bebf5554f8557829fdd1b63": {
+      "outreach_id": "oh_9bebf5554f8557829fdd1b63",
+      "primary_email": "g.guido@starhotels.it",
+      "target_url": "https://www.starhotels.com/",
+      "hotel_canonical_url": "https://www.starhotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_starhotels_com__48ae18a2.enriched.json",
+        "full_name": "Gianna Guido",
+        "title": "Area Sales Manager Tuscany & SMEs",
+        "company": "Starhotels",
+        "contact_key": "em:g.guido@starhotels.it"
+      },
+      "intimate_row_hash": "cd6b032e2900d5b3712a8bcc7a96ee6864e0b7e6",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_50f1584e30917257688c6a6e": {
+      "outreach_id": "oh_50f1584e30917257688c6a6e",
+      "primary_email": "gmabbett@rchmail.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Gillian Mabbett",
+        "title": "Director of Sales",
+        "company": "Red Carnation Hotels",
+        "contact_key": "li:https://www.linkedin.com/in/gillian-mabbett"
+      },
+      "intimate_row_hash": "96fdf4db6a80049cd5929ba4914f3d633c44c287",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_bf4d997b2b2d8732cfee7e0d": {
+      "outreach_id": "oh_bf4d997b2b2d8732cfee7e0d",
+      "primary_email": "golnaz.esfahani@thehoteljune.com",
+      "target_url": "https://www.seacontainerslondon.com/",
+      "hotel_canonical_url": "https://www.seacontainerslondon.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_seacontainers.enriched.json",
+        "full_name": "Golnaz Esfahani",
+        "title": "Director of Sales",
+        "company": "Sea Containers London (Lore Group)",
+        "contact_key": "li:https://www.linkedin.com/in/golnaz-esfahani"
+      },
+      "intimate_row_hash": "cc67ebc51d607e4d86c92bad0bb0e29df2c46a2c",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_36fc633df74e4fae49eb6c33": {
+      "outreach_id": "oh_36fc633df74e4fae49eb6c33",
+      "primary_email": "graemehammond@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Graeme Hammond",
+        "title": "Deputy Manager",
+        "company": "Beales Hotels",
+        "contact_key": "em:graemehammond@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "971dcc83bc0b3ed63748f42c80b45fde35ea39fe",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_76fae861cdc18738054aa543": {
+      "outreach_id": "oh_76fae861cdc18738054aa543",
+      "primary_email": "gcockburn@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Grant Cockburn",
+        "title": "Food & Beverage Operations Manager",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:gcockburn@milestonehotel.com"
+      },
+      "intimate_row_hash": "8f37c412503a08899cd06a766e98203a950a5d20",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_ba787474f03c7b7468c0c9a2": {
+      "outreach_id": "oh_ba787474f03c7b7468c0c9a2",
+      "primary_email": "hanna.bornebusch@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Hanna Bornebusch",
+        "title": "Communications / PR Contact (Europe & Africa)",
+        "company": "Belmond",
+        "contact_key": "em:hanna.bornebusch@belmond.com"
+      },
+      "intimate_row_hash": "ab91245198668544abd19bf2b892e8bbf0a7e8ab",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_e3e5e8a11f87c314107be9d7": {
+      "outreach_id": "oh_e3e5e8a11f87c314107be9d7",
+      "primary_email": "hanna.popiel@hotelcaferoyal.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Hanna Popiel",
+        "title": "Director of MICE Sales",
+        "company": "Hotel Café Royal",
+        "contact_key": "li:https://uk.linkedin.com/in/hanna-popiel-404585100"
+      },
+      "intimate_row_hash": "ff26ce879281deba0900879d9b05fa24b1dd261d",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_7f79b9759ff6b485c07dd608": {
+      "outreach_id": "oh_7f79b9759ff6b485c07dd608",
+      "primary_email": "hannah.egerton@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Hannah Egerton",
+        "title": "Communications Contact",
+        "company": "Belmond",
+        "contact_key": "li:https://uk.linkedin.com/in/hannah-egerton"
+      },
+      "intimate_row_hash": "ae37a7b1b81adf7619cc335f64ead1c5be1bf2f7",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_eb0319f6d85641793e97106b": {
+      "outreach_id": "oh_eb0319f6d85641793e97106b",
+      "primary_email": "hannahj@dovetail-agency.co.uk",
+      "target_url": "https://www.theadria.com/",
+      "hotel_canonical_url": "https://www.theadria.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_theadria_com__bda0c5d8.enriched.json",
+        "full_name": "Hannah Jamal",
+        "title": "Account Manager (UK PR & Media)",
+        "company": "The Dovetail Agency (for Bürgenstock Collection)",
+        "contact_key": "em:hannahj@dovetail-agency.co.uk"
+      },
+      "intimate_row_hash": "6fdb836d6a2748760ef0c6584803cf94e26c63b3",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_79fa290a529dfe6c56733773": {
+      "outreach_id": "oh_79fa290a529dfe6c56733773",
+      "primary_email": "hannah.r@loregroup.com",
+      "target_url": "https://www.onehundredshoreditch.com/hotel-info/",
+      "hotel_canonical_url": "https://www.onehundredshoreditch.com/hotel-info",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_onehundredshoreditch.enriched.json",
+        "full_name": "Hannah Robinson",
+        "title": "Head of Global Sales",
+        "company": "Lore Group",
+        "contact_key": "li:https://www.linkedin.com/in/hannah-sheard"
+      },
+      "intimate_row_hash": "9d59f928380c90f477789618989b8fc5aa74bf61",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_8288a4bc0b5bac08051436b2": {
+      "outreach_id": "oh_8288a4bc0b5bac08051436b2",
+      "primary_email": "harley.potter@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Harley Wyatt Potter",
+        "title": "Senior Director of Public Relations and Communications",
+        "company": "Four Seasons Hotel Nashville",
+        "contact_key": "em:harley.potter@fourseasons.com"
+      },
+      "intimate_row_hash": "1dd8ba9b611aeab3c70b8f67f611c9f9e0e3f8f7",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:28.356381+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_3ae90ef370cfa3786fce5b84": {
+      "outreach_id": "oh_3ae90ef370cfa3786fce5b84",
+      "primary_email": "hasnain.alloo@edwardian.com",
+      "target_url": "https://www.themayfairhotel.co.uk/",
+      "hotel_canonical_url": "https://www.themayfairhotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_themayfairhotel_co_uk__a4cd7585.enriched.json",
+        "full_name": "Hasnain N. Alloo",
+        "title": "Executive Vice President & Commercial Director",
+        "company": "Edwardian Hotels London",
+        "contact_key": "li:https://uk.linkedin.com/in/hasnainalloo"
+      },
+      "intimate_row_hash": "6368a2e65c2c88aa001dc456bf41676eb7dba9ac",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_80b839307716b75f27a212fc": {
+      "outreach_id": "oh_80b839307716b75f27a212fc",
+      "primary_email": "hubert@themayfairtownhouse.com",
+      "target_url": "https://www.11cadogangardens.co.uk/",
+      "hotel_canonical_url": "https://www.11cadogangardens.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_cadogangardens.enriched.json",
+        "full_name": "Hubert Mih",
+        "title": "Director of Sales and Marketing",
+        "company": "Iconic Luxury Hotels",
+        "contact_key": "li:https://www.linkedin.com/in/hubert-losguardi-92334a7"
+      },
+      "intimate_row_hash": "b9aeb1f0876191002dc055ca2cf9fde74f59bd5c",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_4b8a58fbf3e74ecb549ab0b8": {
+      "outreach_id": "oh_4b8a58fbf3e74ecb549ab0b8",
+      "primary_email": "iliegorea@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Ilie Gorea",
+        "title": "Conference & Banqueting Manager",
+        "company": "Beales Hotels",
+        "contact_key": "em:iliegorea@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "02425cbe0ae5170a5e2b9ed9e4397b81b57ae51b",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_480886baec055e632649c405": {
+      "outreach_id": "oh_480886baec055e632649c405",
+      "primary_email": "isaac.ayuso@apexhotels.co.uk",
+      "target_url": "https://www.apexhotels.co.uk/",
+      "hotel_canonical_url": "https://www.apexhotels.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_apexhotels_co_uk__2ddecc50.enriched.json",
+        "full_name": "Isaac Ayuso",
+        "title": "Group Digital Marketing Manager",
+        "company": "Apex Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/isaacmab"
+      },
+      "intimate_row_hash": "ef26e1827bc890597a60094e0d9121e13c69e15d",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:09.590541+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "35cbad7b5289cae8",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Apex Hotels + Digital Marketing + Direct Bookings",
+        "body": "Hi Isaac,\n\nHope you’re well :)\n\nI came across Apex Hotels as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole's family is active in hotel ownership and operations in South Africa, so we've been focusing on this space.\n\nYou seem like a great person to talk to given your role as Group Digital Marketing Manager leading initiatives with revenue tech platforms like Cendyn DMP for direct bookings and guest acquisition.\n\nI’d love to ask a few focused questions if you might have 10 minutes sometime in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:44:21.053945+00:00"
+      },
+      "send": null
+    },
+    "oh_8eec74b3edb17e99bd9cba22": {
+      "outreach_id": "oh_8eec74b3edb17e99bd9cba22",
+      "primary_email": "ithomas@rchmail.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Isabelle Thomas",
+        "title": "PR Director",
+        "company": "Red Carnation Hotels",
+        "contact_key": "em:ithomas@rchmail.com"
+      },
+      "intimate_row_hash": "03bba5305a423d6e52d72be7ce022f77ce2a04c4",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:49.472551+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "840a5e09e7b3365e",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Chesterfield Mayfair + PR Director + Guest Experience",
+        "body": "Hi Isabelle,\n\nHope you’re well :)\n\nI came across Chesterfield Mayfair as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa.\n\nYour role as PR Director at Red Carnation Hotels, focused on brand messaging, influencer partnerships and guest experience storytelling, makes you an ideal person to speak with about opportunities in guest comms tech.\n\nI’d love to ask you a few focused questions if you might have 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:44:05.771038+00:00"
+      },
+      "send": null
+    },
+    "oh_9263ea2b9ba8d1c054aa1c06": {
+      "outreach_id": "oh_9263ea2b9ba8d1c054aa1c06",
+      "primary_email": "jacqueline.kneebone@loregroup.com",
+      "target_url": "https://www.onehundredshoreditch.com/hotel-info/",
+      "hotel_canonical_url": "https://www.onehundredshoreditch.com/hotel-info",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_onehundredshoreditch.enriched.json",
+        "full_name": "Jacqueline Kneebone",
+        "title": "Head of Sustainability and Wellness",
+        "company": "Lore Group",
+        "contact_key": "li:https://www.linkedin.com/in/jacqueline-kneebone-64632526"
+      },
+      "intimate_row_hash": "c4539c06d4460e48c5980989ee05f05c719b5cbc",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_8379a8a82f2d0b1ab37e331e": {
+      "outreach_id": "oh_8379a8a82f2d0b1ab37e331e",
+      "primary_email": "jade.venus@onehundredshoreditch.com",
+      "target_url": "https://www.onehundredshoreditch.com/hotel-info/",
+      "hotel_canonical_url": "https://www.onehundredshoreditch.com/hotel-info",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.enriched.json",
+        "full_name": "Jade Venus",
+        "title": "Guest Engagement Manager",
+        "company": "One Hundred Shoreditch",
+        "contact_key": "li:https://www.linkedin.com/in/jadevenus"
+      },
+      "intimate_row_hash": "700e990165f461bfd2a9e084144eff8d5811bed5",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_d2b9f521b242a30d8cb04a08": {
+      "outreach_id": "oh_d2b9f521b242a30d8cb04a08",
+      "primary_email": "jblemoine@thegoring.com",
+      "target_url": "https://www.thegoring.com/",
+      "hotel_canonical_url": "https://www.thegoring.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_thegoring_com__89b90276.enriched.json",
+        "full_name": "Jean-Baptiste Lemoine",
+        "title": "Deputy Director of Food and Beverage",
+        "company": "The Goring",
+        "contact_key": "li:https://www.linkedin.com/in/jean-baptiste-lemoine-60516a11b"
+      },
+      "intimate_row_hash": "7f0660512b73dac32bd830619ac3901d65c2b154",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_b62e867956df5e6f5497dc86": {
+      "outreach_id": "oh_b62e867956df5e6f5497dc86",
+      "primary_email": "jgoring@thegoring.com",
+      "target_url": "https://www.thegoring.com/",
+      "hotel_canonical_url": "https://www.thegoring.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_thegoring.enriched.json",
+        "full_name": "Jeremy Goring",
+        "title": "CEO",
+        "company": "The Goring",
+        "contact_key": "li:https://uk.linkedin.com/in/jeremy-goring-2261a610"
+      },
+      "intimate_row_hash": "02988d40aeb257824ff7b75c09a7962292588888",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_8e525e9e36ff57d8fdfc1958": {
+      "outreach_id": "oh_8e525e9e36ff57d8fdfc1958",
+      "primary_email": "jscott@chesterfieldmayfair.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Johal Scott",
+        "title": "Deputy General Manager",
+        "company": "The Chesterfield Mayfair",
+        "contact_key": "em:jscott@chesterfieldmayfair.com"
+      },
+      "intimate_row_hash": "6ca3c99a7689c56ee704cbc8b1c9f94e4ab2fbfd",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_e6da9c6741d0d8c5f0eb6d94": {
+      "outreach_id": "oh_e6da9c6741d0d8c5f0eb6d94",
+      "primary_email": "jonathan@rchmail.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Jonathan Raggett",
+        "title": "CEO",
+        "company": "Red Carnation Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/jonathan-raggett-aa787097"
+      },
+      "intimate_row_hash": "f9179ca82e8023b63c74e104c682b2be54ced236",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:51.199914+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "5d9fcb950eaa8d9c",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Red Carnation + CEO + Reservations Workflow",
+        "body": "Hi Jonathan,\n\nHope you’re well :)\n\nI came across Red Carnation Hotels as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. Cole is my partner and his family is active in hotel ownership and operations in South Africa.\n\nAs CEO with oversight on brand strategy, technology investments and commercial performance across the collection, you seem like the ideal person to speak with about these areas.\n\nI’d love to ask a few focused questions if you might have around 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T10:37:52.719051+00:00"
+      },
+      "send": null
+    },
+    "oh_00556a3a3918924ef62d70c4": {
+      "outreach_id": "oh_00556a3a3918924ef62d70c4",
+      "primary_email": "conciergems@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Jorge Alvarez",
+        "title": "Head Concierge",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "li:https://uk.linkedin.com/in/jorge-alvarez-1a8b795b"
+      },
+      "intimate_row_hash": "0d73a57e75724e062b1d40fddc746d7c2504e379",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_2f348341380d6bb88f512542": {
+      "outreach_id": "oh_2f348341380d6bb88f512542",
+      "primary_email": "joyce.huang@thetwentytwo.com",
+      "target_url": "https://www.thetwentytwo.com/london/",
+      "hotel_canonical_url": "https://www.thetwentytwo.com/london",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_thetwentytwo.enriched.json",
+        "full_name": "Joyce Huang",
+        "title": "Sales Manager",
+        "company": "The Twenty Two",
+        "contact_key": "li:https://www.linkedin.com/in/joyce-huang-68b712170"
+      },
+      "intimate_row_hash": "361c7c6c277609e536df7724b581ff74e842ec4c",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_41854b102656e7de6423210b": {
+      "outreach_id": "oh_41854b102656e7de6423210b",
+      "primary_email": "juliette.dignum@loregrp.com",
+      "target_url": "https://www.onehundredshoreditch.com/hotel-info/",
+      "hotel_canonical_url": "https://www.onehundredshoreditch.com/hotel-info",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.enriched.json",
+        "full_name": "Juliette Dignum",
+        "title": "Area Director Revenue Management",
+        "company": "Lore Group",
+        "contact_key": "li:https://www.linkedin.com/in/juliette-dignum-3576281b6"
+      },
+      "intimate_row_hash": "01b75cfdb19e706ee87fe3e3c67598c3bc69b615",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_bd09b318292b81e045b3133d": {
+      "outreach_id": "oh_bd09b318292b81e045b3133d",
+      "primary_email": "jbalezentyte@chesterfieldmayfair.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Jurgita Balezentyte",
+        "title": "Property Manager",
+        "company": "The Chesterfield Mayfair",
+        "contact_key": "li:https://uk.linkedin.com/in/jurgita-balezentyte-b409a31b7"
+      },
+      "intimate_row_hash": "098e10bc640f07d96c8a3d58e2a1b5641fa84f0e",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_2af2d7261c4c434cb4e9e639": {
+      "outreach_id": "oh_2af2d7261c4c434cb4e9e639",
+      "primary_email": "katia.sadchikova@edwardian.com",
+      "target_url": "https://www.themayfairhotel.co.uk/",
+      "hotel_canonical_url": "https://www.themayfairhotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_themayfair.enriched.json",
+        "full_name": "Katia Sadchikova",
+        "title": "Group Head of Sales",
+        "company": "Edwardian Hotels London",
+        "contact_key": "em:katia.sadchikova@edwardian.com"
+      },
+      "intimate_row_hash": "7fc4f0fca6d1002cc99ad1cec3ac3be6692c2632",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_1b0d2e9fbbd7e4e07126fa9a": {
+      "outreach_id": "oh_1b0d2e9fbbd7e4e07126fa9a",
+      "primary_email": "katie.snow@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Katie Snow",
+        "title": "Director of Marketing and Communications",
+        "company": "The Cadogan, A Belmond Hotel",
+        "contact_key": "li:https://uk.linkedin.com/in/katieesnow"
+      },
+      "intimate_row_hash": "d0d6b306a3aaa84cbd8021ec6df09f5276bbe236",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_b40d6d47b070cbc2115ddd7f": {
+      "outreach_id": "oh_b40d6d47b070cbc2115ddd7f",
+      "primary_email": "kelly.cardona@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Kelly Cardona",
+        "title": "Director of Revenue Management",
+        "company": "Four Seasons Hotels and Resorts",
+        "contact_key": "li:https://www.linkedin.com/in/kelly-cardona-4546bb40"
+      },
+      "intimate_row_hash": "bd51fabc17d4360c3e34e5ac82fe66a8a5c487ea",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:34.569325+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_40c705dd2eeced73174f6e7f": {
+      "outreach_id": "oh_40c705dd2eeced73174f6e7f",
+      "primary_email": "kevinrajoo@the-so.com",
+      "target_url": "https://w6hotel.co.uk/",
+      "hotel_canonical_url": "https://w6hotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__w6hotel_co_uk__5dfcde97.enriched.json",
+        "full_name": "Kevin Rajoo",
+        "title": "Group Contact / Sales & Marketing",
+        "company": "The SO Hotels & Apartments",
+        "contact_key": "em:kevinrajoo@the-so.com"
+      },
+      "intimate_row_hash": "ce59d1511eb679a7f957943f004ca20214468cd7",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_547a7b186ce54a31289a0e3c": {
+      "outreach_id": "oh_547a7b186ce54a31289a0e3c",
+      "primary_email": "kris.leszczynski@themayfairhotel.co.uk",
+      "target_url": "https://www.themayfairhotel.co.uk/",
+      "hotel_canonical_url": "https://www.themayfairhotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_themayfair.enriched.json",
+        "full_name": "Kris Leszczynski",
+        "title": "Group General Manager, Service Operations",
+        "company": "Edwardian Hotels London",
+        "contact_key": "li:https://www.linkedin.com/in/kris-leszczynski-38ab143b"
+      },
+      "intimate_row_hash": "117b7da251f367461aff141f64a2489bc1bfc7e5",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_39590259f79b7d5273c34af3": {
+      "outreach_id": "oh_39590259f79b7d5273c34af3",
+      "primary_email": "laura.cammarano@thesetcollection.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Laura Cammarano",
+        "title": "Director of Global Sales",
+        "company": "The Set Collection",
+        "contact_key": "em:laura.cammarano@thesetcollection.com"
+      },
+      "intimate_row_hash": "ebafd5be8620c03bfbf3c8260a5952b2d62ec480",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_dc8e62766651d6b75d78815d": {
+      "outreach_id": "oh_dc8e62766651d6b75d78815d",
+      "primary_email": "laura.dibert@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Laura Di Bert",
+        "title": "Communications Team Member",
+        "company": "Belmond",
+        "contact_key": "li:https://www.linkedin.com/in/laura-di-bert-54321624"
+      },
+      "intimate_row_hash": "1de430b44cd7e745d80f47a8b34a4fb0af957e94",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_0ef09b789ddf1cf94748392c": {
+      "outreach_id": "oh_0ef09b789ddf1cf94748392c",
+      "primary_email": "laylahussain@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Layla Hussain",
+        "title": "Meetings & Events Manager",
+        "company": "Beales Hotels",
+        "contact_key": "em:laylahussain@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "34cc857a7434c02585bff4b8bb936fe91ce8c319",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_5d911d2d6f87c96f37742756": {
+      "outreach_id": "oh_5d911d2d6f87c96f37742756",
+      "primary_email": "leia.idliby@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Leia Idliby",
+        "title": "Digital Marketing Manager",
+        "company": "Four Seasons Hotel New York Downtown",
+        "contact_key": "em:leia.idliby@fourseasons.com"
+      },
+      "intimate_row_hash": "dcf17e72d0e14cc2969be360f0bbc8c18dff86af",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:19.969204+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_808cf9ebb5ea164d52225658": {
+      "outreach_id": "oh_808cf9ebb5ea164d52225658",
+      "primary_email": "lisadingwall@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Lisa Dingwall",
+        "title": "Head Receptionist",
+        "company": "Beales Hotels",
+        "contact_key": "em:lisadingwall@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "d79878f37ab100fab8ee8deb679abce3b3885a7f",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_aa0d20c0c1367d3caafb776e": {
+      "outreach_id": "oh_aa0d20c0c1367d3caafb776e",
+      "primary_email": "lmcgivern@rchmail.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Liz McGivern",
+        "title": "Vice President People & Culture",
+        "company": "Red Carnation Hotels",
+        "contact_key": "em:lmcgivern@rchmail.com"
+      },
+      "intimate_row_hash": "18bccc50fe9ad5a8ba88480a3cb5c0565bbf1770",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:50.177528+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "0aa8de1beb3ca723",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Red Carnation + People & Culture + Guest Tech",
+        "body": "Hi Liz,\n\nHope you’re well :)\n\nI came across Red Carnation Hotels through my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we have picked this space as we are close to the problem.\n\nYou seem like a great person to talk to given your oversight of people, culture and training across the collection and your influence on adoption of new guest tech, CRM and booking systems.\n\nI’d love to ask you a few focused questions if you might have 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T10:24:55.330713+00:00"
+      },
+      "send": null
+    },
+    "oh_755cd2ec1bc077c5799de4c8": {
+      "outreach_id": "oh_755cd2ec1bc077c5799de4c8",
+      "primary_email": "metropole.rm@starhotels.it",
+      "target_url": "https://www.starhotels.com/",
+      "hotel_canonical_url": "https://www.starhotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_starhotels_com__48ae18a2.enriched.json",
+        "full_name": "Lorenzo Nencini",
+        "title": "General Manager",
+        "company": "Starhotels Metropole and Michelangelo (Rome)",
+        "contact_key": "li:https://www.linkedin.com/in/lorenzo-nencini-72412715/"
+      },
+      "intimate_row_hash": "8c798648bbf2b2bb30caf5866c9af0e3aefb378f",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_34cb5726e3eecb9df18b2938": {
+      "outreach_id": "oh_34cb5726e3eecb9df18b2938",
+      "primary_email": "louise.rios@thesetcollection.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Louise Rios",
+        "title": "Director of Sales – Latin America",
+        "company": "The Set Collection",
+        "contact_key": "li:https://www.linkedin.com/in/louise-rios-b59675b4"
+      },
+      "intimate_row_hash": "0df3dc24d271a1f359a143924cd07537626b3e77",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_8bddab1360dc35f74b531034": {
+      "outreach_id": "oh_8bddab1360dc35f74b531034",
+      "primary_email": "lucie-c.faucon@orient-express.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Lucie Faucon",
+        "title": "Former Director of Sales (recent)",
+        "company": "The Cadogan, A Belmond Hotel",
+        "contact_key": "li:https://www.linkedin.com/in/fauconlucie"
+      },
+      "intimate_row_hash": "4a32bbfa8fb7d7d6471b9421d3e2e0fa95b30efb",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_a20c8dc160e69609c5862f2e": {
+      "outreach_id": "oh_a20c8dc160e69609c5862f2e",
+      "primary_email": "pressoffice@starhotels.it",
+      "target_url": "https://www.starhotels.com/",
+      "hotel_canonical_url": "https://www.starhotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_starhotels_com__48ae18a2.enriched.json",
+        "full_name": "Stefano Borelli",
+        "title": "Global Chief Information Officer",
+        "company": "Starhotels",
+        "contact_key": "li:https://www.linkedin.com/in/steveborelli"
+      },
+      "intimate_row_hash": "cd55745bd437b183cd17ffbf4f58cb993229709c",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_dc694e817a1b9ab2f07ad7fc": {
+      "outreach_id": "oh_dc694e817a1b9ab2f07ad7fc",
+      "primary_email": "lydia.cook@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Lydia Cook",
+        "title": "UK Communications Manager",
+        "company": "Belmond",
+        "contact_key": "em:lydia.cook@belmond.com"
+      },
+      "intimate_row_hash": "5d56d8c2915a0bc50ef37daf231da46ca8185345",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_61ab72a0620720ccf0007d58": {
+      "outreach_id": "oh_61ab72a0620720ccf0007d58",
+      "primary_email": "lyndsey.gibson@apexhotels.co.uk",
+      "target_url": "https://www.apexhotels.co.uk/",
+      "hotel_canonical_url": "https://www.apexhotels.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_apexhotels_co_uk__2ddecc50.enriched.json",
+        "full_name": "Lyndsey Gibson",
+        "title": "Front Office Manager (Dundee)",
+        "company": "Apex Hotels",
+        "contact_key": "em:lyndsey.gibson@apexhotels.co.uk"
+      },
+      "intimate_row_hash": "cd329875c431c7a33ff6d3c801acf8f8f33f6adb",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:10.365418+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "d889e4c747225d91",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Apex Hotels Dundee + Front Office + Reservations",
+        "body": "Hi Lyndsey,\n\nHope you’re well :)\n\nI came across Apex Hotels as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we have chosen to focus on this space.\n\nYour front office role in Dundee directly involves guest communications, check-in messaging and reservations processes, which makes you an ideal person to speak with.\n\nI’d love to ask a few focused questions if you might have 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:40:27.148040+00:00"
+      },
+      "send": null
+    },
+    "oh_869587295c042f63ad928bfc": {
+      "outreach_id": "oh_869587295c042f63ad928bfc",
+      "primary_email": "madelyn.hake@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Madelyn Hake",
+        "title": "Public Relations Manager",
+        "company": "Four Seasons Resort Orlando",
+        "contact_key": "em:madelyn.hake@fourseasons.com"
+      },
+      "intimate_row_hash": "b607c5ffb99fd67ef49fd4c7c0d56c33da421a97",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:30.149283+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_c365b26c51d43892f6ac9d37": {
+      "outreach_id": "oh_c365b26c51d43892f6ac9d37",
+      "primary_email": "m.pratolongo@starhotels.it",
+      "target_url": "https://www.starhotels.com/",
+      "hotel_canonical_url": "https://www.starhotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_starhotels_com__48ae18a2.enriched.json",
+        "full_name": "Marco Pratolongo",
+        "title": "General Manager",
+        "company": "Rosa Grand (Starhotels Collezione)",
+        "contact_key": "em:m.pratolongo@starhotels.it"
+      },
+      "intimate_row_hash": "471c16fb2eded0ba69396a142293a5e930097d84",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_79eb0fa684b0395e005c0c66": {
+      "outreach_id": "oh_79eb0fa684b0395e005c0c66",
+      "primary_email": "maria.ghiringhelli@themayfairhotel.co.uk",
+      "target_url": "https://www.themayfairhotel.co.uk/",
+      "hotel_canonical_url": "https://www.themayfairhotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_themayfairhotel_co_uk__a4cd7585.enriched.json",
+        "full_name": "Maria Dolores Ghiringhelli",
+        "title": "Group Guest Experience Manager",
+        "company": "Edwardian Hotels London",
+        "contact_key": "li:https://uk.linkedin.com/in/ghrmdl"
+      },
+      "intimate_row_hash": "99cdb4d94d909798b6c81909afc75cefa076a37b",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_fbd5aa9ac72a29c05f71bf63": {
+      "outreach_id": "oh_fbd5aa9ac72a29c05f71bf63",
+      "primary_email": "marie.kelly@hotelcaferoyal.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Marie Kelly",
+        "title": "Director of Reservations / Member Liaison & Performance",
+        "company": "The Set Collection",
+        "contact_key": "li:https://uk.linkedin.com/in/marie-kelly-4934a144"
+      },
+      "intimate_row_hash": "b340c7e4448dc8538e7dcc5d99a05d52d9e2a411",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_d07369364748a7ce36048bfb": {
+      "outreach_id": "oh_d07369364748a7ce36048bfb",
+      "primary_email": "presse@leonardo-hotels.com",
+      "target_url": "https://www.leonardo-hotels.com/",
+      "hotel_canonical_url": "https://www.leonardo-hotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_leonardo_hotels_com__e99e3d8b.enriched.json",
+        "full_name": "Marion Schön",
+        "title": "Director Communication & Marketing",
+        "company": "Leonardo Hotels Central Europe",
+        "contact_key": "em:presse@leonardo-hotels.com"
+      },
+      "intimate_row_hash": "973b00fc2ed1d7be4af714053610d32a05e06b5c",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:38.814623+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "f96124ab6b43b760",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Leonardo Hotels + Brand Marketing + Guest Communications",
+        "body": "Hi Marion,\n\nHope you’re well :)\n\nI came across Leonardo Hotels through my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa.\n\nYour role as Director Communication & Marketing, leading PR, brand marketing and guest communications, makes you ideally placed to share valuable perspectives on these areas.\n\nI’d love to ask a few focused questions if you might have 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:49:45.285413+00:00"
+      },
+      "send": null
+    },
+    "oh_641a8315292515fb3416c36c": {
+      "outreach_id": "oh_641a8315292515fb3416c36c",
+      "primary_email": "mathura.premaruban@thesetcollection.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Mathura Premaruban",
+        "title": "Director of P.R. & Partnerships",
+        "company": "The Set Collection",
+        "contact_key": "li:https://www.linkedin.com/in/mathura-premaruban"
+      },
+      "intimate_row_hash": "b438d8b76e3ae95b0c68d2f565129a9bd7692beb",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_395d4db16028b459e877c2a7": {
+      "outreach_id": "oh_395d4db16028b459e877c2a7",
+      "primary_email": "m.marsini@starhotels.com",
+      "target_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/",
+      "hotel_canonical_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_thepelham.enriched.json",
+        "full_name": "Matteo Marsini",
+        "title": "Cluster Marketing Manager (former)",
+        "company": "Starhotels Collezione London",
+        "contact_key": "li:https://uk.linkedin.com/in/matteo-marsini-30787260"
+      },
+      "intimate_row_hash": "e7fa87b5f1c2a52b812ca227a2ec2d25a8a835de",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_1d8c4e7ec7ba995acb55b630": {
+      "outreach_id": "oh_1d8c4e7ec7ba995acb55b630",
+      "primary_email": "matthewcroxford@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Matthew Croxford",
+        "title": "Deputy General Manager",
+        "company": "Beales Hotels",
+        "contact_key": "em:matthewcroxford@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "8f1d7b02baa1638d5ee589bdb99121764d2597cf",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_1c5e125ab3c5d5560fbe1592": {
+      "outreach_id": "oh_1c5e125ab3c5d5560fbe1592",
+      "primary_email": "max.simpkins@apexhotels.co.uk",
+      "target_url": "https://www.apexhotels.co.uk/",
+      "hotel_canonical_url": "https://www.apexhotels.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_apexhotels_co_uk__2ddecc50.enriched.json",
+        "full_name": "Max Simpkins",
+        "title": "Group MICE Sales Director",
+        "company": "Apex Hotels",
+        "contact_key": "li:https://www.linkedin.com/in/max-simpkins-41152a9b"
+      },
+      "intimate_row_hash": "b72777478ed74ce277639e21cb0d13c057fe35ef",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:05.999958+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "0017d828b6509cac",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Apex Hotels + MICE Sales + Reservations Workflow",
+        "body": "Hi Max,\n\nHope you’re well :)\n\nI came across Apex Hotels as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we have chosen to focus on this space.\n\nYour role as Group MICE Sales Director leading group sales, booking automation and guest comms makes you an ideal person to speak with.\n\nI’d love to ask a few focused questions if you might have 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:43:52.087585+00:00"
+      },
+      "send": null
+    },
+    "oh_d67a55aa6bcc4dca4af90eb9": {
+      "outreach_id": "oh_d67a55aa6bcc4dca4af90eb9",
+      "primary_email": "megan.rowe@theadria.com",
+      "target_url": "https://www.theadria.com/",
+      "hotel_canonical_url": "https://www.theadria.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_theadria_com__bda0c5d8.enriched.json",
+        "full_name": "Megan Rowe",
+        "title": "Front Office Duty Manager",
+        "company": "The Adria",
+        "contact_key": "li:https://uk.linkedin.com/in/megan-rowe-903002277"
+      },
+      "intimate_row_hash": "642e22dd961429271041d6f956dc0163fa7faf18",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_a27f7be1a479cc9537b06606": {
+      "outreach_id": "oh_a27f7be1a479cc9537b06606",
+      "primary_email": "melanee.shale@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Melanee Shale",
+        "title": "Director of Digital Marketing",
+        "company": "Four Seasons Hotel Westlake Village",
+        "contact_key": "em:melanee.shale@fourseasons.com"
+      },
+      "intimate_row_hash": "cce16028a005b1168d73fe053b001070fb9d8442",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:33.912920+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "e493f01f570e7620",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Four Seasons Westlake + Digital Marketing + Reservations",
+        "body": "Hi Melanee,\n\nHope you’re well :)\n\nI came across Four Seasons Hotel Westlake Village as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. Cole, my partner, has family active in hotel ownership and operations in South Africa. This has given us a close perspective on the challenges hotels face.\n\nYou seem like a great person to talk to given your role as Director of Digital Marketing, with direct responsibility for booking automation, online revenue channels and the guest digital journey.\n\nI’d love to ask you a few focused questions if you might have 10 minutes sometime within the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T10:24:37.639351+00:00"
+      },
+      "send": null
+    },
+    "oh_8d676bdd9dac52476b974865": {
+      "outreach_id": "oh_8d676bdd9dac52476b974865",
+      "primary_email": "mlederman@lhw.com",
+      "target_url": "https://www.theadria.com/",
+      "hotel_canonical_url": "https://www.theadria.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_theadria_com__bda0c5d8.enriched.json",
+        "full_name": "Michael Lederman",
+        "title": "VP Information Technology",
+        "company": "Leading Hotels of the World",
+        "contact_key": "li:https://www.linkedin.com/in/malederman"
+      },
+      "intimate_row_hash": "0c59c193686266b0dce88765bfcadae55bd2359b",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_c40379d347c61fef40b4a2e3": {
+      "outreach_id": "oh_c40379d347c61fef40b4a2e3",
+      "primary_email": "michal.galili@thesethotels.com",
+      "target_url": "https://www.hotelcaferoyal.com/",
+      "hotel_canonical_url": "https://www.hotelcaferoyal.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_hotelcaferoyal_com__50cf1b03.enriched.json",
+        "full_name": "Michal Galili",
+        "title": "Director of Sales - North America",
+        "company": "The Set Collection",
+        "contact_key": "li:https://www.linkedin.com/in/michal-galili-censor-03663125"
+      },
+      "intimate_row_hash": "1f1a839d85993591f20ca65ddfe3d0b3174ba0c2",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_94f252ab5e640934ffc9e21b": {
+      "outreach_id": "oh_94f252ab5e640934ffc9e21b",
+      "primary_email": "michelle.edwards@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Michelle Edwards",
+        "title": "Senior Director of Public Relations and Marketing Communications",
+        "company": "Four Seasons Hotel San Francisco at Embarcadero",
+        "contact_key": "em:michelle.edwards@fourseasons.com"
+      },
+      "intimate_row_hash": "22b67d3ab704a357ac262c71d65c89bc3ed7ae4c",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:31.101010+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_fad4b7ca89a15ce2597d0e6a": {
+      "outreach_id": "oh_fad4b7ca89a15ce2597d0e6a",
+      "primary_email": "michelle@the22.london",
+      "target_url": "https://www.thetwentytwo.com/london/",
+      "hotel_canonical_url": "https://www.thetwentytwo.com/london",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_thetwentytwo.enriched.json",
+        "full_name": "Michelle Walder",
+        "title": "Former Managing Director",
+        "company": "The Twenty Two",
+        "contact_key": "li:https://www.linkedin.com/in/michellewalder"
+      },
+      "intimate_row_hash": "3bba1191e7085289d6f12e27100cbc44417322fe",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_97a501c97cfd0040b06cfbe8": {
+      "outreach_id": "oh_97a501c97cfd0040b06cfbe8",
+      "primary_email": "molly.katz@leonardo-hotels.com",
+      "target_url": "https://www.leonardo-hotels.com/",
+      "hotel_canonical_url": "https://www.leonardo-hotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_leonardo_hotels_com__e99e3d8b.enriched.json",
+        "full_name": "Molly Katz",
+        "title": "Managing Director / CFO",
+        "company": "Leonardo Hotels Central Europe",
+        "contact_key": "em:molly.katz@leonardo-hotels.com"
+      },
+      "intimate_row_hash": "9a998667ede6f3d81b1397659c2fd9d577c0b28d",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:37.503296+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "a444ade88c5e220a",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Leonardo Hotels + MD/CFO + Revenue-Tech",
+        "body": "Hi Molly,\n\nHope you’re well :)\n\nI came across Leonardo Hotels as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole's family is active in hotel ownership and operations in South Africa, so we've picked this space as we're close to the problem and want to help the industry.\n\nYou seem like a great person to talk to because of your role as Managing Director and CFO influencing budget for revenue-tech, digital systems and commercial ops across the group.\n\nI’d love to ask you a few focused questions if you have around 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:47:55.128925+00:00"
+      },
+      "send": null
+    },
+    "oh_144bc68a0661dfc19a395f4d": {
+      "outreach_id": "oh_144bc68a0661dfc19a395f4d",
+      "primary_email": "namie.m@loregroup.com",
+      "target_url": "https://www.onehundredshoreditch.com/hotel-info/",
+      "hotel_canonical_url": "https://www.onehundredshoreditch.com/hotel-info",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_onehundredshoreditch_com__hotel_info__1ff9494f.enriched.json",
+        "full_name": "Namie Man",
+        "title": "International Sales Director",
+        "company": "Lore Group",
+        "contact_key": "li:https://nl.linkedin.com/in/namie-man-030787"
+      },
+      "intimate_row_hash": "688e71fe670aada1eb2334a91511ad5bb34668c0",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_58e7f09779b73367092cae72": {
+      "outreach_id": "oh_58e7f09779b73367092cae72",
+      "primary_email": "nick.okeeffe@axiomhospitality.com",
+      "target_url": "https://w6hotel.co.uk/",
+      "hotel_canonical_url": "https://w6hotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__w6hotel_co_uk__5dfcde97.enriched.json",
+        "full_name": "Nick O’Keeffe",
+        "title": "Development Director",
+        "company": "Axiom Hospitality",
+        "contact_key": "em:nick.okeeffe@axiomhospitality.com"
+      },
+      "intimate_row_hash": "a19a8f6e5f7e84f4c2d5f91c4147a6e76ed70792",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_206e620a928c1a3036081646": {
+      "outreach_id": "oh_206e620a928c1a3036081646",
+      "primary_email": "odettehowse@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Odette Howse",
+        "title": "Reservations Manager",
+        "company": "Beales Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/odette-howse-327394144"
+      },
+      "intimate_row_hash": "a8492712251662dd444272d2501657f01e32348c",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_aede07c9fd793cee2d61cb56": {
+      "outreach_id": "oh_aede07c9fd793cee2d61cb56",
+      "primary_email": "ottavia.palomba@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Ottavia Palomba",
+        "title": "Global Head of Brand Communications",
+        "company": "Belmond",
+        "contact_key": "em:ottavia.palomba@belmond.com"
+      },
+      "intimate_row_hash": "3ac5103deca315ed0b308ec8be3b8bc933811ee7",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_36094b4b2905fba03712d319": {
+      "outreach_id": "oh_36094b4b2905fba03712d319",
+      "primary_email": "pmccolgan@thegoring.com",
+      "target_url": "https://www.thegoring.com/",
+      "hotel_canonical_url": "https://www.thegoring.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_thegoring_com__89b90276.enriched.json",
+        "full_name": "Paula McColgan",
+        "title": "Director of Sales and Marketing",
+        "company": "The Goring",
+        "contact_key": "li:https://uk.linkedin.com/in/paula-mccolgan-3542111b"
+      },
+      "intimate_row_hash": "b3ec39db54a603f4d223740beb17ad498047ba98",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_c57f7f701a0bf38834b48f19": {
+      "outreach_id": "oh_c57f7f701a0bf38834b48f19",
+      "primary_email": "london@lhw.com",
+      "target_url": "https://www.theadria.com/",
+      "hotel_canonical_url": "https://www.theadria.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_theadria_com__bda0c5d8.enriched.json",
+        "full_name": "Phil Koserowski",
+        "title": "SVP & Chief Marketing Officer",
+        "company": "Leading Hotels of the World",
+        "contact_key": "li:https://www.linkedin.com/in/philkoserowski"
+      },
+      "intimate_row_hash": "1b09b56d7eecdca6e5f1cc1f5d0abb55bd674975",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_d07ab89f0388fbaebad7f661": {
+      "outreach_id": "oh_d07ab89f0388fbaebad7f661",
+      "primary_email": "pahuja@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Pranav Ahuja",
+        "title": "Hotel Manager",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:pahuja@milestonehotel.com"
+      },
+      "intimate_row_hash": "90ad70c42626147c682b89fb43ca03b9ebcb81e4",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_e02fc0b9d0b989f6ef85ad46": {
+      "outreach_id": "oh_e02fc0b9d0b989f6ef85ad46",
+      "primary_email": "richard.adler@millenniumhotels.co.uk",
+      "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+      "hotel_canonical_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_millenniumhotels_com__en_london_millennium_gloucester_hotel_london_kensi__53dccf74.enriched.json",
+        "full_name": "Richard Adler",
+        "title": "VP Sales, UK & EU",
+        "company": "Millennium Hotels and Resorts",
+        "contact_key": "li:https://www.linkedin.com/in/richard-adler-39ba721"
+      },
+      "intimate_row_hash": "f39d875c0a88390e831c71d977bf77054f801362",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:45.997781+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "84e2b1fa59e11e89",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Millennium Hotels + VP Sales + UK & EU",
+        "body": "Hi Richard,\n\nHope you’re well :)\n\nI came across Millennium Hotels and Resorts as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner, Cole, has family active in hotel ownership and operations in South Africa, giving us a grounded perspective on the challenges.\n\nYour VP Sales leadership across UK & EU, shaping sales strategy, distribution, partnerships and tech for booking and guest comms, makes you a great person to speak with on this.\n\nI’d love to ask a few focused questions if you might have 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:51:05.310820+00:00"
+      },
+      "send": null
+    },
+    "oh_4d7d0ad28e78918b79bf57f3": {
+      "outreach_id": "oh_4d7d0ad28e78918b79bf57f3",
+      "primary_email": "robert.chinman@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Robert Chinman",
+        "title": "Commercial Director",
+        "company": "Four Seasons Resort and Residences Jackson Hole",
+        "contact_key": "li:https://www.linkedin.com/in/robchinman"
+      },
+      "intimate_row_hash": "be32f877f8961a216d0ba19ac326035e3e5ade1b",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:18.311946+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "970e2010710dc530",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Four Seasons Jackson Hole + Commercial Director + Revenue Strategy",
+        "body": "Hi Robert,\n\nHope you’re well :)\n\nI came across Four Seasons Jackson Hole as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we have picked this space as we are close to the problem.\n\nYou seem like a great person to talk to given your leadership of sales and marketing at the property together with your influence on revenue strategy, distribution and digital guest acquisition.\n\nI’d love to ask you a few focused questions if you might have 10 minutes sometime in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:39:12.395013+00:00"
+      },
+      "send": null
+    },
+    "oh_cb3d847757fda2f9a98d0a19": {
+      "outreach_id": "oh_cb3d847757fda2f9a98d0a19",
+      "primary_email": "robert.holland@hotelpartner.com",
+      "target_url": "https://www.theadria.com/",
+      "hotel_canonical_url": "https://www.theadria.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_theadria_com__bda0c5d8.enriched.json",
+        "full_name": "Robert Holland",
+        "title": "Managing Director UK & Ireland",
+        "company": "HotelPartner Revenue Management",
+        "contact_key": "em:robert.holland@hotelpartner.com"
+      },
+      "intimate_row_hash": "bf5bdc09172d0fd1b61856fc6ed2d26e4c4ed645",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_d79ceec540f64a072ba4390a": {
+      "outreach_id": "oh_d79ceec540f64a072ba4390a",
+      "primary_email": "stay@the22.london",
+      "target_url": "https://www.thetwentytwo.com/london/",
+      "hotel_canonical_url": "https://www.thetwentytwo.com/london",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_thetwentytwo.enriched.json",
+        "full_name": "Roberta Priore",
+        "title": "Reception Manager",
+        "company": "The Twenty Two London",
+        "contact_key": "li:https://www.linkedin.com/in/roberta-priore-05523b103"
+      },
+      "intimate_row_hash": "7c4682bb256465175845c6deffe9199a817b82ac",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_74b2775ff31bed87ab0d98ca": {
+      "outreach_id": "oh_74b2775ff31bed87ab0d98ca",
+      "primary_email": "mayfairsales@edwardian.com",
+      "target_url": "https://www.themayfairhotel.co.uk/",
+      "hotel_canonical_url": "https://www.themayfairhotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_themayfair.enriched.json",
+        "full_name": "Shazia Fleming",
+        "title": "Director of Sales & Marketing",
+        "company": "The May Fair Hotel (Edwardian Hotels London)",
+        "contact_key": "li:https://www.linkedin.com/in/shazia-fleming-26a4ba10"
+      },
+      "intimate_row_hash": "fccada7bfea780ef57dfeed7b0eb0daf1d2d5ba8",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_fc9fc92883d079c73f1734ef": {
+      "outreach_id": "oh_fc9fc92883d079c73f1734ef",
+      "primary_email": "sabrina.panizza@belmond.com",
+      "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+      "hotel_canonical_url": "https://thecadoganhotel.hotelinlondon.net/en",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__thecadoganhotel_hotelinlondon_net__en__2450c107.enriched.json",
+        "full_name": "Sabrina Panizza",
+        "title": "Communications / PR Manager",
+        "company": "Belmond",
+        "contact_key": "li:https://www.linkedin.com/in/sabrina-panizza-bb876748"
+      },
+      "intimate_row_hash": "d72c2a319626d8bb2ae03ba734eafa4215bd9a48",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_d4906ceca4da751ebbebe356": {
+      "outreach_id": "oh_d4906ceca4da751ebbebe356",
+      "primary_email": "samantha@11cadogangardens.com",
+      "target_url": "https://www.11cadogangardens.co.uk/",
+      "hotel_canonical_url": "https://www.11cadogangardens.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_cadogangardens.enriched.json",
+        "full_name": "Samantha Rieu",
+        "title": "General Manager",
+        "company": "11 Cadogan Gardens",
+        "contact_key": "li:https://uk.linkedin.com/in/samantha-rieu-fih-is-56665212"
+      },
+      "intimate_row_hash": "e8e5bb86729b3631b8078c36fa6b83f5a885c65b",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_7edadc31ec5f5226b00c06cf": {
+      "outreach_id": "oh_7edadc31ec5f5226b00c06cf",
+      "primary_email": "sbristow@rchmail.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Sarah Bristow",
+        "title": "Head of UK Reservations",
+        "company": "Red Carnation Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/sarah-bristow-15a05064"
+      },
+      "intimate_row_hash": "f54756113c9d5b762602417d3dd71505f7b4dbd8",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:48.470504+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "e3f51721d31bb248",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "UK Reservations + Red Carnation + Chesterfield Mayfair",
+        "body": "Hi Sarah,\n\nHope you’re well :)\n\nI encountered Chesterfield Mayfair through my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. Cole, my partner, has family active in hotel ownership and operations in South Africa. This has made the area especially relevant for us as we look to support the industry.\n\nAs Head of UK Reservations leading the team across the Red Carnation Hotels collection with direct influence on booking processes and automation, you seem like an ideal person to speak with.\n\nI’d love to ask a few focused questions if you might have about 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:42:56.669650+00:00"
+      },
+      "send": null
+    },
+    "oh_a9cd4e77f99ca1303ae6f066": {
+      "outreach_id": "oh_a9cd4e77f99ca1303ae6f066",
+      "primary_email": "sbristow@rchmail.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Sarah Bristow",
+        "title": "Head of UK Reservations",
+        "company": "Red Carnation Hotels",
+        "contact_key": "em:sbristow@rchmail.com"
+      },
+      "intimate_row_hash": "f796e6b15136831a00f792fd03dc2a5a20aeaac6",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_31ade639b5285a1964297b6b": {
+      "outreach_id": "oh_31ade639b5285a1964297b6b",
+      "primary_email": "sglanville@rchmail.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Sarah Glanville",
+        "title": "Director of Revenue",
+        "company": "Red Carnation Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/sarah-glanville-076102110"
+      },
+      "intimate_row_hash": "ff9f970dde91a4faf84fdf562158778f9b1a38b0",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:42.250523+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "dd1b06e27031aa71",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Revenue Director + Red Carnation + Chesterfield",
+        "body": "Hi Sarah,\n\nHope you’re well :)\n\nI came across Chesterfield Mayfair as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole's family is active in hotel ownership and operations in South Africa, so we've picked this space as we're close to the problem and want to help the industry.\n\nYou seem like a great person to talk to because of your role as Director of Revenue for Red Carnation Hotels overseeing revenue management systems, RMS data and centralised commercial strategy.\n\nI’d love to ask you a few focused questions if you might have 10 minutes sometime within the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:24:37.736143+00:00"
+      },
+      "send": null
+    },
+    "oh_740a582da84ea21a750f5a09": {
+      "outreach_id": "oh_740a582da84ea21a750f5a09",
+      "primary_email": "prsm@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Sarah Tuite",
+        "title": "Senior Vice President, Corporate Communications and Public Relations",
+        "company": "Four Seasons Hotels and Resorts",
+        "contact_key": "em:prsm@fourseasons.com"
+      },
+      "intimate_row_hash": "35cca9a27f65a306e90bcc02701979893f2bb4df",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:26.142301+00:00",
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_876749cdd15c73bdacee17e2": {
+      "outreach_id": "oh_876749cdd15c73bdacee17e2",
+      "primary_email": "sebastian.annandale@theadria.com",
+      "target_url": "https://www.theadria.com/",
+      "hotel_canonical_url": "https://www.theadria.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_theadria_com__bda0c5d8.enriched.json",
+        "full_name": "Sebastian Annandale",
+        "title": "Guest Services / Front Office Manager",
+        "company": "The Adria",
+        "contact_key": "em:sebastian.annandale@theadria.com"
+      },
+      "intimate_row_hash": "8be37c82549094239151a0222b31adb11c9319d9",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_c520714ce0c7edd7fec72465": {
+      "outreach_id": "oh_c520714ce0c7edd7fec72465",
+      "primary_email": "sali@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Serdal Hassan",
+        "title": "Chief Engineer",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:sali@milestonehotel.com"
+      },
+      "intimate_row_hash": "ff71940dc98e6bb8fc21de5c6915528a05454f79",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_baa15a02050f16b0b92375e2": {
+      "outreach_id": "oh_baa15a02050f16b0b92375e2",
+      "primary_email": "bellsupervisor@bealeshotels.co.uk",
+      "target_url": "https://www.westlodgepark.co.uk/",
+      "hotel_canonical_url": "https://www.westlodgepark.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_westlodgepark_co_uk__37591494.enriched.json",
+        "full_name": "Sharon Nobinger",
+        "title": "Assistant Manager",
+        "company": "Beales Hotels",
+        "contact_key": "em:bellsupervisor@bealeshotels.co.uk"
+      },
+      "intimate_row_hash": "c500008fb25938061f19567b18307e8eff2671c3",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_c79dea539a93e48997a58f28": {
+      "outreach_id": "oh_c79dea539a93e48997a58f28",
+      "primary_email": "silvia@the-so.com",
+      "target_url": "https://w6hotel.co.uk/",
+      "hotel_canonical_url": "https://w6hotel.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__w6hotel_co_uk__5dfcde97.enriched.json",
+        "full_name": "Silvia G",
+        "title": "Guest Relations Manager",
+        "company": "W6 Hotel / The SO Group",
+        "contact_key": "em:silvia@the-so.com"
+      },
+      "intimate_row_hash": "5ff2cead894ad06b19cd683cdca9f05e551c063e",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_194b3aa92994a9bbcbca0b45": {
+      "outreach_id": "oh_194b3aa92994a9bbcbca0b45",
+      "primary_email": "spagett@rchmail.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Suzie Pagett",
+        "title": "Sales Executive",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:spagett@rchmail.com"
+      },
+      "intimate_row_hash": "7f243708651455624088f1fbada8e3275c7f758e",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_7607b554fe0fa5afb2d5b037": {
+      "outreach_id": "oh_7607b554fe0fa5afb2d5b037",
+      "primary_email": "swotton@rchmail.com",
+      "target_url": "https://chesterfieldmayfair.com/",
+      "hotel_canonical_url": "https://chesterfieldmayfair.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+        "full_name": "Suzie Thompson",
+        "title": "Vice President Commercial",
+        "company": "Red Carnation Hotels",
+        "contact_key": "li:https://uk.linkedin.com/in/suziethompson-redcarnationhotels"
+      },
+      "intimate_row_hash": "e8bc684e8b8f50be47ec3a3e91f9be74c8e9c6b6",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:47.364678+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "17e67b285c980146",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Red Carnation + Revenue Management + Reservations",
+        "body": "Hi Suzie,\n\nHope you’re well :)\n\nI came across Red Carnation Hotels through my Imperial-linked research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. Cole is my partner and his family is active in hotel ownership and operations in South Africa. This has drawn us to the space as we are close to the operational realities.\n\nYour scope as Vice President Commercial, leading sales, marketing, revenue management, reservations and distribution across the collection, makes you an ideal person to speak with on these topics.\n\nI’d love to ask a few focused questions if you might have around 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:41:03.176728+00:00"
+      },
+      "send": null
+    },
+    "oh_bf81581eb9acd7a5efdc2641": {
+      "outreach_id": "oh_bf81581eb9acd7a5efdc2641",
+      "primary_email": "tatiana@11cadogangardens.com",
+      "target_url": "https://www.11cadogangardens.co.uk/",
+      "hotel_canonical_url": "https://www.11cadogangardens.co.uk",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads_cadogangardens.enriched.json",
+        "full_name": "Tatiana Stacke",
+        "title": "Director of Sales and Marketing",
+        "company": "11 Cadogan Gardens",
+        "contact_key": "li:https://www.linkedin.com/in/tatiana-stacke-10336344"
+      },
+      "intimate_row_hash": "c00e5fd2fff3cb5344a705b1560f371ad2cdd748",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_778e8fd1f56e64b99e4bbc1d": {
+      "outreach_id": "oh_778e8fd1f56e64b99e4bbc1d",
+      "primary_email": "thomaswhite@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Thomas White",
+        "title": "Food & Beverage Manager",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:thomaswhite@milestonehotel.com"
+      },
+      "intimate_row_hash": "9b47bdcb9cc03cdac8cd07585ecb7cab07ff0317",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_53a284cada2d95cd52958265": {
+      "outreach_id": "oh_53a284cada2d95cd52958265",
+      "primary_email": "tivanova@milestonehotel.com",
+      "target_url": "https://milestonehotel.com/events/weddings",
+      "hotel_canonical_url": "https://milestonehotel.com/events/weddings",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__milestonehotel_com__events_weddings__3976dd38.enriched.json",
+        "full_name": "Tzveta Ivanova",
+        "title": "Senior Executive Manager, Housekeeping",
+        "company": "The Milestone Hotel & Residences",
+        "contact_key": "em:tivanova@milestonehotel.com"
+      },
+      "intimate_row_hash": "597f686114cd24a975c962bdfe17b7d442903b6f",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "pending",
+        "decided_at_utc": null,
+        "note": null
+      },
+      "generation": null,
+      "send": null
+    },
+    "oh_3b5d6132f6b2f93497c7ec9b": {
+      "outreach_id": "oh_3b5d6132f6b2f93497c7ec9b",
+      "primary_email": "xavier.bon@fourseasons.com",
+      "target_url": "https://www.fourseasons.com/",
+      "hotel_canonical_url": "https://www.fourseasons.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_fourseasons_com__fdf51441.enriched.json",
+        "full_name": "Xavier Bon",
+        "title": "Director of Sales and Marketing",
+        "company": "Four Seasons Hotel San Francisco at Embarcadero",
+        "contact_key": "li:https://www.linkedin.com/in/xavierbon1"
+      },
+      "intimate_row_hash": "4c50b4f712900b9d1b083f800579b4e1b3a8cda5",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:12.897696+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "0529d07fac54dbfa",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Four Seasons Embarcadero + Sales & Marketing + Digital Channels",
+        "body": "Hi Xavier,\n\nHope you’re well :)\n\nI came across Four Seasons Embarcadero through my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we have a close perspective on the challenges the industry faces. Given your role as Director of Sales and Marketing, where you influence commercial strategy, digital channels and guest acquisition at this key property, you seem like an ideal person to speak with.\n\nI’d love to ask you a few focused questions if you might have about 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:26:16.003517+00:00"
+      },
+      "send": null
+    },
+    "oh_943240342ee12c6b4f134169": {
+      "outreach_id": "oh_943240342ee12c6b4f134169",
+      "primary_email": "y.biton@leonardo-hotels.com",
+      "target_url": "https://www.leonardo-hotels.com/",
+      "hotel_canonical_url": "https://www.leonardo-hotels.com",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_leonardo_hotels_com__e99e3d8b.enriched.json",
+        "full_name": "Yoram Biton",
+        "title": "Managing Director Central Europe",
+        "company": "Leonardo Hotels Central Europe",
+        "contact_key": "li:https://de.linkedin.com/in/yoram-biton-68950412"
+      },
+      "intimate_row_hash": "74b1e934e2e2796006094f7263a5ba59cfbb790e",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-22T21:31:36.476691+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_bcc6088e-f970-4816-91c6-5c47bccdd322",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "8781961dc8fdc22d",
+        "requested_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "completed_at_utc": "2026-04-22T21:37:46.694844+00:00",
+        "subject": "Leonardo Hotels + Central Europe + Digital Transformation",
+        "body": "Hi Yoram,\n\nHope you’re well :)\n\nI came across Leonardo Hotels as part of my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa.\n\nWith your role overseeing commercial strategy, revenue, digital transformation and tech adoption for the Central Europe portfolio, you seem like the ideal person to speak with about these areas.\n\nI’d love to ask a few focused questions if you might have about 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-22T21:46:59.416156+00:00"
+      },
+      "send": null
+    },
+    "oh_e031cc8a276857d8838dc1e5": {
+      "outreach_id": "oh_e031cc8a276857d8838dc1e5",
+      "primary_email": "galaxy.toh@millenniumhotels.com",
+      "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+      "hotel_canonical_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_millenniumhotels_com__en_london_millennium_gloucester_hotel_london_kensi__53dccf74.enriched.json",
+        "full_name": "Galaxy Toh",
+        "title": "Global Communications (Social Media & PR)",
+        "company": "Millennium Hotels and Resorts",
+        "contact_key": "em:galaxy.toh@millenniumhotels.com"
+      },
+      "intimate_row_hash": "3bcef3aa604e36adb4fa5b51eb96035adb25e147",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:07:00.912651+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "267382a1628ce20f",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Millennium Hotels + Global Communications + PR",
+        "body": "Hi Galaxy,\n\nHope you’re well :)\n\nI came across Millennium Hotels and Resorts through my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole's family is active in hotel ownership or operations in South Africa.\n\nYour leadership in Global Communications (Social Media & PR) makes you well placed to share insights on brand messaging and guest-facing comms that connect to these workflows.\n\nI’d love to ask a few focused questions if you might have around 10 minutes in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T10:27:24.422448+00:00"
+      },
+      "send": null
+    },
+    "oh_905965ccb81e1c15da6f0d6c": {
+      "outreach_id": "oh_905965ccb81e1c15da6f0d6c",
+      "primary_email": "germaine.yap@millenniumhotels.com",
+      "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+      "hotel_canonical_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_millenniumhotels_com__en_london_millennium_gloucester_hotel_london_kensi__53dccf74.enriched.json",
+        "full_name": "Germaine Yap",
+        "title": "Global Brand Governance, Brand Standards & Audits",
+        "company": "Millennium Hotels and Resorts",
+        "contact_key": "em:germaine.yap@millenniumhotels.com"
+      },
+      "intimate_row_hash": "77dd77df302fc3e61c3d6b77f1c2a04a8d760bb5",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:59.437491+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "932771d9b0f20639",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Millennium Hotels + Brand Standards + Audits",
+        "body": "Hi Germaine,\n\nHope you’re well :)\n\nI came across Millennium Gloucester Hotel through my research at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole's family is active in hotel ownership and operations in South Africa.\n\nYour global role in brand governance, standards and audits at Millennium Hotels and Resorts makes you especially well placed to share how group digital and guest-facing assets are adopted consistently.\n\nI’d value 10 minutes of your time in the coming week for a few focused questions.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:44:30.325712+00:00"
+      },
+      "send": null
+    },
+    "oh_448254d504c2c4b142ddd275": {
+      "outreach_id": "oh_448254d504c2c4b142ddd275",
+      "primary_email": "jocelyn.ferrer@millenniumhotels.com",
+      "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+      "hotel_canonical_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_millenniumhotels_com__en_london_millennium_gloucester_hotel_london_kensi__53dccf74.enriched.json",
+        "full_name": "Jocelyn Ferrer",
+        "title": "Global Loyalty, Partnerships & F&B Loyalty",
+        "company": "Millennium Hotels and Resorts",
+        "contact_key": "em:jocelyn.ferrer@millenniumhotels.com"
+      },
+      "intimate_row_hash": "5f52f060575a76e71842798ad18dd81e0ced4a14",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:58.294691+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "129c3ca0ec94fb32",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Global Loyalty + Partnerships + Millennium Hotels",
+        "body": "Hi Jocelyn,\n\nHope you’re well :)\n\nI came across Millennium Hotels and Resorts as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we have developed a close interest in the sector.\n\nYou seem like a great person to talk to given your global role in loyalty, partnerships and F&B loyalty, shaping guest programmes, partner integrations and commercial relationships.\n\nI’d love to ask a few focused questions if you might have 10 minutes sometime in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:37:44.689799+00:00"
+      },
+      "send": null
+    },
+    "oh_0437203de6991cb58a56d4fe": {
+      "outreach_id": "oh_0437203de6991cb58a56d4fe",
+      "primary_email": "june.moe@millenniumhotels.com",
+      "target_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington/",
+      "hotel_canonical_url": "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington",
+      "intimate_snapshot": {
+        "source_enriched_json": "hotel_leads__www_millenniumhotels_com__en_london_millennium_gloucester_hotel_london_kensi__53dccf74.enriched.json",
+        "full_name": "June Moe",
+        "title": "Global Branding & Visual",
+        "company": "Millennium Hotels and Resorts",
+        "contact_key": "em:june.moe@millenniumhotels.com"
+      },
+      "intimate_row_hash": "e07b6b549b4b61b66d76618f7f6645d6e584c1be",
+      "intimate_doc_generated_at_utc": "2026-04-22T21:50:47.876063+00:00",
+      "triage": {
+        "status": "approved_generate",
+        "decided_at_utc": "2026-04-24T09:06:55.884644+00:00",
+        "note": null
+      },
+      "generation": {
+        "provider": "xai",
+        "model": "grok-4.20-reasoning",
+        "batch_job_id": "batch_4e00b282-e95c-49ab-baba-fdd8d44e0867",
+        "system_prompt_id": "cold_email_system_ansh_v1",
+        "user_prompt_hash": "4712e54a29d416e7",
+        "requested_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "completed_at_utc": "2026-04-24T09:14:26.088309+00:00",
+        "subject": "Global Branding + Visual Identity + Millennium Hotels",
+        "body": "Hi June,\n\nHope you’re well :)\n\nI came across Millennium Hotels and Resorts as part of some research I’m doing at Imperial College London into hospitality operations, particularly around inbound guest email and reservations workflow. My partner Cole’s family is active in hotel ownership and operations in South Africa, so we’ve picked this space as we’re close to the problem and want to help the industry.\n\nYou seem like a great person to talk to because of your Global Branding & Visual role, which influences the marketing stack, creative ops, and how properties present digitally.\n\nI’d love to ask a few focused questions if you might have 10 minutes sometime in the coming week.\n\nBest,\nAnsh Arora",
+        "error": null,
+        "review_marked_done_at_utc": "2026-04-24T09:24:31.658594+00:00"
+      },
+      "send": null
+    }
+  },
+  "indexes": {
+    "by_hotel": {
+      "https://www.hotelcaferoyal.com": [
+        "oh_24d7f8575deefdac95488903",
+        "oh_2f566dd800a9ae6ebab5e67d",
+        "oh_34cb5726e3eecb9df18b2938",
+        "oh_39590259f79b7d5273c34af3",
+        "oh_641a8315292515fb3416c36c",
+        "oh_9e49e4e0f0fdb71aebe6ed76",
+        "oh_a583ee1d6dab5717767d3512",
+        "oh_bd4b287331fd815d7e48908b",
+        "oh_c40379d347c61fef40b4a2e3",
+        "oh_e3e5e8a11f87c314107be9d7",
+        "oh_fbd5aa9ac72a29c05f71bf63"
+      ],
+      "https://chesterfieldmayfair.com": [
+        "oh_1e842d7f2efb97c0ba05aa77",
+        "oh_31ade639b5285a1964297b6b",
+        "oh_3574863ff65b0aaf45f3a6e8",
+        "oh_47c528e5e8bfa504dc817e84",
+        "oh_4e4a649a536a39b18fe3621d",
+        "oh_50f1584e30917257688c6a6e",
+        "oh_587f781f696eab89b3c96a3c",
+        "oh_7607b554fe0fa5afb2d5b037",
+        "oh_7edadc31ec5f5226b00c06cf",
+        "oh_87935cce987bcc72f945b71f",
+        "oh_8e525e9e36ff57d8fdfc1958",
+        "oh_8eec74b3edb17e99bd9cba22",
+        "oh_aa0d20c0c1367d3caafb776e",
+        "oh_aef0052ed18f9767dbb31b1f",
+        "oh_bd09b318292b81e045b3133d",
+        "oh_e6da9c6741d0d8c5f0eb6d94"
+      ],
+      "https://www.thegoring.com": [
+        "oh_36094b4b2905fba03712d319",
+        "oh_b62e867956df5e6f5497dc86",
+        "oh_b8c1fc0ead6952c3fc064223",
+        "oh_d2b9f521b242a30d8cb04a08",
+        "oh_e7c522546546916ccca9e295"
+      ],
+      "https://thecadoganhotel.hotelinlondon.net/en": [
+        "oh_164805535b131dd6a3909451",
+        "oh_1b0d2e9fbbd7e4e07126fa9a",
+        "oh_7f79b9759ff6b485c07dd608",
+        "oh_83ca0b9df521819628c4b3c8",
+        "oh_8bddab1360dc35f74b531034",
+        "oh_aede07c9fd793cee2d61cb56",
+        "oh_ba787474f03c7b7468c0c9a2",
+        "oh_da25cf963bc7c64b85dfba72",
+        "oh_dc694e817a1b9ab2f07ad7fc",
+        "oh_dc8e62766651d6b75d78815d",
+        "oh_fc9fc92883d079c73f1734ef"
+      ],
+      "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington": [
+        "oh_0437203de6991cb58a56d4fe",
+        "oh_40036849f0d0539d6a07ebcf",
+        "oh_448254d504c2c4b142ddd275",
+        "oh_8891feb1457eef67ab0ce317",
+        "oh_905965ccb81e1c15da6f0d6c",
+        "oh_e02fc0b9d0b989f6ef85ad46",
+        "oh_e031cc8a276857d8838dc1e5",
+        "oh_f7117980a71719fea01e0854"
+      ],
+      "https://www.fourseasons.com": [
+        "oh_3b5d6132f6b2f93497c7ec9b",
+        "oh_44bb49eecc74d4462e6acecf",
+        "oh_4d7d0ad28e78918b79bf57f3",
+        "oh_4e3de2e4dbbd6761e9c67308",
+        "oh_5d911d2d6f87c96f37742756",
+        "oh_740a582da84ea21a750f5a09",
+        "oh_8288a4bc0b5bac08051436b2",
+        "oh_869587295c042f63ad928bfc",
+        "oh_94f252ab5e640934ffc9e21b",
+        "oh_9c119266d050a3d6a7c8d0d7",
+        "oh_a27f7be1a479cc9537b06606",
+        "oh_b40d6d47b070cbc2115ddd7f",
+        "oh_c7d4d7b05bba9d9344f7d552"
+      ],
+      "https://www.westlodgepark.co.uk": [
+        "oh_0ef09b789ddf1cf94748392c",
+        "oh_1d8c4e7ec7ba995acb55b630",
+        "oh_206e620a928c1a3036081646",
+        "oh_36fc633df74e4fae49eb6c33",
+        "oh_4b8a58fbf3e74ecb549ab0b8",
+        "oh_59246ba4fb4d43094c08465c",
+        "oh_7a18a649e12bcac1486cfa0a",
+        "oh_808cf9ebb5ea164d52225658",
+        "oh_a077043e5d33ac0ed2f56617",
+        "oh_aa0e8f6a2a02683bcf9281a3",
+        "oh_aad59b97539082ca990bcc2d",
+        "oh_baa15a02050f16b0b92375e2",
+        "oh_bf178b136cd42b9948c99b44"
+      ],
+      "https://milestonehotel.com/events/weddings": [
+        "oh_00556a3a3918924ef62d70c4",
+        "oh_194b3aa92994a9bbcbca0b45",
+        "oh_280eeea83f7134e705148afb",
+        "oh_53a284cada2d95cd52958265",
+        "oh_76fae861cdc18738054aa543",
+        "oh_778e8fd1f56e64b99e4bbc1d",
+        "oh_a9cd4e77f99ca1303ae6f066",
+        "oh_ab23aaf14e21b9a6b74845af",
+        "oh_c520714ce0c7edd7fec72465",
+        "oh_d07ab89f0388fbaebad7f661",
+        "oh_d625116c367e5012adcfb54e",
+        "oh_da2479a900dabc142a25e6d1"
+      ],
+      "https://www.11cadogangardens.co.uk": [
+        "oh_3af2b1ac5c00b1321c25cff5",
+        "oh_80b839307716b75f27a212fc",
+        "oh_bf81581eb9acd7a5efdc2641",
+        "oh_d4906ceca4da751ebbebe356"
+      ],
+      "https://www.apexhotels.co.uk": [
+        "oh_1c5e125ab3c5d5560fbe1592",
+        "oh_480886baec055e632649c405",
+        "oh_61ab72a0620720ccf0007d58",
+        "oh_de194ae6b808178d9287bbd8"
+      ],
+      "https://www.themayfairhotel.co.uk": [
+        "oh_02a1d9eda29760d4b15ad180",
+        "oh_21d2b4f7122cf7ac2db77035",
+        "oh_2af2d7261c4c434cb4e9e639",
+        "oh_3ae90ef370cfa3786fce5b84",
+        "oh_547a7b186ce54a31289a0e3c",
+        "oh_74b2775ff31bed87ab0d98ca",
+        "oh_79eb0fa684b0395e005c0c66",
+        "oh_947de5c8f4be7c064c8a7a94"
+      ],
+      "https://www.leonardo-hotels.com": [
+        "oh_943240342ee12c6b4f134169",
+        "oh_97a501c97cfd0040b06cfbe8",
+        "oh_a3802b89281c6740f4460bd4",
+        "oh_d07369364748a7ce36048bfb"
+      ],
+      "https://www.onehundredshoreditch.com/hotel-info": [
+        "oh_144bc68a0661dfc19a395f4d",
+        "oh_1aab11e1d416424b3e9f8801",
+        "oh_41854b102656e7de6423210b",
+        "oh_79fa290a529dfe6c56733773",
+        "oh_8379a8a82f2d0b1ab37e331e",
+        "oh_9263ea2b9ba8d1c054aa1c06"
+      ],
+      "https://www.theadria.com": [
+        "oh_54f78e7b8c61896c667ac1d7",
+        "oh_876749cdd15c73bdacee17e2",
+        "oh_8d676bdd9dac52476b974865",
+        "oh_971d97a4c5fe3103a7434ddd",
+        "oh_c57f7f701a0bf38834b48f19",
+        "oh_cb3d847757fda2f9a98d0a19",
+        "oh_d67a55aa6bcc4dca4af90eb9",
+        "oh_eb0319f6d85641793e97106b"
+      ],
+      "https://www.seacontainerslondon.com": [
+        "oh_53e318dd8c23efa565ed0a11",
+        "oh_bf4d997b2b2d8732cfee7e0d"
+      ],
+      "https://www.starhotels.com": [
+        "oh_6fcae32f64b57bfd093345e6",
+        "oh_755cd2ec1bc077c5799de4c8",
+        "oh_9bebf5554f8557829fdd1b63",
+        "oh_a20c8dc160e69609c5862f2e",
+        "oh_b81a691fa44389083c6f97e0",
+        "oh_c365b26c51d43892f6ac9d37",
+        "oh_e62043d9b3b8aded6e85663c"
+      ],
+      "https://www.thistle.com": [
+        "oh_28504f61fa1d0c99c944073c"
+      ],
+      "https://www.thetwentytwo.com/london": [
+        "oh_2f348341380d6bb88f512542",
+        "oh_d79ceec540f64a072ba4390a",
+        "oh_fad4b7ca89a15ce2597d0e6a"
+      ],
+      "https://w6hotel.co.uk": [
+        "oh_40c705dd2eeced73174f6e7f",
+        "oh_58e7f09779b73367092cae72",
+        "oh_c79dea539a93e48997a58f28"
+      ],
+      "https://collezione.starhotels.com/en/our-hotels/the-pelham-london": [
+        "oh_395d4db16028b459e877c2a7"
+      ]
+    }
+  }
+}

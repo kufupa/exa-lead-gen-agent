@@ -1,0 +1,613 @@
+{
+  "target_url": "https://www.theadria.com/",
+  "generated_at_utc": "2026-04-21T15:53:47.426782+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6293,
+    "prompt_tokens": 499877,
+    "total_tokens": 530117,
+    "prompt_text_tokens": 499877,
+    "reasoning_tokens": 23947,
+    "cached_prompt_text_tokens": 327985,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Dominik Feller",
+      "title": "General Manager",
+      "company": "The Adria",
+      "linkedin_url": "https://uk.linkedin.com/in/dominik-feller-mih-4718b440",
+      "email": "dominik.feller@theadria.com",
+      "email2": null,
+      "phone": "+44 20 7118 8988",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel line reaches GM office; stay@theadria.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees all property operations, revenue strategy, tech adoption (explicitly quoted on dynamic pricing, booking engines, Opera integration and revenue performance with HotelPartner), guest experience and commercial decisions.",
+      "contact_evidence_summary": "Direct business email and phone publicly quoted in GM responses on Tripadvisor and news; multiple articles on appointment and revenue tech partnership; active LinkedIn and Instagram profiles tied to role.",
+      "evidence": [
+        {
+          "source_url": "https://hotelpartner.com/blog/adria-london-revenue-management-case-study/",
+          "source_type": "news",
+          "quote_or_fact": "Dominik Feller, The Adria’s GM, said: “We were not too happy with how we were trading after we reopened and wanted something to bring us into the current day and age with technology, dynamic pricing and the more up-to-date approaches to revenue management.”"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/dominik-feller-the-adria-hotel-london/",
+          "source_type": "news",
+          "quote_or_fact": "Dominik Feller has been appointed to the role of general manager at The Adria... began his career in hospitality at a boutique family hotel in Germany."
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d3344364-r987965623-The_Adria-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "GM response provides dominik.feller@theadria.com for direct contact"
+        }
+      ]
+    },
+    {
+      "full_name": "Robert Holland",
+      "title": "Managing Director UK & Ireland",
+      "company": "HotelPartner Revenue Management",
+      "linkedin_url": null,
+      "email": "robert.holland@hotelpartner.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Oversees all UK revenue management partnerships including The Adria account",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads the external revenue management firm directly supporting The Adria with pricing tech, distribution channels, booking automation and performance analytics.",
+      "contact_evidence_summary": "Publicly named in The Adria revenue case study; email confirmed via professional directories and LinkedIn snippets.",
+      "evidence": [
+        {
+          "source_url": "https://hotelpartner.com/blog/adria-london-revenue-management-case-study/",
+          "source_type": "news",
+          "quote_or_fact": "Robert Holland, Managing Director UK & Ireland at HotelPartner, is an experienced hotelier..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/ylenia-ficalora-27b10976",
+          "source_type": "linkedin",
+          "quote_or_fact": "Works under HotelPartner MD for UK revenue accounts including The Adria"
+        }
+      ]
+    },
+    {
+      "full_name": "Gabriela Cojocaru",
+      "title": "Senior Director of Revenue & Business Strategy",
+      "company": "Bürgenstock Collection",
+      "linkedin_url": "https://ch.bold.pro/my/gabriela-cojocaru",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reachable via info@burgenstockcollection.com; previously Director Revenue Management for Bürgenstock Hotels (portfolio includes The Adria)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Revenue leadership role for the collection that owns The Adria; expertise in revenue management, business strategy and commercial performance directly relevant to revenue-tech and automation.",
+      "contact_evidence_summary": "Professional profile details prior Director Revenue Management role at Bürgenstock Hotels & Resort (2017-2018) and senior revenue strategy positions.",
+      "evidence": [
+        {
+          "source_url": "https://ch.bold.pro/my/gabriela-cojocaru",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director Revenue Management - Bürgenstock Hotels & Resort. 03.2017 - 06.2018."
+        },
+        {
+          "source_url": "https://burgenstockcollection.com/en",
+          "source_type": "official_site",
+          "quote_or_fact": "The Adria London added to Bürgenstock Collection portfolio in 2023"
+        }
+      ]
+    },
+    {
+      "full_name": "Hannah Jamal",
+      "title": "Account Manager (UK PR & Media)",
+      "company": "The Dovetail Agency (for Bürgenstock Collection)",
+      "linkedin_url": null,
+      "email": "hannahj@dovetail-agency.co.uk",
+      "email2": null,
+      "phone": "+44 20 3709 7807",
+      "phone2": "+44 7557 644334",
+      "x_handle": null,
+      "other_contact_detail": "Official UK media contact for The Adria and Bürgenstock Collection",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles communications and press for the collection including The Adria; can facilitate introductions to marketing, guest experience and commercial teams.",
+      "contact_evidence_summary": "Publicly listed as UK PR contact on official media page with full phone and email; tied to Bürgenstock/The Adria announcements.",
+      "evidence": [
+        {
+          "source_url": "https://burgenstockresort.com/en/media",
+          "source_type": "official_site",
+          "quote_or_fact": "UNITED KINGDOM HANNAH JAMAL Account Manager... [T: +44 20 3709 7807] [M: +44 7557 644334] [hannahj@dovetail-agency.co.uk]"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/burgenstock-collection-the-adria-london/",
+          "source_type": "news",
+          "quote_or_fact": "The Adria added to Bürgenstock Collection by Katara Hospitality"
+        }
+      ]
+    },
+    {
+      "full_name": "Megan Rowe",
+      "title": "Front Office Duty Manager",
+      "company": "The Adria",
+      "linkedin_url": "https://uk.linkedin.com/in/megan-rowe-903002277",
+      "email": "megan.rowe@theadria.com",
+      "email2": null,
+      "phone": "+44 20 7118 8988",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Handles daily front office, reservations and guest interactions; reachable via main line or email pattern confirmed in reviews",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Front office leadership touches reservations automation, guest messaging, check-in processes and daily booking/guest experience operations.",
+      "contact_evidence_summary": "Direct email publicly quoted in Booking.com/Tripadvisor review responses; LinkedIn confirms role at The Adria; supported by company profile on RocketReach.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/the-adria-hotel-profile_b45e4694fc76f463",
+          "source_type": "directory",
+          "quote_or_fact": "Megan Rowe. Front Office Duty Manager. London, GB... theadria.com"
+        },
+        {
+          "source_url": "https://www.theadria.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Reception/front office staff handle reservations, special deals; main phone +44 20 7118 8988 and stay@theadria.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Sebastian Annandale",
+      "title": "Guest Services / Front Office Manager",
+      "company": "The Adria",
+      "linkedin_url": null,
+      "email": "Sebastian.Annandale@theadria.com",
+      "email2": null,
+      "phone": "+44 20 7118 8988",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Directly responds to guest reviews on behalf of hotel; handles guest comms and inquiries",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly involved in guest journey, front desk operations, reservations handling and guest messaging/communications which align with guest experience and booking automation ICP.",
+      "contact_evidence_summary": "Direct business email publicly used in official hotel Tripadvisor responses; role confirmed in reviews and LinkedIn-adjacent mentions.",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d3344364-r1007711719-The_Adria-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Sebastian Annandale, Guest Services / Front Office at The Adria, responded to this review"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d3344364-r987965623-The_Adria-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "My Email address is Sebastian.Annandale@theadria.com for any further assistance."
+        }
+      ]
+    },
+    {
+      "full_name": "Brigida Pes",
+      "title": "Front Office Manager",
+      "company": "The Adria",
+      "linkedin_url": "https://uk.linkedin.com/in/brigida-pes-819462183",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7118 8988",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reachable via main hotel reservations line and stay@theadria.com; front office team contact",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads front office team responsible for reservations, guest arrival experience, messaging and operational execution of booking systems.",
+      "contact_evidence_summary": "LinkedIn profile explicitly lists Front Office Manager at The Adria (2+ years); cross-referenced with hotel contact page for department route.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/brigida-pes-819462183",
+          "source_type": "linkedin",
+          "quote_or_fact": "Front Office Manager. The Adria. Guest Relations Executive background."
+        },
+        {
+          "source_url": "https://www.theadria.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Our friendly and knowledgeable reception staff are also happy to answer questions about any special deals and offers that are available."
+        }
+      ]
+    },
+    {
+      "full_name": "Nicolò Borgese",
+      "title": "Corporate Events & Duty Manager",
+      "company": "The Adria",
+      "linkedin_url": "https://uk.linkedin.com/in/nicolò-borgese",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7118 8988",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reachable via main hotel line or stay@theadria.com; events and operations overlap with guest comms",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles corporate/group bookings, events and duty management which intersect with reservations systems and guest messaging.",
+      "contact_evidence_summary": "RocketReach and LinkedIn associate with The Adria (theadria.com domain); role in events/duty supports commercial ops.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/nicolo-borgese-email_716301950",
+          "source_type": "directory",
+          "quote_or_fact": "Nicolò Borgese... theadria.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/nicolò-borgese",
+          "source_type": "linkedin",
+          "quote_or_fact": "Corporate Events & Meeting Solutions Specialist / Duty Manager at The Adria"
+        }
+      ]
+    },
+    {
+      "full_name": "Jihane Mamouri",
+      "title": "VP Global Sales / Commercial Leadership",
+      "company": "Katara Hospitality / Bürgenstock Collection",
+      "linkedin_url": "https://ae.linkedin.com/in/jihanemamouri",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@burgenstockcollection.com or Katara HQ line",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Commercial and sales leadership across Katara and Bürgenstock portfolio (includes The Adria); shapes global sales strategy, distribution and revenue initiatives.",
+      "contact_evidence_summary": "LinkedIn and news confirm commercial leadership roles defining strategy for Bürgenstock Collection and Katara assets.",
+      "evidence": [
+        {
+          "source_url": "https://ae.linkedin.com/in/jihanemamouri",
+          "source_type": "linkedin",
+          "quote_or_fact": "Defined and led commercial strategy across Katara Hospitality and Bürgenstock Collection."
+        },
+        {
+          "source_url": "https://burgenstockcollection.com/en",
+          "source_type": "official_site",
+          "quote_or_fact": "The Adria is part of the Bürgenstock Collection owned by Katara Hospitality"
+        }
+      ]
+    },
+    {
+      "full_name": "Sebastian Orzechowski",
+      "title": "Group IT Director (CIO)",
+      "company": "Katara Hospitality",
+      "linkedin_url": "https://www.linkedin.com/in/sebastianorzechowski",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Contact via info@katarahospitality.com or +974 4423 7777 (HQ); oversees portfolio including The Adria and Bürgenstock Collection",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Group CIO responsible for property management systems, IT infrastructure, booking stack integration and digital transformation across Katara assets including The Adria.",
+      "contact_evidence_summary": "Multiple directories and LinkedIn company page list as Group IT Director/CIO at Katara Hospitality (owner of The Adria); PDF case studies reference group IT leadership.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/katara-hospitality-management_b5efa494f42e718d",
+          "source_type": "directory",
+          "quote_or_fact": "Sebastian Orzechowski. Group IT Director (CIO) at Katara Hospitality."
+        },
+        {
+          "source_url": "https://assets.lutron.com/a/documents/3685269ea-burgenstock-casestudy_english.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Group IT director for Bürgenstock Hotels referenced in context of systems (Katara ownership)"
+        }
+      ]
+    },
+    {
+      "full_name": "Chris Walker",
+      "title": "SVP & Chief Commercial Officer",
+      "company": "Leading Hotels of the World",
+      "linkedin_url": "https://www.linkedin.com/in/chris-walker-9573aa47",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Brand contact: london@lhw.com or corporate inquiries via lhw.com; supports member hotels including The Adria on distribution and revenue",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Global commercial leadership for LHW brand of which The Adria is a member; drives revenue strategy, distribution channels, booking automation and partner tech adoption across the portfolio.",
+      "contact_evidence_summary": "Listed in LHW corporate/executive team pages and industry news; relevant for member property commercial support.",
+      "evidence": [
+        {
+          "source_url": "https://www.lhw.com/corporate/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Chris Walker, SVP & Chief Commercial Officer, Leading Hotels of the World"
+        },
+        {
+          "source_url": "https://www.lhw.com/hotel/The-Adria-London-United-Kingdom",
+          "source_type": "official_site",
+          "quote_or_fact": "The Adria is a member of The Leading Hotels of the World"
+        }
+      ]
+    },
+    {
+      "full_name": "Chris K. Franzen",
+      "title": "Managing Director",
+      "company": "Bürgenstock Collection",
+      "linkedin_url": "https://www.linkedin.com/in/chrisfranzen",
+      "email": "ckf@ckfranzen.com",
+      "email2": "info@burgenstockcollection.com",
+      "phone": "+41 41 678 9100",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@burgenstockcollection.com; +41 41 678 9100 (resort/collection line)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads the collection that owns and operates The Adria in London; influences overall strategy, ops excellence, revenue growth and tech decisions for the portfolio.",
+      "contact_evidence_summary": "Multiple press releases and news articles name him as Managing Director of Bürgenstock Resort and Collection leadership; recent awards coverage.",
+      "evidence": [
+        {
+          "source_url": "https://www.finews.com/news/english-news/71865-buergenstock-resort-lake-lucerne-chris-k-franzen-hotellier-des-jahres-2026-falstaff-hotel-awards-2",
+          "source_type": "news",
+          "quote_or_fact": "Chris K. Franzen, Managing Director of the Bürgenstock Resort Lake Lucerne... The resort is part of the Bürgenstock Collection... and the Adria Hotel in London."
+        },
+        {
+          "source_url": "https://burgenstockcollection.com/en",
+          "source_type": "official_site",
+          "quote_or_fact": "Welcome The Adria London to the Bürgenstock Collection (press item)"
+        }
+      ]
+    },
+    {
+      "full_name": "Daphne Foo",
+      "title": "Manager, Revenue Enablement",
+      "company": "Leading Hotels of the World",
+      "linkedin_url": "https://www.linkedin.com/in/daphnefoo",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Revenue support via brand contacts; london@lhw.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Revenue enablement role supports member properties with revenue tech, tools, training and distribution best practices applicable to The Adria.",
+      "contact_evidence_summary": "Listed among LHW revenue and commercial team in industry directories and brand resources.",
+      "evidence": [
+        {
+          "source_url": "https://www.lhw.com/corporate/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Daphne Foo, Manager, Revenue Enablement, LHW"
+        }
+      ]
+    },
+    {
+      "full_name": "Ylenia Ficalora",
+      "title": "Senior Performance Manager (Revenue)",
+      "company": "HotelPartner Revenue Management",
+      "linkedin_url": "https://uk.linkedin.com/in/ylenia-ficalora-27b10976",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Assigned revenue lead for The Adria; contact via HotelPartner UK or main Adria line for introductions",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Directly manages revenue performance, dynamic pricing, channel management, booking engine optimization and tech integration (Opera automation) for The Adria property.",
+      "contact_evidence_summary": "Heavily quoted in official HotelPartner case study on The Adria’s 15% RevPAR growth; LinkedIn confirms UK revenue role; recent appointment news.",
+      "evidence": [
+        {
+          "source_url": "https://hotelpartner.com/blog/adria-london-revenue-management-case-study/",
+          "source_type": "news",
+          "quote_or_fact": "What really made a difference for us was having revenue performance manager Ylenia Ficalora coming on board... Ylenia helped us to open up new channels and brought in a lot of technical knowledge... HotelPartner integrates with Opera, so there is a lot of automation."
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79029849/ylenia-ficalora",
+          "source_type": "news",
+          "quote_or_fact": "Ylenia Ficalora has been appointed Senior Performance Manager at HotelPartner Revenue Management."
+        }
+      ]
+    },
+    {
+      "full_name": "Gary Redmond",
+      "title": "Former General Manager",
+      "company": "The Adria",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Historical contact; current team via stay@theadria.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Predecessor GM; provides context on property transition but current influence limited; relevant for historical revenue/ops knowledge.",
+      "contact_evidence_summary": "Mentioned in appointment news as the GM replaced by Dominik Feller in 2024; still potentially networked in London hospitality.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/dominik-feller-the-adria-hotel-london/",
+          "source_type": "news",
+          "quote_or_fact": "Dominik Feller... replaces Gary Redmond"
+        }
+      ]
+    },
+    {
+      "full_name": "Michael Lederman",
+      "title": "VP Information Technology",
+      "company": "Leading Hotels of the World",
+      "linkedin_url": "https://www.linkedin.com/in/malederman",
+      "email": "mlederman@lhw.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "IT support and systems inquiries via corporate LHW contacts or london@lhw.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees IT systems, property management platforms, booking technology and digital infrastructure for LHW member hotels including potential impact on The Adria.",
+      "contact_evidence_summary": "Executive team listing on official LHW corporate site; aligns with brand-level systems decisions.",
+      "evidence": [
+        {
+          "source_url": "https://www.lhw.com/corporate/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Michael Lederman, VP Information Technology"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/theadria",
+          "source_type": "linkedin",
+          "quote_or_fact": "The Adria - A member of The Leading Hotels of the World"
+        }
+      ]
+    },
+    {
+      "full_name": "Alexandra Segal",
+      "title": "Director, Digital Marketing",
+      "company": "Leading Hotels of the World",
+      "linkedin_url": "https://www.linkedin.com/in/alexandra-segal-2283591a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Digital and guest comms route via corporate or london@lhw.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads digital marketing and online presence for LHW; directly influences guest acquisition channels, booking engines, website tech and guest messaging/CRM for member properties like The Adria.",
+      "contact_evidence_summary": "Confirmed in LHW executive/leadership directories and brand news as Director Digital Marketing.",
+      "evidence": [
+        {
+          "source_url": "https://www.lhw.com/corporate/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Alexandra Segal, Director, Digital Marketing, Leading Hotels of the World"
+        }
+      ]
+    },
+    {
+      "full_name": "Lauren Alba",
+      "title": "VP Global Marketing & Communications",
+      "company": "Leading Hotels of the World",
+      "linkedin_url": "https://www.linkedin.com/in/laurenalba1",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": "Lauren_Alba",
+      "other_contact_detail": "Brand marketing route via lhw.com corporate or london@lhw.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Global marketing leadership for LHW brand; influences digital guest journey, CRM, messaging and direct booking strategies for member hotels like The Adria.",
+      "contact_evidence_summary": "Part of LHW executive leadership team per official corporate resources.",
+      "evidence": [
+        {
+          "source_url": "https://www.lhw.com/corporate/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Lauren Alba, VP Global Marketing & Communications"
+        }
+      ]
+    },
+    {
+      "full_name": "Phil Koserowski",
+      "title": "SVP & Chief Marketing Officer",
+      "company": "Leading Hotels of the World",
+      "linkedin_url": "https://www.linkedin.com/in/philkoserowski",
+      "email": "london@lhw.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Marketing and digital route: london@lhw.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Chief marketing leadership shapes brand digital strategy, guest experience tech, CRM and direct booking initiatives that flow to member properties like The Adria.",
+      "contact_evidence_summary": "Executive leadership profile on LHW official corporate pages.",
+      "evidence": [
+        {
+          "source_url": "https://www.lhw.com/corporate/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Phil Koserowski, SVP & Chief Marketing Officer (digital background noted)"
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-21T16:00:37.461443+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 7,
+    "attempted": 12,
+    "succeeded": 12,
+    "failed": [],
+    "batch_id": null
+  }
+}

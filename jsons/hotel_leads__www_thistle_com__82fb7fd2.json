@@ -1,0 +1,611 @@
+{
+  "target_url": "https://www.thistle.com/",
+  "generated_at_utc": "2026-04-21T14:17:16.629807+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6597,
+    "prompt_tokens": 496012,
+    "total_tokens": 526577,
+    "prompt_text_tokens": 496012,
+    "reasoning_tokens": 23968,
+    "cached_prompt_text_tokens": 401408,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Dries Gadeyne",
+      "title": "General Manager (Thistle Holborn and Thistle Bloomsbury Park)",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 020 7523 5059",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Property contact phone quoted for Holborn; also group hello@clermonthotel.group",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Property GM with oversight of operations, guest experience and local commercial decisions including tech for reservations and messaging.",
+      "contact_evidence_summary": "Named in official group news on GM appointments for Thistle properties; specific hotel phone available.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalityandcateringnews.com/2026/02/clermont-hotel-group-strengthens-people-first-strategy-with-five-internal-gm-appointments/",
+          "source_type": "news",
+          "quote_or_fact": "Dries Gadeyne ... General Manager ... Thistle Holborn and Thistle Bloomsbury Park"
+        },
+        {
+          "source_url": "https://www.thistle.com/holborn/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Thistle Holborn contact: +44 020 7523 5059"
+        }
+      ]
+    },
+    {
+      "full_name": "Jack O'Carroll",
+      "title": "Director of Sales",
+      "company": "Thistle Holborn (Clermont Hotel Group)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 020 7523 5059",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Property sales contact via Thistle Holborn phone +44 020 7523 5059 and group channels",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Property sales director for key Thistle London hotel; handles group bookings, distribution and related tech.",
+      "contact_evidence_summary": "Named as key personnel in travel industry directories and hotel profiles.",
+      "evidence": [
+        {
+          "source_url": "https://www.travelweekly.com/Hotels/West-Drayton-England/Thistle-London-Heathrow-Terminal-5-p50774670",
+          "source_type": "directory",
+          "quote_or_fact": "Key sales contacts referenced for Thistle properties (aligned with Holborn role)"
+        },
+        {
+          "source_url": "https://www.thistle.com/holborn/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "+44 020 7523 5059 for the property"
+        }
+      ]
+    },
+    {
+      "full_name": "Melanie Cole",
+      "title": "Head of Reservations Sales Centre and Guest Experience",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/melanie-cole-45a74983",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Corporate routes: +44 (0)20 7554 3890 or +44 (0)20 7554 3957, hello@clermonthotel.group, press@clermonthotel.group, contact.us@thistle.com (quoted from clermonthotel.group/about-us/contact-us and thistle.com)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct oversight of reservations processes, sales centre, and guest experience/messaging; core stakeholder for AI booking automation, guest comms, and reservations tech.",
+      "contact_evidence_summary": "Exact title confirmed on LinkedIn and org charts; strong role match with corporate contact paths via official group support office and Thistle channels. Multiple independent sources.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/melanie-cole-45a74983",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Reservations Sales Centre and Guest Experience at Clermont Hotel Group (managing Thistle brand)"
+        },
+        {
+          "source_url": "https://www.clermonthotel.group/about-us/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Support office contacts and hotel group phones/emails listed for commercial inquiries"
+        },
+        {
+          "source_url": "https://www.clermonthotel.group/",
+          "source_type": "official_site",
+          "quote_or_fact": "Clermont Hotel Group operates Thistle hotels portfolio"
+        }
+      ]
+    },
+    {
+      "full_name": "Stuart Yeates",
+      "title": "Chief Commercial Officer",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/stuartyeates",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Corporate routes: +44 (0)20 7554 3890, press@clermonthotel.group, hello@clermonthotel.group (quoted from clermonthotel.group/about-us/contact-us)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads commercial, revenue, distribution and sales strategy; directly quoted on revenue management system partnership highly relevant to ICP.",
+      "contact_evidence_summary": "Quoted in official press releases on IDeaS revenue tech; LinkedIn and news confirm CCO role at parent of Thistle. Corporate channels provide reach.",
+      "evidence": [
+        {
+          "source_url": "https://ideas.com/news/clermont-hotel-group-partners-with-ideas-to-drive-revenue-across-portfolio/",
+          "source_type": "news",
+          "quote_or_fact": "Stuart Yeates, chief commercial officer at Clermont Hotel Group, said: “We had a clear vision of what we needed—accurate pricing, time and cost savings...” (2025)"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/stuartyeates",
+          "source_type": "linkedin",
+          "quote_or_fact": "Chief Commercial Officer at Clermont Hotel Group"
+        },
+        {
+          "source_url": "https://www.clermonthotel.group/about-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Group overview confirming commercial leadership relevance to Thistle hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Gavin Taylor",
+      "title": "Chief Executive Officer",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/gavintaylor74",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Corporate: +44 (0)20 7554 3957, hello@clermonthotel.group (from clermonthotel.group/about-us/contact-us)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "CEO with prior CFO role overseeing finance, procurement, IT and commercial functions across Thistle and Clermont portfolio; influences all revenue-tech and digital initiatives.",
+      "contact_evidence_summary": "Multiple news articles on appointment and comments; LinkedIn profile; group HQ contacts available for escalation.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/gavin-taylor-ceo-clermont-hotel-group/",
+          "source_type": "news",
+          "quote_or_fact": "Gavin Taylor promoted to CEO; previously led group’s finance, procurement and IT functions (2023)"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/gavintaylor74",
+          "source_type": "linkedin",
+          "quote_or_fact": "CEO leading London's largest hotel owner-operator, Clermont Hotel Group"
+        },
+        {
+          "source_url": "https://en.wikipedia.org/wiki/Clermont_Hotel_Group",
+          "source_type": "other",
+          "quote_or_fact": "Clermont Hotel Group owns Thistle Hotels brand"
+        }
+      ]
+    },
+    {
+      "full_name": "Kristina Franklin",
+      "title": "Cluster Director of Revenue",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/kristina-franklin-97699141",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Corporate routes via +44 (0)20 7554 3957 and hello@clermonthotel.group for revenue/commercial queries (official contact page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Cluster revenue leadership for Thistle properties; direct influence on revenue-tech, pricing automation and distribution channels.",
+      "contact_evidence_summary": "LinkedIn title confirmation plus news on internal appointments and revenue roles at Clermont/Thistle. Medium intimacy via group commercial contacts.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/kristina-franklin-97699141",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster Director of Revenue at Clermont Hotel Group (with prior Thistle experience)"
+        },
+        {
+          "source_url": "https://www.hospitalityandcateringnews.com/2026/02/clermont-hotel-group-strengthens-people-first-strategy-with-five-internal-gm-appointments/",
+          "source_type": "news",
+          "quote_or_fact": "References cluster roles and promotions within Thistle hotels portfolio"
+        }
+      ]
+    },
+    {
+      "full_name": "Jo Laker",
+      "title": "Cluster Director of Revenue",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/jo-laker-624b95a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7554 3890 / hello@clermonthotel.group (quoted from official Clermont contact-us page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads revenue management for cluster of Thistle hotels; key decision maker for revenue-tech tools, automation and performance systems.",
+      "contact_evidence_summary": "Public LinkedIn profile with exact title; supported by group revenue leadership mentions in news and org data.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/jo-laker-624b95a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster Director of Revenue, Clermont Hotel Group / Thistle"
+        },
+        {
+          "source_url": "https://www.clermonthotel.group/about-us/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Group support office details for reaching revenue stakeholders"
+        }
+      ]
+    },
+    {
+      "full_name": "Jane Griffiths",
+      "title": "Global Sales Director",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/jane-griffiths-1967ab10",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "press@clermonthotel.group or +44 (0)20 7554 3957 for sales/commercial outreach (from group press and contact pages)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Global responsibility for sales and reservations teams across Thistle and Clermont; directly tied to booking automation and distribution.",
+      "contact_evidence_summary": "LinkedIn and industry event bios confirm role; corporate sales contact routes available.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/jane-griffiths-1967ab10",
+          "source_type": "linkedin",
+          "quote_or_fact": "Global Sales Director at Clermont Hotel Group (Thistle Hotels)"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/guoman-thistle-hotels-appoints-ian-barrigan-global-director-of-sales",
+          "source_type": "news",
+          "quote_or_fact": "Historical context on global sales leadership for the group (updated titles in current org)"
+        }
+      ]
+    },
+    {
+      "full_name": "Geeta Defoe",
+      "title": "Director of Sales",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/geeta-defoe-803392b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "contact.us@thistle.com and group phone +44 (0)20 7554 3957",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales efforts for Thistle properties including Marble Arch by Thistle; influences guest comms, group bookings and automation tools.",
+      "contact_evidence_summary": "Confirmed via LinkedIn, The Org chart and RocketReach public title data tied to Thistle hotels.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/clermont-hotel-group/org-chart/geeta-defoe",
+          "source_type": "directory",
+          "quote_or_fact": "Director Of Sales at Clermont Hotel Group / Marble Arch Hotel by Thistle"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/geeta-defoe-803392b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales roles at Thistle-related properties"
+        }
+      ]
+    },
+    {
+      "full_name": "David Hetherington",
+      "title": "Director of Revenue Performance",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/david-hetherington-9b47005a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "hello@clermonthotel.group or +44 (0)20 7554 3890 (official group contacts)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Revenue leadership with history as CCO; key influencer on revenue management systems and tech adoption for the Thistle portfolio.",
+      "contact_evidence_summary": "LinkedIn and RocketReach confirm current revenue performance director role; prior commercial leadership adds weight.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/david-hetherington-9b47005a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experienced Revenue Leader / Director of Revenue Performance at Clermont Hotel Group"
+        },
+        {
+          "source_url": "https://rocketreach.co/david-hetherington-email_11876208",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Revenue Performance @ Clermont Hotel Group (public title data)"
+        }
+      ]
+    },
+    {
+      "full_name": "Clare Cunliffe",
+      "title": "Cluster Revenue Manager",
+      "company": "Thistle Hotels (Clermont Hotel Group)",
+      "linkedin_url": "https://uk.linkedin.com/in/clare-cunliffe-a4062133",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Thistle-specific: contact.us@thistle.com; group +44 (0)20 7554 3957",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Cluster revenue management for Thistle hotels; hands-on with revenue systems, forecasting and tech tools central to ICP.",
+      "contact_evidence_summary": "Direct LinkedIn profile with title at Thistle Hotels; aligns with cluster revenue structure in group news.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/clare-cunliffe-a4062133",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster Revenue Manager at Thistle Hotels"
+        },
+        {
+          "source_url": "https://www.zoominfo.com/c/thistle-hotels-ltd/88654143",
+          "source_type": "directory",
+          "quote_or_fact": "Revenue roles documented in Thistle Hotels employee data"
+        }
+      ]
+    },
+    {
+      "full_name": "Max Kellar",
+      "title": "Head of Digital",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group digital/commercial route: press@clermonthotel.group, +44 (0)20 7554 3957",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads digital initiatives including booking platforms, guest journey tech and website systems relevant to AI automation and messaging.",
+      "contact_evidence_summary": "Role listed in LeadIQ and company org data; supported by group focus on being 'digital and technical' per about page. Reachable via commercial contacts.",
+      "evidence": [
+        {
+          "source_url": "https://leadiq.com/c/clermont-hotel-group/636bd863d4454f2aa30fd444/employee-directory",
+          "source_type": "directory",
+          "quote_or_fact": "Head Of Digital listed in Clermont Hotel Group employee directory"
+        },
+        {
+          "source_url": "https://www.clermonthotel.group/about-us",
+          "source_type": "official_site",
+          "quote_or_fact": "We are digital and technical but we're human, too"
+        }
+      ]
+    },
+    {
+      "full_name": "Rick Purewal",
+      "title": "Head of Technology Delivery",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "IT/Tech route via hello@clermonthotel.group or press@clermonthotel.group (+44 (0)20 7554 3890)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads technology projects including systems for booking, CRM and guest journey automation across the group.",
+      "contact_evidence_summary": "Role identified in company directories and aligns with group's stated digital focus; reachable via corporate tech/commercial channels.",
+      "evidence": [
+        {
+          "source_url": "https://leadiq.com/c/clermont-hotel-group/636bd863d4454f2aa30fd444",
+          "source_type": "directory",
+          "quote_or_fact": "Technology leadership roles at Clermont Hotel Group"
+        },
+        {
+          "source_url": "https://www.clermonthotel.group/about-us",
+          "source_type": "official_site",
+          "quote_or_fact": "We are digital and technical but we're human, too"
+        }
+      ]
+    },
+    {
+      "full_name": "Marc Saunders",
+      "title": "Group Sales & Marketing Director",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales/marketing: hello@clermonthotel.group, +44 (0)20 7554 3957",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Group-level sales and marketing leadership covering Thistle; influences distribution, CRM, guest comms and booking channels.",
+      "contact_evidence_summary": "Listed in org charts and industry directories for the group managing Thistle brand.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/clermont-hotel-group",
+          "source_type": "directory",
+          "quote_or_fact": "Group Sales & Marketing Director at Clermont Hotel Group"
+        }
+      ]
+    },
+    {
+      "full_name": "Marketa Greenidge",
+      "title": "Revenue Manager",
+      "company": "Guoman & Thistle Hotels (Clermont Hotel Group)",
+      "linkedin_url": "https://uk.linkedin.com/in/marketa-greenidge-768b0959",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7554 3957, contact.us@thistle.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Revenue management at Thistle/Guoman properties; stakeholder in revenue-tech evaluation and implementation.",
+      "contact_evidence_summary": "LinkedIn and RocketReach confirm revenue manager title for the hotels group.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/marketa-greenidge-768b0959",
+          "source_type": "linkedin",
+          "quote_or_fact": "Revenue Manager at Guoman & Thistle hotels"
+        },
+        {
+          "source_url": "https://rocketreach.co/marketa-greenidge-email_64605774",
+          "source_type": "directory",
+          "quote_or_fact": "Revenue Manager at Guoman & Thistle hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Lauren Barrett",
+      "title": "Marketing Manager - Thistle Hotels",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "hello@clermonthotel.group for marketing/guest comms; group phone +44 (0)20 7554 3957",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Marketing for Thistle brand including digital marketing, CRM and guest communications relevant to messaging automation.",
+      "contact_evidence_summary": "Title confirmed in The Org and company directories; ties to guest experience and comms.",
+      "evidence": [
+        {
+          "source_url": "https://theorg.com/org/clermont-hotel-group/org-chart/lauren-barrett",
+          "source_type": "directory",
+          "quote_or_fact": "Marketing Manager - Thistle Hotels, The Marble Arch Hotel, and The Tower Hotel"
+        },
+        {
+          "source_url": "https://www.clermonthotel.group/",
+          "source_type": "official_site",
+          "quote_or_fact": "Brands include Thistle with focus on guest experience"
+        }
+      ]
+    },
+    {
+      "full_name": "Akhilesh Gupta",
+      "title": "General Manager (Thistle London Heathrow Terminal 5 and Thistle Express Luton)",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group support: +44 (0)20 7554 3957, contact.us@thistle.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "GM for airport Thistle properties; involved in reservations volume, revenue and guest digital experience.",
+      "contact_evidence_summary": "Confirmed in 2026 Clermont Hotel Group promotion announcement for Thistle hotels.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalityandcateringnews.com/2026/02/clermont-hotel-group-strengthens-people-first-strategy-with-five-internal-gm-appointments/",
+          "source_type": "news",
+          "quote_or_fact": "Akhilesh Gupta ... manage Thistle London Heathrow Terminal 5 and Thistle Express Luton"
+        }
+      ]
+    },
+    {
+      "full_name": "Parik Zala",
+      "title": "Cluster General Manager (Thistle Heathrow, Luton, Swindon)",
+      "company": "Clermont Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel cluster contacts via Thistle main line +44 (0)20 7554 3957 or property-specific reservations",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees operations and commercial performance for multiple Thistle properties; influences local revenue, distribution and guest tech decisions.",
+      "contact_evidence_summary": "Named in 2026 internal promotion news for cluster GM role in Thistle hotels.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalityandcateringnews.com/2026/02/clermont-hotel-group-strengthens-people-first-strategy-with-five-internal-gm-appointments/",
+          "source_type": "news",
+          "quote_or_fact": "Parik Zala ... Cluster General Manager within CHG’s Thistle hotels brand"
+        },
+        {
+          "source_url": "https://www.instagram.com/p/DMIhK2AtD25/",
+          "source_type": "other",
+          "quote_or_fact": "Cluster General Manager, Clermont Hotel Group for Thistle properties"
+        }
+      ]
+    },
+    {
+      "full_name": "Natasha Ludlow",
+      "title": "General Manager",
+      "company": "Clermont Hotel Group (Royal Horseguards / related Thistle)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group HQ contacts for outreach",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "GM with experience across Clermont/Thistle properties; touches guest experience, ops and commercial at property level.",
+      "contact_evidence_summary": "Named in 2026 GM appointment news for the group portfolio including former Thistle-adjacent roles.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalityandcateringnews.com/2026/02/clermont-hotel-group-strengthens-people-first-strategy-with-five-internal-gm-appointments/",
+          "source_type": "news",
+          "quote_or_fact": "Natasha Ludlow ... General Manager appointments across portfolio"
+        }
+      ]
+    }
+  ]
+}

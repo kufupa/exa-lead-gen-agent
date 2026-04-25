@@ -1,0 +1,642 @@
+{
+  "target_url": "https://milestonehotel.com/events/weddings",
+  "generated_at_utc": "2026-04-21T15:54:55.284421+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6059,
+    "prompt_tokens": 511416,
+    "total_tokens": 546457,
+    "prompt_text_tokens": 511416,
+    "reasoning_tokens": 28982,
+    "cached_prompt_text_tokens": 419648,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Sarah Bristow",
+      "title": "Head of UK Reservations",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": "sbristow@rchmail.com",
+      "email2": null,
+      "phone": "+44 808 196 8893",
+      "phone2": "+44 20 7917 1000",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads UK reservations team for the collection including Milestone Hotel; direct influence on reservations processes and booking systems.",
+      "contact_evidence_summary": "Direct personal email and title on official team page; reservations department phones and emails on contact page provide strong route.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Head of UK Reservations sbristow@rchmail.com. Sarah Bristow leads the Red Carnation Hotels UK Reservations team, taking care of our guests' room reservations."
+        },
+        {
+          "source_url": "https://milestonehotel.com/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations Telephone: +44 20 7917 1000 UK tollfree: +44 808 196 8893 US tollfree: +1 833 477 8313 Email: bookms@milestonehotel.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Andrew Pike",
+      "title": "Managing Director",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": "https://uk.linkedin.com/in/andrewpike-milestone-hotel",
+      "email": "apike@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees entire property including commercial strategy, guest experience, and technology adoption decisions for the hotel.",
+      "contact_evidence_summary": "Direct email and bio on official team and contact pages; LinkedIn confirms long tenure as GM/MD.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Managing Director apike@milestonehotel.com. Andrew has been General Manager of The Milestone Hotel & Residences for the last 17 years."
+        },
+        {
+          "source_url": "https://milestonehotel.com/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "General Manager Andrew Pike Email: apike@milestonehotel.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Pranav Ahuja",
+      "title": "Hotel Manager",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "pahuja@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees daily operations and guest journey at property level; influences guest experience systems, CRM, and operational tech.",
+      "contact_evidence_summary": "Direct email and title published on official meet-our-team page.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Manager pahuja@milestonehotel.com. Pranav hopes for each guest to leave The Milestone with a smile on their face and a promise to return."
+        }
+      ]
+    },
+    {
+      "full_name": "Blake Sur",
+      "title": "Executive Director of Middle East Sales",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "bsur@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Senior sales leadership role; influences sales processes, distribution channels and revenue strategy for the property.",
+      "contact_evidence_summary": "Direct email and title on official team page.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Executive Director of Middle East Sales bsur@milestonehotel.com."
+        }
+      ]
+    },
+    {
+      "full_name": "Suzie Thompson",
+      "title": "Vice President Commercial",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/suziethompson-redcarnationhotels",
+      "email": null,
+      "email2": null,
+      "phone": "+44 808 196 8893",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Commercial, revenue, reservations, sales & distribution team route: reservations@rchmail.com or bookms@milestonehotel.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads Sales, Marketing, PR, Revenue Management, Reservations and Distribution for the entire collection including Milestone.",
+      "contact_evidence_summary": "Official executive bio confirms leadership over revenue/reservations/distribution; department phones and rchmail.com routes available.",
+      "evidence": [
+        {
+          "source_url": "https://redcarnationhotels.com/our-story/our-people/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Vice President Commercial. Suzie Thompson ... leads the Sales, Marketing, PR, Revenue Management, Reservations, and Distribution teams for the collection."
+        },
+        {
+          "source_url": "https://ideas.com/success-story/red-carnation-centralises-commercial-teams/",
+          "source_type": "news",
+          "quote_or_fact": "Sarah Glanville, Red Carnation’s Director of Revenue ... support each general manager (context of commercial function Suzie leads)."
+        }
+      ]
+    },
+    {
+      "full_name": "Warren Kelly",
+      "title": "Global IT Director",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "IT/digital systems route via main hotel switchboard +44 20 7917 1000 or group contacts",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads global IT strategy, digital transformation, resilience and systems supporting booking, guest experience and revenue tech.",
+      "contact_evidence_summary": "Official executive team page with detailed bio on digital leadership; property phones provide reach.",
+      "evidence": [
+        {
+          "source_url": "https://redcarnationhotels.com/our-story/our-people/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Global IT Director. Warren Kelly ... has driven innovation, resilience, and digital transformation to support the collection’s commitment to exceptional guest experiences."
+        }
+      ]
+    },
+    {
+      "full_name": "Sarah Glanville",
+      "title": "Director of Revenue",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 808 196 8893",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Revenue team route via reservations@rchmail.com or commercial contacts",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads revenue management across the collection; direct stakeholder for revenue-tech, pricing automation and RMS systems.",
+      "contact_evidence_summary": "Named in industry news on revenue systems (IDeaS RMS); strong commercial team route via Suzie Thompson's org.",
+      "evidence": [
+        {
+          "source_url": "https://ideas.com/success-story/red-carnation-centralises-commercial-teams/",
+          "source_type": "news",
+          "quote_or_fact": "Sarah Glanville, Red Carnation’s Director of Revenue, has seen the value of IDeaS’ RMS data to inform the wider commercial function."
+        }
+      ]
+    },
+    {
+      "full_name": "Aideen Ebrahim",
+      "title": "Distribution Manager",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 808 196 8893",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Distribution/reservations route: reservations@rchmail.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages distribution channels, OTAs and booking engines for the collection; core to AI booking automation and revenue tech.",
+      "contact_evidence_summary": "Named in HSMAI awards for distribution work with Red Carnation; department routes available.",
+      "evidence": [
+        {
+          "source_url": "https://hsmai.eu/2020/01/31/the-hsmai-europe-awards-2019-here-are-the-winners/",
+          "source_type": "news",
+          "quote_or_fact": "Aideen Ebrahim, Distribution Manager, Red Carnation Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Jonathan Raggett",
+      "title": "CEO",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Executive route via commercial or main contacts",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "CEO with ultimate oversight of commercial strategy and tech adoption across the brand including Milestone.",
+      "contact_evidence_summary": "Listed as CEO on official executive team page; limited direct contact details found.",
+      "evidence": [
+        {
+          "source_url": "https://redcarnationhotels.com/our-story/our-people/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "CEO Jonathan Raggett ... Joined The Red Carnation Hotel Collection in 1998."
+        }
+      ]
+    },
+    {
+      "full_name": "Jorge Alvarez",
+      "title": "Head Concierge",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": "https://uk.linkedin.com/in/jorge-alvarez-1a8b795b",
+      "email": "conciergems@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads guest experience and concierge services; touches guest messaging, personalization and CRM elements.",
+      "contact_evidence_summary": "Direct department email and title on official team page; LinkedIn confirms role.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Head Concierge conciergems@milestonehotel.com. Jorge Alvarez ... leads concierge team."
+        }
+      ]
+    },
+    {
+      "full_name": "Emma Smith",
+      "title": "Sales, Conference & Banqueting Executive",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "meetms@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles sales for events, weddings, conferences (core to property bookings); stakeholder for booking automation and guest comms.",
+      "contact_evidence_summary": "Title and shared department email on official team and contact pages.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales, Conference & Banqueting Executive meetms@milestonehotel.com."
+        },
+        {
+          "source_url": "https://milestonehotel.com/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Meetings & Events Email: meetms@milestonehotel.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Suzie Pagett",
+      "title": "Sales Executive",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "spagett@rchmail.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales role at the property; involved in driving bookings and commercial activity suitable for revenue-tech and automation tools.",
+      "contact_evidence_summary": "Name, title and direct email listed in official property fact sheet PDF.",
+      "evidence": [
+        {
+          "source_url": "https://www.rebecca-recommends.com/wp-content/uploads/2022/01/The-Milestone-Hotel-Property-Fact-Sheet-12_08_2021.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Suzie Pagett Sales Executive spagett@rchmail.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Isabelle Thomas",
+      "title": "Press Officer",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": "ithomas@rchmail.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles PR and marketing communications for the collection; relevant for guest messaging and digital marketing tech.",
+      "contact_evidence_summary": "Direct email published on official media page for press enquiries across collection.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/our-media",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact Isabelle Thomas for all press enquiries across our hotel collection ... Email: ithomas@rchmail.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Serdal Hassan",
+      "title": "Chief Engineer",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "sali@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees property systems, tech infrastructure, room technologies (e.g. TV, streaming, HVAC) relevant to guest tech stack.",
+      "contact_evidence_summary": "Direct email and title on official team page.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Chief Engineer sali@milestonehotel.com. Serdal (Sej) Hassan ensures maintenance ... assists with Sky television system, Chrome Cast setup."
+        }
+      ]
+    },
+    {
+      "full_name": "Katia De Luca",
+      "title": "Front Office Manager",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": "https://uk.linkedin.com/in/katia-de-luca-7605431a3",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Front office/guest services route: guestservices@milestonehotel.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages front office and guest arrival/journey processes; influences check-in automation, guest messaging and CRM.",
+      "contact_evidence_summary": "LinkedIn confirms Front Office Manager role at the property; guest services email on site.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/katia-de-luca-7605431a3",
+          "source_type": "linkedin",
+          "quote_or_fact": "Front Office Manager, The Milestone Hotel & Residences"
+        },
+        {
+          "source_url": "https://milestonehotel.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "guestservices@milestonehotel.com (Guest Services team)"
+        }
+      ]
+    },
+    {
+      "full_name": "Ciara Fitzpatrick",
+      "title": "Marketing Manager",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Marketing/PR route via ithomas@rchmail.com or influencers@rchmail.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Marketing role focused on guest acquisition, digital marketing and communications; relevant for guest messaging automation.",
+      "contact_evidence_summary": "Named in awards and Nosto case study as Marketing Community Manager/Marketing Manager for Red Carnation.",
+      "evidence": [
+        {
+          "source_url": "https://hsmai.eu/2020/01/31/the-hsmai-europe-awards-2019-here-are-the-winners/",
+          "source_type": "news",
+          "quote_or_fact": "Ciara Fitzpatrick, Marketing Community Manager, Red Carnation Hotels"
+        },
+        {
+          "source_url": "https://www.nosto.com/blog/nosto-client-red-carnation-hotels-reveals-the-importance-of-visual-ugc-in-its-marketing/",
+          "source_type": "news",
+          "quote_or_fact": "Ciara Fitzpatrick, Marketing Manager at Red Carnation Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Nora Szőllősi",
+      "title": "Digital Marketing Manager",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Digital marketing route via ithomas@rchmail.com or influencers@rchmail.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles digital marketing and online guest communications; relevant for messaging automation and digital guest journey.",
+      "contact_evidence_summary": "Referenced in group marketing context on official and partner pages; strong digital role at brand level.",
+      "evidence": [
+        {
+          "source_url": "https://redcarnationhotels.com/our-partners/luxury-travel-partners",
+          "source_type": "official_site",
+          "quote_or_fact": "Ciara Fitzpatrick. Ciara oversees the development and execution of strategic ... (context of marketing team including digital)."
+        }
+      ]
+    },
+    {
+      "full_name": "Tzveta Ivanova",
+      "title": "Senior Executive Manager, Housekeeping",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "tivanova@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Senior housekeeping/guest experience role; touches personalized guest comms, preferences and experience tech.",
+      "contact_evidence_summary": "Direct email and title on official team page (adjacent ICP for guest experience).",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Senior Executive Manager, Housekeeping tivanova@milestonehotel.com."
+        }
+      ]
+    },
+    {
+      "full_name": "Daniel Putz",
+      "title": "Executive Chef",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "dputz@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads F&B; adjacent for guest comms around dining reservations and personalization (part of broader guest experience).",
+      "contact_evidence_summary": "Direct email on official team page.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Executive Chef dputz@milestonehotel.com."
+        }
+      ]
+    },
+    {
+      "full_name": "Grant Cockburn",
+      "title": "Food & Beverage Operations Manager",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "gcockburn@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "F&B operations; touches guest preferences, dietary comms and restaurant booking elements.",
+      "contact_evidence_summary": "Direct email on official team page (adjacent role per ICP guidance).",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Food & Beverage Operations Manager gcockburn@milestonehotel.com."
+        }
+      ]
+    },
+    {
+      "full_name": "Thomas White",
+      "title": "Food & Beverage Manager",
+      "company": "The Milestone Hotel & Residences",
+      "linkedin_url": null,
+      "email": "thomaswhite@milestonehotel.com",
+      "email2": null,
+      "phone": "+44 20 7917 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "F&B management role touching restaurant reservations and guest experience comms.",
+      "contact_evidence_summary": "Direct email on official team page.",
+      "evidence": [
+        {
+          "source_url": "https://milestonehotel.com/about/meet-our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Food & Beverage Manager thomaswhite@milestonehotel.com."
+        }
+      ]
+    },
+    {
+      "full_name": "Liz McGivern",
+      "title": "Vice President People & Culture",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7963 0706",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "People & Culture: contactpandc@rchmail.com",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees talent including commercial and tech roles; adjacent for organizational adoption of new revenue/booking tech.",
+      "contact_evidence_summary": "Official executive page; dedicated P&C phone and email on contact page.",
+      "evidence": [
+        {
+          "source_url": "https://redcarnationhotels.com/our-story/our-people/executive-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Vice President People & Culture Liz McGivern."
+        },
+        {
+          "source_url": "https://milestonehotel.com/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "People & Culture Telephone: +44 20 7963 0706 Email: contactpandc@rchmail.com"
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-21T15:59:44.653181+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 22,
+    "attempted": 0,
+    "succeeded": 0,
+    "failed": [],
+    "batch_id": null
+  }
+}

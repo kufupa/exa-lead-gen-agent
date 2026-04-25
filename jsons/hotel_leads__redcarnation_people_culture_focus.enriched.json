@@ -1,0 +1,64 @@
+{
+  "target_url": "https://chesterfieldmayfair.com/",
+  "generated_at_utc": "2026-04-24T09:56:31.995368+00:00",
+  "contacts": [
+    {
+      "full_name": "Liz McGivern",
+      "title": "Vice President People & Culture",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": "https://www.linkedin.com/in/lizmcgivern",
+      "email": "lmcgivern@rchmail.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees people, culture and training across the collection; influences adoption and training for new guest tech, CRM and booking systems.",
+      "contact_evidence_summary": "Direct email listed on official People & Culture team page. Executive team page confirms VP role.",
+      "evidence": [
+        {
+          "source_url": "https://redcarnationhotels.com/our-story/our-people/meet-the-people-culture-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Liz McGivern. Vice President People & Culture. lmcgivern@rchmail.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Iva Simoes",
+      "title": "Assistant Director, People & Culture",
+      "company": "Red Carnation Hotels",
+      "linkedin_url": "https://www.linkedin.com/in/iva-simoes",
+      "email": "isimoes@rchmail.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct People & Culture contact listed for Red Carnation Hotels leadership.",
+      "contact_evidence_summary": "Input seeded for focused enrichment on People & Culture leadership.",
+      "evidence": [
+        {
+          "source_url": "https://redcarnationhotels.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact target provided for focused enrichment."
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-24T10:04:48.962392+00:00",
+    "concurrency": 1,
+    "skipped_pre_enrichment": 0,
+    "attempted": 2,
+    "succeeded": 2,
+    "failed": [],
+    "batch_id": null
+  }
+}

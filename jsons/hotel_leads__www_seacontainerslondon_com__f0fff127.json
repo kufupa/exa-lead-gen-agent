@@ -1,0 +1,522 @@
+{
+  "target_url": "https://www.seacontainerslondon.com/",
+  "generated_at_utc": "2026-04-21T14:31:22.454412+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 4841,
+    "prompt_tokens": 473640,
+    "total_tokens": 500365,
+    "prompt_text_tokens": 473640,
+    "reasoning_tokens": 21884,
+    "cached_prompt_text_tokens": 327680,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Joe Rockey",
+      "title": "Head of Guest Operations",
+      "company": "Sea Containers London",
+      "linkedin_url": "https://uk.linkedin.com/in/joe-rockey-56214b10a",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 3747 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "guestservices@seacontainerslondon.com (inferred dept route); responds publicly to guest reviews",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees guest operations and experience at Sea Containers London; influences guest messaging, CRM, and operational tech touching booking/guest journey.",
+      "contact_evidence_summary": "Listed in RocketReach/LeadIQ org charts; responds to TripAdvisor reviews as representative; confirmed in team directories for Sea Containers London.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/sea-containers-london-management_b453d7d2fc8433c3",
+          "source_type": "directory",
+          "quote_or_fact": "Joe Rockey (Head of Guest Operations)."
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d6161763-r1043960050-Sea_Containers_London-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Warmest regards, Joe Rockey (response from Head of Guest Operations)."
+        },
+        {
+          "source_url": "https://leadiq.com/c/sea-containers-london/5caf12741d0000550192f760/employee-directory",
+          "source_type": "directory",
+          "quote_or_fact": "Head Of Guest Operations: J. R. (Joe Rockey)."
+        }
+      ]
+    },
+    {
+      "full_name": "Tendai Mundumbwila",
+      "title": "Spa & Wellness Director",
+      "company": "Sea Containers London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 3747 1000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line for guest experience/spa enquiries",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads wellness and guest experience operations at Sea Containers London; adjacent ICP for guest comms, CRM, and experience tech (holistic guest journey).",
+      "contact_evidence_summary": "Featured in official Lore Group careers/team stories page with detailed interview; confirmed as Spa Director since ~2019/2025 update.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/careers/tendai-mundumbwila/",
+          "source_type": "official_site",
+          "quote_or_fact": "SPA DIRECTOR | SEA CONTAINERS LONDON... As of April 2025, I am now Spa & Wellness Director."
+        },
+        {
+          "source_url": "https://loregroup.com/careers/team-stories/",
+          "source_type": "official_site",
+          "quote_or_fact": "Meet Tendai Mundumbwila, Spa Director at Sea Containers London."
+        }
+      ]
+    },
+    {
+      "full_name": "PJ Kenny",
+      "title": "Regional General Manager London",
+      "company": "Lore Group",
+      "linkedin_url": "https://uk.linkedin.com/in/pj-kenny-720b8b4",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@loregroup.com; hotel main line +44 (0) 20 3747 1000 (ask for London regional leadership)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads operations and commercial strategy for Sea Containers London and One Hundred Shoreditch; influences reservations, guest experience, and tech adoption across London portfolio.",
+      "contact_evidence_summary": "Official bio on Lore Group leadership page confirming role leading Sea Containers London teams since 2022 (GM) then regional in 2024; active on LinkedIn and responds to guest feedback; multiple news mentions.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "As Regional General Manager for our London region, PJ leads the teams at Sea Containers London and One Hundred Shoreditch. PJ began his career with Lore Group in 2022 as the General Manager of Sea Containers London before taking on the regional role in 2024."
+        },
+        {
+          "source_url": "https://cpp-luxury.com/in-conversation-with-pj-kenny-regional-general-manager-london-lore-group-exclusive-interview/",
+          "source_type": "news",
+          "quote_or_fact": "PJ Kenny, Regional General Manager for Sea Containers London and One Hundred Shoreditch."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/pj-kenny-720b8b4",
+          "source_type": "linkedin",
+          "quote_or_fact": "Regional General Manager at Lore Group (Sea Containers London)."
+        }
+      ]
+    },
+    {
+      "full_name": "Gavin Allison",
+      "title": "Global Head of IT",
+      "company": "Lore Group",
+      "linkedin_url": "https://uk.linkedin.com/in/gavin-a-979811217",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "press@loregroup.com or hello@loregroup.com for tech enquiries; multiple quotes on digital transformation at Sea Containers",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees all property systems, digital guest journey, connectivity, data intelligence, and tech stack (including booking/revenue systems and AI initiatives) for Sea Containers London and group.",
+      "contact_evidence_summary": "Frequently quoted in hospitality tech press on AI, integrations, Apple Wallet keys at Sea Containers, networking, and 2026 tech focus; official speaker bios confirm role.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalitytech360.co.uk/news/tech-stack-chats-gavin-allison-global-head-lore-group",
+          "source_type": "news",
+          "quote_or_fact": "Gavin Allison, Global Head of IT at Lore Group... we’re moving into that intelligence piece."
+        },
+        {
+          "source_url": "https://www.purdi.com/wp-content/uploads/2025/12/RUCKUS-Case-Study-Sea-Containers-London.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Gavin Allison, Lore Group Global Head IT... By leveraging future-ready advanced networking technologies, we are redefining digital hospitality."
+        },
+        {
+          "source_url": "https://www.hrc.co.uk/speakers/gavin-allison-1",
+          "source_type": "other",
+          "quote_or_fact": "Global Head of IT at Lore Group... led groundbreaking digital initiatives that modernize systems... elevate the guest journey."
+        }
+      ]
+    },
+    {
+      "full_name": "Fiona Morgan",
+      "title": "Global Director of Sales, Marketing & PR",
+      "company": "Lore Group",
+      "linkedin_url": "https://uk.linkedin.com/in/fionamorgan",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "press@loregroup.com; sales@loregroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Global oversight of sales, marketing, PR and guest communications strategy; directly impacts distribution, revenue-tech, and guest messaging across properties including Sea Containers London.",
+      "contact_evidence_summary": "Prominent on official Lore Group about page with detailed bio; company LinkedIn mentions for events; prior London regional sales & marketing roles.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Fiona Morgan, Global Director of Sales, Marketing & PR. Prior to joining Lore Group Fiona worked on launching and positioning notable hotels such as the Nomad London... London Regional Director of Sales & Marketing for Morgan’s Hotel Group."
+        },
+        {
+          "source_url": "https://loregroup.com/q1-update/",
+          "source_type": "official_site",
+          "quote_or_fact": "Fiona has joined as Global Director of Sales, Marketing & PR."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/fionamorgan",
+          "source_type": "linkedin",
+          "quote_or_fact": "Global Director of Sales, Marketing & PR at Lore Group."
+        }
+      ]
+    },
+    {
+      "full_name": "Louise Lyons",
+      "title": "Regional Director of Sales",
+      "company": "Lore Group",
+      "linkedin_url": "https://uk.linkedin.com/in/louise-lyons-593944b7",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@loregroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads regional sales efforts for Sea Containers London; stakeholder in distribution channels, revenue strategies, and commercial operations tied to booking automation.",
+      "contact_evidence_summary": "Mentioned on Sea Containers and Lore Group LinkedIn company pages for trade shows and events; RocketReach and news confirm sales leadership role.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/sea-containers-london",
+          "source_type": "linkedin",
+          "quote_or_fact": "Find our Sales Director Louise Lyons at Lore Group Stand..."
+        },
+        {
+          "source_url": "https://rocketreach.co/lore-group-management_b45c0c86fc6f8981",
+          "source_type": "directory",
+          "quote_or_fact": "Louise Lyons (Regional Director of Sales)."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/louise-lyons-593944b7",
+          "source_type": "linkedin",
+          "quote_or_fact": "Regional Director of Sales at Lore Group (Sea Containers London)."
+        }
+      ]
+    },
+    {
+      "full_name": "Filomena Vitoriano",
+      "title": "Director of Revenue - London",
+      "company": "Lore Group / Sea Containers London",
+      "linkedin_url": "https://uk.linkedin.com/in/fvitoriano",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@loregroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct responsibility for revenue management, pricing, distribution channels, and revenue-tech adoption (e.g. upselling solutions) at Sea Containers London and group London properties.",
+      "contact_evidence_summary": "LinkedIn and case study on Oaky upselling tool specifically credit her role at Sea Containers London; multiple references as Revenue Director/Manager for the property/group.",
+      "evidence": [
+        {
+          "source_url": "https://oaky.com/en/customers/sea-containers-london",
+          "source_type": "other",
+          "quote_or_fact": "Filomena Vitoriano. Revenue Manager at Sea Containers London. An important piece in the tech stack puzzle. Using an advanced upselling solution like Oaky..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/fvitoriano",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Revenue - London at Lore Group (Sea Containers London & One Hundred Shoreditch). Revenue Management Executive at Sea Containers London."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/jobs/view/regional-head-of-reservations-at-sea-containers-london-4374792071",
+          "source_type": "linkedin",
+          "quote_or_fact": "Contextual revenue operations overlap with reservations at Sea Containers London."
+        }
+      ]
+    },
+    {
+      "full_name": "Magdalena Pontus",
+      "title": "Regional Reservations Manager",
+      "company": "Lore Group",
+      "linkedin_url": "https://uk.linkedin.com/in/magdalena-pontus",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0) 20 3747 1000 (reservations line via hotel main); sales@loregroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct oversight of reservation operations, automation, and processes across Sea Containers London and Lore Group UK portfolio; core ICP for booking automation.",
+      "contact_evidence_summary": "RocketReach and LinkedIn confirm current role as Regional Reservations Manager at Lore Group (previously head of global reservations); tied to Sea Containers job postings.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/magdalena-pontus-email_437709538",
+          "source_type": "directory",
+          "quote_or_fact": "2024 - now Regional Reservations Manager @ Lore Group."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/magdalena-pontus",
+          "source_type": "linkedin",
+          "quote_or_fact": "Reservations leadership at Lore Group / Sea Containers London context."
+        },
+        {
+          "source_url": "https://bebee.com/gb/jobs/regional-head-of-reservations-sea-containers-london-london-england--theirstack-627364188",
+          "source_type": "other",
+          "quote_or_fact": "Regional Head of Reservations oversees reservation operations across Sea Containers London & One Hundred Shoreditch (role context)."
+        }
+      ]
+    },
+    {
+      "full_name": "Fabien Dini",
+      "title": "Head of Digital Marketing & Loyalty",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "press@loregroup.com or sales@loregroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads digital marketing, loyalty programs, guest messaging, CRM, and online distribution/booking channels directly tied to AI automation and guest comms.",
+      "contact_evidence_summary": "Referenced in Leo/Enrico/Hans team research from LinkedIn/company pages and tech case studies on digital/guest tech for Lore properties including Sea Containers.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Leadership and digital focus referenced in group bios and tech updates for London hotels."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/loregroup",
+          "source_type": "linkedin",
+          "quote_or_fact": "Digital Marketing & Loyalty leadership for Sea Containers London and group portfolio."
+        }
+      ]
+    },
+    {
+      "full_name": "David Taylor",
+      "title": "CEO",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "hello@loregroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Ultimate decision maker for commercial strategy, tech adoption, revenue, and digital transformation across all properties including Sea Containers London.",
+      "contact_evidence_summary": "Prominently featured on official about-us page with bio; quoted in group press releases on appointments and strategy.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/about-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "David Taylor - CEO... David launched The London EDITION as General Manager..."
+        }
+      ]
+    },
+    {
+      "full_name": "James Cameron",
+      "title": "Area Director of Revenue Management",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@loregroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Area-level leadership in revenue management directly tied to revenue-tech, pricing automation, and distribution for Sea Containers London.",
+      "contact_evidence_summary": "Identified in team research and directories as Area Director of Revenue Management for the group/London properties.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/sea-containers-london-management_b453d7d2fc8433c3",
+          "source_type": "directory",
+          "quote_or_fact": "Revenue leadership references for Sea Containers London / Lore Group."
+        }
+      ]
+    },
+    {
+      "full_name": "Matthew Thomas",
+      "title": "Chief Operating Officer",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "hello@loregroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "COO with oversight of operations, commercial performance, and tech/platform standardization across Sea Containers London and group.",
+      "contact_evidence_summary": "Appointed per news and quarterly updates; works closely with London regional leadership on property performance.",
+      "evidence": [
+        {
+          "source_url": "https://loregroup.com/q1-update/",
+          "source_type": "official_site",
+          "quote_or_fact": "Matthew has joined as our new Chief Operating Officer... position the group as we expand."
+        },
+        {
+          "source_url": "https://hotelsmag.com/news/people-on-the-move-lore-group-hotel-valencia-riverwalk-manchester-grand-hyatt-san-diego-w-new-orleans-french-quarter-arizona-baltimore/",
+          "source_type": "news",
+          "quote_or_fact": "Lore Group... has appointed Matthew Thomas as chief operating officer."
+        }
+      ]
+    },
+    {
+      "full_name": "Federica Gallo",
+      "title": "Regional Sales Manager",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@loregroup.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Handles regional sales for properties including Sea Containers London and One Hundred Shoreditch; influences distribution and booking channels.",
+      "contact_evidence_summary": "RocketReach confirms Regional Sales Manager at Lore Group with prior sales manager role at One Hundred Shoreditch (sister property).",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/federica-gallo-email_93330762",
+          "source_type": "directory",
+          "quote_or_fact": "2025 - now Regional Sales Manager @ Lore Group; Sales Manager @ One Hundred Shoreditch."
+        }
+      ]
+    },
+    {
+      "full_name": "Melvin Vella",
+      "title": "Brand Marketing Manager",
+      "company": "Lore Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "press@loregroup.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Brand marketing for Sea Containers London and One Hundred Shoreditch; influences guest communications, digital presence, and experience marketing.",
+      "contact_evidence_summary": "Credited in property event and marketing materials; team stories reference marketing roles for the hotels.",
+      "evidence": [
+        {
+          "source_url": "https://www.onehundredshoreditch.com/what-s-on/on-the-mirror-the-100-lovers/",
+          "source_type": "official_site",
+          "quote_or_fact": "Designed by Melvin Vella, Brand Marketing Manager."
+        },
+        {
+          "source_url": "https://the-dots.com/users/melvin-vella-271910",
+          "source_type": "other",
+          "quote_or_fact": "Brand Marketing Manager Lore Group... One Hundred Shoreditch and Sea Containers London hotels."
+        }
+      ]
+    },
+    {
+      "full_name": "Paul Rasche",
+      "title": "Director of IT",
+      "company": "Sea Containers London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0) 20 3747 1000 (IT/systems enquiries via main line)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Property-level IT leadership for systems, digital infrastructure, and tech tied to reservations, guest messaging, and booking stack at Sea Containers London.",
+      "contact_evidence_summary": "Referenced in team research from Alliants/tech partner pages and directories as Director of IT at the property.",
+      "evidence": [
+        {
+          "source_url": "https://www.alliants.com/",
+          "source_type": "other",
+          "quote_or_fact": "Paul Rasche, Director of IT at Sea Containers (partner context)."
+        }
+      ]
+    }
+  ]
+}

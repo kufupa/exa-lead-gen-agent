@@ -1,0 +1,5 @@
+Task: produce the JSON object described in the system prompt (match_id, subject, body).
+
+Use the JSON below for personalisation: full_name, title, company, email fields, target_url / hotel context, fit_reason, contact_evidence_summary, intimacy_grade, phase1_research, and outreach_* fields if present. Ground every factual claim in this data or in the fixed sender/partner facts from the system prompt—nothing else.
+
+Reminder: subject = at least Key term 1 + Key term 2; third chip optional; fourth only if still scannable. Body follows the numbered scaffold; sign as Ansh Arora. Never assign Cole’s professional or music background to Ansh.

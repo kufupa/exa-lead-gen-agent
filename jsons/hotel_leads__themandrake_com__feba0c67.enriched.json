@@ -1,0 +1,1943 @@
+{
+  "target_url": "https://themandrake.com/",
+  "generated_at_utc": "2026-04-25T13:41:46.897393+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 5786,
+    "prompt_tokens": 2748089,
+    "total_tokens": 2882500,
+    "prompt_text_tokens": 2748089,
+    "reasoning_tokens": 128625,
+    "cached_prompt_text_tokens": 1289567,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Melissa Corstjens",
+      "title": "Senior Guest Relations Manager",
+      "company": "The Mandrake",
+      "linkedin_url": "https://www.linkedin.com/in/melissa-culver-2a331264",
+      "email": "melissa@themandrake.com",
+      "email2": "dutymanager@themandrake.com",
+      "phone": "+44 7387017496",
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "Main reservations: sleep@themandrake.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly handles guest communications, relations, and journey which ties to guest messaging and automation.",
+      "contact_evidence_summary": "Public vCard lists direct business email and mobile tied to The Mandrake.",
+      "evidence": [
+        {
+          "source_url": "https://vcard.link/card/Djho",
+          "source_type": "directory",
+          "quote_or_fact": "Ms Melissa Corstjens, The Mandrake, Senior Guest Relations Manager. Phones: +44 (0)7387017496 , +44 (0)203 146 7770"
+        },
+        {
+          "source_url": "https://themandrake.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "General Enquiries and Reservations emails listed"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/melissa-culver-2a331264",
+        "display_name": "Melissa Culver",
+        "headline": "Duty Manager at The Mandrake Hotel",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 11 years and 11 months",
+        "experience": [
+          {
+            "title": "6 Month Internship",
+            "organization": "Harbour Grand Hong Kong",
+            "date_range": "Jun 2013 - Dec 2013",
+            "location": "Hong Kong",
+            "description": "Department: Other • Level: Intern"
+          },
+          {
+            "title": "6 Month Internship",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "Jan 2014 - Jun 2014",
+            "location": "Abu Dhabi",
+            "description": "Department: Other • Level: Intern"
+          },
+          {
+            "title": "Concierge",
+            "organization": "EDITION",
+            "date_range": "Jan 2015 - Mar 2019",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "The Mandrake Hotel",
+            "date_range": "Apr 2019 - Present",
+            "location": null,
+            "description": "Department: Operations • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Glion Institute of higher education",
+            "degree_or_field": null,
+            "date_range": "2011 - 2013"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Juozas Jonauskas",
+      "title": "Director of Operations",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/juozas-jonauskas-5b7485aa",
+      "email": "juozas@themandrake.com",
+      "email2": null,
+      "phone": "+44 (0)7427 634114",
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "events@themandrake.com or sleep@themandrake.com for team routing",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct operational leadership over reservations, F&B/guest experience, and commercial ops; ideal for AI automation and guest messaging tech adoption.",
+      "contact_evidence_summary": "Public vCard lists direct personal email juozas@themandrake.com and mobile; confirmed in RocketReach/Prospeo as key management; active on LinkedIn and news mentions with GM.",
+      "evidence": [
+        {
+          "source_url": "https://vcard.link/card/DjZb",
+          "source_type": "directory",
+          "quote_or_fact": "Email: juozas@themandrake.com Phones: +44 (0)7427634114 · +44 (0)20 3146 7770 Title: Head of Food & Beverage (updated to Dir Ops)"
+        },
+        {
+          "source_url": "https://prospeo.io/c/the-mandrake",
+          "source_type": "directory",
+          "quote_or_fact": "Juozas Jonauskas Director Of Operations @themandrake.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/juozas-jonauskas-5b7485aa",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Operations · The Mandrake"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/juozas-jonauskas-5b7485aa",
+        "display_name": "Juozas Jonauskas",
+        "headline": "Director Of Operations at The Mandrake",
+        "location": "London, England, United Kingdom",
+        "about": "A highly skilled and results-oriented hospitality professional with over 15 years of experience in managing F&B operations in London. Renowned for ensuring flawless operational execution, elevating guest satisfaction, and surpassing revenue objectives. Demonstrates exceptional leadership in guiding high-performing teams, leveraging comprehensive industry knowledge and advanced crisis management expertise to achieve consistent excellence.\n\nTotal Experience: 14 years and 2 months",
+        "experience": [
+          {
+            "title": "Assistant Manager",
+            "organization": "Marlon Abela Restaurant Corporation (MARC) Ltd.",
+            "date_range": "Oct 2011 - May 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Restaurant Manager",
+            "organization": "Conrad London St. James Hotel",
+            "date_range": "Jul 2014 - Jul 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Conrad Hotels & Resorts",
+            "date_range": "Jul 2017 - Jun 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "The Mandrake Hotel",
+            "date_range": "Oct 2019 - Jun 2021",
+            "location": "The Mandrake hotel",
+            "description": null
+          },
+          {
+            "title": "Head Of Food And Beverage",
+            "organization": "The Mandrake",
+            "date_range": "Jun 2021 - Sep 2025",
+            "location": "20-21 Newman street",
+            "description": null
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "The Mandrake",
+            "date_range": "May 2025 - Present",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "operations",
+          "leadership",
+          "performing",
+          "crisis",
+          "management",
+          "director",
+          "food",
+          "results oriented",
+          "guest satisfaction",
+          "crisis management"
+        ],
+        "activity_themes": [
+          "London Lifestyle Awards 2025"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/juozas-jonauskas-5b7485aa",
+          "https://www.linkedin.com/posts/karolina-rutkauskaite-aa486830_still-smiling-after-an-unforgettable-evening-activity-7392663961814609921-niKo"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Eljesa Saciri",
+      "title": "General Manager",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/eljesa-saciri",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "enquiries@themandrake.com or sleep@themandrake.com; press mentions often quote her directly",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "As GM, has clear influence over all reservations automation, revenue strategy, guest journey, systems and tech stack decisions for the property.",
+      "contact_evidence_summary": "Multiple news articles on her 2025 appointment as first female GM; LinkedIn company activity; works closely with founder.",
+      "evidence": [
+        {
+          "source_url": "https://www.thecaterer.com/news/eljesa-saciri-appointed-general-manager-at-the-mandrake-in-london",
+          "source_type": "news",
+          "quote_or_fact": "Eljesa Saciri appointed general manager at The Mandrake in London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/eljesa-saciri",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager at The Mandrake"
+        },
+        {
+          "source_url": "https://themandrake.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Main phone +44 (0)20 3146 7770; department emails listed"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/eljesa-saciri",
+        "display_name": "Eljesa Saciri",
+        "headline": "General Manager | Rewriting the Rules | Speaker| Equality Advocate | Acorn 30 under 30 award winner | Trailblazer",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Hotelier | Speaker | Equality Advocate | Paving the way for change\n\nTotal Experience: 9 years and 8 months",
+        "experience": [
+          {
+            "title": "Cocktail Waitress",
+            "organization": "The Doyle Collection",
+            "date_range": "Mar 2016 - Sep 2016",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Senior Hostess",
+            "organization": "The Doyle Collection",
+            "date_range": "Sep 2016 - Sep 2018",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Senior"
+          },
+          {
+            "title": "Head Host",
+            "organization": "The Doyle Collection",
+            "date_range": "Dec 2018 - Mar 2019",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Head"
+          },
+          {
+            "title": "Floor Manager",
+            "organization": "The Doyle Collection",
+            "date_range": "Mar 2019 - Jul 2021",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Zetter",
+            "date_range": "Jul 2021 - Oct 2022",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Zetter",
+            "date_range": "Oct 2022 - Jun 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Mandrake",
+            "date_range": "Jun 2025 - Present",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel"
+        ],
+        "activity_themes": [
+          "Luxury hospitality awards and events",
+          "Future of hospitality and tourism forums",
+          "Hotel general management and leadership roles",
+          "Global policy discussions including Davos and WEF",
+          "Brand building and business clarity strategies",
+          "Networking in London luxury hotel sector"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/eljesa-saciri"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jose Adea",
+      "title": "Revenue Manager",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/jose-adea-9aa35930",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "Likely reachable via reservations/sleep@themandrake.com; revenue role often collaborates with reservations team",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct responsibility for revenue management, reservations automation, and yield tech; core ICP for AI booking and revenue-tech.",
+      "contact_evidence_summary": "LinkedIn profile confirms current Revenue Manager role at The Mandrake; RocketReach lists tenure since 2023.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/jose-adea-9aa35930",
+          "source_type": "linkedin",
+          "quote_or_fact": "Revenue Manager · The Mandrake"
+        },
+        {
+          "source_url": "https://rocketreach.co/jose-adea-email_51471463",
+          "source_type": "directory",
+          "quote_or_fact": "2023 - now Revenue Manager @ The Mandrake"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/jose-adea-9aa35930",
+        "display_name": "Jose Adea",
+        "headline": "Revenue Manager at The Mandrake",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "With over 18 years of hospitality experience, has held numerous leadership positions in different sized boutique hotels in London and has a proven track record of creating and driving revenue strategies, increasing market share, optimise distribution and maximise revenue.\n\nTotal Experience: 19 years and 3 months",
+        "experience": [
+          {
+            "title": "Reception",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Jan 2005 - Jan 2006",
+            "location": null,
+            "description": "The Soho Hotel\nDepartment: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Reservations",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Jan 2006 - Jan 2008",
+            "location": null,
+            "description": "The Soho Hotel\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Reservations Supervisor",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Jan 2008 - Sep 2009",
+            "location": null,
+            "description": "The Soho Hotel\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Oct 2009 - Sep 2011",
+            "location": null,
+            "description": "The Charlotte Street Hotel\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Oct 2011 - Feb 2014",
+            "location": null,
+            "description": "The Soho Hotel\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Feb 2014 - Feb 2015",
+            "location": null,
+            "description": "Ham Yard Hotel\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Revenue And Reservations Manager",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Feb 2015 - Aug 2021",
+            "location": null,
+            "description": "The Charlotte Street Hotel\nDepartment: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Chief Booker (Revenue Manager)",
+            "organization": "CHATEAU DENMARK",
+            "date_range": "Aug 2021 - Jun 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "The Mandrake",
+            "date_range": "Nov 2023 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Institute of Leadership and Management",
+            "degree_or_field": "NVQ Level Management 3",
+            "date_range": null
+          },
+          {
+            "school": "PWU, Philippines",
+            "degree_or_field": "B.S., Hotel and Restaurant Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "leadership",
+          "hotels",
+          "driving",
+          "distribution",
+          "reservations"
+        ],
+        "activity_themes": [
+          "Hospitality industry networking events",
+          "Global revenue management forums",
+          "Business breakfasts and consumer insights",
+          "Hotel and wine industry awards",
+          "New hospitality business launches"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/jose-adea-9aa35930"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Darren Evans",
+      "title": "Director of Revenue Management",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/darren-evans-22a35a211",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "sleep@themandrake.com or reservations related",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads revenue and likely reservations strategy; strong fit for revenue-tech, automation, and distribution tools.",
+      "contact_evidence_summary": "Listed in Prospeo.io as Director Of Revenue Management; LinkedIn profile associated with The Mandrake; responded to TripAdvisor reviews.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/the-mandrake",
+          "source_type": "directory",
+          "quote_or_fact": "Darren Evans Director Of Revenue Management @themandrake.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/darren-evans-22a35a211",
+          "source_type": "linkedin",
+          "quote_or_fact": "The Mandrake"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d12735196-r674559140-The_Mandrake-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Darren Evans, Revenue Management at The Mandrake, responded to this review"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/darren-evans-22a35a211",
+        "display_name": "Darren Evans",
+        "headline": "Director Of Revenue Management at The Mandrake",
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "The Mandrake",
+            "date_range": "Current",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "management",
+          "revenue management"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jeremy Daudin",
+      "title": "Director of Sales and Marketing",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/jeremydaudin",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "events@themandrake.com; enquiries@themandrake.com; Main phone: +44 (0)20 3146 7770",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads sales, marketing, distribution and guest communications; direct stakeholder for AI booking automation, revenue tech and guest messaging.",
+      "contact_evidence_summary": "Recently appointed, confirmed in GM Eljesa Saciri's LinkedIn post. Provides strong route via sales/marketing related department emails.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/eljesa-saciri_the-best-things-come-to-those-who-wait-activity-7400141515014176768-Q6R3",
+          "source_type": "linkedin",
+          "quote_or_fact": "welcomed Jeremy Daudin MIH to The Mandrake Tribe this week as Director of Sales and Marketing"
+        },
+        {
+          "source_url": "https://themandrake.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "events@themandrake.com for private events which ties to sales"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/jeremydaudin",
+        "display_name": "Jeremy Daudin MIH",
+        "headline": null,
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://uk.linkedin.com/in/jeremydaudin"
+        ],
+        "data_quality": "weak",
+        "caveats": "Profile text appears limited to header information only, likely due to login wall or preview mode; no experience, education, about, or other sections available."
+      }
+    },
+    {
+      "full_name": "Karolina Rutkauskaite",
+      "title": "Sales and Events Manager",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/karolina-rutkauskaite-aa486830",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "events@themandrake.com (private events enquiries directly from site)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles sales, events, groups; directly influences distribution, booking channels, guest messaging and CRM for events segment.",
+      "contact_evidence_summary": "LinkedIn confirms role at The Mandrake as Multi-Site Sales and Events Manager; aligns with events email on official site.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/karolina-rutkauskaite-aa486830",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experienced and passionate Multi-Site Sales and Events Manager ... Experience: The Mandrake"
+        },
+        {
+          "source_url": "https://themandrake.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Private Events Enquiries: events@themandrake.com"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/karolina-rutkauskaite-aa486830",
+        "display_name": "Karolina Rutkauskaite",
+        "headline": "Groups and Events manager at the Mandrake",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced and passionate Multi-Site Sales and Events Manager with 13 years of proven success in the hospitality industry. I thrive on the dynamic nature of the job and am always eager to explore new trends and opportunities to enhance customer experiences and drive business growth. With a strong track record of exceeding sales targets and executing memorable events across multiple locations, I bring a strategic mindset and a creative approach to every project. My dedication to delivering exceptional service, combined with my ability to adapt to changing market demands, makes me a valuable asset to any business and organisation. Recognised for adeptly assessing operational needs and implementing solutions to drive cost savings, revenue improvement, and enhance customer satisfaction. I'm resourceful and well-organised with a proven track record of leadership and team-building. Seeking a role where I can leverage my experience to continue a successful career trajectory. With a passion for business expansion, innovation, and success, I possess expertise in economic and business changes, sales and marketing strategy implementation, effective leadership, and a deep understanding of market and consumer needs. As a motivated individual, I am eager to contribute value to both small and large-scale event planning. I bring a keen attention to detail and the ability to meet challenges with critical thinking and adaptability. With a history of coordinating and executing successful events, I am prepared to help teams achieve company goals and drive client satisfaction.",
+        "experience": [
+          {
+            "title": "VIP Hostess",
+            "organization": "Novus",
+            "date_range": "Sep 2011 - Jun 2015",
+            "location": "London",
+            "description": "Highly skilled in greeting guests, escorting them to tables. Demonstrated ability to anticipate and address guests’ service needs and thank guests with genuine pleasure. Substantial knowledge of bars, restaurant, and room service. In-depth knowledge of answering telephones in a suitable manner. Hands-on experience in assigning work tasks and organize activities of dining room workers to make sure timely and polite service to patrons. Able to ensure that special requests are lodged and passed to restaurant / Bar staff. Proven ability to adjusts complaints of customers and guests. Proven ability to obtain reservations as required ensuring correctness. Communication: Able to speak with others using clear and professional language."
+          },
+          {
+            "title": "Brand Ambassador Visual Merchandiser",
+            "organization": "Luxottica",
+            "date_range": "May 2012 - May 2014",
+            "location": "Covent Garden",
+            "description": "Regularly reporting on product performance and providing associated commentary on any exceptions to objectives. Working closely with management to identify targets. Ensuring subsequent availability and correct pricing of stock. Completing regular stock audits to ensure point of sale standards are met. Moreover, ensuring all prices are correct to meet revenue and profitability targets. Analysing the floor plan to ensure all stock is intuitively placed. Providing ideas to staff and management as to how improvements can be made. Administering and organising stock purchasing per current and forecasted requirements. Ensuring stock levels are optimised at all times."
+          },
+          {
+            "title": "Sales Events Executive",
+            "organization": "Novus",
+            "date_range": "Jun 2014 - Jan 2016",
+            "location": "Piccadilly Institute",
+            "description": "Support the operations team and ensure smooth delivery of key Events from concept to execution. Establishing and maintaining contact with key contacts, employers and private customers supporting all efforts to maintain rapport, and regularly setting meetings over various mediums utilising internal systems to log and monitor interactions and account developments. Assisting in the development of sales plans and providing any initiative capable of elevating performance. Maximising guest list bookings and capitalising on all enquiries. Work to pre-determined targets as set by the venue Sales Manager, maximising all opportunities to achieve these. Continually build and validate a Database of contacts with key employers, organisations and private customers."
+          },
+          {
+            "title": "Senior Sales Events Executive",
+            "organization": "Novus",
+            "date_range": "Jan 2016 - Feb 2017",
+            "location": "Bar Soho",
+            "description": "Growing and maximising Pre-booked sales, encompassing all aspects of corporate and consumer channels. Managing and focusing other members of staff to exceed the targets and maximise every sales opportunity. Working to pre-determined targets as set by the business, maximising all opportunities to achieve these. Organising and executing Showcase events ensuring attendance of key customers such as Event Bookers and Corporate Clients. Continually build and validate a Database of contacts with key employers, organisations and private customers by visiting existing clients and developing local initiatives to drive Pre-booked sales. Creating and executing business plans for the venue, detailing clear targets and objectives. Arranging and conducting client meetings to promote the venue. Attending regular and up to date trainings."
+          },
+          {
+            "title": "Sales Events Manager",
+            "organization": "Novus",
+            "date_range": "Feb 2017 - Jun 2019",
+            "location": null,
+            "description": "(In addition to the previous role) Responsible as part of a team tasked to deliver weekly pre-booked sales for a reputable venue within the West End turning over up to £21k per week (average). Supporting and partaking in central and local campaigns to achieve various KPI’s and achieving total targets. Attending weekly meetings, managing the team and generating corporate bookings. Playing an integral role in growing the corporate offering and sales. Key contact for clients to discuss and explore events available for future aspirations. Working closely with various business functions to design and deliver new product launches."
+          },
+          {
+            "title": "Sales Events Manager",
+            "organization": "Novus",
+            "date_range": "Jul 2018 - Jun 2019",
+            "location": null,
+            "description": "(In addition to the previous role) Responsible as part of a team tasked to deliver weekly pre-booked sales for a reputable venue within the West End turning over up to £21k per week (average). Supporting and partaking in central and local campaigns to achieve various KPI’s and achieving total targets. Attending weekly meetings, managing the team and generating corporate bookings. Playing an integral role in growing the corporate offering and sales. Key contact for clients to discuss and explore events available for future aspirations. Working closely with various business functions to design and deliver new product launches."
+          },
+          {
+            "title": "Multi-Site Sales Events Manager",
+            "organization": "The Breakfast Group",
+            "date_range": "Jun 2019 - Mar 2025",
+            "location": null,
+            "description": "Salvador & Amanda / Yuu Kitchen"
+          },
+          {
+            "title": "Groups And Events Manager",
+            "organization": "The Mandrake",
+            "date_range": "Feb 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Vilniaus Uzupio Gimnazija",
+            "degree_or_field": "High School",
+            "date_range": "2005 - 2009"
+          },
+          {
+            "school": "Middlesex University",
+            "degree_or_field": "BA International Tourism Management and Marketing",
+            "date_range": "2010 - 2013"
+          }
+        ],
+        "skills": [
+          "sales",
+          "hospitality",
+          "creative",
+          "organisation",
+          "leadership",
+          "innovation",
+          "marketing",
+          "strategy",
+          "planning",
+          "adaptability",
+          "reporting",
+          "management",
+          "pricing",
+          "profitability",
+          "purchasing",
+          "reservations",
+          "database",
+          "arranging",
+          "responsible",
+          "campaigns",
+          "kpi",
+          "design",
+          "operations",
+          "hospitality industry",
+          "cost savings",
+          "customer satisfaction",
+          "team building",
+          "marketing strategy",
+          "strategy implementation",
+          "event planning",
+          "critical thinking",
+          "staff management",
+          "product launches",
+          "executive support",
+          "sales manager"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Rahela Krulic",
+      "title": "Guest Relations Manager / Groups and Events Sales",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/rahela-krulic-4a4753198",
+      "email": "events@themandrake.com",
+      "email2": "enquiries@themandrake.com",
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "events@themandrake.com or enquiries@themandrake.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles guest relations, groups and events sales; direct touchpoint for guest messaging, CRM and booking processes.",
+      "contact_evidence_summary": "LinkedIn profile confirms role at The Mandrake; aligns with events and general enquiry routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/rahela-krulic-4a4753198",
+          "source_type": "linkedin",
+          "quote_or_fact": "Guest Relations Manager at The Mandrake"
+        },
+        {
+          "source_url": "https://themandrake.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Events and general enquiries emails"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/rahela-krulic-4a4753198",
+        "display_name": "Rahela Krulic",
+        "headline": "GRM at The Mandrake Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Confident Groups and Events Sales Executive with an eye for detail in operational, financial, and personnel matters. Accomplished in running professional and financially sound operations according to industry best practices and regulatory requirements. History of using creative approaches to solve day-to-day problems and seeking out areas for improvement.",
+        "experience": [
+          {
+            "title": "Groups Reservation Executive",
+            "organization": "Copthorne Tara Hotel",
+            "date_range": null,
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "GRM",
+            "organization": "The Mandrake Hotel",
+            "date_range": null,
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales",
+          "running",
+          "operations",
+          "creative",
+          "best practices",
+          "regulatory requirements"
+        ],
+        "activity_themes": [
+          "Hiring speed and talent acquisition",
+          "Recruitment and job hopping perceptions",
+          "Leadership principles and actions",
+          "Sales techniques and pipeline management",
+          "Events coordination and hospitality",
+          "Remote job resources"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/rahela-krulic-4a4753198"
+        ],
+        "data_quality": "partial",
+        "caveats": "No explicit experience section with dates or descriptions in text; roles extracted from headline and recommendation mention."
+      }
+    },
+    {
+      "full_name": "Rami Fustok",
+      "title": "Founder and Owner",
+      "company": "The Mandrake",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3146 7770",
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "Via PA Julia Wolff or enquiries@themandrake.com; high level strategic decisions",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Owner and visionary; influences commercial strategy, tech adoption, guest experience innovations across the property.",
+      "contact_evidence_summary": "Frequently quoted in news as founder; comments on appointments and vision for the hotel.",
+      "evidence": [
+        {
+          "source_url": "https://thehotelmagazine.co.uk/the-mandrake-hotel-fitzrovia-appoints-tim-lang-as-director-of-food-beverage/",
+          "source_type": "news",
+          "quote_or_fact": "Rami Fustok, Founder of The Mandrake, said: “We are delighted to welcome Tim Lang...”"
+        },
+        {
+          "source_url": "https://themandrake.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Main contact details for the hotel"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Stephanie Lai",
+      "title": "Senior Marketing Executive",
+      "company": "The Mandrake",
+      "linkedin_url": "https://www.linkedin.com/in/stephanielai10",
+      "email": "stephanie@themandrake.com",
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "enquiries@themandrake.com or marketing related routes",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Marketing role influences guest communications, digital presence, CRM, and booking conversion tech.",
+      "contact_evidence_summary": "Listed in RocketReach and Prospeo as key marketing contact at The Mandrake; vCard confirms stephanie@themandrake.com.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/the-mandrake-management_b4b9d59bfb0eaf54",
+          "source_type": "directory",
+          "quote_or_fact": "Stephanie Lai (Senior Marketing Executive)"
+        },
+        {
+          "source_url": "https://vcard.link/card/DUQr",
+          "source_type": "directory",
+          "quote_or_fact": "Email: stephanie@themandrake.com Phone: +44 (0)20 3146 7770"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/stephanielai10",
+        "display_name": "Stephanie L.",
+        "headline": "Senior Marketing Executive at The Mandrake",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Creative and strategic marketing professional with 9+ years of experience across luxury… Total Experience: 8 years and 10 months",
+        "experience": [
+          {
+            "title": "Marketing Creative Design",
+            "organization": "House of Sunny",
+            "date_range": "May 2014 - Jul 2014",
+            "location": "London, United Kingdom",
+            "description": "Worked directly with the Studio Manager to support on the design process and preparing for sales season, this includes identifying and communicating with potential clients, building partnership with influencers while contributing to the design development through pattern-cutting, sampling and researching."
+          },
+          {
+            "title": "Marketing PR",
+            "organization": "Huishan Zhang Ltd",
+            "date_range": "Jul 2014 - Nov 2014",
+            "location": "London, United Kingdom",
+            "description": "Led the general running of the studio and contributed to coming up with goals and strategies to establish and maintain brand presence in the market. Supported the PR Marketing Manager on projects such as developing sales strategies, marketing campaigns, and coordinating press events and launch parties as well as designing marketing assets. Showed terrific organisational and communication skills during the London Fashion Week Presentation, by helping to organise and coordinate at model castings, photoshoots and direct other interns backstage. In results, I was handpicked by the Sales and Marketing team to travel along to Paris for the Showroom Campaign to represent the luxury brand and present the new collection for clients and buyers."
+          },
+          {
+            "title": "Sales Consultant",
+            "organization": "Christian Dior Couture",
+            "date_range": "Jul 2015 - Aug 2016",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Sales",
+            "organization": "Christian Dior Couture",
+            "date_range": "Sep 2016 - Apr 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Trainee Supervisor",
+            "organization": "Christian Dior Couture",
+            "date_range": "May 2017 - Dec 2017",
+            "location": "London, England, United Kingdom",
+            "description": "Appointed to CRM Specialist."
+          },
+          {
+            "title": "Supervisor CRM Specialist",
+            "organization": "Christian Dior Couture",
+            "date_range": "Jan 2018 - May 2018",
+            "location": "London, United Kingdom",
+            "description": "Started as Sales Consultant in 2015, promoted to Senior Sales in 2016, Trainee Supervisor in 2017 and further promoted to Supervisor by end of 2017. Key Achievements & Responsibilities: • In 2016 and 2017, contributed personal sales over £1M and was awarded the Dior Million Club. • Delivered a CRM action plan to senior management after completing the Dior Management Program. Commended by Management team for implementing innovative strategies to maximize CRM and sales. • Appointed to CRM Specialist; led all CRM activities and supported a team of 24 to meet all business objectives including CRM and Event KPI’s. • Worked alongside CRM and Marketing Manager to create local campaigns and events aimed at building and maintaining an active client database, and acquiring new prospects. • Reviewed feedback and conducted research on products and customer purchase behavior, increased sales by 11% due to the findings and made improvement on service and campaigns. • Increased data capture rate significantly by 12% in 2 months, by implementing incentives and designing training sessions and materials to support team on successful data capture."
+          },
+          {
+            "title": "Assistant Department Manager",
+            "organization": "Christian Dior Couture",
+            "date_range": "Jun 2018 - May 2019",
+            "location": "New Bond Street Flagship Boutique",
+            "description": "Developed and led a sales team of 15, including 2 Supervisors and 3 CRM Specialists. Responsible for managing all aspects of the day-to-day operations within the department. This includes driving growth and retention through Sales, CRM, Marketing, Customer Service and Visual Merchandising. Key Achievements & Responsibilities: • Successfully restructured the department and stabilised the team as they were left without an AM for 6 months during which figures and team performance reduced significantly. • Finished the year with strong results, delivering a 17% uplift in sales vs. the same period LY through supportive leadership, team motivation and CRM strategies. • Designed and implemented a customer onboarding plan, using lead logs to monitor and convert prospects and leads. Successfully grew RTW’s client base by 21% in 2018. • Built a Pre-Launch strategy in store, specifically focusing on client experience, promoting new collections and driving deposits before the launch day. • Contributed to Dior’s New Saddle Bag Launch and Campaign - the biggest launch since store opening; executed animations and strategies that generated incredible store traffic with a 24% increase in sales."
+          },
+          {
+            "title": "Retail Support Manager",
+            "organization": "Christian Dior Couture",
+            "date_range": "Jun 2019 - Nov 2019",
+            "location": "New Bond Street Flagship Boutique",
+            "description": "Responsible for managing the key aspects of the store's business, including Sales and Retail Marketing; covering CRM, product launches and in-house events. Key Achievements & Responsibilities: • Managed a team of 4; end-to-end planning and execution of local email campaigns, activations, and loyalty programs to increase retention, engagement and drive sales. • Oversaw a large database with 6 different segments - actively identified new segments to target and planned marketing activities accordingly. • Worked with Digital team to design and develop a CRM mobile application; implemented and streamlined functions, including dashboard, contact/outreach and data capture which improved the overall sales productivity and the data capture rate significantly from 80% to 94% in 3 months. • Effectively boosted sales by 15% and increased in-store appointments during a slow selling period through creating a store animation, visual concept and e-mail campaign. • Increased local engagement by redesigning the local activation plan (Gifting, Birthday and Welcome) and created guidelines and communication tools for store to implement. • Developed loyalty and engagement by creating exclusive and innovative in-house events, experience and animations. • Successfully planned and executed over 12 events with an average ROI of 25%, including Cruise 19 Trunk Show – over 300 clients invited, generated £240K on the day of the event and led the 3 months follow-up campaign which converted 35% into high-value sales. • Led Omni-Channel project end-to-end; created a Client Relations department that responded to digital inquiries and referred leads to sales teams, increasing conversion by 13%. Additionally reduced customer complaint by 11% by resolving all client issues."
+          },
+          {
+            "title": "Senior Marketing Executive",
+            "organization": "The Mandrake",
+            "date_range": "Sep 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Heriot-Watt University",
+            "degree_or_field": "First Class Honours",
+            "date_range": "2011 - 2014"
+          }
+        ],
+        "skills": [
+          "strategic marketing",
+          "customer service",
+          "visual merchandising",
+          "team motivation",
+          "retail marketing",
+          "product launches",
+          "loyalty programs",
+          "client relations",
+          "design development",
+          "communication skills",
+          "creative",
+          "marketing",
+          "luxury",
+          "crm",
+          "sales",
+          "management",
+          "kpi",
+          "campaigns",
+          "database",
+          "acquiring",
+          "research",
+          "purchase",
+          "incentives",
+          "designing",
+          "training",
+          "operations",
+          "driving",
+          "merchandising",
+          "leadership",
+          "onboarding",
+          "strategy",
+          "collections",
+          "deposits",
+          "retail",
+          "planning",
+          "engagement",
+          "digital",
+          "design",
+          "mobile",
+          "dashboard",
+          "selling",
+          "animation",
+          "pattern",
+          "pr",
+          "running",
+          "projects",
+          "fashion",
+          "buyers"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/stephanielai10"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Olivia Harrison",
+      "title": "Senior Marketing Executive",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/olivia-harrison-198794245",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "enquiries@themandrake.com; newsletter@themandrake.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Marketing role involved in digital guest journey, CRM, and communications tech.",
+      "contact_evidence_summary": "LinkedIn and directories confirm marketing executive role at The Mandrake.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/olivia-harrison-198794245",
+          "source_type": "linkedin",
+          "quote_or_fact": "Senior Marketing Executive @ The Mandrake Hotel"
+        },
+        {
+          "source_url": "https://rocketreach.co/the-mandrake-management_b4b9d59bfb0eaf54",
+          "source_type": "directory",
+          "quote_or_fact": "Marketing team members listed"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/olivia-harrison-198794245",
+        "display_name": "Olivia Harrison",
+        "headline": "Senior Marketing Executive @ The Mandrake Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Fuelled by creating meaningful content and digital strategy, throughout my career I’ve been the driving force behind complex digital campaigns, spanning video filming, editing, advertising and creative copywriting that have enabled strong client relations and grown brand awareness. In conjunction with my professional skills, I am a leader in fostering safe social interactions and cohesion between dynamic team members, drawing on my extensive performance and public speaking ability as a trained singer and actress. My unique combination of brand knowledge and digital strategy, coupled with my extroverted, confident personality allow me to be a successful pioneer. With a proven track record of brining coworkers together, I have generated a focused and connected group of marketers able to execute targeted strategies and assist clients in achieving the best of themselves on film and social media.",
+        "experience": [
+          {
+            "title": "Digital Coordinator",
+            "organization": "Liberal Party of Australia (Victorian Division)",
+            "date_range": "Mar 2022 - Mar 2023",
+            "location": "Melbourne, Victoria, Australia",
+            "description": "Deliberately initiated and motivated the parties set up of social media assets, being the confident leader through organic channel growth: Instagram, Facebook, Twitter, TikTok, YouTube, WeChat. Most notably using organic strategy to gain 2.5 thousand voters on our TikTok page fostered through trend optimisation strategies. Was the cohesion between candidates and our website developer to create 88 unique candidate websites ensuring each website had specific search engine optimised domains. Confidently navigated a team of graphic designers through the political media landscape to carry out a marketing calendar and content schedule, across all organic and paid social media channels that saw significant growth. Relied on digital strategy knowledge to correctly optimise budgets for paid digital advertisement placement across Facebook Advertising, Instagram Advertising, Google Display, Search Ads, YouTube Ads and Programmatic Ads. Creatively coordinated large scale events, leading candidates and volunteers through the web of fundraising to raise over 2,000,000. Was the driving force behind the parties election night function, achieving high standards presentable for national television. Utilised excel and google analytics to consistently carry out performance reviews, using data to make strategic changes to achieve Social Media Optimisation and Search Engine Optimisation. Creative copywriting and design for email marketing sent to a large internal data base in alignment with marketing strategy and calendar. Backed myself to effectively carry out employee featured content strategy, self electing to star in content to achieve cut through and correctly participate in viral trends"
+          },
+          {
+            "title": "Digital Marketing Lead",
+            "organization": "The PR Counsel",
+            "date_range": "Apr 2023 - May 2024",
+            "location": "Melbourne, Victoria, Australia",
+            "description": "Been the driving force behind graphic design and content creation for Instagram, Facebook, TikTok, Twitter and LinkedIn using Canva, Adobe Suite and Cap Cut. The unique link in our dynamic team able to create meaningful digital strategy development for key clients using brand strategy knowledge to achieve monthly targets and KPIs. Collaboration with key Government Stakeholders MPs and Senators to structure media announcements Been the creative mastermind behind the development and creation of the companies new website. Achieving this by inspiring our website developer with creative execution strategy using Wordpress software to correctly bring consumers on The PR Counsel's journey learning deeper about our key messages and skills."
+          },
+          {
+            "title": "Marketing Executive",
+            "organization": "The Athenaeum Hotel and Residences",
+            "date_range": "May 2024 - Apr 2025",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Marketing Executive",
+            "organization": "The Mandrake",
+            "date_range": "Apr 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Monash University",
+            "degree_or_field": null,
+            "date_range": "2020 - 2023"
+          }
+        ],
+        "skills": [
+          "digital strategy",
+          "client relations",
+          "brand awareness",
+          "public speaking",
+          "social media",
+          "google analytics",
+          "performance reviews",
+          "email marketing",
+          "marketing strategy",
+          "content strategy",
+          "digital marketing",
+          "graphic design",
+          "content creation",
+          "strategy development",
+          "brand strategy",
+          "digital",
+          "strategy",
+          "driving",
+          "campaigns",
+          "editing",
+          "advertising",
+          "creative",
+          "copywriting",
+          "safe",
+          "drawing",
+          "film",
+          "marketing",
+          "instagram",
+          "facebook",
+          "twitter",
+          "youtube",
+          "trend",
+          "websites",
+          "budgets",
+          "fundraising",
+          "television",
+          "analytics",
+          "design",
+          "adobe",
+          "collaboration",
+          "government",
+          "wordpress",
+          "software",
+          "pr"
+        ],
+        "activity_themes": [
+          "Networking in luxury hospitality and hotel sales/marketing leadership appointments",
+          "Attending UK hospitality industry events and conferences (#HOSPACE2025, business breakfasts)",
+          "Celebrating hotel openings, anniversaries, and team achievements in luxury sector",
+          "Engagement with luxury hotel parties, awards, and experiential events (e.g. The Mandrake Halloween)",
+          "Following Condé Nast Johansens Awards and high-end hospitality recognition"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/olivia-harrison-198794245",
+          "https://www.linkedin.com/posts/olivia-harrison-198794245_hospace2025-activity-7397260426654314496-Vs8z"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Joseph Quilter",
+      "title": "People and Culture Director",
+      "company": "The Mandrake",
+      "linkedin_url": "https://uk.linkedin.com/in/joseph-quilter-6aa21743",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "enquiries@themandrake.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees team training and culture around guest experience and new tech adoption like AI tools for staff/CRM.",
+      "contact_evidence_summary": "Listed in Prospeo.io directory as People & Culture Director at The Mandrake.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/the-mandrake",
+          "source_type": "directory",
+          "quote_or_fact": "Joseph Quilter People & Culture Director @themandrake.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/joseph-quilter-6aa21743",
+          "source_type": "linkedin",
+          "quote_or_fact": "The Mandrake"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/joseph-quilter-6aa21743",
+        "display_name": "Joseph Quilter",
+        "headline": "Ambitious and creative individual with a passion for developing people",
+        "location": "Greater London, England, United Kingdom",
+        "about": "Total Experience: 11 years and 5 months",
+        "experience": [
+          {
+            "title": "Vita Futura (Graduate Management Programme)",
+            "organization": "Sheraton Heathrow hotel",
+            "date_range": "Sep 2014 - Mar 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Human Resources L D Executive",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Mar 2016 - Oct 2017",
+            "location": "London, Greater London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Human Resources Manager",
+            "organization": "W London - Leicester Square",
+            "date_range": "Oct 2017 - Oct 2022",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "People Culture Director",
+            "organization": "The Mandrake",
+            "date_range": "Oct 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Westcliff High school for boys",
+            "degree_or_field": "8 GCSE's A*, 3 GCSE's A",
+            "date_range": "2001 - 2006"
+          },
+          {
+            "school": "Westcliff High school for boys",
+            "degree_or_field": "A levels, 3 A, 1 B",
+            "date_range": "2006 - 2008"
+          },
+          {
+            "school": "Westminster Kingsway College",
+            "degree_or_field": "Professional chef diploma, Catering and Hospitality",
+            "date_range": "2008 - 2011"
+          },
+          {
+            "school": "westminster kingsway college",
+            "degree_or_field": "Bachelor's degree, Hospitality and Business Management, First Class honours",
+            "date_range": "2011 - 2014"
+          }
+        ],
+        "skills": [
+          "human resources",
+          "director",
+          "management"
+        ],
+        "activity_themes": [
+          "Attended Reward Gateway HR Summit",
+          "Hospitality recruitment open events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/lydiasokou_rgersummit-activity-7196622377814786048-ns-C",
+          "https://www.linkedin.com/posts/eleazar-gaspar-746586169_we-would-love-to-see-you-at-our-next-recruitment-activity-7176158758312509441-4u5D"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Tim Lang",
+      "title": "Director of Food & Beverage",
+      "company": "The Mandrake",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3146 7770",
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "yopo@themandrake.com for restaurant/bar; ties to guest experience",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees F&B outlets that are core to guest experience, events, and messaging; collaborates on overall guest journey tech.",
+      "contact_evidence_summary": "Recent appointment announced in hotel news and LinkedIn company posts.",
+      "evidence": [
+        {
+          "source_url": "https://thehotelmagazine.co.uk/the-mandrake-hotel-fitzrovia-appoints-tim-lang-as-director-of-food-beverage/",
+          "source_type": "news",
+          "quote_or_fact": "The Mandrake Hotel, Fitzrovia Appoints Tim Lang as Director of Food & Beverage ... to work alongside Eljesa Saciri"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/themandrakehotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "NEWS: The Mandrake Hotel appoints new F&B director"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Gaber Hakim",
+      "title": "Director of Finance",
+      "company": "The Mandrake",
+      "linkedin_url": "https://www.linkedin.com/in/gaber-el-hakim-19a24b59",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "enquiries@themandrake.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Finance director likely involved in approving budget for revenue-tech and automation investments.",
+      "contact_evidence_summary": "Multiple directories list as Director of Finance at The Mandrake.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/the-mandrake-management_b4b9d59bfb0eaf54",
+          "source_type": "directory",
+          "quote_or_fact": "Gaber Hakim (Director of Finance)"
+        },
+        {
+          "source_url": "https://prospeo.io/c/the-mandrake",
+          "source_type": "directory",
+          "quote_or_fact": "Gaber El Hakim Director Of Finance @themandrake.com"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/gaber-el-hakim-19a24b59",
+        "display_name": "Gaber El Hakim",
+        "headline": "Director of Finance at The Mandrake",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A highly experienced accountant with significant commercial knowledge gained in the luxury segment of the hotel industry. A strategic thinker with very strong analytical skills and is accomplished at delivering bottom line performance while enhancing shareholder/investor value. Possesses a strong IT knowledge, excellent Excel skills and the ability to lead, influence and implement change while embracing new ideas and technologies.",
+        "experience": [
+          {
+            "title": "Basic Accounts PayRoll",
+            "organization": "St. Paul's & Co.",
+            "date_range": "Feb 2003 - Apr 2005",
+            "location": "St. Paul's, London",
+            "description": "Worked with nationally acclaimed accountants. Work entailed constant and efficient book keeping. Instrumental in igniting revenues due to the implementation of new methods of calculations (Saving time and energy)."
+          },
+          {
+            "title": "Supply Management",
+            "organization": "Sony",
+            "date_range": "Apr 2003 - Oct 2009",
+            "location": "Baker Street, London",
+            "description": "Control of the supply chain from end to end, helping to control inventory costs and improve customer service efficiency. Order processing and manufacturing requirements; delivering fast order entry input, materials tracking and traceability."
+          },
+          {
+            "title": "Payroll HR",
+            "organization": "Digital Technology LTD",
+            "date_range": "Nov 2009 - Aug 2012",
+            "location": "White City, London",
+            "description": "Helping to control inventory costs and improve customer service efficiency. Performing payroll procedures, and ensures they are performed accurately, automatically and on time."
+          },
+          {
+            "title": "CRM Management, E-commerce Specialist.",
+            "organization": "Bang & Olufsen",
+            "date_range": "Aug 2012 - Oct 2014",
+            "location": "Knightsbridge, London",
+            "description": "Managing opportunities and converting them into sales. Generating prospects, as well as effectively managing my relationship with these prospects so that they become customers. It then goes on to retain those new customers through effective account management and marketing."
+          },
+          {
+            "title": "Credit Controller",
+            "organization": "Ace Hotel / Atelier Ace",
+            "date_range": "Jan 2015 - Jan 2016",
+            "location": "London, United Kingdom",
+            "description": "Responsible in ensuring the monthly aging report does not have debts exceeding over 60 days old. Participating in morning meetings, 15-minute training sessions, departmental meetings and any other selected committees. Communicate with all departmental managers and associates in professional and supportive manner. Support nominated Departments at Month End with accrual checks and processing, P&L corrections, information requests and any other support as assigned by Assistant Director of Finance. Generate aging and PM reports on a weekly basis to monitor current progress. Train new associates and managers (when necessary) on the hotels policies and procedures. Assist fellow associates at times when help is required or when work level is low. Cross train in other accounting functions and provide cover in other positions during times of absence. Always strive to improve “job” knowledge. Follow the SOP and PCI standards for Credit Card processing. Deal with client queries both written and by telephone in a professional, timely and prompt manner. Plan to answer client queries on a same day basis whenever possible. Obtain and improve credit relation with major companies. Advise the Director of Finance/Asst Director of Finance of any recurring difficulties and of discrepancies and investigate those differences. Assisting the Asst Director of Finance with any such necessary month-end processes. Participate in Annual Control Audits schedule and complete within time specified. Ensure supporting evidence is provided with audit to support checks, and detailed action plans produced for weaknesses where necessary. Responsible in holding the monthly credit meeting with all department involved in Sales operations. Participate in Weekly General Cashier Float check schedule by surprise auditing General Cashier Float in allotted week and ensure is done on weekly basis by members of team. Make recommendations to improve, enhance, or streamline work p"
+          },
+          {
+            "title": "Accounts Payable",
+            "organization": "Ace Hotel / Atelier Ace",
+            "date_range": "Jan 2016 - Sep 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Finance Supervisor",
+            "organization": "Ace Hotel / Atelier Ace",
+            "date_range": "Oct 2016 - Jan 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Financial Controller",
+            "organization": "Ace Hotel / Atelier Ace",
+            "date_range": "Jan 2018 - Aug 2019",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Responsible for team management and all related matters including monthly one to one meetings, half annual review and annual reviews. Also Goals and PDP implementation. - Directly responsible for external and internal audits - Turnover circa £24.2M for 258 Rooms - Implementing and maintaining Company Policies and Procedures; managing related internal communications and contractual changes. - Full and Complete balance sheet reconciliation. - P&L and cost trackers monitoring and follow ups - Payroll processing including cross charges between departments, redundancy and termination calculations as well as dealing with staff requests and queries. - Month end closure strictly on the 4th day of the month. Achievements - Successfully implemented a full restructure and re-organisation of the finance team, significantly improving the skills, knowledge and ability of the function and its interaction with the rest of the organisation. - Strategically managed improvements in cash flows and cash forecasting including funding negotiations with joint venture partners. - Staff retention by creating pleasant relaxed atmosphere yet professional and highly productive. - Improving the F&B cost control via implementation of tighter stock control measures and performing weekly spot checks. - Improved cash handling via the introduction of an advanced automated cash deposit machine to reduce and minimize work load and errors. - Introduction of un updated surveillance system which significantly reduced violence and theft related issues."
+          },
+          {
+            "title": "Financial Controller",
+            "organization": "Ace Hotel London",
+            "date_range": "Aug 2019 - Nov 2020",
+            "location": "London, England Metropolitan Area",
+            "description": null
+          },
+          {
+            "title": "Director Of Finance",
+            "organization": "The Mandrake",
+            "date_range": "Nov 2020 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "EBS Language School",
+            "degree_or_field": "GCSE, English Language and Literature/Letters",
+            "date_range": "1980 - 1994"
+          },
+          {
+            "school": "Alexandria University",
+            "degree_or_field": "Bachelor of Commerce (B.Com.), Business Administration and Management, General",
+            "date_range": "1994 - 1998"
+          },
+          {
+            "school": "Thames Valley University",
+            "degree_or_field": "Microsoft Certified Professional, Information Technology",
+            "date_range": "1999 - 2001"
+          },
+          {
+            "school": "International Career Institute",
+            "degree_or_field": "E-Business / E-Commerce Online Diploma Course., E-Commerce/Electronic Commerce",
+            "date_range": "2000 - 2001"
+          },
+          {
+            "school": "Brighton’s College of Creativity – Hove College",
+            "degree_or_field": "CIW – E-Commerce Specialist (Certified Internet Master)",
+            "date_range": "2000 - 2003"
+          }
+        ],
+        "skills": [
+          "analytical skills",
+          "customer service",
+          "supply management",
+          "supply chain",
+          "order processing",
+          "team management",
+          "internal communications",
+          "balance sheet",
+          "payroll processing",
+          "staff retention",
+          "cost control",
+          "stock control",
+          "cash handling",
+          "account management",
+          "management marketing",
+          "accounts payable",
+          "sales operations",
+          "commercial",
+          "luxury",
+          "hotel",
+          "director",
+          "finance",
+          "payroll",
+          "hr",
+          "inventory",
+          "efficiency",
+          "performing",
+          "management",
+          "processing",
+          "manufacturing",
+          "responsible",
+          "communications",
+          "reconciliation",
+          "p",
+          "calculations",
+          "organisation",
+          "forecasting",
+          "funding",
+          "negotiations",
+          "surveillance",
+          "less",
+          "crm",
+          "commerce",
+          "sales",
+          "marketing",
+          "accountants",
+          "energy",
+          "training",
+          "committees",
+          "corrections",
+          "reports",
+          "hotels",
+          "accounting",
+          "sop",
+          "audit",
+          "operations",
+          "auditing"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/gaber-el-hakim-19a24b59"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Anas Bahhaj",
+      "title": "Head of Bars and Mixology",
+      "company": "The Mandrake",
+      "linkedin_url": "https://www.linkedin.com/in/anas-el-bahhaj-059835a2",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "yopo@themandrake.com or waeska bar contacts",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "F&B leadership role touches guest experience, events and on-property comms/messaging.",
+      "contact_evidence_summary": "RocketReach org chart lists as Head of bars and mixology.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/the-mandrake-management_b4b9d59bfb0eaf54",
+          "source_type": "directory",
+          "quote_or_fact": "Anas Bahhaj (Head of bars and mixology)"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anas-el-bahhaj-059835a2",
+        "display_name": "Anas El bahhaj",
+        "headline": "Head of bars and mixology at The Mandrake",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 11 years and 2 months",
+        "experience": [
+          {
+            "title": "Bartender",
+            "organization": "Piccola Cucina",
+            "date_range": "Apr 2014 - Oct 2014",
+            "location": "Ibiza",
+            "description": null
+          },
+          {
+            "title": "Cocktail Bartender",
+            "organization": "Skygarden",
+            "date_range": "Nov 2014 - Mar 2016",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Cocktail Bartender",
+            "organization": "Opium Cocktail Bar",
+            "date_range": "Mar 2016 - Feb 2017",
+            "location": "London, Greater London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Bartender",
+            "organization": "Winter Garden Hotel",
+            "date_range": "Aug 2017 - May 2018",
+            "location": "Bergamo, Lombardy, Italy",
+            "description": null
+          },
+          {
+            "title": "Senior Bartender",
+            "organization": "The Zetter Hotels & Co.",
+            "date_range": "Jun 2018 - May 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Bartender",
+            "organization": "The Zetter Hotels & Co.",
+            "date_range": "May 2021 - Jun 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Bar Manager",
+            "organization": "The Zetter Hotels & Co.",
+            "date_range": "Jun 2021 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Head Of Bars",
+            "organization": "The Zetter",
+            "date_range": "Feb 2024 - Aug 2025",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Bars And Mixology",
+            "organization": "The Mandrake",
+            "date_range": "Aug 2025 - Present",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Hospitality industry trends and hotel operations",
+          "Bar management and mixology innovations",
+          "Drinks industry awards and gin production",
+          "Hotel openings and industry events",
+          "Non-alcoholic beverage launches",
+          "Hospitality media and magazine features"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/andreas-gunduz_its-a-poignant-moment-for-me-its-the-first-activity-7413908134592897024-9-8G",
+          "https://www.linkedin.com/posts/i-walked-into-the-hotel-reception-and-knew-activity-7413821590133579776-IhK6",
+          "https://www.linkedin.com/posts/bar-magazine-b7b74b255_newissue-hospitalityindustry-mixologist-activity-7413942445601837056-iN05",
+          "https://www.linkedin.com/posts/what-a-whirlwind-the-past-month-has-been-activity-7402269318920445952-5Fvt",
+          "https://www.linkedin.com/posts/the-secret-garden-distillery_iwsc-ukginproduceroftheyear-ginindustry-activity-7395071200793763840-YklJ",
+          "https://www.linkedin.com/posts/fabiola-monno-073069b5_what-a-week-on-via-veneto-after-months-activity-7393606723007090688-iCTW",
+          "https://www.linkedin.com/posts/tim-simmons-ba016a8_sipello-aperitif-the-ivy-sipello-is-activity-7391734349034962944-yOfr",
+          "https://www.linkedin.com/posts/independent-hotel-show_independenthotelshow-ihs25-hoteliers-activity-7392138783007322113-H48N"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Maria Lodetoft",
+      "title": "Head of Spiritual Wellbeing",
+      "company": "The Mandrake",
+      "linkedin_url": null,
+      "email": "wellbeing@themandrake.com",
+      "email2": null,
+      "phone": null,
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": "MariaLodetoft",
+      "other_contact_detail": "wellbeing@themandrake.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads guest experience and wellbeing programme including concierge; ties to guest messaging and personalized comms.",
+      "contact_evidence_summary": "Mentioned on hotel wellbeing page as head of programme.",
+      "evidence": [
+        {
+          "source_url": "https://themandrake.com/spiritual-wellbeing-in-house-practitioners/",
+          "source_type": "official_site",
+          "quote_or_fact": "Maria Lodetoft curates the programme and Spiritual Concierge menu"
+        },
+        {
+          "source_url": "https://themandrake.com/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "Spiritual Wellbeing Enquiries email"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Joanna King",
+      "title": "Communications Manager",
+      "company": "The Mandrake",
+      "linkedin_url": "https://www.linkedin.com/in/joanna-king-785bb2b1",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 3146 7770",
+      "phone2": "+44 (0)20 3146 7770",
+      "x_handle": null,
+      "other_contact_detail": "enquiries@themandrake.com or press routes",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles communications and PR which overlaps with guest messaging, digital story telling and brand tech.",
+      "contact_evidence_summary": "Listed in TravelWeekly key personnel for The Mandrake.",
+      "evidence": [
+        {
+          "source_url": "https://www.travelweekly.com/Hotels/London/The-Mandrake-Hotel-p51572404",
+          "source_type": "directory",
+          "quote_or_fact": "Joanna King, Communications Mgr"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/joanna-king-785bb2b1",
+        "display_name": "JOANNA KING",
+        "headline": "Freelancer",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Having helped develop The Mandrake for 8 years, from conception through to opening, I fell in love with the hospitality industry, moving over from an expansive career in Investment Banking Sales and Client Relationship Management. I am a purpose-driven individual who works well under pressure, possessing leadership, creativity and problem-solving skills. KEY ACHIEVEMENTS • Implementing a one-of-a-kind cultural programme of events to engage and attract our target market travellers increasing International exposure and revenue. • Achieving continuous international press coverage and exposure for the hotel. • Directing and producing multiple films showcasing the hotel, winning multiple awards. • Developing the brand story and branded assets. • Identifying areas for cost reduction for the business.\n\nTotal Experience: 8 years and 3 months",
+        "experience": [
+          {
+            "title": "Project Developer - Pre-Opening Of The Mandrake",
+            "organization": "The Mandrake Hotel",
+            "date_range": "Aug 2012 - Jun 2017",
+            "location": "London, United Kingdom",
+            "description": "PROJECT DEVELOPMENT Reporting to the owner-operator • Safeguarding the Managing Directors best interests always • P&L projections for the operator • Point of contact for Branding - guiding the Branding Consultant to deliver the MD’s vision. • Developing the Art and Artist schedule for PR purposes • Building relationships with the Artists involved with the hotel and gaining consent for using the work for PR purposes • Point of contact for PR firm, attending meetings and overseeing PR strategies • Sourcing suitable suppliers for hotel room amenities • Cost planning for the Managing Director • Fee tracker monitoring and reviewing for all related consultants • Monitoring of IT contractor’s performance and sourcing another IT company cutting costs • Sourcing suitable uniforms designer and overseeing uniforms design and order • Brand partnerships – developing relationships with other suitable brands and suppliers, sourcing suitable brand partners to sell their products in the Antechamber of the Hotel • Finding and designing the off-site office space for PHG • Building the management statement for licensing purposes • Attending council license application hearings • Researching Hotel competitors • Building relationships and providing quotes from laundry, ice and waste suppliers • Providing invoices and helping sort out accountancy discrepancies • Finding a suitable GM for the Hotel • Arranging NDA’s for contractors and affiliates • Researching and building relationships with local neighbours, businesses, hospitality colleges and charities • Raising POs and invoices as necessary • Managing and developing relationships with suppliers and consultants"
+          },
+          {
+            "title": "Brand Development Communications Manager",
+            "organization": "The Mandrake Hotel",
+            "date_range": "Jun 2017 - Jun 2019",
+            "location": "London, United Kingdom",
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Director of Brand, Culture & Communications",
+            "organization": "The Mandrake Hotel",
+            "date_range": "Jun 2019 - Nov 2020",
+            "location": "London, England, United Kingdom",
+            "description": "Reporting directly to the General Manager and Owner-Operator of the hotel, managing three members of staff. COMMUNICATIONS/MARKETING • Developing and implementing an overall marketing strategy for the hotel & F&B outlets • Directing the film and photography shoots for marketing purposes • Marketing through ‘The Mandrake Eye’, the quarterly newspaper • Creating sales & marketing packages to sell spaces and create awareness around The Mandrake's offering • Creating ads for digital marketing campaigns BRANDING • Developing and implementing the brand story, concept & guidelines • Training, developing and coaching brand management to employees to reach brand objectives and deliverables • Designing and generating marketing collateral, such as umbrellas, coasters, pens, pencils, tote bags, caps and fans • Development and design of The Mandrake Eye, the hotel’s quarterly newspaper CULTURAL PROGRAMMING • The curation and implementation of the Spiritual wellbeing and Artist in Residence programme, generating marketing exposure and guest incentives for travellers. WEBSITE • Developed and managed website, pages, content, and materials to ensure The Mandrake brand is effectively promoted to the defined target audiences. • Updating the website with AiR, Wellbeing, special offers, improving efficiency of site, troubleshooting, improving SEO PR • Managing all Travel, F&B, wellness & lifestyle PR for the hotel SOCIAL MEDIA • Curating and implementing a social media strategy • Increased social media followers by 220% within 6 months"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality industry",
+          "investment banking",
+          "relationship management",
+          "problem solving",
+          "cost reduction",
+          "brand development",
+          "building relationships",
+          "cost planning",
+          "marketing strategy",
+          "film photography",
+          "digital marketing",
+          "brand management",
+          "social media",
+          "media strategy",
+          "client relationship management",
+          "hospitality",
+          "banking",
+          "sales",
+          "management",
+          "pressure",
+          "leadership",
+          "hotel",
+          "directing",
+          "producing",
+          "communications",
+          "reporting",
+          "p",
+          "branding",
+          "artist",
+          "pr",
+          "artists",
+          "sourcing",
+          "planning",
+          "director",
+          "consultants",
+          "design",
+          "partnerships",
+          "designing",
+          "licensing",
+          "arranging",
+          "contractors",
+          "charities",
+          "less",
+          "marketing",
+          "strategy",
+          "film",
+          "photography",
+          "newspaper",
+          "digital",
+          "campaigns",
+          "training",
+          "coaching",
+          "collateral",
+          "programming",
+          "incentives",
+          "efficiency",
+          "troubleshooting",
+          "seo",
+          "wellness",
+          "curating"
+        ],
+        "activity_themes": [
+          "Hospitality and hotel industry developments in London",
+          "Lifestyle brand launches and wellness concepts",
+          "Cultural events, performances and artist residencies",
+          "Impact of remote working on city centre businesses",
+          "Career opportunities in asset management and compliance"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/joanna-king-785bb2b1"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T14:19:30.889719+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 3,
+    "attempted": 14,
+    "succeeded": 14,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T14:30:26.193491+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 14,
+      "structured": 14,
+      "discovered": 2,
+      "errors": 0
+    }
+  }
+}

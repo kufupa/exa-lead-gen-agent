@@ -1,0 +1,557 @@
+{
+  "target_url": "https://www.westlodgepark.co.uk/",
+  "generated_at_utc": "2026-04-21T15:47:40.838349+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 5890,
+    "prompt_tokens": 331903,
+    "total_tokens": 364227,
+    "prompt_text_tokens": 331903,
+    "reasoning_tokens": 26434,
+    "cached_prompt_text_tokens": 230144,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Odette Howse",
+      "title": "Reservations Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/odette-howse-327394144",
+      "email": "odettehowse@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "wlpreservations@bealeshotels.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads reservations function; directly responsible for booking processes, automation tools, guest messaging, and distribution channels.",
+      "contact_evidence_summary": "Direct business email and title on official staff page. LinkedIn profile confirms role at BEALE'S HOTELS LIMITED. Reservations email also listed on site.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Odette Howse Reservations Manager odettehowse@bealeshotels.co.uk"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/odette-howse-327394144",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experience: BEALE'S HOTELS LIMITED"
+        }
+      ]
+    },
+    {
+      "full_name": "Ashley Beale",
+      "title": "Director and General Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/ashley-beale-015692104",
+      "email": "ashleybeale@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "westlodgepark@bealeshotels.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Property GM with oversight of all operations including reservations, revenue, digital guest journey, and tech adoption decisions.",
+      "contact_evidence_summary": "Direct email and title on official staff page plus dedicated profile page. LinkedIn confirms management role. Family ownership adds influence.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Ashley Beale Director and General Manager ashleybeale@bealeshotels.co.uk"
+        },
+        {
+          "source_url": "https://www.westlodgepark.co.uk/staff/ashley-beale/",
+          "source_type": "official_site",
+          "quote_or_fact": "Ashley Beale. Director and General Manager."
+        }
+      ]
+    },
+    {
+      "full_name": "Andrew Beale",
+      "title": "Chairman and Managing Director",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "andrewbeale@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "westlodgepark@bealeshotels.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Top executive of family-owned management company; ultimate decision maker on commercial strategy, tech adoption, and property systems.",
+      "contact_evidence_summary": "Direct email and title prominently listed on official staff pages for both hotels. Multiple news mentions and responses as MD.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Andrew Beale Chairman and Managing Director andrewbeale@bealeshotels.co.uk"
+        },
+        {
+          "source_url": "https://thebellhotelsaxmundham.co.uk/about/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Andrew Beale Chairman and Managing Director andrewbeale@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Emma Beale",
+      "title": "Group Revenue Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/emma-beale-68294317b",
+      "email": "emmabeale@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct responsibility for group revenue management; primary stakeholder for revenue-tech, pricing automation, booking optimization, and related AI tools.",
+      "contact_evidence_summary": "Direct business email and title published on official West Lodge Park staff page. LinkedIn confirms Group Revenue Manager role at BEALE'S LIMITED. Strongest public evidence for revenue ICP contact.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Emma Beale Group Revenue Manager emmabeale@bealeshotels.co.uk"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/emma-beale-68294317b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Group Revenue Manager at BEALE'S LIMITED"
+        }
+      ]
+    },
+    {
+      "full_name": "Pam Hudson",
+      "title": "Group Marketing Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/pam-hudson-3585402a",
+      "email": null,
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "westlodgepark@bealeshotels.co.uk or marketing enquiries via group site",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads group marketing; influences digital guest journey, online booking channels, guest messaging, CRM, and marketing tech stack.",
+      "contact_evidence_summary": "LinkedIn confirms Group Marketing Manager role at Beales Hotels. Reachable via official group contacts and main hotel channels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/pam-hudson-3585402a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Group Marketing Manager at Beales Hotels"
+        },
+        {
+          "source_url": "https://www.bealeshotels.co.uk/",
+          "source_type": "official_site",
+          "quote_or_fact": "Group site with contact routes to marketing/commercial team"
+        }
+      ]
+    },
+    {
+      "full_name": "Daniella Moorby",
+      "title": "General Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "daniellamoorby@bealeshotels.co.uk",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "bellsupervisor@bealeshotels.co.uk (sister property line)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "GM of sister property under same management company; influences group standards for reservations, revenue tech, and guest experience systems.",
+      "contact_evidence_summary": "Direct email on official Bell Hotel staff page. Part of centralized Beales Hotels leadership.",
+      "evidence": [
+        {
+          "source_url": "https://thebellhotelsaxmundham.co.uk/about/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Daniella Moorby General Manager daniellamoorby@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Layla Hussain",
+      "title": "Meetings & Events Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "laylahussain@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "wlpevents@bealeshotels.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages events and group bookings; stakeholder for booking automation, group reservations systems, and guest communication tools.",
+      "contact_evidence_summary": "Direct email and title on official staff page. Events email route published on site.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Layla Hussain Meetings & Events Manager laylahussain@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Ilie Gorea",
+      "title": "Conference & Banqueting Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "iliegorea@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "wlpevents@bealeshotels.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles conference and banqueting bookings; direct exposure to group reservation automation and event guest messaging platforms.",
+      "contact_evidence_summary": "Direct email and title listed on official West Lodge Park staff page (email spelling consistent with site extraction as lliegorea/iliegorea variant).",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Ilie Gorea Conference & Banqueting Manager lliegorea@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Ben Smith",
+      "title": "Assistant Conference & Banqueting Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "bensmith@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "wlpevents@bealeshotels.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Supports conference booking operations; touches group reservations automation and event guest communications.",
+      "contact_evidence_summary": "Direct email and title on official staff page.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Ben Smith Assistant Conference & Banqueting Manager bensmith@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Lisa Dingwall",
+      "title": "Head Receptionist",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "lisadingwall@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "wlpreservations@bealeshotels.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads front desk and guest communications; involved in booking confirmations, guest messaging, and CRM processes.",
+      "contact_evidence_summary": "Direct email and Head Receptionist title on official staff page.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Lisa Dingwall Head Receptionist lisadingwall@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Graeme Hammond",
+      "title": "Deputy Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "graemehammond@bealeshotels.co.uk",
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Deputy manager involved in daily operations, guest experience, and likely supports commercial/reservations initiatives.",
+      "contact_evidence_summary": "Direct email and title on official West Lodge Park staff page.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Graeme Hammond Deputy Manager graemehammond@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Layla Hussain",
+      "title": "Meetings & Events Sales Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "wlpevents@bealeshotels.co.uk (events line 0208 216 3943 from site)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales focused on meetings/events bookings; evaluates tools for automation, distribution, and guest messaging in group segment.",
+      "contact_evidence_summary": "Role listed on official staff page (multiple mentions as Manager/Coordinator). Reachable via published events email and phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Layla Hussain Meetings & Events Manager / Daniela Topciu – Meetings & Events Coordinator (team context)"
+        }
+      ]
+    },
+    {
+      "full_name": "Samir Patel",
+      "title": "Reception Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "wlpreservations@bealeshotels.co.uk; westlodgepark@bealeshotels.co.uk (reception/guest comms route)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages reception and guest arrival processes including messaging, booking modifications, and front-line CRM/guest experience tech.",
+      "contact_evidence_summary": "Reception Manager title listed on official West Lodge Park staff page. Department reachable via published reservations and main contacts.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Samir Patel – Reception Manager"
+        },
+        {
+          "source_url": "https://www.westlodgepark.co.uk/",
+          "source_type": "official_site",
+          "quote_or_fact": "Phone: 020 8216 3900; Email: westlodgepark@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Izabella Jakabos",
+      "title": "Meetings & Events Sales Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "wlpevents@bealeshotels.co.uk (events sales route)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales role for meetings and events; evaluates booking platforms, automation for groups, and digital guest comms tools.",
+      "contact_evidence_summary": "Title listed on official staff page. Strong department route via events email published on hotel sites.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Izabella Jakabos – Meetings & Events Sales Managers"
+        }
+      ]
+    },
+    {
+      "full_name": "Jane Gray",
+      "title": "PA to Managing Director",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "andrewbeale@bealeshotels.co.uk (direct to MD office)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Gatekeeper and support to Chairman/MD; high visibility into commercial and tech decisions across the group.",
+      "contact_evidence_summary": "PA to MD title listed on official staff page. Strong route via MD's published email.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Jane Gray – PA to Managing Director"
+        }
+      ]
+    },
+    {
+      "full_name": "Sharon Blackgrove",
+      "title": "Duty Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "020 8216 3900",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "westlodgepark@bealeshotels.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Duty manager overseeing operations and guest interactions; influences guest experience, messaging consistency, and on-property systems.",
+      "contact_evidence_summary": "Duty Manager title on official staff page. Verified department contact details available on site.",
+      "evidence": [
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Sharon Blackgrove – Duty Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Matthew Croxford",
+      "title": "Deputy General Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "matthewcroxford@bealeshotels.co.uk",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Deputy GM supporting operations, revenue, and guest experience across the group; plausible influence on tech adoption.",
+      "contact_evidence_summary": "Direct email on official Bell Hotel staff page as part of Beales Hotels group.",
+      "evidence": [
+        {
+          "source_url": "https://thebellhotelsaxmundham.co.uk/about/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Matthew Croxford Deputy General Manager matthewcroxford@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Sharon Nobinger",
+      "title": "Assistant Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": null,
+      "email": "bellsupervisor@bealeshotels.co.uk",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "bellsupervisor@bealeshotels.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Assistant manager role supporting operations and guest experience at sister property; touches daily booking and comms processes.",
+      "contact_evidence_summary": "Listed on official Bell Hotel staff page with supervisor email route.",
+      "evidence": [
+        {
+          "source_url": "https://thebellhotelsaxmundham.co.uk/about/staff/",
+          "source_type": "official_site",
+          "quote_or_fact": "Sharon Nobinger Assistant Manager bellsupervisor@bealeshotels.co.uk"
+        }
+      ]
+    },
+    {
+      "full_name": "Chris Hall",
+      "title": "Former General Manager",
+      "company": "Beales Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/chris-hall-943a76165",
+      "email": "chrishall@bealeshotels.co.uk",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "westlodgepark@bealeshotels.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Previous GM with deep property knowledge; may still advise or provide context on past tech/revenue implementations (historical insight into ICP needs).",
+      "contact_evidence_summary": "Listed as GM in older site content and LinkedIn for BEALE'S HOTELS LIMITED. Current contacts via hotel main lines.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/chris-hall-943a76165",
+          "source_type": "linkedin",
+          "quote_or_fact": "BEALE'S HOTELS LIMITED ... General Manager"
+        },
+        {
+          "source_url": "https://www.westlodgepark.co.uk/about-us/history/",
+          "source_type": "official_site",
+          "quote_or_fact": "Chris Hall is General Manager and Andrew Beale is Managing Director."
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-21T15:53:45.655596+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 17,
+    "attempted": 2,
+    "succeeded": 2,
+    "failed": [],
+    "batch_id": null
+  }
+}

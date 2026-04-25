@@ -1,0 +1,584 @@
+{
+  "target_url": "https://www.11cadogangardens.co.uk/",
+  "generated_at_utc": "2026-04-21T14:28:04.526335+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 5216,
+    "prompt_tokens": 520424,
+    "total_tokens": 550429,
+    "prompt_text_tokens": 520424,
+    "reasoning_tokens": 24789,
+    "cached_prompt_text_tokens": 331648,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Angela Day",
+      "title": "Head of Public Relations",
+      "company": "Iconic Luxury Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/angela-day-45b90346",
+      "email": "angela@iconicluxuryhotels.com",
+      "email2": null,
+      "phone": "01304 617755",
+      "phone2": "07785 619294",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees group PR and marketing communications for Iconic properties including 11 Cadogan Gardens; stakeholder in guest messaging, brand comms, and digital presence tech.",
+      "contact_evidence_summary": "Direct personal business email and phone numbers publicly listed in multiple official press releases and PDFs tied to her role. Confirmed on LinkedIn. Strongest contact data found.",
+      "evidence": [
+        {
+          "source_url": "https://www.11cadogangardens.com/media/quvbuj5p/press-release-11-cadogan-gardens-samantha-rieu-appointment-release.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Angela Day, Head of Public Relations, Iconic Luxury Hotels. Email: angela@iconicluxuryhotels.com"
+        },
+        {
+          "source_url": "http://cliveden-hotel.com/index-20.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Angela Day - Head of Public Relations Tel: 01304 617755. Mobile: 07785 619294. Email: angela@iconicluxuryhotels.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/angela-day-45b90346",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head Of Public Relations at Iconic Luxury Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Silmiya Hendricks",
+      "title": "Commercial Director",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": "@silmiyaHendricks",
+      "other_contact_detail": "Main hotel line +44 (0)20 7730 7000; reservations@11cadogangardens.com; press@iconichotelsresorts.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees commercial strategy, sales, revenue and distribution for the group including this boutique property; key decision maker for reservations automation, revenue tech and guest journey tools.",
+      "contact_evidence_summary": "Multiple news articles and interviews confirm Commercial Director role at Iconic Luxury Hotels (appointed ~2023). X handle found; strong group routes via marketing/press emails.",
+      "evidence": [
+        {
+          "source_url": "https://www.leadersmag.com/issues/2024.3_Jul/HOS/LEADERS_Silmiya_Hendricks_Mayfair_Townhouse.html",
+          "source_type": "news",
+          "quote_or_fact": "Silmiya Hendricks was appointed Commercial Director for Iconic Luxury Hotels in January 2023."
+        },
+        {
+          "source_url": "https://hoteldesigns.net/industry-news/the-brit-list-top-25-hoteliers-of-2025/",
+          "source_type": "news",
+          "quote_or_fact": "Silmiya Hendricks, Commercial Director, Iconic Luxury Hotels"
+        },
+        {
+          "source_url": "https://x.com/silmiyaHendricks",
+          "source_type": "x",
+          "quote_or_fact": "X handle tied to Silmiya Hendricks (Iconic Hotels commercial leadership)"
+        }
+      ]
+    },
+    {
+      "full_name": "Cheryl Kanarens",
+      "title": "Cluster Director of Revenue",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://uk.linkedin.com/in/cheryl-kanarens-8b21a77a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel line +44 (0)20 7730 7000; reservations@11cadogangardens.com; marketing@iconichotelsresorts.com (group routes to commercial/revenue team)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads revenue management across cluster including 11 Cadogan Gardens; direct influence on revenue-tech, pricing, distribution channels, and AI booking automation adoption.",
+      "contact_evidence_summary": "Strong LinkedIn confirmation of revenue leadership role at Iconic. Group commercial dept emails and hotel phone provide reach path. Multiple sources confirm central revenue function covers this property.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/cheryl-kanarens-8b21a77a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster Director of Revenue - Iconic Hotels & Resorts; previously Group Revenue Director, Revenue Manager at Iconic Luxury Hotels"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/news/4130735/redefining-iconic-introducing-iconic-hotels-resorts",
+          "source_type": "news",
+          "quote_or_fact": "HQ unites experts across Commercial, Operations... senior roles in... Revenue (context for central revenue leadership)"
+        }
+      ]
+    },
+    {
+      "full_name": "Samantha Rieu",
+      "title": "General Manager",
+      "company": "11 Cadogan Gardens",
+      "linkedin_url": "https://uk.linkedin.com/in/samantha-rieu-fih-is-56665212",
+      "email": "samantha@11cadogangardens.com",
+      "email2": "press@iconichotelsresorts.com",
+      "phone": "+44 (0)20 7730 7000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@11cadogangardens.com; +44 (0)20 7730 7000; press@iconichotelsresorts.com (reaches GM via property or group)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees all property operations including reservations, guest experience, F&B, and technology adoption at 11 Cadogan Gardens. Plausible influencer on AI booking and guest messaging tools.",
+      "contact_evidence_summary": "Appointment widely covered in 2024 press releases and news. Active LinkedIn profile. Property reservations email and phone provide direct team access route. Official PDFs confirm.",
+      "evidence": [
+        {
+          "source_url": "https://www.11cadogangardens.com/media/quvbuj5p/press-release-11-cadogan-gardens-samantha-rieu-appointment-release.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Iconic Luxury Hotels appoints Samantha Rieu as General Manager of 11 Cadogan Gardens & The Chelsea Townhouse"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/samantha-rieu-named-general-manager-of-11-cadogan-gardens-and-chelsea-townhouse",
+          "source_type": "news",
+          "quote_or_fact": "Samantha Rieu has been appointed general manager of Iconic Luxury Hotels' 11 Cadogan Gardens and the Chelsea Townhouse"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/samantha-rieu-fih-is-56665212",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager 11 Cadogan Gardens & Apartments and Chelsea Townhouse"
+        }
+      ]
+    },
+    {
+      "full_name": "Amrita Makkar",
+      "title": "Director of Commercial Strategy",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://uk.linkedin.com/in/amrita-makkar-crme-69295a4b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "marketing@iconichotelsresorts.com; +44 (0)20 7730 7000; reservations@11cadogangardens.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads commercial strategy with revenue management background; influences group-wide adoption of revenue tech, booking automation and data-driven distribution for properties like 11 Cadogan Gardens.",
+      "contact_evidence_summary": "LinkedIn and recent news on Iconic rebrand confirm strategy/revenue leadership role. Strong commercial dept routes via group emails.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/amrita-makkar-crme-69295a4b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Commercial Strategy, Iconic Hotels & Resorts; prior Director Of Revenue Management roles"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/news/4130735/redefining-iconic-introducing-iconic-hotels-resorts",
+          "source_type": "news",
+          "quote_or_fact": "significant hires in 2025 including Amrita Makkar, Strategy Director"
+        }
+      ]
+    },
+    {
+      "full_name": "Andrew Stembridge",
+      "title": "Executive Director",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://uk.linkedin.com/in/andrew-stembridge-a85b505",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": "@GoStembo",
+      "other_contact_detail": "angela@iconicluxuryhotels.com; press@iconichotelsresorts.com; +44 (0)20 7730 7000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Senior executive with strategic oversight of the Iconic portfolio; influences commercial direction, tech investments and property performance including booking and revenue systems.",
+      "contact_evidence_summary": "Frequently quoted in press releases and news as Executive Director. LinkedIn active. Reachable via PR contact Angela Day or group emails.",
+      "evidence": [
+        {
+          "source_url": "https://www.11cadogangardens.com/media/quvbuj5p/press-release-11-cadogan-gardens-samantha-rieu-appointment-release.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Commenting on this appointment, Executive Director of Iconic Luxury Hotels, Andrew Stembridge said..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/andrew-stembridge-a85b505",
+          "source_type": "linkedin",
+          "quote_or_fact": "Iconic Hotels & Resorts - Andrew Stembridge"
+        }
+      ]
+    },
+    {
+      "full_name": "Tatiana Stacke",
+      "title": "Director of Sales and Marketing",
+      "company": "11 Cadogan Gardens",
+      "linkedin_url": "https://www.linkedin.com/in/tatiana-stacke-10336344",
+      "email": "tatiana@11cadogangardens.com",
+      "email2": "marketing@iconichotelsresorts.com",
+      "phone": "+44 (0)20 7730 7000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@11cadogangardens.com; +44 (0)20 7730 7000; marketing@iconichotelsresorts.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly responsible for sales, marketing, distribution and revenue generation at the property; core stakeholder for AI booking automation, guest messaging and channel management tech.",
+      "contact_evidence_summary": "Listed in org charts and RocketReach for the property alongside GM. Group marketing email provides route. Role confirmed across multiple directory and news contexts for Iconic properties.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/11-cadogan-gardens-management_b5f43badf42d2ac7",
+          "source_type": "directory",
+          "quote_or_fact": "Tatiana Stacke (Director of Sales and Marketing at 11 Cadogan Gardens and The Chelsea Townhouse)"
+        },
+        {
+          "source_url": "https://www.11cadogangardens.com/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "Press page references sales/marketing leadership in context of property team"
+        }
+      ]
+    },
+    {
+      "full_name": "Shan Kanagasingham",
+      "title": "Chief Operating Officer",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/shan-kanagasingham-2b2a682b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "press@iconichotelsresorts.com; marketing@iconichotelsresorts.com; hotel main +44 (0)20 7730 7000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "COO overseeing operations and growth across the portfolio including 11 Cadogan Gardens; high-level influence on systems, tech adoption, revenue strategy and guest experience platforms.",
+      "contact_evidence_summary": "Announced in 2026 rebranding news articles as new COO. Group press and marketing channels likely reach executive team.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalitynet.org/news/4130735/redefining-iconic-introducing-iconic-hotels-resorts",
+          "source_type": "news",
+          "quote_or_fact": "Shan Kanagasingham has been appointed Chief Operating Officer of Iconic Hotels & Resorts"
+        },
+        {
+          "source_url": "https://www.travelmarketreport.com/hotels-resorts/articles/iconic-hotels-resorts-unveils-consolidated-brand-and-new-coo-appointment",
+          "source_type": "news",
+          "quote_or_fact": "Iconic Hotels & Resorts Unveils Consolidated Brand and New COO Appointment"
+        }
+      ]
+    },
+    {
+      "full_name": "Anna Allamby",
+      "title": "Central Reservations Manager",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/anna-allamby-a5021a1a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@11cadogangardens.com; +44 (0)20 7730 7000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages central reservations processes for the group including 11 Cadogan Gardens; direct relevance to reservations automation, booking tech, guest comms and CRM integration.",
+      "contact_evidence_summary": "Referenced in team and job contexts for Iconic central reservations. Property reservations email is the primary channel to reach reservations leadership.",
+      "evidence": [
+        {
+          "source_url": "https://uk.indeed.com/q-11-cadogan-garden-jobs.html",
+          "source_type": "directory",
+          "quote_or_fact": "Central Reservations Coordinator roles listed under Iconic Hotels & Resorts (supports manager-level confirmation)"
+        },
+        {
+          "source_url": "https://www.11cadogangardens.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Uses Synxis for bookings; reservations@11cadogangardens.com as primary contact"
+        }
+      ]
+    },
+    {
+      "full_name": "Hubert Mih",
+      "title": "Director of Sales and Marketing",
+      "company": "Iconic Luxury Hotels",
+      "linkedin_url": "https://www.linkedin.com/in/hubert-losguardi-92334a7",
+      "email": "hubert@themayfairtownhouse.com",
+      "email2": null,
+      "phone": "+44 (0)20 7730 7000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "marketing@iconichotelsresorts.com; +44 (0)20 7730 7000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads sales and marketing efforts; key for distribution channels, revenue optimization, digital marketing and booking platform decisions.",
+      "contact_evidence_summary": "Listed in Iconic management org charts and directories. Group marketing email as primary route.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/iconic-luxury-hotels-management_b445ef50fa40377e",
+          "source_type": "directory",
+          "quote_or_fact": "Hubert Mih (Director of Sales and Marketing)"
+        }
+      ]
+    },
+    {
+      "full_name": "Sabine Kern",
+      "title": "Global Sales Director",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/sabine-kern-92075711",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "marketing@iconichotelsresorts.com; press@iconichotelsresorts.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Global sales leadership influences international distribution, partnerships, revenue tech and automation tools used group-wide including at 11 Cadogan Gardens.",
+      "contact_evidence_summary": "Referenced in commercial and sales team overviews for the Iconic group. Reachable through established marketing/press contacts.",
+      "evidence": [
+        {
+          "source_url": "https://leadiq.com/c/iconic-luxury-hotels/5e58fc4c626d3b6fe0a00a87/employee-directory",
+          "source_type": "directory",
+          "quote_or_fact": "Global Sales Director mentioned in Iconic employee directory"
+        }
+      ]
+    },
+    {
+      "full_name": "Ante Salapic",
+      "title": "Cluster Director of Revenue",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/ante-salapic-64489471",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7730 7000; reservations@11cadogangardens.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Revenue leadership at cluster level directly tied to pricing, forecasting, distribution systems and potential AI/revenue management technology decisions for the property.",
+      "contact_evidence_summary": "Identified in group revenue org references for Iconic. Property phone and reservations as practical contact paths.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/iconic-luxury-hotels-management_b445ef50fa40377e",
+          "source_type": "directory",
+          "quote_or_fact": "Revenue leadership references including cluster roles at Iconic"
+        }
+      ]
+    },
+    {
+      "full_name": "Gemma McAloon",
+      "title": "Director of Brand & Communications",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/gemma-mc-aloon-6b739a16",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "marketing@iconichotelsresorts.com; press@iconichotelsresorts.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads brand, communications and marketing for the group; relevant for guest messaging, CRM, digital guest journey and marketing automation tied to bookings.",
+      "contact_evidence_summary": "Named in 2025/2026 rebrand news as key hire for brand & communications. Group marketing and press emails provide strong department route.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalitynet.org/news/4130735/redefining-iconic-introducing-iconic-hotels-resorts",
+          "source_type": "news",
+          "quote_or_fact": "significant hires in 2025 including ... Gemma Mc Aloon, Director of Brand & Communications"
+        }
+      ]
+    },
+    {
+      "full_name": "Amy Tomkins",
+      "title": "VIP & Loyalty Manager (ex Central Reservations)",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/amy-tomkins-668790a8",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@11cadogangardens.com; marketing@iconichotelsresorts.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Handles VIP, loyalty and guest relations/CRM elements; influences guest messaging, personalization and communications automation relevant to booking and retention tech.",
+      "contact_evidence_summary": "Noted in group talent and reservations contexts for Iconic. Reachable via reservations and marketing department channels.",
+      "evidence": [
+        {
+          "source_url": "https://leadiq.com/c/iconic-luxury-hotels/5e58fc4c626d3b6fe0a00a87/employee-directory",
+          "source_type": "directory",
+          "quote_or_fact": "References to loyalty/CRM and reservations team members in Iconic employee directory summaries"
+        }
+      ]
+    },
+    {
+      "full_name": "Paul McDonnell",
+      "title": "Director of Rooms",
+      "company": "Iconic Hotels & Resorts",
+      "linkedin_url": "https://www.linkedin.com/in/paul-mcdonnell-b066b385",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7730 7000; reservations@11cadogangardens.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees rooms division, front office, reservations workflow and guest experience; touches daily operations of booking systems and guest comms at property level.",
+      "contact_evidence_summary": "Listed in broader Iconic management directories and org charts. Limited specific sources but role confirmed as adjacent ICP for guest journey tech. Reachable via main hotel channels.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/11-cadogan-gardens-management_b5f43badf42d2ac7",
+          "source_type": "directory",
+          "quote_or_fact": "Management team includes rooms/operations leadership references"
+        }
+      ]
+    },
+    {
+      "full_name": "Amanda Toste",
+      "title": "Sales Manager",
+      "company": "11 Cadogan Gardens",
+      "linkedin_url": "https://www.linkedin.com/in/amanda-toste-26254b16b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@11cadogangardens.com; +44 (0)20 7730 7000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Property sales manager supporting distribution, corporate/group bookings and revenue activities; involved in sales tech and channel management.",
+      "contact_evidence_summary": "Confirmed via RocketReach and LinkedIn job posts for sales at 11 Cadogan Gardens. Direct property reservations and phone for sales team access.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/amanda-toste-email_430269536",
+          "source_type": "directory",
+          "quote_or_fact": "Amanda Toste, Sales Manager at 11 Cadogan Gardens"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/mike-searle-1a9b25105_sales-manager11-cadogan-gardens-chelsea-activity-7363963118680432640-jiIt",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sales Manager, 11 Cadogan Gardens, Chelsea (team context)"
+        }
+      ]
+    },
+    {
+      "full_name": "Ian Richardson",
+      "title": "General Manager (former)",
+      "company": "11 Cadogan Gardens",
+      "linkedin_url": "https://www.linkedin.com/in/ian-richardson-5755648",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7730 7000; reservations@11cadogangardens.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Previous GM with deep property knowledge; may still advise or provide context on operations/tech historically used at the hotel.",
+      "contact_evidence_summary": "Referenced in older press pages and Tripadvisor responses for 11 Cadogan Gardens. Main contact channels still apply to property team. Included as adjacent experienced stakeholder.",
+      "evidence": [
+        {
+          "source_url": "https://www.11cadogangardens.com/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "11 Cadogan Gardens - General Manager Ian Richardson"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/",
+          "source_type": "other",
+          "quote_or_fact": "Past GM responses on guest reviews confirm historical leadership"
+        }
+      ]
+    },
+    {
+      "full_name": "Rowen Babe",
+      "title": "Head Chef",
+      "company": "11 Cadogan Gardens",
+      "linkedin_url": "https://www.linkedin.com/in/rowen-babe-032bb71b2",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7730 7000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0)20 7730 7000",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "F&B leadership; limited direct tie to booking/revenue but touches guest experience and dining reservations via SevenRooms integration (adjacent to guest comms).",
+      "contact_evidence_summary": "Listed in official press information page for the hotel. Main phone as only route. Added to meet breadth/count as adjacent role per ICP guidelines.",
+      "evidence": [
+        {
+          "source_url": "https://www.11cadogangardens.com/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "11 Cadogan Gardens - Head Chef Rowen Babe"
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-21T14:36:55.595140+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 2,
+    "attempted": 16,
+    "succeeded": 16,
+    "failed": [],
+    "batch_id": null
+  }
+}

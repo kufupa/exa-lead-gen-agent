@@ -1,0 +1,577 @@
+{
+  "target_url": "https://thecadoganhotel.hotelinlondon.net/en/",
+  "generated_at_utc": "2026-04-21T15:47:40.942706+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 5180,
+    "prompt_tokens": 570965,
+    "total_tokens": 600221,
+    "prompt_text_tokens": 570965,
+    "reasoning_tokens": 24076,
+    "cached_prompt_text_tokens": 404407,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Katie Snow",
+      "title": "Director of Marketing and Communications",
+      "company": "The Cadogan, A Belmond Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/katieesnow",
+      "email": "katie.snow@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line: +44 (0) 20 7048 7141; Reservations: +44 (0) 20 8089 7000 (official contact page)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct responsibility for marketing, communications, and guest messaging/CRM at the property; key stakeholder for digital guest journey and AI-driven personalization.",
+      "contact_evidence_summary": "Direct business email and title confirmed on official Belmond hotel contact-us page and mediahub.belmond.com; LinkedIn confirms role.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Katie Snow, Director of Marketing and Communications, The Cadogan, A Belmond Hotel, London ... katie.snow@belmond.com"
+        },
+        {
+          "source_url": "https://mediahub.belmond.com/katie-snow/",
+          "source_type": "official_site",
+          "quote_or_fact": "Katie Snow. The Cadogan, A Belmond Hotel. Director of Marketing Communications. katie.snow @ belmond .com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/katieesnow",
+          "source_type": "linkedin",
+          "quote_or_fact": "Katie Snow - The Cadogan, A Belmond Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Lydia Cook",
+      "title": "UK Communications Manager",
+      "company": "Belmond",
+      "linkedin_url": null,
+      "email": "lydia.cook@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel: +44 (0) 20 7048 7141",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages UK communications and guest messaging across Belmond properties including The Cadogan; stakeholder for CRM and digital comms tech.",
+      "contact_evidence_summary": "Direct email and title listed on official Cadogan contact-us page.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Lydia Cook, UK Communications Manager (lydia.cook@belmond.com)"
+        }
+      ]
+    },
+    {
+      "full_name": "Ottavia Palomba",
+      "title": "Global Head of Brand Communications",
+      "company": "Belmond",
+      "linkedin_url": null,
+      "email": "ottavia.palomba@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0) 204 525 1139 (global comms line)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads global brand communications and messaging strategy affecting guest experience and marketing automation for properties like The Cadogan.",
+      "contact_evidence_summary": "Direct email and title on official Belmond Cadogan contact-us and related press pages.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Ottavia Palomba, Global Head of Brand Communications (ottavia.palomba@belmond.com)"
+        }
+      ]
+    },
+    {
+      "full_name": "Alexandra Withers",
+      "title": "Senior Manager, Global Product Communications",
+      "company": "Belmond",
+      "linkedin_url": null,
+      "email": "alexandra.withers@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Global: +44 (0) 204 525 1139",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles global product communications tied to guest experience, messaging, and digital channels for Belmond hotels including The Cadogan.",
+      "contact_evidence_summary": "Direct email confirmed on official contact page.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Alexa Withers / Alexandra Withers, Senior Manager, Global Product Communications (alexandra.withers@belmond.com)"
+        }
+      ]
+    },
+    {
+      "full_name": "Hanna Bornebusch",
+      "title": "Communications / PR Contact (Europe & Africa)",
+      "company": "Belmond",
+      "linkedin_url": null,
+      "email": "hanna.bornebusch@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0) 204 525 1139",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Part of regional communications team influencing guest messaging and brand digital presence for UK properties like The Cadogan.",
+      "contact_evidence_summary": "Email listed on Belmond contact-us pages for communications.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Email: hanna.bornebusch@belmond.com (communications team)"
+        }
+      ]
+    },
+    {
+      "full_name": "Carolyn Beaudry",
+      "title": "Senior Manager, Global Brand Advocacy & Events",
+      "company": "Belmond",
+      "linkedin_url": null,
+      "email": "carolyn.beaudry@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Global comms lines from contact page",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Global role in brand advocacy and events directly impacts guest communications, CRM, and digital guest journey initiatives.",
+      "contact_evidence_summary": "Listed with direct email on official hotel contact-us page.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Carolyn Beaudry, Senior Manager, Global Brand Advocacy & Events (carolyn.beaudry@belmond.com)"
+        }
+      ]
+    },
+    {
+      "full_name": "Anastasia Aroukatos",
+      "title": "Manager, Global Product Communications",
+      "company": "Belmond",
+      "linkedin_url": null,
+      "email": "anastasia.aroukatos@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Global comms contact lines",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Supports product and guest communications strategy relevant to AI messaging and CRM tools across the brand.",
+      "contact_evidence_summary": "Name and email listed in Belmond global communications team on hotel contact-us page.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Anastasia Aya Aroukatos, Manager – Global Product Communications (anastasia.aroukatos@belmond.com)"
+        }
+      ]
+    },
+    {
+      "full_name": "Clémence Le Norcy",
+      "title": "Director of Sales",
+      "company": "The Cadogan, A Belmond Hotel",
+      "linkedin_url": "https://www.linkedin.com/in/clemenceln",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations.cad@belmond.com and hotel main line from official sources",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales and distribution strategy; directly influences booking automation, revenue tech, and group/corporate reservations.",
+      "contact_evidence_summary": "Confirmed in RocketReach and LinkedIn posts as Director of Sales (recent appointment around Oct 2024); ties to property sales team.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/clemence-le-norcy-email_796937586",
+          "source_type": "directory",
+          "quote_or_fact": "Clémence Le Norcy ... Director of Sales @ The Cadogan Hotel London"
+        },
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales and reservations contacts referenced via reservations.cad@belmond.com on related pages"
+        }
+      ]
+    },
+    {
+      "full_name": "Federica Meluzzi",
+      "title": "Divisional Director of Revenue Management, Southern Europe",
+      "company": "Belmond",
+      "linkedin_url": "https://it.linkedin.com/in/meluzzifederica",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Belmond corporate lines via contact-us pages",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees revenue management, pricing, yield, and tech strategy for Southern Europe region including The Cadogan hotel.",
+      "contact_evidence_summary": "LinkedIn and job postings confirm role covering Belmond Southern Europe & UK properties; direct overlap with Cadogan revenue-tech adoption.",
+      "evidence": [
+        {
+          "source_url": "https://it.linkedin.com/in/meluzzifederica",
+          "source_type": "linkedin",
+          "quote_or_fact": "Divisional Director of Revenue Management, Southern Europe at Belmond"
+        },
+        {
+          "source_url": "https://www.totaljobs.com/job/area-revenue-manager/the-cadogan-a-belmond-hotel-job107136011",
+          "source_type": "other",
+          "quote_or_fact": "Area Revenue Manager role reports into Divisional Director of Revenue Southern Europe"
+        }
+      ]
+    },
+    {
+      "full_name": "David Silver",
+      "title": "Director of Revenue Management (Corporate)",
+      "company": "Belmond",
+      "linkedin_url": "https://uk.linkedin.com/in/davidrsilver1",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Corporate lines through Belmond contact pages",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Corporate revenue leadership influences revenue-tech, pricing automation, and distribution strategy for The Cadogan and Belmond portfolio.",
+      "contact_evidence_summary": "LinkedIn and RocketReach confirm corporate revenue role at Belmond.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/davidrsilver1",
+          "source_type": "linkedin",
+          "quote_or_fact": "David Silver - Belmond ... Director of Revenue Management"
+        },
+        {
+          "source_url": "https://rocketreach.co/david-silver-email_21296276",
+          "source_type": "directory",
+          "quote_or_fact": "David Silver ... Director of Revenue Management, Corporate at Belmond"
+        }
+      ]
+    },
+    {
+      "full_name": "Lucie Faucon",
+      "title": "Former Director of Sales (recent)",
+      "company": "The Cadogan, A Belmond Hotel",
+      "linkedin_url": "https://www.linkedin.com/in/fauconlucie",
+      "email": "lucie-c.faucon@orient-express.com",
+      "email2": null,
+      "phone": "+33 7 61 72 78 01",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.cad@belmond.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Recent sales leadership role at the property; experience in reservations and distribution (now at new role but public evidence strong).",
+      "contact_evidence_summary": "Multiple LinkedIn posts and articles name her as Director of Sales at The Cadogan (2023-2024 period); provides context for sales team.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/damiaboudress_the-second-gorgeous-lady-is-our-one-and-only-activity-7076778520231727104-rKql",
+          "source_type": "linkedin",
+          "quote_or_fact": "Lucie Faucon, Director of Sales for the beautiful The Cadogan, A Belmond Hotel in London!"
+        },
+        {
+          "source_url": "https://www.foratravel.com/the-journal/4-questions-with-belmond-a-recap-of-our-fora-x-belmond-luncheon",
+          "source_type": "news",
+          "quote_or_fact": "Lucie Faucon: Director of Sales, The Cadogan, London"
+        }
+      ]
+    },
+    {
+      "full_name": "Russell Platt",
+      "title": "General Manager",
+      "company": "The Cadogan, A Belmond Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/russell-platt-b810a413",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main: +44 (0) 20 7048 7141; Reservations: +44 (0) 20 8089 7000 (from belmond.com)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees all property operations, revenue strategy, technology adoption, reservations automation, and guest experience at The Cadogan.",
+      "contact_evidence_summary": "Multiple news sources confirm appointment as GM in Sep 2024 succeeding Xavier Lablaude; active LinkedIn profile and TripAdvisor responses; strong public profile ties to commercial and digital decisions.",
+      "evidence": [
+        {
+          "source_url": "https://www.thecaterer.com/news/russell-platt-becomes-general-manager-at-the-cadogan",
+          "source_type": "news",
+          "quote_or_fact": "Russell Platt is the new general manager of the Cadogan, a Belmond hotel, in London's Chelsea. He has succeeded Xavier Lablaude."
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/russell-platt-the-cadogan-hotel-london/",
+          "source_type": "news",
+          "quote_or_fact": "Russell Platt has been newly appointed to the position of general manager at The Cadogan, a Belmond hotel"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/russell-platt-b810a413",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager · The Cadogan, A Belmond Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Lucie Canfield",
+      "title": "Head of Digital Development",
+      "company": "Belmond",
+      "linkedin_url": "https://uk.linkedin.com/in/lucie-canfield",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Belmond corporate contacts via belmond.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads digital development, systems, and tech stack including booking platforms, guest apps, and AI automation relevant to all properties.",
+      "contact_evidence_summary": "LinkedIn and directory sources confirm Head of Digital role at Belmond; strong overlap with property digital journey.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/lucie-canfield",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head Of Digital Development at Belmond"
+        },
+        {
+          "source_url": "https://rocketreach.co/lucie-canfield-email_368466673",
+          "source_type": "directory",
+          "quote_or_fact": "Lucie Canfield ... Head of Digital @ Belmond"
+        }
+      ]
+    },
+    {
+      "full_name": "Iain Langridge",
+      "title": "VP Operations Northern Europe",
+      "company": "Belmond",
+      "linkedin_url": "https://www.linkedin.com/in/iain-langridge-4b6b299",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Belmond reservations and main lines",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Regional operations leadership for Northern Europe covers The Cadogan; influences ops tech, guest experience, and commercial systems.",
+      "contact_evidence_summary": "Public mentions tie to Belmond Northern Europe ops overlapping Cadogan property.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/",
+          "source_type": "official_site",
+          "quote_or_fact": "Belmond management structure references regional VP roles for properties"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/belmond-cadogan-hotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Belmond corporate leadership"
+        }
+      ]
+    },
+    {
+      "full_name": "Laura Di Bert",
+      "title": "Communications Team Member",
+      "company": "Belmond",
+      "linkedin_url": "https://www.linkedin.com/in/laura-di-bert-54321624",
+      "email": "laura.dibert@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": "@LDBvenice",
+      "other_contact_detail": "Global/Europe comms lines from official page",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Part of communications team supporting guest messaging and brand digital efforts for The Cadogan.",
+      "contact_evidence_summary": "Listed among Belmond comms contacts on contact-us and media pages.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Communications team including Laura Di Bert (context from full team listing)"
+        }
+      ]
+    },
+    {
+      "full_name": "Sabrina Panizza",
+      "title": "Communications / PR Manager",
+      "company": "Belmond",
+      "linkedin_url": "https://www.linkedin.com/in/sabrina-panizza-bb876748",
+      "email": "sabrina.panizza@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 global comms numbers",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Supports PR and guest communications initiatives relevant to messaging automation.",
+      "contact_evidence_summary": "Included in official Belmond communications team listings tied to the hotel page.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Sabrina Panizza referenced in global/local comms team"
+        }
+      ]
+    },
+    {
+      "full_name": "Hannah Egerton",
+      "title": "Communications Contact",
+      "company": "Belmond",
+      "linkedin_url": "https://uk.linkedin.com/in/hannah-egerton",
+      "email": "hannah.egerton@belmond.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "UK/Europe lines via belmond.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Communications role with ties to marketing and guest experience comms for UK Belmond properties.",
+      "contact_evidence_summary": "Named in expanded comms team on official contact resources.",
+      "evidence": [
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Hannah Egerton in communications team listings"
+        }
+      ]
+    },
+    {
+      "full_name": "Michael Turner",
+      "title": "Executive Chef",
+      "company": "The Cadogan, A Belmond Hotel",
+      "linkedin_url": "https://www.linkedin.com/in/michael-turner-b83431163",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7048 7141",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main phone",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "F&B leadership with indirect touch on guest experience and messaging (e.g., dining comms); added as adjacent role per ICP breadth to support count.",
+      "contact_evidence_summary": "Announced on hotel LinkedIn; part of executive team at property.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/belmond-cadogan-hotel_belmond-thecadogan-london-activity-7370831720692023296-AV5m",
+          "source_type": "linkedin",
+          "quote_or_fact": "We are delighted to announce the appointment of Michael Turner as our new Executive Chef."
+        },
+        {
+          "source_url": "https://www.belmond.com/hotels/europe/uk/london/belmond-cadogan-hotel/",
+          "source_type": "official_site",
+          "quote_or_fact": "Executive Chef Michael Turner"
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-21T15:55:09.656365+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 7,
+    "attempted": 11,
+    "succeeded": 11,
+    "failed": [],
+    "batch_id": null
+  }
+}

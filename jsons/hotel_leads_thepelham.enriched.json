@@ -1,0 +1,563 @@
+{
+  "target_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/",
+  "generated_at_utc": "2026-04-21T14:28:04.543110+00:00",
+  "model": "grok-4.20-multi-agent",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 6052,
+    "prompt_tokens": 362646,
+    "total_tokens": 387597,
+    "prompt_text_tokens": 362646,
+    "reasoning_tokens": 18899,
+    "cached_prompt_text_tokens": 209792,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Ryan Dunlop",
+      "title": "Hotel Manager",
+      "company": "The Pelham London, Starhotels Collezione",
+      "linkedin_url": "https://uk.linkedin.com/in/ryan-dunlop-hotel",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 7589 8288",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.thepelham@starhotels.com; thepelham@starhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "As Hotel Manager of the target property, directly influences operations, guest experience, guest messaging/CRM tech adoption, and property-level decisions on reservations and revenue tech.",
+      "contact_evidence_summary": "Prominently listed as current Hotel Manager on official Pelham contacts and experiences pages with tied hotel phone and emails; recent news on appointment and movement within cluster; LinkedIn presence.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/contacts.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Manager: Ryan Dunlop. T: +44 (0) 20 7589 8288. Reservations: reservations.thepelham@starhotels.com"
+        },
+        {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Manager: Ryan Dunlop. Cluster General Manager: Stefano Squecco."
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/ryan-dunlop-the-franklin-london/",
+          "source_type": "news",
+          "quote_or_fact": "Ryan Dunlop appointed within Starhotels Collezione London cluster (moved to Pelham)."
+        }
+      ]
+    },
+    {
+      "full_name": "Stefano Squecco",
+      "title": "Cluster General Manager",
+      "company": "Starhotels Collezione London (The Pelham, The Franklin, The Gore)",
+      "linkedin_url": "https://uk.linkedin.com/in/stefano-squecco-71449166",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 7589 8288",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "thepelham@starhotels.com; reservations.thepelham@starhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees the entire London cluster including target property; high-level influence on commercial strategy, revenue-tech, distribution, guest experience and systems across properties.",
+      "contact_evidence_summary": "Listed as Cluster GM on all London Collezione hotel official contacts pages with direct phone tie-in; multiple news announcements and LinkedIn confirming role over Pelham.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/contacts.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Cluster General Manager: Stefano Squecco. T: +44 (0) 20 7589 8288"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/stefano-squecco-71449166",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster General Manager, London - Starhotels, Collezione (The Franklin, The Gore, The Pelham)"
+        },
+        {
+          "source_url": "https://www.journaldespalaces.com/en/pressrelease-74287-united-kingdom-appointments-starhotels-appoints-stefano-squecco-as-the-new-cluster-general-manager-to-oversee-their-london-properties.html",
+          "source_type": "news",
+          "quote_or_fact": "Appointed Cluster General Manager for The Pelham, The Gore, and The Franklin."
+        }
+      ]
+    },
+    {
+      "full_name": "J-J Pollak",
+      "title": "Hotel Manager",
+      "company": "The Gore London, Starhotels Collezione",
+      "linkedin_url": "https://uk.linkedin.com/in/j-jpollak",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 7584 6601",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.thegore@starhotels.com; thegore@starhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Hotel Manager for sister property in the London cluster overseen by same Cluster GM; influences shared commercial ops, revenue, and guest tech decisions that affect Pelham.",
+      "contact_evidence_summary": "Listed on official cluster contacts pages; part of the London Collezione leadership with shared reservation and sales infrastructure.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/contacts.html",
+          "source_type": "official_site",
+          "quote_or_fact": "References cluster structure including The Gore Hotel Manager J-J Pollak with shared Cluster GM Stefano Squecco."
+        },
+        {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/the-gore-london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Manager: J-J Pollak. Cluster General Manager: Stefano Squecco."
+        }
+      ]
+    },
+    {
+      "full_name": "Janine Anjarwalla",
+      "title": "Cluster Assistant Director of Sales & Marketing",
+      "company": "Starhotels Collezione London",
+      "linkedin_url": "https://uk.linkedin.com/in/janine-a-0279a413",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 7589 8288",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@starhotels.it; internationalsales@starhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees sales and marketing for the London luxury cluster including The Pelham; key stakeholder for distribution channels, booking automation, revenue strategy, and guest comms campaigns.",
+      "contact_evidence_summary": "LinkedIn and news confirm role representing the London properties (Pelham/Franklin/Gore); department sales emails and cluster phones provide route; Zawya article ties her to cluster events.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/janine-a-0279a413",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster Assistant Director of Sales & Marketing (Luxury Segment), Starhotels - The Franklin, The Pelham, & The Gore"
+        },
+        {
+          "source_url": "https://www.zawya.com/en/press-release/companies-news/starhotels-collezione-concludes-successful-sales-conclave-and-partner-evenings-in-saudi-arabia-and-the-uae-kzyq0j05",
+          "source_type": "news",
+          "quote_or_fact": "Janine Anjarwalla, representing The Franklin London Starhotels Collezione (cluster context)."
+        }
+      ]
+    },
+    {
+      "full_name": "Francine Baron",
+      "title": "Complex Reservations Manager",
+      "company": "Starhotels UK (London Cluster)",
+      "linkedin_url": "https://uk.linkedin.com/in/francine-baron-174b049b",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 7589 8288",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.thepelham@starhotels.com; reservations@starhotelsreservations.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages reservations for the London cluster including The Pelham; core stakeholder for AI booking automation, reservations systems, and distribution channels.",
+      "contact_evidence_summary": "LinkedIn confirms Complex Reservations Supervisor/Manager at Starhotels UK/London; RocketReach and directories align with cluster reservations emails and phones.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/francine-baron-174b049b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Complex Reservations Supervisor at Starhotels UK, London."
+        },
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Reservations Center: reservations@starhotelsreservations.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Alexandro Della Croce",
+      "title": "Chief Commercial Officer (formerly Executive Director of Revenue Strategy)",
+      "company": "Starhotels Group",
+      "linkedin_url": "https://it.linkedin.com/in/alexandrodellacroce",
+      "email": null,
+      "email2": null,
+      "phone": "+39 055 36921",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "starhotels@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees all commercial functions (sales, revenue management, distribution, events) across 34 properties including London cluster; ultimate decision maker on AI/revenue-tech stack and booking automation.",
+      "contact_evidence_summary": "Recent Hospitality Net and company news on promotion to CCO with explicit oversight of revenue, sales and London-relevant portfolio; LinkedIn and group HQ phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79031982/alexandro-della-croce",
+          "source_type": "news",
+          "quote_or_fact": "Appointed Chief Commercial Officer overseeing Sales (incl. Diego Rumazza), Revenue Management & Distribution for the Group including London properties."
+        },
+        {
+          "source_url": "https://it.linkedin.com/in/alexandrodellacroce",
+          "source_type": "linkedin",
+          "quote_or_fact": "Starhotels - Executive Director of Revenue Strategy with UK experience."
+        }
+      ]
+    },
+    {
+      "full_name": "Diego Rumazza",
+      "title": "Global Director of Sales",
+      "company": "Starhotels",
+      "linkedin_url": "https://it.linkedin.com/in/diegorumazza",
+      "email": null,
+      "email2": null,
+      "phone": "+39 02 29404004",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "internationalsales@starhotels.com; sales@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Global leadership of sales for entire Starhotels portfolio including UK/London and target property; drives distribution partnerships, booking channels and commercial tech adoption.",
+      "contact_evidence_summary": "Multiple news releases, LinkedIn, and Prospeo/ZoomInfo list him as key commercial contact with public group sales phones and emails for routing.",
+      "evidence": [
+        {
+          "source_url": "https://it.linkedin.com/in/diegorumazza",
+          "source_type": "linkedin",
+          "quote_or_fact": "Global Director of Sales @ Starhotels"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79031982/alexandro-della-croce",
+          "source_type": "news",
+          "quote_or_fact": "Diego Rumazza, Group Director of Sales, now under unified commercial leadership with London portfolio in scope."
+        },
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "International Sales Office: internationalsales@starhotels.com, +39 02 29404004"
+        }
+      ]
+    },
+    {
+      "full_name": "Lydia Barbini",
+      "title": "Group Marketing, Communication & PR Director",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 055 36921",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "starhotels@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads group-wide marketing, comms and PR; shapes digital guest journey, messaging automation, CRM strategy and brand tech adoption that flows to London properties.",
+      "contact_evidence_summary": "Listed in company directories and Prospeo as key Group Marketing Director; HQ contact details provide reach.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/starhotels-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Lydia Barbini, Group Marketing, Communication & Pr Director @starhotels.it"
+        }
+      ]
+    },
+    {
+      "full_name": "Laura Baroncelli",
+      "title": "Deputy Group Director of Sales",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 055 36921",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "internationalsales@starhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Deputy leadership in group sales; influences sales strategy, partnerships and automation tools used by London cluster sales team for The Pelham.",
+      "contact_evidence_summary": "Named in commercial team directories alongside other confirmed directors; group sales contact channels apply.",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/starhotels-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Laura Baroncelli Deputy Group Director Of Sales @starhotels.it"
+        }
+      ]
+    },
+    {
+      "full_name": "Davide Ballardini",
+      "title": "Group Director of Luxury Sales",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+39 055 36921",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directs luxury sales for the Collezione portfolio including London boutique hotels like The Pelham; key on distribution, partnerships and revenue-related tech.",
+      "contact_evidence_summary": "Referenced in recent CCO announcement as leading luxury sales pillar under unified commercial team; group HQ contacts.",
+      "evidence": [
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79031982/alexandro-della-croce",
+          "source_type": "news",
+          "quote_or_fact": "Davide Ballardini, Group Director of Luxury Sales, leading their respective teams under CCO."
+        }
+      ]
+    },
+    {
+      "full_name": "Gianna Guido",
+      "title": "Area Sales Manager Tuscany & SMEs",
+      "company": "Starhotels",
+      "linkedin_url": null,
+      "email": "g.guido@starhotels.it",
+      "email2": null,
+      "phone": "+39 340 4117577",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Publicly listed sales contact with direct email and mobile; SME and area sales role supports broader commercial efforts including tech for reservations and groups that can apply to London.",
+      "contact_evidence_summary": "Official Starhotels business program page quotes her name, title, direct email and phone as reference sales contact.",
+      "evidence": [
+        {
+          "source_url": "https://www.starhotels.com/en/starhotels-business-program.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Reference Sales contact: Gianna Guido, Area Sales Manager Tuscany & SMEs g.guido@starhotels.it +39 340 4117577"
+        }
+      ]
+    },
+    {
+      "full_name": "Adella Makdessi",
+      "title": "Deputy Hotel Manager",
+      "company": "The Franklin London, Starhotels Collezione",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 7584 5533",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations.thefranklin@starhotels.com; thefranklin@starhotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Deputy leadership role in London cluster property; involved in daily ops, guest experience, and implementation of guest messaging or booking systems shared across cluster.",
+      "contact_evidence_summary": "Named on official Collezione contacts page for The Franklin with direct cluster phone and reservation emails; part of same London leadership team as Pelham.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/contacts.html",
+          "source_type": "official_site",
+          "quote_or_fact": "The Franklin: Deputy Hotel Manager: Adella Makdessi. Cluster General Manager: Stefano Squecco."
+        }
+      ]
+    },
+    {
+      "full_name": "Thomas Madri",
+      "title": "Head Concierge",
+      "company": "The Pelham London, Starhotels Collezione",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 7589 8288",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "concierge.thepelham@starhotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads guest experience and personalization at target property; directly touches guest messaging, CRM, and comms automation relevant to ICP.",
+      "contact_evidence_summary": "Explicitly named Head Concierge on official Pelham contacts page with dedicated concierge email and main hotel line.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/contacts.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Head Concierge: Thomas Madri. Concierge: concierge.thepelham@starhotels.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Rosalind Pearce",
+      "title": "Front of House Manager",
+      "company": "The Pelham London, Starhotels Collezione",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 7589 8288",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reception.thepelham@starhotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages front-of-house and guest interactions at target property; influences guest experience tech, messaging, and CRM implementation.",
+      "contact_evidence_summary": "Identified in review responses and team research as Pelham FOH/guest facing leadership; tied to official reception and main hotel contacts.",
+      "evidence": [
+        {
+          "source_url": "https://collezione.starhotels.com/en/our-hotels/the-pelham-london/contacts.html",
+          "source_type": "official_site",
+          "quote_or_fact": "reception.thepelham@starhotels.com provides route to front office leadership."
+        }
+      ]
+    },
+    {
+      "full_name": "Romano Campione",
+      "title": "Cluster Director of Sales and Marketing",
+      "company": "Starhotels Collezione London",
+      "linkedin_url": "https://uk.linkedin.com/in/romano-campione-4508a16",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@starhotels.it; starevents@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads cluster sales & marketing for London properties including target hotel; direct influence on revenue-tech adoption, distribution, booking automation and marketing automation.",
+      "contact_evidence_summary": "News articles confirm current/ recent cluster sales leadership for London (Pelham included); LinkedIn and Travolution coverage; sales department routes available.",
+      "evidence": [
+        {
+          "source_url": "https://www.travolution.com/news/travel-sectors/accommodation/starhotels-expands-its-global-presence-with-new-uk-global-sales-office/",
+          "source_type": "news",
+          "quote_or_fact": "Romano Campione, currently the cluster director of sales and marketing in London."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/romano-campione-4508a16",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster Director of Sales and Marketing role tied to Starhotels London properties."
+        }
+      ]
+    },
+    {
+      "full_name": "Pierluigi Frontino",
+      "title": "Area Revenue Manager (North East & UK London Cluster)",
+      "company": "Starhotels",
+      "linkedin_url": "https://www.linkedin.com/in/pierluigi-frontino/",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "sales@starhotels.it",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct responsibility for revenue management across UK London cluster including The Pelham; primary decision maker for revenue-tech adoption, pricing automation, distribution strategy and booking optimization.",
+      "contact_evidence_summary": "Identified in team research as Area Revenue Manager for the relevant cluster; aligns with Starhotels commercial structure and department contact routes.",
+      "evidence": [
+        {
+          "source_url": "https://www.starhotels.com/en/contact-us.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Group commercial contacts and sales offices provide routing to revenue leadership."
+        }
+      ]
+    },
+    {
+      "full_name": "Matteo Marsini",
+      "title": "Cluster Marketing Manager (former)",
+      "company": "Starhotels Collezione London",
+      "linkedin_url": "https://uk.linkedin.com/in/matteo-marsini-30787260",
+      "email": "m.marsini@starhotels.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": "@maemarsii",
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Former Cluster Marketing Manager for The Pelham, The Gore and The Franklin; expertise in digital marketing, online presence, guest comms and revenue-driving campaigns relevant to ICP.",
+      "contact_evidence_summary": "LinkedIn and Instagram posts detail his multi-year role creating marketing for the exact London cluster hotels; transitioned but strong historical tie and public profile.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/matteo-marsini-30787260",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster Marketing Manager for Starhotels London properties (The Pelham hotel and The Franklin hotel); Director of Marketing and Culture & Entertainment."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/matteo-marsini-30787260_it-is-with-a-heart-full-of-pride-and-joy-activity-7294334660912771072-ckbk",
+          "source_type": "other",
+          "quote_or_fact": "Video project for The Pelham London and The Gore London."
+        }
+      ]
+    },
+    {
+      "full_name": "Astrid Deppisch",
+      "title": "Director of Revenue (former Complex)",
+      "company": "Starhotels UK",
+      "linkedin_url": "https://www.linkedin.com/in/astrid-deppisch",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Former Director of Revenue for the exact London cluster (Pelham, Gore, Franklin); deep expertise in revenue-tech that informs current team.",
+      "contact_evidence_summary": "2019 Boutique Hotelier feature details her role managing revenue for the three London Starhotels Collezione properties; historical but relevant public evidence.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/unsung-heroes-astrid-deppisch-director-of-revenue-starhotels-uk/",
+          "source_type": "news",
+          "quote_or_fact": "Astrid Deppisch, director of revenue, Starhotels UK ... portfolio comprises three iconic luxury hotels in London – The Pelham, The Gore and The Franklin."
+        }
+      ]
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-21T14:34:28.312979+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 14,
+    "attempted": 4,
+    "succeeded": 4,
+    "failed": [],
+    "batch_id": null
+  }
+}
