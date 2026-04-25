@@ -74,6 +74,7 @@ def test_linkedin_profile_rejects_caveats_over_max():
 
 from unittest.mock import MagicMock
 from linkedin_enrich.exa_fetch import discover_linkedin_urls, fetch_linkedin_profiles, normalize_linkedin_url
+from linkedin_enrich.grok_structure import build_structuring_prompt
 
 
 def test_normalize_linkedin_url():
@@ -146,3 +147,13 @@ def test_discover_linkedin_urls_skips_entry_without_linkedin_url():
 
     assert mock_exa.search.call_count == 1
     assert discovered == {}
+
+
+def test_structuring_prompt_contains_url_and_markdown():
+    prompt = build_structuring_prompt(
+        linkedin_url="https://www.linkedin.com/in/foo",
+        markdown="# Foo Bar\nCEO at TestCo\nLondon\n## Experience\n### CEO at TestCo\n2020 - Present",
+    )
+    assert "linkedin.com/in/foo" in prompt
+    assert "CEO at TestCo" in prompt
+    assert "Experience" in prompt
