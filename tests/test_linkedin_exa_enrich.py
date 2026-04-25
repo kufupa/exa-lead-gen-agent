@@ -113,3 +113,36 @@ def test_discover_linkedin_urls_uses_full_name_contract():
 
     assert mock_exa.search.call_count == 1
     assert discovered["Test Person|TestCo"] == "https://www.linkedin.com/in/test-person"
+
+
+def test_discover_linkedin_urls_does_not_fallback_to_name():
+    mock_exa = MagicMock()
+    mock_result = MagicMock()
+    mock_result.results = [
+        MagicMock(url="https://www.linkedin.com/in/no-fallback/", text=""),
+    ]
+    mock_exa.search.return_value = mock_result
+
+    contacts = [{"name": "Fallback Name", "company": "TestCo"}]
+    discovered = discover_linkedin_urls(mock_exa, contacts)
+
+    assert mock_exa.search.call_count == 1
+    called_query = mock_exa.search.call_args.args[0]
+    assert "Fallback Name" not in called_query
+    assert discovered["|TestCo"] == "https://www.linkedin.com/in/no-fallback"
+
+
+def test_discover_linkedin_urls_skips_entry_without_linkedin_url():
+    mock_exa = MagicMock()
+    mock_result = MagicMock()
+    mock_result.results = [
+        MagicMock(url="https://example.com/person/test-person", text=""),
+        MagicMock(url="https://example.org/about", text=""),
+    ]
+    mock_exa.search.return_value = mock_result
+
+    contacts = [{"full_name": "Test Person", "company": "TestCo"}]
+    discovered = discover_linkedin_urls(mock_exa, contacts)
+
+    assert mock_exa.search.call_count == 1
+    assert discovered == {}
