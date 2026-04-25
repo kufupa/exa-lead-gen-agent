@@ -44,6 +44,8 @@ def discover_linkedin_urls(exa_client, contacts) -> dict[str, str]:
 
     for contact in contacts:
         name = str(contact.get("full_name", "")).strip()
+        if not name:
+            continue
         company = str(contact.get("company", "")).strip()
         key = f"{name}|{company}"
 

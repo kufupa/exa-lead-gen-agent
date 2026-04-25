@@ -129,10 +129,33 @@ def test_discover_linkedin_urls_does_not_fallback_to_name():
     contacts = [{"name": "Fallback Name", "company": "TestCo"}]
     discovered = discover_linkedin_urls(mock_exa, contacts)
 
+    assert mock_exa.search.call_count == 0
+    assert discovered == {}
+
+
+def test_discover_linkedin_urls_skips_blank_full_name():
+    mock_exa = MagicMock()
+    mock_result = MagicMock()
+    mock_result.results = [
+        MagicMock(url="https://www.linkedin.com/in/valid-person/", text=""),
+    ]
+    mock_exa.search.return_value = mock_result
+
+    contacts = [
+        {"full_name": "   ", "company": "BlankCo"},
+        {"full_name": "", "company": "EmptyCo"},
+        {"full_name": "Valid Person", "company": "TestCo"},
+    ]
+    discovered = discover_linkedin_urls(mock_exa, contacts)
+
     assert mock_exa.search.call_count == 1
     called_query = mock_exa.search.call_args.args[0]
-    assert "Fallback Name" not in called_query
-    assert discovered["|TestCo"] == "https://www.linkedin.com/in/no-fallback"
+    assert "Valid Person" in called_query
+    assert "BlankCo" not in called_query
+    assert "EmptyCo" not in called_query
+    assert discovered == {
+        "Valid Person|TestCo": "https://www.linkedin.com/in/valid-person",
+    }
 
 
 def test_discover_linkedin_urls_skips_entry_without_linkedin_url():
@@ -345,3 +368,42 @@ def test_linkedin_exa_enrich_dry_run(tmp_path):
     assert r.returncode == 0
     assert "would_fetch" in r.stdout
     assert "would_discover" in r.stdout
+    assert "'would_discover': 2" in r.stdout
+
+
+def test_linkedin_exa_enrich_dry_run_without_discover_missing_has_zero_would_discover(tmp_path):
+    in_json = tmp_path / "input.enriched.json"
+    payload = {
+        "contacts": [
+            {
+                "full_name": "Jane Doe",
+                "company": "Example Hotels",
+                "linkedin_url": "https://www.linkedin.com/in/janedoe",
+            },
+            {
+                "full_name": "John Smith",
+                "company": "Example Hotels",
+            },
+        ]
+    }
+    in_json.write_text(json.dumps(payload), encoding="utf-8")
+
+    env = dict(os.environ)
+    env.pop("EXA_API_KEY", None)
+    env.pop("XAI_API_KEY", None)
+
+    r = subprocess.run(
+        [
+            sys.executable,
+            "scripts/linkedin_exa_enrich.py",
+            "--in-json",
+            str(in_json),
+            "--dry-run",
+        ],
+        capture_output=True,
+        text=True,
+        env=env,
+    )
+    assert r.returncode == 0
+    assert "would_discover" in r.stdout
+    assert "'would_discover': 0" in r.stdout

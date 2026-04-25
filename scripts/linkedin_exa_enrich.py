@@ -81,13 +81,17 @@ def _process_one_file(
 
     if dry_run:
         stats["would_fetch"] = len(set(normalize_linkedin_url(u) for u in urls_to_fetch))
-        stats["would_discover"] = len(
-            [
-                c
-                for c in contacts
-                if not (c.get("linkedin_url") or "").strip()
-                and not (skip_existing and c.get("linkedin_profile"))
-            ]
+        stats["would_discover"] = (
+            len(
+                [
+                    c
+                    for c in contacts
+                    if not (c.get("linkedin_url") or "").strip()
+                    and not (skip_existing and c.get("linkedin_profile"))
+                ]
+            )
+            if discover_missing
+            else 0
         )
         return stats
 
