@@ -73,7 +73,7 @@ def test_linkedin_profile_rejects_caveats_over_max():
 
 
 from unittest.mock import MagicMock
-from linkedin_enrich.exa_fetch import fetch_linkedin_profiles, normalize_linkedin_url
+from linkedin_enrich.exa_fetch import discover_linkedin_urls, fetch_linkedin_profiles, normalize_linkedin_url
 
 
 def test_normalize_linkedin_url():
@@ -98,3 +98,18 @@ def test_fetch_deduplicates_urls():
     assert mock_exa.get_contents.call_count == 1
     assert "https://www.linkedin.com/in/foo" in result
     assert "# Foo" in result["https://www.linkedin.com/in/foo"]
+
+
+def test_discover_linkedin_urls_uses_full_name_contract():
+    mock_exa = MagicMock()
+    mock_result = MagicMock()
+    mock_result.results = [
+        MagicMock(url="https://www.linkedin.com/in/test-person/", text=""),
+    ]
+    mock_exa.search.return_value = mock_result
+
+    contacts = [{"full_name": "Test Person", "company": "TestCo"}]
+    discovered = discover_linkedin_urls(mock_exa, contacts)
+
+    assert mock_exa.search.call_count == 1
+    assert discovered["Test Person|TestCo"] == "https://www.linkedin.com/in/test-person"

@@ -43,7 +43,10 @@ def discover_linkedin_urls(exa_client, contacts) -> dict[str, str]:
     discovered: dict[str, str] = {}
 
     for contact in contacts:
-        name = str(contact.get("name", "")).strip()
+        raw_name = contact.get("full_name")
+        if raw_name is None:
+            raw_name = contact.get("name", "")
+        name = str(raw_name).strip()
         company = str(contact.get("company", "")).strip()
         key = f"{name}|{company}"
 
