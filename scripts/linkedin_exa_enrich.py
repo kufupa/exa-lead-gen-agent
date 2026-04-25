@@ -170,16 +170,17 @@ def main() -> int:
 
     exa_key = (os.environ.get("EXA_API_KEY") or "").strip()
     xai_key = (os.environ.get("XAI_API_KEY") or "").strip()
-    if not exa_key:
+    if not args.dry_run and not exa_key:
         print("Missing EXA_API_KEY.", file=sys.stderr)
         return 1
     if not xai_key and not args.dry_run:
         print("Missing XAI_API_KEY.", file=sys.stderr)
         return 1
 
-    from exa_py import Exa
-
-    exa_client = Exa(api_key=exa_key)
+    exa_client = None
+    if not args.dry_run:
+        from exa_py import Exa
+        exa_client = Exa(api_key=exa_key)
 
     files: list[tuple[Path, Path]] = []
     if args.all:

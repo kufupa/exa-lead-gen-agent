@@ -3,6 +3,7 @@
 from __future__ import annotations
 import pytest
 import types
+import os
 from pydantic import ValidationError
 from linkedin_enrich.types import LinkedInProfile, ExperienceEntry
 
@@ -289,9 +290,10 @@ def test_structure_profile_chat_create_uses_response_format_and_no_tools(monkeyp
 
 import subprocess
 import sys
+import json
 
 
-def test_linkedin_exa_enrich_dry_run():
+def test_linkedin_exa_enrich_help():
     r = subprocess.run(
         [sys.executable, "scripts/linkedin_exa_enrich.py", "--help"],
         capture_output=True, text=True
@@ -299,3 +301,47 @@ def test_linkedin_exa_enrich_dry_run():
     assert r.returncode == 0
     assert "--in-json" in r.stdout
     assert "--discover-missing" in r.stdout
+
+
+def test_linkedin_exa_enrich_dry_run(tmp_path):
+    in_json = tmp_path / "input.enriched.json"
+    payload = {
+        "contacts": [
+            {
+                "full_name": "Jane Doe",
+                "company": "Example Hotels",
+                "linkedin_url": "https://www.linkedin.com/in/janedoe",
+            },
+            {
+                "full_name": "John Smith",
+                "company": "Example Hotels",
+            },
+            {
+                "full_name": "No Url",
+                "company": "Example Hotels",
+                "linkedin_url": "",
+            },
+        ]
+    }
+    in_json.write_text(json.dumps(payload), encoding="utf-8")
+
+    env = dict(os.environ)
+    env.pop("EXA_API_KEY", None)
+    env.pop("XAI_API_KEY", None)
+
+    r = subprocess.run(
+        [
+            sys.executable,
+            "scripts/linkedin_exa_enrich.py",
+            "--in-json",
+            str(in_json),
+            "--dry-run",
+            "--discover-missing",
+        ],
+        capture_output=True,
+        text=True,
+        env=env,
+    )
+    assert r.returncode == 0
+    assert "would_fetch" in r.stdout
+    assert "would_discover" in r.stdout
