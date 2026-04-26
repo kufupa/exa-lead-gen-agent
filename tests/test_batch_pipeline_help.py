@@ -6,6 +6,32 @@ from types import SimpleNamespace
 import hotel_batch_pipeline as pipeline
 
 
+def test_main_returns_nonzero_when_any_url_fails(tmp_path: Path, monkeypatch) -> None:
+    (tmp_path / "jsons").mkdir()
+    (tmp_path / "fullJSONs").mkdir()
+    monkeypatch.chdir(tmp_path)
+
+    def _fail(_url: str, **_: object) -> tuple[str, str]:
+        return (_url, "failed research: 9")
+
+    monkeypatch.setattr(pipeline, "_run_one", _fail)
+    monkeypatch.setattr(sys, "argv", ["hotel_batch_pipeline.py", "--url", "https://bad.example/"])
+    assert pipeline.main() == 1
+
+
+def test_main_returns_zero_when_all_ok(tmp_path: Path, monkeypatch) -> None:
+    (tmp_path / "jsons").mkdir()
+    (tmp_path / "fullJSONs").mkdir()
+    monkeypatch.chdir(tmp_path)
+
+    def _ok(url: str, **_: object) -> tuple[str, str]:
+        return (url, "ok")
+
+    monkeypatch.setattr(pipeline, "_run_one", _ok)
+    monkeypatch.setattr(sys, "argv", ["hotel_batch_pipeline.py", "--url", "https://good.example/"])
+    assert pipeline.main() == 0
+
+
 def test_hotel_batch_pipeline_help_exits_zero() -> None:
     root = Path(__file__).resolve().parent.parent
     r = subprocess.run(
@@ -18,15 +44,21 @@ def test_hotel_batch_pipeline_help_exits_zero() -> None:
     assert "skip-if-enriched" in (r.stdout + r.stderr).lower() or "skip" in (r.stdout + r.stderr).lower()
 
 
+def _stub_phase3_script(tmp_path: Path) -> None:
+    d = tmp_path / "scripts"
+    d.mkdir(parents=True, exist_ok=True)
+    (d / "linkedin_exa_enrich.py").write_text("# stub for tests\n", encoding="utf-8")
+
+
 class _FakeStore:
     def enriched_entry_file_exists(self, _canon: str) -> bool:
         return False
 
-    def mark_researching(self, **_kwargs: str) -> None:
+    def mark_researching(self, **_kwargs: object) -> None:
         return None
 
-    def commit_after_enrich(self, **_kwargs: str | None) -> None:
-        return None
+    def commit_after_enrich(self, **_kwargs: object) -> bool:
+        return True
 
 
 def test_phase3_not_called_when_linkedin_enrich_flag_unset(monkeypatch, tmp_path: Path) -> None:
@@ -54,6 +86,7 @@ def test_phase3_not_called_when_linkedin_enrich_flag_unset(monkeypatch, tmp_path
 
 def test_phase3_called_when_linkedin_enrich_flag_set(monkeypatch, tmp_path: Path) -> None:
     monkeypatch.setenv("LINKEDIN_ENRICH", "1")
+    _stub_phase3_script(tmp_path)
     calls: list[list[str]] = []
 
     def _fake_run(cmd, **_kwargs):
@@ -84,6 +117,7 @@ def test_phase3_called_when_linkedin_enrich_flag_set(monkeypatch, tmp_path: Path
 
 def test_phase3_failure_non_fatal(monkeypatch, tmp_path: Path) -> None:
     monkeypatch.setenv("LINKEDIN_ENRICH", "true")
+    _stub_phase3_script(tmp_path)
     calls: list[list[str]] = []
 
     def _fake_run(cmd, **_kwargs):
