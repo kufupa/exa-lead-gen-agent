@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at_utc": "2026-04-26T15:31:10.465660+00:00",
+  "updated_at_utc": "2026-04-26T20:44:22.940062+00:00",
   "urls": {
     "https://chesterfieldmayfair.com": {
       "status": "enriched",
@@ -214,6 +214,7 @@
       "last_started_at_utc": "2026-04-25T13:41:45.928018+00:00",
       "error": null
     },
+<<<<<<< Updated upstream
     "https://montcalmcollection.com/montcalm-mayfair": {
       "status": "enriched",
       "research_json": "jsons/hotel_leads__montcalmcollection_com__montcalm_mayfair__0a98b0dd.json",
@@ -312,6 +313,34 @@
       "last_started_at_utc": "2026-04-26T15:20:39.651992+00:00",
       "error": null,
       "last_finished_at_utc": "2026-04-26T15:31:10.465660+00:00"
+=======
+    "https://www.thehari.com/london": {
+      "status": "failed",
+      "research_json": "jsons/hotel_leads__www_thehari_com__london__f92c758d.json",
+      "enriched_json": "jsons/hotel_leads__www_thehari_com__london__f92c758d.enriched.json",
+      "claimed_by": "05f50299-e25d-47df-803c-6892ada1f95f::pid112220",
+      "last_started_at_utc": "2026-04-26T20:34:22.678231+00:00",
+      "error": "phase1 subprocess timeout",
+      "last_finished_at_utc": "2026-04-26T20:44:22.719510+00:00"
+    },
+    "https://www.rosewoodhotels.com/en/london": {
+      "status": "failed",
+      "research_json": "jsons/hotel_leads__www_rosewoodhotels_com__en_london__a6ebb6a4.json",
+      "enriched_json": "jsons/hotel_leads__www_rosewoodhotels_com__en_london__a6ebb6a4.enriched.json",
+      "claimed_by": "0e8b0804-fb48-4816-8cdd-7fd95cd7bcb5::pid112220",
+      "last_started_at_utc": "2026-04-26T20:34:22.775336+00:00",
+      "error": "phase1 subprocess timeout",
+      "last_finished_at_utc": "2026-04-26T20:44:22.869000+00:00"
+    },
+    "https://www.corinthia.com/london": {
+      "status": "failed",
+      "research_json": "jsons/hotel_leads__www_corinthia_com__london__5f797df1.json",
+      "enriched_json": "jsons/hotel_leads__www_corinthia_com__london__5f797df1.enriched.json",
+      "claimed_by": "bc938348-b965-49ef-a90d-ecfb522be1e4::pid112220",
+      "last_started_at_utc": "2026-04-26T20:34:22.828171+00:00",
+      "error": "phase1 subprocess timeout",
+      "last_finished_at_utc": "2026-04-26T20:44:22.940062+00:00"
+>>>>>>> Stashed changes
     }
   }
 }
