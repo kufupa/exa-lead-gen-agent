@@ -1,0 +1,1446 @@
+{
+  "input_url": "https://kayagnhlondon.com/",
+  "resolved_org": {
+    "input_url": "https://kayagnhlondon.com/",
+    "canonical_name": "Kaya Great Northern Hotel",
+    "property_name": "Kaya Great Northern Hotel",
+    "brand_name": "Kaya Hotels & Resorts",
+    "management_company": "Kaya Hotels & Resorts",
+    "ownership_group": "Kaya Holding",
+    "location_hint": "King's Cross St Pancras, London, UK",
+    "domains": [
+      "kayagnhlondon.com",
+      "gnhlondon.com"
+    ],
+    "evidence": [
+      {
+        "url": "https://kayagnhlondon.com/",
+        "title": "Official Hotel Website",
+        "source_type": "hotel_site",
+        "snippet": "Kaya Great Northern Hotel near Kings Cross & St Pancras Station. A Member of Kaya Hotels & Resorts.",
+        "fetched_text": null,
+        "published_date": null,
+        "query": null,
+        "score": null
+      },
+      {
+        "url": "https://tophotel.news/rebrand-for-great-northern-hotel/",
+        "title": "Rebrand for Great Northern Hotel",
+        "source_type": "press",
+        "snippet": "Turkish hotel and resort group Kaya has underlined its intention to grow internationally, rebranding a London landmark property... acquired by Kaya Hotels & Resorts in 2024... Kaya took over management of the property. The September 2025 name change...",
+        "fetched_text": null,
+        "published_date": "2025-09-15",
+        "query": null,
+        "score": null
+      },
+      {
+        "url": "https://boutiquehotelnews.com/news/hotel/kaya-holding-great-northern-hotel/",
+        "title": "Kaya Holding acquires London's Great Northern Hotel",
+        "source_type": "press",
+        "snippet": "Kaya Holding has acquired the Great Northern Hotel... Burak Kaya, chairman of the board of directors for Kaya Holding...",
+        "fetched_text": null,
+        "published_date": "2024-07-02",
+        "query": null,
+        "score": null
+      },
+      {
+        "url": "https://hotelrez.com/kaya-great-northern-hotel-embarks-on-new-chapter-in-partnership-with-hotelrez-hotels-resorts/",
+        "title": "Kaya Great Northern Hotel Embarks on New Chapter",
+        "source_type": "press",
+        "snippet": "Kaya Great Northern Hotel (Kaya GNH)... following its acquisition of the 88-bedroom property...",
+        "fetched_text": null,
+        "published_date": "2025-10-07",
+        "query": null,
+        "score": null
+      },
+      {
+        "url": "https://gnhlondon.com/contact-us/",
+        "title": "Contact Page",
+        "source_type": "hotel_site",
+        "snippet": "Kaya Great Northern Hotel, King's Cross St Pancras... General Manager... gm@gnhlondon.com",
+        "fetched_text": null,
+        "published_date": null,
+        "query": null,
+        "score": null
+      }
+    ]
+  },
+  "aliases": [
+    {
+      "value": "Kaya Great Northern Hotel",
+      "kind": "property",
+      "confidence": "high",
+      "source_url": "https://kayagnhlondon.com/",
+      "quote": "Welcome to the original railway hotel... Kaya Great Northern Hotel"
+    },
+    {
+      "value": "Great Northern Hotel",
+      "kind": "historical",
+      "confidence": "high",
+      "source_url": "https://tophotel.news/rebrand-for-great-northern-hotel/",
+      "quote": "London’s Great Northern Hotel has undergone a subtle rebranding... will now be known as the Kaya Great Northern Hotel"
+    },
+    {
+      "value": "Kaya GNH",
+      "kind": "property",
+      "confidence": "high",
+      "source_url": "https://hotelrez.com/kaya-great-northern-hotel-embarks-on-new-chapter-in-partnership-with-hotelrez-hotels-resorts/",
+      "quote": "Kaya Great Northern Hotel (Kaya GNH)"
+    },
+    {
+      "value": "Kaya Hotels & Resorts",
+      "kind": "brand",
+      "confidence": "high",
+      "source_url": "https://kayagnhlondon.com/",
+      "quote": "a Member of Kaya Hotels & Resorts"
+    },
+    {
+      "value": "Kaya Holding",
+      "kind": "ownership",
+      "confidence": "high",
+      "source_url": "https://boutiquehotelnews.com/news/hotel/kaya-holding-great-northern-hotel/",
+      "quote": "Turkish owner operator Kaya Holdings has purchased the Great Northern Hotel"
+    },
+    {
+      "value": "Kaya Tourism Group",
+      "kind": "ownership",
+      "confidence": "high",
+      "source_url": "https://www.boutiquehotelier.com/kaya-tourism-group-great-northern-hotel/",
+      "quote": "Kaya Tourism Group acquires Great Northern Hotel in London's King's Cross"
+    },
+    {
+      "value": "gnhlondon.com",
+      "kind": "domain",
+      "confidence": "high",
+      "source_url": "https://gnhlondon.com/contact-us/",
+      "quote": "Kaya Great Northern Hotel"
+    },
+    {
+      "value": "ARIES GNH (OPERATIONS) LIMITED",
+      "kind": "management",
+      "confidence": "medium",
+      "source_url": "https://find-and-update.company-information.service.gov.uk/company/07042996",
+      "quote": "Operating company associated with the hotel"
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "c_2a85cd9009e1bbb6",
+      "full_name": "Marco Salamon",
+      "title": "General Manager",
+      "normalized_title": "general manager",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 1,
+      "role_family": "gm_ops",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://uk.linkedin.com/in/marco-salamon-40402019",
+          "title": "LinkedIn Profile",
+          "source_type": "linkedin",
+          "snippet": "Hotel General Manager · The Great Northern Hotel / Kaya Great Northern Hotel",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d4053933-r1029243671-Kaya_Great_Northern_Hotel-London_England.html",
+          "title": "Tripadvisor Review Response",
+          "source_type": "other",
+          "snippet": "Marco Salamon, General Manager at Kaya Great Northern Hotel",
+          "fetched_text": null,
+          "published_date": "2025-09-07",
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d4053933-r1040244359-Kaya_Great_Northern_Hotel-London_England.html",
+          "title": "Tripadvisor Review",
+          "source_type": "other",
+          "snippet": "Marco Salamon, General Manager at Kaya Great Northern Hotel",
+          "fetched_text": null,
+          "published_date": "2025-11-24",
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://patch.com/connecticut/norwalk/maritime-aquarium-welcomes-new-harbor-seal-norwalk",
+          "title": "Maritime Aquarium Welcomes New Harbor Seal In Norwalk",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": "Maritime Aquarium Welcomes New Harbor Seal In Norwalk | Norwalk, CT Patch\n\nSkip to main content\n\n### Nearby Communities\n\n### State Edition\n\n### National Edition\n\n- Top National News\n- See All Communities\n\nThank you to our Local Business Sponsor:\n\n###### Community Corner\n\n# Maritime Aquarium Welcomes New Harbor Seal In Norwalk\n\n## The Maritime Aquarium in Norwalk has announced the arrival of a new 8‑year‑old harbor seal at the facility.\n\n###### RJ Scofield, Patch Staff\n\nPosted Sun, Apr 26, 2026 at 12:01 pm ET\n\nThe Maritime Aquarium in Norwalk announced the arrival of Kaya, a new 8‑year‑old harbor seal, on April 20, 2026. (RJ Scofield/Patch Staff)\n\nNORWALK, CT — The Maritime Aquarium announced this week the arrival of a new 8‑year‑old harbor seal at the Norwalk facility.\n\nAccording to a news release provided by the aquarium, Kaya arrived in Norwalk earlier this month from the Aquarium of the Pacific in California and is now on exhibit at the Maritime Aquarium's Pinniped Cove exhibit.\n\nBorn on April 20, 2018, at the Aquarium of the Pacific, Kaya brings both energy and warmth to her new home, according to the Maritime Aquarium.\n\n## Find out what's happening in Norwalkfor free with the latest updates from Patch.\n\nSubscribe\n\nThe aquarium noted visitors can easily spot Kaya among the Norwalk facility's three other seals thanks to her uniquely spotted fur pattern.\n\nShe has also quickly adapted to her new surroundings, according to the aquarium.\n\n## Find out what's happening in Norwalkfor free with the latest updates from Patch.\n\nSubscribe\n\n\"This was an exciting opportunity for us not only to grow our population inside Pinniped Cove but also to collaborate with the Aquarium of the Pacific,\" Dylan Salamone, assistant curator at the Maritime Aquarium, said in a news release. \"Kaya is doing great and adjusting well to her new habitat. She is a confident female harbor seal and took little to no time getting used to her new exhibit and counterparts. In fact, on Kaya’s first night on the exhibit, we saw her hauled out with everyone to sleep, which was a great sign.\"\n\nAccording to the aquarium, Kaya came to the Norwalk facility through a partnership with the Association of Zoos & Aquariums and Aquarium of the Pacific as part of an ongoing effort to support animal care, welfare and conservation.\n\n\"Ambassadors like Kaya play a vital role in helping guests understand and appreciate these animals and the challenges they face,\" Rachel Stein, director of animal husbandry at the Maritime Aquarium, said in a news release, \"and inspire them to take actions that protect harbor seals and other animals in Long Island Sound.\"\n\nGuests can see Kaya in Pinniped Cove, where seal feedings take place daily at 11:30 a.m. and 3 p.m., according to the aquarium.\n\nMore information is available at maritimeaquarium.org.\n\nGet more local news delivered straight to your inbox. Sign up for free Patch newsletters and alerts.\n\nShare\n\nJoin the conversation\n\nCommunity Corner|1d\n\n## Woman, 32, Missing From Norwalk; Purple Alert Issued\n\nSchools|1d\n\n## Norwalk Board Of Education Appoints Interim Superintendent\n\nReal Estate|2d\n\n## Norwalk Home 'Filled With Natural Light' Listed For Sale\n\nApr 26, 2026\n\n##### UU Westport: \"When Hope Is An Act of Bravery\" - Rev. Lindasusan Ulrich\n\nApr 26, 2026\n\n##### Wilton Candlelight Concerts: Jiji, Guitar, and Danbi Um, Violin\n\nApr 28, 2026\n\n##### FCDS Spring Open House - Tuesday, April 28\n\nApr 30, 2026\n\n##### Seven Acres Montessori Virtual Prospective Parent Event\n\nMay 1, 2026\n\n##### Space Day\n\nMay 2, 2026\n\n##### UConn Extension Well Testing Event\n\nMay 2, 2026\n\n##### Pop Shop Market Pre-Mother’s Day Shopping Event - Westport\n\nMay 2, 2026\n\n##### Noroton Fire Department Oktoberfest in May Fundraiser\n\nMay 10, 2026\n\n##### Mother's Day Buffet\n\nMay 14, 2026\n\n##### Register for the Largest 5K in Stamford benefitting the Boys & Girls Club of Stamford\n\nAnnouncement\n\n##### FCDS Spring Open House - Tuesday, April 28\n\n##### GxG Builders\n\nFairfield County's trusted building partner\n\n##### DS Rugs Studio\n\nUnique Fine Rugs\n\n##### St. Joseph High School\n\nFuture-Focused. Faith-Grounded.\n\n##### Red Fashion School\n\nRED Fashion School (RED) is a nonprofit school\n\n##### Crispy's Hauling & Junk Removal\n\nCrispy clean your home, yard and business.",
+          "published_date": null,
+          "query": "\"Marco Salamon\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d4053933-r883440529-Great_Northern_Hotel_A_Tribute_Portfolio_Hotel_London-London_England.html",
+          "title": "A luxurious one night visit - Review of Great Northern Hotel, A Tribute Portfolio Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": "A luxurious one night visit - Review of Great Northern Hotel, A Tribute Portfolio Hotel, London, London - Tripadvisor\nSkip to main content\nInbox\n[See all](https://www.tripadvisor.co.uk/Inbox)\nLog into get trip updates and message other travellers.\n* [London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n* [Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n* [Things to Do](https://www.tripadvisor.co.uk/Attractions-g186338-Activities-London_England.html)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants-g186338-London_England.html)\n* [Flights](https://www.tripadvisor.co.uk/Flights-g186338-London_England-Cheap_Discount_Airfares.html)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/VacationRentals-g186338-Reviews-London_England-Vacation_Rentals.html)\n* [Travel Stories](https://www.tripadvisor.co.uk/Articles)\n* [Cruises](https://www.tripadvisor.co.uk/CruiseDestination-g4-Europe)\n* [Car Hire](https://www.tripadvisor.co.uk/RentalCars-g186338-London_England.html)\n* [Tours](https://www.tripadvisor.co.uk/Attractions-g186338-Activities-c42-London_England.html)\n* [Add a Place](https://www.tripadvisor.co.uk/AddListing)\n* [Travel Forum](https://www.tripadvisor.co.uk/ShowForum-g186338-i17-London_England.html)\n* [Airlines](https://www.tripadvisor.co.uk/Airlines)\n* [Travellers' Choice](https://www.tripadvisor.co.uk/TravelersChoice)\n* [Help Centre](https://www.tripadvisorsupport.com/hc/en-gb)\n* # A luxurious one night visit - Review of Great Northern Hotel, A Tribute Portfolio Hotel, London\n* [Europe](https://www.tripadvisor.co.uk/Tourism-g4-Europe-Vacations.html)\n* [United Kingdom (UK)](https://www.tripadvisor.co.uk/Tourism-g186216-United_Kingdom-Vacations.html)\n* [England](https://www.tripadvisor.co.uk/Tourism-g186217-England-Vacations.html)\n* [London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n* [London Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n* [Great Northern Hotel, A Tribute Portfolio Hotel, London](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d4053933-Reviews-Great_Northern_Hotel_A_Tribute_Portfolio_Hotel_London-London_England.html)\nSearch\n[Great Northern Hotel, A Tribute Portfolio Hotel, London](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d4053933-Reviews-Great_Northern_Hotel_A_Tribute_Portfolio_Hotel_London-London_England.html)\nCheck In\n—/ —/ —Check Out\n—/ —/ —Guests\n1 room,2 adults,0 children\n![Booking.com](https://static.tacdn.com/img2/branding/hotels/Booking_Com_v2_384x164_Blue.png)\nView deal\n![Agoda.com](https://static.tacdn.com/img2/branding/hotels/Agoda.png)\nView deal\n20th Birthday Sale, 7-21 May\n![StayForLong](https://static.tacdn.com/img2/branding/hotels/logo-sfl-pink-tripadvisor.png)\nView deal\nPrices are provided by our partners, and reflect nightly room rates, including all taxes and fees known to our partners. Please see our partners for more details.\n[Great Northern Hotel, A Tribute Portfolio Hotel, London](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d4053933-Reviews-Great_Northern_Hotel_A_Tribute_Portfolio_Hotel_London-London_England.html)\nSanctitatem\n**Mansfield, United Kingdom**\n# A luxurious one night visit\nReview of[Great Northern Hotel, A Tribute Portfolio Hotel, London](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d4053933-Reviews-Great_Northern_Hotel_A_Tribute_Portfolio_Hotel_London-London_England.html)\n5.0 of 5 bubblesReviewed24 Mar 2023[via mobile](https://www.tripadvisor.co.uk/apps)\nI booked this hotel for one night as I wanted to come and see a show. I decided to treat myself with this particular hotel. Thanks to my Marriott Bonvoy membership I was upgraded to an Edwardian king room on the top floor.\nThe room was comfy, stylish, quiet, and luxurious. I have seen many reviews say that the rooms are small. I found mine to have plenty of room for relaxing. It never felt cramped or too small. The walk in shower was lovely, and the amenities were perfect! I especially loved the mini bar and coffee machine being hidden in the wall. The wooden shutters on the window worked wonders for keeping the light out in the morning.\nThe staff were very friendly and helpful. I was able to get late check out and I found ordering breakfast to my room to be easy and really convenient. I also really appreciated the gentleman who showed me to my room and explained different features of the hotel.\nThe hotel is situated between St Pancras and Kings Cross and, as such, is fantastically located for both travel and for accessing central London.\nI would definitely consider staying here again.\nMoreDate of stay:March 2023\nRoom Tip:You’ll need your key card to get into the hotel late at night. Room service is closed between...\nTrip type:Travelled solo\nThankSanctitatem\nProblem with this review?\nThis review is the subjective opinion of a Tripadvisor member and not of Tripadvisor LLC. Tripadvisor performs checks on reviews as part of our industry-leading trust & safety standards. Read our[transparency report](https://www.tripadvisor.co.uk/TransparencyReport2025)to learn more.\nMarco Salamon,General ManageratGreat Northern Hotel, A Tribute Portfolio Hotel, London, responded to this review\nResponded27 Mar 2023\nDear Sanctitatem,\nOn behalf of the entire hotel team, I want to thank you for sharing your experience at Great Northern Hotel.\nI will share your kind words with our teams, which they will be thrilled to receive.\nWe are delighted you enjoyed your stay and look forward to welcoming you back.\nSincerely,\nMarco\nReport response as inappropriate\nThis response is the subjective opinion of the management representative and not of Tripadvisor LLC.\n[See all1,612reviews](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d4053933-Reviews-Great_Northern_Hotel_A_Tribute_Portfolio_Hotel_London-London_England.html#REVIEWS)\nPayments made by partners impact the order of prices displayed. Room types may vary.\nThe listings of booking offers for each property take into account the compensation paid to us by our partners. Prices shown may be for varying room types. Prices displayed are the lowest available, corresponding to the least expensive room type available, as provided from our partners as of the time of the user’s search.\nNearby Hotels\n[\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193112-Reviews-Strand_Palace-London_England.html)\n[\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193112-Reviews-Strand_Palace-London_England.html)\n[\n2025\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193112-Reviews-Strand_Palace-London_England.html)\n[### Strand Palace\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193112-Reviews-Strand_Palace-London_England.html)\n![](https://static.tacdn.com/img2/branding/hotels/Booking_Com_v2_384x164_Blue.png)\nView deal\n* Agoda.com\n* Trip.com\n£170\n* Official Hotel Site\nView all deals from£149\n4.4\n4.4 of 5 bubbles\n[\n(2,765reviews)\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193112-Reviews-Strand_Palace-London_England.html#REVIEWS)\n**1.4 miles**from Great Northern Hotel, A Tribute Portfolio Hotel, London\nFree Wifi\nRestaurant\n[Visit hotel website](#)\n[\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d218407-Reviews-Royal_National_Hotel-London_England.html)\n[\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d218407-Reviews-Royal_National_Hotel-London_England.html)\n[### Royal National Hotel\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d218407-Reviews-Royal_National_Hotel-London_England.html)\n![](https://static.tacdn.com/img2/branding/hotels/Booking_Com_v2_384x164_Blue.png)\nView deal\n* Agoda.com\n* Trip.com\n£140\n* Official Hotel Site\n£150\nView all deals from£116\n3.2\n3.2 of 5 bubbles\n[\n(13,327reviews)\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d218407-Reviews-Royal_National_Hotel-London_England.html#REVIEWS)\n**0.5 miles**from Great Northern Hotel, A Tribute Portfolio Hotel, London\nRestaurant\nBar/Lounge\n[\n](https://www.tripadvisor.co.uk/Ho",
+          "published_date": null,
+          "query": "\"Marco Salamon\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Kaya Great Northern Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Marco Salamon\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [
+        {
+          "kind": "email",
+          "value": "gm@gnhlondon.com",
+          "confidence": "medium",
+          "source_url": "https://gnhlondon.com/contact-us/",
+          "rationale": "Generic GM contact email explicitly listed on official contact page"
+        },
+        {
+          "kind": "phone",
+          "value": "+44 (0)20 3388 0800",
+          "confidence": "medium",
+          "source_url": "https://gnhlondon.com/contact-us/",
+          "rationale": "GM phone number explicitly listed on official contact page"
+        },
+        {
+          "kind": "phone",
+          "value": "149\n4.4\n4.4",
+          "confidence": "medium",
+          "source_url": "https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d4053933-r883440529-Great_Northern_Hotel_A_Tribute_Portfolio_Hotel_London-London_England.html",
+          "rationale": "Found in page text"
+        },
+        {
+          "kind": "phone",
+          "value": "116\n3.2\n3.2",
+          "confidence": "medium",
+          "source_url": "https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d4053933-r883440529-Great_Northern_Hotel_A_Tribute_Portfolio_Hotel_London-London_England.html",
+          "rationale": "Found in page text"
+        }
+      ],
+      "linkedin_url": "https://uk.linkedin.com/in/marco-salamon-40402019",
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": []
+    },
+    {
+      "candidate_id": "c_c1847459c7a36ce5",
+      "full_name": "Irma Debese",
+      "title": "Director of Sales & Marketing",
+      "normalized_title": "director of sales & marketing",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 2,
+      "role_family": "sales_events",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://uk.linkedin.com/in/irma-debese-485708143",
+          "title": "LinkedIn Profile",
+          "source_type": "linkedin",
+          "snippet": "Director of Sales and Marketing · Kaya Great Northern Hotel",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.linkedin.com/posts/irma-debese-485708143_great-northern-hotel-rebrands-a-year-after-activity-7370719867387293696-GY0c",
+          "title": "Great Northern Hotel rebrands a year after acquisition | Irma Debese",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Irma Debese\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/about/history-heritage/",
+          "title": "History & Heritage - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": "History & Heritage - Kaya Great Northern Hotel \n\n### THIS WEBSITE USES COOKIES TO IMPROVE YOUR EXPERIENCE\n\nWe use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies.\n\nOptions\n\nAccept\n\nClose\n\n## Cookie Preferences\n\nThis website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience.\n\nView MoreShow Less\n\nView our Cookie Policy\n\nAccept All\n\nStrictly Necessary\n\nAlways Enabled\n\nWe use necessary cookies to ensure our website works properly and provide essential functionalities and security features. These cookies do not collect any personal information and are always enabled. By continuing to use our website, you agree to our use of these cookies.\n\nFunctional\n\nDisabled\n\nEnabled\n\nFunctional cookies enable specific functionalities such as social media sharing, feedback collection, and other third-party features. These cookies may collect anonymous data to improve user experience.\n\nPerformance and Analytics\n\nDisabled\n\nEnabled\n\nTo enhance user experience, we use performance and analytical cookies to understand and analyze the key performance indexes of our website. Performance cookies help us deliver better user experiences by tracking metrics such as load times and response times. Analytical cookies help us understand how visitors interact with our website by providing information on metrics like the number of visitors, bounce rate, traffic source, and more.\n\nCookie\n\n_ga\n\nDuration\n\n2 years\n\nDescription\n\nID used to identify users\n\nVendor\n\nGoogle Analytics\n\nPrivacy Policy\n\nhttps://policies.google.com/privacy\n\nCookie\n\n_ga_*ID*\n\nDuration\n\n2 years\n\nDescription\n\nID used to identify users\n\nVendor\n\nGoogle Analytics\n\nPrivacy Policy\n\nhttps://policies.google.com/privacy\n\nAdvertisement and Targeting\n\nDisabled\n\nEnabled\n\nTo personalize your online experience, we use advertisement cookies that track your activity across websites and gather information to display relevant ads and marketing campaigns. These cookies help us tailor our advertising to your interests and preferences.\n\nReject All Accept Selected\n\n \n\nRESERVATION\n\n \n\n \n\nBook\n\n \n\n \n\n \n\n \n\n# History & Heritage\n\n \n\nAn Luxury Central London Boutique Hotel In the Heart of London’s King’s Cross St Pancras\n\nMagnificently refurbished and designed, this iconic central London hotel brings all the elegance of its past back into the centre of London’s King’s Cross St Pancras.\n\nWhen Kaya Great Northern Hotel first opened its doors in 1854, the passengers of London flocked. The hotel stood at the centre of London’s revolutionary new age of steam. Guests made the Kaya Great Northern Hotel a glamorous destination in central London and a stylish point of departure.\n\nNow magnificently renovated, the Kaya Great Northern Hotel guarantees the glorious glamour of its iconic past is central once again to the King’s Cross St Pancras basin. Lewis Cubitt, great architect of Victorian London, crafted this hotel to catch the eye: its slender curve of robust brick still a bold stamp on a busy landscape.\n\nFrom the vantage point of the Pancras Road, the Kaya Great Northern Hotel originally looked across planted gardens towards King’s Cross Station. Standing now on this plot, deliberately reciprocating Cubitt’s curve, is the new King’s Cross Western Concourse – two striking designs both central to a global transport hub.\n\n## INSIDE THE BUILDING\n\nBroad corridors and wrought iron staircases sweep through the hotel’s six floors. Ninety rooms lovingly restored and exquisitely re-designed – all the original grandeur of this central London hotel honoured with painstaking attention to detail. High ceilings, ceiling-to-floor windows, expansive curved corridors – all central to Cubitt’s classic design – create an overwhelming sense of light and space. With the calm and serenity of a great ocean liner, you will never believe this hotel is central to the largest transport intersection in London.\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n×\n\n## Kaya Club Ayrıcalıkları Şimdi Londra’da!\n\nKaya Club ParaPuanları kazanın & harcayın. Üye olmak için hemen tıklayın!\n\nKAYIT OL\n\n## Kaya Club Privileges Have Arrived in London.\n\nEarn and redeem your Kaya Club MoneyPoints. Become a member today.\n\nJOIN NOW\n\n",
+          "published_date": null,
+          "query": "\"Irma Debese\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Kaya Great Northern Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Irma Debese\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.travelweekly.com/Hotels/London/Kaya-Great-Northern-Hotel-p60598641",
+          "title": "Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": "Kaya Great Northern Hotel- Deluxe London, England Hotels- GDS Reservation Codes: Travel Weekly\n[![Travel Weekly](https://ik.imgkit.net/3vlqs5axxjf/TW/ik-seo/uploadedImages/Site_Management/TRAVELWEEKLYLogo_Color/Travel-Weekly.svg?tr=h-54%2Cfo-auto \"Travel Weekly\")](https://www.travelweekly.com/)[](https://www.travelweekly.com/)\n[Home](https://www.travelweekly.com/)/[Hotels](https://www.travelweekly.com/Hotels)/[United Kingdom](https://www.travelweekly.com/Hotels/United-Kingdom)/[England](https://www.travelweekly.com/Hotels/England)/[London](https://www.travelweekly.com/Hotels/London)\n[Back to Search Results](https://www.travelweekly.com/Hotels)\n# Kaya Great Northern Hotel\nKing's Cross, Pancras Road Pancras Rd, London, England N1C 4TB\n![Kaya Great Northern Hotel Exterior](https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/http://images.ntmllc.com/v4/hotel/U07/U07759/U07759_EXT_Z3E583/Kaya-Great-Northern-Hotel-Exterior.JPG?tr=w-656%2Ch-390%2Cfo-auto \"Kaya Great Northern Hotel Exterior\")\n![Kaya Great Northern Hotel Room](https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/http://images.ntmllc.com/v4/hotel/U07/U07759/U07759_ROM_Z1126C/Kaya-Great-Northern-Hotel-Room.JPG?tr=w-434%2Ch-190%2Cfo-auto \"Kaya Great Northern Hotel Room\")\n![Kaya Great Northern Hotel Bar/Lounge](https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/http://images.ntmllc.com/v4/hotel/U07/U07759/U07759_BRL_Z9C989/Kaya-Great-Northern-Hotel-Bar-Lounge.JPG?tr=w-212%2Ch-190%2Cfo-auto \"Kaya Great Northern Hotel Bar/Lounge\")\n![Kaya Great Northern Hotel Suite](https://ik.imgkit.net/3vlqs5axxjf/external/ik-seo/http://images.ntmllc.com/v4/hotel/U07/U07759/U07759_STE_ZCB0AD/Kaya-Great-Northern-Hotel-Suite.JPG?tr=w-212%2Ch-190%2Cfo-auto \"Kaya Great Northern Hotel Suite\")\nAll Photos (4)\nClose**\n1. 2. 3. 4. ![Kaya Great Northern Hotel Exterior](https://ik.imgkit.net/3vlqs5axxjf/TW/x.png?tr=w-780%2Ch-437%2Cfo-auto \"Kaya Great Northern Hotel Exterior\")\nKaya Great Northern Hotel Exterior\n![Kaya Great Northern Hotel Room](https://ik.imgkit.net/3vlqs5axxjf/TW/x.png?tr=w-780%2Ch-437%2Cfo-auto \"Kaya Great Northern Hotel Room\")\nKaya Great Northern Hotel Room\n![Kaya Great Northern Hotel Bar/Lounge](https://ik.imgkit.net/3vlqs5axxjf/TW/x.png?tr=w-780%2Ch-437%2Cfo-auto \"Kaya Great Northern Hotel Bar/Lounge\")\nKaya Great Northern Hotel Bar/Lounge\n![Kaya Great Northern Hotel Suite](https://ik.imgkit.net/3vlqs5axxjf/TW/x.png?tr=w-780%2Ch-437%2Cfo-auto \"Kaya Great Northern Hotel Suite\")\nKaya Great Northern Hotel Suite\n[](#photoGalleryCarousel)[](#photoGalleryCarousel)\n* [Overview](#overview)\n* [Meeting Rooms & Events](#meetings-rooms-events)\n* [Local Info](#local-info)\n## Kaya Great Northern Hotel GDS Codes\nAmadeus GDS\nTX LON232\nGalileo/Apollo GDS\nHO 30928\nSabre GDS\nHO 175626\nWorldspan GDS\nHO 99033\n## Overview\n**Description**\nIn the heart of King's Cross station, directly opposite St Pancras International's Eurostar terminal.\n**8Moderate Deluxe[](https://www.travelweekly.com/Hotels/About-Classifications)\n**Commission:**10%**\n**Rooms:**88**\n**Rates:**$334 - $492**\n### Kaya Great Northern Hotel Amenities\nAmenities are in all rooms unless noted otherwise\n* Air Conditioning\n* Coffeemaker\n* Mini-Bar\n* Free Newspaper\n* Rooms for Non-smokers\n* Voicemail\n* Safe (In Room)\n* Cable/Satellite Television\n* Television\n* Internet Access (High Speed & Wireless)\n### Kaya Great Northern Hotel Activities & Recreation\n#### Nearby Activities\n* Golf Course\n* Shopping Mall/Area\n### Kaya Great Northern Hotel Hotel Information\n#### Details\nYear Built:**1854**\nYear Last Renovated:**2015**\nCheck in Time:**3:00 PM**\nCheck out Time:**11:00 AM**\nNumber of Floors:**5**\nRate Policy:**Daily in USD**\nStandard Room:**from $334 - $492 (USD)**\nCredit Cards:**Credit Cards Are Accepted**\nReservation Policy:**Reservations must be guaranteed with a credit card**\nIncluded Meals:**No Meals Included**\nCancellation Policy:**2PM one day prior to arrival**\nRestrictions:**Non-Refundable Rates May Not Be Cancelled**\n### Kaya Great Northern Hotel Services & Facilities\n#### Guest Services\n* Complimentary Coffee\n* Currency Exchange\n* Laundry/Dry Cleaning Service\n* Room Service\n* Wheelchair Access to Common/Public Areas\n* Common Area Internet Access (High Speed & Wireless)\n#### Security Services\n* Electronic Key/Lock\n* Smoke Alarm in Rooms\n* Surveillance Cameras On Site#### Pet Services\n* Pets Allowed\n* Additional Fee for Pets\n## Kaya Great Northern Hotel Meeting Rooms & Events\n#### Event Space\n**Total number of meeting rooms:**3**\n**Total event space:**1,010 sq m**\n**Total meeting room capacity:**3 meeting rooms holding 92 people**\n#### Key Personnel\nIain Duncan, Group MArketing Dire\nGeeta Defoe, DOS\n#### Meeting & Business Services\n* Business Center\n* Meeting Room Internet Access (Wireless)\n## Kaya Great Northern Hotel Local Info\nwithin King's Cross Station; 25 metres from the Eurostar terminal.\n### Dining Options\n* GNH Bar (Onsite)\n* Plum & Spilt Milk (Onsite)\n* [Ciao Bella](https://www.travelweekly.com/Hotels/London/Hotels-Near-Ciao-Bella-p3621003)\n* [Pied a Terre](https://www.travelweekly.com/Hotels/London/Hotels-Near-Pied-a-Terre-p3703637)\n* [All-Star Lanes](https://www.travelweekly.com/Hotels/London/Hotels-Near-All-Star-Lanes-p4008869)\n* [More Dining near Kaya Great Northern Hotel](https://www.travelweekly.com/Hotels/London/Attractions)\n### Sightseeing & Points of Interest\n* [British Museum](https://www.travelweekly.com/Hotels/London/Hotels-Near-British-Museum-p3838484)\n* [Charles Dickens Museum](https://www.travelweekly.com/Hotels/London/Hotels-Near-Charles-Dickens-Museum-p51737055)\n* [British Library](https://www.travelweekly.com/Hotels/London/Hotels-Near-British-Library-p3909720)(0.25 miles southwest)\n* [The Wellcome Collection](https://www.travelweekly.com/Hotels/London/Hotels-Near-The-Wellcome-Collection-p3709293)(0.50 miles southwest)\n* [London Millennium Footbridge](https://www.travelweekly.com/Hotels/London/Hotels-Near-London-Millennium-Footbridge-p3892685)(1 mile southeast)\n* [More Sightseeing near Kaya Great Northern Hotel](https://www.travelweekly.com/Hotels/London/Attractions)\n### Nearby Airports\n* [London City Airport](https://www.travelweekly.com/Hotels/London/Hotels-Near-London-City-Airport)(7.75 miles southeast)\n* [Heathrow](https://www.travelweekly.com/Hotels/London/Hotels-Near-Heathrow)(14.75 miles southwest)\n* [Gatwick](https://www.travelweekly.com/Hotels/London/Hotels-Near-Gatwick)(25 miles south)\n* [More Airports near Kaya Great Northern Hotel](https://www.travelweekly.com/Hotels/Airports/London)\n## Other London Area Hotels\n[![The Academy Hotel]( \"The Academy Hotel\")](https://www.travelweekly.com/Hotels/London/The-Academy-Hotel-p52499926)\n### [The Academy Hotel](https://www.travelweekly.com/Hotels/London/The-Academy-Hotel-p52499926)\n**London, United Kingdom\n**8Moderate Deluxe\nCharming, friendly Georgian-style hotel located in the University quarter; near Soho, Trafalgar Square & other attractions.\n[View Hotel Details](https://www.travelweekly.com/Hotels/London/The-Academy-Hotel-p52499926)\n[![The Level at Melia White House]( \"The Level at Melia White House\")](https://www.travelweekly.com/Hotels/London/The-Level-at-Melia-White-House-p9413690)\n### [The Level at Melia White House](https://www.travelweekly.com/Hotels/London/The-Level-at-Melia-White-House-p9413690)\n**London, United Kingdom\n**8Moderate Deluxe\nTraditional and Avant-garde accommodation short walk from the Oxford Street, London Zoo, and Madame Tussauds.\n[View Hotel Details](https://www.travelweekly.com/Hotels/London/The-Level-at-Melia-White-House-p9413690)\n[![Ham Yard Hotel]( \"Ham Yard Hotel\")](https://www.travelweekly.com/Hotels/London/Ham-Yard-Hotel-p7931132)\n### [Ham Yard Hotel](https://www.travelweekly.com/Hotels/London/Ham-Yard-Hotel-p7931132)\n**London, United Kingdom\n**8Moderate Deluxe\nOn-site Bowling Alley, Library and Drawing Room; state-of-the-art Ham Yard Theatre; Enjoy afternoon tea here.\n[View Hotel Details](https://www.travelweekly.com/Hotels/London/Ham-Yard-Hotel-p7931132)",
+          "published_date": null,
+          "query": "\"Irma Debese\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://hotelrez.com/kaya-great-northern-hotel-embarks-on-new-chapter-in-partnership-with-hotelrez-hotels-resorts/",
+          "title": "Kaya Great Northern Hotel Embarks on New Chapter in Partnership with HotelREZ Hotels & Resorts - HotelREZ",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": "Kaya Great Northern Hotel Embarks on New Chapter in Partnership with HotelREZ Hotels & Resorts - HotelREZ \n\n \n\n \n\n \n\n \n\n \n\n# Kaya Great Northern Hotel Embarks on New Chapter in Partnership with HotelREZ Hotels & Resorts\n\n- October 7, 2025\n\nKaya Great Northern Hotel Embarks on New Chapter in Partnership with HotelREZ Hotels & Resorts https://hotelrez.com/wp-content/uploads/2025/09/Kaya-Exterior-01.jpg 800 512\n\nHotelREZ https://hotelrez.com/wp-content/uploads/2025/09/Kaya-Exterior-01.jpg\n\nLondon, 30 September, 2025 – Great Northern Hotel, the historic Grade II-listed hotel located in King’s Cross, London, will now operates under the Kaya Hotels & Resorts brand with a new name: Kaya Great Northern Hotel (Kaya GNH).\n\nNow fully integrated into group’s portfolio as Kaya GNH, following its acquisition of the 88-bedroom property in June 2025, this strategic realignment underscores Kaya’s commitment to expanding its presence in London and across Europe, while placing renewed emphasis on personalised, high-quality guest experiences.\n\nLocated at one of London’s busiest transport hubs and a gateway to Europe, Kaya Great Northern Hotel combines a prime King’s Cross setting with its heritage as a Grade II-listed landmark, ensuring it remains a destination of choice for discerning travellers.\n\nAs part of this new chapter, Kaya Great Northern Hotel has also joined HotelREZ Hotels & Resorts for global distribution, sales, and marketing representation. The partnership positions the property strongly to capture both corporate and leisure markets with enhanced visibility on the GDS agency market under HotelREZ chain code HO, as well as across international booking platforms.\n\nThe hotel will be also be part of Best Loved Hotels®, a collection of unique global individual properties, the B2C consumer facing channel of HotelREZ, aimed at discerning leisure travellers and agents.\n\nThrough HotelREZ, the hotel will benefit from advanced distribution technology, including the CentralREZ CRS platform, REZmedia image content tool, REZtoMarket content services, and the Cvent Lanyon RFP platform..\n\nDaniel Simmons, CCO at HotelREZ, said: “We are delighted to welcome Kaya Great Northern Hotel into the HotelREZ portfolio. This iconic London property has enormous potential as it repositions independently. With its strong GDS contribution and prime corporate location, we see significant opportunities to grow both corporate and leisure demand, leveraging our sales, marketing, and distribution expertise”\n\nGeneral Manager Kaya Great Northern Hotel, said: “As we embark on this exciting new chapter, joining HotelREZ allows us to maintain our independence while benefiting from world-class distribution and marketing. Our focus is on delivering exceptional guest experiences while strengthening our visibility across global corporate and leisure markets.”\n\nKaya Hotels & Resorts added: “We are delighted to have made our first international hotel investment in London. With this hotel, we aim to showcase the finest examples of Turkish hospitality and increase the number of foreign tourists visiting our hotels in Türkiye. Additionally, we are proud to be the first Turkish tourism company to make such a significant hotel investment in the UK. We believe this investment will strengthen mutual tourism relations between Türkiye and the UK. We’re excited to build on its strengths to create even more memorable experiences for our guests.”\n\nThe relaunch of Kaya Great Northern Hotel strengthens both Kaya Hotels & Resorts’ growing international footprint and HotelREZ’s London portfolio, highlighting the increasing appeal of independence for landmark properties seeking agile global representation.\n\nKaya Great Northern Hotel is now bookable on the GDS under HotelREZ’s HO chain code.\n\n– ENDS –\n\n \n\n \n\n \n\nShare\n\n \n\nYou might also like\n\n### Elegant Hotel Collection Welcomes TreeHouse Villas Koh Yao in Thailand\n\n###### Online safety in hospitality and what independent hotels need to know\n\n###### HotelREZ named finalist for Corporate Travel Business Champion of the Year three years running\n\n \n\n \n\nStart Typing\n\n \n\n",
+          "published_date": null,
+          "query": "\"Irma Debese\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [
+        {
+          "kind": "phone",
+          "value": "1. 2. 3. 4",
+          "confidence": "medium",
+          "source_url": "https://www.travelweekly.com/Hotels/London/Kaya-Great-Northern-Hotel-p60598641",
+          "rationale": "Found in page text"
+        },
+        {
+          "kind": "phone",
+          "value": "3909720)(0.25",
+          "confidence": "medium",
+          "source_url": "https://www.travelweekly.com/Hotels/London/Kaya-Great-Northern-Hotel-p60598641",
+          "rationale": "Found in page text"
+        },
+        {
+          "kind": "phone",
+          "value": "3709293)(0.50",
+          "confidence": "medium",
+          "source_url": "https://www.travelweekly.com/Hotels/London/Kaya-Great-Northern-Hotel-p60598641",
+          "rationale": "Found in page text"
+        },
+        {
+          "kind": "phone",
+          "value": "3892685)(1",
+          "confidence": "medium",
+          "source_url": "https://www.travelweekly.com/Hotels/London/Kaya-Great-Northern-Hotel-p60598641",
+          "rationale": "Found in page text"
+        }
+      ],
+      "linkedin_url": "https://uk.linkedin.com/in/irma-debese-485708143",
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": []
+    },
+    {
+      "candidate_id": "c_f6aa09e9967262ec",
+      "full_name": "Diogo Felicio",
+      "title": "Director of Food and Beverage",
+      "normalized_title": "director of food and beverage",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 3,
+      "role_family": "it_digital",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://rocketreach.co/diogo-felicio-email_350530693",
+          "title": "Professional Profile",
+          "source_type": "directory",
+          "snippet": "Diogo Felicio... Director of Food And Beverage at Kaya Great Northern Hotel, London",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/in/diogo-felicio-02779219a",
+          "title": "Diogo Felicio - Director of Food and Beverage at Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Diogo Felicio\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/about/history-heritage/",
+          "title": "History & Heritage - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": "History & Heritage - Kaya Great Northern Hotel \n\n### THIS WEBSITE USES COOKIES TO IMPROVE YOUR EXPERIENCE\n\nWe use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept”, you consent to the use of ALL the cookies.\n\nOptions\n\nAccept\n\nClose\n\n## Cookie Preferences\n\nThis website uses cookies to improve your experience while you navigate through the website. Out of these cookies, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may have an effect on your browsing experience.\n\nView MoreShow Less\n\nView our Cookie Policy\n\nAccept All\n\nStrictly Necessary\n\nAlways Enabled\n\nWe use necessary cookies to ensure our website works properly and provide essential functionalities and security features. These cookies do not collect any personal information and are always enabled. By continuing to use our website, you agree to our use of these cookies.\n\nFunctional\n\nDisabled\n\nEnabled\n\nFunctional cookies enable specific functionalities such as social media sharing, feedback collection, and other third-party features. These cookies may collect anonymous data to improve user experience.\n\nPerformance and Analytics\n\nDisabled\n\nEnabled\n\nTo enhance user experience, we use performance and analytical cookies to understand and analyze the key performance indexes of our website. Performance cookies help us deliver better user experiences by tracking metrics such as load times and response times. Analytical cookies help us understand how visitors interact with our website by providing information on metrics like the number of visitors, bounce rate, traffic source, and more.\n\nCookie\n\n_ga\n\nDuration\n\n2 years\n\nDescription\n\nID used to identify users\n\nVendor\n\nGoogle Analytics\n\nPrivacy Policy\n\nhttps://policies.google.com/privacy\n\nCookie\n\n_ga_*ID*\n\nDuration\n\n2 years\n\nDescription\n\nID used to identify users\n\nVendor\n\nGoogle Analytics\n\nPrivacy Policy\n\nhttps://policies.google.com/privacy\n\nAdvertisement and Targeting\n\nDisabled\n\nEnabled\n\nTo personalize your online experience, we use advertisement cookies that track your activity across websites and gather information to display relevant ads and marketing campaigns. These cookies help us tailor our advertising to your interests and preferences.\n\nReject All Accept Selected\n\n \n\nRESERVATION\n\n \n\n \n\nBook\n\n \n\n \n\n \n\n \n\n# History & Heritage\n\n \n\nAn Luxury Central London Boutique Hotel In the Heart of London’s King’s Cross St Pancras\n\nMagnificently refurbished and designed, this iconic central London hotel brings all the elegance of its past back into the centre of London’s King’s Cross St Pancras.\n\nWhen Kaya Great Northern Hotel first opened its doors in 1854, the passengers of London flocked. The hotel stood at the centre of London’s revolutionary new age of steam. Guests made the Kaya Great Northern Hotel a glamorous destination in central London and a stylish point of departure.\n\nNow magnificently renovated, the Kaya Great Northern Hotel guarantees the glorious glamour of its iconic past is central once again to the King’s Cross St Pancras basin. Lewis Cubitt, great architect of Victorian London, crafted this hotel to catch the eye: its slender curve of robust brick still a bold stamp on a busy landscape.\n\nFrom the vantage point of the Pancras Road, the Kaya Great Northern Hotel originally looked across planted gardens towards King’s Cross Station. Standing now on this plot, deliberately reciprocating Cubitt’s curve, is the new King’s Cross Western Concourse – two striking designs both central to a global transport hub.\n\n## INSIDE THE BUILDING\n\nBroad corridors and wrought iron staircases sweep through the hotel’s six floors. Ninety rooms lovingly restored and exquisitely re-designed – all the original grandeur of this central London hotel honoured with painstaking attention to detail. High ceilings, ceiling-to-floor windows, expansive curved corridors – all central to Cubitt’s classic design – create an overwhelming sense of light and space. With the calm and serenity of a great ocean liner, you will never believe this hotel is central to the largest transport intersection in London.\n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n×\n\n## Kaya Club Ayrıcalıkları Şimdi Londra’da!\n\nKaya Club ParaPuanları kazanın & harcayın. Üye olmak için hemen tıklayın!\n\nKAYIT OL\n\n## Kaya Club Privileges Have Arrived in London.\n\nEarn and redeem your Kaya Club MoneyPoints. Become a member today.\n\nJOIN NOW\n\n",
+          "published_date": null,
+          "query": "\"Diogo Felicio\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Kaya Great Northern Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Diogo Felicio\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://kayagnhlondon.com/author/dogushan/",
+          "title": "Kaya Great Northern Hotel near Kings Cross & St Pancras Station",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Diogo Felicio\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": null,
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": []
+    },
+    {
+      "candidate_id": "c_a9414cc5dc65b85a",
+      "full_name": "Ola Olabisi",
+      "title": "Financial Controller",
+      "normalized_title": "financial controller",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 4,
+      "role_family": "procurement_finance",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://uk.linkedin.com/in/olaolabisi",
+          "title": "LinkedIn Profile",
+          "source_type": "linkedin",
+          "snippet": "Financial Controller | Finance Leader at Kaya Great Northern Hotel, London. Can introduce you to 10 people at the hotel.",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Company LinkedIn Page",
+          "source_type": "linkedin",
+          "snippet": "Mentions Ola Olabisi in context of Revenue Manager / Finance",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://rocketreach.co/kelechi-kay-email_263271077",
+          "title": "Kelechi Kay Email",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Ola Olabisi\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://hotelgreatnorthernlondon.ohotel.uk/",
+          "title": "Kaya Great Northern Hotel, London (London, United Kingdom) | Ohotel.uk",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Ola Olabisi\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://fr.linkedin.com/company/great-northern-hotel-london",
+          "title": "Kaya Great Northern Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Ola Olabisi\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": "https://uk.linkedin.com/in/olaolabisi",
+      "needs_human_review": false,
+      "needs_contact_mining": false,
+      "reason_kept": null,
+      "notes": [
+        "Some references list as Revenue Manager; title may overlap with finance leadership"
+      ]
+    },
+    {
+      "candidate_id": "c_c10bc7c598786113",
+      "full_name": "Aun Haider",
+      "title": "Revenue Manager",
+      "normalized_title": "revenue manager",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 2,
+      "role_family": "commercial_revenue",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://uk.linkedin.com/in/aun-haider-1730944b",
+          "title": "LinkedIn Profile",
+          "source_type": "linkedin",
+          "snippet": "Revenue manager at Kaya Great Northern Hotel, London",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Company LinkedIn Page",
+          "source_type": "linkedin",
+          "snippet": "Lists Aun Haider as Revenue Manager",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.bwhotelier.com/article/ayan-halder-takes-over-as-hotel-manager-at-the-lalit-great-eastern-kolkata-601505",
+          "title": "Ayan Halder takes over as Hotel Manager at The Lalit Great Eastern Kolkata - BW Hotelier",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Aun Haider\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://kayagnhlondon.com/about/",
+          "title": "About Kaya Great Northern Hotel | Kings Cross St Pancras London Hotels",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Aun Haider\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/press/",
+          "title": "Press - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Aun Haider\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/about/history-heritage/",
+          "title": "History & Heritage - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Aun Haider\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": "https://uk.linkedin.com/in/aun-haider-1730944b",
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": []
+    },
+    {
+      "candidate_id": "c_0cf70cec0fa2826e",
+      "full_name": "Mark Weir",
+      "title": "Executive Chef",
+      "normalized_title": "executive chef",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 4,
+      "role_family": "other",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Company LinkedIn Page",
+          "source_type": "linkedin",
+          "snippet": "Our incredible chef Mark Weir has been busy creating a brand-new Spring à la carte menu",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.warmwelcomemagazine.com/hotels/rails-at-great-northern-hotel-appoints-new-head-chef-mark-weir",
+          "title": "Rails at Great Northern Hotel appoints new Head Chef Mark Weir — Warm Welcome Magazine",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Mark Weir\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.thecaterer.com/news/mark-weir-head-chef-rails",
+          "title": "Mark Weir named head chef of Rails at the Great Northern Hotel - News",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Mark Weir\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://restaurantindustry.co.uk/2023/09/04/rails-at-great-northern-hotel-appoints-new-head-chef-mark-weir/",
+          "title": "Rails at Great Northern Hotel appoints new Head Chef Mark Weir | Restaurant Industry Magazine",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Mark Weir\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.boutiquehotelier.com/mark-weir-head-chef-great-northern-hotel/",
+          "title": "Haymarket Hotel chef decamps to Great Northern after 10 years",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Mark Weir\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": null,
+      "needs_human_review": false,
+      "needs_contact_mining": false,
+      "reason_kept": null,
+      "notes": [
+        "Title listed as Chef; Executive/Head Chef inferred from menu leadership role"
+      ]
+    },
+    {
+      "candidate_id": "c_e6b9b53da6774297",
+      "full_name": "Maria Alcaide",
+      "title": "Event Manager",
+      "normalized_title": "event manager",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 3,
+      "role_family": "other",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.tagvenue.com/venues/london/22459/kaya-great-northern-hotel",
+          "title": "Venue Hire Page",
+          "source_type": "directory",
+          "snippet": "Maria Alcaide. Your Personal Event Manager from Kaya Great Northern Hotel",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://rocketreach.co/maria-alcaide-email_364270642",
+          "title": "María Alcaide Email & Phone Number | Kaya Great Northern Hotel ...",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Maria Alcaide\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.linkedin.com/pub/dir/Mar%C3%ADa/Alcaide",
+          "title": "400+ \"María Alcaide\" profiles - LinkedIn",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Maria Alcaide\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Kaya Great Northern Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Maria Alcaide\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/frequently-asked-questions/",
+          "title": "FAQs - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Maria Alcaide\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/press/",
+          "title": "Press - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Maria Alcaide\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": null,
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": []
+    },
+    {
+      "candidate_id": "c_22930b530032e9ab",
+      "full_name": "Kemal Karatas",
+      "title": "General Manager",
+      "normalized_title": "general manager",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 1,
+      "role_family": "gm_ops",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.linkedin.com/posts/kaya-holding-inc-_we-are-delighted-to-have-made-our-first-international-activity-7433121767843545088-o3sA",
+          "title": "LinkedIn Post",
+          "source_type": "linkedin",
+          "snippet": "Kemal Karatas. General Manager | Pre-opening (associated with Kaya Great Northern Hotel acquisition)",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://ftnnews.com/travel-news/app/kemal-karatas-joins-continent-worldwide-hotels/",
+          "title": "Kemal Karataş Joins Continent Worldwide Hotels - Focus on Travel News",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Kemal Karatas\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://hotelrez.net/kaya-great-northern-hotel-embarks-on-new-chapter-in-partnership-with-hotelrez-hotels-resorts/",
+          "title": "Kaya Great Northern Hotel Embarks on New Chapter in Partnership with HotelREZ Hotels & Resorts - HotelREZ",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Kemal Karatas\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/about/history-heritage/",
+          "title": "History & Heritage - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Kemal Karatas\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://greatnorthern.boomspeed.com/",
+          "title": "Kaya Great Northern Hotel, London, London | Explore Room Options, Reviews & Pricing for 2025 | boomspeed.com",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Kemal Karatas\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Kaya Great Northern Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Kemal Karatas\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": null,
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": [
+        "Pre-opening or transitional GM role; current status unclear relative to Marco Salamon"
+      ]
+    },
+    {
+      "candidate_id": "c_add78ef09d893b32",
+      "full_name": "Burak Kaya",
+      "title": "Chairman",
+      "normalized_title": "chairman",
+      "company": "Kaya Holding",
+      "role_tier": 4,
+      "role_family": "owner_exec",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://boutiquehotelnews.com/news/hotel/kaya-holding-great-northern-hotel/",
+          "title": "Acquisition Article",
+          "source_type": "press",
+          "snippet": "Burak Kaya, chairman of the board of directors for Kaya Holding, said: “We are thrilled to execute our first international hotel investment in London.”",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://kayahotels.com/en/kurumsal/",
+          "title": "Kaya Corporate Page",
+          "source_type": "company_site",
+          "snippet": "Lists Kaya Great Northern Hotel – London in portfolio",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Kaya Great Northern Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Burak Kaya\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/about/history-heritage/",
+          "title": "History & Heritage - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Burak Kaya\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/about/",
+          "title": "About Kaya Great Northern Hotel | Kings Cross St Pancras London Hotels",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Burak Kaya\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.propertyweek.com/news/turkish-firm-takes-over-historic-great-northern-hotel-in-kings-cross",
+          "title": "Turkish firm takes over historic Great Northern Hotel in King’s Cross | Property Week",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Burak Kaya\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/press/",
+          "title": "Press - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Burak Kaya\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": null,
+      "needs_human_review": false,
+      "needs_contact_mining": false,
+      "reason_kept": null,
+      "notes": [
+        "Group-level owner/chairman with direct oversight of the London property acquisition and operations"
+      ]
+    },
+    {
+      "candidate_id": "c_4b40f4e22fcb79d9",
+      "full_name": "Ariane Jessamine-Herd",
+      "title": "General Manager",
+      "normalized_title": "general manager",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 1,
+      "role_family": "gm_ops",
+      "current_role_confidence": "medium",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://gnhlondon.com/wp-content/uploads/2021/05/The-Great-Northern-Hotel-London-welcomes-new-management-company-Marugal.pdf",
+          "title": "Press Release PDF",
+          "source_type": "press",
+          "snippet": "The hotel has a new General Manager, experienced hotelier Ariane Jessamine-Herd... most recently as General Manager of the Knightsbridge Hotel",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.linkedin.com/posts/great-northern-hotel-london_gnh-team-anniversary-activity-7300480897080840192-n9pn",
+          "title": "LinkedIn Post",
+          "source_type": "linkedin",
+          "snippet": "Ariane Jessamine-Herd... Head of Operations",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.linkedin.com/posts/ariane-jessamine-herd-87384220_we-would-love-to-meet-you-activity-6932367741009981440-SGDu",
+          "title": "We would love to meet you! | Ariane Jessamine-Herd - LinkedIn",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Ariane Jessamine-Herd\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.boutiquehotelier.com/the-great-northern-hotel-brought-under-new-management/",
+          "title": "The Great Northern Hotel brought under new management",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Ariane Jessamine-Herd\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.thecaterer.com/news/great-northern-hotel-first-uk-management-contract-marugal",
+          "title": "Great Northern hotel first UK management contract for Marugal - News",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Ariane Jessamine-Herd\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.linkedin.com/posts/ariane-jessamine-herd-87384220_lovely-way-to-end-the-week-activity-6814143913071398912-dFLg",
+          "title": "Ariane Jessamine-Herd’s Post",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Ariane Jessamine-Herd\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": null,
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": [
+        "Role primarily documented under prior management (pre-2024/2025 Kaya ownership); may no longer be current"
+      ]
+    },
+    {
+      "candidate_id": "c_20c24a5938717423",
+      "full_name": "Jeremy Daudin",
+      "title": "Director of Sales",
+      "normalized_title": "director of sales",
+      "company": "Great Northern Hotel",
+      "role_tier": 2,
+      "role_family": "sales_events",
+      "current_role_confidence": "low",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://gnhlondon.com/wp-content/uploads/2021/05/The-Great-Northern-Hotel-London-welcomes-new-management-company-Marugal.pdf",
+          "title": "Press Release PDF",
+          "source_type": "press",
+          "snippet": "joined by Jeremy Daudin, former Global Sales Manager at The Standard Hotels, as Director of Sales",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://kayagnhlondon.com/blogs-en/easter-kings-cross-kaya-gnh/",
+          "title": "Celebrate Easter in King’s Cross | Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Jeremy Daudin\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.boutiquehotelier.com/kaya-tourism-group-great-northern-hotel/",
+          "title": "Turkish hospitality group acquires Great Northern Hotel in King’s Cross",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Jeremy Daudin\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.boutiquehotelier.com/the-great-northern-hotel-brought-under-new-management/",
+          "title": "The Great Northern Hotel brought under new management",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Jeremy Daudin\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.andrewmeli.co.uk/case-studies/great-northern-hotel-a-tribute-portfolio-hotel-london/",
+          "title": "Great Northern Hotel, a Tribute Portfolio Hotel, London - Andrew Meli",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Jeremy Daudin\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.boutiquehotelier.com/kaya-great-northern-hotel-rebranding/",
+          "title": "Kaya Great Northern Hotel reopens in London's King's Cross",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Jeremy Daudin\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": null,
+      "needs_human_review": true,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": [
+        "Historical role under previous management (Marugal era); relevance to current Kaya operation uncertain"
+      ]
+    },
+    {
+      "candidate_id": "c_241c6ef8e66db4a3",
+      "full_name": "Anthony Lee",
+      "title": "Group Operations Director",
+      "normalized_title": "group operations director",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 3,
+      "role_family": "gm_ops",
+      "current_role_confidence": "low",
+      "relationship_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://uk.linkedin.com/in/anthony-lee-57673821",
+          "title": "LinkedIn Profile",
+          "source_type": "linkedin",
+          "snippet": "Former CEO GNH, COO Aries Group, Group Ops Director RAM at Kaya Great Northern Hotel, a Member of Kaya Hotels & Resorts",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.thecaterer.com/news/anthony-lee-appointed-as-ceo-of-great-northern-hotel",
+          "title": "Anthony Lee appointed as CEO of Great Northern hotel - News",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Anthony Lee\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://gnhlondon.com/about/history-heritage/",
+          "title": "History & Heritage - Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Anthony Lee\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://www.sleepermagazine.com/stories/people/great-northern-hotel-management-appointments/",
+          "title": "New Great Northern management - Sleeper",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Anthony Lee\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://theorg.com/org/the-in-out-naval-and-military-club/org-chart/anthony-lee",
+          "title": "Anthony Lee",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Anthony Lee\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/kaya-great-northern-hotel-london",
+          "title": "Kaya Great Northern Hotel, London",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Anthony Lee\" \"Kaya Great Northern Hotel\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": "https://uk.linkedin.com/in/anthony-lee-57673821",
+      "needs_human_review": true,
+      "needs_contact_mining": true,
+      "reason_kept": null,
+      "notes": [
+        "Former/ transitional role tied to Aries and post-acquisition integration"
+      ]
+    }
+  ],
+  "rejected_candidates": [],
+  "provider_costs": {
+    "xai_usd": 0.241213,
+    "exa_usd": 0.12,
+    "total_usd": 0.361213
+  },
+  "quality_metrics": {
+    "candidate_count": 12,
+    "useful_candidate_count": 6,
+    "tier1_count": 3,
+    "tier2_count": 3,
+    "direct_route_count": 8,
+    "department_route_count": 0,
+    "rejected_count": 0,
+    "exa_searches": 16,
+    "exa_fetches": 8,
+    "xai_calls": 1
+  },
+  "telemetry": {
+    "stages": [
+      {
+        "stage": "grok_discovery",
+        "provider": "xai",
+        "calls": 1,
+        "tokens_in": 89543,
+        "tokens_out": 10515,
+        "estimated_usd": 0.241213,
+        "seconds": 85.66704999999638,
+        "notes": [
+          "grok-4.20-reasoning discovery"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 3.627041299994744,
+        "notes": [
+          "146fa45800a9"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.7204162000052747,
+        "notes": [
+          "549a033ff143"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 3.409481799993955,
+        "notes": [
+          "b141618e28f5"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.7591291999997338,
+        "notes": [
+          "c80ac66453d0"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.6749502000020584,
+        "notes": [
+          "3a9f40b35da0"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.210771600002772,
+        "notes": [
+          "6360e54502cc"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.855072799997288,
+        "notes": [
+          "10bd60b7242c"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.9940762000042014,
+        "notes": [
+          "6048ee7b7699"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.10961629999656,
+        "notes": [
+          "c2072b4de3ca"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.7931807999993907,
+        "notes": [
+          "4db7d038568f"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.8992553999996744,
+        "notes": [
+          "39b798cc7b6e"
+        ]
+      },
+      {
+        "stage": "exa_verify:person_verify",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.807683899998665,
+        "notes": [
+          "0ec1d522cbf7"
+        ]
+      },
+      {
+        "stage": "exa_fetch",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.001,
+        "seconds": 0.9997743999992963,
+        "notes": [
+          "https://patch.com/connecticut/norwalk/maritime-aquarium-welcomes-new-harbor-seal"
+        ]
+      },
+      {
+        "stage": "exa_fetch",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.001,
+        "seconds": 0.9459223000012571,
+        "notes": [
+          "https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d4053933-r883440529-Great_"
+        ]
+      },
+      {
+        "stage": "exa_fetch",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.001,
+        "seconds": 10.898489300001529,
+        "notes": [
+          "https://www.tripadvisor.com/ShowUserReviews-g186338-d4053933-r1040244359-Kaya_Gr"
+        ]
+      },
+      {
+        "stage": "exa_fetch",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.001,
+        "seconds": 0.8904336999985389,
+        "notes": [
+          "https://gnhlondon.com/about/history-heritage/"
+        ]
+      },
+      {
+        "stage": "exa_fetch",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.001,
+        "seconds": 0.8745462000006228,
+        "notes": [
+          "https://www.travelweekly.com/Hotels/London/Kaya-Great-Northern-Hotel-p60598641"
+        ]
+      },
+      {
+        "stage": "exa_fetch",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.001,
+        "seconds": 0.8957643000030657,
+        "notes": [
+          "https://hotelrez.com/kaya-great-northern-hotel-embarks-on-new-chapter-in-partner"
+        ]
+      },
+      {
+        "stage": "exa_fetch",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.001,
+        "seconds": 0.8929654999956256,
+        "notes": [
+          "https://gnhlondon.com/about/history-heritage/"
+        ]
+      },
+      {
+        "stage": "exa_fetch",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.001,
+        "seconds": 0.938524299999699,
+        "notes": [
+          "https://rocketreach.co/diogo-felicio-email_350530693"
+        ]
+      },
+      {
+        "stage": "contact_route_site",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.098705299998983,
+        "notes": []
+      },
+      {
+        "stage": "contact_route_site",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.6554544000027818,
+        "notes": []
+      },
+      {
+        "stage": "contact_route_site",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.8115843000050518,
+        "notes": []
+      },
+      {
+        "stage": "contact_route_site",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.920050299995637,
+        "notes": []
+      }
+    ],
+    "exa_search_requests": 16,
+    "exa_content_pages": 8,
+    "errors": []
+  },
+  "needs_manual_org_review": false
+}

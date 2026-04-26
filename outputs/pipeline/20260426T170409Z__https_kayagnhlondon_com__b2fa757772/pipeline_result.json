@@ -1,0 +1,460 @@
+{
+  "hotel": {
+    "input_url": "https://kayagnhlondon.com/",
+    "canonical_name": null,
+    "property_name": "Kayagnhlondon",
+    "brand_name": null,
+    "management_company": null,
+    "ownership_group": null,
+    "location_hint": null,
+    "domains": [
+      "kayagnhlondon.com"
+    ],
+    "evidence": []
+  },
+  "candidates": [
+    {
+      "candidate_id": "c_e93835f928f1a54f",
+      "full_name": "Akshay Ingle",
+      "title": "General Manager",
+      "normalized_title": "general manager",
+      "company": null,
+      "role_tier": 2,
+      "role_family": "gm_ops",
+      "current_role_confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://linkedin.com/in/akshay-ingle-mba-b8371010a",
+          "title": "Akshay Ingle-MBA | General Manager",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Kayagnhlondon\" \"general manager\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": "https://linkedin.com/in/akshay-ingle-mba-b8371010a",
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "notes": []
+    },
+    {
+      "candidate_id": "c_c10bc7c598786113",
+      "full_name": "Aun Haider",
+      "title": "Revenue Manager",
+      "normalized_title": "revenue manager",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 3,
+      "role_family": "commercial_revenue",
+      "current_role_confidence": "high",
+      "evidence": [
+        {
+          "url": "https://linkedin.com/in/aun-haider-1730944b",
+          "title": "Aun Haider | Revenue Manager at Kaya Great Northern Hotel",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Kayagnhlondon\" \"revenue manager\" OR \"revenue director\"",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": "https://linkedin.com/in/aun-haider-1730944b",
+      "needs_human_review": false,
+      "needs_contact_mining": false,
+      "notes": []
+    },
+    {
+      "candidate_id": "c_34ff083a70815698",
+      "full_name": "Victoria Kay",
+      "title": "Senior Responsible Business Consultant - Stewardship, Climate and Nature",
+      "normalized_title": "senior responsible business consultant - stewardship, climate and nature",
+      "company": null,
+      "role_tier": 4,
+      "role_family": "other",
+      "current_role_confidence": "low",
+      "evidence": [
+        {
+          "url": "https://uk.linkedin.com/in/victoria-kay-6b9b7a128",
+          "title": "Victoria Kay | Senior Responsible Business Consultant - Stewardship, Climate and Nature",
+          "source_type": "other",
+          "snippet": null,
+          "fetched_text": null,
+          "published_date": null,
+          "query": "\"Kayagnhlondon\" site:linkedin.com/in",
+          "score": null
+        }
+      ],
+      "contact_routes": [],
+      "linkedin_url": "https://uk.linkedin.com/in/victoria-kay-6b9b7a128",
+      "needs_human_review": true,
+      "needs_contact_mining": true,
+      "notes": [
+        "Search matched Kayagnhlondon but role not clearly a hotel stakeholder or operational position at the property"
+      ]
+    }
+  ],
+  "review_rows": [
+    {
+      "hotel_name": "Kayagnhlondon",
+      "hotel_url": "https://kayagnhlondon.com/",
+      "candidate_id": "c_e93835f928f1a54f",
+      "full_name": "Akshay Ingle",
+      "title": "General Manager",
+      "company": null,
+      "role_tier": 2,
+      "role_family": "gm_ops",
+      "current_role_confidence": "medium",
+      "best_email": null,
+      "best_phone": null,
+      "linkedin_url": "https://linkedin.com/in/akshay-ingle-mba-b8371010a",
+      "other_routes": null,
+      "needs_human_review": false,
+      "needs_contact_mining": true,
+      "evidence_urls": "https://linkedin.com/in/akshay-ingle-mba-b8371010a",
+      "evidence_summary": "",
+      "notes": ""
+    },
+    {
+      "hotel_name": "Kayagnhlondon",
+      "hotel_url": "https://kayagnhlondon.com/",
+      "candidate_id": "c_c10bc7c598786113",
+      "full_name": "Aun Haider",
+      "title": "Revenue Manager",
+      "company": "Kaya Great Northern Hotel",
+      "role_tier": 3,
+      "role_family": "commercial_revenue",
+      "current_role_confidence": "high",
+      "best_email": null,
+      "best_phone": null,
+      "linkedin_url": "https://linkedin.com/in/aun-haider-1730944b",
+      "other_routes": null,
+      "needs_human_review": false,
+      "needs_contact_mining": false,
+      "evidence_urls": "https://linkedin.com/in/aun-haider-1730944b",
+      "evidence_summary": "",
+      "notes": ""
+    },
+    {
+      "hotel_name": "Kayagnhlondon",
+      "hotel_url": "https://kayagnhlondon.com/",
+      "candidate_id": "c_34ff083a70815698",
+      "full_name": "Victoria Kay",
+      "title": "Senior Responsible Business Consultant - Stewardship, Climate and Nature",
+      "company": null,
+      "role_tier": 4,
+      "role_family": "other",
+      "current_role_confidence": "low",
+      "best_email": null,
+      "best_phone": null,
+      "linkedin_url": "https://uk.linkedin.com/in/victoria-kay-6b9b7a128",
+      "other_routes": null,
+      "needs_human_review": true,
+      "needs_contact_mining": true,
+      "evidence_urls": "https://uk.linkedin.com/in/victoria-kay-6b9b7a128",
+      "evidence_summary": "",
+      "notes": "Search matched Kayagnhlondon but role not clearly a hotel stakeholder or operational position at the property"
+    }
+  ],
+  "telemetry": {
+    "stages": [
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" hotel ownership",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.648702400001639,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"managed by\"",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.817261200001667,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"owned by\"",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.058782500000234,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"part of\" hotel group",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.3272902999997314,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:site:kayagnhlondon.com leadership team",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.5762761000005412,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:site:kayagnhlondon.com contact",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.082149699999718,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"kayagnhlondon.com\" hotel management com",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.4053547000003164,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"general manager\"",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.2266817999989144,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"managing director\"",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.309864299997571,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" owner OR founder",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.243745299998409,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" CEO",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 3.366410499998892,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"commercial director\"",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.4144587999981013,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"revenue manager\" OR \"re",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.2441338000026008,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"director of sales\"",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.8896703999998863,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"groups\" sales",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.2467070999991847,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"reservations manager\"",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.271132600002602,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" \"IT manager\" OR \"digital",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.8251827000021876,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" procurement OR \"finance ",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.0152563999981794,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" appointed \"general manag",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.99822050000148,
+        "notes": []
+      },
+      {
+        "stage": "exa_search:\"Kayagnhlondon\" site:linkedin.com/in",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.87296459999925,
+        "notes": []
+      },
+      {
+        "stage": "exa_people:Kayagnhlondon general manager",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.0947785999996995,
+        "notes": []
+      },
+      {
+        "stage": "exa_people:Kayagnhlondon director of sales",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.4893819999997504,
+        "notes": []
+      },
+      {
+        "stage": "exa_people:Kayagnhlondon revenue director",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.9620739999991201,
+        "notes": []
+      },
+      {
+        "stage": "grok_validation_chunk",
+        "provider": "xai",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.0,
+        "seconds": 76.8259246000016,
+        "notes": []
+      },
+      {
+        "stage": "grok_validation_chunk",
+        "provider": "xai",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.0,
+        "seconds": 145.78950930000065,
+        "notes": []
+      },
+      {
+        "stage": "grok_validation_chunk",
+        "provider": "xai",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.0,
+        "seconds": 63.19226609999896,
+        "notes": []
+      },
+      {
+        "stage": "contact_mine:Akshay Ingle",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.5261444999996456,
+        "notes": []
+      },
+      {
+        "stage": "linkedin_merge:\"Kayagnhlondon\" \"general manager",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 1.9519153000001097,
+        "notes": []
+      },
+      {
+        "stage": "linkedin_merge:\"Kayagnhlondon\" \"director of sal",
+        "provider": "exa",
+        "calls": 1,
+        "tokens_in": 0,
+        "tokens_out": 0,
+        "estimated_usd": 0.007,
+        "seconds": 2.413912400003028,
+        "notes": []
+      }
+    ],
+    "exa_search_requests": 26,
+    "exa_content_pages": 0,
+    "errors": []
+  },
+  "source_pack_json": "{\n  \"hotel\": {\n    \"input_url\": \"https://kayagnhlondon.com/\",\n    \"canonical_name\": null,\n    \"property_name\": \"Kayagnhlondon\",\n    \"brand_name\": null,\n    \"management_company\": null,\n    \"ownership_group\": null,\n    \"domains\": [\n      \"kayagnhlondon.com\"\n    ],\n    \"location_hint\": null\n  },\n  \"candidate_groups\": [\n    {\n      \"candidate_key\": \"akshay ingle-mba | general manager|\",\n      \"candidate_id\": \"c_df650bf28d214ff8\",\n      \"name_hints\": [\n        \"Akshay Ingle-MBA | General Manager\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/akshay-ingle-mba-b8371010a\",\n          \"title\": \"Akshay Ingle-MBA | General Manager\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" \\\"general manager\\\"\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"anil kumar c | “managing director” | expert in non-residential building construction | specializing in leasing for industrial buildings and warehouses|\",\n      \"candidate_id\": \"c_4176eba55195b4ef\",\n      \"name_hints\": [\n        \"Anil Kumar C | “Managing Director” | Expert in non-residential building construction | Specializing in leasing for industrial buildings and warehouses\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/anil-kumar-c-774468193\",\n          \"title\": \"Anil Kumar C | “Managing Director” | Expert in non-residential building construction | Specializing in leasing for industrial buildings and warehouses\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" \\\"managing director\\\"\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"orhan tan | owner at kayveey con uk ltd|\",\n      \"candidate_id\": \"c_4c7a3d5470b91d38\",\n      \"name_hints\": [\n        \"Orhan Tan | Owner at Kayveey Con UK Ltd\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/orhan-tan-795080128\",\n          \"title\": \"Orhan Tan | Owner at Kayveey Con UK Ltd\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" owner OR founder\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"kenny nguyen | founder at kayku` co.|\",\n      \"candidate_id\": \"c_5cdd726c35589c6f\",\n      \"name_hints\": [\n        \"Kenny Nguyen | Founder at kayku` co.\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/kennyhnguyen\",\n          \"title\": \"Kenny Nguyen | Founder at kayku` co.\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" owner OR founder\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"adrian matadeen|\",\n      \"candidate_id\": \"c_cc531c530066b693\",\n      \"name_hints\": [\n        \"ADRIAN MATADEEN\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/adrian-matadeen-05208510\",\n          \"title\": \"ADRIAN MATADEEN\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" CEO\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"kayleigh hartigan | founder | ex-cco and md | healthcare and tech|\",\n      \"candidate_id\": \"c_b778c4d7bcbc5877\",\n      \"name_hints\": [\n        \"Kayleigh Hartigan | Founder | Ex-CCO and MD | healthcare and tech\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://uk.linkedin.com/in/kayleigh-hartigan-2bb3bb10\",\n          \"title\": \"Kayleigh Hartigan | Founder | Ex-CCO and MD | healthcare and tech\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" CEO\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"kaydy singh | saaka ltd|\",\n      \"candidate_id\": \"c_55f6a0f08d956baf\",\n      \"name_hints\": [\n        \"KAYDY SINGH | Saaka Ltd\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/kaydy-singh-a9271547\",\n          \"title\": \"KAYDY SINGH | Saaka Ltd\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" CEO\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"aun haider | revenue manager at kaya great northern hotel|\",\n      \"candidate_id\": \"c_f1dc58a4df90611b\",\n      \"name_hints\": [\n        \"Aun Haider | Revenue Manager at Kaya Great Northern Hotel\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/aun-haider-1730944b\",\n          \"title\": \"Aun Haider | Revenue Manager at Kaya Great Northern Hotel\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" \\\"revenue manager\\\" OR \\\"revenue director\\\"\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"kwabena agyare|sky\",\n      \"candidate_id\": \"c_02ec16420ef40be3\",\n      \"name_hints\": [\n        \"Kwabena Agyare\"\n      ],\n      \"title_hints\": [\n        \"Sky\"\n      ],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://uk.linkedin.com/in/kagyare\",\n          \"title\": \"Kwabena Agyare - Sky | LinkedIn\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" site:linkedin.com/in\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"jonathan kay | head of regeneration at london borough of brent|\",\n      \"candidate_id\": \"c_a0bec8f9dea1eeda\",\n      \"name_hints\": [\n        \"Jonathan Kay | Head of Regeneration at London Borough of Brent\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://uk.linkedin.com/in/jonathan-kay-a2341632\",\n          \"title\": \"Jonathan Kay | Head of Regeneration at London Borough of Brent\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" site:linkedin.com/in\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"kaye holland | journalist, copywriter, broadcaster (bbc squad goals, the women’s football podcast, woc tv)|\",\n      \"candidate_id\": \"c_ea79cc868c91480b\",\n      \"name_hints\": [\n        \"Kaye Holland | Journalist, copywriter, broadcaster (BBC Squad Goals, The Women’s Football Podcast, WOC TV)\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://uk.linkedin.com/in/kaye-holland-bb720127\",\n          \"title\": \"Kaye Holland | Journalist, copywriter, broadcaster (BBC Squad Goals, The Women’s Football Podcast, WOC TV)\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" site:linkedin.com/in\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"jonathan kay | corporate development at stonex group inc.|\",\n      \"candidate_id\": \"c_e23a577be56dfb92\",\n      \"name_hints\": [\n        \"Jonathan Kay | Corporate Development at StoneX Group Inc.\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://uk.linkedin.com/in/jkay0\",\n          \"title\": \"Jonathan Kay | Corporate Development at StoneX Group Inc.\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" site:linkedin.com/in\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"victoria kay | senior responsible business consultant|stewardship, climate and nature\",\n      \"candidate_id\": \"c_fe66f424fa51c704\",\n      \"name_hints\": [\n        \"Victoria Kay | Senior Responsible Business Consultant\"\n      ],\n      \"title_hints\": [\n        \"Stewardship, Climate and Nature\"\n      ],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://uk.linkedin.com/in/victoria-kay-6b9b7a128\",\n          \"title\": \"Victoria Kay | Senior Responsible Business Consultant - Stewardship, Climate and Nature\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" site:linkedin.com/in\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"attracting and retaining top talent in times of brexit|\",\n      \"candidate_id\": \"c_93739e6c60d1230d\",\n      \"name_hints\": [\n        \"Attracting and Retaining Top Talent in Times of Brexit\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://uk.linkedin.com/in/kayhall\",\n          \"title\": \"Attracting and Retaining Top Talent in Times of Brexit\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"\\\"Kayagnhlondon\\\" site:linkedin.com/in\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"david monson | general manager at virgin hotels london-shoreditch|\",\n      \"candidate_id\": \"c_30c592c2d6583db5\",\n      \"name_hints\": [\n        \"David Monson | General Manager at Virgin Hotels London-Shoreditch\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/david-monson-47a08711\",\n          \"title\": \"David Monson | General Manager at Virgin Hotels London-Shoreditch\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon general manager\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"caitlin davina wells | general manager for iwm london|\",\n      \"candidate_id\": \"c_49ffa33787612b69\",\n      \"name_hints\": [\n        \"Caitlin Davina Wells | General Manager for IWM London\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/caitlin-davina-wells-7b842a125\",\n          \"title\": \"Caitlin Davina Wells | General Manager for IWM London\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon general manager\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"jose rodrigues | general manager at london city airport hotel|\",\n      \"candidate_id\": \"c_e2c4b357f5f1089b\",\n      \"name_hints\": [\n        \"Jose Rodrigues | General Manager at London City Airport Hotel\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/jose-rodrigues-a2606321\",\n          \"title\": \"Jose Rodrigues | General Manager at London City Airport Hotel\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon general manager\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"laszlo gere | general manager|\",\n      \"candidate_id\": \"c_7a572b2257e35e40\",\n      \"name_hints\": [\n        \"Laszlo Gere | General Manager\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/laszlo-gere-76b245104\",\n          \"title\": \"Laszlo Gere | General Manager\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon general manager\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"natasha ludlow | general manager|the royal horseguards & one whitehall place\",\n      \"candidate_id\": \"c_9ea6f293d597e9a4\",\n      \"name_hints\": [\n        \"Natasha Ludlow | General Manager\"\n      ],\n      \"title_hints\": [\n        \"The Royal Horseguards & One Whitehall Place\"\n      ],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/natasha-ludlow-3a5bb518\",\n          \"title\": \"Natasha Ludlow | General Manager - The Royal Horseguards & One Whitehall Place\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon general manager\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"mathew lovemore | global sales director | building high-performing sales teams in saas.|\",\n      \"candidate_id\": \"c_ddc2ec5236ad8824\",\n      \"name_hints\": [\n        \"Mathew Lovemore | Global Sales Director | Building High-Performing Sales Teams in SaaS.\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/mathewlovemore\",\n          \"title\": \"Mathew Lovemore | Global Sales Director | Building High-Performing Sales Teams in SaaS.\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon director of sales\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"edouard leneveu | sales director|apps @ kayzen | ex-activision blizzard king | ex-dataseat (now part of verve)\",\n      \"candidate_id\": \"c_1fa65b7f696e7e8d\",\n      \"name_hints\": [\n        \"Edouard Leneveu | Sales Director\"\n      ],\n      \"title_hints\": [\n        \"Apps @ Kayzen | ex-Activision Blizzard King | ex-Dataseat (Now part of Verve)\"\n      ],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/edouard-leneveu\",\n          \"title\": \"Edouard Leneveu | Sales Director - Apps @ Kayzen | ex-Activision Blizzard King | ex-Dataseat (Now part of Verve)\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon director of sales\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"reece sean calderbank | global sales director at delasport|\",\n      \"candidate_id\": \"c_98d700d238246ddc\",\n      \"name_hints\": [\n        \"Reece Sean Calderbank | Global Sales Director at Delasport\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/reece-sean-calderbank-24153ab7\",\n          \"title\": \"Reece Sean Calderbank | Global Sales Director at Delasport\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon director of sales\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"boytcho nikolov | director of sales at cm&c|\",\n      \"candidate_id\": \"c_6ea978695224c5ea\",\n      \"name_hints\": [\n        \"Boytcho Nikolov | Director of Sales at CM&C\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/boytcho-nikolov-9789a215\",\n          \"title\": \"Boytcho Nikolov | Director of Sales at CM&C\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon director of sales\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"adam moore | global sales director @ global lingo | driving revenue growth | sales leader | language and translation services | ai solutions|\",\n      \"candidate_id\": \"c_8d140892b3ed452f\",\n      \"name_hints\": [\n        \"Adam Moore | Global Sales Director @ Global Lingo | Driving Revenue Growth | Sales Leader | Language and Translation Services | AI Solutions\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/adam-moore-31539a42\",\n          \"title\": \"Adam Moore | Global Sales Director @ Global Lingo | Driving Revenue Growth | Sales Leader | Language and Translation Services | AI Solutions\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon director of sales\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"dina madhaparia | director of revenue management at the langham, london|\",\n      \"candidate_id\": \"c_6ba64c8d681a151f\",\n      \"name_hints\": [\n        \"Dina Madhaparia | Director of Revenue Management at The Langham, London\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/dina-madhaparia-296193130\",\n          \"title\": \"Dina Madhaparia | Director of Revenue Management at The Langham, London\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon revenue director\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"richard brown | director of revenue management at odeon cinemas group|\",\n      \"candidate_id\": \"c_a8ee63e326e54aca\",\n      \"name_hints\": [\n        \"Richard Brown | Director of Revenue Management at ODEON Cinemas Group\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/richard-brown-6aa7959\",\n          \"title\": \"Richard Brown | Director of Revenue Management  at ODEON Cinemas Group\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon revenue director\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"mohit dua | director of revenue & distribution|rooms at edwardian hotels london\",\n      \"candidate_id\": \"c_f7a10d9dacfbf616\",\n      \"name_hints\": [\n        \"Mohit Dua | Director of Revenue & Distribution\"\n      ],\n      \"title_hints\": [\n        \"Rooms at Edwardian Hotels London\"\n      ],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/mohit-dua-050b0214\",\n          \"title\": \"Mohit Dua | Director of Revenue & Distribution - Rooms at Edwardian Hotels London\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon revenue director\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"alice gologan | sr director, head of revenue & client growth visa direct, europe|\",\n      \"candidate_id\": \"c_ba4a694f7ba7a6a5\",\n      \"name_hints\": [\n        \"Alice Gologan | Sr Director, Head of Revenue & Client Growth Visa Direct, Europe\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/alice-gologan-51364115\",\n          \"title\": \"Alice Gologan | Sr Director, Head of Revenue & Client Growth Visa Direct, Europe\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon revenue director\"\n        }\n      ],\n      \"possible_conflicts\": []\n    },\n    {\n      \"candidate_key\": \"daniel coupe | commercial and revenue management specialist|\",\n      \"candidate_id\": \"c_8da52cf20f4f6a3b\",\n      \"name_hints\": [\n        \"Daniel Coupe | Commercial and Revenue Management Specialist\"\n      ],\n      \"title_hints\": [],\n      \"company_hints\": [],\n      \"role_tier_hint\": 4,\n      \"sources\": [\n        {\n          \"url\": \"https://linkedin.com/in/daniel-coupe-427b5913\",\n          \"title\": \"Daniel Coupe | Commercial and Revenue Management Specialist\",\n          \"snippet\": \"\",\n          \"date\": null,\n          \"query\": \"Kayagnhlondon revenue director\"\n        }\n      ],\n      \"possible_conflicts\": []\n    }\n  ],\n  \"orphan_sources\": [\n    {\n      \"url\": \"https://kayagnhlondon.com/\",\n      \"title\": \"Kaya Great Northern Hotel near Kings Cross & St Pancras Station\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" hotel ownership\"\n    },\n    {\n      \"url\": \"https://boutiquehotelnews.com/news/hotel/kaya-holding-great-northern-hotel/\",\n      \"title\": \"Kaya Holding acquires London’s Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" hotel ownership\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/modern-slavery-act-statement/\",\n      \"title\": \"Modern Slavery Act statement - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" hotel ownership\"\n    },\n    {\n      \"url\": \"https://hotelrestaurantmagazine.co.uk/kaya-hotels-resorts-debuts-in-london-with-rebrand-of-great-northern-hotel/\",\n      \"title\": \"Kaya Hotels & Resorts debuts in London with rebrand of Great Northern Hotel – Hotel & Restaurant Magazine\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" hotel ownership\"\n    },\n    {\n      \"url\": \"https://www.propertyweek.com/news/turkish-firm-takes-over-historic-great-northern-hotel-in-kings-cross\",\n      \"title\": \"Turkish firm takes over historic Great Northern Hotel in King’s Cross | Property Week\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" hotel ownership\"\n    },\n    {\n      \"url\": \"https://hotelrez.com/kaya-great-northern-hotel-embarks-on-new-chapter-in-partnership-with-hotelrez-hotels-resorts/\",\n      \"title\": \"Kaya Great Northern Hotel Embarks on New Chapter in Partnership with HotelREZ Hotels & Resorts - HotelREZ\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" hotel ownership\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.skchase.com/privacy-notice\",\n      \"title\": \"Kaya Great Northern Hotel - Privacy Notice\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managed by\\\"\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.skchase.com/faqs\",\n      \"title\": \"Kaya Great Northern Hotel - FAQs\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managed by\\\"\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.skchase.com/\",\n      \"title\": \"Boutique Hotels in London | Kings Cross Hotel: Official Gift Vouchers ...\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managed by\\\"\"\n    },\n    {\n      \"url\": \"https://www.greaterlondonproperties.co.uk/estate-agents/berkshire-hathaway-homeservices-kay-co-property-agent-in-london/\",\n      \"title\": \"Berkshire Hathaway HomeServices Kay & Co - Property Agent in London · Greater London Properties\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managed by\\\"\"\n    },\n    {\n      \"url\": \"https://www.bhhslondonproperties.com/about-us/bhhs-kay-and-co\",\n      \"title\": \"About Us | BHHS London\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managed by\\\"\"\n    },\n    {\n      \"url\": \"https://www.allinlondon.co.uk/directory/estate-agents/231428-kay-co\",\n      \"title\": \"Berkshire Hathaway HomeServices London Kay & Co\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managed by\\\"\"\n    },\n    {\n      \"url\": \"https://open.endole.co.uk/insight/company/08642457-kay-london-ltd\",\n      \"title\": \"Kay London Ltd\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"owned by\\\"\"\n    },\n    {\n      \"url\": \"https://find-and-update.company-information.service.gov.uk/company/16435282\",\n      \"title\": \"KAYGAN LIMITED overview - Find and update company information - GOV.UK\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"owned by\\\"\"\n    },\n    {\n      \"url\": \"https://find-and-update.company-information.service.gov.uk/company/08642457\",\n      \"title\": \"KAY LONDON LTD overview - Find and update company information - GOV.UK\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"owned by\\\"\"\n    },\n    {\n      \"url\": \"https://find-and-update.company-information.service.gov.uk/company/10386062\",\n      \"title\": \"KAY EBONY LONDON LIMITED\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"owned by\\\"\"\n    },\n    {\n      \"url\": \"https://opengovuk.com/company/16578373\",\n      \"title\": \"Kay’S Tuition Ltd · 7 Glebe Crescent, London, NW4 1BT, ENGLAND\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"owned by\\\"\"\n    },\n    {\n      \"url\": \"https://find-and-update.company-information.service.gov.uk/company/16781729\",\n      \"title\": \"KAYNS INTERNATIONAL LTD\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"owned by\\\"\"\n    },\n    {\n      \"url\": \"https://thehotelmagazine.co.uk/great-northern-hotel-embarks-on-new-chapter-as-part-of-kaya-hotels-resorts/\",\n      \"title\": \"GREAT NORTHERN HOTEL EMBARKS ON NEW CHAPTER AS PART OF KAYA HOTELS & RESORTS\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"part of\\\" hotel group\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/about/\",\n      \"title\": \"About Kaya Great Northern Hotel | Kings Cross St Pancras London Hotels\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"part of\\\" hotel group\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/author/dogushan/\",\n      \"title\": \"Kaya Great Northern Hotel near Kings Cross & St Pancras Station\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"part of\\\" hotel group\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/tr\",\n      \"title\": \"Kaya Great Northern Hotel – Londra’daki Butik Otel – King’s Cross\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"part of\\\" hotel group\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/careers/\",\n      \"title\": \"Career - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com leadership team\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/sustainability/\",\n      \"title\": \"Sustainability - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com leadership team\"\n    },\n    {\n      \"url\": \"http://www.kayagnhlondon.com/\",\n      \"title\": \"Kaya Great Northern Hotel near Kings Cross & St Pancras Station\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com leadership team\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/tr/iletisim/\",\n      \"title\": \"İletişim - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com leadership team\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/contact-us/\",\n      \"title\": \"Contact - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com contact\"\n    },\n    {\n      \"url\": \"https://book.kayagnhlondon.com/fr-FR/pages/contact\",\n      \"title\": \"Contact - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com contact\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/frequently-asked-questions/\",\n      \"title\": \"FAQs - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com contact\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/privacy-notice/\",\n      \"title\": \"Privacy Notice - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com contact\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/kings-cross-hotel/\",\n      \"title\": \"Location - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"site:kayagnhlondon.com contact\"\n    },\n    {\n      \"url\": \"https://gnhlondon.com/contact-us/\",\n      \"title\": \"Contact - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"kayagnhlondon.com\\\" hotel management company\"\n    },\n    {\n      \"url\": \"https://uk.linkedin.com/company/kaya-great-northern-hotel-london\",\n      \"title\": \"Kaya Great Northern Hotel, London | LinkedIn\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"kayagnhlondon.com\\\" hotel management company\"\n    },\n    {\n      \"url\": \"https://www.restaurantonline.co.uk/Article/2021/08/18/How-I-Got-Here-with-Jonathan-Kaye-general-manager-of-the-recently-opened-Jolly-Gardeners-pub-in-London-Vauxhall/\",\n      \"title\": \"How I Got Here with Jonathan Kaye general manager of the recently-opened Jolly Gardeners pub in London Vauxhall\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"general manager\\\"\"\n    },\n    {\n      \"url\": \"https://rocketreach.co/kelechi-kay-email_263271077\",\n      \"title\": \"Kelechi Kay Email\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"general manager\\\"\"\n    },\n    {\n      \"url\": \"https://open.endole.co.uk/insight/company/01516967-kay-international-public-limited-company\",\n      \"title\": \"Kay International Public Limited Company\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managing director\\\"\"\n    },\n    {\n      \"url\": \"https://open.endole.co.uk/insight/company/11748621-kay-gee-ltd\",\n      \"title\": \"Kay Gee Ltd\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managing director\\\"\"\n    },\n    {\n      \"url\": \"https://open.endole.co.uk/insight/company/16781729-kayns-international-ltd\",\n      \"title\": \"Kayns International Ltd\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"managing director\\\"\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.skchase.com/terms-conditions\",\n      \"title\": \"Kaya Great Northern Hotel - Terms & Conditions\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" owner OR founder\"\n    },\n    {\n      \"url\": \"https://companycheck.co.uk/company/08346578/MY-KAYHAN-LIMITED/companies-house-data\",\n      \"title\": \"Watch this company for free updates\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" owner OR founder\"\n    },\n    {\n      \"url\": \"https://find-and-update.company-information.service.gov.uk/company/17110347/officers\",\n      \"title\": \"KAYA HUB TECHNOLOGIES LTD people - Find and update company information - GOV.UK\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" CEO\"\n    },\n    {\n      \"url\": \"https://kayglobalgroup.com/about-us\",\n      \"title\": \"About KAY GLOBAL GROUP LTD\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"commercial director\\\"\"\n    },\n    {\n      \"url\": \"https://leadquest.co.uk/kay+oliver+hartmann_klh-uk-ltd-gb\",\n      \"title\": \"Kay Oliver Hartmann - KLH UK Ltd, London\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"commercial director\\\"\"\n    },\n    {\n      \"url\": \"https://careers.staycitygroup.com/jobs/6733299-director-of-revenue-london\",\n      \"title\": \"Director of Revenue - London - Staycity Group\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"revenue manager\\\" OR \\\"revenue director\\\"\"\n    },\n    {\n      \"url\": \"https://www.suryahotels.co.uk/blogs/revenue-director-paul-lingard-kay/\",\n      \"title\": \"Revenue director - Paul Lingard-Kay - Surya Hotels\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"revenue manager\\\" OR \\\"revenue director\\\"\"\n    },\n    {\n      \"url\": \"https://theorg.com/org/the-stafford-london/org-chart/m-j\",\n      \"title\": \"M J. - Director Of Revenue Management at The Stafford London | The Org\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"revenue manager\\\" OR \\\"revenue director\\\"\"\n    },\n    {\n      \"url\": \"https://www.linkedin.com/pulse/regional-director-revenue-london-70k-75k-benefits-thomas-finn-xig6e\",\n      \"title\": \"Regional Director of Revenue, London £70K-£75K + Benefits\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"revenue manager\\\" OR \\\"revenue director\\\"\"\n    },\n    {\n      \"url\": \"https://jobs.theguardian.com/job/10083226/director-sales-analytics/\",\n      \"title\": \"Director, Sales Analytics - London (West) job with BARCLAYS\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"director of sales\\\"\"\n    },\n    {\n      \"url\": \"https://builtinlondon.uk/job/sales-manager-performance-mfd/3984722\",\n      \"title\": \"Sales Director (US) - Agencies (m/f/d) - Kayzen | Built In London\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"director of sales\\\"\"\n    },\n    {\n      \"url\": \"https://ph.linkedin.com/company/kay-international-plc\",\n      \"title\": \"Kay International PLC\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"director of sales\\\"\"\n    },\n    {\n      \"url\": \"https://gnhlondon.com/group-bookings/\",\n      \"title\": \"Group Bookings - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"groups\\\" sales\"\n    },\n    {\n      \"url\": \"https://in.enrollbusiness.com/BusinessProfile/5292422/Berkshire-Hathaway-HomeServices-Kay-Co-King-s-Cross-Estate-Agents-Kings-Cross-Greater-London-N1C-4AG\",\n      \"title\": \"Berkshire Hathaway HomeServices Kay & Co - King's Cross Estate Agents, Kings Cross - N1C 4AG, Greater London, United Kingdom\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"groups\\\" sales\"\n    },\n    {\n      \"url\": \"https://companycheck.co.uk/company/01893754/THE-KAY-GROUP-UK-LIMITED/companies-house-data\",\n      \"title\": \"THE KAY GROUP (UK) LIMITED | Company Summary\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"groups\\\" sales\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/tr/kariyer/\",\n      \"title\": \"Kariyer - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"reservations manager\\\"\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/meetings-and-events-enquiry/\",\n      \"title\": \"Meetings and Events Enquiry - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"reservations manager\\\"\"\n    },\n    {\n      \"url\": \"https://www.cdomagazine.tech/leadership-moves/dhsc-and-nhs-england-appoint-rob-thompson-as-chief-digital-data-technology-officer\",\n      \"title\": \"DHSC and NHS England Appoint Rob Thompson as Chief Digital, Data & Technology Officer\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"IT manager\\\" OR \\\"digital director\\\"\"\n    },\n    {\n      \"url\": \"https://london-post.co.uk/capital-city-college-leads-the-way-in-london-for-digital-and-technology/\",\n      \"title\": \"Capital City College leads the way in London for digital and technology\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"IT manager\\\" OR \\\"digital director\\\"\"\n    },\n    {\n      \"url\": \"https://leadquest.co.uk/alexis+d+kaye_ak-it-solutions-ltd-gb\",\n      \"title\": \"Alexis D. Kaye - AK IT Solutions LTD, London\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"IT manager\\\" OR \\\"digital director\\\"\"\n    },\n    {\n      \"url\": \"https://theorg.com/org/quilter-plc/org-chart/andy-kay\",\n      \"title\": \"Andy Kay - IT Programme Director at Quilter PLC | The Org\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"IT manager\\\" OR \\\"digital director\\\"\"\n    },\n    {\n      \"url\": \"https://leadquest.co.uk/david+malcolm+kaye_digital-origin-technology-limited-gb\",\n      \"title\": \"David Malcolm Kaye - Digital Origin Technology Limited, London\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" \\\"IT manager\\\" OR \\\"digital director\\\"\"\n    },\n    {\n      \"url\": \"https://www.lpp.nhs.uk/about-nhs-london-procurement-partnership/our-people/kay-petken/\",\n      \"title\": \"Kay Petken NHS London Procurement Partnership\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" procurement OR \\\"finance director\\\"\"\n    },\n    {\n      \"url\": \"https://www.bmj.com/healthcareers/job/801345/chief-finance-officer/\",\n      \"title\": \"Chief Finance Officer - London job with East London NHS Foundation Trust (Health Careers)\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" procurement OR \\\"finance director\\\"\"\n    },\n    {\n      \"url\": \"https://theorg.com/org/segro-plc/teams/finance-and-procurement-team\",\n      \"title\": \"SEGRO - Finance and Procurement Team | The Org\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" procurement OR \\\"finance director\\\"\"\n    },\n    {\n      \"url\": \"https://theorg.com/org/the-london-clinic/org-chart/karen-shine\",\n      \"title\": \"Karen Shine - Head of Procurement at The London Clinic | The Org\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" procurement OR \\\"finance director\\\"\"\n    },\n    {\n      \"url\": \"https://democracy.york.gov.uk/ieListDocuments.aspx?MId=15178&Ver=4\",\n      \"title\": \"Agenda for Executive on Tuesday, 27 January 2026, 5.30 pm\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" procurement OR \\\"finance director\\\"\"\n    },\n    {\n      \"url\": \"https://kayagnhlondon.com/careers-at-gnh/\",\n      \"title\": \"Career - Kaya Great Northern Hotel\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" appointed \\\"general manager\\\"\"\n    },\n    {\n      \"url\": \"https://open.endole.co.uk/insight/company/14382902-agha-knightsbridge-property-management-ltd\",\n      \"title\": \"Agha Knightsbridge Property Management Ltd\",\n      \"snippet\": \"\",\n      \"date\": null,\n      \"query\": \"\\\"Kayagnhlondon\\\" appointed \\\"general manager\\\"\"\n    }\n  ]\n}"
+}

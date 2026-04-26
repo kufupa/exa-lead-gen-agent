@@ -1,0 +1,400 @@
+{
+  "target_url": "https://www.sterminshotel.co.uk/",
+  "generated_at_utc": "2026-04-25T14:49:31.863023+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 3638,
+    "prompt_tokens": 70674,
+    "total_tokens": 82995,
+    "prompt_text_tokens": 70674,
+    "reasoning_tokens": 8683,
+    "cached_prompt_text_tokens": 44160,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Anupam Kaul",
+      "title": "Director of Revenue Management and Digital Marketing",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/anupam-kaul-10991a65",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk (route to revenue/digital team)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct responsibility for revenue management, digital marketing, and distribution channels; primary stakeholder for revenue-tech, AI booking automation, and guest journey optimization.",
+      "contact_evidence_summary": "Strong public confirmation across LinkedIn, industry news on appointment, and multiple directories. Reachable via official hotel contacts listed on sterminshotel.co.uk. No personal email/phone found after search.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/anupam-kaul-10991a65",
+          "source_type": "linkedin",
+          "quote_or_fact": "Profile lists current role at St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Revenue Management and Digital Marketing at St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://www.costar.com/article/1347406860/europe-middle-east-and-africa-hires-promotions-accor-names-three-new-brand-executives",
+          "source_type": "news",
+          "quote_or_fact": "Anupam Kaul named director of revenue management at St Ermin's Hotel (noted in related coverage)."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Douglas McHugh",
+      "title": "General Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/douglas-mchugh-1233391b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk. GM personally signs public TripAdvisor responses.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees all property operations, commercial strategy, reservations, guest experience, and technology adoption decisions.",
+      "contact_evidence_summary": "Confirmed GM on official careers page (with direct quote), LinkedIn, TripAdvisor management responses, RocketReach, and Companies House as Director. Hotel contact details on official site tie directly to leadership.",
+      "evidence": [
+        {
+          "source_url": "https://www.sterminshotel.co.uk/about/careers",
+          "source_type": "official_site",
+          "quote_or_fact": "St Ermin’s General Manager, Douglas McHugh (with direct quote on employer values)."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/douglas-mchugh-1233391b",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager at St. Ermin's Hotel."
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07232261/officers",
+          "source_type": "directory",
+          "quote_or_fact": "Douglas McHugh listed as active Director of ST. ERMIN'S MANAGEMENT UK LIMITED."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Viola D'Mello",
+      "title": "Corporate and Consortia Sales Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/viola-grehan-nee-d-mello-b2348315",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Handles corporate/consortia sales and distribution partnerships; directly influences booking channels, contracts, and guest acquisition tech.",
+      "contact_evidence_summary": "Multiple directory and LinkedIn confirmations as sales manager. Department routes via official hotel phone and reservations email.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Viola D'Mello (Corporate and Consortia Sales Manager)."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/sterminshotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Viola Grehan (nee D'mello) listed in company employees as Sales Manager."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Stuart Leckie",
+      "title": "Director of Sales and Marketing",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk (sales routing)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales, marketing, and distribution strategy; key influencer for booking automation, guest acquisition messaging, and revenue channels.",
+      "contact_evidence_summary": "Listed in multiple hotel directory sources as Dir Sales/Mktg. Reachable via official hotel commercial contacts. Strong role fit with public directory evidence.",
+      "evidence": [
+        {
+          "source_url": "https://www.travelweekly.com/Hotels/London/St-Ermins-Hotel-Autograph-Collection-p9208465",
+          "source_type": "directory",
+          "quote_or_fact": "Key Personnel: Stuart Leckie, Dir Sales/Mktg."
+        },
+        {
+          "source_url": "https://rocketreach.co/stuart-leckie-email_7593166",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Sales and Marketing @ St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://www.northstarmeetingsgroup.com/Meeting-Event-Venues/London/Convention-Hotel/St-Ermins-Hotel-Autograph-Collection-p52557079",
+          "source_type": "directory",
+          "quote_or_fact": "Stuart Leckie, Dir Sales/Mktg."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Sara Ferrentino",
+      "title": "Head of Events",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/sara-ferrentino-65b9aa151",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk (events inquiries)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages events booking, guest communications, and experience; plausible stakeholder in guest messaging platforms and automation tools for group/reservations.",
+      "contact_evidence_summary": "Confirmed in RocketReach management list and LinkedIn company affiliation. Official hotel contacts apply for events team routing.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Sara Ferrentino, Head of Events at St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/sara-ferrentino-65b9aa151",
+          "source_type": "linkedin",
+          "quote_or_fact": "Affiliated with St. Ermin's Hotel - Autograph Collection."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Gemma Mellish",
+      "title": "Catering Sales Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/gemma-mellish-6473811b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages catering and events sales; influences group booking automation, guest communications, and related tech.",
+      "contact_evidence_summary": "LinkedIn and directory confirmations of sales role at the hotel. Official contact details enable outreach.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/gemma-mellish-6473811b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Catering Sales Manager at St Ermin's Hotel."
+        },
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Referenced in related sales team context."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Nahid Yasin",
+      "title": "Food and Guest Experience Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Responsible for guest experience and F&B operations; directly touches guest messaging, CRM, and experience technology that can integrate with booking/automation tools.",
+      "contact_evidence_summary": "Publicly named in recent TripAdvisor guest review as Food and Guest Experience Manager. Reachable via hotel's official guest contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d248802-r1008473876-St_Ermin_s_Hotel_Autograph_Collection-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "I especially want to call out Nahid Yasin, Food and Guest Experience Manager."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Therese Scully",
+      "title": "Director of Finance",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees financial and revenue reporting; stakeholder in revenue-tech ROI and adoption decisions.",
+      "contact_evidence_summary": "Listed in RocketReach management team and LinkedIn company page. Hotel-level contacts provide routing path.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Therese Scully, Director of Finance at St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/sterminshotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Therese Scully listed among employees at St. Ermin's Hotel - Autograph Collection."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Martin Ganyasi",
+      "title": "Assistant Food and Beverage Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "low",
+      "intimacy_grade": "medium",
+      "fit_reason": "Supports F&B and guest experience delivery; potential touchpoint for on-site guest comms automation.",
+      "contact_evidence_summary": "Referenced in RocketReach management listings. Hotel department routing available.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Martin Ganyasi, Assistant Food and Beverage Manager."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Jon Cummins",
+      "title": "Director",
+      "company": "St. Ermin's Management UK Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888 (property correspondence address)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Board-level oversight of the operating/management company for this property; influence on commercial strategy and tech investments.",
+      "contact_evidence_summary": "Official Companies House record as active Director with correspondence at the hotel. Scarcity of direct personal contact details.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07232261/officers",
+          "source_type": "directory",
+          "quote_or_fact": "Jon Cummins, Director, appointed 12 October 2012, active, correspondence at St Ermin's Hotel."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Gerald Marshall",
+      "title": "Director",
+      "company": "St. Ermin's Management UK Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Correspondence via hotel or Amerimar Enterprises",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Board-level role at the management company operating this hotel; potential influence over revenue tech and operational automation strategy.",
+      "contact_evidence_summary": "Official Companies House record as active Director. Limited public intimacy beyond company filings.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07232261/officers",
+          "source_type": "directory",
+          "quote_or_fact": "Gerald Marshall, Director, appointed 22 April 2010, active."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Ankica Korzelius",
+      "title": "Director of Housekeeping",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees guest room experience operations; indirect relevance to guest messaging and experience tech enhancements.",
+      "contact_evidence_summary": "Listed in RocketReach management directory. Public hotel contacts only.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Ankica Korzelius, Director of Housekeeping at St. Ermin's Hotel - Autograph Collection."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Karen Oruska",
+      "title": "Company Secretary",
+      "company": "St. Ermin's Management UK Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Correspondence via hotel address or Amerimar Enterprises",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Administrative leadership at the management company for the property; indirect support role for operational communications.",
+      "contact_evidence_summary": "Official Companies House record as active Secretary. Public data is limited to filings; explains lower contact intimacy.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07232261/officers",
+          "source_type": "directory",
+          "quote_or_fact": "ORUSKA, Karen, Secretary, appointed 10 January 2015, active."
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "stages": [
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" hotel ownership",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.347768100000394,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"managed by\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.374549100000877,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"owned by\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.2851262000003771,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"part of\" hotel group",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.295211399999971,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:site:kayagnhlondon.com leadership team",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.2801791000019875,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:site:kayagnhlondon.com contact",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.336712100001023,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"kayagnhlondon.com\" hotel management com",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.3069247000021278,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"general manager\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.2403991999999562,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"managing director\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.296184999999241,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" owner OR founder",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.2695149000028323,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" CEO",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.3417450000015378,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"commercial director\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.4623420999996597,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"revenue manager\" OR \"re",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.3284357999982603,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"director of sales\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.2789714999998978,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"groups\" sales",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.2576988999971945,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"reservations manager\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.7259726000011142,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" \"IT manager\" OR \"digital",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.3330005999996501,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" procurement OR \"finance ",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.3759229999996023,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" appointed \"general manag",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.3153439999987313,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Kayagnhlondon\" site:linkedin.com/in",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.3281766000000061,
+      "notes": []
+    },
+    {
+      "stage": "exa_people:Kayagnhlondon general manager",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.291792500000156,
+      "notes": []
+    },
+    {
+      "stage": "exa_people:Kayagnhlondon director of sales",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.3121131000007153,
+      "notes": []
+    },
+    {
+      "stage": "exa_people:Kayagnhlondon revenue director",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.5352979999988747,
+      "notes": []
+    },
+    {
+      "stage": "grok_validation_chunk",
+      "provider": "xai",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.0,
+      "seconds": 110.03854149999825,
+      "notes": []
+    },
+    {
+      "stage": "grok_validation_chunk",
+      "provider": "xai",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.0,
+      "seconds": 112.89038040000014,
+      "notes": []
+    },
+    {
+      "stage": "grok_validation_chunk",
+      "provider": "xai",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.0,
+      "seconds": 48.64445809999961,
+      "notes": []
+    },
+    {
+      "stage": "contact_mine:Akshay Ingle",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.4951939999991737,
+      "notes": []
+    },
+    {
+      "stage": "linkedin_merge:\"Kayagnhlondon\" \"general manager",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.7136911999987205,
+      "notes": []
+    },
+    {
+      "stage": "linkedin_merge:\"Kayagnhlondon\" \"director of sal",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.6130182000015338,
+      "notes": []
+    }
+  ],
+  "exa_search_requests": 26,
+  "exa_content_pages": 0,
+  "errors": []
+}

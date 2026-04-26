@@ -1,0 +1,866 @@
+{
+  "target_url": "https://www.gemhotels.com/",
+  "generated_at_utc": "2026-04-25T14:49:31.844003+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 3265,
+    "prompt_tokens": 80078,
+    "total_tokens": 91750,
+    "prompt_text_tokens": 80078,
+    "reasoning_tokens": 8407,
+    "cached_prompt_text_tokens": 32128,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Anna B.",
+      "title": "Revenue Co-ordinator",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/anna-b-241275147",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct revenue role with influence over revenue-tech adoption, pricing, and distribution channels central to AI booking automation and revenue management systems.",
+      "contact_evidence_summary": "Profile listed on Gem Hotels LinkedIn company page as Revenue Co-ordinator. Contact via central office lines and reservations email. No personal email located after search.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/gem-hotels",
+          "source_type": "linkedin",
+          "quote_or_fact": "Anna B. · Revenue Co-ordinator"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Main line +44 (0) 20 8138 5500 and reservations@gemhotels.com"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/anna-b-241275147",
+        "display_name": "Anna B.",
+        "headline": "Revenue Co-ordinator at Gem Hotels",
+        "location": "Bromley, England, United Kingdom (GB)",
+        "about": "Total Experience: 5 years and 10 months",
+        "experience": [
+          {
+            "title": "Revenue Co-ordinator",
+            "organization": "Gem Hotels",
+            "date_range": "Jan 2020 - Present",
+            "location": null,
+            "description": "Company: 201-500 employees • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Specialist"
+          }
+        ],
+        "education": [
+          {
+            "school": "Birkbeck, University of London",
+            "degree_or_field": "Bachelor of Science - BS, Business and Human Resource Management",
+            "date_range": "2014 - 2018"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [
+          "Hospitality events and fashion collaborations at hotels",
+          "Workplace empathy and work-life balance",
+          "Hotel transitions and rebranding projects",
+          "HR career advice for professionals",
+          "Personal academic and degree achievements",
+          "Overcoming procrastination and future self connection",
+          "Employee retention and reducing turnover"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/malini-daryanani-05047830_jameslakeland-gemfitzroviahotel-fashionmeetshospitality-activity-7311095987899449344-mu-r",
+          "https://www.linkedin.com/posts/marlagottschalk_empathy-worklife-corestability-activity-6689548731311804416-h2zu",
+          "https://www.linkedin.com/posts/loredana-burdulea-assoc-cipd-042ab054_happyistheplacetobe-activity-6525800925775433728-ftry",
+          "https://www.linkedin.com/posts/holly-marston-a579066a_happyistheplacetobe-activity-6527226348891566080-rukr",
+          "https://www.linkedin.com/posts/holly-marston-a579066a_happyistheplacetobe-transition-activity-6527131508673642496-d0uc",
+          "https://www.linkedin.com/posts/beardman_a-human-resources-career-is-not-for-nice-activity-6497993616751939585-Ou7X",
+          "https://www.linkedin.com/posts/andrea-t-76452357_i-am-thrilled-satisfied-and-just-happy-as-activity-6435549724559835136-nr44",
+          "https://www.linkedin.com/posts/forbes-magazine_procrastination-can-be-overcome-by-finding-activity-6296307984582615040-lBCi"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Harpal Singh Matharu",
+      "title": "Director & Company Secretary",
+      "company": "Globalgem Hotels Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0) 20 8138 5500",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Registered address: 72-75 Red Lion Street, London WC1R 4NA; Phone +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Owner-level director with authority over all commercial, operational, and technology decisions for the Gem Hotels group including reservations automation and revenue strategy.",
+      "contact_evidence_summary": "Officially listed on Companies House as active Director and Secretary (appointed 2017). Company address and phones from official hotel site provide clear route. Strong public confirmation of leadership role.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/11022269/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Harpal Singh Matharu listed as Director (DOB Dec 1956) and Secretary of GLOBALGEM HOTELS LIMITED"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate office 72-75 Red Lion Street and +44 (0) 20 8138 5500"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Laura Radoi",
+      "title": "Events Manager",
+      "company": "Gem Hotels",
+      "linkedin_url": null,
+      "email": "laura@gemhotels.com",
+      "email2": "events@gemhotels.com",
+      "phone": "+44 (0) 20 7436 6622",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "events@gemhotels.com; Langham Court direct: +44 (0) 20 7436 6622",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Events role directly touches guest communications, group bookings, and messaging automation opportunities relevant to ICP.",
+      "contact_evidence_summary": "Listed as Events Manager with events@gemhotels.com in conference venue directory (findmeaconference.com). Supported by official contact-us page providing property phones and emails. Strong department route available.",
+      "evidence": [
+        {
+          "source_url": "https://www.findmeaconference.com/details/london-borough-of-camden/fitzrovia/langham-court-hotel",
+          "source_type": "directory",
+          "quote_or_fact": "Laura Radoi Events Manager . 02074366622 events@ gemhotels.com"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Gem Langham Court Hotel phone +44 (0) 20 7436 6622 and langhamcourt@gemhotels.com (events ties to this property)"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Faz Deen",
+      "title": "General Manager",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/faz-deen-298112230",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com; Property phones available per hotel",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "GM role with clear influence over property operations, revenue, reservations, guest experience, and digital journey decisions tied to booking and messaging tech.",
+      "contact_evidence_summary": "Public LinkedIn profile confirms General Manager at Gem Hotels. Supported by official site PDFs referencing General Manager authority and company contact pages for routing.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/faz-deen-298112230",
+          "source_type": "linkedin",
+          "quote_or_fact": "faz Deen - General Manager at Gem Hotels"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/brochures/gem-hotels-candb-terms-and-conditions.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Only the hotels General Manager or Gem Hotels Directors have the authority to amend these terms"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/faz-deen-298112230",
+        "display_name": "faz Deen",
+        "headline": "General Manager at Gem Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Gem Hotels",
+            "date_range": "Current",
+            "location": null,
+            "description": "Company: 201-500 employees • Privately Held • Hospitality\nDepartment: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/company/gem-hotels"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Malini Daryanani",
+      "title": "Sales Professional (Corporate Sales)",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/malini-daryanani-05047830",
+      "email": "duru.daryanani@gemhotels.com",
+      "email2": null,
+      "phone": "07870 364401",
+      "phone2": "+44 (0) 20 8138 5500",
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales role drives group/corporate bookings, marketing, and distribution channels; directly relevant to AI booking automation, guest messaging, and revenue tech.",
+      "contact_evidence_summary": "LinkedIn profile confirms experienced hospitality sales professional at Gem Hotels (also referred to as Duru Mih in some directories). Route via central sales/reservations contacts. RocketReach and LinkedIn corroborate role.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/malini-daryanani-05047830",
+          "source_type": "linkedin",
+          "quote_or_fact": "Duru (Malini) Daryanani MIH - Gem Hotels. Experienced hospitality sales professional"
+        },
+        {
+          "source_url": "https://rocketreach.co/duru-mih-email_87434907",
+          "source_type": "directory",
+          "quote_or_fact": "Duru Mih ... Gem Hotels Corporate Sales"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/malini-daryanani-05047830",
+        "display_name": "Duru Daryanani MIH",
+        "headline": "Corporate Sales & Relationships Manager (Business & Leisure) at Gem Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced hospitality sales professional with a strong track record in driving… Total Experience: 6 years and 1 month",
+        "experience": [
+          {
+            "title": "Sales Manager",
+            "organization": "Gem Hotels",
+            "date_range": "Jan 2020 - Present",
+            "location": "London, United Kingdom",
+            "description": "Responsible for driving and leading the business sales strategy and direction of corporate programmes tailored towards blue chip and tier 1 companies for the hotel i.e. participating and hosting events that will promote the awareness of the company and its credentials. • Leading the daily activities of MICE sales with a focus on building long term customer relationships that lead to the achievement of sales objectives and repeat business. • Attend weekly Sales Strategy and Sales Meetings as well as providing periodic forecasts and budgets as required. • Respond to sales enquires and arrange site inspection trips to hotel by corporate clients maintaining good relations with the VIP and key clients of the Company. • Proactively sell the venue to new clients in building and strengthening relationships enabling future bookings for the hotel. • Proactive account management of existing clients to grow revenue. • Supervise event planning and delivery with overall responsibility. • Work closely with and collaborate with all departments and operational staff to ensure consistently high standards. • Implement and execute all sales objectives and action plans to reach and exceed targets set. • Solicit and serve transient and group business and meetings. • Maximise up selling opportunities by proposing additional events and activities suitable and complimenting to the MICE bookings. • Management of client contracts and overseeing the Invoicing process to ensure payments are correctly processed. • Obtain client feedback after each event verbally and through ‘Thank you’ letter and Guest questionnaire. • Monitor and regularly review competitors to ensure that the hotel remains competitive for accommodation as well as a conference and events venue. • Identifying business trends and marketing opportunities which can improve the hotel’s performance. • Supporting the hotels service and relationship strategy, driving customer loyalty by delivering service of excellence."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales manager",
+          "sales strategy",
+          "hosting events",
+          "account management",
+          "event planning",
+          "business meetings",
+          "customer loyalty",
+          "hospitality",
+          "sales",
+          "driving",
+          "responsible",
+          "strategy",
+          "hotel",
+          "hosting",
+          "budgets",
+          "inspection",
+          "proactive",
+          "management",
+          "planning",
+          "selling",
+          "invoicing",
+          "payments",
+          "marketing",
+          "hotels"
+        ],
+        "activity_themes": [
+          "Institute of Hospitality events and parliamentary receptions",
+          "London chamber of commerce networking and business awards",
+          "Hospitality industry leadership and breakfast events",
+          "Hotel FAM trips and supplier relations visits",
+          "Conference hosting and venue management in hospitality",
+          "Creative leadership, AI applications, and industry webinars"
+        ],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": "Only one experience entry present. About section is truncated in the source text."
+      }
+    },
+    {
+      "full_name": "Teeran Hassen",
+      "title": "Central Reservations and Sales",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/teeran-hassen-06701a73",
+      "email": "reservations@gemhotels.com",
+      "email2": null,
+      "phone": "+44 (0) 20 8138 5500",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@gemhotels.com; Central phone +44 (0) 20 8138 5500",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct responsibility for central reservations and sales; primary stakeholder for reservations automation, booking engines, and guest communication tools.",
+      "contact_evidence_summary": "LinkedIn and RocketReach confirm role in Central Reservations Office and Sales at Gem Hotels. Direct tie to reservations@gemhotels.com email on all official pages.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/teeran-hassen-06701a73",
+          "source_type": "linkedin",
+          "quote_or_fact": "Teeran Hassen - Gem Hotels"
+        },
+        {
+          "source_url": "https://rocketreach.co/teeran-hassen-email_127766232",
+          "source_type": "directory",
+          "quote_or_fact": "Teeran Hassen ... Central Reservations Office and Sales at Gem Hotels"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/teeran-hassen-06701a73",
+        "display_name": "Teeran Hassen",
+        "headline": "“The price of success is hard work, dedication to the job at hand, and the determination that whether we win or lose, we have applied the best of ourselves to the task at hand.” Central Reservations Office Sales at Gem Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A hard working, punctual, enthusiastic, and dedicated individual, with over 20 years’ experience in driving commercial, team and operational performance, coupled with a broad skill-set. Able to work in busy and challenging environments, whilst exhibiting an active and dynamic approach to objectives at hand, and delivering high standards of services. Demonstrates an outgoing, tactful, friendly, helpful and polite persona, complemented with the ability to develop strong and healthy working relationships with all colleagues\n\nTotal Experience: 30 years",
+        "experience": [
+          {
+            "title": "Hotel Management Trainee",
+            "organization": "Hilton Colombo",
+            "date_range": "Jan 1994 - Jan 2003",
+            "location": "Sri Lanka",
+            "description": "Company: 501-1000 employees • Founded 1987 • Public Company • Hospitality\nDepartment: Administrative • Level: Intern"
+          },
+          {
+            "title": "Reception Shift Leader - Grange City Hotel",
+            "organization": "Grange Hotels",
+            "date_range": "Jan 2003 - Jan 2005",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1985 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Hotel Management Trainee, Grange City Hotel",
+            "organization": "Grange Hotels",
+            "date_range": "Jan 2005 - Jan 2009",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1985 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Hotel House Manager, Grange Bloomsbury Town House Collection",
+            "organization": "Grange Hotels",
+            "date_range": "Jan 2009 - Jan 2012",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1985 • Privately Held • Hospitality\nOutline: A collection of 4-star boutique Hotels, housing 254 bedrooms near Bloomsbury Oxford Street. Key Responsibilities: • Directed and steered the Hotel Reception, controlled the allocation of guest bedrooms, met and greeted clients, dealt with all guest complaints and comments, conducted pre-shift head of department meetings, ensured all department heads were aware of bedroom availability, applicable bedroom rates for the day, in-house functions, VIP arrivals, group arrivals and planned site-visits. • Planned work schedules, trained and motivated staff, ensured the team delivered an effective and enjoyable experience to all guests, assisted in organising site visits, ensured show rooms/conferences and events areas were prepared, conducted employee reviews and appraisals, managed employee roster, attendance and payroll, assisted Company HR Management in identifying and developing talent, managed all aspects of Health & Safety, Security and Fire Safety. Key Achievements: • Supported the hotel’s business development objectives, through collaborating the Front of House Manager, Reservations Manager, Conference & Events Manager and Food & Beverage Manager to identify business opportunities, which resulted in developing a continuous pipeline of reactive leads through networking events. • Elected to deputise as General Manager in the absence of superior, which involved managing the team and all operations within the hotel. • Successfully managed the opening of the Grange St. Paul’s Hotel and Grange Tower Bridge Hotel, which included room inventory and website content."
+          },
+          {
+            "title": "Assistant Revenue Manager, Grange Hotels Head Office",
+            "organization": "Grange Hotels",
+            "date_range": "Jan 2012 - Jan 2019",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1985 • Privately Held • Hospitality\nOutline: 16 London properties, and 1 in Bracknell, including 2091 bedrooms in total. Key Achievements: • Oversaw revenue management and distribution strategy of each hotel within the group and managed day-to-day operations, analysed overall monthly hotel performance and provided summary report with recommendations to improve long term strategies, conducted quarterly property performance review and developed strategic and tactical actions, prepared outline for and supported the annual revenue budget process. • Implemented training and development initiatives for 15 staff members, through managing teams’ performance, holding 1-2-1s, as well as maintaining individual development plans, supporting the organisation’s strategic objectives in the personal and professional development of key staff members, whilst strengthening the organisation’s team. • Supported the hotel’s cost control measures, by reducing the cost of distribution, through identifying new less expensive means of delivering business. • Developed positive and profitable relationships with clients, by building strong customer loyalty through services and assistance, driving customer retention and satisfaction levels. • Exceeded YoY RevPAR (Revenue Per Available Room) including 2017 by 1.34%, 2016 by 0.45%, 2015 by 3.13%, 2014 by 2.21%, 2013 by 2.42% and 2012 by 8.98% during the London Olympics. • Played a pivotal role in expanding the organisation’s promotional campaigns, in collaboration with Company Managing Directors, as well as Front of House, Sales, Marketing and IT Teams, by setting up the hotel’s website, search engine optimisation, social media and other marketing and PR activities."
+          },
+          {
+            "title": "Events Planner",
+            "organization": "ROYCE ANGELO EVENTS LTD",
+            "date_range": "Oct 2019 - Mar 2020",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Residential Building Manager",
+            "organization": "Ovington Court Knights Bridge",
+            "date_range": "Dec 2020 - Feb 2021",
+            "location": "Knightsbridge, England, United Kingdom",
+            "description": "Department: Real Estate • Level: Manager"
+          },
+          {
+            "title": "Central Reservations Office Sales",
+            "organization": "Gem Hotels",
+            "date_range": "Sep 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 201-500 employees • Privately Held • Hospitality\nDepartment: Customer Service • Level: Specialist"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hard working",
+          "hotel management",
+          "revenue management",
+          "budget process",
+          "cost control",
+          "customer loyalty",
+          "customer retention",
+          "social media",
+          "hr management",
+          "fire safety",
+          "business development",
+          "driving",
+          "commercial",
+          "reservations",
+          "sales",
+          "hotel",
+          "management",
+          "hotels",
+          "distribution",
+          "strategy",
+          "operations",
+          "property",
+          "budget",
+          "training",
+          "organisation",
+          "less",
+          "campaigns",
+          "collaboration",
+          "marketing",
+          "pr",
+          "residential",
+          "rates",
+          "schedules",
+          "appraisals",
+          "payroll",
+          "hr",
+          "health",
+          "safety",
+          "security",
+          "food",
+          "networking",
+          "inventory",
+          "social media marketing"
+        ],
+        "activity_themes": [
+          "World Travel Market reflection",
+          "Gem Hotels award",
+          "Hospitality brand service focus",
+          "Hotel job vacancies in Scotland",
+          "Pride month diversity and inclusion",
+          "D-Day 77th anniversary commemoration",
+          "LGBTQ+ pride and mental health awareness"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/sheilakrishnan-skc_catching-up-post-world-travel-market-wtm-activity-7393739648381964288-LqaR",
+          "https://www.linkedin.com/posts/laura-radoi-4ba3161a8_last-night-gem-hotels-was-honoured-with-activity-7387391390265077760-_C2v",
+          "https://www.linkedin.com/posts/barry-wishart-897300_its-really-great-to-see-a-new-brand-focusing-activity-6816414475910959104-cZkc",
+          "https://www.linkedin.com/posts/sanjeeva-samarasingha-990b016_we-have-fantastic-vacancies-available-within-activity-6814276849321967616-d9RQ",
+          "https://www.linkedin.com/posts/rebeccapararajasingam_pridemonth2021-iconpride-diversityandinclusion-activity-6810464961727344640-G96O",
+          "https://www.linkedin.com/posts/uk-ministry-of-defence_today-is-the-77th-anniversary-of-d-day-normandy-activity-6807213220143730688-kejz",
+          "https://www.linkedin.com/posts/krity-patel-a243a135_pride2021-loveislove-activity-6807211895146221568-fXmI"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Kaushik Paul",
+      "title": "IT Support Technician",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://www.linkedin.com/in/kaushik-paul-b946a4115",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "IT/systems role responsible for property technology stack including booking systems, guest messaging platforms, and digital infrastructure - core to ICP.",
+      "contact_evidence_summary": "Listed on Gem Hotels LinkedIn employees as IT Support Technician. Reachable via company central phone and reservations route. Public sources confirm IT presence at the group.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/gem-hotels",
+          "source_type": "linkedin",
+          "quote_or_fact": "Kaushik Paul. IT Support Technician @ Gem Hotels"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate contact details"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kaushik-paul-b946a4115",
+        "display_name": "Kaushik Paul",
+        "headline": "IT Support Technician @ Gem Hotels | Cyber Security, Information Technology",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "As a former Receptionist at Gem Hotels and OYO Town House New England Victoria, I have developed strong customer service skills and a keen eye for detail. I also have experience as an Information Technology Officer at ARK Group, where I applied my knowledge of computer science and information technology to support the company's operations. Currently, I am pursuing a Master of Computer Applications with a focus on Cyber Security at the University of Hertfordshire, further enhancing my technical skills and knowledge. I am passionate about learning new technologies and applying them to solve real-world problems.\n\nTotal Experience: 5 years and 1 month",
+        "experience": [
+          {
+            "title": "Information Technology Officer",
+            "organization": "Boishakhi Media Limited",
+            "date_range": "Mar 2018 - Dec 2018",
+            "location": "Mohakhali, Dhaka",
+            "description": null
+          },
+          {
+            "title": "Information Technology Officer",
+            "organization": "ARK Group",
+            "date_range": "Jan 2019 - Mar 2019",
+            "location": "Road No. 21, House No. 307, Mohakhali DOHS",
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "OYO Town House New England Victoria",
+            "date_range": "Nov 2021 - Jan 2024",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Gem Hotels",
+            "date_range": "Feb 2024 - Sep 2025",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "IT Support Technician",
+            "organization": "Gem Hotels",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Ahsanullah Biggyan O Projucti Bishwabiddalaya",
+            "degree_or_field": "B.Sc., Computer Science",
+            "date_range": "2012 - 2018"
+          },
+          {
+            "school": "Jahangirnagar University",
+            "degree_or_field": "M.Sc., Information Technology",
+            "date_range": "2018 - 2020"
+          },
+          {
+            "school": "University of Hertfordshire",
+            "degree_or_field": "Master of Computer Applications - MCA, Cyber Security",
+            "date_range": "2021 - 2023"
+          }
+        ],
+        "skills": [
+          "hotels",
+          "technology",
+          "science",
+          "operations",
+          "security",
+          "customer service",
+          "information technology",
+          "computer science",
+          "cyber security"
+        ],
+        "activity_themes": [
+          "Cybersecurity, AI and machine learning projects",
+          "TryHackMe completions (SQL, JavaScript, web apps, Metasploit)",
+          "Software engineering and full-stack development",
+          "Digital forensics and AI-driven detection systems",
+          "University graduation, alumni and higher education",
+          "Workplace training, team events and certifications"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/manorajkrishan_softwareengineering-backenddevelopment-activity-7422209358136061952-BWgj",
+          "https://www.linkedin.com/posts/manorajkrishan_cybersecurity-artificialintelligence-machinelearning-activity-7423300265832996866-2zG2",
+          "https://www.linkedin.com/posts/ananthsvipin_sql-fundamentals-activity-7418909500268650497-U_Qk",
+          "https://www.linkedin.com/posts/nazimuddinbhuiyan_lms-employeetraining-regionalteam-activity-7415769939401256961-4zHe",
+          "https://www.linkedin.com/posts/supplychainmanagement-postgraduate-higherstudies-activity-7414829594916245504-mzzi"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Rajeshpal Singh Matharu",
+      "title": "Director",
+      "company": "Globalgem Hotels Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Registered address: 72-75 Red Lion Street, London WC1R 4NA; Phone +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Owner-level director influencing commercial strategy, property systems, and tech adoption decisions across the family-owned boutique hotel group.",
+      "contact_evidence_summary": "Officially listed on Companies House as active Director (appointed 2017, DOB Mar 1958). Route via corporate phone and address from hotel website and official filings.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/11022269/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Rajeshpal Singh Matharu listed as Director of GLOBALGEM HOTELS LIMITED"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/about-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Family-owned boutique hotel group with over 40 years experience"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Unnimaya B.",
+      "title": "Duty Manager",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://www.linkedin.com/in/unnimaya-b-1aa709182",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Duty Manager role oversees daily operations including guest experience and communications that could benefit from or influence messaging automation and CRM tools.",
+      "contact_evidence_summary": "Listed on Gem Hotels LinkedIn company employee page as Duty Manager (Global Gemhotels). Contact via established corporate and reservations channels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/gem-hotels",
+          "source_type": "linkedin",
+          "quote_or_fact": "Unnimaya B · Duty Manager at Global Gemhotels"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate and reservations contact information"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/unnimaya-b-1aa709182",
+        "display_name": "Unnimaya B",
+        "headline": "Duty Manager at Global Gemhotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A dynamic professional with a BA in English Literature from Kerala University and MA in International Business from the University of Greenwich. With a solid foundation of 2 years as a Document Specialist at RR Donnelley India Outsource Pvt Ltd., I thrive in fast-paced environments and embrace challenges as opportunities for growth. I am passionate about continuous learning and easily adapt to diverse work environments. Excited about the intersection of literature and business, I am dedicated to expanding my knowledge base every day. Let's connect and explore new horizons together! #InternationalBusiness #ContinuousLearner #AdaptableProfessional\n\nTotal Experience: 4 years",
+        "experience": [
+          {
+            "title": "Document Specialist",
+            "organization": "RR Donnelley",
+            "date_range": "Nov 2020 - Dec 2022",
+            "location": "India",
+            "description": "Company: 10,001+ employees • Privately Held • Marketing Services\nDepartment: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "Gem Hotels",
+            "date_range": "Mar 2024 - Present",
+            "location": null,
+            "description": "Company: 201-500 employees • Privately Held • Hospitality\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Management Trainee",
+            "organization": "Gem Hotels",
+            "date_range": "Apr 2024 - Present",
+            "location": "Greater London, England, United Kingdom",
+            "description": "Company: 201-500 employees • Privately Held • Hospitality\nDepartment: Administrative • Level: Intern"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Greenwich",
+            "degree_or_field": "Master's degree, International Business",
+            "date_range": "2023 - 2024"
+          },
+          {
+            "school": "Mar Ivanios College, Thiruvananthapuram",
+            "degree_or_field": "Bachelor's degree, English Language and Literature, General",
+            "date_range": "2015 - 2018"
+          },
+          {
+            "school": "Bharatiya Vidya Bhavan's",
+            "degree_or_field": "plus two, Computer Science",
+            "date_range": "2014 - 2015"
+          },
+          {
+            "school": "Bharatiya Vidya Bhavan's",
+            "degree_or_field": "SSLC, Science",
+            "date_range": "2012 - 2013"
+          }
+        ],
+        "skills": [
+          "management",
+          "english literature",
+          "international business"
+        ],
+        "activity_themes": [
+          "Professional awards and recognitions",
+          "Hospitality industry networking events",
+          "Business relationships and professional growth",
+          "Inspirational stories from leaders and athletes",
+          "Reflections on career journeys at RRD",
+          "Discussions on MBA vs tech salaries in India",
+          "Academic research and presentations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/unnimaya-b-1aa709182",
+          "https://www.linkedin.com/posts/sooraj-s-thampy-140550202_williamslea-kochi-activity-7416506913783238656-P6SQ",
+          "https://www.linkedin.com/posts/arun-s-b42026237_annual-rnr-2025-award-title-transformer-activity-7413375139125559296-36BC",
+          "https://www.linkedin.com/posts/malini-daryanani-05047830_kensingtonchamberofcommerce-gemhotels-activity-7395114907156791296-1Oa4",
+          "https://www.linkedin.com/posts/laura-radoi-4ba3161a8_lunchandlearn-businessrelationships-professionalgrowth-activity-7313672182281244673-jZac",
+          "https://www.linkedin.com/posts/rohit-sharma-a88628207_agree-activity-7163905806097170433-uRWo",
+          "https://www.linkedin.com/posts/williamhgates_every-trip-with-my-dad-was-specialincluding-activity-7165068484073259008-nZFr",
+          "https://www.linkedin.com/posts/sachinrtendulkar_amir-never-thought-of-what-he-didnt-have-activity-7167086187474546688-5GMx"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Istvan Kadar-Nagy",
+      "title": "House Manager",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://hu.linkedin.com/in/istvan-kadar-nagy-b1a813151",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Langham Court phones: +44 (0) 20 7436 6622 / +44 (0) 20 7436 2303; langhamcourt@gemhotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "House/operations management at specific property touches guest experience, communications, and operational systems that integrate with booking and messaging platforms.",
+      "contact_evidence_summary": "LinkedIn profile confirms House Manager at GEM Langham Court Hotel. Property-specific contact details from official site provide strong routing path.",
+      "evidence": [
+        {
+          "source_url": "https://hu.linkedin.com/in/istvan-kadar-nagy-b1a813151",
+          "source_type": "linkedin",
+          "quote_or_fact": "Istvan Kadar-Nagy - House Manager at GEM Langham Court Hotel"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Gem Langham Court Hotel contact details"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://hu.linkedin.com/in/istvan-kadar-nagy-b1a813151",
+        "display_name": "Istvan Kadar-Nagy",
+        "headline": "House Manager at GEM Langham Court Hotel****",
+        "location": "Budapest, Budapest, Hungary (HU)",
+        "about": "Using my passion for hospitality and customer service, I have achieved numerous promotions into roles of progressive responsibility. I am a House Manager who has worked his way up across numerous departments. As a net result, I bring round capability within hotel management, as well as the ability to identify and implement improvements that enhance productivity, engage employees, and transform customer experience. My mission statement to my staff is “wherever you are, give your best” and that is reflected by service improvements and incremental revenue generation.\n\nTotal Experience: 12 years and 1 month",
+        "experience": [
+          {
+            "title": "Store Manager",
+            "organization": "Budai Zoldseg",
+            "date_range": "Jan 2008 - Jan 2012",
+            "location": "Budapest, Hungary",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Concierge",
+            "organization": "Gem Hotels",
+            "date_range": "Sep 2012 - Oct 2013",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Head Concierge",
+            "organization": "Gem Hotels",
+            "date_range": "Oct 2013 - Dec 2014",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Head"
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "Gem Hotels",
+            "date_range": "Dec 2014 - Dec 2015",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Deputy House Manager",
+            "organization": "Gem Hotels",
+            "date_range": "Dec 2015 - Feb 2019",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "House Manager",
+            "organization": "Gem Hotels",
+            "date_range": "Feb 2019 - Oct 2020",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "BMSZC Pataky István Híradásipari és Informatikai Szakgimnázium",
+            "degree_or_field": null,
+            "date_range": "2003 - 2007"
+          },
+          {
+            "school": "BMSZC Pataky István Híradásipari és Informatikai Szakgimnázium",
+            "degree_or_field": "OKJ",
+            "date_range": "2007 - 2009"
+          },
+          {
+            "school": "Zrínyi Miklós National Defense University",
+            "degree_or_field": "Mechanical Engineer",
+            "date_range": "2009 - 2011"
+          },
+          {
+            "school": "Óbudai Egyetem - Bánki Donát Gépész és Biztonságtechnikai Mérnöki Kar",
+            "degree_or_field": null,
+            "date_range": "2011 - 2012"
+          }
+        ],
+        "skills": [
+          "customer service",
+          "hotel management",
+          "customer experience",
+          "hospitality",
+          "promotions",
+          "hotel",
+          "management"
+        ],
+        "activity_themes": [
+          "Completed Data Analytics for Business Professionals course",
+          "Engaged with hospitality leadership recognition posts"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/tamás-pálfy-592853150_certificate-of-completion-activity-6937700371985252352-VOfO",
+          "https://www.linkedin.com/posts/gautam-chaudhary-b7ba70116_hardworkpaysoff-marriott-recognitions-activity-6591724090275565568-VXq7"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T15:02:10.953977+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 0,
+    "attempted": 10,
+    "succeeded": 10,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T15:09:56.075301+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 7,
+      "structured": 7,
+      "discovered": 0,
+      "errors": 0
+    }
+  }
+}

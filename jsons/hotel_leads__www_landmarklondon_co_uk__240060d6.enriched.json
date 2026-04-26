@@ -1,0 +1,1168 @@
+{
+  "target_url": "https://www.landmarklondon.co.uk/",
+  "generated_at_utc": "2026-04-25T15:09:57.877784+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 3906,
+    "prompt_tokens": 79231,
+    "total_tokens": 92773,
+    "prompt_text_tokens": 79231,
+    "reasoning_tokens": 9636,
+    "cached_prompt_text_tokens": 22208,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Andrew Batchelor",
+      "title": "General Manager",
+      "company": "The Landmark London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7631 8000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thelandmark.co.uk; official letters and responses tied to GM",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees entire property including commercial strategy, guest experience, technology adoption, reservations and revenue outcomes as the top property executive.",
+      "contact_evidence_summary": "Signed official letters on hotel website, listed as GM in fact sheet and Tripadvisor management responses. Strong public association with hotel leadership and main contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://www.landmarklondon.co.uk/a-letter-from-our-general-manager/",
+          "source_type": "official_site",
+          "quote_or_fact": "Kind Regards, Andrew Batchelor, General Manager"
+        },
+        {
+          "source_url": "https://www.landmarklondon.co.uk/wp-content/uploads/2019/07/The-Landmark-London-Fact-Sheet-2019.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "General Manager: Andrew Batchelor"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Feature-g186338-d193105-zft9656-The_Landmark_London.html",
+          "source_type": "other",
+          "quote_or_fact": "Management responses signed by Andrew Batchelor General Manager"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Leman Selamet",
+      "title": "Commercial Director & Group Director of Revenue Management",
+      "company": "The Landmark London / Lancaster Landmark Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/leman-selamet-38a8b127",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel line +44 20 7631 8000; reservations@thelandmark.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads all commercial activities including revenue management, sales, marketing, digital marketing, e-commerce and hotel management systems. Directly influences revenue-tech adoption, booking automation strategies and guest experience initiatives.",
+      "contact_evidence_summary": "Multiple news features, LinkedIn profile and posts, PA Life interview quoting her leadership over revenue, sales, events, marketing and systems. Department routes via main hotel contacts. No personal email or phone located.",
+      "evidence": [
+        {
+          "source_url": "https://palife.co.uk/editors-picks/leman-selamet-the-landmark-london-strategic-leadership/",
+          "source_type": "news",
+          "quote_or_fact": "Leman Selamet, Commercial Director of The Landmark London and Group Director of Revenue... leads the commercial team across revenue, sales, events and marketing... overseeing hotel management systems"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/leman-selamet-38a8b127",
+          "source_type": "linkedin",
+          "quote_or_fact": "Commercial Director - The Landmark London & Group Director of Revenue Management"
+        },
+        {
+          "source_url": "https://www.landmarklondon.co.uk/wp-content/uploads/2019/07/The-Landmark-London-Fact-Sheet-2019.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact details listed including reservations@thelandmark.co.uk and +44 (0)20 7631 8000"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/leman-selamet-38a8b127",
+        "display_name": "Leman Selamet",
+        "headline": "Commercial Director - The Landmark London & Group Director of Revenue Management",
+        "location": "United Kingdom (GB)",
+        "about": "With demonstrated expertise and significant experience, I am accomplished and results-driven management professional and consultant performing in “Luxury & Upscale “international and local chain hotel industry across diverse regions. I have proven success implementing best practices, creating positive impact in crisis situations, and optimising profits/business growth. I have innate ability to lead high performance teams, streamline business process, and exceed clients’ expectations. I proved to be a collaborative communicator; focused on building relationships with stakeholders and prompting synergy across clients and business lines to drive a positive change. Adapted quickly to aggressive conditions by applying extreme marketing and collaborative revenue sharing models in declining tourism industry of Turkey to decrease 41% occupancy/65% REVPAR. Initiated affiliate marketing to reduce PPC expenses by applying commission base transaction model Implemented a Multi Property Management System for 18 hotels in 4 months to have single source of data to create and run CRM & Loyalty Programs of the Brand.\n\nTotal Experience: 3 years and 5 months",
+        "experience": [
+          {
+            "title": "Group Director Of Revenue Management",
+            "organization": "THE LANCASTER LANDMARK HOTEL COMPANY LIMITED",
+            "date_range": "Sep 2022 - Present • 3 years and 1 month",
+            "location": "United Kingdom",
+            "description": "Group Director of Revenue of The Landmark London, The Royal Lancaster, K West and Basil Street\nDepartment: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Commercial Director - The Landmark London Grp Dir OfRevenu Management Of Lancaster Landmark Hotels",
+            "organization": "The Landmark London",
+            "date_range": "Oct 2023 - Present • 2 years and 4 months",
+            "location": "United Kingdom",
+            "description": "Commercial Director- The Landmark London Group Director of Revenue - Lancaster Landmark Hotel Company Limited\nDepartment: Other • Level: Specialist"
+          }
+        ],
+        "education": [
+          {
+            "school": "Buckingamshire Universty College UK",
+            "degree_or_field": "Business English and web design",
+            "date_range": "2000 - 2001 • 1 year"
+          },
+          {
+            "school": "Anadolu University",
+            "degree_or_field": "Tourism and Travel Services Management",
+            "date_range": "2005 - 2008 • 3 years"
+          },
+          {
+            "school": "Anadolu University",
+            "degree_or_field": "Bachelor's degree, Business Administration and Management, General",
+            "date_range": "2016 - 2018 • 2 years"
+          }
+        ],
+        "skills": [
+          "best practices",
+          "business process",
+          "building relationships",
+          "affiliate marketing",
+          "property management",
+          "loyalty programs",
+          "revenue management",
+          "management",
+          "performing",
+          "luxury",
+          "hotel",
+          "crisis",
+          "marketing",
+          "tourism",
+          "ppc",
+          "expenses",
+          "property",
+          "hotels",
+          "crm",
+          "commercial",
+          "director",
+          "p",
+          "less",
+          "high performance teams"
+        ],
+        "activity_themes": [
+          "Luxury hotel openings and ribbon cuttings",
+          "Revenue management awards and conferences",
+          "Hospitality industry leadership recognitions",
+          "Charity dinners and philanthropic events",
+          "Tourism investment and travel forums",
+          "Professional networking in UK hotels"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/leman-selamet-38a8b127"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Amber Wheatley",
+      "title": "PR Contact (Hospitality)",
+      "company": "Palm PR (for The Landmark London)",
+      "linkedin_url": null,
+      "email": "hospitality@palm-pr.com",
+      "email2": null,
+      "phone": "+44 20 7871 6734",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Official press contact for The Landmark London",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles all press and media for the hotel including marketing, guest experience stories and commercial announcements; indirect influence on guest comms narrative.",
+      "contact_evidence_summary": "Explicitly listed in official 2019 fact sheet PDF with direct email and phone tied to her for hospitality PR inquiries. Strongest contact data among the set.",
+      "evidence": [
+        {
+          "source_url": "https://www.landmarklondon.co.uk/wp-content/uploads/2019/07/The-Landmark-London-Fact-Sheet-2019.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Press Enquiries: Amber Wheatley, Palm PR... hospitality@palm-pr.com T: +44 (0) 207 871 6734"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Ben Wilmot-Smith",
+      "title": "Director of Sales",
+      "company": "The Landmark London",
+      "linkedin_url": "https://uk.linkedin.com/in/ben-wilmot-smith-1745042a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000; sales inquiries via main reservations or hotel contact form",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales efforts (corporate, leisure, MICE) which directly impact distribution channels, booking automation and revenue strategies.",
+      "contact_evidence_summary": "LinkedIn profile confirms role at The Landmark London. Supported by job postings and group sales context. Reachable via standard hotel commercial channels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/ben-wilmot-smith-1745042a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experienced Sales Director... The Landmark London"
+        },
+        {
+          "source_url": "https://rocketreach.co/the-landmark-london-email-format_b5c6a8cbf42e0cec",
+          "source_type": "directory",
+          "quote_or_fact": "Ben Wilmot-Smith, Director of Sales at The Landmark London"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/ben-wilmot-smith-1745042a",
+        "display_name": "Ben Wilmot-Smith",
+        "headline": "Director Of Sales at The Landmark London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced Sales Director with a demonstrated history of working in the hospitality industry. Skilled in Catering, Negotiation, Food & Beverage, Sales, and Hotel Management. Strong sales professional with a International Hospitality Management focused in International Hospitality Managament from Oxford Brookes University.\n\nTotal Experience: 16 years and 5 months",
+        "experience": [
+          {
+            "title": "Sales Co-Ordinator",
+            "organization": "Hilton Worldwide",
+            "date_range": "Sep 2009 - Sep 2010",
+            "location": null,
+            "description": "Hilton London Metropole\nDepartment: Sales • Level: Specialist"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Waldorf Astoria Hotels & Resorts",
+            "date_range": "Sep 2010 - Nov 2011",
+            "location": null,
+            "description": "London Syon Park - A Waldorf Astoria Hotel\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Cluster Manager",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "Nov 2011 - Jun 2014",
+            "location": "Heathrow",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Business Development Manager - National Sales",
+            "organization": "Marriott International",
+            "date_range": "May 2014 - Jun 2015",
+            "location": "London, United Kingdom",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jun 2015 - Jul 2017",
+            "location": null,
+            "description": "Holiday Inn London Heathrow M4, Junction 4\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jul 2017 - Mar 2019",
+            "location": null,
+            "description": "Crowne Plaza London - Albert Embankment\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "glh Hotels",
+            "date_range": "Mar 2019 - Jul 2020",
+            "location": null,
+            "description": "The Royal Horseguards Hotel & One Whitehall Place\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Cluster Director Of Sales",
+            "organization": "glh Hotels",
+            "date_range": "Jul 2020 - Aug 2022",
+            "location": "London, England, United Kingdom",
+            "description": "The Royal Horseguards Hotel & One Whitehall Place The Clermont Charing Cross The Clermont Victoria\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "The Landmark London",
+            "date_range": "Aug 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Papplewick Ascot, Preparatory School",
+            "degree_or_field": null,
+            "date_range": "1995 - 1999"
+          },
+          {
+            "school": "Millfield School",
+            "degree_or_field": null,
+            "date_range": "1999 - 2004"
+          },
+          {
+            "school": "Oxford Brookes University",
+            "degree_or_field": "International Hospitality Management",
+            "date_range": "2004 - 2009"
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "hotel management",
+          "hospitality management",
+          "business development",
+          "sales",
+          "director",
+          "hospitality",
+          "catering",
+          "negotiation",
+          "food",
+          "hotel",
+          "management",
+          "cluster"
+        ],
+        "activity_themes": [
+          "Luxury hospitality leadership and hotel events",
+          "Charity events hosted at London venues",
+          "Career moves and new roles in hospitality",
+          "Travel industry networking and specialist introductions",
+          "Hotel history, legends and magazine features",
+          "Hospitality recruiting and Q1 industry activity",
+          "Industry predictions and 2026 trends"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Tracy Bent",
+      "title": "Central Reservations Manager",
+      "company": "The Landmark London",
+      "linkedin_url": "https://www.linkedin.com/in/tracey-bent-bb2644307",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thelandmark.co.uk; +44 20 7631 8000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages central reservations function - core stakeholder for AI booking automation, reservations systems and guest communication workflows.",
+      "contact_evidence_summary": "Public LinkedIn post identifying her as Central Reservations Manager with 25 years at the company. Direct department email available as route.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/the-landmark-london_thelandmarklondon-luxuryhospitality-hospitalitycareers-activity-7423304042443046913-f2se",
+          "source_type": "linkedin",
+          "quote_or_fact": "Hi everyone, my name is Tracy Bent, I'm a Central Reservations Manager here at the Landmark London and I've been with the company 25 years."
+        },
+        {
+          "source_url": "https://www.landmarklondon.co.uk/contact-form/",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations@thelandmark.co.uk listed as primary contact"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Albert Li",
+      "title": "Corporate Sales Manager",
+      "company": "The Landmark London",
+      "linkedin_url": "https://www.linkedin.com/in/anna-napora-assoc-cipd-61817128",
+      "email": "albert.li@thelandmark.co.uk",
+      "email2": null,
+      "phone": "+44 20 7631 8061",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles corporate sales accounts which intersect with booking channels, distribution partnerships and revenue optimization.",
+      "contact_evidence_summary": "Listed in directory results as Corporate Sales Manager at The Landmark London. Role confirmation via sales team context but limited additional public sources.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/albert-li-email_72652078",
+          "source_type": "directory",
+          "quote_or_fact": "Albert Li, Corporate Sales Manager at The Landmark London"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anna-napora-assoc-cipd-61817128",
+        "display_name": "Anna Napora",
+        "headline": "Director Of Talent and Culture at The Landmark London",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 22 years and 6 months",
+        "experience": [
+          {
+            "title": "Banqueting And Conference Attendant",
+            "organization": "The Landmark London",
+            "date_range": "Jun 2003 - Dec 2003",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Room Service Attendant",
+            "organization": "The Landmark London",
+            "date_range": "Dec 2003 - Aug 2005",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "TwoTwentyTwo Supervisor",
+            "organization": "The Landmark London",
+            "date_range": "Aug 2005 - Jan 2009",
+            "location": "London, England, United Kingdom",
+            "description": "To ensure that daily operation is run smoothly and guest's satisfaction is exceeded at all times An overall understanding of the depatmental operation including the administaration tasks, people management and management of the floor"
+          },
+          {
+            "title": "Mirror Bar Manager",
+            "organization": "The Landmark London",
+            "date_range": "Jan 2009 - Sep 2011",
+            "location": "London, England, United Kingdom",
+            "description": "To oversee Front of the House operation in the Mirror Bar on a daily basis. To ensure all food and beverage production is prepared in accordance with the Landmark London Standards and food safety policy. To be fully accountable for the day to day operation of the department at maximum profitability, maintaining the highest standards of service, training, people development and product and service innovations"
+          },
+          {
+            "title": "Gazebo Manager",
+            "organization": "The Landmark London",
+            "date_range": "Sep 2011 - Jun 2013",
+            "location": "London, England, United Kingdom",
+            "description": "To oversee Front of the House operation in the Gazebo on a daily basis. To ensure all food and beverage production is prepared in accordance with the Landmark London Standards and food safety policy. To ensure that all guests’ expectations are exceeded and memorable moments are provided at all times To be aware of current trends and up to date with London hospitality scene ensuring the quality meets and exceeds current and future expectations. To be aware and up to date with food and beverage prices in order to run Restaurant’s with optimum profit."
+          },
+          {
+            "title": "Food Beverage Training Manager",
+            "organization": "The Landmark London",
+            "date_range": "Jun 2013 - Aug 2015",
+            "location": "London, England, United Kingdom",
+            "description": "Creating, delivering and maintaining all Food& Beverage training. Mentoring and developing Food& Beverage team members. Identifying behavioural and skills training needs for Food& Beverage team through GAP analysis."
+          },
+          {
+            "title": "Human Resources Officer",
+            "organization": "The Landmark London",
+            "date_range": "Aug 2015 - Feb 2017",
+            "location": "London, England, United Kingdom",
+            "description": "Responsible for recruitment process - Dealing with and respond to day-to-day Human Resources enquiries - Conducting exit interviews with leavers - Supporting Supervisors/Managers on employee relations - Keeping Fourth database updated"
+          },
+          {
+            "title": "Assistant Human Resources Manager",
+            "organization": "The Landmark London",
+            "date_range": "Feb 2017 - May 2017",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Human Resources Manager",
+            "organization": "The Landmark London",
+            "date_range": "May 2017 - Aug 2019",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Director Of Human Resources",
+            "organization": "The Landmark London",
+            "date_range": "Sep 2019 - Nov 2023",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Talent And Culture",
+            "organization": "The Landmark London",
+            "date_range": "Nov 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "The University of Westminster",
+            "degree_or_field": "Foundation degree in Arts in Hospitality Management",
+            "date_range": "2009 - 2010"
+          },
+          {
+            "school": "Leeds Metropolitan University",
+            "degree_or_field": "Bachelor of Arts (B.A.), Hospitality and Business Management",
+            "date_range": "2010 - 2012"
+          }
+        ],
+        "skills": [
+          "director",
+          "food",
+          "training",
+          "mentoring",
+          "production",
+          "safety",
+          "hospitality",
+          "interviews",
+          "food safety",
+          "human resources",
+          "exit interviews",
+          "employee relations"
+        ],
+        "activity_themes": [
+          "HR best practices, biases, and neutrality challenges",
+          "Human rights, equality, and diversity awareness in hospitality",
+          "Employee recognition events and celebrations for hotel staff",
+          "Colleague farewells, growth, and gratitude in London hotels",
+          "Professional networking, director lunches, and industry events",
+          "Recruitment open days, local talent, and hiring in hospitality",
+          "Institute of Hospitality memberships, onboarding, and professional development",
+          "Employee spotlights, dedication, and career highlights",
+          "Hotel rebrandings, transformations, and industry news",
+          "Transgender awareness, inclusion, and supportive workplace culture"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/anna-napora-assoc-cipd-61817128"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Fergus Stewart",
+      "title": "CEO",
+      "company": "The Lancaster Landmark Hotel Company",
+      "linkedin_url": "https://www.linkedin.com/in/fergus-stewart-5094b42b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000 (property main line)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Group CEO with oversight of The Landmark London and sister properties; influences group-wide commercial, revenue and tech strategy that flows to property level booking and guest systems.",
+      "contact_evidence_summary": "Quoted in appointment news for senior team at Landmark London; active on LinkedIn discussing the hotel/group. Group level influence with property contact routes available.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/malisa-shepherd-the-landmark-london/",
+          "source_type": "news",
+          "quote_or_fact": "Fergus Stewart: CEO of The Lancaster Landmark Hotel Company and commented on senior appointments at The Landmark London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/mrdml",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director level role at THE LANCASTER LANDMARK HOTEL COMPANY LIMITED with sales responsibility across London hotels"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/fergus-stewart-5094b42b",
+        "display_name": "Fergus Stewart",
+        "headline": "Chief Executive Officer at THE LANCASTER LANDMARK HOTEL COMPANY LIMITED",
+        "location": "United Kingdom (GB)",
+        "about": "Fergus commenced his role with Jumeirah Hotels and Resorts in August 2019. Initially overseeing the European portfolio with an emphasis on the closure of Jumeirah Carlton Towers in Knightsbridge and kick starting the re-positioning and reopening of this iconic hotel. In a pre planned transfer he moved to Dubai in January 2020 Jumeirah is a global luxury hotel company and operates and manages a world-class portfolio of 15 properties in the Middle East including the flagship Burj Al Arab, 5 properties in Europe and 4 in Asia with 10 properties currently under construction around the globe. Prior to this Fergus worked for Intercontinental Hotel Group joining them in March 2008 as General Manager of the ANA Intercontinental Tokyo. In July 2009 he was promoted to Area General Manager, then to Regional General Manager in November 2010 and oversaw all properties in the Greater Tokyo Area. In 2012 Fergus was promoted to Director of Operations Thailand and Indochina and subsequently took up the role as Head of Japan and CEO of the joint venture IHGANA in January 2014. In January 2016 Fergus took up the role as Vice President Middle East and in September 2017 he was promoted to Vice President Luxury Division Europe. Fergus trained at the Central Hotel Glasgow and started his career at the Grosvenor House Hotel in London. Prior to his current London based role he has spent almost 25 years working extensively overseas in 11 different countries including Japan, Hong Kong, Singapore, Thailand and the UAE. Prior to joining IHG Fergus’s extensive operational experience in these countries was gained mainly from working with the Shangri-la and Hyatt organisations. Originally from Scotland, Fergus obtained the UK Diploma in Hotel Catering and Institutional Operations as well as the Cornell Executive Program in Hospitality Management through the National University of Singapore. Fergus is married with 2 daughters aged 18 and 16. He is a keen golfer and follower of rugby and football.",
+        "experience": [
+          {
+            "title": "Assistant Director Of Food And Beverage",
+            "organization": "Grosvenor House Hotel London",
+            "date_range": "Jan 1986 - Jan 1988",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Manager",
+            "organization": "Hong Kong Hotel - Marco Polo Hotels",
+            "date_range": "Jan 1990 - Jan 1994",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Resident Manager",
+            "organization": "Shangri-La Hotels and Resorts",
+            "date_range": "Jan 1994 - Jan 1999",
+            "location": null,
+            "description": "In 2 stints with Shangri-La I was based in China , Singapore and Taiwan"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Landmark London",
+            "date_range": "Jan 1999 - Aug 2001",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Aug 2001 - Mar 2008",
+            "location": null,
+            "description": "In 3 positions with Hyatt I was based in La Manga Spain , Sharm El Sheikh, Egypt and Thailand."
+          },
+          {
+            "title": "Regional General Manager, Greater Tokyo Area",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Mar 2008 - Feb 2012",
+            "location": null,
+            "description": "General Manager ANA Intercontinental Hotel Tokyo. Regional General Manager Greater Tokyo Area. Intercontinental Hotels Group."
+          },
+          {
+            "title": "Director Of Operations - Thailand And Indochina",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Feb 2012 - Jan 2014",
+            "location": "Vietnam",
+            "description": null
+          },
+          {
+            "title": "CEO Head Of Japan - Intercontinental Hotels Group IHGANA",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jan 2014 - Jan 2016",
+            "location": "Tokyo",
+            "description": null
+          },
+          {
+            "title": "Vice President Operations",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jan 2016 - Aug 2017",
+            "location": "Middle East",
+            "description": "Overseeing 75 properties currently open or in pre-opening stages, across the United Arab Emirates, Saudi Arabia and the Northern Gulf. These hotels compose of iconic luxury properties under the Intercontinental brand as well as hotels under the Crowne Plaza , Holiday Inn and Indigo brands."
+          },
+          {
+            "title": "Vice President Europe, Luxury Hotels Division",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Sep 2017 - Aug 2019",
+            "location": "United Kingdom",
+            "description": "Overseeing the Luxury Hotels Division across Europe for IHG. These hotels include iconic luxury hotels such as The Carlton Cannes, Paris Le Grand and the Intercontinental Park Lane, London. In addition to Intercontinental Hotels I also oversaw Kimpton Hotels and Restaurants which are currently being established in key capital cities in Europe"
+          },
+          {
+            "title": "Regional Vice President Europe",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Aug 2019 - Jan 2020",
+            "location": "London, United Kingdom",
+            "description": "Jumeirah Group, the global luxury hotel company and a member of Dubai Holding, operates and manages a world-class portfolio of 15 properties in the Middle East including the flagship Burj Al Arab, 5 properties in Europe and 4 in Asia with 10 properties currently under construction around the globe."
+          },
+          {
+            "title": "Senior Vice President And Acting Chief Operating Officer",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Jan 2020 - Jun 2021",
+            "location": "Dubai, United Arab Emirates",
+            "description": "My role included the oversight of Jumeirah Groups managed properties throughout the UAE, Middle East, and Germany. Additionally I have close involvement in soon to open properties in Turkey, Oman, Jedhah, Mecca and Bahrain"
+          },
+          {
+            "title": "Deputy Managing Director Lancaster Landmark Hotel Company And General Manager The Landmark London",
+            "organization": "THE LANCASTER LANDMARK HOTEL COMPANY LIMITED",
+            "date_range": "Jun 2021 - Jan 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chief Executive Officer",
+            "organization": "THE LANCASTER LANDMARK HOTEL COMPANY LIMITED",
+            "date_range": "Jan 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Thomas Danby",
+            "degree_or_field": "Diploma Hotel Management",
+            "date_range": "1980 - 1983"
+          },
+          {
+            "school": "National University of Singapore",
+            "degree_or_field": "Cornell Executive Program in Hospitality Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hotels",
+          "positioning",
+          "hotel",
+          "luxury",
+          "construction",
+          "director",
+          "operations",
+          "catering",
+          "hospitality",
+          "management",
+          "rugby",
+          "football",
+          "acting",
+          "food",
+          "restaurants",
+          "capital",
+          "hospitality management"
+        ],
+        "activity_themes": [
+          "Introducing new central reservations team at The Landmark London",
+          "Recruiting for multiple positions at The Landmark London",
+          "Engagement with football club infrastructure projects (Rangers FC)",
+          "Following player development and contracts in Scottish football (St Mirren)",
+          "Interest in healthcare professional milestones and retirement reflections"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/fergus-stewart-5094b42b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Cedric Lescure",
+      "title": "Director of Food and Beverage",
+      "company": "The Landmark London",
+      "linkedin_url": "https://uk.linkedin.com/in/cedric-lescure-85832854",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees F&B operations including in-room dining, bars and banqueting where guest messaging, ordering tech (e.g. IRIS platform) and revenue generation intersect with guest comms and experience.",
+      "contact_evidence_summary": "Appointed in 2023 per news article; LinkedIn confirms Director of Food and Beverage at The Landmark London. Public hotel contacts provide reach path.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/malisa-shepherd-the-landmark-london/",
+          "source_type": "news",
+          "quote_or_fact": "Cedric Lescure has been appointed director of food and beverage... oversee all operations and management of the hotel’s multiple luxury dining outlets"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/cedric-lescure-85832854",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Food And Beverage · The Landmark London"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/cedric-lescure-85832854",
+        "display_name": "Cedric Lescure",
+        "headline": "Director of Food and Beverage @ The Landmark London | Hospitality expert",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "With over 25 years of experience in the hospitality industry, I am a dedicated and passionate director of food and beverage at The Landmark London, one of the most iconic and prestigious hotels in the UK. I oversee the operations and management of all the food and beverage outlets, including the restaurants, bars, lounges, and banqueting facilities, ensuring the highest standards of quality, service, and guest satisfaction. I have a proven track record of leading and developing high-performing teams, optimizing labor and food costs, enhancing menu offerings, and delivering exceptional catering and banqueting services for a variety of events and occasions. I have also successfully implemented innovative and creative strategies to increase revenue, profitability, and customer loyalty. I am always eager to learn new skills, embrace new challenges, and collaborate with other professionals in the hospitality sector. My goal is to create memorable and outstanding food and beverage experiences for every guest at The Landmark London.\n\nTotal Experience: 27 years",
+        "experience": [
+          {
+            "title": "Restaurant Manager",
+            "organization": "Brown's Hotel- Raffles London",
+            "date_range": "Jan 1998 - Jan 2000",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Botafumeiro",
+            "date_range": "May 2000 - Nov 2001",
+            "location": "Barcelona Area, Spain",
+            "description": null
+          },
+          {
+            "title": "Outlets Manager",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "Jan 2002 - Jun 2004",
+            "location": "New Orleans, USA",
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Taj Hotels Resorts and Palaces",
+            "date_range": "Sep 2004 - Aug 2005",
+            "location": "St James Court, London",
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Home House",
+            "date_range": "Aug 2005 - Mar 2009",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Food And Beverage Manager",
+            "organization": "Home House",
+            "date_range": "Apr 2009 - Dec 2010",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Food Beverage Manager",
+            "organization": "Home House",
+            "date_range": "Jan 2011 - Dec 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Restaurant General Manager",
+            "organization": "Fortnum & Mason",
+            "date_range": "Feb 2015 - Nov 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Manager",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Nov 2015 - Sep 2023",
+            "location": "Sheraton Grand London",
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "The Landmark London",
+            "date_range": "Sep 2023 - Present",
+            "location": "London, England, United Kingdom (GB)",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "director",
+          "food",
+          "hotels",
+          "operations",
+          "management",
+          "restaurants",
+          "performing",
+          "catering",
+          "creative",
+          "profitability",
+          "hospitality industry",
+          "operations management",
+          "guest satisfaction",
+          "customer loyalty"
+        ],
+        "activity_themes": [
+          "Hospitality awards and finalist recognitions",
+          "Team promotions and celebrations at luxury hotels",
+          "New restaurant menu launches",
+          "Hospitality recruitment and job openings in London",
+          "Industry trends in elevated dining and hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/cedric-lescure-85832854_fantastic-to-be-a-finalist-in-this-category-activity-7425583549426208768-WZa8"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Martina Cervenakova",
+      "title": "In Room Dining Manager",
+      "company": "The Landmark London",
+      "linkedin_url": "https://uk.linkedin.com/in/martina-cervenakova-4695423a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000; F&B/guest experience route",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Manages in-room dining operations; publicly quoted on adoption of IRIS digital ordering platform for guest messaging, order volume, accuracy and F&B revenue uplift - direct ICP relevance.",
+      "contact_evidence_summary": "Quoted in Hotel Technology News article on tech implementation; LinkedIn profile confirms role. Provides strong evidence of influence over guest comms tech.",
+      "evidence": [
+        {
+          "source_url": "https://hoteltechnologynews.com/2026/01/the-landmark-london-taps-iris-to-streamline-room-service-operations-and-boost-fb-order-volume-and-revenue/",
+          "source_type": "news",
+          "quote_or_fact": "Martina Cervenakova, In Room Dining Manager: “IRIS Mobile Ordering has made an immense difference... helps us deliver a better, more seamless service to every guest.”"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/martina-cervenakova-4695423a",
+          "source_type": "linkedin",
+          "quote_or_fact": "The Landmark London - In Room Dining Manager"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/martina-cervenakova-4695423a",
+        "display_name": "Martina Cervenakova",
+        "headline": "In Room Dining Manager at The Landmark London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 13 years and 10 months",
+        "experience": [
+          {
+            "title": "In Room Dining Assistant Manager",
+            "organization": "Brown's hotel, London",
+            "date_range": "Apr 2011 - Feb 2013",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Assistant Room Service And Lounge Manager",
+            "organization": "Intercontinental Westminster",
+            "date_range": "Feb 2013 - Jun 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "In Room Dining Manager",
+            "organization": "The Park Tower Knightsbridge",
+            "date_range": "Jun 2014 - Nov 2017",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "In Room Dining Banqueting Breakfast Manager",
+            "organization": "The Park Tower Knightsbridge",
+            "date_range": "Nov 2017 - May 2018",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Manager",
+            "organization": "The Park Tower Knightsbridge",
+            "date_range": "May 2018 - Oct 2020",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Food And Beverage Operations Manager",
+            "organization": "Get Golfing",
+            "date_range": "May 2021 - Jul 2021",
+            "location": "Hampton Court Palace",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Food And Beverage Operations Manager",
+            "organization": "Hilton",
+            "date_range": "Jul 2021 - Jun 2022",
+            "location": "London Gatwick Airport, England, United Kingdom",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Room Service Club Lounge Manager",
+            "organization": "The Carlton Tower Jumeirah",
+            "date_range": "Jun 2022 - Sep 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "In Room Dining Manager",
+            "organization": "The Landmark London",
+            "date_range": "Jan 2024 - Present",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "food",
+          "operations"
+        ],
+        "activity_themes": [
+          "Luxury hotel New Year’s Eve events and galas",
+          "High-end London hotel guest experiences and reviews",
+          "Trending luxury hotels in London with increased searches",
+          "Yearly reflections on hospitality achievements and team efforts",
+          "Christmas activities and guest wishes at The Landmark London",
+          "Hiring for new hotel openings in London",
+          "Charity work and fundraising for causes like DEBRA UK",
+          "Content creation and social media marketing for luxury hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/atlantis-resorts_atlantisextraordinary-kerznercommunications-activity-7412442694066790400-opc-",
+          "https://www.linkedin.com/posts/david-cerezo_staying-at-londons-billionaire-hotel-almost-activity-7410586496111591424-uCam",
+          "https://www.linkedin.com/posts/andrew-booth-b250a943_luxury-london-hotels-saw-a-surge-in-search-activity-7416766034495340544-afEW",
+          "https://www.linkedin.com/posts/hananeissa_ive-waited-a-few-weeks-before-i-write-about-activity-7416179270907068416-VNWE",
+          "https://www.linkedin.com/posts/the-landmark-london_thelandmarklondon-luxuryhospitality-alandmarklondonchristmas-activity-7409227834075951104-qnZ8",
+          "https://www.linkedin.com/posts/jumeirah-spiritofjumeirah-activity-7413922320873984001-bIZV",
+          "https://www.linkedin.com/posts/louise-arnould-63561b132_hiring-hotelopening-hoteljobs-activity-7413609141933608960-IKdB",
+          "https://www.linkedin.com/posts/emanuela-da-ros-22139b90_as-we-approach-the-end-of-2025-ive-been-activity-7407802607886364672-Bkfk"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Sarah Baptiste",
+      "title": "Director of Marketing",
+      "company": "The Landmark London",
+      "linkedin_url": "https://uk.linkedin.com/in/sarah-baptiste-1ab6b718",
+      "email": "sarah.baptiste@thelandmark.co.uk",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing and digital presence; stakeholder in guest acquisition channels, digital booking journeys, e-commerce and guest communication strategies.",
+      "contact_evidence_summary": "LinkedIn profile and historical news references to marketing leadership role at The Landmark London. Reachable via hotel commercial/main contacts.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/sarah-baptiste-1ab6b718",
+          "source_type": "linkedin",
+          "quote_or_fact": "The Landmark London - marketing leadership experience noted"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/it/nomina/79006588",
+          "source_type": "news",
+          "quote_or_fact": "Sarah Baptiste - Marketing Director / Director of Sales and Marketing at The Landmark London"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/sarah-baptiste-1ab6b718",
+        "display_name": "Sarah Baptiste",
+        "headline": "Director of Sales at The Landmark London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Director Of Sales",
+            "organization": "The Landmark London",
+            "date_range": "Current",
+            "location": null,
+            "description": "Department: Sales • Level: Director. Company: 201-500 employees • Founded 1995 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "sales"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Malisa Shepherd",
+      "title": "Hotel Manager",
+      "company": "The Landmark London",
+      "linkedin_url": "https://www.linkedin.com/in/malisa-shepherd-a315b613",
+      "email": "malisa.shepherd@thelandmark.co.uk",
+      "email2": "hotel.manager@thelandmark.co.uk",
+      "phone": "+44 20 7631 8000",
+      "phone2": null,
+      "x_handle": "@MummaMel1",
+      "other_contact_detail": "+44 20 7631 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees hotel operations and guest satisfaction; stakeholder in guest experience initiatives, CRM processes and operational technology that supports reservations and messaging.",
+      "contact_evidence_summary": "Named in 2023 boutiquehotelier article on senior appointments. Strong operational role confirmation with public hotel contact routes.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/malisa-shepherd-the-landmark-london/",
+          "source_type": "news",
+          "quote_or_fact": "Malisa Shepherd promoted to hotel manager at The Landmark London... head up operations across the entire hotel"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/malisa-shepherd-a315b613",
+        "display_name": "Malisa Shepherd",
+        "headline": "Hotel Manager at The Landmark London",
+        "location": "South Croydon, England, United Kingdom (GB)",
+        "about": "Experienced Individual with a demonstrated history of working in the hospitality industry. Skilled in Front Office, Hospitality Management, and Customer Service. Strong operations professional with a positive and passionate attitude.\n\nTotal Experience: 24 years and 8 months",
+        "experience": [
+          {
+            "title": "Front Office Manager",
+            "organization": "The Langham Hotels and Resorts",
+            "date_range": "Jan 1997 - Jan 2007",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Assist FOM",
+            "organization": "Langham Hotels and resorts",
+            "date_range": "Jan 2002 - Jan 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "The Landmark London",
+            "date_range": "May 2008 - Apr 2011",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Assistant Director Of Rooms",
+            "organization": "The Landmark London",
+            "date_range": "Apr 2011 - Jan 2017",
+            "location": null,
+            "description": "Department: Administrative • Level: Director"
+          },
+          {
+            "title": "Director Of Rooms",
+            "organization": "The Landmark London",
+            "date_range": "Feb 2017 - May 2022",
+            "location": null,
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Executive Assistant Manager Rooms",
+            "organization": "The Landmark London",
+            "date_range": "May 2022 - Nov 2023",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Landmark London",
+            "date_range": "Nov 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "The Brit School",
+            "degree_or_field": "BTEC in Performing Arts and A-Level in Film Studies, Drama and Dramatics/Theatre Arts, General",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "front office",
+          "hospitality management",
+          "customer service",
+          "hospitality",
+          "management",
+          "operations",
+          "hotel",
+          "director"
+        ],
+        "activity_themes": [
+          "Employee recognition via Landmark Legends series",
+          "Hospitality recruitment drives at The Landmark London",
+          "Industry awards including Mayfair Times Awards",
+          "Philanthropic charity dinners and galas",
+          "Leadership spotlights and employee development",
+          "Team immersion activities like Back to the Floor",
+          "Work-life balance topics such as maternity return"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/malisa-shepherd-a315b613"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T15:20:21.371121+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 2,
+    "attempted": 9,
+    "succeeded": 9,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T15:26:33.573643+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 9,
+      "structured": 8,
+      "discovered": 1,
+      "errors": 0
+    }
+  }
+}

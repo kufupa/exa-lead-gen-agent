@@ -43,10 +43,9 @@ def test_invalid_intimacy_grade_rejected() -> None:
         )
 
 
-def test_default_agent_count_is_16() -> None:
+def test_default_parser_research_flags() -> None:
     args = build_parser().parse_args(["--url", "https://example.com"])
     normalize_contact_bounds(args)
-    assert args.agent_count == 16
     assert args.min_contacts == 10
     assert args.target_contacts == 25
     assert args.max_contacts == 50

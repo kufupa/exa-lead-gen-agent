@@ -1,0 +1,1701 @@
+{
+  "target_url": "https://sunstreethotel.com/",
+  "generated_at_utc": "2026-04-25T14:49:31.934201+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 4580,
+    "prompt_tokens": 62023,
+    "total_tokens": 73910,
+    "prompt_text_tokens": 62023,
+    "reasoning_tokens": 7307,
+    "cached_prompt_text_tokens": 28864,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Niccolo' Consigli",
+      "title": "General Manager",
+      "company": "Sun Street Hotel (Bespoke Hotels)",
+      "linkedin_url": "https://uk.linkedin.com/in/niccolo-consigli-mih-84955240",
+      "email": "generalmanager@sunstreethotel.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line: 0203 988 7700; Reservations: 0203 988 7709 or reservations@sunstreethotel.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees entire property including reservations, revenue strategy, guest experience, digital systems and technology adoption decisions for booking automation and guest messaging.",
+      "contact_evidence_summary": "Prominently featured on official meet-the-team page with detailed bio; direct business email published on official contact page tied to his name and title. Multiple independent sources confirm current role at Sun Street part of Bespoke Hotels. LinkedIn profile corroborates.",
+      "evidence": [
+        {
+          "source_url": "https://sunstreethotel.com/meet",
+          "source_type": "official_site",
+          "quote_or_fact": "General Manager. Niccolo' Consigli. Passionate about hospitality with over 20 years of experience... Sun Street Hotel part of Bespoke Hotels."
+        },
+        {
+          "source_url": "https://sunstreethotel.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "General manager. Niccolo' Consigli. generalmanager@sunstreethotel.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/niccolo-consigli-mih-84955240",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager - Sun Street Hotel (part of Bespoke Hotels)"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/niccolo-consigli-mih-84955240",
+        "display_name": "Niccolo' Consigli MIH",
+        "headline": "General Manager - Sun Street Hotel part of Bespoke Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Passionate about hospitality with over 15 years of experience. I love the hotel life and enjoy leading & coaching performing team. I am highly motivated, eager to achieve results and to develop my career further in the hospitality industry. My curiosity is what makes me unique and my ability to get the best out of people has proven to be a secret weapon.\n\nTotal Experience: 23 years and 4 months",
+        "experience": [
+          {
+            "title": "Front Desk Agent",
+            "organization": "Le Meridien Hotels & Resorts",
+            "date_range": "Nov 2001 - May 2003",
+            "location": "London",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Desk Agent",
+            "organization": "Royal Over-Seas League",
+            "date_range": "May 2003 - Oct 2003",
+            "location": "London",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Desk Supervisor",
+            "organization": "Lungarno Collection",
+            "date_range": "Nov 2003 - Oct 2004",
+            "location": "Florence, Italy",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Hilton Florence Metropole",
+            "date_range": "Nov 2004 - Aug 2006",
+            "location": "Florence",
+            "description": "Responsible for the MICE & Corporate segments for Italy.\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Hilton Florence Metropole",
+            "date_range": "Sep 2006 - Jan 2009",
+            "location": "Florence, Tuscany, Italy",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Cluster Sales Manager MICE",
+            "organization": "Hilton Rome Airport",
+            "date_range": "Feb 2009 - Jan 2011",
+            "location": "Fiumicino - Rome",
+            "description": "Responsible for the Corporate segment in Italy (Rome & Milan) and MICE in UK (London & Manchester)\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Corporate Sales Executive",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Feb 2011 - Feb 2012",
+            "location": "Londra, Regno Unito",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "myhotels group",
+            "date_range": "Feb 2012 - Sep 2013",
+            "location": "London",
+            "description": "Responsible for driving business results from the Corporate segment.\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "My Hotels",
+            "date_range": "Sep 2013 - Mar 2015",
+            "location": "Londra, Regno Unito",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "MY HOTELS",
+            "date_range": "Jan 2015 - Jul 2017",
+            "location": "London",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Board Director",
+            "organization": "The Fitzrovia Partnership",
+            "date_range": "Mar 2016 - Jul 2022",
+            "location": "Fitzrovia, London",
+            "description": "Department: C-Suite • Level: Director"
+          },
+          {
+            "title": "London Cluster General Manager - My Bloomsbury My Chelsea",
+            "organization": "MY HOTELS",
+            "date_range": "Jul 2017 - Jul 2022",
+            "location": "London",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Starhotels",
+            "date_range": "Jan 2023 - Sep 2024",
+            "location": "London, England, United Kingdom",
+            "description": "The Pelham Hotel\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Sun Street Hotel",
+            "date_range": "Sep 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "IPSSAR - Istituto Alberghiero “A. Saffi.” Florence - Italy",
+            "degree_or_field": "High- Level School (Diploma di Operatore Turistico), Hotel Management",
+            "date_range": "1995 - 2000"
+          },
+          {
+            "school": "Aurelio Saffi Firenze",
+            "degree_or_field": "Degree of Hospitality, Hospitality Administration/Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "sales manager",
+          "hospitality",
+          "hotel",
+          "coaching",
+          "performing",
+          "cluster",
+          "sales",
+          "responsible",
+          "driving",
+          "director"
+        ],
+        "activity_themes": [
+          "Hospitality leadership transitions and career reflections",
+          "Hotel promotions for romantic events and Valentine's Day",
+          "Team onboarding and welcoming new hospitality staff",
+          "Marketing venues for corporate events, weddings and dining",
+          "Employee recognition and nominations in hotel operations",
+          "Industry topics on wellness, blue spaces and hotel design",
+          "Recruitment and hiring in travel and hospitality sectors"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/antonio-ducceschi-cmm-chba-9930596_starhotels-leadership-legacy-activity-7423079457038635008-kVc2",
+          "https://www.linkedin.com/posts/the-bailey-s-hotel-kensington_valentinesatthebaileys-thebaileyshotel-activity-7421950818938949632-SwJP",
+          "https://www.linkedin.com/posts/niccolo-consigli-mih-84955240_welcome-konstantina-to-sun-street-hotel-activity-7420546532577533954-eE7D",
+          "https://www.linkedin.com/posts/niccolo-consigli-mih-84955240_whether-youre-planning-a-memorable-corporate-activity-7420013317336862721-s8t3",
+          "https://www.linkedin.com/posts/eva-mroze-90479a1a1_holiday-inn-shepperton-housekeeping-manager-activity-7419010829972443136-VvyK",
+          "https://www.linkedin.com/posts/sun-street-hotel_hospitalitydesign-businesstravel-hoteldesign-activity-7418940366390738944-vNRB",
+          "https://www.linkedin.com/posts/jacada-travel_hiring-wearehiring-traveljobs-activity-7417205611806851072-0FZE"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Angela Rhodes",
+      "title": "Cluster Revenue Manager",
+      "company": "Bespoke Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/angela-rhodes-23779614",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central Reservations: 0330 094 5918 or centralreservations@bespokehotels.com; revenue queries via info@bespokehotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages revenue, forecasting, budgets and distribution for cluster including Sun Street; primary stakeholder for revenue-tech, pricing automation and channel management tools.",
+      "contact_evidence_summary": "LinkedIn and RocketReach confirm Cluster Revenue Manager role at Bespoke Hotels. Bespoke contact page provides central routing for revenue-related enquiries affecting managed hotels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/angela-rhodes-23779614",
+          "source_type": "linkedin",
+          "quote_or_fact": "Cluster Revenue Manager at Bespoke Hotels. Reservations/Revenue background..."
+        },
+        {
+          "source_url": "https://rocketreach.co/bespoke-hotels-management_b5c43c7ef42e0d9b",
+          "source_type": "directory",
+          "quote_or_fact": "Angela Rhodes, Cluster Revenue Manager at Bespoke Hotels"
+        },
+        {
+          "source_url": "https://bespokehotels.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Central Reservations team on 0330 094 5918 or centralreservations@bespokehotels.com"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/angela-rhodes-23779614",
+        "display_name": "Angela Rhodes",
+        "headline": "Cluster Revenue Manager at Bespoke Hotels",
+        "location": "Manchester Area, United Kingdom (GB)",
+        "about": "Reservations/Revenue background, ability to create forecasts, achieve budgets, assist in the creation of budgets, creation of rate structures and implementation, maintaining of websites to ensure all information is correct, increasing of repeat clientelle, building good rapports with agents and website booking contacts Specialties: Conversation of bedroom sales, the ability to transform departments to perform to it's potential.",
+        "experience": [
+          {
+            "title": "Reservations Manager",
+            "organization": "Rathbone Hotel",
+            "date_range": "Apr 2002 - Mar 2006",
+            "location": null,
+            "description": "Managed websites, 3rd party wholesale agents, creation of rate structures, created forecasting, assisted with creation of budget, dealt with all accommodation enquiries both UK and Internationally."
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "The Hempel Hotel, London",
+            "date_range": "Jan 2006 - Jan 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Revenue Manager",
+            "organization": "Hempel Hotel",
+            "date_range": "May 2006 - Dec 2008",
+            "location": null,
+            "description": "Responsible for forecasting rooms revenue, achieving budgets, websites with regards to rate loading and opening and closing availability, showrounds, overlook reception, concierge and nights."
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Blow Up Hall 5050 Poznan, Poland",
+            "date_range": "Dec 2008 - Jun 2009",
+            "location": "Poznan, Poland",
+            "description": "Overlooked the hotel with regards to all aspects of Guest Relations, Concierge, Housekeeping and F&B outlets Sales & Marketing as a brand new property and needed to increase business levels"
+          },
+          {
+            "title": "Reservations Revenue Manager",
+            "organization": "St David's Hotel & Spa",
+            "date_range": "Sep 2009 - Feb 2013",
+            "location": null,
+            "description": "Forecast, Budgets, Rate Structure, Conference & Events, Reservations. Overseeing upselling of the hotel working closely with Sales"
+          },
+          {
+            "title": "Reservations Revenue Manager",
+            "organization": "Beaumont Estate",
+            "date_range": "Feb 2013 - Dec 2015",
+            "location": "Windsor",
+            "description": "Reservations/Revenue background, ability to create forecasts, achieve budgets, assist in the creation of budgets, creation of rate structures and implementation, maintaining of websites to ensure all information is correct, increasing of repeat clientelle, building good rapports with agents and website booking contacts Specialties Conversation of bedroom sales, the ability to transform departments to perform to it's potential"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "The Met Hotel",
+            "date_range": "Jan 2016 - Jan 2017",
+            "location": "Leeds, United Kingdom",
+            "description": "Progressed through the company Revenue Academy, first role as a Revenue Manager. Reservations/Revenue background, ability to create forecasts, achieve budgets, assist in the creation of budgets, creation of rate structures and implementation, maintaining of websites to ensure all information is correct, increasing of repeat clientelle, building good rapports with agents and website booking contacts Specialties Conversation of bedroom sales, the ability to transform departments to perform to it's potential"
+          },
+          {
+            "title": "Regional Revenue Manager",
+            "organization": "De Vere Group",
+            "date_range": "Jan 2017 - Jan 2018",
+            "location": null,
+            "description": "First role as a Regional Revenue Manager. Strong Reservations/Revenue background, ability to create and maintain forecasts, assist multiple properties in achieving budgets, assisted in the creation of budgets, creation of rate structures and implementation, maintaining of websites to ensure all information is correct, assist in driving sales, building good rapports with agents and website booking contacts."
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Feb 2018 - Present",
+            "location": "Manchester, United Kingdom",
+            "description": "Reservations/Revenue background, ability to create forecasts, achieve budgets, assist in the creation of budgets, creation of rate structures and implementation, maintaining of websites to ensure all information is correct, increasing of repeat clientele, building good rapports with agents and website booking contacts."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "reservations",
+          "budgets",
+          "structures",
+          "websites",
+          "sales",
+          "cluster",
+          "hotel",
+          "responsible",
+          "forecasting",
+          "driving",
+          "wholesale",
+          "budget",
+          "housekeeping",
+          "marketing",
+          "property"
+        ],
+        "activity_themes": [
+          "Farewell to a long-term hospitality role after 22 years",
+          "Networking with inspirational leaders on Shape 2025 and Starboard Hotels Accelerator Programme"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/angela-rhodes-23779614",
+          "https://www.linkedin.com/posts/sharon-cameron-mih-3430597_today-i-say-goodbye-to-a-job-i-have-absolutely-activity-7400151261804773377-nIJE",
+          "https://www.linkedin.com/posts/nigel-dibb-fih-74816759_great-to-catch-up-with-one-of-our-inspirational-activity-7290431924244758529-mM2d"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Ushma Patel",
+      "title": "Marketing Director",
+      "company": "Bespoke Hotels",
+      "linkedin_url": "https://www.linkedin.com/in/ushmapatel4",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "pr@bespokehotels.com for marketing/media; info@bespokehotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing and brand strategy across Bespoke portfolio (including Sun Street); influences digital guest comms, online booking presence, CRM and marketing automation tech.",
+      "contact_evidence_summary": "Confirmed as Marketing Director / Head of Marketing in Bespoke meet-the-team and RocketReach directories. Bespoke contact page lists PR and info emails for marketing outreach.",
+      "evidence": [
+        {
+          "source_url": "https://bespokehotelmanagement.com/meet-the-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Ushma Patel. Marketing Director"
+        },
+        {
+          "source_url": "https://rocketreach.co/bespoke-hotels-management_b5c43c7ef42e0d9b",
+          "source_type": "directory",
+          "quote_or_fact": "Ushma Patel, Head of Marketing at Bespoke Hotels"
+        },
+        {
+          "source_url": "https://bespokehotels.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "pr@bespokehotels.com for media/marketing queries"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ushmapatel4",
+        "display_name": "Ushma Patel",
+        "headline": "Head of Marketing at Bespoke Hotels | Marketing & Brand Specialist",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Highly motivated and results-oriented marketing professional with 20+ years of experience driving impactful campaigns for leading global hospitality brands and independent hotel groups. Proven ability to develop and execute integrated marketing strategies that align with business objectives. Expertise in stakeholder management, consumer targeting, brand building, and revenue-generating initiatives across all channels. Passionate about creating innovative marketing campaigns that deliver exceptional results.\n\nTotal Experience: 29 years and 8 months",
+        "experience": [
+          {
+            "title": "Marketing Manager",
+            "organization": "Corus Hotels",
+            "date_range": "Jan 1996 - Jan 1998",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "Forte Hotels",
+            "date_range": "Jan 1998 - Jan 2000",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "Forte and Le Meridien Hotels & Resorts",
+            "date_range": "Jan 1998 - Jan 2000",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "IHG",
+            "date_range": "Jan 2000 - Jan 2005",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "Jan 2001 - Jan 2005",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "Splendid Hotel Group",
+            "date_range": "May 2005 - Apr 2010",
+            "location": "London, United Kingdom",
+            "description": "Providing Marketing Support to the Group and hotel portfolio.\nDepartment: Marketing • Level: Manager"
+          },
+          {
+            "title": "Owner",
+            "organization": "Muse Marketing Ltd",
+            "date_range": "May 2005 - Dec 2024",
+            "location": "London, United Kingdom",
+            "description": "Department: C-Suite • Level: Owner"
+          },
+          {
+            "title": "Marketing Professional For The Hotel, Leisure And Hospitality Industry",
+            "organization": "Muse Marketing Ltd",
+            "date_range": "May 2005 - Dec 2024",
+            "location": "London, United Kingdom",
+            "description": "Providing marketing services within the hotel and hospitality industry. Offering tailored marketing solutions for one-off projects or on-going outsourced marketing support for small to medium-sized organisations, including Bespoke Hotels, Cycas Hospitality, Crimson Hotel Group, Splendid Hotel Group, Canadian & Portland (Riverside Walk, Kingston).\nDepartment: Other • Level: Specialist"
+          },
+          {
+            "title": "Head Of Marketing",
+            "organization": "Bespoke Hotels",
+            "date_range": "Jan 2023 - Present",
+            "location": null,
+            "description": "Overall responsibility for the marketing function within Bespoke Hotels, reporting into COO and CEO. Lead and deliver all aspects of marketing strategy for the group and individual hotels across the UK, driving revenue growth and enhancing brand awareness. Successfully implement integrated marketing campaigns across digital, social, PR, and traditional channels, maximizing direct bookings and revenue. Develop and execute successful digital marketing strategies, including SEO/SEM, social media marketing, email marketing, and paid advertising campaigns. Collaborated with senior stakeholders, owners, and revenue managers to align marketing efforts for the group and for individual hotels to maximize ROI. Mentoring and developing a high-performing Digital Marketing Executive, fostering a culture of creativity and innovation."
+          }
+        ],
+        "education": [
+          {
+            "school": "Guildhall University",
+            "degree_or_field": "Chartered Institute of Marketing, Marketing",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "marketing",
+          "driving",
+          "campaigns",
+          "hospitality",
+          "hotel",
+          "management",
+          "strategy",
+          "hotels",
+          "digital",
+          "pr",
+          "seo",
+          "sem",
+          "advertising",
+          "results oriented",
+          "integrated marketing",
+          "stakeholder management",
+          "marketing strategy",
+          "brand awareness",
+          "digital marketing",
+          "social media",
+          "email marketing",
+          "hospitality industry",
+          "social media marketing"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/ushmapatel4"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Vitor Regalo",
+      "title": "Director of Sales",
+      "company": "Sun Street Hotel (Bespoke Hotels)",
+      "linkedin_url": "https://uk.linkedin.com/in/vitor-regalo-16b484171",
+      "email": "sales@sunstreethotel.com",
+      "email2": null,
+      "phone": "0203 988 7700",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales team contact routed via sales@sunstreethotel.com; hotel main phone 0203 988 7700",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct responsibility for sales, distribution channels, group bookings, and marketing initiatives; key stakeholder for AI booking automation, channel management and guest acquisition tech.",
+      "contact_evidence_summary": "Featured with bio on official meet page as Director of Sales; sales email explicitly tied to him on official contact-us page. LinkedIn confirms current role. Strong public routing paths.",
+      "evidence": [
+        {
+          "source_url": "https://sunstreethotel.com/meet",
+          "source_type": "official_site",
+          "quote_or_fact": "Director of Sales. Vitor Regalo. ... Let’s create something remarkable."
+        },
+        {
+          "source_url": "https://sunstreethotel.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "The sales team. Vitor Regalo. sales@sunstreethotel.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/vitor-regalo-16b484171",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales at Sun Street Hotel"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/vitor-regalo-16b484171",
+        "display_name": "Vitor Regalo",
+        "headline": "Director of Sales  | Proactive Corporate Sales & Leisure Expert | Driving Revenue Growth & Strategic Partnerships",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "My journey in sales and marketing began in 2011, and I quickly realized this field is… Total Experience: 19 years and 6 months",
+        "experience": [
+          {
+            "title": "Contract Negotiator FIT Sales And Reservation - France - Spain, Portugal, US And European Market",
+            "organization": "GTA",
+            "date_range": "Feb 2006 - Apr 2010",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "F B",
+            "organization": "Royal Garden Hotel",
+            "date_range": "May 2010 - Jan 2016",
+            "location": "London, United Kingdom",
+            "description": "During my University and MBA"
+          },
+          {
+            "title": "Senior Sales Executive",
+            "organization": "The LaLiT London",
+            "date_range": "Feb 2016 - Jun 2018",
+            "location": "London bridge",
+            "description": "Total account management of 88 Corporate Accounts and 9 Entertainment Accounts with an achieved annual growth of 170% in Revenue/ Rooms and F&B. Dealing and negotiating proactively and reactively enquires from UK, US, Asia, South America and European clients building a reliable bond, assisting their needs of supply at London Bridge and the City area. Contacting regulary existing and new global corporations along with consortia agencies such as EY, PWC, Reed & Mackay and HRG negotiating corporate rates agreement as win-win situation, achieving a conversion of 44 New Corporate accounts- 1.4M BOB revenue, along with growth and Consortia of 77% in 1year/ Amex-HRG-SLH-Barclays- Mr&Mrs Smith- Ctrip China. Resourcing new niches via Leads Analytics and Linkedin, targeting and converting, potential medium to large size business in UK and abroad, analyzing and optimizing their benchmark production and pricing through Iata codes on Corporate - Leisure Leads Analytics, Linkedin, STR and Hotel Intelligence platform. Implementing strategy on corporate segment 68% with leisure business 32% especially during special seasons, such as Q4, when projection changes with the target market and reviewing production on B2B projection figures to shift results in revenue. Understanding cultures and applying unique approach to each one especially Asian market. Arranging FAM trips for consortia P.A of existing and potential clients, introducing our package offers to each of them."
+          },
+          {
+            "title": "Corporate Sales Manager",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Aug 2018 - Aug 2020",
+            "location": "London, Knightsbridge",
+            "description": "Pro-Actively Sales Manager responsible for the UK Corporate LNR ( Local Negotiated Rate) MICE market, repositioning one of London's Knightsbridge hotels into the 4 *star deluxe market. Actively manage the sales effort through yield and revenue management strategies to maximise profit and utilisation of property, neutralizing and prioritizing RFP and Lanyon to boost and secure revenue during Q1 to Q4. Reponsable for over £800K revenue in 1 year, achieving conversion of over 45 new Active Corporate Accounts, leading to a revenue growth of 43% over £2,3M locally and internationally, also hitting, monthly our business development targets through inking and optimising partnerships to inpower our UK business expansion and visibility in US, Uruguay Brazil, Spain, Italy and Portugal. Implement procedures for MICE Loyalty programs, repeated and new agencies and business across UK such as Harrods, Harvey Nichols and Europe such as Nespresso and UK GOV, on behalf of the hotel, actively promote and meet targets on enrolment and transaction management. Initiate both long and short term plans for promotions and tactical offerings. Conduct unique and bespoke site inspections to convert group business. Cross-sell all Millennium Hotels worldwide to UK 3rd party agents. Promote Hotel to key DMC's to prospect for lucrative overseas in-bound groups. Work in conjunction with representation companies for familiarisation trips, presentations and account penetration."
+          },
+          {
+            "title": "Sales Account Manager",
+            "organization": "Digital Ventures",
+            "date_range": "Aug 2020 - Jul 2021",
+            "location": "London, England, United Kingdom",
+            "description": "Digital account manager and pro-active new business development manager, responsible for building and maintaining a portfolio of digital marketing accounts. We are often the primary point of contact for these clients – as well we are crucial point of contact for internal sales and support teams and with lead multichannel communication campaigns to achieve client goals. Because much of our job relies on forging strong, lasting relationships with new and existing clients, successful digital account managers have strong interpersonal skills and a sociable demeanor# Resilience Converting and responsible of over 80 Active New Key Accounts locally and internationally, also hitting monthly business development targets through inking and optimising partnerships with clients to in power our business expansion in South America - Sales Target driven. Establishing and improving processes to develop best-in-class on operational experience and keep existing clients on board in alignment with our rapidly expansion in Online Advertising, world wide. Own my reporting and operational follow through, daily figures and forecast report. Implement analytical and critical research engagement when planning to assure project success."
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Sep 2021 - Jul 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Increased corporate sales revenue by 29%, leading to a £5million revenue boost per quarter. Expanded corporate partnerships across UK, Europe and South America, unlocking new sales channels. Implemented loyalty program initiatives targeting repeat corporate clients, increasing retention by 70% retunerd clients."
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Sun Street Hotel",
+            "date_range": "Jul 2025 - Present",
+            "location": "City Of London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Sorbonne University",
+            "degree_or_field": "French Civilisation Course - Philosophy, 2/1",
+            "date_range": "2004 - 2005"
+          },
+          {
+            "school": "ABTS - Logistics Trainning - Institute of Shipping & Transport",
+            "degree_or_field": "Course, Import & Export London Institute",
+            "date_range": "2011 - 2012"
+          }
+        ],
+        "skills": [
+          "sales",
+          "marketing",
+          "director",
+          "digital",
+          "responsible",
+          "campaigns",
+          "partnerships",
+          "advertising",
+          "reporting",
+          "research",
+          "engagement",
+          "planning",
+          "management",
+          "entertainment",
+          "corporations",
+          "rates",
+          "analytics",
+          "production",
+          "pricing",
+          "iata",
+          "hotel",
+          "intelligence",
+          "strategy",
+          "projection",
+          "b2b",
+          "arranging",
+          "mba",
+          "hotels",
+          "yield",
+          "property",
+          "rfp",
+          "promotions",
+          "presentations",
+          "reservation",
+          "business development",
+          "digital marketing",
+          "sales support",
+          "interpersonal skills",
+          "online advertising",
+          "sales manager",
+          "account management",
+          "revenue management",
+          "loyalty programs",
+          "site inspections",
+          "new business development"
+        ],
+        "activity_themes": [
+          "Luxury hospitality industry insights and projects",
+          "Fintech growth, valuations and Latin American market expansion",
+          "High-end residential design focused on longevity over trends",
+          "Corporate leadership, collaboration and decision-making strategies",
+          "Luxury lifestyle, design and hospitality sector developments"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/ele-prior-b99557b0_heading-into-february-yay-to-brighter-mornings-activity-7424876928861593601-hYB2",
+          "https://www.linkedin.com/posts/financial-times_brazils-nubank-has-claimed-a-90bn-valuation-activity-7424466748562726914-4omh",
+          "https://www.linkedin.com/posts/marie-soliman-berglund-31ba2b3b_bergmandesignhouse-luxurydesign-luxurylifestyle-activity-7422180157286699008-9uyR",
+          "https://www.linkedin.com/posts/blackstoneinc_blackstone-has-a-secret-weapon-collaboration-activity-7421943933674360832-jP1_",
+          "https://www.linkedin.com/posts/elenatasal_luxuryhospitality-hospitalitys"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Paul Hemmings",
+      "title": "Director of Sales and Marketing",
+      "company": "Sun Street Hotel (Bespoke Hotels)",
+      "linkedin_url": "https://uk.linkedin.com/in/paul-hemmings-76b7b436",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Route via sales@sunstreethotel.com or hotel main line; multiple directories list for Sun Street",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Senior commercial role overseeing sales, marketing and distribution; direct influence on revenue tech, booking channels and guest acquisition automation.",
+      "contact_evidence_summary": "Multiple business directories and LinkedIn company page associate him with Director of Sales & Marketing role at Sun Street Hotel. Supports sales leadership publicly listed.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/sun-street-hotel-management_b79ffe4fc5d4a450",
+          "source_type": "directory",
+          "quote_or_fact": "Sun Street Hotel management team includes Paul Hemmings (Director of Sales And Marketing)"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/sun-street-hotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Paul Hemmings. Director of Sales & Marketing Sun Street Hotel"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/paul-hemmings-76b7b436",
+        "display_name": "Paul Hemmings",
+        "headline": "Director of Sales & Marketing Sun Street Hotel EC2. A new five star Hotel opening October 2022, developed by MTD Group and operated by Bespoke Hotels.",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 26 years and 9 months",
+        "experience": [
+          {
+            "title": "Sales And Revenue Manager",
+            "organization": "Hanbury Manor Marriott Hotel & Country Club",
+            "date_range": "Jan 1998 - Jan 2004",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 1990 • Public Company • Hospitality\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "General Manager Of The Rubens At The Palace Hotel",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "May 2000 - May 2004",
+            "location": null,
+            "description": "Company: 501-1000 employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Vice President Of Sales",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "May 2004 - Nov 2020",
+            "location": "London, United Kingdom",
+            "description": "Company: 501-1000 employees • Privately Held • Hospitality\nDepartment: Sales • Level: President/Vice President"
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Sun Street Hotel",
+            "date_range": "Feb 2022 - Present",
+            "location": null,
+            "description": "Company: 11-50 employees • Founded 2022 • Public Company • Hospitality\nDepartment: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Bradfield College",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "sales",
+          "marketing",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Hotel openings, partnerships and construction updates with Bespoke Hotels",
+          "Reopening of luxury properties and welcoming guests",
+          "Sustainability initiatives including food waste reduction and maketravelmatter",
+          "Hotel awards, recognitions and accessibility advocacy"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/paul-hemmings-76b7b436_and-so-it-begins-more-than-delighted-to-activity-6683666645719781376-MThR",
+          "https://www.linkedin.com/posts/paul-hemmings-76b7b436_looking-forward-to-the-reopening-of-the-beautiful-activity-6675779668899069952-4_uP",
+          "https://www.linkedin.com/posts/paul-hemmings-76b7b436_maketravelmatter-worldmeditationday-activity-6669576500934664192-R8IV",
+          "https://www.linkedin.com/posts/paul-hemmings-76b7b436_maketravelmatter-activity-6663014827667017728-ou_h"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Perry Thomas",
+      "title": "Group IT Director",
+      "company": "Bespoke Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/perry-thomas-14577370",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central services: info@bespokehotels.com or centralreservations@bespokehotels.com; Warrington head office",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads IT and systems across Bespoke portfolio including Sun Street Hotel; key decision maker for PMS, booking engines, revenue tech stack, digital guest journey and automation tools.",
+      "contact_evidence_summary": "Multiple sources including LinkedIn, RocketReach and Bespoke meet-the-team references confirm long-term Group IT Director role. Central contact channels available for Bespoke-managed properties.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/perry-thomas-14577370",
+          "source_type": "linkedin",
+          "quote_or_fact": "Group IT Director at Bespoke Hotels (May 2016 - Present)"
+        },
+        {
+          "source_url": "https://bespokehotelmanagement.com/meet-the-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Perry Thomas. IT Director."
+        },
+        {
+          "source_url": "https://rocketreach.co/bespoke-hotels-management_b5c43c7ef42e0d9b",
+          "source_type": "directory",
+          "quote_or_fact": "Group IT Director at Bespoke Hotels"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/perry-thomas-14577370",
+        "display_name": "Perry Thomas",
+        "headline": "Group IT Director at Bespoke Hotels",
+        "location": "Warrington, England, United Kingdom (GB)",
+        "about": "Total Experience: 14 years",
+        "experience": [
+          {
+            "title": "Group IT Manager",
+            "organization": "Puma Hotels",
+            "date_range": "Jan 2012 - Dec 2015",
+            "location": "Hinckley",
+            "description": null
+          },
+          {
+            "title": "Group IT Manager",
+            "organization": "The Hotel Collection",
+            "date_range": "Jun 2014 - Apr 2016",
+            "location": "Leicester, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group IT Director",
+            "organization": "Bespoke Hotels",
+            "date_range": "May 2016 - Present",
+            "location": "Warrington, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director"
+        ],
+        "activity_themes": [
+          "Remembrance post: One year on but never forgotten"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/vince-johnson-10833016_one-year-on-but-never-forgotten-activity-6349154647034462208-ImHS"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Kathryn Whittaker",
+      "title": "Senior Cluster Revenue Manager",
+      "company": "Bespoke Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/kathryn-whittaker-554a7547",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Bespoke central reservations phone 0330 094 5918 and email centralreservations@bespokehotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Revenue leadership for cluster of hotels including Sun Street; influences revenue management systems, forecasting tools, and adoption of AI/revenue-tech solutions.",
+      "contact_evidence_summary": "Bespoke Hotels meet-the-team and LinkedIn profiles confirm revenue leadership role. Central Bespoke contact details enable outreach for portfolio-wide revenue matters.",
+      "evidence": [
+        {
+          "source_url": "https://bespokehotelmanagement.com/meet-the-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Kathryn Whittaker. Senior Cluster Revenue Manager"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/kathryn-whittaker-554a7547",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experienced Revenue Manager at Bespoke Hotels"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/kathryn-whittaker-554a7547",
+        "display_name": "Kathryn Whittaker",
+        "headline": "Revenue Manager The Chester Grosvenor Hotel. Small luxury hotels of the World",
+        "location": "Greater Stoke-on-Trent Area (GB)",
+        "about": "Experienced Revenue Manager with a demonstrated history of working in the hospitality industry. Skilled in Budgeting, Food & Beverage, Hotel Management, Hospitality Industry, and Leisure Industry. Strong accounting professional graduated from Trentham High School.\n\nTotal Experience: 26 years and 4 months",
+        "experience": [
+          {
+            "title": "Reservations",
+            "organization": "Stakis Hotels",
+            "date_range": "Jan 1997 - Jan 1999",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Moat House Hotels",
+            "date_range": "Jan 1999 - Jan 2002",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager Liverpool Thistle Hotel",
+            "organization": "Thistle Hotels",
+            "date_range": "Jan 2003 - Jan 2005",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Mottram Hall Hotel, Devere Hotels",
+            "date_range": "Jan 2005 - Jan 2006",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Radisson Edwardian",
+            "date_range": "Oct 2007 - Jun 2010",
+            "location": "Manchester, United Kingdom",
+            "description": "Award winning exceptional 5 star city centre hotel. Manage Rooms and M&E revenue teams within this large hotel. The hotel of choice for many high profile media and sporting legends. Host hotel for major party political conferences.\n\nDepartment: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Cluster Hotel Revenue Manager",
+            "organization": "Macdonald Hotels",
+            "date_range": "Jun 2010 - Apr 2012",
+            "location": null,
+            "description": "Cluster Revenue for Macdonald Portal and Hill Valley\n\nCluster Revenue management of two resort properties in Cheshire and Shropshire within challenging local markets.\n\nDepartment: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Revenue Development Manager",
+            "organization": "Carlson Rezidor Hotel Group",
+            "date_range": "Apr 2012 - Jan 2016",
+            "location": null,
+            "description": "Responsible for training and development of Reservations Office Managers across UK and Ireland Radisson Blu and Park Inn Hotels UK reporting directly to the Director of Revenue Optimisation and working with the Cluster Revenue Managers. Working with hotel teams to deliver budgeted revenue in rooms and meetings and events and ensuring teams have a competitive edge amongst their competitors.\n\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Senior Cluster Revenue Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Jan 2016 - Present",
+            "location": null,
+            "description": "The Chester Grosvenor Hotel\n\nDepartment: Finance & Accounting • Level: Senior"
+          }
+        ],
+        "education": [
+          {
+            "school": "Trentham High School",
+            "degree_or_field": null,
+            "date_range": "1974 - 1978"
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "hotel management",
+          "leisure industry",
+          "revenue management",
+          "hospitality",
+          "budgeting",
+          "food",
+          "hotel",
+          "management",
+          "accounting",
+          "cluster",
+          "reservations",
+          "responsible",
+          "training",
+          "hotels",
+          "reporting",
+          "director"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and MIALD training courses",
+          "Hotel scam alerts and awareness",
+          "New hotel seating areas and facilities",
+          "Global Revenue Forum and revenue management events",
+          "Chester Zoo conservation efforts",
+          "Luxury castle hotel promotions and winter experiences",
+          "Hotel upgrade strategies and guest gestures",
+          "Revenue management conferences and content",
+          "Sales roles in racing and networking",
+          "Boutique hotel chef moves and rebranding"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/kathryn-whittaker-554a7547"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jacqueline Watson",
+      "title": "Regional Revenue Manager",
+      "company": "Bespoke Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/jacqueline-watson-656a2781",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central services contact: info@bespokehotels.com or reservations line 0330 094 5918",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional oversight of revenue management for Bespoke properties including potential coverage of Sun Street; key for revenue tech stack and distribution strategy.",
+      "contact_evidence_summary": "LinkedIn confirms Regional/Revenue Manager role at Bespoke Hotels. Supported by central Bespoke contact channels and team structure references.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/jacqueline-watson-656a2781",
+          "source_type": "linkedin",
+          "quote_or_fact": "Regional Revenue Manager at Bespoke Hotels"
+        },
+        {
+          "source_url": "https://theorg.com/org/bespoke-hotels-ltd/teams/revenue-management-team",
+          "source_type": "directory",
+          "quote_or_fact": "Revenue Management Team includes Jacqueline Watson"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/jacqueline-watson-656a2781",
+        "display_name": "Jacqueline Watson",
+        "headline": "Revenue Manager at Bespoke Hotels Scotland",
+        "location": "Callander, Scotland, United Kingdom (GB)",
+        "about": "Total Experience: 11 years and 8 months",
+        "experience": [
+          {
+            "title": "Regional Revenue Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "May 2014 - Present",
+            "location": "Scotland",
+            "description": "Company: 5001-10,000 employees • Founded 2000 • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Festive season promotions at Scottish hotels",
+          "Boutique hotel rankings and awards",
+          "Hospitality management conferences",
+          "Hotel dining and culinary experiences",
+          "Team appreciation and internal events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/visit-northumberland_visitnorthumberland-destinationnortheastengland-activity-7404883043972247552-Pxmu",
+          "https://www.linkedin.com/posts/bailiffgatehotel_its-beginning-to-look-a-lot-like-christmas-activity-7399386022180077568-zzD5",
+          "https://www.linkedin.com/posts/robi-lambie-7203365a_ive-never-quite-got-over-the-fact-that-henry-activity-7402334940299829248-wX4d",
+          "https://www.linkedin.com/posts/craigellachiehotel_the-countdown-to-hogmanay-has-begun-and-activity-7405554588831092736-i8rP",
+          "https://www.linkedin.com/posts/craigellachiehotel_thecraigellachie-speyside-activity-7406626692649201665-lLtG",
+          "https://www.linkedin.com/posts/craigellachiehotel_thecraigellachie-speyside-activity-7403744069778055168-OKGd",
+          "https://www.linkedin.com/posts/jeff-hodgson-21b605a4_1st-of-december-already-weve-put-activity-7401254131736141826-_Cey",
+          "https://www.linkedin.com/posts/craigellachiehotel_thecraigellachie-speyside-activity-7401963809109630976-sz9M"
+        ],
+        "data_quality": "partial",
+        "caveats": "Only one experience entry available in text; no education, skills or detailed role descriptions provided."
+      }
+    },
+    {
+      "full_name": "Thomas Greenall",
+      "title": "CEO",
+      "company": "Bespoke Hotels",
+      "linkedin_url": "https://www.linkedin.com/in/thomas-greenall-37037010",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Head office Warrington; centralreservations@bespokehotels.com or info@bespokehotels.com for commercial/strategy routing",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "CEO with commercial background; strategic decisions on technology adoption, revenue management, central reservations office and systems across all managed hotels including Sun Street.",
+      "contact_evidence_summary": "Prominently featured in Bespoke leadership materials, presentations and news as CEO/Commercial Director. Central contact details provide path to executive team.",
+      "evidence": [
+        {
+          "source_url": "https://bespokehotels.com/wp-content/uploads/2022/10/Bespoke-presentation-2020.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Thomas Greenall. Commercial Director (now CEO). Operational structure includes Revenue Director, IT Director, Central reservations office."
+        },
+        {
+          "source_url": "https://rocketreach.co/bespoke-hotels-management_b5c43c7ef42e0d9b",
+          "source_type": "directory",
+          "quote_or_fact": "Thomas Greenall, Chief Executive Officer at Bespoke Hotels"
+        },
+        {
+          "source_url": "https://bespokehotels.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Central contact points for Bespoke-managed properties"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/thomas-greenall-37037010",
+        "display_name": "Thomas Greenall",
+        "headline": "Chief Executive Officer at Bespoke Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 21 years and 7 months",
+        "experience": [
+          {
+            "title": "National Hunt Jockey",
+            "organization": "Mick Easterby Racing",
+            "date_range": "Sep 2003 - Mar 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Director",
+            "organization": "Nasstar plc",
+            "date_range": "Sep 2008 - May 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Business Development Manager",
+            "organization": "Daresbury Restaurants (Greens) ltd",
+            "date_range": "Jun 2010 - Sep 2011",
+            "location": null,
+            "description": "Green's Restaurant was conceived by Simon Parker Bowles in 1982 and still occupies a quiet and discreet location just off Jermyn Street in the heart of St. James's. Our St. James's private dining room, for up to 36 guests, was redecorated in August and is ready for the busy festive season. In 2009 Simon joined forces with fellow race horse owners and avid supporters of the turf, The Lords Daresbury and Vestey, to open the new Green's Restaurant and The Runner Bar at 14 Cornhill. We occupy a grade II listed former banking hall located within a stone's throw of Bank tube. The \"many rooms in one\" versatility of the space and our private dining rooms make Green's and The Runner Bar truly the ideal location to work, entertain or celebrate! We're open from 0730 to midnight and is the ideal meeting place in the City. We're business friendly with WIFI and a quiet corner anytime of the day; with capacity for up to 450 guests it does get lively on occasions. Whether in St. James's, the City or the countryside, our menu offers traditional British seasonal produce. The Runner menu covers breakfast, lunch and dinner for those on the go. I look forward to welcoming you to Green's and The Cottage Inn soon. Show less"
+          },
+          {
+            "title": "Executive Assistant Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Sep 2011 - May 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Resident Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Mar 2012 - Jul 2012",
+            "location": "Cotswold House Hotel and The Noel Arms",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Jul 2012 - Dec 2012",
+            "location": "Grosvenor Hotel, Shaftesbury",
+            "description": null
+          },
+          {
+            "title": "Financial Operations Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Jan 2013 - Oct 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Commercial Director",
+            "organization": "Bespoke Hotels",
+            "date_range": "Nov 2016 - Jun 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Chief Executive Officer",
+            "organization": "Bespoke Hotels",
+            "date_range": "Jul 2020 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "green",
+          "avid",
+          "turf",
+          "banking",
+          "wifi",
+          "less",
+          "sales",
+          "director",
+          "operations",
+          "commercial",
+          "business development"
+        ],
+        "activity_themes": [
+          "Bespoke Hotels GM conferences and leadership events",
+          "Hotel Gotham Newcastle openings, staffing and promotions",
+          "Luxury hotel launches, pre-opens and test shoots",
+          "Hospitality industry exhibitions and group leisure shows",
+          "New property additions to hotel portfolios",
+          "Networking in leisure travel, tech and private banking"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/zach-rigney-2151ba397_three-weeks-in-and-gotham-is-finally-starting-activity-7403874443888001024-m_AQ",
+          "https://www.linkedin.com/posts/bespoke-hotels_bespokehotels-gmconference2025-hospitalityleadership-activity-7397558488744488960-J5n5",
+          "https://www.linkedin.com/posts/amy-jade-devitt-97877176_newcastleupontyne-ne1-luxuryhotels-activity-7396084558791868417-oS6U",
+          "https://www.linkedin.com/posts/graeme-peacock-a965b92b_a-final-hotel-gotham-newcastle-capture-from-activity-7397025629092601856-QclW",
+          "https://www.linkedin.com/posts/simon-bailey-2792817a_caps-are-quickly-approaching-practical-completion-activity-7389257070841339904-w_tn",
+          "https://www.linkedin.com/posts/alice-best-6a996052_theplanet-technology-health-activity-7382098699373629440-D3XM",
+          "https://www.linkedin.com/posts/bespoke-hotels_bespoke-hotels-is-delighted-to-be-exhibiting-activity-7379451585514590209-gbLJ",
+          "https://www.linkedin.com/posts/caledonian-leisure-ltd_caledonian-gocaledonian-caledoniantravel-activity-7378787481648906240-tcyS"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Robin Sheppard",
+      "title": "President",
+      "company": "Bespoke Hotels",
+      "linkedin_url": "https://www.linkedin.com/in/robin-sheppard-69561819",
+      "email": "rsheppard@bespokehotels.com",
+      "email2": "info@bespokehotels.com",
+      "phone": "0330 094 5918",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "info@bespokehotels.com or central head office contacts",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Senior leadership role with innovation focus; influences overall commercial strategy, tech partnerships and adoption for the group of hotels including Sun Street.",
+      "contact_evidence_summary": "Listed in Bespoke Hotels leadership/team pages as President. Public bios emphasize hospitality innovation and operations oversight. Central contacts provide reach.",
+      "evidence": [
+        {
+          "source_url": "https://bespokehotels.com/b2b-2__trashed/our-tea/",
+          "source_type": "official_site",
+          "quote_or_fact": "Robin Sheppard. President. Classically-trained hotelier with an eye for innovation."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/robin-sheppard-69561819",
+        "display_name": "Robin Sheppard",
+        "headline": "Retired ex President Bespoke hotels at Freelance",
+        "location": "United Kingdom (GB)",
+        "about": "industry veteran still trying new things\n\nTotal Experience: 47 years and 10 months",
+        "experience": [
+          {
+            "title": "GM Rising To Regional Director To MD",
+            "organization": "BTH trainee Adelphi,Welcombe; GM+Old Course, Bodysgallen, Lygon Arms, Royal Berkshire,Bath Spa",
+            "date_range": "Feb 1978 - Dec 1999",
+            "location": "Stratford upon Avon,Liverpool,St.Andrews,Llandudno,Broadway,Ascot,Bath etc",
+            "description": "Some of the hotels worked at in career"
+          },
+          {
+            "title": "President",
+            "organization": "Bespoke Hotels",
+            "date_range": "Jan 2000 - Dec 2025",
+            "location": null,
+            "description": "Company: 5001-10,000 employees • Founded 2000 • Privately Held • Hospitality\nDepartment: C-Suite • Level: President/Vice President"
+          },
+          {
+            "title": "President",
+            "organization": "Bespoke Hotels",
+            "date_range": "Jul 2020 - Dec 2025",
+            "location": null,
+            "description": "Company: 5001-10,000 employees • Founded 2000 • Privately Held • Hospitality\nDepartment: C-Suite • Level: President/Vice President"
+          },
+          {
+            "title": "Consultant",
+            "organization": "Freelance",
+            "date_range": "Nov 2025 - Present",
+            "location": "cotswolds",
+            "description": "retired after 26 years at the helm with Bespoke Hotels\nDepartment: Consulting • Level: Specialist"
+          }
+        ],
+        "education": [
+          {
+            "school": "king edwards school bath",
+            "degree_or_field": "9 'o' levels and 3 'a' levels",
+            "date_range": "1962 - 1974"
+          },
+          {
+            "school": "Oxford Brookes University",
+            "degree_or_field": "hotel management, Hospitality Administration/Management",
+            "date_range": "1974 - 1977"
+          }
+        ],
+        "skills": [
+          "hotels",
+          "director"
+        ],
+        "activity_themes": [
+          "Hospitality team awards and recognition",
+          "Hospitality and catering operators",
+          "Soft drinks innovation and sector importance",
+          "Hotel Gotham Newcastle openings and events",
+          "Celebrity visits and hotel sneak peeks",
+          "Milestone celebrations in hospitality",
+          "Nightlife and bar developments",
+          "Inclusion, diversity, equity and accessibility (IDEA) in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/robin-sheppard-69561819"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Konstantina Soulka",
+      "title": "Events Sales Manager",
+      "company": "Sun Street Hotel (Bespoke Hotels)",
+      "linkedin_url": "https://uk.linkedin.com/in/konstantina-soulka-bb1a64199",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Route via sales@sunstreethotel.com or main hotel phone 0203 988 7700",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Handles events sales and group bookings which overlap with revenue, distribution channels and automation opportunities for group reservations and guest comms.",
+      "contact_evidence_summary": "Listed on Sun Street Hotel LinkedIn company page as Events Sales Manager. Supports sales team with public confirmation of role at the property.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/sun-street-hotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Konstantina Soulka. Events Sales Manager | Sun Street Hotel"
+        },
+        {
+          "source_url": "https://sunstreethotel.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Sales team contact (sales@sunstreethotel.com) provides routing for events sales."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/konstantina-soulka-bb1a64199",
+        "display_name": "Konstantina Soulka",
+        "headline": "Events Sales Manager | Sun Street Hotel part of Bespoke Hotels",
+        "location": "United Kingdom (GB)",
+        "about": "A results-driven Events and Sales professional with a strong background in account management, client relations and event execution. Proven ability to manage end-to-end event lifecycles, from private functions to high-profile events, while ensuring client satisfaction and repeat business. Skilled in aligning event solutions with client objectives, especially within high-pressure and fast-paced environments. Known for building long-term relationships, exceeding revenue targets and delivering exceptional service across corporate, government and social sectors.\n\nTotal Experience: 8 years and 7 months",
+        "experience": [
+          {
+            "title": "Administration Assistant",
+            "organization": "Organization for the Development of Crete S.A. (O.A.K. SA)",
+            "date_range": "Jan 2013 - Jan 2014",
+            "location": "Khaniá, Crete, Greece",
+            "description": null
+          },
+          {
+            "title": "Front Office",
+            "organization": "Porto Platanias Hotels & Resorts",
+            "date_range": "Jan 2015 - Jan 2018",
+            "location": "Khaniá, Crete, Greece",
+            "description": null
+          },
+          {
+            "title": "Front Office Executive",
+            "organization": "Hampton Inn by Hilton",
+            "date_range": "May 2020 - Nov 2020",
+            "location": "Munich, Bavaria, Germany",
+            "description": null
+          },
+          {
+            "title": "Front Office Supervisor",
+            "organization": "100 Queen's Gate Hotel London, Curio Collection by Hilton 5*",
+            "date_range": "Jun 2021 - Apr 2022",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Events Sales Executive",
+            "organization": "100 Queen's Gate Hotel London",
+            "date_range": "Apr 2022 - Aug 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Conference Sales Coordinator",
+            "organization": "Congress Centre, London WC1",
+            "date_range": "Oct 2024 - Jul 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Events Manager",
+            "organization": "Sun Street Hotel",
+            "date_range": "Dec 2025 - Present",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Western Macedonia",
+            "degree_or_field": "Bachelor's degree, Communication, Digital Media and Public Relations",
+            "date_range": "- 2015"
+          },
+          {
+            "school": "Middlesex University",
+            "degree_or_field": "Foundation degree, Psychology and Neuroscience",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "sales",
+          "management",
+          "pressure",
+          "government",
+          "administration",
+          "account management",
+          "client relations",
+          "front office"
+        ],
+        "activity_themes": [
+          "Hospitality employee recognition programs",
+          "Events industry hiring and job postings",
+          "Catering and hospitality business partnerships",
+          "New team member welcomes in events sales",
+          "Travel destination awards and recognitions",
+          "Hotel team adoption of digital tools",
+          "Conference and events management updates"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/niccolo-consigli-mih-84955240_make-it-shine-january-employee-recognition-activity-7424889007773315073-pNTT",
+          "https://www.linkedin.com/posts/megan-mitchell1_eventsjobs-eventcareers-hiring-activity-7423060770231562240-TWFX",
+          "https://www.linkedin.com/posts/seasoned-uk_catering-seasoned-themermaidlondon-activity-7417181701333753856-Pcjm",
+          "https://www.linkedin.com/posts/sun-street-hotel_londonhotels-teamwelcome-eventsmanagement-activity-7420413495000604673-oudm",
+          "https://www.linkedin.com/posts/niccolo-consigli-mih-84955240_welcome-konstantina-to-sun-street-hotel-activity-7420546532577533954-eE7D"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Emily Evans",
+      "title": "Operations Manager",
+      "company": "Sun Street Hotel (Bespoke Hotels)",
+      "linkedin_url": "https://www.linkedin.com/in/emily-evans-91514882",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Route via reservations@sunstreethotel.com or main hotel line 0203 988 7700 (operations/guest experience overlap)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages day-to-day operations including guest journey, team processes that intersect with guest messaging, CRM elements and operational systems that support reservations automation.",
+      "contact_evidence_summary": "Official bios on Sun Street Hotel meet-the-team page confirm name and title. Part of core leadership team featured publicly. Department routing via reservations and front office channels.",
+      "evidence": [
+        {
+          "source_url": "https://sunstreethotel.com/meet",
+          "source_type": "official_site",
+          "quote_or_fact": "Operations Manager. Emily Evans. First hospitality job at 15... Philosophy: focus on small details to build relationships."
+        },
+        {
+          "source_url": "https://sunstreethotel.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Guest experience team and reservations@sunstreethotel.com provide routing to operations/front office."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/emily-evans-91514882",
+        "display_name": "Emily Evans",
+        "headline": "Operations Manager at Bespoke Hotels",
+        "location": "London, England, United Kingdom",
+        "about": "I have worked both front of house and back of house, covering kitchens, offices, bars and restaurants. I have always adopted a 'you don't know until you try' attitude, which has meant that during my brief career and journey so far, I have learnt so much about what suits me as an individual, and used this knowledge to tailor my hard working attitude towards everything I do. I give everything my all and reflect as I go along as to how to improve and how to develop from tasks that I have completed. I fully intend to continue with this view during my career and personal and professionable development for years to come.",
+        "experience": [
+          {
+            "title": "Waitress",
+            "organization": "The Cefn Mably Arms",
+            "date_range": "Apr 2012 - Sep 2014",
+            "location": "Cardiff, United Kingdom",
+            "description": "At only a mile up the lane from my parent's home, the Cefn Mably Arms was the perfect weekend job during my A-Level years. It gave me a link to the industry I had fallen for and was working towards in my studies and university applications, keeping the motivation high. My role consisted of advising customers on menu choices, allergens and drinks, as well and serving their meals in a non-intrusive and efficient manner. The waiting team were also responsible for plating the desserts that had been pre-prepared by the chef. In a designated area, we would portion, heat and plate orders, again, ensuring the highest standard was met for your guests. It was a hugely popular pub and often we found ourselves full to the rafters and w"
+          },
+          {
+            "title": "You Niversity Plus Placement Student",
+            "organization": "PPHE Hotel Group",
+            "date_range": "Jul 2015 - Jul 2016",
+            "location": "Victoria, London",
+            "description": "The 3rd year of my degree was the 'sandwich' aspect. We were required to find and complete a minimum of a 40 week placement within the industry. PPHE hired me in their hotel Park Plaza Victoria, on their you:niversity plus placement programme. I worked in the food and beverage team, rotating between the breakfast service, bar team and room service. After roughly three months in this role, I was lucky enough to be promoted to a supervisor. This role not only involved me working on the floor and heading up the teams during service, but also ensuring time sheets were completed and financial and cover forecasts were submitted each month for budget. The rough hours, limited time off and long days meant I found this role particularly taxing. During the peak summer months, some days breakfast would reach 400 covers! I thoroughly enjoyed my time at Park Plaza, and made some great friends, however most importantly, it taught me a lot about myself and what roles/positions suit me the most and allow me to excel. After this role, I stepped away from the operational side of hospitality and went back for my final year of my degree with the focus on the office side of the industry."
+          },
+          {
+            "title": "Work Experience",
+            "organization": "Hilton Worldwide",
+            "date_range": "Aug 2016 - Aug 2016",
+            "location": "Cardiff, United Kingdom",
+            "description": "A month after finishing my placement year with Park Plaza, I found myself intrigued as to how another hotel chain conducts itself. Using existing contacts, I was able to organise a weeks experience in Hilton Cardiff. I spent the week rotating between departments and understanding and observing their various day-to-day tasks. I started the week with housekeeping, which was the most eye opening experience for me from the whole week. It made me realise how little I appreciated their role in the past and how important they are to the functioning of the hotel. Without them, there would be no ready rooms for guests. I then worked for a day in guest relations, understanding what exactly it takes to ensure that the stay is a smooth as possible and how to make the guest feel valued and appreciated. Finally, I helped HR conduct a recruitment day, to which over 150 applicant attended. I thoroughly enjoyed this day as it really played to my advantage of being a people person! The week was incredibly interesting and experiencing another chain hotel certainly gave me a lot to think about."
+          },
+          {
+            "title": "Placement PAL Leader",
+            "organization": "Bournemouth University",
+            "date_range": "Sep 2016 - Jun 2017",
+            "location": null,
+            "description": "During my final year of studies at Bournemouth University, I took it upon myself to work for the Placement PAL scheme. It was put in place to guide those who are searching for a placement and to support any queries or worries they may have and the year that I worked for the scheme was it's first year. I chose to help this scheme as it was something that I definitely would've found comforting and would have benefited from when I was experiencing placement applications. I feel that in situations such as placement applications, talking it through with a peer who has recently gone through the same can be extremely comforting and can provide such peace of mind."
+          },
+          {
+            "title": "Bar Maid",
+            "organization": "The Cefn Mably Arms",
+            "date_range": "Jun 2017 - Sep 2017",
+            "location": "Cardiff, United Kingdom",
+            "description": "After finish my degree and graduating with a 2:1, I moved temporarily back to Cardiff whilst I looked for a job. The Cefn Mably Arms, where I spent a couple of years working before university, was under new ownership and had a massive refurbishment. I approached them and told them about my history with the pub and how locally I lived, I was hired instantly. I loved being back at the pub and continuing my work in hospitality, whilst rebuilding my relationship with the same regulars as my last job there. I worked mainly on the bar, however stepping into the restaurant when needed. After a month back, the landlord and landlady approached me and asked if I would consider being their new manager full time. Unfortunately at this point, I had a few leads for jobs in London, and had my heart set on going back to work in London, I felt the role would be better in someone else's hands, so I politely turned it down and hoped they understood. They were wonderful and kindly made me a shift leader for the remainder of the summer until I left for full time work and life in London."
+          },
+          {
+            "title": "Sales Management Programme",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "Sep 2017 - Jun 2018",
+            "location": null,
+            "description": "The Sales Management Programme within Red Carnation Hotels is a unique experience of a year long rotational position. You cover departments such as conference and events and reservations to prepare yourself for a sales role. Having the experience of two very different departments results in an all-rounded sales team member. Having the knowledge to sell event spaces, bedrooms and the hotels as a whole is an effective tool and results in confident sales calls. My time begun at The Montague on the Gardens in conference and events, my main project being the indivudal 'ski pass' reservation system for their unique christmas pop-up, The Ski Lodge. After 5 wonderful months loving this role, I moved across the office to work with the reservations team. A very different experience! The work is focused and the time scale reduced. Your actions directly impact a guests' stay and therefore there can be some pressure. It took a while to grasp as it was so new to me but evenutally I found my stride and even managed to get a great result on the AA auditor. Again, after 5 months, it was time for me to move on. I was asked if I would step into a unique position, a bi-monthly switch of jobs. Currently I spend one month being a Sales Executive at The Chesterfield Mayfair, lookng after mainly corporate accounts and selling the fabulous property. The next month I go on the road with our Regional Director of Sales and look more at the leisure and conference and events markets for the UK hotels. I switch month to month between the two, keeping me on my toes! I am looking forward to a bright future with the company."
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "Jun 2018 - Sep 2020",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Of House Staff",
+            "organization": "Urban Pubs and Bars",
+            "date_range": "Aug 2018 - Aug 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Aug 2022 - Mar 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Sun Street Hotel"
+          },
+          {
+            "title": "Room Division Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Sep 2023 - Mar 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Mar 2025 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/emily-evans-91514882"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Samvida Mahmud",
+      "title": "Front Office Manager",
+      "company": "Sun Street Hotel (Bespoke Hotels)",
+      "linkedin_url": "https://www.linkedin.com/in/samvida-carolina-mahmud-45918b21a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations line 0203 988 7709 and reservations@sunstreethotel.com directly tied to front office and guest experience",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads front office which manages reservations, guest communications, check-in messaging and CRM/guest experience touchpoints ideal for guest messaging and booking automation tools.",
+      "contact_evidence_summary": "Listed on official meet-the-team page with bio since hotel opening. Strong tie to reservations and guest experience department emails/phones on contact page.",
+      "evidence": [
+        {
+          "source_url": "https://sunstreethotel.com/meet",
+          "source_type": "official_site",
+          "quote_or_fact": "Front Office Manager. Samvida Mahmud. ... With Sun Street Hotel since opening; committed to memorable guest experiences."
+        },
+        {
+          "source_url": "https://sunstreethotel.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Guest experience team and reservations routed through reservations@sunstreethotel.com and dedicated phone."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/samvida-carolina-mahmud-45918b21a",
+        "display_name": "Samvida Carolina Mahmud",
+        "headline": "Events Manager",
+        "location": "London, England, United Kingdom",
+        "about": "With 6 years of experience in luxury brands hospitality, eager to leverage background to improve career in events planning. Over the years I improved myself and I have learned to have strong customer service, organization and time management skills. Accomplished in providing best-in-class service to guests in five-star luxury hotel.\n\nTotal Experience: 8 years and 9 months",
+        "experience": [
+          {
+            "title": "Hostess",
+            "organization": "Meliá Hotels International",
+            "date_range": "May 2017 - Nov 2018",
+            "location": "Milan, Lombardy, Italy",
+            "description": "- Active involvement with customers, which helped developing articulate communication and active listening skills.\n- Daily floor plan arrangement and coordination.\n- Training new employees on proper, guest expectations and restaurant protocols.\n- Scheduling reservations, notifying servers and managers of large groups in advance and preparing seating ahead of guests’ arrival.\n- Issuing table checks and collecting payments from customers.\n- Communicating with event coordinators ensuring appropriate and adequate accommodations for larger parties.\n- Establishing floor plans to streamline seating and wait staff traffic while maximizing floor space.\n- Working with Open Table application to collect reservations information and updating guests in real time.\n- Greeting guests and customers accompanying them at tables or in waiting areas.\n- Spotting VIP customers immediately and providing special treatment, including preferred tables.\n- Answering phone calls politely and promptly, accurately recording and confirming reservations.\n- Assisting customers asking about timetable, seating, current wait time and other miscellaneous information regarding the place and the service."
+          },
+          {
+            "title": "Event Coordinator",
+            "organization": "Meliá Hotels International",
+            "date_range": "Nov 2018 - Sep 2021",
+            "location": "Milan, Lombardy, Italy",
+            "description": "- Coordinating guest reservations, and scheduled event venues.\n- Relating with clients quickly troubleshooting issues and accomplishing their satisfaction.\n- Implementing feedback initiatives to generate insights for process enhancement and business strategy.\n- Planning, coordinating and executing special food & beverage events.\n- Working with Citrix application to collect reservations information promptly updating guests via email.\n- Planning events, including location selection and booking, scheduling, marketing initiatives.\n- Promoting venues starting from first approach with potential customers via appealing visual presentation following up with on - site inspection of outlets.\n- Gathering events requirements, including venues, budgets, guest lists, catering and event timelines through face-to-face client meetings in welcoming environment enhancing guests’ loyalty.\n- Transposition of all the collected datas to internal Banquet Event Orders delivered to all the operational managers together with the reception desk ensuring a clear and visually impactful understanding to all whom concerns.\n- Issuing invoices and collecting payments for events from customers.\n- Working with Opera PMS, managing sales & catering events involving the Hotel participation; creating ad-hoc posting masters and updating the reception with all the needed details to ensure the best service upon guests’ arrival.\n- Ensuring good customer relationships by keeping contact via emails and calls, promoting special offers, menu updates and exclusive parties fostering client retention.\n- Keeping good track of working fluxes during different periods of the year, focusing on improving the promotional services during holidays and the most sensitive months, via monthly based reports built on quality guests feedback and operational datas."
+          },
+          {
+            "title": "Event Coordinator",
+            "organization": "Caprice Holdings Ltd.",
+            "date_range": "Sep 2021 - Dec 2021",
+            "location": "London, England, United Kingdom",
+            "description": "Understand requirements for each event - Book venues, general enquiries and maximise covers - Create & organise function sheets for each event"
+          },
+          {
+            "title": "Reservations And Events Manager",
+            "organization": "Bermondsey Square Hotel",
+            "date_range": "Dec 2021 - Nov 2022",
+            "location": "London, England, United Kingdom",
+            "description": "- Ensure that all sales enquiries are dealt with in a proactive manner, and converted to confirmed bookings, to the agreed company standards using the sales conversations.\n- Convert business and generate sales through show rounds.\n- Grow and develop, existing customers through regular contact meet and greet, follow up calls.\n- Ensure that guest history in the hotel PMS system is up- to-date through regular reviewing. Therefore, enables to be used in sales activities throughout the year.\n- Ensure that a professional appearance and manner, is shown to all visitors, resulting in positive PR both internally and externally of the Revenue team.\n- Communicate and share knowledge with other hotel departments, on a regular basis.\n- Ensure that all group bookings have terms and conditions and contracts.\n- Maintain a close relationship with the Accounts department to ensure that there is an accurate production of bills, to be sent to the client.\n- Develop and demonstrate the use of sales conversation to effectively sell bedrooms and conferences, maximising occupancy, average rates and yield.\n- Understand the hotel’s Business Plan, to play an active role in developing sales strategies and promotions and understand the hotels selling strategy and letting policy. Ensure they are communicated to the Reception team.\n- Ensure that the M&E, wedding and Christmas Standards are in place.\n- Ensure that all brochures, packages and information is up to date and readily available.\n- Ensure that all events and group bookings have company terms and conditions and contracts."
+          },
+          {
+            "title": "Reception Manager",
+            "organization": "Sun Street Hotel",
+            "date_range": "Sep 2022 - Oct 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Event Manager",
+            "organization": "Sun Street Hotel",
+            "date_range": "Oct 2024 - Apr 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Sun Street Hotel",
+            "date_range": "Apr 2025 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Anglia Ruskin University",
+            "degree_or_field": "Bachelor's degree, Human Resources Management and Services",
+            "date_range": "2024 -"
+          },
+          {
+            "school": "ITE - LL GADDA ROSSELLI",
+            "degree_or_field": "Business/Managerial Economics",
+            "date_range": null
+          },
+          {
+            "school": "Istituto Comprensivo “De Amicis”",
+            "degree_or_field": "High School Diploma",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "luxury",
+          "hospitality",
+          "planning",
+          "management",
+          "hotel",
+          "reservations",
+          "troubleshooting",
+          "strategy",
+          "food",
+          "citrix",
+          "scheduling",
+          "marketing",
+          "inspection",
+          "budgets",
+          "catering",
+          "payments",
+          "opera",
+          "sales",
+          "holidays",
+          "reports",
+          "proactive",
+          "pr",
+          "production",
+          "rates",
+          "yield",
+          "promotions",
+          "hotels",
+          "selling",
+          "brochures",
+          "coordination",
+          "training",
+          "servers",
+          "treatment",
+          "recording",
+          "customer service",
+          "time management",
+          "management skills",
+          "front office",
+          "business strategy",
+          "client retention",
+          "business plan",
+          "active listening",
+          "listening skills",
+          "floor plans",
+          "open table"
+        ],
+        "activity_themes": [
+          "Staff awards and recognition in hospitality",
+          "Employee farewells and transitions",
+          "New leadership appointments in London hotels",
+          "Career progression in events and sales management",
+          "Hotel Christmas staff parties and celebrations",
+          "Professional networking in hospitality industry"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/samvida-carolina-mahmud-45918b21a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T15:03:00.981198+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 1,
+    "attempted": 12,
+    "succeeded": 12,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T15:17:23.880444+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 13,
+      "structured": 13,
+      "discovered": 0,
+      "errors": 0
+    }
+  }
+}

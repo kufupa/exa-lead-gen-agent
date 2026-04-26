@@ -1,0 +1,475 @@
+{
+  "target_url": "https://www.15hatfields.com/",
+  "generated_at_utc": "2026-04-26T14:09:40.237873+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "min_output_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "retry_low_count": false,
+  "pre_filter_count": 15,
+  "post_filter_count": 12,
+  "low_count_reason": null,
+  "research_attempts": 1,
+  "usage": {
+    "prompt_tokens": 95523,
+    "cached_prompt_text_tokens": 77184,
+    "completion_tokens": 4799,
+    "reasoning_tokens": 8141,
+    "output_tokens": 0,
+    "total_tokens": 108463,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "usage_by_attempt": [
+    {
+      "completion_tokens": 4799,
+      "prompt_tokens": 95523,
+      "total_tokens": 108463,
+      "prompt_text_tokens": 95523,
+      "reasoning_tokens": 8141,
+      "cached_prompt_text_tokens": 77184,
+      "server_side_tools_used": [
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_X_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH"
+      ]
+    }
+  ],
+  "usage_summary": {
+    "xai_tools": {
+      "web_search": 17,
+      "x_search": 1
+    },
+    "xai_tool_invocations": 18
+  },
+  "cost_estimate": {
+    "approx_total_usd": 0.219755,
+    "token_component_usd": 0.129755,
+    "xai_tool_component_usd": 0.09,
+    "token_price_multiplier": 1.0,
+    "counts": {
+      "prompt_tokens": 95523,
+      "cached_prompt_text_tokens": 77184,
+      "completion_tokens": 4799,
+      "reasoning_tokens": 8141,
+      "total_tokens_reported": 108463,
+      "output_like_tokens": 12940,
+      "server_side_tool_invocations": 18,
+      "server_side_tool_usage": {
+        "web_search": 17,
+        "x_search": 1
+      },
+      "web_search_invocations_estimated": 17,
+      "x_search_invocations_estimated": 1
+    },
+    "rates_used": {
+      "input_usd_per_million_tokens": 2.0,
+      "output_usd_per_million_tokens": 6.0,
+      "cached_prompt_input_usd_per_million_tokens": 0.2,
+      "web_search_usd_per_1000_invocations": 5.0,
+      "x_search_usd_per_1000_invocations": 5.0,
+      "token_price_multiplier": 1.0
+    }
+  },
+  "cost_by_attempt": [
+    {
+      "approx_total_usd": 0.219755,
+      "token_component_usd": 0.129755,
+      "xai_tool_component_usd": 0.09,
+      "token_price_multiplier": 1.0,
+      "counts": {
+        "prompt_tokens": 95523,
+        "cached_prompt_text_tokens": 77184,
+        "completion_tokens": 4799,
+        "reasoning_tokens": 8141,
+        "total_tokens_reported": 108463,
+        "output_like_tokens": 12940,
+        "server_side_tool_invocations": 18,
+        "server_side_tool_usage": {
+          "web_search": 17,
+          "x_search": 1
+        },
+        "web_search_invocations_estimated": 17,
+        "x_search_invocations_estimated": 1
+      },
+      "rates_used": {
+        "input_usd_per_million_tokens": 2.0,
+        "output_usd_per_million_tokens": 6.0,
+        "cached_prompt_input_usd_per_million_tokens": 0.2,
+        "web_search_usd_per_1000_invocations": 5.0,
+        "x_search_usd_per_1000_invocations": 5.0,
+        "token_price_multiplier": 1.0
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "full_name": "Joe Harris",
+      "title": "Deputy General Manager",
+      "company": "15Hatfields",
+      "linkedin_url": null,
+      "email": "joe@15hatfields.com",
+      "email2": null,
+      "phone": "020 7928 6326",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main venue enquiries: 020 7827 5920 | info@15hatfields.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads venue operations, client services, event booking solutions and sustainable sourcing. Directly influences reservations processes, event distribution, guest/delegate communications and operational technology decisions including potential AI automation and revenue tech.",
+      "contact_evidence_summary": "Extensively featured on official team page with long bio; direct personal email and phone publicly listed in official Instagram trade show promotions alongside role; referenced in multiple venue news posts as key contact for tours and events.",
+      "evidence": [
+        {
+          "source_url": "https://www.15hatfields.com/why-choose-us/meet-our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact us for a tour with Joe Harris, our Deputy General Manager, who is here to help you with smart event solutions tailored to your needs. Started as part-time in 2012, became Client Services Manager then Deputy General Manager. Adopted role of 'sustainable sourcer'."
+        },
+        {
+          "source_url": "https://www.instagram.com/reel/DLFOKryCaiw/",
+          "source_type": "other",
+          "quote_or_fact": "Joe Harris Deputy General Manager joe@15hatfields.com 020 7928 6326"
+        },
+        {
+          "source_url": "https://www.15hatfields.com/news/2025/thank-you-for-joining-us-at-the-meeting-show-2025/",
+          "source_type": "official_site",
+          "quote_or_fact": "Joe Harris, Deputy General Manager. Kat Fortson and Joe Harris at the 15Hatfields stand."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Jon Flatman",
+      "title": "Sales Manager",
+      "company": "CIEH",
+      "linkedin_url": null,
+      "email": "jon.flatman@cieh.org",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "CIEH main contacts via cieh.org; supports 15Hatfields commercial activities",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Sales leadership role at the management organization (CIEH) operating 15Hatfields. Influences commercial strategy, client acquisition, revenue generation and training/compliance solutions that can extend to venue booking and revenue tech adoption.",
+      "contact_evidence_summary": "Listed with direct business email on official CIEH training experts / sales contact page with detailed responsibilities.",
+      "evidence": [
+        {
+          "source_url": "https://www.cieh.org/training-and-courses/contact-our-training-experts/",
+          "source_type": "official_site",
+          "quote_or_fact": "Jon Flatman, Sales Manager. jon.flatman@cieh.org. With over 15 years of experience at CIEH... supports new clients in identifying the most cost-effective, scalable training options."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Liam McCarthy",
+      "title": "Key Account Manager",
+      "company": "CIEH",
+      "linkedin_url": null,
+      "email": "liam.mccarthy@cieh.org",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "CIEH main contacts via cieh.org; supports 15Hatfields commercial activities",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Key account management at CIEH (operator of 15Hatfields) focused on hospitality sector clients, retention, commercial outcomes, and tailored solutions. Plausible influence on revenue operations, CRM, and tech-enabled client communications.",
+      "contact_evidence_summary": "Listed with direct business email on official CIEH training experts / sales contact page with detailed bio tying to hospitality and commercial results.",
+      "evidence": [
+        {
+          "source_url": "https://www.cieh.org/training-and-courses/contact-our-training-experts/",
+          "source_type": "official_site",
+          "quote_or_fact": "Liam McCarthy, Key Account Manager. liam.mccarthy@cieh.org. Since joining CIEH in 2018... driving client retention, expanding account value, and delivering measurable commercial and operational outcomes... hospitality, and facilities management."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Warren Campbell",
+      "title": "Former General Manager",
+      "company": "15Hatfields",
+      "linkedin_url": "https://uk.linkedin.com/in/warren-campbell-70078b9",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Historical contact via info@15hatfields.com (rocketreach references pattern w******@15hatfields.com)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Long-serving GM and sustainability champion with deep knowledge of venue commercial operations, revenue, events sales and tech needs (even post-departure, insights and network relevant for prospecting).",
+      "contact_evidence_summary": "Multiple official news articles and interviews as GM; LinkedIn confirms former role and tenure; recognized in industry Power 50 for green champions.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/warren-campbell-70078b9",
+          "source_type": "linkedin",
+          "quote_or_fact": "Warren Campbell. Formally - General Manager / Director at 15Hatfields... Left June..."
+        },
+        {
+          "source_url": "https://www.15hatfields.com/news/2023/15hatfields-general-manager-secures-a-place-in-micebook-s-power-50-green-champions/",
+          "source_type": "official_site",
+          "quote_or_fact": "15Hatfields' General Manager, Warren Campbell, has secured a place in micebook and Isla's Power 50 Green Champions."
+        },
+        {
+          "source_url": "https://rocketreach.co/warren-campbell-email_8075576",
+          "source_type": "directory",
+          "quote_or_fact": "Warren Campbell... General Manager at 15Hatfields (email pattern referenced)"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Nicole Thomas",
+      "title": "Venue Administration Assistant",
+      "company": "15Hatfields",
+      "linkedin_url": "https://uk.linkedin.com/in/nicole-thomas-96721759",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via main venue phone 020 7827 5920 or info@15hatfields.com; handles admin/reception for reservations",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Long-term administration and reception role supporting reservations, event coordination and delegate communications at the venue. Daily user of booking and CRM systems.",
+      "contact_evidence_summary": "Detailed profile on official Meet Our Team page; LinkedIn confirms 15Hatfields tenure since opening.",
+      "evidence": [
+        {
+          "source_url": "https://www.15hatfields.com/why-choose-us/meet-our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Nicole Thomas, Venue Administration Assistant. Started at CIEH in 2005... extended role from Reception to Administration Assistant for 15Hatfields... 'we are like a small family'."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/nicole-thomas-96721759",
+          "source_type": "linkedin",
+          "quote_or_fact": "Nicole Thomas at 15Hatfields."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Anna Westacott",
+      "title": "Director of Finance and Corporate Services",
+      "company": "CIEH",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via CIEH executive or general contact channels on cieh.org",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees finance and corporate services at CIEH including 15Hatfields. Influences budgeting for tech investments, revenue management, operational efficiency and potential AI/revenue tools.",
+      "contact_evidence_summary": "Official executive management team page detailing recent appointment and relevant experience.",
+      "evidence": [
+        {
+          "source_url": "https://www.cieh.org/about-us/who-we-are/executive-management-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Anna Westacott, Director of Finance and Corporate Services. Joined CIEH in August 2024. Qualified chartered accountant... focusing on change and improvement plans."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Justin Turner",
+      "title": "Executive Director of Commercial and Digital Innovation",
+      "company": "CIEH",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via CIEH executive contacts or general enquiries on cieh.org; oversees 15Hatfields operations",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Directly responsible for commercial strategy and digital innovation across CIEH including the 15Hatfields venue. Ideal stakeholder for revenue-tech, AI booking automation, systems integration, CRM and digital guest journey enhancements.",
+      "contact_evidence_summary": "Official CIEH executive management team page with full bio highlighting digital, commercial, operations and IT background.",
+      "evidence": [
+        {
+          "source_url": "https://www.cieh.org/about-us/who-we-are/executive-management-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Justin Turner, Executive Director of Commercial and Digital Innovation. Joined CIEH in 2007... appointed Executive Director of Commercial and Digital Innovation in 2023. Utilises his previous experience [IT] to drive change across the organisation."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Fran McCloskey",
+      "title": "Chief Executive Officer",
+      "company": "CIEH",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via CIEH executive or general contact channels on cieh.org",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "CEO of the organization owning and operating 15Hatfields. Strategic oversight of commercial performance, innovation, digital transformation and all venue operations including tech adoption for revenue and booking.",
+      "contact_evidence_summary": "Official executive management team page with professional bio.",
+      "evidence": [
+        {
+          "source_url": "https://www.cieh.org/about-us/who-we-are/executive-management-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Fran McCloskey, Chief Executive Officer. Joined CIEH in 2022. Qualified chartered accountant with over 20 years in the charity sector..."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Katherine Fortson",
+      "title": "Growth Marketing Manager",
+      "company": "15Hatfields",
+      "linkedin_url": "https://uk.linkedin.com/in/katherinefortson",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Enquiries via info@15hatfields.com or main line 020 7827 5920; attends industry events representing venue",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads growth marketing for the venue including digital campaigns, delegate communications, event promotion and likely involvement in CRM or messaging platforms that could benefit from AI automation.",
+      "contact_evidence_summary": "Featured in official 15Hatfields news and Instagram posts promoting trade show presence alongside senior team; LinkedIn confirms CIEH/15Hatfields marketing role.",
+      "evidence": [
+        {
+          "source_url": "https://www.15hatfields.com/news/2025/thank-you-for-joining-us-at-the-meeting-show-2025/",
+          "source_type": "official_site",
+          "quote_or_fact": "Kat Fortson, Growth Marketing Manager. Kat joined the team in January, bringing her experience in events at professional services."
+        },
+        {
+          "source_url": "https://www.instagram.com/reel/DLFOKryCaiw/",
+          "source_type": "other",
+          "quote_or_fact": "Kat Fortson – Growth Marketing Manager"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/katherinefortson",
+          "source_type": "linkedin",
+          "quote_or_fact": "Katherine Fortson, The Chartered Institute of Environmental Health (CIEH/15Hatfields marketing)"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Mark Perrett",
+      "title": "Venue Supervisor",
+      "company": "15Hatfields",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via main venue phone 020 7827 5920 or info@15hatfields.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Supervises venue operations and events delivery with strong emphasis on sustainability and client experience. Involved in day-to-day execution of booking and guest journey processes.",
+      "contact_evidence_summary": "Profiled on official Meet Our Team page with bio; featured in trade show team promotions on Instagram and news.",
+      "evidence": [
+        {
+          "source_url": "https://www.15hatfields.com/why-choose-us/meet-our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Mark Perrett, Venue Supervisor. Started in 2018... knowledge of the events industry... sustainable principles that we embody."
+        },
+        {
+          "source_url": "https://www.instagram.com/reel/DLFOKryCaiw/",
+          "source_type": "other",
+          "quote_or_fact": "Mark Perrett – Venue Supervisor (part of trade show team with Joe Harris and Kat Fortson)"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Liam Tadman",
+      "title": "Venue Supervisor",
+      "company": "15Hatfields",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via main venue phone 020 7827 5920 or info@15hatfields.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Venue supervisor role involving event delivery, facilities and operations. Touches execution of guest experience, sustainability practices and operational systems tied to bookings.",
+      "contact_evidence_summary": "Profiled on official Meet Our Team page detailing promotion to Supervisor in 2024 and focus on community/sustainability.",
+      "evidence": [
+        {
+          "source_url": "https://www.15hatfields.com/why-choose-us/meet-our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Liam Tadman, Venue Supervisor. Joined in 2022 as Facilities and Venue Assistant; promoted in January 2024 to Venue Supervisor. 'We’re a community here and this brings energy to our work'."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Catherine Anne Elizabeth Horsfield",
+      "title": "Director",
+      "company": "15Hatfields Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Via Companies House filings or venue main contacts",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Director of the legal entity operating the venue. Plausible governance-level influence over commercial strategy, investments in revenue tech and operational automation.",
+      "contact_evidence_summary": "Companies House filing history lists her as director with updates; tied to 15Hatfields Limited.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/06614430/filing-history",
+          "source_type": "directory",
+          "quote_or_fact": "15HATFIELDS LIMITED... Director's details changed for Catherine Anne Elizabeth Horsfield on 9 June 2010."
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}

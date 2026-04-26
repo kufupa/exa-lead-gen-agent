@@ -105,8 +105,6 @@ def contact_enrichment_meta(data: dict[str, Any]) -> dict[str, Any] | None:
         "mode": ce.get("mode"),
         "model": ce.get("model"),
         "concurrency": ce.get("concurrency"),
-        "batch_id": ce.get("batch_id"),
-        "xai_batch_token_multiplier": ce.get("xai_batch_token_multiplier"),
         "skipped_pre_enrichment": ce.get("skipped_pre_enrichment"),
         "attempted": ce.get("attempted"),
         "succeeded": ce.get("succeeded"),

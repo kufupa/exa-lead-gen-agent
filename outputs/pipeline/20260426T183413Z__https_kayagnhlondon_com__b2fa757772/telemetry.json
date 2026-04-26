@@ -1,0 +1,299 @@
+{
+  "stages": [
+    {
+      "stage": "grok_discovery",
+      "provider": "xai",
+      "calls": 1,
+      "tokens_in": 89543,
+      "tokens_out": 10515,
+      "estimated_usd": 0.241213,
+      "seconds": 85.66704999999638,
+      "notes": [
+        "grok-4.20-reasoning discovery"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 3.627041299994744,
+      "notes": [
+        "146fa45800a9"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.7204162000052747,
+      "notes": [
+        "549a033ff143"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 3.409481799993955,
+      "notes": [
+        "b141618e28f5"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.7591291999997338,
+      "notes": [
+        "c80ac66453d0"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.6749502000020584,
+      "notes": [
+        "3a9f40b35da0"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.210771600002772,
+      "notes": [
+        "6360e54502cc"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.855072799997288,
+      "notes": [
+        "10bd60b7242c"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.9940762000042014,
+      "notes": [
+        "6048ee7b7699"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.10961629999656,
+      "notes": [
+        "c2072b4de3ca"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.7931807999993907,
+      "notes": [
+        "4db7d038568f"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.8992553999996744,
+      "notes": [
+        "39b798cc7b6e"
+      ]
+    },
+    {
+      "stage": "exa_verify:person_verify",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.807683899998665,
+      "notes": [
+        "0ec1d522cbf7"
+      ]
+    },
+    {
+      "stage": "exa_fetch",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.001,
+      "seconds": 0.9997743999992963,
+      "notes": [
+        "https://patch.com/connecticut/norwalk/maritime-aquarium-welcomes-new-harbor-seal"
+      ]
+    },
+    {
+      "stage": "exa_fetch",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.001,
+      "seconds": 0.9459223000012571,
+      "notes": [
+        "https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d4053933-r883440529-Great_"
+      ]
+    },
+    {
+      "stage": "exa_fetch",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.001,
+      "seconds": 10.898489300001529,
+      "notes": [
+        "https://www.tripadvisor.com/ShowUserReviews-g186338-d4053933-r1040244359-Kaya_Gr"
+      ]
+    },
+    {
+      "stage": "exa_fetch",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.001,
+      "seconds": 0.8904336999985389,
+      "notes": [
+        "https://gnhlondon.com/about/history-heritage/"
+      ]
+    },
+    {
+      "stage": "exa_fetch",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.001,
+      "seconds": 0.8745462000006228,
+      "notes": [
+        "https://www.travelweekly.com/Hotels/London/Kaya-Great-Northern-Hotel-p60598641"
+      ]
+    },
+    {
+      "stage": "exa_fetch",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.001,
+      "seconds": 0.8957643000030657,
+      "notes": [
+        "https://hotelrez.com/kaya-great-northern-hotel-embarks-on-new-chapter-in-partner"
+      ]
+    },
+    {
+      "stage": "exa_fetch",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.001,
+      "seconds": 0.8929654999956256,
+      "notes": [
+        "https://gnhlondon.com/about/history-heritage/"
+      ]
+    },
+    {
+      "stage": "exa_fetch",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.001,
+      "seconds": 0.938524299999699,
+      "notes": [
+        "https://rocketreach.co/diogo-felicio-email_350530693"
+      ]
+    },
+    {
+      "stage": "contact_route_site",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.098705299998983,
+      "notes": []
+    },
+    {
+      "stage": "contact_route_site",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.6554544000027818,
+      "notes": []
+    },
+    {
+      "stage": "contact_route_site",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.8115843000050518,
+      "notes": []
+    },
+    {
+      "stage": "contact_route_site",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.920050299995637,
+      "notes": []
+    }
+  ],
+  "exa_search_requests": 16,
+  "exa_content_pages": 8,
+  "errors": []
+}

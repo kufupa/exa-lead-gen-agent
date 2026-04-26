@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Run hotel research + enrichment for many URLs with concurrency; commit to fullJSONs under a single file lock."""
+"""Run hotel research + enrichment (+ LinkedIn Exa phase by default) for many URLs; commit to fullJSONs under a single file lock.
+
+Set LINKEDIN_ENRICH=0 (or false/no/off/disabled) to skip phase 3.
+"""
 
 from __future__ import annotations
 
@@ -14,6 +17,14 @@ from pathlib import Path
 from hotel_decision_maker_research import default_json_path_from_url
 from lead_aggregates.store import AggregatesStore
 from lead_aggregates.urls import canonical_hotel_url
+
+
+def _linkedin_enrich_enabled() -> bool:
+    """Run phase 3 (LinkedIn Exa script) unless LINKEDIN_ENRICH is explicitly disabled."""
+    v = os.environ.get("LINKEDIN_ENRICH", "").strip().lower()
+    if not v:
+        return True
+    return v not in ("0", "false", "no", "off", "disabled")
 
 
 def _read_urls_file(path: Path) -> list[str]:
@@ -51,13 +62,8 @@ def _run_one(
     *,
     root: Path,
     store: AggregatesStore,
-    agent_count: int,
     skip_if_enriched: bool,
-    phase2_mode: str = "realtime",
     phase2_model: str | None = None,
-    phase2_batch_chunk_size: int = 50,
-    phase2_batch_resume: bool = False,
-    phase2_batch_max_wait_sec: float = 0.0,
     run_claim: str | None = None,
     phase1_timeout_sec: float = 0.0,
     phase2_timeout_sec: float = 0.0,
@@ -101,8 +107,6 @@ def _run_one(
                 str(research),
                 "--out-csv",
                 str(csv_path),
-                "--agent-count",
-                str(agent_count),
             ],
             cwd=root,
             env=env,
@@ -149,26 +153,10 @@ def _run_one(
         str(research),
         "--out-json",
         str(enriched),
-        "--mode",
-        phase2_mode,
         "--pretty",
     ]
     if phase2_model:
         r2_cmd.extend(["--model", phase2_model])
-    if phase2_mode == "batch":
-        checkpoint = enriched.parent / (enriched.stem + ".phase2_batch.checkpoint.json")
-        r2_cmd.extend(
-            [
-                "--batch-chunk-size",
-                str(max(1, phase2_batch_chunk_size)),
-                "--checkpoint",
-                str(checkpoint),
-            ]
-        )
-        if phase2_batch_resume:
-            r2_cmd.append("--resume")
-        if phase2_batch_max_wait_sec > 0:
-            r2_cmd.extend(["--batch-max-wait-sec", str(phase2_batch_max_wait_sec)])
 
     try:
         r2 = subprocess.run(
@@ -211,7 +199,7 @@ def _run_one(
         )
         return canon, f"failed enrichment: {r2.returncode}"
 
-    if os.environ.get("LINKEDIN_ENRICH", "").strip().lower() in ("1", "true", "yes"):
+    if _linkedin_enrich_enabled():
         p3 = _phase3_script(root)
         if not p3.is_file():
             print(
@@ -267,34 +255,10 @@ def main() -> int:
     p.add_argument("--workers", type=int, default=4)
     p.add_argument("--jsons-dir", type=Path, default=Path("jsons"))
     p.add_argument("--fulljsons-dir", type=Path, default=Path("fullJSONs"))
-    p.add_argument("--agent-count", type=int, default=16)
-    p.add_argument(
-        "--phase2-mode",
-        choices=["realtime", "batch"],
-        default="realtime",
-        help="Phase 2 mode for hotel_contact_enrichment.py (default: realtime)",
-    )
     p.add_argument(
         "--phase2-model",
         default=None,
         help="Optional model override for phase 2 (default: contact_enrichment default)",
-    )
-    p.add_argument(
-        "--phase2-batch-chunk-size",
-        type=int,
-        default=50,
-        help="Phase 2 batch add chunk size when --phase2-mode batch (default: 50)",
-    )
-    p.add_argument(
-        "--phase2-batch-resume",
-        action="store_true",
-        help="Resume phase 2 batch from checkpoint if present (batch mode only)",
-    )
-    p.add_argument(
-        "--phase2-batch-max-wait-sec",
-        type=float,
-        default=0.0,
-        help="Max wall time for xAI batch polling in phase 2 (0 = use contact_enrichment default; batch mode only)",
     )
     p.add_argument(
         "--phase1-timeout-sec",
@@ -340,13 +304,8 @@ def main() -> int:
                 u,
                 root=root,
                 store=store,
-                agent_count=args.agent_count,
                 skip_if_enriched=args.skip_if_enriched,
-                phase2_mode=args.phase2_mode,
                 phase2_model=(args.phase2_model.strip() if args.phase2_model else None),
-                phase2_batch_chunk_size=args.phase2_batch_chunk_size,
-                phase2_batch_resume=args.phase2_batch_resume,
-                phase2_batch_max_wait_sec=args.phase2_batch_max_wait_sec,
                 phase1_timeout_sec=args.phase1_timeout_sec,
                 phase2_timeout_sec=args.phase2_timeout_sec,
                 phase3_timeout_sec=args.phase3_timeout_sec,

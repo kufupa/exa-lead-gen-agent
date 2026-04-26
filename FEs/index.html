@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRM Front-End Preview</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="crm-shell">
+    <header class="app-header">
+      <h1>CRM Front-End Preview</h1>
+      <p id="summaryText">Loading local JSON source…</p>
+    </header>
+
+    <section class="layout">
+      <aside class="panel left-panel">
+        <div id="hotelsRoot" class="hotels-list" aria-live="polite"></div>
+      </aside>
+
+      <section class="panel right-panel">
+        <div id="emptyState" class="empty-state">
+          Choose a contact to view details.
+        </div>
+
+        <article id="contactPanel" class="contact-panel hidden">
+          <header class="contact-header">
+            <div class="title-block">
+              <h2 id="contactName">—</h2>
+              <p id="contactMeta" class="muted">—</p>
+            </div>
+            <button id="markContactBtn" type="button" class="ghost-btn">Mark done</button>
+          </header>
+
+          <section class="contact-block">
+            <h3>Notes</h3>
+            <textarea id="notesText" rows="6" placeholder="Type local notes for this contact"></textarea>
+            <div class="notes-actions">
+              <button id="notesSaveBtn" type="button" class="ghost-btn">Save</button>
+              <button id="notesDiscardBtn" type="button" class="ghost-btn">Discard</button>
+            </div>
+          </section>
+
+          <section class="contact-block">
+            <p><strong>Primary intimate detail:</strong> <span id="primaryHandle" class="copy"></span></p>
+            <p><strong>Hotel:</strong> <a id="contactHotel" href="#" target="_blank" rel="noopener noreferrer">—</a></p>
+            <p><strong>Title:</strong> <span id="contactTitle">—</span></p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a id="linkedinLink" href="#" target="_blank" rel="noopener noreferrer">not set</a>
+            </p>
+          </section>
+
+          <section class="contact-block">
+            <h3>Contact details</h3>
+            <p><strong>Phones:</strong> <span id="phones">—</span></p>
+            <p><strong>Emails:</strong> <span id="emails">—</span></p>
+            <p><strong>Other contact detail:</strong> <span id="otherDetail">—</span></p>
+          </section>
+
+          <section class="contact-block">
+            <h3>Enrichment (pretty)</h3>
+            <p><strong>Fit reason:</strong> <span id="fitReason">—</span></p>
+            <p><strong>Evidence summary:</strong> <span id="evidenceSummary">—</span></p>
+            <div id="evidenceListWrapper">
+              <p class="muted">Evidence:</p>
+              <ul id="evidenceList"></ul>
+            </div>
+          </section>
+
+          <section class="contact-block">
+            <h3>Source payload</h3>
+            <pre id="sourcePayload"></pre>
+          </section>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -79,16 +79,3 @@ def test_merge_xai_usage_dicts_sums_tokens_and_tools() -> None:
     assert m["completion_tokens"] == 10
     assert m["reasoning_tokens"] == 5
 
-
-def test_estimate_xai_cost_token_price_multiplier() -> None:
-    usage = {"prompt_tokens": 1_000_000, "completion_tokens": 0, "reasoning_tokens": 0, "server_side_tools_used": []}
-    full = estimate_xai_cost(usage, rates=XaiRates(input_usd_per_mtok=2.0, output_usd_per_mtok=6.0, cached_input_usd_per_mtok=0.2))
-    half = estimate_xai_cost(
-        usage,
-        rates=XaiRates(input_usd_per_mtok=2.0, output_usd_per_mtok=6.0, cached_input_usd_per_mtok=0.2),
-        token_price_multiplier=0.5,
-    )
-    assert full["token_component_usd"] == 2.0
-    assert half["token_component_usd"] == 1.0
-    assert half["rates_used"]["token_price_multiplier"] == 0.5
-

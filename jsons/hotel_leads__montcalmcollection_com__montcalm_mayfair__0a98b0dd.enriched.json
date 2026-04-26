@@ -1,0 +1,835 @@
+{
+  "target_url": "https://montcalmcollection.com/montcalm-mayfair",
+  "generated_at_utc": "2026-04-25T14:49:31.774015+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 4237,
+    "prompt_tokens": 66218,
+    "total_tokens": 78397,
+    "prompt_text_tokens": 66218,
+    "reasoning_tokens": 7942,
+    "cached_prompt_text_tokens": 36800,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Tamas Jurca",
+      "title": "Area General Manager / General Manager",
+      "company": "Montcalm Collection / Montcalm Mayfair",
+      "linkedin_url": "https://uk.linkedin.com/in/tamas-jurca-70aa0728",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7958 3200",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Directly responded to guest reviews as GM of Montcalm Mayfair; use main hotel line for property-level ops, reservations or revenue queries.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Property and area leadership with direct influence over reservations, revenue strategy, guest journey and systems at the flagship Montcalm Mayfair.",
+      "contact_evidence_summary": "LinkedIn profile, TripAdvisor review responses as General Manager, RocketReach and news mentions confirming current Montcalm Collection role. Property phone publicly listed and tied to him via responses. No personal email found.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/tamas-jurca-70aa0728",
+          "source_type": "linkedin",
+          "quote_or_fact": "Area General Manager / General Manager experience at Montcalm Collection."
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d192069-r878237121-Montcalm_Marble_Arch-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Tamas Jurca, General Manager at Montcalm Mayfair, responded to this review."
+        },
+        {
+          "source_url": "https://montcalmcollection.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Montcalm Mayfair Hotel Enquiries: +44 (0)20 7958 3200."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/tamas-jurca-70aa0728",
+        "display_name": "Tamas Jurca",
+        "headline": "Area General Manager at Montcalm Collection",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Experienced General Manager with a solid history in the luxury hospitality industry. Skilled in Rooms, Food & Beverage, Spa, Operations Management, Hotel Management and leading strong teams. Hotel professional with a Bachelor's degree focused in Hotel Management and Tourism.\n\nTotal Experience: 19 years and 2 months",
+        "experience": [
+          {
+            "title": "Bellperson",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "May 2004 - Dec 2004",
+            "location": "Budapest",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Night Auditor",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Dec 2004 - Oct 2005",
+            "location": "Budapest",
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Front Office Agent, Concierge Supervisor",
+            "organization": "Sofitel Luxury Hotels and Resorts",
+            "date_range": "Feb 2008 - Nov 2009",
+            "location": null,
+            "description": "Sofitel Budapest"
+          },
+          {
+            "title": "Front Office Agent",
+            "organization": "Sofitel Luxury Hotels and Resorts",
+            "date_range": "Dec 2009 - May 2010",
+            "location": null,
+            "description": "Sofitel St,James London"
+          },
+          {
+            "title": "Front Office Supervisor",
+            "organization": "Hotel Verta, Battersea Heliport",
+            "date_range": "Jul 2010 - Dec 2010",
+            "location": null,
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Front Of House Duty Manager",
+            "organization": "Hotel Verta, Battersea Heliport",
+            "date_range": "Dec 2010 - Sep 2011",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Duty Manager - Assistant Front Office Manager",
+            "organization": "The Westbury Hotel",
+            "date_range": "Sep 2011 - Nov 2012",
+            "location": "London Mayfair",
+            "description": null
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "Alexander Hotels Collection",
+            "date_range": "Nov 2012 - Dec 2015",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Hotel Operations Manager",
+            "organization": "The Wellesley",
+            "date_range": "Dec 2015 - May 2017",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Alexander Hotels Collection",
+            "date_range": "May 2017 - Jan 2019",
+            "location": "West Sussex, United Kingdom, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Alexander Hotels Collection",
+            "date_range": "Jan 2019 - Apr 2024",
+            "location": "West Sussex, United Kingdom, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Chairman",
+            "organization": "Gatwick Hotels Association",
+            "date_range": "Mar 2023 - Apr 2024",
+            "location": "London Gatwick Airport, England, United Kingdom",
+            "description": "Department: C-Suite • Level: C-Level"
+          },
+          {
+            "title": "Area General Manager",
+            "organization": "Montcalm Collection",
+            "date_range": "Apr 2024 - Present",
+            "location": "London",
+            "description": "Department: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Cornell University",
+            "degree_or_field": "General Managers Program Hotel/Motel Administration/Management",
+            "date_range": "2021 - 2022"
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "operations management",
+          "hotel management",
+          "front office",
+          "luxury",
+          "hospitality",
+          "food",
+          "spa",
+          "operations",
+          "management",
+          "hotel",
+          "tourism"
+        ],
+        "activity_themes": [
+          "Luxury hotel features and media coverage",
+          "Sustainability in hospitality design and awards",
+          "Hospitality industry events and networking",
+          "Hotel rebranding and expansions",
+          "Professional leadership and qualifications in hospitality",
+          "Hotel awards and team recognition"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/tamas-jurca-70aa0728"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Kelly Vo",
+      "title": "Guest Experience Manager",
+      "company": "Montcalm Mayfair, Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/kelly-hanhvo",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7958 3200",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Signs numerous public guest review responses on TripAdvisor and Marriott sites; main hotel line reaches guest experience / CRM team.",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct ownership of guest experience, review responses, messaging and CRM processes; strong fit for guest messaging automation and digital guest journey tech.",
+      "contact_evidence_summary": "LinkedIn profile + dozens of signed public responses on TripAdvisor/Marriott tying her name and title directly to the role at Montcalm Mayfair. Property phone listed on official site. High intimacy due to repeated public role confirmation.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/kelly-hanhvo",
+          "source_type": "linkedin",
+          "quote_or_fact": "Guest Experience Manager at Montcalm Collection / Montcalm Mayfair."
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d192069-r1046706149-Montcalm_Mayfair-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Kind regards, Kelly Vo Guest Experience Manager (multiple similar responses)."
+        },
+        {
+          "source_url": "https://montcalmcollection.com/montcalm-mayfair",
+          "source_type": "official_site",
+          "quote_or_fact": "Montcalm Mayfair contact tied to guest experience operations."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/kelly-hanhvo",
+        "display_name": "Kelly Vo",
+        "headline": "Guest Experience Manager (Pre-opening) at Montcalm Collection",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I am a Hospitality Management professional with a great passion for the Luxury Hotel Industry. I am highly motivated to learn, take on new challenges and provide excellent customer service \"from the heart\" by applying highest level of standards such as FORBES, AA, LQA... My professionalism, skills and confidence have been built through a broad range of industry-related working experience in Front Desk, Guest relations, Reservations and F&B.\n\nTotal Experience: 9 years and 3 months",
+        "experience": [
+          {
+            "title": "Administrative Assistant",
+            "organization": "Insmart Company Ltd.",
+            "date_range": "Jun 2016 - Sep 2016",
+            "location": "Vietnam",
+            "description": "I was familiarised with basic computing skills such a Microsoft Office, fast typing, sorting insurances application and inserting information through SAP system"
+          },
+          {
+            "title": "Student Representative",
+            "organization": "Study Group",
+            "date_range": "Oct 2016 - Jun 2017",
+            "location": "London, United Kingdom",
+            "description": "This was my first year in England. I overcame cultural differences and language barriers to take on my first leadership role. My task includes: - Representing the students to raise the school Board of Committee awareness, being the link of exchanging information between the students and teachers - Collecting students feedbacks, listening to their enquiries, observing any issues among the students and approaching them to find the best solutions - Monthly meeting with the teachers to share new innovative ideas and feedbacks from the students"
+          },
+          {
+            "title": "Guest Relations Officer",
+            "organization": "JW Marriott Hanoi",
+            "date_range": "Jun 2017 - Aug 2017",
+            "location": "Vietnam",
+            "description": "I was the first Guest Relations Officer in the hotel and was assigned to look after VIP guests in the Executive Lounge. My daily duties were: - Setting up table and breakfast counters - Check on the presentation, cleanliness and food quality - Meeting and greeting guests during breakfast, afternoon tea and bottomless cocktail dinner - Supervising the service and attending to guests' requests, supporting my team during busy operations - Ensuring all the guests were happy with their stay and reporting back to Executive Lounge Manager if there is any issue - Giving out TripAdvisor cards and taking feedbacks on behalf of the hotel"
+          },
+          {
+            "title": "Waitress",
+            "organization": "Pho Restaurant",
+            "date_range": "Sep 2017 - Jun 2018",
+            "location": "Oxford, United Kingdom",
+            "description": "A part-time role while studying full time in University. With previous experience in waitressing and general food handling, I built up on other skills such as customer service, communication, problem-solving, working under pressure and teamwork. I also rotated around different areas: - Front of house: waitress, hostess - Bar: stewarding, bartender, training of different kind of drinks - Kitchen: food preparation, quality check, food serving, stock check"
+          },
+          {
+            "title": "Kitchen Restaurant Trainee",
+            "organization": "Brookes Restaurant",
+            "date_range": "Sep 2017 - May 2018",
+            "location": "Oxford, United Kingdom",
+            "description": "I gained knowledge in wine tasting, wine pairing, health and safety, menu planning. I spent my time to learn the basics of restaurant operations in both front and back of house, where I practiced waitressing, bartending, hostess and commis chef. - Setting up tables, preparing before lunch service - Serving table of 1 to 30 guests - Making drinks and preparing cocktail of the days - Learning new menu - Preparing, cooking and presenting food in different sections - starters, mains and desserts, under supervision of the head chef. I was able to build on my teamwork and communication skills. I also learn to take responsibility, problem-solving and time-managing skills, all those that are important for my future career."
+          },
+          {
+            "title": "Guest Relations Officer",
+            "organization": "Shangri-La Hotel, At The Shard, London",
+            "date_range": "Jun 2018 - Aug 2019",
+            "location": "London, United Kingdom",
+            "description": "1-year placement programme where I worked in a full-time position as a Guest Relations Officer. I was introduced to Hotel Operating Systems such as OPERA, ALICE, Connect, TrustYou... I also perfected Forbes training standards, including arrival, departure, guest handlings and communication. I was able to develop various abilities, technical and interpersonal skills through different duties: - Customer service, listening: exchanging guests email pre, during and post-stay, arranging amenities for different purposes of stay, answering phone calls, in-room check-in and special care for VIP guests (FHR, Diamond/ Jade member, CEOs...). - Decision-making, problem-solving, resilient and empathy: dealing with guests' requests and complaints, reporting back to my Guest Relations Manager. - Attention to details: decorating rooms and events to the highest standards. - Computing, Microsoft office, analytical: analysing daily VIP report, arrival report 7 to 1 days before guests' arrivals. - Teamwork, communication, flexibility: cooperating with different internal departments daily such as Housekeeping, In-room dining, Concierge and Marketing, as well as external such as Travel Agents. My tasks also cover Receptionist with check-in, check-out, room assignment, dealing with payment, billing, guests' complaints, updating profile and credit checks. I also took initiative to learn and cross-trained in various departments such as Finance, Communication, Reservation, Housekeeping, Events and Restaurant. I was willing to cover shifts for many positions such as Restaurant/Bar hostess, In-room dining server, Housekeeping attendance and Concierge. I have gained a lot of experience during this time and achieved monthly rewards for excellent customer services and reviews."
+          },
+          {
+            "title": "Guest Relations Coordinator",
+            "organization": "Shangri-La Hotel, At The Shard, London",
+            "date_range": "Sep 2019 - May 2021",
+            "location": "London, England, United Kingdom",
+            "description": "After finishing my placement year, I got a new contract with the company for a part-time Guest Relations Officer position. Through commitment and self-management, I can balance between my full-time study at University and working on the weekends, usually during the busiest operation as I can work well under pressure while still maintain excellent service and standards. With my previous experience in the same role, I continue to build on important skills: - Communication, listening, teamwork and professionalism: in charge of coordinating my colleagues, working as a team to deliver pleasant and smooth stays to our guests. - Task delegation, multi-tasking, organizing: distribute daily tasks, handle phone calls/ emails, arrival reports, as well as assist the front desk with check-in/out during rush hours. - Flexibility and adaptability: I cover shifts for Receptionist, In-room dining server and Housekeeping when needed."
+          },
+          {
+            "title": "Reservations Agent (Pre-opening)",
+            "organization": "The NoMad Hotel London",
+            "date_range": "Apr 2021 - Jul 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Desk Supervisor (Pre-opening)",
+            "organization": "Pan Pacific London",
+            "date_range": "Aug 2021 - Jul 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Services Manager",
+            "organization": "Pan Pacific London",
+            "date_range": "Jul 2022 - Jan 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Experience Manager (Pre-opening)",
+            "organization": "Montcalm Collection",
+            "date_range": "Jan 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Coventry University London",
+            "degree_or_field": "Foundation degree, Accounting and Business/Management",
+            "date_range": "2016 - 2017"
+          },
+          {
+            "school": "Oxford Brookes University",
+            "degree_or_field": "Bachelor's Degree with First Class Honours, Hospitality Administration/Management",
+            "date_range": "2017 - 2021"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://uk.linkedin.com/in/kelly-hanhvo"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Luis Nuñez",
+      "title": "Director of Food & Beverage",
+      "company": "Montcalm Collection Mayfair",
+      "linkedin_url": "https://uk.linkedin.com/in/luis-nu%C3%B1ez-a390aa16",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7958 3200",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "F&B leadership at flagship property; main hotel line reaches F&B/guest experience teams.",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees F&B operations which intersect with guest comms, experience, upselling and CRM at the property; adjacent but plausible stakeholder for guest messaging tech.",
+      "contact_evidence_summary": "LinkedIn announcement of appointment as Director of Food & Beverage for The Montcalm Collection Mayfair. Property phone listed officially. Limited additional contact details.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/luis-nu%C3%B1ez-a390aa16",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Food & Beverage for The Montcalm Collection Mayfair."
+        },
+        {
+          "source_url": "https://montcalmcollection.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Montcalm Mayfair: +44 (0)20 7958 3200."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/luis-nu%C3%B1ez-a390aa16",
+        "display_name": "Luis Nuñez",
+        "headline": "Director Food & Beverage Montcalm Collection Mayfair - London",
+        "location": "London, England, United Kingdom",
+        "about": "I am an extremely self-motivated individual, I feel and believe the most rewarding aspect of this industry is developing, empowering and leading people, working towards a greater customer experience. Working in a Hotel can be complex and survival depends on thinking and acting strategically. My main objective is driving the business and my team forward, while planning ahead is imperative I am flexible enough to accommodate innovation; flexible enough to encourage new ideas and overall objectives are not compromised but enhanced. I like think strategically, this allows me to see problems before they arise, to see the big picture and to understand all of the key interacting elements.\n\nTotal Experience: 22 years and 10 months",
+        "experience": [
+          {
+            "title": "Food And Beverage Manager",
+            "organization": "COMO Hotels and Resorts",
+            "date_range": "Nov 2001 - Aug 2012",
+            "location": "The Halkin",
+            "description": null
+          },
+          {
+            "title": "Director Of Food Beverage",
+            "organization": "Puente Romano, Marbella",
+            "date_range": "Sep 2012 - Sep 2013",
+            "location": "Marbella, Spain",
+            "description": "Opened the Hotel New Beach Front Restaurant Sea Grill, with open kitchens and two bars."
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Radisson Hotel Group",
+            "date_range": "Nov 2013 - Jan 2018",
+            "location": "Heathrow",
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "ME London Hotel",
+            "date_range": "Mar 2019 - Dec 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Birch",
+            "date_range": "Oct 2022 - Dec 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Head Of F B",
+            "organization": "Tudor Hotels Collection",
+            "date_range": "Dec 2023 - Sep 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "University Arms, Cambridge",
+            "date_range": "Sep 2024 - Present",
+            "location": "Cambridge, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Montcalm Collection",
+            "date_range": "Aug 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "I am delighted to share my next appointment as Director of Food & Beverage for The Montcalm Collection Mayfair. The Montcalm Mayfair has recently been sensitively refreshed by architects Holland Harvey, with interiors by Studio Mica & Studio Est. Featuring a new signature restaurant, Lilli by Akira Back alongside a dapper lounge bar, a beautiful private room called Bloom and a Grand Ballroom up to 320 guests, perfect for large scale events and celebrations. I am looking forward to join the team."
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Westminster",
+            "degree_or_field": "HCIMA Diploma Hotel Management",
+            "date_range": "1994 - 1995"
+          },
+          {
+            "school": "Imperial College London",
+            "degree_or_field": "Executive Accelerator Management Programme",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "self motivated",
+          "customer experience",
+          "hotel",
+          "acting",
+          "driving",
+          "planning",
+          "flexible",
+          "innovation",
+          "director",
+          "food",
+          "p",
+          "less",
+          "interiors"
+        ],
+        "activity_themes": [
+          "Luxury hotel renovations and modern hospitality concepts at Montcalm Mayfair",
+          "F&B innovation and signature restaurant promotions (Lilli by Akira Back)",
+          "Hospitality leadership, culture, and brand ambassador programs",
+          "Awards and recognition in the hotel industry (Hotelier of the Year)",
+          "Industry podcasts and media featuring hoteliers",
+          "Competitive differentiation through identity and guest experience in hotels"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/luis-nu%C3%B1ez-a390aa16"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Ankur",
+      "title": "General Manager (historical reference)",
+      "company": "Montcalm London / Mayfair",
+      "linkedin_url": "https://www.linkedin.com/in/ankur-bakshi-13481b5a",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7958 3200",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Referenced in guest reviews as General Manager; use current main line for any follow-up with current GM team.",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Historical GM role at related Montcalm property; general leadership relevance to operations and reservations. Included to broaden list per ICP adjacent guidance as public senior names are limited.",
+      "contact_evidence_summary": "TripAdvisor review response references 'Ankur b. General Manager'. Combined with overall scarcity of 20+ distinct public names for junior ICP roles (reservations, digital, marketing), this and brand-level names were prioritized. Current GM is Tamas Jurca. No email.",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d192069-r704533952-The_Montcalm_London_Marble_Arch-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Thank you once again, Ankur b. General Manager."
+        },
+        {
+          "source_url": "https://montcalmcollection.com/contact-us/",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Enquiries phone for routing to management."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ankur-bakshi-13481b5a",
+        "display_name": "Ankur Bakshi",
+        "headline": "Dynamic and people-centred Director of Rooms Operations with over 15 years of experience in luxury hospitality across London’s most iconic properties.",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "With over 25 years experience in the hospitality industry, I am currently working as a GM for the Montcalm Luxury Hotel group in their flagship property located in Marble Arch, London. My many years in the industry have shaped me to be an adaptable individual, unwavering in my dedication to deliver exceptional hospitality and service. I consider myself to be a natural leader, organised and able to prioritize and delegate tasks with ease. I take great pride in developing my team, who I consider as an extension of and representation of myself.\n\nTotal Experience: 21 years and 10 months",
+        "experience": [
+          {
+            "title": "Shift Leader, Front Office",
+            "organization": "Hilton Bracknell Hotel",
+            "date_range": "Jan 2004 - Feb 2005",
+            "location": "Bracknell, England, United Kingdom",
+            "description": "• Handling complaints and issues made by both non-residents and residents and finding a solution to ensure guest satisfaction. • Record keeping and handling of incidents and accidents within the workplace. • Completing weekly, daily and monthly reports to a high standard and on time • Assisting reception with their day-to-day duties including checking in and out. Room assignment and checking banking. • Structuring a daily VIP list and ensuring VIP guests receive the appropriate treatment and all their requests are adhered to being their main point of contact throughout their time with us. • Daily meet and greet of all guests especially VIP guests. • Assisting and supervising in every department from food and beverage outlets to housekeeping. • Fire Team co-ordinator and member."
+          },
+          {
+            "title": "Night Manager Duty Manager",
+            "organization": "Hilton Kensington",
+            "date_range": "Feb 2005 - Jul 2006",
+            "location": "London, United Kingdom",
+            "description": "I was promoted and transferred to the London hotel as a Night Manager and Duty Manager. As a Night Manager my main duties and responsibilities were to ensure the smooth running of the front of house areas of the hotel and acts as the main point of contact for all guest assistance. Represent the Hotel Management in their absence at night and taking full responsibilities of the hotel. Managed, record and promptly resolved any issue that aroused. I would also act in accordance with the company secure and emergency procedures."
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "The Washington Mayfair Hotel",
+            "date_range": "Oct 2006 - Jul 2011",
+            "location": "London, United Kingdom",
+            "description": "The Washington Mayfair Hotel, London (five star, 171 bedroom) The Courthouse Doubletree by Hilton (five star, 112 bedroom) The Bentley, Waldorf Astoria (5 star hotel, 64 bedroom) As a front office manager I reported to the General Manager, a key part of this role was to create a special welcoming and memorable experience for the guests. I was responsible for the smooth registration and cashiering functions of the front desk. Overseen the team, ensuring accurate communication flow-up on any problems, guests, requests and special requirements. I would also review arrivals, VIP’s, special requests, group needs and worked closely with the housekeeping departments in room assignment and guests needs. In addition I would together with Director of Revenue worked on maximize the ADR by monitoring and managing booking engines, company website as well as third parties."
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "Jul 2011 - Mar 2013",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "House Manager",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "Mar 2013 - May 2015",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Cluster House Manager",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "May 2015 - Oct 2016",
+            "location": "London, United Kingdom",
+            "description": "As the Hotel manager of Montcalm Luxury Hotel Group, I am responsible for the implementation of brand standards across all the hotels, ensuring guest satisfaction is maximised and expectations are always met and exceeded. Guest interaction represents one of my key strengths and allows me to build strong personal relationships, resulting in significant repeat business. I achieve my goals by seeking to deliver a personalised level of customer care that exceeds expectations. In order to facilitate the best levels of service and hospitality across the hotel, I seek to inspire and motivate my team to ensure they share the same beliefs and enthusiasm. I work closely with the management team, setting clear objectives for my team to give them both autonomy and accountability for delivering against these goals. I strongly believe in succession planning, developing and growing the talent pipeline.\n\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Hotel Manager At The Montcalm London Marble Arch",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "Oct 2016 - Nov 2021",
+            "location": "London, United Kingdom",
+            "description": "As the Hotel manager of Montcalm Luxury Hotel Group, I am responsible for the implementation of brand standards across all the hotels, ensuring guest satisfaction is maximised and expectations are always met and exceeded. Guest interaction represents one of my key strengths and allows me to build strong personal relationships, resulting in significant repeat business. I achieve my goals by seeking to deliver a personalised level of customer care that exceeds expectations. In order to facilitate the best levels of service and hospitality across the hotel, I seek to inspire and motivate my team to ensure they share the same beliefs and enthusiasm. I work closely with the management team, setting clear objectives for my team to give them both autonomy and accountability for delivering against these goals. I strongly believe in succession planning, developing and growing the talent pipeline."
+          },
+          {
+            "title": "Head Of Hospitality Prolific Private Client State-of-the-Art Private Residence, London",
+            "organization": "Prolific Private Client | State-of-the-Art Private Residence, London",
+            "date_range": "Nov 2021 - Present",
+            "location": "London, United Kingdom",
+            "description": "Led the hospitality operations for an ultra-high-net-worth family, managing a portfolio of London and overseas residences. The role demanded a balance of precision, discretion, and creativity in delivering exceptional guest experiences for A-listers, dignitaries, and VIPs. Some of my Key accomplishments include: – Directed and inspired a front-of-house team to uphold exacting service standards across multiple private properties. – Oversaw the setup and operation of international estates, ensuring seamless coordination and brand continuity. – Conceptualized and executed intimate high-profile events, from private dinners to large-scale celebrations. – Ensured the meticulous preservation and care of fine art, antiques, and luxury furnishings within all residences. – Managed full-cycle recruitment, onboarding, and performance coaching, strengthening staff retention and morale. – Developed bespoke service guidelines and household SOPs, enhancing efficiency and service precision. – Maintained utmost confidentiality and professionalism while managing every detail of the family’s lifestyle operations."
+          },
+          {
+            "title": "Director Of Rooms Operations, St Pancras London, Autograph Collection, 5 , London, UK",
+            "organization": "St Pancras London, Autograph Collection, 5*, London, UK",
+            "date_range": "Jun 2023 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Leading the full Rooms Division for one of London’s most architecturally iconic hotels, overseeing Front of House, Loss Prevention, Spa, and Housekeeping operations. The role focuses on delivering elevated, story-driven luxury experiences that reflect the hotel’s heritage as part of the Autograph Collection brand. Strategic Highlights & Operational Impact: –– Directed the brand transition from Renaissance to Autograph Collection (June 2025), establishing a new service philosophy aligned with TIME brandmark. – Implemented a redefined guest-journey framework, introducing signature arrival rituals and bespoke recognition moments for Elite Members. – Improved Guest Satisfaction Intent to Recommend from 58.4 to 66.9 within six months through targeted service recovery and coaching. – Enhanced communication flow through Weekly Operations Meetings, fostering proactive issue resolution across Rooms, F&B and Engineering teams. – Recognized by Marriott International EMEA for driving service transformation and brand elevation during property rebranding. – Selected for the Hotel Manager Development Track (Marriott International) in recognition of outstanding leadership and exceptional performance in role."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "luxury",
+          "hotel",
+          "property",
+          "director",
+          "operations",
+          "hotels",
+          "prevention",
+          "spa",
+          "housekeeping",
+          "philosophy",
+          "coaching",
+          "proactive",
+          "engineering",
+          "driving",
+          "leadership",
+          "reports",
+          "banking",
+          "treatment",
+          "supervising",
+          "food",
+          "cluster",
+          "responsible",
+          "management",
+          "accountability",
+          "planning",
+          "running",
+          "registration",
+          "cashiering",
+          "operatio"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/ankur-bakshi-13481b5a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Craig Burls",
+      "title": "Cluster Revenue Manager",
+      "company": "Montcalm Collection",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Cluster commercial role; route via Montcalm Collection main enquiries or Mayfair line +44 (0)20 7958 3200 asking for revenue team.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads revenue management across the Montcalm portfolio; core stakeholder for revenue-tech adoption, AI booking automation, distribution and pricing systems.",
+      "contact_evidence_summary": "Multiple job boards, RocketReach and sales directories confirm current Cluster Revenue Manager role at Montcalm Collection. No personal LinkedIn, email or phone located but role is strongly evidenced. Property phone provides routing path.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/craig-burls-email_16448813",
+          "source_type": "directory",
+          "quote_or_fact": "Craig Burls is currently a Cluster Revenue Manager at Montcalm Collection."
+        },
+        {
+          "source_url": "https://salesflow.io/contact/craig-burls-cluster-revenue-manager/",
+          "source_type": "directory",
+          "quote_or_fact": "Craig Burls - Cluster Revenue Manager, Montcalm Collection, London."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Samantha van Exter",
+      "title": "Head of Hotels",
+      "company": "Montcalm Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/sskve",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7958 3200",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Montcalm Mayfair main line: +44 (0)20 7958 3200 (brand oversight; ask for Head of Hotels or commercial team)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees entire Montcalm Collection including Mayfair flagship; public comments emphasize digital innovation, guest experience, responsible luxury and revenue optimization aligning directly with AI booking automation, revenue-tech and guest messaging.",
+      "contact_evidence_summary": "Multiple independent news interviews and articles confirming role and focus on innovation/digital/guest experience post-Mayfair relaunch. Strong LinkedIn presence. General brand/property phone available for routing. No personal email or X handle located in public sources.",
+      "evidence": [
+        {
+          "source_url": "https://www.independenthotelshow.co.uk/news-hub/hotelier-edit-samantha-van-exter-head-hotels-montcalm-collection-dhrc",
+          "source_type": "news",
+          "quote_or_fact": "Samantha Van Exter, Head of Hotels for Montcalm Collection and a key figure in the recent refurbishment and relaunch of Montcalm Mayfair."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/sskve",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Hotels at Montcalm Collection since September 2023; focus on digital innovation and responsible luxury."
+        },
+        {
+          "source_url": "https://cpp-luxury.com/in-conversation-with-samantha-van-exter-head-of-hotels-montcalm-collection-exclusive-interview/",
+          "source_type": "news",
+          "quote_or_fact": "In conversation with Samantha van Exter, Head of Hotels, Montcalm Collection."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/sskve",
+        "display_name": "Samantha van Exter",
+        "headline": "Brit List Awards - Hotelier of the Year 2025\n               Portfolio Hospitality Leader | Luxury & Lifestyle Transformation | Multi-Asset Performance | Europe & Middle East",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 24 years and 3 months",
+        "experience": [
+          {
+            "title": "AREA REVENUE MANAGER",
+            "organization": "Accor",
+            "date_range": "Jan 2001 - Jan 2005",
+            "location": null,
+            "description": "Initially Revenue Manager for Dorint The Hague and later promoted to Cluster Revenue Manager responsible for the 6 Accor hotels in The Hague. ***** Sofitel (143 rooms) **** Dorint (216 rooms) **** Novotel (106 rooms) **** Mercure (159 rooms) *** Ibis City Centre (197 rooms) *** Ibis Scheveningen (88 rooms) Main responsibilities were: Prepare annual statistics and assists in the actualisation, implementation and realization of budget and marketing plan in conjunction with the General Managers Monitoring and reporting of pick-up, lead times and business trends Rate planning and active revenue/yield management Monitoring of GDS and CRS systems and setting up of media campaigns i.e. TravelClick Ensuring that Electronic Distribution Systems are set up correctly and used effectively to maximise distribution, accommodation yield and revenues Analysing and setting up of rate structure, forecasting and strategic planning including the commercial co-ordination of group and conference requests Maintaining and further developing business as well as relationship management with clients Hosting of weekly revenue Strategy Meetings to communicate strategy and develop corrective action for low dates or periods Coaching and guiding of the various reservations and front office departments and sales and marketing teams to increase revenue management knowledge and promote internal sales as well as up-selling and cross-selling amongst the various properties Preparation of daily, weekly and monthly reports in accordance with company standards and procedures i.e. production reports, business mix, business on the books, forecasts etc."
+          },
+          {
+            "title": "GENERAL MANAGER",
+            "organization": "Accor",
+            "date_range": "Jan 2005 - Jan 2008",
+            "location": null,
+            "description": "Responsible for managing the Deluxe 216 room Dorint-Accor hotel situated at the World Forum Convention Centre in The Hague. \"On the 1st of June 2005 Samantha became General Manager of the Dorint The Hague World Forum. With great passion and love for the hospitality industry Samantha set out with determination to create a balanced and harmonious team after a period of high staff turnover. Furthermore, she succeeded in improving both the qualitative and financial results of the hotel whilst focusing on building and creating guest and customer loyalty\". (A.Perulli, reference)"
+          },
+          {
+            "title": "GENERAL MANAGER",
+            "organization": "Deutsche Hospitality",
+            "date_range": "Feb 2008 - Jan 2015",
+            "location": null,
+            "description": "Responsible for managing the 5 star, 253 room Steigenberger hotel situated on the beachside resort of Scheveningen."
+          },
+          {
+            "title": "Hotel Manager Reporting To Executive Vice President EMEA, India And North America",
+            "organization": "Shangri-La Hotels and Resorts",
+            "date_range": "Jul 2015 - Oct 2016",
+            "location": null,
+            "description": "Responsible for managing the 5 star, 246 room Shangri-La hotel located on floors 34-52 of The Shard."
+          },
+          {
+            "title": "Consultancy And Interim GENERAL MANAGER",
+            "organization": "South Place Hotel",
+            "date_range": "Nov 2016 - Jan 2018",
+            "location": null,
+            "description": "Various projects within the hospitality industry including a 6 month maternity cover as General Manager"
+          },
+          {
+            "title": "GENERAL MANAGER - ME LONDON",
+            "organization": "Meliá Hotels International",
+            "date_range": "Feb 2018 - Dec 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "AREA DIRECTOR MIDDLE EAST - ME By MELIA",
+            "organization": "Meliá Hotels International",
+            "date_range": "Feb 2021 - Feb 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "AREA DIRECTOR, LONDON HOTELS",
+            "organization": "Meliá Hotels International",
+            "date_range": "Jan 2022 - May 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "HEAD OF HOTELS",
+            "organization": "Montcalm Collection",
+            "date_range": "Jun 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "The Montcalm Collection is a group of independent luxury hotels located throughout London. The collection includes four main properties: Montcalm East in Shoreditch, Montcalm Marble Arch in Marylebone, Montcalm Royal London House in Finsbury Square, and Montcalm Brewery in Barbican. Each hotel within the Montcalm Collection has its own unique story and design, blending classic and contemporary elements to reﬂect the character of London. Montcalm Brewery is a historic former brewery transformed into a ﬁve-star hotel, while Montcalm Royal London House is a mid-century marvel with a stunning rooftop terrace. The hotels are known for their thoughtful touches, luxurious comfort, and exceptional personal service. Montcalm East is an Autograph Collection hotel with a mission to support its vibrant neighbourhood of East London. In addition to the Montcalm hotels, the collection also includes the: Montcalm Townhouses, Inhabit Hotels (member of Design Hotels) and the Park Grand Hotels. Inhabit Hotels are urban wellness properties in West London. Wellbeing is at the heart of what we do, as we offer guests both restorative and invigorating experiences to foster mindfulness, healthy habits, and even better sleep. We are committed to enhancing green initiatives by monitoring and reducing overall consumption levels and converting environmental efforts into sustainable business opportunities. Social benchmarks are likewise core to our strategic decision-making. Inhabit Hotels have been awarded B Corp™ Certification, reﬂecting our commitment to social and environmental sustainability. Park Grand Hotels are contemporary boutique hotels located in prime locations throughout London. Montcalm Collection provides a range of luxury accommodations in London. Website http://montcalmcollection.com"
+          }
+        ],
+        "education": [
+          {
+            "school": "Esade",
+            "degree_or_field": "Executive Development Program DRIVE",
+            "date_range": "2021 - 2022"
+          }
+        ],
+        "skills": [
+          "hotels",
+          "luxury",
+          "hotel",
+          "design",
+          "urban",
+          "wellness",
+          "green",
+          "environmental",
+          "sustainability",
+          "responsible",
+          "hospitality",
+          "determination",
+          "director",
+          "consultancy",
+          "projects",
+          "reporting",
+          "cluster",
+          "statistics",
+          "budget",
+          "marketing",
+          "planning",
+          "yield",
+          "management",
+          "gds",
+          "campaigns",
+          "distribution",
+          "forecasting",
+          "commercial",
+          "hosting",
+          "strategy",
+          "coaching",
+          "reservations",
+          "sales",
+          "selling",
+          "preparation",
+          "reports",
+          "production",
+          "sustainable business",
+          "decision making",
+          "hospitality industry",
+          "customer loyalty",
+          "yield management",
+          "strategic planning",
+          "relationship management",
+          "front office",
+          "revenue management",
+          "cross selling"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://uk.linkedin.com/in/sskve"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T15:02:55.992424+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 4,
+    "attempted": 2,
+    "succeeded": 2,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T15:07:58.984802+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 5,
+      "structured": 5,
+      "discovered": 1,
+      "errors": 0
+    }
+  }
+}

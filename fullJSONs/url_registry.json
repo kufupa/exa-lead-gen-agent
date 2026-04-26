@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at_utc": "2026-04-25T13:53:21.377833+00:00",
+  "updated_at_utc": "2026-04-26T15:31:10.465660+00:00",
   "urls": {
     "https://chesterfieldmayfair.com": {
       "status": "enriched",
@@ -213,6 +213,105 @@
       "claimed_by": "pid:23756",
       "last_started_at_utc": "2026-04-25T13:41:45.928018+00:00",
       "error": null
+    },
+    "https://montcalmcollection.com/montcalm-mayfair": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__montcalmcollection_com__montcalm_mayfair__0a98b0dd.json",
+      "enriched_json": "jsons/hotel_leads__montcalmcollection_com__montcalm_mayfair__0a98b0dd.enriched.json",
+      "claimed_by": "pid:24884",
+      "last_started_at_utc": "2026-04-25T14:49:30.692801+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-25T15:07:59.894358+00:00"
+    },
+    "https://www.gemhotels.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_gemhotels_com__1d87b692.json",
+      "enriched_json": "jsons/hotel_leads__www_gemhotels_com__1d87b692.enriched.json",
+      "claimed_by": "pid:24884",
+      "last_started_at_utc": "2026-04-25T14:49:30.796720+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-25T15:09:56.963519+00:00"
+    },
+    "https://www.sterminshotel.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_sterminshotel_co_uk__3eb438aa.json",
+      "enriched_json": "jsons/hotel_leads__www_sterminshotel_co_uk__3eb438aa.enriched.json",
+      "claimed_by": "pid:24884",
+      "last_started_at_utc": "2026-04-25T14:49:30.834845+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-25T15:13:11.700058+00:00"
+    },
+    "https://sunstreethotel.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__sunstreethotel_com__9f9541ed.json",
+      "enriched_json": "jsons/hotel_leads__sunstreethotel_com__9f9541ed.enriched.json",
+      "claimed_by": "pid:24884",
+      "last_started_at_utc": "2026-04-25T14:49:30.912664+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-25T15:17:25.067608+00:00"
+    },
+    "https://templarlondon.com/groups": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__templarlondon_com__groups__b0fcc7e0.json",
+      "enriched_json": "jsons/hotel_leads__templarlondon_com__groups__b0fcc7e0.enriched.json",
+      "claimed_by": "pid:24884",
+      "last_started_at_utc": "2026-04-25T15:07:59.950577+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-25T15:34:27.411325+00:00"
+    },
+    "https://www.landmarklondon.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_landmarklondon_co_uk__240060d6.json",
+      "enriched_json": "jsons/hotel_leads__www_landmarklondon_co_uk__240060d6.enriched.json",
+      "claimed_by": "pid:24884",
+      "last_started_at_utc": "2026-04-25T15:09:57.019210+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-25T15:26:34.349102+00:00"
+    },
+    "https://www.flemings-mayfair.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_flemings_mayfair_co_uk__588a4528.json",
+      "enriched_json": "jsons/hotel_leads__www_flemings_mayfair_co_uk__588a4528.enriched.json",
+      "claimed_by": "4e27a869-818d-4792-8718-b13b8e01839c::pid5224",
+      "last_started_at_utc": "2026-04-26T14:00:08.156521+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-26T14:18:31.962584+00:00"
+    },
+    "https://ampersandhotel.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__ampersandhotel_com__361d28d1.json",
+      "enriched_json": "jsons/hotel_leads__ampersandhotel_com__361d28d1.enriched.json",
+      "claimed_by": "dc0d01a5-450f-4975-992e-003c24489ad2::pid5224",
+      "last_started_at_utc": "2026-04-26T14:00:08.250501+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-26T14:09:39.262496+00:00"
+    },
+    "https://www.15hatfields.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_15hatfields_com__df980cc4.json",
+      "enriched_json": "jsons/hotel_leads__www_15hatfields_com__df980cc4.enriched.json",
+      "claimed_by": "29f17d21-8094-4cc8-9ef6-ed90f5792af3::pid5224",
+      "last_started_at_utc": "2026-04-26T14:09:39.339400+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-26T14:18:33.702506+00:00"
+    },
+    "https://www.hazlittshotel.com/rooms": {
+      "status": "failed",
+      "research_json": "jsons/hotel_leads__www_hazlittshotel_com__rooms__f14a6731.json",
+      "enriched_json": "jsons/hotel_leads__www_hazlittshotel_com__rooms__f14a6731.enriched.json",
+      "claimed_by": "1c8a5760-829a-4cd5-be9e-6b95df8ba3dd::pid5224",
+      "last_started_at_utc": "2026-04-26T14:18:32.036685+00:00",
+      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\gamin\\Desktop\\startup\\exa-lead-gen-agent\\hotel_decision_maker_research.py\", line 919, in <module>\n  File \"C:\\Users\\gamin\\Desktop\\startup\\exa-lead-gen-agent\\hotel_decision_maker_research.py\", line 817, in main\n    \n  File \"C:\\Users\\gamin\\Desktop\\startup\\exa-lead-gen-agent\\hotel_decision_maker_research.py\", line 741, in _run_research\n    args.max_contacts,\n^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\xai_sdk\\sync\\chat.py\", line 109, in sample\n    response_pb = self._stub.GetCompletion(self._make_request(1))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_interceptor.py\", line 276, in __call__\n    response, ignored_call = self._with_call(\n                             ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_interceptor.py\", line 331, in _with_call\n    return call.result(), call\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_channel.py\", line 438, in result\n    raise self\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_interceptor.py\", line 314, in continuation\n    response, call = self._thunk(new_method).with_call(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_channel.py\", line 1173, in with_call\n    return _end_unary_response_blocking(state, call, True, None)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_channel.py\", line 990, in _end_unary_response_blocking\n    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ngrpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.DEADLINE_EXCEEDED\n\tdetails = \"Request timeout exceeded\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Request timeout exceeded\", grpc_status:4}\"\n>\n",
+      "last_finished_at_utc": "2026-04-26T14:50:14.700835+00:00"
+    },
+    "https://www.grangehotels.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_grangehotels_com__f9b95d80.json",
+      "enriched_json": "jsons/hotel_leads__www_grangehotels_com__f9b95d80.enriched.json",
+      "claimed_by": "523965fa-b2f7-43a1-a19e-d3bfea9cbd22::pid65456",
+      "last_started_at_utc": "2026-04-26T15:20:39.651992+00:00",
+      "error": null,
+      "last_finished_at_utc": "2026-04-26T15:31:10.465660+00:00"
     }
   }
 }

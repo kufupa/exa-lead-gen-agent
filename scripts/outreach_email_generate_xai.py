@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run xAI batch to draft cold emails for triage-approved outreach rows. Needs XAI_API_KEY.
+"""Run xAI realtime to draft cold emails for triage-approved outreach rows. Needs XAI_API_KEY.
 
 Model: --model overrides OUTREACH_EMAIL_MODEL; if neither set, uses grok-4.20-reasoning.
 """
@@ -26,8 +26,7 @@ from outreach.batch_cold_email import (  # noqa: E402
     default_prompt_paths,
     generation_candidates,
     load_prompt_pair,
-    poll_batch_only,
-    submit_and_drain_cold_email_batch,
+    run_cold_email_realtime,
     user_prompt_hash,
 )
 from outreach.netloc_filter import netlocs_from_hotel_urls, row_matches_hotel_netlocs  # noqa: E402
@@ -71,6 +70,10 @@ def _resolve_model(cli: str | None) -> str:
     return DEFAULT_OUTREACH_XAI_MODEL
 
 
+def _default_concurrency() -> int:
+    return min(12, os.cpu_count() or 4)
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--fulljsons-dir", type=Path, default=Path("fullJSONs"))
@@ -82,19 +85,16 @@ def main() -> int:
         help=f"xAI model id. Else OUTREACH_EMAIL_MODEL; else default {DEFAULT_OUTREACH_XAI_MODEL}.",
     )
     p.add_argument("--max-turns", type=int, default=8)
-    p.add_argument("--batch-name", default="outreach_cold_email")
-    p.add_argument("--add-chunk-size", type=int, default=50)
-    p.add_argument("--poll-interval-sec", type=float, default=5.0)
+    p.add_argument(
+        "--concurrency",
+        type=int,
+        default=None,
+        help=f"Realtime worker threads (default: min(12, os.cpu_count()) = {_default_concurrency()})",
+    )
     p.add_argument("--limit", type=int, default=0, help="Max rows this run (0 = all)")
     p.add_argument("--dry-run", action="store_true", help="Print candidate count and exit")
     p.add_argument("--system-prompt", type=Path, default=None)
     p.add_argument("--user-template", type=Path, default=None)
-    p.add_argument(
-        "--resume-batch-id",
-        type=str,
-        default=None,
-        help="Poll existing batch and merge into state (no new submit)",
-    )
     p.add_argument(
         "--system-prompt-id",
         default="cold_email_system_ansh_v1",
@@ -164,53 +164,7 @@ def main() -> int:
         return 0
 
     resolved_model = _resolve_model(args.model)
-
-    if args.resume_batch_id:
-        batch_id = args.resume_batch_id.strip()
-        rows, failures = poll_batch_only(batch_id, poll_interval_sec=args.poll_interval_sec)
-
-        def merge_resume(doc: dict) -> None:
-            by_id = doc.get("by_id") or {}
-            oids: list[str] = []
-            hashes: dict[str, str | None] = {}
-            for oid, row in by_id.items():
-                if not isinstance(row, dict):
-                    continue
-                gen = row.get("generation")
-                if not isinstance(gen, dict):
-                    continue
-                if str(gen.get("batch_job_id") or "") != batch_id:
-                    continue
-                if (gen.get("body") or "").strip():
-                    continue
-                if netlocs and not row_matches_hotel_netlocs(row, netlocs):
-                    continue
-                if not _email_only_ok(str(oid)):
-                    continue
-                oids.append(str(oid))
-                hashes[str(oid)] = gen.get("user_prompt_hash")
-            if not oids:
-                print("No rows in state match this batch_id with empty body.", file=sys.stderr)
-                return
-            merge_model = (by_id.get(oids[0]) or {}).get("generation", {}).get("model") or resolved_model
-            upp = {oid: (hashes.get(oid) or "") for oid in oids}
-            apply_generation_results(
-                doc,
-                batch_id=batch_id,
-                model=str(merge_model),
-                system_prompt_id=args.system_prompt_id,
-                outreach_ids=oids,
-                user_prompt_hashes=upp,
-                rows_ok=rows,
-                failures=failures,
-            )
-            problems = validate_state(doc)
-            if problems:
-                raise ValueError("; ".join(problems[:10]))
-
-        store.update_in_place(merge_resume)
-        print(f"merged resume batch_id={batch_id} ok={len(rows)} fail={len(failures)}")
-        return 0
+    concurrency = args.concurrency if args.concurrency is not None else _default_concurrency()
 
     if not ids:
         print("No candidates (need triage approved_generate with empty generation.body).")
@@ -235,15 +189,13 @@ def main() -> int:
 
     store.run_locked(locked_build)
 
-    rows, failures, batch_id = submit_and_drain_cold_email_batch(
+    rows, failures, batch_id = run_cold_email_realtime(
         jobs,
         model=resolved_model,
         max_turns=args.max_turns,
-        batch_name=args.batch_name,
         system_prompt_text=system_text,
         user_template_text=user_template,
-        add_chunk_size=args.add_chunk_size,
-        poll_interval_sec=args.poll_interval_sec,
+        concurrency=concurrency,
     )
 
     def merge_fresh(doc: dict) -> None:
@@ -262,7 +214,7 @@ def main() -> int:
             raise ValueError("; ".join(problems[:10]))
 
     store.update_in_place(merge_fresh)
-    print(f"batch_id={batch_id} ok={len(rows)} fail={len(failures)}")
+    print(f"job_id={batch_id} ok={len(rows)} fail={len(failures)}")
     return 0
 
 

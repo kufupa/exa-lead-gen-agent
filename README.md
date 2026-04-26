@@ -17,8 +17,7 @@ npx @open-gitagent/gitagent run -r https://github.com/shreyas-lyzr/exa-lead-gen-
 pip install -r requirements.txt
 export XAI_API_KEY=...
 python hotel_decision_maker_research.py --url https://example-hotel.com
-python hotel_contact_enrichment.py --in-json jsons/hotel_leads__....json --out-json jsons/hotel_leads__....enriched.json --mode realtime
-# Cheaper overnight: --mode batch --checkpoint .cache/enrich.json --resume
+python hotel_contact_enrichment.py --in-json jsons/hotel_leads__....json --out-json jsons/hotel_leads__....enriched.json
 python hotel_contact_enrichment.py --in-json in.json --out-json out.json --dry-run
 ```
 

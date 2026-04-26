@@ -1,0 +1,1358 @@
+{
+  "target_url": "https://www.sterminshotel.co.uk/",
+  "generated_at_utc": "2026-04-25T14:49:31.863023+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 3638,
+    "prompt_tokens": 70674,
+    "total_tokens": 82995,
+    "prompt_text_tokens": 70674,
+    "reasoning_tokens": 8683,
+    "cached_prompt_text_tokens": 44160,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Anupam Kaul",
+      "title": "Director of Revenue Management and Digital Marketing",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/anupam-kaul-10991a65",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk (route to revenue/digital team)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct responsibility for revenue management, digital marketing, and distribution channels; primary stakeholder for revenue-tech, AI booking automation, and guest journey optimization.",
+      "contact_evidence_summary": "Strong public confirmation across LinkedIn, industry news on appointment, and multiple directories. Reachable via official hotel contacts listed on sterminshotel.co.uk. No personal email/phone found after search.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/anupam-kaul-10991a65",
+          "source_type": "linkedin",
+          "quote_or_fact": "Profile lists current role at St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Revenue Management and Digital Marketing at St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://www.costar.com/article/1347406860/europe-middle-east-and-africa-hires-promotions-accor-names-three-new-brand-executives",
+          "source_type": "news",
+          "quote_or_fact": "Anupam Kaul named director of revenue management at St Ermin's Hotel (noted in related coverage)."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/anupam-kaul-10991a65",
+        "display_name": "Anupam Kaul",
+        "headline": "Director Of Revenue Management And Digital Marketing at St. Ermin's Hotel - Autograph Collection",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 14 years and 6 months",
+        "experience": [
+          {
+            "title": "Reservation Executive",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "May 2011 - Jul 2012",
+            "location": null,
+            "description": "• Dealing with guests over the phone. • Manually feeding reservations in PMS. • Negotiating rates. • Upselling higher room categories. • IT literacy, with experience of packages such as Excel, Opera, MS Word, MS Office etc. • Dazzling telephone and communication skills."
+          },
+          {
+            "title": "Revenue Coordinator",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "Jun 2012 - Jun 2013",
+            "location": null,
+            "description": "• To ensure that all target market segments are developed for the long-term benefit of the hotel’s business. • Identify trends and anomalies in the various hotels/market places. • Analyse hotels current placement and distribution in all sales channels. • Managing Distribution Management as needed, using various RM systems, including but not limited to Datavision, IDeaS, SynXis and TravelCLICK. • Perform regular competitive shops."
+          },
+          {
+            "title": "Group Reservations Coordinator Reservations Revenue Supervisor",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "Jun 2013 - Sep 2013",
+            "location": null,
+            "description": "Group Coordinator: • Accurate input of Reservations into system. • Input Reservations within specified time periods. • Maximize potential room revenue by following specified selling guidelines. • Maintain Group History Tracking forms. • Set up group routing. • Ensure that rooming lists are free of duplicates. • Respond to guest calls in a timely manner. • Attend Pre Convention meetings as necessary. • Property-wide departmental interaction. • Raise the awareness of inventory issues. • Knowledge of hotel services and events. • Ensure an efficient and professional working environment with open communication. • All convention resumes are audited prior to group's arrival."
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "Sep 2013 - Jun 2018",
+            "location": "W2 3BA",
+            "description": "• Maintaining and expanding relationships with existing clients • Daily pick-up analysis, strategy adjustments and reporting. • Perform competitive benchmark studies and follow market trends. • Create and maintain a 13 month rolling demand calendar. • Create and develop pricing strategies in conjunction with the individuality of each hotel. • Provide weekly dynamic forecast of expected results, variances and budget comparisons. • Responsible for assessing, analysing and pricing group business strategies. • Analyse overall monthly hotel performance and provide summary report with recommendations to improve long term strategies. • Oversee and audit the standards and operations of the reservations department. • Regularly check the input and the quality of data (segmentation, denials tracking, etc). • Conduct quarterly property performance review and develop strategic and tactical action. • Responsible for best practice standards to include: competitor analysis; environmental scanning; market modelling; distribution yield management; business mix yield management; length of stay yield management; inventory availability by channel; pricing control and new pricing concepts. • Evaluate performance of distribution partners and contracted rates (OTA, FIT, tour operator, corporate, consortia, crew, groups, etc). • Reduce the cost of distribution by finding new less expensive means of delivering business. • Prepare outline for and support the annual revenue budget process."
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Radisson Hotel Group",
+            "date_range": "Jul 2018 - Feb 2019",
+            "location": "Birmingham, Liverpool, York",
+            "description": "Working with the Hotel teams to maximise revenue to achieve set budgets, profit contribution and market share using revenue management techniques, systems and processes • Implement agreed pricing and inventory management strategies whilst maintaining effective communication links with the cluster properties in order to achieve the budgeted objectives • Working closely with the Cluster Office and the hotels operational teams (GM, M&E, DOS, FOM) to capture insight, analysis and recommendations to drive top line sales. • Monitor competitor pricing and understand the dynamics of the market; using this insight to manage impact on RGI, link to the revenue planning process, and manipulate market mix strategy."
+          },
+          {
+            "title": "Revenue Manager - Pre Opening Team",
+            "organization": "The Prince Akatoki London",
+            "date_range": "Mar 2019 - Jul 2021",
+            "location": "London, United Kingdom",
+            "description": "-Monitor and review daily inventory and rate control - including booking pace, regrets, sales thresholds, market segmentation, market success, variance and build-ups, availability calendar, call performances and adjust future strategies as required. -To continuously manipulate availability & rates while ensuring parity across all distribution channels to optimise RevPAR. -Partner with GM, Marketing, and Sales Leaders to implement proactive revenue generating strategies. -Complete weekly, monthly and yearly projections and forecasts. -Collaborate with the sales and marketing team to ensure that initiatives and goals are met -Identify key market strategies by: Identifying opportunities for incremental revenue through analysis, and establishing differential pricing based on market segments, demand, positioning, etc. -Conduct weekly and/or bi-weekly strategy meetings to review market share performance and upcoming pace and pricing, restrictions, projections and channel strategies. -Participate in preparing budgets and business plans. -Measure, analyze and report booking trends, pick up, pace and projections to all stakeholders. -Analyse, interpret, and explain statistical data to develop strategies and plan a course of action. Compile, analyse and report month and year end statistics with recommendations on how to continue to increase future revenue -Have strong rapport with agents handling key markets with OTA’s -Set monthly targets of up selling revenue for front office and reservations department and monitor performance. -To prepare and analyse revenue weekly and month end reporting including critique, findings and strategy actions in conjunction of sales -Develop Revenue Management Policy & Procedures where necessary -Responsible for the Reservations team, including all training and development in reservations and the revenue function. -Conduct daily reviews of all channels to ensure correct pricing, content, imagery and offers are displayed correctly."
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Mondrian Shoreditch",
+            "date_range": "Jul 2021 - Jul 2024",
+            "location": "Shoreditch, England, United Kingdom",
+            "description": "Under the general guidance of the Regional Director of Revenue Management and General Manager, my role is accountable for maximizing Hotel Revenues across rooms, F&B outlets, meetings and events, spa etc. The primary role is to ensure the optimization of revenues and competitive standing and that Mondrian Shoreditch’s goals are achieved or exceeded. Identifies future opportunities and effectively communicates with Sales, Marketing, Operations and eCommerce. Responsible for developing the annual rooms budget and Business Plan with Sales and Marketing, and deployment of the strategies for success. Achieve overall KPI’s and competitive benchmarking for RGI. Oversees the Reservations Department."
+          },
+          {
+            "title": "Cluster Director Of Revenue Management - Mondrian Shoreditch London And Hyde London City",
+            "organization": "Mondrian Shoreditch",
+            "date_range": "Jan 2024 - Jul 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Aug 2024 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management And Digital Marketing",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Ealing Hammersmith and West London Collge",
+            "degree_or_field": "Foundation degree, Hospitality Administration/Management",
+            "date_range": "2011 - 2012"
+          },
+          {
+            "school": "University of West London",
+            "degree_or_field": "Bachelor's degree, Hospitality Administration/Management",
+            "date_range": "2012 - 2013"
+          }
+        ],
+        "skills": [
+          "director",
+          "management",
+          "digital",
+          "marketing",
+          "hotel",
+          "hotels",
+          "distribution",
+          "sales",
+          "spa",
+          "optimization",
+          "operations",
+          "ecommerce",
+          "respons"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://uk.linkedin.com/in/anupam-kaul-10991a65"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Douglas McHugh",
+      "title": "General Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/douglas-mchugh-1233391b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": "Dmchugh19",
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk. GM personally signs public TripAdvisor responses.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees all property operations, commercial strategy, reservations, guest experience, and technology adoption decisions.",
+      "contact_evidence_summary": "Confirmed GM on official careers page (with direct quote), LinkedIn, TripAdvisor management responses, RocketReach, and Companies House as Director. Hotel contact details on official site tie directly to leadership.",
+      "evidence": [
+        {
+          "source_url": "https://www.sterminshotel.co.uk/about/careers",
+          "source_type": "official_site",
+          "quote_or_fact": "St Ermin’s General Manager, Douglas McHugh (with direct quote on employer values)."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/douglas-mchugh-1233391b",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager at St. Ermin's Hotel."
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07232261/officers",
+          "source_type": "directory",
+          "quote_or_fact": "Douglas McHugh listed as active Director of ST. ERMIN'S MANAGEMENT UK LIMITED."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/douglas-mchugh-1233391b",
+        "display_name": "Douglas McHugh",
+        "headline": "General Manager at St. Ermin's Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 19 years and 10 months",
+        "experience": [
+          {
+            "title": "General Manager The Compleat Angler",
+            "organization": "Macdonald Hotels",
+            "date_range": "Aug 2002 - Jun 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager Knightsbridge",
+            "organization": "Millennium & Copthorne Hotels",
+            "date_range": "Jun 2004 - Aug 2006",
+            "location": null,
+            "description": "A 4 star hotel with 222 bedrooms on Sloane St."
+          },
+          {
+            "title": "General Manager",
+            "organization": "M&C Hotels at Chelsea Football Club",
+            "date_range": "Sep 2006 - Aug 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "St. Ermin's Hotel",
+            "date_range": "Aug 2010 - Present",
+            "location": "St Ermin's Hotel, Caxton Street, London, SW1H 0QW",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Bankside Hotel",
+            "date_range": "Aug 2016 - Jul 2022",
+            "location": "Blackfriars Road, London SE1 9JU",
+            "description": "Successfully launched Bankside Hotel in October 2018 with a culture which engaged both team and our guests #whereyoubelong"
+          }
+        ],
+        "education": [
+          {
+            "school": "Napier University",
+            "degree_or_field": "Hospitality Management",
+            "date_range": "1991 - 1993"
+          }
+        ],
+        "skills": [
+          "hotel"
+        ],
+        "activity_themes": [
+          "Hospitality team culture and celebrations",
+          "Hotel anniversaries and milestones",
+          "Charity events and community support",
+          "Professional development in hospitality sector",
+          "Luxury hotel experiences and events"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/douglas-mchugh-1233391b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Viola D'Mello",
+      "title": "Corporate and Consortia Sales Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/viola-grehan-nee-d-mello-b2348315",
+      "email": "vgrehan@sterminshotel.co.uk",
+      "email2": null,
+      "phone": "+44 (0)20 7227 7712",
+      "phone2": "07702 717 919",
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles corporate/consortia sales and distribution partnerships; directly influences booking channels, contracts, and guest acquisition tech.",
+      "contact_evidence_summary": "Multiple directory and LinkedIn confirmations as sales manager. Department routes via official hotel phone and reservations email.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Viola D'Mello (Corporate and Consortia Sales Manager)."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/sterminshotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Viola Grehan (nee D'mello) listed in company employees as Sales Manager."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/viola-grehan-nee-d-mello-b2348315",
+        "display_name": "Viola Grehan",
+        "headline": "Sales Manager",
+        "location": "United Kingdom (GB)",
+        "about": "Experienced Sales Manager with a thirst for adventure. Strong professional with a Bachelor of Science (B.Sc.) focused in Hospitality Administration/Management from Institute of hotel management , Goa.",
+        "experience": [],
+        "education": [
+          {
+            "school": "Institute of hotel management , Goa",
+            "degree_or_field": "Bachelor of Science (B.Sc.) focused in Hospitality Administration/Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "sales",
+          "science",
+          "hospitality",
+          "administration",
+          "management",
+          "hotel",
+          "sales manager",
+          "hotel management"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Stuart Leckie",
+      "title": "Director of Sales and Marketing",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://www.linkedin.com/in/stuarthleckie",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk (sales routing)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales, marketing, and distribution strategy; key influencer for booking automation, guest acquisition messaging, and revenue channels.",
+      "contact_evidence_summary": "Listed in multiple hotel directory sources as Dir Sales/Mktg. Reachable via official hotel commercial contacts. Strong role fit with public directory evidence.",
+      "evidence": [
+        {
+          "source_url": "https://www.travelweekly.com/Hotels/London/St-Ermins-Hotel-Autograph-Collection-p9208465",
+          "source_type": "directory",
+          "quote_or_fact": "Key Personnel: Stuart Leckie, Dir Sales/Mktg."
+        },
+        {
+          "source_url": "https://rocketreach.co/stuart-leckie-email_7593166",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Sales and Marketing @ St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://www.northstarmeetingsgroup.com/Meeting-Event-Venues/London/Convention-Hotel/St-Ermins-Hotel-Autograph-Collection-p52557079",
+          "source_type": "directory",
+          "quote_or_fact": "Stuart Leckie, Dir Sales/Mktg."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Sara Ferrentino",
+      "title": "Head of Events",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/sara-ferrentino-65b9aa151",
+      "email": "events@sterminshotel.co.uk",
+      "email2": null,
+      "phone": "+44 (0)20 7227 7756",
+      "phone2": "+44 (0)20 7222 7888",
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk (events inquiries)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages events booking, guest communications, and experience; plausible stakeholder in guest messaging platforms and automation tools for group/reservations.",
+      "contact_evidence_summary": "Confirmed in RocketReach management list and LinkedIn company affiliation. Official hotel contacts apply for events team routing.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Sara Ferrentino, Head of Events at St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/sara-ferrentino-65b9aa151",
+          "source_type": "linkedin",
+          "quote_or_fact": "Affiliated with St. Ermin's Hotel - Autograph Collection."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/sara-ferrentino-65b9aa151",
+        "display_name": "Sara Ferrentino",
+        "headline": "Head of Events at St. Ermin's Hotel - Autograph Collection",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Here are some notes about my career story! I completed an internship at the touristic Info-point of the city of Salerno, where I am from in Italy, welcoming visitors from all over the world and providing them information about the city. I moved to London after winning a three months scholarship as a trainee in a certified translation company, having the opportunity to put into practice my studies and the knowledge gained in my University years. I am currently working in hospitality as Events Manager Corporate, developing my passion for events and expanding my knowledge, after 3 years experience in Front Office.\n\nTotal Experience: 7 years and 8 months",
+        "experience": [
+          {
+            "title": "Interpreter",
+            "organization": "Salerno Roller Marathon Master",
+            "date_range": "May 2015 - May 2015",
+            "location": "Salerno, Italy",
+            "description": "Welcoming the athletes and providing them main information about the race and other activities."
+          },
+          {
+            "title": "Trainee",
+            "organization": "Info Point Turismo Salerno",
+            "date_range": "Sep 2017 - Oct 2017",
+            "location": "Salerno, Italy",
+            "description": "Welcoming tourists in Salerno, showing main points of interest of the city (museums and monuments) and how to reach them, providing them maps, routes and information on transports to visit Salerno and surroundings. Office staff: answering the phone and e-mails."
+          },
+          {
+            "title": "Trainee",
+            "organization": "Certified Uk translation",
+            "date_range": "Jun 2018 - Sep 2018",
+            "location": "London, United Kingdom",
+            "description": "Certified translations of official documents from different source languages mostly into English and their proofreading; accuracy and clarity control, checking their fidelity to the original text. Attention to the layout and data input."
+          },
+          {
+            "title": "Front Desk Agent",
+            "organization": "Marriott Hotels",
+            "date_range": "Sep 2018 - Sep 2019",
+            "location": "Londra, Regno Unito",
+            "description": "Serving guests while providing the highest level of service in an efficient and professional manner by following the standards and adhering to guidelines and procedures. Complete all tasks and responsibilities that are highlighted on the Front Desk daily task sheet and others that may be directed by the Front Desk leaders. Room Controller, monitoring and updating room inventory and reservations."
+          },
+          {
+            "title": "Front Desk Supervisor",
+            "organization": "Marriott Hotels",
+            "date_range": "Sep 2019 - Feb 2020",
+            "location": "Londra, Regno Unito",
+            "description": "Assisting guests efficiently in all the front desk functions and maintaining high standard of hospitality at all times by displaying excellent service skills. Having a thorough knowledge of all front desk operations and providing information and training to all front desk associates. Performing front desk clerk and cashier responsibilities and duties when assigned."
+          },
+          {
+            "title": "Front Desk Shift Leader",
+            "organization": "Blue Orchid Hotels",
+            "date_range": "Feb 2020 - Oct 2021",
+            "location": "Londra, Inghilterra, Regno Unito",
+            "description": null
+          },
+          {
+            "title": "Conference And Events Executive",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Nov 2021 - Oct 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Events Manager Corporate",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Oct 2022 - Sep 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Events",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Sep 2024 - Present",
+            "location": "2 Caxton Street",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Salerno",
+            "degree_or_field": "Bachelor's degree in Foreign languages and cultures, Foreign Languages and Literatures, General, 110 with honors",
+            "date_range": "2011 - 2015"
+          },
+          {
+            "school": "University of Leeds",
+            "degree_or_field": "Erasmus Student",
+            "date_range": "2013 - 2014"
+          },
+          {
+            "school": "University of Naples \"L'Orientale\"",
+            "degree_or_field": "Master Degree, Languages and intercultural communication in Euromediterranean area, 108",
+            "date_range": "2015 - 2018"
+          }
+        ],
+        "skills": [
+          "translation",
+          "hospitality",
+          "inventory",
+          "reservations",
+          "proofreading",
+          "clarity",
+          "layout",
+          "museums",
+          "operations",
+          "training",
+          "performing",
+          "front office"
+        ],
+        "activity_themes": [
+          "Hospitality industry events and networking",
+          "Hotel team activities and celebrations",
+          "Career milestones and farewells in hospitality",
+          "Awards and recognitions in the events industry",
+          "Luxury hotel training and development"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/morenamannino_so-this-happened-ive-been-nominated-activity-7399033422419075072-uQP7",
+          "https://www.linkedin.com/posts/happy-halloween-from-st-ermins-hotel-autograph-activity-7389970985451458560-Dznb",
+          "https://www.linkedin.com/posts/stuart-l-696a02111_today-im-feeling-a-mix-of-emotions-gratitude-activity-7362061831420477440-CFv-",
+          "https://www.linkedin.com/posts/letícia-soares-0180a5261_after-an-incredible-chapter-its-time-for-activity-7351357124376944642-T1cX",
+          "https://www.linkedin.com/posts/breaktheiceforum-btif-budapest-activity-7325479497317687297-dan0",
+          "https://www.linkedin.com/posts/john-baker-impact_wrapping-up-another-fantastic-week-of-luxury-activity-7316450241300320257-VTPv"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Gemma Mellish",
+      "title": "Catering Sales Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://uk.linkedin.com/in/gemma-mellish-6473811b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages catering and events sales; influences group booking automation, guest communications, and related tech.",
+      "contact_evidence_summary": "LinkedIn and directory confirmations of sales role at the hotel. Official contact details enable outreach.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/gemma-mellish-6473811b",
+          "source_type": "linkedin",
+          "quote_or_fact": "Catering Sales Manager at St Ermin's Hotel."
+        },
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Referenced in related sales team context."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/gemma-mellish-6473811b",
+        "display_name": "Gemma Mellish",
+        "headline": "Catering Sales Manager at St Ermin's Hotel",
+        "location": "Greater Guildford Area, United Kingdom (GB)",
+        "about": "Total Experience: 19 years and 4 months",
+        "experience": [
+          {
+            "title": "Marketing And PR Executive",
+            "organization": null,
+            "date_range": "Sep 2006 - May 2007",
+            "location": "Grays, Essex",
+            "description": "Key account handling- o2 Event management- Rugby at Twickenham with 02\nDepartment: Marketing • Level: Manager"
+          },
+          {
+            "title": "Reservations And Events Manager",
+            "organization": "Chelsea Football Club",
+            "date_range": "May 2007 - Mar 2011",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Spectator Sports\nEvent manager for small meetings and large functions (lunches and dinners for 130+) people- from initial enquiry stage to final event programme to completion Weekly meetings with Chelsea Football Club senior managers Managing events diary via Delphi -Handling enquiries for small and large functions Liaising on a daily basis with large companies to ensure bookings are confirmed, contracted and accurately invoiced New business development with both events and accommodation requests, sourcing clients, securing new leads, both face to face and via telephone Key account management of all M&E business from large global accounts and sponsors to local corporate business and new business Ensuring customer satisfaction by solving challenges and resolving any issues quickly, directly and efficiently Implementing rate and marketing strategies to achieve budget and revenue Focus on customer and client feedback to improve the services offering and subsequently given Initial point of contact for general enquiries, internally and externally Dealing with demanding and challenging guests on day to day basis Handling VIP guest requests Hosting Matchday Hospitality Matchday arrangements for players, including banqueting and accommodation requirements Managing a small team Delegating key tasks to members of the team Organising the team on a daily basis to ensure that all tasks are achieved Overseeing large bookings, including groups, VIP’s Recruitment from interview selection, carrying out telephone interviews, face to face interview and final decision making, to inducting new team members and training as necessary Use of Epitome, Opera, Ideas forecasting system Key account management of large corporate accounts including Club sponsors, global accounts, local accounts and government accounts Reporting- various accounts reporting, revenue forecasting and working to a budget as part of the management role Invoices and receipts sent efficiently to guests\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Novus Leisure",
+            "date_range": "Jan 2010 - Jan 2011",
+            "location": null,
+            "description": "Company: 501-1000 employees • Founded 1999 • Privately Held • Hospitality\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Catering Sales Manager",
+            "organization": "St Ermin's Hotel",
+            "date_range": "Jan 2011 - Present",
+            "location": "Westminster, London",
+            "description": "Company: 51-200 employees • Founded 2011 • Privately Held • Hospitality\nCatering Sales Manager is a senior role managing the business development strategy and marketing of all the catering outlets including banqueting, weddings, restaurant & bars. • Account Management of key restaurant website accounts with focus on incremental business. • Responsible for social media content across networks- Twitter, FB & Instagram • Promotion planning for F&B outlets, hosting meetings with senior management team to run through promotions and performance, from concept to completion • Monitor competitor activities and assists in marketing intelligence. • Acquisition of new and prospective clients considering goals set forth in the sales strategy, negotiating optimum revenue for the benefit of the business. • Develop and maintain a regular pattern of sales calls and meetings with principals of the catering market. • Provides direction on and conducts market research and analysis within the catering market. • Conduct client interviews & plan and conduct familiarisation tours and site inspections. • Travel to promote the hotel and develop potential business. • Grow existing business and establishes and pursues leads which will develop business. • Initiate and prepares tenders for business. • Assess catering sales and marketing data. • Assist with the preparation of new products and services. • Assist in the evaluation of sales and marketing activities. • Accomplishing qualified appointments with clients per week / per month / per year. • Representation at industry roadshows and exhibitions relevant to catering market. • Accurate production of reports within deadlines set by Director of Sales & Marketing. • Management of sales strategy in catering market as per hotel sales plan. • Liaising with key organisations and individuals to assess future business needs and trends. • Recording statistics, client productivity and update reports for senior management • Trouble shooting, particularly difficult client queries or complaints.\nDepartment: Sales • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Canterbury Christ Church University",
+            "degree_or_field": "International Business Admin",
+            "date_range": "2002 - 2006"
+          },
+          {
+            "school": "Hogeschool INHOLLAND",
+            "degree_or_field": "International Business Management, International Business",
+            "date_range": "2004 - 2006"
+          },
+          {
+            "school": "Canterbury Christchurch University",
+            "degree_or_field": "International Business Management and Administration - 2:1 achieved Carried out a one year internship within an international company, encompassed all of the key elements of successful business management, ranging from marketing and accounting to linguistics and management studies, within the European market, consisting of two years study in the UK and one years study in Holland. Completion of a dissertation on the impact of Rebranding in the final year, ensured that the degree was rewarded with a successful 2:1 result. Full Clean driving license held for 7 years",
+            "date_range": "2002 - 2006"
+          }
+        ],
+        "skills": [
+          "new business development",
+          "key account management",
+          "sales manager",
+          "account management",
+          "social media",
+          "sales strategy",
+          "market research",
+          "site inspections",
+          "sales plan",
+          "managing events",
+          "business development",
+          "customer satisfaction",
+          "decision making",
+          "revenue forecasting",
+          "marketing management",
+          "catering",
+          "sales",
+          "management",
+          "responsible",
+          "twitter",
+          "instagram",
+          "planning",
+          "hosting",
+          "promotions",
+          "completion",
+          "marketing",
+          "intelligence",
+          "strategy",
+          "pattern",
+          "research",
+          "analysis",
+          "interviews",
+          "hotel",
+          "tenders",
+          "preparation",
+          "evaluation",
+          "production",
+          "reports",
+          "director",
+          "recording",
+          "statistics",
+          "reservations",
+          "football",
+          "delphi",
+          "sourcing",
+          "budget",
+          "hospitality",
+          "recruitment",
+          "training",
+          "opera",
+          "forecasting",
+          "government",
+          "reporting",
+          "pr"
+        ],
+        "activity_themes": [
+          "Supporting local DMC partners for welcoming international travellers",
+          "Announcing new General Manager appointment in hospitality",
+          "Raising awareness of Long COVID fatigue and ME/CFS",
+          "Reflecting on long career and departure from Chelsea FC"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/chrisfrazer-cf-av_after-24-years-148-days-and-811-matches-i-activity-7023941358079889408-zSff",
+          "https://www.linkedin.com/posts/davidjwren_for-long-covid-fatigue-a-strategy-called-activity-7021458470289702912-97ux",
+          "https://www.linkedin.com/posts/gemma-mellish-6473811b_over-the-next-few-weeks-st-ermins-hotel-activity-6702471793178902528-cVfa",
+          "https://www.linkedin.com/posts/gemma-mellish-6473811b_we-are-proud-to-announce-the-appointment-activity-6412947852787621888-6u2z"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Nahid Yasin",
+      "title": "Food and Guest Experience Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://www.linkedin.com/in/nahid-yasin-52bbb442",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Responsible for guest experience and F&B operations; directly touches guest messaging, CRM, and experience technology that can integrate with booking/automation tools.",
+      "contact_evidence_summary": "Publicly named in recent TripAdvisor guest review as Food and Guest Experience Manager. Reachable via hotel's official guest contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d248802-r1008473876-St_Ermin_s_Hotel_Autograph_Collection-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "I especially want to call out Nahid Yasin, Food and Guest Experience Manager."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/nahid-yasin-52bbb442",
+        "display_name": "Nahid Yasin",
+        "headline": "An innovative strategic leader with extensive senior leadership experience including revenue management, quality management and people development",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 20 years and 2 months",
+        "experience": [
+          {
+            "title": "Restaurant And Bar Manager",
+            "organization": "Marriott International",
+            "date_range": "Jan 2005 - Jan 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food Beverage Manager",
+            "organization": "Marriott International",
+            "date_range": "Feb 2008 - May 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food Beverage Manager",
+            "organization": "Hilton",
+            "date_range": "Jun 2011 - Jan 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food Beverage Director",
+            "organization": "glh Hotels",
+            "date_range": "Jul 2013 - Apr 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Hotel Operations Consultant",
+            "organization": "Canary Riverside Plaza Hotel",
+            "date_range": "May 2017 - Aug 2017",
+            "location": null,
+            "description": "Department: Operations • Level: Specialist"
+          },
+          {
+            "title": "Head Of Hotel Operations At Merlin Entertainments Plc, Chessington World Of Adventures",
+            "organization": "Merlin Entertainments plc",
+            "date_range": "Sep 2017 - Aug 2019",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Hotel Operations",
+            "organization": "Chelsea Harbour Hotel",
+            "date_range": "Sep 2019 - Nov 2021",
+            "location": null,
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Food Beverage Director Operations",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Nov 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 2011 • Privately Held • Hospitality\nDepartment: Operations • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of West London",
+            "degree_or_field": "BA Honours Hotel & Hospitality Degree, 1st",
+            "date_range": "2001 - 2003"
+          }
+        ],
+        "skills": [
+          "food",
+          "director",
+          "operations",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Hospitality industry networking and career moves",
+          "Hotel management awards and recognitions",
+          "Leadership and professional development in hospitality",
+          "Festive celebrations at luxury hotels",
+          "Culinary journeys and restaurant milestones",
+          "Education and teaching in hotel management"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/nahid-yasin-52bbb442"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Therese Scully",
+      "title": "Director of Finance",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://www.linkedin.com/in/therese-scully-26416413",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees financial and revenue reporting; stakeholder in revenue-tech ROI and adoption decisions.",
+      "contact_evidence_summary": "Listed in RocketReach management team and LinkedIn company page. Hotel-level contacts provide routing path.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Therese Scully, Director of Finance at St. Ermin's Hotel - Autograph Collection."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/sterminshotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Therese Scully listed among employees at St. Ermin's Hotel - Autograph Collection."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/therese-scully-26416413",
+        "display_name": "Therese Scully",
+        "headline": "Director of Finance at St Ermins Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 25 years and 4 months",
+        "experience": [
+          {
+            "title": "Financial Controller",
+            "organization": "Millenium & Copthorne Hotels",
+            "date_range": "Jan 1996 - Jan 2005",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Financial Controller",
+            "organization": "Millennium Hotels & Resorts",
+            "date_range": "Jan 1999 - Jan 2006",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Financial Controller",
+            "organization": "Browns Hotel",
+            "date_range": "Jan 2001 - Jan 2001",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Finance Manager",
+            "organization": "Delaware North Companies",
+            "date_range": "Feb 2006 - Dec 2006",
+            "location": null,
+            "description": "Based at Arsenal Football club, i was involed in the relocation from Highbury to the Emirates Stadium. Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Financial Controller",
+            "organization": "The Gore and The Pelham Hotels.",
+            "date_range": "Dec 2006 - Jul 2010",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Director Of Finance",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Aug 2010 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 2011 • Privately Held • Hospitality. Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Financial Controller",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Aug 2010 - Jul 2022",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 2011 • Privately Held • Hospitality. Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Director Of Fiance St Ermins Hotel",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Aug 2010 - Jul 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 2011 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Director Of Finance",
+            "organization": "St Ermins Hotel & Bankside Hotel",
+            "date_range": "Apr 2018 - Jul 2022",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Galway-Mayo Institute of Technology",
+            "degree_or_field": "Hotel Management",
+            "date_range": "1984 - 1989"
+          }
+        ],
+        "skills": [
+          "director",
+          "finance",
+          "football",
+          "relocation",
+          "hotel"
+        ],
+        "activity_themes": [
+          "AI and technology innovations for hospitality guest experiences",
+          "Sustainable beekeeping and hotel apiary initiatives",
+          "Hotel sales team achievements and revenue records",
+          "Career milestones, transitions and retirements in hospitality",
+          "Hotel events including afternoon tea and weddings",
+          "Leadership recognition in the hospitality industry"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/martin-ganyasi-509906155_hospitalitytech-guestexperience-artificialintelligence-activity-7368969047134212096-YEUo",
+          "https://www.linkedin.com/posts/philstreet_how-to-sound-like-andy-murray-on-decaffeinated-activity-7368540307778355200-Br7P",
+          "https://www.linkedin.com/posts/anupam-kaul-10991a65_hospitalityleadership-revenuemanagement-activity-7368187119745286144-RsuS",
+          "https://www.linkedin.com/posts/james-clark-mih-72a043185_our-super-sales-team-who-have-achieved-a-activity-7367135200004165632-P4xk",
+          "https://www.linkedin.com/posts/sterminshotel_were-thrilled-to-see-our-out-apiary-getting-activity-7360580771532685312-vQck",
+          "https://www.linkedin.com/posts/sterminshotel_bees-outapiary-sustainablebeekeeping-activity-7358059166050983939-_lZ7",
+          "https://www.linkedin.com/posts/the-hotel-magazine_hotelieroftheweek-activity-7359535786037239809-X0o0",
+          "https://www.linkedin.com/posts/sterminshotel_eventprofs-eventpros-activity-7362845701472407552-HgFR"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Martin Ganyasi",
+      "title": "Assistant Food and Beverage Manager",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://www.linkedin.com/in/martin-ganyasi-509906155",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888; reservations@sterminshotel.co.uk",
+      "decision_maker_score": "low",
+      "intimacy_grade": "medium",
+      "fit_reason": "Supports F&B and guest experience delivery; potential touchpoint for on-site guest comms automation.",
+      "contact_evidence_summary": "Referenced in RocketReach management listings. Hotel department routing available.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Martin Ganyasi, Assistant Food and Beverage Manager."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/martin-ganyasi-509906155",
+        "display_name": "Martin Ganyasi",
+        "headline": "Aspiring IT Technician | BSc Computer Science (First Class Honours) | Customer-Focused with 10+ Years in Hospitality & Tech Systems",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I’m an aspiring IT Technician with a First-Class Honours degree in Computer Science and over 10 years of experience in hospitality operations. My background combines strong customer service skills with hands-on technical knowledge, giving me a unique perspective in IT support. Through my studies, I gained experience in hardware & software architecture, cloud computing, IoT, and databases, while completing projects such as a POS ordering app, a supermarket management system in Java, and a smart home simulation in Cisco Packet Tracer. In my current role, I also supported conference and banqueting AV setups — connecting laptops, projectors, and troubleshooting issues to ensure smooth events. I’m now looking to grow in IT support and service desk roles, where I can apply my technical skills, problem-solving mindset, and customer-focused approach to deliver reliable and friendly IT services",
+        "experience": [
+          {
+            "title": "C B Attendant",
+            "organization": "Grange Tower Bridge Hotel",
+            "date_range": "Feb 2015 - Sep 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Waiter",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Oct 2015 - Feb 2018",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Restaurant Supervisor",
+            "organization": "St. Ermin's Hotel",
+            "date_range": "Feb 2018 - Oct 2020",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Restaurant And Bar Manager",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Jun 2019 - Oct 2020",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Assistant Food And Beverage Manager",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Oct 2020 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "In my current role, I also supported conference and banqueting AV setups — connecting laptops, projectors, and troubleshooting issues to ensure smooth events."
+          }
+        ],
+        "education": [
+          {
+            "school": "London Metropolitan University",
+            "degree_or_field": "BSc Computer Science (First Class Honours)",
+            "date_range": "2022 - 2025"
+          }
+        ],
+        "skills": [
+          "science",
+          "hospitality",
+          "operations",
+          "software",
+          "architecture",
+          "cloud",
+          "computing",
+          "iot",
+          "databases",
+          "projects",
+          "management",
+          "java",
+          "simulation",
+          "cisco",
+          "av",
+          "laptops",
+          "projectors",
+          "troubleshooting",
+          "food",
+          "c",
+          "hotel",
+          "computer science",
+          "customer service",
+          "software architecture",
+          "cloud computing",
+          "service desk",
+          "problem solving"
+        ],
+        "activity_themes": [
+          "Hospitality industry evolution and digital transformation",
+          "Restaurant and bar management trends",
+          "Digital ordering systems and eMenu in hotels",
+          "Staff awards and recognition in hospitality",
+          "Festive events and guest experience in London hotels",
+          "Networking and career development in UK hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/joelsatchi_hospitality-restaurants-pubs-activity-7421510986735448064-CTq4",
+          "https://www.linkedin.com/posts/mark-karacsony-3786b6156_watching-hospitality-evolve-in-real-time-activity-7416852789152182275-yPNZ",
+          "https://www.linkedin.com/posts/mark-karacsony-3786b6156_stepping-into-2026-feels-good-and-here-is-activity-7415067313995104257-n8XX"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jon Cummins",
+      "title": "Director",
+      "company": "St. Ermin's Management UK Limited",
+      "linkedin_url": "https://www.linkedin.com/in/jon-cummins-66ba5639",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888 (property correspondence address)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Board-level oversight of the operating/management company for this property; influence on commercial strategy and tech investments.",
+      "contact_evidence_summary": "Official Companies House record as active Director with correspondence at the hotel. Scarcity of direct personal contact details.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07232261/officers",
+          "source_type": "directory",
+          "quote_or_fact": "Jon Cummins, Director, appointed 12 October 2012, active, correspondence at St Ermin's Hotel."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jon-cummins-66ba5639",
+        "display_name": "Jon Cummins",
+        "headline": "Owner of Bulldog Yoga and Former President at Amerimar Enterprises, Inc.",
+        "location": "Philadelphia, Pennsylvania, United States",
+        "about": "President and Co-Chairman, Amerimar Enterprises Founder, Bulldog Yoga\nTotal Experience: 37 years and 1 month",
+        "experience": [
+          {
+            "title": "COO",
+            "organization": "Amerimar Enterprises, Inc.",
+            "date_range": "Jan 1989 - Jan 2023",
+            "location": null,
+            "description": "51-200 employees • Privately Held • Real Estate\nDepartment: C-Suite • Level: C-Level"
+          },
+          {
+            "title": "President",
+            "organization": "Amerimar Enterprises, Inc.",
+            "date_range": "Jul 1989 - Jan 2023",
+            "location": null,
+            "description": "51-200 employees • Privately Held • Real Estate\nDepartment: C-Suite • Level: President/Vice President"
+          },
+          {
+            "title": "Owner Of Bulldog Yoga And Former President At Amerimar Enterprises, Inc.",
+            "organization": "Self-employed",
+            "date_range": "Aug 1989 - Present",
+            "location": null,
+            "description": "Department: C-Suite • Level: Owner"
+          }
+        ],
+        "education": [
+          {
+            "school": "Wharton School, University of Pennsylvania",
+            "degree_or_field": "BS, Finance",
+            "date_range": "1983 - 1987"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/jon-cummins-66ba5639"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Gerald Marshall",
+      "title": "Director",
+      "company": "St. Ermin's Management UK Limited",
+      "linkedin_url": "https://www.linkedin.com/in/gerald-m-marshall-68b38010",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Correspondence via hotel or Amerimar Enterprises",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Board-level role at the management company operating this hotel; potential influence over revenue tech and operational automation strategy.",
+      "contact_evidence_summary": "Official Companies House record as active Director. Limited public intimacy beyond company filings.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07232261/officers",
+          "source_type": "directory",
+          "quote_or_fact": "Gerald Marshall, Director, appointed 22 April 2010, active."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/gerald-m-marshall-68b38010",
+        "display_name": "Gerald M. Marshall",
+        "headline": "President & CEO of Netrality Data Centers & Chairman & CEO at Amerimar Enterprises",
+        "location": "Miami Beach, Florida, United States (US)",
+        "about": "As Co-Chairman and Chief Executive Officer of Amerimar Enterprises, Inc., Jerry oversees the acquisition, financing, redevelopment and disposition of Office, Mixed-Use and Telecom properties for Amerimar. Jerry began his real estate career in 1985. Prior to joining Amerimar in 1988, Jerry was with Dean Witter Realty, Inc. in New York City, where he focused on real estate acquisitions, development and management. Prior to moving back to New York City in the summer of 2005, Jerry was active in the Philadelphia community. He served as a Trustee, Finance and Audit Committee Member, an Executive Committee Member, a Member of National Men’s Cabinet and as Chairman of the Real Estate Committee for the Jewish Federation of Greater Philadelphia. Jerry has also served on the Board of The American Heart Association of Southeastern Pennsylvania. Jerry is an active member in the Metro New York Chapter of Young Presidents Organization (YPO), where he served on the membership committee, and is also an active member in the Big Apple chapter of the World Presidents Organization (WPO). Jerry holds a Bachelor’s degree from The University of Texas with a major in real estate and an MBA from The Wharton School of the University of Pennsylvania with a concentration in finance.",
+        "experience": [
+          {
+            "title": "Co-Chairman Chief Executive Officer",
+            "organization": "Amerimar Enterprises, Inc.",
+            "date_range": "Jan 1988 - Present",
+            "location": "New York, NY",
+            "description": "Company: 51-200 employees • Privately Held • Real Estate. Department: C-Suite • Level: C-Level"
+          },
+          {
+            "title": "President CEO",
+            "organization": "Netrality Data Centers",
+            "date_range": "Apr 2012 - Present",
+            "location": "Greater New York City Area",
+            "description": "Company: 51-200 employees • Privately Held • Telecommunications. Department: C-Suite • Level: C-Level"
+          }
+        ],
+        "education": [
+          {
+            "school": "The University of Texas at Austin",
+            "degree_or_field": "Bachelor's degree Real Estate",
+            "date_range": null
+          },
+          {
+            "school": "The Wharton School of the University of Pennsylvania",
+            "degree_or_field": "MBA with a concentration in finance",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "redevelopment",
+          "disposition",
+          "realty",
+          "acquisitions",
+          "management",
+          "finance",
+          "audit",
+          "apple",
+          "mba",
+          "real estate",
+          "development management"
+        ],
+        "activity_themes": [
+          "Co-hosting networking events with partners like Philadelphia Phillies",
+          "Customer appreciation initiatives",
+          "Employee appreciation and team success highlights",
+          "Welcoming new directors in strategic alliances",
+          "Sponsoring happy hour and industry events at data centers",
+          "Celebrating life sciences, biotech, and tenant openings",
+          "Promoting connectivity, interconnection, and low latency solutions",
+          "Sales kickoffs, team meetings, and award recognitions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/pch-technologies_pchtech-phillies-networkingevent-activity-6965014708470824960-pVK6",
+          "https://www.linkedin.com/posts/netrality_happy-national-customer-appreciation-day-activity-6921790688015597568-42fv",
+          "https://www.linkedin.com/posts/gerald-m-marshall-68b38010_employeeappreciationday-activity-6905524786576142336-68rQ",
+          "https://www.linkedin.com/posts/netrality_colocation-datacenters-interconnection-activity-6902246955217420288-nygx",
+          "https://www.linkedin.com/posts/netrality_elevate-xchange-happy-hour-february-24th-activity-6899455428984397824-kQzE",
+          "https://www.linkedin.com/posts/netrality_lifesciences-biotech-datacenters-activity-6895090356346527744-dPNM",
+          "https://www.linkedin.com/posts/netrality_connectivity-interconnection-ecosystem-activity-6900114318432493568-pDtd",
+          "https://www.linkedin.com/posts/netrality_igniteyouredge-lifeatnetrality-netralityadvantage-activity-6898708893753835520-nnvd"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Ankica Korzelius",
+      "title": "Director of Housekeeping",
+      "company": "St. Ermin's Hotel - Autograph Collection",
+      "linkedin_url": "https://www.linkedin.com/in/ankica-korzelius-60809ba6",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel switchboard +44 (0)20 7222 7888",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees guest room experience operations; indirect relevance to guest messaging and experience tech enhancements.",
+      "contact_evidence_summary": "Listed in RocketReach management directory. Public hotel contacts only.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/st-ermins-hotel-autograph-collection-management_b5d7e7d1f42e3e94",
+          "source_type": "directory",
+          "quote_or_fact": "Ankica Korzelius, Director of Housekeeping at St. Ermin's Hotel - Autograph Collection."
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ankica-korzelius-60809ba6",
+        "display_name": "Ankica Korzelius",
+        "headline": "Director Of Housekeeping at St. Ermin's Hotel - Autograph Collection",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 23 years and 11 months",
+        "experience": [
+          {
+            "title": "Housekeeping Supervisor",
+            "organization": "InterContinental London Park Lane",
+            "date_range": "May 1997 - Mar 2000",
+            "location": "London, England Metropolitan Area",
+            "description": null
+          },
+          {
+            "title": "Assistant Manager",
+            "organization": "Compass Group UK",
+            "date_range": "Apr 2001 - Sep 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Executive Housekeeper",
+            "organization": "Millennium Knightsbridge Hotel",
+            "date_range": "Mar 2003 - Oct 2011",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Executive Housekeeper",
+            "organization": "Millennium Knightsbridge Hotel",
+            "date_range": "Sep 2003 - Oct 2011",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Housekeeping Director",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Nov 2010 - Nov 2011",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Housekeeping",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Nov 2011 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Senior manager with a demonstrated history of working in the hospitality industry. Versatile leader with over 20 years of experience including pre-openings, refurbishments and re-branding hotels. Well established in leading a successful and productive team. Capable in operating within a highly pressurised working environment, with a proven ability to perform efficiently and to maximum effect. Awarded AA Housekeeper of the year in 2019. My passion is in delivering breath-taking hospitality and managing a large team. Currently managing very successful housekeeping operation at St. Ermin's Hotel - Autograph Collection."
+          },
+          {
+            "title": "Director Of Housekeeping",
+            "organization": "Bankside Hotel",
+            "date_range": "Mar 2018 - May 2022",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "housekeeping",
+          "refurbishments",
+          "branding",
+          "hotels",
+          "hospitality"
+        ],
+        "activity_themes": [
+          "Luxury hotel housekeeping awards and team wins",
+          "Hospitality networking and industry events",
+          "Hotel refurbishments and rebranding",
+          "Christmas celebrations at luxury hotels",
+          "Staff development and training in hospitality",
+          "Hotel management best practices and innovation",
+          "Luxury hotel weddings and seasonal events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/chez-antoinette-limited_happy-new-year-2026-the-past-year-has-activity-7412462945210675200-ucyz",
+          "https://www.linkedin.com/posts/the-hotel-magazine_hotelieroftheweek-activity-7415390364217651200-sgZS",
+          "https://www.linkedin.com/posts/hannah-lees-447b86144_today-is-my-husbands-and-sons-birthday-activity-7416078921836011520-KIc_",
+          "https://www.linkedin.com/posts/antoinette-lettieri-99b42089_hello-exclusive-the-lanesborough-was-activity-7408966204473622529-RWPA",
+          "https://www.linkedin.com/posts/the-trafalgar-st-james_thetrafalgarstjames-ignitethefinish-hilton-activity-7407108913155686400-D2T0",
+          "https://www.linkedin.com/posts/paula-mccolgan-3542111b_thegoring-luluguinness-activity-7404164946374131712-nmUh",
+          "https://www.linkedin.com/posts/lina-zakzeckyte-b60ba426_hospace2025-hospitality-innovation-activity-7394871128776933376-aXvC",
+          "https://www.linkedin.com/posts/simoncourt_croatia-hospitality-hotelgm-activity-7392199998270095361-BREk"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Karen Oruska",
+      "title": "Company Secretary",
+      "company": "St. Ermin's Management UK Limited",
+      "linkedin_url": null,
+      "email": "koruska@amerimar.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Correspondence via hotel address or Amerimar Enterprises",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Administrative leadership at the management company for the property; indirect support role for operational communications.",
+      "contact_evidence_summary": "Official Companies House record as active Secretary. Public data is limited to filings; explains lower contact intimacy.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/07232261/officers",
+          "source_type": "directory",
+          "quote_or_fact": "ORUSKA, Karen, Secretary, appointed 10 January 2015, active."
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T15:02:30.666333+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 0,
+    "attempted": 13,
+    "succeeded": 13,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T15:13:10.646753+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 12,
+      "structured": 11,
+      "discovered": 0,
+      "errors": 0
+    }
+  }
+}

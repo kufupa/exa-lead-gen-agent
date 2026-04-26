@@ -147,7 +147,6 @@ def estimate_xai_cost(
     usage: Any,
     *,
     rates: XaiRates | None = None,
-    token_price_multiplier: float = 1.0,
 ) -> dict[str, Any]:
     """
     Estimate local USD cost from a usage blob.
@@ -171,12 +170,11 @@ def estimate_xai_cost(
     non_cached_prompt = max(0, prompt_tokens - cached_prompt_tokens)
     output_like_tokens = max(0, completion_tokens + reasoning_tokens)
 
-    mult = max(0.0, float(token_price_multiplier))
     token_usd = (
         (non_cached_prompt / 1_000_000.0) * rates.input_usd_per_mtok
         + (cached_prompt_tokens / 1_000_000.0) * rates.cached_input_usd_per_mtok
         + (output_like_tokens / 1_000_000.0) * rates.output_usd_per_mtok
-    ) * mult
+    )
 
     tools = count_xai_tools(u)
     web_search_count = tools.get("web_search", 0)
@@ -190,7 +188,6 @@ def estimate_xai_cost(
         "approx_total_usd": round(total_usd, 6),
         "token_component_usd": round(token_usd, 6),
         "xai_tool_component_usd": round(tool_usd, 6),
-        "token_price_multiplier": mult,
         "counts": {
             "prompt_tokens": prompt_tokens,
             "cached_prompt_text_tokens": cached_prompt_tokens,
@@ -209,7 +206,6 @@ def estimate_xai_cost(
             "cached_prompt_input_usd_per_million_tokens": rates.cached_input_usd_per_mtok,
             "web_search_usd_per_1000_invocations": rates.xai_web_search_usd_per_1k,
             "x_search_usd_per_1000_invocations": rates.xai_x_search_usd_per_1k,
-            "token_price_multiplier": mult,
         },
     }
 

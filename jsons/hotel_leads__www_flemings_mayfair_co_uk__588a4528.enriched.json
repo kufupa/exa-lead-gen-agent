@@ -1,0 +1,739 @@
+{
+  "target_url": "https://www.flemings-mayfair.co.uk/",
+  "generated_at_utc": "2026-04-26T14:00:09.030253+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "min_output_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "retry_low_count": false,
+  "pre_filter_count": 22,
+  "post_filter_count": 22,
+  "low_count_reason": null,
+  "research_attempts": 1,
+  "usage": {
+    "prompt_tokens": 56723,
+    "cached_prompt_text_tokens": 24704,
+    "completion_tokens": 6379,
+    "reasoning_tokens": 5900,
+    "output_tokens": 0,
+    "total_tokens": 69002,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "usage_by_attempt": [
+    {
+      "completion_tokens": 6379,
+      "prompt_tokens": 56723,
+      "total_tokens": 69002,
+      "prompt_text_tokens": 56723,
+      "reasoning_tokens": 5900,
+      "cached_prompt_text_tokens": 24704,
+      "server_side_tools_used": [
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_X_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH"
+      ]
+    }
+  ],
+  "usage_summary": {
+    "xai_tools": {
+      "web_search": 10,
+      "x_search": 1
+    },
+    "xai_tool_invocations": 11
+  },
+  "cost_estimate": {
+    "approx_total_usd": 0.197653,
+    "token_component_usd": 0.142653,
+    "xai_tool_component_usd": 0.055,
+    "token_price_multiplier": 1.0,
+    "counts": {
+      "prompt_tokens": 56723,
+      "cached_prompt_text_tokens": 24704,
+      "completion_tokens": 6379,
+      "reasoning_tokens": 5900,
+      "total_tokens_reported": 69002,
+      "output_like_tokens": 12279,
+      "server_side_tool_invocations": 11,
+      "server_side_tool_usage": {
+        "web_search": 10,
+        "x_search": 1
+      },
+      "web_search_invocations_estimated": 10,
+      "x_search_invocations_estimated": 1
+    },
+    "rates_used": {
+      "input_usd_per_million_tokens": 2.0,
+      "output_usd_per_million_tokens": 6.0,
+      "cached_prompt_input_usd_per_million_tokens": 0.2,
+      "web_search_usd_per_1000_invocations": 5.0,
+      "x_search_usd_per_1000_invocations": 5.0,
+      "token_price_multiplier": 1.0
+    }
+  },
+  "cost_by_attempt": [
+    {
+      "approx_total_usd": 0.197653,
+      "token_component_usd": 0.142653,
+      "xai_tool_component_usd": 0.055,
+      "token_price_multiplier": 1.0,
+      "counts": {
+        "prompt_tokens": 56723,
+        "cached_prompt_text_tokens": 24704,
+        "completion_tokens": 6379,
+        "reasoning_tokens": 5900,
+        "total_tokens_reported": 69002,
+        "output_like_tokens": 12279,
+        "server_side_tool_invocations": 11,
+        "server_side_tool_usage": {
+          "web_search": 10,
+          "x_search": 1
+        },
+        "web_search_invocations_estimated": 10,
+        "x_search_invocations_estimated": 1
+      },
+      "rates_used": {
+        "input_usd_per_million_tokens": 2.0,
+        "output_usd_per_million_tokens": 6.0,
+        "cached_prompt_input_usd_per_million_tokens": 0.2,
+        "web_search_usd_per_1000_invocations": 5.0,
+        "x_search_usd_per_1000_invocations": 5.0,
+        "token_price_multiplier": 1.0
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "full_name": "Henrik Muehle",
+      "title": "Managing Director",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": "henrik.muehle@flemings.co.uk",
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Overall property and commercial leadership; Julia Radschun is EA",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Top executive with clear influence over all commercial strategy, revenue-tech adoption, systems, distribution partnerships, and property-wide digital/booking initiatives.",
+      "contact_evidence_summary": "Prominent profile on official Meet the Team and homepage with phone. Multiple news features as GM/MD. Email pattern confirmed via public directory-style sources tied to role. EA also listed publicly.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Henrik Muehle Managing Director ... [+44 (0) 2074990000]"
+        },
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/",
+          "source_type": "official_site",
+          "quote_or_fact": "Henrik Muehle, Managing Director at Flemings Mayfair hotel"
+        },
+        {
+          "source_url": "https://boutiquehotelnews.com/features/checking-in-with-henrik-muehle-general-manager-at-flemings-mayfair-hotel/",
+          "source_type": "news",
+          "quote_or_fact": "Henrik Muehle, general manager at Flemings Mayfair Hotel"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Katarzyna Pytt",
+      "title": "Reservations & Revenue Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/katarzyna-pytt-3248a912a",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7016 5647",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@flemings.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct oversight of reservations processes, revenue management, and booking systems. Primary stakeholder for AI booking automation, revenue-tech, and related guest messaging platforms.",
+      "contact_evidence_summary": "Dedicated profile on official Meet the Team page with personal direct phone line explicitly listed. Confirmed on LinkedIn. Reservations department email published on contact page. Strongest public contact evidence for core ICP role.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "KASIA PYTT Reservations & Revenue Manager ... [+44 (0)20 7016 5647](tel:+44 (0)20 7016 5647)"
+        },
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "For reservations : reservations@flemings.co.uk"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/katarzyna-pytt-3248a912a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Reservations & Revenue Manager at Flemings Mayfair Hotel"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Colin Exton",
+      "title": "Director of Sales & Marketing",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/colinexton",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@flemings.co.uk; sales and distribution oversight",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees all sales, marketing, distribution, and commercial strategy including revenue tech adoption, online booking channels, and guest acquisition/messaging.",
+      "contact_evidence_summary": "Featured on official Meet the Team page with phone listed under name. Multiple LinkedIn confirmations of Director of Sales & Marketing role at the hotel. Strong public profile.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Colin Exton Director of Sales & Marketing ... [+44 (0) 2074990000]"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/colinexton",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director Of Sales Marketing at Flemings Hotel"
+        },
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations@flemings.co.uk for booking related outreach"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Karina Wong",
+      "title": "Marketing Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7016 5619",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "guest.services@flemings.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing and digital presence, directly influences guest messaging, online booking experience, CRM campaigns, and digital distribution channels relevant to AI automation and guest comms tech.",
+      "contact_evidence_summary": "Official Meet the Team page lists her with dedicated direct phone. Marketing role confirmed with quote. Department emails available via contact page for follow-up.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Karina Wong Marketing Manager ... [+44 (0)20 7016 5619]"
+        },
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "guest.services@flemings.co.uk or concierge@flemings.co.uk"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Luke Jeffery",
+      "title": "Ormer Reservations and Events Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "ormerrestaurant@flemings.co.uk; reservations@flemings.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages restaurant and events reservations alongside hotel booking flows; direct exposure to reservation automation and guest experience/messaging tech.",
+      "contact_evidence_summary": "Official team page with title, quote, and main hotel phone tied to profile. Restaurant reservations email listed separately on site.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "LUKE JEFFERY Ormer Reservations and Events Manager ... [+44 (0)20 7499 0000]"
+        },
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/fine-dining-london/ormer-mayfair-restaurant",
+          "source_type": "official_site",
+          "quote_or_fact": "ormerrestaurant@flemings.co.uk; Reservations : 0207 016 5601"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Florian Schaible",
+      "title": "Austria, Germany, Switzerland Sales Contact",
+      "company": "FL Hospitality (Flemings partner)",
+      "linkedin_url": null,
+      "email": "fs@flospitality.com",
+      "email2": null,
+      "phone": "+43 664 881 968 75",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Regional sales for DACH markets for the hotel",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Regional sales representative influencing European distribution, revenue partnerships, and booking channels for the property.",
+      "contact_evidence_summary": "Directly published on official contact page with email and phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Austria, Germany, Switzerland | Mr Florian Schaible | email: fs@flospitality.com | tel: +43 664 881 968 75"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Craig Farrell",
+      "title": "Australia Sales Contact",
+      "company": "La Collection / Flemings partner",
+      "linkedin_url": null,
+      "email": "craig@lacollection.travel",
+      "email2": null,
+      "phone": "+61 437 788 660",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Australia market representative",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Market-specific sales lead for Oceania; touches international distribution and partnership strategy for booking and revenue systems.",
+      "contact_evidence_summary": "Listed with direct email and phone on the hotel's official contact/location page.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "Australia | Mr Craig Farrell | email: craig@lacollection.travel | tel: +61 437 788 660"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Alexandru Ceban",
+      "title": "Front Office Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/alexandru-ceban-249258106",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "guest.services@flemings.co.uk; concierge@flemings.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees front office and guest interactions including check-in processes, guest comms, and operational systems that integrate with reservation and messaging platforms.",
+      "contact_evidence_summary": "Official team page profiles him with phone and quote on guest service. LinkedIn confirms Front Office Manager role.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Alexandru Ceban Front Office Manager ... [+44 (0) 20 7499 0000] ... At Flemings Mayfair, we take pride in the service we provide to all our guests."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/alexandru-ceban-249258106",
+          "source_type": "linkedin",
+          "quote_or_fact": "Front Office Manager or similar leadership at Flemings Mayfair Hotel"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Ryan Alden",
+      "title": "Head Concierge",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/ryan-alden-06273247",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "concierge@flemings.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads guest experience and concierge services involving personalized guest messaging, recommendations, and integration with booking/CRM systems.",
+      "contact_evidence_summary": "Official team page with title and phone. LinkedIn confirms Head Concierge at Flemings Mayfair. Department email available.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Ryan Alden Head Concierge ... [+44 (0) 2074990000]"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/ryan-alden-06273247",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head concierge at Flemings Mayfair"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Lorena Somera",
+      "title": "Operations Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "guest.services@flemings.co.uk",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Operations leadership touches guest experience, CRM processes, staff training on systems, and operational efficiency in reservations and guest comms workflows.",
+      "contact_evidence_summary": "Official Meet the Team page with title, bio quote, and hotel phone. Multiple guest reviews reference operations support.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Lorena Somera Operations Manager ... [+44 (0)20 7499 0000]"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d255225-Reviews-Flemings_Mayfair-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Special shout out to Operations Manager Lorena who really went above and beyond"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Andrew Sturge",
+      "title": "Head Concierge",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "concierge@flemings.co.uk; Golden Keys member",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Guest experience leadership with influence on personalized comms and operational tools that support the guest journey from booking to stay.",
+      "contact_evidence_summary": "Listed on official Meet the Team page alongside Ryan Alden with phone and London-focused quote. Part of Golden Keys network per site.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Andrew Sturge Head Concierge ... [+44 (0) 2074990000]"
+        },
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/",
+          "source_type": "official_site",
+          "quote_or_fact": "Our Head Concierge and Assistant Head Concierge are part of the Golden Keys global network"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Trinette Lee",
+      "title": "Senior Sales Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/trinette-lee-a1b623140",
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Senior sales role reporting to Director of Sales & Marketing; influences corporate/group bookings, distribution channels, and sales tech that intersects with booking automation.",
+      "contact_evidence_summary": "Listed on official Meet the Team page with phone. Current LinkedIn confirms Senior Sales Manager at Flemings Mayfair.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "TRINETTE LEE Senior Sales Manager ... [+44 (0) 2074990000]"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/trinette-lee-a1b623140",
+          "source_type": "linkedin",
+          "quote_or_fact": "Senior Sales Manager at Flemings Mayfair Hotel"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Julia Radschun",
+      "title": "Executive Assistant to the Managing Director",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Gatekeeper to Henrik Muehle; general enquiries route",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct support to top decision maker; often first point of contact for vendor outreach on commercial/tech initiatives like AI booking tools.",
+      "contact_evidence_summary": "Explicitly listed on official team page as EA to Henrik Muehle with associated contact details.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Julia Radschun Executive Assistant to Henrik Muehle - Managing Director"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Matteo Marin",
+      "title": "USA Representative / Sales Contact",
+      "company": "FL Hospitality (Flemings partner)",
+      "linkedin_url": null,
+      "email": "mm@flospitality.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Handles US market distribution and sales for Flemings Mayfair",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Dedicated sales contact for key market (USA); influences distribution partnerships, OTA relationships, and booking channel strategy relevant to automation tech.",
+      "contact_evidence_summary": "Publicly listed on official hotel contact page with direct business email for enquiries.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/contact",
+          "source_type": "official_site",
+          "quote_or_fact": "USA | Mr Matteo Marin | email: mm@flospitality.com"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Varo Thayan",
+      "title": "Head of Finance",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Finance leadership with likely input on revenue management tech investments, ROI for automation tools, and commercial operations.",
+      "contact_evidence_summary": "Listed on official team page with title and contact phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Varo Thayan Head of Finance ... [+44 (0) 2074990000]"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Lorenzo Zappacosta",
+      "title": "Food and Beverage Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "ormerrestaurant@flemings.co.uk",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Manages F&B operations and restaurant reservations/events; adjacent to reservations automation and guest messaging for dining bookings.",
+      "contact_evidence_summary": "Official team page with full bio and main phone. Restaurant email provides additional route.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Lorenzo Zappacosta Food and Beverage Manager ... I began my career in Italy..."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Sofian Msetfi",
+      "title": "Executive Chef",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "ormerrestaurant@flemings.co.uk",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees Michelin-starred restaurant operations; adjacent ICP for restaurant booking automation and guest dining messaging.",
+      "contact_evidence_summary": "Official team page with executive title and phone. Restaurant contact details apply.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Sofian Msetfi Executive Chef ... [+44 (0) 20 7499 0000]"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Monica Querol",
+      "title": "Human Resources Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "HR leadership; influences staff training on new guest-facing tech, CRM systems, and adoption of AI tools across reservations and guest experience teams.",
+      "contact_evidence_summary": "Publicly listed with title and phone on official Meet the Team page.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Monica Querol Human Resources Manager ... [+44 (0) 2074990000]"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Piotr Sikorski",
+      "title": "Head Sommelier",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Key F&B team member involved in guest experience and events that can integrate with broader CRM and messaging platforms.",
+      "contact_evidence_summary": "Profiled on official Meet the Team page with wine cellar details.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Piotr Sikorski Head Sommelier ... The wine cellar at Ormer Mayfair holds some of the rarest and unique bottles"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Colleen Gallagher",
+      "title": "Head Housekeeper",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Guest experience operations adjacent role; housekeeping integrates with guest comms/pre-arrival messaging in modern CRM systems.",
+      "contact_evidence_summary": "Listed with title and phone on the official team page.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Colleen Gallagher Head Housekeeper ... [+44 (0) 20 7499 0000]"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Diana Hristova",
+      "title": "Assistant Head Housekeeper",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Supports guest experience operations with potential touchpoints in personalized guest communications and post-stay feedback loops.",
+      "contact_evidence_summary": "Publicly listed on official Meet the Team page with phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Diana Hristova Assistant Head Housekeeper ... [+44 (0) 020 7499 0000]"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Florentin Bucura",
+      "title": "Maintenance Manager",
+      "company": "Flemings Mayfair Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7499 0000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees property systems and IT-adjacent maintenance; plausible stakeholder for implementation of new digital booking or guest tech infrastructure.",
+      "contact_evidence_summary": "Included on official team page with title, bio, and contact phone.",
+      "evidence": [
+        {
+          "source_url": "https://www.flemings-mayfair.co.uk/mayfair-hotel/meet-the-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Florentin Bucura Maintenance Manager ... [+44 (0) 2074990000]"
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "batch",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-26T14:18:30.920744+00:00",
+    "concurrency": null,
+    "xai_batch_token_multiplier": 0.5,
+    "skipped_pre_enrichment": 22,
+    "attempted": 0,
+    "succeeded": 0,
+    "failed": [],
+    "batch_id": null
+  }
+}

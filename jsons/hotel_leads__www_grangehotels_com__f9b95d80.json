@@ -1,0 +1,439 @@
+{
+  "target_url": "https://www.grangehotels.com/",
+  "generated_at_utc": "2026-04-26T15:20:40.479856+00:00",
+  "model": "grok-4.20-reasoning",
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "min_output_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "retry_low_count": false,
+  "pre_filter_count": 14,
+  "post_filter_count": 11,
+  "low_count_reason": null,
+  "research_attempts": 1,
+  "usage": {
+    "prompt_tokens": 47901,
+    "cached_prompt_text_tokens": 32576,
+    "completion_tokens": 3449,
+    "reasoning_tokens": 5810,
+    "output_tokens": 0,
+    "total_tokens": 57160,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "usage_by_attempt": [
+    {
+      "completion_tokens": 3449,
+      "prompt_tokens": 47901,
+      "total_tokens": 57160,
+      "prompt_text_tokens": 47901,
+      "reasoning_tokens": 5810,
+      "cached_prompt_text_tokens": 32576,
+      "server_side_tools_used": [
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH"
+      ]
+    }
+  ],
+  "usage_summary": {
+    "xai_tools": {
+      "web_search": 11
+    },
+    "xai_tool_invocations": 11
+  },
+  "cost_estimate": {
+    "approx_total_usd": 0.147719,
+    "token_component_usd": 0.092719,
+    "xai_tool_component_usd": 0.055,
+    "counts": {
+      "prompt_tokens": 47901,
+      "cached_prompt_text_tokens": 32576,
+      "completion_tokens": 3449,
+      "reasoning_tokens": 5810,
+      "total_tokens_reported": 57160,
+      "output_like_tokens": 9259,
+      "server_side_tool_invocations": 11,
+      "server_side_tool_usage": {
+        "web_search": 11
+      },
+      "web_search_invocations_estimated": 11,
+      "x_search_invocations_estimated": 0
+    },
+    "rates_used": {
+      "input_usd_per_million_tokens": 2.0,
+      "output_usd_per_million_tokens": 6.0,
+      "cached_prompt_input_usd_per_million_tokens": 0.2,
+      "web_search_usd_per_1000_invocations": 5.0,
+      "x_search_usd_per_1000_invocations": 5.0
+    }
+  },
+  "cost_by_attempt": [
+    {
+      "approx_total_usd": 0.147719,
+      "token_component_usd": 0.092719,
+      "xai_tool_component_usd": 0.055,
+      "counts": {
+        "prompt_tokens": 47901,
+        "cached_prompt_text_tokens": 32576,
+        "completion_tokens": 3449,
+        "reasoning_tokens": 5810,
+        "total_tokens_reported": 57160,
+        "output_like_tokens": 9259,
+        "server_side_tool_invocations": 11,
+        "server_side_tool_usage": {
+          "web_search": 11
+        },
+        "web_search_invocations_estimated": 11,
+        "x_search_invocations_estimated": 0
+      },
+      "rates_used": {
+        "input_usd_per_million_tokens": 2.0,
+        "output_usd_per_million_tokens": 6.0,
+        "cached_prompt_input_usd_per_million_tokens": 0.2,
+        "web_search_usd_per_1000_invocations": 5.0,
+        "x_search_usd_per_1000_invocations": 5.0
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "full_name": "Harpal Singh Matharu",
+      "title": "Director & Company Secretary",
+      "company": "Globalgrange Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central office phone +44 (0) 20 7233 7888; reservations@grangehotels.com (routed to commercial/ops team)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Ultimate oversight of the family-owned management company operating all Grange Hotels; influences commercial strategy, revenue tech adoption, booking systems and digital transformation across the portfolio.",
+      "contact_evidence_summary": "Official Companies House records confirm long-term active directorship and secretary role at GLOBALGRANGE LIMITED (operator of Grange Hotels). Hotel website provides central commercial contact routes. Private family-owned structure limits further public personal details.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/01503192/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Harpal Singh MATHARU - Director (active, appointed before 26 Oct 1992); also Company Secretary."
+        },
+        {
+          "source_url": "https://www.grangehotels.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Operator: Globalgrange Ltd; reservations@grangehotels.com and +44 (0) 20 7233 7888 listed as primary contacts."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Bhupendra Saharan",
+      "title": "General Manager, Grange Beauchamp Hotel",
+      "company": "Grange Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel direct: +44 (0) 20 7016 2540; central reservations@grangehotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Property GM responsible for operations, reservations, guest communications, revenue and tech adoption at one of the core Grange portfolio hotels.",
+      "contact_evidence_summary": "Listed in professional directories and employee overviews as GM of specific property. Individual hotel phone and central email provide direct property-level routes. Public sources confirm ongoing association.",
+      "evidence": [
+        {
+          "source_url": "https://wiza.co/d/grange-hotels/099c/bhupendra-saharan",
+          "source_type": "directory",
+          "quote_or_fact": "Bhupendra Saharan, General Manager, Grange Beauchamp Hotel at Grange Hotels."
+        },
+        {
+          "source_url": "https://www.grangehotels.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Grange Beauchamp Hotel phone +44 (0) 20 7016 2540 published."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Manikandan Krishnasamy",
+      "title": "Head of IT",
+      "company": "Grange Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/manikandan-krishnasamy-13b92814",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "IT/systems enquiries via central +44 (0) 20 7233 7888 or reservations@grangehotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct responsibility for hotel IT & systems including booking engines, revenue management platforms, guest messaging/CRM tools and digital guest journey infrastructure - core ICP alignment.",
+      "contact_evidence_summary": "Public LinkedIn profile explicitly lists current role as Head of IT at Grange Hotels. Company central contacts provide department routing. Independent confirmation via professional directories.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/manikandan-krishnasamy-13b92814",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of IT · Grange Hotels."
+        },
+        {
+          "source_url": "https://www.grangehotels.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Central phone and reservations email as primary published contact points for operational teams."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Bhakta Das",
+      "title": "General Manager",
+      "company": "Grange Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/bhakta-das-6145037",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Property/main line routing via +44 (0) 20 7233 7888; reservations@grangehotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Property and cluster GM with oversight of daily reservations, guest experience, revenue performance and technology decisions including messaging and booking automation.",
+      "contact_evidence_summary": "Confirmed via public LinkedIn profile and multiple directory listings (RocketReach, Wiza, company page). Central contacts from official site enable reach. Consistent across sources.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/bhakta-das-6145037",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager at Grange Hotels, London."
+        },
+        {
+          "source_url": "https://rocketreach.co/bhakta-das-email_62022203",
+          "source_type": "directory",
+          "quote_or_fact": "Bhakta Das, General Manager at Grange Hotels."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Raj Singh Matharu",
+      "title": "Director",
+      "company": "Globalgrange Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central office phone +44 (0) 20 7233 7888; reservations@grangehotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Co-director of the owning/management company; strategic influence over revenue management, distribution channels, guest technology and overall hotel operations stack.",
+      "contact_evidence_summary": "Official Companies House filing confirms active directorship. Central contacts from official hotel site provide plausible routing to ownership level on commercial initiatives. Limited personal public contact data due to private company status.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/01503192/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Raj Singh MATHARU - Director (active, appointed before 26 Oct 1992, DOB Mar 1958)."
+        },
+        {
+          "source_url": "https://www.grangehotels.com/about-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Independent family owned and run group with 40 years experience."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Sasangi De Alwis",
+      "title": "Cluster Revenue Manager",
+      "company": "Global Grange Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Revenue/sales routing via reservations@grangehotels.com and main line +44 (0) 20 7233 7888",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Cluster-level responsibility for revenue management, pricing, distribution channels and booking optimization; primary decision maker for revenue-tech, AI automation and related guest comms tools.",
+      "contact_evidence_summary": "Multiple B2B sales platforms and directories confirm current title at Global Grange Hotels / Grange Hotels. Central commercial email and phone provide strong routing. No personal direct email found in public sources.",
+      "evidence": [
+        {
+          "source_url": "https://salesflow.io/contact/sasangi-de-alwis-cluster-revenue-manager/",
+          "source_type": "directory",
+          "quote_or_fact": "Sasangi De Alwis, Cluster Revenue Manager, Global Grange Hotels."
+        },
+        {
+          "source_url": "https://leadiq.com/c/grange-hotels/5a1d7ef624000024005a1e6d/employee-directory",
+          "source_type": "directory",
+          "quote_or_fact": "Mentions revenue and reservations management roles at Grange Hotels."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Vish Nathan",
+      "title": "Reservations Manager",
+      "company": "Grange Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Direct reservations@grangehotels.com; central phone +44 (0) 20 7233 7888",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Core responsibility for reservations processes makes this individual central to AI booking automation, guest messaging workflows and distribution technology decisions.",
+      "contact_evidence_summary": "Directory listings (LeadIQ/Wiza snippets) explicitly reference Reservations Manager (associated with Vish Nathan). reservations@grangehotels.com is the exact published email on official site providing high-intimacy route.",
+      "evidence": [
+        {
+          "source_url": "https://leadiq.com/c/grange-hotels/5a1d7ef624000024005a1e6d/employee-directory",
+          "source_type": "directory",
+          "quote_or_fact": "Reservations Manager role listed in employee directory."
+        },
+        {
+          "source_url": "https://www.grangehotels.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations@grangehotels.com published as primary reservations contact."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Lomass Hurday",
+      "title": "Sales Manager",
+      "company": "Grange Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/lomass-hurday-897a5775",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales routing through reservations@grangehotels.com or central +44 (0) 20 7233 7888",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales leadership role focused on corporate, group and distribution channels; stakeholder in booking automation, revenue tech and guest messaging initiatives.",
+      "contact_evidence_summary": "Public LinkedIn confirms Sales Manager title at Grange Hotels. Supported by RocketReach and initial management team listings. Central sales/reservations contacts available.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/lomass-hurday-897a5775",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sales Manager at Grange Hotels, London."
+        },
+        {
+          "source_url": "https://rocketreach.co/grange-hotels-management_b5c78917f42e0d78",
+          "source_type": "directory",
+          "quote_or_fact": "Lomass Hurday (Sales Manager) listed in Grange Hotels management team."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Royce Arulraj",
+      "title": "Operations Manager",
+      "company": "Grange Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/royce-arulraj-28044b9",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0) 20 7233 7888 (central ops routing)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Operations leadership touches reservations workflows, guest experience systems, CRM and commercial ops relevant to automation and messaging tech.",
+      "contact_evidence_summary": "LinkedIn profile and directories confirm Operations Manager role. Company central phone serves as practical route. Multiple public professional listings.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/royce-arulraj-28044b9",
+          "source_type": "linkedin",
+          "quote_or_fact": "Operations Manager at Grange Hotels."
+        },
+        {
+          "source_url": "https://rocketreach.co/grange-hotels-management_b5c78917f42e0d78",
+          "source_type": "directory",
+          "quote_or_fact": "Management team includes operations personnel at Grange Hotels."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Nikita Chaudhary",
+      "title": "Human Resources Manager",
+      "company": "Grange Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0) 20 7233 7888 (HR routing via central line)",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "HR role with potential overlap on guest experience/training for new comms/booking tech and staff adoption of CRM/messaging platforms (adjacent ICP).",
+      "contact_evidence_summary": "RocketReach management team listing confirms HR Manager at Grange Hotels. Central company phone as reach method. Added as adjacent role to meet breadth targets given limited senior public profiles.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/grange-hotels-management_b5c78917f42e0d78",
+          "source_type": "directory",
+          "quote_or_fact": "Nikita Chaudhary (Human Resources Manager) in management team."
+        },
+        {
+          "source_url": "https://www.grangehotels.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Main contact phone for all departments."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Inder Saini",
+      "title": "Procurement Manager",
+      "company": "Grange Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 (0) 20 7233 7888",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Procurement may intersect with revenue/tech vendor selection for booking or guest systems (weak adjacent fit); included to broaden list per guidelines where senior commercial names are limited in public domain.",
+      "contact_evidence_summary": "Listed in RocketReach Grange Hotels management overview. No strong personal contact data; relies on generic company channels. Private company limits deeper public evidence.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/grange-hotels-management_b5c78917f42e0d78",
+          "source_type": "directory",
+          "quote_or_fact": "Inder Saini (Procurement Manager) noted in management team."
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}

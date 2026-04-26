@@ -1,0 +1,336 @@
+{
+  "target_url": "https://www.gemhotels.com/",
+  "generated_at_utc": "2026-04-25T14:49:31.844003+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 3265,
+    "prompt_tokens": 80078,
+    "total_tokens": 91750,
+    "prompt_text_tokens": 80078,
+    "reasoning_tokens": 8407,
+    "cached_prompt_text_tokens": 32128,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Anna B.",
+      "title": "Revenue Co-ordinator",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/anna-b-241275147",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct revenue role with influence over revenue-tech adoption, pricing, and distribution channels central to AI booking automation and revenue management systems.",
+      "contact_evidence_summary": "Profile listed on Gem Hotels LinkedIn company page as Revenue Co-ordinator. Contact via central office lines and reservations email. No personal email located after search.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/gem-hotels",
+          "source_type": "linkedin",
+          "quote_or_fact": "Anna B. · Revenue Co-ordinator"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Main line +44 (0) 20 8138 5500 and reservations@gemhotels.com"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Harpal Singh Matharu",
+      "title": "Director & Company Secretary",
+      "company": "Globalgem Hotels Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Registered address: 72-75 Red Lion Street, London WC1R 4NA; Phone +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Owner-level director with authority over all commercial, operational, and technology decisions for the Gem Hotels group including reservations automation and revenue strategy.",
+      "contact_evidence_summary": "Officially listed on Companies House as active Director and Secretary (appointed 2017). Company address and phones from official hotel site provide clear route. Strong public confirmation of leadership role.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/11022269/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Harpal Singh Matharu listed as Director (DOB Dec 1956) and Secretary of GLOBALGEM HOTELS LIMITED"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate office 72-75 Red Lion Street and +44 (0) 20 8138 5500"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Laura Radoi",
+      "title": "Events Manager",
+      "company": "Gem Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "events@gemhotels.com; Langham Court direct: +44 (0) 20 7436 6622",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Events role directly touches guest communications, group bookings, and messaging automation opportunities relevant to ICP.",
+      "contact_evidence_summary": "Listed as Events Manager with events@gemhotels.com in conference venue directory (findmeaconference.com). Supported by official contact-us page providing property phones and emails. Strong department route available.",
+      "evidence": [
+        {
+          "source_url": "https://www.findmeaconference.com/details/london-borough-of-camden/fitzrovia/langham-court-hotel",
+          "source_type": "directory",
+          "quote_or_fact": "Laura Radoi Events Manager . 02074366622 events@ gemhotels.com"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Gem Langham Court Hotel phone +44 (0) 20 7436 6622 and langhamcourt@gemhotels.com (events ties to this property)"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Faz Deen",
+      "title": "General Manager",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/faz-deen-298112230",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com; Property phones available per hotel",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "GM role with clear influence over property operations, revenue, reservations, guest experience, and digital journey decisions tied to booking and messaging tech.",
+      "contact_evidence_summary": "Public LinkedIn profile confirms General Manager at Gem Hotels. Supported by official site PDFs referencing General Manager authority and company contact pages for routing.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/faz-deen-298112230",
+          "source_type": "linkedin",
+          "quote_or_fact": "faz Deen - General Manager at Gem Hotels"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/brochures/gem-hotels-candb-terms-and-conditions.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Only the hotels General Manager or Gem Hotels Directors have the authority to amend these terms"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Malini Daryanani",
+      "title": "Sales Professional (Corporate Sales)",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/malini-daryanani-05047830",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Sales role drives group/corporate bookings, marketing, and distribution channels; directly relevant to AI booking automation, guest messaging, and revenue tech.",
+      "contact_evidence_summary": "LinkedIn profile confirms experienced hospitality sales professional at Gem Hotels (also referred to as Duru Mih in some directories). Route via central sales/reservations contacts. RocketReach and LinkedIn corroborate role.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/malini-daryanani-05047830",
+          "source_type": "linkedin",
+          "quote_or_fact": "Duru (Malini) Daryanani MIH - Gem Hotels. Experienced hospitality sales professional"
+        },
+        {
+          "source_url": "https://rocketreach.co/duru-mih-email_87434907",
+          "source_type": "directory",
+          "quote_or_fact": "Duru Mih ... Gem Hotels Corporate Sales"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Teeran Hassen",
+      "title": "Central Reservations and Sales",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/teeran-hassen-06701a73",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@gemhotels.com; Central phone +44 (0) 20 8138 5500",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Direct responsibility for central reservations and sales; primary stakeholder for reservations automation, booking engines, and guest communication tools.",
+      "contact_evidence_summary": "LinkedIn and RocketReach confirm role in Central Reservations Office and Sales at Gem Hotels. Direct tie to reservations@gemhotels.com email on all official pages.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/teeran-hassen-06701a73",
+          "source_type": "linkedin",
+          "quote_or_fact": "Teeran Hassen - Gem Hotels"
+        },
+        {
+          "source_url": "https://rocketreach.co/teeran-hassen-email_127766232",
+          "source_type": "directory",
+          "quote_or_fact": "Teeran Hassen ... Central Reservations Office and Sales at Gem Hotels"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Kaushik Paul",
+      "title": "IT Support Technician",
+      "company": "Gem Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "IT/systems role responsible for property technology stack including booking systems, guest messaging platforms, and digital infrastructure - core to ICP.",
+      "contact_evidence_summary": "Listed on Gem Hotels LinkedIn employees as IT Support Technician. Reachable via company central phone and reservations route. Public sources confirm IT presence at the group.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/gem-hotels",
+          "source_type": "linkedin",
+          "quote_or_fact": "Kaushik Paul. IT Support Technician @ Gem Hotels"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate contact details"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Rajeshpal Singh Matharu",
+      "title": "Director",
+      "company": "Globalgem Hotels Limited",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Registered address: 72-75 Red Lion Street, London WC1R 4NA; Phone +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Owner-level director influencing commercial strategy, property systems, and tech adoption decisions across the family-owned boutique hotel group.",
+      "contact_evidence_summary": "Officially listed on Companies House as active Director (appointed 2017, DOB Mar 1958). Route via corporate phone and address from hotel website and official filings.",
+      "evidence": [
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/11022269/officers",
+          "source_type": "official_site",
+          "quote_or_fact": "Rajeshpal Singh Matharu listed as Director of GLOBALGEM HOTELS LIMITED"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/about-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Family-owned boutique hotel group with over 40 years experience"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Unnimaya B.",
+      "title": "Duty Manager",
+      "company": "Gem Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Central phone: +44 (0) 20 8138 5500; reservations@gemhotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Duty Manager role oversees daily operations including guest experience and communications that could benefit from or influence messaging automation and CRM tools.",
+      "contact_evidence_summary": "Listed on Gem Hotels LinkedIn company employee page as Duty Manager (Global Gemhotels). Contact via established corporate and reservations channels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/gem-hotels",
+          "source_type": "linkedin",
+          "quote_or_fact": "Unnimaya B · Duty Manager at Global Gemhotels"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Corporate and reservations contact information"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Istvan Kadar-Nagy",
+      "title": "House Manager",
+      "company": "Gem Hotels",
+      "linkedin_url": "https://hu.linkedin.com/in/istvan-kadar-nagy-b1a813151",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Langham Court phones: +44 (0) 20 7436 6622 / +44 (0) 20 7436 2303; langhamcourt@gemhotels.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "House/operations management at specific property touches guest experience, communications, and operational systems that integrate with booking and messaging platforms.",
+      "contact_evidence_summary": "LinkedIn profile confirms House Manager at GEM Langham Court Hotel. Property-specific contact details from official site provide strong routing path.",
+      "evidence": [
+        {
+          "source_url": "https://hu.linkedin.com/in/istvan-kadar-nagy-b1a813151",
+          "source_type": "linkedin",
+          "quote_or_fact": "Istvan Kadar-Nagy - House Manager at GEM Langham Court Hotel"
+        },
+        {
+          "source_url": "https://www.gemhotels.com/contact-us",
+          "source_type": "official_site",
+          "quote_or_fact": "Gem Langham Court Hotel contact details"
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "stages": [
+    {
+      "stage": "exa_search:\"Mandeville\" hotel ownership",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.65756699999838,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"managed by\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.8002148999985366,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"owned by\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.1774622999982967,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"part of\" hotel group",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.6492323000020406,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:site:mandeville.co.uk leadership team",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.3371791999998095,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:site:mandeville.co.uk contact",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.1188930999996956,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"mandeville.co.uk\" hotel management comp",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.4456038999996963,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"general manager\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.648431300000084,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"managing director\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.1164167999995698,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" owner OR founder",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 3.3582462999984273,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" CEO",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.2490262999999686,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"commercial director\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.3997111000026052,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"revenue manager\" OR \"reven",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.449377699998877,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"director of sales\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.3577949999998964,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"groups\" sales",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.447820599998522,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"reservations manager\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.0815392000004067,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" \"IT manager\" OR \"digital di",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.378177999999025,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" procurement OR \"finance dir",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.8571695999999065,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" appointed \"general manager\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.419208899998921,
+      "notes": []
+    },
+    {
+      "stage": "exa_search:\"Mandeville\" site:linkedin.com/in",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.450510300001042,
+      "notes": []
+    },
+    {
+      "stage": "exa_people:Mandeville general manager",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.2635133000003407,
+      "notes": []
+    },
+    {
+      "stage": "exa_people:Mandeville director of sales",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.6020557999981975,
+      "notes": []
+    },
+    {
+      "stage": "exa_people:Mandeville revenue director",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.2821035999986634,
+      "notes": []
+    },
+    {
+      "stage": "grok_validation_chunk",
+      "provider": "xai",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.0,
+      "seconds": 86.2975019000005,
+      "notes": []
+    },
+    {
+      "stage": "grok_validation_chunk",
+      "provider": "xai",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.0,
+      "seconds": 101.30098299999736,
+      "notes": []
+    },
+    {
+      "stage": "grok_validation_chunk",
+      "provider": "xai",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.0,
+      "seconds": 37.45960130000094,
+      "notes": []
+    },
+    {
+      "stage": "contact_mine:Jean-Louis Mandevill",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.4856545999973605,
+      "notes": []
+    },
+    {
+      "stage": "contact_mine:Andrew Wall",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.2760347000003094,
+      "notes": []
+    },
+    {
+      "stage": "contact_mine:Nicholas Carbo",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.359019300001819,
+      "notes": []
+    },
+    {
+      "stage": "contact_mine:Daniel Mandeville",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 3.241310400000657,
+      "notes": []
+    },
+    {
+      "stage": "contact_mine:Robert Frostick",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 1.937940300002083,
+      "notes": []
+    },
+    {
+      "stage": "contact_mine:Max Naspi",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.179217700002482,
+      "notes": []
+    },
+    {
+      "stage": "contact_mine:Rajin Pitamber",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.0790698000018892,
+      "notes": []
+    },
+    {
+      "stage": "linkedin_merge:\"Mandeville\" \"general manager\" s",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.950210800001514,
+      "notes": []
+    },
+    {
+      "stage": "linkedin_merge:\"Mandeville\" \"director of sales\"",
+      "provider": "exa",
+      "calls": 1,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "estimated_usd": 0.007,
+      "seconds": 2.342436300001282,
+      "notes": []
+    }
+  ],
+  "exa_search_requests": 32,
+  "exa_content_pages": 0,
+  "errors": []
+}

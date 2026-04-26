@@ -1,0 +1,355 @@
+{
+  "target_url": "https://www.landmarklondon.co.uk/",
+  "generated_at_utc": "2026-04-25T15:09:57.877784+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 3906,
+    "prompt_tokens": 79231,
+    "total_tokens": 92773,
+    "prompt_text_tokens": 79231,
+    "reasoning_tokens": 9636,
+    "cached_prompt_text_tokens": 22208,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Andrew Batchelor",
+      "title": "General Manager",
+      "company": "The Landmark London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7631 8000",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thelandmark.co.uk; official letters and responses tied to GM",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Oversees entire property including commercial strategy, guest experience, technology adoption, reservations and revenue outcomes as the top property executive.",
+      "contact_evidence_summary": "Signed official letters on hotel website, listed as GM in fact sheet and Tripadvisor management responses. Strong public association with hotel leadership and main contact channels.",
+      "evidence": [
+        {
+          "source_url": "https://www.landmarklondon.co.uk/a-letter-from-our-general-manager/",
+          "source_type": "official_site",
+          "quote_or_fact": "Kind Regards, Andrew Batchelor, General Manager"
+        },
+        {
+          "source_url": "https://www.landmarklondon.co.uk/wp-content/uploads/2019/07/The-Landmark-London-Fact-Sheet-2019.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "General Manager: Andrew Batchelor"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Feature-g186338-d193105-zft9656-The_Landmark_London.html",
+          "source_type": "other",
+          "quote_or_fact": "Management responses signed by Andrew Batchelor General Manager"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Leman Selamet",
+      "title": "Commercial Director & Group Director of Revenue Management",
+      "company": "The Landmark London / Lancaster Landmark Hotel Group",
+      "linkedin_url": "https://uk.linkedin.com/in/leman-selamet-38a8b127",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Main hotel line +44 20 7631 8000; reservations@thelandmark.co.uk",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads all commercial activities including revenue management, sales, marketing, digital marketing, e-commerce and hotel management systems. Directly influences revenue-tech adoption, booking automation strategies and guest experience initiatives.",
+      "contact_evidence_summary": "Multiple news features, LinkedIn profile and posts, PA Life interview quoting her leadership over revenue, sales, events, marketing and systems. Department routes via main hotel contacts. No personal email or phone located.",
+      "evidence": [
+        {
+          "source_url": "https://palife.co.uk/editors-picks/leman-selamet-the-landmark-london-strategic-leadership/",
+          "source_type": "news",
+          "quote_or_fact": "Leman Selamet, Commercial Director of The Landmark London and Group Director of Revenue... leads the commercial team across revenue, sales, events and marketing... overseeing hotel management systems"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/leman-selamet-38a8b127",
+          "source_type": "linkedin",
+          "quote_or_fact": "Commercial Director - The Landmark London & Group Director of Revenue Management"
+        },
+        {
+          "source_url": "https://www.landmarklondon.co.uk/wp-content/uploads/2019/07/The-Landmark-London-Fact-Sheet-2019.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact details listed including reservations@thelandmark.co.uk and +44 (0)20 7631 8000"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Amber Wheatley",
+      "title": "PR Contact (Hospitality)",
+      "company": "Palm PR (for The Landmark London)",
+      "linkedin_url": null,
+      "email": "hospitality@palm-pr.com",
+      "email2": null,
+      "phone": "+44 20 7871 6734",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Official press contact for The Landmark London",
+      "decision_maker_score": "low",
+      "intimacy_grade": "high",
+      "fit_reason": "Handles all press and media for the hotel including marketing, guest experience stories and commercial announcements; indirect influence on guest comms narrative.",
+      "contact_evidence_summary": "Explicitly listed in official 2019 fact sheet PDF with direct email and phone tied to her for hospitality PR inquiries. Strongest contact data among the set.",
+      "evidence": [
+        {
+          "source_url": "https://www.landmarklondon.co.uk/wp-content/uploads/2019/07/The-Landmark-London-Fact-Sheet-2019.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Press Enquiries: Amber Wheatley, Palm PR... hospitality@palm-pr.com T: +44 (0) 207 871 6734"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Ben Wilmot-Smith",
+      "title": "Director of Sales",
+      "company": "The Landmark London",
+      "linkedin_url": "https://uk.linkedin.com/in/ben-wilmot-smith-1745042a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000; sales inquiries via main reservations or hotel contact form",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales efforts (corporate, leisure, MICE) which directly impact distribution channels, booking automation and revenue strategies.",
+      "contact_evidence_summary": "LinkedIn profile confirms role at The Landmark London. Supported by job postings and group sales context. Reachable via standard hotel commercial channels.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/ben-wilmot-smith-1745042a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experienced Sales Director... The Landmark London"
+        },
+        {
+          "source_url": "https://rocketreach.co/the-landmark-london-email-format_b5c6a8cbf42e0cec",
+          "source_type": "directory",
+          "quote_or_fact": "Ben Wilmot-Smith, Director of Sales at The Landmark London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Tracy Bent",
+      "title": "Central Reservations Manager",
+      "company": "The Landmark London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "reservations@thelandmark.co.uk; +44 20 7631 8000",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages central reservations function - core stakeholder for AI booking automation, reservations systems and guest communication workflows.",
+      "contact_evidence_summary": "Public LinkedIn post identifying her as Central Reservations Manager with 25 years at the company. Direct department email available as route.",
+      "evidence": [
+        {
+          "source_url": "https://www.linkedin.com/posts/the-landmark-london_thelandmarklondon-luxuryhospitality-hospitalitycareers-activity-7423304042443046913-f2se",
+          "source_type": "linkedin",
+          "quote_or_fact": "Hi everyone, my name is Tracy Bent, I'm a Central Reservations Manager here at the Landmark London and I've been with the company 25 years."
+        },
+        {
+          "source_url": "https://www.landmarklondon.co.uk/contact-form/",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations@thelandmark.co.uk listed as primary contact"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Albert Li",
+      "title": "Corporate Sales Manager",
+      "company": "The Landmark London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Handles corporate sales accounts which intersect with booking channels, distribution partnerships and revenue optimization.",
+      "contact_evidence_summary": "Listed in directory results as Corporate Sales Manager at The Landmark London. Role confirmation via sales team context but limited additional public sources.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/albert-li-email_72652078",
+          "source_type": "directory",
+          "quote_or_fact": "Albert Li, Corporate Sales Manager at The Landmark London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Fergus Stewart",
+      "title": "CEO",
+      "company": "The Lancaster Landmark Hotel Company",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000 (property main line)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Group CEO with oversight of The Landmark London and sister properties; influences group-wide commercial, revenue and tech strategy that flows to property level booking and guest systems.",
+      "contact_evidence_summary": "Quoted in appointment news for senior team at Landmark London; active on LinkedIn discussing the hotel/group. Group level influence with property contact routes available.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/malisa-shepherd-the-landmark-london/",
+          "source_type": "news",
+          "quote_or_fact": "Fergus Stewart: CEO of The Lancaster Landmark Hotel Company and commented on senior appointments at The Landmark London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/mrdml",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director level role at THE LANCASTER LANDMARK HOTEL COMPANY LIMITED with sales responsibility across London hotels"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Cedric Lescure",
+      "title": "Director of Food and Beverage",
+      "company": "The Landmark London",
+      "linkedin_url": "https://uk.linkedin.com/in/cedric-lescure-85832854",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees F&B operations including in-room dining, bars and banqueting where guest messaging, ordering tech (e.g. IRIS platform) and revenue generation intersect with guest comms and experience.",
+      "contact_evidence_summary": "Appointed in 2023 per news article; LinkedIn confirms Director of Food and Beverage at The Landmark London. Public hotel contacts provide reach path.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/malisa-shepherd-the-landmark-london/",
+          "source_type": "news",
+          "quote_or_fact": "Cedric Lescure has been appointed director of food and beverage... oversee all operations and management of the hotel’s multiple luxury dining outlets"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/cedric-lescure-85832854",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Food And Beverage · The Landmark London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Martina Cervenakova",
+      "title": "In Room Dining Manager",
+      "company": "The Landmark London",
+      "linkedin_url": "https://uk.linkedin.com/in/martina-cervenakova-4695423a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000; F&B/guest experience route",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Manages in-room dining operations; publicly quoted on adoption of IRIS digital ordering platform for guest messaging, order volume, accuracy and F&B revenue uplift - direct ICP relevance.",
+      "contact_evidence_summary": "Quoted in Hotel Technology News article on tech implementation; LinkedIn profile confirms role. Provides strong evidence of influence over guest comms tech.",
+      "evidence": [
+        {
+          "source_url": "https://hoteltechnologynews.com/2026/01/the-landmark-london-taps-iris-to-streamline-room-service-operations-and-boost-fb-order-volume-and-revenue/",
+          "source_type": "news",
+          "quote_or_fact": "Martina Cervenakova, In Room Dining Manager: “IRIS Mobile Ordering has made an immense difference... helps us deliver a better, more seamless service to every guest.”"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/martina-cervenakova-4695423a",
+          "source_type": "linkedin",
+          "quote_or_fact": "The Landmark London - In Room Dining Manager"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Sarah Baptiste",
+      "title": "Director of Marketing",
+      "company": "The Landmark London",
+      "linkedin_url": "https://uk.linkedin.com/in/sarah-baptiste-1ab6b718",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads marketing and digital presence; stakeholder in guest acquisition channels, digital booking journeys, e-commerce and guest communication strategies.",
+      "contact_evidence_summary": "LinkedIn profile and historical news references to marketing leadership role at The Landmark London. Reachable via hotel commercial/main contacts.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/sarah-baptiste-1ab6b718",
+          "source_type": "linkedin",
+          "quote_or_fact": "The Landmark London - marketing leadership experience noted"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/it/nomina/79006588",
+          "source_type": "news",
+          "quote_or_fact": "Sarah Baptiste - Marketing Director / Director of Sales and Marketing at The Landmark London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Malisa Shepherd",
+      "title": "Hotel Manager",
+      "company": "The Landmark London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "+44 20 7631 8000",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees hotel operations and guest satisfaction; stakeholder in guest experience initiatives, CRM processes and operational technology that supports reservations and messaging.",
+      "contact_evidence_summary": "Named in 2023 boutiquehotelier article on senior appointments. Strong operational role confirmation with public hotel contact routes.",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/malisa-shepherd-the-landmark-london/",
+          "source_type": "news",
+          "quote_or_fact": "Malisa Shepherd promoted to hotel manager at The Landmark London... head up operations across the entire hotel"
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}

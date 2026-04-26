@@ -1,0 +1,359 @@
+{
+  "target_url": "https://templarlondon.com/groups",
+  "generated_at_utc": "2026-04-25T15:08:00.864914+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 4,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "usage": {
+    "completion_tokens": 1848,
+    "prompt_tokens": 81499,
+    "total_tokens": 90233,
+    "prompt_text_tokens": 81499,
+    "reasoning_tokens": 6886,
+    "cached_prompt_text_tokens": 62976,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "contacts": [
+    {
+      "full_name": "Ian Goodman",
+      "title": "Owner Operator / Director",
+      "company": "E20 F&B Ltd (Templar & Darkhorse)",
+      "linkedin_url": "https://uk.linkedin.com/in/ian-goodman-6b86524",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Groups & events enquiry form at https://templarlondon.com/groups (\"Enquire Now\" routes to team for bookings, private hire, and commercial discussions)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Owner with full influence over commercial strategy, revenue-tech, booking systems, guest experience tools and automation for the venue including group events and reservations.",
+      "contact_evidence_summary": "Confirmed as co-founder/owner operator of Templar wine bar/restaurant and sister venue Darkhorse via multiple independent news articles and personal LinkedIn. No personal email/phone/X found after searching official site, news, LinkedIn and Companies House-related records. Venue relies on web enquiry form for all group and commercial contact. Limited additional named team members publicly listed due to small independent hospitality operation (scarcity noted).",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/ian-goodman-6b86524",
+          "source_type": "linkedin",
+          "quote_or_fact": "Ian Goodman - owner operator Bar/Restaurants Darkhorse, Templar. E20 F&B Ltd."
+        },
+        {
+          "source_url": "https://beastmag.co.uk/food-drink/from-soho-to-stratford-the-restauranteurs-ian-goodman-lee-glenn-behind-darkhourse-and-templar/",
+          "source_type": "news",
+          "quote_or_fact": "The restauranteurs, Ian Goodman & Lee Glenn behind Darkhorse and Templar"
+        },
+        {
+          "source_url": "https://templarlondon.com/groups",
+          "source_type": "official_site",
+          "quote_or_fact": "Our event team is ready to help plan your event... Enquire Now"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/ian-goodman-6b86524",
+        "display_name": "Ian Goodman",
+        "headline": "owner operator Bar/Restaurants  Darkhorse, Templar",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced Owner operator with extensive experience of working in the hospitality industry in premium venues. Skilled in Catering, Retail, Event Management and Food & Beverage. Strong business development professional\n\nTotal Experience: 10 years and 7 months",
+        "experience": [
+          {
+            "title": "Independent Business Owner",
+            "organization": "G&G Hospitality Ltd",
+            "date_range": "Jul 2015 - Present",
+            "location": "Queen Elizabeth Olympic Park London",
+            "description": "Department: C-Suite • Level: Owner"
+          },
+          {
+            "title": "Independent Business Owner",
+            "organization": "E20 F&B Ltd",
+            "date_range": "Jul 2024 - Present",
+            "location": "Stratford Cross, London",
+            "description": "Department: C-Suite • Level: Owner"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "catering",
+          "retail",
+          "management",
+          "food",
+          "hospitality industry",
+          "event management",
+          "business development"
+        ],
+        "activity_themes": [
+          "Hospitality industry awards and rankings",
+          "Career development and education outreach",
+          "Professional training programs in F&B",
+          "HR events and workplace strategy",
+          "Chef recruitment for East London venues",
+          "Workplace design and office experiences",
+          "Fine wine, hotels and restaurant updates",
+          "Culinary chef development and celebrations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/clairewarner7_pinnacleguide-barworld100-hospitalityforgood-activity-7344355325665312770-MzpV",
+          "https://www.linkedin.com/posts/leon-goodman_yesterday-i-had-the-great-opportunity-to-activity-7346156495484469248-QJ8F",
+          "https://www.linkedin.com/posts/leon-goodman_im-thrilled-to-share-that-ive-just-completed-activity-7323357539453108225-ARZg",
+          "https://www.linkedin.com/posts/deborah-wilder-86490017_workplaceexperience-workplacestrategy-activity-7239217690693836800-o2Cs",
+          "https://www.linkedin.com/posts/ian-goodman-6b86524_darkhorse-restaurant-cocktail-bar-chef-activity-7156280817768349696-i-RT",
+          "https://www.linkedin.com/posts/deborah-wilder-86490017_offices-workplaces-bristol-activity-7118201963355193344-PwYo",
+          "https://www.linkedin.com/posts/julia-gosling-7a53a29_uncorked-louise-gordon-activity-7121168366727217152-mms9",
+          "https://www.linkedin.com/posts/dominic-ford-84099b17_httpslnkdinemepyfvj-activity-7119594387893800961-RP5D"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Lee Glen",
+      "title": "Director / Co-Owner",
+      "company": "E20 F&B Ltd (Templar Restaurant Wine Bar)",
+      "linkedin_url": "https://uk.linkedin.com/in/lee-glen-35b1b976",
+      "email": "info@templarlondon.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Groups & events enquiry form at https://templarlondon.com/groups (\"Enquire Now\" routes to team for bookings, private hire, and commercial discussions)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Co-owner/director with influence over overall operations, revenue strategy, guest comms, and technology decisions for booking automation and guest experience at Templar.",
+      "contact_evidence_summary": "Identified as co-restaurateur and director of Templar and Darkhorse in news coverage and LinkedIn. Quotes in articles reference operational details. No direct personal contact details located. Public data on team is sparse for this independent venue (scarcity noted across all contacts).",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/lee-glen-35b1b976",
+          "source_type": "linkedin",
+          "quote_or_fact": "Lee Glen - Director at Templar Restaurant Wine bar & Darkhorse Restaurant & Cocktail Bar"
+        },
+        {
+          "source_url": "https://beastmag.co.uk/food-drink/from-soho-to-stratford-the-restauranteurs-ian-goodman-lee-glenn-behind-darkhourse-and-templar/",
+          "source_type": "news",
+          "quote_or_fact": "LG: Both of us have a great passion for wine... Jonny – our General Manager"
+        },
+        {
+          "source_url": "https://www.hot-dinners.com/2025022613976/Gastroblog/Latest-news/templar-restaurant-wine-bar-darkhorse-stratford-cross",
+          "source_type": "news",
+          "quote_or_fact": "Templar... from the team behind Darkhorse"
+        }
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://uk.linkedin.com/in/lee-glen-35b1b976",
+        "display_name": "Lee Glen",
+        "headline": "Director at Darkhorse Restaurant & Cocktail Bar",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 33 years and 3 months",
+        "experience": [
+          {
+            "title": "Chef De Partie",
+            "organization": "Pool Court Restaurant w/ Rooms",
+            "date_range": "Feb 1990 - Jul 1991",
+            "location": "POOL IN WHARFDALE W/ YORKSHIRE",
+            "description": "1 MICHELIN STAR"
+          },
+          {
+            "title": "Chef De Partie",
+            "organization": "Le Pont De la Tour Restaurant",
+            "date_range": "Sep 1991 - Oct 1992",
+            "location": "TOWER BRIDGE LONDON",
+            "description": "MICHELIN RED M"
+          },
+          {
+            "title": "Chef De Partie",
+            "organization": "THE CAPITAL HOTEL",
+            "date_range": "Oct 1992 - Oct 1992",
+            "location": "KNIGHTSBRIDGE LONDON",
+            "description": "1 MICHELIN STAR"
+          },
+          {
+            "title": "Sous Chef",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Oct 1993 - Mar 1995",
+            "location": "HYDE PARK LONDON",
+            "description": "1 MICHELIN STAR"
+          },
+          {
+            "title": "Head Chef",
+            "organization": "Soho House Group",
+            "date_range": "Mar 1995 - Dec 2002",
+            "location": "London, United Kingdom",
+            "description": "Full responsibility of three production kitchens: Responsible for the re-design of a large extension to Soho House kitchens & restaurant resulting in a 40% increase in revenue & increase brigade from 12 to 18 chefs Compiled seven regularly changing menus ranging from A La Carte to Canapés & Finger Food Total responsibility for all kitchen budgets and day-to-day wage and food costs Responsible for the organisation, setting up and running of Cannes Film Festival for five years from 98-03, this included its 65-seater restaurant and bar on a luxury boat in Cannes harbour for a two-week period"
+          },
+          {
+            "title": "Executive Head Chef",
+            "organization": "Soho House New York",
+            "date_range": "Dec 2002 - Aug 2004",
+            "location": "Greater New York City Area",
+            "description": "Soho House members club with 24 boutique hotel rooms, 24 hour room service, 120-seater fine dining restaurant, large bar and lounge area with eating and drinking facilities for up to 250 people, roof terrace restaurant bar and swimming pool, screening room and two private function rooms for canapés, finger food and sit down dinners for up to 150. Brought in at a very early stage of the project to help look at potential sites, set yearly budgets and look at the general design of the project, ranging from restaurant & kitchen design to facilities for over a 150 staff. Relocated to New York in December 02 to help supervise the fitting, hiring of staff, attain suppliers and to draw up a schedule to help the day-to-day running of the project, which opened in June 03. The next 14 months was spent building a strong clientele base from 700 to 3,000 members in a very competitive market place. A full strength team was established as well as a very good food and wage cost and strong clientele base secured by the time I left to return to the UK August 04."
+          },
+          {
+            "title": "Restaurant Chef Hospitality Consultant",
+            "organization": "Restaurant / Chef Hospitality Consu",
+            "date_range": "Jan 2004 - Present",
+            "location": "United Kingdom",
+            "description": "Working with all types of hoteliers and restaurateurs. Project manage start ups to refurbishment projects helping to achieve initial goals, direction and build a team. Advice and hands-on training with restaurant and kitchen staff or advice on budgeting and purchasing Other areas of assistance, Branding, Design, Development, Financial services and Business plans. I have interests in a number of different projects and invite any opportunities."
+          },
+          {
+            "title": "Director",
+            "organization": "The Fat Delicatessen LLP",
+            "date_range": "Jun 2006 - Jul 2013",
+            "location": "London, United Kingdom",
+            "description": "35 cover restaurant bar/delicatessen offering Spanish/Italian tapas with annual turnover circa £450k Acquisition of premises in July 2006 followed by 3 month fit-out from an empty shell. Business has delivered profit each year for the last 5 years. This has been achieved through: Maintaining both quality & price to consumers Cost management with business currently achieving payroll of 31% and Food & Beverage cost of sale of 28% Recruitment & empowerment of strong management team"
+          },
+          {
+            "title": "Director",
+            "organization": "Darkhorse Restaurant & Cocktail Bar",
+            "date_range": "Jan 2015 - Present",
+            "location": "East Village, Olympic Park London E20",
+            "description": "A modern European Restaurant / Bar with influences from Italy and Spain wrapped up with British attitude. Bringing to the table a restaurant & bar to enrich London’s newest neighbourhood and preserve the legacy of the 2012 Olympic Games. Extensive bar with signature cocktails, local beers and well sourced wines with provenance. A great place to dine, drink and entertain with friends, family or work colleagues."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "cost management",
+          "design development",
+          "financial services",
+          "director",
+          "budgets",
+          "design",
+          "fitting",
+          "hiring",
+          "running",
+          "responsible",
+          "food",
+          "management",
+          "payroll",
+          "hospitality",
+          "branding"
+        ],
+        "activity_themes": [
+          "Hospitality sector job losses and challenges",
+          "Spiritual masterclasses and Akashic records",
+          "ICF coaching mentoring and credentials",
+          "Luxury hospitality events and hotels",
+          "Business trust expansion and completions",
+          "Culinary equipment and food innovation"
+        ],
+        "source_urls": [
+          "https://uk.linkedin.com/in/lee-glen-35b1b976"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
+    },
+    {
+      "full_name": "Jonny",
+      "title": "General Manager",
+      "company": "Templar",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Groups & events enquiry form at https://templarlondon.com/groups (likely reaches GM/operations for reservations and commercial ops)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "General Manager with day-to-day responsibility for operations, reservations, guest experience, staff, and likely evaluates revenue-tech, booking automation and guest messaging solutions.",
+      "contact_evidence_summary": "Referenced as \"Jonny – our General Manager\" in founder interview discussing wine list and venue operations. Strong operational role confirmation tied to ICP areas but full name and personal contacts not publicly detailed. Enquiry form provides route to management. Overall scarcity of named contacts across property, regional, IT, revenue, sales & marketing roles in public sources for this small independent venue.",
+      "evidence": [
+        {
+          "source_url": "https://beastmag.co.uk/food-drink/from-soho-to-stratford-the-restauranteurs-ian-goodman-lee-glenn-behind-darkhourse-and-templar/",
+          "source_type": "news",
+          "quote_or_fact": "Jonny – our General Manager – who also loves wine."
+        },
+        {
+          "source_url": "https://templarlondon.com/groups",
+          "source_type": "official_site",
+          "quote_or_fact": "Our event team is ready to help plan your event... Let us know what you are thinking and our team will be in touch"
+        },
+        {
+          "source_url": "https://templarlondon.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "TEMPLAR is a new Wine Bar & Restaurant in Stratford... group bookings and events supported"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Richard Sinclair",
+      "title": "Head Chef",
+      "company": "Templar",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Groups & events enquiry form at https://templarlondon.com/groups; F&B operations contact likely routed here",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Leads F&B and guest experience with small plates/sharing concept; plausible input on guest messaging, CRM for diners, and experience-tech that touches booking/automation indirectly.",
+      "contact_evidence_summary": "Multiple articles name him as Head Chef / culinary lead for Templar, previously at Terra, Lardo and Pied à Terre. Strong role confirmation but no personal contact channels or LinkedIn located in searches. Contributes to overall ICP relevance via guest experience. Public team listings remain very limited (scarcity noted).",
+      "evidence": [
+        {
+          "source_url": "https://www.stratfordcross.co.uk/explore/discover-whats-here/stories/behind-the-counter-templar-restaurant/",
+          "source_type": "news",
+          "quote_or_fact": "Head Chef Richard Sinclair curates a seasonal à la carte menu... Meet Head Chef Richard Sinclair"
+        },
+        {
+          "source_url": "https://www.hot-dinners.com/2025022613976/Gastroblog/Latest-news/templar-restaurant-wine-bar-darkhorse-stratford-cross",
+          "source_type": "news",
+          "quote_or_fact": "Heading up the restaurant is chef Richard Sinclair... menu of small plates"
+        },
+        {
+          "source_url": "https://www.dineoutmagazine.co.uk/story.php?s=2025-03-04-darkhorse-founders-establish-new-restaurant",
+          "source_type": "news",
+          "quote_or_fact": "head chef Richard Sinclair, previously of Terra, Lardo and Pied à Terre"
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ],
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-25T15:32:30.688133+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 0,
+    "attempted": 4,
+    "succeeded": 4,
+    "failed": [],
+    "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-25T15:34:25.256818+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 2,
+      "structured": 2,
+      "discovered": 0,
+      "errors": 0
+    }
+  }
+}

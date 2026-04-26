@@ -297,13 +297,6 @@ def build_parser() -> argparse.ArgumentParser:
         help="Fourth model pass focused on phone/email/X enrichment for listed people",
     )
     p.add_argument(
-        "--agent-count",
-        type=int,
-        choices=[4, 16],
-        default=16,
-        help="Multi-agent depth (4 faster, 16 deeper)",
-    )
-    p.add_argument(
         "--max-turns",
         type=int,
         default=12,
@@ -707,7 +700,6 @@ def _run_research(args: argparse.Namespace, *, force_extra_pass: bool = False) -
     client = Client(api_key=api_key)
     chat = client.chat.create(
         model="grok-4.20-reasoning",
-        agent_count=args.agent_count,
         tools=[web_search(), x_search()],
         store_messages=True,
         max_turns=effective_max_turns,
@@ -864,7 +856,6 @@ def main(argv: list[str] | None = None) -> int:
         "target_url": args.url,
         "generated_at_utc": started.isoformat(),
         "model": "grok-4.20-reasoning",
-        "agent_count": args.agent_count,
         "max_turns": args.max_turns,
         "max_turns_effective": effective_max_turns,
         "min_contacts": args.min_contacts,

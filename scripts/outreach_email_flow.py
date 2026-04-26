@@ -167,7 +167,7 @@ def main() -> int:
             cmd.extend(["--limit", str(args.generate_limit)])
         if args.email_only_no_phone:
             cmd.append("--email-only-no-phone")
-        print("[generate] running xAI batch...")
+        print("[generate] running xAI realtime...")
         r = subprocess.run(cmd, cwd=str(root))
         if r.returncode != 0:
             return r.returncode

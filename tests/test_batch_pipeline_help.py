@@ -61,8 +61,9 @@ class _FakeStore:
         return True
 
 
-def test_phase3_not_called_when_linkedin_enrich_flag_unset(monkeypatch, tmp_path: Path) -> None:
+def test_phase3_called_when_linkedin_enrich_unset_default_on(monkeypatch, tmp_path: Path) -> None:
     monkeypatch.delenv("LINKEDIN_ENRICH", raising=False)
+    _stub_phase3_script(tmp_path)
     calls: list[list[str]] = []
 
     def _fake_run(cmd, **_kwargs):
@@ -75,7 +76,29 @@ def test_phase3_not_called_when_linkedin_enrich_flag_unset(monkeypatch, tmp_path
         "https://example.com/hotel",
         root=tmp_path,
         store=_FakeStore(),
-        agent_count=1,
+        skip_if_enriched=False,
+    )
+
+    assert status == "ok"
+    assert len(calls) == 3
+    phase3_script = calls[2][1].replace("\\", "/")
+    assert phase3_script.endswith("scripts/linkedin_exa_enrich.py")
+
+
+def test_phase3_not_called_when_linkedin_enrich_disabled(monkeypatch, tmp_path: Path) -> None:
+    monkeypatch.setenv("LINKEDIN_ENRICH", "0")
+    calls: list[list[str]] = []
+
+    def _fake_run(cmd, **_kwargs):
+        calls.append([str(part) for part in cmd])
+        return SimpleNamespace(returncode=0, stdout="", stderr="")
+
+    monkeypatch.setattr(pipeline.subprocess, "run", _fake_run)
+
+    _, status = pipeline._run_one(
+        "https://example.com/hotel",
+        root=tmp_path,
+        store=_FakeStore(),
         skip_if_enriched=False,
     )
 
@@ -99,7 +122,6 @@ def test_phase3_called_when_linkedin_enrich_flag_set(monkeypatch, tmp_path: Path
         "https://example.com/hotel",
         root=tmp_path,
         store=_FakeStore(),
-        agent_count=1,
         skip_if_enriched=False,
     )
 
@@ -132,7 +154,6 @@ def test_phase3_failure_non_fatal(monkeypatch, tmp_path: Path) -> None:
         "https://example.com/hotel",
         root=tmp_path,
         store=_FakeStore(),
-        agent_count=1,
         skip_if_enriched=False,
     )
 
