@@ -33,6 +33,12 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--min-direct-channels", type=float, default=1.5, help="Skip contacts at or above this score")
     p.add_argument("--concurrency", type=int, default=None, help="Realtime worker threads (default: auto)")
     p.add_argument("--batch-chunk-size", type=int, default=50, help="Requests per batch.add call")
+    p.add_argument(
+        "--batch-max-wait-sec",
+        type=float,
+        default=0.0,
+        help="Max wall seconds to poll xAI batch completion (0 = no limit)",
+    )
     p.add_argument("--batch-name", default="hotel_contact_enrichment")
     p.add_argument("--checkpoint", default=None, help="Checkpoint JSON path (recommended for batch)")
     p.add_argument("--resume", action="store_true", help="Skip request_ids listed in checkpoint")
@@ -58,6 +64,7 @@ def _run_batch_with_checkpoint(
     max_turns: int,
     batch_name: str,
     add_chunk_size: int,
+    batch_max_wait_sec: float | None,
     checkpoint_path: str | None,
     rows_accumulator: dict[str, ChannelResearchRow],
     ck_completed: set[str],
@@ -87,11 +94,14 @@ def _run_batch_with_checkpoint(
         batch_name=batch_name,
         add_chunk_size=add_chunk_size,
         on_page=on_page if checkpoint_path else None,
+        max_wait_sec=batch_max_wait_sec,
     )
 
 
 def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
+    if args.batch_chunk_size < 1:
+        raise SystemExit("--batch-chunk-size must be >= 1")
     raw, contacts = _load_lead_file(args.in_json)
     target_url = str(raw.get("target_url", ""))
 
@@ -112,6 +122,7 @@ def main(argv: list[str] | None = None) -> int:
     jobs_to_run = [c for c in gated if request_id(c) not in ck_completed]
 
     conc = args.concurrency if args.concurrency is not None else _default_concurrency()
+    batch_max_wait: float | None = args.batch_max_wait_sec if args.batch_max_wait_sec > 0 else None
 
     if args.dry_run:
         print(f"in_json={args.in_json}")
@@ -147,6 +158,7 @@ def main(argv: list[str] | None = None) -> int:
                 max_turns=args.max_turns,
                 batch_name=args.batch_name,
                 add_chunk_size=args.batch_chunk_size,
+                batch_max_wait_sec=batch_max_wait,
                 checkpoint_path=args.checkpoint,
                 rows_accumulator=rows,
                 ck_completed=ck_completed,
@@ -174,6 +186,7 @@ def main(argv: list[str] | None = None) -> int:
         "model": args.model,
         "enriched_at_utc": started.isoformat(),
         "concurrency": conc if args.mode == "realtime" else None,
+        "xai_batch_token_multiplier": 0.5 if args.mode == "batch" else 1.0,
         "skipped_pre_enrichment": skipped,
         "attempted": len(jobs_to_run),
         "succeeded": len([c for c in jobs_to_run if request_id(c) in rows]),

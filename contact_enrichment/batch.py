@@ -79,6 +79,7 @@ def submit_and_drain_batch(
     add_chunk_size: int,
     on_page: Callable[[dict[str, ChannelResearchRow], list[dict[str, str]]], None] | None = None,
     poll_interval_sec: float = 5.0,
+    max_wait_sec: float | None = None,
 ) -> tuple[dict[str, ChannelResearchRow], list[dict[str, str]], str]:
     """
     Submit all jobs to xAI Batch API, poll until complete, merge all result pages.
@@ -119,10 +120,19 @@ def submit_and_drain_batch(
     rows: dict[str, ChannelResearchRow] = {}
     failures: list[dict[str, str]] = []
     failure_rids: set[str] = set()
+    poll_started = time.monotonic()
 
     while True:
         b = client.batch.get(batch_id=batch_id)
         pending = b.state.num_pending
+        if max_wait_sec is not None and max_wait_sec > 0 and (time.monotonic() - poll_started) > max_wait_sec:
+            failures.append(
+                {
+                    "request_id": "__batch__",
+                    "error": f"xAI batch polling exceeded max_wait_sec={max_wait_sec} (batch_id={batch_id}, pending={pending})",
+                }
+            )
+            break
 
         pagination_token = None
         while True:

@@ -31,6 +31,12 @@ from linkedin_enrich.exa_fetch import (  # noqa: E402
     normalize_linkedin_url,
 )
 from linkedin_enrich.grok_structure import structure_profile  # noqa: E402
+from pipeline_metrics import (  # noqa: E402
+    XaiRates,
+    estimate_exa_cost,
+    estimate_xai_cost,
+    merge_xai_usage_dicts,
+)
 
 DEFAULT_MODEL = "grok-4.20-reasoning"
 
@@ -61,6 +67,7 @@ def _process_one_file(
             urls_to_fetch.append(li)
 
     discovered: dict[str, str] = {}
+    missing: list[dict[str, str]] = []
     if discover_missing:
         missing = [
             {"full_name": c.get("full_name", ""), "company": c.get("company", "")}
@@ -99,8 +106,14 @@ def _process_one_file(
     for _key, url in discovered.items():
         all_urls.append(url)
 
+    exa_search_requests = len(missing) if discover_missing and missing else 0
+    uniq_norm_urls = {normalize_linkedin_url(u) for u in all_urls if normalize_linkedin_url(u)}
+    exa_content_pages = len(uniq_norm_urls)
+
     profile_markdowns = fetch_linkedin_profiles(exa_client, all_urls) if all_urls else {}
     stats["fetched"] = len(profile_markdowns)
+
+    xai_usage_parts: list[dict[str, Any]] = []
 
     for c in contacts:
         if (c.get("linkedin_url") or "").strip():
@@ -123,12 +136,13 @@ def _process_one_file(
         if not md.strip():
             continue
         try:
-            profile, _usage = structure_profile(
+            profile, usage_one = structure_profile(
                 api_key=xai_api_key,
                 model=model,
                 linkedin_url=li,
                 markdown=md,
             )
+            xai_usage_parts.append(usage_one)
             if profile:
                 c["linkedin_profile"] = profile.model_dump()
                 stats["structured"] += 1
@@ -138,11 +152,30 @@ def _process_one_file(
             print(f"  error structuring {li}: {e}", file=sys.stderr)
             stats["errors"] += 1
 
+    merged_xai_usage = merge_xai_usage_dicts(*xai_usage_parts) if xai_usage_parts else {}
+    xai_rates = XaiRates()
+    xai_cost = estimate_xai_cost(merged_xai_usage, rates=xai_rates) if merged_xai_usage else estimate_xai_cost({}, rates=xai_rates)
+    exa_cost = estimate_exa_cost(search_requests=exa_search_requests, content_pages=exa_content_pages)
+    combined = round(float(xai_cost.get("approx_total_usd", 0)) + float(exa_cost.get("approx_total_usd", 0)), 6)
+
+    enriched_at = datetime.now(timezone.utc).isoformat()
     data["linkedin_enrichment"] = {
         "version": 1,
-        "enriched_at_utc": datetime.now(timezone.utc).isoformat(),
+        "enriched_at_utc": enriched_at,
         "model": model,
         "stats": stats,
+        "telemetry": {
+            "exa": {
+                "search_requests": exa_search_requests,
+                "content_pages": exa_content_pages,
+                "cost_estimate": exa_cost,
+            },
+            "xai": {
+                "usage": merged_xai_usage,
+                "cost_estimate": xai_cost,
+            },
+            "combined_approx_usd": combined,
+        },
     }
     data["contacts"] = contacts
 

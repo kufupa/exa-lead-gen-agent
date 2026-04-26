@@ -7,6 +7,7 @@ import argparse
 import os
 import subprocess
 import sys
+import uuid
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -37,6 +38,14 @@ def _dedupe_urls(urls: list[str]) -> list[str]:
     return out
 
 
+def _make_run_claim() -> str:
+    return f"{uuid.uuid4()}::pid{os.getpid()}"
+
+
+def _phase3_script(root: Path) -> Path:
+    return root / "scripts" / "linkedin_exa_enrich.py"
+
+
 def _run_one(
     url: str,
     *,
@@ -44,8 +53,22 @@ def _run_one(
     store: AggregatesStore,
     agent_count: int,
     skip_if_enriched: bool,
+    phase2_mode: str = "realtime",
+    phase2_model: str | None = None,
+    phase2_batch_chunk_size: int = 50,
+    phase2_batch_resume: bool = False,
+    phase2_batch_max_wait_sec: float = 0.0,
+    run_claim: str | None = None,
+    phase1_timeout_sec: float = 0.0,
+    phase2_timeout_sec: float = 0.0,
+    phase3_timeout_sec: float = 0.0,
 ) -> tuple[str, str]:
     """Returns (canonical_url, status_message)."""
+    claim = run_claim or _make_run_claim()
+    t1 = phase1_timeout_sec if phase1_timeout_sec > 0 else None
+    t2 = phase2_timeout_sec if phase2_timeout_sec > 0 else None
+    t3 = phase3_timeout_sec if phase3_timeout_sec > 0 else None
+
     canon = canonical_hotel_url(url)
     if skip_if_enriched and store.enriched_entry_file_exists(canon):
         return canon, "skipped (already enriched)"
@@ -63,27 +86,51 @@ def _run_one(
         canonical_url=canon,
         research_json=research_rel,
         enriched_json=enriched_rel,
+        run_claim=claim,
     )
 
     env = os.environ.copy()
-    r1 = subprocess.run(
-        [
-            sys.executable,
-            str(root / "hotel_decision_maker_research.py"),
-            "--url",
-            url,
-            "--out-json",
-            str(research),
-            "--out-csv",
-            str(csv_path),
-            "--agent-count",
-            str(agent_count),
-        ],
-        cwd=root,
-        env=env,
-        capture_output=True,
-        text=True,
-    )
+    try:
+        r1 = subprocess.run(
+            [
+                sys.executable,
+                str(root / "hotel_decision_maker_research.py"),
+                "--url",
+                url,
+                "--out-json",
+                str(research),
+                "--out-csv",
+                str(csv_path),
+                "--agent-count",
+                str(agent_count),
+            ],
+            cwd=root,
+            env=env,
+            capture_output=True,
+            text=True,
+            timeout=t1,
+        )
+    except subprocess.TimeoutExpired:
+        err = "phase1 subprocess timeout"
+        store.commit_after_enrich(
+            canonical_url=canon,
+            research_json=research_rel,
+            enriched_json=enriched_rel,
+            error=err,
+            run_claim=claim,
+        )
+        return canon, "failed research: timeout"
+    except OSError as e:
+        err = f"phase1 spawn error: {e}"
+        store.commit_after_enrich(
+            canonical_url=canon,
+            research_json=research_rel,
+            enriched_json=enriched_rel,
+            error=err,
+            run_claim=claim,
+        )
+        return canon, f"failed research: os_error {e!r}"
+
     if r1.returncode != 0:
         err = (r1.stderr or r1.stdout or "research failed")[-4000:]
         store.commit_after_enrich(
@@ -91,26 +138,68 @@ def _run_one(
             research_json=research_rel,
             enriched_json=enriched_rel,
             error=err,
+            run_claim=claim,
         )
         return canon, f"failed research: {r1.returncode}"
 
-    r2 = subprocess.run(
-        [
-            sys.executable,
-            str(root / "hotel_contact_enrichment.py"),
-            "--in-json",
-            str(research),
-            "--out-json",
-            str(enriched),
-            "--mode",
-            "realtime",
-            "--pretty",
-        ],
-        cwd=root,
-        env=env,
-        capture_output=True,
-        text=True,
-    )
+    r2_cmd = [
+        sys.executable,
+        str(root / "hotel_contact_enrichment.py"),
+        "--in-json",
+        str(research),
+        "--out-json",
+        str(enriched),
+        "--mode",
+        phase2_mode,
+        "--pretty",
+    ]
+    if phase2_model:
+        r2_cmd.extend(["--model", phase2_model])
+    if phase2_mode == "batch":
+        checkpoint = enriched.parent / (enriched.stem + ".phase2_batch.checkpoint.json")
+        r2_cmd.extend(
+            [
+                "--batch-chunk-size",
+                str(max(1, phase2_batch_chunk_size)),
+                "--checkpoint",
+                str(checkpoint),
+            ]
+        )
+        if phase2_batch_resume:
+            r2_cmd.append("--resume")
+        if phase2_batch_max_wait_sec > 0:
+            r2_cmd.extend(["--batch-max-wait-sec", str(phase2_batch_max_wait_sec)])
+
+    try:
+        r2 = subprocess.run(
+            r2_cmd,
+            cwd=root,
+            env=env,
+            capture_output=True,
+            text=True,
+            timeout=t2,
+        )
+    except subprocess.TimeoutExpired:
+        err = "phase2 subprocess timeout"
+        store.commit_after_enrich(
+            canonical_url=canon,
+            research_json=research_rel,
+            enriched_json=enriched_rel,
+            error=err,
+            run_claim=claim,
+        )
+        return canon, "failed enrichment: timeout"
+    except OSError as e:
+        err = f"phase2 spawn error: {e}"
+        store.commit_after_enrich(
+            canonical_url=canon,
+            research_json=research_rel,
+            enriched_json=enriched_rel,
+            error=err,
+            run_claim=claim,
+        )
+        return canon, f"failed enrichment: os_error {e!r}"
+
     if r2.returncode != 0:
         err = (r2.stderr or r2.stdout or "enrichment failed")[-4000:]
         store.commit_after_enrich(
@@ -118,39 +207,56 @@ def _run_one(
             research_json=research_rel,
             enriched_json=enriched_rel,
             error=err,
+            run_claim=claim,
         )
         return canon, f"failed enrichment: {r2.returncode}"
 
     if os.environ.get("LINKEDIN_ENRICH", "").strip().lower() in ("1", "true", "yes"):
-        r3 = subprocess.run(
-            [
-                sys.executable,
-                str(root / "scripts" / "linkedin_exa_enrich.py"),
-                "--in-json",
-                str(enriched),
-                "--out-json",
-                str(enriched),
-                "--discover-missing",
-                "--pretty",
-            ],
-            cwd=root,
-            env=env,
-            capture_output=True,
-            text=True,
-        )
-        if r3.returncode != 0:
+        p3 = _phase3_script(root)
+        if not p3.is_file():
             print(
-                f"[warn] linkedin enrichment failed for {canon}: {r3.returncode}\n"
-                f"{(r3.stderr or r3.stdout or 'linkedin enrichment failed')[-2000:]}",
+                f"[warn] phase3 script missing at {p3}; skip LinkedIn enrichment for {canon}",
                 file=sys.stderr,
             )
+        else:
+            try:
+                r3 = subprocess.run(
+                    [
+                        sys.executable,
+                        str(p3),
+                        "--in-json",
+                        str(enriched),
+                        "--out-json",
+                        str(enriched),
+                        "--discover-missing",
+                        "--pretty",
+                    ],
+                    cwd=root,
+                    env=env,
+                    capture_output=True,
+                    text=True,
+                    timeout=t3,
+                )
+                if r3.returncode != 0:
+                    print(
+                        f"[warn] linkedin enrichment failed for {canon}: {r3.returncode}\n"
+                        f"{(r3.stderr or r3.stdout or 'linkedin enrichment failed')[-2000:]}",
+                        file=sys.stderr,
+                    )
+            except subprocess.TimeoutExpired:
+                print(f"[warn] linkedin enrichment timeout for {canon}", file=sys.stderr)
+            except OSError as e:
+                print(f"[warn] linkedin enrichment spawn error for {canon}: {e}", file=sys.stderr)
 
-    store.commit_after_enrich(
+    reg_ok = store.commit_after_enrich(
         canonical_url=canon,
         research_json=research_rel,
         enriched_json=enriched_rel,
         error=None,
+        run_claim=claim,
     )
+    if not reg_ok:
+        return canon, "ok (aggregates_updated_registry_claim_mismatch)"
     return canon, "ok"
 
 
@@ -162,6 +268,52 @@ def main() -> int:
     p.add_argument("--jsons-dir", type=Path, default=Path("jsons"))
     p.add_argument("--fulljsons-dir", type=Path, default=Path("fullJSONs"))
     p.add_argument("--agent-count", type=int, default=16)
+    p.add_argument(
+        "--phase2-mode",
+        choices=["realtime", "batch"],
+        default="realtime",
+        help="Phase 2 mode for hotel_contact_enrichment.py (default: realtime)",
+    )
+    p.add_argument(
+        "--phase2-model",
+        default=None,
+        help="Optional model override for phase 2 (default: contact_enrichment default)",
+    )
+    p.add_argument(
+        "--phase2-batch-chunk-size",
+        type=int,
+        default=50,
+        help="Phase 2 batch add chunk size when --phase2-mode batch (default: 50)",
+    )
+    p.add_argument(
+        "--phase2-batch-resume",
+        action="store_true",
+        help="Resume phase 2 batch from checkpoint if present (batch mode only)",
+    )
+    p.add_argument(
+        "--phase2-batch-max-wait-sec",
+        type=float,
+        default=0.0,
+        help="Max wall time for xAI batch polling in phase 2 (0 = use contact_enrichment default; batch mode only)",
+    )
+    p.add_argument(
+        "--phase1-timeout-sec",
+        type=float,
+        default=0.0,
+        help="Subprocess timeout for phase 1 (0 = no timeout)",
+    )
+    p.add_argument(
+        "--phase2-timeout-sec",
+        type=float,
+        default=0.0,
+        help="Subprocess timeout for phase 2 (0 = no timeout)",
+    )
+    p.add_argument(
+        "--phase3-timeout-sec",
+        type=float,
+        default=0.0,
+        help="Subprocess timeout for phase 3 LinkedIn enrich (0 = no timeout)",
+    )
     p.add_argument(
         "--skip-if-enriched",
         action="store_true",
@@ -179,6 +331,7 @@ def main() -> int:
         return 2
 
     store = AggregatesStore(args.fulljsons_dir.resolve(), args.jsons_dir.resolve())
+    any_hard_fail = False
 
     with ThreadPoolExecutor(max_workers=max(1, args.workers)) as ex:
         futs = {
@@ -189,6 +342,14 @@ def main() -> int:
                 store=store,
                 agent_count=args.agent_count,
                 skip_if_enriched=args.skip_if_enriched,
+                phase2_mode=args.phase2_mode,
+                phase2_model=(args.phase2_model.strip() if args.phase2_model else None),
+                phase2_batch_chunk_size=args.phase2_batch_chunk_size,
+                phase2_batch_resume=args.phase2_batch_resume,
+                phase2_batch_max_wait_sec=args.phase2_batch_max_wait_sec,
+                phase1_timeout_sec=args.phase1_timeout_sec,
+                phase2_timeout_sec=args.phase2_timeout_sec,
+                phase3_timeout_sec=args.phase3_timeout_sec,
             ): u
             for u in urls
         }
@@ -197,10 +358,13 @@ def main() -> int:
             try:
                 canon, msg = fut.result()
                 print(f"{canon} :: {msg}")
+                if msg.startswith("failed ") or msg.startswith("exception:"):
+                    any_hard_fail = True
             except Exception as e:
                 print(f"{u} :: exception: {e}", file=sys.stderr)
+                any_hard_fail = True
 
-    return 0
+    return 1 if any_hard_fail else 0
 
 
 if __name__ == "__main__":
