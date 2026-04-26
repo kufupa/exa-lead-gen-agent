@@ -1,0 +1,478 @@
+{
+  "target_url": "https://www.rosewoodhotels.com/en/london",
+  "generated_at_utc": "2026-04-26T20:25:48.713196+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "min_output_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "retry_low_count": false,
+  "pre_filter_count": 15,
+  "post_filter_count": 13,
+  "low_count_reason": null,
+  "research_attempts": 1,
+  "usage": {
+    "prompt_tokens": 53883,
+    "cached_prompt_text_tokens": 35840,
+    "completion_tokens": 4379,
+    "reasoning_tokens": 6250,
+    "output_tokens": 0,
+    "total_tokens": 64512,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_X_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "usage_by_attempt": [
+    {
+      "completion_tokens": 4379,
+      "prompt_tokens": 53883,
+      "total_tokens": 64512,
+      "prompt_text_tokens": 53883,
+      "reasoning_tokens": 6250,
+      "cached_prompt_text_tokens": 35840,
+      "server_side_tools_used": [
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_X_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH"
+      ]
+    }
+  ],
+  "usage_summary": {
+    "xai_tools": {
+      "web_search": 9,
+      "x_search": 1
+    },
+    "xai_tool_invocations": 10
+  },
+  "cost_estimate": {
+    "approx_total_usd": 0.157028,
+    "token_component_usd": 0.107028,
+    "xai_tool_component_usd": 0.05,
+    "token_price_multiplier": 1.0,
+    "counts": {
+      "prompt_tokens": 53883,
+      "cached_prompt_text_tokens": 35840,
+      "completion_tokens": 4379,
+      "reasoning_tokens": 6250,
+      "total_tokens_reported": 64512,
+      "output_like_tokens": 10629,
+      "server_side_tool_invocations": 10,
+      "server_side_tool_usage": {
+        "web_search": 9,
+        "x_search": 1
+      },
+      "web_search_invocations_estimated": 9,
+      "x_search_invocations_estimated": 1
+    },
+    "rates_used": {
+      "input_usd_per_million_tokens": 2.0,
+      "output_usd_per_million_tokens": 6.0,
+      "cached_prompt_input_usd_per_million_tokens": 0.2,
+      "web_search_usd_per_1000_invocations": 5.0,
+      "x_search_usd_per_1000_invocations": 5.0,
+      "token_price_multiplier": 1.0
+    }
+  },
+  "cost_by_attempt": [
+    {
+      "approx_total_usd": 0.157028,
+      "token_component_usd": 0.107028,
+      "xai_tool_component_usd": 0.05,
+      "token_price_multiplier": 1.0,
+      "counts": {
+        "prompt_tokens": 53883,
+        "cached_prompt_text_tokens": 35840,
+        "completion_tokens": 4379,
+        "reasoning_tokens": 6250,
+        "total_tokens_reported": 64512,
+        "output_like_tokens": 10629,
+        "server_side_tool_invocations": 10,
+        "server_side_tool_usage": {
+          "web_search": 9,
+          "x_search": 1
+        },
+        "web_search_invocations_estimated": 9,
+        "x_search_invocations_estimated": 1
+      },
+      "rates_used": {
+        "input_usd_per_million_tokens": 2.0,
+        "output_usd_per_million_tokens": 6.0,
+        "cached_prompt_input_usd_per_million_tokens": 0.2,
+        "web_search_usd_per_1000_invocations": 5.0,
+        "x_search_usd_per_1000_invocations": 5.0,
+        "token_price_multiplier": 1.0
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "full_name": "Tessa Gorman",
+      "title": "Managing Director",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/tessa-gorman-38693517",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line +44 20 7781 8888; General email: london@rosewoodhotels.com (route via front desk or reservations for commercial inquiries)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Top executive overseeing all property strategy, operations, guest journey, and technology decisions including potential adoption of AI booking automation, revenue tech, and guest messaging systems.",
+      "contact_evidence_summary": "Dedicated official bio page on Rosewood site plus LinkedIn and multiple news features confirming current role. Strong public profile enables routing through property contacts.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/london/media/press-kit/managing-director-bio",
+          "source_type": "official_site",
+          "quote_or_fact": "Currently, the Managing Director of award-winning Rosewood London, Tessa Gorman brings a wealth of expertise in global luxury travel."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/tessa-gorman-38693517",
+          "source_type": "linkedin",
+          "quote_or_fact": "Managing Director · Rosewood London"
+        },
+        {
+          "source_url": "https://www.hotelexecutive.com/newswire/71550/rosewood-london-appoints-new-managing-director-tessa-gorman",
+          "source_type": "news",
+          "quote_or_fact": "Rosewood London Appoints New Managing Director Tessa Gorman (Jan 2024 announcement)"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Bana Toukan",
+      "title": "Director of Sales & Marketing",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/banatoukan",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line +44 20 7781 8888; General email: london@rosewoodhotels.com (sales inquiries route)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads sales, marketing, and distribution efforts; directly influences channel strategy, digital sales tools, booking automation, and guest acquisition/messaging technologies.",
+      "contact_evidence_summary": "Confirmed via LinkedIn and career pages as current Director of Sales & Marketing at the property. Reachable via established sales department routes.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/banatoukan",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales & Marketing · Rosewood London"
+        },
+        {
+          "source_url": "https://careers.rosewoodhotelgroup.com",
+          "source_type": "official_site",
+          "quote_or_fact": "Senior Group Sales Manager role descriptions reference sales leadership at Rosewood London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Ashton Kelly",
+      "title": "Head of Group & Corporate Sales",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/ashton-kelly",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line +44 20 7781 8888; sales@rosewoodhotels.com style routes via main email",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads group and corporate sales strategies, which heavily rely on booking automation, CRM, distribution channels, and guest communication platforms.",
+      "contact_evidence_summary": "Named in official PDF bios and LinkedIn as sales leadership at Rosewood London with clear segment responsibility.",
+      "evidence": [
+        {
+          "source_url": "http://info.rosewoodhotels.com/rs/364-GHA-308/images/6Connect%20System%20Requirements%20Clients.pdf",
+          "source_type": "other",
+          "quote_or_fact": "Ashton Kelly, CIS, Head of Group & Corporate Sales, Rosewood London. Joined in 2016 leading strategy for both segments."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/ashton-kelly",
+          "source_type": "linkedin",
+          "quote_or_fact": "Rosewood London sales leadership role"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Doris Woehnl",
+      "title": "Director of Revenue Management",
+      "company": "Rosewood London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line +44 20 7781 8888; General email: london@rosewoodhotels.com (revenue/commercial route)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Directly responsible for revenue strategies, pricing, distribution channels, and evaluation/adoption of revenue-tech and automation tools central to the ICP.",
+      "contact_evidence_summary": "Award-winning revenue leader featured in industry news as Director of Revenue Management at Rosewood London with strong public confirmation of role.",
+      "evidence": [
+        {
+          "source_url": "https://www.thecaterer.com/news/hotel-cateys-2023-revenue-manager-doris-woehnl-rosewood",
+          "source_type": "news",
+          "quote_or_fact": "Revenue Manager of the Year – Doris Woehnl, Rosewood London. As director of revenue management and a key member of Rosewood London's commercial team."
+        },
+        {
+          "source_url": "https://rocketreach.co/doris-woehnl-email_59221314",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Revenue Management @ Rosewood London (public directory confirmation)"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Lucy Werner",
+      "title": "Chief Commercial Officer",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "corpcomm@rosewoodhotelgroup.com (media/commercial routing); group oversight of London property",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Global oversight of revenue generation, sales, marketing, distribution, revenue management, digital, and customer experience — perfect alignment with AI booking, revenue-tech, and guest messaging.",
+      "contact_evidence_summary": "Multiple official Rosewood press releases detail her promotion and broad commercial remit impacting all properties including London.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/media/press/2023/rosewood-hotel-group-announces-key-appointments-to-its-dynamic-team-of-hospitality-leaders",
+          "source_type": "official_site",
+          "quote_or_fact": "Lucy Werner has been promoted from Senior Vice President of Commercial to Chief Commercial Officer... will continue to lead Rosewood Hotel Group’s revenue generation strategies across sales, marketing, distribution, revenue management, digital and customer experience."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Nicole Young",
+      "title": "Vice President, Revenue Management and Distribution, Global",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "corpcomm@rosewoodhotelgroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Global leadership in revenue management, distribution channels, and systems optimization directly tied to revenue-tech adoption and booking automation across the portfolio including London.",
+      "contact_evidence_summary": "Official press release on promotion with detailed responsibilities; strong second-source confirmation in industry coverage.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/media/press/2024/rosewood-hotel-group-announces-key-promotions-within-its-dynamic-global-leadership-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Nicole Young has been promoted to Vice President, Revenue Management and Distribution, Global... will also act as the regional business expert... leading the charge in advancing global revenue management and distribution processes and systems."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Priya Kapoor",
+      "title": "Vice President of Digital",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "corpcomm@rosewoodhotelgroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees digital, eCommerce, customer experience, and digital transformation initiatives brand-wide — core to AI booking automation, guest messaging, and online distribution.",
+      "contact_evidence_summary": "Announced in official 2022 leadership appointments press release with explicit remit over digital and customer journeys.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/media/press/2022/rosewood-hotel-group-announces-new-appointments-to-leadership-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Priya Kapoor joins the group as Vice President of Digital, where she will guide this increasingly important segment on a global level... oversee digital, eCommerce, and customer experience across all group brands... work across the commercial, brand, and IT segments."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Simon Gilkes",
+      "title": "Senior Director of Commercial",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "corpcomm@rosewoodhotelgroup.com",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional commercial leadership for EMEAC (includes London) covering sales, distribution, and revenue management initiatives.",
+      "contact_evidence_summary": "Named in official Rosewood Group press release detailing expanded commercial responsibilities.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/media/press/2022/rosewood-hotel-group-announces-new-appointments-to-leadership-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Simon Gilkes... promoted to Senior Director of Commercial, overseeing the European, Middle Eastern, African, and Caribbean regions... responsible for the overall implementation of sales, distribution, and revenue management initiatives."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Alexandra Robinton",
+      "title": "Director, Brand Marketing & Communications",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "corpcomm@rosewoodhotelgroup.com (direct media contact listed in press releases)",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads brand marketing and communications; influences guest messaging, digital campaigns, and CRM strategies that intersect with booking and guest experience tech.",
+      "contact_evidence_summary": "Repeatedly listed as the UK/global media contact in official Rosewood press releases providing a clear reachable route.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/media/press/2024/rosewood-hotel-group-announces-key-promotions-within-its-dynamic-global-leadership-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Media Contacts... UNITED KINGDOM Alexandra Robinton Director, Brand Marketing & Communications"
+        },
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/media/press/2023/rosewood-hotel-group-announces-key-appointments-to-its-dynamic-team-of-hospitality-leaders",
+          "source_type": "official_site",
+          "quote_or_fact": "Media contact listed as Alexandra Robinton"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Anthony Ingham",
+      "title": "Chief Operating Officer",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "corpcomm@rosewoodhotelgroup.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Oversees global operations including property systems, guest experience technology, and operational adoption of automation tools relevant to London.",
+      "contact_evidence_summary": "Listed on official Rosewood Hotel Group leadership team page.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Chief Operating Officer Anthony Ingham"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Radha Arora",
+      "title": "President",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "corpcomm@rosewoodhotelgroup.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Senior leadership role shaping commercial and operational strategy across the brand, including technology priorities for revenue and guest experience.",
+      "contact_evidence_summary": "Official leadership team page confirms position with group-wide influence.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "President Radha Arora"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Ayfer Bedir",
+      "title": "Director of Sales",
+      "company": "Rosewood London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line +44 20 7781 8888",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Sales leadership focused on client relationships, group bookings, and distribution channels that benefit from automation and CRM enhancements.",
+      "contact_evidence_summary": "Featured in industry video and marketplace content discussing luxury sales at Rosewood London.",
+      "evidence": [
+        {
+          "source_url": "https://www.facebook.com/connectingtravelmarketplace/videos/director-of-sales-at-rosewood-london-ayfer-bedir-shares-what-the-future-of-luxur/892475724594465/",
+          "source_type": "other",
+          "quote_or_fact": "Director of Sales at Rosewood London, Ayfer Bedir, shares what the future of luxury travel looks like..."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "José Viegas",
+      "title": "Director of Food and Beverage",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/josep-viegas",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Hotel main line +44 20 7781 8888",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees F&B operations including guest interactions, reservations for dining, and potential integration with overall guest messaging/CRM platforms (adjacent ICP role).",
+      "contact_evidence_summary": "LinkedIn and employee directory references list as Director of F&B at Rosewood London.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/josep-viegas",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Food And Beverage @ Rosewood London"
+        },
+        {
+          "source_url": "https://leadiq.com/c/rosewood-london/5a1d97382300005a0085c648/employee-directory",
+          "source_type": "directory",
+          "quote_or_fact": "Director Of Food And Beverage : J. V. (José Viegas)"
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}

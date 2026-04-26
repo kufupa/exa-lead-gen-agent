@@ -1,0 +1,665 @@
+{
+  "target_url": "https://www.thehari.com/london/",
+  "generated_at_utc": "2026-04-26T20:37:33.519479+00:00",
+  "model": "grok-4.20-reasoning",
+  "agent_count": 16,
+  "max_turns": 12,
+  "max_turns_effective": 20,
+  "min_contacts": 10,
+  "min_output_contacts": 10,
+  "target_contacts": 25,
+  "max_contacts": 50,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": false,
+  "retry_low_count": false,
+  "pre_filter_count": 19,
+  "post_filter_count": 19,
+  "low_count_reason": null,
+  "research_attempts": 1,
+  "usage": {
+    "prompt_tokens": 60614,
+    "cached_prompt_text_tokens": 29312,
+    "completion_tokens": 4287,
+    "reasoning_tokens": 7301,
+    "output_tokens": 0,
+    "total_tokens": 72202,
+    "server_side_tools_used": [
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH",
+      "SERVER_SIDE_TOOL_WEB_SEARCH"
+    ]
+  },
+  "usage_by_attempt": [
+    {
+      "completion_tokens": 4287,
+      "prompt_tokens": 60614,
+      "total_tokens": 72202,
+      "prompt_text_tokens": 60614,
+      "reasoning_tokens": 7301,
+      "cached_prompt_text_tokens": 29312,
+      "server_side_tools_used": [
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH",
+        "SERVER_SIDE_TOOL_WEB_SEARCH"
+      ]
+    }
+  ],
+  "usage_summary": {
+    "xai_tools": {
+      "web_search": 13
+    },
+    "xai_tool_invocations": 13
+  },
+  "cost_estimate": {
+    "approx_total_usd": 0.202994,
+    "token_component_usd": 0.137994,
+    "xai_tool_component_usd": 0.065,
+    "token_price_multiplier": 1.0,
+    "counts": {
+      "prompt_tokens": 60614,
+      "cached_prompt_text_tokens": 29312,
+      "completion_tokens": 4287,
+      "reasoning_tokens": 7301,
+      "total_tokens_reported": 72202,
+      "output_like_tokens": 11588,
+      "server_side_tool_invocations": 13,
+      "server_side_tool_usage": {
+        "web_search": 13
+      },
+      "web_search_invocations_estimated": 13,
+      "x_search_invocations_estimated": 0
+    },
+    "rates_used": {
+      "input_usd_per_million_tokens": 2.0,
+      "output_usd_per_million_tokens": 6.0,
+      "cached_prompt_input_usd_per_million_tokens": 0.2,
+      "web_search_usd_per_1000_invocations": 5.0,
+      "x_search_usd_per_1000_invocations": 5.0,
+      "token_price_multiplier": 1.0
+    }
+  },
+  "cost_by_attempt": [
+    {
+      "approx_total_usd": 0.202994,
+      "token_component_usd": 0.137994,
+      "xai_tool_component_usd": 0.065,
+      "token_price_multiplier": 1.0,
+      "counts": {
+        "prompt_tokens": 60614,
+        "cached_prompt_text_tokens": 29312,
+        "completion_tokens": 4287,
+        "reasoning_tokens": 7301,
+        "total_tokens_reported": 72202,
+        "output_like_tokens": 11588,
+        "server_side_tool_invocations": 13,
+        "server_side_tool_usage": {
+          "web_search": 13
+        },
+        "web_search_invocations_estimated": 13,
+        "x_search_invocations_estimated": 0
+      },
+      "rates_used": {
+        "input_usd_per_million_tokens": 2.0,
+        "output_usd_per_million_tokens": 6.0,
+        "cached_prompt_input_usd_per_million_tokens": 0.2,
+        "web_search_usd_per_1000_invocations": 5.0,
+        "x_search_usd_per_1000_invocations": 5.0,
+        "token_price_multiplier": 1.0
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "full_name": "Catherine Rushton",
+      "title": "Assistant Director of Marketing and Communications",
+      "company": "The Hari, London",
+      "linkedin_url": "https://uk.linkedin.com/in/catherine-rushton",
+      "email": "catherine.rushton@thehari.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Direct marketing enquiries email on official press page. Events: events@thehari.com / +44 (0)20 3189 4868. General: info@thehari.com / +44 (0)20 7858 0100",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Leads marketing and communications including guest messaging, digital channels, CRM touchpoints, and promotion of booking technologies.",
+      "contact_evidence_summary": "Name and direct business email explicitly listed on official hotel press page. Role confirmed on LinkedIn and company posts. Department contact routes available on official contact page.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "For all marketing enquiries: Catherine Rushton (Assistant Director of Marketing and Communications) at catherine.rushton@thehari.com"
+        },
+        {
+          "source_url": "https://www.thehari.com/london/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "events@thehari.com +44 (0)20 3189 4868"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/catherine-rushton",
+          "source_type": "linkedin",
+          "quote_or_fact": "Assistant Director of Marketing & Communications at The Hari, London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Laurent Coste",
+      "title": "Revenue Manager",
+      "company": "The Hari, London",
+      "linkedin_url": "https://uk.linkedin.com/in/laurentcoste",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations department phone and email: reservations@thehari.com / +44 (0)20 7858 0110 (official contact page, reaches revenue and reservations team)",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Direct oversight of revenue management, distribution channels, booking systems, and revenue-tech stack - core ICP fit for AI booking automation and revenue optimization.",
+      "contact_evidence_summary": "Strong LinkedIn and company page confirmation of long tenure as Revenue Manager. Official contact page provides structured department route. Multiple independent sources confirm role relevance.",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/laurentcoste",
+          "source_type": "linkedin",
+          "quote_or_fact": "Revenue Manager at The Hari, London (since 2008)"
+        },
+        {
+          "source_url": "https://www.thehari.com/london/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "reservations@thehari.com / +44 (0)20 7858 0110"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "linkedin",
+          "quote_or_fact": "Laurent Coste listed among key employees as Revenue Manager"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Francesco Sardelli",
+      "title": "General Manager",
+      "company": "The Hari, London",
+      "linkedin_url": "https://uk.linkedin.com/in/francesco-sardelli-general-manager",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "General hotel: info@thehari.com / +44 (0)20 7858 0100. Can be reached via GM office or front desk.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "As GM, holds ultimate responsibility for property strategy including technology adoption in reservations, revenue, guest experience, and digital transformation.",
+      "contact_evidence_summary": "Prominently featured on official about page with bio. Multiple news articles and press releases confirm appointment and role. LinkedIn profile active.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/about/",
+          "source_type": "official_site",
+          "quote_or_fact": "Meet our General Manager Francesco Sardelli. With over 30 years’ experience in the luxury hotel industry."
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/francesco-sardelli-general-manager-hari-london",
+          "source_type": "news",
+          "quote_or_fact": "Francesco Sardelli has been appointed general manager of the Hari in London's Belgravia."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/francesco-sardelli-general-manager",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager at The Hari, London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Kerstin Remy",
+      "title": "Director of Sales and Marketing / Commercial Director",
+      "company": "The Hari, London",
+      "linkedin_url": "https://uk.linkedin.com/in/kerstin-remy-2b1a65147",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales & marketing route via events@thehari.com or info@thehari.com. Reservations overlap: reservations@thehari.com / +44 (0)20 7858 0110",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads commercial strategy, sales, marketing, distribution, and revenue initiatives tied to booking automation and guest communications.",
+      "contact_evidence_summary": "Listed in official sustainability report as Commercial Director - Sales & Marketing. RocketReach and LinkedIn confirm Director of Sales and Marketing role. Multiple company mentions.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2022/01/Sustainability-Management-Plan-2025.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "KERSTIN REMY COMMERCIAL DIRECTOR - SALES & MARKETING"
+        },
+        {
+          "source_url": "https://rocketreach.co/the-hari-london-management_b5608140f611848e",
+          "source_type": "directory",
+          "quote_or_fact": "Kerstin Remy, Director of Sales and Marketing at The Hari, London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/kerstin-remy-2b1a65147",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales and Marketing role at The Hari London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Kenix Tong",
+      "title": "Regional Director, Sales",
+      "company": "The Hari",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sales route: events@thehari.com or general info@thehari.com / +44 (0)20 7858 0100",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "Regional sales leadership with influence over distribution, group bookings, revenue strategy, and technology adoption across properties including London.",
+      "contact_evidence_summary": "ZoomInfo and company org chart list as Regional Director, Sales. Supports commercial operations overlapping the London property.",
+      "evidence": [
+        {
+          "source_url": "https://www.zoominfo.com/p/Kenix-Tong/1822885249",
+          "source_type": "directory",
+          "quote_or_fact": "Kenix Tong - Regional Director, Sales at The Hari"
+        },
+        {
+          "source_url": "https://rocketreach.co/the-hari-london-management_b5608140f611848e",
+          "source_type": "directory",
+          "quote_or_fact": "Listed in The Hari, London management team org chart"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Brad Kirk",
+      "title": "Chief Operating Officer",
+      "company": "Harilela Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Brand level contact via The Hari London general lines: info@thehari.com / +44 (0)20 7858 0100",
+      "decision_maker_score": "high",
+      "intimacy_grade": "medium",
+      "fit_reason": "COO of management company overseeing The Hari London; influences operational technology, systems, revenue strategy, and guest journey tech across brand.",
+      "contact_evidence_summary": "Official Harilela Hotels board and management listings. Overlaps directly with London property operations.",
+      "evidence": [
+        {
+          "source_url": "https://www.harilela.com/about-us/board-of-directors/",
+          "source_type": "official_site",
+          "quote_or_fact": "Mr. Brad Kirk (Chief Operating Officer) Hotel Division"
+        },
+        {
+          "source_url": "https://rocketreach.co/harilela-hotels-ltd-management_b447e95cfab351f6",
+          "source_type": "directory",
+          "quote_or_fact": "Brad Kirk listed in Harilela Hotels Ltd. management team"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Tatiana Pitta Pereira Freitas",
+      "title": "Director of Finance and Business Support",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "General business support route via info@thehari.com / +44 (0)20 7858 0100",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Finance and business support role with visibility into ROI of revenue tech, booking systems, and operational automation investments.",
+      "contact_evidence_summary": "Multiple directory and LinkedIn company page listings as Director of Finance and Business Support.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/the-hari-london-management_b5608140f611848e",
+          "source_type": "directory",
+          "quote_or_fact": "Tatiana Pitta Pereira Freitas (Director of Finance and Business Support)"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "linkedin",
+          "quote_or_fact": "Tatiana Pitta Pereira Freitas, MIH, FHOSPA - Director of Finance and Business Support"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Diego Carvalho",
+      "title": "Head Concierge",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Concierge: concierge@thehari.com / +44 (0)20 3189 4835",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Leads guest experience and personalized service including messaging, recommendations, and integration with booking/CRM systems.",
+      "contact_evidence_summary": "Featured on official about page as current Head Concierge. Replaces earlier name in older PDF.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/about/",
+          "source_type": "official_site",
+          "quote_or_fact": "Meet our Head Concierge Diego Carvalho. Holds the prestigious Les Clef d’Or."
+        },
+        {
+          "source_url": "https://www.thehari.com/london/contact/",
+          "source_type": "official_site",
+          "quote_or_fact": "concierge@thehari.com"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Alex Cohen",
+      "title": "Rooms Operations Manager",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Reservations and rooms division: reservations@thehari.com / +44 (0)20 7858 0110",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "medium",
+      "fit_reason": "Manages rooms operations directly impacting reservation processes, guest journey, check-in automation, and related tech.",
+      "contact_evidence_summary": "Named in official sustainability report as Rooms Operations Manager (also referred to as Alexandre Cohen in some posts).",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2022/01/Sustainability-Management-Plan-2025.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "ALEX COHEN ROOMS OPERATIONS MANAGER"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Dr. Aron Harilela",
+      "title": "Chairman & CEO",
+      "company": "Harilela Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Brand HQ route through London hotel contacts or press channels",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Top executive of the owning and managing group for The Hari London; strategic decisions on tech adoption, AI tools, revenue, and digital guest experience.",
+      "contact_evidence_summary": "Featured in official sustainability report and Harilela board page as CEO and Chairman. Multiple news mentions tying to The Hari brand.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2022/01/Sustainability-Management-Plan-2025.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "Dr Aron Harilela, CEO and Chairman, Harilela Hotels"
+        },
+        {
+          "source_url": "https://www.harilela.com/about-us/board-of-directors/",
+          "source_type": "official_site",
+          "quote_or_fact": "Chairman & CEO Dr. Aron Hari Harilela, BBS JP"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Andonis Sanchez",
+      "title": "Human Resources Manager",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "HR and recruitment: recruitment@thehari.com",
+      "decision_maker_score": "low",
+      "intimacy_grade": "medium",
+      "fit_reason": "HR operations supporting staff training on new CRM, guest messaging, and reservations platforms.",
+      "contact_evidence_summary": "Named in official sustainability report as Human Resources Manager.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2022/01/Sustainability-Management-Plan-2025.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "ANDONIS SANCHEZ HUMAN RESOURCES MANAGER"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Angela Montebello",
+      "title": "Leadership Team Member (Sustainability & Operations)",
+      "company": "The Hari, London",
+      "linkedin_url": "https://uk.linkedin.com/in/angelamontebello",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "General: info@thehari.com / +44 (0)20 7858 0100",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Involved in hotel vision and operations with overlap in guest experience and sustainable digital practices.",
+      "contact_evidence_summary": "Mentioned on official press page and has dedicated LinkedIn profile tied to The Hari London.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "Angela Montebello: Appointed in April 2022 to realise the hotel's vision as a leading sustainable luxury hotel."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/angelamontebello",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experienced professional at The Hari, London"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Anna Bartnik-Ponikowska",
+      "title": "Human Resources Director",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Recruitment: recruitment@thehari.com (from company LinkedIn). General: info@thehari.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "HR leadership influences talent for digital/CRM systems, training on new booking tech, and internal adoption of guest experience tools.",
+      "contact_evidence_summary": "Listed in RocketReach management org chart and company LinkedIn posts. Role confirmed across directories.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/the-hari-london-management_b5608140f611848e",
+          "source_type": "directory",
+          "quote_or_fact": "Anna Bartnik-Ponikowska (Human Resources Director) at The Hari, London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "linkedin",
+          "quote_or_fact": "Mentioned in company posts alongside leadership"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "John McDowell",
+      "title": "Director of Engineering",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Property systems and IT route via general hotel phone +44 (0)20 7858 0100 or info@thehari.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees property IT infrastructure, systems integration, and technical backbone for booking platforms, guest messaging, and digital tools.",
+      "contact_evidence_summary": "Named in official Sustainability Management Plan as Director of Engineering. Role ties to property-level tech.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2022/01/Sustainability-Management-Plan-2025.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "JOHN MC DOWELL DIRECTOR OF ENGINEERING"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Emma-Louise Sargeant",
+      "title": "Sustainability Executive",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "General enquiries: info@thehari.com",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Involved in brand initiatives that intersect with guest experience, communications, and modern tech-forward sustainable practices appealing to ICP audience.",
+      "contact_evidence_summary": "Authored sections of official Sustainability Management Plan. Publicly tied to The Hari.",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2022/01/Sustainability-Management-Plan-2025.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "This report has been developed by Emma-Louise Sargeant, Sustainability Executive at The Hari"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Lucas Lim",
+      "title": "Chief Financial Officer",
+      "company": "Harilela Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group level via London property contacts",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "CFO at management company level with oversight of budgets for tech investments in revenue and booking systems across The Hari properties.",
+      "contact_evidence_summary": "Listed on official Harilela board of directors page.",
+      "evidence": [
+        {
+          "source_url": "https://www.harilela.com/about-us/board-of-directors/",
+          "source_type": "official_site",
+          "quote_or_fact": "Mr. Lucas Lim (Chief Financial Officer)"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Fanny Bruchet",
+      "title": "Business Development Manager",
+      "company": "Harilela Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Business development and sales route via The Hari London sales contacts",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Business development role supporting sales, partnerships, and distribution strategies that align with booking automation and revenue tech.",
+      "contact_evidence_summary": "Listed in Harilela Hotels management team directories.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/harilela-hotels-ltd-management_b447e95cfab351f6",
+          "source_type": "directory",
+          "quote_or_fact": "Fanny Bruchet (Business Development Manager) at Harilela Hotels Ltd."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "M. S. Kalra",
+      "title": "Executive (Hotel Division)",
+      "company": "Harilela Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Brand level via London general contacts",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Executive in hotel division of management company overseeing properties like The Hari London, influencing commercial and tech decisions.",
+      "contact_evidence_summary": "Listed on official Harilela board of directors for Hotel Division.",
+      "evidence": [
+        {
+          "source_url": "https://www.harilela.com/about-us/board-of-directors/",
+          "source_type": "official_site",
+          "quote_or_fact": "Mr. M. S. Kalra (Executive) Hotel Division"
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Francesco Gava",
+      "title": "Director of Food and Beverage",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "F&B guest comms via general or events@thehari.com",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Oversees F&B operations with touchpoints in guest experience, personalized messaging, and potential integration with booking/CRM systems.",
+      "contact_evidence_summary": "Listed in ZoomInfo org chart for The Hari as Director of Food and Beverage.",
+      "evidence": [
+        {
+          "source_url": "https://www.zoominfo.com/c/the-hari/1133227344",
+          "source_type": "directory",
+          "quote_or_fact": "FG · Francesco Gava. Director of Food and Beverage"
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}
