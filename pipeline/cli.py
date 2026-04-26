@@ -8,7 +8,12 @@ from pathlib import Path
 
 from scripts._repo_dotenv import load_repo_dotenv
 
-from pipeline.candidates import dedupe_candidates, initial_hotel_from_url, promote_discovery_to_candidates
+from pipeline.candidates import (
+    dedupe_candidates,
+    initial_hotel_from_url,
+    leads_from_people_gap_sources,
+    promote_discovery_to_candidates,
+)
 from pipeline.config import PipelineConfig
 from pipeline.contact_mining import mine_contacts_v4
 from pipeline.exa_verify import run_exa_jobs
@@ -46,7 +51,12 @@ def run_pipeline(
     if dry_run:
         hotel = initial_hotel_from_url(hotel_url)
         discovery = GrokDiscoveryResult(hotel=hotel, aliases=[], drafts=[])
-        jobs, manual = plan_exa_jobs(discovery, max_jobs=config.exa_search_cap())
+        jobs, manual = plan_exa_jobs(
+            discovery,
+            max_jobs=config.exa_search_cap(),
+            max_people_gap_searches=config.max_people_gap_searches,
+            max_person_verify_searches=config.max_person_verify_searches,
+        )
         plan = {
             **grok_discovery_dry_run_plan(hotel_url),
             "gap_jobs": [j.model_dump() for j in jobs],
@@ -65,7 +75,12 @@ def run_pipeline(
         raise ValueError("XAI_API_KEY is required for pipeline v4 (Grok discovery)")
 
     discovery, _usages = run_grok_discovery(hotel_url, xai_key, tel)
-    jobs, manual_review = plan_exa_jobs(discovery, max_jobs=config.exa_search_cap())
+    jobs, manual_review = plan_exa_jobs(
+        discovery,
+        max_jobs=config.exa_search_cap(),
+        max_people_gap_searches=config.max_people_gap_searches,
+        max_person_verify_searches=config.max_person_verify_searches,
+    )
 
     exa = _load_exa_client()
     exa_by: dict[str, list] = {}
@@ -79,6 +94,9 @@ def run_pipeline(
         )
 
     rough, rejected_drafts = promote_discovery_to_candidates(discovery, exa_by)
+    global_src = exa_by.get("_global") or []
+    if global_src:
+        rough.extend(leads_from_people_gap_sources(discovery.hotel, list(discovery.aliases), global_src))
     rough = dedupe_candidates(rough[: config.max_candidates])
 
     mined = mine_contacts_v4(discovery.hotel, rough, config, exa, tel)
@@ -117,7 +135,9 @@ def main(argv: list[str] | None = None) -> int:
     run_p.add_argument("url")
     run_p.add_argument("--out", type=Path, default=Path("outputs/pipeline"))
     run_p.add_argument("--max-candidates", type=int, default=50)
-    run_p.add_argument("--max-exa-searches", type=int, default=12)
+    run_p.add_argument("--max-exa-searches", type=int, default=22)
+    run_p.add_argument("--max-people-gap-searches", type=int, default=10)
+    run_p.add_argument("--max-person-verify-searches", type=int, default=10)
     run_p.add_argument("--max-exa-fetches", type=int, default=8)
     run_p.add_argument("--skip-contact-mining", action="store_true")
     run_p.add_argument("--dry-run", action="store_true")
@@ -136,6 +156,8 @@ def main(argv: list[str] | None = None) -> int:
             max_candidates=args.max_candidates,
             max_exa_searches=args.max_exa_searches,
             max_exa_fetches=args.max_exa_fetches,
+            max_people_gap_searches=args.max_people_gap_searches,
+            max_person_verify_searches=args.max_person_verify_searches,
             skip_linkedin=False,
             skip_contact_mining=args.skip_contact_mining,
         )

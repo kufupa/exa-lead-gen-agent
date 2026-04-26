@@ -50,10 +50,46 @@ def _draft_titles_lower(drafts: Iterable[CandidateDraft]) -> str:
     return " ".join((_norm(d.title) or "").lower() for d in drafts)
 
 
+def _people_gap_jobs(primary: str, titles_blob: str, max_gap: int) -> list[ExaJob]:
+    """Capped Exa `category=people` searches for missing senior roles (token-efficient vs broad search)."""
+    tb = titles_blob.lower()
+    specs: list[tuple[tuple[str, ...], str]] = [
+        (("general manager",), f'"{primary}" "general manager"'),
+        (("managing director",), f'"{primary}" "managing director"'),
+        (("chief executive", "c.e.o", "ceo"), f'"{primary}" CEO OR "chief executive"'),
+        (("owner", "founder", "co-founder"), f'"{primary}" owner OR founder hotel'),
+        (("commercial director", "chief commercial"), f'"{primary}" "commercial director"'),
+        (("director of sales", "sales director"), f'"{primary}" "director of sales"'),
+        (
+            ("revenue director", "revenue manager", "yield manager"),
+            f'"{primary}" "revenue director" OR "revenue manager"',
+        ),
+    ]
+    jobs: list[ExaJob] = []
+    for needles, q in specs:
+        if len(jobs) >= max_gap:
+            break
+        if any(n in tb for n in needles):
+            continue
+        jobs.append(
+            ExaJob(
+                job_id=new_job_id(),
+                kind="people_gap",
+                query=q,
+                candidate_id=None,
+                category="people",
+                max_results=5,
+            )
+        )
+    return jobs
+
+
 def plan_exa_jobs(
     discovery: GrokDiscoveryResult,
     *,
-    max_jobs: int = 12,
+    max_jobs: int = 22,
+    max_people_gap_searches: int = 10,
+    max_person_verify_searches: int = 10,
 ) -> tuple[list[ExaJob], bool]:
     """
     Build capped Exa jobs from Grok discovery.
@@ -66,11 +102,16 @@ def plan_exa_jobs(
         return [], True
 
     primary = alias_list[0]
-    jobs: list[ExaJob] = []
     titles_blob = _draft_titles_lower(discovery.drafts)
 
+    gap_jobs = _people_gap_jobs(primary, titles_blob, max_people_gap_searches)
+    gap_jobs = gap_jobs[: min(len(gap_jobs), max_people_gap_searches, max_jobs)]
+
+    verify_cap = min(max_person_verify_searches, max(0, max_jobs - len(gap_jobs)))
+
+    jobs: list[ExaJob] = []
     for d in discovery.drafts:
-        if len(jobs) >= max_jobs:
+        if len(jobs) >= verify_cap:
             break
         did = d.draft_id
         if not did or not _norm(d.full_name):
@@ -87,17 +128,10 @@ def plan_exa_jobs(
             )
         )
 
-    if "general manager" not in titles_blob and len(jobs) < max_jobs:
-        jobs.append(
-            ExaJob(
-                job_id=new_job_id(),
-                kind="missing_role",
-                query=f'"{primary}" "general manager"',
-                candidate_id=None,
-                category=None,
-                max_results=5,
-            )
-        )
+    for gj in gap_jobs:
+        if len(jobs) >= max_jobs:
+            break
+        jobs.append(gj)
 
     for d in discovery.drafts:
         if len(jobs) >= max_jobs:

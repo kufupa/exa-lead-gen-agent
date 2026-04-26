@@ -7,8 +7,10 @@ class PipelineConfig(BaseModel):
     """Runtime caps and feature flags (v4: Grok-led, capped Exa)."""
 
     max_candidates: int = Field(default=50, ge=1, le=200)
-    max_exa_searches: int = Field(default=12, ge=0, le=200)
+    max_exa_searches: int = Field(default=22, ge=0, le=200)
     max_exa_fetches: int = Field(default=8, ge=0, le=200)
+    max_people_gap_searches: int = Field(default=10, ge=0, le=20)
+    max_person_verify_searches: int = Field(default=10, ge=0, le=100)
     max_contact_route_exa_searches: int = Field(default=4, ge=0, le=12)
     max_source_chars_per_ref: int = Field(default=4000, ge=500, le=50_000)
     source_pack_max_candidates: int = Field(default=50, ge=5, le=200)

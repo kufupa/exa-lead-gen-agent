@@ -30,7 +30,7 @@ def run_exa_jobs(
         if searches >= max_searches:
             break
         t0 = time.perf_counter()
-        cat = job.category if job.kind == "profile_lookup" else None
+        cat = job.category if job.kind in ("profile_lookup", "people_gap") else None
         res = _search_with_optional_category(
             exa_client,
             job.query,

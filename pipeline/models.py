@@ -22,7 +22,7 @@ RoleConfidence = Literal["high", "medium", "low", "conflict"]
 RelationshipConfidence = Literal["high", "medium", "low", "reject"]
 OrgAliasKind = Literal["property", "brand", "management", "ownership", "domain", "historical"]
 AliasConfidence = Literal["high", "medium", "low"]
-ExaJobKind = Literal["person_verify", "missing_role", "contact_route", "profile_lookup"]
+ExaJobKind = Literal["person_verify", "missing_role", "contact_route", "profile_lookup", "people_gap"]
 ContactKind = Literal["email", "phone", "linkedin", "contact_form", "generic_email", "switchboard", "pattern", "unknown"]
 ContactConfidence = Literal["high", "medium", "low"]
 

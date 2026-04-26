@@ -395,6 +395,92 @@ def dedupe_candidates(candidates: Iterable[CandidateLead]) -> list[CandidateLead
     return list(by_key.values())
 
 
+def leads_from_people_gap_sources(
+    hotel: HotelOrg,
+    aliases: list[OrgAlias],
+    sources: list[SourceRef],
+) -> list[CandidateLead]:
+    """Build extra CandidateLead rows from Exa people-gap bucket (`_global`) without another Grok pass."""
+    if not sources:
+        return []
+    from pipeline.contact_mining import _dedupe_routes, _extract_routes_from_text
+
+    key = hotel_key_from_org(hotel)
+    out: list[CandidateLead] = []
+    seen_url: set[str] = set()
+
+    for ref in sources:
+        url = (ref.url or "").strip()
+        if not url or url in seen_url:
+            continue
+        seen_url.add(url)
+
+        blob = (ref.snippet or "") + "\n" + (ref.fetched_text or "")
+        routes = _extract_routes_from_text(blob, url)
+        lu = url.lower()
+
+        if "linkedin.com/in/" in lu:
+            cand = candidate_from_linkedin_source(ref, hotel)
+            if not cand:
+                continue
+            merged_routes = _dedupe_routes(list(cand.contact_routes) + routes)
+            draft = CandidateDraft(
+                full_name=cand.full_name,
+                title=cand.title,
+                company=cand.company,
+                evidence=[ref],
+                contact_routes=merged_routes,
+                linkedin_url=cand.linkedin_url,
+            )
+        elif routes:
+            name, title = parse_linkedin_result_title(ref.title)
+            if name == "Unknown":
+                continue
+            draft = CandidateDraft(
+                full_name=normalize_name(name),
+                title=title,
+                company=None,
+                evidence=[ref],
+                contact_routes=routes,
+                linkedin_url=None,
+            )
+        else:
+            continue
+
+        rel: RelationshipConfidence = relationship_confidence_for_draft(draft, hotel, aliases, [ref])
+        if rel == "reject":
+            continue
+
+        merged_ev = merge_evidence(list(draft.evidence), [])
+        rt = classify_role_tier(draft.title)
+        rf = classify_role_family(draft.title)
+        snippet_preview = (ref.snippet or "")[:400]
+        conf = infer_current_role_confidence_from_text(draft.title, snippet_preview)
+
+        cid = make_candidate_id(key, draft.full_name, draft.title)
+        out.append(
+            CandidateLead(
+                candidate_id=cid,
+                full_name=normalize_name(draft.full_name),
+                title=draft.title,
+                normalized_title=normalize_title(draft.title) or None,
+                company=draft.company,
+                role_tier=rt,
+                role_family=rf,
+                current_role_confidence=conf,
+                relationship_confidence=rel,
+                evidence=merged_ev,
+                contact_routes=_dedupe_routes(list(draft.contact_routes)),
+                linkedin_url=draft.linkedin_url,
+                needs_human_review=conf in ("low", "conflict") or rel == "low",
+                needs_contact_mining=rt in (1, 2, 3),
+                reason_kept="exa_people_gap",
+                notes=["exa_people_gap"],
+            )
+        )
+    return out
+
+
 def domain_from_url(url: str) -> str:
     p = urlparse(url if url.startswith("http") else "https://" + url)
     return (p.netloc or "").lower().lstrip("www.")
