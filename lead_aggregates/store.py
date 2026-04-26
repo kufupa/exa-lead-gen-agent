@@ -66,12 +66,11 @@ class AggregatesStore:
             return fn()
 
     def rebuild_all(self) -> None:
-        master = build_master_document(self.jsons_dir)
-        phone = build_phone_document(self.jsons_dir)
-        email = build_email_document(self.jsons_dir)
-        reg = registry_from_enriched_scan(self.jsons_dir)
-
         def write_all() -> None:
+            master = build_master_document(self.jsons_dir)
+            phone = build_phone_document(self.jsons_dir)
+            email = build_email_document(self.jsons_dir)
+            reg = registry_from_enriched_scan(self.jsons_dir)
             atomic_write_json(self._path(ALL_ENRICHED), master)
             atomic_write_json(self._path(INTIMATE_PHONE), phone)
             atomic_write_json(self._path(INTIMATE_EMAIL), email)
@@ -85,7 +84,10 @@ class AggregatesStore:
         canonical_url: str,
         research_json: str,
         enriched_json: str,
+        run_claim: str | None = None,
     ) -> None:
+        claim = run_claim if run_claim is not None else f"pid:{os.getpid()}"
+
         def op() -> None:
             reg = _read_json(self._path(REGISTRY)) or empty_registry()
             reg = apply_patch(
@@ -95,7 +97,7 @@ class AggregatesStore:
                     "status": "researching",
                     "research_json": research_json,
                     "enriched_json": enriched_json,
-                    "claimed_by": f"pid:{os.getpid()}",
+                    "claimed_by": claim,
                     "last_started_at_utc": _now_iso(),
                     "error": None,
                 },
@@ -111,11 +113,22 @@ class AggregatesStore:
         research_json: str,
         enriched_json: str,
         error: str | None,
-    ) -> None:
+        run_claim: str | None = None,
+    ) -> bool:
+        """Rebuild aggregates under lock; patch registry if run_claim matches (CAS). Returns True if registry updated."""
+
+        def _entry_claim_ok(reg: dict[str, Any]) -> bool:
+            if run_claim is None:
+                return True
+            entry = (reg.get("urls") or {}).get(canonical_url) or {}
+            return entry.get("claimed_by") == run_claim
+
         if error:
 
-            def fail() -> None:
+            def fail() -> bool:
                 reg = _read_json(self._path(REGISTRY)) or empty_registry()
+                if not _entry_claim_ok(reg):
+                    return False
                 reg = apply_patch(
                     reg,
                     canonical_url,
@@ -128,19 +141,20 @@ class AggregatesStore:
                     },
                 )
                 atomic_write_json(self._path(REGISTRY), reg)
+                return True
 
-            self.run_locked(fail)
-            return
+            return self.run_locked(fail)
 
-        master = build_master_document(self.jsons_dir)
-        phone = build_phone_document(self.jsons_dir)
-        email = build_email_document(self.jsons_dir)
-
-        def success() -> None:
+        def success() -> bool:
+            master = build_master_document(self.jsons_dir)
+            phone = build_phone_document(self.jsons_dir)
+            email = build_email_document(self.jsons_dir)
             atomic_write_json(self._path(ALL_ENRICHED), master)
             atomic_write_json(self._path(INTIMATE_PHONE), phone)
             atomic_write_json(self._path(INTIMATE_EMAIL), email)
             reg = _read_json(self._path(REGISTRY)) or empty_registry()
+            if not _entry_claim_ok(reg):
+                return False
             reg = apply_patch(
                 reg,
                 canonical_url,
@@ -153,8 +167,9 @@ class AggregatesStore:
                 },
             )
             atomic_write_json(self._path(REGISTRY), reg)
+            return True
 
-        self.run_locked(success)
+        return self.run_locked(success)
 
     def enriched_entry_file_exists(self, canonical_url: str) -> bool:
         """True if registry says enriched and enriched JSON path exists (repo-relative paths)."""
@@ -170,17 +185,15 @@ class AggregatesStore:
         return self._repo_root_relative(ej, self.jsons_dir).is_file()
 
     def rebuild_phone_document_only(self) -> None:
-        doc = build_phone_document(self.jsons_dir)
-
         def w() -> None:
+            doc = build_phone_document(self.jsons_dir)
             atomic_write_json(self._path(INTIMATE_PHONE), doc)
 
         self.run_locked(w)
 
     def rebuild_email_document_only(self) -> None:
-        doc = build_email_document(self.jsons_dir)
-
         def w() -> None:
+            doc = build_email_document(self.jsons_dir)
             atomic_write_json(self._path(INTIMATE_EMAIL), doc)
 
         self.run_locked(w)

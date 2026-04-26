@@ -1,12 +1,12 @@
 from __future__ import annotations
 
 import json
-from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
 from hotel_decision_maker_research import is_generic_functional_email
+from pipeline_metrics import count_xai_tools
 
 
 def source_repo_rel(path: Path, jsons_dir: Path) -> str:
@@ -65,11 +65,13 @@ def score_for_pick_email(c: dict[str, Any]) -> tuple[int, int]:
 def compact_usage(u: dict[str, Any] | None) -> dict[str, Any] | None:
     if not u:
         return None
-    out: dict[str, Any] = {k: v for k, v in u.items() if k != "server_side_tools_used"}
-    tools = u.get("server_side_tools_used")
-    if isinstance(tools, list):
-        out["server_side_tool_invocations"] = len(tools)
-        out["server_side_tools_breakdown"] = dict(Counter(tools))
+    out: dict[str, Any] = {
+        k: v for k, v in u.items() if k not in ("server_side_tools_used", "server_side_tool_usage")
+    }
+    tools_map = count_xai_tools(u)
+    if tools_map:
+        out["server_side_tool_invocations"] = sum(tools_map.values())
+        out["server_side_tools_breakdown"] = dict(tools_map)
     return out
 
 
@@ -89,6 +91,7 @@ def phase1_run_meta(data: dict[str, Any], source_name: str) -> dict[str, Any]:
         "strict_evidence": data.get("strict_evidence"),
         "allow_linkedin": data.get("allow_linkedin"),
         "usage_summary": compact_usage(data.get("usage") if isinstance(data.get("usage"), dict) else None),
+        "cost_estimate": data.get("cost_estimate") if isinstance(data.get("cost_estimate"), dict) else None,
     }
 
 
@@ -97,9 +100,13 @@ def contact_enrichment_meta(data: dict[str, Any]) -> dict[str, Any] | None:
     if not isinstance(ce, dict):
         return None
     return {
+        "version": ce.get("version"),
         "enriched_at_utc": ce.get("enriched_at_utc"),
         "mode": ce.get("mode"),
         "model": ce.get("model"),
+        "concurrency": ce.get("concurrency"),
+        "batch_id": ce.get("batch_id"),
+        "xai_batch_token_multiplier": ce.get("xai_batch_token_multiplier"),
         "skipped_pre_enrichment": ce.get("skipped_pre_enrichment"),
         "attempted": ce.get("attempted"),
         "succeeded": ce.get("succeeded"),
