@@ -10,8 +10,19 @@ npx @open-gitagent/gitagent run -r https://github.com/shreyas-lyzr/exa-lead-gen-
 
 ## Hotel leads (xAI)
 
-1. **Research** — `hotel_decision_maker_research.py` writes JSON under **`jsons/`** and appends CSV under **`csv/`** by default (needs `XAI_API_KEY`).
-2. **Contact enrichment** — `hotel_contact_enrichment.py` re-reads that JSON, runs `grok-4.20-reasoning` with web + X search per contact (skips rows that already score high on direct channels), merges email/phone/X/LinkedIn back in.
+**Current (v4):** Grok-led pipeline + capped Exa — outputs under `outputs/pipeline/`.
+
+```bash
+pip install -r requirements.txt
+export XAI_API_KEY=...
+export EXA_API_KEY=...
+python -m pipeline run https://example-hotel.com/
+```
+
+**Legacy (archived under [`legacy/`](legacy/README.md)):** root shims keep old commands working; implementation files live in `legacy/`.
+
+1. **Research** — `hotel_decision_maker_research.py` (shim → `legacy/hotel_decision_maker_research.py`) writes JSON under **`jsons/`** and appends CSV under **`csv/`** by default (needs `XAI_API_KEY`).
+2. **Contact enrichment** — `hotel_contact_enrichment.py` (shim → `legacy/hotel_contact_enrichment.py`) re-reads that JSON, runs `grok-4.20-reasoning` with web + X search per contact (skips rows that already score high on direct channels), merges email/phone/X/LinkedIn back in.
 
 ```bash
 pip install -r requirements.txt
@@ -78,6 +89,23 @@ claude mcp add --transport http exa "https://mcp.exa.ai/mcp?exaApiKey=YOUR_EXA_A
 "Find 200 companies that would buy our developer tools product"
 "Build a prospect list of Series A-C SaaS companies using AI for customer support"
 ```
+
+## URL Review UI
+
+Use this when you want to approve/reject hotel websites from a CSV before running outreach.
+
+```bash
+pip install -r requirements.txt
+python scripts/url_review_server.py --csv csv/Lobby_London_hotels_2026-04-17.csv
+```
+
+- Opens `http://127.0.0.1:8765`.
+- Shows each candidate once per domain (www + apex deduped).
+- Hides:
+  - domains already present in `fullJSONs/url_registry.json` / `fullJSONs/all_enriched_leads.json`, and
+  - domains already in `yes.txt` or `no.txt` at startup.
+- Clicking **No** (left) or **Yes** (right) appends a normalized domain to `no.txt`/`yes.txt`.
+- Files are append-only and can be directly copy-pasted into next pipeline runs.
 
 ## Structure
 

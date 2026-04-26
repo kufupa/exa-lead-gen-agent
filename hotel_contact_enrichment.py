@@ -1,9 +1,18 @@
 #!/usr/bin/env python3
-"""Shim: `python hotel_contact_enrichment.py` → `contact_enrichment.__main__`."""
+"""Compatibility shim — implementation lives in `legacy/hotel_contact_enrichment.py`."""
 
 from __future__ import annotations
 
-from contact_enrichment.__main__ import main
+import runpy
+import sys
+from pathlib import Path
+
+_LEGACY = Path(__file__).resolve().parent / "legacy" / "hotel_contact_enrichment.py"
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    sys.argv[0] = str(_LEGACY)
+    runpy.run_path(str(_LEGACY), run_name="__main__")
+else:
+    from legacy.hotel_contact_enrichment import main
+
+    __all__ = ["main"]

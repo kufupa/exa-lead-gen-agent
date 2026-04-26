@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 from types import SimpleNamespace
 
-import hotel_batch_pipeline as pipeline
+import legacy.hotel_batch_pipeline as pipeline
 
 
 def test_main_returns_nonzero_when_any_url_fails(tmp_path: Path, monkeypatch) -> None:
