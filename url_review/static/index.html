@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel URL Review</title>
+    <style>
+      :root {
+        --bg: #0a0a0a;
+        --fg: #e5e5e5;
+        --panel: #131313;
+        --muted: #999;
+        --yes: #14532d;
+        --no: #7f1d1d;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        background: var(--bg);
+        color: var(--fg);
+      }
+
+      header {
+        padding: 14px 18px;
+        display: flex;
+        gap: 12px;
+        align-items: baseline;
+        border-bottom: 1px solid #222;
+        position: sticky;
+        top: 0;
+        background: #070707;
+        z-index: 1;
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: 1.1rem;
+        margin-right: auto;
+      }
+
+      .pill {
+        background: var(--panel);
+        border: 1px solid #222;
+        padding: 8px 10px;
+        border-radius: 10px;
+      }
+
+      main {
+        padding: 12px;
+      }
+
+      .panel {
+        margin-bottom: 12px;
+        background: var(--panel);
+        border: 1px solid #1d1d1d;
+        padding: 10px;
+        border-radius: 12px;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 90px;
+        margin-top: 8px;
+        background: #0b0b0b;
+        color: var(--fg);
+        border: 1px solid #222;
+        border-radius: 8px;
+        padding: 8px;
+        resize: vertical;
+      }
+
+      .card-panel {
+        display: grid;
+        place-items: center;
+        gap: 12px;
+      }
+
+      .action-group {
+        display: flex;
+        width: min(800px, 100%);
+        justify-content: center;
+        gap: 16px;
+      }
+
+      .action-wrap {
+        width: min(800px, 100%);
+        display: grid;
+        gap: 10px;
+      }
+
+      .card {
+        width: min(800px, 100%);
+        min-height: 360px;
+        background: #0f0f0f;
+        border: 1px solid #272727;
+        border-radius: 12px;
+        padding: 14px;
+      }
+
+      .card dl {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 12px 16px;
+        margin: 0;
+      }
+
+      .card dt {
+        color: #8f8f8f;
+      }
+
+      .card dd {
+        margin: 0;
+        word-break: break-word;
+      }
+
+      .action-zone {
+        width: min(800px, 100%);
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+      }
+
+      button {
+        border: 0;
+        padding: 8px 12px;
+        color: #fff;
+        border-radius: 999px;
+        cursor: pointer;
+      }
+
+      .btn-no {
+        background: var(--no);
+      }
+
+      .btn-yes {
+        background: var(--yes);
+      }
+
+      .small {
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      .muted-btn {
+        margin-left: 8px;
+        padding: 6px 10px;
+        background: #2a2a2a;
+      }
+
+      a {
+        color: #93c5fd;
+        text-decoration: underline;
+      }
+
+      #emptyState {
+        min-height: 360px;
+        width: min(800px, 100%);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #272727;
+        border-radius: 12px;
+        background: #0f0f0f;
+      }
+
+      .tinder-btn {
+        min-width: 140px;
+      }
+
+      .undo-btn {
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="title">Hotel URL Review</div>
+      <div class="pill" id="remainingBox">Remaining: 0</div>
+      <div class="pill" id="positionBox">Card: 0 / 0</div>
+      <div class="pill">Yes: <span id="yesCount">0</span></div>
+    </header>
+    <main>
+      <section class="panel">
+        <div>
+          <strong>Approved domains</strong>
+          <button class="muted-btn" id="copyBtn" type="button">Copy</button>
+        </div>
+        <textarea id="yesList" readonly placeholder="Approved domains will appear here as you click Yes."></textarea>
+      </section>
+      <section class="panel card-panel">
+        <div id="emptyState" class="small">
+          Loading candidates...
+        </div>
+        <div class="card" id="rowCard"></div>
+        <div class="action-wrap">
+          <div class="action-group">
+          <button id="noBtn" class="btn-no tinder-btn" type="button">No</button>
+          <button id="yesBtn" class="btn-yes tinder-btn" type="button">Yes</button>
+          </div>
+          <button id="undoBtn" class="muted-btn undo-btn" type="button">Undo last</button>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        columns: [],
+        rows: [],
+        history: [],
+        totalRows: 0,
+        yesDomains: new Set(),
+      };
+
+      function cellValue(value) {
+        if (value === null || value === undefined) return "";
+        if (typeof value === "string") {
+          return value;
+        }
+        return JSON.stringify(value);
+      }
+
+      function hasHttpPrefix(v) {
+        return typeof v === "string" && /^https?:\/\//i.test(v.trim());
+      }
+
+      function currentDomain(row) {
+        if (!row) return "";
+        return String(row.domain || "").trim();
+      }
+
+      function renderCurrent() {
+        const card = document.getElementById("rowCard");
+        const emptyState = document.getElementById("emptyState");
+        const noBtn = document.getElementById("noBtn");
+        const yesBtn = document.getElementById("yesBtn");
+
+        if (!state.rows.length) {
+          card.style.display = "none";
+          emptyState.style.display = "grid";
+          emptyState.textContent = "No more hotel rows to review";
+          noBtn.disabled = true;
+          yesBtn.disabled = true;
+          updateCounts();
+          return;
+        }
+
+        const row = state.rows[0];
+        card.style.display = "block";
+        emptyState.style.display = "none";
+        noBtn.disabled = false;
+        yesBtn.disabled = false;
+
+        card.innerHTML = "";
+        const title = document.createElement("h2");
+        title.textContent = row.company_name || "Untitled";
+        title.style.margin = "0 0 12px 0";
+        title.style.fontSize = "1.1rem";
+        card.appendChild(title);
+
+        const list = document.createElement("dl");
+        for (const col of state.columns) {
+          const dt = document.createElement("dt");
+          dt.textContent = col;
+          const dd = document.createElement("dd");
+
+          const raw = row[col];
+          if (col === "website" && typeof raw === "string" && raw.trim()) {
+            const href = hasHttpPrefix(raw) ? raw.trim() : `https://${raw.trim()}`;
+            const link = document.createElement("a");
+            link.href = href;
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = raw.trim();
+            dd.appendChild(link);
+          } else {
+            dd.textContent = cellValue(raw);
+          }
+
+          list.appendChild(dt);
+          list.appendChild(dd);
+        }
+        card.appendChild(list);
+        updateCounts();
+      }
+
+      function updateCounts() {
+        document.getElementById("remainingBox").textContent = `Remaining: ${state.rows.length}`;
+        document.getElementById("yesCount").textContent = String(state.yesDomains.size);
+        document.getElementById("undoBtn").disabled = state.history.length === 0;
+        const currentCard = state.totalRows === 0 ? 0 : state.totalRows - state.rows.length + 1;
+        const boundedCurrentCard = currentCard > state.totalRows ? state.totalRows : currentCard;
+        document.getElementById("positionBox").textContent =
+          `Card: ${boundedCurrentCard} / ${state.totalRows}`;
+      }
+
+      function updateYesList() {
+        const sorted = Array.from(state.yesDomains).sort();
+        document.getElementById("yesList").value = sorted.join("\n");
+      }
+
+      async function decide(decision) {
+        if (!state.rows.length) return;
+        const row = state.rows[0];
+        const domain = currentDomain(row);
+        if (!domain) return;
+        const resp = await fetch("/api/decision", {
+          method: "POST",
+          headers: { "Content-Type": "application/json; charset=utf-8" },
+          body: JSON.stringify({ domain, decision }),
+        });
+        if (!resp.ok) {
+          const txt = await resp.text();
+          alert(`Decision failed: ${txt}`);
+          return;
+        }
+        const result = await resp.json();
+        if (result.already_recorded) {
+          state.rows.shift();
+          renderCurrent();
+          return;
+        }
+        state.history.push({ domain, decision, row });
+        if (decision === "yes") {
+          state.yesDomains.add(domain);
+          updateYesList();
+        }
+        state.rows.shift();
+        renderCurrent();
+      }
+
+      async function loadCandidates() {
+        const resp = await fetch("/api/candidates");
+        if (!resp.ok) {
+          alert("Could not load candidates");
+          return;
+        }
+        const payload = await resp.json();
+        state.columns = payload.columns || [];
+        state.rows = payload.rows || [];
+        state.rows = state.rows.filter((row) => row && row.domain);
+        state.totalRows = state.rows.length;
+        renderCurrent();
+      }
+
+      document.getElementById("copyBtn").addEventListener("click", async () => {
+        const text = document.getElementById("yesList").value;
+        try {
+          await navigator.clipboard.writeText(text);
+        } catch (e) {
+          // noop fallback
+          const ta = document.getElementById("yesList");
+          ta.select();
+          document.execCommand("copy");
+        }
+      });
+
+      window.addEventListener("keydown", (event) => {
+        const key = event.key.toLowerCase();
+        if (key === "y") {
+          decide("yes");
+        } else if (key === "n") {
+          decide("no");
+        } else if (key === "u") {
+          undo();
+        }
+      });
+
+      document.getElementById("yesBtn").addEventListener("click", () => decide("yes"));
+      document.getElementById("noBtn").addEventListener("click", () => decide("no"));
+      document.getElementById("undoBtn").addEventListener("click", () => undo());
+
+      async function undo() {
+        const resp = await fetch("/api/undo", {
+          method: "POST",
+          headers: { "Content-Type": "application/json; charset=utf-8" },
+          body: "{}",
+        });
+        if (!resp.ok) {
+          const txt = await resp.text();
+          alert(`Undo failed: ${txt}`);
+          return;
+        }
+        const payload = await resp.json();
+        if (!payload.row) {
+          alert("Nothing to undo");
+          return;
+        }
+        if (payload.decision === "yes") {
+          state.yesDomains.delete(payload.domain);
+          updateYesList();
+        }
+        state.rows.unshift(payload.row);
+        state.history.pop();
+        renderCurrent();
+      }
+
+      loadCandidates();
+    </script>
+  </body>
+</html>
