@@ -24,6 +24,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Literal
 from urllib.parse import urlparse
+from pipeline_metrics import XaiRates, estimate_xai_cost, merge_xai_usage_dicts
 
 from pydantic import BaseModel, Field
 
@@ -280,6 +281,17 @@ def build_parser() -> argparse.ArgumentParser:
         help="Maximum contacts to return; allowed range 10–50 (default: 50)",
     )
     p.add_argument(
+        "--min-output-contacts",
+        type=int,
+        default=None,
+        help="Hard output minimum after filtering/processing (defaults to --min-contacts).",
+    )
+    p.add_argument(
+        "--retry-low-count",
+        action="store_true",
+        help="Run focused enrichment pass when output count is below --min-output-contacts.",
+    )
+    p.add_argument(
         "--extra-contact-pass",
         action="store_true",
         help="Fourth model pass focused on phone/email/X enrichment for listed people",
@@ -301,6 +313,30 @@ def build_parser() -> argparse.ArgumentParser:
         "--strict-evidence",
         action="store_true",
         help="Drop contacts without 2+ evidence items unless direct email/phone present",
+    )
+    p.add_argument(
+        "--xai-input-usd-per-mtok",
+        type=float,
+        default=2.0,
+        help="xAI prompt token cost per 1M tokens",
+    )
+    p.add_argument(
+        "--xai-output-usd-per-mtok",
+        type=float,
+        default=6.0,
+        help="xAI output+reasoning token cost per 1M tokens",
+    )
+    p.add_argument(
+        "--xai-cached-input-usd-per-mtok",
+        type=float,
+        default=0.20,
+        help="xAI cached prompt token cost per 1M tokens",
+    )
+    p.add_argument(
+        "--xai-tool-usd-per-1k",
+        type=float,
+        default=5.0,
+        help="xAI web/x-search tool cost per 1k invocations",
     )
     p.add_argument(
         "--allow-linkedin",
@@ -350,6 +386,30 @@ def normalize_contact_bounds(args: argparse.Namespace) -> None:
         )
         tc = args.max_contacts
     args.target_contacts = tc
+
+    if args.min_output_contacts is None:
+        args.min_output_contacts = args.min_contacts
+    if args.min_output_contacts < 1:
+        print("Warning: --min-output-contacts < 1; clamped to 1.", file=sys.stderr)
+        args.min_output_contacts = 1
+    if args.min_output_contacts > args.max_contacts:
+        print(
+            f"Warning: --min-output-contacts {args.min_output_contacts} > --max-contacts {args.max_contacts}; "
+            f"clamped to max.",
+            file=sys.stderr,
+        )
+        args.min_output_contacts = args.max_contacts
+
+    for name, attr in (
+        ("--xai-input-usd-per-mtok", "xai_input_usd_per_mtok"),
+        ("--xai-output-usd-per-mtok", "xai_output_usd_per_mtok"),
+        ("--xai-cached-input-usd-per-mtok", "xai_cached_input_usd_per_mtok"),
+        ("--xai-tool-usd-per-1k", "xai_tool_usd_per_1k"),
+    ):
+        v = float(getattr(args, attr))
+        if v < 0:
+            print(f"Warning: {name} negative; clamped to 0.", file=sys.stderr)
+            setattr(args, attr, 0.0)
 
 
 def build_round1_prompt(url: str, min_contacts: int, target_contacts: int, max_contacts: int) -> str:
@@ -633,7 +693,7 @@ def usage_to_dict(usage: Any) -> dict[str, Any]:
     return out or {"repr": repr(usage)}
 
 
-def _run_research(args: argparse.Namespace) -> tuple[LeadResearchResult, dict[str, Any]]:
+def _run_research(args: argparse.Namespace, *, force_extra_pass: bool = False) -> tuple[LeadResearchResult, dict[str, Any]]:
     from xai_sdk import Client
     from xai_sdk.chat import user
     from xai_sdk.tools import web_search, x_search
@@ -680,7 +740,7 @@ def _run_research(args: argparse.Namespace) -> tuple[LeadResearchResult, dict[st
     )
     final = chat.sample()
 
-    if getattr(args, "extra_contact_pass", False):
+    if getattr(args, "extra_contact_pass", False) or force_extra_pass:
         chat.append(
             user(
                 build_round4_contact_blitz_message(
@@ -744,8 +804,8 @@ def main(argv: list[str] | None = None) -> int:
         print(f"out_json: {out_json}")
         print(f"out_csv:  {csv_path or '(disabled)'}")
         print(
-            f"contacts: min={args.min_contacts} target={args.target_contacts} max={args.max_contacts} "
-            f"extra_contact_pass={args.extra_contact_pass}"
+            f"contacts: min={args.min_contacts} min_output={args.min_output_contacts} target={args.target_contacts} max={args.max_contacts} "
+            f"extra_contact_pass={args.extra_contact_pass} retry_low_count={args.retry_low_count}"
         )
         return 0
 
@@ -755,12 +815,49 @@ def main(argv: list[str] | None = None) -> int:
     started = datetime.now(timezone.utc)
     generated_iso = started.isoformat()
     result, usage = _run_research(args)
+    pre_filter_count = len(result.contacts)
     processed = process_contacts(
         result.contacts,
         max_contacts=args.max_contacts,
         strict_evidence=args.strict_evidence,
         allow_linkedin=args.allow_linkedin,
     )
+
+    usage_attempts: list[dict[str, Any]] = [usage]
+
+    low_count_reason = None
+    min_out = int(args.min_output_contacts or args.min_contacts)
+    if len(processed) < min_out:
+        if args.retry_low_count:
+            retry_result, retry_usage = _run_research(args, force_extra_pass=True)
+            usage_attempts.append(retry_usage)
+            retry_contacts = process_contacts(
+                retry_result.contacts,
+                max_contacts=args.max_contacts,
+                strict_evidence=args.strict_evidence,
+                allow_linkedin=args.allow_linkedin,
+            )
+            if len(retry_contacts) > len(processed):
+                result = retry_result
+                pre_filter_count = len(retry_result.contacts)
+                processed = retry_contacts
+            if len(processed) < min_out:
+                low_count_reason = "retry_still_below_min"
+            else:
+                low_count_reason = "retry_recovered"
+        else:
+            low_count_reason = "below_min_no_retry"
+
+    rates = XaiRates(
+        input_usd_per_mtok=args.xai_input_usd_per_mtok,
+        output_usd_per_mtok=args.xai_output_usd_per_mtok,
+        cached_input_usd_per_mtok=args.xai_cached_input_usd_per_mtok,
+        xai_web_search_usd_per_1k=args.xai_tool_usd_per_1k,
+        xai_x_search_usd_per_1k=args.xai_tool_usd_per_1k,
+    )
+    merged_usage = merge_xai_usage_dicts(*usage_attempts)
+    cost = estimate_xai_cost(merged_usage, rates=rates)
+    cost_by_attempt = [estimate_xai_cost(u, rates=rates) for u in usage_attempts]
 
     effective_max_turns = max(args.max_turns, 20) if args.max_contacts >= 30 else args.max_turns
     payload: dict[str, Any] = {
@@ -771,15 +868,27 @@ def main(argv: list[str] | None = None) -> int:
         "max_turns": args.max_turns,
         "max_turns_effective": effective_max_turns,
         "min_contacts": args.min_contacts,
+        "min_output_contacts": args.min_output_contacts,
         "target_contacts": args.target_contacts,
         "max_contacts": args.max_contacts,
         "extra_contact_pass": args.extra_contact_pass,
         "strict_evidence": args.strict_evidence,
         "allow_linkedin": args.allow_linkedin,
-        "usage": usage,
+        "retry_low_count": args.retry_low_count,
+        "pre_filter_count": pre_filter_count,
+        "post_filter_count": len(processed),
+        "low_count_reason": low_count_reason,
+        "research_attempts": len(usage_attempts),
+        "usage": merged_usage,
+        "usage_by_attempt": usage_attempts,
+        "usage_summary": {
+            "xai_tools": cost["counts"].get("server_side_tool_usage", {}),
+            "xai_tool_invocations": cost["counts"].get("server_side_tool_invocations", 0),
+        },
+        "cost_estimate": cost,
+        "cost_by_attempt": cost_by_attempt,
         "contacts": [c.model_dump() for c in processed],
     }
-
     Path(out_json).parent.mkdir(parents=True, exist_ok=True)
     with open(out_json, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
