@@ -38,7 +38,7 @@ templates.env.filters["crm_url"] = lambda value: quote_plus((value or ""), safe=
 ALLOWED_STATUS = {"pending", "done", "skipped"}
 
 
-def _pick_selected(groups: list, selected: str | None) -> str | None:
+def _pick_selected(groups: list, selected: str | None, phones_only: bool = False) -> str | None:
     if not groups:
         return None
     if selected:
@@ -48,7 +48,7 @@ def _pick_selected(groups: list, selected: str | None) -> str | None:
                     return selected
     for group in groups:
         for contact in group.contacts:
-            if contact.status == "pending" and contact.has_contact_route:
+            if contact.status == "pending" and (contact.has_phone if phones_only else contact.has_contact_route):
                 return contact.occurrence_id
     return groups[0].contacts[0].occurrence_id if groups[0].contacts else None
 
@@ -161,16 +161,16 @@ async def health(check_db: bool = False):
 @app.get("/crm", response_class=HTMLResponse)
 async def crm_list(
     request: Request,
-    phones_only: bool = Query(default=False),
+    phones_only: bool = Query(default=True),
     selected: Optional[str] = Query(default=None),
     _user: str = Depends(require_user),
 ) -> HTMLResponse:
     try:
         with open_connection(load_settings()) as conn:
             contacts = fetch_contacts(conn, phones_only=phones_only)
-        groups = build_groups(contacts)
+        groups = build_groups(contacts, phones_only=phones_only)
         summary = build_summary(contacts)
-        selected_id = _pick_selected(groups, selected)
+        selected_id = _pick_selected(groups, selected, phones_only=phones_only)
         selected_contact = None
         if selected_id:
             with open_connection(load_settings()) as conn:
@@ -224,7 +224,7 @@ async def set_status(
     request: Request,
     id: str = Form(...),
     status: str = Form(...),
-    phones_only: bool = Form(False),
+    phones_only: bool = Form(True),
     _user: str = Depends(require_user),
 ) -> HTMLResponse:
     if status not in ALLOWED_STATUS:
@@ -247,13 +247,13 @@ async def set_status(
         with open_connection(load_settings()) as conn:
             updated = update_status(conn, id, status)
             contacts = fetch_contacts(conn, phones_only=phones_only)
-        groups = build_groups(contacts)
+        groups = build_groups(contacts, phones_only=phones_only)
         summary = build_summary(contacts)
         selected_id = id
         if updated and updated.status != "pending":
-            selected_id = find_next_contact_id(contacts, id)
+            selected_id = find_next_contact_id(contacts, id, phones_only=phones_only)
         if not selected_id:
-            selected_id = _pick_selected(groups, None)
+            selected_id = _pick_selected(groups, None, phones_only=phones_only)
 
         selected = None
         if selected_id:

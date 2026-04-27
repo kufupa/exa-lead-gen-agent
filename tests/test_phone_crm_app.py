@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import replace
 from contextlib import contextmanager
 
 from fastapi.testclient import TestClient
@@ -9,6 +10,7 @@ from phone_crm.app import app
 from phone_crm.auth import require_user
 from phone_crm.config import Settings
 from phone_crm.models import ContactRow, CrmSummary
+from phone_crm import queries as crm_queries
 import phone_crm.app as crm_app
 
 
@@ -84,6 +86,25 @@ def test_crm_route_renders_html(monkeypatch) -> None:
     assert response.status_code == 200
     assert "text/html" in response.headers["content-type"]
     assert contact.full_name in response.text
+    assert 'phones_only":"true"' in response.text
+
+
+def test_crm_route_defaults_to_phones_only(monkeypatch) -> None:
+    contact = _sample_contact()
+    fetch_calls: list[bool] = []
+
+    def fake_fetch_contacts(_conn, phones_only: bool) -> list[ContactRow]:
+        fetch_calls.append(phones_only)
+        return [contact]
+
+    _setup_mocks(monkeypatch)
+    monkeypatch.setattr(crm_app, "fetch_contacts", fake_fetch_contacts)
+    client = TestClient(app)
+    response = client.get("/crm")
+    _teardown_mocks()
+    assert response.status_code == 200
+    assert fetch_calls == [True]
+    assert contact.full_name in response.text
 
 
 def test_contact_route_renders_html(monkeypatch) -> None:
@@ -94,6 +115,45 @@ def test_contact_route_renders_html(monkeypatch) -> None:
     assert response.status_code == 200
     assert "text/html" in response.headers["content-type"]
     assert contact.full_name in response.text
+
+
+def test_status_route_defaults_to_phones_only(monkeypatch) -> None:
+    contact = _setup_mocks(monkeypatch)
+    fetch_calls: list[bool] = []
+    build_groups_calls: list[bool] = []
+    find_next_calls: list[tuple[str, bool]] = []
+
+    def fake_update_status(_conn, _occurrence_id: str, status: str) -> ContactRow:
+        return replace(contact, status=status)
+
+    def fake_fetch_contacts(_conn, phones_only: bool) -> list[ContactRow]:
+        fetch_calls.append(phones_only)
+        return [replace(contact, status="pending")]
+
+    def fake_build_groups(rows: list[ContactRow], phones_only: bool = False):
+        build_groups_calls.append(phones_only)
+        return crm_queries.build_groups(rows, phones_only=phones_only)
+
+    def fake_find_next_contact_id(rows: list[ContactRow], current_id: str | None, phones_only: bool = False):
+        find_next_calls.append((current_id, phones_only))
+        return crm_queries.find_next_contact_id(rows, current_id, phones_only=phones_only)
+
+    monkeypatch.setattr(crm_app, "update_status", fake_update_status)
+    monkeypatch.setattr(crm_app, "fetch_contacts", fake_fetch_contacts)
+    monkeypatch.setattr(crm_app, "build_groups", fake_build_groups)
+    monkeypatch.setattr(crm_app, "find_next_contact_id", fake_find_next_contact_id)
+
+    client = TestClient(app)
+    response = client.post(
+        "/contact/status",
+        data={"id": contact.occurrence_id, "status": "done"},
+    )
+    _teardown_mocks()
+    assert response.status_code == 200
+    assert "text/html" in response.headers["content-type"]
+    assert fetch_calls == [True]
+    assert build_groups_calls == [True]
+    assert find_next_calls == [(contact.occurrence_id, True)]
 
 
 def test_render_main_error_template_response_works() -> None:
