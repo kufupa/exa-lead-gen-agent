@@ -244,17 +244,14 @@ async def save_notes(
         if not selected_contact and selected_id:
             with open_connection(load_settings()) as conn:
                 selected_contact = fetch_contact(conn, selected_id)
-        return _render_main(
+        return _render_contact_detail(
             request,
-            groups,
-            summary,
-            phones_only,
-            selected_id,
             selected_contact,
+            phones_only=phones_only,
         )
     except Exception as error:
         logger.exception("Failed saving contact notes")
-        return _render_main_error(request, phones_only, _error_message(error))
+        return _render_contact_error(request, _error_message(error), phones_only=phones_only)
 
 
 @app.post("/contact/status", response_class=HTMLResponse)
