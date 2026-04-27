@@ -19,7 +19,7 @@
         class="notes-form"
         hx-post="/contact/notes"
         hx-target=".crm-right"
-        hx-swap="outerHTML"
+        hx-swap="innerHTML"
         method="post"
       >
         <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
@@ -198,6 +198,13 @@
             value="{{ 'true' if phones_only else 'false' }}"
           />
           <input type="hidden" name="status" value="pending" />
+          <input
+            type="hidden"
+            name="notes_mirror"
+            value="{{ contact_display.notes | default('', true) }}"
+            class="notes-mirror"
+            data-notes-mirror
+          />
           <button type="submit" class="btn btn-secondary">Undo review</button>
         </form>
       {% elif contact.status == "skipped" %}
@@ -215,6 +222,13 @@
             value="{{ 'true' if phones_only else 'false' }}"
           />
           <input type="hidden" name="status" value="pending" />
+          <input
+            type="hidden"
+            name="notes_mirror"
+            value="{{ contact_display.notes | default('', true) }}"
+            class="notes-mirror"
+            data-notes-mirror
+          />
           <button type="submit" class="btn btn-secondary">Undo skip</button>
         </form>
       {% endif %}
