@@ -1,17 +1,62 @@
 <main id="crm-main" class="crm-shell">
   <div class="app-header">
-    <button
-      class="ghost-btn phone-filter-btn {% if phones_only %}active{% endif %}"
-      hx-get="/crm?phones_only={{ 'false' if phones_only else 'true' }}{% if selected_id %}&selected={{ selected_id | crm_url }}{% endif %}"
-      hx-target="#crm-main"
-      hx-swap="outerHTML"
-    >
-      Phones only
-    </button>
-    <div class="pill">All: {{ summary.total }}</div>
-    <div class="pill">Pending: {{ summary.pending }}</div>
-    <div class="pill">Done: {{ summary.done }}</div>
-    <div class="pill">Skipped: {{ summary.skipped }}</div>
+    <div class="header-left">
+      <button
+        class="ghost-btn phone-filter-btn {% if phones_only %}active{% endif %}"
+        hx-get="/crm?phones_only={{ 'false' if phones_only else 'true' }}{% if selected_id %}&selected={{ selected_id | crm_url }}{% endif %}"
+        hx-target="#crm-main"
+        hx-swap="outerHTML"
+      >
+        Phones only
+      </button>
+      <div class="pill">All: {{ summary.total }}</div>
+      <div class="pill">Pending: {{ summary.pending }}</div>
+      <div class="pill">Done: {{ summary.done }}</div>
+      <div class="pill">Skipped: {{ summary.skipped }}</div>
+    </div>
+    <div class="header-right">
+      {% if selected %}
+      <div class="header-selected">
+        <span class="header-selected-name">{{ selected.full_name }}</span>
+        <span class="header-selected-title">{{ selected.title or "No title" }}</span>
+      </div>
+      <div class="header-actions">
+        {% if selected.status == "pending" %}
+        <button
+          type="button"
+          class="ghost-btn mark-btn-done"
+          hx-post="/contact/status"
+          hx-target="#crm-main"
+          hx-swap="outerHTML"
+          hx-vals='{"id":"{{ selected.occurrence_id | crm_url }}","status":"done","phones_only":"{{ "true" if phones_only else "false" }}"}'
+        >
+          Mark done
+        </button>
+        <button
+          type="button"
+          class="ghost-btn mark-btn-skip"
+          hx-post="/contact/status"
+          hx-target="#crm-main"
+          hx-swap="outerHTML"
+          hx-vals='{"id":"{{ selected.occurrence_id | crm_url }}","status":"skipped","phones_only":"{{ "true" if phones_only else "false" }}"}'
+        >
+          Skip
+        </button>
+        {% else %}
+        <button
+          type="button"
+          class="ghost-btn mark-btn-undo"
+          hx-post="/contact/status"
+          hx-target="#crm-main"
+          hx-swap="outerHTML"
+          hx-vals='{"id":"{{ selected.occurrence_id | crm_url }}","status":"pending","phones_only":"{{ "true" if phones_only else "false" }}"}'
+        >
+          Undo
+        </button>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
   </div>
 
   {% if error %}

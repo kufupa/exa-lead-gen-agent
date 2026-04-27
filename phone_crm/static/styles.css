@@ -22,27 +22,74 @@ body {
 }
 
 body {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-family: "Inter", "Avenir Next", "Segoe UI", Roboto, sans-serif;
   color: var(--text);
-  background: var(--bg);
+  background:
+    radial-gradient(circle at top, #151515 0%, var(--bg) 45%, #050505 100%);
+}
+
+@keyframes crm-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .crm-shell {
   min-height: 100vh;
   width: min(1300px, 100vw);
   margin: 0 auto;
-  padding: 16px;
+  padding: 18px;
 }
 
 .app-header {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   border: 1px solid var(--line);
   border-radius: 10px;
   padding: 10px;
   background: #070707;
+  animation: crm-fade-in 0.25s ease;
+}
+
+.header-left,
+.header-right {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-right {
+  justify-content: end;
+  margin-left: auto;
+}
+
+.header-selected {
+  display: grid;
+  line-height: 1.2;
+}
+
+.header-selected-name {
+  font-weight: 700;
+}
+
+.header-selected-title {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.header-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .header-title {
@@ -70,6 +117,17 @@ body {
   border-radius: 999px;
   padding: 6px 10px;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ghost-btn:hover,
+.ghost-btn:focus {
+  border-color: #444;
+}
+
+.ghost-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }
 
 .phone-filter-btn.active {
@@ -136,6 +194,24 @@ body {
   grid-template-columns: 1fr auto;
   gap: 10px;
   cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.contact-row:hover {
+  border-color: #3b3b3b;
+  transform: translateY(-1px);
+}
+
+.contact-row-pending {
+  border-left: 2px solid #3a567d;
+}
+
+.contact-row-done {
+  border-left: 2px solid #1f6f3a;
+}
+
+.contact-row-skipped {
+  border-left: 2px solid #8c2a2a;
 }
 
 .contact-row-selected {
@@ -145,6 +221,12 @@ body {
 
 .contact-row-muted {
   opacity: 0.52;
+}
+
+.contact-row-muted .contact-name,
+.contact-row-muted .contact-title-text,
+.contact-row-muted .contact-handle {
+  color: #8a8a8a;
 }
 
 .contact-actions {
@@ -219,6 +301,11 @@ body {
   border: 1px solid #262626;
   padding: 10px;
   border-radius: 8px;
+  animation: crm-fade-in 0.35s ease;
+}
+
+a {
+  color: #9cc4ff;
 }
 
 textarea {
@@ -235,6 +322,11 @@ textarea {
   display: flex;
   gap: 8px;
   margin-top: 8px;
+}
+
+.notes-form {
+  display: grid;
+  gap: 8px;
 }
 
 .empty-state {

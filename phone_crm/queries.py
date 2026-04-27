@@ -16,6 +16,8 @@ def row_to_contact(row: Any) -> ContactRow:
     payload = row.get("payload")
     if isinstance(payload, str):
         payload = json.loads(payload)
+    phone = row.get("phone") or ""
+    phone2 = row.get("phone2") or ""
     return ContactRow(
         occurrence_id=row["occurrence_id"] or "",
         source_enriched_json=row.get("source_enriched_json") or "",
@@ -24,8 +26,8 @@ def row_to_contact(row: Any) -> ContactRow:
         full_name=row.get("full_name") or "",
         title=row.get("title") or "",
         primary_handle=row.get("primary_handle") or "",
-        phone=row.get("phone") or "",
-        phone2=row.get("phone2") or "",
+        phone=phone,
+        phone2=phone2,
         email=row.get("email") or "",
         email2=row.get("email2") or "",
         linkedin_url=row.get("linkedin_url") or "",
@@ -33,7 +35,7 @@ def row_to_contact(row: Any) -> ContactRow:
         other_contact_detail=row.get("other_contact_detail") or "",
         decision_maker_score=row.get("decision_maker_score") or "",
         intimacy_grade=row.get("intimacy_grade") or "",
-        has_phone=bool(row.get("has_phone")),
+        has_phone=bool(row.get("has_phone")) or bool(str(phone).strip()) or bool(str(phone2).strip()),
         has_email=bool(row.get("has_email")),
         has_contact_route=bool(row.get("has_contact_route")),
         status=row.get("status") or "pending",
@@ -48,7 +50,7 @@ def fetch_contacts(conn: psycopg.Connection, phones_only: bool) -> list[ContactR
             """
             select *
             from public.crm_contacts
-            where (%s = false or has_phone = true or coalesce(phone, '') <> '' or coalesce(phone2, '') <> '')
+            where (%s = false or has_phone = true or coalesce(btrim(phone), '') <> '' or coalesce(btrim(phone2), '') <> '')
             order by lower(hotel_name), lower(full_name), occurrence_id
             """,
             (phones_only,),
@@ -112,11 +114,13 @@ def _status_sort_rank(status: str) -> int:
     return 3
 
 
-def _is_actionable_pending(row: ContactRow) -> bool:
+def _is_actionable_pending(row: ContactRow, phones_only: bool = False) -> bool:
+    if not phones_only:
+        return row.status == "pending" and row.has_contact_route
     return row.status == "pending" and row.has_phone
 
 
-def build_groups(rows: list[ContactRow]) -> list[HotelGroup]:
+def build_groups(rows: list[ContactRow], phones_only: bool = False) -> list[HotelGroup]:
     by_hotel: dict[str, list[ContactRow]] = {}
     hotel_meta: dict[str, str] = {}
     for row in rows:
@@ -135,7 +139,7 @@ def build_groups(rows: list[ContactRow]) -> list[HotelGroup]:
         pending_count = sum(
             1
             for c in sorted_contacts
-            if _is_actionable_pending(c)
+            if _is_actionable_pending(c, phones_only=phones_only)
         )
         groups.append(
             HotelGroup(
@@ -161,10 +165,12 @@ def build_summary(rows: list[ContactRow]) -> CrmSummary:
     return CrmSummary(total=total, pending=pending, done=done, skipped=skipped)
 
 
-def find_next_contact_id(rows: list[ContactRow], current_id: str | None) -> str | None:
+def find_next_contact_id(
+    rows: list[ContactRow], current_id: str | None, phones_only: bool = False
+) -> str | None:
     if not rows:
         return None
-    groups = build_groups(rows)
+    groups = build_groups(rows, phones_only=phones_only)
     ordered: list[ContactRow] = []
     current_hotel = None
     current_index = None
@@ -177,7 +183,7 @@ def find_next_contact_id(rows: list[ContactRow], current_id: str | None) -> str 
 
     if not current_id:
         for row in ordered:
-            if _is_actionable_pending(row):
+            if _is_actionable_pending(row, phones_only=phones_only):
                 return row.occurrence_id
         return None
 
@@ -191,7 +197,7 @@ def find_next_contact_id(rows: list[ContactRow], current_id: str | None) -> str 
                 [
                     r
                     for r in group.contacts
-                    if _is_actionable_pending(r)
+                    if _is_actionable_pending(r, phones_only=phones_only)
                 ]
             )
             break
@@ -204,10 +210,10 @@ def find_next_contact_id(rows: list[ContactRow], current_id: str | None) -> str 
 
     if current_index is not None:
         for row in ordered[current_index + 1 :]:
-            if _is_actionable_pending(row):
+            if _is_actionable_pending(row, phones_only=phones_only):
                 return row.occurrence_id
     for row in ordered:
-        if _is_actionable_pending(row) and row.occurrence_id != current_id:
+        if _is_actionable_pending(row, phones_only=phones_only) and row.occurrence_id != current_id:
             return row.occurrence_id
     return None
 

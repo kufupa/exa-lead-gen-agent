@@ -21,11 +21,22 @@
 
   <section class="contact-block">
     <h3>Notes</h3>
-    <form hx-post="/contact/notes" hx-target="#detail-panel" hx-swap="innerHTML">
+    <form
+      id="notes-form"
+      class="notes-form"
+      hx-post="/contact/notes"
+      hx-target="#detail-panel"
+      hx-swap="innerHTML"
+    >
       <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
-      <textarea id="notes" name="notes" rows="6" data-saved-value="{{ contact.notes | e }}">{{ contact.notes }}</textarea>
+      <textarea
+        id="notes"
+        name="notes"
+        rows="6"
+        data-saved-value="{{ contact.notes | e }}"
+      >{{ contact.notes }}</textarea>
       <div class="notes-actions">
-        <button class="ghost-btn" type="submit">Save</button>
+        <button id="save-notes" class="ghost-btn" type="submit" disabled>Save</button>
         <button class="ghost-btn" type="button" data-discard-notes>Discard</button>
       </div>
     </form>
@@ -33,12 +44,26 @@
 
   <section class="contact-block">
     <h3>Contact</h3>
-    <p><strong>Hotel:</strong> <a href="{{ contact.target_url }}" target="_blank" rel="noopener noreferrer">{{ contact.hotel_name }}</a></p>
+    <p><strong>Hotel:</strong> <a href="{{ contact.target_url or '#' }}" target="_blank" rel="noopener noreferrer">{{ contact.hotel_name }}</a></p>
     {% if contact.linkedin_url %}
     <p><strong>LinkedIn:</strong> <a href="{{ contact.linkedin_url }}" target="_blank" rel="noopener noreferrer">{{ contact.linkedin_url }}</a></p>
     {% endif %}
-    <p><strong>Phones:</strong> {{ contact.phone }}{% if contact.phone2 %}, {{ contact.phone2 }}{% endif %}</p>
-    <p><strong>Emails:</strong> {{ contact.email }}{% if contact.email2 %}, {{ contact.email2 }}{% endif %}</p>
+    <p>
+      <strong>Phones:</strong>
+      {% if contact.phone %}
+      <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a>{% if contact.phone2 %}, <a href="tel:{{ contact.phone2 }}">{{ contact.phone2 }}</a>{% endif %}
+      {% else %}
+      —
+      {% endif %}
+    </p>
+    <p>
+      <strong>Emails:</strong>
+      {% if contact.email %}
+      <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>{% if contact.email2 %}, <a href="mailto:{{ contact.email2 }}">{{ contact.email2 }}</a>{% endif %}
+      {% else %}
+      —
+      {% endif %}
+    </p>
     <p><strong>Other:</strong> {{ contact.other_contact_detail or '—' }}</p>
     <p><strong>X:</strong> {{ contact.x_handle or '—' }}</p>
   </section>
