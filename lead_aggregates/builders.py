@@ -8,6 +8,7 @@ from typing import Any, Iterable
 from hotel_decision_maker_research import is_generic_functional_email
 from linkedin_enrich.exa_fetch import normalize_linkedin_url
 from pipeline_metrics import count_xai_tools
+from lead_aggregates.urls import canonical_hotel_url
 
 
 def source_repo_rel(path: Path, jsons_dir: Path) -> str:
@@ -45,6 +46,23 @@ def has_named_email(c: dict[str, Any]) -> bool:
         if v and not is_generic_functional_email(v):
             return True
     return False
+
+
+def named_emails(c: dict[str, Any]) -> list[str]:
+    out: list[str] = []
+    seen: set[str] = set()
+    for k in ("email", "email2"):
+        v = (c.get(k) or "").strip().lower()
+        if not v or is_generic_functional_email(v) or v in seen:
+            continue
+        out.append(v)
+        seen.add(v)
+    return out
+
+
+def primary_named_email(c: dict[str, Any]) -> str | None:
+    emails = named_emails(c)
+    return emails[0] if emails else None
 
 
 def score_for_pick(c: dict[str, Any]) -> tuple[int, int]:
@@ -119,6 +137,241 @@ def contact_enrichment_meta(data: dict[str, Any]) -> dict[str, Any] | None:
         "attempted": ce.get("attempted"),
         "succeeded": ce.get("succeeded"),
         "failed": ce.get("failed"),
+    }
+
+
+def _run_by_source(master_doc: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    runs = master_doc.get("runs") if isinstance(master_doc.get("runs"), list) else []
+    return {str(r.get("source_file")): r for r in runs if isinstance(r, dict) and r.get("source_file")}
+
+
+def _source_path(source_rel: str, jsons_dir: Path) -> Path:
+    return jsons_dir.resolve().parent.joinpath(*source_rel.split("/"))
+
+
+def _load_source_doc(
+    source_rel: str,
+    jsons_dir: Path,
+    cache: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    if source_rel in cache:
+        return cache[source_rel]
+    path = _source_path(source_rel, jsons_dir)
+    if not path.is_file():
+        cache[source_rel] = {}
+        return cache[source_rel]
+    loaded = json.loads(path.read_text(encoding="utf-8"))
+    cache[source_rel] = loaded if isinstance(loaded, dict) else {}
+    return cache[source_rel]
+
+
+def _match_result(
+    *,
+    status: str,
+    method: str | None,
+    candidate_id: str | None,
+    reason: str,
+    candidate_count: int,
+    ambiguous_candidate_ids: list[str] | None = None,
+) -> dict[str, Any]:
+    return {
+        "status": status,
+        "method": method,
+        "candidate_id": candidate_id,
+        "reason": reason,
+        "candidate_count": candidate_count,
+        "ambiguous_candidate_ids": ambiguous_candidate_ids or [],
+    }
+
+
+def _candidate_id(candidate: dict[str, Any]) -> str | None:
+    raw = candidate.get("candidate_id")
+    return str(raw) if raw else None
+
+
+def _email_route_values(candidate: dict[str, Any]) -> set[str]:
+    values: set[str] = set()
+    for route in candidate.get("contact_routes") or []:
+        if not isinstance(route, dict):
+            continue
+        if route.get("kind") != "email":
+            continue
+        raw = (route.get("value") or "").strip().lower()
+        if raw and not is_generic_functional_email(raw):
+            values.add(raw)
+    return values
+
+
+def _match_pipeline_candidate(contact: dict[str, Any], source_doc: dict[str, Any]) -> tuple[dict[str, Any] | None, dict[str, Any]]:
+    pipeline = source_doc.get("pipeline_v4") if isinstance(source_doc.get("pipeline_v4"), dict) else {}
+    candidates = pipeline.get("candidates") if isinstance(pipeline.get("candidates"), list) else []
+    candidate_count = len([c for c in candidates if isinstance(c, dict)])
+    contact_li = normalize_linkedin_url((contact.get("linkedin_url") or "").strip() or "")
+    contact_email_set = set(named_emails(contact))
+    contact_name = (contact.get("full_name") or "").strip().lower()
+    contact_company = (contact.get("company") or "").strip().lower()
+
+    exact_id = (contact.get("pipeline_v4_candidate_id") or "").strip()
+    if exact_id:
+        for candidate in candidates:
+            if not isinstance(candidate, dict):
+                continue
+            if _candidate_id(candidate) == exact_id:
+                cid = _candidate_id(candidate)
+                return candidate, _match_result(
+                    status="matched_exact_id",
+                    method="candidate_id",
+                    candidate_id=cid,
+                    reason="contact.pipeline_v4_candidate_id matched candidate.candidate_id",
+                    candidate_count=candidate_count,
+                )
+
+    for candidate in candidates:
+        if not isinstance(candidate, dict):
+            continue
+        cand_li = normalize_linkedin_url((candidate.get("linkedin_url") or "").strip() or "")
+        if contact_li and cand_li and contact_li == cand_li:
+            cid = _candidate_id(candidate)
+            return candidate, _match_result(
+                status="matched_linkedin",
+                method="linkedin",
+                candidate_id=cid,
+                reason="normalized linkedin_url matched",
+                candidate_count=candidate_count,
+            )
+
+    for candidate in candidates:
+        if not isinstance(candidate, dict):
+            continue
+        if contact_email_set & _email_route_values(candidate):
+            cid = _candidate_id(candidate)
+            return candidate, _match_result(
+                status="matched_email",
+                method="email_route",
+                candidate_id=cid,
+                reason="named contact email matched candidate email route",
+                candidate_count=candidate_count,
+            )
+
+    name_company_matches: list[dict[str, Any]] = []
+    if contact_name and contact_company:
+        for candidate in candidates:
+            if not isinstance(candidate, dict):
+                continue
+            cand_name = (candidate.get("full_name") or "").strip().lower()
+            cand_company = (candidate.get("company") or "").strip().lower()
+            if cand_name == contact_name and cand_company == contact_company:
+                name_company_matches.append(candidate)
+
+    if len(name_company_matches) == 1:
+        candidate = name_company_matches[0]
+        cid = _candidate_id(candidate)
+        return candidate, _match_result(
+            status="matched_unique_name_company",
+            method="unique_name_company",
+            candidate_id=cid,
+            reason="exact full_name + company matched exactly one candidate",
+            candidate_count=candidate_count,
+        )
+    if len(name_company_matches) > 1:
+        ids = [_candidate_id(c) or "" for c in name_company_matches]
+        return None, _match_result(
+            status="ambiguous_name_company",
+            method="unique_name_company",
+            candidate_id=None,
+            reason="exact full_name + company matched multiple candidates",
+            candidate_count=candidate_count,
+            ambiguous_candidate_ids=[i for i in ids if i],
+        )
+
+    return None, _match_result(
+        status="not_found",
+        method=None,
+        candidate_id=None,
+        reason="no exact id, linkedin, email route, or unique name+company match",
+        candidate_count=candidate_count,
+    )
+
+
+def _source_run_payload(
+    source_rel: str,
+    run: dict[str, Any] | None,
+    source_doc: dict[str, Any],
+) -> dict[str, Any]:
+    run = run if isinstance(run, dict) else {}
+    pipeline = source_doc.get("pipeline_v4") if isinstance(source_doc.get("pipeline_v4"), dict) else {}
+    return {
+        "source_enriched_json": source_rel,
+        "target_url": (run.get("target_url") or source_doc.get("target_url") or "").strip() or None,
+        "research_generated_at_utc": run.get("research_generated_at_utc") or source_doc.get("generated_at_utc"),
+        "model": source_doc.get("model"),
+        "contact_enrichment": run.get("contact_enrichment")
+        if isinstance(run.get("contact_enrichment"), dict)
+        else contact_enrichment_meta(source_doc),
+        "phase1_research": phase1_run_meta(source_doc, Path(source_rel).name),
+        "pipeline_v4_summary": {
+            "input_url": pipeline.get("input_url"),
+            "resolved_org": pipeline.get("resolved_org"),
+            "aliases": pipeline.get("aliases") if isinstance(pipeline.get("aliases"), list) else [],
+            "provider_costs": pipeline.get("provider_costs"),
+            "quality_metrics": pipeline.get("quality_metrics"),
+            "needs_manual_org_review": pipeline.get("needs_manual_org_review"),
+        } if pipeline else None,
+    }
+
+
+def build_full_email_contact_row(
+    warehouse_row: dict[str, Any],
+    *,
+    source_run: dict[str, Any] | None,
+    source_doc: dict[str, Any],
+) -> dict[str, Any]:
+    contact = warehouse_row.get("contact") if isinstance(warehouse_row.get("contact"), dict) else {}
+    source_rel = (warehouse_row.get("source_enriched_json") or "").strip()
+    target_url = (warehouse_row.get("target_url") or "").strip()
+    email_key = primary_named_email(contact)
+    if not email_key:
+        raise ValueError("build_full_email_contact_row called for contact without named email")
+
+    phase1 = phase1_run_meta(source_doc, Path(source_rel).name) if source_doc else {}
+    phase2 = contact_enrichment_meta(source_doc) if source_doc else None
+    flat = build_contact_row(contact, phase1=phase1, phase2=phase2)
+    pipeline_candidate, pipeline_match = _match_pipeline_candidate(contact, source_doc)
+    flat.update(
+        {
+            "email_key": email_key,
+            "named_emails": named_emails(contact),
+            "contact_key": dedupe_key(contact),
+            "occurrence_id": warehouse_row.get("occurrence_id"),
+            "source_enriched_json": source_rel,
+            "target_url": target_url,
+            "hotel_canonical_url": canonical_hotel_url(target_url) if target_url else None,
+            "contact": contact,
+            "warehouse": {
+                "occurrence_id": warehouse_row.get("occurrence_id"),
+                "source_enriched_json": source_rel,
+                "target_url": target_url,
+            },
+            "source_run": _source_run_payload(source_rel, source_run, source_doc),
+            "pipeline_v4_candidate": pipeline_candidate,
+            "pipeline_v4_candidate_match": pipeline_match,
+            "duplicate_occurrence_count": 0,
+            "duplicate_occurrences": [],
+        }
+    )
+    return flat
+
+
+def _duplicate_summary(row: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "occurrence_id": row.get("occurrence_id"),
+        "source_enriched_json": row.get("source_enriched_json"),
+        "target_url": row.get("target_url"),
+        "full_name": row.get("full_name"),
+        "title": row.get("title"),
+        "company": row.get("company"),
+        "email_key": row.get("email_key"),
+        "contact_key": row.get("contact_key"),
     }
 
 
@@ -238,31 +491,53 @@ def build_phone_document(jsons_dir: Path) -> dict[str, Any]:
 
 
 def build_email_document(jsons_dir: Path) -> dict[str, Any]:
+    master = build_master_document(jsons_dir)
+    runs = _run_by_source(master)
+    source_cache: dict[str, dict[str, Any]] = {}
     rows_by_key: dict[str, dict[str, Any]] = {}
-    sources: list[str] = []
+    sources = list(master.get("source_enriched_files") or [])
 
-    for path in _iter_enriched_files(jsons_dir):
-        source_rel = source_repo_rel(path, jsons_dir)
-        sources.append(source_rel)
-        data = json.loads(path.read_text(encoding="utf-8"))
-        p1 = phase1_run_meta(data, path.name)
-        p2 = contact_enrichment_meta(data)
-        for c in data.get("contacts") or []:
-            if not isinstance(c, dict) or not has_named_email(c):
-                continue
-            k = dedupe_key(c)
-            row = build_contact_row(c, phase1=p1, phase2=p2)
-            row["contact_key"] = k
-            prev = rows_by_key.get(k)
-            if prev is None or score_for_pick_email(row) > score_for_pick_email(prev):
-                rows_by_key[k] = row
+    for warehouse_row in master.get("contacts") or []:
+        if not isinstance(warehouse_row, dict):
+            continue
+        contact = warehouse_row.get("contact") if isinstance(warehouse_row.get("contact"), dict) else {}
+        if not contact or not has_named_email(contact):
+            continue
+        source_rel = (warehouse_row.get("source_enriched_json") or "").strip()
+        target_url = (warehouse_row.get("target_url") or "").strip()
+        email_key = primary_named_email(contact)
+        if not email_key or not target_url:
+            continue
+        dedupe_target = canonical_hotel_url(target_url)
+        row_key = f"{email_key}\x1f{dedupe_target}"
+        source_doc = _load_source_doc(source_rel, jsons_dir, source_cache)
+        row = build_full_email_contact_row(
+            warehouse_row,
+            source_run=runs.get(source_rel),
+            source_doc=source_doc,
+        )
+        prev = rows_by_key.get(row_key)
+        if prev is None:
+            rows_by_key[row_key] = row
+            continue
+        if score_for_pick_email(row) > score_for_pick_email(prev):
+            row["duplicate_occurrences"] = [*prev.get("duplicate_occurrences", []), _duplicate_summary(prev)]
+            row["duplicate_occurrence_count"] = len(row["duplicate_occurrences"])
+            rows_by_key[row_key] = row
+        else:
+            prev.setdefault("duplicate_occurrences", []).append(_duplicate_summary(row))
+            prev["duplicate_occurrence_count"] = len(prev["duplicate_occurrences"])
 
-    contacts = sorted(rows_by_key.values(), key=lambda r: (r.get("full_name") or "").lower())
+    contacts = sorted(
+        rows_by_key.values(),
+        key=lambda r: ((r.get("full_name") or "").lower(), r.get("email_key") or "", r.get("target_url") or ""),
+    )
     return {
-        "version": 1,
+        "version": 2,
         "criteria": (
-            "Contacts with named non-generic email or email2 (see hotel_decision_maker_research.is_generic_functional_email). "
-            "Globally deduped; tie-break intimacy_grade then count of named emails."
+            "Contacts with named non-generic email or email2. One row per primary named email + canonical hotel URL. "
+            "Rows preserve flat compatibility fields plus full contact/source payload for cold-email generation. "
+            "Triage/generation/send state is intentionally excluded and remains in outreach_email_state.json."
         ),
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "source_enriched_files": sorted(set(sources)),

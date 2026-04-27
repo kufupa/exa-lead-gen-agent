@@ -137,6 +137,7 @@ def _legacy_contact(candidate: CandidateLead, fallback_company: str) -> dict[str
         None,
     )
     return {
+        "pipeline_v4_candidate_id": candidate.candidate_id,
         "full_name": candidate.full_name,
         "title": candidate.title,
         "company": candidate.company or fallback_company,

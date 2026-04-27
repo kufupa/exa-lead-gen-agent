@@ -93,6 +93,7 @@ def test_pipeline_ui_to_enriched_doc_maps_direct_routes_and_preserves_v4_payload
 
     contact = doc["contacts"][0]
     assert contact["full_name"] == "Alex Person"
+    assert contact["pipeline_v4_candidate_id"] == "c_1"
     assert contact["email"] == "alex@examplehotel.com"
     assert contact["email2"] is None
     assert contact["phone"] == "+44 20 0000 0000"

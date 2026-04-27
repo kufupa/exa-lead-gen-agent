@@ -20,9 +20,15 @@ def primary_delivery_email(contact_row: dict[str, Any]) -> str | None:
 
 
 def target_url_from_intimate_row(contact_row: dict[str, Any]) -> str:
+    top_level = (contact_row.get("target_url") or "").strip()
+    if top_level:
+        return top_level
     p1 = contact_row.get("phase1_research")
     if isinstance(p1, dict):
         return (p1.get("target_url") or "").strip()
+    source_run = contact_row.get("source_run")
+    if isinstance(source_run, dict):
+        return (source_run.get("target_url") or "").strip()
     return ""
 
 

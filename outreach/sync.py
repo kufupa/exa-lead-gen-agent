@@ -21,7 +21,12 @@ def _row_hash(contact_row: dict[str, Any]) -> str:
         "company": contact_row.get("company"),
         "email": (contact_row.get("email") or "").strip().lower() or None,
         "email2": (contact_row.get("email2") or "").strip().lower() or None,
+        "target_url": contact_row.get("target_url"),
         "phase1_research": contact_row.get("phase1_research"),
+        "source_enriched_json": contact_row.get("source_enriched_json"),
+        "occurrence_id": contact_row.get("occurrence_id"),
+        "contact_key": contact_row.get("contact_key"),
+        "email_key": contact_row.get("email_key"),
     }
     blob = json.dumps(subset, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(blob.encode("utf-8")).hexdigest()[:40]
@@ -29,12 +34,15 @@ def _row_hash(contact_row: dict[str, Any]) -> str:
 
 def _snapshot(contact_row: dict[str, Any]) -> dict[str, Any]:
     p1 = contact_row.get("phase1_research") if isinstance(contact_row.get("phase1_research"), dict) else {}
+    source_run = contact_row.get("source_run") if isinstance(contact_row.get("source_run"), dict) else {}
     return {
-        "source_enriched_json": p1.get("source_enriched_json"),
+        "source_enriched_json": contact_row.get("source_enriched_json") or p1.get("source_enriched_json") or source_run.get("source_enriched_json"),
+        "occurrence_id": contact_row.get("occurrence_id"),
         "full_name": contact_row.get("full_name"),
         "title": contact_row.get("title"),
         "company": contact_row.get("company"),
         "contact_key": contact_row.get("contact_key"),
+        "email_key": contact_row.get("email_key"),
     }
 
 

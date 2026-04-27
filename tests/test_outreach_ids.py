@@ -18,3 +18,8 @@ def test_compute_outreach_id_stable() -> None:
 def test_target_url_from_phase1() -> None:
     row = {"phase1_research": {"target_url": "https://ex.com/"}}
     assert target_url_from_intimate_row(row) == "https://ex.com/"
+
+
+def test_target_url_from_intimate_row_prefers_top_level_target_url() -> None:
+    row = {"target_url": "https://top.example/", "phase1_research": {"target_url": "https://phase1.example/"}}
+    assert target_url_from_intimate_row(row) == "https://top.example/"

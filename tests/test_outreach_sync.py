@@ -121,3 +121,38 @@ def test_validate_catches_orphan_index() -> None:
     doc["indexes"] = {"by_hotel": {"https://x.com": ["oh_missing"]}}
     errs = validate_state(doc)
     assert any("orphan" in e for e in errs)
+
+
+def test_merge_snapshot_keeps_provenance_for_full_payload_rows() -> None:
+    intimate = {
+        "version": 2,
+        "generated_at_utc": "2026-01-01T00:00:00+00:00",
+        "contacts": [
+            {
+                "full_name": "Alex Person",
+                "title": "GM",
+                "company": "Ex Hotel",
+                "email": "alex.person@exhotel.com",
+                "target_url": "https://www.exhotel.com/",
+                "source_enriched_json": "jsons/ex.enriched.json",
+                "occurrence_id": "jsons/ex.enriched.json::em:alex.person@exhotel.com",
+                "contact_key": "em:alex.person@exhotel.com",
+                "email_key": "alex.person@exhotel.com",
+                "contact": {"full_name": "Alex Person", "custom": "full payload stays in intimate file"},
+            }
+        ],
+    }
+
+    state, added, refreshed = merge_intimates_into_state(intimate, None)
+
+    assert added == 1
+    assert refreshed == 0
+    row = next(iter(state["by_id"].values()))
+    snap = row["intimate_snapshot"]
+    assert snap["source_enriched_json"] == "jsons/ex.enriched.json"
+    assert snap["occurrence_id"] == "jsons/ex.enriched.json::em:alex.person@exhotel.com"
+    assert snap["contact_key"] == "em:alex.person@exhotel.com"
+    assert snap["email_key"] == "alex.person@exhotel.com"
+    assert "triage" not in snap
+    assert "generation" not in snap
+    assert "contact" not in snap

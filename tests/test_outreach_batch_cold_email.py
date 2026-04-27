@@ -75,3 +75,20 @@ def test_apply_generation_results_success() -> None:
     assert g["body"] == "Body text"
     assert g["batch_job_id"] == "bid"
     assert g["error"] is None
+
+
+def test_build_user_message_includes_full_nested_contact_payload() -> None:
+    payload = {
+        "outreach_id": "oh_x",
+        "email": "alex.person@example.com",
+        "contact": {"custom_enrichment_blob": {"personalization_angle": "mentions events ops"}},
+        "pipeline_v4_candidate": {"candidate_id": "c_alex", "notes": ["candidate-level note"]},
+        "pipeline_v4_candidate_match": {"status": "matched_linkedin", "method": "linkedin"},
+    }
+    text = build_user_message(contact_json=payload, template_body="Draft email.")
+    assert "custom_enrichment_blob" in text
+    assert "personalization_angle" in text
+    assert "pipeline_v4_candidate" in text
+    assert "pipeline_v4_candidate_match" in text
+    assert "matched_linkedin" in text
+    assert "candidate-level note" in text
