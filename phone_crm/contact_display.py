@@ -95,16 +95,27 @@ def _coerce_payload_scalar(value: Any) -> str:
     return str(value)
 
 
-def _build_payload_fields(payload: dict[str, Any]) -> list[dict[str, Any]]:
-    return [_build_payload_node(key, value) for key, value in payload.items()]
+def _build_payload_fields(payload: dict[str, Any], max_depth: int = 4) -> list[dict[str, Any]]:
+    return [_build_payload_node(key, value, max_depth=max_depth) for key, value in payload.items()]
 
 
-def _build_payload_node(label: str, value: Any) -> dict[str, Any]:
+def _build_payload_node(label: str, value: Any, max_depth: int = 4) -> dict[str, Any]:
+    if max_depth <= 0 and isinstance(value, (dict, list)):
+        return {
+            "label": str(label),
+            "value": "[max depth reached]",
+            "children": [],
+            "kind": "list" if isinstance(value, list) else "object",
+        }
+
     if isinstance(value, dict):
         return {
             "label": str(label),
             "value": "",
-            "children": [_build_payload_node(_coerce_payload_node_label(child_key), child_value) for child_key, child_value in value.items()],
+            "children": [
+                _build_payload_node(_coerce_payload_node_label(child_key), child_value, max_depth=max_depth - 1)
+                for child_key, child_value in value.items()
+            ],
             "kind": "object",
         }
 
@@ -113,7 +124,7 @@ def _build_payload_node(label: str, value: Any) -> dict[str, Any]:
             "label": str(label),
             "value": "",
             "children": [
-                _build_payload_node(f"[{index}]", child_value)
+                _build_payload_node(f"[{index}]", child_value, max_depth=max_depth - 1)
                 for index, child_value in enumerate(value)
             ],
             "kind": "list",
