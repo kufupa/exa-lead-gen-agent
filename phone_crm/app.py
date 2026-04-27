@@ -69,8 +69,9 @@ def _render_main(
     error: str | None = None,
 ):
     return templates.TemplateResponse(
-        "_crm_main.html",
-        {
+        request=request,
+        name="_crm_main.html",
+        context={
             "request": request,
             "groups": groups,
             "summary": summary,
@@ -88,8 +89,9 @@ def _render_main_error(
     error: str | None = None,
 ):
     return templates.TemplateResponse(
-        "_crm_main.html",
-        {
+        request=request,
+        name="_crm_main.html",
+        context={
             "request": request,
             "groups": [],
             "summary": CrmSummary(total=0, pending=0, done=0, skipped=0),
@@ -107,8 +109,9 @@ def _render_contact_error(
     error: str,
 ):
     return templates.TemplateResponse(
-        "_contact_detail.html",
-        {
+        request=request,
+        name="_contact_detail.html",
+        context={
             "request": request,
             "contact": None,
             "error": error,
@@ -119,8 +122,9 @@ def _render_contact_error(
 
 def _render_contact_detail(request: Request, contact):
     return templates.TemplateResponse(
-        "_contact_detail.html",
-        {
+        request=request,
+        name="_contact_detail.html",
+        context={
             "request": request,
             "contact": contact,
         },
@@ -129,10 +133,7 @@ def _render_contact_detail(request: Request, contact):
 
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request, _user: str = Depends(require_user)) -> HTMLResponse:
-    return templates.TemplateResponse(
-        "index.html",
-        {"request": request},
-    )
+    return templates.TemplateResponse(request=request, name="index.html", context={"request": request})
 
 
 @app.get("/health")
@@ -228,8 +229,9 @@ async def set_status(
 ) -> HTMLResponse:
     if status not in ALLOWED_STATUS:
         return templates.TemplateResponse(
-            "_crm_main.html",
-            {
+            request=request,
+            name="_crm_main.html",
+            context={
                 "request": request,
                 "groups": [],
                 "summary": CrmSummary(total=0, pending=0, done=0, skipped=0),
