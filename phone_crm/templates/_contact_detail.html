@@ -1,4 +1,35 @@
 {% if contact %}
+{% macro render_payload_node(entry) %}
+  {% if entry.kind == "scalar" %}
+    <li class="payload-node payload-node--scalar">
+      <span class="payload-label">{{ entry.label }}:</span>
+      {% if (entry.value | length) > 500 %}
+        <details>
+          <summary>{{ entry.value[:500] }}…</summary>
+          <pre><code>{{ entry.value }}</code></pre>
+        </details>
+      {% else %}
+        <span class="payload-value">{{ entry.value }}</span>
+      {% endif %}
+    </li>
+  {% else %}
+    <li class="payload-node payload-node--{{ entry.kind }}">
+      <details>
+        <summary>{{ entry.label }}</summary>
+        <ul class="payload-children">
+          {% if entry.children %}
+            {% for child in entry.children %}
+              {{ render_payload_node(child) }}
+            {% endfor %}
+          {% else %}
+            <li class="payload-empty">No entries</li>
+          {% endif %}
+        </ul>
+      </details>
+    </li>
+  {% endif %}
+{% endmacro %}
+
   <section class="contact-block contact-detail-card" id="contactPanel" data-status="{{ contact.status }}" data-contact-id="{{ contact.occurrence_id }}">
     <header class="contact-heading">
       <h2>{{ contact_display.hero_name }}</h2>
@@ -128,6 +159,14 @@
 
     <section class="detail-section payload-section">
       <h3>Full payload</h3>
+      <details>
+        <summary>View hierarchical payload</summary>
+        <ul class="payload-tree">
+          {% for entry in contact_display.payload_fields %}
+            {{ render_payload_node(entry) }}
+          {% endfor %}
+        </ul>
+      </details>
       <details>
         <summary>View full JSON</summary>
         <pre><code>{{ contact_display.payload | tojson(indent=2) }}</code></pre>
