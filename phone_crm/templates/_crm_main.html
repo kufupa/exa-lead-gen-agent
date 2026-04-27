@@ -1,0 +1,20 @@
+<section id="crm-main" class="crm-layout">
+  {% if error %}
+    <div class="crm-alert" role="alert">{{ error }}</div>
+  {% endif %}
+
+  <aside class="crm-left panel">
+    <div class="panel-head">
+      <h2>Hotels</h2>
+      <p class="summary-line">
+        All: {{ summary.total }} · Pending: {{ summary.pending }} · Done:
+        {{ summary.done }} · Skipped: {{ summary.skipped }}
+      </p>
+    </div>
+    {% include "_hotel_list.html" %}
+  </aside>
+
+  <section class="crm-right panel">
+    {% include "_contact_detail.html" %}
+  </section>
+</section>

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section id="crm-shell" class="crm-home">
+    <header class="crm-header">
+      <div class="crm-title-wrap">
+        <h1>Phone-Only CRM</h1>
+        <p>Review contacts and track phone outreach.</p>
+      </div>
+      <div class="crm-stats" role="note">
+        <span>Load uses server-rendered pages with HTMX swaps.</span>
+      </div>
+    </header>
+
+    <div
+      id="crm-main"
+      class="crm-main-shell"
+      hx-get="/crm?phones_only=true"
+      hx-trigger="load"
+      hx-swap="outerHTML"
+    >
+      <section class="crm-loading">
+        <p>Loading contacts...</p>
+      </section>
+    </div>
+  </section>
+{% endblock %}

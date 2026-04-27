@@ -1,0 +1,214 @@
+{% if contact %}
+  <section class="contact-block contact-detail-card" id="contactPanel" data-status="{{ contact.status }}" data-contact-id="{{ contact.occurrence_id }}">
+    <header class="contact-heading">
+      <h2>{{ contact_display.hero_name }}</h2>
+      <p class="hero-meta">{{ contact_display.hero_title }}</p>
+      <a
+        class="hero-hotel"
+        href="{{ contact_display.hotel_url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {{ contact_display.hero_hotel }}
+      </a>
+    </header>
+
+    <section class="detail-section">
+      <h3>Notes</h3>
+      <form
+        class="notes-form"
+        hx-post="/contact/notes"
+        hx-target="#crm-main"
+        hx-swap="outerHTML"
+        method="post"
+      >
+        <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+        <input
+          type="hidden"
+          name="phones_only"
+          value="{{ 'true' if phones_only else 'false' }}"
+        />
+        <textarea
+          id="notesText"
+          name="notes"
+          class="notes-text"
+          data-saved-value="{{ contact.notes }}"
+        >{{ contact.notes }}</textarea>
+        <input
+          type="hidden"
+          name="notes_mirror"
+          value="{{ contact.notes }}"
+          data-notes-mirror
+        />
+        <div class="notes-actions">
+          <button id="notesSaveBtn" type="submit" class="btn btn-primary">Save notes</button>
+          <button
+            id="notesDiscardBtn"
+            type="button"
+            class="btn btn-secondary"
+            data-discard-notes
+          >
+            Discard
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <section class="detail-section">
+      <h3>Call channels</h3>
+      <div class="channel-grid">
+        <div>
+          <div class="channel-label">Phones</div>
+          {% if contact_display.phones %}
+            <ul class="chip-list">
+              {% for phone in contact_display.phones %}
+                <li>{{ phone }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p>None</p>
+          {% endif %}
+        </div>
+        <div>
+          <div class="channel-label">Emails</div>
+          {% if contact_display.emails %}
+            <ul class="chip-list">
+              {% for email in contact_display.emails %}
+                <li>{{ email }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p>None</p>
+          {% endif %}
+        </div>
+        <div>
+          <div class="channel-label">Social</div>
+          <ul class="chip-list">
+            <li>{{ contact_display.primary_handle }}</li>
+            <li>{{ contact_display.x_handle }}</li>
+            {% if contact_display.linkedin_url %}
+              <li>
+                <a href="{{ contact_display.linkedin_url }}" target="_blank" rel="noopener noreferrer">
+                  LinkedIn
+                </a>
+              </li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-section">
+      <h3>Enrichment</h3>
+      <dl class="kv-grid">
+        <div><dt>Intimacy</dt><dd>{{ contact_display.enrichment.intimacy }}</dd></div>
+        <div><dt>Decision score</dt><dd>{{ contact_display.enrichment.decision_score }}</dd></div>
+        <div><dt>Fit reason</dt><dd>{{ contact_display.enrichment.fit_reason }}</dd></div>
+        <div><dt>Evidence summary</dt><dd>{{ contact_display.enrichment.evidence_summary }}</dd></div>
+      </dl>
+    </section>
+
+    <section class="detail-section">
+      <h3>Evidence</h3>
+      {% if contact_display.evidence %}
+        <ul class="evidence-list">
+          {% for entry in contact_display.evidence %}
+            <li>
+              <p class="quote">{{ entry.quote_or_fact }}</p>
+              {% if entry.source_url %}
+                <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source_url }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="muted">No evidence loaded.</p>
+      {% endif %}
+    </section>
+
+    <section class="detail-section payload-section">
+      <h3>Full payload</h3>
+      <details>
+        <summary>View full JSON</summary>
+        <pre><code>{{ contact_display.payload | tojson(indent=2) }}</code></pre>
+      </details>
+    </section>
+
+    <section class="detail-section">
+      <h3>Actions</h3>
+      {% if contact.status == "pending" %}
+        <form
+          class="status-form"
+          hx-post="/contact/status"
+          hx-target="#crm-main"
+          hx-swap="outerHTML"
+          method="post"
+        >
+          <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+          <input
+            type="hidden"
+            name="phones_only"
+            value="{{ 'true' if phones_only else 'false' }}"
+          />
+          <input type="hidden" name="status" value="done" />
+          <button type="submit" class="btn btn-primary btn-done ghost-btn ghost-btn-small mark-btn-done">Mark done</button>
+        </form>
+        <form
+          class="status-form"
+          hx-post="/contact/status"
+          hx-target="#crm-main"
+          hx-swap="outerHTML"
+          method="post"
+        >
+          <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+          <input
+            type="hidden"
+            name="phones_only"
+            value="{{ 'true' if phones_only else 'false' }}"
+          />
+          <input type="hidden" name="status" value="skipped" />
+          <button type="submit" class="btn btn-secondary btn-skip ghost-btn ghost-btn-small mark-btn-skip">Mark skipped</button>
+        </form>
+      {% elif contact.status == "done" %}
+        <form
+          class="status-form"
+          hx-post="/contact/status"
+          hx-target="#crm-main"
+          hx-swap="outerHTML"
+          method="post"
+        >
+          <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+          <input
+            type="hidden"
+            name="phones_only"
+            value="{{ 'true' if phones_only else 'false' }}"
+          />
+          <input type="hidden" name="status" value="pending" />
+          <button type="submit" class="btn btn-secondary">Undo review</button>
+        </form>
+      {% elif contact.status == "skipped" %}
+        <form
+          class="status-form"
+          hx-post="/contact/status"
+          hx-target="#crm-main"
+          hx-swap="outerHTML"
+          method="post"
+        >
+          <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+          <input
+            type="hidden"
+            name="phones_only"
+            value="{{ 'true' if phones_only else 'false' }}"
+          />
+          <input type="hidden" name="status" value="pending" />
+          <button type="submit" class="btn btn-secondary">Undo skip</button>
+        </form>
+      {% endif %}
+    </section>
+  </section>
+{% else %}
+  <section class="contact-block contact-detail-card">
+    <h2>Choose a contact from the hotel list.</h2>
+    <p class="muted">{{ error or "No contact selected." }}</p>
+  </section>
+{% endif %}

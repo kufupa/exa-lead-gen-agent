@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone CRM</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', path='styles.css') }}"
+    />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.12"
+      defer
+    ></script>
+    <script src="{{ url_for('static', path='app.js') }}" defer></script>
+  </head>
+  <body>
+    <main class="crm-shell" hx-target-error="none">
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>

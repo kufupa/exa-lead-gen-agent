@@ -1,0 +1,41 @@
+{% if groups %}
+  <div class="hotel-list">
+    {% for group in groups %}
+      <details class="hotel-accordion" {% if loop.first %}open{% endif %}>
+        <summary class="hotel-summary">
+          <span class="hotel-name">{{ group.hotel_name }}</span>
+          {% if group.target_url %}
+            <a
+              class="hotel-url"
+              href="{{ group.target_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ group.target_url }}
+            </a>
+          {% endif %}
+          <span class="hotel-count">
+            {{ group.pending_count }} / {{ group.total_count }} pending
+          </span>
+        </summary>
+        <div class="contact-rows">
+          {% for contact in group.contacts %}
+            <button
+              type="button"
+              class="contact-row-{{ contact.status }}{% if contact.occurrence_id == selected_id %} is-active{% endif %}"
+              hx-get="/contact?id={{ contact.occurrence_id }}&phones_only=true"
+              hx-target=".crm-right"
+              hx-swap="innerHTML"
+            >
+              <span class="contact-row-name">{{ contact.full_name or "Unknown contact" }}</span>
+              <span class="contact-row-title">{{ contact.title or "—" }}</span>
+              <span class="contact-row-phone">{{ contact.phone or "—" }}</span>
+            </button>
+          {% endfor %}
+        </div>
+      </details>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="panel-empty">Choose a contact from the hotel list.</div>
+{% endif %}
