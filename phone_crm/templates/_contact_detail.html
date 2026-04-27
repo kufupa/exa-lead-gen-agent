@@ -18,7 +18,7 @@
       <form
         class="notes-form"
         hx-post="/contact/notes"
-        hx-target="#crm-main"
+        hx-target=".crm-right"
         hx-swap="outerHTML"
         method="post"
       >
@@ -151,6 +151,13 @@
             value="{{ 'true' if phones_only else 'false' }}"
           />
           <input type="hidden" name="status" value="done" />
+          <input
+            type="hidden"
+            name="notes_mirror"
+            value="{{ contact_display.notes | default('', true) }}"
+            class="notes-mirror"
+            data-notes-mirror
+          />
           <button type="submit" class="btn btn-primary btn-done ghost-btn ghost-btn-small mark-btn-done">Mark done</button>
         </form>
         <form
@@ -167,6 +174,13 @@
             value="{{ 'true' if phones_only else 'false' }}"
           />
           <input type="hidden" name="status" value="skipped" />
+          <input
+            type="hidden"
+            name="notes_mirror"
+            value="{{ contact_display.notes | default('', true) }}"
+            class="notes-mirror"
+            data-notes-mirror
+          />
           <button type="submit" class="btn btn-secondary btn-skip ghost-btn ghost-btn-small mark-btn-skip">Mark skipped</button>
         </form>
       {% elif contact.status == "done" %}
