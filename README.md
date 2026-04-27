@@ -10,13 +10,19 @@ npx @open-gitagent/gitagent run -r https://github.com/shreyas-lyzr/exa-lead-gen-
 
 ## Hotel leads (xAI)
 
-**Current (v4):** Grok-led pipeline + capped Exa — outputs under `outputs/pipeline/`.
+**Current (v4):** Grok-led pipeline + capped Exa — debug/UI artifacts under `outputs/pipeline/`, plus a legacy-compatible `jsons/*.enriched.json` per run and a locked refresh of aggregate files under `fullJSONs/`.
 
 ```bash
 pip install -r requirements.txt
 export XAI_API_KEY=...
 export EXA_API_KEY=...
 python -m pipeline run https://example-hotel.com/
+```
+
+To skip aggregate writes for experimentation:
+
+```bash
+python -m pipeline run https://example-hotel.com/ --no-aggregate-sync
 ```
 
 **Legacy (archived under [`legacy/`](legacy/README.md)):** root shims keep old commands working; implementation files live in `legacy/`.
@@ -41,6 +47,7 @@ Python code lives in the **`lead_aggregates/`** package. Merged JSON outputs liv
 | `fullJSONs/all_enriched_leads.json` | Warehouse: every contact from every `jsons/*.enriched.json` with `occurrence_id` = `source_file::dedupe_key` |
 | `fullJSONs/intimate_phone_contacts.json` | Rows with structured `phone` / `phone2` (globally deduped) |
 | `fullJSONs/intimate_email_contacts.json` | Rows with named non-generic `email` / `email2` |
+| `fullJSONs/intimate_unified_contacts.json` | **Canonical outreach slice:** phone and/or named email, one global row per person (`dedupe_key` uses canonical `www.linkedin.com` profile URLs when present) |
 | `fullJSONs/url_registry.json` | Canonical hotel URL → status, paths, errors |
 | `fullJSONs/.merge.lock` | `filelock` coordination for all updates above |
 
@@ -48,6 +55,12 @@ Python code lives in the **`lead_aggregates/`** package. Merged JSON outputs liv
 
 ```bash
 python scripts/rebuild_fulljsons.py
+```
+
+**Backfill latest v4 `outputs/pipeline` runs into `jsons/` and rebuild `fullJSONs/`** (keeps only the latest run per canonical hotel URL, so reruns do not duplicate contacts in aggregates):
+
+```bash
+python scripts/import_pipeline_outputs.py --outputs-dir outputs/pipeline --jsons-dir jsons --fulljsons-dir fullJSONs
 ```
 
 **Rebuild only intimate slices:**
@@ -64,7 +77,7 @@ python hotel_batch_pipeline.py --url https://a.com/ --url https://b.com/ --worke
 # or: --urls-file urls.txt
 ```
 
-Each completed hotel triggers a locked refresh of all four `fullJSONs/` files (full rebuild from `jsons/` — simple and idempotent). If a run crashes mid-write, run `python scripts/rebuild_fulljsons.py` to heal aggregates from disk.
+Each completed hotel triggers a locked refresh of all aggregate `fullJSONs/` files (full rebuild from `jsons/` — simple and idempotent). If a run crashes mid-write, run `python scripts/rebuild_fulljsons.py` to heal aggregates from disk.
 
 ## Prerequisites
 
@@ -132,3 +145,58 @@ exa-lead-gen-agent/
 ## Built with
 
 [gitagent](https://github.com/open-gitagent/gitagent) — a git-native, framework-agnostic open standard for AI agents.
+
+## Phone CRM (FastAPI + HTMX + Supabase)
+
+### Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+### Environment
+
+```bash
+export DATABASE_URL="postgresql://postgres:password@db.project.supabase.co:5432/postgres"
+export CRM_USERNAME="admin"
+export CRM_PASSWORD="change-me"
+export CRM_JSON_PATH="fullJSONs/all_enriched_leads.json"
+```
+
+### Sync data into Supabase
+
+```bash
+python -m scripts.phone_crm_sync --json fullJSONs/all_enriched_leads.json
+```
+
+Dry run:
+
+```bash
+python -m scripts.phone_crm_sync --json fullJSONs/all_enriched_leads.json --dry-run
+```
+
+### Run app locally
+
+```bash
+uvicorn phone_crm.app:app --host 0.0.0.0 --port 8000
+```
+
+Open `http://localhost:8000/` and authenticate with the `CRM_USERNAME` / `CRM_PASSWORD`.
+
+### Render deploy checklist
+
+- Add Render Web Service from this repository.
+- Set build command: `pip install -r requirements.txt`.
+- Set start command: `uvicorn phone_crm.app:app --host 0.0.0.0 --port $PORT`.
+- Set environment variables: `DATABASE_URL`, `CRM_USERNAME`, `CRM_PASSWORD`, `CRM_JSON_PATH`.
+- Use PostgreSQL connection string from Supabase.
+
+You can also use the included `render.yaml` blueprint for one-click Render setup.
+
+### Health check
+
+`GET /health` returns:
+
+```json
+{"status":"ok"}
+```

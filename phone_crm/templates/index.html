@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block body %}
+<main class="crm-shell">
+  <header class="app-header">
+    <div class="header-title">Phone CRM</div>
+    <p class="pill">Hotel lead queue</p>
+  </header>
+
+  <section id="crm-main" hx-get="/crm" hx-trigger="load" hx-target="this" hx-swap="outerHTML">
+    <div class="empty-state">Loading CRM...</div>
+  </section>
+</main>
+{% endblock %}

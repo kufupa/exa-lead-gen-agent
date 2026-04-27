@@ -1,0 +1,71 @@
+<div id="detail-panel" class="right-panel panel">
+  {% if not contact %}
+  <div class="empty-state">Choose a contact.</div>
+  {% else %}
+  <header class="contact-header">
+    <div>
+      <h2>{{ contact.full_name }}</h2>
+      <p>{{ contact.title }} · {{ contact.hotel_name }}</p>
+    </div>
+    {% if contact.status == "pending" %}
+    <span class="status-pill status-{{ contact.status }}">pending</span>
+    {% elif contact.status == "done" %}
+    <span class="status-pill status-done">done</span>
+    {% else %}
+    <span class="status-pill status-skipped">skipped</span>
+    {% endif %}
+  </header>
+
+  <section class="contact-block">
+    <h3>Notes</h3>
+    <form hx-post="/contact/notes" hx-target="#detail-panel" hx-swap="innerHTML">
+      <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+      <textarea id="notes" name="notes" rows="6" data-saved-value="{{ contact.notes | e }}">{{ contact.notes }}</textarea>
+      <div class="notes-actions">
+        <button class="ghost-btn" type="submit">Save</button>
+        <button class="ghost-btn" type="button" data-discard-notes>Discard</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="contact-block">
+    <h3>Contact</h3>
+    <p><strong>Hotel:</strong> <a href="{{ contact.target_url }}" target="_blank" rel="noopener noreferrer">{{ contact.hotel_name }}</a></p>
+    {% if contact.linkedin_url %}
+    <p><strong>LinkedIn:</strong> <a href="{{ contact.linkedin_url }}" target="_blank" rel="noopener noreferrer">{{ contact.linkedin_url }}</a></p>
+    {% endif %}
+    <p><strong>Phones:</strong> {{ contact.phone }}{% if contact.phone2 %}, {{ contact.phone2 }}{% endif %}</p>
+    <p><strong>Emails:</strong> {{ contact.email }}{% if contact.email2 %}, {{ contact.email2 }}{% endif %}</p>
+    <p><strong>Other:</strong> {{ contact.other_contact_detail or '—' }}</p>
+    <p><strong>X:</strong> {{ contact.x_handle or '—' }}</p>
+  </section>
+
+  <section class="contact-block">
+    <h3>Enrichment</h3>
+    <p><strong>Decision score:</strong> {{ contact.decision_maker_score or '—' }}</p>
+    <p><strong>Intimacy:</strong> {{ contact.intimacy_grade or '—' }}</p>
+    <p><strong>Fit summary:</strong>
+      {% set contact_payload = contact.payload.contact if contact.payload and contact.payload.contact is mapping else {} %}
+      {{ contact_payload.fit_reason or contact.payload.contact_fit_reason or '—' }}
+    </p>
+  </section>
+
+  <section class="contact-block">
+    <h3>Evidence</h3>
+    <ul>
+      {% for item in contact.payload.contact.evidence if contact.payload and contact.payload.get("contact") %}
+      <li>{{ item.get("source_url","") }} — {{ item.get("quote_or_fact","") }}</li>
+      {% else %}
+      <li>No evidence rows.</li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="contact-block">
+    <details>
+      <summary>JSON</summary>
+      <pre>{{ contact.payload | tojson(indent=2) }}</pre>
+    </details>
+  </section>
+  {% endif %}
+</div>

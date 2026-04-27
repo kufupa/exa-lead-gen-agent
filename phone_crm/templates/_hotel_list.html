@@ -1,0 +1,73 @@
+<section class="left-panel panel">
+  {% for group in groups %}
+  <details class="hotel-block" open>
+    <summary>
+      <span class="hotel-title">
+        {{ group.hotel_name }}
+        <span class="hotel-meta">
+          {{ group.pending_count }} pending / {{ group.total_count }}
+        </span>
+      </span>
+      {% if group.target_url %}
+      <small><a href="{{ group.target_url }}" target="_blank" rel="noopener noreferrer">{{ group.target_url }}</a></small>
+      {% endif %}
+    </summary>
+    <div class="contact-list">
+      {% for contact in group.contacts %}
+      <div
+        class="contact-row {% if contact.status != 'pending' %}contact-row-muted{% endif %} {% if selected_id == contact.occurrence_id %}contact-row-selected{% endif %}"
+        hx-get="/contact?id={{ contact.occurrence_id | crm_url }}"
+        hx-target="#detail-panel"
+        hx-swap="innerHTML"
+        role="button"
+        tabindex="0"
+        style="cursor: pointer;"
+      >
+        <span class="contact-main">
+          <span class="contact-name">{{ contact.full_name }}</span>
+          <span class="contact-title-text">{{ contact.title }}</span>
+          <span class="contact-handle">{{ contact.primary_handle }}</span>
+        </span>
+        <span class="contact-actions">
+          {% if contact.status == "pending" %}
+          <button
+            type="button"
+            class="ghost-btn mark-btn-done"
+            hx-post="/contact/status"
+            hx-target="#crm-main"
+            hx-swap="outerHTML"
+            hx-vals='{"id":"{{ contact.occurrence_id | crm_url }}","status":"done","phones_only":"{{ "true" if phones_only else "false" }}"}'
+          >
+            Done
+          </button>
+          <button
+            type="button"
+            class="ghost-btn mark-btn-skip"
+            hx-post="/contact/status"
+            hx-target="#crm-main"
+            hx-swap="outerHTML"
+            hx-vals='{"id":"{{ contact.occurrence_id | crm_url }}","status":"skipped","phones_only":"{{ "true" if phones_only else "false" }}"}'
+          >
+            Skip
+          </button>
+          {% else %}
+          <button
+            type="button"
+            class="ghost-btn mark-btn-undo"
+            hx-post="/contact/status"
+            hx-target="#crm-main"
+            hx-swap="outerHTML"
+            hx-vals='{"id":"{{ contact.occurrence_id | crm_url }}","status":"pending","phones_only":"{{ "true" if phones_only else "false" }}"}'
+          >
+            Undo
+          </button>
+          {% endif %}
+        </span>
+      </div>
+      {% endfor %}
+    </div>
+  </details>
+  {% else %}
+  <div class="empty-state">No contacts to show.</div>
+  {% endfor %}
+</section>

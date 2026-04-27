@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: phone-crm
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn phone_crm.app:app --host 0.0.0.0 --port $PORT"
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL
+        value: "postgresql://postgres:REPLACE_PASSWORD@db.<project-ref>.supabase.co:5432/postgres"
+      - key: CRM_USERNAME
+        value: admin
+      - key: CRM_PASSWORD
+        value: change-me
+      - key: CRM_JSON_PATH
+        value: fullJSONs/all_enriched_leads.json

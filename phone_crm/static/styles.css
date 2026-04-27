@@ -1,0 +1,269 @@
+:root {
+  --bg: #0a0a0a;
+  --panel: #131313;
+  --line: #222;
+  --text: #e5e5e5;
+  --muted: #999;
+  --ok: #14532d;
+  --bad: #7f1d1d;
+  --warn: #6f4e00;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.crm-shell {
+  min-height: 100vh;
+  width: min(1300px, 100vw);
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.app-header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+  background: #070707;
+}
+
+.header-title {
+  font-weight: 700;
+}
+
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.pill {
+  border: 1px solid var(--line);
+  padding: 6px 10px;
+  border-radius: 999px;
+  color: #d5d5d5;
+  background: #0b0b0b;
+}
+
+.ghost-btn {
+  border: 1px solid #2a2a2a;
+  background: #151515;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.phone-filter-btn.active {
+  border-color: var(--ok);
+  background: #1b3d25;
+}
+
+.layout {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 12px;
+}
+
+.left-panel,
+.right-panel {
+  padding: 10px;
+  max-height: calc(100vh - 160px);
+}
+
+.hotels-list {
+  display: grid;
+  gap: 10px;
+  overflow: auto;
+}
+
+.hotel-block {
+  border: 1px solid #272727;
+  border-radius: 10px;
+  background: #0f0f0f;
+  padding: 8px;
+}
+
+.hotel-block summary {
+  cursor: pointer;
+}
+
+.hotel-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.hotel-meta {
+  color: #bbb;
+  font-size: 0.82rem;
+}
+
+.contact-list {
+  display: grid;
+  gap: 8px;
+}
+
+.contact-row {
+  width: 100%;
+  border: 1px solid #2a2f42;
+  border-radius: 8px;
+  padding: 9px 10px;
+  text-align: left;
+  background: #0f0f0f;
+  color: inherit;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.contact-row-selected {
+  border-color: #3f5b8c;
+  background: #131f2a;
+}
+
+.contact-row-muted {
+  opacity: 0.52;
+}
+
+.contact-actions {
+  align-self: start;
+  display: inline-flex;
+  gap: 6px;
+}
+
+.mark-btn-done {
+  border-color: #1f6f3a;
+  background: var(--ok);
+}
+
+.mark-btn-skip {
+  border-color: #8c2a2a;
+  background: var(--bad);
+}
+
+.mark-btn-undo {
+  border-color: #4b4b4b;
+  background: #242424;
+}
+
+.contact-name {
+  display: block;
+  font-weight: 600;
+}
+
+.contact-title-text {
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
+.contact-handle {
+  color: #9ecbff;
+  font-size: 0.84rem;
+}
+
+.right-panel {
+  display: grid;
+  gap: 10px;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+}
+
+.status-pill {
+  border-radius: 999px;
+  padding: 4px 8px;
+  border: 1px solid #2a2a2a;
+  text-transform: lowercase;
+}
+
+.status-done {
+  background: #1b3d25;
+}
+
+.status-skipped {
+  background: #3a1717;
+}
+
+.status-pending {
+  background: #202020;
+}
+
+.contact-block {
+  background: #0b0b0b;
+  border: 1px solid #262626;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  background: #0b0b0b;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 8px;
+}
+
+.notes-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.empty-state {
+  border: 1px dashed #2a2a2a;
+  border-radius: 8px;
+  padding: 24px;
+  color: #777;
+}
+
+.error {
+  color: #ff8080;
+  border: 1px solid #7f1d1d;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+pre {
+  white-space: pre-wrap;
+  overflow: auto;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .left-panel,
+  .right-panel {
+    max-height: none;
+  }
+}

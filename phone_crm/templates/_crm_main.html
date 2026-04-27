@@ -1,0 +1,27 @@
+<main id="crm-main" class="crm-shell">
+  <div class="app-header">
+    <button
+      class="ghost-btn phone-filter-btn {% if phones_only %}active{% endif %}"
+      hx-get="/crm?phones_only={{ 'false' if phones_only else 'true' }}{% if selected_id %}&selected={{ selected_id | crm_url }}{% endif %}"
+      hx-target="#crm-main"
+      hx-swap="outerHTML"
+    >
+      Phones only
+    </button>
+    <div class="pill">All: {{ summary.total }}</div>
+    <div class="pill">Pending: {{ summary.pending }}</div>
+    <div class="pill">Done: {{ summary.done }}</div>
+    <div class="pill">Skipped: {{ summary.skipped }}</div>
+  </div>
+
+  {% if error %}
+  <div class="error">{{ error }}</div>
+  {% endif %}
+
+  <section class="layout">
+    {% include "_hotel_list.html" %}
+    <section id="detail-wrap">
+      {% include "_contact_detail.html" %}
+    </section>
+  </section>
+</main>
