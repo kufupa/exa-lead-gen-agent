@@ -14,6 +14,7 @@ from phone_crm.auth import require_user
 from phone_crm.config import load_settings
 from phone_crm.db import open_connection
 from phone_crm.models import CrmSummary
+from phone_crm.contact_display import build_contact_display
 from phone_crm.queries import (
     build_groups,
     build_summary,
@@ -21,7 +22,7 @@ from phone_crm.queries import (
     fetch_contacts,
     find_next_contact_id,
     update_notes,
-    update_status,
+    update_notes_and_status,
 )
 
 app = FastAPI()
@@ -65,7 +66,7 @@ def _render_main(
     summary: CrmSummary,
     phones_only: bool,
     selected_id: str | None,
-    selected,
+    selected_contact,
     error: str | None = None,
 ):
     return templates.TemplateResponse(
@@ -77,8 +78,9 @@ def _render_main(
             "summary": summary,
             "phones_only": phones_only,
             "selected_id": selected_id,
-            "selected": selected,
+            "contact": selected_contact,
             "error": error,
+            "contact_display": build_contact_display(selected_contact),
         },
     )
 
@@ -97,8 +99,9 @@ def _render_main_error(
             "summary": CrmSummary(total=0, pending=0, done=0, skipped=0),
             "phones_only": phones_only,
             "selected_id": None,
-            "selected": None,
+            "contact": None,
             "error": error,
+            "contact_display": build_contact_display(None),
         },
         status_code=500,
     )
@@ -107,6 +110,7 @@ def _render_main_error(
 def _render_contact_error(
     request: Request,
     error: str,
+    phones_only: bool = True,
 ):
     return templates.TemplateResponse(
         request=request,
@@ -115,18 +119,26 @@ def _render_contact_error(
             "request": request,
             "contact": None,
             "error": error,
+            "phones_only": phones_only,
+            "contact_display": build_contact_display(None),
         },
         status_code=500,
     )
 
 
-def _render_contact_detail(request: Request, contact):
+def _render_contact_detail(
+    request: Request,
+    contact,
+    phones_only: bool = True,
+):
     return templates.TemplateResponse(
         request=request,
         name="_contact_detail.html",
         context={
             "request": request,
             "contact": contact,
+            "phones_only": phones_only,
+            "contact_display": build_contact_display(contact),
         },
     )
 
@@ -170,11 +182,16 @@ async def crm_list(
             contacts = fetch_contacts(conn, phones_only=phones_only)
         groups = build_groups(contacts, phones_only=phones_only)
         summary = build_summary(contacts)
-        selected_id = _pick_selected(groups, selected, phones_only=phones_only)
-        selected_contact = None
-        if selected_id:
-            with open_connection(load_settings()) as conn:
-                selected_contact = fetch_contact(conn, selected_id)
+        requested_selected = selected.strip() if selected else None
+        selected_id = _pick_selected(groups, requested_selected, phones_only=phones_only)
+        selected_contact = (
+            next(
+                (contact for group in groups for contact in group.contacts if contact.occurrence_id == selected_id),
+                None,
+            )
+            if selected_id
+            else None
+        )
         return _render_main(
             request,
             groups,
@@ -192,12 +209,13 @@ async def crm_list(
 async def contact_detail(
     request: Request,
     id: str = Query(...),
+    phones_only: bool = Query(default=True),
     _user: str = Depends(require_user),
 ) -> HTMLResponse:
     try:
         with open_connection(load_settings()) as conn:
             contact = fetch_contact(conn, id)
-        return _render_contact_detail(request, contact)
+        return _render_contact_detail(request, contact, phones_only=phones_only)
     except Exception as error:
         logger.exception("Failed loading contact detail")
         return _render_contact_error(request, _error_message(error))
@@ -208,15 +226,35 @@ async def save_notes(
     request: Request,
     id: str = Form(...),
     notes: str = Form(""),
+    phones_only: bool = Form(True),
     _user: str = Depends(require_user),
 ) -> HTMLResponse:
     try:
         with open_connection(load_settings()) as conn:
             updated = update_notes(conn, id, notes)
-        return _render_contact_detail(request, updated)
+            contacts = fetch_contacts(conn, phones_only=phones_only)
+        groups = build_groups(contacts, phones_only=phones_only)
+        summary = build_summary(contacts)
+        requested_selected = updated.occurrence_id if updated else None
+        selected_id = _pick_selected(groups, requested_selected, phones_only=phones_only)
+        selected_contact = next(
+            (contact for group in groups for contact in group.contacts if contact.occurrence_id == selected_id),
+            updated,
+        )
+        if not selected_contact and selected_id:
+            with open_connection(load_settings()) as conn:
+                selected_contact = fetch_contact(conn, selected_id)
+        return _render_main(
+            request,
+            groups,
+            summary,
+            phones_only,
+            selected_id,
+            selected_contact,
+        )
     except Exception as error:
         logger.exception("Failed saving contact notes")
-        return _render_contact_error(request, _error_message(error))
+        return _render_main_error(request, phones_only, _error_message(error))
 
 
 @app.post("/contact/status", response_class=HTMLResponse)
@@ -224,6 +262,8 @@ async def set_status(
     request: Request,
     id: str = Form(...),
     status: str = Form(...),
+    notes: str = Form(""),
+    notes_mirror: str = Form(""),
     phones_only: bool = Form(True),
     _user: str = Depends(require_user),
 ) -> HTMLResponse:
@@ -237,15 +277,18 @@ async def set_status(
                 "summary": CrmSummary(total=0, pending=0, done=0, skipped=0),
                 "phones_only": phones_only,
                 "selected_id": None,
-                "selected": None,
+                "contact": None,
                 "error": "Invalid status",
+                "contact_display": build_contact_display(None),
             },
             status_code=400,
         )
 
+    normalized_notes = notes if notes else notes_mirror
+
     try:
         with open_connection(load_settings()) as conn:
-            updated = update_status(conn, id, status)
+            updated = update_notes_and_status(conn, id, normalized_notes, status)
             contacts = fetch_contacts(conn, phones_only=phones_only)
         groups = build_groups(contacts, phones_only=phones_only)
         summary = build_summary(contacts)
@@ -255,17 +298,20 @@ async def set_status(
         if not selected_id:
             selected_id = _pick_selected(groups, None, phones_only=phones_only)
 
-        selected = None
-        if selected_id:
+        selected_contact = next(
+            (contact for group in groups for contact in group.contacts if contact.occurrence_id == selected_id),
+            None,
+        )
+        if not selected_contact and selected_id:
             with open_connection(load_settings()) as conn:
-                selected = fetch_contact(conn, selected_id)
+                selected_contact = fetch_contact(conn, selected_id)
         return _render_main(
             request,
             groups,
             summary,
             phones_only,
             selected_id,
-            selected,
+            selected_contact,
         )
     except Exception as error:
         logger.exception("Failed updating contact status")

@@ -104,6 +104,29 @@ def update_status(conn: psycopg.Connection, occurrence_id: str, status: str) -> 
     return row_to_contact(row)
 
 
+def update_notes_and_status(
+    conn: psycopg.Connection,
+    occurrence_id: str,
+    notes: str,
+    status: str,
+) -> ContactRow | None:
+    with conn.cursor() as cur:
+        cur.execute(
+            """
+            update public.crm_contacts
+            set notes = %s, status = %s
+            where occurrence_id = %s
+            returning *
+            """,
+            (notes, status, occurrence_id),
+        )
+        row = cur.fetchone()
+    if row is None:
+        return None
+    conn.commit()
+    return row_to_contact(row)
+
+
 def _status_sort_rank(status: str) -> int:
     if status == "pending":
         return 0
