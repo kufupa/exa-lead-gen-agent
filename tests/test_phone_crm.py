@@ -7,7 +7,7 @@ import pytest
 
 from phone_crm.models import ContactRow
 from phone_crm.normalizer import normalize_contact_row
-from phone_crm.queries import build_groups, find_next_contact_id, normalize_rows_from_json
+from phone_crm.queries import build_groups, fetch_contacts, find_next_contact_id, normalize_rows_from_json
 from phone_crm.sync import run_sync
 
 
@@ -79,6 +79,7 @@ def _row(
     full_name: str,
     status: str = "pending",
     has_contact_route: bool = True,
+    has_phone: bool = False,
 ) -> ContactRow:
     return ContactRow(
         occurrence_id=occurrence_id,
@@ -97,7 +98,7 @@ def _row(
         other_contact_detail="",
         decision_maker_score="",
         intimacy_grade="",
-        has_phone=False,
+        has_phone=has_phone,
         has_email=False,
         has_contact_route=has_contact_route,
         status=status,
@@ -109,9 +110,9 @@ def _row(
 def test_build_groups_sorts_by_pending_count_then_name() -> None:
     rows = [
         _row(occurrence_id="a1", hotel_name="Hotel B", full_name="Zelda", status="done"),
-        _row(occurrence_id="a2", hotel_name="Hotel B", full_name="Ana", status="pending"),
-        _row(occurrence_id="a3", hotel_name="Hotel B", full_name="Ben", status="pending"),
-        _row(occurrence_id="b1", hotel_name="Hotel A", full_name="Cara", status="pending"),
+        _row(occurrence_id="a2", hotel_name="Hotel B", full_name="Ana", status="pending", has_phone=True),
+        _row(occurrence_id="a3", hotel_name="Hotel B", full_name="Ben", status="pending", has_phone=True),
+        _row(occurrence_id="b1", hotel_name="Hotel A", full_name="Cara", status="pending", has_phone=True),
     ]
 
     groups = build_groups(rows)
@@ -123,9 +124,9 @@ def test_build_groups_sorts_by_pending_count_then_name() -> None:
 def test_find_next_contact_prefers_same_hotel_pending_then_global_next() -> None:
     rows = [
         _row(occurrence_id="a1", hotel_name="Hotel B", full_name="Zelda", status="done"),
-        _row(occurrence_id="a2", hotel_name="Hotel B", full_name="Ana", status="pending"),
-        _row(occurrence_id="a3", hotel_name="Hotel B", full_name="Ben", status="pending"),
-        _row(occurrence_id="b1", hotel_name="Hotel A", full_name="Cara", status="pending"),
+        _row(occurrence_id="a2", hotel_name="Hotel B", full_name="Ana", status="pending", has_phone=True),
+        _row(occurrence_id="a3", hotel_name="Hotel B", full_name="Ben", status="pending", has_phone=True),
+        _row(occurrence_id="b1", hotel_name="Hotel A", full_name="Cara", status="pending", has_phone=True),
     ]
 
     assert find_next_contact_id(rows, "a2") == "a3"
@@ -139,3 +140,40 @@ def test_find_next_contact_returns_none_for_final_row() -> None:
         _row(occurrence_id="a2", hotel_name="Hotel A", full_name="Done", status="done", has_contact_route=False),
     ]
     assert find_next_contact_id(rows, "a1") is None
+
+
+def test_fetch_contacts_phones_only_filters_phone_routes() -> None:
+    class FakeCursor:
+        def __init__(self) -> None:
+            self.executed = []
+            self.rows = []
+
+        def __enter__(self) -> "FakeCursor":
+            return self
+
+        def __exit__(self, *_args: object) -> None:
+            return None
+
+        def execute(self, query: str, params: tuple[bool]) -> None:
+            self.executed.append((query, params))
+
+        def fetchall(self) -> list[dict[str, object]]:
+            return self.rows
+
+    class FakeConnection:
+        def __init__(self, cursor: FakeCursor) -> None:
+            self._cursor = cursor
+
+        def cursor(self) -> FakeCursor:
+            return self._cursor
+
+    cursor = FakeCursor()
+    conn = FakeConnection(cursor)
+
+    fetch_contacts(conn, phones_only=True)
+
+    assert len(cursor.executed) == 1
+    query, params = cursor.executed[0]
+    flattened = " ".join(query.split())
+    assert "%s = false or has_phone = true or coalesce(phone, '') <> '' or coalesce(phone2, '') <> ''" in flattened
+    assert params == (True,)

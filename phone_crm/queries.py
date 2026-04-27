@@ -48,7 +48,7 @@ def fetch_contacts(conn: psycopg.Connection, phones_only: bool) -> list[ContactR
             """
             select *
             from public.crm_contacts
-            where (%s = false or has_phone = true)
+            where (%s = false or has_phone = true or coalesce(phone, '') <> '' or coalesce(phone2, '') <> '')
             order by lower(hotel_name), lower(full_name), occurrence_id
             """,
             (phones_only,),
@@ -112,6 +112,10 @@ def _status_sort_rank(status: str) -> int:
     return 3
 
 
+def _is_actionable_pending(row: ContactRow) -> bool:
+    return row.status == "pending" and row.has_phone
+
+
 def build_groups(rows: list[ContactRow]) -> list[HotelGroup]:
     by_hotel: dict[str, list[ContactRow]] = {}
     hotel_meta: dict[str, str] = {}
@@ -131,7 +135,7 @@ def build_groups(rows: list[ContactRow]) -> list[HotelGroup]:
         pending_count = sum(
             1
             for c in sorted_contacts
-            if c.status == "pending" and c.has_contact_route
+            if _is_actionable_pending(c)
         )
         groups.append(
             HotelGroup(
@@ -173,7 +177,7 @@ def find_next_contact_id(rows: list[ContactRow], current_id: str | None) -> str 
 
     if not current_id:
         for row in ordered:
-            if row.status == "pending" and row.has_contact_route:
+            if _is_actionable_pending(row):
                 return row.occurrence_id
         return None
 
@@ -187,7 +191,7 @@ def find_next_contact_id(rows: list[ContactRow], current_id: str | None) -> str 
                 [
                     r
                     for r in group.contacts
-                    if r.status == "pending" and r.has_contact_route
+                    if _is_actionable_pending(r)
                 ]
             )
             break
@@ -200,10 +204,10 @@ def find_next_contact_id(rows: list[ContactRow], current_id: str | None) -> str 
 
     if current_index is not None:
         for row in ordered[current_index + 1 :]:
-            if row.status == "pending" and row.has_contact_route:
+            if _is_actionable_pending(row):
                 return row.occurrence_id
     for row in ordered:
-        if row.status == "pending" and row.has_contact_route and row.occurrence_id != current_id:
+        if _is_actionable_pending(row) and row.occurrence_id != current_id:
             return row.occurrence_id
     return None
 
