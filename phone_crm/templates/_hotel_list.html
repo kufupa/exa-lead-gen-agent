@@ -23,7 +23,7 @@
             <button
               type="button"
               class="contact-row-{{ contact.status }}{% if contact.occurrence_id == selected_id %} is-active{% endif %}"
-              hx-get="/contact?id={{ contact.occurrence_id }}&phones_only=true"
+              hx-get="/contact?id={{ contact.occurrence_id }}&phones_only={{ 'true' if phones_only else 'false' }}"
               hx-target=".crm-right"
               hx-swap="innerHTML"
             >

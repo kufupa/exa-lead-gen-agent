@@ -24,6 +24,21 @@ function syncNotesMirrors() {
 document.addEventListener("submit", (event) => {
   const form = event.target.closest("form");
   if (!form) return;
+
+  const contactPanel = form.closest("#contactPanel");
+  if (contactPanel) {
+    const notesInput = contactPanel.querySelector("#notesText");
+    if (notesInput) {
+      const currentValue = notesInput.value || "";
+      const mirrors = contactPanel.querySelectorAll("[data-notes-mirror]");
+      mirrors.forEach((mirror) => {
+        if (mirror === notesInput) return;
+        setMirrorValue(mirror, currentValue);
+      });
+      return;
+    }
+  }
+
   const notesInput = form.querySelector("#notesText");
   if (!notesInput) return;
   const currentValue = notesInput.value || "";
