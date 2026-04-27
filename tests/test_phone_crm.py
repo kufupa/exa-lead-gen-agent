@@ -12,6 +12,7 @@ from phone_crm.queries import (
     fetch_contacts,
     find_next_contact_id,
     normalize_rows_from_json,
+    update_notes_and_status,
     row_to_contact,
 )
 from phone_crm.sync import run_sync
@@ -205,6 +206,28 @@ def test_build_groups_respects_mode_specific_pending_counts() -> None:
     }
 
 
+def test_build_groups_orders_by_status_when_phones_only() -> None:
+    rows = [
+        _row(occurrence_id="done", hotel_name="Hotel A", full_name="Done", status="done", has_phone=True),
+        _row(occurrence_id="skipped", hotel_name="Hotel A", full_name="Skipped", status="skipped", has_phone=True),
+        _row(
+            occurrence_id="pending",
+            hotel_name="Hotel A",
+            full_name="Pending",
+            status="pending",
+            has_phone=True,
+        ),
+    ]
+
+    groups = build_groups(rows, phones_only=True)
+    assert len(groups) == 1
+    assert [contact.occurrence_id for contact in groups[0].contacts] == [
+        "pending",
+        "done",
+        "skipped",
+    ]
+
+
 def test_find_next_contact_prefers_same_hotel_pending_then_global_next() -> None:
     rows = [
         _row(occurrence_id="a1", hotel_name="Hotel B", full_name="Zelda", status="done"),
@@ -293,3 +316,69 @@ def test_fetch_contacts_phones_only_filters_phone_routes() -> None:
     flattened = " ".join(query.split())
     assert "%s = false or has_phone = true or coalesce(btrim(phone), '') <> '' or coalesce(btrim(phone2), '') <> ''" in flattened
     assert params == (True,)
+
+
+def test_update_notes_and_status_maps_row_and_writes_payload() -> None:
+    class FakeCursor:
+        def __init__(self) -> None:
+            self.executed = []
+
+        def __enter__(self) -> "FakeCursor":
+            return self
+
+        def __exit__(self, *_args: object) -> None:
+            return None
+
+        def execute(self, query: str, params: tuple[str, str, str]) -> None:
+            self.executed.append((query, params))
+
+        def fetchone(self) -> dict[str, object]:
+            return {
+                "occurrence_id": "occ-1",
+                "source_enriched_json": "jsons/file.enriched.json",
+                "target_url": "https://hotel.example",
+                "hotel_name": "hotel.example",
+                "full_name": "Alex Morgan",
+                "title": "Sales Director",
+                "primary_handle": "@alex",
+                "phone": " +44 20 1234 5678 ",
+                "phone2": "   ",
+                "email": "",
+                "email2": "",
+                "linkedin_url": "",
+                "x_handle": "",
+                "other_contact_detail": "",
+                "decision_maker_score": "high",
+                "intimacy_grade": "medium",
+                "has_phone": False,
+                "has_email": False,
+                "has_contact_route": True,
+                "status": "done",
+                "notes": "called back tomorrow",
+                "payload": '{"evidence": [{"source_url": "https://example.com"}]}',
+            }
+
+    class FakeConnection:
+        def __init__(self, cursor: FakeCursor) -> None:
+            self._cursor = cursor
+            self.commits = 0
+
+        def cursor(self) -> FakeCursor:
+            return self._cursor
+
+        def commit(self) -> None:
+            self.commits += 1
+
+    cursor = FakeCursor()
+    conn = FakeConnection(cursor)
+    updated = update_notes_and_status(conn, "occ-1", "called back tomorrow", "done")
+
+    assert updated is not None
+    assert updated.occurrence_id == "occ-1"
+    assert updated.status == "done"
+    assert updated.notes == "called back tomorrow"
+    assert updated.has_phone is True
+    assert updated.payload == {"evidence": [{"source_url": "https://example.com"}]}
+    assert cursor.executed and "set notes = %s, status = %s" in " ".join(cursor.executed[0][0].split())
+    assert cursor.executed[0][1] == ("called back tomorrow", "done", "occ-1")
+    assert conn.commits == 1
