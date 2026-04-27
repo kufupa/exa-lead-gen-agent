@@ -1,4 +1,7 @@
 <div id="detail-panel" class="right-panel panel">
+  {% if error %}
+  <div class="error">{{ error }}</div>
+  {% endif %}
   {% if not contact %}
   <div class="empty-state">Choose a contact.</div>
   {% else %}
