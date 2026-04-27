@@ -73,7 +73,7 @@
       "full_name": "Gianna Guido",
       "title": "Area Sales Manager Tuscany & SMEs",
       "company": "Starhotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/guido-giovanna-a244ba14a",
       "email": "g.guido@starhotels.it",
       "email2": null,
       "phone": "+39 340 4117577",
@@ -95,13 +95,58 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales offices Florence: +39 055 3692230, sales@starhotels.it"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/guido-giovanna-a244ba14a",
+        "display_name": "Guido Giovanna",
+        "headline": "Area Sales Manager Toscana & SME",
+        "location": "Florence, Tuscany, Italy (IT)",
+        "about": "Total Experience: 21 years and 3 months",
+        "experience": [
+          {
+            "title": "Sales Coordinator",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Nov 2004 - May 2024 • 19 years and 6 months",
+            "location": "Firenze, Italia",
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Sales Development Executive",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Apr 2024 - Apr 2025 • 1 year",
+            "location": "Firenze, Toscana, Italia",
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Area Sales Manager Toscana SME",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Apr 2025 - Present • 10 months",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and travel industry networking",
+          "Starhotels internal events, conventions and team activities",
+          "ILTM luxury travel market connections and meetings",
+          "Talent development and leadership appointments in hotels",
+          "Italian hospitality cultural and musical events"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Elisabetta Fabri",
       "title": "President & CEO",
       "company": "Starhotels S.p.A.",
-      "linkedin_url": "https://it.linkedin.com/in/elisabetta-fabri-14254aa",
+      "linkedin_url": "https://www.linkedin.com/in/elisabetta-fabri-14254aa",
       "email": "e.fabri@starhotels.it",
       "email2": null,
       "phone": null,
@@ -128,13 +173,70 @@
           "source_type": "news",
           "quote_or_fact": "References group leadership under Elisabetta Fabri."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/elisabetta-fabri-14254aa",
+        "display_name": "Elisabetta Fabri",
+        "headline": "President & CEO Starhotels Group",
+        "location": "Florence, Tuscany, Italy (IT)",
+        "about": "Total Experience: 25 years and 8 months",
+        "experience": [
+          {
+            "title": "Vice Presidente AD",
+            "organization": "Starhotels Group",
+            "date_range": "May 2000 - Dec 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "President CEO",
+            "organization": "Starhotels Group",
+            "date_range": "Jan 2012 - Present",
+            "location": "Florence Area, Italy",
+            "description": "Company: 501-1000 employees • Founded 1980 • Privately Held • Hospitality\nDepartment: C-Suite • Level: C-Level"
+          }
+        ],
+        "education": [
+          {
+            "school": "JCabotUniversity",
+            "degree_or_field": "Laurea in BBA",
+            "date_range": null
+          },
+          {
+            "school": "Ecole hoteliere de Lausanne, Suisse",
+            "degree_or_field": "Laurea",
+            "date_range": null
+          }
+        ],
+        "skills": [],
+        "activity_themes": [
+          "Starhotels sustainability certifications and initiatives",
+          "Italian tourism growth, destagionalizzazione and hospitality leadership",
+          "Luxury cultural experiences and Grand Tour promotions in Rome and Venice",
+          "Starhotels brand awards and recognitions",
+          "International roadshows and commercial promotions",
+          "Hotel openings, renovations and new chapters",
+          "Team anniversaries, holiday celebrations and internal engagement"
+        ],
+        "source_urls": [
+          "https://it.www.linkedin.com/posts/andrea-sangiuliano-a56973b0_pane-burro-e-alici-caferomano-activity-7421999257806688256-ZIll",
+          "https://it.www.linkedin.com/posts/alberghi-confindustria-8a08bb170_turismo-destagionalizzazione-alberghi-activity-7421510306893447168-RaPH",
+          "https://it.www.linkedin.com/posts/lucia-basile-5191651b7_starhotels-sostenibilità-accredia-activity-7421897820518895616-UIzi",
+          "https://it.www.linkedin.com/posts/italia-secrets_venezia-hotelgabrielli-activity-7421462083202031616-oOor",
+          "https://www.linkedin.com/posts/claudia-bisaccioni-00a0b6aa_roadshow-delhi-mumbai-activity-7421494431247167488-FKML",
+          "https://it.www.linkedin.com/posts/starhotels_roma-grandtour-hoteld-activity-7417528801011617793-cyZM",
+          "https://www.linkedin.com/posts/starhotels_classiceuropehotelchain-travellers-classicvacations-activity-7403017958505041920-I5MA",
+          "https://www.linkedin.com/posts/starhotels_newchapters-destinations-identity-activity-7412062508968235008-pkPa"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Diego Rumazza",
       "title": "Global Director of Sales",
       "company": "Starhotels",
-      "linkedin_url": "https://it.linkedin.com/in/diegorumazza",
+      "linkedin_url": "https://www.linkedin.com/in/diegorumazza",
       "email": "d.rumazza@starhotels.it",
       "email2": null,
       "phone": null,
@@ -161,7 +263,184 @@
           "source_type": "news",
           "quote_or_fact": "Diego Rumazza (Group Director of Sales) leading respective teams under new CCO structure."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/diegorumazza",
+        "display_name": "Diego Rumazza",
+        "headline": "Global Director of Sales @ Starhotels | International Hospitality & Luxury | Revenue Growth, Global Markets, Strategic Partnerships",
+        "location": "Milan, Lombardy, Italy",
+        "about": "Global Director of Sales with extensive experience in international hospitality and…",
+        "experience": [
+          {
+            "title": "Ship Supervisor",
+            "organization": "Costa Crociere",
+            "date_range": "May 1999 - May 2001",
+            "location": "Genoa, Liguria, Italy",
+            "description": "Responsible for Revenue Management and Sales Optimization\nDepartment: Operations • Level: Specialist"
+          },
+          {
+            "title": "Account Manager",
+            "organization": "Jolly Hotels Spa",
+            "date_range": "May 2001 - Jun 2007",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Key Account Management (Key Corporate Accounts and TMC’s in Europe), promotion, contracts, negotiations, incentive programs and marketing activities for the entire chain of 45 hotels (39 in Italy, 1 in UK, 2 in Germany, 1 in Paris, 2 in Benelux). -Corporate Portfolio: 8 mln individual + 3 mln MICE -Travel Agencies and Consortia Portfolio: 11 mln Euros -International Account Management Project Leader for Axa, Eni Group, Novartis and Sanofi Aventis – coordination of the international sales team to drive revenue to the company from the international accounts RFP and Nexus Coordinator -Identification and selection new business opportunities in the E-commerce market -Revenue analysis for new development programs: potentials and ROI on possible investments to new destinations (evaluations for possible acquisitions of new properties in Perugia, Cremona, Mantova, Milan and Savona)\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Sales Leisure And Mice",
+            "organization": "Domina Hotel Group",
+            "date_range": "Jul 2007 - Dec 2008",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Responsible for strategic implementations and strategy towards Tour Operators, Web Site Operators and Agencies and PCO."
+          },
+          {
+            "title": "Director Of Sales Italy - Direttore Vendite Italia",
+            "organization": "Domina Hotel Group",
+            "date_range": "Jan 2008 - Jan 2010",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Responsible for the revenue generated from the Corporate, Leisure and MICE market for the properties based in Italy and the Italian Market. Development of major sales strategies, support to critical situation, definition of new sales activities,. Major markets of activity: European, Russian, American and Middle East Coordination of Hotel Director of Sales, Sales Manager and Sales Executive based in the different properties Support to Development and Acquisition Department: market analysis, potentials, expected revenues in Italy and abroad Implementation of the Utell partnership"
+          },
+          {
+            "title": "Director Of Sales Sheraton Roma Hotel Conference Center",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Jan 2010 - Feb 2014",
+            "location": "Rome, Latium, Italy",
+            "description": "Responsible for the revenue generated and marketing activities for a 640 keys property with 30 meeting rooms. Major market: MICE, Corporat, Leisure Groups and Crews. Complete repositioning following a 23 million euro renovation. Coordinated a team of 4 enthusiastic active sales person and 11 reactive event sales members.\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Sheraton Saigon Hotel & Towers",
+            "date_range": "Feb 2014 - Jan 2015",
+            "location": "Ho Chi Minh, Vietnam",
+            "description": "Leading an enthusiastic team of 18 sellers and 3 marketing specialists of a Five Stars 485 rooms property and 17 meeting rooms in Ho Chi Minh (Vietnam). Sheraton Saigon is currently among the 15 top hotels for Starwood in Asia Pacific. The hotel features also 3 restaurants and 1 luxury Spa with a well established leisure, corporate and Mice client base.\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Global Director Of Business Development",
+            "organization": "Starhotels",
+            "date_range": "Jan 2015 - Mar 2017",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Starhotels is an international hotel chain with 29 hotels, 4 & 5 stars, located in the main Italian cities and Paris, London and NYC. The luxury portfolio (3 hotels in London, Paris, New York, Milan, Venice and Trieste) are currently part of Preferred Hotel & Resorts, 2 hotels are part of Leading Hotels of the World and one is part of Small Luxury Hotels. The group offer over 3,700 room and over 150 meeting spaces • Responsible for the sales development of the international markets of Starhotels with specific focus on the luxury offer “Collezione”. • Responsibility of the revenue generated, marketing activities and coordination of the relationships with Preferred Hotel Group (8 luxury hotels currently represented) • Coordination and coaching of the Regional Director of Sales (APAC, Middle East, North America, South America) • Direct responsibility on the GSA for South America • A shared responsibility with the Regional Team to support Hotels in achieving their Budgets and Key Performance Indicators\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Starhotels Collezione",
+            "organization": "Starhotels",
+            "date_range": "Apr 2017 - Jul 2019",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Responsible for the Revenue generated and the development of the Upper Upscale and Luxury Brand Starhotels Collezione. • Functional responsibility of the 9 DOSM/DOS of the Collezione hotels. • Coordination of the relationships with Preferred Hotel Group (8 luxury hotels), Leading Hotels of the World (2 hotels represented), Small Luxury Hotels (2 hotels). • Coordination of sales activities and relationships with FHR, Signature, Virtuoso, Serandipianss. Ensemble, Kiwi Collection, Tablet. • Direct responsibility on the GSA for South America and the GSA for North America."
+          },
+          {
+            "title": "Global Director Of Sales",
+            "organization": "Starhotels",
+            "date_range": "Aug 2019 - Present",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Starhotels is the leading Italian hotel group with 30 hotels represented by 2 different brands Collezione and Premium generating a total revenue of over 200 million euros. Full responsability of the revenue generated by the Sales Team and Group Desk Department for a total of 24 resources.\nDepartment: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "ITC E. Pertini",
+            "degree_or_field": "Diploma Tecnico Commerciale indirizzo giuridico economico aziendale",
+            "date_range": "1987 - 1992"
+          },
+          {
+            "school": "Università di Genova",
+            "degree_or_field": "Diploma Universitario in Economia e Gestione dei Servizi Turistici",
+            "date_range": "1992 - 1996"
+          }
+        ],
+        "skills": [
+          "team support",
+          "well",
+          "drive revenue",
+          "project management",
+          "sales management",
+          "analysis",
+          "sales development",
+          "room",
+          "executive leadership",
+          "management",
+          "sales executive",
+          "international markets",
+          "event sales",
+          "sales & marketing",
+          "director",
+          "optimization",
+          "key account management",
+          "italian language",
+          "key performance indicators",
+          "stars",
+          "market analysis",
+          "sales",
+          "international hospitality",
+          "hotels",
+          "front office",
+          "brand management",
+          "chi",
+          "support",
+          "website management",
+          "development",
+          "active sales",
+          "coordination",
+          "director sales",
+          "sales optimization",
+          "coaching",
+          "new development",
+          "new business opportunities",
+          "strategy",
+          "acquisitions",
+          "large-scale scrum (less)",
+          "website",
+          "indicators",
+          "upscale",
+          "acquisition",
+          "budgets",
+          "luxury brand",
+          "e-commerce",
+          "web development",
+          "consortia",
+          "marketing activities",
+          "event management",
+          "mice (meetings, incentives, conferences, exhibitions)",
+          "performance indicators",
+          "brands",
+          "corporate accounts",
+          "portfolio",
+          "accounts management",
+          "single-page application",
+          "partnership",
+          "international sales",
+          "supervisor",
+          "roi",
+          "investments",
+          "sales director",
+          "account management",
+          "revenue management",
+          "rfp",
+          "new sales",
+          "new business",
+          "incentive programs",
+          "reactive programming",
+          "gsa",
+          "nexus",
+          "project leadership",
+          "marketing",
+          "corporate",
+          "international accounts",
+          "implementation",
+          "revenue",
+          "selection",
+          "account manager",
+          "revenues",
+          "leading",
+          "leadership",
+          "hotel operations"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/diegorumazza"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Flavio Pezone",
@@ -195,7 +474,7 @@
       "full_name": "Marco Pratolongo",
       "title": "General Manager",
       "company": "Rosa Grand (Starhotels Collezione)",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/marco-pratolongo-68a3748",
       "email": "m.pratolongo@starhotels.it",
       "email2": null,
       "phone": "+39 02 88311",
@@ -212,13 +491,145 @@
           "source_type": "official_site",
           "quote_or_fact": "Rosa Grand: General Manager: Marco Pratolongo. reservations.rosa.mi@starhotels.it"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/marco-pratolongo-68a3748",
+        "display_name": "Marco Pratolongo",
+        "headline": "General Manager Rosa Grand Milano - Duomo Luxury Apartments - Starhotels Collezione",
+        "location": "Milan, Lombardy, Italy",
+        "about": "I consider myself a professional and passionate hotelier with long term experience in hospitality industry. I am a firm believer that building a great team is crucial and I am always invested time in developing and motivating the right talent. Strong background in sales.\n\nTotal Experience: 28 years and 11 months",
+        "experience": [
+          {
+            "title": "Sales Manager",
+            "organization": "Crowne Plaza® Hotels & Resorts",
+            "date_range": "Jan 1998 - Jan 2001",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Key Account Incentive Manager",
+            "organization": "Festival Crociere",
+            "date_range": "Jan 2001 - Jan 2002",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Responsabile Vendite",
+            "organization": "Atahotels",
+            "date_range": "Jan 2002 - Jan 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "STARHOTELS",
+            "date_range": "Nov 2005 - Sep 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Director Of Sales",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Sep 2016 - Jul 2019",
+            "location": "Firenze, Italia",
+            "description": null
+          },
+          {
+            "title": "General Manager Complex Hotels (E.C.HO - Anderson - Ritz)",
+            "organization": "Starhotels",
+            "date_range": "Aug 2019 - Mar 2024",
+            "location": "Milan Area, Italy",
+            "description": null
+          },
+          {
+            "title": "Consigliere Gruppo Turismo",
+            "organization": "Assolombarda",
+            "date_range": "Sep 2019 - Present",
+            "location": "Milano, Lombardia, Italia",
+            "description": null
+          },
+          {
+            "title": "Membro Del Comitato Direttivo",
+            "organization": "Centrale District",
+            "date_range": "Sep 2019 - Apr 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Vicepresidente",
+            "organization": "Ebit Milano",
+            "date_range": "Sep 2019 - Jun 2025",
+            "location": "Milano, Lombardia, Italia",
+            "description": null
+          },
+          {
+            "title": "General Manager Rosa Grand Milano - Starhotels Collezione",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Mar 2024 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Presidente",
+            "organization": "Ebit Milano",
+            "date_range": "Jun 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "SDA Bocconi",
+            "degree_or_field": "economia del turismo",
+            "date_range": null
+          },
+          {
+            "school": "Università degli Studi di Genova",
+            "degree_or_field": "Political Science, scienze politiche - internazionale, 110 lode",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "tourism",
+          "hotels",
+          "director sales",
+          "president",
+          "sales",
+          "motivating",
+          "key account management",
+          "general manager",
+          "responsible tourism",
+          "hotelier",
+          "manager",
+          "sales management",
+          "advisor",
+          "hospitality",
+          "management",
+          "director",
+          "sales leadership"
+        ],
+        "activity_themes": [
+          "Starhotels portfolio expansions and luxury properties",
+          "Hospitality leadership appointments and transitions",
+          "Sustainability certifications (GSTC) for hotels",
+          "Milano Cortina 2026 Olympics and related events",
+          "Tourism associations and business networking (Assolombarda, Ebit)",
+          "Hotel technology, innovation conferences and speakers",
+          "Luxury apartments, cultural events and diplomatic receptions",
+          "Italian hospitality industry updates and job postings"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/marco-pratolongo-68a3748"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Massimo Colli",
       "title": "General Manager",
       "company": "Hotel d'Inghilterra (Starhotels Collezione)",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/massimo-colli-a880528",
       "email": null,
       "email2": null,
       "phone": "+39 06 699811",
@@ -235,7 +646,88 @@
           "source_type": "official_site",
           "quote_or_fact": "Hotel d'Inghilterra: General Manager: Massimo Colli. reservations.inghilterra.rm@starhotels.it, +39 06 699811"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/massimo-colli-a880528",
+        "display_name": "Massimo Colli",
+        "headline": "General Manager - Hotel d'Inghilterra in Rome - Small Luxury Hotels",
+        "location": "Rome, Latium, Italy (IT)",
+        "about": "Massimo Colli is the General Manager of the Hotel d’Inghilterra Starhotels Collezione in Rome, part of Exclusive Italian Boutique Hotel and 5 Stars Small Luxury Hotel, located in the heart of Rome closed to the Spanish Steps, Colli is responsible for all operations including Revenue, Sales & Marketing, Room Division, Food & Beverage, Administration and standards policy. Before to joining the Hotel d’Inghillterra in 2011, Colli spent over 17 years in the most luxurious hotels around Italy and in Europe. He came from the Hotel Hassler in Rome Leading Hotel of the World’s, where he spent 4 year as Director of Food & Beverage, from the Grand Hotel Rome Marriot Park, one of the biggest hotels in Europe for Conventions and Banqueting Functions, where is spent 1 and half year in the opening and from the Grand Hotel Westin part of the Starwood Hotels, where is spent 4 year as Outlet Manager. Before Colli held difference positions in a luxury hotels with high standards, including as Assistant Restaurant Manager at the Hotel Il Pellicano part of The Leading Hotels of the World’s and other general f&b experiences carried out in the past are at The Savoy In London, UK, at The Bayerischer Hof in Germany part of The Leading Hotels of the World’s, at the Kempinski Hotel Vier Jahreszeiten - Monaco di Baviera, Germany, at the Grand Hotel Tschuggen Arosa, Switzerland.. Massimo Colli, General Manager with 20 years of experience in both Hotel chain and privately owned 5 star hotels & resorts Experience in planning, marketing, sales, administration and direction of operation in luxury properties. Also experienced in hotel openings, hotel renovations and repositioning with a reputation for high quality service standards",
+        "experience": [
+          {
+            "title": "Outlet Manager",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Jun 2002 - Aug 2006",
+            "location": "Roma",
+            "description": null
+          },
+          {
+            "title": "Ass. Director Of Food Beverage",
+            "organization": "Marriott Hotels",
+            "date_range": "Sep 2006 - Jul 2007",
+            "location": "rome",
+            "description": null
+          },
+          {
+            "title": "Director Of Food Beverage",
+            "organization": "Hotel Hassler Roma",
+            "date_range": "Jul 2007 - Dec 2010",
+            "location": "Roma, Italia",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Niquesa Fine Jewellery",
+            "date_range": "Jan 2011 - Jun 2016",
+            "location": "rome",
+            "description": null
+          },
+          {
+            "title": "General Manager, Hotel D'Inghilterra In Rome - Small Luxury Hotels",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Jul 2016 - Present",
+            "location": "Roma, Italia",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Hotel Business School",
+            "degree_or_field": null,
+            "date_range": "1989 - 1991"
+          }
+        ],
+        "skills": [
+          "sales administration",
+          "hotel",
+          "luxury",
+          "spanish",
+          "responsible",
+          "operations",
+          "sales",
+          "marketing",
+          "food",
+          "administration",
+          "hotels",
+          "director",
+          "di",
+          "planning",
+          "operation"
+        ],
+        "activity_themes": [
+          "Recruitment and job postings for hotel roles (Guest Agent, Sales Coordinator) at Hotel d'Inghilterra",
+          "Luxury hospitality and cultural tourism in Rome including Grand Tour themes",
+          "Food and beverage experiences at Cafe Romano / Starhotels",
+          "Industry discussions on luxury GM appointments and hotel management",
+          "Press trips and promotions for high-end hotels like Rocco Forte",
+          "Engagement with content on art, galleries, and luxury hotel evolution"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/massimo-colli-a880528"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Stefano Squecco",
@@ -264,7 +756,7 @@
       "full_name": "Alessandra Bragoli",
       "title": "General Manager",
       "company": "Castille (Starhotels Collezione)",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/alessandrabragoli",
       "email": null,
       "email2": null,
       "phone": "+33 (0)1 44 58 44 58",
@@ -281,7 +773,41 @@
           "source_type": "official_site",
           "quote_or_fact": "Castille: General Manager: Alessandra Bragoli. T: +33 (0)1 44 58 44 58, reservations@castille.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/alessandrabragoli",
+        "display_name": "Alessandra Bragoli",
+        "headline": "General Manager Castille Paris",
+        "location": "Greater Paris Metropolitan Region (FR)",
+        "about": "A proven and passionate hotelier with more then 25 years experience mainly in Italy and France. Seasoned in all aspects of modern Hotel Management in particular with Sales and Marketing strategies. Highly motivated with a great sense of responsibility towards company goals. Specialist in re-positioning hotels towards the luxury market.",
+        "experience": [],
+        "education": [
+          {
+            "school": "SDA Bocconi",
+            "degree_or_field": "Master's Degree, STRATEGIC MANAGEMENT OF BUSINESS TOURISM",
+            "date_range": "1992 -"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Master's degree, General Manager Program - Marketing in Hospitality General Manager Programme",
+            "date_range": "2003 -"
+          }
+        ],
+        "skills": [
+          "hotel management",
+          "hotel",
+          "management",
+          "sales",
+          "marketing",
+          "positioning",
+          "hotels",
+          "luxury"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Salvatore Pisani",
@@ -310,7 +836,7 @@
       "full_name": "Christian Locatelli",
       "title": "General Manager",
       "company": "Splendid Venice (Starhotels Collezione)",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/christian-locatelli-28537643",
       "email": null,
       "email2": null,
       "phone": "+39 041 5200755",
@@ -327,13 +853,118 @@
           "source_type": "official_site",
           "quote_or_fact": "Splendid Venice: General Manager: Christian Locatelli. reservations.splendidvenice.ve@starhotels.it"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/christian-locatelli-28537643",
+        "display_name": "Christian Locatelli",
+        "headline": "General Manager Hotel Splendid Venice - Starhotels Collezione",
+        "location": "VE, Veneto, Italy (IT)",
+        "about": "Total Experience: 19 years and 6 months",
+        "experience": [
+          {
+            "title": "Event Manager",
+            "organization": "Jolly Hotel Tiepolo",
+            "date_range": "Apr 2006 - Dec 2006",
+            "location": "Vicenza, Italia",
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Jolly Hotel Tiepolo",
+            "date_range": "Dec 2006 - Apr 2011",
+            "location": "Vicenza, Italia",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Assistant General Manager NH BOLOGNA VILLANOVA",
+            "organization": "NH Hotel Group",
+            "date_range": "Apr 2011 - Mar 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager NH BRESCIA",
+            "organization": "NH Hotel Group",
+            "date_range": "Apr 2013 - May 2014",
+            "location": "Brescia, Italia",
+            "description": null
+          },
+          {
+            "title": "General Manager NH TRIESTE",
+            "organization": "NH Hotel Group",
+            "date_range": "Jun 2014 - Mar 2018",
+            "location": "Trieste, Italia",
+            "description": null
+          },
+          {
+            "title": "Project Leader Transformation Plan Italy",
+            "organization": "NH Hotel Group",
+            "date_range": "Sep 2016 - Apr 2018",
+            "location": "Italia",
+            "description": null
+          },
+          {
+            "title": "General Manager NH VENEZIA RIO NOVO",
+            "organization": "NH Hotel Group",
+            "date_range": "May 2018 - Sep 2022",
+            "location": "Venezia, Italia",
+            "description": null
+          },
+          {
+            "title": "Cluster General Manager",
+            "organization": "GALAXIA HOSPITALITY SERVICES",
+            "date_range": "Sep 2022 - Jun 2025",
+            "location": "Venezia - Firenze",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Starhotels Splendid Venice",
+            "date_range": "Jun 2025 - Present",
+            "location": "Venezia",
+            "description": "Department: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Sandrinelli",
+            "degree_or_field": "Turismo",
+            "date_range": "1994 - 1999"
+          }
+        ],
+        "skills": [
+          "cluster",
+          "front office"
+        ],
+        "activity_themes": [
+          "Starhotels lifestyle events and cultural experiences in Florence",
+          "Team appreciation and surprises for hospitality staff",
+          "Hotel festive decorations and Christmas celebrations in Venice",
+          "International luxury travel agents networking",
+          "Starhotels anniversary and family heritage in Italian hospitality",
+          "Hotel renovations and new property presentations",
+          "Vegan and vegetarian culinary offerings",
+          "Promotion of Starhotels Collezione luxury properties"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/starhotels_india-italianhospitality-starhotels-activity-7414594051099844608-xonn",
+          "https://it.www.linkedin.com/posts/massimolivan_grazie-alla-redazione-del-gazzettino-di-venezia-activity-7413851355330666496-N9gu",
+          "https://it.www.linkedin.com/posts/giulia-guarino-56027a132_il-natale-è-un-momento-speciale-anche-per-activity-7409209141447004160-sb6P",
+          "https://it.www.linkedin.com/posts/christian-locatelli-28537643_starhotels-hospitality-firenze-activity-7407078790545223681-CC2E",
+          "https://it.www.linkedin.com/posts/starhotels_45anni-firenze-familiare-activity-7406715912411844608-AJT3",
+          "https://it.www.linkedin.com/posts/marco-gilardi-7b767b3_upforpeople-appreciationweek-teampeople-activity-7405153263907536896-fQvM",
+          "https://it.www.linkedin.com/posts/stefano-cipriani-119a3319_e-sempre-un-momento-bellissimo-quello-in-activity-7404547392898965504-pIj7",
+          "https://it.www.linkedin.com/posts/starhotels_teatrodelmaggiomusicalefiorentino-e20-activity-7402697008685322241-pOyN"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Riccardo Zanellotti",
       "title": "General Manager",
       "company": "Savoia Excelsior Palace (Starhotels Collezione)",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/riccardo-zanellotti-7311704a",
       "email": null,
       "email2": null,
       "phone": "+39 040 77941",
@@ -350,7 +981,49 @@
           "source_type": "official_site",
           "quote_or_fact": "Savoia Excelsior Palace: General Manager: Riccardo Zanellotti. reservations.savoiaexcelsior.ts@starhotels.it, +39 040 77941"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/riccardo-zanellotti-7311704a",
+        "display_name": "Riccardo Zanellotti",
+        "headline": "Cluster General Manager at Starhotels S.p.A",
+        "location": "Trieste, Friuli-Venezia Giulia, Italy (IT)",
+        "about": "Total Experience: 16 years and 10 months",
+        "experience": [
+          {
+            "title": "Cluster General Manager",
+            "organization": "Starhotels Savoia Excelsior Palace - Trieste",
+            "date_range": "Apr 2009 - Present • 16 years and 7 months",
+            "location": "Trieste Area, Italy",
+            "description": "WWW.STARHOTELS.COM\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Generall Manager",
+            "organization": "Starhotels - Savoia Excelsior Palace Trieste",
+            "date_range": "Dec 2019 - Present • 6 years and 2 months",
+            "location": "Vicenza Area, Italy",
+            "description": "Department: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "cluster"
+        ],
+        "activity_themes": [
+          "Luxury hotel legacy, architecture and interiors",
+          "Major Trieste events including Barcolana sailing regatta",
+          "Hotel reopenings, team collaboration and management",
+          "Wellness, sports and Starhotels promotions",
+          "Culinary experiences, new chef appointments",
+          "Tourism growth, info points and statistics in Friuli-Venezia Giulia",
+          "Environmental impact, sustainability and responsible creativity",
+          "Luxury travel, roadshows and Leading Hotels of the World"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/riccardo-zanellotti-7311704a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Nathalie Beaugonin",
@@ -424,13 +1097,79 @@
           "source_type": "official_site",
           "quote_or_fact": "Press Office: pressoffice@starhotels.it, +39 055 3692251"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lydiabarbini",
+        "display_name": "Lydia Barbini",
+        "headline": "Global Marketing and PR Director @Starhotels | Forbes Top 100 CMO Italia | Brand Builder | Entrepreneur | Investor | D&I Advocate | Made in Italy Ambassador",
+        "location": "Florence, Tuscany, Italy",
+        "about": "Over the last 15 years, my career has been an incredible journey learning about luxury hospitality, retail, consumer goods, and most importantly people. The differentiating factors for a company are people and innovation. The world is moving fast and great companies have people who challenge convention and lead change. I aim to create an impact, building strategies that break the mold and meet the evolving needs of clients and the global market. I’m a firm believer in the power of motivation, mental well-being, and empathy, I bring a human-centered perspective to my professional endeavors. My passion for creating meaningful experiences and products extends into my interests—whether skiing down mountains, diving, exploring art, or immersing myself in new cultures. Connecting people, brands, and ideas is at the heart of what I do. 🎯 What sets me apart as a CMO? • Versatility & Adaptability : I quickly grasp the unique dynamics in each industry, connecting the dots and bringing fresh perspectives that balance local insights with global strategies. • Impactful Innovation: I’m committed to disruptive innovation with a measurable focus, driving significant ROI and expanding customer bases. • Entrepreneurial and Collaborative Leadership: I read between the line and usually I anticipate market trends and needs, launching initiatives that elevate brands beyond expectations. I also foster an inclusive work environment that champions creativity and team growth. Work ethic is key to me. Ready to connect with like-minded innovators, collaborators, and visionaries who share the commitment to elevate customer experiences and shape the future.",
+        "experience": [
+          {
+            "title": "Group Brand Manager Premium Brands (Marlboro Philip Morris) Event Manager",
+            "organization": "Philip Morris International",
+            "date_range": "Feb 2011 - Apr 2013",
+            "location": "Paris Area, France",
+            "description": "• Marlboro & Philip Morris brand strategy 3 Y development and implementation through effective actions plans (France) • Innovation: Philip Morris Green - Additive Free proposition with recycled packaging 19% SoS after 2 months, still increasing. Only 20% cannibalization. • Product development for both Brands & Innovation process management • Project Management: lead and drive brand related projects across the organization. • Identification of market opportunities and consumer needs • Coordination among different functions (R&D, Sales, Cluster, PMI, Supply Chain, Finance) • Agency Management • Legal Age Meeting Points Program owner, Partnership and Sponsorship manager (Moto Gp, Formula1, TomorrowLand, Gay Pride Etc.) • Budget Management: 2.5 Mio Euro for LAMPS program, 6.5Mio Euro for Marlboro & 3.2K for Philip Morris & 5.5Mio Euro for OTP"
+          },
+          {
+            "title": "Global Marketing And Strategy Director (Philip Morris)",
+            "organization": "Philip Morris International",
+            "date_range": "May 2013 - Sep 2016",
+            "location": null,
+            "description": "• Established and executed global brand strategies for a $500M portfolio, achieving +5.2% growth in market share in existing markets and expanding brand reach to 18 new markets. • Developed creative toolkits for digital and traditional channels, standardizing brand execution globally, resulting in a 14% increase in brand recognition. • Managed brand P&L and optimized budget allocation, delivering an 11% improvement in ROI and aligning investments with strategic goals. • Spearheaded partnership and sponsorship campaigns that increased consumer engagement by 25%, maintaining consistent brand identity across markets. • Managed innovation strategy, including the development of new concepts for cigarettes and other tobacco products, driving product relevance and market competitiveness. • Led and manag"
+          },
+          {
+            "title": "Chief Executive Officer And Member Of The Board Of Directors",
+            "organization": "Piave Maitex Srl",
+            "date_range": "Sep 2016 - Oct 2022",
+            "location": "Feltre, Belluno, Italy",
+            "description": "Elastic textile supplier for the global fashion industry (Lingerie, Swimwear, Shapewear, Athleisure, Medical, Sportswear, Outerwear, Fashion, Luxury, etc.) • Led operational oversight and budgetary supervision for 3 locations with 120 employees and 12M turnover • Responsible for all the company’s activities. • Corporate/business restructuring: strategic business development, organizational change, and re-definition of the commercial strategy & the purchasing policy. • Led strategic and business initiatives to successfully grow revenue in areas such as medical (protective masks) and tech sports. • Sustainability road map definition with 4sustainability. Develop supply chain sustainability strategy, activities, and products (i.e. recycled fabrics’ lineup) • Built productive relationships with industry partners and competitors to support strategic business objectives. • Spearheaded product line diversification to achieve a 4% increase in revenue and penetrate wider markets. • Improved business profits by 112%. +6 new markets, +3 new categories • Orchestrated positive media coverage and stakeholder relations as the public face of Piave Maitex company. • Build an e-commerce for stock, high turnover fabrics, and covid protection. • First to have researched, developed, and registered an anti-bacterial and anti-coronavirus fabric. DPI’s production was approved by the Italian Government. Create a supply chain with more than 60 additional employees. Exit: transfer of shares"
+          },
+          {
+            "title": "Consultant Investor Startups",
+            "organization": "DXS Fund",
+            "date_range": "Sep 2016 - Jan 2021",
+            "location": null,
+            "description": "• Investor & Strategic Consultant: Actively involved in launching new companies and start-ups, specializing in business and product planning, digital marketing strategy, social media marketing, online content marketing, multi-channel growth, in-depth market analysis, and social media impact analysis. - Tifosy (Shareholder & Consultant): Provided strategic solutions and raised capital through debt or equity issuance for corporate financing (Pescara Football Bond), contributing to developing fintech initiatives and fostering relationships with partners and investors. Led the communication strategy and the start-up re-position. - Picosats (Shareholder & Consultant): Engaged in developing innovative space technology solutions, focusing on designing and manufacturing advanced small satellites, making space accessible and affordable. - Airlite (Shareholder & Consultant): Collaborated with Airlite to promote a revolutionary 100% natural technology that can be applied to internal and external walls like standard paint, emphasizing sustainability and environmental impact."
+          },
+          {
+            "title": "Executive Board Member",
+            "organization": "MarediModa",
+            "date_range": "Jun 2019 - Oct 2022",
+            "location": "Cannes, Provence-Alpes-Côte d'Azur, France",
+            "description": "The MarediModa Fair, which takes place every year since 2002, is the most important event for the premiere presentation of the collections of fabrics and accessories for the beachwear, underwear and athleisure sectors. It boasts an international presence of exhibitors and visitors that continues to grow year after year. Also for this reason, it is a fundamental appointment for professionals in terms of contacts, exchanges, business and new business. To keep up with the sudden changes in the market, the MarediModa exhibition is constantly evolving. Since 2007, it has offered its guests a space dedicated to manufaturers on commission from the Euro Med area and in Italy, reliable partners to create a winning collection."
+          },
+          {
+            "title": "Member",
+            "organization": "Giovani Imprenditori Confindustria",
+            "date_range": "Jul 2019 - Present",
+            "location": "Veneto",
+            "description": null
+          },
+          {
+            "title": "Group Marketing, Communication PR Director",
+            "organization": "Starhotels",
+            "date_range": "Mar 2023 - Present",
+            "location": "Florence, Tuscany, Italy",
+            "description": "• Directing marketing strategies across 30 luxury hotels and 170 luxury residences, including food & beverage outlets, achieving +23% Year-on-year growth in total revenue. • Optimizing digital marketing initiatives (SEM, SEO, RTB, CRO, etc.), resulting in a 26% YoY increase in web-driven revenue. • Expanding Meta and LinkedIn followers by 50% and grew social media-driven revenue by 35% YoY through data-targeted campaigns. • Implemented CRM and developed a new loyalty strategy, enhancing the loyalty member base by +30% YoY, strengthening clients’ retention. • Driving rebranding for existing properties and preparing the marketing plan for new hotel openings. • Securing +46% clippings, +58% AVE, and +60% EMV YoY through strategic PR. • Custodian of the project La Grande Bellezza, an initiative to celebrate the rich Italian heritage of talent and savoir-faire through concrete actions. Orchestrated partnership and sponsorship. • Managing an annual budget of 1.5% of the group’s total turnover, optimizing resource allocation for maximum impact. • Manage a team of 21. • Member of the Diversity and Inclusion Steering Committee"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/lydiabarbini"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Alexandro Della Croce",
       "title": "Chief Commercial Officer",
       "company": "Starhotels",
-      "linkedin_url": "https://it.linkedin.com/in/alexandrodellacroce",
+      "linkedin_url": "https://www.linkedin.com/in/alexandrodellacroce",
       "email": null,
       "email2": null,
       "phone": null,
@@ -457,7 +1196,204 @@
           "source_type": "linkedin",
           "quote_or_fact": "Profile confirms Starhotels executive role in revenue strategy and commercial."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/alexandrodellacroce",
+        "display_name": "Alexandro Della Croce",
+        "headline": "Global Director | Revenue and Distribution Strategy | Driving Commercial Performance",
+        "location": "Italy (IT)",
+        "about": "Executive Director of Revenue Strategy with a track record across the USA, UK, and Europe. Passionate about transforming data into decisions, I lead commercial growth and pricing strategies for luxury hospitality brands. With 15+ years of experience, I specialize in dynamic revenue management, strategic market expansion, and cross-functional leadership. Adept at aligning global frameworks with local market needs, I drive performance through a mix of innovation, analytical rigor, and stakeholder engagement.\n\nTotal Experience: 22 years",
+        "experience": [
+          {
+            "title": "Revenue Management Executive Miami Beach Cluster",
+            "organization": "The Palms Hotel & Spa",
+            "date_range": "Jan 2004 - Nov 2006",
+            "location": "Miami Beach, Florida",
+            "description": "Supported the revenue and distribution strategies for the Miami Beach Cluster"
+          },
+          {
+            "title": "Area Director, Revenue Management Milan",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Nov 2006 - Sep 2012",
+            "location": "Milan, Italy",
+            "description": "In charge of Revenue Management for the 4 Starwood Hotels located in Milan; The Westin Palace, Sheraton Diana Majestic, Excelsior Gallia, and Sheraton Malpensa."
+          },
+          {
+            "title": "Corporate Revenue Manager, North America USA Canada",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Oct 2012 - Sep 2014",
+            "location": "New York City | Stamford, CT, Corporate Headquarter",
+            "description": "Developed and implemented pricing optimization initiatives to drive revenue growth across the division. Focused on identifying untapped opportunities across multiple segments and booking channels, enhancing overall commercial performance."
+          },
+          {
+            "title": "Regional Director, Revenue Management Southern Europe",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Sep 2014 - Aug 2016",
+            "location": "Rome | Southern Europe Regional Headquarter",
+            "description": "Led revenue management, distribution, and commercial strategy across Southern Europe, including Italy, Greece, Turkey, and the Balkans. Acted as functional leader across Owned, Managed, and Franchised portfolios, enhancing topline performance through strategic alignment and market-specific initiatives."
+          },
+          {
+            "title": "Divisional Director Of Revenue Europe, UK, Russia, Balcans Luxury Brands",
+            "organization": "IHG Hotels & Resorts",
+            "date_range": "Aug 2016 - Feb 2019",
+            "location": "London | Denham Corporate Headquarter",
+            "description": "In charge of the Revenue Management function for the Managed Estate, European Region: Luxury Portfolio for Europe, UK, Russia & CIS. Team of four Directors of RM."
+          },
+          {
+            "title": "Global Director Of Revenue And Distribution Strategy",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Mar 2019 - Present",
+            "location": "Italia",
+            "description": "Spearhead global revenue strategy for a portfolio of 30 hotels across Italy, the UK, France, and the US, Overseeing pricing and distribution strategies to enhance topline performance and brand competitiveness. Manage a dedicated team of Regional and Area Directors to ensure effective hotel-level execution and commercial alignment.\nDepartment: Finance & Accounting • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "IULM University",
+            "degree_or_field": "Bachelor's degree, Hospitality Management, Marketing, Economy.",
+            "date_range": "2000 - 2004"
+          },
+          {
+            "school": "Liceo Scientifico",
+            "degree_or_field": "High School Enrico Fermi, Mathematics, Science, High School Diploma",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "financial performance",
+          "streamline processes",
+          "actionable insights",
+          "area director",
+          "forecasts",
+          "data",
+          "portfolio",
+          "room",
+          "cis",
+          "executive leadership",
+          "market analysis",
+          "marketing",
+          "leadership",
+          "track",
+          "forecasting models",
+          "revenue",
+          "online travel",
+          "revenue management systems",
+          "execution",
+          "reach",
+          "pricing strategy",
+          "commercial growth",
+          "distribution",
+          "led",
+          "competitive pricing",
+          "revenue optimization",
+          "analytical",
+          "booking",
+          "mentoring",
+          "across",
+          "corporate",
+          "driving revenue",
+          "increase revenue",
+          "drive revenue",
+          "online travel agencies",
+          "frameworks",
+          "overseeing",
+          "distribution systems",
+          "luxury brands",
+          "director",
+          "sales",
+          "global distribution",
+          "channels",
+          "optimization strategies",
+          "management",
+          "mixing",
+          "brand management",
+          "pricing strategies",
+          "key performance indicators",
+          "pricing optimization",
+          "revenue distribution",
+          "corporate director",
+          "transforming data",
+          "implementing strategies",
+          "commercial strategy",
+          "stakeholder management",
+          "implementation",
+          "diana",
+          "excel",
+          "distribution strategy",
+          "advanced forecasting",
+          "luxury hospitality",
+          "revenue strategy",
+          "revenue management",
+          "alignment",
+          "forecasting",
+          "key performance indicators (kpis)",
+          "identify opportunities",
+          "distribution strategies",
+          "rm",
+          "adjust (mobile marketing platform)",
+          "customer behavior",
+          "travel agency operations",
+          "revenue growth",
+          "financial management",
+          "collaboration",
+          "management systems",
+          "brands",
+          "hospitality industry",
+          "cross-functional",
+          "teams",
+          "utilization",
+          "analysis",
+          "management techniques",
+          "global distribution systems",
+          "optimization",
+          "performance indicators",
+          "finance",
+          "cross-functional teams",
+          "market reach",
+          "hotels",
+          "processes",
+          "channel management",
+          "revenue optimization strategies",
+          "commercial",
+          "executive director",
+          "maximize profitability",
+          "data-driven insights",
+          "strategy",
+          "russia & cis",
+          "data-driven",
+          "decision-making",
+          "indicators",
+          "corporate management",
+          "negotiation",
+          "systems management",
+          "per",
+          "hospitality",
+          "large-scale scrum (less)",
+          "strategic pricing",
+          "drive performance",
+          "models",
+          "cluster computing",
+          "adept",
+          "negotiation management",
+          "profitability",
+          "stakeholder engagement"
+        ],
+        "activity_themes": [
+          "Ultra-luxury hospitality conversations and trends",
+          "Starhotels team milestones, achievements and celebrations",
+          "Leadership recognitions (e.g. Forbes CMO lists)",
+          "Job postings for Cluster Director of Sales and revenue roles",
+          "Hotel awards and rankings (e.g. Condé Nast Traveler)",
+          "Sharing revenue management career opportunities in Italy",
+          "Industry insights on technology, AI, innovation and simplicity",
+          "Engagement with global hospitality leadership content"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/alexandrodellacroce"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Davide Ballardini",
@@ -485,7 +1421,141 @@
           "source_type": "official_site",
           "quote_or_fact": "International Sales Office contact details."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ballardinidavideariel",
+        "display_name": "Davide Ariel Ballardini",
+        "headline": "Group Director of Luxury Sales",
+        "location": "Milan, Lombardy, Italy (IT)",
+        "about": "Wanderlust with a strong passion for the Luxury Industry. Italian born, lived 14 years of my life abroad, in the United Kingdom, Brazil, Spain and Mexico. This has contributed to making me curious, attentive and open minded. Goal-oriented, my approach to work is positive, collaborative and passionate. My favourite quote: “The reward for work well done is the opportunity to do more” Contact Details: Park Hyatt Milano Via Tommaso Grossi 1 Milano, 20121, Italy T: +39 02 88 21 12 34 M: +39 349 862 6813 davideariel.ballardini@hyatt.com",
+        "experience": [
+          {
+            "title": "Independent Contractor",
+            "organization": "Edizioni Condè Nast",
+            "date_range": "Jun 2007 - Nov 2009",
+            "location": "Piazza Cavour Conte Camillo Benso 2 - 20121 Milano",
+            "description": null
+          },
+          {
+            "title": "CRM Specialist",
+            "organization": "Sky Italia",
+            "date_range": "Dec 2009 - Sep 2013",
+            "location": "Milano, Via Monte Penice 7",
+            "description": null
+          },
+          {
+            "title": "Business Development Communication Manager",
+            "organization": "Villa Erba SpA",
+            "date_range": "Oct 2013 - Aug 2015",
+            "location": "Largo Luchino Visconti 4, Cernobbio (Como) 22012",
+            "description": "In charge of developing client portfolio (including top corporate clients), establishing and maintaining relationships with key accounts and business partners. Increasing the size and profitability of existing accounts whilst developing new clients and business."
+          },
+          {
+            "title": "Sales Marketing Manager",
+            "organization": "Lake Como Events Network - Convention Bureau",
+            "date_range": "Oct 2013 - Aug 2015",
+            "location": "Largo Luchino Visconti 4, Cernobbio (Como) 22012",
+            "description": "Responsible for developing and implementing the annual sales and marketing strategies, budgets, and campaigns, including strategies for penetrating new and emerging markets."
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "St. Regis San Clemente Palace Venice",
+            "date_range": "Sep 2015 - Nov 2015",
+            "location": "Isola di San Clemente",
+            "description": "A 5 star L resort situated on a nine hectare private island in the heart of the Venetian lagoon. 189 rooms, comprising 39 suites, 3 bars & 3 restaurants, and a state of the art congress centre with 6 independent meeting rooms."
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "San Clemente Palace Kempinski Venice",
+            "date_range": "Nov 2015 - Dec 2018",
+            "location": "Isola di San Clemente 1, 30124 Venice",
+            "description": "Achieved over € 3 million in MICE related room revenue alone over a 36-month period (figures updated DEC 2018). Attained recognition and prize as “Best Property Salesperson of the year” 2017 from HelmsBriscoe Network."
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Park Hyatt Milano",
+            "date_range": "Jan 2019 - Jan 2022",
+            "location": "Milan Area, Italy",
+            "description": "Managing and responsible for Luxury Leisure Sales in GCC, RUS & CIS and ASPAC markets."
+          },
+          {
+            "title": "Associate Director Of Sales",
+            "organization": "Park Hyatt Milano",
+            "date_range": "Jan 2022 - Jan 2023",
+            "location": "Milano, Lombardia, Italia",
+            "description": "Responsible for Luxury Leisure & Diplomatic Sales."
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Park Hyatt Milano",
+            "date_range": "Jan 2023 - Feb 2025",
+            "location": "Milano, Lombardia, Italia",
+            "description": "Overseeing a team of 8 and responsible for overall strategy, implementation and commercial results. Successfully took part in the repositioning and relaunch of the hotel after extensive hotel renovations and closures."
+          },
+          {
+            "title": "Director Of Luxury Sales",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Mar 2025 - Feb 2026",
+            "location": "Italia",
+            "description": "Reporting directly to the Chief Commercial Officer (CCO), responsible for coordinating and overseeing the overall strategy of Starhotels Collezione hotels. Key responsibilities include aligning departmental goals with the company's strategic vision, ensuring operational excellence, and driving initiatives to enhance guest satisfaction and revenue growth."
+          },
+          {
+            "title": "Group Director Of Luxury Sales",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Feb 2026 - Present",
+            "location": null,
+            "description": "Reporting directly to the Managing Director, I oversee and coordinate, with a dotted reporting line, Starhotels Collezione hotel commercial teams. Working closely with corporate department heads across Sales, Revenue and Marketing, I contribute to ensuring full alignment between operational goals and the company’s long‑term vision. My role focuses on driving, developing and supporting initiatives that contribute to sustainable revenue growth and brand positioning across 14 of the portfolios properties across Italy, France and Great Britain."
+          }
+        ],
+        "education": [
+          {
+            "school": "Università Cattolica del Sacro Cuore",
+            "degree_or_field": "Business Administration and Management General",
+            "date_range": "2004 - 2009"
+          }
+        ],
+        "skills": [
+          "luxury",
+          "director",
+          "sales",
+          "marketing",
+          "responsible",
+          "strategy",
+          "commercial",
+          "hotel",
+          "profitability",
+          "budgets",
+          "campaigns",
+          "crm",
+          "restaurants",
+          "property",
+          "reporting",
+          "driving",
+          "positioning",
+          "hotels",
+          "open minded",
+          "goal oriented",
+          "strategy implementation",
+          "business development",
+          "emerging markets",
+          "sales manager",
+          "strategic vision",
+          "operational excellence",
+          "guest satisfaction"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and Grand Tour experiences",
+          "Starhotels Collezione portfolio evolution",
+          "Venetian luxury destinations and secrets",
+          "New hotel additions in Italy"
+        ],
+        "source_urls": [
+          "https://it.www.linkedin.com/posts/starhotels_grandtour-hotelgabriellivenezia-venetosecrets-activity-7425118143817117696-W_fa",
+          "https://www.linkedin.com/posts/starhotels_starhotelscollezione-fortedeimarmi-lugano-activity-7424059440334725120-qPXm"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Francesco D'Amato",
@@ -541,7 +1611,33 @@
           "source_type": "official_site",
           "quote_or_fact": "Chief Information Officer position referenced at Sede Centrale, Firenze."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/steveborelli",
+        "display_name": "Stefano Borelli",
+        "headline": null,
+        "location": "Milan, Lombardy, Italy",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Luxury hospitality and Starhotels brand recognition",
+          "Italian cultural heritage, art museums and fine dining",
+          "Sustainable tourism, slow travel and energy efficiency",
+          "Hospitality HR, talent development and team leadership",
+          "Culinary innovation and international hotel collaborations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/steveborelli",
+          "https://www.linkedin.com/posts/alexdallocchio_what-a-truly-special-and-inspiring-week-in-activity-7422996148740796416-xn3G",
+          "https://it.www.linkedin.com/posts/lavinia-colonna-preti_matera-activity-7416561331220152320-LGiO",
+          "https://www.linkedin.com/posts/starhotels_travelguide-tatler-101bestcityhotels-activity-7411372241176748033-dlGi",
+          "https://it.www.linkedin.com/posts/lavinia-colonna-preti_ad-anacapri-villa-san-michele-custodisce-activity-7418988032608948224-tuUK"
+        ],
+        "data_quality": "weak",
+        "caveats": "Fetched text contains no headline, About summary, Experience entries, Education or Skills. Only name, location, languages, recommendations and liked activities are present."
+      }
     },
     {
       "full_name": "Federica Gallo",
@@ -569,7 +1665,169 @@
           "source_type": "official_site",
           "quote_or_fact": "Reservations and sales central contacts."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/federica-gallo-71a2252a",
+        "display_name": "Federica Gallo",
+        "headline": "Director Of Revenue Management - International Area at Starhotels S.p.A.",
+        "location": "Milan, Lombardy, Italy",
+        "about": "Passionate about strategy and tourism & travel industry. Revenue Management is the best way to combine and follow both passions. Highly analytical, flexible and creative with a positive approach to problem solving and to time management.\n\nTotal Experience: 13 years and 11 months",
+        "experience": [
+          {
+            "title": "Travel Agent",
+            "organization": "Di Falco Viaggi",
+            "date_range": "Feb 2009 - Jun 2009",
+            "location": "Napoli, Italia",
+            "description": "Internship in a travel agency"
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Albergo Terme San Lorenzo",
+            "date_range": "Apr 2011 - Oct 2011",
+            "location": "Ischia",
+            "description": "Working at the front desk, meeting and greeting the guests, taking bookings, satisfying customer’s requests and ensuring the highest standards of the service."
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Pelican Hotel",
+            "date_range": "Feb 2012 - Jul 2012",
+            "location": "Miami Beach",
+            "description": "Working in team to ensure the success of the one of the most famous hotel in South Beach Miami. While at this position I performed basic clerical skills e.g. Meeting and greeting costumers, answering the phone, mail distribution, meeting preparations, ordering office supplies managing the booking system and general customer service."
+          },
+          {
+            "title": "Hostess",
+            "organization": "Fratelli la Bufala",
+            "date_range": "Aug 2012 - Oct 2012",
+            "location": "Londra, Regno Unito",
+            "description": "Meeting and greeting the guests, explaining them the menu and the special offers, taking bookings, satisfying customer’s requests and showing the high quality of the service."
+          },
+          {
+            "title": "Office Clerk",
+            "organization": "Consorzio UnicoCampania",
+            "date_range": "Oct 2012 - Jan 2013",
+            "location": "Napoli",
+            "description": "Compiling surveys to provide companies with information about the number of customers using their services. In charge of creating database containing all collected data and making it available to the general public."
+          },
+          {
+            "title": "Revenue Management And Operational Innovation Trainee, Italy Central Mediterranean",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Oct 2013 - Apr 2014",
+            "location": "Roma, Italia",
+            "description": "Working close to the Regional Directors of Revenue Management and Operational Innovation and supporting them in managing 52 hotels across the Region (Southern Europe). As Revenue Manager Trainee I used all systems in order to create reports ad hoc to help the RDRM in his tasks. I worked to improve projects and I supported my head during budget analysis and business reviews. As Operational Innovation Trainee I monitored GEI (Guest Experience Index) analyzing guest questionnaires and creating reports for the HODs. I managed projects through SIx SIgma and I worked as Project Champion."
+          },
+          {
+            "title": "Regional Revenue Management And Operational Innovation Coordinator, Southern Europe",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Apr 2014 - Nov 2015",
+            "location": "Roma, Italia",
+            "description": "Supporting the Regional Director of Revenue Management (RDRM) with essential administrative duties and fulfil reporting and analysis tasks - Supporting the RDRM in managing 56 hotels across the Southern Europe region and providing assistance to the SE Revenue Manager Teams especially in terms of rate loading, audit, preparation of regional files, monthly closure, etc. - Supporting the RDRM in preparing the official daily, weekly and monthly operations to analyze and improve the Regional Performance: Daily pick up, Pace, Risk File, Monthly closing, Forecast Accuracy, RPI Analysis, Group backlog - Supporting the Regional Team during the budget preparation and the Divisional Reviews. - Supporting the Master Black Belt (MBB) with essential administrative and reporting tasks: Monthly closure, performance Analysis, action plans and meetings preparation. - Supporting the MBB in managing the Black Belt (BB) team and providing them assistance with their projects. - Supporting the MBB in running Regional Projects as: StarPUSH, Prosource (I am the project leader), Dinamyc Currency Conversion, StarLot and Spapedia; Preparing the documentation for the Six Sigma tool and the materials to be used during the team meetings. - Participation in 3 LORs at Westin Excelsior Rome, St. Regis Rome and Sheraton Rome - Taking care of almost all the PPT presentations for our SE Vice President and realizing analysis ad hoc when required."
+          },
+          {
+            "title": "Revenue Management Executive, Milan Area - In Charge Of The Westin Palace",
+            "organization": "Marriott International",
+            "date_range": "Nov 2015 - Oct 2017",
+            "location": "Milano, Italia",
+            "description": "Supporting the Director of Revenue Management (DORM) with essential administrative duties and daily, weekly and monthly operations for the Hotel and the Starwood Milan Area: Daily pick up, Pricing, STR analysis, Pace, 30/60/90 days Forecast, Month Closure reporting, Group Backlog analysis, Displacement analysis and all the documentation requested by the owners. - Monitoring pricing, inventory, oversell and business mix according with historical demand, forecast figures and competitors position. - Daily monitoring of proper systems synchronizations (PMS, CRS, ROS). - Monthly reviews with hotel team to discuss results and develop strategies to improve the business, based on future demand, forecast, current trends, historical data and competitor pricing. - Budget preparation - Strong interaction with Sales department on contracting with Corporate Accounts. - Collaboration with Sales Team and Event department for group acceptance and quotations; - Collaboration with Front Office and Reservation department for optimal inventory allocation, Reservation issues and upselling strategies;"
+          },
+          {
+            "title": "Corporate Revenue Manager",
+            "organization": "Valtur S.p.A.",
+            "date_range": "Oct 2017 - May 2018",
+            "location": "Milano, Italia",
+            "description": "Participated to the creation of revenue management department • Developed pricing, channel distribution and inventory strategy • Implemented new revenue systems: Opera, Travelclick; Idiso • Created reporting files to analyze and improve business"
+          },
+          {
+            "title": "Assistant Area Revenue Manager, Italy Spain",
+            "organization": "Belmond",
+            "date_range": "May 2018 - Nov 2019",
+            "location": "Milano, Italia",
+            "description": null
+          },
+          {
+            "title": "Area Director Of Revenue Milan",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Nov 2019 - Nov 2025",
+            "location": "Milano, Italia",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management - International Area",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Nov 2025 - Present",
+            "location": "Milan, Lombardy, Italy",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Liceo Classico Pansini",
+            "degree_or_field": "Diploma, Classico",
+            "date_range": "2003 - 2007"
+          },
+          {
+            "school": "Università degli Studi di Napoli 'Federico II'",
+            "degree_or_field": "Dottoressa, Economia del turismo, 110 e lode",
+            "date_range": "2007 - 2010"
+          },
+          {
+            "school": "Università degli Studi di Napoli 'Federico II'",
+            "degree_or_field": "Master's degree, Tourism and Travel Services Management, 110/110 cum laude",
+            "date_range": "2010 - 2013"
+          }
+        ],
+        "skills": [
+          "strategy",
+          "tourism",
+          "management",
+          "flexible",
+          "creative",
+          "hotel",
+          "distribution",
+          "innovation",
+          "director",
+          "reporting",
+          "analysis",
+          "hotels",
+          "audit",
+          "preparation",
+          "operations",
+          "risk",
+          "budget",
+          "projects",
+          "running",
+          "currency",
+          "documentation",
+          "presentations",
+          "pricing",
+          "inventory",
+          "ros",
+          "sales",
+          "collaboration",
+          "quotations",
+          "reservation",
+          "opera",
+          "mediterranean",
+          "reports",
+          "questionnaires",
+          "database",
+          "revenue management",
+          "problem solving",
+          "time management",
+          "clerical skills",
+          "customer service",
+          "monthly closing",
+          "budget preparation",
+          "black belt",
+          "performance analysis",
+          "six sigma"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/federica-gallo-71a2252a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Daniela Laconca",
@@ -592,7 +1850,107 @@
           "source_type": "directory",
           "quote_or_fact": "Daniela Laconca, Area Director of Revenue Management at Starhotels, Venice."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/laconcadaniela",
+        "display_name": "Daniela Laconca",
+        "headline": "Area Director of Revenue Management presso Starhotels S.p.A.",
+        "location": "Venice, Veneto, Italy (IT)",
+        "about": "Total Experience: 14 years and 6 months",
+        "experience": [
+          {
+            "title": "Sales Executive",
+            "organization": "Arbatax Park Resort",
+            "date_range": "Oct 2010 - Oct 2012",
+            "location": "Sardegna, Italia",
+            "description": "Promoting, contracting and negotiating products with Tour Operators. Organizing educational and site inspections, fam trips; responsible for cold calling; welcoming clients; assisting with the production of marketing collateral for the company. In charge of hotel booking, responsible for groups fam trips in hotel. Responsible for e-commerce: AEC Vertical Booking, FastBooking, Expedia, Venere, Booking.com. Partecipated at tourism fairs."
+          },
+          {
+            "title": "Trainee Revenue Dept",
+            "organization": "The Westin Palace, Milan",
+            "date_range": "May 2013 - Nov 2013",
+            "location": "Milano, Italia",
+            "description": "Traineeship assisting Director of Revenue and Revenue Executive improving forecast, seasonal pricing, inventory decision, analysis of market segments demand and developing the 2014 sales and revenue budget which incorporated demand swings and forecasted future economic downturns for The Westin Palace, Milan and Sheraton Diana Majestic in Milan. Working directly with the reservation, sales and meeting departments to provide guidance and recommendations on maximizing room fill rates and convention hall reservations."
+          },
+          {
+            "title": "Revenue Agent",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Dec 2013 - Sep 2014",
+            "location": "Venezia, Italia",
+            "description": null
+          },
+          {
+            "title": "Revenue Management Executive",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Oct 2014 - Feb 2017",
+            "location": "Venezia, Italia",
+            "description": null
+          },
+          {
+            "title": "Assistant Revenue Manager",
+            "organization": "Marriott International",
+            "date_range": "Mar 2017 - Oct 2017",
+            "location": "Venezia, Italia",
+            "description": null
+          },
+          {
+            "title": "Assistant Revenue Manager Hotel Danieli",
+            "organization": "Marriott International",
+            "date_range": "Oct 2017 - Sep 2019",
+            "location": "Venice Area, Italy",
+            "description": null
+          },
+          {
+            "title": "Area Director Of Revenue Management",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Sep 2019 - Present",
+            "location": "Venezia, Italia",
+            "description": "Director of Revenue Management for Starhotels Splendid Venice, Venezia; Starhotels Savoia Excelsior, Trieste; Starhotels Villa Michelangelo, Vicenza"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "management",
+          "hotel",
+          "pricing",
+          "inventory",
+          "analysis",
+          "sales",
+          "budget",
+          "reservation",
+          "rates",
+          "reservations",
+          "organizing",
+          "responsible",
+          "production",
+          "marketing",
+          "collateral",
+          "commerce",
+          "tourism",
+          "revenue management",
+          "decision analysis",
+          "tour operators",
+          "site inspections",
+          "cold calling",
+          "hotel booking"
+        ],
+        "activity_themes": [
+          "Starhotels portfolio expansions and new hotel additions across destinations",
+          "Sustainability and ESG initiatives in hospitality",
+          "Culinary innovations and restaurant updates at Starhotels properties",
+          "Luxury travel events, networking and industry fairs",
+          "Cultural, artistic and lifestyle hospitality experiences",
+          "Recognition in international hospitality and travel lists",
+          "Professional leadership transitions in the hotel sector"
+        ],
+        "source_urls": [
+          "https://hospitalityinnovation.it/",
+          "https://facebook.com/domuqirat/"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mauro Polmonari",
@@ -615,7 +1973,89 @@
           "source_type": "other",
           "quote_or_fact": "Mauro Polmonari | General Manager Complex, Starhotels Firenze. Expertise in yield management, revenue analysis, strategic sales."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/mauro-polmonari-a86491b",
+        "display_name": "Mauro Polmonari",
+        "headline": "Hotel General Manager - Starhotels Complex Firenze (Starhotels Michelangelo - Starhotels Tuscany - Starhotels Vespucci)",
+        "location": "Florence, Tuscany, Italy",
+        "about": "Experienced General Manager with a demonstrated history of working in the hospitality industry. Skilled in Hospitality Management, Yield Management, Hotel Management, Marketing Strategy, and Revenue Analysis. Strong sales professional graduated from Ist. Tecnico Statale Comm.le Vincenzo Monti - Ferrara.\n\nTotal Experience: 43 years and 3 months",
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Starhotels SpA - Florence (Italy)",
+            "date_range": "Jun 1984 - Present",
+            "location": "Florence, Italy",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Starhotels Metropole - Rome",
+            "date_range": "Sep 2007 - Present",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Starhotels Rosa Grand",
+            "date_range": "Feb 2020 - Mar 2024",
+            "location": "Milano, Italia",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager Complex Starhotels Firenze",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Mar 2024 - Present",
+            "location": "Florence, Tuscany, Italy",
+            "description": "Department: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Ist. Tecnico Statale Comm.le Vincenzo Monti - Ferrara",
+            "degree_or_field": "Diploma",
+            "date_range": "1975 - 1980"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "management",
+          "yield",
+          "hotel",
+          "marketing",
+          "strategy",
+          "analysis",
+          "sales",
+          "hospitality industry",
+          "hospitality management",
+          "yield management",
+          "hotel management",
+          "management marketing",
+          "marketing strategy",
+          "revenue analysis"
+        ],
+        "activity_themes": [
+          "Hospitality leadership transitions and career milestones",
+          "Sustainability and GSTC certifications for Starhotels",
+          "Travel innovation, data insights, and tourism trends",
+          "Luxury hospitality events and international relations with Indian market",
+          "Tourism records and growth in Rome",
+          "Employee recognitions and anniversaries",
+          "Olympic events and hotelier feedback sessions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/alessandro-soldi-b075a08_i-am-thrilled-to-begin-a-new-chapter-as-general-activity-7423756868868583424-vcTF",
+          "https://it.www.linkedin.com/posts/lucia-basile-5191651b7_starhotels-sostenibilità-accredia-activity-7421897820518895616-UIzi",
+          "https://www.linkedin.com/posts/loretta-bartolucci-821880_travel-innovation-day-activity-7422760919073665025-sBD1",
+          "https://it.www.linkedin.com/posts/andrea-sangiuliano-a56973b0_carpaccio-di-marmora-alla-puttanesca-activity-7420819868578598912-0rhA",
+          "https://www.linkedin.com/posts/antonio-ducceschi-cmm-chba-9930596_starhotels-leadership-legacy-activity-7423079457038635008-kVc2",
+          "https://www.linkedin.com/posts/starhotels_rosagrandmilano-teatroluxuryapartmentsfirenze-activity-7422194459720810496-ZkNB",
+          "https://www.linkedin.com/posts/amisha-shetth-08119726_timelesselegance-iconichospitality-luxuryhospitality-activity-7420000229782884352-EF8_",
+          "https://www.linkedin.com/posts/radhika-khanijo-b871628_tekla-maira-thankyou-for-visiting-us-starhotels-activity-7419659807462301696-GVli"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Federico Versari",
@@ -638,13 +2078,147 @@
           "source_type": "official_site",
           "quote_or_fact": "Helvetia & Bristol: General Manager: Federico Versari. reservations.helvetiabristol.fi@starhotels.it"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/federicoversari",
+        "display_name": "Federico Versari",
+        "headline": "General Manager Helvetia & Bristol Firenze",
+        "location": "Florence, Tuscany, Italy",
+        "about": "With a significant and international experience in Hospitality industry, spent in five-star environment, my mission is: - improving business revenues - improving business effectiveness and efficiencies - improving the value of the Hotel’s product and services, ensuring an excellent guest experience. I am responsible for coordinating processes and operations and for consistently delivering results that contribute to the mission and overall success of the Hotel.\n\nTotal Experience: 23 years and 1 month",
+        "experience": [
+          {
+            "title": "Rooms Division Manager, St. Regis Grand Hotel, Rome",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Sep 2002 - Sep 2004",
+            "location": "Rome, Italy",
+            "description": "Responsible for the overall daily and on going rooms operation including Housekeeping, Front Office, Reception, Guest Relations, Concierge, Service Express, Executive Floor and business centre"
+          },
+          {
+            "title": "Executive Assistant Manager In Charge Of F B, St. Regis Grand Hotel, Rome",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Sep 2004 - Jun 2006",
+            "location": "Rome, Italy",
+            "description": "Assist the General Manager in administering and managing the Hotel’s operation, maintaining established costs and quality standards • Actively engage in developing and introducing a strategic plan including new concepts for F&B • Responsible for the Hotel operation in the absence of the General Manager • Being part of the Executive team • Responsible of F&B strategy and execution • Daily operations meetings"
+          },
+          {
+            "title": "Resident Manager, Le Meridien St. Julian",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Jun 2006 - May 2007",
+            "location": "Malta",
+            "description": "Ensure smooth running of the day to day operation in accordance with all core standards and in line with procedures and policies of the company • Responsible for optimization of financial returns to ensure highest levels of employee satisfaction has been achieved • Involvement of S&M Plan together with the DOS in order to implement the right strategy and action to penetrate key markets/segments • Lead the operational team with the objective to maximize efficiency in order to achieve…"
+          },
+          {
+            "title": "General Manager Hotel Pitrizza, Costa Smeralda",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "May 2007 - Feb 2010",
+            "location": "Costa Smeralda, Sardinia, Italy",
+            "description": "Primary strategic business leader of the property with responsibility for all aspects of the operation including guest and employee satisfaction, financial performance, sales and revenue generation and delivering a return on investment to the management company and the owner. • Guiding and leading the team in developing and implementing business strategies •Maintain owner and management companies relationship as a business partnership"
+          },
+          {
+            "title": "General Manager, Hotel Romazzino, Costa Smeralda",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Feb 2010 - Jun 2011",
+            "location": "Costa Smeralda, Sardinia, Italy",
+            "description": "Primary strategic business leader of the property with responsibility for all aspects of the operation including guest and employee satisfaction, financial performance, sales and revenue generation and delivering a return on investment to the management company and the owner. • Guiding and leading the team in developing and implementing business strategies • Maintain owner and management companies relationship as a business partnership"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Rocco Forte Hotels",
+            "date_range": "Jun 2011 - Feb 2013",
+            "location": "Sciacca, Sicily",
+            "description": "Responsible for achieving optimal guest satisfaction and good working environment to attain all set objectives • Leading various internal and external meetings • Assist in implementing the budget and execution • Coordination of the execution of activities via instructions to the Head of Departments/Assistant Managers, supervision of the execution • Developing improvement actions, carry out costs savings •Assist in P&L execution with various internal departments involved…"
+          },
+          {
+            "title": "General Manager Director Of Operations",
+            "organization": "San Domenico Hotels",
+            "date_range": "May 2013 - Jan 2016",
+            "location": "Masseria San Domenico & Borgo Egnazia",
+            "description": "My activities were focused on organizing and overseeing the daily operations of the company, ensuring a well-coordinated business and productivity by managing strategies, the financial performance and the sales and revenue generation. I guided and supervised the Staff from different departments and provided constructive feedback for both properties and Golf Club."
+          },
+          {
+            "title": "Hotel Manager Borgo Egnazia General Manager Masseria San Domenico",
+            "organization": "San Domenico Hotels",
+            "date_range": "May 2013 - Jan 2016",
+            "location": "Masseria San Domenico & Borgo Egnazia",
+            "description": "Overseeing daily operations of all business units, I contributed to the development and implementation of a clear strategic plans by creating and implementing strategies and tactical programs designed to grow the business of Borgo Egnazia and Masseria San Domenico. As Hotel Manager, I was commercially accountable for budgeting and financial management and for the planning, organisation and direction of all hotel services, including front-of-house (reception, concierge, and reservations)…"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Grand Hotel et de Milan",
+            "date_range": "Feb 2016 - Apr 2019",
+            "location": "Milano, Italia",
+            "description": "As General Manager I am responsible for all aspects of operations at the hotel, to day-to-day Staff management and Guests. I am ambassador for Grand Hotel et de Milan and its historical charm. I provide leadership and strategic planning to all departments in support of our service culture, maximized operations and guest satisfaction. I work very closely with the hotel owner and my Team. I hold regular briefings and meetings with all head of departments, I ensure all decisions are made in the…"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Apr 2019 - Present",
+            "location": "Firenze, Italia",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality industry",
+          "delivering results",
+          "strategy execution",
+          "investment management",
+          "guest satisfaction",
+          "financial management",
+          "staff management",
+          "strategic planning",
+          "constructive feedback",
+          "rooms division",
+          "front office",
+          "hospitality",
+          "hotel",
+          "responsible",
+          "operations",
+          "operation",
+          "strategy",
+          "property",
+          "sales",
+          "management",
+          "budget",
+          "coordination",
+          "supervision",
+          "p",
+          "budgeting",
+          "planning",
+          "organisation",
+          "reservations",
+          "running",
+          "optimization",
+          "dos",
+          "efficiency",
+          "leadership",
+          "director",
+          "organizing",
+          "housekeeping"
+        ],
+        "activity_themes": [
+          "Luxury hotel operations and team building",
+          "Italian cultural tourism and Grand Tour",
+          "Hospitality industry networking",
+          "Leadership appointments in luxury hotels",
+          "Revenue, sales and marketing strategies"
+        ],
+        "source_urls": [
+          "https://it.www.linkedin.com/posts/starhotels_roma-grandtour-hoteld-activity-7417528801011617793-cyZM",
+          "https://www.linkedin.com/posts/federicoversari_instadaily-shotoftheday-instahub-activity-7416445326003445761-1mXB",
+          "https://it.www.linkedin.com/posts/antocass_crans-montana-quando-gli-adulti-non-sanno-activity-7416031014524911616-YNvW",
+          "https://www.linkedin.com/posts/hotel-la-palma-capri_we-are-pleased-to-announce-the-activity-7401568968345366528-cwi5",
+          "https://www.linkedin.com/posts/luxury-pressoffice-headofpr-pr-journalist-communication-marketing-gianfilippo-versari-★-a831902_lintervista-con-gianfilippo-versari-ufficio-activity-7402636469250473984-DZAq"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lorenzo Nencini",
       "title": "General Manager",
       "company": "Starhotels Metropole and Michelangelo (Rome)",
-      "linkedin_url": "https://www.linkedin.com/in/lorenzo-nencini-72412715/",
+      "linkedin_url": "https://www.linkedin.com/in/lorenzo-nencini-72412715",
       "email": "metropole.rm@starhotels.it",
       "email2": "michelangelo.rm@starhotels.it",
       "phone": "+39 06 47741",
@@ -661,7 +2235,101 @@
           "source_type": "news",
           "quote_or_fact": "Lorenzo Nencini takes on the position of general manager of the Starhotels Metropole and Michelangelo in Rome."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lorenzo-nencini-72412715",
+        "display_name": "Lorenzo Nencini",
+        "headline": "Cluster General Manager of Rome Complex - Starhotels Metropole & Starhotels Michelangelo at Starhotels",
+        "location": "Rome, Latium, Italy (IT)",
+        "about": "Experienced professional in the hospitality business with international background. My passion is managing daily challenges with a strategic approach to provide outstanding experiences to guests. I believe that excellent service level can only be reached with teamworking and continuous \"on the job\" training. My mind top priorities are: - Staff training; - Guests satisfaction; - Ensure operational day-to-day efficiency; - Company's financial state of health with P&L control and annual budgeting; - Maintain a long term strategy and a entrepreneurial approach to business; - Align to Company's Governance to guarantee share-holders value; - Respect for the environment. Ambitious goals can be reach through: - Constant education; - Respect, resilience and trust; - Balance of mental and body health (running is my relief valve). I work to be a point of reference for the people I deal with so that my loved ones can be proud of me. All these let me wake up every morning with a smile. My real strength!",
+        "experience": [
+          {
+            "title": "Front Office Team Member",
+            "organization": "Swissôtel Hotels & Resorts",
+            "date_range": "Feb 2006 - Jul 2006",
+            "location": "London, United Kingdom",
+            "description": "Lo Swissotel The Howard is a 5"
+          },
+          {
+            "title": "Front Office Supervisor",
+            "organization": "Guoman & Thistle hotels",
+            "date_range": "Jul 2006 - Feb 2007",
+            "location": "London, United Kingdom",
+            "description": "The Thistle Park & Palace Hotels is a property made by two adjacent hotels in the glamour area of London Kensington. Main responsibilities, reporting to the Room Division Manager: - Supervising the daily operations of the two Front Office departments; - Guaranteeing a smooth and efficient completion of tasks; - Exceed customers' expectations in terms of service; - Increase customer loyalty."
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Sonesta Hotels",
+            "date_range": "Feb 2007 - Feb 2010",
+            "location": "Sint Maarten - Netherland Antilles",
+            "description": "The Sonesta Beach Resort & Casino is the biggest hotel in Sint Maarten and among the most luxurious ones in the Caribbean, named as the \"Best Hotel in Sint Maarten 2009\". Main accountabilities: - Reception, Bellmen, Switchboard Departments (29 FTE's); - Set up of a \"Staff Training on the Job Project\" which led to +10% customer satisfaction and loyalty (Sonesta Travel Pass); - In charge of the entire resort operations during the weekly shifts as \"Manager on Duty\"."
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "UNA Hotels & Resorts",
+            "date_range": "Mar 2010 - Jul 2012",
+            "location": "Tuscany",
+            "description": "At the historical Villa Le Maschere we are totally dedicated to let our guests live a fairy tale. The complete dedication to exceptional service honored the property to be listed among the \"101 Best Hotels in the World 2011\" by Condè Nast. Main accountabilities: - Reception, Concierge, Housekeeping, Reservations, Customer Service Departments (11 FTE's); - Staff selection and training; - Organization and implementation of a quality project based on \"Continuous Staff Training Program on the Job, which led the hotel to reach the 98% of customer satisfaction awarded with \"Trip-Advisor Excellence Certificate\" in 2010 and 2011; - Preparation of the yearly revenue budget and monitoring the reaching of target results; - In 2011, implementation of a pricing and positioning strategy based on B2C and Wedding segments that increased YoY: Revenue 9.5%, ADR 3%, RevPAR 9.4%, Occupancy 6.6% - In charge of the entire hotel operations in absence of the General Manager."
+          },
+          {
+            "title": "MBA Summer Internship Sales Manager At Louis Vuitton Milano Montenapoleone",
+            "organization": "Louis Vuitton",
+            "date_range": "Jul 2013 - Sep 2013",
+            "location": "Milan Area, Italy",
+            "description": "At the Louis Vuitton Montenapoleone Flagship Store, the key word is: client Main accountabilities: - Sales; - Team management; - Customer service and client relationship management; - Product & stock management; - Merchandising; - Store operations."
+          },
+          {
+            "title": "General Manager At NH Milano Grand Hotel Verdi",
+            "organization": "NH Hotel Group",
+            "date_range": "Jun 2014 - Feb 2015",
+            "location": "Milan Area, Italy",
+            "description": "Our goal at the NH Milano Grand Hotel Verdi is to make whom chose our hotel feel home, thanks to a personalized service. We are honored to be considered by many managers their \"home away from home\". Main duties: - Getting into the role of General Manager for NH Hotel Group (policies and procedures); - Focus on the main hotel segments to reach the annual revenue and GOP budget; - Development of the hotel strategy for Milano EXPO 2015 together with the commercial department."
+          },
+          {
+            "title": "General Manager At NH Roma Villa Carpegna",
+            "organization": "NH Hotel Group",
+            "date_range": "Feb 2015 - Oct 2016",
+            "location": "Rome Area, Italy",
+            "description": "Set just outside Rome’s bustling center, the NH Roma Villa Carpegna offers the perfect balance between city action and suburban tranquility being surrounded by greenery with an amazing swimming pool in a residential area near the Vatican City State. Our goal is to offer a metropolitan relaxing gateway in our swimming pool even during an important congress our enjoying an \"al fresco\" dinner on our terrace during a roman vacation or a business trip in the eternal city. Main accountabilities: - Focus on enhancing guests' experience (100+ positions gained on TripAdvisor); - Leveraged on the swimming pool area services, creating an atmosphere of \"tranquil oasis in Rome\" for B2C segments; - New F&B concept for hotel terrace and bar; - Development of MICE and Airline Crew segments together with the commercial team; - Focus on costs efficiency and accurate managing of resources according with the seasonality of the property."
+          },
+          {
+            "title": "General Manager At NH Napoli Panorama",
+            "organization": "NH Hotel Group",
+            "date_range": "Oct 2016 - May 2022",
+            "location": "Naples Area, Italy",
+            "description": "At the NH Napoli Panorama we experience our everyday life in a modern yet iconic skyscraper rising out of the historic center of Naples. Our veins are fool of the typical Neapolitan liveliness and our eyes are astonished by the view that only our panoramic rooms can show. With these ingredients we let our guests experience the real Naples! Main accountabilities: - Hotel Refurbishment Project (years 2018-2020); - Staff training and switch personnel mentality to the new hotel mood; - Marketing, Commercial and Operations Development Plan; - Hotel repositioning & renaming; - New F&B and Bar concepts; - Reached hotel historical top goals in terms of Total Revenue and GOP (years 2017 and 2018)."
+          },
+          {
+            "title": "Cluster General Manager Of Rome Complex - Starhotels Metropole Starhotels Michelangelo",
+            "organization": "Starhotels",
+            "date_range": "May 2022 - Present",
+            "location": "Rome",
+            "description": "Stategically located in the city centre, with its evocative blend of comfort and class, the Starhotels Metropole shows Rome at its multifaceted best. Only a short walk from the Vatican and St. Peter's Basilica, the Starhotels Michelangelo Roma embodies all the qualities that make Rome unique: cosmopolitan style, classical grandeur and timeless appeal. Thanks to our personalized service, we are honored to be considered by most of our guests their \"home away from home\". Main accountabilities: - Properties re-launch after Covid-19 -Hotels repositioning - Reached hotels historical top goals in terms of Total Revenue and GOP (years 2023 and 2024) - Reached hotels historical top goals in terms of Quality and Guest Satisfaction"
+          },
+          {
+            "title": "Active Member Of The Board Of Directors",
+            "organization": "Unindustria Roma - Frosinone - Latina - Rieti - Viterbo",
+            "date_range": "May 2023 - Present",
+            "location": null,
+            "description": "Part of the Board of Directors of the Unindustria Tourism Sector, I am in charge of the Human Capital Project called \"The Tourism Factor\", with the aim to enhance the attractiveness of the Hospitality Sector towards young generations. During 2024, the team has worked as follows: - Focus Group with the Unindustria Associates - Building up a Position Paper (in collaboration with Grant Thornton) - Screening of the best Hotel Schools in Europe (in collaboration with Treccani – Edulia) - Meet the Schools at school - Meet the Schools in hotel - School Contest The project has been participated by over 300 students and supported by all the main hotel companies operating in Rome"
+          },
+          {
+            "title": "Active Member",
+            "organization": "EHMA - European Hotel Managers Association",
+            "date_range": "Jan 2024 - Present",
+            "location": null,
+            "description": "Department: Other • Level: Specialist"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/lorenzo-nencini-72412715"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Andrea Losio",
@@ -703,5 +2371,71 @@
     "succeeded": 12,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T01:00:05.562136+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 20,
+      "structured": 17,
+      "discovered": 6,
+      "errors": 1
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 10,
+        "content_pages": 20,
+        "cost_estimate": {
+          "approx_total_usd": 0.09,
+          "search_component_usd": 0.07,
+          "contents_component_usd": 0.02,
+          "counts": {
+            "search_requests": 10,
+            "content_pages": 20
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 48262,
+          "cached_prompt_text_tokens": 1088,
+          "completion_tokens": 20558,
+          "reasoning_tokens": 61536,
+          "output_tokens": 0,
+          "total_tokens": 130356
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.58713,
+          "token_component_usd": 0.58713,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 48262,
+            "cached_prompt_text_tokens": 1088,
+            "completion_tokens": 20558,
+            "reasoning_tokens": 61536,
+            "total_tokens_reported": 130356,
+            "output_like_tokens": 82094,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.67713
+    }
   }
 }

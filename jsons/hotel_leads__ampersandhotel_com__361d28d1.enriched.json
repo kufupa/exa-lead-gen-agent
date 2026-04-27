@@ -134,7 +134,7 @@
       "full_name": "Niels Frøstrup",
       "title": "Assistant General Manager",
       "company": "The Ampersand Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/niels-fr%C3%B8strup-aa67b862",
+      "linkedin_url": "https://www.linkedin.com/in/niels-fr%C3%B8strup-aa67b862",
       "email": null,
       "email2": null,
       "phone": null,
@@ -162,13 +162,177 @@
           "quote_or_fact": "Reservations phone +44 (0)20 7591 4715 and email route"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/niels-fr%C3%B8strup-aa67b862",
+        "display_name": "Niels Frøstrup",
+        "headline": "Assistant General Manager at The Ampersand Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced hotel manager with sound leadership skills who proactively can lead a large dynamic team with a customer focused ethos. A great eye for detail and being highly organised has contributed to my successes in Hospitality. My true passion is being able to impact both customer and team experiences, being able to personalise their experiences from beginning to end. I enjoy calling London my home, and is now seeking new opportunities within Hospitality and Property management, in this great city.",
+        "experience": [
+          {
+            "title": "Front Office Housekeeping Operative",
+            "organization": "Løkken Badehotel & Løkken Starndpavilion",
+            "date_range": "Jan 1990 - Jan 1996",
+            "location": "Løkken, Denmark",
+            "description": "Timeshare appartment hotel. During full time education"
+          },
+          {
+            "title": "Management Trainee",
+            "organization": "Helnan International",
+            "date_range": "Jan 1994 - Jan 1996",
+            "location": "Aalborg, Denmark",
+            "description": "As part of diploma at Aalborg Hotel Academy."
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Guoman & Thistle hotels",
+            "date_range": "Dec 1996 - Apr 1997",
+            "location": "London, United Kingdom",
+            "description": "Charring Cross Hotel"
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Metropole Hotel",
+            "date_range": "Apr 1997 - Dec 1997",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reception Shift Leader",
+            "organization": "Hilton London Metropole",
+            "date_range": "Dec 1997 - Nov 1999",
+            "location": "London, United Kingdom",
+            "description": "Courses: Roster optimisation, Supervisory skills, Reservation handling. Train the Trainer (national diploma)"
+          },
+          {
+            "title": "Guest Relations Executive",
+            "organization": "Hilton London Metropole",
+            "date_range": "Nov 1999 - Jan 2001",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Guest Relations Executive",
+            "organization": "Hilton London Metropole",
+            "date_range": "Jan 2001 - Oct 2001",
+            "location": "London, United Kingdom",
+            "description": "Courses: Group Training Techniques (national diploma), Recruitment & Selection"
+          },
+          {
+            "title": "Front Office Duty Manager",
+            "organization": "Hilton London Metropole",
+            "date_range": "Oct 2001 - Mar 2002",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Services Manager",
+            "organization": "ANdAZ",
+            "date_range": "Apr 2002 - Mar 2010",
+            "location": "London, United Kingdom",
+            "description": "Part of the team who set up the Andaz concept. The first hotel to operate without a reception desk and being able process arrival and departures via iPads. Develop the role of the Andaz Host, a personal contact who preform the role of reception, concierges, porter and guest relation in one. Great Eastern Hotel (2002-2007) Supervise and coordinate the daily Front desk operation (days and nights) including guest service follow up. Overall responsible for daily hotel fire and evacuation procedures. Introduced an Induction, Training & Development structure that improve operational efficiencies. Including building a system that would link all team members to a coach. Overseeing door hosting and registration of guest attending various parties, events and art installations."
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "ANdAZ",
+            "date_range": "Mar 2010 - Sep 2011",
+            "location": "London, United Kingdom",
+            "description": "Efficiently manage the daily operation of the Andaz Lounge, including manning and recruitment. Build a Guest services department to become an integration part of the Front Office, that could help service the Andaz concept better."
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "ANdAZ",
+            "date_range": "Sep 2011 - Jan 2016",
+            "location": "London, United Kingdom",
+            "description": "Leading a Front of House team of 50+ team members including Guest Services and Health Club operations. Implementing of the Guest experience management role and systems to deliver a unique and personal service that would again set the Andaz brand apart. Building an action and goal focused management team. Create a training and development structure that focus on lateral growth and succession planning to reduce turnover. Operating a Health Club that includes a range of services from Personal training, Memberships, Physiotherapy and Beauty treatments. Driving revenues on all services including product sales and promotions."
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "Locke Hotels",
+            "date_range": "Aug 2016 - Dec 2018",
+            "location": "London, United Kingdom",
+            "description": "Pre-opening at Leman Locke, design-led aparthotel in vibrant East London with 171 studio & one-bed apartments."
+          },
+          {
+            "title": "Assistant General Manager",
+            "organization": "The Ampersand Hotel",
+            "date_range": "Jan 2019 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Hjørring Commercial College, Denmark",
+            "degree_or_field": "Business diploma, Comprehensive Business diploma",
+            "date_range": "1990 - 1993"
+          },
+          {
+            "school": "Aalborg Hotel Academy",
+            "degree_or_field": "Hotel & Restaurant management diploma, Academy degree",
+            "date_range": "1994 - 1996"
+          }
+        ],
+        "skills": [
+          "hotel",
+          "leadership",
+          "hospitality",
+          "property",
+          "management",
+          "health",
+          "operations",
+          "training",
+          "planning",
+          "beauty",
+          "driving",
+          "sales",
+          "promotions",
+          "less",
+          "operation",
+          "responsible",
+          "hosting",
+          "registration",
+          "housekeeping",
+          "education",
+          "courses",
+          "reservation",
+          "trainer",
+          "recruitment",
+          "integration",
+          "design",
+          "apartments",
+          "leadership skills",
+          "property management",
+          "front office",
+          "succession planning",
+          "personal training",
+          "guest service",
+          "supervisory skills",
+          "group training"
+        ],
+        "activity_themes": [
+          "Hospitality leadership conferences and events",
+          "Hotel team achievements and awards",
+          "New hotel openings and appointments",
+          "Professional transitions in hospitality industry",
+          "Personal pride in current hotel team performance",
+          "Networking within London hospitality sector"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/niels-fr%C3%B8strup-aa67b862",
+          "https://www.linkedin.com/posts/gold-key-media_masterinnholders-hotelleadershipconference-activity-7419283925774020609-6lg9",
+          "https://www.linkedin.com/posts/the-ampersand-hotel_we-are-thrilled-to-announce-that-our-jurassic-activity-7335271696796418049-g-xp",
+          "https://www.linkedin.com/posts/niels-frøstrup-aa67b862_just-amazing-what-this-team-continues-to-activity-7325480878246174720-LhiM"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Priyanka Abbi",
       "title": "Group Director of Sales and Marketing",
       "company": "The Ampersand Hotel (Ampersand and Vintry & Mercer)",
-      "linkedin_url": "https://uk.linkedin.com/in/priyanka-a-709b453",
+      "linkedin_url": "https://www.linkedin.com/in/priyanka-a-709b453",
       "email": null,
       "email2": null,
       "phone": null,
@@ -196,7 +360,134 @@
           "quote_or_fact": "Sales phone +44 (0)207 589 5895 and dedicated sales/PR & Marketing email routes"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/priyanka-a-709b453",
+        "display_name": "Priyanka A.",
+        "headline": "Portfolio Revenue Manager - IHG Revenue Services",
+        "location": "Windsor, England, United Kingdom (GB)",
+        "about": "Fluent in German, Dutch, English, and Hindi, I thrive in diverse, multicultural environments and enjoy contributing to global hospitality operations. My international upbringing and language skills have allowed me to collaborate seamlessly with cross-functional teams and stakeholders across regions. As a graduate of Les Roches International School of Hotel Management, I bring a solid foundation in hospitality with a strong focus on data-driven decision-making. My approach blends academic knowledge with real-world experience—leveraging analytics, forecasting, and a customer-centric mindset to drive revenue growth and optimize performance. I’m passionate about using insights to create strategies that not only boost profitability but also enhance the guest experience.",
+        "experience": [
+          {
+            "title": "Rooms Divisions",
+            "organization": "Hilton",
+            "date_range": "Jan 2007 - Jul 2008",
+            "location": "Amsterdam & Chongqing",
+            "description": "Industry based Training in two properties: Hilton Amsterdam Dec 2006 - June 2007 Hilton Chongqing Dec 2007 - June 2008"
+          },
+          {
+            "title": "Hotel Reservations Rooms Divisions Managment Trainee",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Dec 2008 - Aug 2010",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Reservations",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Aug 2010 - Jun 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Account Manager EMEA",
+            "organization": "The Instant Group",
+            "date_range": "Jun 2013 - Jun 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Reservations Revenue Manager",
+            "organization": "Stoke Park",
+            "date_range": "Jun 2014 - Sep 2016",
+            "location": "Stoke Poges",
+            "description": "manage daily operations of the Resort Reservations team of 5 team members, in charge of all Restaurant, Spa and Hotel reservations"
+          },
+          {
+            "title": "Resort Reservations Manager",
+            "organization": "The Grove",
+            "date_range": "Sep 2016 - Feb 2018",
+            "location": "Rickmansworth, Hertfordshire, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "The Ampersand Hotel",
+            "date_range": "Feb 2018 - Aug 2019",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue (The Ampersand And Vintry Mercer Hotel)",
+            "organization": "The Ampersand Hotel",
+            "date_range": "Aug 2019 - Jul 2022",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Director Of Sales Marketing (The Ampersand And Vintry Mercer Hotel)",
+            "organization": "The Ampersand Hotel",
+            "date_range": "Jul 2022 - Mar 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Portfolio Revenue Manager",
+            "organization": "IHG Hotels & Resorts",
+            "date_range": "Mar 2025 - Present",
+            "location": "Windsor, England, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Les Roches International School of Hotel Management",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hotel management",
+          "decision making",
+          "fluent",
+          "german",
+          "dutch",
+          "hindi",
+          "multicultural",
+          "hospitality",
+          "operations",
+          "hotel",
+          "management",
+          "analytics",
+          "forecasting",
+          "profitability",
+          "director",
+          "sales",
+          "marketing",
+          "training",
+          "reservations",
+          "spa"
+        ],
+        "activity_themes": [
+          "IHG Hotels & Resorts growth and brand features in Europe",
+          "Hospitality industry recognitions in Forbes and publications",
+          "Career transitions and leadership changes in hotel groups",
+          "Hotel openings, spotlights and senior appointments",
+          "Alumni networks, community support and condolences",
+          "Gratitude for past roles and new career beginnings"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/barbara-maurer-251891112_türkiye-ihg-için-avrupadaki-en-cazip-büyüme-activity-7415060729101434881-FLYM",
+          "https://www.linkedin.com/posts/sara-merschmeier-8b816030_ihgeurope-truehospitality-activity-7415346188578639872-SPX0",
+          "https://www.linkedin.com/posts/neetu-mistry-152a8222_in-september-i-posted-a-message-to-say-i-activity-7414638719259041792-deoo",
+          "https://www.linkedin.com/posts/noor-darra_cransmontana-cransmontanafire-lesrochesalumni-activity-7413791946424463361-BW4x",
+          "https://www.linkedin.com/posts/hello-2026exciting-news-incoming-activity-7414348584302800896-x0gF",
+          "https://www.linkedin.com/posts/st-regis-london_we-are-thrilled-to-share-our-very-first-update-activity-7404932483848400896-T6PD",
+          "https://www.linkedin.com/posts/novum-hospitality_garnerhotelsspotlight-garnerhotelsspotlight-activity-7404897841833463808-NpkS",
+          "https://www.linkedin.com/posts/magdalenabrega_gratitude-newbeginnings-careerjourney-activity-7412749526903676928-vCqQ"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Julien Baudoux",
@@ -265,7 +556,7 @@
       "full_name": "Aurelie Baton",
       "title": "Head of Sales & Marketing",
       "company": "The Ampersand Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/aurelie-baton",
       "email": null,
       "email2": null,
       "phone": null,
@@ -288,7 +579,25 @@
           "quote_or_fact": "Sales and PR & Marketing dedicated contact details"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/aurelie-baton",
+        "display_name": "Aurelie B.",
+        "headline": "Group Head of Sales & Marketing • The Brit List Award - Rising Star nomination 2023 & 2024",
+        "location": "United Kingdom (GB)",
+        "about": "Passionate about luxury hospitality and creating exceptional experiences. With…",
+        "experience": [],
+        "education": [],
+        "skills": [
+          "luxury",
+          "hospitality"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/aurelie-baton"
+        ],
+        "data_quality": "partial",
+        "caveats": "No experience or education sections present in the provided profile text"
+      }
     },
     {
       "full_name": "Joseph Fhospa",
@@ -347,7 +656,7 @@
       "full_name": "Elena Amato",
       "title": "Human Resources Executive",
       "company": "The Ampersand Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/elena-amato-401b9017a",
       "email": null,
       "email2": null,
       "phone": null,
@@ -371,7 +680,7 @@
       "full_name": "Ian Verona",
       "title": "Manager",
       "company": "The Ampersand Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/ian-eric-verona-976352206",
       "email": null,
       "email2": null,
       "phone": null,
@@ -389,7 +698,70 @@
           "quote_or_fact": "Ian Verona listed in Ampersand Hotel employees"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ian-eric-verona-976352206",
+        "display_name": "Ian Eric Verona",
+        "headline": "Assistant Front Office Manager at The Ampersand Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Enthusiastic, dynamic and determined individual with excellent organisational and interpersonal skills. Reliable and conscientious with friendly considerate nature who enjoys caring helping for others possessing excellent communicative skills both written and verbal tact and diplomacy, organisational and supervisory skills, apply all efforts to succeed, able to prioritise and problem solve using own initiative capable of making decisions based on experience and knowledge. Highly productive team player. Applies a logical approach to all tasks, has ability to excel under pressure and remain flexible when faced with different situation.\n\nTotal Experience: 11 years and 4 months",
+        "experience": [
+          {
+            "title": "Front Office",
+            "organization": "Cardiff Hotel",
+            "date_range": "Mar 2014 - Mar 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Night Manager",
+            "organization": "Hotel Rafayel on the left bank",
+            "date_range": "Mar 2016 - Sep 2019",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Night Manager",
+            "organization": "London Marriott Hotel Park Lane",
+            "date_range": "Oct 2019 - Dec 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "The Ampersand Hotel",
+            "date_range": "Jun 2021 - Present",
+            "location": "South Kensington, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Centro Escolar University",
+            "degree_or_field": "Hotel, Motel, and Restaurant Management",
+            "date_range": "2007 - 2010"
+          }
+        ],
+        "skills": [
+          "interpersonal skills",
+          "communicative skills",
+          "supervisory skills",
+          "team player",
+          "front office",
+          "diplomacy",
+          "pressure",
+          "flexible"
+        ],
+        "activity_themes": [
+          "American Express Platinum Card 40-year anniversary celebrations",
+          "Hospitality leadership appointments and career transitions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/bess-spaeth_teamamex-amexplatinum40-activity-7195860822005284864-rXUV",
+          "https://www.linkedin.com/posts/lorraine-sinclair-🏴󠁧󠁢󠁳󠁣󠁴󠁿🏴󠁧󠁢󠁳󠁣󠁴󠁿-8b70482_hotel-bellevue-appoints-lorraine-sinclair-activity-7097130154530938880-Y3Om"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Anton Fedun",
@@ -469,5 +841,71 @@
       }
     ],
     "batch_id": "batch_916225f0-07c9-4c03-991c-97bf54f251b6"
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T22:09:59.715191+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 5,
+      "structured": 4,
+      "discovered": 3,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 8,
+        "content_pages": 5,
+        "cost_estimate": {
+          "approx_total_usd": 0.061,
+          "search_component_usd": 0.056,
+          "contents_component_usd": 0.005,
+          "counts": {
+            "search_requests": 8,
+            "content_pages": 5
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 9594,
+          "cached_prompt_text_tokens": 256,
+          "completion_tokens": 3964,
+          "reasoning_tokens": 10396,
+          "output_tokens": 0,
+          "total_tokens": 23954
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.104887,
+          "token_component_usd": 0.104887,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 9594,
+            "cached_prompt_text_tokens": 256,
+            "completion_tokens": 3964,
+            "reasoning_tokens": 10396,
+            "total_tokens_reported": 23954,
+            "output_like_tokens": 14360,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.165887
+    }
   }
 }

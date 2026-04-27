@@ -249,7 +249,7 @@
       "full_name": "Melanee Shale",
       "title": "Director of Digital Marketing",
       "company": "Four Seasons Hotel Westlake Village",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/melaneeshale",
       "email": "melanee.shale@fourseasons.com",
       "email2": null,
       "phone": null,
@@ -266,13 +266,134 @@
           "source_type": "official_site",
           "quote_or_fact": "Melanee Shale, Director of Digital Marketing, melanee.shale@fourseasons.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/melaneeshale",
+        "display_name": "Melanee Shale",
+        "headline": "Director of Digital Marketing at Four Seasons Hotel Los Angeles at Beverly Hills and Four Seasons Hotel Westlake Village",
+        "location": "Pasadena, California, United States (US)",
+        "about": "As Director of Digital Marketing at Four Seasons Hotel Los Angeles at Beverly Hills and Four Seasons Hotel Westlake Village, I lead the strategic direction for all digital marketing efforts, driving growth, visibility, and guest engagement across all channels. With a strong focus on data-driven decision-making and cohesive brand storytelling, I oversee performance across paid and owned media while ensuring digital innovation aligns with the luxury brand standard of Four Seasons.",
+        "experience": [
+          {
+            "title": "Producer, Writer, Anchor, Reporter And Video Editor",
+            "organization": "On Point",
+            "date_range": "Jan 2012 - May 2012",
+            "location": "California State University, Northridge",
+            "description": "Booked and interviewed guests on air for a 30 minute program. Shot and edited video to accompany the show Experienced being a producer, anchor, and writer."
+          },
+          {
+            "title": "Digital Content Creator",
+            "organization": "www.melaneeshale.com",
+            "date_range": "May 2012 - Present",
+            "location": "Greater Los Angeles Area",
+            "description": "Founder and Editor of my own lifestyle blog. Monthly blog posts dedicated to covering all things fashion, lifestyle, and beauty. Manage day to day activities including collaborations on sponsored posts, event hosting and giveaways Responsible for the acquiring of followers by implementing social media strategies on different social channels (i.e., Facebook, Twitter, Instagram, Pinterest, YouTube, etc.) Develop and maintain relationships with brands, designers and other fashion influencers. Covered events such as The Emmy Awards, LA and New York Fashion Week"
+          },
+          {
+            "title": "Entertainment News Intern",
+            "organization": "Hollywire",
+            "date_range": "Jan 2013 - May 2013",
+            "location": "Greater Los Angeles Area",
+            "description": "Pitched entertainment news stories to editors. Researched celebrities through social media outlets, Getty Images and related websites. Prepared celebrity images to be uploaded to the site. Updated editorial calendars. Wrote and edited online entertainment news stories."
+          },
+          {
+            "title": "Producer, Writer, Anchor, Reporter And Video Editor",
+            "organization": "Valley View News",
+            "date_range": "Jan 2013 - May 2013",
+            "location": "Greater Los Angeles Area",
+            "description": "Produced a weekly newscast to be aired on LA's Channel 36. Anchored entertainment news segment for broadcast. Produced, reported and edited news packages for air. Reel: https://www.youtube.com/watch?v=-7dP5ofyVvw"
+          },
+          {
+            "title": "Master's Thesis",
+            "organization": "California State University, Northridge",
+            "date_range": "Jan 2013 - May 2013",
+            "location": "Greater Los Angeles Area",
+            "description": "Topic: A video documentary examining the life of a Thai transgender named Nadia. It seeks to understand how a Thai immigrant to the U.S navigates the dramatic change from male to female as a Thai American. The goal is to better understand transgender people from an immigrant and ethnic lens. Through my research, I found that transgender images in the media are still invisible while gay issues have slowly become more positive and frequent. My project also aims to give a transgender woman a voice to tell her story. Link: https://www.youtube.com/watch?v=yFaWsxk37oQ&feature=endscreen&NR=1"
+          },
+          {
+            "title": "Social Media Manager",
+            "organization": "DAILYLOOK",
+            "date_range": "Apr 2014 - Jul 2015",
+            "location": "Greater Los Angeles Area",
+            "description": null
+          },
+          {
+            "title": "Influencer Marketing",
+            "organization": "Atypical Brands, LLC.",
+            "date_range": "Jul 2015 - Dec 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2016 - Apr 2022",
+            "location": "Greater Los Angeles Area",
+            "description": null
+          },
+          {
+            "title": "Marketing And Communications Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Apr 2022 - Jun 2025",
+            "location": "Los Angeles, California, United States",
+            "description": null
+          },
+          {
+            "title": "Director Of Digital Marketing",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jun 2025 - Present",
+            "location": "Los Angeles, California, United States",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Long Island University, C.W. Post Campus",
+            "degree_or_field": "Bachelor of Fine Arts (B.F.A.), Theatre/Theater",
+            "date_range": "2001 - 2004"
+          },
+          {
+            "school": "California State University-Northridge",
+            "degree_or_field": "Master's degree, Journalism",
+            "date_range": "2011 - 2013"
+          }
+        ],
+        "skills": [
+          "digital marketing",
+          "influencer marketing",
+          "marketing communications",
+          "social media",
+          "storytelling",
+          "luxury",
+          "innovation",
+          "decision making",
+          "fashion",
+          "beauty",
+          "blog",
+          "producer",
+          "entertainment",
+          "broadcast",
+          "documentary",
+          "research"
+        ],
+        "activity_themes": [
+          "Four Seasons Hotels and Resorts marketing initiatives",
+          "Luxury hospitality awards and recognitions",
+          "Global marketing leadership updates",
+          "Four Seasons property events and experiences",
+          "Hospitality industry travel and promotions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/melaneeshale"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Chris Shiel",
       "title": "Commercial Director",
       "company": "Four Seasons Hotel New York",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/chris-shiel-6236908",
       "email": "chris.shiel@fourseasons.com",
       "email2": null,
       "phone": null,
@@ -289,13 +410,119 @@
           "source_type": "official_site",
           "quote_or_fact": "Chris Shiel, Commercial Director, chris.shiel@fourseasons.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/chris-shiel-6236908",
+        "display_name": "Chris Shiel",
+        "headline": "Commercial Director, Four Seasons Hotels | Luxury & Lifestyle Hotels and Resorts | Commercial Strategy & Digital Marketing | Asset Renovations & Repositioning",
+        "location": "Weston, Connecticut, United States (US)",
+        "about": "A results-driven commercial leader with a proven track record in sales, marketing, revenue and team leadership across luxury hotels in the U.S. and Mexico. Skilled in asset renovation and repositioning, with deep expertise in optimizing sales performance, digital marketing strategy, brand partnerships, and agency collaboration.\n\nTotal Experience: 18 years and 5 months",
+        "experience": [
+          {
+            "title": "Corporate Sales Manager",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "Sep 2007 - Jan 2011",
+            "location": "New York, United States",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Denihan Hospitality Group",
+            "date_range": "Jan 2011 - Feb 2015",
+            "location": "New York, United States",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing - Smyth, A Thompson Hotel",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Feb 2015 - Jul 2017",
+            "location": "New York, United States",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Refinery Hotel",
+            "date_range": "Jul 2017 - Oct 2018",
+            "location": "New York, United States",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing - 50 Bowery",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Oct 2018 - Jan 2022",
+            "location": "New York, United States",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing - Andaz Mayakoba (US Based)",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Jan 2022 - Apr 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Commercial Director",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Apr 2024 - Present",
+            "location": "New York, New York, United States",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Quinnipiac University",
+            "degree_or_field": "Bachelor of Science - BS, Marketing",
+            "date_range": "2003 - 2007"
+          },
+          {
+            "school": "NYU",
+            "degree_or_field": "NYU SCPS Real Estate Finance Certificate, Real Estate Financial Analysis",
+            "date_range": null
+          },
+          {
+            "school": "NYU",
+            "degree_or_field": "NYU SCPS Real Estate Finance Certificate, Introduction to Real Estate Finance",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "commercial",
+          "sales",
+          "marketing",
+          "leadership",
+          "luxury",
+          "hotels",
+          "renovation",
+          "digital",
+          "strategy",
+          "partnerships",
+          "collaboration",
+          "director",
+          "hotel",
+          "team leadership",
+          "digital marketing",
+          "marketing strategy",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Luxury hotel openings and brand expansions",
+          "Professional promotions and awards in hospitality",
+          "Career transitions in commercial sales and marketing",
+          "Four Seasons and Hyatt network updates",
+          "Recognition in luxury and lifestyle hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/chris-shiel-6236908"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sarah Tuite",
       "title": "Senior Vice President, Corporate Communications and Public Relations",
       "company": "Four Seasons Hotels and Resorts",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/sarah-tuite-",
       "email": "prsm@fourseasons.com",
       "email2": null,
       "phone": "1-800-819-5053",
@@ -346,7 +573,7 @@
       "full_name": "Dana Berry",
       "title": "Senior Director of Public Relations",
       "company": "Four Seasons Resort Orlando",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/danalaurenberry",
       "email": "dana.berry@fourseasons.com",
       "email2": null,
       "phone": "+1 407 313 7777",
@@ -363,13 +590,111 @@
           "source_type": "official_site",
           "quote_or_fact": "Dana Berry, Senior Director of Public Relations, dana.berry@fourseasons.com, +1 407 313 7777"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/danalaurenberry",
+        "display_name": "Dana Lauren Berry",
+        "headline": "Marketing, PR & Communications Leader | Hospitality, Lifestyle & Luxury Focus",
+        "location": "Orlando, Florida, United States",
+        "about": "Accomplished Communications and Marketing leader with strong expertise in public…",
+        "experience": [
+          {
+            "title": "News Media Specialist",
+            "organization": "University of Colorado Hosptial",
+            "date_range": "Jul 2002 - Feb 2005",
+            "location": null,
+            "description": "Managed daily media relations and news media requests, strategically planned stories for local and national print and broadcast media, served as a spokeswoman for the hospital and four schools, maintained positive relations with the media by serving as a liaison between the UCHSC campus and the news media, wrote and distributed news releases and health news updates, and served on rotation for media on-call."
+          },
+          {
+            "title": "News Media Manager Spokeswoman",
+            "organization": "Centura Health",
+            "date_range": "Jul 2005 - Oct 2006",
+            "location": "Englewood, Colorado, United States",
+            "description": "Served as sole corporate spokeswoman for Centura Health, Colorado’s largest health care provider; handled media relations for the Centura system, which includes 12 hospitals; worked regularly alongside C-level executives, handling media queries, writing talking points, and briefing for interviews; wrote and issued news releases; coordinated communications and media for special events; developed crisis communications manual and other communications plans; strategically planned stories for the…"
+          },
+          {
+            "title": "Corporate Director Of Public Relations",
+            "organization": "Magnolia Hotels",
+            "date_range": "Oct 2006 - Mar 2009",
+            "location": null,
+            "description": "Responsible for Public Relations for four Magnolia Hotels: Denver, Dallas, Houston and Omaha. Orchestrated opening PR initiatives for the company's Omaha location grand opening. Handled public relations and all aspects of communications for the four Magnolia hotels and the management company; served as the spokesperson for Magnolia Hotels and the management company; developed and implemented PR campaigns for the launch of new hotels and existing hotels, to enhance the hotels’ sales and…"
+          },
+          {
+            "title": "Independent PR Consultant",
+            "organization": "Dana Lauren Public Relations",
+            "date_range": "Apr 2009 - May 2010",
+            "location": null,
+            "description": "Offered Public Relations, Media Relations, Crisis Communications, Publicity and Writing services on a contract basis. Served as a contract public relations professional for advance publicity on the King Tut exhibition at the Denver Art Museum. Worked with mostly hospitality and lifestyle clients."
+          },
+          {
+            "title": "Director Of Public Relations At Four Seasons Hotel Denver And Four Seasons Resort Vail",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "May 2010 - Dec 2013",
+            "location": "Greater Denver Area",
+            "description": "Served as opening Director of Public Relations for the 239-room, AAA Five Diamond Award rated Four Seasons Hotel Denver, including an urban Spa sanctuary and a street-level steakhouse, EDGE Restaurant & Bar. Garnered a PR value of media coverage in the opening year of more than $2.9 million. Established the property’s social media presence on channels including Facebook, Twitter, Instagram and Pinterest. Positioned the Hotel to receive awards including the Travel + Leisure magazine World’s…"
+          },
+          {
+            "title": "Director Of Public Relations Communications",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2014 - Aug 2023",
+            "location": "Four Seasons Resort Orlando at Walt Disney World Resort",
+            "description": "Communications lead for overall resort communications initiatives including proactive and reactive media relations. Implements annual PR & Marketing plan and serves as the main spokesperson for media inquiries. Regularly achieves annual media coverage exceeding $5M. Represents Four Seasons globally at key media events and trade shows. Key responsibilities include: -      news release creation and distribution, maintenance of the online Press Room; ensuring translation and distribution…"
+          },
+          {
+            "title": "Senior Director Of Public Relations And Communications",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2023 - Jan 2026",
+            "location": "Orlando, Florida, United States",
+            "description": "Promoted to Senior Director of Public Relations & Communications, representing the largest, most comprehensive Four Seasons property in North America, Four Seasons Resort Orlando at Walt Disney World Resort, along with the exclusive Caribbean hideaway The Ocean Club, A Four Seasons Resort, Bahamas (Nassau- Paradise Island). Handled the dual role since January 2023 and promotion was official in July 2023. Responsible for strategic communications planning for overall resort initiatives including…"
+          },
+          {
+            "title": "Senior Director Of Public Relations And Marketing",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2026 - Present",
+            "location": null,
+            "description": "Position title evolved to best reflect the scope of the role. Responsible for strategic communications and marketing for the largest Four Seasons property in North America, Four Seasons Resort Orlando, in addition to the exclusive, intimate Caribbean resort, The Ocean Club, A Four Seasons Resort, Bahamas. Oversee and lead our earned, owned and paid media content. Represent Four Seasons globally at key media events and trade shows, and in-market, highly involved with destination marketing partners. Implement annual Commercial Plan focusing on PR and marketing strategies and serve as the main spokesperson for media inquiries. Oversight of international PR agency partners and a social media agency."
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Colorado at Boulder",
+            "degree_or_field": null,
+            "date_range": "1996 - 2000"
+          }
+        ],
+        "skills": [
+          "media relations",
+          "special events",
+          "crisis communications",
+          "public relations",
+          "strategic communications",
+          "communications planning",
+          "social media",
+          "trade shows",
+          "destination marketing",
+          "communications",
+          "marketing",
+          "health",
+          "hospitals",
+          "c",
+          "writing",
+          "briefing",
+          "interviews",
+          "crisis",
+          "stories",
+          "dire"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Harley Wyatt Potter",
       "title": "Senior Director of Public Relations and Communications",
       "company": "Four Seasons Hotel Nashville",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/harley-wyatt-potter-22a192b6",
       "email": "harley.potter@fourseasons.com",
       "email2": null,
       "phone": "+1 629 215 3391",
@@ -386,13 +711,100 @@
           "source_type": "official_site",
           "quote_or_fact": "Harley Wyatt Potter, Senior Director of Public Relations and Communications, harley.potter@fourseasons.com, +1 629 215 3391"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/harley-wyatt-potter-22a192b6",
+        "display_name": "Harley Wyatt Potter",
+        "headline": "Senior Director of Public Relations & Marketing",
+        "location": "Nashville, Tennessee, United States (US)",
+        "about": "Total Experience: 10 years and 10 months",
+        "experience": [
+          {
+            "title": "Food And Beverage Supervisor",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Apr 2015 - Jan 2018",
+            "location": "Westlake Village, CA",
+            "description": "Department: Operations • Level: Specialist"
+          },
+          {
+            "title": "Public Relations Coordinator",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2018 - Aug 2018",
+            "location": "Westlake Village, California",
+            "description": "Department: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Aug 2018 - May 2023",
+            "location": "Westlake Village, California",
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Entertainment Production Manager Digital Marketing Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2021 - May 2023",
+            "location": "Westlake Village, California, United States",
+            "description": "Company: 10,001+ employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Area Director Of Public Relations Communications",
+            "organization": "Springboard Hospitality",
+            "date_range": "Apr 2023 - Jan 2025",
+            "location": "West Hollywood, California, United States",
+            "description": "Company: 1001-5000 employees • Founded 1988 • Privately Held • Hospitality\nDepartment: Marketing • Level: Director"
+          },
+          {
+            "title": "Director Of Public Relations Communications",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2025 - Jul 2025",
+            "location": "Nashville, Tennessee, United States",
+            "description": "Company: 10,001+ employees • Privately Held • Hospitality\nDepartment: Marketing • Level: Director"
+          },
+          {
+            "title": "Senior Director Of Public Relations Communications",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2025 - Present",
+            "location": "Nashville, Tennessee & Denver, Colorado",
+            "description": "Company: 10,001+ employees • Privately Held • Hospitality\nDepartment: Marketing • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "communications",
+          "food",
+          "digital",
+          "marketing",
+          "entertainment",
+          "production",
+          "public relations",
+          "digital marketing"
+        ],
+        "activity_themes": [
+          "Four Seasons team volunteering and community service",
+          "Professional promotions and career milestones in hospitality",
+          "Industry hiring announcements and recruitment",
+          "Year-end reflections on standards and personal growth",
+          "Awards, recognitions, and leadership achievements",
+          "Gratitude and HR/marketing career journey posts"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/rob-robinson-34aa0812_looking-forward-to-2026-with-you-all-activity-7410409146224898049-fT3N",
+          "https://www.linkedin.com/posts/christofpignet_fourseasons-fourseasonsnashville-fourseasonsforgood-activity-7419379388481400832-bS7m",
+          "https://www.linkedin.com/posts/jason-jackson-7199b4278_most-new-year-posts-talk-about-goals-i-activity-7412261603238133760-fIAQ",
+          "https://www.linkedin.com/posts/kim-cole-apr_where-the-wild-heals-organic-spa-magazine-activity-7419373116340137984-GMzM",
+          "https://www.linkedin.com/posts/brett-saunders-73701211b_10-years-in-commercial-real-estate-one-heck-activity-7418011933859143681-rZI9"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Leia Idliby",
       "title": "Digital Marketing Manager",
       "company": "Four Seasons Hotel New York Downtown",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/leia-idliby-783437125",
       "email": "leia.idliby@fourseasons.com",
       "email2": null,
       "phone": "+1 917 293 1808",
@@ -409,13 +821,111 @@
           "source_type": "official_site",
           "quote_or_fact": "Leia Idliby, Digital Marketing Manager, leia.idliby@fourseasons.com, +1 917 293 1808"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/leia-idliby-783437125",
+        "display_name": "Leia Idliby",
+        "headline": "Digital Marketing at Four Seasons Hotel New York Downtown",
+        "location": "New York, New York, United States",
+        "about": "With over six years of experience in media and content creation, I am passionate about crafting compelling stories and strategies that engage and inspire audiences. My mission is to help brands communicate their vision and values through various social media platforms, using my skills in writing, design, and analytics. As a Content Manager at CA Creative, I work with luxury clients to conceptualize, create, and publish daily content that showcases their products and services. In my current role, I oversee the entire content production process, from planning and executing editorial calendars and messaging plans, to managing photo and video shoots, to developing influencer strategies and partnerships. I also analyze content performance reports and collaborate with the paid team to achieve key performance indicators (KPIs). I have also demonstrated my original research, writing, and creative writing skills as a Reporter and Editor at Mediaite, a news site focusing on the intersection of media and politics.\n\nTotal Experience: 9 years and 4 months",
+        "experience": [
+          {
+            "title": "Intern",
+            "organization": "The McCarton Center for Developmental Pediatrics",
+            "date_range": "Jun 2013 - Jun 2014",
+            "location": "Greater New York City Area",
+            "description": "Worked in the classroom and directly with the students and therapists. Worked to help organize the offices."
+          },
+          {
+            "title": "Marketing And Research Intern",
+            "organization": "Institute for Middle East Understanding (IMEU)",
+            "date_range": "Jun 2015 - Aug 2015",
+            "location": "Greater New York City Area",
+            "description": "Helped with marketing. Researched potential donors."
+          },
+          {
+            "title": "Middle Manager Of Marketing Interim Director Of Marketing At Uncommon Grounds",
+            "organization": "Students of Georgetown, Inc.",
+            "date_range": "Sep 2015 - Mar 2016",
+            "location": "The Corp; Georgetown University",
+            "description": "I created posters to elevate awareness of new products and promotions. I coordinated and executed weekly open mic nights. I also selected the Uncommon Grounds Art Scholarship winner by reviewing applications for eligibility and submission quality."
+          },
+          {
+            "title": "General Manager Of Uncommon Grounds",
+            "organization": "Students of Georgetown, Inc.",
+            "date_range": "Mar 2016 - Feb 2017",
+            "location": "Georgetown University",
+            "description": "I commanded staff development by conducting efforts in hiring, training, and continued mentorship. I evaluated employee performance to identify areas for improvement and encourage leadership potential. I submitted payroll, controlled budgets, and governed finances to ensure for alignment with projected goals."
+          },
+          {
+            "title": "Director Of Uncommon Grounds",
+            "organization": "Students of Georgetown, Inc.",
+            "date_range": "Feb 2017 - Feb 2018",
+            "location": "Georgetown University",
+            "description": "I directed personnel in the execution of daily operational tasks as well as short- and long-term strategic initiatives that aligned with organization-wide goals and vision. I developed a team of top-performing staff members by selectively hiring, comprehensively training, evaluating, providing feedback, and continually mentoring employees. I cultivated a positive work environment that promoted accountability and reliability. I commanded departmental projects from initial concept through to delivery with complete adherence to budgetary stipulations and deadlines. I governed the creation of visual media for campaigns and promotions across print, digital, and social platforms. The following are highlights of the value I provided in this position: ● Promoted to the head position of the upper management team. ● Identified, evaluated, and recommended potential opportunities for store growth. ● Functioned as the main point-of-contact for Barnes and Noble representatives and aided in securing the first partnership with the corporation outside of Starbucks. ● Supported admissions by reviewing applications for the Uncommon Grounds Art Scholarship. ● Promoted and executed the Uncommon Grounds Open Mic Nights – ‘Uncommon Sounds’."
+          },
+          {
+            "title": "Reporter",
+            "organization": "Mediaite",
+            "date_range": "Feb 2020 - Jul 2022",
+            "location": "New York, New York, United States",
+            "description": "Published original content with an entertainment and lifestyle focus for Mediaite: a digital news site dedicated to the intersection of media and politics. Reported on breaking and daily news, publishing roughly 7 stories a day, and penned longer analyses, opinion pieces, and evergreen content as the site's primary entertainment writer and editor. Attended and covered award shows and functions in both New York and DC as a member of the press, the Borat Subsequent Movie Film virtual premiere, the Hollywood Reporter’s annual “Most Powerful People in New York Media” party and several White House Correspondents’ Dinner events. Interviewed and profiled several media figures, including Revolt TV host and 'Real Housewives of NYC' cast member Eboni K Williams, writer and producer RJ Fried, MSNBC anchor Ayman Mohyeldin, Dean Obeidallah, and Law and Crime’s Jesse Weber — among others. Appeared on Law and Crime’s Sidebar podcast to discuss Hollywood’s reaction to the Johnny Depp v. Amber Heard trial in 2022."
+          },
+          {
+            "title": "Newsletter Editor",
+            "organization": "Mediaite",
+            "date_range": "Jul 2022 - Apr 2023",
+            "location": "New York, New York, United States",
+            "description": "Helmed Mediaite’s daily newsletter and contributed to social media strategy by determining which articles would gain the most engagement on specific platforms. Wrote and edited Mediaite’s “Media Winner” and “Media Loser” columns — where two media figures were chosen as the respective winner or loser of the day based on recent reporting or commentary. Wrote a daily analysis of television ratings for the newsletter, highlighting prime-time averages and total viewers."
+          },
+          {
+            "title": "Content Manager",
+            "organization": "CA Creative",
+            "date_range": "Apr 2023 - Oct 2023",
+            "location": "New York, New York, United States",
+            "description": "Led marketing strategy and managed social media accounts for renowned luxury brands, including The Leading Hotels of the World, Rosewood Baha Mar, Café Boulud, and Manhattan Skyline. Managed each client’s campaigns and digital content, from designing and directing each concept to creating mood boards, planning photoshoots, and sourcing influencers and talent — ensuring high-quality and consistent content was delivered each time. Developed influencer strategies and managed partnerships to expand each brand's impact. Attended and created content during client events to showcase the brand's presence and engagement. Conceptualized, created, and published monthly content across various social media platforms, such as Facebook, Twitter, Instagram, and Pinterest, for each client. Met with each client weekly and delivered monthly editorial calendars and messaging plans at least one month in advance to ensure client satisfaction and maintain a cohesive brand narrative. Managed an internal team of roughly three co-workers, as well as each client’s respective influencers. Analyzed performance reports with the paid team to achieve key performance indicators KPIs."
+          },
+          {
+            "title": "Digital Marketing Consultant",
+            "organization": "Roomie",
+            "date_range": "Jan 2024 - Oct 2024",
+            "location": "New York, New York, United States",
+            "description": "Steered marketing and brand strategy for Roomie, a data and tech-driven platform that generates 3D models of college dorm rooms and retail spaces to facilitate move-in planning. Developed long-term marketing goals and campaigns alongside the VP of Operations and the Roomie sales team. Managed and created monthly marketing content, spanning from digital and social media content to press releases, email campaigns, partnerships, etc. Formed and managed lasting partnerships with retailers and campuses to ensure Roomie's success as a move-in day staple across the nation’s universities and colleges. Established influencers and college ambassador strategies for each school."
+          },
+          {
+            "title": "Sales And Marketing Coordinator",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Oct 2024 - Present",
+            "location": "New York, New York, United States",
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2025 - Present",
+            "location": "New York, New York, United States",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Georgetown University",
+            "degree_or_field": "Bachelor's degree, English Language and Literature, General",
+            "date_range": "2014 - 2018"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Michelle Edwards",
       "title": "Senior Director of Public Relations and Marketing Communications",
       "company": "Four Seasons Hotel San Francisco at Embarcadero",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/michelle-edwards-72288745",
       "email": "michelle.edwards@fourseasons.com",
       "email2": null,
       "phone": "+1 415 433 0111",
@@ -432,7 +942,121 @@
           "source_type": "official_site",
           "quote_or_fact": "Michelle Edwards, Senior Director of Public Relations and Marketing Communications, michelle.edwards@fourseasons.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/michelle-edwards-72288745",
+        "display_name": "Michelle Edwards",
+        "headline": "Director of Public Relations and Communications at Four Seasons Resort Oahu at Ko Olina",
+        "location": "Honolulu County, Hawaii, United States",
+        "about": "Michelle Edwards is the Director of Public Relations and Communications at Four Seasons Resort Oahu at Ko Olina. A 13-year luxury hospitality veteran, Michelle brings a wealth of public relations expertise, luxury brand know-how and innovation to the project. She is responsible for the development and implementation of the resort’s overall strategic public relations initiatives. Michelle joins Four Seasons Resort Oahu at Ko Olina most recently from Mauna Lani, Auberge Resorts Collection as the Director of Public Relations and was part of the opening resort team. Prior to Mauna Lani, she served as a strategic communications consultant for various Four Seasons properties globally, including Four Seasons Resort Oahu, Four Seasons Hotel Kuala Lumpur, Four Seasons Resort Langkawi, Four Seasons Hotel Doha, Four Seasons Costa Rica, and Four Seasons Hotel Austin. Prior to her consultant role, Edwards was the Director of Public Relations at Four Seasons Resorts Lanai, overseeing public relations for both Manele Bay and The Lodge at Koele. Michelle, who has been at the publicity helm of a myriad of hotel and restaurant openings throughout her career, has garnered global recognition for her innovation, creative vision and flawless execution in developing unique storytelling campaigns and cultivating groundbreaking experiential activations.",
+        "experience": [
+          {
+            "title": "Director Of Public Relations",
+            "organization": "Four Seasons Resorts Lanai",
+            "date_range": "Jun 2008 - Nov 2013 • 5 years and 5 months",
+            "location": "Honolulu, Hawaii",
+            "description": "Managed the day-to-day public relations activities for two distinct Four Seasons resorts including Manele Bay and The Lodge at Koele - Proactively pitched media for feature stories and new opportunities in niche markets to highlight the destination and key messages, including family, romance, weddings, and packages - Responsible for the development and launch of the \"Down the Isle\" broadcast campaign that resulted in six months of continuous coverage and exposure and 15 segments on KGMB (CBS) and KHNL (NBC), positioning Lana'i as a premier wedding destination - Responsible for writing press releases, creative pitch materials, internal and guest correspondence, crisis management verbiage, and sales communications - Maintained and developed extensive media relationships domestically and internationally - Coordinated and facilitated local advertising and radio promotions through the advertising agency - Supervised and monitored social media outlets via Twitter and Facebook"
+          },
+          {
+            "title": "Public Relations Communications Consultant",
+            "organization": "Four Seasons Hotel Doha",
+            "date_range": "Jun 2014 - Mar 2019 • 4 years and 9 months",
+            "location": "Doha, Qatar",
+            "description": "Spearheaded the strategic launch of Nobu Doha, the world's largest Nobu restaurant - Developed and executed an integrated pre-opening PR and Social Media plan to garner global brand awareness for both Four Seasons and Nobu Doha - Facilitated two international press trips and a celebrity driven grand opening event at Nobu Doha - Liaison between Four Seasons Hotel Doha, Nobu Restaurants Corporate and Rockwell Group, to maximize the PR efforts, messaging and brand strategy - Managed the daily PR responsibilities for the restaurant launch, including developing press releases, pitching national and international media, coordinating media visits and two international press trips, responded to media inquiries; drafted internal communication, - Oversaw restaurant marketing collateral design, copy writing, and consulting on advertising - On-going hotel copywriting - Awards: 2015 Four Seasons Pinnacles EMEA - Marketing Innovation Award: Nobu Doha & Four Seasons Hotel Doha"
+          },
+          {
+            "title": "Public Relations Communications Consultant",
+            "organization": "Four Seasons Resort Oahu at Ko Olina",
+            "date_range": "Apr 2015 - Mar 2019 • 3 years and 11 months",
+            "location": "Oahu, Hawaii",
+            "description": "Developed and executed a strategic pre-opening PR & Social Media plan and Property Vision to support the business objectives of the hotel - Deployed a creative content strategy across multiple marketing channels - Managed the daily PR responsibilities such as writing press releases; developing story starters, team bios, pitching national and international media, coordinating media and influencer visits in advance of opening, responding to media inquiries; managing website content, and liaison between celebrity publicists - Responsible for writing internal communication and speeches on behalf of General Manager - Creative copywriter for e-Newsletter, brochures, marketing materials, Sales pitches, presentations, and promotions - Implemented on-property PR systems for ease of Operations and Sales - Managed pre- and post in-depth marketing photo shoots, including architecture and lifestyle; produced property 'Story Telling' video series - Extended brand reach with non-traditional marketing, media partnerships and collaborations - Created impactful, culturally rich guest experience initiatives including #FSWAYFINDERS, Curators program, ART WALK, and Moonlight Market, which has resulted in numerous awards, press coverage, community relations, and positive guest feedback - Awards: 2016 Four Seasons Pinnacles Americas - Marketing Innovation Award: Four Seasons Resort Oahu at Ko Olina"
+          },
+          {
+            "title": "Director Of Public Relations And Communications",
+            "organization": "Mauna Lani, Auberge Resorts Collection",
+            "date_range": "Mar 2019 - Feb 2020 • 11 months",
+            "location": "Kapolei, Hawaii, United States",
+            "description": null
+          },
+          {
+            "title": "Director Of Public Relations And Communications",
+            "organization": "Four Seasons Resort Oahu at Ko Olina",
+            "date_range": "Feb 2020 - Present • 5 years and 11 months",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Miami",
+            "degree_or_field": "Bachelor of Science, Communications",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "communications",
+          "luxury",
+          "hospitality",
+          "innovation",
+          "responsible",
+          "hotel",
+          "publicity",
+          "creative",
+          "storytelling",
+          "campaigns",
+          "stories",
+          "weddings",
+          "broadcast",
+          "positioning",
+          "writing",
+          "crisis",
+          "management",
+          "sales",
+          "advertising",
+          "promotions",
+          "twitter",
+          "facebook",
+          "pr",
+          "property",
+          "strategy",
+          "marketing",
+          "liaison",
+          "brochures",
+          "presentations",
+          "operations",
+          "architecture",
+          "partnerships",
+          "restaurants",
+          "messaging",
+          "collateral",
+          "design",
+          "consulting",
+          "copywriting",
+          "public relations",
+          "strategic communications",
+          "press releases",
+          "crisis management",
+          "radio promotions",
+          "social media",
+          "content strategy",
+          "photo shoots",
+          "community relations",
+          "brand awareness",
+          "brand strategy"
+        ],
+        "activity_themes": [
+          "Luxury hospitality hiring posts at Four Seasons properties",
+          "Internal promotions and career growth at Four Seasons Resort Oahu"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/michelle-edwards-72288745",
+          "https://www.linkedin.com/posts/shehab-el-naggar-4a4688117_possibility-wearefun-wearehiring-activity-7264627621085204481-2XdO",
+          "https://www.linkedin.com/posts/olivia-wilson-346a5b190_i-am-so-excited-to-announce-i-have-been-promoted-activity-7037156764642942978-shvV"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ali Tighe",
@@ -461,7 +1085,7 @@
       "full_name": "Madelyn Hake",
       "title": "Public Relations Manager",
       "company": "Four Seasons Resort Orlando",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/madelynclifford1024",
       "email": "madelyn.hake@fourseasons.com",
       "email2": null,
       "phone": "+1 407 313 7777",
@@ -478,13 +1102,119 @@
           "source_type": "official_site",
           "quote_or_fact": "Madelyn Hake, Public Relations Manager, madelyn.hake@fourseasons.com, +1 407 313 7777"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/madelynclifford1024",
+        "display_name": "Madelyn Hake",
+        "headline": "Public Relations Manager at Four Seasons Hotels and Resorts",
+        "location": "St. Petersburg, Florida, United States",
+        "about": "I am a marketing professional with a focus on the hospitality industry. Passion points are brand management and creating creative initiatives to enhance customer experience and produce revenue. I excel in interpersonal skills which, help me leave my mark in the industry by generating a unique experience.\n\nTotal Experience: 8 years and 11 months",
+        "experience": [
+          {
+            "title": "Event Operations Intern",
+            "organization": "University of South Florida",
+            "date_range": "Jul 2014 - Feb 2015",
+            "location": "Tampa/St. Petersburg, Florida Area",
+            "description": null
+          },
+          {
+            "title": "Learning Coach",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Nov 2016 - Jul 2018",
+            "location": "Orlando, Florida Area",
+            "description": null
+          },
+          {
+            "title": "Front Desk Agent",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2018 - Feb 2019",
+            "location": "Orlando, Florida Area",
+            "description": null
+          },
+          {
+            "title": "Sales Coordinator",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Feb 2018 - Jan 2020",
+            "location": "Orlando, Florida",
+            "description": null
+          },
+          {
+            "title": "Complex Marketing Coordinator",
+            "organization": "Marriott International",
+            "date_range": "Jan 2020 - Jul 2022",
+            "location": "Phoenix, Arizona, United States",
+            "description": "Recommend marketing goals and initiatives Revised Press Releases Planned creative brand initiatives Presented web analytics, online content management opportunities Oversaw social media for multiple brands Point of contact for the media needs Created marketing budget Supervised professional video/photoshoots"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "Marriott International",
+            "date_range": "Jul 2022 - Feb 2023",
+            "location": "The Vinoy® Renaissance St. Petersburg Resort & Golf Club",
+            "description": "Promotes on-brand messaging to customers through traditional, digital, and social media channels with the goal of driving revenue and supporting total hotel goals. Builds direct marketing plans, targeted campaigns, and activated channels to drive consumer awareness and preference, increasing market share, and building broader portfolio and brand awareness. Manages all internal and external communication, digital presence, including but not limited to property website, third party channels and social media while maintaining brand integrity"
+          },
+          {
+            "title": "Public Relations Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Feb 2023 - Present",
+            "location": "Orlando, Florida, United States",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Central Florida",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "marketing",
+          "hospitality",
+          "management",
+          "creative",
+          "messaging",
+          "digital",
+          "driving",
+          "hotel",
+          "campaigns",
+          "property",
+          "integrity",
+          "analytics",
+          "budget",
+          "sales",
+          "operations",
+          "hospitality industry",
+          "brand management",
+          "customer experience",
+          "interpersonal skills",
+          "public relations",
+          "social media",
+          "direct marketing",
+          "brand awareness",
+          "press releases",
+          "web analytics",
+          "content management"
+        ],
+        "activity_themes": [
+          "Four Seasons resort openings and media experiences",
+          "Creative work and brand evolution in luxury hospitality",
+          "Industry events like IMEX and hospitality networking",
+          "PR agency news and luxury communications",
+          "Wellness programs and bespoke guest experiences at resorts",
+          "Team changes and in-house creative marketing"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/madelynclifford1024"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Marc Speichert",
       "title": "Executive Vice President and Chief Commercial Officer",
       "company": "Four Seasons Hotels and Resorts",
-      "linkedin_url": "https://uk.linkedin.com/in/marcspeichert",
+      "linkedin_url": "https://www.linkedin.com/in/marcspeichert",
       "email": null,
       "email2": null,
       "phone": null,
@@ -506,7 +1236,222 @@
           "source_type": "official_site",
           "quote_or_fact": "As Executive Vice President and Chief Commercial Officer of Four Seasons Hotels and Resorts, Marc Speichert oversees the development and execution of the company’s integrated commercial strategy"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/marcspeichert",
+        "display_name": "Marc Speichert",
+        "headline": "Chief Commercial Officer at Four Seasons | Driving Business Growth",
+        "location": "Virginia Water, England, United Kingdom (GB)",
+        "about": "As the Chief Commercial Officer (CCO) at Four Seasons Hotels and Resorts, I lead the global marketing, sales, digital, and loyalty functions for the world's leading luxury hospitality company. With over 20 years of experience in various industries, I have a passion for marketing and enterprise transformation, and a track record of delivering results and value for customers and stakeholders. My core competencies include marketing communications, new business development, online marketing, and digital transformation. I have a deep global understanding across geographies and a broad multi-industry know-how ranging from beauty and healthcare to CPG and tech. I also leverage my expertise and network as a strategic advisor for Glasswing Ventures, a VC firm focused on AI and frontier tech, and as a board member for Harklinikken, a global leader in hair restoration. I have been recognized by industry peers and awards for my achievements and contributions, such as the Maxwell Dane Award, the 40 under 40, and the Advertising Hall of Achievement.",
+        "experience": [
+          {
+            "title": "Trainee",
+            "organization": "L'Oreal",
+            "date_range": "Jul 1995 - Sep 1995",
+            "location": null,
+            "description": "Worked at Parfum Beaute International (PBI) - Luxury Division based in France"
+          },
+          {
+            "title": "Trainee",
+            "organization": "Danone",
+            "date_range": "Jan 1996 - Aug 1996",
+            "location": null,
+            "description": "Working on Galbani - Produits Frais Division based in France"
+          },
+          {
+            "title": "Trainee",
+            "organization": "Colgate Palmolive",
+            "date_range": "Jan 1997 - Apr 1997",
+            "location": null,
+            "description": "Managed relaunch plans for French detergent business"
+          },
+          {
+            "title": "Associate Product Manager France",
+            "organization": "Colgate Palmolive",
+            "date_range": "May 1997 - Jul 1999",
+            "location": null,
+            "description": "Joined after CP after 3rd year business school internship - First assignment was on Palmolive Dish business for France"
+          },
+          {
+            "title": "Product Manager Mexico",
+            "organization": "Colgate Palmolive",
+            "date_range": "Jul 1999 - Jul 2000",
+            "location": null,
+            "description": "In charge of liquid cleaners business for the Mexican market"
+          },
+          {
+            "title": "Product Manager US Company",
+            "organization": "Colgate Palmolive",
+            "date_range": "Aug 2000 - Jan 2003",
+            "location": null,
+            "description": "In charge of new product development for deodorants for the US Market"
+          },
+          {
+            "title": "Senior Product Manager US Company",
+            "organization": "Colgate Palmolive",
+            "date_range": "Jan 2004 - Jul 2005",
+            "location": null,
+            "description": "Responsable for Colgate Total in the US, #1 priority for the company - 300MM brand - Managed 5 direct reports"
+          },
+          {
+            "title": "Senior Product Manager US Company",
+            "organization": "Colgate Palmolive",
+            "date_range": "Mar 2004 - Jul 2005",
+            "location": null,
+            "description": "Responsable for Colgate Total in the US, #1 priority for the company - 300MM brand - Managed 5 direct reports"
+          },
+          {
+            "title": "Marketing Director Latin America Personal Care Fabric Care",
+            "organization": "Colgate Palmolive",
+            "date_range": "Jul 2005 - Dec 2006",
+            "location": null,
+            "description": "In charge of Personal Care and Fabric Care at the divisional level for Latin America Responsability included full P&L responsability, setting strategies, centralized advertising development and developing regional go to markets - Managed Team of 3 direct reports / 17 category managers dotted line in the Countries"
+          },
+          {
+            "title": "Marketing Director Greece",
+            "organization": "Colgate Palmolive",
+            "date_range": "Jan 2007 - Mar 2008",
+            "location": null,
+            "description": "Heading the marketing organization of the Greek subsidiary for the Colgate Palmolive Company - Managing a Team of 21 people and annual sales of 150MM - Part of the local Senior Management Team"
+          },
+          {
+            "title": "Marketing Director Category Innovation Center US Company NY",
+            "organization": "Colgate Palmolive",
+            "date_range": "Mar 2008 - Mar 2010",
+            "location": null,
+            "description": "Managed innovation for Personal Care for North America"
+          },
+          {
+            "title": "Chief Marketing Officer L'OREAL USA",
+            "organization": "L'Oréal",
+            "date_range": "Apr 2010 - Jun 2013",
+            "location": null,
+            "description": "Overseeing marketing, consumer and shopper insights, media/digital investment and innovation, digital IT, marketing services procurement and business development for L'Oreal USA across all 4 divisions"
+          },
+          {
+            "title": "Chief Marketing Officer L'OREAL AMERICAS",
+            "organization": "L'Oréal",
+            "date_range": "Jul 2013 - Jun 2014",
+            "location": "New York",
+            "description": "Overseeing marketing, consumer and shopper insights, media/digital investment and innovation, digital IT, marketing services procurement and business development for L'Oreal AMERICAS (US, Canada and Latin America) across all 4 divisions"
+          },
+          {
+            "title": "Global Chief Marketing Officer Leader L'OREAL GROUP",
+            "organization": "L'Oréal",
+            "date_range": "Nov 2013 - Jun 2014",
+            "location": "greater new york city area",
+            "description": "Overseeing marketing, consumer and shopper insights, media/ digital investment and innovation, digital IT, marketing services procurement and business development for L'Oreal globally across all 4 divisions"
+          },
+          {
+            "title": "Global Client Partner (Managing Director)",
+            "organization": "Google",
+            "date_range": "Jul 2014 - Oct 2016",
+            "location": "Mountain View California",
+            "description": "Google Poaches L'Oreal CMO Marc Speichert to Court Brands AdAge.com-May 23, 2014 The search giant has poached L'Oreal global CMO Marc Speichert to join its global client and agency solutions division. Mr. Speichert will ..."
+          },
+          {
+            "title": "Strategic Advisor",
+            "organization": "Keap BK",
+            "date_range": "Sep 2015 - Mar 2022",
+            "location": "New York",
+            "description": "Keap ® | Candles Made Better https://www.keapbk.com/ Superior scents; without the markups. Handmade in Brooklyn. Every candle sold helps distribute a solar lamp to someone in need. Candles made better."
+          },
+          {
+            "title": "Advisory Board Member",
+            "organization": "Aesop",
+            "date_range": "Jun 2016 - Mar 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Global Chief Digital Officer",
+            "organization": "GSK Consumer Healthcare",
+            "date_range": "Feb 2017 - Apr 2021",
+            "location": "London, England, United Kingdom",
+            "description": "Driving marketing & digital transformation @ GSK Consumer Health across categories - Leading insights, analytics & data, on & off line media, ecom & biz dev, content & PR, digital innovation and marketing excellence functions"
+          },
+          {
+            "title": "Strategic Advisor",
+            "organization": "Glasswing Ventures",
+            "date_range": "Jul 2018 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Chief Commercial Officer (CCO)",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "May 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Member Board Of Directors",
+            "organization": "Harklinikken",
+            "date_range": "Mar 2022 - May 2024",
+            "location": "Copenhagen, Capital Region, Denmark",
+            "description": null
+          },
+          {
+            "title": "Mars Pet Care Digital Advisory Board Member",
+            "organization": "Mars",
+            "date_range": "Jun 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "ESCP Business School",
+            "degree_or_field": "Masters Management with Marketing Major",
+            "date_range": "1994 - 1997"
+          }
+        ],
+        "skills": [
+          "new business development",
+          "new product development",
+          "commercial",
+          "hotels",
+          "marketing",
+          "sales",
+          "digital",
+          "luxury",
+          "hospitality",
+          "communications",
+          "beauty",
+          "healthcare",
+          "restoration",
+          "advertising",
+          "innovation",
+          "procurement",
+          "solar",
+          "lamp",
+          "driving",
+          "health",
+          "analytics",
+          "pr",
+          "director",
+          "latin",
+          "p",
+          "reports",
+          "responsable",
+          "responsible",
+          "management",
+          "global marketing",
+          "delivering results",
+          "marketing communications",
+          "business development",
+          "online marketing",
+          "marketing digital",
+          "digital transformation",
+          "pet care",
+          "digital marketing",
+          "lati"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Antoine Chahwan",
@@ -552,7 +1497,113 @@
           "source_type": "directory",
           "quote_or_fact": "Director Of Revenue Management at Four Seasons Hotels and Resorts"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kelly-cardona-4546bb40",
+        "display_name": "Kelly Cardona",
+        "headline": "Director Of Revenue Management at Four Seasons Resort and Residences Anguilla",
+        "location": "Miami-Fort Lauderdale Area (US)",
+        "about": "Total Experience: 29 years and 2 months",
+        "experience": [
+          {
+            "title": "Intern",
+            "organization": "PKF Consulting",
+            "date_range": "Mar 1993 - Dec 1993",
+            "location": "Miami",
+            "description": null
+          },
+          {
+            "title": "Front Desk Manager",
+            "organization": "Turnberry Isle Resort & Club",
+            "date_range": "Aug 1997 - Jan 1999",
+            "location": "Miami/Fort Lauderdale Area",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Turnberry Isle Miami",
+            "date_range": "Feb 1999 - Oct 2000",
+            "location": "Miami/Fort Lauderdale Area",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Oct 2000 - Jun 2007",
+            "location": "Miami",
+            "description": null
+          },
+          {
+            "title": "Area Director Of Revenue Management",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Jun 2007 - Nov 2011",
+            "location": "Miami and Mexico",
+            "description": "Manage two properties (326 and 128 rooms) from pre opening to 2011, including implementation and training for on site teams (including Springer Miller, Delphi and Synxis), successful sales and marketing strategy and upholding luxury service standards and SOPs."
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "PGA National Resort & Spa",
+            "date_range": "Nov 2011 - Aug 2018",
+            "location": "West Palm Beach, Florida Area",
+            "description": "Manage all room revenue streams for leisure, including sales and distribution systems (Synxis, Opera, NAVIS), as well as a total call center department. Manage group sales as it relates to group budget/forecast, pattern, ceiling, MARs and historical performance. 365 total room property including rental pool of 25 residential cottages."
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Aug 2018 - Present",
+            "location": "Miami/Fort Lauderdale Area",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Florida International University",
+            "degree_or_field": "BS, Hospitality Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "revenue management",
+          "marketing strategy",
+          "call center",
+          "director",
+          "management",
+          "reservations",
+          "training",
+          "delphi",
+          "sales",
+          "marketing",
+          "strategy",
+          "luxury",
+          "distribution",
+          "opera",
+          "budget",
+          "pattern",
+          "property",
+          "residential"
+        ],
+        "activity_themes": [
+          "Four Seasons resort events, festivals and seasonal celebrations",
+          "Hospitality industry career promotions and new roles",
+          "Luxury travel awards and recognitions (Travel + Leisure, HSMAI)",
+          "Four Seasons property openings and expansions",
+          "Employee well-being, workplace culture and team spaces",
+          "Revenue optimization, sales training and luxury hotel operations",
+          "Ultraluxury cruising, yachts and international hospitality partnerships"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/kelly-cardona-4546bb40",
+          "https://www.linkedin.com/posts/cynthia-boyett-a864647_emeril-lagasse-says-the-cayman-cookout-is-activity-7424205009996738560-Hx1v",
+          "https://www.linkedin.com/posts/valentinatasende_i-am-happy-to-share-that-i-am-starting-a-activity-7421730705279442944-NzaU",
+          "https://www.linkedin.com/posts/nbrandfon_travelandleisure-worldsbestawards-hospitality-activity-7421669378506592256--va9",
+          "https://www.linkedin.com/posts/erick-morales-delgado-457266137_festive-2025-at-fs-anguilla-activity-7416108946895396865-V38I",
+          "https://www.linkedin.com/posts/hanslagerweij_fourseasonsyachts-ultraluxury-expeditioncruising-activity-7421696733480566784-zl45",
+          "https://www.linkedin.com/posts/calla-gumbs_employeeexperience-workplaceculture-womenatwork-activity-7414674769113071616-wzLM",
+          "https://www.linkedin.com/posts/shelleyzalis_congratulations-to-felicia-yukich-mba-on-activity-7414085797123031040-K09S"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Miranda Carter",
@@ -575,7 +1626,127 @@
           "source_type": "official_site",
           "quote_or_fact": "Revenue leadership mentioned in team context"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/miranda-carter-206a8438",
+        "display_name": "Miranda Carter",
+        "headline": "Director of Revenue Management at Four Seasons Hotels and Resorts",
+        "location": "Jackson, Wyoming, United States (US)",
+        "about": "Total Experience: 20 years and 1 month",
+        "experience": [
+          {
+            "title": "Cook Hostess",
+            "organization": "Alfredo's of Italy Restaurant",
+            "date_range": "Sep 2005 - Dec 2007",
+            "location": null,
+            "description": "Department: Trades • Level: Specialist"
+          },
+          {
+            "title": "Customer Service",
+            "organization": "Infoplace Ticket Centre",
+            "date_range": "Feb 2008 - Jun 2008",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Doctor's Assistant",
+            "organization": "Winnipeg Clinic",
+            "date_range": "Apr 2008 - Jul 2011",
+            "location": "Winnipeg, Canada Area",
+            "description": "Communicated professionally with doctors, patients, and colleagues, courteous telephone communication, scheduled appointments and surgeries, assisted with procedures, adapted documents, handled correspondence, analyzed and edited computerized medical records, standardized patient informational materials\nDepartment: Medical • Level: Specialist"
+          },
+          {
+            "title": "Banquet Server",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Apr 2011 - Sep 2011",
+            "location": "Vancouver, Canada Area",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Desk Agent",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Oct 2011 - Nov 2012",
+            "location": null,
+            "description": "Designated Trainer\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Desk Communications Supervisor",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Nov 2012 - Sep 2013",
+            "location": "Four Seasons Hotel Vancouver",
+            "description": null
+          },
+          {
+            "title": "Hotel Assistant Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Sep 2013 - May 2015",
+            "location": "Vancouver, Canada Area",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Guest Services Assistant Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "May 2015 - Jul 2016",
+            "location": "Jackson, Wyoming",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Assistant Reservations Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2016 - Jun 2017",
+            "location": "Jackson, Wyoming",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2017 - Apr 2021",
+            "location": "Jackson, Wyoming",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Apr 2021 - Present",
+            "location": "Jackson, Wyoming, United States",
+            "description": "Department: Finance & Accounting • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Springfield Collegiate Institute",
+            "degree_or_field": "Business & Information Technology Diploma (Honours)",
+            "date_range": "2003 - 2007"
+          },
+          {
+            "school": "Canadian Tourism College",
+            "degree_or_field": "Diploma, Hotel & Resort Management",
+            "date_range": "2010 - 2011"
+          }
+        ],
+        "skills": [
+          "director",
+          "management",
+          "hotel",
+          "communications",
+          "server",
+          "reservations",
+          "trainer",
+          "revenue management",
+          "medical records",
+          "customer service"
+        ],
+        "activity_themes": [
+          "Hospitality business student study abroad at International College of Management",
+          "Four Seasons Jackson Hole hospitality internship experiences"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/olivia-morgan-cannella_studyabroad-hospitality-hospitalitybusiness-activity-7138931890933166081-yjVo",
+          "https://www.linkedin.com/posts/olivia-morgan-cannella_hbinbroad-fourseasons-intern-activity-6968946078364692480-PSAa"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jolinda Cohavi",
@@ -598,7 +1769,137 @@
           "source_type": "official_site",
           "quote_or_fact": "Jolinda Cohavi, Senior Director of Marketing"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jolinda-cohavi-b9163618",
+        "display_name": "Jolinda Cohavi",
+        "headline": "Leader in 5 Diamond Hospitality / Sales, Marketing, and Public Relations focus",
+        "location": "Denver, Colorado, United States (US)",
+        "about": "Experienced Marketing Director in the Luxury Hotel and Resort Industry. Skilled in Sales, Management, Marketing Strategy, Public Relations, Advertising, and Online Marketing. Strong marketing professional with a B.S., Degree in Business Management focused in Marketing, International Business from Indiana University Bloomington.\n\nTotal Experience: 34 years and 1 month",
+        "experience": [
+          {
+            "title": "Rooms And Sales Division",
+            "organization": "Hyatt Regency Miami",
+            "date_range": "Jan 1990 - Jan 1993",
+            "location": "Miami, FL",
+            "description": "Hyatt Regency Miami sits next to the heart of Brickell, one of the trendiest neighborhoods in Miami. With its iconic white towers overlooking the Miami River, our pet friendly hotel is connected to the James L. Knight Center. Our location puts you steps from the Miami Riverwalk and less than ten minutes from the Port of Miami. Take a short walk to the free Metromover station and ride to destinations like Coral Gables or the Wynwood Arts District."
+          },
+          {
+            "title": "Associate Director Of Sales",
+            "organization": "Wyndham Miami Beach Resort",
+            "date_range": "Jan 1994 - Jan 1998",
+            "location": "Miami Beach, FL",
+            "description": "Overlooking the beach and the Atlantic Ocean, this contemporary resort is less than 3 miles from lively South Beach and a 15-minute drive from the upscale Bal Harbour Shops."
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Omni Houston Hotel",
+            "date_range": "Jan 1999 - Jan 2002",
+            "location": "Coral Gables, FL",
+            "description": "Rewards Category 5 · Points needed per night Surrounded by world-class shopping, decadent dining and electrifying entertainment venues, Hotel Colonnade Coral Gables, Autograph Collection flaunts an ideal location along Miracle Mile. Dive into the local culture and explore popular destinations including University of Miami, Marlins Park as well as Little Havana. The vaulted ceilings, a grand staircase and sparkling chandeliers in our lobby welcome you to a luxurious Florida getaway. Our rooms and suites blend luxury amenities and modern style with wood floors, sectional sofas and coffee Show less"
+          },
+          {
+            "title": "Director Of Marketing",
+            "organization": "Omni Houston Hotel",
+            "date_range": "Jan 2002 - Jan 2004",
+            "location": "Houston, TX",
+            "description": "Located in prestigious Uptown, near The Galleria and situated in a park-like setting, this luxurious hotel offers all the comforts and amenities of a resort with the convenience of an urban setting."
+          },
+          {
+            "title": "Director Of Marketing",
+            "organization": "Four Seasons Resort and Club Dallas at Las Colinas",
+            "date_range": "Jan 2004 - Jan 2007",
+            "location": "Atlanta, GA",
+            "description": "Meet us in Atlanta, and we’ll show you what it means to have fun, Southern-style. Our vibrant capital city is the living, breathing cultural heart of the American South, where world-renowned chefs, business moguls and celebrities flock for work and play. Our Midtown Hotel puts you just steps from the renowned High Museum of Art, eclectic Peachtree Street and the sprawling green spaces of Piedmont Park. Enjoy breakfast at Park 75 before heading out to explore the city, or stay in for a healthy dose of self-care in our serene Spa. However you spend the day, make sure to end your night with dinner and drinks at Bar Margot. Show less"
+          },
+          {
+            "title": "Director Of Marketing",
+            "organization": "Four Seasons Resort and Club Dallas at Las Colinas",
+            "date_range": "Jan 2007 - Apr 2012",
+            "location": "Dallas, TX",
+            "description": "The perfect mix of Fort Worth’s steel-toed swagger and Dallas’ cosmopolitan edge, Las Colinas is filled with the unexpected. Meet us for a round of golf, cool off in our pools, get your adrenaline pumping at our expansive sports and recreation club, or take a break from it all at the Well & Being Spa. Come nightfall, gather with friends and family near our larger-than-life, rustic fireplace on OUTLAW Taproom’s patio, drinks in hand and hearts full."
+          },
+          {
+            "title": "Director Of Marketing",
+            "organization": "Four Seasons Hotel Denver and Four Seasons Resort Vail",
+            "date_range": "Mar 2012 - Aug 2013",
+            "location": "Denver and Vail Colorado",
+            "description": "Colorado’s legendary Vail Mountain rises above our year-round alpine Resort in the heart of Vail. Explore the back bowls with customized gear from our Ski Concierge, recharge in our award-winning Spa – and cap off your days with an al-fresco swim under the stars."
+          },
+          {
+            "title": "Director Of Marketing",
+            "organization": "Four Seasons Hotel Denver",
+            "date_range": "Aug 2013 - Aug 2021",
+            "location": "Denver, Colorado",
+            "description": "Joint role as Director of Marketing for Vail in 2012/2013 and 2020. If the sun feels warmer here, it’s because you’re much closer to it. Meet us one mile above sea level in our laid-back mountain metropolis, and we’ll show you how much more there is to Denver than just the great outdoors. Start your morning with breakfast in bed, then head out on foot to explore the independent boutiques and restaurants of historic Larimer Square, which lies just minutes from our Hotel doors. Come back for a relaxing treatment at our Spa or lounge for awhile by our rooftop pool, then savour a hearty dinner at EDGE Restaurant before walking across the street for a show at the Denver Performing Arts Complex. As for Colorado’s incredible skiing, hiking and fly fishing? We’ve got plenty of that, too. Show less"
+          },
+          {
+            "title": "Senior Director Of Marketing",
+            "organization": "Four Seasons Hotel Denver / Four Seasons Hotel Nashville",
+            "date_range": "Aug 2021 - Present • 4 years and 5 months",
+            "location": null,
+            "description": "Department: Marketing • Level: Senior"
+          }
+        ],
+        "education": [
+          {
+            "school": "Indiana University Bloomington",
+            "degree_or_field": "B.S. Degree in Business Management, Marketing, International Business",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "marketing",
+          "director",
+          "luxury",
+          "hotel",
+          "sales",
+          "management",
+          "strategy",
+          "advertising",
+          "entertainment",
+          "wood",
+          "coffee",
+          "less",
+          "arts",
+          "restaurants",
+          "treatment",
+          "spa",
+          "performing",
+          "hiking",
+          "recreation",
+          "capital",
+          "peachtree",
+          "green",
+          "urban",
+          "sales management",
+          "management marketing",
+          "marketing strategy",
+          "public relations",
+          "online marketing",
+          "business management",
+          "international business",
+          "performing arts"
+        ],
+        "activity_themes": [
+          "Four Seasons Yachts team meetings, listening and learning",
+          "Thompson Houston hotel team spotlights and event experience roles",
+          "Four Seasons Denver and Nashville property promotions and sales",
+          "Four Seasons Nashville 1-year anniversary celebrations",
+          "Four Seasons Nashville Rooms Division leadership team announcements",
+          "Client tours and experiences at new Four Seasons Minneapolis property"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/ben-trodd-9110725_fourseasons-fourseasonsyachts-activity-7350198956775100416-8gVG",
+          "https://www.linkedin.com/posts/thompson-houston_meettheteam-meettheteam-thompsonhouston-activity-7135642045263618049-aubN",
+          "https://www.linkedin.com/posts/maddie-collier-4853093b_fourseasonsdenver-activity-7127669044471582720-skBY",
+          "https://www.linkedin.com/posts/maddie-collier-4853093b_fourseasonsnashville-activity-7125533233345110016-MSd5",
+          "https://www.linkedin.com/posts/chauntel-k-brown-m-a-7b908197_fourseasons-nashville-musiccity-activity-6957859981454893056-RL80",
+          "https://www.linkedin.com/posts/brittany-zapp_fourseasons-minneapolis-newhotel-activity-6955454206627467264-osTR"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Xavier Bon",
@@ -644,7 +1945,100 @@
           "source_type": "official_site",
           "quote_or_fact": "Sudhakar Veluru, Executive Vice President and Chief Information Technology Officer"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sudhakarveluru",
+        "display_name": "Sudhakar Veluru",
+        "headline": "CIO / CTO at Four Seasons Hotels & Resorts",
+        "location": "Greater Orlando (US)",
+        "about": "Total Experience: 16 years",
+        "experience": [
+          {
+            "title": "Director Technical Architecture",
+            "organization": "American Express",
+            "date_range": "Jan 2010 - Oct 2013",
+            "location": "Phoenix, Arizona",
+            "description": "Company: 10,001+ employees • Public Company • Financial Services\nDepartment: Engineering and Technical • Level: Director"
+          },
+          {
+            "title": "Director Of Enterprise Solution Architecture",
+            "organization": "Dignity Health Medical Foundation",
+            "date_range": "Oct 2013 - Jul 2014",
+            "location": "Phoenix, Arizona Area",
+            "description": "Company: 1001-5000 employees • Founded 1990 • Nonprofit • Hospitals and Health Care"
+          },
+          {
+            "title": "Vice President Of Technology",
+            "organization": "Disney Parks, Experiences and Products",
+            "date_range": "Jul 2014 - Aug 2020",
+            "location": "Orlando, Florida Area",
+            "description": "Company: 10,001+ employees • Public Company • Entertainment Providers\nDepartment: C-Suite • Level: President/Vice President"
+          },
+          {
+            "title": "Senior Vice President",
+            "organization": "Disney Parks, Experiences and Products",
+            "date_range": "Aug 2020 - Sep 2021",
+            "location": "Orlando, Florida, United States",
+            "description": "Company: 10,001+ employees • Public Company • Entertainment Providers\nGuest Experience Technology Product Platforms\nDepartment: C-Suite • Level: President/Vice President"
+          },
+          {
+            "title": "Chief Technology Officer",
+            "organization": "MGM Resorts International",
+            "date_range": "Oct 2021 - Mar 2024",
+            "location": "Las Vegas, Nevada, United States",
+            "description": "Company: 10,001+ employees • Founded 2000 • Public Company • Hospitality\nDepartment: C-Suite • Level: C-Level"
+          },
+          {
+            "title": "CIO CTO",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Mar 2024 - Present",
+            "location": "Miami, Florida, United States",
+            "description": "Company: 10,001+ employees • Privately Held • Hospitality\nDepartment: C-Suite • Level: C-Level"
+          }
+        ],
+        "education": [
+          {
+            "school": "National Institute of Technology Warangal",
+            "degree_or_field": "Bachelor's degree, Metallurgical Engineering",
+            "date_range": "1990 - 1994"
+          },
+          {
+            "school": "Indian Institute of Technology, Kanpur",
+            "degree_or_field": "Master of Technology (MTech), Computer Applications in MME",
+            "date_range": "1995 - 1997"
+          },
+          {
+            "school": "Arizona State University",
+            "degree_or_field": "Master of Business Administration (M.B.A.)",
+            "date_range": "2001 - 2003"
+          },
+          {
+            "school": "Regional engineering College, Warangal",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "architecture",
+          "technology",
+          "technical architecture",
+          "solution architecture"
+        ],
+        "activity_themes": [
+          "Four Seasons luxury hospitality and yacht innovations",
+          "Leadership transitions at Disney, MGM and hospitality firms",
+          "Digital transformation and cloud computing in healthcare",
+          "AWS re:Invent and tech presentations",
+          "Professional networking, mentorship and graduations",
+          "Industry conferences on digital health and IT"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/sudhakarveluru"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Robert Chinman",
@@ -667,7 +2061,117 @@
           "source_type": "official_site",
           "quote_or_fact": "leading the sales and marketing organization"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/robchinman",
+        "display_name": "Robert Chinman",
+        "headline": "Commercial Director at Four Seasons Hotels and Resorts",
+        "location": "Jackson, Wyoming, United States (US)",
+        "about": "Internationally experienced leader in a broad range of sectors in Europe, the Middle East…",
+        "experience": [
+          {
+            "title": "Head Of Marketing, Public Relations Communications",
+            "organization": "Private office of HH Sheik Mohammad Bin Suroor Al Nahyan / Jalboot Marine",
+            "date_range": "Jun 2016 - Sep 2017",
+            "location": "Abu Dhabi, United Arab Emirates",
+            "description": "Advisory position reported to HH Sheik Mohammad Bin Suroor Al Nahyan – provided consultative services in public relations and marketing strategy across multiple businesses. Repositioned Jalboot Marine into a diversified marine operation including boat design, marina management, and private charters. Presented the rebranded business at the Dubai International Boat Show 2017."
+          },
+          {
+            "title": "Director Of Public Relations And Communications",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Oct 2017 - Jan 2019",
+            "location": "Four Seasons Hotel Nashville",
+            "description": null
+          },
+          {
+            "title": "Director Of Public Relations And Communications",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Feb 2019 - Jul 2021",
+            "location": null,
+            "description": "Hired as a member of the pre-opening team to design and communicate hotel positioning in the market through an integrated communications strategy. Created comprehensive pre-opening PR, social media, and digital marketing plans aligned with business strategy of the hotel and Four Seasons brand. Selected Achievements: • Secured media coverage in opening month from high value outlets e.g. Travel + Leisure, Condé Nast Traveler, Forbes Travel Guide, Boston Globe, NBC Boston, worth in excess of US$300,000. • Fostered close partnerships with destination marketing organisations (e.g. Greater Boston Convention & Visitors Bureau) and commercial entities (e.g. Boston Celtics, Institute of Contemporary Art Boston, Emerald Necklace Conservancy) to maximise positive exposure for the hotel. • As leader of the hotel Crisis Communications Team, managed multiple media inquiries in relation to COVID-19. Provided counsel to senior stakeholders and made critical decisions to successfully protect the reputation of the hotel. • Conceptualised and launched new brand identity for hotel spa, The Wellness Floor at One Dalton. Managed external design agency to produce brand assets and roll out of all marketing collateral. • Co-authored the “One Dalton Art Collection” brochure; nominated official Art Ambassador of hotel. • Leader of Four Seasons delegation in cross functional team with Zuma restaurant – directly responsible for growing relationship and supporting the Zuma PR team at global head office level."
+          },
+          {
+            "title": "Corporate PR, Brand Digital Marketing Manager",
+            "organization": "SunSwept Resorts",
+            "date_range": "Aug 2021 - Jan 2022",
+            "location": "Saint Lucia",
+            "description": "Corporate PR, Brand & Digital Marketing Manager for SunSwept Resorts (BodyHoliday & Rendezvous), Saint Lucia."
+          },
+          {
+            "title": "Director Of Public Relations And Communications",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Feb 2022 - Sep 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Commercial Director",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Oct 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Certificate comprised of four courses: Communication Planning for Change, Crisis Communication Planning, Making a Convincing Case for your Solution, Navigating Power Relationships",
+            "date_range": "2018 - 2018"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Certificate - Corporate Communication comprised of four courses: Communication Planning for Change, Crisis Communication Planning, Making a Convincing Case for your Solution, Navigating Power Relationships",
+            "date_range": "2020 - 2020"
+          }
+        ],
+        "skills": [
+          "public relations",
+          "communications strategy",
+          "social media",
+          "digital marketing",
+          "business strategy",
+          "destination marketing",
+          "contemporary art",
+          "crisis communications",
+          "marketing strategy",
+          "commercial",
+          "director",
+          "communications",
+          "design",
+          "hotel",
+          "positioning",
+          "strategy",
+          "pr",
+          "digital",
+          "marketing",
+          "partnerships",
+          "crisis",
+          "spa",
+          "wellness",
+          "collateral",
+          "delegation",
+          "responsible",
+          "operation",
+          "management"
+        ],
+        "activity_themes": [
+          "Promoting Jackson Hole ski conditions and fresh powder snow",
+          "Sharing Four Seasons Jackson Hole luxury experiences and spring skiing",
+          "Highlighting insider guides to Jackson Hole in goop",
+          "Promoting new restaurant launches at Four Seasons properties",
+          "Engaging with seasonal events and employee activities at Four Seasons"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/robchinman_kings-queens-of-corbets-2026-live-activity-7428151672834809857-BUI6",
+          "https://www.linkedin.com/posts/robchinman_an-insiders-guide-to-jackson-hole-goop-activity-7428128286981177344-XOqW",
+          "https://www.linkedin.com/posts/robchinman_experience-the-best-of-the-west-spring-skiing-activity-7427366264697860096-zOBn",
+          "https://www.linkedin.com/posts/robchinman_waking-up-to-fresh-powder-on-the-ski-hill-activity-7427336611278856193-vxYI",
+          "https://www.linkedin.com/posts/robchinman_teton-pass-could-get-6-to-12-inches-of-snow-activity-7427115118716542976-kx2f",
+          "https://www.linkedin.com/posts/robchinman_a-new-expression-of-a-modern-steakhouse-launches-activity-7425215717098119168-UNTy"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -681,5 +2185,71 @@
     "succeeded": 8,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T23:30:50.055978+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 15,
+      "structured": 13,
+      "discovered": 8,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 11,
+        "content_pages": 15,
+        "cost_estimate": {
+          "approx_total_usd": 0.092,
+          "search_component_usd": 0.077,
+          "contents_component_usd": 0.015,
+          "counts": {
+            "search_requests": 11,
+            "content_pages": 15
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 37700,
+          "cached_prompt_text_tokens": 1728,
+          "completion_tokens": 17749,
+          "reasoning_tokens": 46908,
+          "output_tokens": 0,
+          "total_tokens": 102357
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.460232,
+          "token_component_usd": 0.460232,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 37700,
+            "cached_prompt_text_tokens": 1728,
+            "completion_tokens": 17749,
+            "reasoning_tokens": 46908,
+            "total_tokens_reported": 102357,
+            "output_like_tokens": 64657,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.552232
+    }
   }
 }

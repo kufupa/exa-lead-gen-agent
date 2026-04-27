@@ -230,6 +230,8 @@ def sync_rows(conn: psycopg.Connection, rows: list[dict[str, Any]], *, chunk_siz
     upserted = 0
     if not rows:
         return 0
+    deduped_rows = {row["occurrence_id"]: row for row in rows if row.get("occurrence_id")}
+    rows = list(deduped_rows.values())
     for start in range(0, len(rows), chunk_size):
         chunk = rows[start:start + chunk_size]
         query = "select public.crm_upsert_contacts(%s::jsonb) as count"

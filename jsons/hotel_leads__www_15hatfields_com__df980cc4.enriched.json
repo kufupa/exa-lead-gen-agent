@@ -147,7 +147,7 @@
       "full_name": "Joe Harris",
       "title": "Deputy General Manager",
       "company": "15Hatfields",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/joe-harris-0644b175",
       "email": "joe@15hatfields.com",
       "email2": null,
       "phone": "020 7928 6326",
@@ -175,13 +175,86 @@
           "quote_or_fact": "Joe Harris, Deputy General Manager. Kat Fortson and Joe Harris at the 15Hatfields stand."
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/joe-harris-0644b175",
+        "display_name": "Joe Harris",
+        "headline": "Acting General Manager at 15Hatfields",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 13 years and 9 months",
+        "experience": [
+          {
+            "title": "Event Supervisor",
+            "organization": "15Hatfields",
+            "date_range": "Apr 2012 - Apr 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Event Supervisor",
+            "organization": "15Hatfields",
+            "date_range": "Apr 2016 - Jun 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Client Services Manager",
+            "organization": "15Hatfields",
+            "date_range": "Jun 2021 - Jul 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Deputy General Manager",
+            "organization": "15Hatfields",
+            "date_range": "Jul 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Acting General Manager",
+            "organization": "15Hatfields",
+            "date_range": "Mar 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Bath Spa University",
+            "degree_or_field": "Bachelor of Arts (B.A.), Drama and Dramatics/Theatre Arts, General",
+            "date_range": "2005 - 2008"
+          }
+        ],
+        "skills": [
+          "acting",
+          "client services"
+        ],
+        "activity_themes": [
+          "Sustainable events and venue awards",
+          "Industry trade shows and networking",
+          "Environmental cleanups and recycling",
+          "AI trends in venue marketing",
+          "Guest posts on event venue selection"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/bobtoovey_venues-events-guestpost-activity-7399782260578668544-Aqi8",
+          "https://www.linkedin.com/posts/ross-millward-84964969_im-still-recovering-from-the-whirlwind-of-activity-7348621309607661568-M-bd",
+          "https://www.linkedin.com/posts/andrew-perolls-8b771a13_themeetingsshow-businesstravelshow-sustainableevents-activity-7343962075263623168-lgL9",
+          "https://www.linkedin.com/posts/15-hatfields_citimpactawards2025-sustainability-eventsvenue-activity-7341782569388060672-AjO5",
+          "https://www.linkedin.com/posts/kierongarlic_tell-people-about-your-day-they-said-document-activity-7315434409069854721-Uw-W",
+          "https://www.linkedin.com/posts/15-hatfields_ai-dollinabox-intheboxtrend-activity-7317501364308250624-hLB4",
+          "https://www.linkedin.com/posts/15-hatfields_sustainableevents-activity-7226869908138037248-oVcz",
+          "https://www.linkedin.com/posts/15-hatfields_makeplastichistory-recycle-riverthames-activity-7222224858150014977-CDP6"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jon Flatman",
       "title": "Sales Manager",
       "company": "CIEH",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/jon-flatman-b077bb20",
       "email": "jon.flatman@cieh.org",
       "email2": null,
       "phone": null,
@@ -199,13 +272,111 @@
           "quote_or_fact": "Jon Flatman, Sales Manager. jon.flatman@cieh.org. With over 15 years of experience at CIEH... supports new clients in identifying the most cost-effective, scalable training options."
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jon-flatman-b077bb20",
+        "display_name": "Jon Flatman",
+        "headline": "Senior Key Account Manager at The Chartered Institute of Environmental Health",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Commercially driven and dynamic sales professional with over a decade of business development and key account management experience. Results orientated with a track record of building long term strategic partnerships.\n\nTotal Experience: 18 years and 9 months",
+        "experience": [
+          {
+            "title": "Wholesale Foreign Banknote Dealer",
+            "organization": "NatWest",
+            "date_range": "Sep 1997 - Aug 2001",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Customer Service Supervisor",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Jan 2002 - Feb 2004",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Customer Relationship Manager",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Feb 2004 - Jun 2005",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Key Account Manager",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Jun 2005 - Jan 2008",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Key Account Manager",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Jan 2008 - Dec 2010",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Key Account Manager - Corporate And International",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Dec 2010 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager - Middle East Office",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Apr 2013 - Nov 2016",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Chislehurst and Sidcup Grammar School",
+            "degree_or_field": null,
+            "date_range": "1987 - 1994"
+          },
+          {
+            "school": "Manchester Metropolitan University",
+            "degree_or_field": "BA, History",
+            "date_range": "1994 - 1997"
+          }
+        ],
+        "skills": [
+          "key account management",
+          "business development",
+          "account management",
+          "strategic partnerships",
+          "customer service",
+          "sales",
+          "management",
+          "partnerships",
+          "wholesale"
+        ],
+        "activity_themes": [
+          "Promoting CIEH participation in HCR25 for environmental health and hospitality training",
+          "Engagement with safety training milestones and construction projects in the Middle East",
+          "Business forums, training initiatives, and networking in Oman and Dubai",
+          "Reflections on Expo2020 and public health developments in MENA region",
+          "Support for NHS nutrition, hydration, and healthcare team initiatives",
+          "Interest in mental health motivation, professional achievements, and safety best practices"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/jon-flatman-b077bb20_training-and-courses-activity-7307425799249285120-6pnb",
+          "https://www.linkedin.com/posts/jon-flatman-b077bb20_hcr25-hrc25-fdhw-activity-7307400750370852864-CTCy",
+          "https://www.linkedin.com/posts/davidgauntlett4_insurance-chritmas-workdo-activity-7006989612799664129-LTQV",
+          "https://www.linkedin.com/posts/neilson-mccready-506253177_porrians-safety-safetytraining-activity-6967018812697128961-wmdC",
+          "https://ae.www.linkedin.com/posts/ukinoman_before-ending-his-short-visit-to-oman-the-activity-6914541749361070080-a2b3",
+          "https://www.linkedin.com/posts/hamdanbinmohammed_expo2020-activity-6915377465364230144-E_t5"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Liam McCarthy",
       "title": "Key Account Manager",
       "company": "CIEH",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/mccarthyliam",
       "email": "liam.mccarthy@cieh.org",
       "email2": null,
       "phone": null,
@@ -223,13 +394,92 @@
           "quote_or_fact": "Liam McCarthy, Key Account Manager. liam.mccarthy@cieh.org. Since joining CIEH in 2018... driving client retention, expanding account value, and delivering measurable commercial and operational outcomes... hospitality, and facilities management."
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/mccarthyliam",
+        "display_name": "Liam McCarthy",
+        "headline": "Commercial, Growth & Transformation Leader | Revenue, GTM & Operating Model | Regulated & Enterprise Markets",
+        "location": "London Area, United Kingdom (GB)",
+        "about": "I am a commercial, growth and transformation leader with over 20 years’ experience…",
+        "experience": [
+          {
+            "title": "Customer Relationship Manager",
+            "organization": "HSBC",
+            "date_range": "Mar 2000 - Sep 2004 • 4 years and 6 months",
+            "location": "Bournemouth, United Kingdom",
+            "description": "Delivered client-centric financial solutions and consistently exceeded personal and regional sale"
+          },
+          {
+            "title": "Service Manager English Teacher",
+            "organization": "Wall Street English",
+            "date_range": "Sep 2005 - Jul 2007 • 1 year and 10 months",
+            "location": "Kocaeli, Turkey",
+            "description": "Led operational development and delivery of blended eLearning solutions, designing and managing off-site sales and training programmes for diverse client needs. Introduced risk assessment and best practice procedures, scaling initiatives from branch level to a network of 65 locations. Managed direct line teams, organised quarterly team-building events for staff and clients, and delivered personalised training to large multinationals and over 2,300 students. Monitored classroom and teacher performance through audits, proactively supporting ongoing development and quality assurance across the organisation."
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "Amerikan Kültür Dil Okulları",
+            "date_range": "Sep 2007 - Jul 2009 • 1 year and 10 months",
+            "location": "Kocaeli, Turkey",
+            "description": "Oversaw multi-site operations, driving significant sales growth and operational improvement through the adoption of best practices and streamlined procedures. Led B2B and B2C business development, delivering new projects and customised training solutions for clients across aviation, logistics, energy, legal, and medical sectors. Directed national consultancy services for strategic integration initiatives, including large-scale compliance and H&S rollouts across 153 branches. Built and managed cross-functional teams, delivering tailored training programmes for executives, industry professionals, and university students to advance skills and support career development."
+          },
+          {
+            "title": "Branch Manager Director Of Personnel",
+            "organization": "English Time",
+            "date_range": "Aug 2009 - Jul 2011 • 1 year and 11 months",
+            "location": "Kocaeli, Turkey",
+            "description": "Oversaw multi-branch operations and led direct management of 34 teachers and 8 sales staff, driving performance, engagement, and development across 2 locations. Delivered sustained sales growth by introducing leadership workshops, restructuring branch procedures, and implementing initiatives that enhanced customer experiences and increased sales by 20%. Coordinated B2B and B2C sales projects, recruited internationally and domestically for support personnel, and allocated resources across 20 branches to support business objectives. Fostered partner relationships and promoted company culture through events and tailored communication strategies, contributing to regional sales expansion."
+          },
+          {
+            "title": "Founder CEO",
+            "organization": "iLearn",
+            "date_range": "May 2011 - Jul 2015 • 4 years and 2 months",
+            "location": "Kocaeli, Turkey",
+            "description": "Co-founded and led a nationally recognised training and education provider, driving business growth from inception to successful acquisition. Set the strategic vision and steered company development, specialising in bespoke L&D solutions for clients across sectors. Directly managed, recruited, and coached cross-functional teams (18 full-time, 30 part-time), embedding a culture of excellence, continuous development, and high client satisfaction. Delivered scalable service innovation, securing major contracts and expanding into government, corporate, and international markets. Achieved market leadership through partnerships, client trust, and impactful brand-building strategies, growing to serve over 1,600 clients in two years. Oversaw all operational, financial, and commercial activities, ensuring agility, transparency, and sustainable growth in a dynamic environment."
+          },
+          {
+            "title": "Director Of Operations Business Development",
+            "organization": "English Time",
+            "date_range": "Aug 2015 - Jun 2017 • 1 year and 10 months",
+            "location": "Kocaeli, Turkey",
+            "description": "Served on the executive team, shaping strategic direction and commercial growth for a leading provider of training and services across diverse industries. Led and directly managed multi-site teams, overseeing day-to-day operations for over 60 personnel and driving alignment across 25 branches. Built and coordinated high-performing cross-functional teams, fostering collaboration and accountability to deliver operational excellence and transformational change. Championed CRM integration, pricing modernisation, and a comprehensive Order to Cash (O2C) process, driving billing, credit control, collections, and cash flow management for 25 branches. Harnessed data-driven insights and technology-enabled solutions to optimise operations and inform strategic decisions across the organisation. Embedded a culture of continuous improvement, implementing change management and tailored L&D programs for 450+ staff, enhancing company vision and client satisfaction."
+          },
+          {
+            "title": "Service Supervisor",
+            "organization": "Screwfix",
+            "date_range": "Jul 2017 - Feb 2018 • 7 months",
+            "location": "Beckenham, Greater London, United Kingdom",
+            "description": "Returned to the UK to take on a leadership role, overseeing daily operations and client service while exploring new career opportunities for advancement. Applied transferable skills in team management, customer engagement, and process improvement, strengthening branch performance and supporting a culture of reliability, collaboration, and service excellence."
+          },
+          {
+            "title": "Key Accounts Business Development Manager",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Mar 2018 - Present • 7 years and 11 months",
+            "location": "London, United Kingdom",
+            "description": "Delivering business growth and strategic client partnerships in a leading professional body, leveraging data-driven insight and cross-functional collaboration at the executive level. I combine strategic insight with hands-on client management to drive growth, strengthen partnerships, and position the organisation competitively in the market. Leveraging my MBA expertise, I integrate Business Strategy frameworks such as SWOT, PESTEL, Porter’s Five Forces, and the Ansoff Matrix to assess opportunities, mitigate risks, and deliver measurable results. Key Achievements Sales Strategy & New Logo Acquisition: Developed and executed sales strategies that consistently exceeded targets by up to 20%, driving competitive growth and market expansion. Successfully won and onboarded new logos, broadening the client portfolio and strengthening market position with executive-led, data-driven approaches. Account Management & Retention Successfully managed and nurtured major accounts, driving a 460% increase in repeat business and reactivating dormant clients. Applied frameworks including RACI, Gap Analysis, and the Ansoff Matrix to identify cross-selling potential and strengthen client engagement. Multi-Level Engagement Built and maintained senior-level and multi-stakeholder relationships across client organisations, ensuring alignment of services with business goals. Applied leadership and financial acumen to manage resources effectively while supporting market development and partnership opportunities. Business Development & Strategy Contributed to wider business development initiatives, supporting growth across Training (instructor-led and eLearning), Assurance, and Events. Ensured alignment with departmental budgets and forecasts, consistently meeting or surpassing sales objectives."
+          },
+          {
+            "title": "Project Manager Lead Consultant",
+            "organization": "Confidential Organisation",
+            "date_range": "Sep 2024 - Dec 2024 • 3 months",
+            "location": "London Area, United Kingdom",
+            "description": "Led a strategic project on the future of business operating models, analysing the impact of AI, 6G, IoT, and blockchain on agility, resilience, and growth. Directed a cross-functional team of 10, delivering actionable frameworks that addressed risk, ESG integration, and the complexities of decentralised and agile operating structures. Translated complex data and academic research into board-level insights, guiding organisations on data-enabled strategies and sustainable transformation. Drove stakeholder alignment, embedding technological innovation and cultural adaptation across decentralised teams to strengthen long-term organisational resilience. Capstone Project: Data-Enabled World: Business Operating Models Adapt and Thrive or Die"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/mccarthyliam"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Warren Campbell",
       "title": "Former General Manager",
       "company": "15Hatfields",
-      "linkedin_url": "https://uk.linkedin.com/in/warren-campbell-70078b9",
+      "linkedin_url": "https://www.linkedin.com/in/warren-campbell-70078b9",
       "email": null,
       "email2": null,
       "phone": null,
@@ -257,13 +507,99 @@
           "quote_or_fact": "Warren Campbell... General Manager at 15Hatfields (email pattern referenced)"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/warren-campbell-70078b9",
+        "display_name": "Warren Campbell",
+        "headline": "General Manager/Director at 15Hatfields One of London’s leading Award Winning Sustainable Conference & Events Venues. - Left June 2025",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I am a dynamic individual with strong strategic experience in the Venue and Events Sector, Sales, Business Development, Marketing and Sustainable Operation Accreditation. Dedicated problem solver and trouble shooter, specialising in sustainable business development within the hospitality sector. A strong commercial background at Director level for Conference and Meeting Venues, Contract Catering, and 5 star luxury hotels. Commercial Director experience in different sectors, Building Management, Facilities, Health and Safety, Commercial Tenant Management, B2B accounts, Sales and Marketing Management. Providing direction and implementation from concept to launch of several brands and all the steps in between. Highly driven and motivated strategic team player.\n\nTotal Experience: 36 years and 7 months",
+        "experience": [
+          {
+            "title": "Food And Beverage Club House Manager",
+            "organization": "SuperClubs",
+            "date_range": "Nov 1993 - Aug 1996",
+            "location": "Jamaica",
+            "description": null
+          },
+          {
+            "title": "Night Duty Manager",
+            "organization": "QUADRANT CATERING LTD",
+            "date_range": "Aug 1996 - Feb 1997",
+            "location": "London, England, United Kingdom",
+            "description": "Running the onsite contract catering services for Royal Mails sorting office in Islington UK serving 700 meals every night for postal workers, responsible for all night duties that support the day operation, all catering hot food canteen services, vending, trolley and in house hospitality services. turning the night unit around from non profit to profit position, transforming a negative hostile team in to a positive balanced team, high level of unionised work force so high level of negotiating and positive relation building."
+          },
+          {
+            "title": "Senior Duty Manager",
+            "organization": "Sodexo",
+            "date_range": "Jun 1997 - Mar 1999",
+            "location": "London, England, United Kingdom",
+            "description": "Based at BBC Television Centre and BBC Broadcasting House responsible for running the in-house staff catering outlets, 11 in total, running over a 24 period in 8 different buildings, 140 staff. Full financial, payroll, operations and day to day management of the units. Trouble shooting problematic new food bar openings, redesigning them, making them operationally viable and smoothing out the customer experience, making them commercial viable and returning greater profits, creating full operating procedures and polices, H&S, Hygiene controls, vending services, trolley services and event catering operations. launching new products and services, improving deals with existing suppliers, wining new business for the company, maintaining and improving existing client relationships."
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Daily Bread Sandwiches LTD",
+            "date_range": "Jun 1999 - Mar 2000",
+            "location": "London, England, United Kingdom",
+            "description": "All aspects of client account management, customer relations, new business development. Initially had 190 clients consuming 10,000 S/W products a day, within 6 months I had 300_ clients consuming 23,000 S/W products a day, managing a team of 4, responsible for all order processing, account management, creation of bespoke label production and pricing for each client or group. new product development every 6 weeks, delivering excellent customer and client services."
+          },
+          {
+            "title": "Senior Sales Account Manager",
+            "organization": "Tradaq",
+            "date_range": "Jan 2000 - Apr 2002",
+            "location": "London, England, United Kingdom",
+            "description": "B2B Trade Exchange - Part of the global bartering network (Tradaq) - Parent Company MRI International Managing a team of 6 key account managers, each with a portfolio of 80 to 120 companies, 80 top companies managed by me personally. 800 companies within London trading a new barter currency, trade pounds, members could trade products and services with each other via our main managed trade exchange platform, trading 200K a month, growing members by 40 + per month, creating member events, creating realistic trade targets, staff motivation, full team training and client induction."
+          },
+          {
+            "title": "Creative And Social Director",
+            "organization": "Retreat Hospitality - St Katherines Dock",
+            "date_range": "Jan 2002 - Jun 2003",
+            "location": null,
+            "description": "High end events company based in St Katherines Dock The Retreat - 35 meter super yacht Well Gelled - 10 meter sunseeker speed boat Responsible for the set up and implementation of converting a privately owned luxury super yacht into a commercially viable operation, incorporating specifically tailored advertising, web development and brand identity, creating bespoke events, hospitality packages, team building days and themed evening events and cruises on the river and moored in St Katherines dock, all aspects of H&S, river safety."
+          },
+          {
+            "title": "Director Sales Operations",
+            "organization": "Immortalize and Build A Better Bracelet - 2 Separate Concessions based in Hamleys of London",
+            "date_range": "Jul 2003 - Apr 2005",
+            "location": "London Area, United Kingdom",
+            "description": "Immortalize LTD Concession based business - launched 2003 Hamleys first Floor Development and implementation of ground breaking 3d laser, face and object scanning, sub-surface engraving in to crystal glass blocks launching at Hamleys in London. All aspects of brand creation, concept, marketing, rollout, operational procedures, recruitment, sales and day to day management, logistics, technical development and web development, sourcing new locations, pitching to new clients, creating licensing deals, corporate sales, award and trophy development. managing two locations, the highest revenue concession at Hamleys two years in a row. Build a Better Bracelet ( Fashion Angel Brand) launched 2004 New concept concession Pitched to Hamleys and approved launched 18/052004- 3rd floor Hamleys Pitched to Selfridges and approved launched 01/12/2004. Solely responsible for complete concept, implementation, brand development and product range. Budgets, H/R, logistics and all operation procedures, liaising with Hamleys/Selfridges and suppliers to maximise sales opportunity's, created the full interactive customer journey and design. Full day to day management of team of 25 in two locations. Hamleys Santa Shoot - Hamleys had never had a Santa Photo shoot opportunity for customers. developed the offering, pitched to Hamleys for there customers to have a \" Meet Santa\" chance to have a picture taking with Santa, and purchase option of the branded mounted display card - RRP £9.99. launched 2003 for 23 days £22K, 2004 for 23 days £28K. Managed Santa and a team of 10 elves."
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "Fashion Angels",
+            "date_range": "May 2005 - Sep 2006",
+            "location": "London Area, United Kingdom",
+            "description": "USA based teenager fashion brand, responsible for product development of concession based business within nationwide department stores, from concept, pitching, launch and in store delivery. Taking the parent wholesale company direct to frontline retail concession based operations. Responsible for creative design, budgets and operational procedures, full management store relationships. Recruiting, training and developing the full staffing teams of 25 staff in 10 locations within the Debenhams store portfolio. All aspects of the customer experience and client liaison. Setting all sales targets based on demographic of each store."
+          },
+          {
+            "title": "General Manager",
+            "organization": "Mary Ward House",
+            "date_range": "Sep 2006 - Jan 2008",
+            "location": null,
+            "description": "Developing the existing business, driving sales to increase turnover, realigning and developing the marketing and PR strategy to raise the profile of an extremely unique venue. Full business audit to develop the offering to win new business streams and delivery a significant increase in profits and turnover. New supplier negotiation and full documented operating procedures implemented. Full H and S review and refurbishment plan developed. Realignment of staffing levels and and management structure."
+          },
+          {
+            "title": "General Manager",
+            "organization": "15Hatfields",
+            "date_range": "Feb 2008 - Jun 2025",
+            "location": "London South Bank",
+            "description": "Set up and created a commercial sustainable business for the Chartered Institute of Environmental Health, 15Hatfields Conference, Events and Meetings Venue. From concept to delivery, managed and developed the entire process from design to launch in 2008. Continued sustainable development and positioning as one of London's most sustainable venues and business. Business development and partnership management within the sustainable world. Finding solutions to keep the organisation at the forefront of sustainable development and sharing best practice across our networks, leading by example across the events industry. Driving all aspects of the operation, Strategic Marketing Development, PR, Sales and New Business Development, HR, Sustainability Strategic Development, Budget Planning and Reporting as well as day to day onsite hands on direction and development, building a strong long term partnerships 2020 - Full Building and Facilities Management. 2021 - Full Tenant and Service Charge Management"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/warren-campbell-70078b9"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Nicole Thomas",
       "title": "Venue Administration Assistant",
       "company": "15Hatfields",
-      "linkedin_url": "https://uk.linkedin.com/in/nicole-thomas-96721759",
+      "linkedin_url": "https://www.linkedin.com/in/nicole-thomas-96721759",
       "email": null,
       "email2": null,
       "phone": null,
@@ -286,13 +622,54 @@
           "quote_or_fact": "Nicole Thomas at 15Hatfields."
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/nicole-thomas-96721759",
+        "display_name": "Nicole Thomas",
+        "headline": "Executive Administrator at The Chartered Institute of Environmental Health",
+        "location": "Leighton Buzzard, England, United Kingdom",
+        "about": "Total Experience: 20 years",
+        "experience": [
+          {
+            "title": "Executive Administrator",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Jan 2006 - Present • 19 years and 9 months",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 1883 • Nonprofit • Education\nEvent Planning. Customer Service\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Events Administrator",
+            "organization": "15Hatfields",
+            "date_range": "Jan 2007 - Present • 19 years",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 11-50 employees • Founded 2008 • Privately Held • Events Services\nDepartment: Administrative • Level: Specialist"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "planning",
+          "event planning",
+          "customer service"
+        ],
+        "activity_themes": [
+          "AI trends and innovations for event venues",
+          "Sustainable events, fine dining and palm oil free practices",
+          "Eliminating single-use plastics from events",
+          "Promoting event businesses and seeking LinkedIn networking help"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/15-hatfields_ai-dollinabox-intheboxtrend-activity-7317501364308250624-hLB4",
+          "https://www.linkedin.com/posts/15-hatfields_finedining-sustainableevents-palmoilfree-activity-7222526117721616384-Cu1O",
+          "https://www.linkedin.com/posts/tristanayer_events-businessowners-activity-7117832528127758336-6xuT"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Anna Westacott",
       "title": "Director of Finance and Corporate Services",
       "company": "CIEH",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/anna-westacott",
       "email": null,
       "email2": null,
       "phone": null,
@@ -310,13 +687,143 @@
           "quote_or_fact": "Anna Westacott, Director of Finance and Corporate Services. Joined CIEH in August 2024. Qualified chartered accountant... focusing on change and improvement plans."
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anna-westacott",
+        "display_name": "Anna Westacott",
+        "headline": "Director of Finance and Corporate Services @ CIEH | ACA",
+        "location": "Bristol, England, United Kingdom (GB)",
+        "about": "I am a passionate finance leader with over 8 years of leadership experience in diverse sectors. I have a demonstrated track record of building, developing and maintaining strong and successful teams, and overseeing the delivery of complex finance and tech projects.\n\nTotal Experience: 14 years and 8 months",
+        "experience": [
+          {
+            "title": "Audit Senior",
+            "organization": "Moore Stephens",
+            "date_range": "Sep 2010 - Dec 2013",
+            "location": "London, United Kingdom",
+            "description": "Audit Senior in the Public Sector Group working on statutory audit of central government bodies and project and financial audits of European Commission and United Nations funded entities."
+          },
+          {
+            "title": "Finance Volunteer",
+            "organization": "Street Child",
+            "date_range": "Jan 2014 - May 2014",
+            "location": "Makeni, Sierra Leone",
+            "description": "Working with Street Child Commercial, raising funds for Street Child projects in Sierra Leone through a series of shops, bars and restaurants. Responsible for preparation of monthly management accounts, design and implementation of financial and other controls and consideration of expansion opportunities."
+          },
+          {
+            "title": "Project Accountant",
+            "organization": "BBC Media Action",
+            "date_range": "Jul 2014 - May 2016",
+            "location": "London, United Kingdom",
+            "description": "Acting as a focus point for country offices across the Middle East and Africa.Supporting project managers with budgeting, monitoring and forecasting and ensuring donor compliance in projects funded by DFID, EU, USAID among others."
+          },
+          {
+            "title": "Head Of Project Finance, Africa",
+            "organization": "BBC Media Action",
+            "date_range": "May 2016 - Jan 2018",
+            "location": null,
+            "description": "Managing the project finance team for Africa and overseeing the financial management of projects and of 8 country offices across Africa. Providing finance support and advice for a wide range of decision-makers across the organisation and supporting country offices and donor funded projects."
+          },
+          {
+            "title": "Head Of Finance Improvement Projects",
+            "organization": "Macmillan Cancer Support",
+            "date_range": "Feb 2018 - Mar 2019",
+            "location": "London, United Kingdom",
+            "description": "Responsible for implementation and management of Finance Systems at Macmillan Cancer Support. Managing a team of Project Managers to deliver cross-organisational projects and System Accountants maintaining and developing existing systems."
+          },
+          {
+            "title": "Senior Finance Operations Manager",
+            "organization": "Holidu",
+            "date_range": "Jul 2019 - Mar 2021",
+            "location": "Munich, Bavaria",
+            "description": null
+          },
+          {
+            "title": "Team Lead Finance Operations",
+            "organization": "Holidu",
+            "date_range": "Mar 2021 - Present",
+            "location": "Munich, Bavaria, Germany",
+            "description": null
+          },
+          {
+            "title": "Interim Director Of Finance And Corporate Services",
+            "organization": "The Chartered Institute of Environmental Health",
+            "date_range": "Aug 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Nottingham",
+            "degree_or_field": "Bachelor of Science (BSc), Chemistry, First",
+            "date_range": "2006 - 2009"
+          },
+          {
+            "school": "Institute of Chartered Accountants in England and Wales",
+            "degree_or_field": "ACA, Accounting and Finance",
+            "date_range": "2010 - 2013"
+          },
+          {
+            "school": "Association for Project Managers",
+            "degree_or_field": "APM Project Management, Project Management",
+            "date_range": "2018 - 2018"
+          }
+        ],
+        "skills": [
+          "finance",
+          "leadership",
+          "projects",
+          "director",
+          "commercial",
+          "restaurants",
+          "responsible",
+          "preparation",
+          "management",
+          "design",
+          "africa",
+          "organisation",
+          "operations",
+          "audit",
+          "government",
+          "acting",
+          "budgeting",
+          "forecasting",
+          "compliance",
+          "cancer",
+          "accountants",
+          "project finance",
+          "financial management",
+          "public sector",
+          "statutory audit",
+          "financial audits",
+          "project managers"
+        ],
+        "activity_themes": [
+          "Environmental health policy and parliamentary advocacy",
+          "Holidu company growth, acquisitions and team milestones",
+          "Renters rights, housing standards and public health",
+          "Nonprofit governance and trustee recruitment",
+          "Food hygiene ratings and consumer protection",
+          "University engagement in environmental health education"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/cieh_airquality-environmentalhealth-parliament-activity-7348323605870505986-rl-J",
+          "https://www.linkedin.com/posts/johannes-siebers-4342a740_big-news-from-holidu-weve-just-welcomed-activity-7336010525685833728-CwCy",
+          "https://www.linkedin.com/posts/camille-maciet-79017321_holiduhost-travelmeetstech-activity-7340649236612505605-Fh7v",
+          "https://www.linkedin.com/posts/holidu_travelmeetstech-activity-7348999432450760704-V4JX",
+          "https://www.linkedin.com/posts/johannes-siebers-4342a740_holidu-mallorca-vacationrentals-activity-7334186827710361600-JrGX",
+          "https://www.linkedin.com/posts/walworthgarden_as-our-current-chair-of-trustees-completes-activity-7312425107363094528-Hk2y",
+          "https://www.linkedin.com/posts/anna-westacott_the-brilliant-walworth-garden-is-looking-activity-7325431408103976961-pDrG",
+          "https://www.linkedin.com/posts/cieh_rentersrightsbill-housingstandards-environmentalhealth-activity-7284872007765098496-jRSl"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Justin Turner",
       "title": "Executive Director of Commercial and Digital Innovation",
       "company": "CIEH",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/justin-turner-01",
       "email": null,
       "email2": null,
       "phone": null,
@@ -364,7 +871,7 @@
       "full_name": "Katherine Fortson",
       "title": "Growth Marketing Manager",
       "company": "15Hatfields",
-      "linkedin_url": "https://uk.linkedin.com/in/katherinefortson",
+      "linkedin_url": "https://www.linkedin.com/in/katherinefortson",
       "email": null,
       "email2": null,
       "phone": null,
@@ -521,5 +1028,71 @@
       }
     ],
     "batch_id": "batch_698a052d-c810-4942-a3a7-35e488a02126"
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T22:57:26.524374+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 8,
+      "structured": 6,
+      "discovered": 5,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 9,
+        "content_pages": 8,
+        "cost_estimate": {
+          "approx_total_usd": 0.071,
+          "search_component_usd": 0.063,
+          "contents_component_usd": 0.008,
+          "counts": {
+            "search_requests": 9,
+            "content_pages": 8
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 15489,
+          "cached_prompt_text_tokens": 384,
+          "completion_tokens": 7557,
+          "reasoning_tokens": 18832,
+          "output_tokens": 0,
+          "total_tokens": 41878
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.188621,
+          "token_component_usd": 0.188621,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 15489,
+            "cached_prompt_text_tokens": 384,
+            "completion_tokens": 7557,
+            "reasoning_tokens": 18832,
+            "total_tokens_reported": 41878,
+            "output_like_tokens": 26389,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.259621
+    }
   }
 }

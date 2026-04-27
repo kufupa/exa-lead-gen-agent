@@ -77,7 +77,7 @@
       "full_name": "Ryan Dunlop",
       "title": "Hotel Manager",
       "company": "The Pelham London, Starhotels Collezione",
-      "linkedin_url": "https://uk.linkedin.com/in/ryan-dunlop-hotel",
+      "linkedin_url": "https://www.linkedin.com/in/ryan-dunlop-hotel",
       "email": null,
       "email2": null,
       "phone": "+44 (0) 20 7589 8288",
@@ -110,7 +110,7 @@
       "full_name": "Stefano Squecco",
       "title": "Cluster General Manager",
       "company": "Starhotels Collezione London (The Pelham, The Franklin, The Gore)",
-      "linkedin_url": "https://uk.linkedin.com/in/stefano-squecco-71449166",
+      "linkedin_url": "https://www.linkedin.com/in/stefano-squecco-71449166",
       "email": null,
       "email2": null,
       "phone": "+44 (0) 20 7589 8288",
@@ -137,13 +137,189 @@
           "source_type": "news",
           "quote_or_fact": "Appointed Cluster General Manager for The Pelham, The Gore, and The Franklin."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/stefano-squecco-71449166",
+        "display_name": "Stefano Squecco",
+        "headline": "Cluster General Manager, London at Starhotels, Collezione",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I like to describe myself as a very energetic, enthusiastic, resilient and passionate person, with a visionary character.\n\nTotal Experience: 39 years",
+        "experience": [
+          {
+            "title": "Front Office Clark, Reservation Officer",
+            "organization": "Hôtel des Trois Couronnes, Vevey, Switzerland",
+            "date_range": "Jan 1986 - Jan 1988",
+            "location": "Vevey, Switzerland",
+            "description": null
+          },
+          {
+            "title": "Back Of House Manager",
+            "organization": "London Hilton On Park Lane",
+            "date_range": "Jan 1988 - Jan 1991",
+            "location": "London, United Kingdom",
+            "description": "From Assistant Manager to in charge of night shift and finally appointed Back of House Manager (Chief Steward)"
+          },
+          {
+            "title": "Room Service And Breakfast Manager Ass. C E Manager",
+            "organization": "Regent's Park Hilton",
+            "date_range": "Jan 1991 - Jan 1993",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Restaurant Manager - Conservatory Restaurant",
+            "organization": "The Lanesborough Hotel, London - GB",
+            "date_range": "Jan 1993 - Jan 1994",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "In Room Dining And Butler Service Manager",
+            "organization": "Conrad Chelsea Harbour Hotel",
+            "date_range": "Jan 1994 - Jan 1997",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Food Beverage Manager In Charge Of C E (Sales Operations)",
+            "organization": "Hotel Cipriani",
+            "date_range": "Jan 1997 - Jan 2004",
+            "location": "Venice - ITALY",
+            "description": null
+          },
+          {
+            "title": "Deputy General Manager",
+            "organization": "Hotel Monaco & Grand Canal",
+            "date_range": "Jan 2004 - Jan 2006",
+            "location": "Venice - ITALY",
+            "description": null
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "Grand Hotel Molino Stucky Venice",
+            "date_range": "Jan 2006 - Jan 2011",
+            "location": "Venice - ITALY",
+            "description": "Including 7 months pre-opening activities in charge of Rooms and F&B Division."
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "Rome Cavalieri, Waldorf Astoria Hotels & Resorts",
+            "date_range": "Jan 2011 - Jan 2013",
+            "location": "Rome, Italy",
+            "description": "In charge of Front of House, all F&B & Conference Centre, Housekeeping, Spa & Pools, Security, Engineering, Gardens & Grounds In 2012 awarded as 1st Hotel SPA in Europe by Traveler + Leisure Magazine;"
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "Radisson Blu Portman Hotel",
+            "date_range": "Feb 2014 - May 2016",
+            "location": "London, United Kingdom",
+            "description": "In charge of Operations, responsible for the Quality & Operational Leadership of all Departments Front of House, F&B & Conference Centre, Housekeeping, Security, Maintenance and Goods receiving/Stores"
+          },
+          {
+            "title": "Deputy General Manager",
+            "organization": "Pennyhill Park, an Exclusive Hotel & Spa",
+            "date_range": "May 2016 - Aug 2019",
+            "location": "Bagshot, Surrey",
+            "description": "Home of the England Rugby Team Training Centre; - Voted within The Top Best 100 Hotels in the Country, in addition to a 2nd place for Spa Hotel of the Year and a 3rd position for Food Hotel of the Year 2017 awarded by the UK’s leading hoteliers; - Catey winner for Hotel of the Year 2016;"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Blakes Hotel London",
+            "date_range": "Aug 2019 - Apr 2024",
+            "location": null,
+            "description": "Part of the Executive Team leading the complete rebuild of the hotel. In charge of ensuring that this complex project delivers great spaces for clients to stay and staff to work. Planning for the next generation of discerning travellers while maintaining a historic legacy within the industry as the original boutique hotel. Leading all re-opening activities"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Blakes Hotel London",
+            "date_range": "Mar 2022 - Apr 2024",
+            "location": null,
+            "description": "Part of the Executive Team leading the complete rebuild of the hotel. In charge of ensuring that this complex project delivers great spaces for clients to stay and staff to work. Planning for the next generation of discerning travellers while maintaining a historic legacy within the industry as the original boutique hotel. Leading all re-opening activities"
+          },
+          {
+            "title": "General Manager",
+            "organization": "St. James's Hotel and Club",
+            "date_range": "Mar 2024 - Feb 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Cluster General Manager, London",
+            "organization": "Starhotels, Collezione",
+            "date_range": "Feb 2025 - Present",
+            "location": null,
+            "description": "The Franklin The Gore The Pelham"
+          }
+        ],
+        "education": [
+          {
+            "school": "Istituto Tecnico per il Turismo \"J.K.Kennedy\", Gorizia - ITALY",
+            "degree_or_field": "Secondary Education, Tourism and Travel Services Management",
+            "date_range": "1977 - 1982"
+          },
+          {
+            "school": "Università Commerciale \"L. Bocconi\", Milan - ITALY",
+            "degree_or_field": "Graduate in \"Discipline Turistiche\"",
+            "date_range": "1982 - 1984"
+          },
+          {
+            "school": "Glion Institute of Higher Education",
+            "degree_or_field": "Bachelor Degree in \"Hopitality and Tourisme Management\", Hotel Management",
+            "date_range": "1984 - 1987"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Hotel Revenue Management Certificate",
+            "date_range": "2021"
+          }
+        ],
+        "skills": [
+          "visionary",
+          "cluster",
+          "food",
+          "c",
+          "sales",
+          "operations",
+          "rugby",
+          "training",
+          "hotels",
+          "spa",
+          "hotel",
+          "reservation",
+          "director",
+          "responsible",
+          "leadership",
+          "housekeeping",
+          "security",
+          "maintenance",
+          "receiving",
+          "stores",
+          "engineering",
+          "planning",
+          "sales operations",
+          "front office"
+        ],
+        "activity_themes": [
+          "Luxury hotel visits and nostalgia",
+          "Hospitality industry news and regulations",
+          "Professional experiences and development in hospitality",
+          "Career transitions in London hotels",
+          "Hospitality trade shows and events",
+          "Luxury consumer behavior and trends",
+          "Anticipated luxury hotel openings"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/stefano-squecco-71449166"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "J-J Pollak",
       "title": "Hotel Manager",
       "company": "The Gore London, Starhotels Collezione",
-      "linkedin_url": "https://uk.linkedin.com/in/j-jpollak",
+      "linkedin_url": "https://www.linkedin.com/in/j-jpollak",
       "email": null,
       "email2": null,
       "phone": "+44 (0) 20 7584 6601",
@@ -171,7 +347,7 @@
       "full_name": "Janine Anjarwalla",
       "title": "Cluster Assistant Director of Sales & Marketing",
       "company": "Starhotels Collezione London",
-      "linkedin_url": "https://uk.linkedin.com/in/janine-a-0279a413",
+      "linkedin_url": "https://www.linkedin.com/in/janine-a-0279a413",
       "email": null,
       "email2": null,
       "phone": "+44 (0) 20 7589 8288",
@@ -193,13 +369,137 @@
           "source_type": "news",
           "quote_or_fact": "Janine Anjarwalla, representing The Franklin London Starhotels Collezione (cluster context)."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/janine-a-0279a413",
+        "display_name": "Janine A.",
+        "headline": "Cluster Assisant Director Of Sales Marketing ( Luxury Leisure) at Starhotels",
+        "location": "United Kingdom",
+        "about": "A confident person someone always willing to go the extra mile, with great attention to detail, one who accepts new challenges with great enthusiasm, good team player and a supportive leader. Able to develop existing relationships and thrive on forging new ones.Proven ability to exceed budgets, occupancies, ARR, REVPAR and ROI\n\nTotal Experience: 15 years and 6 months",
+        "experience": [
+          {
+            "title": "Head Of Sales Marketing",
+            "organization": "Holiday Inn, Dar es Salaam, Tanzania",
+            "date_range": "Oct 2008 - Feb 2010",
+            "location": "Dar es Salaam",
+            "description": "Department: Sales • Level: Head"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Crowne Plaza - Nairobi",
+            "date_range": "Feb 2010 - Sep 2010",
+            "location": null,
+            "description": "Pre opening of the hotel\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Marketing Bilila Lodge Kempinski",
+            "organization": "Kempinski Hotels",
+            "date_range": "Oct 2010 - Nov 2012",
+            "location": "Serengeti, Tanzania",
+            "description": null
+          },
+          {
+            "title": "Regional Sales Marketing Manager",
+            "organization": "Planhotel Hospitality Group",
+            "date_range": "Jul 2012 - Jul 2013",
+            "location": "East Africa",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Business Development Manager",
+            "organization": "Luxury Hotels Group",
+            "date_range": "Sep 2014 - Sep 2015",
+            "location": "United Kingdom",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Manager UK And Ireland",
+            "organization": "FASTBOOKING",
+            "date_range": "Dec 2015 - Apr 2016",
+            "location": "London",
+            "description": "With an extensive array of cutting-edge e-commerce solutions on offer, FASTBOOKING brings the digital traveler to hotels’ doorstep. We offer hoteliers tailor-made strategies and on-going expert advice, boosting their direct sales, improving their operating results and helping them get greater independence. Contracting of hotels onto Accor Market Place\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Mara Engai Lodge",
+            "date_range": "May 2016 - Jun 2022",
+            "location": "London, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Cluster Director Of Sales- East Africa Resorts",
+            "organization": "Planhotel Hospitality Group - Resorts, Hotels and Spa",
+            "date_range": "Jul 2022 - Nov 2023",
+            "location": "London, England, United Kingdom",
+            "description": "https://www.planhotel.com/ Diamonds Dream of Africa Malindi Dream Garden Tropical Sandies Diamonds Leisure Beach & Golf Resort Diamonds Mapenzi Sandies Baobab"
+          },
+          {
+            "title": "Cluster Assisant Director Of Sales Marketing ( Luxury Leisure)",
+            "organization": "Starhotels",
+            "date_range": "Jan 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "https://collezione.starhotels.com Complex Assistant Director of Sales for Starhotels London overseeing the Luxury Segment and Middle East. The Franklin (Small Luxury Hotels) The Pelham (Preferred Hotel Group) The Gore"
+          }
+        ],
+        "education": [
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Master in Hospitality Marketing ,Revenue Management , Hospitality Management",
+            "date_range": "2010 - 2013"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Master Certificate in hospitality",
+            "date_range": null
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Revenue Management",
+            "date_range": null
+          },
+          {
+            "school": "ABE",
+            "degree_or_field": "Business Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "budgets",
+          "cluster",
+          "director",
+          "sales",
+          "marketing",
+          "luxury",
+          "hotels",
+          "hotel",
+          "africa",
+          "diamonds",
+          "commerce",
+          "digital",
+          "team player",
+          "sales manager",
+          "direct sales",
+          "business development"
+        ],
+        "activity_themes": [
+          "Luxury hotel portfolio expansions and new additions",
+          "Cultural exhibitions and museum collaborations",
+          "Luxury hospitality networking and travel partnerships",
+          "Professional galas and society events in hospitality",
+          "Hotel visits, dinners and industry refresh initiatives"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/janine-a-0279a413"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Francine Baron",
       "title": "Complex Reservations Manager",
       "company": "Starhotels UK (London Cluster)",
-      "linkedin_url": "https://uk.linkedin.com/in/francine-baron-174b049b",
+      "linkedin_url": "https://www.linkedin.com/in/francine-baron-174b049b",
       "email": null,
       "email2": null,
       "phone": "+44 (0) 20 7589 8288",
@@ -221,13 +521,119 @@
           "source_type": "official_site",
           "quote_or_fact": "Reservations Center: reservations@starhotelsreservations.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/francine-baron-174b049b",
+        "display_name": "Francine Baron",
+        "headline": "Complex Reservations Supervisor at Starhotels UK",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 14 years and 4 months",
+        "experience": [
+          {
+            "title": "Reservations Team Leader",
+            "organization": "Premier Inn",
+            "date_range": "Jan 2001 - Jan 2004",
+            "location": null,
+            "description": "Department: Customer Service • Level: Senior"
+          },
+          {
+            "title": "Reservations Manger",
+            "organization": "The Montcalm",
+            "date_range": "Feb 2013 - Aug 2013",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Reservations Asst Revenue Manager",
+            "organization": "The Cavendish Hotel",
+            "date_range": "Nov 2013 - Nov 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservation Manager",
+            "organization": "Via Hostels",
+            "date_range": "Nov 2015 - Nov 2016",
+            "location": "London",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Reservations Agent",
+            "organization": "Royal Garden Hotel",
+            "date_range": "Oct 2017 - Dec 2020",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist\nCompany: 201-500 employees • Founded 1965 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Cluster Reservations Agent",
+            "organization": "Starhotels Collezione",
+            "date_range": "Jun 2021 - Apr 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist\nCompany: Restaurants"
+          },
+          {
+            "title": "Cluster Reservations Supervisor",
+            "organization": "Starhotels Collezione",
+            "date_range": "May 2022 - Mar 2023",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist\nCompany: Restaurants"
+          },
+          {
+            "title": "Cluster Assistant Reservations Manager",
+            "organization": "Starhotels Collezione",
+            "date_range": "Mar 2023 - Jul 2024",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager\nCompany: Restaurants"
+          },
+          {
+            "title": "Complex Reservations Manager",
+            "organization": "Starhotels",
+            "date_range": "Jul 2024 - Present",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager\nCompany: 501-1000 employees • Founded 1980 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "supervisor",
+          "team leader",
+          "reservation",
+          "revenue",
+          "reservations",
+          "management",
+          "leadership",
+          "cluster computing",
+          "reservation manager",
+          "revenue manager"
+        ],
+        "activity_themes": [
+          "Starhotels community support and ItalyRun events",
+          "Hospitality staff promotions and role changes",
+          "Awards and nominations in London hotels",
+          "Luxury hotel grand openings and renovations",
+          "MICE, luxury travel congresses and networking",
+          "Design hubs and architecture in hospitality",
+          "Employee recognition and awards in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/starhotels_italyrun-sport-community-activity-7399050482406559744-8h5V",
+          "https://www.linkedin.com/posts/anvsheela_i-am-truly-thrilled-and-grateful-to-share-activity-7390913380854870016-qLH2",
+          "https://www.linkedin.com/posts/ryan-dunlop-a2011714_thepelham-starhotels-goldenkeys-activity-7376356640243044353-jpkk",
+          "https://www.linkedin.com/posts/pub-and-bar_the-doyle-collections-bloomsbury-club-has-activity-7370772152733556736-77BS",
+          "https://www.linkedin.com/posts/antonio-ducceschi-cmm-chba-9930596_kbltcongress-leadership-luxurytravel-activity-7373385195837804546-TdxO",
+          "https://www.linkedin.com/posts/rosewood-london_were-excited-tocelebrate-the-grand-opening-activity-7368261540648595456-2j98",
+          "https://www.linkedin.com/posts/starhotels_thepelhamlondon-starhotelscollezione-design-activity-7352998924825092097-IqxF",
+          "https://www.linkedin.com/posts/ocean-dusk-travel_starhotels-starhotellondon-luxuryhotel-activity-7359255776743366656-Ehbe"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Alexandro Della Croce",
       "title": "Chief Commercial Officer (formerly Executive Director of Revenue Strategy)",
       "company": "Starhotels Group",
-      "linkedin_url": "https://it.linkedin.com/in/alexandrodellacroce",
+      "linkedin_url": "https://www.linkedin.com/in/alexandrodellacroce",
       "email": null,
       "email2": null,
       "phone": "+39 055 36921",
@@ -249,13 +655,215 @@
           "source_type": "linkedin",
           "quote_or_fact": "Starhotels - Executive Director of Revenue Strategy with UK experience."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/alexandrodellacroce",
+        "display_name": "Alexandro Della Croce",
+        "headline": "Global Director | Revenue and Distribution Strategy | Driving Commercial Performance",
+        "location": "Italy",
+        "about": "Executive Director of Revenue Strategy with a track record across the USA, UK, and Europe. Passionate about transforming data into decisions, I lead commercial growth and pricing strategies for luxury hospitality brands. With 15+ years of experience, I specialize in dynamic revenue management, strategic market expansion, and cross-functional leadership. Adept at aligning global frameworks with local market needs, I drive performance through a mix of innovation, analytical rigor, and stakeholder engagement.\n\nTotal Experience: 22 years",
+        "experience": [
+          {
+            "title": "Revenue Management Executive Miami Beach Cluster",
+            "organization": "The Palms Hotel & Spa",
+            "date_range": "Jan 2004 - Nov 2006",
+            "location": "Miami Beach, Florida",
+            "description": "Supported the revenue and distribution strategies for the Miami Beach Cluster"
+          },
+          {
+            "title": "Area Director, Revenue Management Milan",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Nov 2006 - Sep 2012",
+            "location": "Milan, Italy",
+            "description": "In charge of Revenue Management for the 4 Starwood Hotels located in Milan; The Westin Palace, Sheraton Diana Majestic, Excelsior Gallia, and Sheraton Malpensa."
+          },
+          {
+            "title": "Corporate Revenue Manager, North America USA Canada",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Oct 2012 - Sep 2014",
+            "location": "New York City | Stamford, CT, Corporate Headquarter",
+            "description": "Developed and implemented pricing optimization initiatives to drive revenue growth across the division. Focused on identifying untapped opportunities across multiple segments and booking channels, enhancing overall commercial performance."
+          },
+          {
+            "title": "Regional Director, Revenue Management Southern Europe",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Sep 2014 - Aug 2016",
+            "location": "Rome | Southern Europe Regional Headquarter",
+            "description": "Led revenue management, distribution, and commercial strategy across Southern Europe, including Italy, Greece, Turkey, and the Balkans. Acted as functional leader across Owned, Managed, and Franchised portfolios, enhancing topline performance through strategic alignment and market-specific initiatives."
+          },
+          {
+            "title": "Divisional Director Of Revenue Europe, UK, Russia, Balcans Luxury Brands",
+            "organization": "IHG Hotels & Resorts",
+            "date_range": "Aug 2016 - Feb 2019",
+            "location": "London | Denham Corporate Headquarter",
+            "description": "In charge of the Revenue Management function for the Managed Estate, European Region: Luxury Portfolio for Europe, UK, Russia & CIS. Team of four Directors of RM."
+          },
+          {
+            "title": "Global Director Of Revenue And Distribution Strategy",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Mar 2019 - Present",
+            "location": "Italia",
+            "description": "Spearhead global revenue strategy for a portfolio of 30 hotels across Italy, the UK, France, and the US, Overseeing pricing and distribution strategies to enhance topline performance and brand competitiveness. Manage a dedicated team of Regional and Area Directors to ensure effective hotel-level execution and commercial alignment."
+          }
+        ],
+        "education": [
+          {
+            "school": "IULM University",
+            "degree_or_field": "Bachelor's degree, Hospitality Management, Marketing, Economy.",
+            "date_range": "2000 - 2004"
+          },
+          {
+            "school": "Liceo Scientifico",
+            "degree_or_field": "High School Enrico Fermi, Mathematics, Science, High School Diploma",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "financial performance",
+          "streamline processes",
+          "actionable insights",
+          "area director",
+          "forecasts",
+          "data",
+          "portfolio",
+          "room",
+          "cis",
+          "executive leadership",
+          "market analysis",
+          "marketing",
+          "leadership",
+          "track",
+          "forecasting models",
+          "revenue",
+          "online travel",
+          "revenue management systems",
+          "execution",
+          "reach",
+          "pricing strategy",
+          "commercial growth",
+          "distribution",
+          "led",
+          "competitive pricing",
+          "revenue optimization",
+          "analytical",
+          "booking",
+          "mentoring",
+          "across",
+          "corporate",
+          "driving revenue",
+          "increase revenue",
+          "drive revenue",
+          "online travel agencies",
+          "frameworks",
+          "overseeing",
+          "distribution systems",
+          "luxury brands",
+          "director",
+          "sales",
+          "global distribution",
+          "channels",
+          "optimization strategies",
+          "management",
+          "mixing",
+          "brand management",
+          "pricing strategies",
+          "key performance indicators",
+          "pricing optimization",
+          "revenue distribution",
+          "corporate director",
+          "transforming data",
+          "implementing strategies",
+          "commercial strategy",
+          "stakeholder management",
+          "implementation",
+          "diana",
+          "excel",
+          "distribution strategy",
+          "advanced forecasting",
+          "luxury hospitality",
+          "revenue strategy",
+          "revenue management",
+          "alignment",
+          "forecasting",
+          "key performance indicators (kpis)",
+          "identify opportunities",
+          "distribution strategies",
+          "rm",
+          "adjust (mobile marketing platform)",
+          "customer behavior",
+          "travel agency operations",
+          "revenue growth",
+          "financial management",
+          "collaboration",
+          "management systems",
+          "brands",
+          "hospitality industry",
+          "cross-functional",
+          "teams",
+          "utilization",
+          "analysis",
+          "management techniques",
+          "global distribution systems",
+          "optimization",
+          "performance indicators",
+          "finance",
+          "cross-functional teams",
+          "market reach",
+          "hotels",
+          "processes",
+          "channel management",
+          "revenue optimization strategies",
+          "commercial",
+          "executive director",
+          "maximize profitability",
+          "data-driven insights",
+          "strategy",
+          "russia & cis",
+          "data-driven",
+          "decision-making",
+          "indicators",
+          "corporate management",
+          "negotiation",
+          "systems management",
+          "per",
+          "hospitality",
+          "large-scale scrum (less)",
+          "strategic pricing",
+          "drive performance",
+          "models",
+          "cluster computing",
+          "adept",
+          "negotiation management",
+          "profitability",
+          "stakeholder engagement"
+        ],
+        "activity_themes": [
+          "Luxury and ultra-luxury hospitality conversations",
+          "Starhotels team milestones, achievements and events",
+          "Hotel rankings, recognitions and awards",
+          "Revenue management and sales leadership roles",
+          "Forbes Italia CMO and executive recognitions",
+          "Industry innovation, AI and simple business ideas"
+        ],
+        "source_urls": [
+          "https://iulm.it/wps/wcm/connect/scuoladicomunicazione/sdc/home/Corsi-professionalizzanti/revenue-and-channel-management",
+          "https://www.linkedin.com/posts/patrickheesen_i-had-a-great-conversation-on-%F0%9D%90%AE%F0%9D%90%A5%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9A-%F0%9D%90%A5%F0%9D%90%AE%F0%9D%90%AC%F0%9D%90%AD%F0%9D%90%AB%F0%9D%90%9A-activity-7424723414713729024-2bIY",
+          "https://www.linkedin.com/posts/ryan-dunlop-a2011714_thepelham-thegore-thefranklin-activity-7407174289059389442-lh2r",
+          "https://www.linkedin.com/posts/antonio-ducceschi-cmm-chba-9930596_starhotels-teamexcellence-leadership-activity-7402692688912830464-BAPt",
+          "https://www.linkedin.com/posts/alessandro-pinna-6916223_forbesitalia-cmo-leadership-activity-7394345608880209920-68mv",
+          "https://www.linkedin.com/posts/flavia-zampella-1a516598_london-cluster-director-of-sales-london-activity-7394308273417625601-jLIX",
+          "https://www.linkedin.com/posts/sophieelizabethclarke_hotelhassler-onlyatthehassler-lhw-activity-7393944651172352000-VESb",
+          "https://www.linkedin.com/posts/alexandrodellacroce_area-revenue-management-executive-central-activity-7387034510745550848-JHK8"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Diego Rumazza",
       "title": "Global Director of Sales",
       "company": "Starhotels",
-      "linkedin_url": "https://it.linkedin.com/in/diegorumazza",
+      "linkedin_url": "https://www.linkedin.com/in/diegorumazza",
       "email": null,
       "email2": null,
       "phone": "+39 02 29404004",
@@ -282,13 +890,182 @@
           "source_type": "official_site",
           "quote_or_fact": "International Sales Office: internationalsales@starhotels.com, +39 02 29404004"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/diegorumazza",
+        "display_name": "Diego Rumazza",
+        "headline": "Global Director of Sales @ Starhotels | International Hospitality & Luxury | Revenue Growth, Global Markets, Strategic Partnerships",
+        "location": "Milan, Lombardy, Italy",
+        "about": "Global Director of Sales with extensive experience in international hospitality and…",
+        "experience": [
+          {
+            "title": "Ship Supervisor",
+            "organization": "Costa Crociere",
+            "date_range": "May 1999 - May 2001",
+            "location": "Genoa, Liguria, Italy",
+            "description": "Responsible for Revenue Management and Sales Optimization"
+          },
+          {
+            "title": "Account Manager",
+            "organization": "Jolly Hotels Spa",
+            "date_range": "May 2001 - Jun 2007",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Key Account Management (Key Corporate Accounts and TMC’s in Europe), promotion, contracts, negotiations, incentive programs and marketing activities for the entire chain of 45 hotels (39 in Italy, 1 in UK, 2 in Germany, 1 in Paris, 2 in Benelux). -Corporate Portfolio: 8 mln individual + 3 mln MICE -Travel Agencies and Consortia Portfolio: 11 mln Euros -International Account Management Project Leader for Axa, Eni Group, Novartis and Sanofi Aventis – coordination of the international sales team to drive revenue to the company from the international accounts RFP and Nexus Coordinator -Identification and selection new business opportunities in the E-commerce market -Revenue analysis for new development programs: potentials and ROI on possible investments to new destinations (evaluations for possible acquisitions of new properties in Perugia, Cremona, Mantova, Milan and Savona)"
+          },
+          {
+            "title": "Director Of Sales Leisure And Mice",
+            "organization": "Domina Hotel Group",
+            "date_range": "Jul 2007 - Dec 2008",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Responsible for strategic implementations and strategy towards Tour Operators, Web Site Operators and Agencies and PCO."
+          },
+          {
+            "title": "Director Of Sales Italy - Direttore Vendite Italia",
+            "organization": "Domina Hotel Group",
+            "date_range": "Jan 2008 - Jan 2010",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Responsible for the revenue generated from the Corporate, Leisure and MICE market for the properties based in Italy and the Italian Market. Development of major sales strategies, support to critical situation, definition of new sales activities,. Major markets of activity: European, Russian, American and Middle East Coordination of Hotel Director of Sales, Sales Manager and Sales Executive based in the different properties Support to Development and Acquisition Department: market analysis, potentials, expected revenues in Italy and abroad Implementation of the Utell partnership"
+          },
+          {
+            "title": "Director Of Sales Sheraton Roma Hotel Conference Center",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Jan 2010 - Feb 2014",
+            "location": "Rome, Latium, Italy",
+            "description": "Responsible for the revenue generated and marketing activities for a 640 keys property with 30 meeting rooms. Major market: MICE, Corporat, Leisure Groups and Crews. Complete repositioning following a 23 million euro renovation. Coordinated a team of 4 enthusiastic active sales person and 11 reactive event sales members."
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Sheraton Saigon Hotel & Towers",
+            "date_range": "Feb 2014 - Jan 2015",
+            "location": "Ho Chi Minh, Vietnam",
+            "description": "Leading an enthusiastic team of 18 sellers and 3 marketing specialists of a Five Stars 485 rooms property and 17 meeting rooms in Ho Chi Minh (Vietnam). Sheraton Saigon is currently among the 15 top hotels for Starwood in Asia Pacific. The hotel features also 3 restaurants and 1 luxury Spa with a well established leisure, corporate and Mice client base."
+          },
+          {
+            "title": "Global Director Of Business Development",
+            "organization": "Starhotels",
+            "date_range": "Jan 2015 - Mar 2017",
+            "location": "Milan, Lombardy, Italy",
+            "description": "• Starhotels is an international hotel chain with 29 hotels, 4 & 5 stars, located in the main Italian cities and Paris, London and NYC. The luxury portfolio (3 hotels in London, Paris, New York, Milan, Venice and Trieste) are currently part of Preferred Hotel & Resorts, 2 hotels are part of Leading Hotels of the World and one is part of Small Luxury Hotels. The group offer over 3,700 room and over 150 meeting spaces • Responsible for the sales development of the international markets of Starhotels with specific focus on the luxury offer “Collezione”. • Responsibility of the revenue generated, marketing activities and coordination of the relationships with Preferred Hotel Group (8 luxury hotels currently represented) • Coordination and coaching of the Regional Director of Sales (APAC, Middle East, North America, South America) • Direct responsibility on the GSA for South America • A shared responsibility with the Regional Team to support Hotels in achieving their Budgets and Key Performance Indicators"
+          },
+          {
+            "title": "Director Of Sales Starhotels Collezione",
+            "organization": "Starhotels",
+            "date_range": "Apr 2017 - Jul 2019",
+            "location": "Milan, Lombardy, Italy",
+            "description": "- Responsible for the Revenue generated and the development of the Upper Upscale and Luxury Brand Starhotels Collezione. • Functional responsibility of the 9 DOSM/DOS of the Collezione hotels. • Coordination of the relationships with Preferred Hotel Group (8 luxury hotels), Leading Hotels of the World (2 hotels represented), Small Luxury Hotels (2 hotels). • Coordination of sales activities and relationships with FHR, Signature, Virtuoso, Serandipianss. Ensemble, Kiwi Collection, Tablet. • Direct responsibility on the GSA for South America and the GSA for North America."
+          },
+          {
+            "title": "Global Director Of Sales",
+            "organization": "Starhotels",
+            "date_range": "Aug 2019 - Present",
+            "location": "Milan, Lombardy, Italy",
+            "description": "Starhotels is the leading Italian hotel group with 30 hotels represented by 2 different brands Collezione and Premium generating a total revenue of over 200 million euros. Full responsability of the revenue generated by the Sales Team and Group Desk Department for a total of 24 resources."
+          }
+        ],
+        "education": [
+          {
+            "school": "ITC E. Pertini",
+            "degree_or_field": "Diploma Tecnico Commerciale indirizzo giuridico economico aziendale",
+            "date_range": "1987 - 1992"
+          },
+          {
+            "school": "Università di Genova",
+            "degree_or_field": "Diploma Universitario in Economia e Gestione dei Servizi Turistici",
+            "date_range": "1992 - 1996"
+          }
+        ],
+        "skills": [
+          "team support",
+          "drive revenue",
+          "project management",
+          "sales management",
+          "analysis",
+          "sales development",
+          "executive leadership",
+          "management",
+          "sales executive",
+          "international markets",
+          "event sales",
+          "sales & marketing",
+          "director",
+          "optimization",
+          "key account management",
+          "italian language",
+          "key performance indicators",
+          "market analysis",
+          "sales",
+          "international hospitality",
+          "hotels",
+          "front office",
+          "brand management",
+          "support",
+          "website management",
+          "development",
+          "active sales",
+          "coordination",
+          "director sales",
+          "sales optimization",
+          "coaching",
+          "new development",
+          "new business opportunities",
+          "strategy",
+          "acquisitions",
+          "large-scale scrum (less)",
+          "upscale",
+          "acquisition",
+          "budgets",
+          "luxury brand",
+          "e-commerce",
+          "web development",
+          "consortia",
+          "marketing activities",
+          "event management",
+          "mice (meetings, incentives, conferences, exhibitions)",
+          "performance indicators",
+          "brands",
+          "corporate accounts",
+          "portfolio",
+          "accounts management",
+          "partnership",
+          "international sales",
+          "supervisor",
+          "roi",
+          "investments",
+          "sales director",
+          "account management",
+          "revenue management",
+          "rfp",
+          "new sales",
+          "new business",
+          "incentive programs",
+          "gsa",
+          "nexus",
+          "project leadership",
+          "marketing",
+          "corporate",
+          "international accounts",
+          "implementation",
+          "revenue",
+          "selection",
+          "account manager",
+          "revenues",
+          "leading",
+          "leadership",
+          "hotel operations"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/diegorumazza"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lydia Barbini",
       "title": "Group Marketing, Communication & PR Director",
       "company": "Starhotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/lydiabarbini/it",
       "email": null,
       "email2": null,
       "phone": "+39 055 36921",
@@ -305,13 +1082,77 @@
           "source_type": "directory",
           "quote_or_fact": "Lydia Barbini, Group Marketing, Communication & Pr Director @starhotels.it"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lydiabarbini/it",
+        "display_name": "Lydia Barbini",
+        "headline": "Global Marketing and PR Director @Starhotels | Forbes Top 100 CMO Italia | Brand Builder | Entrepreneur | Investor | D&I Advocate | Made in Italy Ambassador",
+        "location": "Florence, Tuscany, Italy",
+        "about": "Over the last 15 years, my career has been an incredible journey learning about luxury hospitality, retail, consumer goods, and most importantly people. The differentiating factors for a company are people and innovation. The world is moving fast and great companies have people who challenge convention and lead change. I aim to create an impact, building strategies that break the mold and meet the evolving needs of clients and the global market. I’m a firm believer in the power of motivation, mental well-being, and empathy, I bring a human-centered perspective to my professional endeavors. My passion for creating meaningful experiences and products extends into my interests—whether skiing down mountains, diving, exploring art, or immersing myself in new cultures. Connecting people, brands, and ideas is at the heart of what I do. 🎯 What sets me apart as a CMO? • Versatility & Adaptability : I quickly grasp the unique dynamics in each industry, connecting the dots and bringing fresh perspectives that balance local insights with global strategies. • Impactful Innovation: I’m committed to disruptive innovation with a measurable focus, driving significant ROI and expanding customer bases. • Entrepreneurial and Collaborative Leadership: I read between the line and usually I anticipate market trends and needs, launching initiatives that elevate brands beyond expectations. I also foster an inclusive work environment that champions creativity and team growth. Work ethic is key to me. Ready to connect with like-minded innovators, collaborators, and visionaries who share the commitment to elevate customer experiences and shape the future.",
+        "experience": [
+          {
+            "title": "Group Brand Manager Premium Brands (Marlboro Philip Morris) Event Manager",
+            "organization": "Philip Morris International",
+            "date_range": "Feb 2011 - Apr 2013",
+            "location": "Paris Area, France",
+            "description": "• Marlboro & Philip Morris brand strategy 3 Y development and implementation through effective actions plans (France) • Innovation: Philip Morris Green - Additive Free proposition with recycled packaging 19% SoS after 2 months, still increasing. Only 20% cannibalization. • Product development for both Brands & Innovation process management • Project Management: lead and drive brand related projects across the organization. • Identification of market opportunities and consumer needs • Coordination among different functions (R&D, Sales, Cluster, PMI, Supply Chain, Finance) • Agency Management • Legal Age Meeting Points Program owner, Partnership and Sponsorship manager (Moto Gp, Formula1, TomorrowLand, Gay Pride Etc.) • Budget Management: 2.5 Mio Euro for LAMPS program, 6.5Mio Euro for Marlboro & 3.2K for Philip Morris & 5.5Mio Euro for OTP"
+          },
+          {
+            "title": "Global Marketing And Strategy Director (Philip Morris)",
+            "organization": "Philip Morris International",
+            "date_range": "May 2013 - Sep 2016",
+            "location": null,
+            "description": "• Established and executed global brand strategies for a $500M portfolio, achieving +5.2% growth in market share in existing markets and expanding brand reach to 18 new markets. • Developed creative toolkits for digital and traditional channels, standardizing brand execution globally, resulting in a 14% increase in brand recognition. • Managed brand P&L and optimized budget allocation, delivering an 11% improvement in ROI and aligning investments with strategic goals. • Spearheaded partnership and sponsorship campaigns that increased consumer engagement by 25%, maintaining consistent brand identity across markets. • Managed innovation strategy, including the development of new concepts for cigarettes and other tobacco products, driving product relevance and market competitiveness. • Led and manag"
+          },
+          {
+            "title": "Consultant Investor Startups",
+            "organization": "DXS Fund",
+            "date_range": "Sep 2016 - Jan 2021",
+            "location": null,
+            "description": "• Investor & Strategic Consultant: Actively involved in launching new companies and start-ups, specializing in business and product planning, digital marketing strategy, social media marketing, online content marketing, multi-channel growth, in-depth market analysis, and social media impact analysis. - Tifosy (Shareholder & Consultant): Provided strategic solutions and raised capital through debt or equity issuance for corporate financing (Pescara Football Bond), contributing to developing fintech initiatives and fostering relationships with partners and investors. Led the communication strategy and the start-up re-position. - Picosats (Shareholder & Consultant): Engaged in developing innovative space technology solutions, focusing on designing and manufacturing advanced small satellites, making space accessible and affordable. - Airlite (Shareholder & Consultant): Collaborated with Airlite to promote a revolutionary 100% natural technology that can be applied to internal and external walls like standard paint, emphasizing sustainability and environmental impact."
+          },
+          {
+            "title": "Chief Executive Officer And Member Of The Board Of Directors",
+            "organization": "Piave Maitex Srl",
+            "date_range": "Sep 2016 - Oct 2022",
+            "location": "Feltre, Belluno, Italy",
+            "description": "Elastic textile supplier for the global fashion industry (Lingerie, Swimwear, Shapewear, Athleisure, Medical, Sportswear, Outerwear, Fashion, Luxury, etc.) • Led operational oversight and budgetary supervision for 3 locations with 120 employees and 12M turnover • Responsible for all the company’s activities. • Corporate/business restructuring: strategic business development, organizational change, and re-definition of the commercial strategy & the purchasing policy. • Led strategic and business initiatives to successfully grow revenue in areas such as medical (protective masks) and tech sports. • Sustainability road map definition with 4sustainability. Develop supply chain sustainability strategy, activities, and products (i.e. recycled fabrics’ lineup) • Built productive relationships with industry partners and competitors to support strategic business objectives. • Spearheaded product line diversification to achieve a 4% increase in revenue and penetrate wider markets. • Improved business profits by 112%. +6 new markets, +3 new categories • Orchestrated positive media coverage and stakeholder relations as the public face of Piave Maitex company. • Build an e-commerce for stock, high turnover fabrics, and covid protection. • First to have researched, developed, and registered an anti-bacterial and anti-coronavirus fabric. DPI’s production was approved by the Italian Government. Create a supply chain with more than 60 additional employees. Exit: transfer of shares"
+          },
+          {
+            "title": "Executive Board Member",
+            "organization": "MarediModa",
+            "date_range": "Jun 2019 - Oct 2022",
+            "location": "Cannes, Provence-Alpes-Côte d'Azur, France",
+            "description": "The MarediModa Fair, which takes place every year since 2002, is the most important event for the premiere presentation of the collections of fabrics and accessories for the beachwear, underwear and athleisure sectors. It boasts an international presence of exhibitors and visitors that continues to grow year after year. Also for this reason, it is a fundamental appointment for professionals in terms of contacts, exchanges, business and new business. To keep up with the sudden changes in the market, the MarediModa exhibition is constantly evolving. Since 2007, it has offered its guests a space dedicated to manufaturers on commission from the Euro Med area and in Italy, reliable partners to create a winning collection."
+          },
+          {
+            "title": "Member",
+            "organization": "Giovani Imprenditori Confindustria",
+            "date_range": "Jul 2019 - Present",
+            "location": "Veneto",
+            "description": "Department: Other • Level: Specialist"
+          },
+          {
+            "title": "Group Marketing, Communication PR Director",
+            "organization": "Starhotels",
+            "date_range": "Mar 2023 - Present",
+            "location": "Florence, Tuscany, Italy",
+            "description": "• Directing marketing strategies across 30 luxury hotels and 170 luxury residences, including food & beverage outlets, achieving +23% Year-on-year growth in total revenue. • Optimizing digital marketing initiatives (SEM, SEO, RTB, CRO, etc.), resulting in a 26% YoY increase in web-driven revenue. • Expanding Meta and LinkedIn followers by 50% and grew social media-driven revenue by 35% YoY through data-targeted campaigns. • Implemented CRM and developed a new loyalty strategy, enhancing the loyalty member base by +30% YoY, strengthening clients’ retention. • Driving rebranding for existing properties and preparing the marketing plan for new hotel openings. • Securing +46% clippings, +58% AVE, and +60% EMV YoY through strategic PR. • Custodian of the project La Grande Bellezza, an initiative to celebrate the rich Italian heritage of talent and savoir-faire through concrete actions. Orchestrated partnership and sponsorship. • Managing an annual budget of 1.5% of the group’s total turnover, optimizing resource allocation for maximum impact. • Manage a team of 21. • Member of the Diversity and Inclusion Steering Committee"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Laura Baroncelli",
       "title": "Deputy Group Director of Sales",
       "company": "Starhotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/laurabaroncelli",
       "email": null,
       "email2": null,
       "phone": "+39 055 36921",
@@ -328,13 +1169,175 @@
           "source_type": "directory",
           "quote_or_fact": "Laura Baroncelli Deputy Group Director Of Sales @starhotels.it"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/laurabaroncelli",
+        "display_name": "Laura Baroncelli",
+        "headline": "Deputy Group Director of Sales @ Starhotels | Sales Leader, Negotiation, Event Management",
+        "location": "Florence, Tuscany, Italy",
+        "about": "As Deputy Group Director of Sales at Starhotels, I bring over extensive expertise in leading group sales and MICE (Meetings, Incentives, Conferences, and Events) strategies. My role focuses on contract negotiation, problem-solving, and leveraging innovative MICE platforms to boost revenue streams while ensuring our services align with market demands. With more than two decades at Starhotels, I have cultivated a deep understanding of sales dynamics and client relationship management. Collaborating with our team, we tailor high-quality event solutions that reflect the unique needs of our international clientele. My commitment to detail and client-focused problem solving drives our ability to deliver memorable, impactful experiences.\n\nTotal Experience: 37 years and 3 months",
+        "experience": [
+          {
+            "title": "Sales Assistant To The Director Of International Sales",
+            "organization": "Velamp",
+            "date_range": "Oct 1988 - Dec 1989",
+            "location": "Firenze",
+            "description": null
+          },
+          {
+            "title": "PA To Chief Executive Officer",
+            "organization": "Blue Home Distribution",
+            "date_range": "Dec 1989 - Mar 1990",
+            "location": "Firenze",
+            "description": null
+          },
+          {
+            "title": "P.A. To General Manager",
+            "organization": "Sheraton Firenze Hotel",
+            "date_range": "Mar 1990 - Mar 1993",
+            "location": "Firenze",
+            "description": null
+          },
+          {
+            "title": "Event Manager",
+            "organization": "Atahotels Capotaormina",
+            "date_range": "Mar 1993 - Oct 1996",
+            "location": "Taormina, Sicilia",
+            "description": null
+          },
+          {
+            "title": "Sales Marketing Manager",
+            "organization": "Atahotels",
+            "date_range": "Oct 1996 - Jun 2001",
+            "location": "Milano",
+            "description": null
+          },
+          {
+            "title": "Corporate Event Manager",
+            "organization": "Starhotels",
+            "date_range": "Jun 2001 - Jan 2009",
+            "location": "Firenze",
+            "description": null
+          },
+          {
+            "title": "Director Of Group Sales",
+            "organization": "Starhotels",
+            "date_range": "Jun 2001 - Present",
+            "location": "Firenze",
+            "description": null
+          },
+          {
+            "title": "Head Of MICE Department",
+            "organization": "Starhotels",
+            "date_range": "Jan 2009 - Jan 2015",
+            "location": "Firenze",
+            "description": null
+          },
+          {
+            "title": "Regional Director Of Sales Europe, CIS, Middle East, APAC",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Feb 2015 - Nov 2020",
+            "location": "Florence Area, Italy",
+            "description": null
+          },
+          {
+            "title": "Senior Director Of Group Sales",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Nov 2020 - Present",
+            "location": "Florence, Italy Metropolitan Area",
+            "description": null
+          },
+          {
+            "title": "Deputy Group Director Of Sales",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Jun 2023 - Present",
+            "location": "Italia",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Liceo Linguistico Via Ghibellina Firenze",
+            "degree_or_field": "Diploma from Language High School, German Language and Literature",
+            "date_range": "1981 - 1985"
+          },
+          {
+            "school": "Università degli Studi di Firenze",
+            "degree_or_field": "Foreign Languages and Literatures, General",
+            "date_range": "1986 - 1994"
+          },
+          {
+            "school": "Università degli Studi di Firenze",
+            "degree_or_field": "Foreign Languages and Literatures, General",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "revenue",
+          "chief executive",
+          "director sales",
+          "event management",
+          "management",
+          "mice (meetings, incentives, conferences, exhibitions)",
+          "contract management",
+          "relationship management",
+          "executive officer",
+          "sales",
+          "streams",
+          "director",
+          "chief executive officer",
+          "negotiation",
+          "client relationship management",
+          "executive leadership",
+          "leading",
+          "international sales",
+          "dynamics",
+          "client-focused",
+          "tailoring",
+          "sales assistant",
+          "corporate event management",
+          "client-focused problem solving",
+          "attention to detail",
+          "contract negotiation",
+          "revenue streams",
+          "pa",
+          "general manager",
+          "sales & marketing",
+          "market analysis",
+          "group sales",
+          "marketing",
+          "apac",
+          "boost",
+          "sales & marketing management",
+          "corporate",
+          "client relationship",
+          "assistant director",
+          "marketing management",
+          "collaborating",
+          "problem solving"
+        ],
+        "activity_themes": [
+          "MICE industry events and networking",
+          "Sales management masterclasses and training",
+          "Large-scale event organization stories",
+          "Team retreats and company culture",
+          "Personal development and motivational content",
+          "Olympic events and Italian cultural tributes",
+          "Collaboration and team inclusion themes",
+          "Event planning challenges including weather impacts"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/laurabaroncelli"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Davide Ballardini",
       "title": "Group Director of Luxury Sales",
       "company": "Starhotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/ballardinidavideariel",
       "email": null,
       "email2": null,
       "phone": "+39 055 36921",
@@ -351,13 +1354,146 @@
           "source_type": "news",
           "quote_or_fact": "Davide Ballardini, Group Director of Luxury Sales, leading their respective teams under CCO."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ballardinidavideariel",
+        "display_name": "Davide Ariel Ballardini",
+        "headline": "Group Director of Luxury Sales",
+        "location": "Milan, Lombardy, Italy (IT)",
+        "about": "Wanderlust with a strong passion for the Luxury Industry. Italian born, lived 14 years of my life abroad, in the United Kingdom, Brazil, Spain and Mexico. This has contributed to making me curious, attentive and open minded. Goal-oriented, my approach to work is positive, collaborative and passionate. My favourite quote: “The reward for work well done is the opportunity to do more” Contact Details: Park Hyatt Milano Via Tommaso Grossi 1 Milano, 20121, Italy T: +39 02 88 21 12 34 M: +39 349 862 6813 davideariel.ballardini@hyatt.com Total Experience: 18 years and 3 months",
+        "experience": [
+          {
+            "title": "Independent Contractor",
+            "organization": "Edizioni Condè Nast",
+            "date_range": "Jun 2007 - Nov 2009",
+            "location": "Piazza Cavour Conte Camillo Benso 2 - 20121 Milano",
+            "description": null
+          },
+          {
+            "title": "CRM Specialist",
+            "organization": "Sky Italia",
+            "date_range": "Dec 2009 - Sep 2013",
+            "location": "Milano, Via Monte Penice 7",
+            "description": null
+          },
+          {
+            "title": "Business Development Communication Manager",
+            "organization": "Villa Erba SpA",
+            "date_range": "Oct 2013 - Aug 2015",
+            "location": "Largo Luchino Visconti 4, Cernobbio (Como) 22012",
+            "description": "In charge of developing client portfolio (including top corporate clients), establishing and maintaining relationships with key accounts and business partners. Increasing the size and profitability of existing accounts whilst developing new clients and business."
+          },
+          {
+            "title": "Sales Marketing Manager",
+            "organization": "Lake Como Events Network - Convention Bureau",
+            "date_range": "Oct 2013 - Aug 2015",
+            "location": "Largo Luchino Visconti 4, Cernobbio (Como) 22012",
+            "description": "Responsible for developing and implementing the annual sales and marketing strategies, budgets, and campaigns, including strategies for penetrating new and emerging markets."
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "St. Regis San Clemente Palace Venice",
+            "date_range": "Sep 2015 - Nov 2015",
+            "location": "Isola di San Clemente",
+            "description": "A 5 star L resort situated on a nine hectare private island in the heart of the Venetian lagoon. 189 rooms, comprising 39 suites, 3 bars & 3 restaurants, and a state of the art congress centre with 6 independent meeting rooms."
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "San Clemente Palace Kempinski Venice",
+            "date_range": "Nov 2015 - Dec 2018",
+            "location": "Isola di San Clemente 1, 30124 Venice",
+            "description": "Achieved over € 3 million in MICE related room revenue alone over a 36-month period (figures updated DEC 2018). Attained recognition and prize as “Best Property Salesperson of the year” 2017 from HelmsBriscoe Network."
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Park Hyatt Milano",
+            "date_range": "Jan 2019 - Jan 2022",
+            "location": "Milan Area, Italy",
+            "description": "Managing and responsible for Luxury Leisure Sales in GCC, RUS & CIS and ASPAC markets."
+          },
+          {
+            "title": "Associate Director Of Sales",
+            "organization": "Park Hyatt Milano",
+            "date_range": "Jan 2022 - Jan 2023",
+            "location": "Milano, Lombardia, Italia",
+            "description": "Responsible for Luxury Leisure & Diplomatic Sales."
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Park Hyatt Milano",
+            "date_range": "Jan 2023 - Feb 2025",
+            "location": "Milano, Lombardia, Italia",
+            "description": "Overseeing a team of 8 and responsible for overall strategy, implementation and commercial results. Successfully took part in the repositioning and relaunch of the hotel after extensive hotel renovations and closures."
+          },
+          {
+            "title": "Director Of Luxury Sales",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Mar 2025 - Feb 2026",
+            "location": "Italia",
+            "description": "Reporting directly to the Chief Commercial Officer (CCO), responsible for coordinating and overseeing the overall strategy of Starhotels Collezione hotels. Key responsibilities include aligning departmental goals with the company's strategic vision, ensuring operational excellence, and driving initiatives to enhance guest satisfaction and revenue growth."
+          },
+          {
+            "title": "Group Director Of Luxury Sales",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Feb 2026 - Present",
+            "location": null,
+            "description": "Reporting directly to the Managing Director, I oversee and coordinate, with a dotted reporting line, Starhotels Collezione hotel commercial teams. Working closely with corporate department heads across Sales, Revenue and Marketing, I contribute to ensuring full alignment between operational goals and the company’s long‑term vision. My role focuses on driving, developing and supporting initiatives that contribute to sustainable revenue growth and brand positioning across 14 of the portfolios properties across Italy, France and Great Britain."
+          }
+        ],
+        "education": [
+          {
+            "school": "Università Cattolica del Sacro Cuore",
+            "degree_or_field": "Business Administration and Management General",
+            "date_range": "2004 - 2009"
+          }
+        ],
+        "skills": [
+          "luxury",
+          "director",
+          "sales",
+          "marketing",
+          "responsible",
+          "strategy",
+          "commercial",
+          "hotel",
+          "profitability",
+          "budgets",
+          "campaigns",
+          "crm",
+          "restaurants",
+          "property",
+          "reporting",
+          "driving",
+          "positioning",
+          "hotels",
+          "open minded",
+          "goal oriented",
+          "strategy implementation",
+          "business development",
+          "emerging markets",
+          "sales manager",
+          "strategic vision",
+          "operational excellence",
+          "guest satisfaction"
+        ],
+        "activity_themes": [
+          "Starhotels Collezione portfolio expansion and new hotel additions",
+          "Luxury travel experiences and Venetian destinations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/ballardinidavideariel",
+          "https://it.www.linkedin.com/posts/starhotels_grandtour-hotelgabriellivenezia-venetosecrets-activity-7425118143817117696-W_fa",
+          "https://www.linkedin.com/posts/starhotels_starhotelscollezione-fortedeimarmi-lugano-activity-7424059440334725120-qPXm"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Gianna Guido",
       "title": "Area Sales Manager Tuscany & SMEs",
       "company": "Starhotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/guido-giovanna-a244ba14a",
       "email": "g.guido@starhotels.it",
       "email2": null,
       "phone": "+39 340 4117577",
@@ -374,7 +1510,62 @@
           "source_type": "official_site",
           "quote_or_fact": "Reference Sales contact: Gianna Guido, Area Sales Manager Tuscany & SMEs g.guido@starhotels.it +39 340 4117577"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/guido-giovanna-a244ba14a",
+        "display_name": "Guido Giovanna",
+        "headline": "Area Sales Manager Toscana & SME",
+        "location": "Florence, Tuscany, Italy",
+        "about": "Total Experience: 21 years and 3 months",
+        "experience": [
+          {
+            "title": "Sales Coordinator",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Nov 2004 - May 2024",
+            "location": "Firenze, Italia",
+            "description": null
+          },
+          {
+            "title": "Sales Development Executive",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Apr 2024 - Apr 2025",
+            "location": "Firenze, Toscana, Italia",
+            "description": null
+          },
+          {
+            "title": "Area Sales Manager Toscana SME",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Apr 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Annual company meetings and kick-off events",
+          "Luxury travel networking (ILTM Cannes and connections events)",
+          "Hospitality industry talent, culture and leadership updates",
+          "Sales team partnerships and networking in Florence",
+          "Cultural and artistic hospitality experiences",
+          "Hotel group conventions and recognitions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/riccardo-galanti-0936a24_im-still-reflecting-on-our-annual-companywide-activity-7425109330594713600-0eax",
+          "https://www.linkedin.com/posts/dialma-lo-campo-25612b80_connections-granmelia-milan-activity-7425105109061320704-uxzv",
+          "https://www.linkedin.com/posts/antonio-casale-8a68414a_grf26-grfmilan-activity-7422414733527371776-yQMK",
+          "https://it.www.linkedin.com/posts/businessmobility-travel_hospitality-hrleadership-villadeste-activity-7412880235697946624-CHVy",
+          "https://www.linkedin.com/posts/vera-visconti-chba-b018928_rosagrandmilano-starhotelscollezione-activity-7403096905783844864-NQns",
+          "https://www.linkedin.com/posts/martinacapriotti_starhotelscollezione-activity-7403765321439817729-uPux",
+          "https://it.www.linkedin.com/posts/valentina-leone-4aa11a44_grazie-uvet-american-express-global-business-activity-7400887069968994309-Ga7i",
+          "https://www.linkedin.com/posts/ryan-dunlop-a2011714_thepelham-thegore-thefranklin-activity-7407174289059389442-lh2r"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Adella Makdessi",
@@ -449,7 +1640,7 @@
       "full_name": "Romano Campione",
       "title": "Cluster Director of Sales and Marketing",
       "company": "Starhotels Collezione London",
-      "linkedin_url": "https://uk.linkedin.com/in/romano-campione-4508a16",
+      "linkedin_url": "https://www.linkedin.com/in/romano-campione-4508a16",
       "email": null,
       "email2": null,
       "phone": null,
@@ -471,13 +1662,148 @@
           "source_type": "linkedin",
           "quote_or_fact": "Cluster Director of Sales and Marketing role tied to Starhotels London properties."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/romano-campione-4508a16",
+        "display_name": "Romano Campione",
+        "headline": "Head of Global Sales Office UK & Northern Europe",
+        "location": "United Kingdom (GB)",
+        "about": "An experienced Senior Sales and Marketing professional with over 20 years experience in the hotel industry who has successfully built and led Sales and Marketing teams within multinational organizations. Self driven, results and yet people oriented Manager with a proven track record of high revenue growth and profit through strengthening and refocusing multi-segments teams and client/suppliers relationships. Dedicated, passionate and knowledgeable with outstanding interpersonal, communication and relationship skills plus a keen eye to identify and develop Sales and Marketing talent.\n\nTotal Experience: 32 years and 1 month",
+        "experience": [
+          {
+            "title": "Public Relations Assistant",
+            "organization": "Blitz P.M., Rome",
+            "date_range": "Jan 1992 - Feb 1993",
+            "location": null,
+            "description": "Department: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Project Manager",
+            "organization": "Rome Cavalieri Hilton Hotel",
+            "date_range": "Jul 1993 - Dec 1996",
+            "location": null,
+            "description": "Department: Project Management • Level: Manager"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "Charming Hotels Group, Rome",
+            "date_range": "Jan 1997 - Jul 1999",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Hilton Rome Airport",
+            "date_range": "Jul 1999 - Feb 2000",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Marketing For West London",
+            "organization": "Hilton International",
+            "date_range": "Mar 2000 - Nov 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Melia White House Hotel, part of Sol Melia Hotel Group",
+            "date_range": "Nov 2003 - May 2005",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Regional Director Of Sales Marketing For The UK, Ireland And Scandinavia",
+            "organization": "Meliá Hotels International",
+            "date_range": "Jun 2005 - Dec 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Area Director Of Sales Marketing EMEA",
+            "organization": "Meliá Hotels International",
+            "date_range": "Jan 2008 - Apr 2013",
+            "location": null,
+            "description": "In charge of defining and setting up both the Hotels and EMEA countries Sales and Marketing plans and to guide both units based and Regional Sales teams to achieve their specific business objectives via the continuous coaching and management of both Senior Sales members and their respective teams."
+          },
+          {
+            "title": "Area Director Of Sales Marketing United Kingdom, Ireland And Scandinavia",
+            "organization": "Meliá Hotels International",
+            "date_range": "May 2013 - Aug 2015",
+            "location": null,
+            "description": "In charge of defining and setting up the Regional Sales and Marketing plan and to outline the relevant activities to be implemented by the Regional Sales and Marketing team, driving them to achieve their specific business objectives and maximising the resources available to exceed revenue targets and gain market/customer share. Role includes the management of all Sales resources within the country both at hotel unit and corporate level"
+          },
+          {
+            "title": "Management Consultant",
+            "organization": "CAMPIONE Ltd.",
+            "date_range": "Sep 2015 - Sep 2016",
+            "location": null,
+            "description": "Department: Consulting • Level: Specialist"
+          },
+          {
+            "title": "Cluster Director Of Sales And Marketing",
+            "organization": "Starhotels",
+            "date_range": "Oct 2016 - Aug 2024",
+            "location": "London, United Kingdom",
+            "description": "In charge of driving business development and strengthen relationships with Key clients and Partners on behalf of the Company in the UK and Northern Europe."
+          },
+          {
+            "title": "Head Of Global Sales Office UK Northern Europe",
+            "organization": "Starhotels",
+            "date_range": "Sep 2024 - Present",
+            "location": null,
+            "description": "In charge of driving business development and strengthen relationships with Key clients and Partners on behalf of the Company in the UK and Northern Europe."
+          }
+        ],
+        "education": [
+          {
+            "school": "John Cabot University",
+            "degree_or_field": "BA, Business Administration",
+            "date_range": "1990 - 1993"
+          }
+        ],
+        "skills": [
+          "sales",
+          "marketing",
+          "hotel",
+          "director",
+          "driving",
+          "management",
+          "cluster",
+          "hotels",
+          "coaching",
+          "interpersonal communication",
+          "business development",
+          "project manager",
+          "public relations"
+        ],
+        "activity_themes": [
+          "Leadership transitions and closing professional chapters at Starhotels",
+          "New marketing leadership roles and brand building",
+          "Reflections on experiences at luxury hotels like The Rome EDITION",
+          "Gratitude and farewells after long tenures at Meliá Hotels",
+          "Team celebrations, seasonal greetings, and collaboration in hospitality",
+          "Hospitality industry events, cruises, and recognitions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/antonio-ducceschi-cmm-chba-9930596_starhotels-leadership-legacy-activity-7423079457038635008-kVc2",
+          "https://www.linkedin.com/posts/sara-ranghi-1b8543_new-chapter-same-mission-build-meaningful-activity-7419082833580949505-L9kl",
+          "https://www.linkedin.com/posts/lucreziadigeronimo_i-have-just-concluded-a-wonderful-experience-activity-7419672465456435200-gVhl",
+          "https://es.www.linkedin.com/posts/sara-ranghi-1b8543_18-años-dejan-huella-gratitud-por-el-camino-activity-7418279442365485056-RH77",
+          "https://www.linkedin.com/posts/ryan-dunlop-a2011714_starhotels-thepelhamhotel-seasonsgreetings-activity-7409632810661097472-lnmE",
+          "https://www.linkedin.com/posts/federicoversari_instadaily-shotoftheday-instahub-activity-7416445326003445761-1mXB",
+          "https://www.linkedin.com/posts/francescamendola88_a-new-chapter-is-about-to-begin-activity-7407750057183117312-iB5Q",
+          "https://www.linkedin.com/posts/angelo-amoia-4ba69713_hello-everyone-this-week-is-my-last-at-activity-7406275083805085696-msHS"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Pierluigi Frontino",
       "title": "Area Revenue Manager (North East & UK London Cluster)",
       "company": "Starhotels",
-      "linkedin_url": "https://www.linkedin.com/in/pierluigi-frontino/",
+      "linkedin_url": "https://www.linkedin.com/in/pierluigi-frontino",
       "email": null,
       "email2": null,
       "phone": null,
@@ -494,13 +1820,162 @@
           "source_type": "official_site",
           "quote_or_fact": "Group commercial contacts and sales offices provide routing to revenue leadership."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/pierluigi-frontino",
+        "display_name": "Pierluigi Frontino",
+        "headline": "Area Revenue Manager | Master in Tourism Economics and Management | Certificate in Hotel Revenue Management",
+        "location": "Milan, Lombardy, Italy",
+        "about": "As a Revenue Manager in the tourism sector, my expertise lies in driving revenue growth and optimising pricing strategies for hotels and resorts. With different years in the industry, I have developed a keen understanding of market trends, consumer behaviour, and revenue management techniques that allowed me to consistently achieve revenue targets and increase profitability. Throughout my career, I have honed my skills in analysing data, forecasting demand, and implementing pricing strategies. My ability to effectively communicate with cross functional teams and collaborate with various departments has also been instrumental in my success. My main purposes are social, professional knowledge and training; improve work performance taking into account dynamic realties full of never-ending growth; gain new experiences to attain a higher job role.",
+        "experience": [
+          {
+            "title": "Stagist",
+            "organization": "ADAPTLAND",
+            "date_range": "Apr 2015 - Jul 2015",
+            "location": null,
+            "description": "English / Spanish / Italian translations, revision, correction and editing of texts on labor law, labor economics and law for the web newsletter. Department: Other • Level: Intern"
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jan 2018 - Mar 2018",
+            "location": "Milano, Italia",
+            "description": "Reception and guest relations, check-in / out, booking, payment processing, invoice registration and support to the accountants, assistance to the participants during events in the property’s meeting rooms. Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Guest Service Agent",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Apr 2018 - Aug 2019",
+            "location": "Milano, Italia",
+            "description": "Reception and guest relations, check-in / -out, internal reservations management and availability update on the OTAs and the channel manager, direct sales and upselling activities, promotion of the company loyalty program. Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Event Manager Assistant",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Sep 2019 - Mar 2021",
+            "location": "Milano, Lombardia, Italia",
+            "description": "Relations with customers, site inspections, negotiation, drafting and confirmation of contracts, payment and invoices processing, management of bureaucratic-administrative aspects of the events organized (customer accounting, guest satisfaction, follow-up, brand management), coordination with the other departments involved (F&B, Housekeeping, Front Office, Sales, Maintenance), supervision and assistance to the participants during the event. Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Assistant Reservations Manager",
+            "organization": "Principe Forte dei Marmi",
+            "date_range": "Feb 2022 - Aug 2022",
+            "location": "Forte dei Marmi, Toscana, Italia",
+            "description": "Application and knowledge of LHW, Fine Hotel Resorts,Virtuoso standards and procedures. Guest relation, check-in / -out, internal reservations management and availability update on the OTAs and the channel manager, accounting. Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Area Revenue Executive Milano",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Sep 2022 - Sep 2023",
+            "location": "Milano, Lombardia, Italia",
+            "description": "- Development and implementation of pricing, inventory strategies for all customer segments, making the best use of all distribution channels, including Otas and Gds; - Monitoring the rates of direct competitors and benchmarking activities; - Data entry in PMS and Distribution Channel - Creating weekly, monthly report in order to identify the key factors for achieving revenue objectives and market shares, evaluating the effectiveness of the strategies applied. - Providing guidelines to the Reservation, Event & Congress departments regarding the management of quotes for Transient Groups"
+          },
+          {
+            "title": "Area Revenue Manager North East Cluster UK London",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Oct 2023 - Jun 2025",
+            "location": "Venezia, Veneto, Italia",
+            "description": "Multifaceted role requiring a combination of analytical skills, market knowledge, and strategic thinking. By effectively managing pricing, inventory, and distribution, rather than the usage of different software like RMS, I give my contribution to the financial success of the business and help drive sustainable revenue growth. In charge of the revenue strategy for London properties, effectively managed both with monthly revenue meeting on site and remotely with digital tools to maintain engagement and productivity."
+          },
+          {
+            "title": "Area Revenue Manager Milano",
+            "organization": "Starhotels S.p.A.",
+            "date_range": "Jun 2025 - Present",
+            "location": "Milan, Lombardy, Italy",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Scuola Superiore per Mediatori Linguistici di Pisa",
+            "degree_or_field": "Laurea triennale in Language Interpretation and Translation (100/110)",
+            "date_range": "2012 - 2016"
+          },
+          {
+            "school": "Università Bocconi",
+            "degree_or_field": "Master's degree in Economics Tourism and Management (95/110)",
+            "date_range": "2019 - 2020"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Online Certificate in Hotel Revenue Management",
+            "date_range": "2021 - 2021"
+          }
+        ],
+        "skills": [
+          "tourism",
+          "driving",
+          "pricing",
+          "hotels",
+          "management",
+          "profitability",
+          "forecasting",
+          "training",
+          "reservations",
+          "sales",
+          "spanish",
+          "editing",
+          "law",
+          "negotiation",
+          "processing",
+          "organized",
+          "accounting",
+          "coordination",
+          "housekeeping",
+          "maintenance",
+          "supervision",
+          "registration",
+          "accountants",
+          "property",
+          "inventory",
+          "distribution",
+          "gds",
+          "rates",
+          "benchmarking",
+          "reservation",
+          "cluster",
+          "software",
+          "strategy",
+          "digital",
+          "engagement",
+          "hotel",
+          "consumer behaviour",
+          "revenue management",
+          "guest service",
+          "direct sales",
+          "site inspections",
+          "guest satisfaction",
+          "brand management",
+          "front office",
+          "data entry",
+          "analytical skills",
+          "strategic thinking"
+        ],
+        "activity_themes": [
+          "Sustainability certifications (GSTC) for Starhotels properties",
+          "Revenue management hiring and opportunities in Italy/DACH hospitality",
+          "Team building events and staff engagement (e.g. Christmas jumper days, running events)",
+          "Hotel renovation, requalification and reopening projects",
+          "Seasonal and local events in Milan and London hospitality scene"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/consulnet-travel-dream-charme_starhotelsritz-certifications-activity-7419989755754434561-TmYL",
+          "https://it.www.linkedin.com/posts/lucia-basile-5191651b7_starhotels-sostenibilità-accredia-activity-7421897820518895616-UIzi",
+          "https://www.linkedin.com/posts/ryan-dunlop-a2011714_thepelham-thegore-thefranklin-activity-7407174289059389442-lh2r",
+          "https://it.www.linkedin.com/posts/annatorbetto_revenuemanagement-hospitality-dach-activity-7406655281256058880-LUwJ",
+          "https://it.www.linkedin.com/posts/pantaleone-farace-097333178_leon-doro-su-il-sipario-per-lhotel-di-activity-7408440461821890560-SeUg",
+          "https://it.www.linkedin.com/posts/ryan-dunlop-a2011714_italyrunlondon-starhotels-starhotelsuk-activity-7398387682306879488-1Z8M",
+          "https://it.www.linkedin.com/posts/camilla-valsecchi-16545aab_𝗠𝗲𝗻𝗼-𝗱𝗶-𝟭𝟬𝟬-𝗴𝗶𝗼𝗿𝗻𝗶-𝗶𝗻-activity-7391428546453381120-RA6l"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Matteo Marsini",
       "title": "Cluster Marketing Manager (former)",
       "company": "Starhotels Collezione London",
-      "linkedin_url": "https://uk.linkedin.com/in/matteo-marsini-30787260",
+      "linkedin_url": "https://www.linkedin.com/in/matteo-marsini-30787260",
       "email": "m.marsini@starhotels.com",
       "email2": null,
       "phone": null,
@@ -522,7 +1997,101 @@
           "source_type": "other",
           "quote_or_fact": "Video project for The Pelham London and The Gore London."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/matteo-marsini-30787260",
+        "display_name": "Matteo Marsini",
+        "headline": "Director of Marketing and Culture & Entertainment",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 13 years and 6 months",
+        "experience": [
+          {
+            "title": "External Relations Coordinator",
+            "organization": "NATO Defense College Foundation",
+            "date_range": "Jan 2015 - Jun 2015",
+            "location": "Rome, Latium, Italy",
+            "description": null
+          },
+          {
+            "title": "Graphic Designer And Content Creator",
+            "organization": "NATO Defense College Foundation",
+            "date_range": "Jan 2015 - Sep 2017",
+            "location": "London, England, United Kingdom",
+            "description": "Main duties and responsibilities: - Official Foundation's logo design - Art director of the Foundation's graphic concepts - Illustrations and animated illustrations designer - Digital content creator - Printed and digital collaterals designer - Pattern designer - Colour marketing Achievements: - Exhibition of graphic designs at the NATO HQ in Brussels - Exhibition of graphic designs at the Italian House of Parliament in Rome - Development of new and bespoke contents - Social Media increase in both followers and engagement rate Department: Design • Level: Specialist"
+          },
+          {
+            "title": "External Relations Executive",
+            "organization": "NATO Defense College Foundation",
+            "date_range": "Jun 2015 - Jun 2016",
+            "location": "Rome, Latium, Italy",
+            "description": "Main duties and responsibilities: - Management of the external relations of the Foundation as well as the graphic designs of its means of communication - Delegate to multilateral summits on behalf of the Foundation as international relations specialist - Responsible for the development of the digital marketing strategy Achievements: - Delegate to the international Terrorism Conference in London, March 2016 - Development of new and bespoke contents - Social Media increase in both followers and engagement rate Department: Sales • Level: Manager"
+          },
+          {
+            "title": "External Relations Manager",
+            "organization": "NATO Defense College Foundation",
+            "date_range": "Jun 2016 - Sep 2017",
+            "location": "Roma, Italia",
+            "description": "Main duties and responsibilities: - PR & External relations executive - Events management coordinator (conferences, NATO advisory panels, meetings, briefings, press conferences) - Marketing campaigns executive, newsletter and social media manager - Graphic designer (infographics & illustrations) Achievements: - Delegate to the multilateral Western Balkans Summit in Trieste, July 2017 - Delegate to the preparatory panels of the Western Balkans Summit in Trieste, June 2017 - Delegate to the international Balkans Conference in Sarajevo, May 2017 - Delegate to the International Mediterranean Dialogue Summit in Rome, December 2016 - Development of new and bespoke contents - Social Media increase in both followers and engagement rate Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Marketing Coordinator Intern",
+            "organization": "Rome Cavalieri, A Waldorf Astoria Resort",
+            "date_range": "Sep 2017 - Mar 2018",
+            "location": "Roma, Italia",
+            "description": "Main duties and responsibilities: - Supporting with day to day marketing tasks and coordinating marketing projects and activities - Supporting the in-house marketing and design team by coordinating and collating contents - Producing additional marketing communications, such as flyers, brochures and exhibition-related projects - Assisting with the production of artwork, sourcing images, print buying and checking copy - Setting up tracking systems for marketing campaigns and online activities (newsletter and social media) - Social media week plan coordinator Achievements: - Development of new and bespoke contents - Social Media increase in both followers and engagement rate Department: Marketing • Level: Intern"
+          },
+          {
+            "title": "Cluster Marketing Coordinator",
+            "organization": "Roberto Naldi Collection",
+            "date_range": "Mar 2018 - Mar 2019",
+            "location": "Rome, Latium, Italy",
+            "description": "Main duties and responsibilities: - Coordinating marketing projects and activities - Production of marketing communications contents - Graphic designer - Assisting with the production of artworks, sourcing images, print buying and checking copy - Social Media coordinator Achievements: - Design and illustration of the 2018-2019 Festive Season brochure - Development of new and bespoke marketing contents and collaterals - Social Media increase in both followers and engagement rate Department: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Cluster Marketing Executive",
+            "organization": "Roberto Naldi Collection",
+            "date_range": "Mar 2019 - Dec 2019",
+            "location": "Roma, Italia",
+            "description": "Main duties and responsibilities: - Production of artworks, sourcing images, print buying and checking copy - Assist with administrative tasks such as presentations and reports - Social Media day to day planning, content creation and performance analysis - Photo shooting creativity and filming projects management - Production and design of marketing collaterals and branded merchandise - Ensure brand standards and a luxury end result - Setting up tracking systems for marketing campaigns and online activities - Social Media management Achievements: - Design and illustration of the 2021-2022 Festive Season brochure - Design and illustration of the 2019-2020 Festive Season brochure - Art direction of the photo shoot Festive Season 2019-2020 with the influencer @julesloveandlife - Art direction of the photo shoot Splendide Royal with the influencer @braylenbrooks - Art direction of the photo shoot Splendide Royal with the influencer @mathiaslefevre - Art direction of the photo shoot Splendide Royal with the influencer and singer @ciinderellabalthazar - Art direction of the promotional photo shoot Very Important Pets - Art direction of the promotional photo shoot 2019 Rome Tennis Masters - Art direction of Prince Spa promotional photo shoot published in Vogue Wedding Italy issue n.1 - Art direction and copy writing of the 2019 Easter promotional video with the influencer @julesloveandlife - In house management of the Netflix filming project \"NOI-The App\" movie - In house management of the Netflix filming project \"Baby 2\" series - Development of new and bespoke marketing contents - Social Media increase in both followers and engagement rate - Collaboration with several international luxury fashion, travel and lifestyle influencers such as @domberga, @swissguardwife, @thesimonemag, @cribuccino, @giorgiaventurini, @happilyhughes Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Marketing Executive",
+            "organization": "Conrad London St. James",
+            "date_range": "Dec 2019 - Nov 2020",
+            "location": "Londra, Inghilterra, Regno Unito",
+            "description": "Main duties and responsibilities: - Development of marketing strategy and campaigns - Reporting online and offline marketing activities - Track of market changes and trends - Assist with administrative tasks such as presentations and reports - Social Media day to day planning, content creation and performance analysis - Photo shooting creativity and filming projects management - Production and design of marketing collaterals and branded merchandise - Ensure brand standards and a luxury end result Achievements: - Design and illustration of the 2020-2021 Festive Season brochure - Design and illustration of the 2020 Spring Afternoon Tea menu - Development of new and bespoke marketing contents - Social Media increase in both followers and engagement rate Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Content Creator And Administrative Officer, Italian General Consulate London, UK",
+            "organization": "Ministero degli Affari Esteri e della Cooperazione Internazionale",
+            "date_range": "Dec 2020 - Feb 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Main duties and responsibilities: - Illustrations and animated illustrations designer (Illustrator & Photoshop) - Non institutional Consulate official logo design - Social media communication strategist (Twitter) - Content creator - Passports Office coordinator Achievements: - Development of new and bespoke contents - 10 iconic e-cards to celebrate Italian anniversaries and festivities - Social Media increase in both followers and engagement rate - Effective Social Media strategy to maximise positive engagement from fellow citizens"
+          },
+          {
+            "title": "Cluster Marketing Manager",
+            "organization": "Starhotels",
+            "date_range": "Mar 2022 - Jan 2026",
+            "location": "Londra, Inghilterra, Regno Unito",
+            "description": "Responsible for developing and implementing all marketing related projects and activities on behalf of Starhotels London; increase the awareness of the Starhotels brand and the hotels in the market, promote the brand and contribute to the increase in revenue. Responsible for creating and implementing the online and offline marketing plan, media plan, social media action plan, and e-commerce plan for The Gore hotel, The Pelham hotel and The Franklin hotel. Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Director Of Marketing And Culture Entertainment",
+            "organization": "EDITION",
+            "date_range": "Jan 2026 - Present",
+            "location": "London, England, United Kingdom (GB)",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/matteo-marsini-30787260"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Astrid Deppisch",
@@ -559,5 +2128,71 @@
     "succeeded": 4,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T03:31:16.925323+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 15,
+      "structured": 12,
+      "discovered": 4,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 7,
+        "content_pages": 15,
+        "cost_estimate": {
+          "approx_total_usd": 0.064,
+          "search_component_usd": 0.049,
+          "contents_component_usd": 0.015,
+          "counts": {
+            "search_requests": 7,
+            "content_pages": 15
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 37704,
+          "cached_prompt_text_tokens": 4352,
+          "completion_tokens": 19064,
+          "reasoning_tokens": 50834,
+          "output_tokens": 0,
+          "total_tokens": 107602
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.486962,
+          "token_component_usd": 0.486962,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 37704,
+            "cached_prompt_text_tokens": 4352,
+            "completion_tokens": 19064,
+            "reasoning_tokens": 50834,
+            "total_tokens_reported": 107602,
+            "output_like_tokens": 69898,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.550962
+    }
   }
 }

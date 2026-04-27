@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild fullJSONs aggregates (master, intimate phone/email, url registry) from jsons/*.enriched.json."""
+"""Rebuild fullJSONs aggregates (master, intimate phone/email/unified, url registry) from jsons/*.enriched.json."""
 
 from __future__ import annotations
 

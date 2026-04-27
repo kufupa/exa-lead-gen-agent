@@ -122,7 +122,8 @@ def _process_one_file(
         company = (c.get("company") or "").strip()
         key = f"{name}|{company}"
         if key in discovered:
-            c["linkedin_url"] = discovered[key]
+            raw_li = (discovered[key] or "").strip()
+            c["linkedin_url"] = normalize_linkedin_url(raw_li) or raw_li
 
     for c in contacts:
         if skip_existing and c.get("linkedin_profile"):
@@ -132,6 +133,8 @@ def _process_one_file(
         if not li:
             continue
         norm = normalize_linkedin_url(li)
+        if not norm:
+            continue
         md = profile_markdowns.get(norm, "")
         if not md.strip():
             continue
@@ -139,18 +142,27 @@ def _process_one_file(
             profile, usage_one = structure_profile(
                 api_key=xai_api_key,
                 model=model,
-                linkedin_url=li,
+                linkedin_url=norm,
                 markdown=md,
             )
             xai_usage_parts.append(usage_one)
             if profile:
                 c["linkedin_profile"] = profile.model_dump()
+                c["linkedin_url"] = norm
                 stats["structured"] += 1
             else:
                 stats["errors"] += 1
         except Exception as e:
             print(f"  error structuring {li}: {e}", file=sys.stderr)
             stats["errors"] += 1
+
+    for c in contacts:
+        li = (c.get("linkedin_url") or "").strip()
+        if not li:
+            continue
+        n = normalize_linkedin_url(li)
+        if n:
+            c["linkedin_url"] = n
 
     merged_xai_usage = merge_xai_usage_dicts(*xai_usage_parts) if xai_usage_parts else {}
     xai_rates = XaiRates()

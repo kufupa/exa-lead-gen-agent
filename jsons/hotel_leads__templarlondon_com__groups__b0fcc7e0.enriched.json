@@ -42,7 +42,7 @@
       "full_name": "Ian Goodman",
       "title": "Owner Operator / Director",
       "company": "E20 F&B Ltd (Templar & Darkhorse)",
-      "linkedin_url": "https://uk.linkedin.com/in/ian-goodman-6b86524",
+      "linkedin_url": "https://www.linkedin.com/in/ian-goodman-6b86524",
       "email": null,
       "email2": null,
       "phone": null,
@@ -131,7 +131,7 @@
       "full_name": "Lee Glen",
       "title": "Director / Co-Owner",
       "company": "E20 F&B Ltd (Templar Restaurant Wine Bar)",
-      "linkedin_url": "https://uk.linkedin.com/in/lee-glen-35b1b976",
+      "linkedin_url": "https://www.linkedin.com/in/lee-glen-35b1b976",
       "email": "info@templarlondon.com",
       "email2": null,
       "phone": null,
@@ -346,14 +346,61 @@
   },
   "linkedin_enrichment": {
     "version": 1,
-    "enriched_at_utc": "2026-04-25T15:34:25.256818+00:00",
+    "enriched_at_utc": "2026-04-26T22:33:38.262233+00:00",
     "model": "grok-4.20-reasoning",
     "stats": {
-      "skipped": 0,
-      "fetched": 2,
-      "structured": 2,
+      "skipped": 2,
+      "fetched": 0,
+      "structured": 0,
       "discovered": 0,
       "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 2,
+        "content_pages": 0,
+        "cost_estimate": {
+          "approx_total_usd": 0.014,
+          "search_component_usd": 0.014,
+          "contents_component_usd": 0.0,
+          "counts": {
+            "search_requests": 2,
+            "content_pages": 0
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {},
+        "cost_estimate": {
+          "approx_total_usd": 0.0,
+          "token_component_usd": 0.0,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 0,
+            "cached_prompt_text_tokens": 0,
+            "completion_tokens": 0,
+            "reasoning_tokens": 0,
+            "total_tokens_reported": 0,
+            "output_like_tokens": 0,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.014
     }
   }
 }

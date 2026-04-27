@@ -1,0 +1,957 @@
+{
+  "target_url": "https://www.mandeville.co.uk/",
+  "generated_at_utc": "20260426T171538Z",
+  "model": "pipeline-v4",
+  "agent_count": null,
+  "max_turns": null,
+  "max_turns_effective": null,
+  "min_contacts": null,
+  "target_contacts": null,
+  "max_contacts": 10,
+  "extra_contact_pass": false,
+  "strict_evidence": true,
+  "allow_linkedin": true,
+  "usage": null,
+  "contact_enrichment": {
+    "version": 4,
+    "enriched_at_utc": "20260426T171538Z",
+    "mode": "pipeline-v4",
+    "model": "pipeline-v4",
+    "concurrency": null,
+    "skipped_pre_enrichment": 0,
+    "attempted": 10,
+    "succeeded": 10,
+    "failed": 0
+  },
+  "pipeline_v4": {
+    "input_url": "https://www.mandeville.co.uk/",
+    "resolved_org": {
+      "input_url": "https://www.mandeville.co.uk/",
+      "canonical_name": null,
+      "property_name": "Mandeville",
+      "brand_name": null,
+      "management_company": null,
+      "ownership_group": null,
+      "location_hint": null,
+      "domains": [
+        "mandeville.co.uk"
+      ],
+      "evidence": []
+    },
+    "aliases": [],
+    "candidates": [
+      {
+        "candidate_id": "c_0e38c582288a5fd4",
+        "full_name": "Jean-Louis Mandeville",
+        "title": null,
+        "normalized_title": null,
+        "company": "Eventum",
+        "role_tier": 2,
+        "role_family": "owner_exec",
+        "current_role_confidence": "low",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/jean-louis-mandeville",
+            "title": "Jean-Louis Mandeville | Eventum",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Mandeville\" owner OR founder",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/jean-louis-mandeville",
+        "needs_human_review": true,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Possible connection from owner/founder search"
+        ]
+      },
+      {
+        "candidate_id": "c_7d6f1889bcfbf9e2",
+        "full_name": "Andrew Wall",
+        "title": "Managing Director",
+        "normalized_title": "managing director",
+        "company": "Mandeville Investments Ltd",
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/andrew-wall-b64b4041",
+            "title": "Andrew Wall | Managing Director at Mandeville Investments Ltd",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Mandeville\" CEO",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/andrew-wall-b64b4041",
+        "needs_human_review": true,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Managing Director of Mandeville Investments from CEO search"
+        ]
+      },
+      {
+        "candidate_id": "c_5eaa7c76b051b891",
+        "full_name": "Hathairat W.",
+        "title": "Reservations Manager",
+        "normalized_title": "reservations manager",
+        "company": null,
+        "role_tier": 4,
+        "role_family": "reservations",
+        "current_role_confidence": "medium",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/hwongsutthawat",
+            "title": "Hathairat W. | Reservations Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Mandeville\" \"reservations manager\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/hwongsutthawat",
+        "needs_human_review": true,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "From reservations manager search for Mandeville"
+        ]
+      },
+      {
+        "candidate_id": "c_4a53bbdbb971f377",
+        "full_name": "Tatiane Knights",
+        "title": "Reservations Manager",
+        "normalized_title": "reservations manager",
+        "company": null,
+        "role_tier": 4,
+        "role_family": "reservations",
+        "current_role_confidence": "medium",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/tatiane-knights-56b3058a",
+            "title": "Tatiane Knights | Reservations Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Mandeville\" \"reservations manager\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/tatiane-knights-56b3058a",
+        "needs_human_review": true,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "From reservations manager search for Mandeville"
+        ]
+      },
+      {
+        "candidate_id": "c_54a9ecbe440aef5a",
+        "full_name": "Nicholas Carbo",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "Loft18",
+        "role_tier": 2,
+        "role_family": "gm_ops",
+        "current_role_confidence": "low",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/nicholas-carbo-0b9354143",
+            "title": "Nicholas Carbo | General Manager at Loft18 - Mandeville",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "Mandeville general manager",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/nicholas-carbo-0b9354143",
+        "needs_human_review": true,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "General manager at Loft18-Mandeville; uncertain relevance to hotel"
+        ]
+      },
+      {
+        "candidate_id": "c_4c781422a66696b3",
+        "full_name": "Daniel Mandeville",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": null,
+        "role_tier": 2,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/daniel-mandeville-800a30186",
+            "title": "Daniel Mandeville | General Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "Mandeville general manager",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/daniel-mandeville-800a30186",
+        "needs_human_review": true,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "LinkedIn title matched search for Mandeville general manager; no explicit company in title"
+        ]
+      },
+      {
+        "candidate_id": "c_13024bb0672e623d",
+        "full_name": "Robert Frostick",
+        "title": "Director",
+        "normalized_title": "director",
+        "company": "Mandeville London Ltd",
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "high",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/robert-frostick-16200352",
+            "title": "Robert Frostick | Director at Mandeville London Ltd",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "Mandeville revenue director",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/robert-frostick-16200352",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_35c486669bcbe13b",
+        "full_name": "Max Naspi",
+        "title": "Director of Revenue",
+        "normalized_title": "director of revenue",
+        "company": "Mandeville Ltd",
+        "role_tier": 2,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "high",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/max-naspi-634ab65",
+            "title": "Max Naspi | Director of Revenue at Mandeville Ltd",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "Mandeville revenue director",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/max-naspi-634ab65",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_36fc825ec88327d1",
+        "full_name": "Rajin Pitamber",
+        "title": "Group Finance Director",
+        "normalized_title": "group finance director",
+        "company": null,
+        "role_tier": 2,
+        "role_family": "procurement_finance",
+        "current_role_confidence": "medium",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/rajin-pitamber-fcca-maat-4a49803b",
+            "title": "MAAT Rajin Pitamber FCCA | Group Finance Director",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "Mandeville revenue director",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/rajin-pitamber-fcca-maat-4a49803b",
+        "needs_human_review": true,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Group-level title; searched under revenue but is finance"
+        ]
+      },
+      {
+        "candidate_id": "c_ea754d17cea4a57f",
+        "full_name": "Nhors Dela Cruz",
+        "title": "Revenue Controller",
+        "normalized_title": "revenue controller",
+        "company": "The Mandeville Hotel",
+        "role_tier": 4,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": null,
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/nhors-dela-cruz-5809131b4",
+            "title": "Nhors Dela Cruz | Revenue Controller at The Mandeville Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "Mandeville revenue director",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://linkedin.com/in/nhors-dela-cruz-5809131b4",
+        "needs_human_review": true,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      }
+    ],
+    "rejected_candidates": [],
+    "provider_costs": {
+      "xai_usd": 0.0,
+      "exa_usd": 0.224,
+      "total_usd": 0.224
+    },
+    "quality_metrics": {
+      "candidate_count": 10,
+      "useful_candidate_count": 7,
+      "tier1_count": 2,
+      "tier2_count": 5,
+      "direct_route_count": 0,
+      "department_route_count": 0,
+      "rejected_count": 0,
+      "exa_searches": 32,
+      "exa_fetches": 0,
+      "xai_calls": 3
+    },
+    "telemetry": {
+      "stages": [
+        {
+          "stage": "exa_search:\"Mandeville\" hotel ownership",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.65756699999838,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"managed by\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.8002148999985366,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"owned by\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.1774622999982967,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"part of\" hotel group",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6492323000020406,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:site:mandeville.co.uk leadership team",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.3371791999998095,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:site:mandeville.co.uk contact",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.1188930999996956,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"mandeville.co.uk\" hotel management comp",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.4456038999996963,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"general manager\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.648431300000084,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"managing director\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.1164167999995698,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" owner OR founder",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.3582462999984273,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" CEO",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.2490262999999686,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"commercial director\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.3997111000026052,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"revenue manager\" OR \"reven",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.449377699998877,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"director of sales\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.3577949999998964,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"groups\" sales",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.447820599998522,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"reservations manager\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.0815392000004067,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" \"IT manager\" OR \"digital di",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.378177999999025,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" procurement OR \"finance dir",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.8571695999999065,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" appointed \"general manager\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.419208899998921,
+          "notes": []
+        },
+        {
+          "stage": "exa_search:\"Mandeville\" site:linkedin.com/in",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.450510300001042,
+          "notes": []
+        },
+        {
+          "stage": "exa_people:Mandeville general manager",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.2635133000003407,
+          "notes": []
+        },
+        {
+          "stage": "exa_people:Mandeville director of sales",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6020557999981975,
+          "notes": []
+        },
+        {
+          "stage": "exa_people:Mandeville revenue director",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.2821035999986634,
+          "notes": []
+        },
+        {
+          "stage": "grok_validation_chunk",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.0,
+          "seconds": 86.2975019000005,
+          "notes": []
+        },
+        {
+          "stage": "grok_validation_chunk",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.0,
+          "seconds": 101.30098299999736,
+          "notes": []
+        },
+        {
+          "stage": "grok_validation_chunk",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.0,
+          "seconds": 37.45960130000094,
+          "notes": []
+        },
+        {
+          "stage": "contact_mine:Jean-Louis Mandevill",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.4856545999973605,
+          "notes": []
+        },
+        {
+          "stage": "contact_mine:Andrew Wall",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.2760347000003094,
+          "notes": []
+        },
+        {
+          "stage": "contact_mine:Nicholas Carbo",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.359019300001819,
+          "notes": []
+        },
+        {
+          "stage": "contact_mine:Daniel Mandeville",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.241310400000657,
+          "notes": []
+        },
+        {
+          "stage": "contact_mine:Robert Frostick",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.937940300002083,
+          "notes": []
+        },
+        {
+          "stage": "contact_mine:Max Naspi",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.179217700002482,
+          "notes": []
+        },
+        {
+          "stage": "contact_mine:Rajin Pitamber",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.0790698000018892,
+          "notes": []
+        },
+        {
+          "stage": "linkedin_merge:\"Mandeville\" \"general manager\" s",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.950210800001514,
+          "notes": []
+        },
+        {
+          "stage": "linkedin_merge:\"Mandeville\" \"director of sales\"",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.342436300001282,
+          "notes": []
+        }
+      ],
+      "exa_search_requests": 32,
+      "exa_content_pages": 0,
+      "errors": []
+    },
+    "needs_manual_org_review": false
+  },
+  "contacts": [
+    {
+      "full_name": "Jean-Louis Mandeville",
+      "title": null,
+      "company": "Eventum",
+      "linkedin_url": "https://linkedin.com/in/jean-louis-mandeville",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Possible connection from owner/founder search",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / owner_exec; role confidence low.",
+      "contact_evidence_summary": "Jean-Louis Mandeville | Eventum | Possible connection from owner/founder search",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/jean-louis-mandeville",
+          "source_type": "other",
+          "quote_or_fact": "Jean-Louis Mandeville | Eventum"
+        }
+      ]
+    },
+    {
+      "full_name": "Andrew Wall",
+      "title": "Managing Director",
+      "company": "Mandeville Investments Ltd",
+      "linkedin_url": "https://linkedin.com/in/andrew-wall-b64b4041",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Managing Director of Mandeville Investments from CEO search",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / owner_exec; role confidence medium.",
+      "contact_evidence_summary": "Andrew Wall | Managing Director at Mandeville Investments Ltd | Managing Director of Mandeville Investments from CEO search",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/andrew-wall-b64b4041",
+          "source_type": "other",
+          "quote_or_fact": "Andrew Wall | Managing Director at Mandeville Investments Ltd"
+        }
+      ]
+    },
+    {
+      "full_name": "Hathairat W.",
+      "title": "Reservations Manager",
+      "company": "Mandeville",
+      "linkedin_url": "https://linkedin.com/in/hwongsutthawat",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "From reservations manager search for Mandeville",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / reservations; role confidence medium.",
+      "contact_evidence_summary": "Hathairat W. | Reservations Manager | From reservations manager search for Mandeville",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/hwongsutthawat",
+          "source_type": "other",
+          "quote_or_fact": "Hathairat W. | Reservations Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Tatiane Knights",
+      "title": "Reservations Manager",
+      "company": "Mandeville",
+      "linkedin_url": "https://linkedin.com/in/tatiane-knights-56b3058a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "From reservations manager search for Mandeville",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / reservations; role confidence medium.",
+      "contact_evidence_summary": "Tatiane Knights | Reservations Manager | From reservations manager search for Mandeville",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/tatiane-knights-56b3058a",
+          "source_type": "other",
+          "quote_or_fact": "Tatiane Knights | Reservations Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Nicholas Carbo",
+      "title": "General Manager",
+      "company": "Loft18",
+      "linkedin_url": "https://linkedin.com/in/nicholas-carbo-0b9354143",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "General manager at Loft18-Mandeville; uncertain relevance to hotel",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / gm_ops; role confidence low.",
+      "contact_evidence_summary": "Nicholas Carbo | General Manager at Loft18 - Mandeville | General manager at Loft18-Mandeville; uncertain relevance to hotel",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/nicholas-carbo-0b9354143",
+          "source_type": "other",
+          "quote_or_fact": "Nicholas Carbo | General Manager at Loft18 - Mandeville"
+        }
+      ]
+    },
+    {
+      "full_name": "Daniel Mandeville",
+      "title": "General Manager",
+      "company": "Mandeville",
+      "linkedin_url": "https://linkedin.com/in/daniel-mandeville-800a30186",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "LinkedIn title matched search for Mandeville general manager; no explicit company in title",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Daniel Mandeville | General Manager | LinkedIn title matched search for Mandeville general manager; no explicit company in title",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/daniel-mandeville-800a30186",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Mandeville | General Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Robert Frostick",
+      "title": "Director",
+      "company": "Mandeville London Ltd",
+      "linkedin_url": "https://linkedin.com/in/robert-frostick-16200352",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / owner_exec; role confidence high.",
+      "contact_evidence_summary": "Robert Frostick | Director at Mandeville London Ltd",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/robert-frostick-16200352",
+          "source_type": "other",
+          "quote_or_fact": "Robert Frostick | Director at Mandeville London Ltd"
+        }
+      ]
+    },
+    {
+      "full_name": "Max Naspi",
+      "title": "Director of Revenue",
+      "company": "Mandeville Ltd",
+      "linkedin_url": "https://linkedin.com/in/max-naspi-634ab65",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / commercial_revenue; role confidence high.",
+      "contact_evidence_summary": "Max Naspi | Director of Revenue at Mandeville Ltd",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/max-naspi-634ab65",
+          "source_type": "other",
+          "quote_or_fact": "Max Naspi | Director of Revenue at Mandeville Ltd"
+        }
+      ]
+    },
+    {
+      "full_name": "Rajin Pitamber",
+      "title": "Group Finance Director",
+      "company": "Mandeville",
+      "linkedin_url": "https://linkedin.com/in/rajin-pitamber-fcca-maat-4a49803b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group-level title; searched under revenue but is finance",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / procurement_finance; role confidence medium.",
+      "contact_evidence_summary": "MAAT Rajin Pitamber FCCA | Group Finance Director | Group-level title; searched under revenue but is finance",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/rajin-pitamber-fcca-maat-4a49803b",
+          "source_type": "other",
+          "quote_or_fact": "MAAT Rajin Pitamber FCCA | Group Finance Director"
+        }
+      ]
+    },
+    {
+      "full_name": "Nhors Dela Cruz",
+      "title": "Revenue Controller",
+      "company": "The Mandeville Hotel",
+      "linkedin_url": "https://linkedin.com/in/nhors-dela-cruz-5809131b4",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Nhors Dela Cruz | Revenue Controller at The Mandeville Hotel",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/nhors-dela-cruz-5809131b4",
+          "source_type": "other",
+          "quote_or_fact": "Nhors Dela Cruz | Revenue Controller at The Mandeville Hotel"
+        }
+      ]
+    }
+  ]
+}

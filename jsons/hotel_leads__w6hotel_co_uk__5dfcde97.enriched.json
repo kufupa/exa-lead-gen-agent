@@ -147,7 +147,7 @@
       "full_name": "Adil Ghani Asghar",
       "title": "Revenue Director / Director",
       "company": "West 6 Hotels Limited / W6 Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/adil-asghar-1388b864",
+      "linkedin_url": "https://www.linkedin.com/in/adil-asghar-1388b864",
       "email": null,
       "email2": null,
       "phone": "+44 (0) 208 834 7005",
@@ -169,7 +169,31 @@
           "source_type": "official_site",
           "quote_or_fact": "Adil Ghani Asghar, Director of WEST 6 HOTELS LIMITED"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/adil-asghar-1388b864",
+        "display_name": "Adil Asghar",
+        "headline": "Revenue Director at West 6 Hotels ltd",
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Revenue Director",
+            "organization": "West 6 Hotels ltd",
+            "date_range": "Current",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": "Minimal profile details available; only one current role shown with no employment dates, prior roles, or full descriptions."
+      }
     },
     {
       "full_name": "Mohil Panchal",
@@ -203,7 +227,7 @@
       "full_name": "Viral Maheshbhai Patel",
       "title": "Managing Director & Co-Founder",
       "company": "MNS Hospitality / W6 Management Limited",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/viral-patel-59934b90",
       "email": null,
       "email2": null,
       "phone": "+44 20 3667 7300",
@@ -225,7 +249,86 @@
           "source_type": "official_site",
           "quote_or_fact": "Viral Maheshbhai Patel, Director of W6 MANAGEMENT LIMITED"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/viral-patel-59934b90",
+        "display_name": "VIRAL PATEL",
+        "headline": "Director at MNS Hospitality",
+        "location": "Hemel Hempstead, England, United Kingdom (GB)",
+        "about": "Total Experience: 19 years and 11 months",
+        "experience": [
+          {
+            "title": "Reservations Manager",
+            "organization": "Queens Park hotel",
+            "date_range": "Feb 2006 - Jul 2007",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "swami hotels ltd",
+            "date_range": "Aug 2007 - Mar 2011",
+            "location": "victoria london",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Manager",
+            "organization": "The W14 Kensington",
+            "date_range": "Mar 2011 - Present",
+            "location": "West Kensington",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Director",
+            "organization": "MNS Hospitality",
+            "date_range": "Sep 2018 - Present",
+            "location": "United Kingdom",
+            "description": "Department: C-Suite • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "M.B PATEL HIGH SCHOOL",
+            "degree_or_field": "High School, Geology/Earth Science, General, A",
+            "date_range": "1999 - 2001"
+          },
+          {
+            "school": "DIPLOMA IN HOTEL AND HOSPITALITY",
+            "degree_or_field": "DIPLOMA IN HOTEL AND HOSPITALITY, Hotel, Motel, and Restaurant Management, 1ST CLASS",
+            "date_range": "2002 - 2004"
+          },
+          {
+            "school": "HALIFAX COLLEGE LONDON",
+            "degree_or_field": "Bachelor's Degree, Hotel/Motel Administration/Management, DISTINCTION",
+            "date_range": "2005 - 2007"
+          }
+        ],
+        "skills": [
+          "director",
+          "reservations",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and mindset",
+          "Residential real estate awards (BTR)",
+          "Hotel and aparthotel leasing deals",
+          "World Travel Market and industry events",
+          "Architecture and design award judging",
+          "International hospitality in Vietnam and UAE",
+          "Portfolio expansion in apartments",
+          "Travel tech and Expedia Group updates"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/guste-eimaite_expediagroup-lifeatexpedia-2026ready-activity-7412522304859045888-0itj",
+          "https://www.linkedin.com/posts/ajitnairmba_hospitalityleadership-luxuryliving-residentialexcellence-activity-7384116129750962176-R-3U",
+          "https://www.linkedin.com/posts/ajitnairmba_griawards-btr-residentialliving-activity-7372150746827350016-Rfos",
+          "https://www.linkedin.com/posts/joelbrookes_deal-alert-excited-to-announce-the-lease-activity-7287839284047347714-yfq2",
+          "https://www.linkedin.com/posts/alex-reid-457114160_wtm-canarytechnologies-hotelindustry-activity-7260255707223015424-4UDL",
+          "https://es.www.linkedin.com/posts/rebecarubio_en-cloudbeds-nos-vamos-de-gira-personalmente-activity-7259553872266846209-e642"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Anael Peu",
@@ -333,7 +436,7 @@
       "full_name": "Lisa Crosby",
       "title": "Sales Director",
       "company": "Axiom Hospitality",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/lisa-crosby-0688803",
       "email": null,
       "email2": null,
       "phone": "+44 (0)20 3987 7199",
@@ -350,7 +453,115 @@
           "source_type": "official_site",
           "quote_or_fact": "Lisa Crosby, Sales Director"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lisa-crosby-0688803",
+        "display_name": "Lisa Crosby",
+        "headline": "Sales Director at Axiom Hospitality",
+        "location": "Epsom, England, United Kingdom (GB)",
+        "about": "Dynamic and results-driven sales leader with 29 years of experience in strategic business planning, target achievement, and relationship management across key sectors and top industry agencies. Proven ability to drive revenue growth, build and maintain high-value partnerships, and lead successful teams. Extensive leadership experience within major hotel groups, managed and franchise, with a strong focus on segment relationship enhancement and team development. Adept at leveraging market insights to create innovative sales strategies and deliver exceptional results.",
+        "experience": [
+          {
+            "title": "Co-Ordinator - 86 Park Lane, JW Marriott Grosvenor House London",
+            "organization": "Marriott International",
+            "date_range": "Sep 1996 - Jan 1998",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Account Manager - 86 Park Lane, JW Marriott Grosvenor House London",
+            "organization": "Marriott International",
+            "date_range": "Jan 1998 - Jan 2000",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Business Administration Manager, JW Marriott Grosvenor House, London",
+            "organization": "Marriott International",
+            "date_range": "Jan 2000 - Jan 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Sales Director, JW Marriott Grosvenor House London",
+            "organization": "Marriott International",
+            "date_range": "Jan 2003 - Jan 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager, JW Marriott Grosvenor House London",
+            "organization": "Marriott International",
+            "date_range": "Jan 2004 - Mar 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "National Account Manager - Agency Sales",
+            "organization": "Marriott International",
+            "date_range": "Mar 2006 - Jan 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Agency Sales",
+            "organization": "Marriott International",
+            "date_range": "Jan 2012 - Apr 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Director National Sales",
+            "organization": "Marriott International",
+            "date_range": "Apr 2017 - May 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Director",
+            "organization": "Axiom Hospitality",
+            "date_range": "Jun 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Teesside University",
+            "degree_or_field": "Bachelor of Arts - BA, Business/Corporate Communications, 2:1",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "sales",
+          "planning",
+          "management",
+          "partnerships",
+          "leadership",
+          "hotel",
+          "director",
+          "reservations",
+          "administration",
+          "business planning",
+          "relationship management",
+          "team development",
+          "sales manager",
+          "business administration"
+        ],
+        "activity_themes": [
+          "Hospitality industry networking and events",
+          "Central London hotels and business travel",
+          "Chamber of commerce dinners and local connections",
+          "Independent hotel collections and media features"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/radisson-blu-london-euston-square_centrallondon-londonhotels-businesstravel-activity-7422175360366047233-FNes",
+          "https://www.linkedin.com/posts/lynne-murchie-90237537_a-lovely-evening-at-the-glasgow-chamber-activity-7421676359866830848-vpSL",
+          "https://www.linkedin.com/posts/pyramid-global-hospitality_benchmark-resorts-plans-to-add-two-new-properties-activity-7419756114298322944-qyNo"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mohammed Asghar",
@@ -379,7 +590,7 @@
       "full_name": "Alex Lewis",
       "title": "Business Performance Director",
       "company": "Axiom Hospitality",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/alex-lewis-04a7a045",
       "email": null,
       "email2": null,
       "phone": "+44 (0)20 3987 7199",
@@ -396,13 +607,126 @@
           "source_type": "official_site",
           "quote_or_fact": "Alex Lewis, Business Performance Director"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/alex-lewis-04a7a045",
+        "display_name": "Alex Lewis",
+        "headline": "Partner & Business Performance Director at Axiom Hospitality",
+        "location": "London, England, United Kingdom",
+        "about": "At Axiom Hospitality, I am responsible for driving optimum business performance and delivering actionable insights for the Axiom portfolio of hotels, and generating exceptional returns for hotel owners. Performance and business strategy specialist, I was previously Performance & Analytics Manager responsible for commercial, people and operational reporting and business delivery of over 70 owned and managed hotels. Alongside delivering key projects and integrations across the UK and Asia for the group. Like my partners at Axiom Hospitality, I share the philosophy of delivering outstanding hotel performance and excellent shareholder returns. Passionate about hospitality, I choose to think differently – taking a full 360 degree view on businesses to drive innovation, inclusivity, development and performance. Continually looking at ways to develop the business, and people, to deliver exceptional returns. Dynamic, forward thinking and well known for making it ‘happen’. I am a keen foodie/cook, and enjoy spending time in the mountains skiing. -- HSMAI Young Talent | Top 3 in Europe (2020 Awards) IHG Owners Association - Previous Emerging Leaders Committee Chair & Committee member of Distribution, Digital and Commercial Committee for IHG Owners --",
+        "experience": [
+          {
+            "title": "Deputy Manager",
+            "organization": "Akkeron Hotels",
+            "date_range": "Jan 2011 - Oct 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Pricing Inventory",
+            "organization": "SHL Hotels",
+            "date_range": "Oct 2012 - Aug 2013",
+            "location": "Bromsgrove",
+            "description": null
+          },
+          {
+            "title": "Regional Revenue Manager",
+            "organization": "Kew Green Hotels Limited",
+            "date_range": "Aug 2013 - Apr 2016",
+            "location": "United Kingdom",
+            "description": "Working as part of a fast paced and dynamic team, managing branded hotels in key UK locations. • Responsibility for the performance of a portfolio of hotels. • Delivered consistent performances (RevPAR & RGI Growth) over the 3-year period. • Development of detailed forecast plans and strategy plans per unit. • Engaging with hotel teams and senior leadership team members in all revenue decisions. • Managed over 20+ different hotels and markets in the 3-year period within key… Show more"
+          },
+          {
+            "title": "Performance Analytics Manager",
+            "organization": "Kew Green Hotels Limited",
+            "date_range": "Jul 2016 - Nov 2020",
+            "location": "United Kingdom",
+            "description": "Delivering a 360-degree performance platform, to drive strategy and RESULTS for Kew Green Hotels. Commercial | Operational | People • Responsibility for end to end reporting, analysis and presenting of Kew Green Hotels performance from all perspectives to senior leadership, operational and commercial teams within the organisation. • Leading an outstanding team of 6 (Four Commercial Analyst, HR Analyst and Data Support). Coaching and developing each team member for continued… Show more"
+          },
+          {
+            "title": "Hong Kong China Secondment",
+            "organization": "Kew Green Hotels Limited",
+            "date_range": "May 2017 - Sep 2017",
+            "location": "Hong Kong",
+            "description": "5 month secondment working with China Travel Services in China and Hong Kong. Living and working in Hong Kong, with travel into Mainland China on a regular basis. Developing relationships with state owned Hong Kong China Travel Services, presenting and advising key stakeholders in China and the UK on progress and recommended change programme with key asset within the region. Creating progress documentation (numerical and narrative) evidencing potential impact and ROI of future… Show more"
+          },
+          {
+            "title": "Almarose Hotels Resorts (Performance Analytics Platform)",
+            "organization": "Kew Green Hotels Limited",
+            "date_range": "Mar 2019 - Mar 2020",
+            "location": "United Kingdom",
+            "description": "Establishing Almarose Hotels & Resorts Analytics platform www.almarosehotels.com From driving performance and commercial delivery - to implementing a Business intelligence platform. An exciting partnership between Kew Green Hotels and newly formed Almarose Hotels & Resorts. Working with Aprirose Real Estate Investment"
+          },
+          {
+            "title": "Business Performance, Data And Strategy Specialist",
+            "organization": "Self Employed",
+            "date_range": "Nov 2020 - Present",
+            "location": null,
+            "description": "Advisory and Contract Work Key projects completed: • Technology Start Up – advisory services, board, investment and leadership support • Large Multi Layer PLC – Business Intelligence reporting set up and management (database management, reporting building and business integration) • Health & Wellbeing – advisory, reporting and commercial delivery support"
+          },
+          {
+            "title": "Head Of Business Performance And Insight",
+            "organization": "Axiom Hospitality",
+            "date_range": "Jul 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Senior Leadership Team Member - Leading and delivering Axiom Hospitality’s business performance and management platform. Working directly with investors and hotel owners to drive optimum and exceptional hotel value. Focussed on the organisations direction and strategy. Investment | Commercial | Operational | People Key Headlines • Leadership of operational/commercial delivery and effectiveness within the porfolio • Acquisition and investment management (underwriting… Show more"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "responsible",
+          "driving",
+          "hotels",
+          "hotel",
+          "strategy",
+          "analytics",
+          "commercial",
+          "reporting",
+          "projects",
+          "philosophy",
+          "innovation",
+          "distribution",
+          "digital",
+          "leadership",
+          "management",
+          "investors",
+          "underwriting",
+          "documentation",
+          "intelligence",
+          "green",
+          "technology",
+          "database",
+          "integration",
+          "health",
+          "pricing",
+          "inventory",
+          "analysis",
+          "organisation",
+          "hr",
+          "coaching",
+          "business performance management",
+          "real estate investment",
+          "business strategy",
+          "performance management",
+          "investment management",
+          "business intelligence",
+          "real estate",
+          "database management"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/alex-lewis-04a7a045"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Silvia G",
       "title": "Guest Relations Manager",
       "company": "W6 Hotel / The SO Group",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/silvia-g-09b34199",
       "email": "silvia@the-so.com",
       "email2": null,
       "phone": "+44 (0) 208 834 7005",
@@ -429,13 +753,108 @@
           "source_type": "official_site",
           "quote_or_fact": "stay@w6hotel.co.uk and +44 (0) 208 834 7005 listed as primary contacts"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/silvia-g-09b34199",
+        "display_name": "Silvia G.",
+        "headline": "Delivering Commercial Success in Hospitality with Passion and Precision",
+        "location": "United Kingdom (GB)",
+        "about": "Accomplished Revenue and Reservations Manager with extensive experience in optimising hotel revenue through strategic pricing, demand forecasting, and market analysis. Proven track record in leading cross-functional teams, implementing new systems, and enhancing operational efficiency. Expertise in RMS & PMS/CRM systems (Opera, Guestline, Duetto, Ideas) and digital marketing. Demonstrated ability to drive revenue growth and improve service quality across multiple properties. Career goal: to leverage skills in a senior leadership role within the hospitality industry.\n\nTotal Experience: 10 years",
+        "experience": [
+          {
+            "title": "Front Office Manager",
+            "organization": "Kensington Rooms Hotel",
+            "date_range": "Sep 2014 - Nov 2015",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "So Hotels and Luxury Apartments",
+            "date_range": "Oct 2015 - Nov 2016",
+            "location": "London, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Group Sales Coordinator",
+            "organization": "Strand Palace Hotel",
+            "date_range": "Jan 2017 - Jun 2018",
+            "location": null,
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Assistant Revenue And Reservations Manager",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Jul 2019 - Sep 2019",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Sep 2019 - Jan 2022",
+            "location": "Grosvenor House Suites by Jumeirah Living, London, England, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Goodenough College",
+            "date_range": "Mar 2022 - Present",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Beijing Language and Culture University",
+            "degree_or_field": null,
+            "date_range": null
+          },
+          {
+            "school": "Stockton University",
+            "degree_or_field": "English Language and Literature, General",
+            "date_range": null
+          },
+          {
+            "school": "Università del Salento",
+            "degree_or_field": "Scienza e Tecniche della Mediazione Linguistica",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "demand forecasting",
+          "market analysis",
+          "operational efficiency",
+          "digital marketing",
+          "hospitality industry",
+          "front office",
+          "reservations",
+          "hotel",
+          "pricing",
+          "forecasting",
+          "analysis",
+          "efficiency",
+          "crm",
+          "opera",
+          "digital",
+          "marketing",
+          "leadership",
+          "hospitality",
+          "sales"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/silvia-g-09b34199"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Kevin Rajoo",
       "title": "Group Contact / Sales & Marketing",
       "company": "The SO Hotels & Apartments",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/kevin-rajoo-4bb23544",
       "email": "kevinrajoo@the-so.com",
       "email2": null,
       "phone": "+44 20 7159 0314",
@@ -457,7 +876,154 @@
           "source_type": "x",
           "quote_or_fact": "Official X account for The So Hotels and Service Apartments promoting bookings and discounts"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kevin-rajoo-4bb23544",
+        "display_name": "Kevin Rajoo",
+        "headline": "Events Curator\nDirector Of Event Operations at Ark Events",
+        "location": "Trou aux Biches, Pamplemousses, Mauritius (MU)",
+        "about": "A well-organized, disciplined individual used to working calmly, effectively and efficiently under pressure. A proactive, focused and committed professional, with extensive expertise gained within the leisure/hospitality sector.\n\nTotal Experience: 18 years and 7 months",
+        "experience": [
+          {
+            "title": "Customer Care Sales Specialist",
+            "organization": "Marriott International Ltd",
+            "date_range": "Jun 2005 - Aug 2006",
+            "location": "London, United Kingdom",
+            "description": "Handling new requests, amendments and cancellation for all UK Marriott Hotels for up to 9 rooms. Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Wholesaler Specialist",
+            "organization": "Marriott International Ltd",
+            "date_range": "Sep 2006 - Jun 2007",
+            "location": null,
+            "description": "Assisting reservation agents to make wholesaler bookings for over 30 Marriott properties. Sorting and inputting bookings from Tour Operators / Wholesalers. Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Contracts Coordinator",
+            "organization": "MIKI Travel Ltd",
+            "date_range": "Jul 2007 - Jun 2009",
+            "location": "London, United Kingdom",
+            "description": "Preparing and issuing contracts between Miki Travel and its hotel partners in London and UK. Liaising with hoteliers with regards to stop sales and extranet issues. Negotiating and loading special rates & extra allotments. Loading contracts in the in-house system. Preparing meeting reports & business trips. Sending general information about our contracted hotels to our sales offices. Department: Legal • Level: Specialist"
+          },
+          {
+            "title": "Senior Group Reservations Clerk",
+            "organization": "MIKI Travel Ltd",
+            "date_range": "Aug 2010 - Feb 2012",
+            "location": "London, United Kingdom",
+            "description": "Reservations Agent Groups Department Booking hotel accommodation for groups travelling to Paris & suburbs Receiving hotel requests on a daily basis from the sales offices. Dealing with special room enquiries and VIP bookings, negotiating conditions (cancellation policies) and arranging deposits and pre-payments. Dealing with book-out situations, complaints and resulting compensations."
+          },
+          {
+            "title": "Destination Specialist Contractor For Local Services",
+            "organization": "Tracoin Services Ltd",
+            "date_range": "Mar 2012 - Mar 2013",
+            "location": "London, United Kingdom",
+            "description": "Contracting local services for France (entrances,guides,restaurants) Identify geographical areas deemed to have scope for improvement. Liaise with overseas and internal sales departments to ensure rates are incorporated into future quotes. Plan and organise business trips in order to finalise agreements with suppliers. Build and maintain relationship with suppliers."
+          },
+          {
+            "title": "Business Development",
+            "organization": "VisitRentals.com",
+            "date_range": "Apr 2013 - Jan 2014",
+            "location": "London, United Kingdom",
+            "description": "Initially appointed as a contract manger where I sucessfully implemented a robust contracting process before being promoted to Business Development. My role is to develop the direct corporate segment of the business. This includes opening key relationships with corporate travel bookers and guests, negotiating mutually beneficial solutions, and developing their travel needs with VR. Working closely alongside our digital marketing and reservations team allowed me to gain a strong understanding of corporate travel solutions and its market needs. My core duties: - Identify key commercial opportunities and convert business leads - Establish, manage and develop corporate client accounts - Create account management intelligence reports and professionally manage all appropriate paperwork - Build confidence and trust of key corporate clients and property provider partners - Negotiate contracts between accommodation providers and corporate clients - Building strong relationships within the Team and Key Players in the market"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "The SO Hotels and Luxury Apartments, London Hotels Collection",
+            "date_range": "Mar 2014 - Mar 2015",
+            "location": "London, United Kingdom",
+            "description": "The group offers the best accommodation to its guests. Offering suitable accommodation for business, leisure and relocation our hotels are the ideal choice for all guests. We provide contemporary comfort at a very reasonable price. The aparthotels or extended stay hotels are in great locations and close to business districts. The apartments' level of comfort and amenities live up to your expectations:office space, free internet connection, kitchenette, etc. Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Contract Manager - France, Belgium",
+            "organization": "JacTravel",
+            "date_range": "Apr 2015 - Mar 2016",
+            "location": "London, United Kingdom",
+            "description": "The TotalStay Group launched in the UK in 1999 and has steadily grown into one of the largest and most successful accommodation providers today, used by thousands of tour operators, travel agencies and incoming agencies across the globe. Exclusively Hotels is TotalStay’s established trade brand, distributing hotel product across European markets, and an increasing range of international locations too. Our product comprises an inventory of 100,000 hotels, from budget to 5 star luxury, in over 10,000 destinations worldwide. Core destinations are contracted directly and complimented by small, regional DMC’s and major global wholesalers. From a customer care perspective, our dedicated, multi-lingual and friendly call-centre is on hand 24 hours a day, 7 days a week to provide our clients with an unrivaled level of support, service and reassurance. Our Mission statement provides a good introduction to The TotalStay Group: “Our aim has not changed since we launched in 1999. It’s really simple. To take our passion for hotels and provide our global partners with choice, expertise and reassuringly good service.”"
+          },
+          {
+            "title": "Commercial Director",
+            "organization": "ABZ Travel Group",
+            "date_range": "Jul 2016 - Mar 2022",
+            "location": "Mauritius",
+            "description": "The ABZ Group is the leading provider of online travel & leisure related services in Mauritius. Our network spans and caters for various markets including E-commerce, Tourism & Travel and Entertainment & Leisure services. Deals.mu MauritiusAttractions.com VacancesMaurice.com Otayo.com MauritiusCarHire.mu Restaurants.mu CapeTownAttractions.com MauritiusCatamaran.com Department: Sales • Level: Director"
+          },
+          {
+            "title": "Co-Founder (Business Consultant Virtual Assistant)",
+            "organization": "Virtufully",
+            "date_range": "Oct 2020 - Jun 2025",
+            "location": "Mauritius",
+            "description": null
+          },
+          {
+            "title": "Sales Marketing Manager - Leisure Cluster",
+            "organization": "Rogers Hospitality",
+            "date_range": "Mar 2022 - Jun 2025",
+            "location": "Mauritius",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Event Operations",
+            "organization": "Ark Events",
+            "date_range": "Jun 2025 - Present",
+            "location": "Mauritius",
+            "description": "Planning your company event is eating up your actual job.You're juggling meetings, managing a team, and now you're expected to pull off a flawless corporate event too? That kind of stress isn't part of your job description — but it's definitely part of ours. And we’re really good at it. At Ark Events, we step in to completely remove the pressure. We handle the planning, coordination, and execution while you stay focused on what you do best. Your time is valuable — let us make your event extraordinary without adding to your workload. ✅ From concept to execution, we've got you.📲 Get in touch and let's make your event effortless. Department: Operations • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "organized",
+          "pressure",
+          "proactive",
+          "hospitality",
+          "director",
+          "operations",
+          "planning",
+          "coordination",
+          "sales",
+          "hotels",
+          "commercial",
+          "commerce",
+          "tourism",
+          "entertainment",
+          "restaurants",
+          "reservations",
+          "hotel",
+          "receiving",
+          "arranging",
+          "deposits",
+          "payments",
+          "relocation",
+          "apartments",
+          "reservation",
+          "digital",
+          "marketing",
+          "management",
+          "intelligence",
+          "reports",
+          "property",
+          "rates",
+          "cluster",
+          "inventory",
+          "budget",
+          "luxury",
+          "customer care",
+          "online travel",
+          "sales manager",
+          "tour operators",
+          "business development",
+          "digital marketing",
+          "account management"
+        ],
+        "activity_themes": [
+          "Luxury resort marketing and PR",
+          "Travel industry leadership transitions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/kevin-rajoo-4bb23544"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Emma Figge",
@@ -486,7 +1052,7 @@
       "full_name": "Kandarp Devendrabhai Patel",
       "title": "Co-Founder & CFO / Secretary",
       "company": "MNS Hospitality / W6 Management Limited",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/kandarp-patel-7909b939",
       "email": null,
       "email2": null,
       "phone": "+44 20 3667 7300",
@@ -508,13 +1074,89 @@
           "source_type": "official_site",
           "quote_or_fact": "Associated with W6 MANAGEMENT LIMITED at hotel address"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kandarp-patel-7909b939",
+        "display_name": "KANDARP PATEL",
+        "headline": "Co- Founder at MNS Hospitality Ltd",
+        "location": "London, England, United Kingdom",
+        "about": "several years of experience in different field of Hospitality industry and have worked with well known individuals businesses in UK. Experienced hotelier with vast knowledge in Hotel Operations, Room Reservations, Budgeting. A team player who is able to motivate staff productivity and possess a high level of customer commitment & loyalty as well. Ability to communicate effectively on all levels inside the hotel & external customers/guest house/customers service provider for better customer relation / satisfaction and retention\n\nTotal Experience: 17 years and 10 months",
+        "experience": [
+          {
+            "title": "Manager",
+            "organization": "Airways Hotel, Hanover Hotel, The W14 Kensington, Belgrave Hotel, St.Georges Inn",
+            "date_range": "Apr 2008 - Nov 2022",
+            "location": "London Area, United Kingdom",
+            "description": "All daily operation, Recruitment, Purchase, Invoicing, payments and Revenue Report"
+          },
+          {
+            "title": "Company Owner",
+            "organization": "S & N Management Ltd",
+            "date_range": "Nov 2019 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Co-Founder",
+            "organization": "MNS Hospitality Ltd",
+            "date_range": "Mar 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Shree Muktajivan School",
+            "degree_or_field": "Accounting and Finance",
+            "date_range": "1991 - 2002"
+          },
+          {
+            "school": "Gujarat University",
+            "degree_or_field": "Bachelor's degree, Accounting and Finance",
+            "date_range": "2002 - 2005"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "hotel",
+          "operations",
+          "reservations",
+          "budgeting",
+          "operation",
+          "recruitment",
+          "purchase",
+          "invoicing",
+          "payments",
+          "hospitality industry",
+          "team player"
+        ],
+        "activity_themes": [
+          "Promoted MNS Hospitality booking engine and seamless reservations",
+          "Highlighted property management systems and operational efficiency for hotels",
+          "Showcased channel management, sales/marketing platforms and hotel amenities",
+          "Emphasized housekeeping, maintenance services and reducing hotel overheads",
+          "Engaged with commercial finance, property investment and hospitality events",
+          "Shared customer testimonials and team commitment in hospitality sector"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/infinitefinancesolutions_infinitefinance-commercialfinance-propertyinvestment-activity-7413690899605385217-5n1K",
+          "https://www.linkedin.com/posts/enda-rylands-3333921a_this-is-called-bleisure-a-little-business-activity-7305177974595596288-ou5g",
+          "https://www.linkedin.com/posts/hotel-complimentary-products-ltd_we-are-all-set-up-at-the-independent-hotel-activity-7251666598518779906-fTVl",
+          "https://www.linkedin.com/posts/ali-taheri-_pumped-activity-7126960737213628416-WdiI",
+          "https://www.linkedin.com/posts/viral-patel-59934b90_mns-hospitality-on-instagram-say-goodbye-activity-7105831130045538304-0Bnw",
+          "https://www.linkedin.com/posts/mns-hospitality_mns-hospitality-on-instagram-discover-why-activity-7105472579397648385-dqBW",
+          "https://www.linkedin.com/posts/mns-hospitality_mns-hospitality-on-instagram-from-luxurious-activity-7102242641320263680-j1sD",
+          "https://www.linkedin.com/posts/mns-hospitality_mns-hospitality-on-instagram-say-goodbye-activity-7103302982158434306-U0oS"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Samar Shah",
       "title": "Operations Director",
       "company": "MNS Hospitality",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/samar-shah-a64b59262",
       "email": null,
       "email2": null,
       "phone": "+44 20 3667 7300",
@@ -531,7 +1173,31 @@
           "source_type": "official_site",
           "quote_or_fact": "Samar Shah, Operations Director"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/samar-shah-a64b59262",
+        "display_name": "Samar Shah",
+        "headline": "Hotel Specialist at Pr regedenci",
+        "location": "Delhi, India (IN)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Hotel Specialist",
+            "organization": "Pr regedenci",
+            "date_range": "Current",
+            "location": null,
+            "description": "Department: Other • Level: Specialist"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mussdiq Ghani Asghar",
@@ -560,7 +1226,7 @@
       "full_name": "Mahmood Hussain",
       "title": "Managing Director",
       "company": "The SO Hotels and Luxury Apartments",
-      "linkedin_url": "https://uk.linkedin.com/in/mahmood-hussain-2b393b16",
+      "linkedin_url": "https://www.linkedin.com/in/mahmood-hussain-2b393b16",
       "email": null,
       "email2": null,
       "phone": "+44 20 7159 0314",
@@ -582,7 +1248,73 @@
           "source_type": "other",
           "quote_or_fact": "Portfolio including 38-40 Glenthorne Road managed by SO Group"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/mahmood-hussain-2b393b16",
+        "display_name": "Mahmood Hussain",
+        "headline": "Director at THE SO Hotels & Apartments Managing Director at The SO Hotels and Luxury Apartments",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 7 years and 1 month",
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "SASCO Aparments ltd",
+            "date_range": "Jan 2008 - Dec 2009",
+            "location": "London, United Kingdom",
+            "description": "Incharge for all Adminstration and Operations of the Group\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Managing Director",
+            "organization": "The SO Hotels and Luxury Apartments",
+            "date_range": "Jul 2010 - Present",
+            "location": "London, United Kingdom",
+            "description": "Department: C-Suite • Level: Director"
+          },
+          {
+            "title": "GGM Management Consultant",
+            "organization": "London Hotels Collection",
+            "date_range": "Jul 2013 - Sep 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of North London",
+            "degree_or_field": null,
+            "date_range": "2001 - 2002"
+          }
+        ],
+        "skills": [
+          "director",
+          "operations",
+          "management"
+        ],
+        "activity_themes": [
+          "Recognition in Muslim 500 for visionary leadership",
+          "New year wishes focused on tech trends, AI, Web3",
+          "Partnerships in fitness and sports industry (Technogym, Leejam)",
+          "Serving partners with pride in business",
+          "Growth in Saudi fitness and health sector",
+          "National employment programs in sports sciences",
+          "Promoting kindness and benevolence",
+          "Reflections on work and passion",
+          "Real estate pricing and development",
+          "Hospitality and travel industry partnerships"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/the-aziz-foundation_theazizfoundation-muslim500-visionaryleadership-activity-7414230465491922944-csTp",
+          "https://fr.www.linkedin.com/posts/jeromealainhernandez_newyear2026-techtrends-networking-activity-7412402172057001984-1vOK",
+          "https://www.linkedin.com/posts/ali-alsagri-5422561a0_leejam-technogym-partnership-activity-7399719067428945920-PYgH",
+          "https://fr.www.linkedin.com/posts/jeromealainhernandez_helping-and-serving-partners-with-pride-activity-7376888992203616257-5E8h",
+          "https://ae.www.linkedin.com/posts/leejam-sports-company_قفزة-كبيرة-لقطاع-اللياقة-البدنية-والصحة-في-activity-7356232196006850561-KHWy",
+          "https://ae.www.linkedin.com/posts/ali-alsagri-5422561a0_وقتاللياقة-تطويرالكفاءات-لجامللرياضة-activity-7368528033542021121-idi8",
+          "https://www.linkedin.com/posts/jeromealainhernandez_bienveillance-kindness-activity-7317832870809546752-5NJg",
+          "https://www.linkedin.com/posts/jeromealainhernandez_le-travail-cest-ce-quon-ne-peut-pas-activity-7309988677097549824-wWfH"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mehmet Boyraz",
@@ -619,5 +1351,71 @@
     "succeeded": 2,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T22:53:20.336127+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 9,
+      "structured": 9,
+      "discovered": 7,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 17,
+        "content_pages": 9,
+        "cost_estimate": {
+          "approx_total_usd": 0.128,
+          "search_component_usd": 0.119,
+          "contents_component_usd": 0.009,
+          "counts": {
+            "search_requests": 17,
+            "content_pages": 9
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 19132,
+          "cached_prompt_text_tokens": 576,
+          "completion_tokens": 8207,
+          "reasoning_tokens": 28198,
+          "output_tokens": 0,
+          "total_tokens": 55537
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.255657,
+          "token_component_usd": 0.255657,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 19132,
+            "cached_prompt_text_tokens": 576,
+            "completion_tokens": 8207,
+            "reasoning_tokens": 28198,
+            "total_tokens_reported": 55537,
+            "output_like_tokens": 36405,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.383657
+    }
   }
 }

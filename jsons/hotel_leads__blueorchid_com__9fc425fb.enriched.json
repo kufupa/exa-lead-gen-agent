@@ -1,0 +1,3354 @@
+{
+  "target_url": "blueorchid.com",
+  "generated_at_utc": "20260426T220803Z",
+  "model": "pipeline-v4",
+  "agent_count": null,
+  "max_turns": null,
+  "max_turns_effective": null,
+  "min_contacts": null,
+  "target_contacts": null,
+  "max_contacts": 25,
+  "extra_contact_pass": false,
+  "strict_evidence": true,
+  "allow_linkedin": true,
+  "usage": null,
+  "contact_enrichment": {
+    "version": 4,
+    "enriched_at_utc": "20260426T220803Z",
+    "mode": "pipeline-v4",
+    "model": "pipeline-v4",
+    "concurrency": null,
+    "skipped_pre_enrichment": 0,
+    "attempted": 25,
+    "succeeded": 25,
+    "failed": 0
+  },
+  "pipeline_v4": {
+    "input_url": "blueorchid.com",
+    "resolved_org": {
+      "input_url": "blueorchid.com",
+      "canonical_name": "Blue Orchid Hospitality",
+      "property_name": null,
+      "brand_name": "Blue Orchid",
+      "management_company": "Blue Orchid Hospitality",
+      "ownership_group": "Integrity International Group",
+      "location_hint": "Central London, UK (Tower Hill near Tower Bridge and Westminster near Victoria)",
+      "domains": [
+        "blueorchid.com"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.blueorchid.com/",
+          "title": "Official Blue Orchid Hospitality Website",
+          "source_type": "hotel_site",
+          "snippet": "Welcome to Blue Orchid Hospitality, a new private collection of independent luxury hotels located in the heart of London, near Tower bridge & Victoria station.",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.blueorchid.com/about",
+          "title": "About Page",
+          "source_type": "hotel_site",
+          "snippet": "Blue Orchid Hospitality is a private collection of luxury independent hotels, apartments, and residences in central London... managed by Blue Orchid Hospitality.",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.integrityinternationalgroup.com/tony-matharu",
+          "title": "Tony Matharu Profile on Integrity International Group Site",
+          "source_type": "company_site",
+          "snippet": "Tony recently founded London’s latest independent hotel chain: Blue Orchid Hospitality under his Integrity International Group.",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.boutiquehotelier.com/tony-matharu-atlas-house-hotel-conversion/",
+          "title": "Boutique Hotelier Press Article",
+          "source_type": "press",
+          "snippet": "Integrity International Group, owned by billionaire hotelier Tony Matharu... will join the Blue Orchid Hospitality brand, which is part of Integrity.",
+          "fetched_text": null,
+          "published_date": "2025-03-28",
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.blueorchid.com/en/hotels/gb/london/london-tower-suites",
+          "title": "Tower Suites Property Page",
+          "source_type": "hotel_site",
+          "snippet": "Tower Suites by Blue Orchid is a contemporary luxury 5-star hotel...",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        }
+      ]
+    },
+    "aliases": [
+      {
+        "value": "Blue Orchid Hotels",
+        "kind": "brand",
+        "confidence": "high",
+        "source_url": "https://www.blueorchid.com/",
+        "quote": "Blue Orchid Hotels"
+      },
+      {
+        "value": "Blue Orchid Hospitality",
+        "kind": "management",
+        "confidence": "high",
+        "source_url": "https://www.blueorchid.com/",
+        "quote": "Welcome to Blue Orchid Hospitality, a new private collection of independent luxury hotels"
+      },
+      {
+        "value": "Integrity International Group",
+        "kind": "ownership",
+        "confidence": "high",
+        "source_url": "https://www.boutiquehotelier.com/tony-matharu-atlas-house-hotel-conversion/",
+        "quote": "Blue Orchid Hospitality brand, which is part of Integrity"
+      },
+      {
+        "value": "blueorchid.com",
+        "kind": "domain",
+        "confidence": "high",
+        "source_url": "https://www.blueorchid.com/",
+        "quote": null
+      },
+      {
+        "value": "Tower Suites by Blue Orchid",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.blueorchid.com/en/hotels/gb/london/london-tower-suites",
+        "quote": "Tower Suites by Blue Orchid"
+      },
+      {
+        "value": "The Wellington by Blue Orchid",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.blueorchid.com/en/hotels/gb/london/wellington-hotel-by-blue-orchid",
+        "quote": "The Wellington by Blue Orchid"
+      },
+      {
+        "value": "Tower Residences by Blue Orchid",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.blueorchid.com/",
+        "quote": "Tower Residences"
+      },
+      {
+        "value": "The Rochester",
+        "kind": "historical",
+        "confidence": "medium",
+        "source_url": "https://www.blueorchid.com/en/hotels/gb/london/rochester-hotel-by-blue-orchid",
+        "quote": "The Wellington and The Rochester hotels will now be combined into one property, to be known as The Wellington hotel, and will continue to be managed by Blue Orchid Hospitality"
+      }
+    ],
+    "candidates": [
+      {
+        "candidate_id": "c_f71e507b1f8e572b",
+        "full_name": "Tony Matharu",
+        "title": "Founder and Chairman",
+        "normalized_title": "founder and chairman",
+        "company": "Blue Orchid Hospitality",
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.integrityinternationalgroup.com/tony-matharu",
+            "title": "Tony Matharu Profile",
+            "source_type": "company_site",
+            "snippet": "Tony is the founder and Chairman of Integrity International Group... founded London’s latest independent hotel chain: Blue Orchid Hospitality under his Integrity International Group.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/tony-matharu",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Tony Matharu - Integrity International Group",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.boutiquehotelier.com/tony-matharu-atlas-house-hotel-conversion/",
+            "title": "Press Article on Acquisition",
+            "source_type": "press",
+            "snippet": "Tony Matharu, Founder and Chairman of Integrity International Group and Executive Chairman of Blue Orchid Hospitality",
+            "fetched_text": null,
+            "published_date": "2025-03-28",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.blueorchid.com/en/communityengagement.html",
+            "title": "Community Page",
+            "source_type": "hotel_site",
+            "snippet": "Our founder and Chairman of Blue Orchid Hotels, Tony Matharu",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://nybreakings.co.uk/tony-matharu-visionary-hotelier-london/",
+            "title": "Tony Matharu: The Visionary Hotelier Transforming London’s Hospitality Landscape - NYBreakings.co.uk",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Tony Matharu\n\nTony Matharu stands as one of the most influential figures in the modern British hospitality industry. Known for his strategic vision, resilience, and commitment to excellence, he has played a central role in shaping London’s luxury hotel scene. From co-founding a successful family hotel empire to launching his own ventures, Tony Matharu’s journey reflects a blend of entrepreneurial courage and long-term thinking.\n\nTable of Contents\n\nToggle\n\n## Early Life and Background\n\nTony Matharu was born into a hardworking immigrant family in the United Kingdom. His upbringing was rooted in discipline, ambition, and a strong belief in education. These early influences shaped his approach to business and leadership.\n\nHe pursued studies in law and economics, equipping himself with a solid academic foundation. However, it was not long before he realised that his true passion lay in entrepreneurship rather than traditional professional routes. This decision would prove pivotal in defining his future.\n\nGrowing up in a family that valued enterprise, Tony Matharu developed an early interest in business operations, customer service, and long-term investment strategies. These formative experiences would later help him navigate the competitive world of hospitality.\n\n## The Rise of Grange Hotels\n\n### Building a Family Empire\n\nTony Matharu’s first major success came through his involvement in the family-run Grange Hotels business. Alongside his brothers, he helped transform the company into one of London’s most respected luxury hotel groups.\n\nGrange Hotels became known for:\n\n- Conclusion\n- Premium locations across central London\n- Elegant design and architecture\n- High standards of service\n\nUnder his leadership, the business expanded significantly, acquiring and developing multiple high-end properties. The group carved out a strong reputation in a highly competitive market dominated by global hotel chains.\n\n### Strategic Growth and Innovation\n\nTony Matharu played a crucial role in scaling the business by:\n\n- Identifying undervalued properties\n- Investing in refurbishment and repositioning\n- Maintaining a consistent luxury experience\n\nHis ability to combine operational efficiency with guest-focused service helped the brand stand out. At a time when many independent hotels struggled, the group thrived due to strong leadership and clear strategic direction.\n\n## A New Chapter: Blue Orchid Hospitality\n\n### Breaking Away and Starting Fresh\n\nAfter years of success with the family business, Tony Matharu embarked on a new journey. He founded Blue Orchid Hospitality, marking a significant turning point in his career.\n\nThis move was not without challenges. Starting a new venture in an already competitive market required both courage and conviction. However, Tony Matharu approached this phase with a clear vision and a renewed sense of purpose.\n\n### Redefining Luxury Hospitality\n\nBlue Orchid Hospitality focuses on:\n\n- Boutique luxury hotels\n- Serviced apartments\n- Prime London locations\n\nThe brand reflects Tony Matharu’s refined approach to hospitality, blending modern design with heritage architecture. Many of the properties are historic buildings that have been carefully restored and repurposed.\n\nWhat sets Blue Orchid apart is its emphasis on:\n\n- Personalised guest experiences\n- Attention to detail\n- Premium yet accessible luxury\n\nThis strategy has allowed the brand to quickly establish itself as a strong player in London’s hospitality market.\n\n## Integrity International Group: A Broader Vision\n\n### Expanding Beyond Hotels\n\nTony Matharu is also the Founder and Chairman of Integrity International Group, a diversified organisation that extends beyond hospitality.\n\nThe group operates across:\n\n- Real estate development\n- Hospitality management\n- Consultancy services\n\nThis expansion reflects Tony Matharu’s broader vision of creating a holistic business ecosystem that integrates property, service, and innovation.\n\n### Revitalising Urban Spaces\n\nOne of the defining aspects of his work is the transformation of historic and underutilised buildings. Instead of constructing entirely new developments, Tony Matharu often focuses on breathing new life into existing structures.\n\nThis approach offers several advantages:\n\n- Preservation of architectural heritage\n- Sustainable development practices\n- Unique guest experiences\n\nBy combining tradition with modern functionality, he has created spaces that are both visually striking and commercially successful.\n\n## Leadership Style and Business Philosophy\n\n### A Focus on Excellence\n\nTony Matharu is widely recognised for his commitment to excellence. Whether it is hotel operations, customer service, or property development, he maintains high standards across all aspects of his businesses.\n\nHis leadership style is characterised by:\n\n- Attention to detail\n- Strategic thinking\n- Long-term planning\n\nHe believes in building businesses that are sustainable rather than chasing short-term gains.\n\n### People-Centred Approach\n\nAnother key aspect of his philosophy is the importance of people. Tony Matharu understands that success in hospitality depends heavily on the quality of service provided by staff.\n\nHe emphasises:\n\n- Training and development\n- Employee engagement\n- Creating a positive work environment\n\nThis people-first approach has contributed significantly to the success of his ventures.\n\n## Achievements and Recognition\n\nOver the years, Tony Matharu has received numerous awards and honours for his contributions to the hospitality industry.\n\nSome of the most notable recognitions include:\n\n- Hotelier of the Year\n- Business leadership awards\n- Special recognition for contributions to London’s economy\n\nIn addition, he has been awarded honorary academic distinctions, reflecting his influence beyond the business world.\n\nThese accolades highlight not only his professional success but also his impact on the wider community.\n\n## Philanthropy and Community Engagement\n\n### Giving Back to Society\n\nTony Matharu is deeply committed to philanthropy. Through various initiatives, he has supported causes related to:\n\n- Healthcare\n- Education\n- Community development\n\nHe is involved with several charitable organisations and has played a role in raising awareness and funds for important social issues.\n\n### Supporting Local Communities\n\nHis contributions are not limited to financial support. Tony Matharu actively participates in community initiatives, particularly those aimed at:\n\n- Youth development\n- Cultural events\n- Economic recovery efforts\n\nHis work demonstrates a strong belief in the responsibility of business leaders to contribute positively to society.\n\n## Challenges and Resilience\n\n### Navigating Industry Disruptions\n\nThe hospitality industry is highly sensitive to economic fluctuations, and Tony Matharu has faced his share of challenges. From financial crises to global events affecting travel, the sector has experienced significant disruptions.\n\nDespite these challenges, he has consistently demonstrated resilience by:\n\n- Adapting business strategies\n- Diversifying operations\n- Maintaining financial discipline\n\n### Post-Pandemic Recovery\n\nThe COVID-19 pandemic had a profound impact on the hospitality industry. However, Tony Matharu played a key role in navigating this difficult period.\n\nHis response included:\n\n- Operational restructuring\n- Focus on domestic markets\n- Emphasis on health and safety standards\n\nThese measures helped his businesses recover and continue growing in a challenging environment.\n\n## Influence on the Hospitality Industry\n\n### Setting New Standards\n\nTony Matharu has had a lasting impact on London’s hospitality sector. His work has contributed to raising standards in areas such as:\n\n- Guest experience\n- Property design\n- Service quality\n\nBy consistently delivering excellence, he has set benchmarks for others in the industry.\n\n### Inspiring Future Entrepreneurs\n\nHis journey serves as an inspiration for aspiring entrepreneurs. It demonstra",
+            "published_date": null,
+            "query": "\"Tony Matharu\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/blue-orchid-hospitality_tony-matharu-chairman-of-blue-orchid-hotels-activity-6996554154768744449-T8PK",
+            "title": "Blue Orchid Hospitality’s Post",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Tony Matharu\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://theorg.com/org/blue-orchid-hospitality",
+            "title": "Blue Orchid Hospitality | The Org",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Blue Orchid Hospitality | The Org\n\n# Blue Orchid Hospitality\n\n0 followers\n\n‌\n\nWelcome to Blue Orchid Hospitality, a private collection of luxury independent hotels, apartments and residences carefully combined with state-of-the-art events, meetings and conference venues, restaurants and bars, located in the heart of London; the world's most exciting city. Featuring some of... Read more\n\nIndustries\n\nEvent Venues, Hotels & Hospitality+1\n\nHeadquarters\n\nEmployees\n\nLinks\n\nOrg chart\n\nTeams\n\nOffices\n\nPositions (64)\n\n---\n\n## Org chart\n\nTony Matharu\n\nFounder and Chairman\n\n15\n\nTony Matharu\n\nCollapse\n\nSurjinder Chana\n\nChief Financial Officer\n\n3\n\nNicky Garton\n\nHead Of Corporate And Groups\n\n10\n\n---\n\n## Teams\n\n### Hospitality Operations\n\n6 people · 0 jobs2\n\n### Finance and Accounting\n\n4 people · 0 jobsIDRB\n\n### Sales and Marketing\n\n1 person · 0 jobs\n\n---\n\n## Offices\n\n- HQ14 people · 0 jobs10\n\n## Related companies\n\nMGM Resorts International96 followers\n\nRestaurant Brands International92 followers\n\nHilton Grand Vacations47 followers\n\nView more",
+            "published_date": null,
+            "query": "\"Tony Matharu\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=blNttqTUuZE",
+            "title": "Blue Orchid's Tony Matharu on restoring confidence in the market",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "# Blue Orchid's Tony Matharu on restoring confidence in the market\n\n- Channel: BoHoNews\n- Length: 03:35\n- Views: 1.4K\n- Language: en\n\n## Description\n\nWe caught up with Tony Matharu, founder and chairman of Blue Orchid Hotels, to hear how it feels to reopen doors to the public, the appeal of independent living, and the comeback of the corporate traveller.\n\n## Transcript\n\n[Music] we've always been open albeit for key workers so we've had about 5 000 room nights about 30 000 meals during the time when other hotels are sort of hibernated and gone away what we've done now is reopen a little bit more fully um because we can previously it was critical care workers and key workers and and people who were stranded but now we're our doors are further open and we've opened some other outlets we weren't sure about hairdressers for example um ours is now open and our various food and beverage outlets are now starting to work the main reason why we're doing it is because we think there's a need and there needs to be a spirit of optimism and rebound back from this crisis of course we're concerned about safety all the safety protocols are are now implemented we've got probably better experience than anybody else having having had all those people stay and use our facilities so um within those safety guidelines we've opened up and we're starting to get some some green shoots but it's difficult with some of the current guidelines and legislation yeah well we've just um we've opened this new style of accommodation uh we call it all suites some people might call it something different and there is a gray area between apart hotels and studios and so on so all of these are suites they're five star uh they're of course they have fully equipped kitchens but they have all the services of uh luxury hotel brands so restaurants and uh and bars and conference and event centres and so on plus independent living which i think probably in the current climate is what people are looking for they want something that's personal uh clean living independent their own front door and hopefully we can provide that to them so i think it's an expanding market anyway less well served in london than it has been in other capital cities but we saw the demand and it's taken a while but we're now up and running i think there's generally a sentiment from when i speak to the corporates that they want to come back and they're really looking for clues uh and cues from from central government and non-essential travel uh is very unhelpful there's a there's a lot of dubious statements you can apparently travel to europe multiple countries in europe 50 odd destinations and go on holiday will pe but if you want to come to your offices you're told that it's only essential travel that really works and i think that's unhelpful once the cues are given and it you get the green light to come back and the hindrances on transport and other things are removed then i think there will be a steady stream the perception and confidence is what's required and i think opening up is is one of those things that that will help to stimulate that after all if we can't get our people back to work then it's difficult to encourage other people to do that you",
+            "published_date": null,
+            "query": "\"Tony Matharu\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/tony-matharu",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_71364c0215b368e8",
+        "full_name": "Sarah Ermisch",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "Tower Suites by Blue Orchid",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.blueorchid.com/en/heretohelp.html",
+            "title": "Official Coronavirus Update Page",
+            "source_type": "hotel_site",
+            "snippet": "Sarah Ermisch, General Manager",
+            "fetched_text": null,
+            "published_date": "2025-12-10",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d19619544-r814478512-Tower_Suites_by_Blue_Orchid-London_England.html",
+            "title": "TripAdvisor Review Response",
+            "source_type": "other",
+            "snippet": "Sarah Ermisch , General Manager at Tower Suites by Blue Orchid",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/sarah-ermisch-email_111712962",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Sarah Ermisch ... General Manager at Blue Orchid Hotels / Tower Suites by Blue Orchid",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://contactout.com/company/Blue-Orchid-Hotels-5580",
+            "title": "Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Blue Orchid Hotels - Company Profile & Staff Directory | ContactOut\n[](https://contactout.com/)\n![Blue Orchid Hotels logo](https://images.contactout.com/companies/15c22a1afcbba413619a6f333547f705)\n# Blue Orchid Hotels\n[](https://www.linkedin.com/company/blue-orchid-hotels)\n[## Get verified emails for Blue Orchid Hotels employees\n![arrow](https://contactout.com/images/ico-arrow-narrow-right.svg)](javascript:;)\n* [Profile](https://contactout.com/company/Blue-Orchid-Hotels-5580)\n* [Email Format](https://contactout.com/company/Blue-Orchid-Hotels-email-format-5580)\n## About Blue Orchid Hotels\nBlue Orchid Hotels | 983 followers on LinkedIn. London's newest luxury independent hotel collection. | Welcome to Blue Orchid Hotels, a new private collection of luxury independent hotels located in the heart of London; the world’s most exciting city.\nFeaturing some of the best located properties in the capital, Blue Orchid Hotels provide a wealth of history and local tradition, skilfully combined with contemporary luxury.\nYou will always find interesting architecture, exquisite furnishings and warm, friendly service - the hallmarks of Blue Orchid Hotels.\nsee more\n![website icon](https://contactout.com/images/ico-link-01.svg)\nWebsite|\n[https://www.blueorchid.com](https://www.blueorchid.com)\n|\n![employees icon](https://contactout.com/images/ico-users-01.svg)\nEmployees|\n51-200 employees[View all Blue Orchid Hotels employees![link out icon](https://contactout.com/images/ico-link-external-01.svg)](javascript:;)\n|\n![industry icon](https://contactout.com/images/ico-building-06.svg)\nIndustry|\nHospitality\n|\n![location icon](https://contactout.com/images/ico-marker-pin-01.svg)\nLocation|\nLondon,London,GB\n|\n![description icon](https://contactout.com/images/ico-info-circle.svg)\nFounded|\n2019\n|\n[Get verified email of Blue Orchid Hotels employees](javascript:;)\n### Blue Orchid Hotels Alternatives\n[![Alpha Products](https://s3-us-west-1.amazonaws.com/co-directory-images/companies/alpha-products-com-3571145.png)](https://contactout.com/company/alpha-products-240784)[Alpha Products](https://contactout.com/company/alpha-products-240784)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n[![WoodSpring Hotels](https://s3-us-west-1.amazonaws.com/co-directory-images/companies/woodspring-com-72749.png)](https://contactout.com/company/woodspring-hotels-83663)[WoodSpring Hotels](https://contactout.com/company/woodspring-hotels-83663)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n[![Pera Palace Hotel](https://images.contactout.com/companies/0f0e8d8ef837ed1578d6690e4c38f229)](https://contactout.com/company/Pera-Palace-Hotel-3858)[Pera Palace Hotel](https://contactout.com/company/Pera-Palace-Hotel-3858)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nHospitality\n[![Hotel Donaldson](https://images.contactout.com/companies/5296404f75488bee51a435f2842c9cc5)](https://contactout.com/company/hotel-donaldson-293256)[Hotel Donaldson](https://contactout.com/company/hotel-donaldson-293256)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nHospitality\n[![Sedona Rouge Hotel & Spa](https://images.contactout.com/companies/3a207663a87539e15f2027a7ca83174a)](https://contactout.com/company/sedona-rouge-hotel-spa-330481)[Sedona Rouge Hotel & Spa](https://contactout.com/company/sedona-rouge-hotel-spa-330481)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n[![Raritan Valley Country Club](https://images.contactout.com/companies/0e96039d0b84e82dc1d6ee0c35fa084a)](https://contactout.com/company/raritan-valley-country-club-336462)[Raritan Valley Country Club](https://contactout.com/company/raritan-valley-country-club-336462)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n[![TPC Sugarloaf](https://images.contactout.com/companies/6edfdba1e4d13d2bcaba1fc73741bc1a)](https://contactout.com/company/tpc-sugarloaf-336831)[TPC Sugarloaf](https://contactout.com/company/tpc-sugarloaf-336831)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nHospitality\n[![Hutten](https://images.contactout.com/companies/de51c63e88eb727546689c008ed9a3e0)](https://contactout.com/company/hutten-610023)[Hutten](https://contactout.com/company/hutten-610023)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n## Blue Orchid Hotels Staff Directory\n[![Alexandrina Zbircota](https://images.contactout.com/profiles)\nAZ\n](javascript:;)\n[Alexandrina Zbircota](javascript:;)[Management Trainee](javascript:;)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+1-\\*\\*\\*\\*\\*\\*\\*\\*26](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n[![Ashik Valappil](https://images.contactout.com/profiles/fe66e6c144f3b9f914a1b127418080a4)\nAV\n](javascript:;)\n[Ashik Valappil](javascript:;)[Meetings & Events](javascript:;)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+1-\\*\\*\\*\\*\\*\\*\\*\\*22](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n[![Boris Fernandes](https://images.contactout.com/profiles/47195b021c3d5d14cb03a353532908e1)\nBF\n](javascript:;)\n[Boris Fernandes](javascript:;)[Food and Beverage](javascript:;)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+2-\\*\\*\\*\\*\\*\\*\\*\\*06](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n[Download the complete 2025 Blue Orchid Hotels Employee List](javascript:;)\n[![Maria Dellaporta](https://images.contactout.com/profiles/e2b2e8677fbee7d74b361d6e346f65c7)\nMD\n](https://contactout.com/maria-dellaporta-91804)\n[Maria Dellaporta](https://contactout.com/maria-dellaporta-91804)[Reservations Agent](https://contactout.com/maria-dellaporta-91804)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+5-\\*\\*\\*\\*\\*\\*\\*\\*04](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n[![Dora Santos](https://images.contactout.com/profiles/s_42257ed2f7439970ae4ee51f5d4a56)\nDS\n](javascript:;)\n[Dora Santos](javascript:;)[Management Trainee](javascript:;)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+4-\\*\\*\\*\\*\\*\\*\\*\\*19](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n### Search Blue Orchid Hotels Staff Directory\nFind**accurate personal emails, work emails and phone numbers**for employees\n[Search](javascript:;)\n### Supercharge your\nProspecting &\nOutreach with\nContactOutSupercharge your Prospecting &\nOutreach with ContactOut\nSearch Portal### Find countless prospects outside of LinkedIn fast\nAccelerate prospecting with instant access to 300M professionals from 30M companies with the right contact details.\n[Discover the source of our data](https://contactout.com/our-data)\n[Learn more](https://contactout.com/dashboard/search?redirect_auth_to=/search-portal)\n![Search Portal Illustration](https://contactout.com/images/Search_Portal.svg)",
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471298461-Tower_Suites_by_Blue_Orchid-London_England.html",
+            "title": "Good view of the Shard. - Picture of Tower Suites by Blue Orchid, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Good view of the Shard. - Picture of Tower Suites by Blue Orchid, London - Tripadvisor\n* [Flights](https://www.tripadvisor.co.uk/CheapFlightsHome)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/Rentals)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants)\n* [Things to do](https://www.tripadvisor.co.uk/Attractions)\nSkip to main content\nInbox\n[See all](https://www.tripadvisor.co.uk/Inbox)\nLog into get trip updates and message other travellers.\n* [London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n* [Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n* [Things to Do](https://www.tripadvisor.co.uk/Attractions-g186338-Activities-London_England.html)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants-g186338-London_England.html)\n* [Flights](https://www.tripadvisor.co.uk/Flights-g186338-London_England-Cheap_Discount_Airfares.html)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/VacationRentals-g186338-Reviews-London_England-Vacation_Rentals.html)\n* [Travel Stories](https://www.tripadvisor.co.uk/Articles)\n* [Cruises](https://www.tripadvisor.co.uk/CruiseDestination-g4-Europe)\n* [Car Hire](https://www.tripadvisor.co.uk/RentalCars-g186338-London_England.html)\n* [Tours](https://www.tripadvisor.co.uk/Attractions-g186338-Activities-c42-London_England.html)\n* [Add a Place](https://www.tripadvisor.co.uk/AddListing)\n* [Travel Forum](https://www.tripadvisor.co.uk/ShowForum-g186338-i17-London_England.html)\n* [Airlines](https://www.tripadvisor.co.uk/Airlines)\n* [Travellers' Choice](https://www.tripadvisor.co.uk/TravelersChoice)\n* [Help Centre](https://www.tripadvisorsupport.com/hc/en-gb)\n* * [Europe](https://www.tripadvisor.co.uk/Tourism-g4-Europe-Vacations.html)\n* [United Kingdom (UK)](https://www.tripadvisor.co.uk/Tourism-g186216-United_Kingdom-Vacations.html)\n* [England](https://www.tripadvisor.co.uk/Tourism-g186217-England-Vacations.html)\n* [London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n* [London Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n* [Tower Suites by Blue Orchid](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html)\nSearch\n# Good view of the Shard. - Picture of Tower Suites by Blue Orchid, London\n# Photo: Good view of the Shard.\nFrom Review:[Great location, price and the free upgrade was a great surprise.](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d19619544-r772286327-Tower_Suites_by_Blue_Orchid-London_England.html)ofTower Suites by Blue Orchid\n## [Tower Suites by Blue Orchid](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html)\n4.6 of 5 bubbles[1,419reviews](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html#REVIEWS)\n#68of1,270hotelsin[London](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n[100 Minories, London EC3N 1JY England](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html#MAPVIEW)\n* * * ![Good view of the Shard.](https://media-cdn.tripadvisor.com/media/photo-s/1c/17/71/9d/good-view-of-the-shard.jpg \"Good view of the Shard.\")\n* ![7th floor offered a very good view.](https://media-cdn.tripadvisor.com/media/photo-s/1c/17/71/94/7th-floor-offered-a-very.jpg \"7th floor offered a very good view.\")\n* ![Birthday celebrations ](https://media-cdn.tripadvisor.com/media/photo-s/1c/13/4d/8c/20200831-213821-largejpg.jpg \"Birthday celebrations \")\n[\n](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471298463-Tower_Suites_by_Blue_Orchid-London_England.html)[\n](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471298452-Tower_Suites_by_Blue_Orchid-London_England.html)\n943\n[![Good view of the Shard.](https://media-cdn.tripadvisor.com/media/photo-s/1c/17/71/9d/good-view-of-the-shard.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471298461-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![7th floor offered a very good view.](https://media-cdn.tripadvisor.com/media/photo-f/1c/17/71/94/7th-floor-offered-a-very.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471298452-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Birthday celebrations ](https://media-cdn.tripadvisor.com/media/photo-s/1c/13/4d/8c/20200831-213821-largejpg.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471027084-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Super Studio ](https://media-cdn.tripadvisor.com/media/photo-s/1c/05/ee/9e/photo8jpg.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i470150814-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Super Studio ](https://media-cdn.tripadvisor.com/media/photo-s/1c/05/ee/9d/photo7jpg.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i470150813-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Super Studio ](https://media-cdn.tripadvisor.com/media/photo-s/1c/05/ee/9c/photo6jpg.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i470150812-Tower_Suites_by_Blue_Orchid-London_England.html)\nCheck In\n—/ —/ —Check Out\n—/ —/ —Guests\n1 room,2 adults,0 children\n## Other Recent Reviews\n[> Great location and experience!\n](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d19619544-r1004486793-Tower_Suites_by_Blue_Orchid-London_England.html)\nApril 2025\n[Read all1,419reviews](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html#REVIEWS)\n[\n![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/c0/60/19/mcburgess2001.jpg?w=100&h=-1&s=1)\n](https://www.tripadvisor.co.uk/Profile/mcburgess2001)\n[Mark Burgess](https://www.tripadvisor.co.uk/Profile/mcburgess2001)wrote a reviewSept 2020\nWimbish, United Kingdom390contributions79helpful votes\n4.0 of 5 bubbles\n[Great location, price and the free upgrade was a great surprise.](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d19619544-r772286327-Tower_Suites_by_Blue_Orchid-London_England.html)\nI booked this hotel to celebrate my 50th birthday in London with my wife. I chose the location due to wishing to visit the Tower of London. It was located right next to Tower Hill underground and directly across from the DLR so made it really easy to get out and about. Walking…\nRead more\nDate of stay:September 2020\nResponse fromSarah Ermisch,General ManageratTower Suites by Blue Orchid\nResponded5 Oct 2020\nIt is good to hear that you enjoyed your stay and you particularly liked the location of the hotel together with our Italian restaurant Cento Alla Torre. Your comments have all been noted. We hope that you will stay with us again in the near future. The continually changing COVID-19 rules and extra protocols do cause certain operational difficulties, however we are trying our best :) With kind regards, Blue Orchid team\nRead more\nReport response as inappropriate\nBeen toTower Suites by Blue Orchid? Share your experience!\n[Write a Review](https://www.tripadvisor.co.uk/UserReview-g186338-d19619544-Tower_Suites_by_Blue_Orchid-London_England.html)[Add Photo](https://www.tripadvisor.co.uk/PostPhotos-d19619544)\n[See all1,419reviews ofTower Suites by Blue Orchid](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html#REVIEWS)",
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i475223776-Tower_Suites_by_Blue_Orchid-London_England.html",
+            "title": "Massage therapy  - Picture of Tower Suites by Blue Orchid, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Massage therapy - Picture of Tower Suites by Blue Orchid, London - Tripadvisor\n* [Flights](https://www.tripadvisor.co.uk/CheapFlightsHome)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/Rentals)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants)\n* [Things to do](https://www.tripadvisor.co.uk/Attractions)\nSkip to main content\nInbox\n[See all](https://www.tripadvisor.co.uk/Inbox)\nLog into get trip updates and message other travellers.\n* [London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n* [Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n* [Things to Do](https://www.tripadvisor.co.uk/Attractions-g186338-Activities-London_England.html)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants-g186338-London_England.html)\n* [Flights](https://www.tripadvisor.co.uk/Flights-g186338-London_England-Cheap_Discount_Airfares.html)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/VacationRentals-g186338-Reviews-London_England-Vacation_Rentals.html)\n* [Travel Stories](https://www.tripadvisor.co.uk/Articles)\n* [Cruises](https://www.tripadvisor.co.uk/CruiseDestination-g4-Europe)\n* [Car Hire](https://www.tripadvisor.co.uk/RentalCars-g186338-London_England.html)\n* [Tours](https://www.tripadvisor.co.uk/Attractions-g186338-Activities-c42-London_England.html)\n* [Add a Place](https://www.tripadvisor.co.uk/AddListing)\n* [Travel Forum](https://www.tripadvisor.co.uk/ShowForum-g186338-i17-London_England.html)\n* [Airlines](https://www.tripadvisor.co.uk/Airlines)\n* [Travellers' Choice](https://www.tripadvisor.co.uk/TravelersChoice)\n* [Help Centre](https://www.tripadvisorsupport.com/hc/en-gb)\n* * [Europe](https://www.tripadvisor.co.uk/Tourism-g4-Europe-Vacations.html)\n* [United Kingdom (UK)](https://www.tripadvisor.co.uk/Tourism-g186216-United_Kingdom-Vacations.html)\n* [England](https://www.tripadvisor.co.uk/Tourism-g186217-England-Vacations.html)\n* [London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n* [London Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n* [Tower Suites by Blue Orchid](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html)\nSearch\n# Massage therapy - Picture of Tower Suites by Blue Orchid, London\n# Photo: Massage therapy\nFrom Review:[Great visit, would love to stay again](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d19619544-r777217798-Tower_Suites_by_Blue_Orchid-London_England.html)ofTower Suites by Blue Orchid\n## [Tower Suites by Blue Orchid](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html)\n4.6 of 5 bubbles[1,435reviews](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html#REVIEWS)\n#64of1,268hotelsin[London](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n[100 Minories, London EC3N 1JY England](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html#MAPVIEW)\n* * * ![Massage therapy ](https://media-cdn.tripadvisor.com/media/photo-s/1c/53/56/e0/massage-therapy.jpg \"Massage therapy \")\n* ![Breakfast](https://media-cdn.tripadvisor.com/media/photo-s/1c/53/56/df/breakfast.jpg \"Breakfast\")\n* ![Brilliantly modern](https://media-cdn.tripadvisor.com/media/photo-s/1c/4f/6d/5f/photo3jpg.jpg \"Brilliantly modern\")\n[\n](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i475223782-Tower_Suites_by_Blue_Orchid-London_England.html)[\n](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i475223775-Tower_Suites_by_Blue_Orchid-London_England.html)\n949\n[![Massage therapy ](https://media-cdn.tripadvisor.com/media/photo-s/1c/53/56/e0/massage-therapy.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i475223776-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Breakfast](https://media-cdn.tripadvisor.com/media/photo-s/1c/53/56/df/breakfast.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i475223775-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Brilliantly modern](https://media-cdn.tripadvisor.com/media/photo-f/1c/4f/6d/5f/photo3jpg.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i474967391-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Brilliantly modern](https://media-cdn.tripadvisor.com/media/photo-s/1c/4f/6d/5e/photo2jpg.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i474967390-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Brilliantly modern](https://media-cdn.tripadvisor.com/media/photo-f/1c/4f/6d/5d/photo1jpg.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i474967389-Tower_Suites_by_Blue_Orchid-London_England.html)\n[![Brilliantly modern](https://media-cdn.tripadvisor.com/media/photo-s/1c/4f/6d/5c/photo0jpg.jpg)](https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i474967388-Tower_Suites_by_Blue_Orchid-London_England.html)\nCheck In\n—/ —/ —Check Out\n—/ —/ —Guests\n1 room,2 adults,0 children\n## Other Recent Reviews\n[> Tower Suites London\n](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d19619544-r1006729044-Tower_Suites_by_Blue_Orchid-London_England.html)\nMay 2025\n[> Brilliant stay in a great location\n](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d19619544-r1006264204-Tower_Suites_by_Blue_Orchid-London_England.html)\nMay 2025\n[Read all1,435reviews](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html#REVIEWS)\n[\n![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/f6/f2/eb/default-avatar-2020-27.jpg?w=100&h=-1&s=1)\n](https://www.tripadvisor.co.uk/Profile/790joyceo)\n[Joy](https://www.tripadvisor.co.uk/Profile/790joyceo)wrote a reviewNov 2020\n6contributions1helpful vote\n5.0 of 5 bubbles\n[Great visit, would love to stay again](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d19619544-r777217798-Tower_Suites_by_Blue_Orchid-London_England.html)\nThis really is one of the best hotels I've stayed in. I travelled during the October half term (just before London lockdown 2.0) and it was great, Staff were friendly, room was clean and large and breakfast was delivered daily. I had the executive suite which had a microwave,…\nRead more\nDate of stay:October 2020\nResponse fromSarah Ermisch,General ManageratTower Suites by Blue Orchid\nResponded16 Nov 2020\nThank you for your lovely comments, we are pleased that everything was to your full satisfaction. We do hope that you will have the opportunity of staying with us again this year if the restrictions permit. With kind regards, Blue Orchid team\nRead more\nReport response as inappropriate\nBeen toTower Suites by Blue Orchid? Share your experience!\n[Write a Review](https://www.tripadvisor.co.uk/UserReview-g186338-d19619544-Tower_Suites_by_Blue_Orchid-London_England.html)[Add Photo](https://www.tripadvisor.co.uk/PostPhotos-d19619544)\n[See all1,435reviews ofTower Suites by Blue Orchid](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d19619544-Reviews-Tower_Suites_by_Blue_Orchid-London_England.html#REVIEWS)",
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.blueorchid.com/about",
+            "title": "Discover the Top Hotels in Central London - Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Discover the Top Hotels in Central London - Blue Orchid Hotels \n\n \n\n \n\nABOUT Blue Orchid Hospitality\n\nAbout Us\n\nWelcome to Blue Orchid Hospitality, a private collection of luxury independent hotels, apartments and residences carefully combined with state-of-the-art events, meetings and conference venues and restaurants and bars, located in the heart of London; the world's most exciting city.\n\nFeaturing some of the best located properties in the capital, Blue Orchid Hospitality skillfully blends a wealth of history and local tradition with contemporary luxury.\n\nWhether you’re in search of luxury central London hotel suites, independent living in sumptuous apartments or elegant residences, Blue Orchid can satisfy the most discerning guests in search of the very best central London accommodation. Events and conference spaces offer a diverse range of opportunities to suit a wide variety of requirements; from London’s latest roof top venue boasting stunning panoramic views over London’s iconic skyline to a charming chapel in leafy Westminster.\n\nYou will always find interesting architecture, exquisite furnishings and warm, friendly and attentive service - the hallmarks of Blue Orchid Hospitality. Download the brochure here.\n\nOur Promise to You\n\n- Integrity: We promise to act with integrity. To uphold the highest level of honesty and fairness in all of our relationships.\n- Respect: We will earn and demonstrate respect, and show courtesy to others just as we would wish for ourselves.\n- Humility: We approach life with a sense of gratitude rather than entitlement.\n- Partnerships: We develop partnerships generating individual and collective value from collaborative action.\n- Community: We are committed to the idea of sharing and giving, respecting the environment and making a positive difference to the communities in which we operate.\n- Family: We treat our guests and associates with the warmth and friendliness of an extended family.\n- Learning: We are constantly developing and evolving our skills, our practices, our standards and technologies. We move forwards by never standing still.\n\nBook Now\n\n×\n\n- Rooms\n\nAll Blue Orchid Hotels\n\n{{BookingRoomList.length}} Room1\">s {{TotalAdult}} Adult1\">s 1\" data-ng-if=\"TotalChild>0\">{{TotalChild}} Child 1\">{{TotalChild}} Children\n\nSearch\n\n{{BookingRoomList.length}} Room1\">s {{TotalAdult}} Adult1\">s 1\" data-ng-if=\"TotalChild>0\">{{TotalChild}} Child 1\">{{TotalChild}} Children\n\nYou can not book more than 90 nights.\n\nUse REVAREW Loyalty Points\n\nGuests\n\n \n\n0}\" style=\"margin-bottom:6px;\">\n\nRoom {{$index+1}}\n\n- +\n\n0 && $index==BookingRoomList.length-1\" id=\"idindex\">\n\n \n\nAdd Room\n\nOK\n\n",
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/gintare-cerkesaite-8a700415a",
+            "title": "Gintare Cerkesaite | Meetings & Events Manager at Tower Suites by Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Tower Suites by Blue Orchid\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/dragi-temkov-6431a261",
+            "title": "Dragi Temkov | MICE Sales Manager | Entrepreneur | Growing Shield and Partners to Deliver Innovative Solutions in Renewable energies.",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Tower Suites by Blue Orchid\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/kenza-zeraidi-a8132720a",
+            "title": "Kenza Zeraidi | Meetings and Events Executive",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Tower Suites by Blue Orchid\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/amit-singh-5868b9171",
+            "title": "Amit Singh | Blue Orchid Hospitality",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Tower Suites by Blue Orchid\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/pop-gabriel-7a844a229",
+            "title": "Pop Gabriel | Head Concierge @ Tower Suites",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sarah Ermisch\" \"Tower Suites by Blue Orchid\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "20200831-213821",
+            "confidence": "medium",
+            "source_url": "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471298461-Tower_Suites_by_Blue_Orchid-London_England.html",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "1004486793",
+            "confidence": "medium",
+            "source_url": "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471298461-Tower_Suites_by_Blue_Orchid-London_England.html",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "1006729044",
+            "confidence": "medium",
+            "source_url": "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i475223776-Tower_Suites_by_Blue_Orchid-London_England.html",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "1006264204",
+            "confidence": "medium",
+            "source_url": "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i475223776-Tower_Suites_by_Blue_Orchid-London_England.html",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_7c761a935e73aaf9",
+        "full_name": "Andreas Schreiter",
+        "title": "Development General Manager",
+        "normalized_title": "development general manager",
+        "company": "Blue Orchid Hospitality",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/andreas-schreiter",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Development General Manager · Blue Orchid Hospitality ... Total rooms inventory of 433 rooms across 3 hotels | Tower Suites - 5-star, Wellington Hotel 4-Star",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/andreas-schreiter-email_276653609",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Andreas Schreiter, Development General Manager at Blue Orchid Hospitality",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/blue-orchid-hotels-profile_b45c197dfc6f5fe7",
+            "title": "Blue Orchid Hotels Information - RocketReach",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andreas Schreiter\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://contactout.com/company/Blue-Orchid-Hotels-5580",
+            "title": "Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Blue Orchid Hotels - Company Profile & Staff Directory | ContactOut\n[](https://contactout.com/)\n![Blue Orchid Hotels logo](https://images.contactout.com/companies/15c22a1afcbba413619a6f333547f705)\n# Blue Orchid Hotels\n[](https://www.linkedin.com/company/blue-orchid-hotels)\n[## Get verified emails for Blue Orchid Hotels employees\n![arrow](https://contactout.com/images/ico-arrow-narrow-right.svg)](javascript:;)\n* [Profile](https://contactout.com/company/Blue-Orchid-Hotels-5580)\n* [Email Format](https://contactout.com/company/Blue-Orchid-Hotels-email-format-5580)\n## About Blue Orchid Hotels\nBlue Orchid Hotels | 983 followers on LinkedIn. London's newest luxury independent hotel collection. | Welcome to Blue Orchid Hotels, a new private collection of luxury independent hotels located in the heart of London; the world’s most exciting city.\nFeaturing some of the best located properties in the capital, Blue Orchid Hotels provide a wealth of history and local tradition, skilfully combined with contemporary luxury.\nYou will always find interesting architecture, exquisite furnishings and warm, friendly service - the hallmarks of Blue Orchid Hotels.\nsee more\n![website icon](https://contactout.com/images/ico-link-01.svg)\nWebsite|\n[https://www.blueorchid.com](https://www.blueorchid.com)\n|\n![employees icon](https://contactout.com/images/ico-users-01.svg)\nEmployees|\n51-200 employees[View all Blue Orchid Hotels employees![link out icon](https://contactout.com/images/ico-link-external-01.svg)](javascript:;)\n|\n![industry icon](https://contactout.com/images/ico-building-06.svg)\nIndustry|\nHospitality\n|\n![location icon](https://contactout.com/images/ico-marker-pin-01.svg)\nLocation|\nLondon,London,GB\n|\n![description icon](https://contactout.com/images/ico-info-circle.svg)\nFounded|\n2019\n|\n[Get verified email of Blue Orchid Hotels employees](javascript:;)\n### Blue Orchid Hotels Alternatives\n[![Alpha Products](https://s3-us-west-1.amazonaws.com/co-directory-images/companies/alpha-products-com-3571145.png)](https://contactout.com/company/alpha-products-240784)[Alpha Products](https://contactout.com/company/alpha-products-240784)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n[![WoodSpring Hotels](https://s3-us-west-1.amazonaws.com/co-directory-images/companies/woodspring-com-72749.png)](https://contactout.com/company/woodspring-hotels-83663)[WoodSpring Hotels](https://contactout.com/company/woodspring-hotels-83663)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n[![Pera Palace Hotel](https://images.contactout.com/companies/0f0e8d8ef837ed1578d6690e4c38f229)](https://contactout.com/company/Pera-Palace-Hotel-3858)[Pera Palace Hotel](https://contactout.com/company/Pera-Palace-Hotel-3858)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nHospitality\n[![Hotel Donaldson](https://images.contactout.com/companies/5296404f75488bee51a435f2842c9cc5)](https://contactout.com/company/hotel-donaldson-293256)[Hotel Donaldson](https://contactout.com/company/hotel-donaldson-293256)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nHospitality\n[![Sedona Rouge Hotel & Spa](https://images.contactout.com/companies/3a207663a87539e15f2027a7ca83174a)](https://contactout.com/company/sedona-rouge-hotel-spa-330481)[Sedona Rouge Hotel & Spa](https://contactout.com/company/sedona-rouge-hotel-spa-330481)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n[![Raritan Valley Country Club](https://images.contactout.com/companies/0e96039d0b84e82dc1d6ee0c35fa084a)](https://contactout.com/company/raritan-valley-country-club-336462)[Raritan Valley Country Club](https://contactout.com/company/raritan-valley-country-club-336462)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n[![TPC Sugarloaf](https://images.contactout.com/companies/6edfdba1e4d13d2bcaba1fc73741bc1a)](https://contactout.com/company/tpc-sugarloaf-336831)[TPC Sugarloaf](https://contactout.com/company/tpc-sugarloaf-336831)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nHospitality\n[![Hutten](https://images.contactout.com/companies/de51c63e88eb727546689c008ed9a3e0)](https://contactout.com/company/hutten-610023)[Hutten](https://contactout.com/company/hutten-610023)\n![Industry](https://contactout.com/images/ico-building-06.svg)\nhospitality\n## Blue Orchid Hotels Staff Directory\n[![Alexandrina Zbircota](https://images.contactout.com/profiles)\nAZ\n](javascript:;)\n[Alexandrina Zbircota](javascript:;)[Management Trainee](javascript:;)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+1-\\*\\*\\*\\*\\*\\*\\*\\*26](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n[![Ashik Valappil](https://images.contactout.com/profiles/fe66e6c144f3b9f914a1b127418080a4)\nAV\n](javascript:;)\n[Ashik Valappil](javascript:;)[Meetings & Events](javascript:;)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+1-\\*\\*\\*\\*\\*\\*\\*\\*22](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n[![Boris Fernandes](https://images.contactout.com/profiles/47195b021c3d5d14cb03a353532908e1)\nBF\n](javascript:;)\n[Boris Fernandes](javascript:;)[Food and Beverage](javascript:;)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+2-\\*\\*\\*\\*\\*\\*\\*\\*06](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n[Download the complete 2025 Blue Orchid Hotels Employee List](javascript:;)\n[![Maria Dellaporta](https://images.contactout.com/profiles/e2b2e8677fbee7d74b361d6e346f65c7)\nMD\n](https://contactout.com/maria-dellaporta-91804)\n[Maria Dellaporta](https://contactout.com/maria-dellaporta-91804)[Reservations Agent](https://contactout.com/maria-dellaporta-91804)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+5-\\*\\*\\*\\*\\*\\*\\*\\*04](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n[![Dora Santos](https://images.contactout.com/profiles/s_42257ed2f7439970ae4ee51f5d4a56)\nDS\n](javascript:;)\n[Dora Santos](javascript:;)[Management Trainee](javascript:;)\n[View](javascript:;)\n[View](javascript:;)\n![phone](https://contactout.com/images/ico-phone.svg)\n[+4-\\*\\*\\*\\*\\*\\*\\*\\*19](javascript:;)\n![email](https://contactout.com/images/ico-mail-01.svg)\n[\\*\\*\\*\\*\\*\\*@blueorchid.com](javascript:;)\n### Search Blue Orchid Hotels Staff Directory\nFind**accurate personal emails, work emails and phone numbers**for employees\n[Search](javascript:;)\n### Supercharge your\nProspecting &\nOutreach with\nContactOutSupercharge your Prospecting &\nOutreach with ContactOut\nSearch Portal### Find countless prospects outside of LinkedIn fast\nAccelerate prospecting with instant access to 300M professionals from 30M companies with the right contact details.\n[Discover the source of our data](https://contactout.com/our-data)\n[Learn more](https://contactout.com/dashboard/search?redirect_auth_to=/search-portal)\n![Search Portal Illustration](https://contactout.com/images/Search_Portal.svg)",
+            "published_date": null,
+            "query": "\"Andreas Schreiter\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/blue-orchid-hospitality",
+            "title": "Blue Orchid Hospitality | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andreas Schreiter\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.xing.com/profile/Andreas_Schreiter5",
+            "title": "Andreas Schreiter - Director Account Management - BidX GmbH | XING",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Andreas Schreiter - Director Account Management - BidX GmbH | XING\n\nAndreas Schreiter\n\nBidX GmbH\n\nDirector Account Management\n\nDarmstadt\n\n# Andreas Schreiter\n\nBasic\n\nSee whole profile\n\nAngestellt, Director Account Management, BidX GmbH\n\nDarmstadt, Germany\n\nLog in now to view all entries.\n\n## Andreas Schreiter\n\nBereichsleiter/Ressourcenmanager Mobile Networks EngineeringOberlungwitz\n\n## Andreas Schreiter\n\nZimmermannPobershau\n\nLog in now to view their full profile.\n\nAmazon\n\nOnline-Advertising\n\nPPC\n\nContent Marketing\n\nContent Management Systeme\n\nWordpress\n\nWooCommerce\n\nE-commerce\n\nE-Commerce Consulting\n\nKundenbeziehung\n\nCRM\n\nOnline Handel\n\nimport\n\nControlling\n\nOnline Marketing\n\nAffiliate marketing\n\nSEA\n\nSEO\n\nDisplaywerbung\n\n### Professional experience for Andreas Schreiter\n\nCurrent 5 years and 8 months, since Aug 2020\n\n#### Director Account Management\n\nBidX GmbH\n\n1 year and 5 months, Apr 2019 - Aug 2020\n\n#### Key Account Manager\n\nBidX GmbH\n\n4 years and 1 month, Mar 2015 - Mar 2019\n\n#### Gründer und Geschäftsführer\n\nMy Digital City\n\n6 months, Oct 2016 - Mar 2017\n\n#### Werkstudent\n\nInteractiveMedia CCSP GmbH\n\nWerkstudent im Campaign Management\n\n1 year and 1 month, Sep 2015 - Sep 2016\n\n#### Werkstudent\n\nDeutsche Telekom AG\n\n4 years and 7 months, Mar 2011 - Sep 2015\n\n#### Aushilfe\n\nLufthansa Seeheim - More than a Conference Hotel\n\nBelieferung von Meetings & Trainings, Vorbereitung von Konferenz- & Banketträumen, Service bei Konferenz- & Bankettveranstaltungen, Lagerarbeiten\n\n1 year and 10 months, Oct 2012 - Jul 2014\n\n#### Beraterassistent\n\ntecis Finanzdienstleistungen AG\n\n- Analyse von Investmentfonds - Zusammenstellung von Investmentportfolios - Einarbeitung von neuen Mitarbeitern - Vorträge zum Thema Finanzen erstellen und halten - Kundenakquise - Erstellung eines Finanzkonzeptes - Beratungsgespräche\n\n1 year and 10 months, Apr 2011 - Jan 2013\n\n#### Selbständig\n\nAndreas Schreiter\n\n- Aufbau einer Homepage über CMS Systeme - Recherche betreiben - Grafik-Design - Informationsprodukte (eBooks) erstellen - Online Marketing (SEO, Affiliates, Presse, Social Media) - Statistische Auswertung von Google Analytics und Adsense - Keywordrecherche und Analyse\n\nLog in now to view their full profile.\n\n### Educational background for Andreas Schreiter\n\n2 years and 7 months, Sep 2016 - Mar 2019\n\n#### Wirtschaftswissenschaft\n\nJohannes Gutenberg-Universität Mainz\n\nWirtschaftswissenschaften mit Schwerpunkt Marketing\n\nLog in now to view their full profile.\n\n### German\n\nFirst language\n\n### English\n\nFluent\n\n## Heiko Dach\n\nVice President Key Account Managent & Leiter Bachend IT DevelopmentHannover\n\n## Sebastian Nagel\n\nTeamleitung Online-MarketingSyke\n\n## Franziska Lenz\n\nDipl.-Pädagogin im Allgemeinen Sozialen DienstHamburg\n\n## Evert Veldhuijzen\n\nGeschäftsführerBerlin\n\n## Manisha Pradhan\n\nGrowth & Digital Marketing SpecialistBerlin\n\n## Barbara Brischar\n\nSenior Digital Marketing ConsultantWien\n\n## Tobias Meschkat\n\nWirtschaftsinformatikMünchen\n\n## Jhonny Luis Amarilla Torres\n\nSenior Key Account Manager E-Commerce SDA - Amazon/OttoHamburg\n\n## Jochen Vesenmaier\n\nInhaber skylt.deMünchen\n\n## David Markstädter\n\nSelbstständig im Bereich Online MarketingBielefeld\n\n## Mirko Peters\n\nE-Learning AuthorDarmstadt\n\n## Tobias Rein\n\nDirector Agency GermanyDüsseldorf\n\n## Markus Gerharz\n\nLeitung Programm Geschäftsfeld ImmobilienwirtschaftKöln\n\n## Daniel Capek\n\nDigital Marketing ManagerKöln\n\n## Kathrin Sengotta\n\nCorporate Creative Content ManagerLondon\n\n## Sabine Stiller\n\nMarketing ManagerDüsseldorf\n\n## Denise Keller\n\nContent Managerin E-CommerceScheer\n\n## Zbynek Zapletal\n\nDirector Programmatic & Account ManagementZurich\n\n## Jo-Anne Voigt\n\nMarketing ManagerinMünster\n\n## Susanne Nachtsheim\n\nGroup Head PPCFrankfurt am Main\n\n## XING – The jobs network\n\nOver 1 million jobs\n\nFind just the right job for you on XING.\n\nJob offers just for you\n\nGet found by employers and over 20,000 recruiters.\n\n21 million members\n\nConnect with new people and gather inspiration to boost your working life.\n\nFree membership\n\nBasic membership is free, but the opportunities are priceless.\n\nRegister now\n\n## Browse over 21 million XING members\n\nLast name:\n\nA B C D E F G H I J K L M N O P\n\nQ R S T U V W X Y Z",
+            "published_date": null,
+            "query": "\"Andreas Schreiter\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/andreas-schreiter",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_895a3fea127eb0e8",
+        "full_name": "Charitha Hettiarachchi",
+        "title": "Regional Director of Sales – UK & Europe",
+        "normalized_title": "regional director of sales – uk & europe",
+        "company": "Blue Orchid Hospitality",
+        "role_tier": 2,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.optimiser.com/testimonial/blue-orchid-hospitality",
+            "title": "Testimonial Page",
+            "source_type": "other",
+            "snippet": "Charitha Hettiarachchi, Blue Orchid Hospitality . Regional Director of Sales – UK & Europe",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/charitha-hettiarachchi-644844131",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Charitha Hettiarachchi - Blue Orchid Hospitality",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.international-confex.com/speakers/charitha-hettiarachchi",
+            "title": "Charitha Hettiarachchi - International Confex",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Charitha Hettiarachchi - International Confex \n\nLoading\n\n## Charitha Hettiarachchi\n\nDirector of Sales, Blue Orchid Hospitality\n\n13+ years’ UK sales experience across the Hospitality Service sector.\n\nSessions\n\n25-Feb-2026\n\n14:00 – 14:45\n\nLondon Calling\n\n25-Feb-2026\n\n15:00 – 15:45\n\nLondon Calling\n\n- Big Budget vs Intimate Impact: Choosing the Right Scale and Space for Your Events\n- London on a budget: how to squeeze the most out of your event in the capital city",
+            "published_date": null,
+            "query": "\"Charitha Hettiarachchi\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www4.lead411.com/Charitha_Hettiarachchi_87661250.html",
+            "title": "Charitha Hettiarachchi | Global Hospitality Services | Email, Regional Director Of Sales UK and Europe",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charitha Hettiarachchi\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.blueorchid.com/en/csr.html",
+            "title": "CSR-BlueOrchid",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charitha Hettiarachchi\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://scholar.google.com/citations?user=WBjoPpwAAAAJ&hl=en",
+            "title": "‪Charitha Hettiarachchi‬ - ‪Google Scholar‬",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charitha Hettiarachchi\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/charitha-hettiarachchi-644844131",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_e2a7e1350f8486f1",
+        "full_name": "Fred Lukas",
+        "title": "Training Manager",
+        "normalized_title": "training manager",
+        "company": "Blue Orchid Hotels",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+            "title": "RocketReach Management Team Org Chart",
+            "source_type": "directory",
+            "snippet": "Fred Lukas (Training Manager) at Blue Orchid Hotels",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/fred-lukas",
+            "title": "Fred Lukas | Specialist in Event Coordination & Team Development",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/blue-orchid-hospitality",
+            "title": "Blue Orchid Hospitality | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/blue-orchid-hospitality_tony-matharu-chairman-of-blue-orchid-hotels-activity-6996554154768744449-T8PK",
+            "title": "Blue Orchid Hospitality’s Post",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/blue-orchid-hospitality_a-weekend-worth-waking-up-for-start-activity-7265774084750290946-L1q8",
+            "title": "Blue Orchid Hospitality’s Post",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.blueorchid.com/",
+            "title": "Best Affordable Luxury hotels & Suites in London, UK",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/fred-lukas",
+            "title": "Fred Lukas | Training Manager | Marketing Professional | Specialist in Event Coordination & Team Development | Passionate About Mentoring",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/james-stewart-319680b8",
+            "title": "James Stewart | Group Chief Engineer  at Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/andreas-schreiter",
+            "title": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/andreea-neamu-07ab3414b",
+            "title": "Andreea Neamu | Front of House, Opera, Microsoft",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/ovidiu-a-b09529b0",
+            "title": "Ovidiu A. | Maintenance manager Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Fred Lukas\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Title confirmed via third-party aggregator; role is operational rather than top-level decision-making"
+        ]
+      },
+      {
+        "candidate_id": "c_890a88ce85c29620",
+        "full_name": "Cagri Senkul",
+        "title": "Senior Business Development Manager",
+        "normalized_title": "senior business development manager",
+        "company": "Blue Orchid Hotels",
+        "role_tier": 3,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+            "title": "RocketReach Management Team Org Chart",
+            "source_type": "directory",
+            "snippet": "Cagri Senkul (Senior Business Development Manager) at Blue Orchid Hotels",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/cagri-senkul-email_36369378",
+            "title": "Cagri Senkul Email & Phone Number | Blue Orchid Hospitality ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/blue-orchid-hotels-profile_b45c197dfc6f5fe7",
+            "title": "Blue Orchid Hotels Information - RocketReach",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://the-dots.com/users/cagri-senkul-1010825",
+            "title": "Cagri Senkul Business Development Manager | The Dots",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://blueorchidhotels.com/",
+            "title": "Best Affordable Luxury hotels & Suites in London, UK",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.blueorchid.com/about",
+            "title": "Discover the Top Hotels in Central London - Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/cagri-bihter-senkul-36b09294",
+            "title": "Cagri Bihter Senkul | Corporate & Commercial",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/nicky-garton-a6b595160",
+            "title": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/james-stewart-319680b8",
+            "title": "James Stewart | Group Chief Engineer  at Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+            "title": "Alejandro Dordevic | General  Manager @ 93 Luxury Suites by Blue Doors Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/tarun-raj-77932922a",
+            "title": "Tarun Raj | Assistant Vice President - Brand Development at Royal Orchid Hotels ltd.",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Cagri Senkul\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_641e2b9565a764fd",
+        "full_name": "Manikandan Kumar",
+        "title": "Digital Marketing Manager",
+        "normalized_title": "digital marketing manager",
+        "company": "Blue Orchid Hotels",
+        "role_tier": 3,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+            "title": "RocketReach Management Team Org Chart",
+            "source_type": "directory",
+            "snippet": "Manikandan Kumar (Digital Marketing Manager) at Blue Orchid Hotels",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/manikandan-kumar-email_40336231",
+            "title": "Manikandan Kumar Email & Phone Number | Blue Orchid Hospitality ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/blue-orchid-hotels-profile_b45c197dfc6f5fe7",
+            "title": "Blue Orchid Hotels Information - RocketReach",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.blueorchid.com/en/blog/index",
+            "title": "Our Blog | Explore London City | Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/blue-orchid-hospitality",
+            "title": "Blue Orchid Hospitality | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://theorg.com/org/blue-orchid-hospitality",
+            "title": "Blue Orchid Hospitality | The Org",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/manikandan-kumar-a8051711",
+            "title": "Manikandan Kumar | Digital Marketing Manager at Blue Orchid Hospitality",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/pranil-chimbaikar-0234341a8",
+            "title": "Pranil Chimbaikar | Food and Beverage Operations",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/pranit-chandarana",
+            "title": "Pranit Chandarana | Business Development Manager focusing on MICE at Blue Orchid Hospitality",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/mahesh-kumar-kati-143259212",
+            "title": "Mahesh Kumar Kati | Management Trainee at Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/manish-kumar-90b61b145",
+            "title": "Manish Kumar | Sr. Front Office Executive",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Manikandan Kumar\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_f227e96df30befbe",
+        "full_name": "Navdeep Singh",
+        "title": "Purchasing Manager",
+        "normalized_title": "purchasing manager",
+        "company": "Blue Orchid Hotels",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+            "title": "RocketReach Management Team Org Chart",
+            "source_type": "directory",
+            "snippet": "Navdeep Singh (Purchasing Manager) at Blue Orchid Hotels",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/navdeep-singh-647430156",
+            "title": "Navdeep Singh - Blue Orchid Hotels - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://intch.org/1415570",
+            "title": "Navdeep Singh - Purchasing Manager, Blue Orchid Hotels | Intch",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/navdeep-singh-647430156_hospitality-team-chefs-activity-7034643584179953664-mWky",
+            "title": "#hospitality #team #chefs #plantbase #blueorchidhotels | Navdeep ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://wiza.co/d/blue-orchid-hospitality/bc48/utkarsh-pachori",
+            "title": "Utkarsh Pachori - Project Manager at Blue Orchid Hospitality - Wiza",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/navdeep-singh-email_72297997",
+            "title": "Navdeep Singh Email & Phone Number | Blue Orchid Hotels ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/navdeep-singh-647430156",
+            "title": "Navdeep Singh | Purchasing Manager at Blue Orchid Hotels and Volunteer at Here to Help London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/ovidiu-a-b09529b0",
+            "title": "Ovidiu A. | Maintenance manager Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/navdeep-singh-13644878",
+            "title": "Navdeep Singh | Hotelier | Ex Oberoi | Ex RHG | Ex ROHL",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/nicky-garton-a6b595160",
+            "title": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/navdeep-singh-dhillon-42343363",
+            "title": "Navdeep Singh Dhillon | Hotel Manager @ Velmore Kasauli operated by Royal Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Navdeep Singh\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_31f8cc164f5d3c35",
+        "full_name": "James Stewart",
+        "title": "Group Chief Engineer",
+        "normalized_title": "group chief engineer",
+        "company": "Blue Orchid Hotels",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+            "title": "RocketReach Management Team Org Chart",
+            "source_type": "directory",
+            "snippet": "James Stewart (Group Chief Engineer) at Blue Orchid Hotels",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/james-stewart-319680b8",
+            "title": "James Stewart - Group Chief Engineer at Blue Orchid Hotels | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://theorg.com/org/blue-orchid-hospitality/org-chart/james-stewart",
+            "title": "James Stewart - Group Chief Engineer at Blue Orchid Hospitality ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/hari-chandran-email_52358338",
+            "title": "Hari Chandran Email",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.blueorchid.com/about",
+            "title": "Discover the Top Hotels in Central London - Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.businesstraveller.com/business-travel/2020/05/29/blue-orchid-hotels-to-open-st-jamess-park-property/",
+            "title": "Blue Orchid Hotels to open St James’s Park property",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/james-stewart-319680b8",
+            "title": "James Stewart | Group Chief Engineer  at Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/nicky-garton-a6b595160",
+            "title": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+            "title": "Alejandro Dordevic | General  Manager @ 93 Luxury Suites by Blue Doors Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/andreas-schreiter",
+            "title": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/james-stewart-608338b7",
+            "title": "James Stewart | PARTS MANAGER",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"James Stewart\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_b261c4feb91cd3b4",
+        "full_name": "Nicky Garton",
+        "title": "Manager",
+        "normalized_title": "manager",
+        "company": "Blue Orchid Hospitality",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/nicky-garton-a6b595160",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Nicky Garton - Blue Orchid Hospitality",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://theorg.com/org/blue-orchid-hospitality",
+            "title": "Blue Orchid Hospitality | The Org",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicky Garton\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.centrallondonalliance.com/company/blueorchidhotels-234",
+            "title": "Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicky Garton\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://theorg.com/org/blue-orchid-hospitality/org-chart/tony-matharu",
+            "title": "Tony Matharu - Founder and Chairman at Blue Orchid Hospitality | The Org",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicky Garton\" \"Blue Orchid Hotels\"",
+            "score": null
+          },
+          {
+            "url": "https://www.blueorchid.com/about",
+            "title": "Discover the Top Hotels in Central London - Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicky Garton\" \"Blue Orchid Hotels\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/nicky-garton-a6b595160",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Exact title not explicitly confirmed in public snippets beyond association with the company; included as evidenced senior-ish role in small hospitality group"
+        ]
+      },
+      {
+        "candidate_id": "c_735b73d790734d9c",
+        "full_name": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/nicky-garton-a6b595160",
+            "title": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/nicky-garton-a6b595160",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/nicky-garton-a6b595160",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/nicky-garton-a6b595160",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_c4868683c5044897",
+        "full_name": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/andreas-schreiter",
+            "title": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/andreas-schreiter",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/andreas-schreiter",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/andreas-schreiter",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_feb5c16a3503a697",
+        "full_name": "Alejandro Dordevic | General Manager @ 93 Luxury Suites by Blue Doors Hotels",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+            "title": "Alejandro Dordevic | General  Manager @ 93 Luxury Suites by Blue Doors Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_8c6d69da2bd5954b",
+        "full_name": "Raghav Rai Arora | Business Development Manager",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/raghavraiarora14",
+            "title": "Raghav Rai Arora | Business Development Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/raghavraiarora14",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/raghavraiarora14",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/raghavraiarora14",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_a71d2984c49102ca",
+        "full_name": "Katarzyna Gut | CEO/CFO FINEA SP. Z O.O/ TIYATI LTD",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/katarzyna-gut-83760b129/pl",
+            "title": "Katarzyna Gut | CEO/CFO FINEA SP. Z O.O/ TIYATI LTD",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/katarzyna-gut-83760b129/pl",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/katarzyna-gut-83760b129/pl",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/katarzyna-gut-83760b129/pl",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_0aab22a11cc14b07",
+        "full_name": "Fred Lukas | Training Manager | Marketing Professional | Specialist in Event Coordination & Team Development | Passionate About Mentoring",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/fred-lukas",
+            "title": "Fred Lukas | Training Manager | Marketing Professional | Specialist in Event Coordination & Team Development | Passionate About Mentoring",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/fred-lukas",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/fred-lukas",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/fred-lukas",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_83c6223a1f1d98dd",
+        "full_name": "Lucia A. | Reservation & Event Manager",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/lucia-a-68b420229",
+            "title": "Lucia A. | Reservation & Event Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/lucia-a-68b420229",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/lucia-a-68b420229",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/lucia-a-68b420229",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_816c1ee00448ef38",
+        "full_name": "Devak Rattan | Operations Analyst at Fortem Capital",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/devak-rattan-3128b51aa",
+            "title": "Devak Rattan | Operations Analyst at Fortem Capital",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/devak-rattan-3128b51aa",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/devak-rattan-3128b51aa",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/devak-rattan-3128b51aa",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_04798b37a1d450b0",
+        "full_name": "Rebecca L. | Experienced HR Manager | 5-star luxury hospitality professional | People & Culture consultant | Talent Management specialist",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/rebecca-lei",
+            "title": "Rebecca L. | Experienced HR Manager | 5-star luxury hospitality professional | People & Culture consultant | Talent Management specialist",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/rebecca-lei",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/rebecca-lei",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/rebecca-lei",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_b35286a771a7f1ee",
+        "full_name": "Andreea Neamu | Front of House, Opera, Microsoft",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/andreea-neamu-07ab3414b",
+            "title": "Andreea Neamu | Front of House, Opera, Microsoft",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"commercial director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/andreea-neamu-07ab3414b",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/andreea-neamu-07ab3414b",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/andreea-neamu-07ab3414b",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_2823010b040203fa",
+        "full_name": "Radka M. | Revenue Manager at BLUE ORCHID GROUP LIMITED",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/radka-m-a477a7b",
+            "title": "Radka M. | Revenue Manager at BLUE ORCHID GROUP LIMITED",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"commercial director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/radka-m-a477a7b",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/radka-m-a477a7b",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/radka-m-a477a7b",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_43447334610f7de5",
+        "full_name": "Bilyana Iliovska | Experienced Sales & Marketing Leader with a passion for helping businesses achieve their growth goals. Skilled at identifying customer needs and developing solutions that drive revenue and success.",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/bilyana-iliovska-2227b125a",
+            "title": "Bilyana Iliovska | Experienced Sales & Marketing Leader with a passion for helping businesses achieve their growth goals. Skilled at identifying customer needs and developing solutions that drive revenue and success.",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"revenue director\" OR \"revenue manager\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/bilyana-iliovska-2227b125a",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/bilyana-iliovska-2227b125a",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/bilyana-iliovska-2227b125a",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_233460d3d3334abd",
+        "full_name": "Rishabh Kumar Vaish AIH | MSc International Hotel and Tourism Management at Oxford Brookes University 2020",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/rishabhkvaish",
+            "title": "Rishabh Kumar Vaish AIH | MSc International Hotel and Tourism Management  at Oxford Brookes University 2020",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"revenue director\" OR \"revenue manager\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/rishabhkvaish",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/rishabhkvaish",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/rishabhkvaish",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_032d0b5ca433f179",
+        "full_name": "Bernadett Kottaun | Reservations Agent at Blue Orchid Hotels",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/bernadett-kottaun-ba2696152",
+            "title": "Bernadett Kottaun | Reservations Agent at Blue Orchid Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"revenue director\" OR \"revenue manager\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/bernadett-kottaun-ba2696152",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/bernadett-kottaun-ba2696152",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/bernadett-kottaun-ba2696152",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_ad0c14e37b315143",
+        "full_name": "Sachin Patil | Head of Finance for AES at Lowy Group Ltd",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/sachin-patil-67801124",
+            "title": "Sachin Patil | Head of Finance for AES at Lowy Group Ltd",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Blue Orchid Hotels\" \"revenue director\" OR \"revenue manager\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/sachin-patil-67801124",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/sachin-patil-67801124",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/sachin-patil-67801124",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      }
+    ],
+    "rejected_candidates": [],
+    "provider_costs": {
+      "xai_usd": 0.283271,
+      "exa_usd": 0.182,
+      "total_usd": 0.465271
+    },
+    "quality_metrics": {
+      "candidate_count": 25,
+      "useful_candidate_count": 4,
+      "tier1_count": 3,
+      "tier2_count": 1,
+      "direct_route_count": 4,
+      "department_route_count": 0,
+      "rejected_count": 0,
+      "exa_searches": 24,
+      "exa_fetches": 14,
+      "xai_calls": 1
+    },
+    "telemetry": {
+      "stages": [
+        {
+          "stage": "grok_discovery",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 110920,
+          "tokens_out": 9938,
+          "estimated_usd": 0.283271,
+          "seconds": 179.05470520000017,
+          "notes": [
+            "grok-4.20-reasoning discovery"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.294602899999518,
+          "notes": [
+            "68e09dae0ab2"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.144122900000184,
+          "notes": [
+            "7a334fc1d7cd"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.0259533999997075,
+          "notes": [
+            "fe7bbf75b159"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.900440599999456,
+          "notes": [
+            "6af36282e491"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.56547159999991,
+          "notes": [
+            "582e5dfb39b2"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.6744510999997146,
+          "notes": [
+            "8f00fe86bf1c"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.1179760000004535,
+          "notes": [
+            "9b8f7724e525"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.4670427999999447,
+          "notes": [
+            "0893c71860e3"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.2730177000003096,
+          "notes": [
+            "d3497e91560f"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.318618299999798,
+          "notes": [
+            "55816e468d1c"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.5688538999993398,
+          "notes": [
+            "ec68280dbe2c"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.7550831000007747,
+          "notes": [
+            "ad46cf17e85e"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.6457093999997596,
+          "notes": [
+            "5c1af5873085"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.7557807000002867,
+          "notes": [
+            "ccfb8c22f50e"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.153056699999979,
+          "notes": [
+            "f1b3019c5f67"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.0067259000006743,
+          "notes": [
+            "ed6aee7637a7"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.144182300000466,
+          "notes": [
+            "6c2a5bfeb2ca"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.025829799999883,
+          "notes": [
+            "c57d3718d040"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.9877686999998332,
+          "notes": [
+            "2b5c03e45c74"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.6739658000005875,
+          "notes": [
+            "593d6deb4f5e"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.3299004000000423,
+          "notes": [
+            "https://nybreakings.co.uk/tony-matharu-visionary-hotelier-london/"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.2753821999995125,
+          "notes": [
+            "https://www.integrityinternationalgroup.com/tony-matharu"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.1238758999998026,
+          "notes": [
+            "https://theorg.com/org/blue-orchid-hospitality"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 7.728595900000073,
+          "notes": [
+            "https://www.youtube.com/watch?v=blNttqTUuZE"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.2461256999995385,
+          "notes": [
+            "https://rocketreach.co/sarah-ermisch-email_111712962"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.29465110000001,
+          "notes": [
+            "https://contactout.com/company/Blue-Orchid-Hotels-5580"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.347006500000134,
+          "notes": [
+            "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i4712984"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.288322500000504,
+          "notes": [
+            "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i4752237"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.299568399999771,
+          "notes": [
+            "https://www.blueorchid.com/about"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.3337733999997,
+          "notes": [
+            "https://rocketreach.co/andreas-schreiter-email_276653609"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.177940800000215,
+          "notes": [
+            "https://rocketreach.co/blue-orchid-hotels-profile_b45c197dfc6f5fe7"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.3206735000003391,
+          "notes": [
+            "https://contactout.com/company/Blue-Orchid-Hotels-5580"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.128069499999583,
+          "notes": [
+            "https://www.xing.com/profile/Andreas_Schreiter5"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.2904018999997788,
+          "notes": [
+            "https://www.international-confex.com/speakers/charitha-hettiarachchi"
+          ]
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.9190037999997003,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.967234599999756,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.9352269999999407,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.151270399999703,
+          "notes": []
+        }
+      ],
+      "exa_search_requests": 24,
+      "exa_content_pages": 14,
+      "errors": []
+    },
+    "needs_manual_org_review": false
+  },
+  "contacts": [
+    {
+      "full_name": "Tony Matharu",
+      "title": "Founder and Chairman",
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://uk.linkedin.com/in/tony-matharu",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / owner_exec; role confidence medium.",
+      "contact_evidence_summary": "Tony is the founder and Chairman of Integrity International Group... founded London’s latest independent hotel chain: Blue Orchid Hospitality under his Integrity International Group. | Tony Matharu - Integrity International Group | Tony Matharu, Founder and Chairman of Integrity International Group and Executive Chairman of Blue Orchid Hospitality | Our founder and Chairman of Blue Orchid Hotels, Tony Matharu | Tony Matharu: The Visionary Hotelier Transforming London’s Hospitality Landscape - NYBreakings.co.uk",
+      "evidence": [
+        {
+          "source_url": "https://www.integrityinternationalgroup.com/tony-matharu",
+          "source_type": "official_site",
+          "quote_or_fact": "Tony is the founder and Chairman of Integrity International Group... founded London’s latest independent hotel chain: Blue Orchid Hospitality under his Integrity International Group."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/tony-matharu",
+          "source_type": "linkedin",
+          "quote_or_fact": "Tony Matharu - Integrity International Group"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/tony-matharu-atlas-house-hotel-conversion/",
+          "source_type": "news",
+          "quote_or_fact": "Tony Matharu, Founder and Chairman of Integrity International Group and Executive Chairman of Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://www.blueorchid.com/en/communityengagement.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Our founder and Chairman of Blue Orchid Hotels, Tony Matharu"
+        },
+        {
+          "source_url": "https://nybreakings.co.uk/tony-matharu-visionary-hotelier-london/",
+          "source_type": "other",
+          "quote_or_fact": "Tony Matharu\n\nTony Matharu stands as one of the most influential figures in the modern British hospitality industry. Known for his strategic vision, resilience, and commitment to excellence, he has played a central role in shaping London’s luxury hotel scene. From co-founding a successful family hotel empire to launching his own ventures, Tony Matharu’s journey reflects a blend of entrepreneurial courage and long-term thinking.\n\nTable of Contents\n\nToggle\n\n## Early Life and Background\n\nTony Matharu was born into a hardworking immigrant family in the United Kingdom. His upbringing was rooted in discipline, ambition, and a strong belief in education. These early influences shaped his approach to business and leadership.\n\nHe pursued studies in law and economics, equipping himself with a solid academic foundation. However, it was not long before he realised that his true passion lay in entrepreneurship rather than traditional professional routes. This decision would prove pivotal in definin"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/blue-orchid-hospitality_tony-matharu-chairman-of-blue-orchid-hotels-activity-6996554154768744449-T8PK",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality’s Post"
+        },
+        {
+          "source_url": "https://theorg.com/org/blue-orchid-hospitality",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality | The Org\n\n# Blue Orchid Hospitality\n\n0 followers\n\n‌\n\nWelcome to Blue Orchid Hospitality, a private collection of luxury independent hotels, apartments and residences carefully combined with state-of-the-art events, meetings and conference venues, restaurants and bars, located in the heart of London; the world's most exciting city. Featuring some of... Read more\n\nIndustries\n\nEvent Venues, Hotels & Hospitality+1\n\nHeadquarters\n\nEmployees\n\nLinks\n\nOrg chart\n\nTeams\n\nOffices\n\nPositions (64)\n\n---\n\n## Org chart\n\nTony Matharu\n\nFounder and Chairman\n\n15\n\nTony Matharu\n\nCollapse\n\nSurjinder Chana\n\nChief Financial Officer\n\n3\n\nNicky Garton\n\nHead Of Corporate And Groups\n\n10\n\n---\n\n## Teams\n\n### Hospitality Operations\n\n6 people · 0 jobs2\n\n### Finance and Accounting\n\n4 people · 0 jobsIDRB\n\n### Sales and Marketing\n\n1 person · 0 jobs\n\n---\n\n## Offices\n\n- HQ14 people · 0 jobs10\n\n## Related companies\n\nMGM Resorts International96 followers\n\nRestaurant Brands International92 followers\n\nHi"
+        },
+        {
+          "source_url": "https://www.youtube.com/watch?v=blNttqTUuZE",
+          "source_type": "other",
+          "quote_or_fact": "# Blue Orchid's Tony Matharu on restoring confidence in the market\n\n- Channel: BoHoNews\n- Length: 03:35\n- Views: 1.4K\n- Language: en\n\n## Description\n\nWe caught up with Tony Matharu, founder and chairman of Blue Orchid Hotels, to hear how it feels to reopen doors to the public, the appeal of independent living, and the comeback of the corporate traveller.\n\n## Transcript\n\n[Music] we've always been open albeit for key workers so we've had about 5 000 room nights about 30 000 meals during the time when other hotels are sort of hibernated and gone away what we've done now is reopen a little bit more fully um because we can previously it was critical care workers and key workers and and people who were stranded but now we're our doors are further open and we've opened some other outlets we weren't sure about hairdressers for example um ours is now open and our various food and beverage outlets are now starting to work the main reason why we're doing it is because we think there's a need and "
+        }
+      ]
+    },
+    {
+      "full_name": "Sarah Ermisch",
+      "title": "General Manager",
+      "company": "Tower Suites by Blue Orchid",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "1004486793",
+      "phone2": "1006264204",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Sarah Ermisch, General Manager | Sarah Ermisch , General Manager at Tower Suites by Blue Orchid | Sarah Ermisch ... General Manager at Blue Orchid Hotels / Tower Suites by Blue Orchid | Blue Orchid Hotels | Good view of the Shard. - Picture of Tower Suites by Blue Orchid, London",
+      "evidence": [
+        {
+          "source_url": "https://www.blueorchid.com/en/heretohelp.html",
+          "source_type": "official_site",
+          "quote_or_fact": "Sarah Ermisch, General Manager"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d19619544-r814478512-Tower_Suites_by_Blue_Orchid-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Sarah Ermisch , General Manager at Tower Suites by Blue Orchid"
+        },
+        {
+          "source_url": "https://rocketreach.co/sarah-ermisch-email_111712962",
+          "source_type": "directory",
+          "quote_or_fact": "Sarah Ermisch ... General Manager at Blue Orchid Hotels / Tower Suites by Blue Orchid"
+        },
+        {
+          "source_url": "https://contactout.com/company/Blue-Orchid-Hotels-5580",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hotels - Company Profile & Staff Directory | ContactOut\n[](https://contactout.com/)\n![Blue Orchid Hotels logo](https://images.contactout.com/companies/15c22a1afcbba413619a6f333547f705)\n# Blue Orchid Hotels\n[](https://www.linkedin.com/company/blue-orchid-hotels)\n[## Get verified emails for Blue Orchid Hotels employees\n![arrow](https://contactout.com/images/ico-arrow-narrow-right.svg)](javascript:;)\n* [Profile](https://contactout.com/company/Blue-Orchid-Hotels-5580)\n* [Email Format](https://contactout.com/company/Blue-Orchid-Hotels-email-format-5580)\n## About Blue Orchid Hotels\nBlue Orchid Hotels | 983 followers on LinkedIn. London's newest luxury independent hotel collection. | Welcome to Blue Orchid Hotels, a new private collection of luxury independent hotels located in the heart of London; the world’s most exciting city.\nFeaturing some of the best located properties in the capital, Blue Orchid Hotels provide a wealth of history and local tradition, skilfully combined with"
+        },
+        {
+          "source_url": "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i471298461-Tower_Suites_by_Blue_Orchid-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Good view of the Shard. - Picture of Tower Suites by Blue Orchid, London - Tripadvisor\n* [Flights](https://www.tripadvisor.co.uk/CheapFlightsHome)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/Rentals)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants)\n* [Things to do](https://www.tripadvisor.co.uk/Attractions)\nSkip to main content\nInbox\n[See all](https://www.tripadvisor.co.uk/Inbox)\nLog into get trip updates and message other travellers.\n* [London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n* [Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n* [Things to Do](https://www.tripadvisor.co.uk/Attractions-g186338-Activities-London_England.html)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants-g186338-London_England.html)\n* [Flights](https://www.tripadvisor.co.uk/Flights-g186338-London_England-Cheap_Discount_Airfares.html)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/VacationRentals-g186338-Reviews-Lo"
+        },
+        {
+          "source_url": "https://www.tripadvisor.co.uk/LocationPhotoDirectLink-g186338-d19619544-i475223776-Tower_Suites_by_Blue_Orchid-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Massage therapy - Picture of Tower Suites by Blue Orchid, London - Tripadvisor\n* [Flights](https://www.tripadvisor.co.uk/CheapFlightsHome)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/Rentals)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants)\n* [Things to do](https://www.tripadvisor.co.uk/Attractions)\nSkip to main content\nInbox\n[See all](https://www.tripadvisor.co.uk/Inbox)\nLog into get trip updates and message other travellers.\n* [London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n* [Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n* [Things to Do](https://www.tripadvisor.co.uk/Attractions-g186338-Activities-London_England.html)\n* [Restaurants](https://www.tripadvisor.co.uk/Restaurants-g186338-London_England.html)\n* [Flights](https://www.tripadvisor.co.uk/Flights-g186338-London_England-Cheap_Discount_Airfares.html)\n* [Holiday Rentals](https://www.tripadvisor.co.uk/VacationRentals-g186338-Reviews-London_Eng"
+        },
+        {
+          "source_url": "https://www.blueorchid.com/about",
+          "source_type": "other",
+          "quote_or_fact": "Discover the Top Hotels in Central London - Blue Orchid Hotels \n\n \n\n \n\nABOUT Blue Orchid Hospitality\n\nAbout Us\n\nWelcome to Blue Orchid Hospitality, a private collection of luxury independent hotels, apartments and residences carefully combined with state-of-the-art events, meetings and conference venues and restaurants and bars, located in the heart of London; the world's most exciting city.\n\nFeaturing some of the best located properties in the capital, Blue Orchid Hospitality skillfully blends a wealth of history and local tradition with contemporary luxury.\n\nWhether you’re in search of luxury central London hotel suites, independent living in sumptuous apartments or elegant residences, Blue Orchid can satisfy the most discerning guests in search of the very best central London accommodation. Events and conference spaces offer a diverse range of opportunities to suit a wide variety of requirements; from London’s latest roof top venue boasting stunning panoramic views over London’s ico"
+        },
+        {
+          "source_url": "https://linkedin.com/in/gintare-cerkesaite-8a700415a",
+          "source_type": "other",
+          "quote_or_fact": "Gintare Cerkesaite | Meetings & Events Manager at Tower Suites by Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/dragi-temkov-6431a261",
+          "source_type": "other",
+          "quote_or_fact": "Dragi Temkov | MICE Sales Manager | Entrepreneur | Growing Shield and Partners to Deliver Innovative Solutions in Renewable energies."
+        },
+        {
+          "source_url": "https://linkedin.com/in/kenza-zeraidi-a8132720a",
+          "source_type": "other",
+          "quote_or_fact": "Kenza Zeraidi | Meetings and Events Executive"
+        },
+        {
+          "source_url": "https://linkedin.com/in/amit-singh-5868b9171",
+          "source_type": "other",
+          "quote_or_fact": "Amit Singh | Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://linkedin.com/in/pop-gabriel-7a844a229",
+          "source_type": "other",
+          "quote_or_fact": "Pop Gabriel | Head Concierge @ Tower Suites"
+        }
+      ]
+    },
+    {
+      "full_name": "Andreas Schreiter",
+      "title": "Development General Manager",
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://uk.linkedin.com/in/andreas-schreiter",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Development General Manager · Blue Orchid Hospitality ... Total rooms inventory of 433 rooms across 3 hotels | Tower Suites - 5-star, Wellington Hotel 4-Star | Andreas Schreiter, Development General Manager at Blue Orchid Hospitality | Blue Orchid Hotels Information - RocketReach | Blue Orchid Hotels | Blue Orchid Hospitality | LinkedIn",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/andreas-schreiter",
+          "source_type": "linkedin",
+          "quote_or_fact": "Development General Manager · Blue Orchid Hospitality ... Total rooms inventory of 433 rooms across 3 hotels | Tower Suites - 5-star, Wellington Hotel 4-Star"
+        },
+        {
+          "source_url": "https://rocketreach.co/andreas-schreiter-email_276653609",
+          "source_type": "directory",
+          "quote_or_fact": "Andreas Schreiter, Development General Manager at Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://rocketreach.co/blue-orchid-hotels-profile_b45c197dfc6f5fe7",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hotels Information - RocketReach"
+        },
+        {
+          "source_url": "https://contactout.com/company/Blue-Orchid-Hotels-5580",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hotels - Company Profile & Staff Directory | ContactOut\n[](https://contactout.com/)\n![Blue Orchid Hotels logo](https://images.contactout.com/companies/15c22a1afcbba413619a6f333547f705)\n# Blue Orchid Hotels\n[](https://www.linkedin.com/company/blue-orchid-hotels)\n[## Get verified emails for Blue Orchid Hotels employees\n![arrow](https://contactout.com/images/ico-arrow-narrow-right.svg)](javascript:;)\n* [Profile](https://contactout.com/company/Blue-Orchid-Hotels-5580)\n* [Email Format](https://contactout.com/company/Blue-Orchid-Hotels-email-format-5580)\n## About Blue Orchid Hotels\nBlue Orchid Hotels | 983 followers on LinkedIn. London's newest luxury independent hotel collection. | Welcome to Blue Orchid Hotels, a new private collection of luxury independent hotels located in the heart of London; the world’s most exciting city.\nFeaturing some of the best located properties in the capital, Blue Orchid Hotels provide a wealth of history and local tradition, skilfully combined with"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/blue-orchid-hospitality",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality | LinkedIn"
+        },
+        {
+          "source_url": "https://www.xing.com/profile/Andreas_Schreiter5",
+          "source_type": "other",
+          "quote_or_fact": "Andreas Schreiter - Director Account Management - BidX GmbH | XING\n\nAndreas Schreiter\n\nBidX GmbH\n\nDirector Account Management\n\nDarmstadt\n\n# Andreas Schreiter\n\nBasic\n\nSee whole profile\n\nAngestellt, Director Account Management, BidX GmbH\n\nDarmstadt, Germany\n\nLog in now to view all entries.\n\n## Andreas Schreiter\n\nBereichsleiter/Ressourcenmanager Mobile Networks EngineeringOberlungwitz\n\n## Andreas Schreiter\n\nZimmermannPobershau\n\nLog in now to view their full profile.\n\nAmazon\n\nOnline-Advertising\n\nPPC\n\nContent Marketing\n\nContent Management Systeme\n\nWordpress\n\nWooCommerce\n\nE-commerce\n\nE-Commerce Consulting\n\nKundenbeziehung\n\nCRM\n\nOnline Handel\n\nimport\n\nControlling\n\nOnline Marketing\n\nAffiliate marketing\n\nSEA\n\nSEO\n\nDisplaywerbung\n\n### Professional experience for Andreas Schreiter\n\nCurrent 5 years and 8 months, since Aug 2020\n\n#### Director Account Management\n\nBidX GmbH\n\n1 year and 5 months, Apr 2019 - Aug 2020\n\n#### Key Account Manager\n\nBidX GmbH\n\n4 years and 1 month, Mar 2015 - Mar 2019\n\n#### G"
+        }
+      ]
+    },
+    {
+      "full_name": "Charitha Hettiarachchi",
+      "title": "Regional Director of Sales – UK & Europe",
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://uk.linkedin.com/in/charitha-hettiarachchi-644844131",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Charitha Hettiarachchi, Blue Orchid Hospitality . Regional Director of Sales – UK & Europe | Charitha Hettiarachchi - Blue Orchid Hospitality | Charitha Hettiarachchi - International Confex | Charitha Hettiarachchi | Global Hospitality Services | Email, Regional Director Of Sales UK and Europe | CSR-BlueOrchid",
+      "evidence": [
+        {
+          "source_url": "https://www.optimiser.com/testimonial/blue-orchid-hospitality",
+          "source_type": "other",
+          "quote_or_fact": "Charitha Hettiarachchi, Blue Orchid Hospitality . Regional Director of Sales – UK & Europe"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/charitha-hettiarachchi-644844131",
+          "source_type": "linkedin",
+          "quote_or_fact": "Charitha Hettiarachchi - Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://www.international-confex.com/speakers/charitha-hettiarachchi",
+          "source_type": "other",
+          "quote_or_fact": "Charitha Hettiarachchi - International Confex \n\nLoading\n\n## Charitha Hettiarachchi\n\nDirector of Sales, Blue Orchid Hospitality\n\n13+ years’ UK sales experience across the Hospitality Service sector.\n\nSessions\n\n25-Feb-2026\n\n14:00 – 14:45\n\nLondon Calling\n\n25-Feb-2026\n\n15:00 – 15:45\n\nLondon Calling\n\n- Big Budget vs Intimate Impact: Choosing the Right Scale and Space for Your Events\n- London on a budget: how to squeeze the most out of your event in the capital city"
+        },
+        {
+          "source_url": "https://www4.lead411.com/Charitha_Hettiarachchi_87661250.html",
+          "source_type": "other",
+          "quote_or_fact": "Charitha Hettiarachchi | Global Hospitality Services | Email, Regional Director Of Sales UK and Europe"
+        },
+        {
+          "source_url": "https://www.blueorchid.com/en/csr.html",
+          "source_type": "other",
+          "quote_or_fact": "CSR-BlueOrchid"
+        },
+        {
+          "source_url": "https://scholar.google.com/citations?user=WBjoPpwAAAAJ&hl=en",
+          "source_type": "other",
+          "quote_or_fact": "‪Charitha Hettiarachchi‬ - ‪Google Scholar‬"
+        }
+      ]
+    },
+    {
+      "full_name": "Fred Lukas",
+      "title": "Training Manager",
+      "company": "Blue Orchid Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Title confirmed via third-party aggregator; role is operational rather than top-level decision-making",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Fred Lukas (Training Manager) at Blue Orchid Hotels | Fred Lukas | Specialist in Event Coordination & Team Development | Blue Orchid Hospitality | LinkedIn | Blue Orchid Hospitality’s Post | Blue Orchid Hospitality’s Post | Title confirmed via third-party aggregator; role is operational rather than top-level decision-making",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+          "source_type": "directory",
+          "quote_or_fact": "Fred Lukas (Training Manager) at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/fred-lukas",
+          "source_type": "other",
+          "quote_or_fact": "Fred Lukas | Specialist in Event Coordination & Team Development"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/blue-orchid-hospitality",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality | LinkedIn"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/blue-orchid-hospitality_tony-matharu-chairman-of-blue-orchid-hotels-activity-6996554154768744449-T8PK",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality’s Post"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/blue-orchid-hospitality_a-weekend-worth-waking-up-for-start-activity-7265774084750290946-L1q8",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality’s Post"
+        },
+        {
+          "source_url": "https://www.blueorchid.com/",
+          "source_type": "other",
+          "quote_or_fact": "Best Affordable Luxury hotels & Suites in London, UK"
+        },
+        {
+          "source_url": "https://linkedin.com/in/fred-lukas",
+          "source_type": "other",
+          "quote_or_fact": "Fred Lukas | Training Manager | Marketing Professional | Specialist in Event Coordination & Team Development | Passionate About Mentoring"
+        },
+        {
+          "source_url": "https://linkedin.com/in/james-stewart-319680b8",
+          "source_type": "other",
+          "quote_or_fact": "James Stewart | Group Chief Engineer  at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/andreas-schreiter",
+          "source_type": "other",
+          "quote_or_fact": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service"
+        },
+        {
+          "source_url": "https://linkedin.com/in/andreea-neamu-07ab3414b",
+          "source_type": "other",
+          "quote_or_fact": "Andreea Neamu | Front of House, Opera, Microsoft"
+        },
+        {
+          "source_url": "https://linkedin.com/in/ovidiu-a-b09529b0",
+          "source_type": "other",
+          "quote_or_fact": "Ovidiu A. | Maintenance manager Blue Orchid Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Cagri Senkul",
+      "title": "Senior Business Development Manager",
+      "company": "Blue Orchid Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Cagri Senkul (Senior Business Development Manager) at Blue Orchid Hotels | Cagri Senkul Email & Phone Number | Blue Orchid Hospitality ... | Blue Orchid Hotels Information - RocketReach | Cagri Senkul Business Development Manager | The Dots | Best Affordable Luxury hotels & Suites in London, UK",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+          "source_type": "directory",
+          "quote_or_fact": "Cagri Senkul (Senior Business Development Manager) at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://rocketreach.co/cagri-senkul-email_36369378",
+          "source_type": "other",
+          "quote_or_fact": "Cagri Senkul Email & Phone Number | Blue Orchid Hospitality ..."
+        },
+        {
+          "source_url": "https://rocketreach.co/blue-orchid-hotels-profile_b45c197dfc6f5fe7",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hotels Information - RocketReach"
+        },
+        {
+          "source_url": "https://the-dots.com/users/cagri-senkul-1010825",
+          "source_type": "other",
+          "quote_or_fact": "Cagri Senkul Business Development Manager | The Dots"
+        },
+        {
+          "source_url": "https://blueorchidhotels.com/",
+          "source_type": "other",
+          "quote_or_fact": "Best Affordable Luxury hotels & Suites in London, UK"
+        },
+        {
+          "source_url": "https://www.blueorchid.com/about",
+          "source_type": "other",
+          "quote_or_fact": "Discover the Top Hotels in Central London - Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/cagri-bihter-senkul-36b09294",
+          "source_type": "other",
+          "quote_or_fact": "Cagri Bihter Senkul | Corporate & Commercial"
+        },
+        {
+          "source_url": "https://linkedin.com/in/nicky-garton-a6b595160",
+          "source_type": "other",
+          "quote_or_fact": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://linkedin.com/in/james-stewart-319680b8",
+          "source_type": "other",
+          "quote_or_fact": "James Stewart | Group Chief Engineer  at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+          "source_type": "other",
+          "quote_or_fact": "Alejandro Dordevic | General  Manager @ 93 Luxury Suites by Blue Doors Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/tarun-raj-77932922a",
+          "source_type": "other",
+          "quote_or_fact": "Tarun Raj | Assistant Vice President - Brand Development at Royal Orchid Hotels ltd."
+        }
+      ]
+    },
+    {
+      "full_name": "Manikandan Kumar",
+      "title": "Digital Marketing Manager",
+      "company": "Blue Orchid Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Manikandan Kumar (Digital Marketing Manager) at Blue Orchid Hotels | Manikandan Kumar Email & Phone Number | Blue Orchid Hospitality ... | Blue Orchid Hotels Information - RocketReach | Our Blog | Explore London City | Blue Orchid Hotels | Blue Orchid Hospitality | LinkedIn",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+          "source_type": "directory",
+          "quote_or_fact": "Manikandan Kumar (Digital Marketing Manager) at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://rocketreach.co/manikandan-kumar-email_40336231",
+          "source_type": "other",
+          "quote_or_fact": "Manikandan Kumar Email & Phone Number | Blue Orchid Hospitality ..."
+        },
+        {
+          "source_url": "https://rocketreach.co/blue-orchid-hotels-profile_b45c197dfc6f5fe7",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hotels Information - RocketReach"
+        },
+        {
+          "source_url": "https://www.blueorchid.com/en/blog/index",
+          "source_type": "other",
+          "quote_or_fact": "Our Blog | Explore London City | Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/blue-orchid-hospitality",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality | LinkedIn"
+        },
+        {
+          "source_url": "https://theorg.com/org/blue-orchid-hospitality",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality | The Org"
+        },
+        {
+          "source_url": "https://linkedin.com/in/manikandan-kumar-a8051711",
+          "source_type": "other",
+          "quote_or_fact": "Manikandan Kumar | Digital Marketing Manager at Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://linkedin.com/in/pranil-chimbaikar-0234341a8",
+          "source_type": "other",
+          "quote_or_fact": "Pranil Chimbaikar | Food and Beverage Operations"
+        },
+        {
+          "source_url": "https://linkedin.com/in/pranit-chandarana",
+          "source_type": "other",
+          "quote_or_fact": "Pranit Chandarana | Business Development Manager focusing on MICE at Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://linkedin.com/in/mahesh-kumar-kati-143259212",
+          "source_type": "other",
+          "quote_or_fact": "Mahesh Kumar Kati | Management Trainee at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/manish-kumar-90b61b145",
+          "source_type": "other",
+          "quote_or_fact": "Manish Kumar | Sr. Front Office Executive"
+        }
+      ]
+    },
+    {
+      "full_name": "Navdeep Singh",
+      "title": "Purchasing Manager",
+      "company": "Blue Orchid Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Navdeep Singh (Purchasing Manager) at Blue Orchid Hotels | Navdeep Singh - Blue Orchid Hotels - LinkedIn | Navdeep Singh - Purchasing Manager, Blue Orchid Hotels | Intch | #hospitality #team #chefs #plantbase #blueorchidhotels | Navdeep ... | Utkarsh Pachori - Project Manager at Blue Orchid Hospitality - Wiza",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+          "source_type": "directory",
+          "quote_or_fact": "Navdeep Singh (Purchasing Manager) at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/navdeep-singh-647430156",
+          "source_type": "other",
+          "quote_or_fact": "Navdeep Singh - Blue Orchid Hotels - LinkedIn"
+        },
+        {
+          "source_url": "https://intch.org/1415570",
+          "source_type": "other",
+          "quote_or_fact": "Navdeep Singh - Purchasing Manager, Blue Orchid Hotels | Intch"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/navdeep-singh-647430156_hospitality-team-chefs-activity-7034643584179953664-mWky",
+          "source_type": "other",
+          "quote_or_fact": "#hospitality #team #chefs #plantbase #blueorchidhotels | Navdeep ..."
+        },
+        {
+          "source_url": "https://wiza.co/d/blue-orchid-hospitality/bc48/utkarsh-pachori",
+          "source_type": "other",
+          "quote_or_fact": "Utkarsh Pachori - Project Manager at Blue Orchid Hospitality - Wiza"
+        },
+        {
+          "source_url": "https://rocketreach.co/navdeep-singh-email_72297997",
+          "source_type": "other",
+          "quote_or_fact": "Navdeep Singh Email & Phone Number | Blue Orchid Hotels ..."
+        },
+        {
+          "source_url": "https://linkedin.com/in/navdeep-singh-647430156",
+          "source_type": "other",
+          "quote_or_fact": "Navdeep Singh | Purchasing Manager at Blue Orchid Hotels and Volunteer at Here to Help London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/ovidiu-a-b09529b0",
+          "source_type": "other",
+          "quote_or_fact": "Ovidiu A. | Maintenance manager Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/navdeep-singh-13644878",
+          "source_type": "other",
+          "quote_or_fact": "Navdeep Singh | Hotelier | Ex Oberoi | Ex RHG | Ex ROHL"
+        },
+        {
+          "source_url": "https://linkedin.com/in/nicky-garton-a6b595160",
+          "source_type": "other",
+          "quote_or_fact": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://linkedin.com/in/navdeep-singh-dhillon-42343363",
+          "source_type": "other",
+          "quote_or_fact": "Navdeep Singh Dhillon | Hotel Manager @ Velmore Kasauli operated by Royal Orchid Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "James Stewart",
+      "title": "Group Chief Engineer",
+      "company": "Blue Orchid Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "James Stewart (Group Chief Engineer) at Blue Orchid Hotels | James Stewart - Group Chief Engineer at Blue Orchid Hotels | LinkedIn | James Stewart - Group Chief Engineer at Blue Orchid Hospitality ... | Hari Chandran Email | Discover the Top Hotels in Central London - Blue Orchid Hotels",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/blue-orchid-hotels-management_b45c197dfc6f5fe7",
+          "source_type": "directory",
+          "quote_or_fact": "James Stewart (Group Chief Engineer) at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/james-stewart-319680b8",
+          "source_type": "other",
+          "quote_or_fact": "James Stewart - Group Chief Engineer at Blue Orchid Hotels | LinkedIn"
+        },
+        {
+          "source_url": "https://theorg.com/org/blue-orchid-hospitality/org-chart/james-stewart",
+          "source_type": "other",
+          "quote_or_fact": "James Stewart - Group Chief Engineer at Blue Orchid Hospitality ..."
+        },
+        {
+          "source_url": "https://rocketreach.co/hari-chandran-email_52358338",
+          "source_type": "other",
+          "quote_or_fact": "Hari Chandran Email"
+        },
+        {
+          "source_url": "https://www.blueorchid.com/about",
+          "source_type": "other",
+          "quote_or_fact": "Discover the Top Hotels in Central London - Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://www.businesstraveller.com/business-travel/2020/05/29/blue-orchid-hotels-to-open-st-jamess-park-property/",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hotels to open St James’s Park property"
+        },
+        {
+          "source_url": "https://linkedin.com/in/james-stewart-319680b8",
+          "source_type": "other",
+          "quote_or_fact": "James Stewart | Group Chief Engineer  at Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/nicky-garton-a6b595160",
+          "source_type": "other",
+          "quote_or_fact": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+          "source_type": "other",
+          "quote_or_fact": "Alejandro Dordevic | General  Manager @ 93 Luxury Suites by Blue Doors Hotels"
+        },
+        {
+          "source_url": "https://linkedin.com/in/andreas-schreiter",
+          "source_type": "other",
+          "quote_or_fact": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service"
+        },
+        {
+          "source_url": "https://linkedin.com/in/james-stewart-608338b7",
+          "source_type": "other",
+          "quote_or_fact": "James Stewart | PARTS MANAGER"
+        }
+      ]
+    },
+    {
+      "full_name": "Nicky Garton",
+      "title": "Manager",
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://uk.linkedin.com/in/nicky-garton-a6b595160",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Exact title not explicitly confirmed in public snippets beyond association with the company; included as evidenced senior-ish role in small hospitality group",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Nicky Garton - Blue Orchid Hospitality | Blue Orchid Hospitality | The Org | Blue Orchid Hotels | Tony Matharu - Founder and Chairman at Blue Orchid Hospitality | The Org | Discover the Top Hotels in Central London - Blue Orchid Hotels | Exact title not explicitly confirmed in public snippets beyond association with the company; included as evidenced senior-ish role in small hospitality group",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/nicky-garton-a6b595160",
+          "source_type": "linkedin",
+          "quote_or_fact": "Nicky Garton - Blue Orchid Hospitality"
+        },
+        {
+          "source_url": "https://theorg.com/org/blue-orchid-hospitality",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hospitality | The Org"
+        },
+        {
+          "source_url": "https://www.centrallondonalliance.com/company/blueorchidhotels-234",
+          "source_type": "other",
+          "quote_or_fact": "Blue Orchid Hotels"
+        },
+        {
+          "source_url": "https://theorg.com/org/blue-orchid-hospitality/org-chart/tony-matharu",
+          "source_type": "other",
+          "quote_or_fact": "Tony Matharu - Founder and Chairman at Blue Orchid Hospitality | The Org"
+        },
+        {
+          "source_url": "https://www.blueorchid.com/about",
+          "source_type": "other",
+          "quote_or_fact": "Discover the Top Hotels in Central London - Blue Orchid Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/nicky-garton-a6b595160",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/nicky-garton-a6b595160",
+          "source_type": "other",
+          "quote_or_fact": "Nicky Garton | Head of Corporate and Groups at Blue Orchid Hospitality"
+        }
+      ]
+    },
+    {
+      "full_name": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/andreas-schreiter",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/andreas-schreiter",
+          "source_type": "other",
+          "quote_or_fact": "Andreas Schreiter | Hotel Manager | Assistant Manager | Guest Relations / Reservations Manager | Customer Service"
+        }
+      ]
+    },
+    {
+      "full_name": "Alejandro Dordevic | General Manager @ 93 Luxury Suites by Blue Doors Hotels",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Alejandro Dordevic | General  Manager @ 93 Luxury Suites by Blue Doors Hotels | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/alejandro-dordevic-54205b145",
+          "source_type": "other",
+          "quote_or_fact": "Alejandro Dordevic | General  Manager @ 93 Luxury Suites by Blue Doors Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Raghav Rai Arora | Business Development Manager",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/raghavraiarora14",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Raghav Rai Arora | Business Development Manager | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/raghavraiarora14",
+          "source_type": "other",
+          "quote_or_fact": "Raghav Rai Arora | Business Development Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Katarzyna Gut | CEO/CFO FINEA SP. Z O.O/ TIYATI LTD",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/katarzyna-gut-83760b129/pl",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Katarzyna Gut | CEO/CFO FINEA SP. Z O.O/ TIYATI LTD | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/katarzyna-gut-83760b129/pl",
+          "source_type": "other",
+          "quote_or_fact": "Katarzyna Gut | CEO/CFO FINEA SP. Z O.O/ TIYATI LTD"
+        }
+      ]
+    },
+    {
+      "full_name": "Fred Lukas | Training Manager | Marketing Professional | Specialist in Event Coordination & Team Development | Passionate About Mentoring",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/fred-lukas",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Fred Lukas | Training Manager | Marketing Professional | Specialist in Event Coordination & Team Development | Passionate About Mentoring | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/fred-lukas",
+          "source_type": "other",
+          "quote_or_fact": "Fred Lukas | Training Manager | Marketing Professional | Specialist in Event Coordination & Team Development | Passionate About Mentoring"
+        }
+      ]
+    },
+    {
+      "full_name": "Lucia A. | Reservation & Event Manager",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/lucia-a-68b420229",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Lucia A. | Reservation & Event Manager | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/lucia-a-68b420229",
+          "source_type": "other",
+          "quote_or_fact": "Lucia A. | Reservation & Event Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Devak Rattan | Operations Analyst at Fortem Capital",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/devak-rattan-3128b51aa",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Devak Rattan | Operations Analyst at Fortem Capital | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/devak-rattan-3128b51aa",
+          "source_type": "other",
+          "quote_or_fact": "Devak Rattan | Operations Analyst at Fortem Capital"
+        }
+      ]
+    },
+    {
+      "full_name": "Rebecca L. | Experienced HR Manager | 5-star luxury hospitality professional | People & Culture consultant | Talent Management specialist",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/rebecca-lei",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Rebecca L. | Experienced HR Manager | 5-star luxury hospitality professional | People & Culture consultant | Talent Management specialist | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/rebecca-lei",
+          "source_type": "other",
+          "quote_or_fact": "Rebecca L. | Experienced HR Manager | 5-star luxury hospitality professional | People & Culture consultant | Talent Management specialist"
+        }
+      ]
+    },
+    {
+      "full_name": "Andreea Neamu | Front of House, Opera, Microsoft",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/andreea-neamu-07ab3414b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Andreea Neamu | Front of House, Opera, Microsoft | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/andreea-neamu-07ab3414b",
+          "source_type": "other",
+          "quote_or_fact": "Andreea Neamu | Front of House, Opera, Microsoft"
+        }
+      ]
+    },
+    {
+      "full_name": "Radka M. | Revenue Manager at BLUE ORCHID GROUP LIMITED",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/radka-m-a477a7b",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Radka M. | Revenue Manager at BLUE ORCHID GROUP LIMITED | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/radka-m-a477a7b",
+          "source_type": "other",
+          "quote_or_fact": "Radka M. | Revenue Manager at BLUE ORCHID GROUP LIMITED"
+        }
+      ]
+    },
+    {
+      "full_name": "Bilyana Iliovska | Experienced Sales & Marketing Leader with a passion for helping businesses achieve their growth goals. Skilled at identifying customer needs and developing solutions that drive revenue and success.",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/bilyana-iliovska-2227b125a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Bilyana Iliovska | Experienced Sales & Marketing Leader with a passion for helping businesses achieve their growth goals. Skilled at identifying customer needs and developing solutions that drive revenue and success. | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/bilyana-iliovska-2227b125a",
+          "source_type": "other",
+          "quote_or_fact": "Bilyana Iliovska | Experienced Sales & Marketing Leader with a passion for helping businesses achieve their growth goals. Skilled at identifying customer needs and developing solutions that drive revenue and success."
+        }
+      ]
+    },
+    {
+      "full_name": "Rishabh Kumar Vaish AIH | MSc International Hotel and Tourism Management at Oxford Brookes University 2020",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/rishabhkvaish",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Rishabh Kumar Vaish AIH | MSc International Hotel and Tourism Management  at Oxford Brookes University 2020 | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/rishabhkvaish",
+          "source_type": "other",
+          "quote_or_fact": "Rishabh Kumar Vaish AIH | MSc International Hotel and Tourism Management  at Oxford Brookes University 2020"
+        }
+      ]
+    },
+    {
+      "full_name": "Bernadett Kottaun | Reservations Agent at Blue Orchid Hotels",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/bernadett-kottaun-ba2696152",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Bernadett Kottaun | Reservations Agent at Blue Orchid Hotels | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/bernadett-kottaun-ba2696152",
+          "source_type": "other",
+          "quote_or_fact": "Bernadett Kottaun | Reservations Agent at Blue Orchid Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Sachin Patil | Head of Finance for AES at Lowy Group Ltd",
+      "title": null,
+      "company": "Blue Orchid Hospitality",
+      "linkedin_url": "https://linkedin.com/in/sachin-patil-67801124",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Sachin Patil | Head of Finance for AES at Lowy Group Ltd | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/sachin-patil-67801124",
+          "source_type": "other",
+          "quote_or_fact": "Sachin Patil | Head of Finance for AES at Lowy Group Ltd"
+        }
+      ]
+    }
+  ]
+}

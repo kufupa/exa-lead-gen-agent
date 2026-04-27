@@ -1,0 +1,2120 @@
+{
+  "target_url": "https://www.thehari.com/london/",
+  "generated_at_utc": "20260426T193351Z",
+  "model": "pipeline-v4",
+  "agent_count": null,
+  "max_turns": null,
+  "max_turns_effective": null,
+  "min_contacts": null,
+  "target_contacts": null,
+  "max_contacts": 14,
+  "extra_contact_pass": false,
+  "strict_evidence": true,
+  "allow_linkedin": true,
+  "usage": null,
+  "contact_enrichment": {
+    "version": 4,
+    "enriched_at_utc": "20260426T193351Z",
+    "mode": "pipeline-v4",
+    "model": "pipeline-v4",
+    "concurrency": null,
+    "skipped_pre_enrichment": 0,
+    "attempted": 14,
+    "succeeded": 14,
+    "failed": 0
+  },
+  "pipeline_v4": {
+    "input_url": "https://www.thehari.com/london/",
+    "resolved_org": {
+      "input_url": "https://www.thehari.com/london/",
+      "canonical_name": "The Hari London",
+      "property_name": "The Hari",
+      "brand_name": "The Hari",
+      "management_company": "Harilela Hotels Ltd",
+      "ownership_group": "Harilela Group",
+      "location_hint": "Belgravia, London SW1X 8HQ, UK",
+      "domains": [
+        "thehari.com"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thehari.com/london/about/",
+          "title": "About Our Luxury 5 Star Belgravia Hotel",
+          "source_type": "hotel_site",
+          "snippet": "The Harilela Group’s first ever brand, The Hari is built around a heritage of impeccable hospitality bestowed by the Harilela family. ... Meet our General Manager Francesco Sardelli. ... Meet our Head Concierge Diego Carvalho.",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2021/05/The-Hari-External-Fact-Sheet.pdf",
+          "title": "The Hari External Fact Sheet",
+          "source_type": "hotel_site",
+          "snippet": "The hotel is the vision of Dr. Aron Harilela, Chairman and CEO of Harilela Hotels Ltd, and the first hotel to open under the ‘The Hari’ brand ... The Harilela Group was established in 1959 and still wholly owned by the Harilela family, the Harilela Group is the parent company of Harilela Hotels which owns 15 properties around the globe. ... GENERAL MANAGER Andrew Coney (older version). ... HISTORY ... originally opened Belgraves in 2012 with US-based Thompson Hotels ... former Sheraton Belgravia.",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.thehari.com/london/press/",
+          "title": "Press & Media Enquiries",
+          "source_type": "hotel_site",
+          "snippet": "The Hari Announces New General Manager ... For all marketing enquiries please email our Assistant Director of Marketing and Communications, Catherine Rushton at catherine.rushton@thehari.com.",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.harilela.com/about-us/board-of-directors/",
+          "title": "Board of Directors of Harilela Hotels Hong Kong",
+          "source_type": "company_site",
+          "snippet": "Chairman & CEO Dr. Aron Hari Harilela ... Hotel Division Mr. M. S. Kalra (Executive) Mr. Brad Kirk (Chief Operating Officer) Mr. Lucas Lim (Chief Financial Officer)",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/the-hari-london",
+          "title": "The Hari, London LinkedIn Company Page",
+          "source_type": "linkedin",
+          "snippet": "Employees at The Hari, London include Laurent Coste, Tatiana Pitta Pereira Freitas (Director of Finance), Angela Montebello. Dr. Aron Harilela mentioned as Chairman and CEO.",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        }
+      ]
+    },
+    "aliases": [
+      {
+        "value": "The Hari",
+        "kind": "brand",
+        "confidence": "high",
+        "source_url": "https://www.thehari.com/london/about/",
+        "quote": "The Harilela Group’s first ever brand, The Hari"
+      },
+      {
+        "value": "The Hari London",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.thehari.com/london/",
+        "quote": null
+      },
+      {
+        "value": "Harilela Hotels Ltd",
+        "kind": "management",
+        "confidence": "high",
+        "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2021/05/The-Hari-External-Fact-Sheet.pdf",
+        "quote": "vision of Dr. Aron Harilela, Chairman and CEO of Harilela Hotels Ltd"
+      },
+      {
+        "value": "Harilela Group",
+        "kind": "ownership",
+        "confidence": "high",
+        "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2021/05/The-Hari-External-Fact-Sheet.pdf",
+        "quote": "wholly owned by the Harilela family, the Harilela Group is the parent company of Harilela Hotels"
+      },
+      {
+        "value": "Belgraves",
+        "kind": "historical",
+        "confidence": "high",
+        "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2021/05/The-Hari-External-Fact-Sheet.pdf",
+        "quote": "originally opened Belgraves in 2012 with US-based Thompson Hotels, owned by Commune Hotels & Resorts, as the management company"
+      },
+      {
+        "value": "Sheraton Belgravia",
+        "kind": "historical",
+        "confidence": "medium",
+        "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2021/05/The-Hari-External-Fact-Sheet.pdf",
+        "quote": "Prior to this the hotel was the former Sheraton Belgravia"
+      },
+      {
+        "value": "thehari.com",
+        "kind": "domain",
+        "confidence": "high",
+        "source_url": "https://www.thehari.com/london/",
+        "quote": null
+      }
+    ],
+    "candidates": [
+      {
+        "candidate_id": "c_b6954a32ca5e3682",
+        "full_name": "Dr. Aron Harilela",
+        "title": "Chairman and CEO",
+        "normalized_title": "chairman and ceo",
+        "company": "Harilela Hotels Ltd",
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2021/05/The-Hari-External-Fact-Sheet.pdf",
+            "title": "External Fact Sheet",
+            "source_type": "hotel_site",
+            "snippet": "The hotel is the vision of Dr. Aron Harilela, Chairman and CEO of Harilela Hotels Ltd, and the first hotel to open under the ‘The Hari’ brand",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.harilela.com/about-us/board-of-directors/",
+            "title": "Harilela Board of Directors",
+            "source_type": "company_site",
+            "snippet": "Chairman & CEO Dr. Aron Hari Harilela, BBS JP",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/the-hari-london",
+            "title": "Company LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Thanks to the generous support of CEO and Chairman Dr. Aron Harilela",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.futurehospitality.com/world/speakers/RXZlbnRQZW9wbGVfNDI0OTM3MzM=",
+            "title": "Dr. Aron Hari Harilela - Future Hospitality Summit",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Brought to you by The Bench\n\nProfile\n\nDr. Aron Hari Harilela\n\nChairman & CEOHarilela Hotels Ltd\n\nDr. Aron Harilela is CEO and Chairman of the Harilela Group, a Hong Kong based private company that has extensive experience in hotel development and management and operates hotels in Hong Kong, Mainland China and other parts of the world. They started its own brand, The Hari London in 2016 and Hong Kong in 2020. In 2014, he was appointed a Justice of the Peace and in 2019 was awarded the Bronze Bauhinia Star (BBS) by the HKSAR Government for his contributions to the community and hotel industry. Aron graduated with an honors Bachelor degree in Law and Politics, and a PhD in Political Philosophy from University of Hull, England.\n\nSee Dr. Aron Hari Harilela speak in the following sessions:\n\nTuesday 28 October\n\n14:15 - 14:50\n\nA Global Perspective - From Asia to the Middle East",
+            "published_date": null,
+            "query": "\"Dr. Aron Harilela\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thepeakmagazine.com.sg/lifestyle/dr-aron-harilela-hotelier-interview-the-hari",
+            "title": "How prominent Hong Kong hotelier Dr Aron Harilela is navigating ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "How prominent Hong Kong hotelier Dr Aron Harilela is navigating the pandemic - The Peak Magazine | PEAK Singapore\n\nSign up for our newsletter for the latest business lifestyle stories!\n\nLifestyle\n\n# How prominent Hong Kong hotelier Dr Aron Harilela is navigating the pandemic\n\nIt’s a trying time for the hospitality and tourism industry but Dr Aron Harilela is taking bold steps, including opening The Hari Hong Kong late last year.\n\nBy The Peak Team/ 15 Jun 2021\n\nDr Aron Harilela\n\nBusiness Leaders, Hospitality, Tourism, Travel\n\n##### Share this article\n\nHow big are the Harilelas? They have their own Wikipedia page. One of the most prominent families in Hong Kong, the Harilelas own and operate The Harilela Group, which focuses on hotel development and management. Last year, in December during the middle of a pandemic, the Group opened the doors to its latest property, The Hari Hong Kong.\n\nThe Peak speaks to chairperson and CEO of The Harilela Group, Dr Aron Harilela, about this bold move and his thoughts about the future.\n\n(Related: Karma Group hotelier John Spence spills his secrets to living a good life on the road)\n\n### How do you deal with the pressure of the family name? And does that make you more careful of the decisions that you make knowing the legacy?\n\nBusiness decisions always require careful consideration whether one comes from a big family. A decision maker must take all stakeholders into consideration. This includes not only shareholders but also directors and all staff. The hospitality industry has suffered in the last 18 months and the decisions made will impact the livelihood of staff.\n\nFor example, in December 2020, we opened a hotel in Hong Kong during a tough time as we were encountering a fourth wave of Covid related infections. Borders had been closed for most of the year and we encountered severe indoor dining restrictions. We opened the hotel regardless and transferred many of our staff from our existing hotel to the new one so we would let no one go.\n\nThe entrance lobby to The Hari Hong Kong, shot by Dennis Lo.\n\n### How did the pandemic affect the opening and operations of The Hari?\n\nAt some point, we have to find a way around the pandemic rather than shutting down and maintaining constant stringent restrictions. People still need to earn a livelihood. For this reason, we pushed ahead with the opening. The Hari’s staff remain vigilant with everyone’s health and safety. Hong Kong is vibrant, quirky, and colourful, and we want to represent these qualities while welcoming all of our guests, and as a gradual return to some normalcy.\n\nWe always set our minds to reinvest in Hong Kong. Neither protests nor Covid-19, nor a trade war, nor even the swift passing of the National Security Law in June has shaken our confidence in this city as a family. Hong Kong is our home.\n\n### Could you share some highlights of your career that you’re proudest of?\n\nMy family has been building and growing our company for 50 years. My father set it up in 1959 with a simple business model – we buy or build hotels that are then offered to third parties to manage. But we always knew that we would have a brand that we would own and manage ourselves. We just had to find the right property to start with. In 2010, when we started renovating our London property, it just felt right.\n\nIt took us another four years before we eventually took the jump. In 2016, we unveiled The Hari London. We’ve created a five-star luxury brand with actual personality and character. We focus on impeccable hospitality and service, with a large dose of wit and quirkiness.\n\nThe Hari’s homecoming to Hong Kong was an important step for me. Following the success of The Hari London, we brought our latest brainchild home to Hong Kong. There have been many Hong Kong hotel brands that have successfully travelled abroad and we want The Hari to be just that: a hotel brand that’s reminiscent of Hong Kong’s dynamism, multiculturalism and charming efficiency.\n\nThe Hari Hong Kong, which was built from scratch, is symbolic. It is the physical representation of my family’s importance to a city where so many luxury hotel brands, including The Peninsula, Mandarin Oriental, Shangri-La, Rosewood, Langham and Ovolo, reside in. We can consider hotel rooms to be one of the city’s most important exports.\n\n(Related: What will hospitality look like after the pandemic? Florian Sander has answers)\n\n### What are your fondest personal and business memories of Singapore?\n\nSingapore has always been my second home. I have great friends there and many great business contacts. I have spent so much of my life in your city. I remember spending many early mornings riding horses at The Singapore Polo Club and many a stolen afternoon playing polo there. Actually my first polo horse was stabled in the Club!\n\nIn fact, Scott Hetherington, who introduced me to the site in London that became The Hari, worked in Singapore for many years before retiring. He helped to set the ball rolling for The Hari brand. I have very fond memories of the time spent with him in business settings and at social occasions with his wife and three young daughters (who were under 10 at the time – they must be in their 20s now!)\n\n### With global travel still some time away from resumption, how are you looking to keep The Hari afloat?\n\nWe are lucky to have the support of our local community. Staycations have proven to be not just a lifeline, but our key supporter during these trying times. We aim to continue being creative in our seasonal offerings, providing experiences that offer particular insights into the city, and continually anticipate guests’ needs.\n\nOur F&B team provide freshness, simplicity, and consistency in every menu we serve at the hotel. Each outlet has their own distinctive identity, which we believe has garnered a reputation amongst the local dining scene.\n\nThe city is also a place where celebrations and meet ups are part of everyday lives. We are fortunate to be located steps away from the Hong Kong Conference and Exhibition Centre and we hope The Hari will be first in guests’ minds, whether it’s for a drink, entertaining, or relaxing.\n\nLast, we want to come together with other homegrown brands to create and showcase a space for Hong Kong’s creative minds and personalities. The pandemic has tested us. But it has also pushed us to think outside the box.\n\n### How has it changed the way you run your hospitality empire?\n\nA lot has changed, from the way we serve food in the restaurant to the way we welcome guests in the lobby. We had to keep the experience as warm and inviting as before whilst maintaining a social distance. These past two years have taught us so many things and made us realise that we have to be as authentic as possible.\n\nLooking forward, I believe vacations will be more meaningful and longer but less frequent. People will think about spending more time with their families and also giving back. A sense of space and minimalism will be what people are looking for in their trips. Homegrown brands will be a key focus – people will try to “buy local” more and more.\n\n(Related: The Clan Hotel is Singapore's latest addition to the hospitality scene)\n\nBusiness Leaders, Hospitality, Tourism, Travel\n\n##### Share this article",
+            "published_date": null,
+            "query": "\"Dr. Aron Harilela\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/organization/17019491.html",
+            "title": "The Hari, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "The Hari, London\n[![Hospitality Net](https://www.hospitalitynet.org/HN-icon.svg)![Hospitality Net]()](https://www.hospitalitynet.org/)\n[Individual Hotel](https://www.hospitalitynet.org/list/individual-hotels.html)\n# The Hari, London\n![The Hari, London](https://www.hospitalitynet.org/picture/153165163/the-hari-london.jpg?t=1705567546)The Hari in London opened its doors in August 2016. The hotel is the vision of Dr. Aron Harilela, Chairman and CEO of Harilela Hotels Ltd, and the first hotel to open under the ‘The Hari’ brand. A second hotel opened in 2020 in Hong Kong. The Harilela Group was established in 1959 and is still wholly owned by the Harilela family. The Harilela Group is the parent company of Harilela Hotels which owns 15 properties across Hong Kong, China, the Far East, Europe, and the US.\n[Visit website](https://www.thehari.com)[Linkedin](https://www.linkedin.com/company/the-hari-london/)[Twitter](https://twitter.com/theharilondon?lang=en)[Facebook](https://www.facebook.com/TheHariLondon/)[Instagram](https://www.instagram.com/theharilondon/)\n[The Hari, London](https://www.thehari.com)\n20 Chesham Pl\nBelgravia\nLondon, SW1X 8HQ\nUnited Kingdom\nPhone: +44 20 7858 0100\n[www.thehari.com](https://www.thehari.com)\n# Latest from The Hari, London\nFilter\n![Hospitality Net today Newsletter]()\nSign up to our free daily newsletter,\nHospitality Net today\n[sign up](https://www.hospitalitynet.org/me/account.html)\n[![Hospitality Net]()![Hospitality Net]()](https://www.hospitalitynet.org/)\n[About Hospitality Net](https://www.hospitalitynet.org/about.html)[Media Kit](https://www.hospitalitynet.org/mediakit/)[Newsletter](https://www.hospitalitynet.org/360/)[RSS Feeds](https://www.hospitalitynet.org/rss.html)[Contact](https://www.hospitalitynet.org/contact.html)[Terms & Conditions](https://www.hospitalitynet.org/terms.html)[Privacy](https://www.hospitalitynet.org/privacy.html)\n1995-2025 Hospitality Net™ All rights reserved —Hospitality Net is powered by Hsyndicate\n[](https://www.linkedin.com/company/hospitality-net)[](https://www.facebook.com/HospitalityNet)[](https://www.twitter.com/HospitalityNet)",
+            "published_date": null,
+            "query": "\"Dr. Aron Harilela\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.harilela.com/about-us/",
+            "title": "Harilela Group | International Hospitality Group | Company Information",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Harilela Group | International Hospitality Group | Company Information --\n\n--\n\n# Company Information\n\nEstablished in 1959 and still wholly owned by the Harilela family, The Harilela Group is a Hong Kong based private company with extensive experience in hotel development and management. The Group currently owns and operates some 15 properties across Hong Kong, China, the Far East, Europe and the US. Our latest is The Hari Hong Kong which opened in late 2020\n\nThe Group’s success in generating steady returns for its shareholder is based on ensuring its hotels and hospitality related properties remain the preferred choice of discerning guests. Such a steady focus on customer satisfaction has paved the way for the acquisition of several quality brands across virtually every segment of the international hotel and leisure market.\n\nDiversification into hotels began with the acquisition of Hong Kong’s Imperial Hotel in 1961. Half a century on, The Group has successfully spread its wings into the healthcare and food and beverage sectors.\n\nThe Group’s hospitality portfolio includes alliances with The Intercontinental Hotels Group, Hyatt Hotels Corp., Artyzen Hospitality Group and Onyx Hospitality Group. The Group launched “The Hari” brand with its first flag planted in London with the reopening of The Hari London in Belgravia. The Harilela Group also has its Ambassador Hotels (2) in Singapore Changi Airport. The coming years will see the Harilela Group continue its proven investment strategies.\n\nAs The Group moves forward, Dr. Aron Harilela, Harilela Hotels Ltd. CEO and Chairman, says the company remains committed to the values laid down by its founder the late Dr. Hari Harilela: As time never stops changing, businesses like ours must be open to new ideas and ways of thinking if they are to endure. In running the Harilela Group, I always remember the lessons my father taught me about the importance of sincerity and honesty in both business and life. “At the end of the day, if you do not have a sound reputation, you have nothing!” said Dr. Hari.\n\nChairman & CEO Dr. Aron Hari Harilela Honorary Chairman Dr. the Hon. Hari N. Harilela, GBM, GBS, OBE, JP Directors Mrs. Chandra J. Harilela Mrs. Jyoti P. Harilela Mr. Bob N. Harilela, JP Mr. Gary N. Harilela, JP Mrs. Kamilla M. Harilela Hotel Division Mr. M. S. Kalra (Executive) --\n\n--",
+            "published_date": null,
+            "query": "\"Dr. Aron Harilela\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Hari_Harilela",
+            "title": "Hari Harilela",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Hari Harilela\n\nHari Naroomal Harilela, GBM GBS OBE JP(Chinese: 夏利萊; Jyutping: haa6 lei6 loi4, 10 August 1922 – 29 December 2014) was a Hong Kong Indian businessman, hotelier and philanthropist and the founder and chairman of the Harilela Group. The group runs businesses ranging from hotel and real estate investment to import and export trading. He was often dubbed the richest Indian in Hong Kong.\n\n| The Honourable, Hari Harilela, GBM, GBS, OBE, JP | - |\n| --- | --- |\n| Hari Naroomal Harilela in 1980 | - |\n| Born | (1922-08-10)10 August 1922, Hyderabad, Sindh, British India (now Pakistan) |\n| Died | 29 December 2014(2014-12-29) (aged 92), Kowloon Tong, Hong Kong |\n| Occupations | Hotelier, investor |\n| Spouse | Padma Harilela, ​(m. 1951⁠–⁠2014)​ |\n| Children | Maya Harilela, Anita Hariela, Aron Hari Harilela, Nina Harilela, Shakun Harilela, Sheila Harilela |\n| Parent(s) | Naroomal Lilaram Harilela (deceased), Devibai Harilela (deceased) |\n| Relatives | Siblings: George Harilela (d. 2006), Bob Harilela, Peter Harilela, Gary Harilela, Mohan \"Mike\" Harilela (d.2008), Rani Harilela Hiranand (d.2001) |\n\n## Background\n\nHari Harilela was born in Hyderabad, British India in 1922. His father Naroomal Lilaram Mirchandani (later renamed Naraindas Harilela) was the first of the family to venture to Hong Kong and Canton in search of his fortune and opened an antique shop there. Later, on receiving the news that his mother was very ill in Sindh, he rushed to India and was devastated to learn that his mother had just died upon his return. His family, without waiting for him, had already cremated her. Deeply hurt, he renounced the family name of Mirchandani and created his own surname by joining the names of his parents, Haribai and Lelaram. Thus was born the name Harilela.\n\nHarilela moved to Canton with his mother and two brothers in 1930 to join his father, at the time his father owned various buildings and homes throughout China until repercussions of the Great Depression greatly damaged his business. The family once again found financial success selling fair-priced and high quality textile products to British soldiers during the Second World War.\n\n## Business career\n\nHarilela began a tailoring business in Hong Kong, opening a clothing and tailoring shop and then pioneered the idea of supplying custom-made suits by mail order. During his early life, he would act as mediator to settle disputes between Indian families. In 1959, Harilela realised the mail order boom is a temporary phase. So he diversified into real estate and moved into the hotel business, starting the Harilela Group with his brothers George and Peter in 1959.\n\nBy 2014, the group owns 19 major hotels in Hong Kong, including the Holiday Inn Golden Mile and the InterContinental Grand Stanford Hong Kong, both in Kowloon, as well as various others across Asia, two in Canada and one in London. The Harilela Group of hotels in the Asia-Pacific region includes properties in Hong Kong, Macau, Singapore, Penang, Bangkok and Sydney.\n\nIn 2012, Harilela stepped down as chairman but remained the honorary chairman until his death. Harilela's son Aron replaced him as the group's chairman.\n\n## Public services\n\nHarilela was highly regarded in the local Indian community. He had a great voice in the government on numerous ethnic minority issues and colonial governors and chief executives consulted Harilela. Harilela was also close friends with two former Chief Executives, Tung Chee-hwa and Donald Tsang Yam-kuen.\n\nHe was appointed member of the Hong Kong Basic Law Consultative Committee in 1985 and later appointed Hong Kong Affairs Advisor to the Government of the People's Republic of China in the 1990s. He was the Honorary Consul of Niger in Hong Kong until 2012.\n\nHe was member of the Hong Kong Chamber of Commerce, the most influential business chamber in the territory, Through the chamber he was elected the Hong Kong SAR Election Committee from 1996 to 2006 for the Commercial (First) sector, which was responsible for electing the Chief Executive of Hong Kong. He was also adviser of the Business and Professionals Federation of Hong Kong.\n\nHarilela was also a Life Regent at Pepperdine University in the United States, and was an Honorary Court Member of the Hong Kong University of Science and Technology.\n\n## Philanthropy\n\nThe Padma & Hari Harilela Lecture Theatres, with seating capacities of 250 and 150 respectively, were named in honour of the Harilelas in recognition of a HK$5 million donation to the Hong Kong Baptist University.\n\nHong Kong University of Science and Technology receives HK$5M donation from Dr Hari N Harilela to Enhance Teaching & Research Excellence. The lecture hall C (LT-C) was named \"The Padma & Hari Harilela Lecture Theatres\" in honour of the donation.\n\n## Family and personal life\n\nHarilela was the patriarch of the Harilela family with about 80 members. The family lives in a 40-bedroom mansion in Kowloon Tong, with the next generation living in a connecting house.\n\nHe was member of the Hong Kong Jockey Club.\n\nHarilela died early morning on 29 December 2014 at his Kowloon Tong home surrounded by family at the age of 92. He is surrounded by his wife Padma, son Aron, daughters Nina, Anita and Shakun. More than 100 members of his extended family, including his two surviving brothers and one sister live in the Kowloon Tong mansion.\n\n## Honours\n\nHe was made Justice of the Peace in 1963 and was awarded the Officer of the Order of the British Empire. He received the Gold Bauhinia Star in 2000 and the Grand Bauhinia Medal in 2009.\n\nHe was also a recipient of the Pravasi Bharatiya Samman from the Government of India. Harilela won a Lifetime Achievement Award at the 4th Annual Asia Pacific Hotel Industry Investment Conference on 27 March 2001.\n\n## See also\n\n- Indians in Hong Kong\n\n## References\n\n1. Chan, Thomas (30 December 2014).\"Tributes flow in after hotelier and philanthropist Hari Harilela dies, aged 92\". South China Morning Post.\n2. Mehta, Ramkiran (8 July 2007).\"Richest Indian in Hong Kong\". Spectrum. The Tribune of India. Retrieved 9 July 2010.\n3. \"Dr Hari Harilela, Chairman of Harilela Group, in RTHK's \"View from the Top\"\". RTHK. 23 August 2002. Archived from the original on 23 December 2003. Retrieved 9 July 2010.\n4. Kuensel – Volume 17. Bhutan: Department of Information, Ministry of Development at the Royal Government of Bhutan Pres. 1982.\n5. \"Harilela, Naroomal Lilaram\". Webb-site Who's Who.\n6. \"Mr David HARILELA\"(PDF). City University of Hong Kong.\n7. \"Mr David HARILELA\"(PDF). City University of Hong Kong.\n8. \"The Harilela Family\". David Hariela. Archived from the original on 29 April 2015. Retrieved 30 December 2014.\n9. Cheng, Kevin (30 December 2014).\"Harilela patriarch, 92, mourned\". The Standard. Archived from the original on 30 December 2014.\n10. \"Harilela, Hari Naroomal\". Webb-site Who's Who.\n11. \"Board of Regents\". Pepperdine University. Archived from the original on 30 December 2014. Retrieved 9 July 2010.\n12. \"HKBU names Padma & Hari Harilela Lecture Theatres\". Hong Kong Baptist University. 6 October 2005. Archived from the original on 20 February 2012. Retrieved 6 April 2009.\n13. \"HKUST Receives HK$5M Donation from Dr Hari N Harilela to Enhance Teaching & Research Excellence\". Hong Kong University of Science and Technology. 6 November 2012.\n14. \"Chief Executive saddened by death of Dr Hari Harilela\". Hong Kong Government. 30 December 2014. Retrieved 30 December 2014.\n15. Paul, Pradeep (14 August 2009).\"The family man\". AsiaOne. Archived from the original on 2 March 2011. Retrieved 9 July 2010.\n16. \"Pravasi Bharatiya Samman Award – List of Recipients\". Prime Minister's Office. New Delhi. 9 January 2003. Retrieved 9 July 2010.\n17. \"Dr. Hari N. Harilela Wins Lifetime Achievement Award at 4th Annual Asia Pacific Hotel Industry Investment Conference Jones Lang LaSalle Hotels and Arthur Andersen Jointly Sponsor Event\". Hospitalitynet.org. 27 March 2001. Archived from the original on 1 June 20",
+            "published_date": null,
+            "query": "\"Dr. Aron Harilela\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "1705567546",
+            "confidence": "medium",
+            "source_url": "https://www.hospitalitynet.org/organization/17019491.html",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "+44 20 7858 0100",
+            "confidence": "medium",
+            "source_url": "https://www.hospitalitynet.org/organization/17019491.html",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "1922-08-10)10",
+            "confidence": "medium",
+            "source_url": "https://en.wikipedia.org/wiki/Hari_Harilela",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "2014(2014-12-29",
+            "confidence": "medium",
+            "source_url": "https://en.wikipedia.org/wiki/Hari_Harilela",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_cadd329a2c840448",
+        "full_name": "Francesco Sardelli",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "The Hari, London",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thehari.com/london/about/",
+            "title": "About Page",
+            "source_type": "hotel_site",
+            "snippet": "Meet our General Manager Francesco Sardelli. With over 30 years’ experience in the luxury hotel industry, Francesco Sardelli is dedicated to exceptional service...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.thecaterer.com/news/francesco-sardelli-general-manager-hari-london",
+            "title": "Appointment Announcement",
+            "source_type": "press",
+            "snippet": "Francesco Sardelli has been appointed general manager of the Hari in London's Belgravia. He will be taking over from Andrew Coney in March.",
+            "fetched_text": null,
+            "published_date": "2024-01-18",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/francesco-sardelli-general-manager",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "General Manager at The Hari, London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79027634.html",
+            "title": "Francesco Sardelli has been appointed General Manager at The Hari, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Francesco Sardelli has been appointed General Manager at The Hari, London\n[![Hospitality Net](https://www.hospitalitynet.org/HN-icon.svg)![Hospitality Net]()](https://www.hospitalitynet.org/)\n[People](https://www.hospitalitynet.org/list/1-10/appointments.html)[Appointment](https://www.hospitalitynet.org/list/1-10/appointment/appointments.html)\n# Francesco Sardelli has been appointed General Manager at The Hari, London\n[![The Hari, London](https://www.hospitalitynet.org/picture/s_153165163/francesco-sardelli.jpg?t=1705567546)](https://www.hospitalitynet.org/organization/17019491/the-hari-london.html)\n[The Hari, London](https://www.hospitalitynet.org/organization/17019491/the-hari-london.html)\n18 January 2024\n![Francesco Sardelli ]()\n[The Hari](https://www.thehari.com/london/?gclid=CjwKCAjwsvujBhAXEiwA_UXnAGBx6BjvfMudirnmSpe_vi6KgbcYarsNte_nOY-vzq3wy6StvcnK-xoCoZoQAvD_BwE), Belgravia has today announced the appointment of Francesco Sardelli as General Manager. Francesco will be taking the helm at The Hari in March 2024 after the news that much loved Andrew Coney is retiring after nearly a decade at the hotel.\nFrancesco brings with him over 30 years of hospitality experience to his new role, having most recently held the position of General Manager at The St James Hotel and Club and previously The Kensington Hotel. After studying both transport and business in London, Francesco began his career in hospitality at Grosvenor House Hotel, working his way up the ladder at some of London's most luxury hotels to include Brown's, The Stafford and Baglioni.\nFrancesco commented: \"*I am thrilled to be appointed General Manager at The Hari. I look forward to bringing my touch to this hotel already renowned for charisma, style, and charm. Working with the wonderful Hari team will be a privilege and we will continue to grow the excellent hospitality delivered to all our many visitors\".*\nDr Aron Harilela, Chairman and CEO of Harilela Hotels commented,*\"We are very sorry to see Andrew leave The Hari and thank him for his immense contribution to the success of the hotel, we are however incredibly excited to see what Francesco will bring to the table. I have every faith that he will use his wealth of expertise to continue the hotel's positive achievements\".*\n* [View Francesco Sardelli's LinkedIn Profile](https://www.linkedin.com/in/francesco-sardelli-general-manager/)![The Hari, London](https://www.hospitalitynet.org/picture/d_153165163/francesco-sardelli.jpg?t=1705567546)\nThe Hari, London\nLondon\nUnited Kingdom\n[Website](https://www.thehari.com)\n[![The Hari, London](https://www.hospitalitynet.org/picture/s_153165163.jpg?t=1705567546)](https://www.hospitalitynet.org/organization/17019491/the-hari-london.html)\n[The Hari, London](https://www.hospitalitynet.org/organization/17019491/the-hari-london.html)\nOrganization\n### The Hari, London\nThe Hari in London opened its doors in August 2016.\n[More](https://www.hospitalitynet.org/organization/17019491/the-hari-london.html)\n[\n#### Your content on Hospitality Net?\nHospitality Net membership explained\n](https://www.hospitalitynet.org/mediakit/)\n![Hospitality Net today Newsletter]()\nSign up to our free daily newsletter,\nHospitality Net today\n[sign up](https://www.hospitalitynet.org/me/account.html)\n[![Hospitality Net]()![Hospitality Net]()](https://www.hospitalitynet.org/)\n[About Hospitality Net](https://www.hospitalitynet.org/about.html)[Media Kit](https://www.hospitalitynet.org/mediakit/)[Newsletter](https://www.hospitalitynet.org/360/)[RSS Feeds](https://www.hospitalitynet.org/rss.html)[Contact](https://www.hospitalitynet.org/contact.html)[Terms & Conditions](https://www.hospitalitynet.org/terms.html)[Privacy](https://www.hospitalitynet.org/privacy.html)\n1995-2024 Hospitality Net™ All rights reserved —Hospitality Net is powered by Hsyndicate\n[](https://www.linkedin.com/company/hospitality-net)[](https://www.facebook.com/HospitalityNet)[](https://www.twitter.com/HospitalityNet)",
+            "published_date": null,
+            "query": "\"Francesco Sardelli\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Review-g186338-d2413342-Reviews-The_Hari-London_England.html",
+            "title": "THE HARI - Updated 2025 Reviews, Photos & Prices",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "THE HARI - Updated 2025 Reviews, Photos & Prices\nSkip to main content\n[London](https://www.tripadvisor.co.uk/ClientLink?value=NGVkXy9Ub3VyaXNtLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQtVmFjYXRpb25zLmh0bWxfaGNI)[Hotels](https://www.tripadvisor.co.uk/ClientLink?value=aGM0Xy9Ib3RlbHMtZzE4NjMzOC1Mb25kb25fRW5nbGFuZC1Ib3RlbHMuaHRtbF9SUzA=)[Things to Do](https://www.tripadvisor.co.uk/ClientLink?value=RHFRXy9BdHRyYWN0aW9ucy1nMTg2MzM4LUFjdGl2aXRpZXMtTG9uZG9uX0VuZ2xhbmQuaHRtbF9ncUY=)[Restaurants](https://www.tripadvisor.co.uk/ClientLink?value=ZHI0Xy9SZXN0YXVyYW50cy1nMTg2MzM4LUxvbmRvbl9FbmdsYW5kLmh0bWxfaXlF)[Flights](https://www.tripadvisor.co.uk/ClientLink?value=VGM5Xy9GbGlnaHRzLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQtQ2hlYXBfRGlzY291bnRfQWlyZmFyZXMuaHRtbF9VNXU=)[Holiday Rentals](https://www.tripadvisor.co.uk/ClientLink?value=dERYXy9WYWNhdGlvblJlbnRhbHMtZzE4NjMzOC1SZXZpZXdzLUxvbmRvbl9FbmdsYW5kLVZhY2F0aW9uX1JlbnRhbHMuaHRtbF9Qems=)[Cruises](https://www.tripadvisor.co.uk/ClientLink?value=YnlTXy9DcnVpc2VEZXN0aW5hdGlvbi1nNC1FdXJvcGVfaUdP)[Car Hire](https://www.tripadvisor.co.uk/ClientLink?value=V2dYXy9SZW50YWxDYXJzLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQuaHRtbF9JSXA=)[Forums](https://www.tripadvisor.co.uk/ClientLink?value=d2pEXy9TaG93Rm9ydW0tZzE4NjMzOC1Mb25kb25fRW5nbGFuZC5odG1sX1dFZQ==)\n[Europe](https://www.tripadvisor.co.uk/Tourism-g4-Europe-Vacations.html)\n[United Kingdom (UK)](https://www.tripadvisor.co.uk/Tourism-g186216-United_Kingdom-Vacations.html)\n[England](https://www.tripadvisor.co.uk/Tourism-g186217-England-Vacations.html)\n[London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n[London Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\nThe Hari\nPayments made by partners impact the order of prices displayed. Room types may vary.\nLearn more\nThe listings of booking offers for each property take into account the compensation paid to us by our partners. Prices shown may be for varying room types. Prices displayed are the lowest available, corresponding to the least expensive room type available, as provided from our partners as of the time of the user’s search.\n# The Hari\nSave\n4.8\n4.8 of 5 bubbles\n[\n(2,045reviews)\n](#REVIEWS)\n[\nAI Reviews Summary\n](#REVIEWS)\n[\n#12 of 1,166 hotels in London\n](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n20 Chesham Place, London SW1X 8HQ England\nVisit hotel website\n[\n011 44 20 3835 5750\n](tel:011442038355750)\nE-mail hotel\n[\nWrite a review\n](https://www.tripadvisor.co.uk/ClientLink?value=d1N1Xy9Vc2VyUmV2aWV3RWRpdC1nMTg2MzM4LWQyNDEzMzQyLVRoZV9IYXJpLUxvbmRvbl9FbmdsYW5kLmh0bWxfUDRD)\nCheck availability\n![Our Studio King Suite allows you to stay in style, complete with bespoke furniture, a king-size bed, and a bay window pull-out sofa bed. In-room media includes a 46” flat-screen TV, USB charging port, and high-speed Wi-Fi. Services and amenities include a complimentary mini-bar, tea and coffee, bottled water daily, housekeeping service twice daily, and IIUVO luxury products. ](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/5e/da/b3/our-studio-king-suite.jpg?w=900&h=500&s=1)\n![The Hari exterior.](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/ac/fc/36/the-hari-exterior.jpg?w=900&h=500&s=1)\n![What truly sets the Studio King Suite apart is the opulent Arabescato marble bathroom with a walk-in rainforest shower and iconic bay window bathtub with enviable views of London’s skyline.](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/5e/e4/55/what-truly-sets-the-studio.jpg?w=900&h=500&s=1)\n932\nWhat is Travellers’ Choice?\nTripadvisor gives a Travellers’ Choice award to accommodations, attractions and restaurants that consistently earn great reviews from travellers and are ranked within the top 10% of properties on Tripadvisor.\n![Traveller](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/6b/2f/ad/caption.jpg?w=300&h=200&s=1)\nTraveller\n711\n![Room & Suite](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/5e/dd/d2/unrivalled-luxury-awaits.jpg?w=300&h=-1&s=1)\nRoom & Suite\n374\n![Videos](https://media-cdn.tripadvisor.com/media/video-t/2b/9d/2d/be/the-hari-1.jpg)\nVideos\n1\n## View prices for your travel dates\nCheck In\nSun, 25 May\nCheck Out\nMon, 26 May\nRooms/Guests\n1 room,2 guests\nPrices are provided by our partners, and reflect nightly room rates, including all taxes and fees known to our partners. Please see our partners for more details.\nDid you already book this hotel?\nTell us so we can help you plan.\nYesNo\nPrice trends in the next30days\nPrices are currentlylowfor your trip\nAvg.£597/night,5/14-5/15\nSelect date\n£597\nper night\n£473\nper night\n£348\nper night\nMay\nJun\n**14 May**\n**Today**\n16 May\n18 May\n20 May\n22 May\n24 May\n26 May\n28 May\n30 May\n1 Jun\n3 Jun\n5 Jun\n7 Jun\n9 Jun\n11 Jun\n13 Jun\nReflects recent average nightly prices reported by our partners, and may not include estimated taxes or fees. Price at checkout may differ.\nCheaper\nAverage\nHigher\n## About\n4.8\nExcellent\n4.8 of 5 bubbles\n[\n(2,045reviews)\n](#REVIEWS)\n#12 of 1,166 hotels in London\n4.8\n4.8 of 5 bubbles\nLocation\n4.6\n4.6 of 5 bubbles\nRooms\n4.4\n4.4 of 5 bubbles\nValue\n4.8\n4.8 of 5 bubbles\nCleanliness\n4.8\n4.8 of 5 bubbles\nService\n4.7\n4.7 of 5 bubbles\nSleep Quality\nTravellers' Choice\nTripadvisor gives a Travellers’ Choice award to accommodations, attractions and restaurants that consistently earn great reviews from travellers and are ranked within the top 10% of properties on Tripadvisor.\nLocated in the quintessentially British neighbourhood of Knightsbridge, The Hari is moments away from Harrods and the luxury shops of Sloane Street. It is also within walking distance of London's leading attractions, including The Royal Albert Hall, Hyde Park, Buckingham Palace and the city's most famous museums. All 85 designer bedrooms, of which 14 are luxury suites, emanate the distinctive modern glamour created by British interior designer Tara Bernerd. Complete with plush velvet window seats, bespoke wooden flooring, Italian marble bathrooms and views of London's skyline, our sophisticated rooms ignite the feeling of a private residence - a home away from home. Our social spaces exude eclectic cool, from the members club style bar to the secret garden terrace with a window to the stars. A contemporary Italian restaurant embellished with traditional warm hospitality and humble cuisine completes The Hari experience.\nRead more\nSuggest edits to improve what we show.[Improve this listing](https://www.tripadvisor.co.uk/ImproveListing-d2413342.html)\nProperty amenities\n[Valet parking](https://www.tripadvisor.co.uk/Hotel_Feature-g186338-d2413342-zft19112-The_Hari.html)\nFree High Speed Internet (WiFi)\n[Fitness Centre with Gym / Workout Room](https://www.tripadvisor.co.uk/Hotel_Feature-g186338-d2413342-zft9188-The_Hari.html)\n[Bar / lounge](https://www.tripadvisor.co.uk/Hotel_Feature-g186338-d2413342-zft9166-The_Hari.html)\n[Bicycle rental](https://www.tripadvisor.co.uk/Hotel_Feature-g186338-d2413342-zft18900-The_Hari.html)\nBicycles available\nHighchairs available\nPets Allowed ( Dog / Pet Friendly )\nPaid private parking nearby\nWifi\nPersonal trainer\nRestaurant\nBreakfast available\nBreakfast in the room\nComplimentary Instant Coffee\nComplimentary tea\nOutdoor dining area\nSpecial diet menus\nWine / champagne\nAirport transportation\nCar hire\nTaxi service\nConference facilities\nMeeting rooms\n24-hour security\nBaggage storage\nConcierge\nCurrency exchange\nNewspaper\nDoorperson\n24-hour front desk\nPrivate check-in / check-out\nDry cleaning\nLaundry service\nIroning service\nShoeshine\nShow more\n[Room features](https://www.tripadvisor.co.uk/Hotel_Feature-g186338-d2413342-zft1-The_Hari.html)\nAllergy-free room\nSoundproof rooms\nAir conditioning\nDesk\nHousekeeping\nInterconnected rooms available\nFlatscreen TV\nBath / shower\nBathrobes\nRoom service\nSafe\nSeating area\nSofa\nTelephone\nVIP room facilities\nWardrobe / wardrobe\nBottled water\nIron\nLaptop safe\nPrivate bathrooms\nTile / marble floor\nWake-up service / alarm clock\nOn-demand films\niPod do",
+            "published_date": null,
+            "query": "\"Francesco Sardelli\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.boutiquehotelier.com/andrew-coney-interview-the-hari/",
+            "title": "Andrew Coney on 'checking out' of The Hari after 10 years",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Francesco Sardelli\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "1705567546",
+            "confidence": "medium",
+            "source_url": "https://www.hospitalitynet.org/appointment/79027634.html",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "011 44 20 3835 5750",
+            "confidence": "medium",
+            "source_url": "https://www.tripadvisor.co.uk/Hotel_Review-g186338-d2413342-Reviews-The_Hari-London_England.html",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "011442038355750",
+            "confidence": "medium",
+            "source_url": "https://www.tripadvisor.co.uk/Hotel_Review-g186338-d2413342-Reviews-The_Hari-London_England.html",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": "https://uk.linkedin.com/in/francesco-sardelli-general-manager",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_40fef1e63428fd11",
+        "full_name": "Angela Montebello",
+        "title": "Sustainability Manager",
+        "normalized_title": "sustainability manager",
+        "company": "The Hari, London",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "low",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thehari.com/london/earthcheck-accreditation/",
+            "title": "EarthCheck Accreditation Page",
+            "source_type": "hotel_site",
+            "snippet": "Over the past couple of years, our Sustainability Manager, Angela Montebello...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/angelamontebello",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "The Hari, London ... Sustainability Manager",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.thehari.com/london/press/",
+            "title": "Press Page",
+            "source_type": "hotel_site",
+            "snippet": "Angela Montebello, appointed in April 2022 to realise the hotel's vision as a leading sustainable luxury hotel.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/angelamontebello_thehari-beluwater-sustainability-activity-7350843660910952450-_FCn",
+            "title": "Angela Montebello's Post - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Angela Montebello\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://growjo.com/company/The_Hari_London",
+            "title": "The Hari London  Revenue and Competitors",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Angela Montebello\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.cvent.com/venues/fi-FI/london/hotel/the-hari-hotel-london/venue-53397ca2-7604-4cc1-bcf4-e77ca3602e37?p=3",
+            "title": "The Hari Hotel London | Cvent",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Angela Montebello\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.terrapinn.com/exhibition/novacancy-london/speaker-angela-MONTEBELLO.stm",
+            "title": "Angela Montebello | NoVacancy London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Angela Montebello\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/angelamontebello",
+        "needs_human_review": true,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_52918366cf9ddfdf",
+        "full_name": "Catherine Rushton",
+        "title": "Assistant Director of Marketing and Communications",
+        "normalized_title": "assistant director of marketing and communications",
+        "company": "The Hari, London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thehari.com/london/press/",
+            "title": "Press & Media Enquiries",
+            "source_type": "hotel_site",
+            "snippet": "For all marketing enquiries please email our Assistant Director of Marketing and Communications, Catherine Rushton at catherine.rushton@thehari.com.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/catherine-rushton",
+            "title": "Catherine Gayler | Assistant Director of Marketing & Communications at The Hari",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Catherine Rushton\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/pub/dir/Catherine/Rushton",
+            "title": "20+ \"Catherine Rushton\" profiles - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Catherine Rushton\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://leadquest.co.uk/catherine+rushton_catherine-rushton-translation-services-gb",
+            "title": "Catherine Rushton - Catherine Rushton Translation Services LTD, Yateley",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Catherine Rushton\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/pub/dir/Catherine/Rushton/gb-0-United-Kingdom",
+            "title": "9 \"Catherine Rushton\" profiles | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Catherine Rushton\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "catherine.rushton@thehari.com",
+            "confidence": "high",
+            "source_url": "https://www.thehari.com/london/press/",
+            "rationale": "Explicitly listed on the official press page for marketing enquiries"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_0a1e6a0ce0464a13",
+        "full_name": "Kerstin Remy",
+        "title": "Director of Sales and Marketing",
+        "normalized_title": "director of sales and marketing",
+        "company": "The Hari, London",
+        "role_tier": 2,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/kerstin-remy-email_62986483",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Director of Sales and Marketing @ The Hari, London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/kerstin-remy-2b1a65147",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Associated with The Hari, London in sales/marketing leadership role",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/the-hari-london-profile_b5608140f611848e",
+            "title": "The Hari, London Information",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Kerstin Remy\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.venuedirectory.com/united-kingdom/top-meeting-rooms-in/london/the-hari/70064",
+            "title": "The Hari - Venue in London, United Kingdom | Venue Directory",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Kerstin Remy\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/the-hari-london-management_b5608140f611848e",
+            "title": "The Hari, London Management Team | Org Chart - RocketReach",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Kerstin Remy\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/kerstin-remy-2b1a65147",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Title confirmed in directory sources; currency of role should be cross-checked against latest LinkedIn activity"
+        ]
+      },
+      {
+        "candidate_id": "c_9a2bd227b383d6a0",
+        "full_name": "Laurent Coste",
+        "title": "Revenue Manager",
+        "normalized_title": "revenue manager",
+        "company": "The Hari, London",
+        "role_tier": 2,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/company/the-hari-london",
+            "title": "Company LinkedIn Page",
+            "source_type": "linkedin",
+            "snippet": "Laurent Coste. Revenue Manager since 2008...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/laurentcoste",
+            "title": "Laurent Coste - The Hari, London | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Laurent Coste\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://cn.linkedin.com/company/the-hari-london",
+            "title": "The Hari, London - 领英",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Laurent Coste\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.top50boutiquehotels.com/Hotels/UK/Greater-London/The-Hari.html",
+            "title": "The Hari  | Top 50 Boutique Hotels",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Laurent Coste\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.boutiquehotelier.com/exclusive-first-uk-hari-hotel-to-open-in-londons-belgravia-in-august/",
+            "title": "EXCLUSIVE: First UK Hari hotel to open in London’s Belgravia in August",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Laurent Coste\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.restaurantonline.co.uk/Article/2016/07/21/The-Harilela-Group-to-launch-new-hotel-brand-The-Hari-in-London/",
+            "title": "The Harilela Group to launch new hotel brand The Hari in London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Laurent Coste\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_f11e4a10c2e527a8",
+        "full_name": "Tatiana Pitta Pereira Freitas",
+        "title": "Director of Finance",
+        "normalized_title": "director of finance",
+        "company": "The Hari, London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/company/the-hari-london",
+            "title": "Company LinkedIn Page",
+            "source_type": "linkedin",
+            "snippet": "Tatiana Pitta Pereira Freitas, MIH, FHOSPA. Director of Finance and ...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/tatiana-pitta-pereira-freitas-mih-fhospa-30109422",
+            "title": "Tatiana Pitta Pereira Freitas, MIH, FHOSPA - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Tatiana Pitta Pereira Freitas\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/tatiana-pitta-pereira-freitas-email_7233680",
+            "title": "Tatiana Pitta Pereira Freitas Email & Phone Number | The Hari ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Tatiana Pitta Pereira Freitas\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/the-hari-london-profile_b5608140f611848e",
+            "title": "The Hari, London Information",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Tatiana Pitta Pereira Freitas\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/james-hilt-email_3411319",
+            "title": "James Hilt Email & Phone Number",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Tatiana Pitta Pereira Freitas\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_01e86be93252e4df",
+        "full_name": "Andoni Sanchez",
+        "title": "Director of Human Resources",
+        "normalized_title": "director of human resources",
+        "company": "The Hari, London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.cvent.com/venues/-/hotel/the-hari-hotel-london/venue-53397ca2-7604-4cc1-bcf4-e77ca3602e37",
+            "title": "Cvent Venue Page",
+            "source_type": "directory",
+            "snippet": "Andoni Sanchez – Director of Human Resources Andoni.Sanchez@thehari.com",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/andoni-sanchez-mih-email_431409479",
+            "title": "Andoni Sanchez Mih Email & Phone Number | The Hari, London ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andoni Sanchez\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://the-dots.com/users/andoni-sanchez-1016063",
+            "title": "Andoni Sanchez HR Manager | The Dots",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andoni Sanchez\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/the-hari-london",
+            "title": "The Hari, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andoni Sanchez\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.spherelife.com/travel/uk-escapes/the-hari-hotel-london-general-manager-art-prize",
+            "title": "5 Minutes With...The Hari's Andrew Coney | UK Escapes | SPHERE Magazine",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andoni Sanchez\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/the-hari-london_join-our-award-winning-team-activity-6800724246935990272-swbJ",
+            "title": "Join our award-winning team | The Hari, London - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andoni Sanchez\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "Andoni.Sanchez@thehari.com",
+            "confidence": "high",
+            "source_url": "https://www.cvent.com/venues/-/hotel/the-hari-hotel-london/venue-53397ca2-7604-4cc1-bcf4-e77ca3602e37",
+            "rationale": "Explicitly listed alongside name and title on venue directory page"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_8c3e1865061e962b",
+        "full_name": "Diego Carvalho",
+        "title": "Head Concierge",
+        "normalized_title": "head concierge",
+        "company": "The Hari, London",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thehari.com/london/about/",
+            "title": "About Page",
+            "source_type": "hotel_site",
+            "snippet": "Meet our Head Concierge Diego Carvalho ... Diego holds the prestigious Les Clef d’Or...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/diego-carvalho-b22525372",
+            "title": "Diego Carvalho - -- | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Diego Carvalho\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://theorg.com/org/avanade/org-chart/diego-carvalho",
+            "title": "Diego Carvalho - Senior IT Manager | Service Delivery Group Manager at Avanade | The Org",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Diego Carvalho\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/officers/_MEMZqJAmZ0-SWb5fCfolGNZ_LE/appointments",
+            "title": "Diego CARVALHO",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Diego Carvalho\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d2413342-r1056564064-The_Hari-London_England.html",
+            "title": "REVIEW: I had a truly enjoyable stay at The Hari - The Hari, London ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Diego Carvalho\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_8f8ad9b823d8e7df",
+        "full_name": "Marco Quarta",
+        "title": "Executive Chef",
+        "normalized_title": "executive chef",
+        "company": "The Hari London",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://ilpampero.com/executive-chef-marco-quarta/",
+            "title": "il Pampero Chef Page",
+            "source_type": "hotel_site",
+            "snippet": "Executive Chef Marco Quarta | The Hari, Belgravia and il Pampero. ... leading the kitchens at il Pampero and The Hari Bar & Terrace",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/DKwc1WOone2/",
+            "title": "Hotel Instagram Announcement",
+            "source_type": "social",
+            "snippet": "Meet Our New Executive Chef... Chef Marco Quarta as the new culinary lead at The Hari London.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.journaldespalaces.com/en/pressrelease-76329-china-gourmet-restaurants-the-hari-hong-kong-kicks-off-fifth-anniversary-celebrations-with-guest-shift-by-chef-marco-quarta-of-the-hari-london.html",
+            "title": "The Hari Hong Kong kicks off anniversary with Chef Marco Quarta",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Marco Quarta\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.paullotravel.com/chef-marco-brings-italian-flair-to-the-hari/",
+            "title": "Chef Marco Quarta Brings Italian Flair To The Hari Hong Kong - Red Bird Travel News",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Marco Quarta\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/marco-quarta-2a9a184a",
+            "title": "Marco Quarta - The Hari, London | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Marco Quarta\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.journaldespalaces.com/pressrelease-76329-china-gourmet-restaurants-the-hari-hong-kong-kicks-off-fifth-anniversary-celebrations-with-guest-shift-by-chef-marco-quarta-of-the-hari-london.html",
+            "title": "The Hari Hong Kong kicks off anniversary with Chef Marco Quarta",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Marco Quarta\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://www.linkedin.com/in/marco-quarta-2a9a184a/",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_2300d8c24207e7aa",
+        "full_name": "Emilio Preiata",
+        "title": "Food and Beverage Manager",
+        "normalized_title": "food and beverage manager",
+        "company": "The Hari London",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/emilio-preiata-246772a8",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Food and Beverage Manager at The Hari Hotel / The Hari, London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hireadingsouthhotel.co.uk/the-hari/",
+            "title": "The Hari",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Emilio Preiata\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.boutiquehotelier.com/one-aldwich-hotel-alumni-joins-baglioni-hotel-london/",
+            "title": "One Aldwych Hotel alumni joins Baglioni Hotel London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Emilio Preiata\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/the-hari-london",
+            "title": "The Hari, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Emilio Preiata\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.top-hotels-london.com/it/property/the-hari.html",
+            "title": "The Hari London Londra, Regno Unito — prenota Hotel, prezzi 2026",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Emilio Preiata\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/emilio-preiata-246772a8",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_a6fd670d84c165d7",
+        "full_name": "Brad Kirk",
+        "title": "Chief Operating Officer",
+        "normalized_title": "chief operating officer",
+        "company": "Harilela Hotels",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.harilela.com/about-us/board-of-directors/",
+            "title": "Board of Directors",
+            "source_type": "company_site",
+            "snippet": "Hotel Division ... Mr. Brad Kirk (Chief Operating Officer)",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/brkirk_the-hari-hong-kongthanks-so-much-to-so-activity-6743486031590518784-dKqT",
+            "title": "Brad Kirk's Post - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Brad Kirk\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://people.equilar.com/bio/person/brad-kirk-harilela-group/64125859",
+            "title": "Brad Kirk - Executive Bio, Work History, and Contacts - Equilar ExecAtlas",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Brad Kirk\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/the-hari-london",
+            "title": "The Hari, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Brad Kirk\" \"The Hari\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/the-hari-hong-kong_bask-in-the-views-from-the-hari-suite-boasting-activity-7032201686886531072-Xx4j",
+            "title": "Bask in the views from The Hari Suite. Boasting its own private ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Brad Kirk\" \"The Hari\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_75990be75a282484",
+        "full_name": "Lucas Lim",
+        "title": "Chief Financial Officer",
+        "normalized_title": "chief financial officer",
+        "company": "Harilela Hotels",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://www.harilela.com/about-us/board-of-directors/",
+            "title": "Board of Directors",
+            "source_type": "company_site",
+            "snippet": "Hotel Division ... Mr. Lucas Lim (Chief Financial Officer)",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_12476b529f958fe4",
+        "full_name": "M. S. Kalra",
+        "title": "Executive",
+        "normalized_title": "executive",
+        "company": "Harilela Hotels (Hotel Division)",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "low",
+        "evidence": [
+          {
+            "url": "https://www.harilela.com/about-us/board-of-directors/",
+            "title": "Board of Directors",
+            "source_type": "company_site",
+            "snippet": "Hotel Division Mr. M. S. Kalra (Executive)",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": true,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "Exact scope of responsibilities for the London property not detailed in source"
+        ]
+      }
+    ],
+    "rejected_candidates": [],
+    "provider_costs": {
+      "xai_usd": 0.255015,
+      "exa_usd": 0.12,
+      "total_usd": 0.375015
+    },
+    "quality_metrics": {
+      "candidate_count": 14,
+      "useful_candidate_count": 4,
+      "tier1_count": 2,
+      "tier2_count": 2,
+      "direct_route_count": 9,
+      "department_route_count": 0,
+      "rejected_count": 0,
+      "exa_searches": 16,
+      "exa_fetches": 8,
+      "xai_calls": 1
+    },
+    "telemetry": {
+      "stages": [
+        {
+          "stage": "grok_discovery",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 72215,
+          "tokens_out": 11902,
+          "estimated_usd": 0.255015,
+          "seconds": 212.39932650000264,
+          "notes": [
+            "grok-4.20-reasoning discovery"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.763603300001705,
+          "notes": [
+            "3d7887d255ae"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.7818632000053185,
+          "notes": [
+            "0c0aff1fa941"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6261253000047873,
+          "notes": [
+            "df77582afa74"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.7786473000014666,
+          "notes": [
+            "298f887256c3"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.808940700000676,
+          "notes": [
+            "a4aa541fb527"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.141338100002031,
+          "notes": [
+            "0f0295c9b6a8"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.950466399997822,
+          "notes": [
+            "4fdef646bde5"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.771310399999493,
+          "notes": [
+            "6adee06ca005"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.160920000002079,
+          "notes": [
+            "7c40b40fd5db"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.870081000000937,
+          "notes": [
+            "2cf444d9e1a8"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 4.252147500003048,
+          "notes": [
+            "e6fba4e3e9fe"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6634640999982366,
+          "notes": [
+            "97324f1579d6"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.4711680000036722,
+          "notes": [
+            "https://www.futurehospitality.com/world/speakers/RXZlbnRQZW9wbGVfNDI0OTM3MzM="
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 2.047355599999719,
+          "notes": [
+            "https://www.thepeakmagazine.com.sg/lifestyle/dr-aron-harilela-hotelier-interview"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.787194399999862,
+          "notes": [
+            "https://www.hospitalitynet.org/organization/17019491.html"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.5646971000023768,
+          "notes": [
+            "https://www.harilela.com/about-us/"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.5739303000009386,
+          "notes": [
+            "https://en.wikipedia.org/wiki/Hari_Harilela"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.4060212999975192,
+          "notes": [
+            "https://www.hospitalitynet.org/appointment/79027634.html"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.4090713999976288,
+          "notes": [
+            "https://www.tripadvisor.co.uk/Hotel_Review-g186338-d2413342-Reviews-The_Hari-Lon"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.7882294000010006,
+          "notes": [
+            "https://www.thecaterer.com/news/francesco-sardelli-general-manager-hari-london"
+          ]
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.0408230000030017,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.1794994000010774,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.05334479999874,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.0265530999968178,
+          "notes": []
+        }
+      ],
+      "exa_search_requests": 16,
+      "exa_content_pages": 8,
+      "errors": []
+    },
+    "needs_manual_org_review": false
+  },
+  "contacts": [
+    {
+      "full_name": "Dr. Aron Harilela",
+      "title": "Chairman and CEO",
+      "company": "Harilela Hotels Ltd",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7858 0100",
+      "phone2": "1705567546",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / owner_exec; role confidence medium.",
+      "contact_evidence_summary": "The hotel is the vision of Dr. Aron Harilela, Chairman and CEO of Harilela Hotels Ltd, and the first hotel to open under the ‘The Hari’ brand | Chairman & CEO Dr. Aron Hari Harilela, BBS JP | Thanks to the generous support of CEO and Chairman Dr. Aron Harilela | Dr. Aron Hari Harilela - Future Hospitality Summit | How prominent Hong Kong hotelier Dr Aron Harilela is navigating ...",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/wp-content/uploads/sites/4/2021/05/The-Hari-External-Fact-Sheet.pdf",
+          "source_type": "official_site",
+          "quote_or_fact": "The hotel is the vision of Dr. Aron Harilela, Chairman and CEO of Harilela Hotels Ltd, and the first hotel to open under the ‘The Hari’ brand"
+        },
+        {
+          "source_url": "https://www.harilela.com/about-us/board-of-directors/",
+          "source_type": "official_site",
+          "quote_or_fact": "Chairman & CEO Dr. Aron Hari Harilela, BBS JP"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "linkedin",
+          "quote_or_fact": "Thanks to the generous support of CEO and Chairman Dr. Aron Harilela"
+        },
+        {
+          "source_url": "https://www.futurehospitality.com/world/speakers/RXZlbnRQZW9wbGVfNDI0OTM3MzM=",
+          "source_type": "other",
+          "quote_or_fact": "Brought to you by The Bench\n\nProfile\n\nDr. Aron Hari Harilela\n\nChairman & CEOHarilela Hotels Ltd\n\nDr. Aron Harilela is CEO and Chairman of the Harilela Group, a Hong Kong based private company that has extensive experience in hotel development and management and operates hotels in Hong Kong, Mainland China and other parts of the world. They started its own brand, The Hari London in 2016 and Hong Kong in 2020. In 2014, he was appointed a Justice of the Peace and in 2019 was awarded the Bronze Bauhinia Star (BBS) by the HKSAR Government for his contributions to the community and hotel industry. Aron graduated with an honors Bachelor degree in Law and Politics, and a PhD in Political Philosophy from University of Hull, England.\n\nSee Dr. Aron Hari Harilela speak in the following sessions:\n\nTuesday 28 October\n\n14:15 - 14:50\n\nA Global Perspective - From Asia to the Middle East"
+        },
+        {
+          "source_url": "https://www.thepeakmagazine.com.sg/lifestyle/dr-aron-harilela-hotelier-interview-the-hari",
+          "source_type": "other",
+          "quote_or_fact": "How prominent Hong Kong hotelier Dr Aron Harilela is navigating the pandemic - The Peak Magazine | PEAK Singapore\n\nSign up for our newsletter for the latest business lifestyle stories!\n\nLifestyle\n\n# How prominent Hong Kong hotelier Dr Aron Harilela is navigating the pandemic\n\nIt’s a trying time for the hospitality and tourism industry but Dr Aron Harilela is taking bold steps, including opening The Hari Hong Kong late last year.\n\nBy The Peak Team/ 15 Jun 2021\n\nDr Aron Harilela\n\nBusiness Leaders, Hospitality, Tourism, Travel\n\n##### Share this article\n\nHow big are the Harilelas? They have their own Wikipedia page. One of the most prominent families in Hong Kong, the Harilelas own and operate The Harilela Group, which focuses on hotel development and management. Last year, in December during the middle of a pandemic, the Group opened the doors to its latest property, The Hari Hong Kong.\n\nThe Peak speaks to chairperson and CEO of The Harilela Group, Dr Aron Harilela, about this bold move a"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/organization/17019491.html",
+          "source_type": "other",
+          "quote_or_fact": "The Hari, London\n[![Hospitality Net](https://www.hospitalitynet.org/HN-icon.svg)![Hospitality Net]()](https://www.hospitalitynet.org/)\n[Individual Hotel](https://www.hospitalitynet.org/list/individual-hotels.html)\n# The Hari, London\n![The Hari, London](https://www.hospitalitynet.org/picture/153165163/the-hari-london.jpg?t=1705567546)The Hari in London opened its doors in August 2016. The hotel is the vision of Dr. Aron Harilela, Chairman and CEO of Harilela Hotels Ltd, and the first hotel to open under the ‘The Hari’ brand. A second hotel opened in 2020 in Hong Kong. The Harilela Group was established in 1959 and is still wholly owned by the Harilela family. The Harilela Group is the parent company of Harilela Hotels which owns 15 properties across Hong Kong, China, the Far East, Europe, and the US.\n[Visit website](https://www.thehari.com)[Linkedin](https://www.linkedin.com/company/the-hari-london/)[Twitter](https://twitter.com/theharilondon?lang=en)[Facebook](https://www.facebook.com/"
+        },
+        {
+          "source_url": "https://www.harilela.com/about-us/",
+          "source_type": "other",
+          "quote_or_fact": "Harilela Group | International Hospitality Group | Company Information --\n\n--\n\n# Company Information\n\nEstablished in 1959 and still wholly owned by the Harilela family, The Harilela Group is a Hong Kong based private company with extensive experience in hotel development and management. The Group currently owns and operates some 15 properties across Hong Kong, China, the Far East, Europe and the US. Our latest is The Hari Hong Kong which opened in late 2020\n\nThe Group’s success in generating steady returns for its shareholder is based on ensuring its hotels and hospitality related properties remain the preferred choice of discerning guests. Such a steady focus on customer satisfaction has paved the way for the acquisition of several quality brands across virtually every segment of the international hotel and leisure market.\n\nDiversification into hotels began with the acquisition of Hong Kong’s Imperial Hotel in 1961. Half a century on, The Group has successfully spread its wings into t"
+        },
+        {
+          "source_url": "https://en.wikipedia.org/wiki/Hari_Harilela",
+          "source_type": "other",
+          "quote_or_fact": "Hari Harilela\n\nHari Naroomal Harilela, GBM GBS OBE JP(Chinese: 夏利萊; Jyutping: haa6 lei6 loi4, 10 August 1922 – 29 December 2014) was a Hong Kong Indian businessman, hotelier and philanthropist and the founder and chairman of the Harilela Group. The group runs businesses ranging from hotel and real estate investment to import and export trading. He was often dubbed the richest Indian in Hong Kong.\n\n| The Honourable, Hari Harilela, GBM, GBS, OBE, JP | - |\n| --- | --- |\n| Hari Naroomal Harilela in 1980 | - |\n| Born | (1922-08-10)10 August 1922, Hyderabad, Sindh, British India (now Pakistan) |\n| Died | 29 December 2014(2014-12-29) (aged 92), Kowloon Tong, Hong Kong |\n| Occupations | Hotelier, investor |\n| Spouse | Padma Harilela, ​(m. 1951⁠–⁠2014)​ |\n| Children | Maya Harilela, Anita Hariela, Aron Hari Harilela, Nina Harilela, Shakun Harilela, Sheila Harilela |\n| Parent(s) | Naroomal Lilaram Harilela (deceased), Devibai Harilela (deceased) |\n| Relatives | Siblings: George Harilela (d. 2006"
+        }
+      ]
+    },
+    {
+      "full_name": "Francesco Sardelli",
+      "title": "General Manager",
+      "company": "The Hari, London",
+      "linkedin_url": "https://uk.linkedin.com/in/francesco-sardelli-general-manager",
+      "email": null,
+      "email2": null,
+      "phone": "011 44 20 3835 5750",
+      "phone2": "011442038355750",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Meet our General Manager Francesco Sardelli. With over 30 years’ experience in the luxury hotel industry, Francesco Sardelli is dedicated to exceptional service... | Francesco Sardelli has been appointed general manager of the Hari in London's Belgravia. He will be taking over from Andrew Coney in March. | General Manager at The Hari, London | Francesco Sardelli has been appointed General Manager at The Hari, London | THE HARI - Updated 2025 Reviews, Photos & Prices",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/about/",
+          "source_type": "official_site",
+          "quote_or_fact": "Meet our General Manager Francesco Sardelli. With over 30 years’ experience in the luxury hotel industry, Francesco Sardelli is dedicated to exceptional service..."
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/francesco-sardelli-general-manager-hari-london",
+          "source_type": "news",
+          "quote_or_fact": "Francesco Sardelli has been appointed general manager of the Hari in London's Belgravia. He will be taking over from Andrew Coney in March."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/francesco-sardelli-general-manager",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager at The Hari, London"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79027634.html",
+          "source_type": "other",
+          "quote_or_fact": "Francesco Sardelli has been appointed General Manager at The Hari, London\n[![Hospitality Net](https://www.hospitalitynet.org/HN-icon.svg)![Hospitality Net]()](https://www.hospitalitynet.org/)\n[People](https://www.hospitalitynet.org/list/1-10/appointments.html)[Appointment](https://www.hospitalitynet.org/list/1-10/appointment/appointments.html)\n# Francesco Sardelli has been appointed General Manager at The Hari, London\n[![The Hari, London](https://www.hospitalitynet.org/picture/s_153165163/francesco-sardelli.jpg?t=1705567546)](https://www.hospitalitynet.org/organization/17019491/the-hari-london.html)\n[The Hari, London](https://www.hospitalitynet.org/organization/17019491/the-hari-london.html)\n18 January 2024\n![Francesco Sardelli ]()\n[The Hari](https://www.thehari.com/london/?gclid=CjwKCAjwsvujBhAXEiwA_UXnAGBx6BjvfMudirnmSpe_vi6KgbcYarsNte_nOY-vzq3wy6StvcnK-xoCoZoQAvD_BwE), Belgravia has today announced the appointment of Francesco Sardelli as General Manager. Francesco will be taking th"
+        },
+        {
+          "source_url": "https://www.tripadvisor.co.uk/Hotel_Review-g186338-d2413342-Reviews-The_Hari-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "THE HARI - Updated 2025 Reviews, Photos & Prices\nSkip to main content\n[London](https://www.tripadvisor.co.uk/ClientLink?value=NGVkXy9Ub3VyaXNtLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQtVmFjYXRpb25zLmh0bWxfaGNI)[Hotels](https://www.tripadvisor.co.uk/ClientLink?value=aGM0Xy9Ib3RlbHMtZzE4NjMzOC1Mb25kb25fRW5nbGFuZC1Ib3RlbHMuaHRtbF9SUzA=)[Things to Do](https://www.tripadvisor.co.uk/ClientLink?value=RHFRXy9BdHRyYWN0aW9ucy1nMTg2MzM4LUFjdGl2aXRpZXMtTG9uZG9uX0VuZ2xhbmQuaHRtbF9ncUY=)[Restaurants](https://www.tripadvisor.co.uk/ClientLink?value=ZHI0Xy9SZXN0YXVyYW50cy1nMTg2MzM4LUxvbmRvbl9FbmdsYW5kLmh0bWxfaXlF)[Flights](https://www.tripadvisor.co.uk/ClientLink?value=VGM5Xy9GbGlnaHRzLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQtQ2hlYXBfRGlzY291bnRfQWlyZmFyZXMuaHRtbF9VNXU=)[Holiday Rentals](https://www.tripadvisor.co.uk/ClientLink?value=dERYXy9WYWNhdGlvblJlbnRhbHMtZzE4NjMzOC1SZXZpZXdzLUxvbmRvbl9FbmdsYW5kLVZhY2F0aW9uX1JlbnRhbHMuaHRtbF9Qems=)[Cruises](https://www.tripadvisor.co.uk/ClientLink?value=YnlTXy9DcnVpc2VEZXN0aW5hdGlvbi"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/andrew-coney-interview-the-hari/",
+          "source_type": "other",
+          "quote_or_fact": "Andrew Coney on 'checking out' of The Hari after 10 years"
+        }
+      ]
+    },
+    {
+      "full_name": "Angela Montebello",
+      "title": "Sustainability Manager",
+      "company": "The Hari, London",
+      "linkedin_url": "https://uk.linkedin.com/in/angelamontebello",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence low.",
+      "contact_evidence_summary": "Over the past couple of years, our Sustainability Manager, Angela Montebello... | The Hari, London ... Sustainability Manager | Angela Montebello, appointed in April 2022 to realise the hotel's vision as a leading sustainable luxury hotel. | Angela Montebello's Post - LinkedIn | The Hari London  Revenue and Competitors",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/earthcheck-accreditation/",
+          "source_type": "official_site",
+          "quote_or_fact": "Over the past couple of years, our Sustainability Manager, Angela Montebello..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/angelamontebello",
+          "source_type": "linkedin",
+          "quote_or_fact": "The Hari, London ... Sustainability Manager"
+        },
+        {
+          "source_url": "https://www.thehari.com/london/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "Angela Montebello, appointed in April 2022 to realise the hotel's vision as a leading sustainable luxury hotel."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/angelamontebello_thehari-beluwater-sustainability-activity-7350843660910952450-_FCn",
+          "source_type": "other",
+          "quote_or_fact": "Angela Montebello's Post - LinkedIn"
+        },
+        {
+          "source_url": "https://growjo.com/company/The_Hari_London",
+          "source_type": "other",
+          "quote_or_fact": "The Hari London  Revenue and Competitors"
+        },
+        {
+          "source_url": "https://www.cvent.com/venues/fi-FI/london/hotel/the-hari-hotel-london/venue-53397ca2-7604-4cc1-bcf4-e77ca3602e37?p=3",
+          "source_type": "other",
+          "quote_or_fact": "The Hari Hotel London | Cvent"
+        },
+        {
+          "source_url": "https://www.terrapinn.com/exhibition/novacancy-london/speaker-angela-MONTEBELLO.stm",
+          "source_type": "other",
+          "quote_or_fact": "Angela Montebello | NoVacancy London"
+        }
+      ]
+    },
+    {
+      "full_name": "Catherine Rushton",
+      "title": "Assistant Director of Marketing and Communications",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": "catherine.rushton@thehari.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "For all marketing enquiries please email our Assistant Director of Marketing and Communications, Catherine Rushton at catherine.rushton@thehari.com. | Catherine Gayler | Assistant Director of Marketing & Communications at The Hari | 20+ \"Catherine Rushton\" profiles - LinkedIn | Catherine Rushton - Catherine Rushton Translation Services LTD, Yateley | 9 \"Catherine Rushton\" profiles | LinkedIn",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "For all marketing enquiries please email our Assistant Director of Marketing and Communications, Catherine Rushton at catherine.rushton@thehari.com."
+        },
+        {
+          "source_url": "https://linkedin.com/in/catherine-rushton",
+          "source_type": "other",
+          "quote_or_fact": "Catherine Gayler | Assistant Director of Marketing & Communications at The Hari"
+        },
+        {
+          "source_url": "https://www.linkedin.com/pub/dir/Catherine/Rushton",
+          "source_type": "other",
+          "quote_or_fact": "20+ \"Catherine Rushton\" profiles - LinkedIn"
+        },
+        {
+          "source_url": "https://leadquest.co.uk/catherine+rushton_catherine-rushton-translation-services-gb",
+          "source_type": "other",
+          "quote_or_fact": "Catherine Rushton - Catherine Rushton Translation Services LTD, Yateley"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/pub/dir/Catherine/Rushton/gb-0-United-Kingdom",
+          "source_type": "other",
+          "quote_or_fact": "9 \"Catherine Rushton\" profiles | LinkedIn"
+        }
+      ]
+    },
+    {
+      "full_name": "Kerstin Remy",
+      "title": "Director of Sales and Marketing",
+      "company": "The Hari, London",
+      "linkedin_url": "https://uk.linkedin.com/in/kerstin-remy-2b1a65147",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Title confirmed in directory sources; currency of role should be cross-checked against latest LinkedIn activity",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Director of Sales and Marketing @ The Hari, London | Associated with The Hari, London in sales/marketing leadership role | The Hari, London Information | The Hari - Venue in London, United Kingdom | Venue Directory | The Hari, London Management Team | Org Chart - RocketReach | Title confirmed in directory sources; currency of role should be cross-checked against latest LinkedIn activity",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/kerstin-remy-email_62986483",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Sales and Marketing @ The Hari, London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/kerstin-remy-2b1a65147",
+          "source_type": "linkedin",
+          "quote_or_fact": "Associated with The Hari, London in sales/marketing leadership role"
+        },
+        {
+          "source_url": "https://rocketreach.co/the-hari-london-profile_b5608140f611848e",
+          "source_type": "other",
+          "quote_or_fact": "The Hari, London Information"
+        },
+        {
+          "source_url": "https://www.venuedirectory.com/united-kingdom/top-meeting-rooms-in/london/the-hari/70064",
+          "source_type": "other",
+          "quote_or_fact": "The Hari - Venue in London, United Kingdom | Venue Directory"
+        },
+        {
+          "source_url": "https://rocketreach.co/the-hari-london-management_b5608140f611848e",
+          "source_type": "other",
+          "quote_or_fact": "The Hari, London Management Team | Org Chart - RocketReach"
+        }
+      ]
+    },
+    {
+      "full_name": "Laurent Coste",
+      "title": "Revenue Manager",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Laurent Coste. Revenue Manager since 2008... | Laurent Coste - The Hari, London | LinkedIn | The Hari, London - 领英 | The Hari  | Top 50 Boutique Hotels | EXCLUSIVE: First UK Hari hotel to open in London’s Belgravia in August",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "linkedin",
+          "quote_or_fact": "Laurent Coste. Revenue Manager since 2008..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/laurentcoste",
+          "source_type": "other",
+          "quote_or_fact": "Laurent Coste - The Hari, London | LinkedIn"
+        },
+        {
+          "source_url": "https://cn.linkedin.com/company/the-hari-london",
+          "source_type": "other",
+          "quote_or_fact": "The Hari, London - 领英"
+        },
+        {
+          "source_url": "https://www.top50boutiquehotels.com/Hotels/UK/Greater-London/The-Hari.html",
+          "source_type": "other",
+          "quote_or_fact": "The Hari  | Top 50 Boutique Hotels"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/exclusive-first-uk-hari-hotel-to-open-in-londons-belgravia-in-august/",
+          "source_type": "other",
+          "quote_or_fact": "EXCLUSIVE: First UK Hari hotel to open in London’s Belgravia in August"
+        },
+        {
+          "source_url": "https://www.restaurantonline.co.uk/Article/2016/07/21/The-Harilela-Group-to-launch-new-hotel-brand-The-Hari-in-London/",
+          "source_type": "other",
+          "quote_or_fact": "The Harilela Group to launch new hotel brand The Hari in London"
+        }
+      ]
+    },
+    {
+      "full_name": "Tatiana Pitta Pereira Freitas",
+      "title": "Director of Finance",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Tatiana Pitta Pereira Freitas, MIH, FHOSPA. Director of Finance and ... | Tatiana Pitta Pereira Freitas, MIH, FHOSPA - LinkedIn | Tatiana Pitta Pereira Freitas Email & Phone Number | The Hari ... | The Hari, London Information | James Hilt Email & Phone Number",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "linkedin",
+          "quote_or_fact": "Tatiana Pitta Pereira Freitas, MIH, FHOSPA. Director of Finance and ..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/tatiana-pitta-pereira-freitas-mih-fhospa-30109422",
+          "source_type": "other",
+          "quote_or_fact": "Tatiana Pitta Pereira Freitas, MIH, FHOSPA - LinkedIn"
+        },
+        {
+          "source_url": "https://rocketreach.co/tatiana-pitta-pereira-freitas-email_7233680",
+          "source_type": "other",
+          "quote_or_fact": "Tatiana Pitta Pereira Freitas Email & Phone Number | The Hari ..."
+        },
+        {
+          "source_url": "https://rocketreach.co/the-hari-london-profile_b5608140f611848e",
+          "source_type": "other",
+          "quote_or_fact": "The Hari, London Information"
+        },
+        {
+          "source_url": "https://rocketreach.co/james-hilt-email_3411319",
+          "source_type": "other",
+          "quote_or_fact": "James Hilt Email & Phone Number"
+        }
+      ]
+    },
+    {
+      "full_name": "Andoni Sanchez",
+      "title": "Director of Human Resources",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": "Andoni.Sanchez@thehari.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Andoni Sanchez – Director of Human Resources Andoni.Sanchez@thehari.com | Andoni Sanchez Mih Email & Phone Number | The Hari, London ... | Andoni Sanchez HR Manager | The Dots | The Hari, London | 5 Minutes With...The Hari's Andrew Coney | UK Escapes | SPHERE Magazine",
+      "evidence": [
+        {
+          "source_url": "https://www.cvent.com/venues/-/hotel/the-hari-hotel-london/venue-53397ca2-7604-4cc1-bcf4-e77ca3602e37",
+          "source_type": "directory",
+          "quote_or_fact": "Andoni Sanchez – Director of Human Resources Andoni.Sanchez@thehari.com"
+        },
+        {
+          "source_url": "https://rocketreach.co/andoni-sanchez-mih-email_431409479",
+          "source_type": "other",
+          "quote_or_fact": "Andoni Sanchez Mih Email & Phone Number | The Hari, London ..."
+        },
+        {
+          "source_url": "https://the-dots.com/users/andoni-sanchez-1016063",
+          "source_type": "other",
+          "quote_or_fact": "Andoni Sanchez HR Manager | The Dots"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "other",
+          "quote_or_fact": "The Hari, London"
+        },
+        {
+          "source_url": "https://www.spherelife.com/travel/uk-escapes/the-hari-hotel-london-general-manager-art-prize",
+          "source_type": "other",
+          "quote_or_fact": "5 Minutes With...The Hari's Andrew Coney | UK Escapes | SPHERE Magazine"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/the-hari-london_join-our-award-winning-team-activity-6800724246935990272-swbJ",
+          "source_type": "other",
+          "quote_or_fact": "Join our award-winning team | The Hari, London - LinkedIn"
+        }
+      ]
+    },
+    {
+      "full_name": "Diego Carvalho",
+      "title": "Head Concierge",
+      "company": "The Hari, London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Meet our Head Concierge Diego Carvalho ... Diego holds the prestigious Les Clef d’Or... | Diego Carvalho - -- | LinkedIn | Diego Carvalho - Senior IT Manager | Service Delivery Group Manager at Avanade | The Org | Diego CARVALHO | REVIEW: I had a truly enjoyable stay at The Hari - The Hari, London ...",
+      "evidence": [
+        {
+          "source_url": "https://www.thehari.com/london/about/",
+          "source_type": "official_site",
+          "quote_or_fact": "Meet our Head Concierge Diego Carvalho ... Diego holds the prestigious Les Clef d’Or..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/diego-carvalho-b22525372",
+          "source_type": "other",
+          "quote_or_fact": "Diego Carvalho - -- | LinkedIn"
+        },
+        {
+          "source_url": "https://theorg.com/org/avanade/org-chart/diego-carvalho",
+          "source_type": "other",
+          "quote_or_fact": "Diego Carvalho - Senior IT Manager | Service Delivery Group Manager at Avanade | The Org"
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/officers/_MEMZqJAmZ0-SWb5fCfolGNZ_LE/appointments",
+          "source_type": "other",
+          "quote_or_fact": "Diego CARVALHO"
+        },
+        {
+          "source_url": "https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d2413342-r1056564064-The_Hari-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "REVIEW: I had a truly enjoyable stay at The Hari - The Hari, London ..."
+        }
+      ]
+    },
+    {
+      "full_name": "Marco Quarta",
+      "title": "Executive Chef",
+      "company": "The Hari London",
+      "linkedin_url": "https://www.linkedin.com/in/marco-quarta-2a9a184a/",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Executive Chef Marco Quarta | The Hari, Belgravia and il Pampero. ... leading the kitchens at il Pampero and The Hari Bar & Terrace | Meet Our New Executive Chef... Chef Marco Quarta as the new culinary lead at The Hari London. | The Hari Hong Kong kicks off anniversary with Chef Marco Quarta | Chef Marco Quarta Brings Italian Flair To The Hari Hong Kong - Red Bird Travel News | Marco Quarta - The Hari, London | LinkedIn",
+      "evidence": [
+        {
+          "source_url": "https://ilpampero.com/executive-chef-marco-quarta/",
+          "source_type": "official_site",
+          "quote_or_fact": "Executive Chef Marco Quarta | The Hari, Belgravia and il Pampero. ... leading the kitchens at il Pampero and The Hari Bar & Terrace"
+        },
+        {
+          "source_url": "https://www.instagram.com/reel/DKwc1WOone2/",
+          "source_type": "x",
+          "quote_or_fact": "Meet Our New Executive Chef... Chef Marco Quarta as the new culinary lead at The Hari London."
+        },
+        {
+          "source_url": "https://www.journaldespalaces.com/en/pressrelease-76329-china-gourmet-restaurants-the-hari-hong-kong-kicks-off-fifth-anniversary-celebrations-with-guest-shift-by-chef-marco-quarta-of-the-hari-london.html",
+          "source_type": "other",
+          "quote_or_fact": "The Hari Hong Kong kicks off anniversary with Chef Marco Quarta"
+        },
+        {
+          "source_url": "https://www.paullotravel.com/chef-marco-brings-italian-flair-to-the-hari/",
+          "source_type": "other",
+          "quote_or_fact": "Chef Marco Quarta Brings Italian Flair To The Hari Hong Kong - Red Bird Travel News"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/marco-quarta-2a9a184a",
+          "source_type": "other",
+          "quote_or_fact": "Marco Quarta - The Hari, London | LinkedIn"
+        },
+        {
+          "source_url": "https://www.journaldespalaces.com/pressrelease-76329-china-gourmet-restaurants-the-hari-hong-kong-kicks-off-fifth-anniversary-celebrations-with-guest-shift-by-chef-marco-quarta-of-the-hari-london.html",
+          "source_type": "other",
+          "quote_or_fact": "The Hari Hong Kong kicks off anniversary with Chef Marco Quarta"
+        }
+      ]
+    },
+    {
+      "full_name": "Emilio Preiata",
+      "title": "Food and Beverage Manager",
+      "company": "The Hari London",
+      "linkedin_url": "https://uk.linkedin.com/in/emilio-preiata-246772a8",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Food and Beverage Manager at The Hari Hotel / The Hari, London | The Hari | One Aldwych Hotel alumni joins Baglioni Hotel London | The Hari, London | The Hari London Londra, Regno Unito — prenota Hotel, prezzi 2026",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/emilio-preiata-246772a8",
+          "source_type": "linkedin",
+          "quote_or_fact": "Food and Beverage Manager at The Hari Hotel / The Hari, London"
+        },
+        {
+          "source_url": "https://www.hireadingsouthhotel.co.uk/the-hari/",
+          "source_type": "other",
+          "quote_or_fact": "The Hari"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/one-aldwich-hotel-alumni-joins-baglioni-hotel-london/",
+          "source_type": "other",
+          "quote_or_fact": "One Aldwych Hotel alumni joins Baglioni Hotel London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "other",
+          "quote_or_fact": "The Hari, London"
+        },
+        {
+          "source_url": "https://www.top-hotels-london.com/it/property/the-hari.html",
+          "source_type": "other",
+          "quote_or_fact": "The Hari London Londra, Regno Unito — prenota Hotel, prezzi 2026"
+        }
+      ]
+    },
+    {
+      "full_name": "Brad Kirk",
+      "title": "Chief Operating Officer",
+      "company": "Harilela Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Hotel Division ... Mr. Brad Kirk (Chief Operating Officer) | Brad Kirk's Post - LinkedIn | Brad Kirk - Executive Bio, Work History, and Contacts - Equilar ExecAtlas | The Hari, London | Bask in the views from The Hari Suite. Boasting its own private ...",
+      "evidence": [
+        {
+          "source_url": "https://www.harilela.com/about-us/board-of-directors/",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Division ... Mr. Brad Kirk (Chief Operating Officer)"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/brkirk_the-hari-hong-kongthanks-so-much-to-so-activity-6743486031590518784-dKqT",
+          "source_type": "other",
+          "quote_or_fact": "Brad Kirk's Post - LinkedIn"
+        },
+        {
+          "source_url": "https://people.equilar.com/bio/person/brad-kirk-harilela-group/64125859",
+          "source_type": "other",
+          "quote_or_fact": "Brad Kirk - Executive Bio, Work History, and Contacts - Equilar ExecAtlas"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/the-hari-london",
+          "source_type": "other",
+          "quote_or_fact": "The Hari, London"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/the-hari-hong-kong_bask-in-the-views-from-the-hari-suite-boasting-activity-7032201686886531072-Xx4j",
+          "source_type": "other",
+          "quote_or_fact": "Bask in the views from The Hari Suite. Boasting its own private ..."
+        }
+      ]
+    },
+    {
+      "full_name": "Lucas Lim",
+      "title": "Chief Financial Officer",
+      "company": "Harilela Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Hotel Division ... Mr. Lucas Lim (Chief Financial Officer)",
+      "evidence": [
+        {
+          "source_url": "https://www.harilela.com/about-us/board-of-directors/",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Division ... Mr. Lucas Lim (Chief Financial Officer)"
+        }
+      ]
+    },
+    {
+      "full_name": "M. S. Kalra",
+      "title": "Executive",
+      "company": "Harilela Hotels (Hotel Division)",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Exact scope of responsibilities for the London property not detailed in source",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Hotel Division Mr. M. S. Kalra (Executive) | Exact scope of responsibilities for the London property not detailed in source",
+      "evidence": [
+        {
+          "source_url": "https://www.harilela.com/about-us/board-of-directors/",
+          "source_type": "official_site",
+          "quote_or_fact": "Hotel Division Mr. M. S. Kalra (Executive)"
+        }
+      ]
+    }
+  ]
+}

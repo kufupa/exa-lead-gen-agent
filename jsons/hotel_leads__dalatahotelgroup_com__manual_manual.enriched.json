@@ -1,0 +1,124 @@
+{
+  "target_url": "https://dalatahotelgroup.com/",
+  "generated_at_utc": "2026-04-27T11:17:00+00:00",
+  "model": "manual-input",
+  "agent_count": null,
+  "max_turns": null,
+  "max_turns_effective": null,
+  "min_contacts": null,
+  "target_contacts": null,
+  "max_contacts": 4,
+  "extra_contact_pass": false,
+  "strict_evidence": false,
+  "allow_linkedin": true,
+  "usage": null,
+  "contact_enrichment": {
+    "version": 1,
+    "mode": "realtime",
+    "model": "grok-4.20-reasoning",
+    "enriched_at_utc": "2026-04-27T10:27:41.937399+00:00",
+    "concurrency": 12,
+    "skipped_pre_enrichment": 0,
+    "attempted": 4,
+    "succeeded": 4,
+    "failed": []
+  },
+  "contacts": [
+    {
+      "full_name": "Richard Coupland",
+      "title": "Global Account Sales Director",
+      "company": "Dalata Hotel Group PLC",
+      "linkedin_url": "https://www.linkedin.com/in/richard-coupland-4a76a920",
+      "email": "rcoupland@dalatahotelgroup.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Area/segment: Global account sales (travel agencies / airlines). Owns major account relationships across brands.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly supplied lead with business ownership context.",
+      "contact_evidence_summary": "Contact provided manually by user request.",
+      "evidence": [
+        {
+          "source_url": "https://dalatahotelgroup.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact provided via manual enrichment request."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Franco Ferrara",
+      "title": "Global Account Manager",
+      "company": "Dalata Hotel Group PLC",
+      "linkedin_url": "https://www.linkedin.com/in/franco-ferrara-81874083",
+      "email": "fferrara@dalatahotelgroup.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Global Account Manager, Business Travel / key travel agency accounts",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly supplied lead with account responsibility context.",
+      "contact_evidence_summary": "Contact provided manually by user request.",
+      "evidence": [
+        {
+          "source_url": "https://dalatahotelgroup.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact provided via manual enrichment request."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Susan O'Keeffe",
+      "title": "Group Business Development Manager",
+      "company": "Dalata Hotel Group PLC",
+      "linkedin_url": "https://www.linkedin.com/in/susan-o-keeffe-01315522",
+      "email": "sokeeffe@dalatahotelgroup.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Area/segment: Business travel. Focus on corporate/business travel.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly supplied lead with corporate travel responsibility.",
+      "contact_evidence_summary": "Contact provided manually by user request.",
+      "evidence": [
+        {
+          "source_url": "https://dalatahotelgroup.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact provided via manual enrichment request."
+        }
+      ],
+      "linkedin_profile": null
+    },
+    {
+      "full_name": "Valerie Wilgar",
+      "title": "Group Travel Trade Sales Manager",
+      "company": "Dalata Hotel Group PLC",
+      "linkedin_url": "https://www.linkedin.com/in/valerie-wilgar-0b818719",
+      "email": "vwilgar@dalatahotelgroup.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Area/segment: Tour operators / group leisure. Manages tour operator and group travel trade.",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Directly supplied lead for group travel trade channeling.",
+      "contact_evidence_summary": "Contact provided manually by user request.",
+      "evidence": [
+        {
+          "source_url": "https://dalatahotelgroup.com/",
+          "source_type": "official_site",
+          "quote_or_fact": "Contact provided via manual enrichment request."
+        }
+      ],
+      "linkedin_profile": null
+    }
+  ]
+}

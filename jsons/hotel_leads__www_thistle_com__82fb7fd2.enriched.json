@@ -87,7 +87,7 @@
       "full_name": "Stuart Yeates",
       "title": "Chief Commercial Officer",
       "company": "Clermont Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/stuartyeates",
+      "linkedin_url": "https://www.linkedin.com/in/stuartyeates",
       "email": null,
       "email2": null,
       "phone": null,
@@ -114,13 +114,173 @@
           "source_type": "official_site",
           "quote_or_fact": "press@clermonthotel.group for media and commercial enquiries"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/stuartyeates",
+        "display_name": "Stuart Yeates",
+        "headline": "Chief Commercial Officer at Clermont Hotel Group",
+        "location": "United Kingdom (GB)",
+        "about": "I am a highly self- motivated individual, with the necessary dedication and determination to succeed within a high profile organisation. I am keen to utilise the strong communication, leadership and analytical skills I have acquired in my previous roles, as well as continuing to develop my commercial awareness within an ambitious and influential industry recognised company.\n\nTotal Experience: 21 years and 7 months",
+        "experience": [
+          {
+            "title": "Analyst- Sales And Management Information Strategies",
+            "organization": "Silverstone Circuits Ltd",
+            "date_range": "May 2003 - May 2005",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Disciplinary Assistant",
+            "organization": "The Football Association",
+            "date_range": "May 2005 - May 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Market Revenue Manager",
+            "organization": "Travelodge",
+            "date_range": "Jan 2006 - Jan 2008",
+            "location": null,
+            "description": "Market Revenue Manager for South/South West and responsible for forecasting, budgeting, inventory management, pricing decisions of 40+ properties."
+          },
+          {
+            "title": "Revenue Performance Analyst",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "Nov 2008 - Oct 2009",
+            "location": null,
+            "description": "I was responsible for producing a number of analytical reports which allowed the Revenue Team to move into centralised environment. This involved creating consolidated budgeting and forecasting files, trending reports, pricing and strategy reviews at key properties and presentations to hotel managers across the estate."
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "Oct 2009 - Jan 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Regional Revenue Manager",
+            "organization": "Jurys Inns Group Ltd",
+            "date_range": "Jan 2011 - Jan 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Revenue Manager-Maternity Cover",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Jan 2014 - Nov 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "UK Revenue Manager",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Nov 2014 - Apr 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Operations And Finance",
+            "organization": "Sherriffs Foods Limited",
+            "date_range": "May 2015 - Sep 2015",
+            "location": "Towcester, Northamptonshire, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Brand Revenue Manager",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Oct 2015 - Apr 2016",
+            "location": "UK & Ireland",
+            "description": null
+          },
+          {
+            "title": "Head Of Revenue- Jurys Inns Franchise Hotels",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Apr 2016 - Feb 2019",
+            "location": "Dublin",
+            "description": null
+          },
+          {
+            "title": "Commercial Director- Amaris Accor",
+            "organization": "Amaris Hospitality",
+            "date_range": "Mar 2019 - Aug 2019",
+            "location": "Watford, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Revenue Commercial Strategy",
+            "organization": "Leonardo Hotels UK & Ireland | Formerly Jurys Inn",
+            "date_range": "Aug 2019 - Aug 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Revenue And M E Director",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Sep 2023 - Jul 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chief Commercial Officer",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jul 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Coventry University",
+            "degree_or_field": null,
+            "date_range": "2000 - 2003"
+          }
+        ],
+        "skills": [
+          "determination",
+          "organisation",
+          "leadership",
+          "commercial",
+          "sales",
+          "management",
+          "operations",
+          "finance",
+          "director",
+          "strategy",
+          "responsible",
+          "forecasting",
+          "budgeting",
+          "inventory",
+          "pricing",
+          "cluster",
+          "hotels",
+          "producing",
+          "reports",
+          "presentations",
+          "hotel",
+          "self motivated",
+          "analytical skills",
+          "commercial awareness",
+          "sales management",
+          "inventory management",
+          "pricing strategy"
+        ],
+        "activity_themes": [
+          "Hospitality leadership, conferences and Global Revenue Forum",
+          "Hotel operational upgrades, launches and awards",
+          "Team achievements, management recognitions and leadership transitions",
+          "Commercial strategy, revenue management and industry networking",
+          "Professional development and work travel in UK hotels"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Max Kellar",
       "title": "Head of Digital",
       "company": "Clermont Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/max-kellar",
+      "linkedin_url": "https://www.linkedin.com/in/max-kellar",
       "email": null,
       "email2": null,
       "phone": null,
@@ -147,13 +307,139 @@
           "source_type": "official_site",
           "quote_or_fact": "Corporate office and contact.us@thistle.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/max-kellar",
+        "display_name": "Max Kellar",
+        "headline": "Head of Digital at Clermont Hotel Group | Creating cross-channel digital marketing strategies to help drive direct revenue",
+        "location": "United Kingdom (GB)",
+        "about": "A highly experienced Group Head of Digital Marketing with a proven track record of creating, implementing & operating multichannel marketing strategies. Articulate, confident and driven team builder with the ability to lead and motivate, delivering consistently high results across multiple sectors including hospitality, sport and retail.",
+        "experience": [
+          {
+            "title": "Intern",
+            "organization": "Actuarial Post",
+            "date_range": "May 2012 - Aug 2012",
+            "location": null,
+            "description": "My role at Actuarial Post lasted three months and started with general office administration, data entry and excel work. I also learned the basics of how a business is run, the problems faced, both financial and operational, and the prioritisation required to successfully organise a business. I completed my work by carrying out an external interview and having it published as a feature article on the website."
+          },
+          {
+            "title": "Customer Operations Assistant",
+            "organization": "Camelot Global",
+            "date_range": "Jun 2014 - Sep 2014",
+            "location": null,
+            "description": "I worked for 3 months in the customer operations department for Camelot in 2014. My role involved working closely with both customers and retailers in order to ensure the efficient installation of our terminals, while also gaining computer skills."
+          },
+          {
+            "title": "English Teaching Assistant",
+            "organization": "Rectorat de l'Académie de Montpellier",
+            "date_range": "Sep 2015 - May 2016",
+            "location": null,
+            "description": "In my role as a teaching assistant, I worked in 3 different schools for 10 months in a relatively disadvantaged suburb of Nîmes. In addition to the improvement in my French fluency, the job taught me how to deal with various difficult and potentially confrontational situations, as well as building on my ability to work as part of a cohesive team, both as a member of staff and a member of the school community."
+          },
+          {
+            "title": "Marketing Administrator",
+            "organization": "Medivet The Vets",
+            "date_range": "Jul 2016 - Sep 2016",
+            "location": "Watford, United Kingdom",
+            "description": "I worked as part of the Marketing team for Medivet for 3 months both in July - September 2016 and June-August 2017. I took on the role of Marketing Administrator, liaising between practices and head office as well as broadening my role to take on design-based work, working on our practice materials and products."
+          },
+          {
+            "title": "Digital Marketing Executive",
+            "organization": "Ocado Group",
+            "date_range": "Jul 2017 - Oct 2018",
+            "location": "Welwyn Garden City, Hertfordshire, United Kingdom",
+            "description": "Split between Ocado’s two destination sites Fetch and Fabled, I was given autonomy and helped to manage and execute our social and SEO strategy, including but not limited to: Managing and analysing Google and Bing Search and Shopping campaigns; Conceiving, creating and managing Social Media campaigns and ads; Analysing shortfalls and possible opportunities in our current bid strategies; Full responsibility for our Promotions campaigns and their Online presence; Live and retrospective performance analysis of each promotion, and conception of appropriate actions; Creating and presenting Google Keyword data to decide on future brands to be added; Helping our Creative Team as part of the design process for Marketing content"
+          },
+          {
+            "title": "Insight Analyst",
+            "organization": "Arsenal F.C",
+            "date_range": "Oct 2018 - May 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Marketing Executive",
+            "organization": "Chelsea Football Club",
+            "date_range": "May 2020 - Jan 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Manager - Sport",
+            "organization": "Ticketmaster",
+            "date_range": "Jan 2022 - Apr 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Manager - Adventure Bar Group",
+            "organization": "Nightcap Plc",
+            "date_range": "Sep 2022 - Dec 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Senior Digital Marketing Manager - Adventure Bar Group, The Cocktail Club Barrio Familia",
+            "organization": "Nightcap Plc",
+            "date_range": "Nov 2022 - Sep 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Digital",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Oct 2023 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "digital",
+          "marketing",
+          "hospitality",
+          "sport",
+          "retail",
+          "teaching",
+          "mes",
+          "seo",
+          "strategy",
+          "campaigns",
+          "promotions",
+          "analysis",
+          "creative",
+          "design",
+          "less",
+          "administration",
+          "operations",
+          "digital marketing",
+          "english teaching",
+          "social media",
+          "performance analysis",
+          "office administration",
+          "data entry",
+          "computer skills"
+        ],
+        "activity_themes": [
+          "Hospitality industry events and conferences",
+          "Festive hotel promotions and Christmas campaigns",
+          "Team conferences and commercial events",
+          "Partnerships and new venue openings",
+          "Career moves and promotions in hospitality",
+          "Industry advocacy on economic issues"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/max-kellar"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Melanie Cole",
       "title": "Head of Reservations Sales Centre & Guest Experience",
       "company": "Clermont Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/melanie-cole-45a74983",
+      "linkedin_url": "https://www.linkedin.com/in/melanie-cole-45a74983",
       "email": null,
       "email2": null,
       "phone": null,
@@ -180,7 +466,144 @@
           "source_type": "official_site",
           "quote_or_fact": "Group bookings and reservations focus"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/melanie-cole-45a74983",
+        "display_name": "Melanie Cole",
+        "headline": "Head of Reservations Sales Centre and Guest Experience - Clermont Hotel Group",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I am a enthusiastic and highly motivated Rooms Division professional. I enjoy being part of, as well as leading, a successful and productive team. Extremely guest focused, dedicated and able to develop innovative and creative solutions to problems. I consistently demonstrate the motivation and organisational skills required to exceed targets and meet deadlines.\n\nTotal Experience: 24 years and 5 months",
+        "experience": [
+          {
+            "title": "Food And Beverage Cost Controller Trainee",
+            "organization": "Hilton Sandton",
+            "date_range": "Jan 2000 - Mar 2000",
+            "location": "Johannesburg Area, South Africa",
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Hilton Sandton",
+            "date_range": "Mar 2000 - May 2000",
+            "location": "Johannesburg Area, South Africa",
+            "description": null
+          },
+          {
+            "title": "Executive Floor Attendant (Club Lounge)",
+            "organization": "Hilton Sandton",
+            "date_range": "May 2000 - Nov 2000",
+            "location": "Johannesburg Area, South Africa",
+            "description": null
+          },
+          {
+            "title": "Executive Floor Manager (Club Lounge)",
+            "organization": "Hilton Sandton",
+            "date_range": "Dec 2000 - Mar 2002",
+            "location": "Johannesburg Area, South Africa",
+            "description": null
+          },
+          {
+            "title": "Assistant Manager For Front Office (Duty Manager)",
+            "organization": "The Langham, London",
+            "date_range": "Jul 2002 - Aug 2004",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Assistant Manager For Front Office",
+            "organization": "The Langham, London",
+            "date_range": "Aug 2004 - Jun 2005",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "The Langham, London",
+            "date_range": "Jun 2005 - Dec 2007",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Acting Front Office Manager",
+            "organization": "The Langham, London",
+            "date_range": "Jan 2008 - Dec 2008",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The Langham, London",
+            "date_range": "Jan 2009 - Apr 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Front Of House Operations",
+            "organization": "The Langham, London",
+            "date_range": "May 2015 - Oct 2020",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of RSC (Reservations Sales Centre)",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Sep 2021 - Nov 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Reservations Sales Centre And Guest Experience",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Nov 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "The International Hotel School, Sandton South Africa",
+            "degree_or_field": "Hotel Management Course, Diploma in Hospitality",
+            "date_range": "1998 - 1999"
+          }
+        ],
+        "skills": [
+          "rooms division",
+          "creative solutions",
+          "organisational skills",
+          "meet deadlines",
+          "front office",
+          "creative",
+          "food",
+          "reservations",
+          "sales",
+          "director",
+          "operations",
+          "acting"
+        ],
+        "activity_themes": [
+          "Hiring for Director of Rooms at The Cumberland",
+          "Recruitment launch for Hell’s Kitchen London",
+          "Clermont Hotel Group year-end reflections and sense of arrival programme",
+          "Revenue management team thanks and expertise recognition",
+          "Outstanding achievement awards and team gratitude",
+          "Festive team lunches and seasonal celebrations at Marble Arch",
+          "Holiday hotel experiences and Thistle Heathrow T5 magic",
+          "Concierge team dedication and pride at The Cumberland",
+          "Large-scale Christmas team celebrations at The Cumberland"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/pedro-da-silva-9903b21b_now-hiring-director-of-rooms-were-activity-7412791019576111104-i1DO",
+          "https://www.linkedin.com/posts/pedro-da-silva-9903b21b_were-hiring-hells-kitchen-london-activity-7412036044549828608-7WiJ",
+          "https://www.linkedin.com/posts/paul-knightley-fih-b3ab7232_clermontbeyou-activity-7411814586800177152-mfXb",
+          "https://www.linkedin.com/posts/david-hetherington-9b47005a_happynewyear-thankyou-clermontbeyou-activity-7412045110399377409-fzbW",
+          "https://www.linkedin.com/posts/emilia-krivaityte-427429b4_wrapping-up-the-year-feeling-incredibly-grateful-activity-7409258564168462336-9BHa",
+          "https://www.linkedin.com/posts/yannick-saldanha-mih-b9947460_good-food-better-company-and-the-best-team-activity-7407771224946253824-dkzG",
+          "https://www.linkedin.com/posts/ammir-chughtai-7244637b_heathrowhotels-terminal5-heathrowpods-activity-7407782812956708864-JKIR",
+          "https://www.linkedin.com/posts/kevin-johnston-21a57533_so-proud-of-the-concierge-team-at-the-cumberland-activity-7407696913346674689-ZNq3"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Tom Roderick-Holland",
@@ -208,7 +631,112 @@
           "source_type": "official_site",
           "quote_or_fact": "press@clermonthotel.group for commercial enquiries"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/tom-roderick-holland-92835694",
+        "display_name": "Tom Roderick-Holland",
+        "headline": "Director of Revenue at Clermont Hotel Group",
+        "location": "Colchester, England, United Kingdom (GB)",
+        "about": "Experienced Revenue and Reservations Manager across multiple markets with Intercontinental Hotels Group, glh Hotels Management and Carlson Rezidor. I have a strong knowledge of reservations and revenue systems including Opera, Travelclick, RoomRez, Duetto and Holidex allowing me to manage inventory, set pricing strategies and monitor the quality of reservations entered. As Reservations Manager I demonstrated leadership characteristics to manage and develop teams through one-to-one and group training whilst my Revenue Management experience has allowed me to display and develop my analytical skills whilst writing budgets and completing month end reports.\n\nTotal Experience: 9 years and 10 months",
+        "experience": [
+          {
+            "title": "Reservations Coordinator",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Mar 2015 - Oct 2015 • 7 months",
+            "location": "Liverpool, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Supervisor",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Nov 2015 - Sep 2016 • 10 months",
+            "location": "Liverpool, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Sep 2016 - Mar 2017 • 6 months",
+            "location": "Liverpool, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Inventory Coordinator",
+            "organization": "Carlson Rezidor Hotel Group",
+            "date_range": "Mar 2017 - Nov 2017 • 8 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Nov 2017 - Nov 2018 • 1 year",
+            "location": "London, United Kingdom",
+            "description": "Reservations Manager for Thistle Bloomsbury Park & Thistle Holborn."
+          },
+          {
+            "title": "Assistant Revenue Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Nov 2018 - Jul 2019 • 8 months",
+            "location": "London, United Kingdom",
+            "description": "Assistant Cluster Revenue Manager for Thistle Bloomsbury Park, Thistle Holborn, Thistle Trafalgar and Thistle Piccadilly."
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jul 2019 - Sep 2024 • 5 years and 2 months",
+            "location": "London, England, United Kingdom",
+            "description": "Cluster Revenue Manager for Thistle Bloomsbury Park, Thistle Holborn, Thistle Trafalgar and Thistle Piccadilly."
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Oct 2024 - Present • 5 months",
+            "location": null,
+            "description": "Director of Revenue for Clermont Victoria, Thistle Piccadilly & Thistle Trafalgar."
+          }
+        ],
+        "education": [
+          {
+            "school": "Hawarden High School",
+            "degree_or_field": "GCSE & A Levels.",
+            "date_range": "2003 - 2010 • 7 years"
+          },
+          {
+            "school": "Liverpool John Moores University",
+            "degree_or_field": "BA (Hons) Media, Culture and Communication",
+            "date_range": "2012 - 2014 • 2 years"
+          }
+        ],
+        "skills": [
+          "reservations",
+          "hotels",
+          "management",
+          "opera",
+          "inventory",
+          "pricing",
+          "leadership",
+          "training",
+          "writing",
+          "budgets",
+          "reports",
+          "cluster",
+          "director",
+          "group training",
+          "revenue management",
+          "analytical skills"
+        ],
+        "activity_themes": [
+          "Hospitality leadership transitions and new management appointments",
+          "Hotel awards, performance turnarounds and recognitions",
+          "Industry events and conferences in hospitality",
+          "Local community markets and events",
+          "Hotel operational and commercial strategy updates"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Rick Purewal",
@@ -236,7 +764,125 @@
           "source_type": "official_site",
           "quote_or_fact": "press@clermonthotel.group"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/rick-purewal-04589528",
+        "display_name": "Rick Purewal",
+        "headline": "Head Of Technology Delivery - Clermont Hotel Group",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 14 years and 10 months",
+        "experience": [
+          {
+            "title": "IT Administrator Systems Developer",
+            "organization": "Procter & Gamble",
+            "date_range": "Oct 2010 - Jun 2011 • 8 months",
+            "location": "Weybridge, Surrey",
+            "description": null
+          },
+          {
+            "title": "Divisional IT Manager",
+            "organization": "Redefine|BDL Hotels",
+            "date_range": "Jun 2011 - Oct 2014 • 3 years and 4 months",
+            "location": "London, United Kingdom",
+            "description": "Divisional IT Manager for the UK’s largest multi branded hotel group, I oversee the operations and infrastructure for the entire group, with a small team of specialist. I Manage and support all hotel IT requirements which spans 60 Properties and over 2500 employees including the Internal Infrastructure for all Finance, Property and Email systems. Strategy and planning Define, update and implement strategies for IT infrastructure, including production and local environments, IT software and systems, including architecture, integration, procurement. Operating processes and methodologies. Align IT objectives and programmes to company objectives and strategies. Future-proof the company’s operational and physical infrastructure through on-going planning, budgeting, forecasting, and resource building. Production systems Define and deliver on standards, architectures, KPIs, organisational requirements.Design and implement scalable processes and methodologies to optimise reliability and performance, minimise outages, rectify such outages as may occur efficiently and quickly. Ensure that the Company delivers against its SLAs. Internal systems Ensure that the company’s internal systems support efficiently and scalable operations across all business areas and geographies. Identify operational needs and issues and resolve accordingly. Provide management team with KPIs for the measurement and analysis of internal processes and systems. Budgets and Procurement Acquire software / hardware as appropriate. Select, manage and control IT providers as appropriate. Manage IT application portfolio. Productivity Align the IT teams with enterprise performance objectives. Optimise costs of services through a mix of internal and external resources. Leadership Develop and articulate the IT vision to executive teams and the Board. Line-manage all infrastructure, technical operations and systems support staff."
+          },
+          {
+            "title": "Senior Systems Analyst",
+            "organization": "glh Hotels",
+            "date_range": "Oct 2014 - Mar 2018 • 3 years and 5 months",
+            "location": "London, United Kingdom",
+            "description": "Responsible for the delivery of effective and efficient IT management for London's largest hotel management company Work with colleagues and clients/users in specifying information flows,processes/procedures, and data objects that will meet the business requirements. Manage all business system suppliers in relation to their contracts and Service Level Agreements. Manage the tendering, onboarding, contractual agreements and rollout of new IT providers and technologies. Driving the RFP processes of vendor selection in solutions required against the business defined requirements. Collects data on aspects of services delivered, which are quantified in the service level agreement and/or operational level agreement, including the reliability and maintainability of service components. Accountable for developing and implementing IT strategies designed to support the current and future growth of business Demonstrating strong financial acumen in successfully delivering effective budget control and financial forecasting in support of business. Demonstrating strong communication skills in delivering presentations regarding IT vision to Executive Teams and the Board. Working as an architect in solutionizing the environment to fit specific needs of the business in all functions. Producing and applying scalable processes and methodologies to optimise reliability and performance, able to provide solutions to arising issues. Manage the company's multiple data centres and connectivity throughout the estate. Manage the hosting and support of the company websites with the Marketing Department. Collaborating with internal senior management team to ensure business requirements are met, accountable for implementing strategies for IT infrastructure and IT software & systems. Devising and implementing Key Performance Indicators, executing successful performance management."
+          },
+          {
+            "title": "Head Of Technology - The Hoxton",
+            "organization": "Ennismore",
+            "date_range": "Aug 2018 - May 2024 • 5 years and 9 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Technology Delivery",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jun 2024 - Present • 1 year and 7 months",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Birmingham City University",
+            "degree_or_field": "Computer Science with Networking",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "technology",
+          "responsible",
+          "management",
+          "hotel",
+          "tendering",
+          "onboarding",
+          "rollout",
+          "driving",
+          "rfp",
+          "vendor",
+          "reliability",
+          "components",
+          "budget",
+          "forecasting",
+          "presentations",
+          "producing",
+          "hosting",
+          "websites",
+          "marketing",
+          "infrastructure",
+          "software",
+          "less",
+          "operations",
+          "finance",
+          "property",
+          "strategy",
+          "planning",
+          "production",
+          "architecture",
+          "integration",
+          "procurement",
+          "budgeting",
+          "architectures",
+          "design",
+          "analysis",
+          "budgets",
+          "leadership",
+          "hotel management",
+          "business requirements",
+          "contractual agreements",
+          "financial forecasting",
+          "communication skills",
+          "performance management",
+          "service level agreements",
+          "key performance indicators"
+        ],
+        "activity_themes": [
+          "Hospitality revenue management job opportunities",
+          "Leadership transitions at Ennismore",
+          "AI tools and productivity with ChatGPT",
+          "Clermont Hotel Group annual achievements",
+          "Hotel asset management and stakeholder relations",
+          "Personal and team celebration events",
+          "Hospitality team Christmas parties"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/new-year-new-challenge-im-looking-for-activity-7414646425051131904-YKZ9",
+          "https://www.linkedin.com/posts/nick-hafer-a3509612_im-excited-to-share-that-ive-started-a-activity-7413940363838529537-cAHr",
+          "https://www.linkedin.com/posts/adam-biddlecombe_a-friend-asked-me-yesterday-how-i-finished-activity-7411450941222273024-a-NY",
+          "https://www.linkedin.com/posts/paul-knightley-fih-b3ab7232_clermontbeyou-activity-7411814586800177152-mfXb",
+          "https://www.linkedin.com/posts/partners-group-y-trinity-compran-el-hotel-activity-7409160705913929729-d5Vt",
+          "https://www.linkedin.com/posts/daniele-furlan_i-dont-often-share-personal-moments-and-activity-7407353849973219330-TaCE",
+          "https://www.linkedin.com/posts/andrew-robb-22589249_lifeatrbh-party-team-activity-7405321683085021184-oYQ-"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Oliver Baxter",
@@ -264,13 +910,55 @@
           "source_type": "official_site",
           "quote_or_fact": "press@clermonthotel.group"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/oliver-baxter-78592194",
+        "display_name": "Oliver Baxter",
+        "headline": "Directing technology across hotels and corporate functions - from infrastructure and cybersecurity to systems that enhance guest experience and support team performance. Focused on results, not just new tech.",
+        "location": "United Kingdom (GB)",
+        "about": "Hard working Delivery Manager experienced in the management, delivery and implementation of the following technology services: All hotel based technologies for new openings and hard refurbishments, IP PBX telephone system upgrades, WiFi network deployments, Smart TV and Casting, Door Locking with Zigbee, EPOS, Interactive Signage, Printing, Central reservations office setup, WAN MPLS upgrades, Windows 10 roll-out, corporate LAN network upgrades and cabling infrastructure.\n\nTotal Experience: 2 years and 11 months",
+        "experience": [
+          {
+            "title": "Head Of IT",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Mar 2023 - Present • 2 years and 10 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hard working",
+          "ip pbx",
+          "windows 10",
+          "management",
+          "technology",
+          "hotel",
+          "refurbishments",
+          "pbx",
+          "wifi",
+          "casting",
+          "signage",
+          "reservations",
+          "wan",
+          "mpls",
+          "windows",
+          "cabling",
+          "infrastructure"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/oliver-baxter-78592194"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Gavin Taylor",
       "title": "Chief Executive Officer",
       "company": "Clermont Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/gavintaylor74",
+      "linkedin_url": "https://www.linkedin.com/in/gavintaylor74",
       "email": null,
       "email2": null,
       "phone": null,
@@ -297,13 +985,161 @@
           "source_type": "official_site",
           "quote_or_fact": "Leadership and contact details for group"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/gavintaylor74",
+        "display_name": "Gavin Taylor",
+        "headline": "Chief Executive Officer at Clermont Hotel Group",
+        "location": "London, England, United Kingdom",
+        "about": "CEO leading London's largest hotel owner-operator, Clermont Hotel Group. I bring over…",
+        "experience": [
+          {
+            "title": "Chartered Accountant",
+            "organization": "Arthur Andersen",
+            "date_range": "Aug 1996 - Mar 2000",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Fund Manager",
+            "organization": "Noble Fund Managers",
+            "date_range": "Mar 2001 - Mar 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Manager",
+            "organization": "Ernst & Young",
+            "date_range": "Mar 2004 - Feb 2006",
+            "location": "London",
+            "description": "Responsible for hedge fund and investment management clients. Managed all aspects of client engagement, serving as liaison with firm management. Role involved preparation and review of financial statements, disclosures, consolidations, partnership agreements and allocation. The role also included valuation of financial products, capital allocation models and review of incentive fees on both onshore and offshore fund managers."
+          },
+          {
+            "title": "Partner (CFO COO)",
+            "organization": "Addax Capital LLP",
+            "date_range": "Feb 2006 - Aug 2013",
+            "location": "London",
+            "description": "Responsible at this hedge fund manager for all financial and operational aspects from start-up. This involved recommending new UK onshore structure (LLP/Ltd group), seeking onshore FSA authorisation, recruiting fund service providers (lawyers, prime broker and administrator) and setting up offshore fund structure in Ireland (dealing with fund and listing authorities in Ireland). Successfully launched inaugural FX fund."
+          },
+          {
+            "title": "Board Finance Director",
+            "organization": "Queens Park Rangers FC",
+            "date_range": "Sep 2007 - May 2010",
+            "location": "London",
+            "description": "Requested to oversee financial due diligence aspects of takeover by international consortium that included Flavio Briatore, Bernie Ecclestone and the Mittal family. Subsequently invited onto the Board taking on role of FD full-time. Responsible for all financial, legal, payroll and HR functions and reported directly to the investors."
+          },
+          {
+            "title": "Trustee",
+            "organization": "QPR in the Community Trust",
+            "date_range": "Jan 2009 - May 2010",
+            "location": null,
+            "description": "Appointed as Trustee of newly-formed QPR charity and Director of QPR Trust Trading Ltd"
+          },
+          {
+            "title": "Board Finance Director",
+            "organization": "Bulgari Hotels & Resorts",
+            "date_range": "Jun 2010 - Aug 2013",
+            "location": "Knightsbridge, London",
+            "description": "Board Finance Director of Prime Development Ltd, property developer of the £300m Bulgari Hotel & Residences, London which opened in June 2012. Responsible for all investment/fund tax structuring and management, financial, legal, payroll, HR functions and reported directly to investors. My role encompassed all aspects of internal and external financial reporting across numerous costs centres and tax structuring and execution across the Group in UK and Guernsey."
+          },
+          {
+            "title": "Director",
+            "organization": "Prime Hotels (UK) Limited",
+            "date_range": "Jan 2011 - Jan 2013",
+            "location": "Knightsbridge, London",
+            "description": "Director of Bulgari Hotel & Residences hotel operator (pre and post opening phase)."
+          },
+          {
+            "title": "Chief Financial Officer",
+            "organization": "Jupiter Hotels Limited",
+            "date_range": "Jan 2014 - Jul 2019",
+            "location": null,
+            "description": "Jupiter Hotels is a leading hotel management company run by hospitality specialists and is owned by a joint venture between Thailand-based Singha Estate Public Company Ltd and FICO Group (previously private equity owned - Patron Capital and West Register/RBS). Jupiter Hotels currently operate 27 Mercure branded hotels in the UK under a franchise agreement with Accor, 2 Holiday Inns and 2 unbranded Hotels. Responsible for all operational, debt and transactional (M&A) financial matters…"
+          },
+          {
+            "title": "Chief Financial Officer",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Aug 2019 - Feb 2023",
+            "location": "London, United Kingdom",
+            "description": "Clermont Hotel Group (formerly glh Hotels) is the largest owner-operator hotel group in London with over 5,000 rooms mainly in the upscale/luxury market and has a turnover in excess of £250m. Clermont operates three brands: The Clermont, The Cumberland and Thistle. The Group also owns and operates the Tower Hotel and the 5-star Royal Horseguards Hotel. Clermont Hotel Group is owned by Malaysian based Hong Leong Group."
+          },
+          {
+            "title": "Interim Chief Executive Officer",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Apr 2021 - Sep 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chief Executive Officer",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Feb 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel",
+          "hotels",
+          "management",
+          "hospitality",
+          "capital",
+          "responsible",
+          "debt",
+          "luxury",
+          "onshore",
+          "fsa",
+          "recruiting",
+          "offshore",
+          "fx",
+          "director",
+          "engagement",
+          "liaison",
+          "preparation",
+          "valuation",
+          "finance",
+          "legal",
+          "payroll",
+          "hr",
+          "investors",
+          "property",
+          "tax",
+          "reporting",
+          "charity",
+          "trading",
+          "hotel management",
+          "private equity",
+          "investment management",
+          "financial statements",
+          "due diligence",
+          "financial reporting"
+        ],
+        "activity_themes": [
+          "Bank of England roundtable with senior London executives and employers",
+          "Hospitality industry challenges, cycles, crises and recovery",
+          "CFO and executive leadership appointments in property and events",
+          "Executive coaching partnerships with business schools for MBA students",
+          "Momentum, innovation and progress in London upscale hotel brands"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/olympiauk_were-delighted-to-announce-the-appointment-activity-7422210908430528512-BOqE",
+          "https://www.linkedin.com/posts/edward-nash-steer-32923a8_back-in-new-york-as-january-gets-underway-activity-7421175019457695744-R4_2",
+          "https://www.linkedin.com/posts/jrequien_gordon-ramsay-ive-never-seen-it-so-bad-activity-7420421690045734912-Rjol",
+          "https://www.linkedin.com/posts/edward-nash-steer-32923a8_blog-azura-announces-coaching-partnership-activity-7420156893765107712-fx0S",
+          "https://www.linkedin.com/posts/edward-nash-steer-32923a8_an-energising-start-to-the-year-the-early-activity-7417543640018919424-bq_s",
+          "https://www.linkedin.com/posts/gavintaylor74_clermontbeyou-londonandpartners-bankofengland-activity-7417912048178610176-N6ez",
+          "https://www.linkedin.com/posts/pedro-da-silva-9903b21b_the-cumberland-all-wrapped-up-and-ready-activity-7406962615123484672-RVEE"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Kristina Franklin",
       "title": "Cluster Director of Revenue",
       "company": "Clermont Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/kristina-franklin-97699141",
+      "linkedin_url": "https://www.linkedin.com/in/kristina-franklin-97699141",
       "email": null,
       "email2": null,
       "phone": null,
@@ -325,13 +1161,135 @@
           "source_type": "news",
           "quote_or_fact": "Kris Franklin joined as Cluster Director of Revenue at Thistle Marble Arch and Thistle properties"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kristina-franklin-97699141",
+        "display_name": "Kristina Franklin",
+        "headline": "Cluster Director of Revenue at Clermont Hotel Group",
+        "location": "United Kingdom (GB)",
+        "about": "I am a well balanced, reliable and articulate individual who likes to ensure outstanding customer service. I have gained extensive experience within all departments of the hotel industry. I am adaptable to change and able to deal competently and effectively in difficult situations, and therefore keeps calm in the face of a crisis. I have a passion for hospitality and always strive to achieve all that is possible from my positions. I am looking at progressing with the Hospitality Industry ideally within Revenue.\n\nTotal Experience: 25 years and 9 months",
+        "experience": [
+          {
+            "title": "Duty Manager",
+            "organization": "Best Western International",
+            "date_range": "Sep 1999 - Oct 2006",
+            "location": "Ullesthorpe Court",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Graduate Manager",
+            "organization": "Macdonald Hotels",
+            "date_range": "Oct 2006 - Mar 2008",
+            "location": "Burlington, Birmingham",
+            "description": "Department: Education • Level: Manager"
+          },
+          {
+            "title": "Assistant Food Beverage Manager",
+            "organization": "Macdonald Hotels",
+            "date_range": "Jun 2008 - Dec 2008",
+            "location": "Burlington, Birmingham",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Thistle Hotels",
+            "date_range": "Dec 2008 - Oct 2009",
+            "location": "East Midlands Airport",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Assistant Hotel Manager To Senior Hotel And Resort Manager",
+            "organization": "Hotelplan UK Ltd",
+            "date_range": "Nov 2009 - Apr 2012",
+            "location": "France and Switzerland",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Aug 2012 - Sep 2014",
+            "location": "Jurys Inn Brighton",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reception Manager",
+            "organization": "Sofitel",
+            "date_range": "Sep 2014 - Jun 2015",
+            "location": "London Heathrow",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Deputy General Manager",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Jun 2015 - Mar 2017",
+            "location": "Heathrow Airport",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Revenue Analyst",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Mar 2017 - Nov 2018",
+            "location": "Watford, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Klarent Hospitality",
+            "date_range": "Nov 2018 - Oct 2024",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Cluster Director Of Revenue",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Oct 2024 - Present",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Bath",
+            "degree_or_field": "BSc in Natural Sciences focusing on Maths and Biology",
+            "date_range": "2002 - 2005"
+          },
+          {
+            "school": "University College Birmingham",
+            "degree_or_field": "MSc in Hospitality & Tourism Management",
+            "date_range": "2005 - 2006"
+          }
+        ],
+        "skills": [
+          "outstanding customer service",
+          "hotel",
+          "crisis",
+          "hospitality",
+          "cluster",
+          "director",
+          "food",
+          "customer service",
+          "hospitality industry",
+          "front office"
+        ],
+        "activity_themes": [
+          "Hotel revenue management and KPIs",
+          "London hotel events and developments",
+          "Housekeeping and facilities partnerships in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/david-hetherington-9b47005a_as-i-prepare-to-log-off-for-my-christmas-activity-7406260506736349184-wa_2",
+          "https://www.linkedin.com/posts/william-hann-409395161_londonhotel-londonevents-clermontbeyou-activity-7302214809750552576-nyUJ",
+          "https://www.linkedin.com/posts/richardleegm_today-we-are-celebrating-a-clean-start-for-activity-6497116522580836352-wbL1"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jo Laker",
       "title": "Cluster Director of Revenue",
       "company": "Clermont Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/jo-laker-624b95a",
+      "linkedin_url": "https://www.linkedin.com/in/jo-laker-624b95a",
       "email": null,
       "email2": null,
       "phone": null,
@@ -353,7 +1311,118 @@
           "source_type": "official_site",
           "quote_or_fact": "Group revenue and commercial structure"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jo-laker-624b95a",
+        "display_name": "Jo Laker",
+        "headline": "Cluster Director of Revenue - glh Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced Revenue Manager with a demonstrated history of working in the hospitality industry. Skilled in Front Office, Hospitality Management, Customer Service, Yield Management, and Hotel Booking. Strong hospitality professional with a Bachelor's degree focused in Tourism and Travel Services Management from Buckinghamshire New University.\n\nTotal Experience: 18 years and 4 months",
+        "experience": [
+          {
+            "title": "Reservations Manager",
+            "organization": "Cheval Group of Serviced Apartments",
+            "date_range": "Jan 2007 - Jan 2010",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Inventory Manager",
+            "organization": "Guoman Hotels",
+            "date_range": "Jul 2010 - Mar 2013",
+            "location": null,
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Deputy VCGM",
+            "organization": "Guoman & Thistle hotels",
+            "date_range": "Mar 2013 - May 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Value Centre General Manager",
+            "organization": "glh Hotels",
+            "date_range": "Jun 2016 - Jul 2017",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "ANdAZ",
+            "date_range": "Jul 2017 - Jan 2018",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "St Giles Hotels",
+            "date_range": "Mar 2018 - Mar 2019",
+            "location": "London, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Thistle Hotels",
+            "date_range": "Mar 2019 - Jul 2020",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Cluster Senior Revenue Manager",
+            "organization": "Thistle Hotels",
+            "date_range": "Jul 2020 - May 2021",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Senior"
+          },
+          {
+            "title": "Cluster Director Of Revenue",
+            "organization": "Clermont Hotel Group",
+            "date_range": "May 2021 - Present",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Buckinghamshire New University",
+            "degree_or_field": "Bachelor's degree, Tourism and Travel Services Management",
+            "date_range": "2000 - 2003"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "management",
+          "yield",
+          "hotel",
+          "tourism",
+          "cluster",
+          "director",
+          "inventory",
+          "reservations",
+          "hospitality industry",
+          "front office",
+          "hospitality management",
+          "customer service",
+          "yield management",
+          "hotel booking"
+        ],
+        "activity_themes": [
+          "Clermont Hotel Group team events and celebrations",
+          "Hotel system upgrades and Opera Cloud training",
+          "International hospitality market events in Bali and China",
+          "Guest experience enhancements and lobby refreshes",
+          "New amenity launches including Candy Trolley",
+          "Hospitality awards and staff recognition",
+          "Christmas preparations and hotel festivities",
+          "Operational milestones at London properties like Royal Horseguards"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/jo-laker-624b95a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jane Griffiths",
@@ -381,7 +1450,93 @@
           "source_type": "official_site",
           "quote_or_fact": "Contact details for sales and group bookings"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jane-griffiths-1967ab10",
+        "display_name": "Jane Griffiths",
+        "headline": "Global Sales Director for Clermont Hotel Group, leading the strategic direction across the sales and reservations teams, passionate about the industry, customer service and future opportunities",
+        "location": "St Albans, England, United Kingdom (GB)",
+        "about": "Total Experience: 30 years and 11 months",
+        "experience": [
+          {
+            "title": "Head Of Sales",
+            "organization": "Eurotunnel",
+            "date_range": "Jun 1993 - Jun 1998",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Sales",
+            "organization": "The Rank Group",
+            "date_range": "Feb 1998 - Aug 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Director",
+            "organization": "Macdonald Hotels",
+            "date_range": "Aug 2004 - Sep 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Director",
+            "organization": "Nuffield Health",
+            "date_range": "Jun 2009 - Apr 2011",
+            "location": null,
+            "description": "Implemented sales teams into 52 centres across the UK, defined the sales strategy and developed reward & recognition schemes."
+          },
+          {
+            "title": "Regional Operations Director",
+            "organization": "Nuffield Health",
+            "date_range": "Apr 2011 - Apr 2013",
+            "location": "New Malden",
+            "description": "Responsible for 14 Health & Fitness Centres which included private clinics"
+          },
+          {
+            "title": "Regional Operations Director",
+            "organization": "Thistle Hotels",
+            "date_range": "Apr 2013 - Present",
+            "location": "Regional",
+            "description": "Responsible for 20 Hotels throughout the UK"
+          },
+          {
+            "title": "Global Sales Director",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jul 2014 - Present",
+            "location": "London, United Kingdom",
+            "description": "Brands include Thistle, Clermont and Hard Rock Hotel. Portfolio includes 16 Hotels around the UK (14 in London)."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales strategy",
+          "sales",
+          "director",
+          "p",
+          "less",
+          "rock",
+          "hotel",
+          "hotels",
+          "strategy",
+          "operations",
+          "responsible",
+          "health",
+          "fitness",
+          "clinics"
+        ],
+        "activity_themes": [
+          "Promoting job opportunities in London hospitality and sales roles",
+          "Engaging with hotel marketing, events and rebranding content",
+          "Networking in luxury travel, ILTM and industry leadership",
+          "Supporting team announcements and interim sales roles",
+          "Celebrating hotel achievements, Christmas events and 2026 preparations",
+          "Interest in hospitality leadership, sales strategy and commercial roles"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Geeta Defoe",
@@ -409,7 +1564,129 @@
           "source_type": "directory",
           "quote_or_fact": "Cluster Director of Sales and related commercial titles"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/geeta-defoe-803392b",
+        "display_name": "Geeta Defoe",
+        "headline": "Director of Sales at The Marble Arch Hotel by Thistle",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experience Director of Sales & Marketing with a wealth of Global and National market knowledge, a result oriented strategist, a strong vertical and lateral man manager, a leader by example. Overall a consumate professional and team player who gets results.\n\nTotal Experience: 22 years and 10 months",
+        "experience": [
+          {
+            "title": "Reservations Sales Co-ordinator",
+            "organization": "Savoy Group",
+            "date_range": "Jan 2000 - Jan 2003",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Leisure Sales Manager",
+            "organization": "Strand Palace Hotel",
+            "date_range": "Aug 2003 - Jan 2007",
+            "location": null,
+            "description": "Responsible for managing the FIT Leisure Market which constituted 60% of the hotel's revenue.\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Leisure Sales Manager",
+            "organization": "Holiday Inn Bloomsbury and Holiday Inn Regent Park",
+            "date_range": "Jan 2007 - Dec 2007",
+            "location": null,
+            "description": "Managing the FIT Leisure inbound Accounts into both Holiday Inn Bloomsbury and Holiday Inn Regents Park Hotel.\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Corporate Sales Manager",
+            "organization": "City Inn Westminster",
+            "date_range": "Jan 2008 - Nov 2008",
+            "location": null,
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "Carlson Rezidor Hotel Group",
+            "date_range": "Nov 2008 - Mar 2013",
+            "location": "Radisson Blu Portman",
+            "description": "Started at Radisson Blu Portman as Corporate Sales Manager. Became Assistant Director of Sales the last two years managing both Corporate and Leisure Portfolio.\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Dukes St. James, London",
+            "date_range": "Feb 2013 - Nov 2013",
+            "location": "Central London",
+            "description": "Focus portfolios were Luxury Leisure, FIT Leisure, Corporate and Consortia with main focus on North American, UK and European Markets.\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "The Exhibitionist Hotel -Autumn 2014Opening",
+            "date_range": "Apr 2014 - Mar 2015",
+            "location": null,
+            "description": "Promoted and launched Art and Design concept boutique hotel. Focused on highend leisure markets, gaining acceptance into Tablet. Introduced product to consortia agencies with focus on Entertainment and Fashion. Exhibited product at ILTM Cannes and attended Roadshows to promote product.\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Strand Palace Hotel",
+            "date_range": "Mar 2015 - Dec 2015",
+            "location": "372 Strand , London, WC2R 0JJ",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Great Northern Hotel London",
+            "date_range": "Mar 2016 - Sep 2019",
+            "location": "London, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Ace Hotel London",
+            "date_range": "Oct 2019 - Dec 2020",
+            "location": "Shoreditch, London",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Townhall Hotel & Apartments",
+            "date_range": "Apr 2022 - Nov 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Clermont Hotel Group",
+            "date_range": "May 2025 - Present",
+            "location": "United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "result oriented",
+          "team player",
+          "sales manager",
+          "director",
+          "sales",
+          "marketing",
+          "reservations",
+          "luxury",
+          "design",
+          "hotel",
+          "entertainment",
+          "fashion",
+          "responsible"
+        ],
+        "activity_themes": [
+          "Luxury hotel experiences and rooftop unwinding",
+          "Leadership principles focusing on employee value",
+          "Curated networking in luxury incentives and hospitality",
+          "Hotel management appointments and career updates",
+          "Promotional videos and visual marketing for hotels",
+          "Hotel design and stunning entrances for social appeal"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/geeta-defoe-803392b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jack O'Carroll",
@@ -437,13 +1714,127 @@
           "source_type": "official_site",
           "quote_or_fact": "Dedicated sales and group booking team contacts"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jack-o-carroll-b5705163",
+        "display_name": "Jack O'Carroll",
+        "headline": "Director of Sales | Sales, Hotels, Hospitality Industry",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I've spent several years at Clermont Hotel Group, building my expertise in sales within the hospitality industry. Along the way, I've led teams to hit ambitious targets and drive revenue growth, always keeping Clermont's commitment to excellence at the forefront. My approach combines innovative sales strategies with a focus on customer satisfaction, allowing me to play to my strengths in both sales and hospitality while fostering strong client relationships and delivering exceptional service. As Director of Sales, I've taken on the challenge of elevating sales operations across our iconic properties—The Clermont Victoria, The Clermont Charing Cross, and The Royal Horseguards. In this role, I’m passionate about developing my team, identifying future talent, and helping them grow, all while crafting effective sales initiatives, building key partnerships, and guiding our sales force to capture new market opportunities. My goal is to ensure the Clermont brand continues to stand out for its excellence in the competitive hospitality landscape.\n\nTotal Experience: 20 years and 10 months",
+        "experience": [
+          {
+            "title": "Resident Liaison Officer",
+            "organization": "T Brown Group",
+            "date_range": "Feb 2005 - Aug 2008",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Sales Agent",
+            "organization": "Thistle Hotels",
+            "date_range": "Aug 2008 - Oct 2009",
+            "location": "Thistle Marble Arch",
+            "description": null
+          },
+          {
+            "title": "Group Sales Executive",
+            "organization": "Guoman & Thistle hotels",
+            "date_range": "Oct 2009 - Mar 2012",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Groups Business Development Coordinator",
+            "organization": "Crowne Plaza London - The City",
+            "date_range": "Apr 2012 - Jul 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Relationship Manager",
+            "organization": "glh Hotels",
+            "date_range": "Jul 2013 - Nov 2016",
+            "location": "London, United Kingdom",
+            "description": "Based at The Grosvenor Hotel, London Victoria (July 13 - May 16) / Thistle Royal Trafalgar (June 16 - Nov 16)"
+          },
+          {
+            "title": "Cluster Sales Manager - Thistle Hotels",
+            "organization": "glh Hotels",
+            "date_range": "Dec 2016 - Jan 2019",
+            "location": "London, United Kingdom",
+            "description": "Sales Manager - Thistle Trafalgar, Thistle Piccadilly, Thistle Holborn, The Kingsley and Thistle Bloomsbury Park"
+          },
+          {
+            "title": "Hotel Sales Manager - The Grosvenor Hotel",
+            "organization": "glh Hotels",
+            "date_range": "Jan 2019 - Apr 2020",
+            "location": null,
+            "description": "Hotel Sales Manager at The Grosvenor and part of the launch team to become the Amba Hotel Grosvenor"
+          },
+          {
+            "title": "Cluster Sales Manager - The Clermont Victoria, The Clermont Charing Cross And The Royal Horseguards",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Apr 2020 - Nov 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Cluster Sales Manager for three properties including The Royal Horseguards and The Clermont Victoria/ Clermont Charing Cross Hotels."
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Nov 2022 - Oct 2023",
+            "location": null,
+            "description": "Assistant Director of Sales for The Clermont Victoria, The Clermont Charing Cross  and The Royal Horseguards"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Oct 2023 - Present",
+            "location": null,
+            "description": "The Clermont Victoria, The Clermont Charing Cross and The Royal Horseguards\n\nDirector of Sales Clermont Hotel Group - The Clermont Victoria, The Clermont Charing Cross, and The Royal Horseguards\nDepartment: Sales • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel",
+          "sales",
+          "hospitality",
+          "director",
+          "operations",
+          "partnerships",
+          "p",
+          "less",
+          "cluster",
+          "hotels",
+          "reservations",
+          "liaison",
+          "hospitality industry",
+          "customer satisfaction",
+          "sales operations",
+          "sales manager",
+          "business development"
+        ],
+        "activity_themes": [
+          "Hospitality industry networking and team building",
+          "Clermont Hotel Group promotions and multi-hotel visits",
+          "Educational partnerships and university events",
+          "Government travel cost support initiatives",
+          "International buyer events and Bali market hubs",
+          "Awards ceremonies including Beam and Miss Jones",
+          "Revenue management and global forums",
+          "Promotion of iconic London hotels like The Tower Hotel",
+          "Thistle Hotels photography and arrival projects",
+          "Leadership insights on employee value and development"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Abs Linton",
       "title": "Cluster General Manager (Thistle Trafalgar Square & Piccadilly)",
       "company": "Thistle (Clermont Hotel Group)",
-      "linkedin_url": "https://uk.linkedin.com/in/abs-linton",
+      "linkedin_url": "https://www.linkedin.com/in/abs-linton",
       "email": null,
       "email2": null,
       "phone": null,
@@ -471,7 +1862,7 @@
       "full_name": "AJ Foronda-Budd",
       "title": "Marketing Manager",
       "company": "Clermont Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/ajforonda",
+      "linkedin_url": "https://www.linkedin.com/in/ajforonda",
       "email": null,
       "email2": null,
       "phone": null,
@@ -493,13 +1884,108 @@
           "source_type": "linkedin",
           "quote_or_fact": "Marketing Manager, Clermont Hotel Group"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ajforonda",
+        "display_name": "AJ Foronda-Budd",
+        "headline": "Marketing Manager at Clermont Hotel Group",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 23 years and 7 months",
+        "experience": [
+          {
+            "title": "Fashion Assistant",
+            "organization": "Celebs on Sunday, Sunday Mirror",
+            "date_range": "Jun 2002 - Oct 2004 • 2 years and 4 months",
+            "location": "Canary Wharf",
+            "description": "Company: Entertainment Providers\nDepartment: Design • Level: Specialist"
+          },
+          {
+            "title": "Accounts HR Administrator",
+            "organization": "Wincanton",
+            "date_range": "Nov 2004 - Feb 2008 • 3 years and 3 months",
+            "location": "Hayes",
+            "description": "Company: 10,001+ employees • Founded 1915 • Public Company • Transportation, Logistics, Supply Chain and Storage\nDepartment: Human Resources • Level: Specialist"
+          },
+          {
+            "title": "PA Events Manager To CEO - Tim Westwood",
+            "organization": "Justice Entertainment",
+            "date_range": "Feb 2008 - Jul 2011 • 3 years and 5 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Brand Executive",
+            "organization": "Rank Group",
+            "date_range": "Jul 2011 - Feb 2013 • 1 year and 7 months",
+            "location": "Maidenhead",
+            "description": "Company: 5001-10,000 employees • Public Company • Gambling Facilities and Casinos\nDepartment: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Brand Partnerships Assistant Manager",
+            "organization": "Rank Group",
+            "date_range": "Feb 2013 - Oct 2016 • 3 years and 8 months",
+            "location": "Maidenhead",
+            "description": "Company: 5001-10,000 employees • Public Company • Gambling Facilities and Casinos\nDepartment: Sales • Level: Specialist"
+          },
+          {
+            "title": "Brand Marketing Manager",
+            "organization": "The Rank Group plc",
+            "date_range": "Oct 2016 - Mar 2023 • 6 years and 5 months",
+            "location": "Maidenhead",
+            "description": "Company: 5001-10,000 employees • Public Company • Gambling Facilities and Casinos\nDepartment: Marketing • Level: Manager"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Mar 2023 - Present • 2 years and 11 months",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 1001-5000 employees • Public Company • Hospitality\nDepartment: Marketing • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "London College of Fashion",
+            "degree_or_field": "BTEC, Foundation Art and Design",
+            "date_range": "1999 - 2000 • 1 year"
+          },
+          {
+            "school": "London College of Printing",
+            "degree_or_field": "BTEC, Fashion Retail Studies",
+            "date_range": "2000 - 2001 • 1 year"
+          },
+          {
+            "school": "Surrey Institute of Art and Design",
+            "degree_or_field": "Bachelor of Arts (BA), Fashion Promotion and Illustration",
+            "date_range": "2001 - 2004 • 3 years"
+          }
+        ],
+        "skills": [
+          "marketing",
+          "hr",
+          "fashion",
+          "partnerships",
+          "brand marketing"
+        ],
+        "activity_themes": [
+          "Hotel lobby renovations and guest experience improvements",
+          "Brand launches, F&B promotions and website updates",
+          "Team conferences, collaboration and staff recognition",
+          "Festive menus, Christmas campaigns and seasonal marketing",
+          "Artisan markets, local F&B and culinary experiences",
+          "Advertising campaigns for Thistle and Clermont hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/ajforonda"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Marketa Greenidge",
       "title": "Revenue Manager",
       "company": "Guoman & Thistle hotels (Clermont Hotel Group)",
-      "linkedin_url": "https://uk.linkedin.com/in/marketa-greenidge-768b0959",
+      "linkedin_url": "https://www.linkedin.com/in/marketa-greenidge-768b0959",
       "email": null,
       "email2": null,
       "phone": null,
@@ -521,13 +2007,35 @@
           "source_type": "official_site",
           "quote_or_fact": "Revenue roles referenced in recruitment"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/marketa-greenidge-768b0959",
+        "display_name": "Marketa Greenidge",
+        "headline": "Cluster Revenue Manager at Thistle hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Revenue Manager",
+            "organization": "Guoman & Thistle hotels",
+            "date_range": "(Current)",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Victoria Tidboald",
       "title": "Sales & Marketing Coordinator",
       "company": "Thistle Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/victoria-tidboald-b8520113",
+      "linkedin_url": "https://www.linkedin.com/in/victoria-tidboald-b8520113",
       "email": null,
       "email2": null,
       "phone": null,
@@ -549,13 +2057,60 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales and marketing mentioned for group bookings"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/victoria-tidboald-b8520113",
+        "display_name": "Victoria Tidboald",
+        "headline": "Rooms Division Manager at Thistle Hotels",
+        "location": "Tonbridge, England, United Kingdom (GB)",
+        "about": "Total Experience: 24 years and 3 months",
+        "experience": [
+          {
+            "title": null,
+            "organization": "Le Meridien Gatwick",
+            "date_range": "Oct 2001 - Dec 2005",
+            "location": "North Terminal, Gatwick",
+            "description": null
+          },
+          {
+            "title": null,
+            "organization": "Le Meridien Cyprus",
+            "date_range": "Jan 2006 - Mar 2007",
+            "location": "Limassol, Cyprus",
+            "description": null
+          },
+          {
+            "title": "Rooms Division Manager",
+            "organization": "Guoman & Thistle hotels",
+            "date_range": "Jan 2007 - Present",
+            "location": null,
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Rooms Division Manager",
+            "organization": "Thistle Hotels",
+            "date_range": "Jul 2007 - Present",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Operations • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "rooms division"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/victoria-tidboald-b8520113"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mark Beedell",
       "title": "Operations / Commercial Manager",
       "company": "Thistle Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/mark-beedell-225ba621",
+      "linkedin_url": "https://www.linkedin.com/in/mark-beedell-225ba621",
       "email": null,
       "email2": null,
       "phone": null,
@@ -577,7 +2132,31 @@
           "source_type": "directory",
           "quote_or_fact": "Clermont/Thistle operations and commercial roles listed"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/mark-beedell-225ba621",
+        "display_name": "Mark Beedell",
+        "headline": "General Manager at Thistle Hotels",
+        "location": "Greater Exeter Area (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Thistle Hotels",
+            "date_range": "Current",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager\nCompany: 1001-5000 employees • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/company/glh--hotels"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Akhilesh Gupta",
@@ -605,7 +2184,158 @@
           "source_type": "official_site",
           "quote_or_fact": "Heathrow property listed under Thistle"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/akhilesh-gupta-50ba7618",
+        "display_name": "Akhilesh Gupta",
+        "headline": "General Manager, Clermont Hotel Group",
+        "location": "United Kingdom (GB)",
+        "about": "I am an experienced, team-focused manager with comprehensive expertise in all aspects of hotel operations. I excel in leading large, diverse teams across various areas of hospitality, leveraging strong people management skills and quick thinking to effectively navigate any situation. My greatest strengths lie in my interpersonal abilities and my capacity to inspire and guide teams to deliver exceptional results. Career Highlights: The Royal Horseguards Hotel Hotel Manager (August 2021- Present) Hotel Food and Beverage Director (November 2017-August 2021) Sofitel London Heathrow Food and Beverage Director (January 2016-November 2017) Renaissance London Heathrow Food and Beverage Manager Assistant Food and Beverage Manager (January 2011-December 2015) Marriott Gurgaon, India Front Desk Manager Conference and Banqueting Manager (October 2009-January 2011) Marriott Chennai, India Assistant Manager, Food and Beverage (March 2007-October 2009) Starwood Chennai, India Food and Beverage Supervisor (May 2005- March 2007). Specialities: Excellent inter personal skills, Innovative thinker, Vendor management, P&L expert\n\nTotal Experience: 20 years and 9 months",
+        "experience": [
+          {
+            "title": "Hotel Internship",
+            "organization": "Marriott International",
+            "date_range": "Oct 2003 - Mar 2004",
+            "location": "Mumbai Area, India",
+            "description": "6 Months Internship with JW Marriott Hotel, Mumbai."
+          },
+          {
+            "title": "Hotel Operations Supervisor",
+            "organization": "Marriott International",
+            "date_range": "Jun 2005 - Mar 2007",
+            "location": "Chennai Area, India",
+            "description": "Operational Supervisor managing the hotel's 24 hour coffee shop and the biggest night club spanning over 03 floors with a capacity of 3000 guests."
+          },
+          {
+            "title": "Food Beverage Executive",
+            "organization": "Marriott International",
+            "date_range": "Mar 2007 - Mar 2008",
+            "location": "Chennai, Tamil Nadu, India",
+            "description": "Training and development of staff. Profit and loss of the outlets. Customer satisfaction."
+          },
+          {
+            "title": "Assistant Restaurant Manager Restaurant Manager",
+            "organization": "Marriott International",
+            "date_range": "Mar 2008 - Oct 2009",
+            "location": "Chennai Area, India",
+            "description": "Reporting to Director, Food and beverage. Responsible for the profit and loss of 110 covers coffee shop, Inroom dining for 238 rooms and 110 covers Italian speciality restaurant with a lounge."
+          },
+          {
+            "title": "Pre Opening Conference And Banqueting Manager Restaurant Bars Manager",
+            "organization": "Marriott International",
+            "date_range": "Oct 2009 - Dec 2010",
+            "location": "Gurgaon, India",
+            "description": "Manage the conference and Banqueting space of over 30,00 sq.feet including 08meeting room, a pool sidespace and a courtyard. Train and develop a team of 40 ambassadors including 03 floor managers. Overlook the operation of the Pan Asian Speciality Restaurant. core trainer for food and beverage and front office team Pre opening banquet manager/restaurant manager role"
+          },
+          {
+            "title": "Food And Beverage Manager, Assistant Food Beverage Manager",
+            "organization": "Marriott International",
+            "date_range": "Jan 2011 - Dec 2015",
+            "location": "London, United Kingdom",
+            "description": "710 Bedrooms 15 Meeting rooms (30,000 Square feet), 02 restaurant, 02 bars, Starbucks, 24 hours In Room Dining, Member's Lounge F&B Turnover - £7M, team of 130 including Managers, Executive & Head Chefs"
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Marriott International",
+            "date_range": "Jan 2011 - Dec 2015",
+            "location": "London, United Kingdom",
+            "description": "710 Bedrooms 15 Meeting rooms (30,000 Square feet), 02 restaurant, 02 bars, Starbucks, 24 hours In Room Dining, Member's Lounge F&B Turnover - £7M, team of 130 including Managers, Executive & Head Chefs"
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Sofitel London Heathrow Hotel",
+            "date_range": "Jan 2016 - Nov 2017",
+            "location": "London Heathrow",
+            "description": "605 bedrooms 45 meeting rooms, 02 restaurants, including a 03 Rosette and a 01 Rosette,01 Tea Salon, 02 bars including a Champagne bar along with In Room Dining and a Member's Lounge F&B Turnover over in excess of £15 M and a brigade of over 200 employees including 15 Managers and Head Chefs. Le Belle Epoque and Vivre -Ranked number 1 and number 2 for best Restaurants in London Heathrow on Trip Advisor. Sofitel Heathrow ranked number 1 out of 23 Hotels in area on Trip Advisor."
+          },
+          {
+            "title": "Director Of Food And Beverage At The Royal Horseguards Hotel One Whitehall Place",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Nov 2017 - Aug 2021",
+            "location": "London, Greater London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager At The Royal Horseguards Hotel One Whitehall Place",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Aug 2021 - Oct 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Luxury 5 star hotel with 282 elegantly appointed bedrooms, 02 restaurants, 02 bars, 12 meeting rooms and 24 hours In room dining facilities."
+          },
+          {
+            "title": "Interim General Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jul 2024 - Oct 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Nov 2025 - Present",
+            "location": null,
+            "description": "Provide strategic leadership and direction to all hotel departments, ensuring delivery of brand standards and outstanding service quality. -Oversee daily operations across both properties, managing profitability, efficiency, and guest satisfaction. -Develop and implement commercial strategies to maximise revenue, occupancy, and market share across rooms, F&B, and conferencing. -Lead, motivate, and develop a high-performing management team focused on guest experience, team engagement, and performance excellence. -Manage budgeting, forecasting, and financial performance to achieve revenue and profit targets. -Drive brand consistency and ensure compliance with company policies, health & safety standards, and regulatory requirements. -Build strong stakeholder relationships with owners, corporate teams, suppliers, and local partners to support long-term business success. -Champion sustainability, innovation, and continuous improvement initiatives across both properties."
+          }
+        ],
+        "education": [
+          {
+            "school": "Queen Margaret University",
+            "degree_or_field": "B.A. in International Hospitality Management, Hospitality Management",
+            "date_range": "2002 - 2005"
+          },
+          {
+            "school": "Institute of advanced Management",
+            "degree_or_field": "Hotel management, Management",
+            "date_range": "2002 - 2005"
+          }
+        ],
+        "skills": [
+          "hotel",
+          "operations",
+          "hospitality",
+          "management",
+          "food",
+          "director",
+          "vendor",
+          "p",
+          "operation",
+          "trainer",
+          "reporting",
+          "responsible",
+          "coffee",
+          "restaurants",
+          "hotels",
+          "less",
+          "training",
+          "leadership",
+          "profitability",
+          "efficiency",
+          "commercial",
+          "performing",
+          "engagement",
+          "budgeting",
+          "forecasting",
+          "compliance",
+          "health",
+          "safety",
+          "sustainability",
+          "innovation",
+          "luxury",
+          "people management",
+          "management skills",
+          "vendor management",
+          "front office",
+          "customer satisfaction",
+          "strategic leadership",
+          "guest satisfaction",
+          "regulatory requirements",
+          "continuous improvement"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Parik Zala",
@@ -633,7 +2363,167 @@
           "source_type": "other",
           "quote_or_fact": "Parik Zala, Cluster General Manager for Thistle properties"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/parik-zala-71754534",
+        "display_name": "Parik Zala",
+        "headline": "CMgr FCMI | MIH | Cluster General Manager | Chartered Management Institute, Master’s in Strategic Leadership & Management | Hospitality Optimisation Expert",
+        "location": "London, England, United Kingdom",
+        "about": "Leading with a strategic vision at Clermont Hotel Group, my focus centers on operational excellence and delivering outstanding guest experiences. Enhancing the capital value of properties and driving additional revenue streams through asset enhancement strategies is at the core of my professional ethos. Our team's collaborative efforts led to the successful £240K refurbishment at Thistle Heathrow, which not only elevated customer satisfaction but also contributed to a significant rise in revenue. My tenure at Lamington Group showcases my competency in multisite operations and a commitment to brand growth, where I steered the pre-opening of new sites and fostered a culture of excellence. At the heart of our operations lies a dedication to efficiency, customer experience optimization, and the empowerment of teams that has defined our journey towards setting industry benchmarks.\n\nTotal Experience: 22 years and 10 months",
+        "experience": [
+          {
+            "title": "Student BBA",
+            "organization": "Schiller International University",
+            "date_range": "Jan 2003 - Jan 2006",
+            "location": "Switzerland",
+            "description": "Department: Education • Level: Specialist"
+          },
+          {
+            "title": "Front Office Trainee",
+            "organization": "Hotel Europaicherhoff Switzerland",
+            "date_range": "Jan 2005 - Jun 2006",
+            "location": "Engelberg, Switzerland",
+            "description": "Gained Experience in Switzerland and learned all about Gastro Pub style service ✔ Internship also gave me exposure to MICE ✔Secured scholarship and helped other students to get internship in same Hotel\nDepartment: Customer Service • Level: Intern"
+          },
+          {
+            "title": "Departmental Manager",
+            "organization": "Premier Inn",
+            "date_range": "Jun 2006 - Dec 2010",
+            "location": "London kings cross st Pancras",
+            "description": "Gained cross-business exposure to hospitality operations within a Flagship hotel with accountability for team performance and improvement ✔ Key to the acquisition of a partnership contract with Eurostar ✔ Contributed to the opening of Angel Islington, Stratford & London City Hotels\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Premier Inn",
+            "date_range": "Dec 2010 - Sep 2015",
+            "location": "Heathrow Airport Terminal 5",
+            "description": "Pivotal to the launch of the Heathrow Leadership Academy offering apprenticeships, work experience and ‘shooting star’ programmes to the leaders of tomorrow ✔ Promoted to Operations Manager of the 400 Bedroom Heathrow T5 hotel, accountable for the performance of a 120-strong team ✔ Pivotal to the positioning of Premier Inn for the acquisition of Heathrow T5 hotel operations by Whitbread (British Airways) in a £8.5million/year contract ✔ Guided the Hotel Management Team to drive…\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Food Beverage Manager",
+            "organization": "Premier Inn",
+            "date_range": "Jul 2012 - Feb 2014",
+            "location": "Heathrow Terminal 5",
+            "description": "Handpicked to drive £3.5million revenue F&B operation within the Heathrow T5, including an onsite Costa outlet ✔ Spearheaded the recruitment and drove capability improvements at all levels of the F&B team that created a new, empowered high performance unit ✔ Achieved YoY ‘Green’ Audits across Health & Safety, Team Turnover, Sales, Guest Experience and P&L ✔ Drove improvements in guest-facing teams that resulted in a +10% improvement in the Balance Guest Scorecard ✔ Pivotal to…\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Premier Inn",
+            "date_range": "Feb 2014 - Sep 2015",
+            "location": "Heathrow Airport Terminal 5",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Cluster General Manager",
+            "organization": "Premier Inn",
+            "date_range": "Sep 2015 - Dec 2015",
+            "location": "Gatwick Crawley, West Sussex, United Kingdom",
+            "description": "Promoted to oversee the Gatwick & Crawley cluster of 6 hotels and to implement rapid improvements based on Heathrow T5 gains ✔ Introduced measure to improve guest experience and safeguard hotel profitability against competitor activities\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Premier Inn",
+            "date_range": "Jan 2016 - Nov 2018",
+            "location": "Gatwick Airport North Terminal",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Cluster General Manager",
+            "organization": "Whitbread",
+            "date_range": "Nov 2018 - Jun 2021",
+            "location": "Gatwick",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Airports Optimisations Manager",
+            "organization": "Whitbread",
+            "date_range": "Jul 2021 - Dec 2022",
+            "location": "London Airports",
+            "description": "Promoted to oversee the optimisation of 4 key locations with influence over Gatwick North Terminal, A23 Airport Way, Heathrow T2/T2, Heathrow T4, Heathrow T5 and Heathrow Bath Road in a £70million revenue operation across 2500+ bedroom stock ✔ Expanded the ‘Sleep, Park & Fly’ package offering through a re-engineer of the digital customer journey that improved click-through and conversion ✔ Project managed the implementation of early check-in/check-out services at a national (UK) level… Show more"
+          },
+          {
+            "title": "Head Of Lamington Group Operations",
+            "organization": "Lamington Group",
+            "date_range": "Jan 2023 - Aug 2023",
+            "location": "Hammersmith, England, United Kingdom",
+            "description": "Lead multisite branded operations with a vision to make an industry-leading impact in a world-first hometel brand ‘Room2’ ✔️Lead and manage existing properties and the future pipeline within the UK comprising co- working spaces, hotels, and serviced apartments, rising to the challenge to increase efficiency, facilitate growth and drive the brand forward ✔️Drive all facets of customer experience, resource optimisation, site P&L and budgets, F&B performance, strategy, concepts… Show more"
+          },
+          {
+            "title": "Cluster General Manager",
+            "organization": "Thistle Hotels",
+            "date_range": "Aug 2023 - Oct 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Oct 2025 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Clermont Charing Cross, City Of Westminster, England, United Kingdom\nDepartment: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Kendriya Vidyalaya",
+            "degree_or_field": null,
+            "date_range": null
+          },
+          {
+            "school": "Schiller International University",
+            "degree_or_field": "BBA, International Hotel & Tourism Management",
+            "date_range": "2003 - 2006"
+          }
+        ],
+        "skills": [
+          "strategic vision",
+          "operational excellence",
+          "customer satisfaction",
+          "customer experience",
+          "performance improvement",
+          "hotel management",
+          "employee engagement",
+          "front office",
+          "hotel",
+          "capital",
+          "driving",
+          "operations",
+          "efficiency",
+          "optimization",
+          "empowerment",
+          "hotels",
+          "apartments",
+          "p",
+          "budgets",
+          "strategy",
+          "food",
+          "operation",
+          "recruitment",
+          "green",
+          "health",
+          "safety",
+          "sales",
+          "hospitality",
+          "accountability",
+          "cluster",
+          "profitability",
+          "leadership",
+          "positioning",
+          "management",
+          "engagement",
+          "commercials",
+          "b2b",
+          "airports",
+          "road",
+          "digital"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/parik-zala-71754534"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Tony Hill",
@@ -661,13 +2551,163 @@
           "source_type": "official_site",
           "quote_or_fact": "Thistle Marble Arch listed with contact options"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/tony-hill-fih-b4b01932",
+        "display_name": "Tony Hill FIH",
+        "headline": "General Manager The Amba Marble Arch Hotel at Clermont Hotel Group",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 30 years and 1 month",
+        "experience": [
+          {
+            "title": "Executive Assistant Manager",
+            "organization": "Hilton Worldwide",
+            "date_range": "Jan 1994 - Jan 1996",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Hilton Worldwide",
+            "date_range": "Jan 1996 - Jan 1998",
+            "location": "Livingston Edinburgh",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Hilton Worldwide",
+            "date_range": "Apr 1998 - Dec 1999",
+            "location": null,
+            "description": "Managed a multi million refurb project including the addittion of 48 bedrooms and a Livingwell Health and Leisure Club."
+          },
+          {
+            "title": "General Manager",
+            "organization": "Millennium & Copthorne Hotels",
+            "date_range": "Dec 1999 - Jun 2001",
+            "location": "Newcastle upon Tyne, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chair",
+            "organization": "North East Hotel Managers Association",
+            "date_range": "Jan 2000 - Jan 2001",
+            "location": "Newcastle upon Tyne, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Millennium and Copthorne Hotels",
+            "date_range": "Jan 2001 - Jan 2005",
+            "location": "Manchester, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chair",
+            "organization": "Manchester Hotels Association",
+            "date_range": "Jan 2002 - Jan 2004",
+            "location": "Manchester, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Area General Manager",
+            "organization": "Millennium and Copthorne Hotels",
+            "date_range": "Jan 2005 - Jan 2011",
+            "location": null,
+            "description": "Full P&L responsibility for Copthorne Hotels in : Aberdeen, Newcastle, Manchester, Sheffield, Birmingham,Dudley. Millennium Hotel Glasgow . Several Management Contract Developments across the North of the UK. Director of Copthorne Hotel Aberdeen Ltd Director of Copthorne Hotel Newcastle Ltd"
+          },
+          {
+            "title": "Cluster General Manager",
+            "organization": "Principal Hayley Hotels and Conference Venues",
+            "date_range": "Aug 2011 - Jul 2012",
+            "location": "St Johns Solihull & Ettington Chase nr Stratford",
+            "description": null
+          },
+          {
+            "title": "Executive General Manager",
+            "organization": "The Hotel Collection",
+            "date_range": "Sep 2012 - Nov 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Executive General Manager Jurys Inn Hinckley Island Hotel And Conference Venue",
+            "organization": "Jurys Inn",
+            "date_range": "Nov 2015 - Jun 2019",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager Leonardo Royal St Pauls London",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jun 2019 - Feb 2021",
+            "location": "St Paul's, London",
+            "description": "460 bedrooms, meeting facilities for up to 2000 delegates, Spa and leisure facilities."
+          },
+          {
+            "title": "Hospitality Professional",
+            "organization": null,
+            "date_range": "Feb 2021 - Oct 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager The Amba Marble Arch Hotel",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Oct 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Montgomery of Alamein School Winchester",
+            "degree_or_field": null,
+            "date_range": "1977 - 1983"
+          },
+          {
+            "school": "Highbury college Cosham Portsmouth",
+            "degree_or_field": "Btec, Hotel catering and institutional management",
+            "date_range": "1983 - 1985"
+          },
+          {
+            "school": "London Business School",
+            "degree_or_field": "Business Diploma Hilton Hotels, Hospitality",
+            "date_range": "1996 - 1996"
+          }
+        ],
+        "skills": [
+          "hotel",
+          "spa",
+          "health",
+          "hospitality",
+          "p",
+          "hotels",
+          "management",
+          "director",
+          "cluster"
+        ],
+        "activity_themes": [
+          "Hospitality networking and events",
+          "Hotel industry insights and performance",
+          "Leadership and team culture in hotels",
+          "Charity and community involvement in hospitality",
+          "Tourism and inbound travel associations",
+          "Professional development and career stories in hospitality",
+          "Hotel openings and new developments",
+          "Institute of Hospitality community engagement"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/tony-hill-fih-b4b01932"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Amelia Pearce",
       "title": "Commercial / Reservations Associate",
       "company": "Thistle Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/amelia-pearce-42266a10",
+      "linkedin_url": "https://www.linkedin.com/in/amelia-pearce-42266a10",
       "email": null,
       "email2": null,
       "phone": null,
@@ -689,13 +2729,59 @@
           "source_type": "official_site",
           "quote_or_fact": "Reservations focus on direct booking"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/amelia-pearce-42266a10",
+        "display_name": "Amelia Pearce",
+        "headline": "Meeting and Events Sales Executive at Thistle Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 5 years and 11 months",
+        "experience": [
+          {
+            "title": "Senior Account Manager",
+            "organization": "Workplace Law Group",
+            "date_range": "Mar 2002 - Sep 2005 • 3 years and 6 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Events Coordinator",
+            "organization": "The Sloane Club",
+            "date_range": "Oct 2005 - Mar 2008 • 2 years and 5 months",
+            "location": null,
+            "description": "I was responsible for all private events held in the Club from the initial booking to collating the final details and finally to sending out the bill after the event. Events ranged from small business meetings to large book launches and fashion shows. I was also a Duty Manager and typically worked 1 to 2 duty manager shifts per week and one 24 hour shift per month. With 138 bedrooms, 20 self service apartments, a sixty seat Restaurant and separate bar area there was a lot to look out for. I performed safety and visual checks and was on call to assist with any problems, queries or requests from either staff or members of the club itself."
+          },
+          {
+            "title": "Meeting And Events Sales Executive",
+            "organization": "Thistle Hotels",
+            "date_range": "Current",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "private events",
+          "small business",
+          "business meetings",
+          "fashion shows",
+          "sales",
+          "responsible",
+          "fashion",
+          "apartments",
+          "safety"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Michael Hedges",
       "title": "General Manager (The Clermont Victoria)",
       "company": "Clermont Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/michael-hedges-403b6178",
+      "linkedin_url": "https://www.linkedin.com/in/michael-hedges-403b6178",
       "email": null,
       "email2": null,
       "phone": "+44 (0)20 7523 5055",
@@ -717,7 +2803,138 @@
           "source_type": "directory",
           "quote_or_fact": "History with Thistle London properties"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/michael-hedges-403b6178",
+        "display_name": "Michael Hedges",
+        "headline": "General Manager, The Clermont Victoria",
+        "location": "Fleet, England, United Kingdom (GB)",
+        "about": "Total Experience: 23 years and 2 months",
+        "experience": [
+          {
+            "title": "Conference Banqueting Manager",
+            "organization": "Macdonald Hotels",
+            "date_range": "Feb 2002 - Jun 2004",
+            "location": "Windsor, Berkshire",
+            "description": "Castle Hotel\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Macdonald Hotels",
+            "date_range": "Jul 2004 - Jul 2005",
+            "location": "Farnham, Surrey",
+            "description": "Bush Hotel\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Food Beverage Manager",
+            "organization": "Millennium & Copthorne Hotels",
+            "date_range": "Jul 2005 - Nov 2006",
+            "location": "London, United Kingdom",
+            "description": "Tara Hotel\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Hotel Operations Manager",
+            "organization": "Cola Holdings",
+            "date_range": "Nov 2006 - Nov 2007",
+            "location": "London, United Kingdom",
+            "description": "Kingsway Hall\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Thistle & Guoman Hotels",
+            "date_range": "Jan 2008 - Nov 2010",
+            "location": null,
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Interim Hotel Manager",
+            "organization": "Thistle & Guoman Hotels",
+            "date_range": "Dec 2010 - Nov 2011",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Hotel Operations Manager",
+            "organization": "Thistle & Guoman Hotels",
+            "date_range": "Dec 2011 - Jun 2013",
+            "location": "Heathrow",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Value Centre General Manager",
+            "organization": "glh Hotels",
+            "date_range": "Jul 2013 - Oct 2017",
+            "location": "Heathrow",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager, Thistle Trafalgar Square Thistle Piccadilly",
+            "organization": "glh Hotels",
+            "date_range": "Nov 2017 - Nov 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager, Thistle Holborn Thistle Bloomsbury Park",
+            "organization": "glh Hotels",
+            "date_range": "Nov 2018 - Oct 2019",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager, Thistle Hotels - London, (4 Properties)",
+            "organization": "glh Hotels",
+            "date_range": "Oct 2019 - Nov 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Cluster General Manager - Thistle London, (7 Properties)",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Nov 2020 - Feb 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jan 2022 - Oct 2025",
+            "location": null,
+            "description": "The Clermont Charing Cross\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Oct 2025 - Present",
+            "location": null,
+            "description": "The Clermont Victoria\nDepartment: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "cluster",
+          "hotels",
+          "food",
+          "hotel",
+          "operations"
+        ],
+        "activity_themes": [
+          "Hospitality awards and recognitions",
+          "Industry panel discussions and events",
+          "Hotel management excellence and achievements",
+          "Career development and entrepreneurship",
+          "Leadership inspiration and personal reflection"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/stacy-guillin-04825160_mayfairtimescommunityawards-truehospitality-activity-7419435208766099456-XJqH",
+          "https://www.linkedin.com/posts/danielle-ravenscroft-24359771_looking-forward-to-my-first-panel-of-2026-activity-7418958393563893760-8hR1",
+          "https://www.linkedin.com/posts/sandor-megyeri-mih-6062b486_truly-honoured-to-be-named-manager-of-the-activity-7407798460005122049-Mn6P",
+          "https://www.linkedin.com/posts/wayne-morgan-2591a211_seven-years-ago-this-week-i-walked-away-activity-7407824523175071744-dLd9",
+          "https://www.linkedin.com/posts/suzanne-burnshr_take-a-moment-to-reflect-on-who-you-are-activity-7416717859998900224-17mC"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Dries Gadeyne",
@@ -745,7 +2962,38 @@
           "source_type": "official_site",
           "quote_or_fact": "Property GM roles and contacts"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/dries-gadeyne-19490516",
+        "display_name": "Dries Gadeyne",
+        "headline": "General Manager at Clermont Hotel Group",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 4 years and 6 months",
+        "experience": [
+          {
+            "title": "Hotel Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Aug 2021 - Present • 4 years and 6 months",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 1001-5000 employees • Public Company • Hospitality\nDepartment: Administrative • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and business priorities for 2026",
+          "London hotel real estate acquisitions and market trends",
+          "Hotel refurbishments and cinematic location scouting",
+          "Diversity, inclusion and team development in hospitality",
+          "Luxury hospitality growth, events and cost management",
+          "Strategic investment and conferences in the sector"
+        ],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": "Only one experience entry provided despite references to earlier roles and 2016 awards"
+      }
     },
     {
       "full_name": "Natasha Ludlow",
@@ -773,7 +3021,114 @@
           "source_type": "official_site",
           "quote_or_fact": "Brand portfolio includes Royal Horseguards"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/natasha-ludlow-3a5bb518",
+        "display_name": "Natasha Ludlow",
+        "headline": "General Manager - The Royal Horseguards & One Whitehall Place",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 26 years and 7 months",
+        "experience": [
+          {
+            "title": "Reservations Agent",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Aug 1998 - Jan 1999",
+            "location": "The Tower Hotel London",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Group Reservations Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jan 1999 - Jan 2000",
+            "location": "The Tower Hotel London",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jan 2000 - Jan 2003",
+            "location": "The Tower Hotel London",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Area Revenue Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jan 2003 - Jan 2006",
+            "location": "The Tower Hotel London and The Thistle City Barbican Hotel London",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Area Commercial Director",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Jan 2006 - Jan 2013",
+            "location": "The Tower Hotel London and The Thistle City Barbican Hotel London",
+            "description": "Alongside The Tower and The City Barbican Hotels, supported the Revenue Management of The Cumberland Hotel and managed the Group Central Reservations Office\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Mar 2013 - May 2016",
+            "location": "The Grosvenor Hotel, Victoria, London",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Area General Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "May 2016 - Dec 2018",
+            "location": "The Kingsley Hotel and Bloomsbury Park Hotel",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Dec 2018 - Present",
+            "location": "The Clermont Victoria, London",
+            "description": "Formerly the Amba Hotel Grosvenor. From November 2021 to March 2022 also General Manager The Clermont Charing Cross\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager And Interim Regional Operations Manager (maternity Cover)",
+            "organization": "Clermont Hotel Group",
+            "date_range": "May 2024 - Dec 2024",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Public Company • Hospitality"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Clermont Hotel Group",
+            "date_range": "Sep 2025 - Present",
+            "location": "The Royal Horseguards & One Whitehall Place",
+            "description": "Department: C-Suite • Level: Manager\nCompany: 1001-5000 employees • Public Company • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Certificate in Hotel Revenue Management",
+            "date_range": "Issued: Mar 2016"
+          }
+        ],
+        "skills": [
+          "revenue management",
+          "reservations",
+          "operations",
+          "commercial",
+          "director",
+          "hotels",
+          "management",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Leadership styles focusing on moral courage and treating people well",
+          "Building strong workplace culture and team engagement",
+          "Creating environments where every voice matters and employees feel valued",
+          "Hospitality industry recognition including Hotelier of the Week",
+          "Authenticity and showing up as yourself in professional settings",
+          "What leadership chooses to address or tolerate in teams"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -787,5 +3142,71 @@
     "succeeded": 24,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T01:59:47.468844+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 24,
+      "structured": 23,
+      "discovered": 0,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 0,
+        "content_pages": 24,
+        "cost_estimate": {
+          "approx_total_usd": 0.024,
+          "search_component_usd": 0.0,
+          "contents_component_usd": 0.024,
+          "counts": {
+            "search_requests": 0,
+            "content_pages": 24
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 59271,
+          "cached_prompt_text_tokens": 3264,
+          "completion_tokens": 23932,
+          "reasoning_tokens": 83152,
+          "output_tokens": 0,
+          "total_tokens": 166355
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.755171,
+          "token_component_usd": 0.755171,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 59271,
+            "cached_prompt_text_tokens": 3264,
+            "completion_tokens": 23932,
+            "reasoning_tokens": 83152,
+            "total_tokens_reported": 166355,
+            "output_like_tokens": 107084,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.779171
+    }
   }
 }

@@ -237,7 +237,7 @@
       "full_name": "Yoram Biton",
       "title": "Managing Director Central Europe",
       "company": "Leonardo Hotels Central Europe",
-      "linkedin_url": "https://de.linkedin.com/in/yoram-biton-68950412",
+      "linkedin_url": "https://www.linkedin.com/in/yoram-biton-68950412",
       "email": "y.biton@leonardo-hotels.com",
       "email2": null,
       "phone": "+49(0)30688322100",
@@ -264,13 +264,60 @@
           "source_type": "official_site",
           "quote_or_fact": "Managing Directors: Ms. Molly Katz, Mr. Yoram Biton"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/yoram-biton-68950412",
+        "display_name": "Yoram Biton",
+        "headline": "Managing Director at Leonardo Hotels",
+        "location": "Bavaria, Germany (DE)",
+        "about": "Total Experience: 12 years and 6 months",
+        "experience": [
+          {
+            "title": "Managing Director",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jun 2006 - Present • 19 years and 8 months",
+            "location": "Central Europe",
+            "description": "Company: 10,001+ employees • Founded 2007 • Privately Held • Hospitality\nDepartment: C-Suite • Level: Director"
+          },
+          {
+            "title": "Cluster General Manager",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jun 2006 - Present • 12 years and 5 months",
+            "location": "South Germany & Switzerland",
+            "description": "Company: 10,001+ employees • Founded 2007 • Privately Held • Hospitality\nDepartment: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "The Academic College of Tel-Aviv, Yaffo",
+            "degree_or_field": "Master of Business Administration (M.B.A.), Business, Management, Marketing und verbundene unterstützende Dienste",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "cluster"
+        ],
+        "activity_themes": [
+          "Hotel openings and refurbishments (Posthouse Berlin, Baden-Baden)",
+          "Expansions in Rome, Geneva and U.S. market entry",
+          "Strategy and convention sales kick-off meetings",
+          "Industry events (IHG Investor Day, ahgz Digital Hotel Day)",
+          "Partnerships and sponsorships (FC Bayern, political visits)",
+          "Lean luxury concepts with Ruby Group"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/yoram-biton-68950412"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Anke Rohn-Maas",
       "title": "CHRO Central Europe",
       "company": "Leonardo Hotels Central Europe",
-      "linkedin_url": "https://de.linkedin.com/in/anke-rohn-maas-12b91054",
+      "linkedin_url": "https://www.linkedin.com/in/anke-rohn-maas-12b91054",
       "email": "a.maas@leonardo-hotels.com",
       "email2": null,
       "phone": "+49 30 688 322 151",
@@ -297,7 +344,52 @@
           "source_type": "linkedin",
           "quote_or_fact": "CHRO Central Europe at Leonardo Hotels"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anke-rohn-maas-12b91054",
+        "display_name": "Anke Rohn-Maas",
+        "headline": "CHRO Central Europe | Leonardo Hotels | responsible for 100 Hotels in 9 Countries out of more than 300 Hotels",
+        "location": "Berlin, Berlin, Germany (DE)",
+        "about": "Total Experience: 13 years and 5 months",
+        "experience": [
+          {
+            "title": "HR Director Central Europe",
+            "organization": "Leonardo Hotels",
+            "date_range": "Sep 2012 - Jul 2025 • 12 years and 10 months",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Chief Human Resources Officer Central Europe",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jul 2025 - Present • 7 months",
+            "location": "Berlin",
+            "description": "Company: 10,001+ employees • Founded 2007 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hr",
+          "director",
+          "human resources"
+        ],
+        "activity_themes": [
+          "PhD thesis defenses and academic committee participation",
+          "Career transitions in serviced apartments and hospitality sales",
+          "Critiques of education systems and personal responsibility training",
+          "Networking events, afterwork parties, and winter grilling in hospitality",
+          "Team commitment, passion, and high standards at Leonardo Hotels",
+          "Graduation ceremonies and fast forward programs at Leonardo Hotels",
+          "Hotel team responses to guest needs during travel disruptions",
+          "Corporate forums on MICE, digitalization, and innovation in hospitality",
+          "Hotel branding and colors within the Fattal Hotels Group"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/anke-rohn-maas-12b91054"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Molly Katz",
@@ -331,7 +423,7 @@
       "full_name": "Dan Ogen",
       "title": "Chief Digital and Marketing Officer",
       "company": "Leonardo Hotels Central Europe",
-      "linkedin_url": "https://il.linkedin.com/in/dan-ogen-0737237",
+      "linkedin_url": "https://www.linkedin.com/in/dan-ogen-0737237",
       "email": null,
       "email2": null,
       "phone": null,
@@ -358,13 +450,125 @@
           "source_type": "linkedin",
           "quote_or_fact": "Chief Digital and Marketing Officer (CMO CDO) at Leonardo Hotels"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/dan-ogen-0737237",
+        "display_name": "Dan Ogen",
+        "headline": "Chief Marketing Officer (CMO) Europe at Leonardo Hotels",
+        "location": "Tel Aviv District, Israel (IL)",
+        "about": "🌟 Global Director | Digital Transformation Expert | Marketing Innovator As a… Total Experience: 18 years and 10 months",
+        "experience": [
+          {
+            "title": "Planning Creative Director",
+            "organization": "Trost - Marketing Solutions",
+            "date_range": "Jan 2003 - Jan 2004",
+            "location": null,
+            "description": "• Crafting tailored marketing strategies for clients to drive growth and success • Designing compelling marketing presentations, adeptly weaving narratives, and delivering persuasive copywriting"
+          },
+          {
+            "title": "Information Systems Implementation Coordinator",
+            "organization": "Bank Leumi",
+            "date_range": "Jan 2004 - Jan 2007",
+            "location": null,
+            "description": "• Leading cross-organizational implementation of information systems to ensure seamless integration and functionality • Developing a diverse range of courseware, training materials, and tools, including e-learning resources and instructional manuals • Establishing processes to monitor and uphold project timelines, fostering alignment among system developers, field instructors, and targeted user groups • Serving as a marketing consultant for Reality Group, offering strategic guidance to support their objectives and growth"
+          },
+          {
+            "title": "Co-founder",
+            "organization": "NFG - (“We’ve met”) website",
+            "date_range": "Jan 2006 - Jan 2007",
+            "location": null,
+            "description": "A social networking platform designed specifically to assist individuals in reconnecting with one another after an initial encounter."
+          },
+          {
+            "title": "VP of Project Management",
+            "organization": "Pro Group by Yellow Pages",
+            "date_range": "Aug 2007 - Jan 2008",
+            "location": null,
+            "description": "As VP of Project Management, my primary responsibilities include: • Overseeing the execution of numerous intricate digital projects concurrently, ensuring they adhere to established timelines • Formulating marketing strategies and devising comprehensive annual work plans to guide the organization's growth and success"
+          },
+          {
+            "title": "Division Manager Products New Media",
+            "organization": "zap group",
+            "date_range": "Jan 2008 - Jun 2010",
+            "location": null,
+            "description": "As a department leader, I’m driving the successful execution of work plans through diligent management and oversight. My key responsibilities include: • Business Development - Identifying and cultivating new growth engines to propel the organization's innovation, elevate ARPU, maximize customer benefits, and minimize churn • Product Development and Management - Overseeing the creation and management of both printed (offline) products, such as guides, and digital (online) offerings for web and mobile platforms • Strategic Partnership Management - Nurturing and maintaining collaborative relationships with key partners to advance our shared goals and objectives"
+          },
+          {
+            "title": "Co-Founder CEO",
+            "organization": "Celltico - Mobile Content",
+            "date_range": "Oct 2009 - Jan 2013",
+            "location": null,
+            "description": "As a Co-founder and CEO, I spearhead a company dedicated to delivering premium mobile content to our subscribers. Our marketing strategy is centered on enhancing lead conversion rates (CRO) through diverse lead generation methods, such as affiliate networks, intelligent media buying, and online pay-per-click (PPC) or pay-per-lead (PPL) campaigns."
+          },
+          {
+            "title": "CEO",
+            "organization": "Infomed - פורטל הרפואה של ישראל",
+            "date_range": "Oct 2009 - Jul 2013",
+            "location": null,
+            "description": "As the Chief Executive Officer of Infomed, the premier Medical Portal in Israel and a subsidiary of Migdal Insurance Company, I am entrusted with steering the organization's overall leadership and business development to not only achieve our objectives but also surpass them. My responsibilities encompass devising and executing the company's business and marketing strategies, fostering innovation through both online and offline channels (recipient of the Webi2012 award), and supervising various divisions such as sales, marketing, finance, technology, product development, new media, internet, mobile and applications, public relations, customer service, and operations. I have played a pivotal role in streamlining work processes and architecting a marketing strategy that effectively utilizes owned, earned, and paid media to fuel business expansion and attain our targets. Furthermore, I have adeptly forged strategic alliances, participated in and secured tenders, thereby ensuring sustained growth and prosperity for the organization. My proven expertise in overarching leadership, business development, and marketing strategy has consistently contributed to the growth and success of the business. I am fervent about harnessing my abilities to propel digital transformation and innovation within the healthcare sector. I remain committed to partnering with teams in order to conceive and execute inventive solutions that surpass customer expectations and stimulate business expansion."
+          },
+          {
+            "title": "Director Of Global Communication Digital Channels",
+            "organization": "Teva Pharmaceuticals",
+            "date_range": "Jan 2014 - Jan 2017",
+            "location": "Israel",
+            "description": "As the head of Teva's Global Marketing and Communications Digital team, I am committed to enhancing engagement with both internal and external stakeholders while executing Teva's brand strategy across digital platforms. Key accomplishments in this role include: • Implementing innovative channels and engagement capabilities to foster meaningful connections • Spearheading groundbreaking initiatives in Teva's digital landscape to maintain a competitive edge • Establishing and overseeing Teva's Digital Center of Excellence to streamline digital efforts • Collaborating with local teams and business units to co-develop and implement policies and guidelines, optimizing the use of digital communication channels • Employing multi-channel marketing and communication strategies to effectively convey corporate messages to stakeholders"
+          },
+          {
+            "title": "Head Of Digital",
+            "organization": "Teva Pharmaceuticals",
+            "date_range": "Oct 2016 - Jul 2018",
+            "location": "Israel",
+            "description": "Spearheading Teva Israel's Digital Transformation, I capitalize on the company's robust brand equity and collaborate with various business units to boost sales, amplify awareness, and enhance digital competencies. As a key driver of this initiative, I am responsible for devising and implementing a cutting-edge digital marketing strategy tailored to the specific needs of Teva's Israeli subsidiary."
+          },
+          {
+            "title": "Chief Digital Officer (CDO) Europe",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jul 2018 - Mar 2024",
+            "location": "Israel",
+            "description": "As the Chief Digital Officer (CDO) for Leonardo Hotels in Europe, the European arm of the Fattal Hotel Group with a presence in Israel and Europe with over 250 hotels in 110+ destinations, I am responsible for driving the company's growth through the implementation of revenue-boosting strategies across digital channels, e-commerce, and user experience optimization. Leveraging my expertise in funnel optimization, marketing automation, and engagement strategies, I also utilize Generative AI to achieve more efficient work and meet business needs. By utilizing data-driven insights and marketing automation, we can design targeted user journeys and touchpoints that increase conversions and create a positive, holistic experience for our guests. I am passionate about utilizing my skills to drive digital transformation within the hospitality industry, and I am dedicated to collaborating with teams to design and implement innovative solutions that exceed customer expectations and drive business growth."
+          },
+          {
+            "title": "Member",
+            "organization": "G-CMO Forum",
+            "date_range": "Apr 2019 - Present",
+            "location": null,
+            "description": "G-CMO Forum is an exclusive community of Israel's top Chief Marketing Officers (CMOs) from global companies, startups, and VC's. We're a fun group of people who happen to be the movers and shakers of the Startup Nation's marketing scene. Through our forum's activities, we enrich each other with best practices to make us all better and more competitive marketers. Mentor at Hebrew University & G-CMO’s GoGlobal Program"
+          },
+          {
+            "title": "Chief Digital And Marketing Officer (CMO CDO)",
+            "organization": "Leonardo Hotels",
+            "date_range": "Apr 2024 - Present",
+            "location": null,
+            "description": "As Chief Digital and Marketing Officer at Leonardo Hotels in Europe, I lead the development and execution of comprehensive marketing strategies across our diverse portfolio of sub-brands. My role encompasses overseeing online and offline advertising, managing brand reputation, and ensuring cohesive brand enrollment. With a focus on innovative digital solutions, I drive initiatives that enhance guest engagement, boost brand visibility, and contribute to the overall growth and success of our hotel chain."
+          }
+        ],
+        "education": [
+          {
+            "school": "The Open University of Israel",
+            "degree_or_field": "Bachelor’s Degree, Business Administration & Communication",
+            "date_range": "1999 - 2003"
+          },
+          {
+            "school": "High School",
+            "degree_or_field": "Physic",
+            "date_range": null
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/dan-ogen-0737237"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mario J. Eilaender",
       "title": "Director Distribution Central Europe",
       "company": "Leonardo Hotels Central Europe",
-      "linkedin_url": "https://de.linkedin.com/in/mario-j-eilaender",
+      "linkedin_url": "https://www.linkedin.com/in/mario-j-eilaender",
       "email": null,
       "email2": null,
       "phone": null,
@@ -386,7 +590,146 @@
           "source_type": "directory",
           "quote_or_fact": "Mario Eilaender, Director Distribution Central Europe at Leonardo Hotels"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/mario-j-eilaender",
+        "display_name": "Mario J. Eilaender",
+        "headline": "Director Distribution @ Leonardo Hotels | Distribution, Growth",
+        "location": "Berlin, Berlin, Germany (DE)",
+        "about": "With over two decades of experience in the hospitality industry, I have developed a deep understanding of the diverse markets and segments, from luxury resorts to boutique hotels. As the Director Distribution Central Europe at Leonardo Hotels, I lead the development and execution of distribution strategies that optimize revenue, market share, and customer satisfaction. In addition to my current role, I am also an Advisory Board Member at Selfbook, a start-up that provides a smart and easy booking solution for hotels and travelers. I leverage my industry-specific knowledge and experience to provide insights into key challenges facing the organization and offer solutions to overcome them. I am passionate about inspiring and engaging teams, challenging the status quo, and utilizing best practices and proven strategic methodologies to achieve success.",
+        "experience": [
+          {
+            "title": "Apprentice",
+            "organization": "Swissôtel Berlin",
+            "date_range": "Sep 2001 - Jun 2004",
+            "location": "Berlin, Germany",
+            "description": null
+          },
+          {
+            "title": "Reception Clerk",
+            "organization": "Swissotel Berlin",
+            "date_range": "Aug 2004 - Sep 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Coordinator",
+            "organization": "Swissotel Berlin",
+            "date_range": "Oct 2004 - Sep 2005",
+            "location": "Berlin Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Sales Representative",
+            "organization": "Swissotel Berlin",
+            "date_range": "Oct 2005 - Jul 2006",
+            "location": "Berlin Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Revenue Management Executive",
+            "organization": "Swissotel Berlin",
+            "date_range": "Jul 2006 - Jan 2007",
+            "location": "Berlin Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Swissôtel Hotels & Resorts",
+            "date_range": "Jan 2007 - Oct 2008",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Global Revenue Support Manager",
+            "organization": "Swissôtel Hotels & Resorts",
+            "date_range": "Oct 2008 - Aug 2011",
+            "location": "Beijing, Shanghai, Kunshan, Foshan, Bangkok, Singapore, Toronto etc.",
+            "description": null
+          },
+          {
+            "title": "Revenue Systems Development Manager",
+            "organization": "Swissôtel Hotels & Resorts",
+            "date_range": "Sep 2011 - Mar 2012",
+            "location": "Zurich, Switzerland",
+            "description": null
+          },
+          {
+            "title": "Project Manager, New Hotel Integrations, Technology, Europe",
+            "organization": "FRHI Hotels & Resorts",
+            "date_range": "Apr 2012 - Mar 2015",
+            "location": "Zurich, Bangkok, Bali, Vancouver, Socci etc.",
+            "description": null
+          },
+          {
+            "title": "Head Of Distribution Technology",
+            "organization": "Design Hotels AG",
+            "date_range": "Feb 2016 - Dec 2017",
+            "location": "Berlin Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Director Distribution Technology Channel Analytics",
+            "organization": "Design Hotels AG",
+            "date_range": "Jan 2018 - Nov 2018",
+            "location": "Berlin Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Director Strategic Partnerships",
+            "organization": "Customer Alliance",
+            "date_range": "Dec 2018 - Sep 2022",
+            "location": "Berlin Area, Germany",
+            "description": null
+          },
+          {
+            "title": "Advisory Board Member",
+            "organization": "Hotelhero",
+            "date_range": "Apr 2019 - Jun 2021",
+            "location": "Berlin, Germany",
+            "description": null
+          },
+          {
+            "title": "Advisory Board Member",
+            "organization": "Selfbook",
+            "date_range": "Mar 2019 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Distribution Central Europe",
+            "organization": "Leonardo Hotels",
+            "date_range": "Sep 2022 - Present",
+            "location": "Berlin, Deutschland",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "luxury",
+          "hotels",
+          "director",
+          "distribution",
+          "sales",
+          "management",
+          "technology",
+          "analytics",
+          "hotel",
+          "partnerships",
+          "hospitality industry",
+          "distribution strategies",
+          "customer satisfaction",
+          "best practices",
+          "revenue management",
+          "project manager",
+          "strategic partnerships"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jean Buche",
@@ -414,7 +757,51 @@
           "source_type": "linkedin",
           "quote_or_fact": "References revenue management leadership at Leonardo/Fattal"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jeaneudesbuche",
+        "display_name": "Jean Buche",
+        "headline": "Vice President Revenue Management Central Europe",
+        "location": "Berlin, Berlin, Germany (DE)",
+        "about": "Total Experience: 4 years and 1 month",
+        "experience": [
+          {
+            "title": "Vice President Revenue Management Central Europe",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jan 2022 - Present",
+            "location": null,
+            "description": "Company: 10,001+ employees • Founded 2007 • Privately Held • Hospitality\nDepartment: C-Suite • Level: President/Vice President"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "management",
+          "revenue management"
+        ],
+        "activity_themes": [
+          "Hospitality awards and achievements",
+          "Leadership and coaching in travel industry",
+          "Sustainable transport innovation",
+          "Hotel acquisitions and expansions",
+          "Luxury brand partnerships",
+          "Michelin recognition for hotels",
+          "Hotel owner and conference awards",
+          "Internal hotel project development",
+          "Executive leadership training"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/leonardohotelsukire_congratulations-to-the-team-at-the-g-hotel-activity-7422304575052849152-FjxK",
+          "https://www.linkedin.com/posts/christin-schmidt-363a9250_partnerships-leadership-traveltech-activity-7406805593291776000-5E50",
+          "https://www.linkedin.com/posts/ron-van-duin-53a5a35_dynamics-of-sustainable-transport-innovation-activity-7406286262178902016-xFo5",
+          "https://www.linkedin.com/posts/mike-arnoult_we-have-acquired-leonardo-hotel-southampton-activity-7396222953832517632-poOb",
+          "https://www.linkedin.com/posts/dan-ogen-0737237_loccitane-en-provence-unveils-new-global-activity-7395076811191140352-MeUy",
+          "https://fr.www.linkedin.com/posts/hotelducouvent_michelin-hôtelducouvent-villedenice-activity-7385357093765111808-kS2r",
+          "https://www.linkedin.com/posts/tamar-cohen-eu_proud-to-share-that-mr-david-fattal-founder-activity-7377411445660991488-77Ku",
+          "https://www.linkedin.com/posts/leonardohotelsukire_mitawards-leonardohotels-conferenceexcellence-activity-7375875588810567680-X6Hi"
+        ],
+        "data_quality": "partial",
+        "caveats": "Only one experience entry present; no education or detailed about section provided."
+      }
     },
     {
       "full_name": "Maja Ziemann",
@@ -437,7 +824,127 @@
           "source_type": "official_site",
           "quote_or_fact": "Maja Ziemann, Director Sales Central Europe, who is now in charge of all strategic and operational tasks in the area and leads a team of 55 staff."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/maja-ziemann",
+        "display_name": "Maja Ziemann",
+        "headline": "Director of Sales Central Europe at Leonardo Hotels",
+        "location": "Germany (DE)",
+        "about": "• Excellent sales and negotiation skills • Good business sense • The ability to motivate and lead a team • Initiative, Passion, Drive and Enthusiasm • Excellent communication skills • Good planning and organisational skills • The ability to work calmly under pressure • Good budget and report writing skills\n\nTotal Experience: 19 years and 8 months",
+        "experience": [
+          {
+            "title": "Sales Manager",
+            "organization": "Derag Livinghotels AG + Co. KG",
+            "date_range": "Jan 2006 - Feb 2008",
+            "location": null,
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Derag Livinghotels AG + Co. KG",
+            "date_range": "Mar 2008 - Mar 2011",
+            "location": null,
+            "description": "Department: Sales • Level: Senior"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Pestana Berlin Tiergarten",
+            "date_range": "Apr 2011 - Nov 2013",
+            "location": "Berlin und Umgebung, Deutschland",
+            "description": "*Opening of the first Pestana Hotel in Germany *Market launch and positioning *Head of Sales/ Marketing/ E-Commerce/ Reservations & Banqueting\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Head Of Corporate MICE Sales Europe",
+            "organization": "Leonardo Hotels",
+            "date_range": "Dec 2013 - Jul 2018",
+            "location": "Berlin und Umgebung, Deutschland",
+            "description": "Discover more than 85 hotels in Germany, Austria, Switzerland, Belgium, Hungary and Israel. Leonardo Hotels are known for their superb locations in attractive destinations as well as for their distinctive ambience, individual design and very own regional character. The portfolio includes the brands Leonardo Royal, Leonardo Boutique and Leonardo Inn."
+          },
+          {
+            "title": "Director Of Corporate MICE Sales Central Europe",
+            "organization": "Leonardo Hotels",
+            "date_range": "Aug 2018 - Aug 2024",
+            "location": "Berlin, Deutschland",
+            "description": "*responsible for the sales teams in the Corporate & MICE segment for the countries Germany, Austria, Switzerland, Poland, Romania, Italy, Czech Republic, Spain and Hungary *Development & measurement of sales strategies *Employee management and employee development *Face of Leonardo Hotels *Open to new models, ideas, tools and opportunities to further develop employees and explore new sales channels\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Central Europe",
+            "organization": "Leonardo Hotels",
+            "date_range": "Sep 2024 - Present",
+            "location": null,
+            "description": "I´am responsible for leading and expanding the company’s sales operations across the Central European market - this means: Germany, Austria, Switzerland, Italy, Poland, Hungary, Czech Republic, Romania. This role involves developing and executing a comprehensive sales strategy, building and managing a high-performance team, and driving revenue growth in line with the company’s objectives. *Develop and implement strategic sales plans to achieve revenue targets across European regions. *Build, lead, and mentor a high-performing regional sales team. *Identify new business opportunities and develop long-term relationships with key customers and partners. *Drive pipeline development through direct engagement and effective team management. *Monitor market trends, competitor activities, and customer insights to inform strategy. *Collaborate with Marketing, Product, and Customer Success teams to ensure alignment and support for European customers. *Oversee negotiations, contracts, and pricing strategies for major deals. *Track sales KPIs, provide accurate forecasting, and report regularly to executive leadership. *Ensure compliance with local regulations and internal policies across all countries of operation. *Represent the company at industry events, trade shows, and client meetings.\nDepartment: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Freie Universität Berlin",
+            "degree_or_field": "Graduate in economics, Volkswirtschaftslehre",
+            "date_range": "1999 - 2004"
+          }
+        ],
+        "skills": [
+          "sales",
+          "negotiation",
+          "planning",
+          "pressure",
+          "budget",
+          "writing",
+          "director",
+          "responsible",
+          "operations",
+          "strategy",
+          "driving",
+          "performing",
+          "engagement",
+          "management",
+          "inform",
+          "marketing",
+          "negotiations",
+          "pricing",
+          "forecasting",
+          "leadership",
+          "compliance",
+          "regulations",
+          "operation",
+          "hotel",
+          "positioning",
+          "commerce",
+          "reservations",
+          "hotels",
+          "design",
+          "excellent communication skills",
+          "strategic sales plans",
+          "new business opportunities",
+          "negotiation skills",
+          "communication skills",
+          "organisational skills",
+          "report writing",
+          "writing skills",
+          "sales operations",
+          "sales strategy",
+          "strategic sales",
+          "pipeline development",
+          "team management",
+          "executive leadership",
+          "trade shows",
+          "sales manager",
+          "employee management"
+        ],
+        "activity_themes": [
+          "Leonardo Hotels afterwork and networking events",
+          "MICE corporate forums and Meetago events",
+          "Business travel trends and 2026 outlook",
+          "FITUR 2026 hospitality industry trade show",
+          "MICE digitalization and innovation",
+          "Hospitality loyalty platform development",
+          "Pharma and corporate business trips"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/maja-ziemann"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lisa Mager",
@@ -483,7 +990,100 @@
           "source_type": "official_site",
           "quote_or_fact": "Alison, Regional Revenue Manager... I joined the company in June 2006... Cluster Revenue Manager and Regional Revenue Manager"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/alison-t-78b63946",
+        "display_name": "Alison T.",
+        "headline": "Regional Revenue Manager at Leonardo Hotels UK & Ireland | Formerly Jurys Inn",
+        "location": "Sandiacre, England, United Kingdom (GB)",
+        "about": "Experienced Revenue Manager with a demonstrated history of working in the hospitality industry. Skilled in Hotel Management, Hospitality Industry, Event Management, Yield Management, and Revenue Analysis.\n\nTotal Experience: 19 years and 3 months",
+        "experience": [
+          {
+            "title": "Receptionist",
+            "organization": "Royal Moat House Hotel",
+            "date_range": "Aug 2003 - Jun 2005",
+            "location": null,
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Reception Shift Leader",
+            "organization": "Crowne Plaza Hotel",
+            "date_range": "Aug 2003 - Jun 2006",
+            "location": null,
+            "description": "Department: Administrative • Level: Senior"
+          },
+          {
+            "title": "Regional Revenue Manager",
+            "organization": "Leonardo Hotels UK & Ireland | Formerly Jurys Inn",
+            "date_range": "Jun 2005 - Present",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Cluster Revenue Manager - Nottingham, Derby, Milton Keynes And Leeds",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Jun 2006 - Mar 2015",
+            "location": "Nottingham, Derby & Milton Keynes",
+            "description": "Company: 5001-10,000 employees • Founded 1993 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Cluster Revenue Manager - Nottingham, Derby, East Midlands And Dublin",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Jun 2006 - Nov 2022",
+            "location": "derby",
+            "description": "Company: 5001-10,000 employees • Founded 1993 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Regional Revenue Manager",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Dec 2016 - Nov 2022",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Broxtowe College",
+            "degree_or_field": "HND Travel and Tourism Management, Travel and Tourism, PASS",
+            "date_range": "2002 - 2004"
+          },
+          {
+            "school": "Lakeview 6th Form",
+            "degree_or_field": "GNVQ Travel & Tourism Management, HND Travel and Tourism Management",
+            "date_range": "1998 - 2000"
+          },
+          {
+            "school": "George Spencer School",
+            "degree_or_field": "GCSE",
+            "date_range": "1994 - 1998"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "hotel",
+          "management",
+          "yield",
+          "analysis",
+          "cluster",
+          "hospitality industry",
+          "hotel management",
+          "event management",
+          "yield management",
+          "revenue analysis"
+        ],
+        "activity_themes": [
+          "Hotel openings, launches and new properties",
+          "Revenue management roles, insights and emotional intelligence",
+          "Leadership awards, promotions and team achievements",
+          "Industry events, networking and matchdays",
+          "Hospitality sector updates in UK and Ireland"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/alison-t-78b63946"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Falk Bartels",
@@ -529,7 +1129,58 @@
           "source_type": "official_site",
           "quote_or_fact": "Viola Krome is responsible for seven hotels within the Frankfurt region."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/viola-krome-a34046262",
+        "display_name": "Viola Krome",
+        "headline": "Multi Property Manager Region Frankfurt at Leonardo Hotels",
+        "location": "Frankfurt, Hesse, Germany (DE)",
+        "about": "Total Experience: 13 years and 2 months",
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Leonardo Hotels",
+            "date_range": "Nov 2012 - Dec 2024",
+            "location": "Leonardo Hotels Frankfurt",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Multi Property Manager Region Frankfurt",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jan 2025 - Present",
+            "location": "Frankfurt/Rhein-Main",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Romantik Hotel Schloss Petershagen",
+            "degree_or_field": "Hotelfachfrau, 2",
+            "date_range": "1998 - 2001"
+          },
+          {
+            "school": "Hotelfachschule Hamburg",
+            "degree_or_field": "Bachelor of Arts - BA, Hotelmanagement, 2",
+            "date_range": "2008 - 2010"
+          }
+        ],
+        "skills": [
+          "property"
+        ],
+        "activity_themes": [
+          "High Booking.com ratings and cleanliness scores for Leonardo Hotel Eschborn",
+          "Leadership awards and Leonardo Leadership Award nominees",
+          "Hotel management training completions and academy certificates",
+          "Team recruitment, new hires, and HR appointments",
+          "Grand openings of new Leonardo Hotels properties",
+          "Recognition for conference excellence and staff achievements"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/viola-krome-a34046262"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Isaac Mizrachi",
@@ -575,13 +1226,74 @@
           "source_type": "news",
           "quote_or_fact": "Adrian Bingham, Head of Customer Contact and Data Integration at Leonardo Hotels, UK and Ireland"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/adrian-bingham-16bb236",
+        "display_name": "Adrian Bingham",
+        "headline": "Head of Customer Contact and Data Integration",
+        "location": "Dudley, England, United Kingdom (GB)",
+        "about": "Total Experience: 18 years and 11 months",
+        "experience": [
+          {
+            "title": "Director Reservation Operations",
+            "organization": "IHG (InterContinental Hotels Group)",
+            "date_range": "Jan 2007 - May 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Consultant",
+            "organization": "BiBuCo",
+            "date_range": "Jul 2010 - Jan 2011",
+            "location": null,
+            "description": "Department: Consulting • Level: Head"
+          },
+          {
+            "title": "Head Of Customer Contact And Data Integration",
+            "organization": "Leonardo Hotels UK & Ireland | Formerly Jurys Inn",
+            "date_range": "Jan 2011 - Present",
+            "location": "Birmingham, United Kingdom",
+            "description": "Company: 5001-10,000 employees • Privately Held • Hospitality\nDepartment: Customer Service • Level: Specialist"
+          }
+        ],
+        "education": [
+          {
+            "school": "Redhill Secondry School",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "data integration",
+          "integration",
+          "director",
+          "reservation",
+          "operations"
+        ],
+        "activity_themes": [
+          "Hospitality operations upgrades and team milestones",
+          "Hotel sales meetings and visitor economy conferences",
+          "Oil and gas funding, drilling programmes and production updates",
+          "Energy sector partnerships and vertical integration",
+          "Positive mindset and leadership reflections"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/adrian-bingham-16bb236",
+          "https://www.linkedin.com/posts/danielle-ravenscroft-24359771_beamgala2026-grf2026-clermontbeyou-activity-7424086598721523712-czuD",
+          "https://www.linkedin.com/posts/hospitality-sales-teamwork-activity-7421907467200204800-zYHA",
+          "https://www.linkedin.com/posts/upl-activity-7423634664080420864-Rg92",
+          "https://www.linkedin.com/posts/dawn-lister_people-often-comment-about-how-im-always-activity-7417496907989766144-vszX",
+          "https://www.linkedin.com/posts/pacta-relations_ad-sponsoredcontent-energy-activity-7421639096709595136-aKaS"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ekaterina Emanova",
       "title": "Reputation & Brand Experience Manager",
       "company": "Leonardo Hotels",
-      "linkedin_url": "https://de.linkedin.com/in/ekaterina-emanova-38ba8b2b4",
+      "linkedin_url": "https://www.linkedin.com/in/ekaterina-emanova-38ba8b2b4",
       "email": null,
       "email2": null,
       "phone": null,
@@ -603,13 +1315,102 @@
           "source_type": "linkedin",
           "quote_or_fact": "Reputation & Brand Experience Manager (ex Junior Digital Project Manager) at Leonardo Hotels"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ekaterina-emanova-38ba8b2b4",
+        "display_name": "Ekaterina Emanova",
+        "headline": "Reputation Management | Optimizing Digital Experience",
+        "location": "Nuremberg, Bavaria, Germany (DE)",
+        "about": "Total Experience: 8 years and 7 months",
+        "experience": [
+          {
+            "title": "Office Manager",
+            "organization": "Moscow state university of economics, statistics and informatics (MESI)",
+            "date_range": "Oct 2013 - Jun 2016",
+            "location": "Moscow, Russia",
+            "description": "I managed daily administrative operations, including scheduling meetings, handling correspondence, and maintaining office supplies. I also organized and coordinated office events, meetings, and conferences, ensuring smooth and efficient execution."
+          },
+          {
+            "title": "Marketing And Communications Manager",
+            "organization": "Ctrana4udes",
+            "date_range": "Jun 2019 - Feb 2021",
+            "location": null,
+            "description": "I crafted and executed strategic communication and marketing plans, designed impactful content for print and digital media, and led successful online campaigns that significantly increased engagement. Additionally, I managed comprehensive email marketing initiatives, from content creation to performance analysis."
+          },
+          {
+            "title": "Trainee E-Commerce Digital Marketing",
+            "organization": "Leonardo Hotels",
+            "date_range": "Oct 2021 - Oct 2022",
+            "location": "Berlin, Germany",
+            "description": null
+          },
+          {
+            "title": "Junior Digital Project Manager",
+            "organization": "Leonardo Hotels",
+            "date_range": "Nov 2022 - Jun 2025",
+            "location": "Berlin, Germany",
+            "description": null
+          },
+          {
+            "title": "Reputation Brand Experience Manager",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jun 2025 - Present",
+            "location": null,
+            "description": "Strengthening brand reputation and optimizing customer interactions through digital channels. Enhancing brand experience and engagement to drive loyalty and support successful campaigns."
+          }
+        ],
+        "education": [
+          {
+            "school": "Plekhanov Russian University of Economics",
+            "degree_or_field": "Bachelor of Applied Science - BASc, Management",
+            "date_range": "2012 - 2016"
+          },
+          {
+            "school": "Deggendorf Institute of Technology",
+            "degree_or_field": "Master of Arts - MA, International Tourism Development",
+            "date_range": "2017 - 2019"
+          }
+        ],
+        "skills": [
+          "marketing communications",
+          "communication marketing",
+          "digital media",
+          "email marketing",
+          "content creation",
+          "performance analysis",
+          "project manager",
+          "digital marketing",
+          "p",
+          "less",
+          "digital",
+          "engagement",
+          "campaigns",
+          "marketing",
+          "communications",
+          "print",
+          "analysis",
+          "operations",
+          "scheduling",
+          "organized",
+          "commerce"
+        ],
+        "activity_themes": [
+          "Celebrating 10 years of graduation events and company milestones at Leonardo Hotels",
+          "Recruitment for Marketing & Digital team positions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/leonardo-hotels_besmart-beefficient-beflexible-activity-7354163500463628288-2Iy_",
+          "https://www.linkedin.com/posts/din-binness_who-wants-to-join-our-amazing-team-activity-7346102354212982784-6dQj"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Marion Schön",
       "title": "Director Communication & Marketing",
       "company": "Leonardo Hotels Central Europe",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/marion-schonkeren-nee-carpentier-07958a19",
       "email": "presse@leonardo-hotels.com",
       "email2": null,
       "phone": "+49 (0) 30 - 688 322 0",
@@ -626,7 +1427,158 @@
           "source_type": "official_site",
           "quote_or_fact": "Marion Schön... is taking charge of the areas of PR and Brand Marketing."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/marion-schonkeren-nee-carpentier-07958a19",
+        "display_name": "Marion Schonkeren",
+        "headline": "VP operations The Hoxton - Ennismore - Global Hospitality Leader - Strategic Leadership in Lifestyle Operations - Inspiring Inclusive & Diverse Leaders",
+        "location": "United Kingdom (GB)",
+        "about": "I am a dynamic executive leader with over 20 years of experience in hospitality, known for my strategic vision and ability to drive transformation across operations, commercial strategy, and financial disciplines. My leadership journey began at Harvey Nichols, where I repositioned the hospitality experience, setting a foundation for innovation and guest-centric service. I then shaped the global F&B strategy for London & Regional Hotels, applying strategic insight to maximize performance across diverse portfolios. At Four Corners Hospitality, I served as F&B Vice President, overseeing key operational initiatives and driving transformative growth. I later transitioned to citizenM, managing the European portfolio before stepping into the role of Co-COO, where I led operational excellence, team empowerment, and financial success. Now, as VP of Operations for The Hoxton and Working From_, I blend strategic thinking, entrepreneurial spirit, and a people-first approach to create seamless operations, foster innovation, and enhance culture. The Hoxton and Working From_ are part of Ennismore, a global hospitality collective recognized for its founder-driven brands and commitment to creativity and community.",
+        "experience": [
+          {
+            "title": "Assistant Restaurant Manager",
+            "organization": "Danesfield House Hotel and Spa",
+            "date_range": "Sep 1998 - Aug 1999",
+            "location": "Henley-on-Thames, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Belmond Le Manoir aux Quat'Saisons",
+            "date_range": "Sep 1999 - Aug 2001",
+            "location": "Oxford, Oxfordshire, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Deputy Food And Beverage Manager",
+            "organization": "Sofitel",
+            "date_range": "Jan 2001 - Jan 2002",
+            "location": "Siem Reap - Cambodia",
+            "description": null
+          },
+          {
+            "title": "Deputy General Manager Chateau D Esclimont",
+            "organization": "Grandes Etapes Françaises",
+            "date_range": "Jun 2003 - Jan 2005",
+            "location": "Paris Area, France",
+            "description": null
+          },
+          {
+            "title": "General Manager Laduree Haussman",
+            "organization": "Ladurée Paris",
+            "date_range": "Jan 2005 - Sep 2005",
+            "location": "Paris Area, France",
+            "description": null
+          },
+          {
+            "title": "Operations Director UK",
+            "organization": "Ladurée Paris",
+            "date_range": "Sep 2005 - Aug 2008",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Operations Director UK",
+            "organization": "Ping Pong Dim Sum",
+            "date_range": "Aug 2008 - Feb 2012",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Group Operations Director (USA-EMEA)",
+            "organization": "Ping Pong Dim Sum",
+            "date_range": "Feb 2012 - Aug 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Food Hospitality Director",
+            "organization": "Harvey Nichols",
+            "date_range": "Aug 2014 - Sep 2016",
+            "location": null,
+            "description": "Directed all in-store hospitality offers, food and wine retail as well as the OXO Tower Restaurant, Bar and Brasserie. £40 million revenue. 500 employees."
+          },
+          {
+            "title": "Global Food Drink Director Asset Management",
+            "organization": "L+R Hotels",
+            "date_range": "Sep 2016 - Dec 2021",
+            "location": "London, United Kingdom",
+            "description": "Led the entire food & beverage strategy for L&R hotels portfolio (from 12 hotels to 50) - £200M F&B revenue. Directed changes and strategised future and current assets, drove commercials and financials in existing properties (whether branded or unbranded), directed operations with the highest standards to maximise return. Portfolio ranged between 4 stars city hotels, 5 stars lifestyle resorts to luxury country houses."
+          },
+          {
+            "title": "VP Food Drink",
+            "organization": "Four Corners Hospitality Group",
+            "date_range": "Dec 2021 - Nov 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Hotel Operations Europe Co COO",
+            "organization": "citizenM hotels",
+            "date_range": "Apr 2022 - May 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Founding Member Adviser",
+            "organization": "Inspiring Women in Hospitality",
+            "date_range": "Oct 2023 - Present",
+            "location": null,
+            "description": "I am proud to be a Founding Member & an adviser of the Inspire Community initiated by Naureen Ahmed. The Inspire Community is the global online community for like-minded women in hospitality. We empower career growth through an expansive network, amplify women's profiles, and advocates for their presence in decision-making spaces, ultimately fostering gender balance. To find out more about how you can part of this thriving community: https://www.inspiringwomeninhospitality.com/membership"
+          },
+          {
+            "title": "VP Operations The Hoxton And Working From_",
+            "organization": "Ennismore",
+            "date_range": "Jun 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "EM Strasbourg Business School",
+            "degree_or_field": "Master Business Management Finance Commercial and Operations",
+            "date_range": "2001 - 2003"
+          }
+        ],
+        "skills": [
+          "strategic vision",
+          "operational excellence",
+          "strategic thinking",
+          "asset management",
+          "decision making",
+          "hospitality",
+          "operations",
+          "commercial",
+          "strategy",
+          "leadership",
+          "innovation",
+          "hotels",
+          "driving",
+          "empowerment",
+          "food",
+          "director",
+          "retail",
+          "management",
+          "r",
+          "commercials",
+          "financials",
+          "luxury",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Luxury hotel openings and brand expansions",
+          "Creative guest experiences and hotel trends",
+          "Hospitality industry growth and milestones",
+          "Food scenes and chef recommendations",
+          "Women empowerment and community in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/marion-schonkeren-nee-carpentier-07958a19"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Viktor Dähler",
@@ -649,7 +1601,38 @@
           "source_type": "official_site",
           "quote_or_fact": "Viktor Dähler is heading up the Leonardo Royal Berlin Alexanderplatz... textbook example of internal development... held positions including... Revenue Manager and Resident Manager."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/viktor-dähler-629153212",
+        "display_name": "Viktor Dähler",
+        "headline": "Empfangsleiter at Leonardo Hotels",
+        "location": "Berlin, Berlin, Germany (DE)",
+        "about": "Total Experience: 4 years and 2 months",
+        "experience": [
+          {
+            "title": "Operations Manager",
+            "organization": "Leonardo Hotels",
+            "date_range": "Sep 2021 - Present",
+            "location": null,
+            "description": "Department: Operations • Level: Manager\nCompany: 10,001+ employees • Founded 2007 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Empfangsleiter",
+            "organization": "Leonardo Hotels",
+            "date_range": "(Current)",
+            "location": null,
+            "description": "Department: Customer Service • Level: Senior\nCompany: 10,001+ employees • Founded 2007 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "operations"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Nino Rosenlund",
@@ -672,7 +1655,140 @@
           "source_type": "official_site",
           "quote_or_fact": "Nino Rosenlund... experienced managers appointed... to take charge of new portfolio additions"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/nino-d-rosenlund-62429076",
+        "display_name": "Nino D. Rosenlund",
+        "headline": "Multi Property Manager @ Leonardo Hotels",
+        "location": "Hannover, Lower Saxony, Germany (DE)",
+        "about": "I’m a General manager, with over 30 years’ experience in the hospitality industry. Having spent the last 15 years managing different sizes of hotels in 7 counties, I have built a reputation for growing revenue, increasing hotel room occupancy rates and building a strong team. I am currently General Manager in Warsaw / Poland at he NYX Hotel by Leonardo hotels a 331-room hotel. A very hands-on general manager, I control all operational and financial aspects of hotel management. This extends to budget management, financial management, P&L management and staff training. Please feel free to get in touch with me if you’re interested in connecting. Specialties: Hotel management, operations management, general management, P&L management, budget management, financial administration.",
+        "experience": [
+          {
+            "title": "Food Beverage Manager",
+            "organization": "Crowne Plaza Bucharest",
+            "date_range": "Mar 2005 - Feb 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Executive Assistant Manager",
+            "organization": "Radisson Blu Hotel Frankfurt",
+            "date_range": "Feb 2007 - Jun 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Hotel Krakow",
+            "date_range": "Jul 2008 - Jan 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Scandinavia Hotel, Aarhus",
+            "date_range": "Jan 2015 - Aug 2017",
+            "location": "Aarhus, Middle Jutland, Denmark",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Hotel Beijing",
+            "date_range": "Aug 2017 - Dec 2018",
+            "location": "Chaoyang District, Beijing, China",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Hotel & Residences Zakopane",
+            "date_range": "Jan 2019 - Aug 2021",
+            "location": "Zakopane, Małopolskie, Poland",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Park Inn by Radisson",
+            "date_range": "Sep 2021 - Dec 2021",
+            "location": "Katowice, Śląskie, Poland",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "NYX Hotel Warsaw",
+            "date_range": "Jun 2023 - Aug 2023",
+            "location": "Warsaw, Mazowieckie, Poland",
+            "description": "The 331 spacious rooms are decorated with bold, eye-catching decor, with sleek furniture and floor-to-ceiling views of the city outside. There’s also a gorgeous rooftop terrace and a fully-equipped gym. On the weekends join the DJ in the electrifying club atmosphere."
+          },
+          {
+            "title": "City General Manager",
+            "organization": "NYX Hotel Warsaw & Leonardo Royal Hotel Warsaw",
+            "date_range": "Sep 2023 - Jan 2026",
+            "location": "Warsaw, Mazowieckie, Poland",
+            "description": "NYX: The 331 spacious rooms are decorated with bold, eye-catching decor, with sleek furniture and floor-to-ceiling views of the city outside. There’s also a gorgeous rooftop terrace and a fully-equipped gym. On the weekends join the DJ in the electrifying club atmosphere. Leonardo Royal Hotel Warsaw: 178 rooms located on the upper floors of one of the tallest buildings in the city, with stunning panoramic views over Warsaw."
+          },
+          {
+            "title": "Multi Property Manager",
+            "organization": "Leonardo Hotels",
+            "date_range": "Jan 2026 - Present",
+            "location": null,
+            "description": "Responsible for: Leonardo Hotel Medical Park, 208 rooms Leonardo Hotel Tiergarten. 178 rooms Leonardo Hotel Airport, 214 rooms Leonardo Hotel Wolfsburg, 343 rooms Leonardo Hotel Magdeburg, 175 rooms"
+          }
+        ],
+        "education": [
+          {
+            "school": "College of Hotel Management pegnitz",
+            "degree_or_field": "Diploma European Management Hotelier, Hospitality Administration/Management",
+            "date_range": "1995 - 1997"
+          },
+          {
+            "school": "Koege Bugt Private School",
+            "degree_or_field": "Secondary School",
+            "date_range": "1980 - 1990"
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "hotel management",
+          "budget management",
+          "financial management",
+          "staff training",
+          "operations management",
+          "general management",
+          "hospitality",
+          "hotels",
+          "hotel",
+          "rates",
+          "management",
+          "budget",
+          "p",
+          "training",
+          "operations",
+          "administration",
+          "property",
+          "responsible",
+          "food",
+          "dj"
+        ],
+        "activity_themes": [
+          "Hotel jubilee events and 10-year graduation celebrations",
+          "Career fairs and connecting with future talent at JOBSPOT 2025",
+          "Team anniversary celebrations for culinary staff",
+          "NYX hotel meetings, networking and brand events across Europe",
+          "Sip and Paint parties and unique guest experiences",
+          "Royal Party events showcasing team development and success",
+          "Appreciation for small positive gestures and staff recognition",
+          "Promoting hospitality excellence and leadership growth"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/leonardo-hotels_besmart-beefficient-beflexible-activity-7354163500463628288-2Iy_",
+          "https://www.linkedin.com/posts/leonardo-hotels_1810-years-of-hospitality-excellence-one-activity-7348337350298492928-2561",
+          "https://www.linkedin.com/posts/leonardo-hotels_connecting-with-future-talents-at-jobspot-activity-7329139935800668166-2lEc",
+          "https://www.linkedin.com/posts/nino-d-rosenlund-62429076_leonardohotels-jobspot2025-nyxhotelwarsaw-activity-7326671285088837635-0BcH",
+          "https://www.linkedin.com/posts/nino-d-rosenlund-62429076_culinaryteam-anniversary-hospitality-activity-7313824373138763776-yLZA"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ralf Schnitzer",
@@ -709,5 +1825,71 @@
     "succeeded": 15,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T00:02:08.903145+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 14,
+      "structured": 13,
+      "discovered": 1,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 5,
+        "content_pages": 14,
+        "cost_estimate": {
+          "approx_total_usd": 0.049,
+          "search_component_usd": 0.035,
+          "contents_component_usd": 0.014,
+          "counts": {
+            "search_requests": 5,
+            "content_pages": 14
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 32494,
+          "cached_prompt_text_tokens": 832,
+          "completion_tokens": 12008,
+          "reasoning_tokens": 42913,
+          "output_tokens": 0,
+          "total_tokens": 87415
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.393016,
+          "token_component_usd": 0.393016,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 32494,
+            "cached_prompt_text_tokens": 832,
+            "completion_tokens": 12008,
+            "reasoning_tokens": 42913,
+            "total_tokens_reported": 87415,
+            "output_like_tokens": 54921,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.442016
+    }
   }
 }

@@ -5,6 +5,7 @@ const NOTES_STORAGE_KEY = 'crm-minimal-contact-notes';
 const state = {
   groups: [],
   activeContactId: null,
+  phoneOnly: false,
   selectedContactIds: new Set(),
   openHotels: new Set(),
   contactNotes: {},
@@ -12,6 +13,7 @@ const state = {
 
 const hotelsRoot = document.getElementById('hotelsRoot');
 const summaryText = document.getElementById('summaryText');
+const phoneOnlyBtn = document.getElementById('phoneOnlyBtn');
 const emptyState = document.getElementById('emptyState');
 const contactPanel = document.getElementById('contactPanel');
 const contactName = document.getElementById('contactName');
@@ -52,6 +54,10 @@ function uniq(values) {
 
 function hasPhoneOrEmail(c) {
   return !!(uniq([c.phone, c.phone2]).length || uniq([c.email, c.email2]).length);
+}
+
+function hasPhone(c) {
+  return !!uniq([c.phone, c.phone2]).length;
 }
 
 function primary(c) {
@@ -171,6 +177,10 @@ function normalize(payload) {
 
   return out;
 }
+
+function visibleContactsForGroup(group) {
+  return group.contacts.filter((contact) => (state.phoneOnly ? hasPhone(contact) : true));
+}
 function readSelection() {
   const raw = localStorage.getItem(STORAGE_KEY);
   if (!raw) return [];
@@ -212,15 +222,31 @@ function loadNotesForActive() {
 function withPendingCounts() {
   return state.groups.map((group) => ({
     ...group,
-    pendingCount: group.contacts.filter((c) => !state.selectedContactIds.has(c.id) && hasPhoneOrEmail(c)).length,
+    contacts: visibleContactsForGroup(group),
+    pendingCount: group.contacts
+      .filter((c) => !state.phoneOnly || hasPhone(c))
+      .filter((c) => !state.selectedContactIds.has(c.id) && hasPhoneOrEmail(c)).length,
   }));
 }
 
 function sortedGroups() {
-  return withPendingCounts().sort((a, b) => {
+  return withPendingCounts()
+    .filter((group) => group.contacts.length)
+    .sort((a, b) => {
     if (b.pendingCount !== a.pendingCount) return b.pendingCount - a.pendingCount;
     return a.name.localeCompare(b.name);
   });
+}
+
+function isActiveContactVisible(activeContactId) {
+  if (!activeContactId) return false;
+  return sortedGroups().some((group) => group.contacts.some((contact) => contact.id === activeContactId));
+}
+
+function updatePhoneOnlyButtonState() {
+  if (!phoneOnlyBtn) return;
+  phoneOnlyBtn.classList.toggle('active', state.phoneOnly);
+  phoneOnlyBtn.setAttribute('aria-pressed', state.phoneOnly ? 'true' : 'false');
 }
 
 function contactById(id) {
@@ -310,8 +336,25 @@ function renderRight(contactId) {
     2,
   );
 
-  markBtn.textContent = state.selectedContactIds.has(c.id) ? 'Undo done' : 'Mark done';
+  if (state.selectedContactIds.has(c.id)) {
+    markBtn.textContent = 'Undo done';
+    markBtn.className = 'ghost-btn mark-btn-undo';
+  } else {
+    markBtn.textContent = 'Mark done';
+    markBtn.className = 'ghost-btn mark-btn-done';
+  }
   loadNotesForActive();
+}
+
+function togglePhoneOnly() {
+  state.phoneOnly = !state.phoneOnly;
+  updatePhoneOnlyButtonState();
+
+  if (!isActiveContactVisible(state.activeContactId)) {
+    state.activeContactId = null;
+  }
+
+  renderLeft();
 }
 
 function makeContactRow(contact) {
@@ -326,7 +369,7 @@ function makeContactRow(contact) {
       <span class="contact-title-text">${contact.title}</span>
       <span class="contact-handle">${contact.primary}</span>
     </span>
-    <button class="mark-toggle" type="button" data-contact-id="${contact.id}">${isSelected ? 'Done' : 'Mark'}</button>
+    <button class="mark-toggle ${isSelected ? 'mark-done' : 'mark-pending'}" type="button" data-contact-id="${contact.id}">${isSelected ? 'Done' : 'Mark'}</button>
   `;
   return row;
 }
@@ -365,7 +408,7 @@ function renderLeft() {
   const groups = sortedGroups();
   if (!groups.length) {
     hotelsRoot.innerHTML = '<p class="muted">No contacts found in sample.</p>';
-    summaryText.textContent = 'No data';
+    summaryText.textContent = `Phones only: ${state.phoneOnly ? 'On' : 'Off'} · No contacts`;
     state.activeContactId = null;
     renderRight(null);
     return;
@@ -374,7 +417,7 @@ function renderLeft() {
   const total = groups.reduce((sum, g) => sum + g.contacts.length, 0);
   const pending = groups.reduce((sum, g) => sum + g.pendingCount, 0);
   const marked = total - pending;
-  summaryText.textContent = `Groups: ${groups.length} · Contacts: ${total} · Pending: ${pending} · Marked: ${marked}`;
+  summaryText.textContent = `Phones only: ${state.phoneOnly ? 'On' : 'Off'} · Groups: ${groups.length} · Contacts: ${total} · Pending: ${pending} · Marked: ${marked}`;
 
   hotelsRoot.innerHTML = '';
   groups.forEach((group, idx) => {
@@ -382,7 +425,7 @@ function renderLeft() {
     hotelsRoot.appendChild(makeGroupBlock(group, open));
   });
 
-  if (!state.activeContactId || !contactById(state.activeContactId)) {
+  if (!state.activeContactId || !isActiveContactVisible(state.activeContactId)) {
     const allContacts = groups.flatMap((g) => g.contacts);
     const fallback = allContacts.find((c) => !state.selectedContactIds.has(c.id) && hasPhoneOrEmail(c)) || allContacts[0];
     state.activeContactId = fallback ? fallback.id : null;
@@ -527,12 +570,14 @@ async function init() {
 
   hotelsRoot.addEventListener('click', handleLeftClick);
   hotelsRoot.addEventListener('toggle', handleDetailsToggle, true);
+  phoneOnlyBtn.addEventListener('click', togglePhoneOnly);
   markBtn.addEventListener('click', () => {
     if (state.activeContactId) markOrUnmark(state.activeContactId);
   });
   notesSaveBtn.addEventListener('click', handleNotesSave);
   notesDiscardBtn.addEventListener('click', handleNotesDiscard);
 
+  updatePhoneOnlyButtonState();
   renderLeft();
 }
 

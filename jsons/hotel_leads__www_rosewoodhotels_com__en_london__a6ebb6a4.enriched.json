@@ -1,0 +1,2221 @@
+{
+  "target_url": "https://www.rosewoodhotels.com/en/london",
+  "generated_at_utc": "20260426T193321Z",
+  "model": "pipeline-v4",
+  "agent_count": null,
+  "max_turns": null,
+  "max_turns_effective": null,
+  "min_contacts": null,
+  "target_contacts": null,
+  "max_contacts": 16,
+  "extra_contact_pass": false,
+  "strict_evidence": true,
+  "allow_linkedin": true,
+  "usage": null,
+  "contact_enrichment": {
+    "version": 4,
+    "enriched_at_utc": "20260426T193321Z",
+    "mode": "pipeline-v4",
+    "model": "pipeline-v4",
+    "concurrency": null,
+    "skipped_pre_enrichment": 0,
+    "attempted": 16,
+    "succeeded": 16,
+    "failed": 0
+  },
+  "pipeline_v4": {
+    "input_url": "https://www.rosewoodhotels.com/en/london",
+    "resolved_org": {
+      "input_url": "https://www.rosewoodhotels.com/en/london",
+      "canonical_name": "Rosewood London",
+      "property_name": "Rosewood London",
+      "brand_name": "Rosewood",
+      "management_company": "Rosewood Hotel Group",
+      "ownership_group": "Chow Tai Fook Enterprises",
+      "location_hint": "High Holborn, London, United Kingdom",
+      "domains": [
+        "rosewoodhotels.com",
+        "rosewoodhotelgroup.com"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.rosewoodhotels.com/en/london",
+          "title": "Official Rosewood London Hotel Page",
+          "source_type": "hotel_site",
+          "snippet": "5 Star Hotel London | Luxury Hotel Covent Garden | Rosewood",
+          "fetched_text": "The official site presents the property as Rosewood London, part of the Rosewood brand.",
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.rosewoodhotelgroup.com/",
+          "title": "Rosewood Hotel Group Official Site",
+          "source_type": "company_site",
+          "snippet": "Rosewood Hotel Group, a privately owned company, is one of the world's leading global lifestyle and hospitality management groups.",
+          "fetched_text": "Encompasses Rosewood brand; manages the portfolio including London property.",
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://finance.yahoo.com/news/cheng-family-puts-rosewood-london-154854005.html",
+          "title": "Cheng Family Puts Rosewood London Hotel Up for Sale",
+          "source_type": "press",
+          "snippet": "The billionaire Cheng family is exploring a possible sale of the Rosewood London... hotel business owned by Chow Tai Fook Enterprises, the Cheng family's private investment vehicle.",
+          "fetched_text": "Ownership tied to Chow Tai Fook Enterprises / Cheng family. Rosewood Hotel Group manages brands and properties.",
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rosewood_Hotel_Group",
+          "title": "Rosewood Hotel Group Wikipedia",
+          "source_type": "other",
+          "snippet": "Rosewood London (London)",
+          "fetched_text": "Confirms portfolio inclusion and ownership history under Chow Tai Fook Enterprises.",
+          "published_date": null,
+          "query": null,
+          "score": null
+        }
+      ]
+    },
+    "aliases": [
+      {
+        "value": "Rosewood London",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.rosewoodhotels.com/en/london",
+        "quote": "Official hotel name and primary branding throughout the site."
+      },
+      {
+        "value": "Rosewood",
+        "kind": "brand",
+        "confidence": "high",
+        "source_url": "https://www.rosewoodhotels.com/en/london",
+        "quote": "Part of the ultra-luxury Rosewood collection."
+      },
+      {
+        "value": "Rosewood Hotels & Resorts",
+        "kind": "brand",
+        "confidence": "high",
+        "source_url": "https://www.rosewoodhotelgroup.com/",
+        "quote": "The ultra-luxury brand under which the London property operates."
+      },
+      {
+        "value": "Rosewood Hotel Group",
+        "kind": "management",
+        "confidence": "high",
+        "source_url": "https://www.rosewoodhotelgroup.com/",
+        "quote": "International hotel management company overseeing the Rosewood brand and properties."
+      },
+      {
+        "value": "Chow Tai Fook Enterprises",
+        "kind": "ownership",
+        "confidence": "high",
+        "source_url": "https://finance.yahoo.com/news/cheng-family-puts-rosewood-london-154854005.html",
+        "quote": "Owned by Chow Tai Fook Enterprises, the Cheng family's private investment vehicle."
+      },
+      {
+        "value": "rosewoodhotels.com",
+        "kind": "domain",
+        "confidence": "high",
+        "source_url": "https://www.rosewoodhotels.com/en/london",
+        "quote": "Primary domain hosting the official property page /en/london."
+      }
+    ],
+    "candidates": [
+      {
+        "candidate_id": "c_f6127035fab09ba8",
+        "full_name": "Tessa Gorman",
+        "title": "Managing Director",
+        "normalized_title": "managing director",
+        "company": "Rosewood London",
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.rosewoodhotels.com/en/london/media/press-kit/managing-director-bio",
+            "title": "BIO: Managing Director Tessa Gorman",
+            "source_type": "hotel_site",
+            "snippet": "Currently, the Managing Director of award-winning Rosewood London, Tessa Gorman brings a wealth of expertise in global luxury travel.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/tessa-gorman-38693517",
+            "title": "Tessa Gorman LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Managing Director · Rosewood London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79027479/tessa-gorman",
+            "title": "Tessa Gorman appointed Managing Director",
+            "source_type": "press",
+            "snippet": "Tessa Gorman has been appointed as Managing Director at Rosewood London. Starting on January 1, 2024.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hotelexecutive.com/newswire/71550/rosewood-london-appoints-new-managing-director-tessa-gorman",
+            "title": "Rosewood London Appoints New Managing Director, Tessa Gorman",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Rosewood London Appoints New Managing Director, Tessa Gorman\n[![](https://www.hotelexecutive.com/images/mailer/logo_hires.jpg)](https://www.hotelexecutive.com/)\n[Sign In or Create Account](https://www.hotelexecutive.com/account/login)\n* [Home](https://www.hotelexecutive.com/)\n* [Subscribe](https://www.hotelexecutive.com/subscribe/review)\n* [Post a news Release](https://www.hotelexecutive.com/newswire/submit_news)\n* [Hotel Newswire](https://www.hotelexecutive.com/newswire)\n* [LIBRARY ARCHIVES](https://www.hotelexecutive.com/library_archives)\n* [Who Uses Hotel Newswire?](https://www.hotelexecutive.com/who-uses-hotel-newswire)\n* [What Can I Send Out?](https://www.hotelexecutive.com/what-can-i-send)\n* [Who Will See It?](https://www.hotelexecutive.com/who-will-see-it)\n* [Tips On Posting](https://www.hotelexecutive.com/tips-on-posting)\n* [Select a Posting Option](https://www.hotelexecutive.com/posting-options)\n[![](https://www.hotelexecutive.com/images/masthead/masthead_hn_main.jpg)](https://www.hotelexecutive.com/newswire)\n### Rosewood London Appoints New Managing Director, Tessa Gorman\n* [![](https://www.hotelexecutive.com/images/my-library-icon.jpg)\nSAVE](javascript:void(0);)\n* [![](https://www.hotelexecutive.com/images/icons/share.png)\nSHARE](javascript:void(0);)\n* [![](https://www.hotelexecutive.com/images/icons/resize.png)\nTEXT SIZE](javascript:void(0);)\n* [![](https://www.hotelexecutive.com/images/icons/print.png)\nPRINT](javascript:void(0);)\n* [![](https://www.hotelexecutive.com/images/icons/comment.png)\nCOMMENT](#comment)\n* [![](https://www.hotelexecutive.com/images/pdf.png)\nPDF](javascript:void(0);)\nChina, Hong Kong.January 17, 2024\nRosewood London has appointed Tessa Gorman as their new Managing Director. Tessa will bring a wealth of expertise in global luxury travel to her new role, which will start 1 January, 2024. The ultra-luxury hospitality brand's European debut, Rosewood London has transformed the Holborn ‘Midtown' area of London since its opening in 2013, ingratiating the property with the local community as well as with international travelers. The hotel has played a significant part in the London hospitality scene, introducing new concepts and partnerships alongside legacy activations such as The Pie Room and the Art Afternoon Tea, which are equally as popular today as at launch. Rosewood London recently celebrated its milestone tenth anniversary, with a series of innovative and inspiring partnerships to mark the occasion, and Tessa's appointment takes the established London hotel into a new era under her leadership.\nWith nearly 20 years' experience, Tessa has had a remarkable career within the luxury hospitality sector - inclusive of roles within Aman, Bvlgari and Cheval-Blanc, among others - and will be responsible for all aspects of the hotel operations for Rosewood London. She has held General Manager positions most recently at One&Only Portonovi in Montenegro, as well as Bvlgari Resort Bali and Phulay Bay, a Ritz-Carlton Reserve in Thailand. Prior to this, she acted as a hospitality consultant for brands, working on property launches from an operational perspective and managing ultra-luxury villa properties.\n\"It is a pleasure to welcome Tessa to the Rosewood family and to continue the success of Rosewood London in the UK,\" said Victor Clavell, Senior Vice President of Operations, EMEAC. \"Tessa brings with her robust experience in luxury hospitality, and we're confident she will be a great asset to the team.\"\nCommenting on her appointment, Tessa said: \"I am thrilled to be joining the Rosewood family, a brand I have long admired, as Managing Director of Rosewood London. I am incredibly proud to be a part of this beautiful historic property, which has become an integral part of London life. After 17 years, I am returning to my home city, with its timeless blend of history and modernity and vibrant energy; and I look forward to joining the team as we continue to ignite the spirit of the destination into its next decade.\"\n#### Business Contact:\n#### [Share this article with your industry colleagues](javascript:void(0);)\n#### [![](https://www.hotelexecutive.com/images/hn-icon.svg)Subscribe to our newsletter\nfor more Hotel Newswire articles](https://www.hotelexecutive.com/newsletter/subscribe)\n|||||\nTags:[Marriott International](#),[wi-fi](#),[wi-fi blocking](#)\n### About Marriott International\n![](https://www.hotelexecutive.com/images/profile.png)Marriott International, Inc. (NASDAQ: MAR) is a global leading lodging company based in Bethesda,Maryland, USA, with more than 4,200 properties in 80 countries and territories. Marriott International reported revenues of nearly $14 billion in fiscal year 2014. The company operates and franchises hotels and licenses vacation ownership resorts under 19 brands, including: The Ritz-Carlton®, BVlgari®, EDITION®, JW Marriott®, Autograph Collection® Hotels, Renaissance® Hotels, Marriott Hotels®, Delta Hotels and Resorts®, Marriott Executive Apartments®, Marriott Vacation Club®, Gaylord Hotels®, AC Hotels by Marriott®, Courtyard®, Residence Inn®, SpringHill Suites®, Fairfield Inn & Suites&reg;, TownePlace Suites®, Protea Hotels® and MoxyHotels®. Marriott has been consistently recognized as a top employer and for its superior business ethics. The company also manages the award-winning guest loyalty program, Marriott Rewards® and The Ritz-Carlton Rewards® program, which together surpass 50 million members. For more information or reservations, please visit our website at[www.marriott.com](http://www.marriott.com), and for the latest company news, visit[www.marriottnewscenter.com](http://www.marriottnewscenter.com).\n[[email protected]](https://www.hotelexecutive.com/cdn-cgi/l/email-protection#ddb3b8aaaeafb2b2b09db0bcafafb4b2a9a9f3beb2b0)/ (301) 380-7770\n### Related News\n* [CoralTree Residence Collection Appoints Area Managing Director in Hawaii](https://www.hotelexecutive.com/newswire/73089/coraltree-residence-collection-appoints-area-managing-director-in-hawaii)\n* [JW Marriott Scottsdale Camelback Inn Resort & Spa Welcomes Eric Duchene as New Director of Food & Beverage](https://www.hotelexecutive.com/newswire/72917/jw-marriott-scottsdale-camelback-inn-resort-spa-welcomes-eric-duchene-as-new-director-of-food-beverage)\n* [The St. Regis Bal Harbour Appoints Carlo Javakhia as New General Manager](https://www.hotelexecutive.com/newswire/72916/the-st-regis-bal-harbour-appoints-carlo-javakhia-as-new-general-manager)\n* [Grand Hyatt San Antonio River Walk Welcomes Ryan Fender as General Manager](https://www.hotelexecutive.com/newswire/72909/grand-hyatt-san-antonio-river-walk-welcomes-ryan-fender-as-general-manager)\n* [Chatham Bars Inn Appoints Claudio Togo as Managing Director](https://www.hotelexecutive.com/newswire/72904/chatham-bars-inn-appoints-claudio-togo-as-managing-director)\n* [Alila Ventana Big Sur Appoints Food & Beverage Team](https://www.hotelexecutive.com/newswire/72903/alila-ventana-big-sur-appoints-food-beverage-team)\n* [Boston&rsquo;s Hotel Commonwealth Names Shane Mcweeny as General Manager](https://www.hotelexecutive.com/newswire/72902/bostonrsquos-hotel-commonwealth-names-shane-mcweeny-as-general-manager)\n* [Four Seasons Hotel Jakarta Appoints Samit Ganguly as General Manager](https://www.hotelexecutive.com/newswire/72897/four-seasons-hotel-jakarta-appoints-samit-ganguly-as-general-manager)\n* [Jill K. Fox Joins the Pierre New York, A Taj Hotel as Director of Sales and Marketing](https://www.hotelexecutive.com/newswire/72889/jill-k-fox-joins-the-pierre-new-york-a-taj-hotel-as-director-of-sales-and-marketing)\n* [Waterford Hotel Group Taps Megan Hajduk as General Manager to Lead the Williams Inn](https://www.hotelexecutive.com/newswire/72888/waterford-hotel-group-taps-megan-hajduk-as-general-manager-to-lead-the-williams-inn)\n×### Log Into Your Account\nEmail address:\nPassword:\nRemember me[Forgot Password?](https://www.hotelexecutive.com/shop/my-account/lost-password/)\nLogin\nNeed to create an Acco",
+            "published_date": null,
+            "query": "\"Tessa Gorman\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thecaterer.com/news/tessa-gorman-managing-director-rosewood-london",
+            "title": "Tessa Gorman appointed managing director of Rosewood London - News",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Tessa Gorman appointed managing director of Rosewood London - News\n\nao link\n\n## Join our WhatsApp Community\n\nHave the latest news and analysis at your fingertips\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\n## Subscribe\n\nStart a subscription today from just £4.99\n\nMenu\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\n## New openings in February 2026: Restaurants, hotels and bars\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSubscribe\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nSectors\n\nNews\n\nInDepth\n\nProducts & Equipment\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nx\n\n### You are viewing 1 of your 2 articles\n\nTo continue reading register for free, or if you’re already a member login\n\nRegister Login\n\n# Tessa Gorman appointed managing director of Rosewood London\n\nHotel 04 Dec 202317:26 by Emma Lake\n\nbookmark_borderSave to Library\n\nTessa Gorman has been appointed managing director of Rosewood London, replacing Michael Bonsor, who will move on to lead the brand’s new Chancery Rosewood hotel.\n\nGorman will assume the role on 1 January 2024, having previously held roles within Aman, Bvlgari and Cheval-Blanc, among others. Most recently she held the position of general manager at One&Only Portonovi in Montenegro.\n\nShe said: “I am thrilled to be joining the Rosewood family, a brand I have long admired, as managing director of Rosewood London. I am incredibly proud to be a part of this beautiful historic property, which has become an integral part of London life.\n\n“After 17 years, I am returning to my home city, with its timeless blend of history and modernity and vibrant energy; and I look forward to joining the team as we continue to ignite the spirit of the destination into its next decade.”\n\nVictor Clavell, senior vice-president of operations, EMEAC, added: “It is a pleasure to welcome Tessa to the Rosewood family and to continue the success of Rosewood London in the UK. Tessa brings with her robust experience in luxury hospitality, and we’re confident she will be a great asset to the team.”\n\nBonsor had spent 10 years at Rosewood Hotels and Resorts, having joined the five-red-AA-star Rosewood London hotel as hotel manager in 2013. He was promoted to managing director of the Holborn property in 2017, the same year it won the Catey award for Hotel of the Year – Group.\n\nHe will now transfer to the Chancery Rosewood hotel ahead of its opening in London's Mayfair in 2025. The 144-room hotel is being developed in the Grade II-listed building that housed the US Embassy until 2017.\n\nHotel Hotels People Rosewood Hotel Group Rosewood London\n\nbookmark_borderSave to Library\n\nAdd New Comment\n\nYou must be logged in to comment.\n\nNewest FirstOldest First\n\n## TGI Fridays UK sold in pre-pack deal for £1m\n\n- Latest\n- Most read\n\n---\n\nRestaurant\n\n## TGI Fridays UK sold in pre-pack deal for £1m\n\n---\n\nOpenings\n\n## Gordon Ramsay to open 100th restaurant this May\n\n---\n\nFoodservice\n\n## Levy buys sports marketing agency\n\n---\n\nChef\n\n## All you need to know about the chefs on MasterChef: The Professionals 2026\n\n---\n\nThis is Hospitality\n\n## BaxterStorey’s Tabitha Kirby: ‘Hospitality is best described as a warm hug’\n\n---\n\nOpenings\n\n## Spiteri family to open pub in west London\n\n---\n\nViewpoint\n\n## Editor’s comment: No more restaurants? How about protecting the ones we already have\n\n---\n\nDrinks Doctor\n\n## Espumante: serious quality at sensible prices\n\n---\n\nRecipe\n\n## Gleneagles’ Silky Drizzle, featuring an exclusive ingredient\n\n### Newsletter sign up\n\nStay informed with all the latest\n\nFirst Name\n\nLast Name\n\nInitials of First Names\n\nEmail\n\nSign Up\n\n### Newsletter Sign Up\n\nStay informed with the latest news\n\nSign Up\n\n### More from The Caterer\n\nViewpoint\n\n## Editor’s comment: No more restaurants? How about protecting the ones we already have\n\nRecipe\n\n## Gleneagles’ Silky Drizzle, featuring an exclusive ingredient\n\nNews\n\n## What you might have missed on The Caterer this week\n\nHotel\n\n## Solid performance from UK hotels boost revenue for PPHE\n\n### Most Popular\n\n---\n\nMichelin\n\n## All the new stars in the Michelin Guide Great Britain and Ireland 2025\n\n---\n\nChef\n\n## Lisa Goodwin-Allen to leave Northcote after 23 years\n\n---\n\nChef\n\n## Michel Roux to open new restaurant at the Langham, London\n\n---\n\nChef\n\n## MasterChef: The Professionals 2024 winner revealed\n\n---\n\nRestaurant\n\n## Michael O’Hare’s Man Behind the Curtain 'wound up voluntarily' due to £1m debt\n\n## TGI Fridays UK sold in pre-pack deal for £1m\n\n### Newsletter Sign Up\n\nStay informed with all the latest\n\nSign Up\n\n### Events & Awards\n\n## HRC\n\nMon Mar 30, 2026 ExCel London\n\nHRC is the UK’s leading trade event for hospitality and foodservice and takes place on 30 March-1 April 2026 at Excel London as part of Food, Drink & Hospitality Week. Over three days, you’ll meet the people behind the products, connecting face-to-face with suppliers, brand owners and operators who are bringing the latest ideas to the table.\n\n## The Caterer Supplier Awards\n\nThu Apr 16, 2026\n\nThe Caterer Supplier Awards celebrates the most creative and innovative businesses and brands from across the hospitality supply chain. Categories are judged by an independent panel of industry experts and the winners will be announced at the awards ceremony on 16 April 2026.\n\n## The Caterer People Summit 2026\n\nThu May 14, 2026 58VE, London\n\nThe Caterer is bringing together HR hospitality leaders to learn, debate and collaborate on topics including artificial intelligence, burnout and how to effectively engage the board, to help protect your people, strengthen your teams and prove why HR is central to business success, even in a challenging climate.\n\n## The Acorn Awards 2026\n\nSun Jun 7, 2026\n\nThe Acorn Awards, run in association with our headline sponsor CH&Co, recognise 30 of the brightest prospects in the hospitality industry under the age of 30. The awards, known as The Caterer’s 30 under 30, recognise people working in any sector of hospitality. Everybody is welcome to enter – you can nominate yourself or ask a colleague to nominate you and tell us about your achievements.\n\n#### The Caterer provides trusted hospitality news, analysis and trends for restaurants, hotels and catering professionals.\n\nSubscribe\n\nContribute\n\nT&Cs\n\nDisclaimer\n\nAbout Us\n\nMedia Centre\n\nCookie Policy\n\nOur Team\n\nFAQs\n\nPrivacy Policy\n\nRSS\n\nSitemap\n\nJacobs Media is a company registered in England and Wales, company number 08713328. 3rd Floor, 52 Grosvenor Gardens, London SW1W 0AU. © 2026 Jacobs Media\n\nWe use cookies so we can provide you with the best online experience. By continuing to browse this site you are agreeing to our use of cookies. Click on the banner to find out more.\n\nCookie SettingsAccept All Cookies",
+            "published_date": null,
+            "query": "\"Tessa Gorman\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.boutiquehotelier.com/tessa-gorman-managing-director-rosewood-london/",
+            "title": "New MD appointed to Rosewood London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Tessa Gorman named managing director of Rosewood LondonCloseSearch for:SearchClose\n[Skip to content](#content)\nUK\n* [USA](https://usa.boutiquehotelier.com)\n[![Boutique Hotelier](https://www.boutiquehotelier.com/cloud/2024/12/10/BH_Logo.png)](https://www.boutiquehotelier.com/)\n[Boutique Hotelier](https://www.boutiquehotelier.com/)\nOpen Search\nSearch for:Search\nMenu\nPosted in[Careers](https://www.boutiquehotelier.com/news/careers/),[News](https://www.boutiquehotelier.com/news/)December 4, 2023December 4, 2023\n# New MD appointed to Rosewood London\nTessa Gorman will begin in the role in January, having previously worked for luxury brands including Aman and Bvlgari\nby[Eamonn Crowe](https://www.boutiquehotelier.com/author/earmonn-crowe/)December 4, 2023December 4, 2023\n[**TW]()[**FB](http://www.facebook.com/share.php?u=https://www.boutiquehotelier.com/tessa-gorman-managing-director-rosewood-london/)[**LN](http://www.linkedin.com/shareArticle?url=https://www.boutiquehotelier.com/tessa-gorman-managing-director-rosewood-london/)[**WHATSAPP](https://api.whatsapp.com/send?text=https://www.boutiquehotelier.com/tessa-gorman-managing-director-rosewood-london/)[**MAIL]()\n![tessa gorman](https://www.boutiquehotelier.com/cloud/2023/12/04/maSEfFEh-tessa-gorman-1200x825.jpg \"New MD appointed to Rosewood London 1\")\n**Rosewood London has announced the appointment of Tessa Gorman as the hotel’s new managing director.**\nGorman will begin her role on January 1 2024 and will be responsible for all aspects of hotel operations.\nHer appointment follows the news that[Michael Bonsor](https://www.boutiquehotelier.com/michael-bonsor-the-chancery-rosewood/), current MD at Rosewood London, has been chosen to oversee sister property The Chancery Rosewood when it opens in 2025.\nGorman brings nearly 20 years of industry experience to her new role, having enjoyed an illustrious career within the luxury hospitality sector – inclusive of roles within Aman, Bvlgari and Cheval-Blanc, among others.\nShe most recently held a general manager position at One&Only Portonovi in Montenegro, and has previously headed up Bvlgari Resort Bali and Phulay Bay, a Ritz-Carlton Reserve in Thailand.\nPrior to this, Gorman acted as a hospitality consultant for brands, working on property launches from an operational perspective and managing ultra-luxury villa properties.\nGorman commented:“I am thrilled to be joining the Rosewood family, a brand I have long admired, as managing director of Rosewood London. I am incredibly proud to be a part of this beautiful historic property, which has become an integral part of London life. After 17 years, I am returning to my home city, with its timeless blend of history and modernity and vibrant energy; and I look forward to joining the team as we continue to ignite the spirit of the destination into its next decade.”\nVictor Clavell, senior vice president of operations, EMEAC at Rosewood Hotels & Resorts, added: “It is a pleasure to welcome Tessa Gorman to the Rosewood family and to continue the success of Rosewood London in the UK. Tessa brings with her robust experience in luxury hospitality, and we are confident she will be a great asset to the team.”\n[> MD of The Chancery Rosewood named ahead of 2025 opening\n](https://www.boutiquehotelier.com/michael-bonsor-the-chancery-rosewood/)\n## Read Next\n* [Jersey’s The Club Hotel names new head chef for Bohemia](https://www.boutiquehotelier.com/jerseys-the-club-hotel-names-new-head-chef-for-bohemia/)\n* [Hand Picked Hotels bolsters senior team in Jersey with two new hires](https://www.boutiquehotelier.com/hand-picked-hotels-bolsters-senior-team-in-jersey-with-two-new-hires/)\n* [The Montenotte in Cork promotes Juan Tudela to GM role](https://www.boutiquehotelier.com/juan-tudela-promoted-to-gm-the-montenotte/)\n## DIGITAL EDITION\n[![BH Digital April](https://www.boutiquehotelier.com/cloud/2025/04/03/BH-Digital-April.jpg \"April 2025 2\")](https://www.boutiquehotelier.com/e-magazines/april-2025/)\n![](https://www.boutiquehotelier.com/wp-content/plugins/forms-for-campaign-monitor/forms/views/public/images/success-icon.svg)\nProcessing...\nThank you!Your subscription has been confirmed.You'll hear from us soon.\nINDUSTRY NEWS TO YOUR INBOX\nEnter your email to join the thousands of other professionals receiving breaking news from Boutique Hotelier\nErrorHere",
+            "published_date": null,
+            "query": "\"Tessa Gorman\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "301) 380-7770",
+            "confidence": "medium",
+            "source_url": "https://www.hotelexecutive.com/newswire/71550/rosewood-london-appoints-new-managing-director-tessa-gorman",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "08713328. 3",
+            "confidence": "medium",
+            "source_url": "https://www.thecaterer.com/news/tessa-gorman-managing-director-rosewood-london",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": "https://uk.linkedin.com/in/tessa-gorman-38693517",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_903a0af3f14b93a6",
+        "full_name": "Emmanuele Selvaggi",
+        "title": "Hotel Manager",
+        "normalized_title": "hotel manager",
+        "company": "Rosewood London",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thecaterer.com/news/emmanuele-selvaggi-appointed-hotel-manager-at-the-rosewood-london",
+            "title": "Emmanuele Selvaggi appointed hotel manager at the Rosewood London",
+            "source_type": "press",
+            "snippet": "Emmanuele Selvaggi has been promoted to hotel manager at the Rosewood London in Holborn... effective 16 June 2025.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/emmanuele-selvaggi-5ab5912",
+            "title": "Emmanuele Selvaggi LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Rosewood London... Hotel Manager",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.instagram.com/p/DQMIwatDJaQ/",
+            "title": "Hotel Manager, Rosewood London Emmanuele Selvaggi",
+            "source_type": "social",
+            "snippet": "Currently leading Rosewood London as Hotel Manager.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalityandcateringnews.com/2025/06/rosewood-london-promotes-emmanuele-selvaggi-to-hotel-manager/",
+            "title": "Rosewood London Promotes Emmanuele Selvaggi to Hotel Manager - Hospitality & Catering News",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Rosewood London Promotes Emmanuele Selvaggi to Hotel Manager - Hospitality & Catering News\n\n### Rosewood London has promoted Emmanuele Selvaggi to Hotel Manager, effective 16th June 2025. In this elevated role, Emmanuele will continue to drive the hotel’s operational excellence and reinforce Rosewood London’s position as the preferred luxury destination in London.\n\nEmmanuele Selvaggi, General Manager of Rosewood London\n\nEmmanuele brings over 18 years of distinguished experience in luxury hospitality to his new position. He began his career with Four Seasons Boston in the Rooms Division and successfully progressed through the ranks across multiple international locations including Geneva, Doha, Prague and London over 15 years with the prestigious brand. His tenue with Four Seasons culminated as Hotel Manager at Four Seasons Florence before returning to London in November 2021 to join Rosewood London.\n\nSince joining Rosewood London, Emmanuele has served as Director of Rooms, where he has been instrumental in driving exceptional results across the Rooms Division. Under his leadership, the Front Office team achieved the highest upselling revenue in 2024 since the hotel’s opening. His analytical approach and creative vision have led to numerous successful guest initiatives, while his commitment to personal service has significantly improved the hotel’s LQA scores and TrustYou ratings through increased use of guest recognition throughout the property.\n\nEmmanuele is recognised for his exceptional leadership style, characterised by hands-on management and leading by example. His ability to build and develop high-performing teams, combined with his dedication to delivering memorable and seamless guest experiences, perfectly embodies Rosewood’s philosophy of Relationship Hospitality.\n\n“Emmanuele has consistently demonstrated outstanding leadership and operational excellence during his time with us. His promotion to Hotel Manager is a natural progression that recognises his significant contributions to our success. His deep understanding of luxury hospitality and commitment to our team and guests make him the ideal leader to guide Rosewood London forward.” Tessa Gorman, Managing Director of Rosewood London\n\n“I am honoured to take on this new role at Rosewood London, a property I have grown to love deeply over the past three and a half years. This promotion represents not just my personal journey, but the collective success of our incredible team. I look forward to continuing our tradition of exceptional hospitality while exploring new opportunities to enhance our guests’ experiences and strengthen our position as London’s premier luxury destination.” Emmanuele Selvaggi, Hotel Manager of Rosewood London\n\nThe ultra-luxury hospitality brand’s European debut, Rosewood London has been a cornerstone of the London hospitality scene since opening in 2013, transforming the Holborn area while maintaining strong ties with both the local community and international travellers.",
+            "published_date": null,
+            "query": "\"Emmanuele Selvaggi\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thecaterer.com/all-content/emmanuele-selvaggi-appointed-hotel-manager-at-the-rosewood-london",
+            "title": "Emmanuele Selvaggi appointed hotel manager at the Rosewood London - All Content",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Emmanuele Selvaggi appointed hotel manager at the Rosewood London - All Content\n\nao link\n\n## Join our WhatsApp Community\n\nHave the latest news and analysis at your fingertips\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\n## Subscribe\n\nStart a subscription today from just £4.99\n\nMenu\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\n## New openings in February 2026: Restaurants, hotels and bars\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSubscribe\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nSectors\n\nNews\n\nInDepth\n\nProducts & Equipment\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nx\n\n### You are viewing 1 of your 2 articles\n\nTo continue reading register for free, or if you’re already a member login\n\nRegister Login\n\n# Emmanuele Selvaggi appointed hotel manager at the Rosewood London\n\nPeople moves 13 Jun 2025 by Jungmin Seo\n\nHe was most recently director of rooms at the luxury Holborn hotel\n\nEmmanuele Selvaggi has been promoted to hotel manager at the Rosewood London in Holborn.\n\nSelvaggi brings over 18 years’ experience in luxury hospitality to the role, having started his career in the rooms division at Four Seasons Boston before progressing into senior positions across the group’s Geneva, Doha, Prague and London hotels.\n\nHe was also hotel manager at Four Seasons Florence before returning to London in November 2021 to join the Rosewood London, where he was most recently director of rooms. In 2024, he achieved the hotel’s highest upselling revenue since its launch in 2013.\n\nTessa Gorman, managing director of the Rosewood London, said: “Emmanuele has consistently demonstrated outstanding leadership and operational excellence during his time with us. His promotion to hotel manager is a natural progression that recognises his significant contributions to our success. His deep understanding of luxury hospitality and commitment to our team and guests make him the ideal leader to guide Rosewood London forward.”\n\nSelvaggi added: “I am honoured to take on this new role at Rosewood London, a property I have grown to love deeply over the past three and a half years. This promotion represents not just my personal journey, but the collective success of our incredible team. I look forward to continuing our tradition of exceptional hospitality while exploring new opportunities to enhance our guests’ experiences and strengthen our position as London’s premier luxury destination.”\n\nThe Rosewood London is located in the former Grade II-listed headquarters of the Pearl Assurance Company and features 264 bedrooms, 44 suites, 11 event spaces and the Holborn Dining Room restaurant.\n\nThe Hong Kong-based hotel group is set to launch its second London property– the Chancery Rosewood – on 1 September.\n\n---\n\n### Read More\n\nFernando Corona Burch named executive chef at Rosewood London\n\nJake Leslie appointed director of food and beverage at Chancery Rosewood\n\nThe Chancery Rosewood hotel confirms opening date\n\nYummy Pubs’ Faber launches seafood counter at Holborn Dining Room\n\n---\n\nAppointment Hotel Movers & shakers News People People moves Rosewood Rosewood Hotel Group\n\n### Related content\n\nPeople moves\n\n## Fernando Corona Burch named executive chef at Rosewood London\n\n---\n\nPeople moves\n\n## Jake Leslie appointed director of food and beverage at Chancery Rosewood\n\n---\n\nHotel\n\n## The Chancery Rosewood hotel confirms opening date\n\n---\n\nRestaurant\n\n## Yummy Pubs’ Faber launches seafood counter at Holborn Dining Room\n\n- Latest\n- Most read\n\n---\n\nHotel\n\n## The Woodcote in West Sussex secures planning permission to elevate venue\n\n---\n\nClosures\n\n## Closures tracker: The hospitality firms shuttering amid mounting cost pressures\n\n---\n\nChef\n\n## All you need to know about the chefs on MasterChef: The Professionals 2026\n\n---\n\nChef\n\n## Great British Menu returns for 21st series\n\n---\n\nHotel\n\n## The Graduate by Hilton Cambridge on the market for £65m\n\n---\n\nHotel\n\n## Accor posts solid FY25 with UK contributing healthy growth\n\n---\n\nClosures\n\n## Closures tracker: The hospitality firms shuttering amid mounting cost pressures\n\n---\n\nMenuwatch\n\n## Mike Shaw at the Freemasons at Wiswell: ‘We could make things easier, but we don’t’\n\n---\n\nNews\n\n## The Caterer goes head-to-head at Back To The Floor\n\n---\n\nAwards\n\n## The Caterer to recognise pastry chefs in new award at 2026 Cateys\n\n### Newsletter sign up\n\nStay informed with all the latest\n\nFirst Name\n\nLast Name\n\nInitials of First Names\n\nEmail\n\nSign Up\n\n### Newsletter Sign Up\n\nStay informed with the latest news\n\nSign Up\n\n### More from The Caterer\n\nHotel\n\n## Accor posts solid FY25 with UK contributing healthy growth\n\nClosures\n\n## Closures tracker: The hospitality firms shuttering amid mounting cost pressures\n\nMenuwatch\n\n## Mike Shaw at the Freemasons at Wiswell: ‘We could make things easier, but we don’t’\n\nNews\n\n## The Caterer goes head-to-head at Back To The Floor\n\n### Most Popular\n\n---\n\nMichelin\n\n## All the new stars in the Michelin Guide Great Britain and Ireland 2025\n\n---\n\nChef\n\n## Lisa Goodwin-Allen to leave Northcote after 23 years\n\n---\n\nMichelin\n\n## Three Michelin star restaurants in the UK & Ireland\n\n---\n\nChef\n\n## Michel Roux to open new restaurant at the Langham, London\n\n---\n\nChef\n\n## MasterChef: The Professionals 2024 winner revealed\n\n### Newsletter Sign Up\n\nStay informed with all the latest\n\nSign Up\n\n### Events & Awards\n\n## HRC\n\nMon Mar 30, 2026 ExCel London\n\nHRC is the UK’s leading trade event for hospitality and foodservice and takes place on 30 March-1 April 2026 at Excel London as part of Food, Drink & Hospitality Week. Over three days, you’ll meet the people behind the products, connecting face-to-face with suppliers, brand owners and operators who are bringing the latest ideas to the table.\n\n## The Caterer Supplier Awards\n\nThu Apr 16, 2026\n\nThe Caterer Supplier Awards celebrates the most creative and innovative businesses and brands from across the hospitality supply chain. Categories are judged by an independent panel of industry experts and the winners will be announced at the awards ceremony on 16 April 2026.\n\n## The Caterer People Summit 2026\n\nThu May 14, 2026 58VE, London\n\nThe Caterer is bringing together HR hospitality leaders to learn, debate and collaborate on topics including artificial intelligence, burnout and how to effectively engage the board, to help protect your people, strengthen your teams and prove why HR is central to business success, even in a challenging climate.\n\n## The Acorn Awards 2026\n\nSun Jun 7, 2026\n\nThe Acorn Awards, run in association with our headline sponsor CH&Co, recognise 30 of the brightest prospects in the hospitality industry under the age of 30. The awards, known as The Caterer’s 30 under 30, recognise people working in any sector of hospitality. Everybody is welcome to enter – you can nominate yourself or ask a colleague to nominate you and tell us about your achievements.\n\n#### The Caterer provides trusted hospitality news, analysis and trends for restaurants, hotels and catering professionals.\n\nSubscribe\n\nContribute\n\nT&Cs\n\nDisclaimer\n\nAbout Us\n\nMedia Centre\n\nCookie Policy\n\nOur Team\n\nFAQs\n\nPrivacy Policy\n\nRSS\n\nSitemap\n\nJacobs Media is a company regist",
+            "published_date": null,
+            "query": "\"Emmanuele Selvaggi\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79030273.html",
+            "title": "Emmanuele Selvaggi has been promoted Hotel Manager at Rosewood London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Emmanuele Selvaggi has been promoted Hotel Manager at Rosewood London\n[![Hospitality Net](https://www.hospitalitynet.org/HN-icon.svg)![Hospitality Net]()](https://www.hospitalitynet.org/)\n[People](https://www.hospitalitynet.org/list/1-10/appointments.html)[Appointment](https://www.hospitalitynet.org/list/1-10/appointment/appointments.html)\n# Emmanuele Selvaggi has been promoted Hotel Manager at Rosewood London\n[![New World Hospitality ](https://www.hospitalitynet.org/picture/s_153033400/emmanuele-selvaggi.jpg?t=1369810630)](https://www.hospitalitynet.org/organization/17014335/rosewood-hotel-group.html)\n[Rosewood Hotel Group](https://www.hospitalitynet.org/organization/17014335/rosewood-hotel-group.html)\n13 June 2025\n![Emmanuele Selvaggi]()\nRosewood London has promoted Emmanuele Selvaggi to Hotel Manager, effective 16th June 2025. In this elevated role, Emmanuele will continue to drive the hotel's operational excellence and reinforce Rosewood London's position as the preferred luxury destination in London.\nEmmanuele brings over 18 years of distinguished experience in luxury hospitality to his new position. He began his career with Four Seasons Boston in the Rooms Division and successfully progressed through the ranks across multiple international locations including Geneva, Doha, Prague and London over 15 years with the prestigious brand. His tenue with Four Seasons culminated as Hotel Manager at Four Seasons Florence before returning to London in November 2021 to join Rosewood London.\nSince joining Rosewood London, Emmanuele has served as Director of Rooms, where he has been instrumental in driving exceptional results across the Rooms Division. Under his leadership, the Front Office team achieved the highest upselling revenue in 2024 since the hotel's opening. His analytical approach and creative vision have led to numerous successful guest initiatives, while his commitment to personal service has significantly improved the hotel's LQA scores and TrustYou ratings through increased use of guest recognition throughout the property.\nEmmanuele is recognised for his exceptional leadership style, characterised by hands-on management and leading by example. His ability to build and develop high-performing teams, combined with his dedication to delivering memorable and seamless guest experiences, perfectly embodies Rosewood's philosophy of Relationship Hospitality.\n* [View Emmanuele Selvaggi's LinkedIn Profile](https://www.linkedin.com/in/emmanuele-selvaggi-5ab5912/)\n* [Rosewood London](https://www.rosewoodhotels.com/en/london)\n[![Rosewood Hotel Group](https://www.hospitalitynet.org/picture/s_153033400.jpg?t=1369810630)](https://www.hospitalitynet.org/organization/17014335/rosewood-hotel-group.html)\n[Rosewood Hotel Group](https://www.hospitalitynet.org/organization/17014335/rosewood-hotel-group.html)\nOrganization\n### Rosewood Hotel Group\nRosewood Hotels & Resorts manages a global collection of 31 one-of-a-kind luxury hotels, resorts, and residences in 18 countries.\n[More](https://www.hospitalitynet.org/organization/17014335/rosewood-hotel-group.html)\n[\n#### Your content on Hospitality Net?\nHospitality Net membership explained\n](https://www.hospitalitynet.org/mediakit/)\n![Hospitality Net today Newsletter]()\nSign up to our free daily newsletter,\nHospitality Net today\n[sign up](https://www.hospitalitynet.org/me/account.html)\n[![Hospitality Net]()![Hospitality Net]()](https://www.hospitalitynet.org/)\n[About Hospitality Net](https://www.hospitalitynet.org/about.html)[Media Kit](https://www.hospitalitynet.org/mediakit/)[Newsletter](https://www.hospitalitynet.org/360/)[RSS Feeds](https://www.hospitalitynet.org/rss.html)[Contact](https://www.hospitalitynet.org/contact.html)[Terms & Conditions](https://www.hospitalitynet.org/terms.html)[Privacy](https://www.hospitalitynet.org/privacy.html)\n1995-2025 Hospitality Net™ All rights reserved —Hospitality Net is powered by Hsyndicate\n[](https://www.linkedin.com/company/hospitality-net)[](https://www.facebook.com/HospitalityNet)[](https://www.twitter.com/HospitalityNet)",
+            "published_date": null,
+            "query": "\"Emmanuele Selvaggi\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "1369810630",
+            "confidence": "medium",
+            "source_url": "https://www.hospitalitynet.org/appointment/79030273.html",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": "https://uk.linkedin.com/in/emmanuele-selvaggi-5ab5912",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_dbdfa715fcb04acb",
+        "full_name": "Andrea Coro",
+        "title": "Executive Chef",
+        "normalized_title": "executive chef",
+        "company": "Rosewood London",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.rosewoodhotels.com/en/london/media/press-kit/executive-chef-bio",
+            "title": "BIO: Executive Chef",
+            "source_type": "hotel_site",
+            "snippet": "Andrea Coro is the Executive Chef of Rosewood London. In his role, Chef Andrea is responsible for providing strategic direction...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79030932/andrea-coro",
+            "title": "Andrea Coro appointed as Executive Chef",
+            "source_type": "press",
+            "snippet": "Andrea Coro has been appointed as Executive Chef at Rosewood London... effective 29th September 2025.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://insights.ehotelier.com/people/2025/10/03/andrea-coro-promoted-to-executive-chef-at-rosewood-london/",
+            "title": "Andrea Coro promoted to Executive Chef",
+            "source_type": "press",
+            "snippet": "Rosewood London announces the promotion of Andrea Coro to Executive Chef.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hotel-online.com/press_releases/release/rosewood-london-promotes-andrea-coro-to-executive-chef/",
+            "title": "Rosewood London Promotes Andrea Coro to Executive Chef | Hotel Online",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andrea Coro\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.restaurantonline.co.uk/Article/2025/10/10/this-key-personnel-changes-in-the-hospitality-sector-in-october/",
+            "title": "People on the move: October 2025",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andrea Coro\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thecaterer.com/news/andrea-coro-appointed-executive-chef-at-the-rosewood-london",
+            "title": "Andrea Coro appointed executive chef at the Rosewood London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andrea Coro\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thecaterer.com/all-content/andrea-coro-appointed-executive-chef-at-the-rosewood-london",
+            "title": "Andrea Coro appointed executive chef at the Rosewood London - All Content",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andrea Coro\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "Bio page title references Fernando Corona Burch; 2025 articles confirm Andrea Coro in the role."
+        ]
+      },
+      {
+        "candidate_id": "c_394eda16f2d4e92b",
+        "full_name": "Bana Toukan",
+        "title": "Director of Sales and Marketing",
+        "normalized_title": "director of sales and marketing",
+        "company": "Rosewood London",
+        "role_tier": 2,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.warmwelcomemagazine.com/industry-news/rosewood-london-appoints-bana-toukan-director-of-sales-and-marketing",
+            "title": "Rosewood London Appoints Bana Toukan Director of Sales and Marketing",
+            "source_type": "press",
+            "snippet": "Rosewood London is delighted to announce the appointment of Bana Toukan as the Director of Sales and Marketing... Aug 23, 2025.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/banatoukan",
+            "title": "Bana Toukan - Rosewood London - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Bana Toukan\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://insights.ehotelier.com/people/2022/08/26/rosewood-london-appoints-new-director-of-sales-and-marketing/",
+            "title": "Rosewood London appoints new Director of Sales and Marketing",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Bana Toukan\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.aspiretravelclub.co.uk/news/rosewood-london-names-new-director-of-sales-and-marketing",
+            "title": "Rosewood London names new director of sales and marketing",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Bana Toukan\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/bana-toukan-email_68920156",
+            "title": "Bana Toukan Email & Phone Number | Rosewood London Director ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Bana Toukan\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_e30d1cbc0d955884",
+        "full_name": "Doris Woehnl",
+        "title": "Director of Revenue Management",
+        "normalized_title": "director of revenue management",
+        "company": "Rosewood London",
+        "role_tier": 3,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/doris-woehnl-email_59221314",
+            "title": "Doris Woehnl Profile",
+            "source_type": "directory",
+            "snippet": "Doris Woehnl, is currently a Director of Revenue Management at Rosewood London.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.thecaterer.com/news/hotel-cateys-2023-revenue-manager-doris-woehnl-rosewood",
+            "title": "Hotel Cateys 2023: Revenue Manager of the Year – Doris Woehnl ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Doris Woehnl\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.lcca.ac.uk/lcca-life/news/lcca-hosts-revenue-management-presentation-by-doris-woehnl-from-rosewood-hotel-london/",
+            "title": "LCCA: Revenue Management Talk by Doris Woehnl from Rosewood London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Doris Woehnl\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.lcca.org.uk/lcca-life/news/guest-speaker-rosewood-hotel-delivers-presentation-on-revenue-management/",
+            "title": "LCCA: Revenue Management Talk by Doris Woehnl from Rosewood London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Doris Woehnl\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.lcca.ac.uk/lcca-life/events/careers/guest-speaker-event-with-doris-woehnl-careers-event/",
+            "title": "Guest speaker event with Doris Woehnl | LCCA Events",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Doris Woehnl\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://content.yudu.com/web/28qwf/0A2bans/Caterer241123/html/79.html",
+            "title": "Caterer 24/11/23",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Doris Woehnl\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Directory source; cross-verified via association with property in multiple listings."
+        ]
+      },
+      {
+        "candidate_id": "c_b0fc269b56fa19e7",
+        "full_name": "Andy Loudon",
+        "title": "Director of Bars",
+        "normalized_title": "director of bars",
+        "company": "Rosewood London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://drinksint.com/news/fullstory.php/aid/11298/Rosewood_London_appoints_new_director_of_bars.html",
+            "title": "Rosewood London appoints new director of bars",
+            "source_type": "press",
+            "snippet": "Rosewood London has announced the appointment of Andy Loudon as its director of bars... Jul 19, 2024.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/donna-callaghan-b2b52727_andy-loudon-announced-director-of-bars-at-activity-7221466136091992065-ZJw7",
+            "title": "Andy Loudon announced director of bars at Rosewood London ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andy Loudon\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.travelandleisure.com/chancery-rosewood-in-london-hotel-review-11941037",
+            "title": "London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andy Loudon\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://classbarmag.com/news/fullstory.php/aid/1505/Andy_Loudon_announced_director_of_bars_at_Rosewood_London.html",
+            "title": "Andy Loudon announced director of bars at Rosewood London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andy Loudon\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thespiritsbusiness.com/2025/03/new-cocktail-menu-arrives-at-scarfes-bar/",
+            "title": "New cocktail menu arrives at Scarfes Bar - The Spirits Business",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andy Loudon\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://jiggerdaily.com/andy-loudon-scarfes-bar-cocktails-menu-london/",
+            "title": "Andy Loudon (Scarfes Bar) : \"In a world where independent bars are pushing boundaries, hotel bars need to stay relevant by being just as creative and expressive\"",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Andy Loudon\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_5af3f5a34451df81",
+        "full_name": "Maela Jouy",
+        "title": "Director of Communications",
+        "normalized_title": "director of communications",
+        "company": "Rosewood London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.rosewoodhotels.com/en/london/media-hub",
+            "title": "Rosewood London Media Hub",
+            "source_type": "hotel_site",
+            "snippet": "HOTEL MEDIA CONTACT. Maela Jouy . Director of Communications E: maela.jouy@rosewoodhotels.com. T: +44 (0) 203 747 8702.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/maelajouy",
+            "title": "Maëla J. LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Director of communications @ rosewoodlondon @ rosewoodhotels",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.travelandleisure.com/chancery-rosewood-in-london-hotel-review-11941037",
+            "title": "London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Maela Jouy\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.rosewoodhotels.com/en/london/media/press/2024/rosewood-london-festive-season-2024",
+            "title": "CELEBRATE THE FESTIVE SEASON AT ROSEWOOD LONDON",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Maela Jouy\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.rosewoodhotels.com/en/london/media/press/2025/rosewood-london-british-pie-week-2025",
+            "title": "HOLBORN DINING ROOM & THE PIE ROOM CELEBRATE BRITISH PIE WEEK",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Maela Jouy\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "maela.jouy@rosewoodhotels.com",
+            "confidence": "high",
+            "source_url": "https://www.rosewoodhotels.com/en/london/media-hub",
+            "rationale": "Explicitly listed as hotel media contact with email."
+          },
+          {
+            "kind": "phone",
+            "value": "+44 (0) 203 747 8702",
+            "confidence": "high",
+            "source_url": "https://www.rosewoodhotels.com/en/london/media-hub",
+            "rationale": "Explicitly listed as hotel media contact phone for Maela Jouy."
+          }
+        ],
+        "linkedin_url": "https://uk.linkedin.com/in/maelajouy",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_459300a35038c552",
+        "full_name": "Monica Bewak",
+        "title": "Director of Event Sales & Management",
+        "normalized_title": "director of event sales & management",
+        "company": "Rosewood London",
+        "role_tier": 3,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.facebook.com/rsvpclubofficial/videos/meet-our-speaker/420754562447508/",
+            "title": "Monica Bewak speaker profile",
+            "source_type": "social",
+            "snippet": "Monica is the Director of Event Sales & Management at Rosewood London.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/monicabewak",
+            "title": "Monica Bewak | Global luxury hospitality director | Passion for team success & seamless experiences | Development of growth strategies",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Monica Bewak\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://leadquest.co.uk/monica+dragosin_rosewood-london-gb",
+            "title": "Monica Dragosin - Rosewood London, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Monica Bewak\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.conference-news.co.uk/news/convene-appoints-new-team-members/",
+            "title": "Convene appoints new team members - Conference News",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Monica Bewak\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.eventindustrynews.com/news/conference-news/convene-hires-experienced-uk-hospitality-leaders-craig-bennett-and-monica-bewak-for-international-expansion",
+            "title": "Convene hires experienced UK hospitality leaders Craig Bennett and Monica Bewak for international expansion | Event Industry News",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Monica Bewak\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79023777.html",
+            "title": "Craig Bennett has been appointed General Manager at Convene at 22 Bishopsgate in London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Monica Bewak\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_0a2f7ccae8286dce",
+        "full_name": "Chris Tod",
+        "title": "Director of Talent Development",
+        "normalized_title": "director of talent development",
+        "company": "Rosewood London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/chris-tod-email_9256131",
+            "title": "Chris Tod Profile",
+            "source_type": "directory",
+            "snippet": "Director of Talent Development @ Rosewood London.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/chris-tod-166301b6",
+            "title": "Chris Tod - Rosewood London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Chris Tod\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.travelandleisure.com/chancery-rosewood-in-london-hotel-review-11941037",
+            "title": "London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Chris Tod\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://acornawards.co.uk/acornawards2020/en/node/speakerprofile-exclusive-hotels-and-venues-chris-tod",
+            "title": "The Acorn Awards",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Chris Tod\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/chris-tod-166301b6_hospitality-hospitalitytraining-digitallearning-activity-7201154926905896961-tlJe",
+            "title": "Chris Tod",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Chris Tod\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_05c932023aaa6bdf",
+        "full_name": "Louis Stacher",
+        "title": "Director of Food and Beverage Operations",
+        "normalized_title": "director of food and beverage operations",
+        "company": "Rosewood London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://prospeo.io/c/rosewood-london-revenue",
+            "title": "Rosewood London Key Contacts",
+            "source_type": "directory",
+            "snippet": "Louis Stacher. Director Of Food And Beverage Operations . @ rosewoodhotels .com.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/louis-stacher",
+            "title": "Louis Stacher LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Rosewood London... Food & Beverage management",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.travelandleisure.com/chancery-rosewood-in-london-hotel-review-11941037",
+            "title": "London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Louis Stacher\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/louis-stacher-email_108729978",
+            "title": "Louis Stacher Email & Phone Number | Rosewood London Director ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Louis Stacher\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.rosewoodhotels.com/en/the-chancery-rosewood/",
+            "title": "A Luxury Mayfair Hotel | London | The Chancery Rosewood",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Louis Stacher\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://tw.linkedin.com/company/rosewood-london",
+            "title": "Rosewood London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Louis Stacher\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/louis-stacher",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_0c7533492c3192b5",
+        "full_name": "José Viegas",
+        "title": "Director of Food and Beverage",
+        "normalized_title": "director of food and beverage",
+        "company": "Rosewood London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/jose-viegas-email_762787446",
+            "title": "José Viegas Profile",
+            "source_type": "directory",
+            "snippet": "Director of Food And Beverage @ Rosewood London... Director of Sales and Marketing at Rosewood London.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/josep-viegas",
+            "title": "José Viegas LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Rosewood London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/josep-viegas_rosewoodlondon-rosewood-rosewoodhotels-activity-7339720935085608960-EVzE",
+            "title": "José Viegas' Post - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"José Viegas\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/josep-viegas_congratulations-to-the-entire-team-at-rosewood-activity-7296269392487628801-Glsm",
+            "title": "Congratulations to the entire team at Rosewood London for earning ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"José Viegas\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/josep-viegas_rosewoodlondon-rosewoodhotels-asenseoftaste-activity-7312913415709110272-E3XF",
+            "title": "#rosewoodlondon #rosewoodhotels #asenseoftaste | José Viegas",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"José Viegas\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/josep-viegas_rosewoodlondon-thechalet-rosewood-activity-7402415208268279808-BB-E",
+            "title": "José Viegas' Post - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"José Viegas\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/josep-viegas",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Sources list varying but related F&B and sales leadership roles at the property."
+        ]
+      },
+      {
+        "candidate_id": "c_bceb760cc1e3b146",
+        "full_name": "Sonia Cheng",
+        "title": "Chief Executive Officer",
+        "normalized_title": "chief executive officer",
+        "company": "Rosewood Hotel Group",
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+            "title": "Rosewood Hotel Group Our Team",
+            "source_type": "company_site",
+            "snippet": "Sonia Cheng Chief Executive Officer",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://finance.yahoo.com/news/cheng-family-puts-rosewood-london-154854005.html",
+            "title": "Cheng Family article",
+            "source_type": "press",
+            "snippet": "Rosewood operation, led by Henry Cheng’s daughter Sonia...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://e.vnexpress.net/news/business/property/hong-kong-s-billionaire-cheng-family-puts-luxury-rosewood-hotel-in-london-on-sale-amid-debt-pressure-4997584.html",
+            "title": "Hong Kong's billionaire Cheng family puts luxury Rosewood Hotel in ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sonia Cheng\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://wwd.com/eye/people/sonia-cheng-rosewood-expansion-food-curation-carlyle-and-co-1235652753/",
+            "title": "Sonia Cheng on Rosewood Expansion, Food Curation, and Carlyle ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sonia Cheng\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.businesstimes.com.sg/lifestyle/bt-luxe/bt-luxe/sonia-cheng-building-familys-legacy-hotels-and-jewellery",
+            "title": "Sonia Cheng: Building a family’s legacy in hotels and jewellery - The Business Times",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sonia Cheng\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://en.wikipedia.org/wiki/Sonia_Cheng",
+            "title": "Sonia Cheng",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sonia Cheng\" \"Rosewood London\"",
+            "score": null
+          },
+          {
+            "url": "https://falcon-test.ft.com/content/3ce62078-44ed-4b1e-9ed6-3a1adc9fcef4",
+            "title": "Sonia Cheng: ‘The key is to design a hotel that doesn’t feel like a hotel’",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sonia Cheng\" \"Rosewood London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Group-level; directly tied to ownership and oversight of Rosewood London."
+        ]
+      },
+      {
+        "candidate_id": "c_d41c253f777e5f10",
+        "full_name": "Radha Arora",
+        "title": "President",
+        "normalized_title": "president",
+        "company": "Rosewood Hotel Group",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+            "title": "Rosewood Hotel Group Our Team",
+            "source_type": "company_site",
+            "snippet": "Radha Arora President",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "Group-level leadership overseeing properties including Rosewood London."
+        ]
+      },
+      {
+        "candidate_id": "c_9abbbcd110bd8144",
+        "full_name": "Anthony Ingham",
+        "title": "Chief Operating Officer",
+        "normalized_title": "chief operating officer",
+        "company": "Rosewood Hotel Group",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+            "title": "Rosewood Hotel Group Our Team",
+            "source_type": "company_site",
+            "snippet": "Anthony Ingham Chief Operating Officer",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "Group COO with operational responsibility for the portfolio."
+        ]
+      },
+      {
+        "candidate_id": "c_c3379a9c423f8d4d",
+        "full_name": "Joanna Gunn",
+        "title": "Chief Brand Officer",
+        "normalized_title": "chief brand officer",
+        "company": "Rosewood Hotel Group",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+            "title": "Rosewood Hotel Group Our Team",
+            "source_type": "company_site",
+            "snippet": "Joanna Gunn Chief Brand Officer London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "Group-level brand leadership relevant to Rosewood London property."
+        ]
+      },
+      {
+        "candidate_id": "c_a7ef148086017c09",
+        "full_name": "Jan Johansen",
+        "title": "Area Director of Finance, Business Partner - Central & Northern Europe",
+        "normalized_title": "area director of finance, business partner - central & northern europe",
+        "company": "Rosewood London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://fr.linkedin.com/in/jan-johansen-35990184",
+            "title": "Jan Johansen LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Area Director of Finance, Business Partner - Central & Northern Europe · Rosewood London... London Area, United Kingdom.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://fr.linkedin.com/in/jan-johansen-35990184",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Regional finance role anchored to Rosewood London."
+        ]
+      }
+    ],
+    "rejected_candidates": [],
+    "provider_costs": {
+      "xai_usd": 0.199492,
+      "exa_usd": 0.12,
+      "total_usd": 0.319492
+    },
+    "quality_metrics": {
+      "candidate_count": 16,
+      "useful_candidate_count": 4,
+      "tier1_count": 3,
+      "tier2_count": 1,
+      "direct_route_count": 5,
+      "department_route_count": 0,
+      "rejected_count": 0,
+      "exa_searches": 16,
+      "exa_fetches": 8,
+      "xai_calls": 1
+    },
+    "telemetry": {
+      "stages": [
+        {
+          "stage": "grok_discovery",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 98706,
+          "tokens_out": 9128,
+          "estimated_usd": 0.199492,
+          "seconds": 173.993472999995,
+          "notes": [
+            "grok-4.20-reasoning discovery"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.77733480000461,
+          "notes": [
+            "05ed6a2dfa58"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.7875745999990613,
+          "notes": [
+            "c61dd053820f"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.9456339000025764,
+          "notes": [
+            "4a3a6e4d8e45"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.4815557000038098,
+          "notes": [
+            "c4c8c1a08c94"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.345646099995065,
+          "notes": [
+            "00a0dc42ee05"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.0507476999991923,
+          "notes": [
+            "5a2446792095"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.8366626999995788,
+          "notes": [
+            "aa266ca109d8"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6837290999974357,
+          "notes": [
+            "c7b8b0c44876"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 4.0226359000007506,
+          "notes": [
+            "2d81a979b114"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 4.033607199999096,
+          "notes": [
+            "bf1450d5488a"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.3045487999988836,
+          "notes": [
+            "be11dd1c23a1"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.736623900003906,
+          "notes": [
+            "ef2cd91c1a2e"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.7951901000051294,
+          "notes": [
+            "https://www.rosewoodhotels.com/en/london/media/press-kit/managing-director-bio"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.9491471999936039,
+          "notes": [
+            "https://www.hotelexecutive.com/newswire/71550/rosewood-london-appoints-new-manag"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.8424178999994183,
+          "notes": [
+            "https://www.thecaterer.com/news/tessa-gorman-managing-director-rosewood-london"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.952343100005237,
+          "notes": [
+            "https://www.boutiquehotelier.com/tessa-gorman-managing-director-rosewood-london/"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.9169283000010182,
+          "notes": [
+            "https://www.hospitalityandcateringnews.com/2025/06/rosewood-london-promotes-emma"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.973057199997129,
+          "notes": [
+            "https://www.thecaterer.com/all-content/emmanuele-selvaggi-appointed-hotel-manage"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.9940328000011505,
+          "notes": [
+            "https://www.hospitalitynet.org/appointment/79030273.html"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.9615382999982103,
+          "notes": [
+            "https://www.thecaterer.com/news/emmanuele-selvaggi-appointed-hotel-manager-at-th"
+          ]
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.7680395000061253,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.904708299996855,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.8450117999964277,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.6463402999943355,
+          "notes": []
+        }
+      ],
+      "exa_search_requests": 16,
+      "exa_content_pages": 8,
+      "errors": []
+    },
+    "needs_manual_org_review": false
+  },
+  "contacts": [
+    {
+      "full_name": "Tessa Gorman",
+      "title": "Managing Director",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/tessa-gorman-38693517",
+      "email": null,
+      "email2": null,
+      "phone": "08713328. 3",
+      "phone2": "301) 380-7770",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / owner_exec; role confidence medium.",
+      "contact_evidence_summary": "Currently, the Managing Director of award-winning Rosewood London, Tessa Gorman brings a wealth of expertise in global luxury travel. | Managing Director · Rosewood London | Tessa Gorman has been appointed as Managing Director at Rosewood London. Starting on January 1, 2024. | Rosewood London Appoints New Managing Director, Tessa Gorman | Tessa Gorman appointed managing director of Rosewood London - News",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/london/media/press-kit/managing-director-bio",
+          "source_type": "official_site",
+          "quote_or_fact": "Currently, the Managing Director of award-winning Rosewood London, Tessa Gorman brings a wealth of expertise in global luxury travel."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/tessa-gorman-38693517",
+          "source_type": "linkedin",
+          "quote_or_fact": "Managing Director · Rosewood London"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79027479/tessa-gorman",
+          "source_type": "news",
+          "quote_or_fact": "Tessa Gorman has been appointed as Managing Director at Rosewood London. Starting on January 1, 2024."
+        },
+        {
+          "source_url": "https://www.hotelexecutive.com/newswire/71550/rosewood-london-appoints-new-managing-director-tessa-gorman",
+          "source_type": "other",
+          "quote_or_fact": "Rosewood London Appoints New Managing Director, Tessa Gorman\n[![](https://www.hotelexecutive.com/images/mailer/logo_hires.jpg)](https://www.hotelexecutive.com/)\n[Sign In or Create Account](https://www.hotelexecutive.com/account/login)\n* [Home](https://www.hotelexecutive.com/)\n* [Subscribe](https://www.hotelexecutive.com/subscribe/review)\n* [Post a news Release](https://www.hotelexecutive.com/newswire/submit_news)\n* [Hotel Newswire](https://www.hotelexecutive.com/newswire)\n* [LIBRARY ARCHIVES](https://www.hotelexecutive.com/library_archives)\n* [Who Uses Hotel Newswire?](https://www.hotelexecutive.com/who-uses-hotel-newswire)\n* [What Can I Send Out?](https://www.hotelexecutive.com/what-can-i-send)\n* [Who Will See It?](https://www.hotelexecutive.com/who-will-see-it)\n* [Tips On Posting](https://www.hotelexecutive.com/tips-on-posting)\n* [Select a Posting Option](https://www.hotelexecutive.com/posting-options)\n[![](https://www.hotelexecutive.com/images/masthead/masthead_hn_main.jpg)](https:/"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/tessa-gorman-managing-director-rosewood-london",
+          "source_type": "other",
+          "quote_or_fact": "Tessa Gorman appointed managing director of Rosewood London - News\n\nao link\n\n## Join our WhatsApp Community\n\nHave the latest news and analysis at your fingertips\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\n## Subscribe\n\nStart a subscription today from just £4.99\n\nMenu\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\n## New openings in February 2026: Restaurants, hotels and bars\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservic"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/tessa-gorman-managing-director-rosewood-london/",
+          "source_type": "other",
+          "quote_or_fact": "Tessa Gorman named managing director of Rosewood LondonCloseSearch for:SearchClose\n[Skip to content](#content)\nUK\n* [USA](https://usa.boutiquehotelier.com)\n[![Boutique Hotelier](https://www.boutiquehotelier.com/cloud/2024/12/10/BH_Logo.png)](https://www.boutiquehotelier.com/)\n[Boutique Hotelier](https://www.boutiquehotelier.com/)\nOpen Search\nSearch for:Search\nMenu\nPosted in[Careers](https://www.boutiquehotelier.com/news/careers/),[News](https://www.boutiquehotelier.com/news/)December 4, 2023December 4, 2023\n# New MD appointed to Rosewood London\nTessa Gorman will begin in the role in January, having previously worked for luxury brands including Aman and Bvlgari\nby[Eamonn Crowe](https://www.boutiquehotelier.com/author/earmonn-crowe/)December 4, 2023December 4, 2023\n[**TW]()[**FB](http://www.facebook.com/share.php?u=https://www.boutiquehotelier.com/tessa-gorman-managing-director-rosewood-london/)[**LN](http://www.linkedin.com/shareArticle?url=https://www.boutiquehotelier.com/tessa-gorman-"
+        }
+      ]
+    },
+    {
+      "full_name": "Emmanuele Selvaggi",
+      "title": "Hotel Manager",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/emmanuele-selvaggi-5ab5912",
+      "email": null,
+      "email2": null,
+      "phone": "1369810630",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Emmanuele Selvaggi has been promoted to hotel manager at the Rosewood London in Holborn... effective 16 June 2025. | Rosewood London... Hotel Manager | Currently leading Rosewood London as Hotel Manager. | Rosewood London Promotes Emmanuele Selvaggi to Hotel Manager - Hospitality & Catering News | Emmanuele Selvaggi appointed hotel manager at the Rosewood London - All Content",
+      "evidence": [
+        {
+          "source_url": "https://www.thecaterer.com/news/emmanuele-selvaggi-appointed-hotel-manager-at-the-rosewood-london",
+          "source_type": "news",
+          "quote_or_fact": "Emmanuele Selvaggi has been promoted to hotel manager at the Rosewood London in Holborn... effective 16 June 2025."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/emmanuele-selvaggi-5ab5912",
+          "source_type": "linkedin",
+          "quote_or_fact": "Rosewood London... Hotel Manager"
+        },
+        {
+          "source_url": "https://www.instagram.com/p/DQMIwatDJaQ/",
+          "source_type": "x",
+          "quote_or_fact": "Currently leading Rosewood London as Hotel Manager."
+        },
+        {
+          "source_url": "https://www.hospitalityandcateringnews.com/2025/06/rosewood-london-promotes-emmanuele-selvaggi-to-hotel-manager/",
+          "source_type": "other",
+          "quote_or_fact": "Rosewood London Promotes Emmanuele Selvaggi to Hotel Manager - Hospitality & Catering News\n\n### Rosewood London has promoted Emmanuele Selvaggi to Hotel Manager, effective 16th June 2025. In this elevated role, Emmanuele will continue to drive the hotel’s operational excellence and reinforce Rosewood London’s position as the preferred luxury destination in London.\n\nEmmanuele Selvaggi, General Manager of Rosewood London\n\nEmmanuele brings over 18 years of distinguished experience in luxury hospitality to his new position. He began his career with Four Seasons Boston in the Rooms Division and successfully progressed through the ranks across multiple international locations including Geneva, Doha, Prague and London over 15 years with the prestigious brand. His tenue with Four Seasons culminated as Hotel Manager at Four Seasons Florence before returning to London in November 2021 to join Rosewood London.\n\nSince joining Rosewood London, Emmanuele has served as Director of Rooms, where he has"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/all-content/emmanuele-selvaggi-appointed-hotel-manager-at-the-rosewood-london",
+          "source_type": "other",
+          "quote_or_fact": "Emmanuele Selvaggi appointed hotel manager at the Rosewood London - All Content\n\nao link\n\n## Join our WhatsApp Community\n\nHave the latest news and analysis at your fingertips\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\n## Subscribe\n\nStart a subscription today from just £4.99\n\nMenu\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\n## New openings in February 2026: Restaurants, hotels and bars\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestauran"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79030273.html",
+          "source_type": "other",
+          "quote_or_fact": "Emmanuele Selvaggi has been promoted Hotel Manager at Rosewood London\n[![Hospitality Net](https://www.hospitalitynet.org/HN-icon.svg)![Hospitality Net]()](https://www.hospitalitynet.org/)\n[People](https://www.hospitalitynet.org/list/1-10/appointments.html)[Appointment](https://www.hospitalitynet.org/list/1-10/appointment/appointments.html)\n# Emmanuele Selvaggi has been promoted Hotel Manager at Rosewood London\n[![New World Hospitality ](https://www.hospitalitynet.org/picture/s_153033400/emmanuele-selvaggi.jpg?t=1369810630)](https://www.hospitalitynet.org/organization/17014335/rosewood-hotel-group.html)\n[Rosewood Hotel Group](https://www.hospitalitynet.org/organization/17014335/rosewood-hotel-group.html)\n13 June 2025\n![Emmanuele Selvaggi]()\nRosewood London has promoted Emmanuele Selvaggi to Hotel Manager, effective 16th June 2025. In this elevated role, Emmanuele will continue to drive the hotel's operational excellence and reinforce Rosewood London's position as the preferred luxury de"
+        }
+      ]
+    },
+    {
+      "full_name": "Andrea Coro",
+      "title": "Executive Chef",
+      "company": "Rosewood London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Bio page title references Fernando Corona Burch; 2025 articles confirm Andrea Coro in the role.",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Andrea Coro is the Executive Chef of Rosewood London. In his role, Chef Andrea is responsible for providing strategic direction... | Andrea Coro has been appointed as Executive Chef at Rosewood London... effective 29th September 2025. | Rosewood London announces the promotion of Andrea Coro to Executive Chef. | Rosewood London Promotes Andrea Coro to Executive Chef | Hotel Online | People on the move: October 2025 | Bio page title references Fernando Corona Burch; 2025 articles confirm Andrea Coro in the role.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/london/media/press-kit/executive-chef-bio",
+          "source_type": "official_site",
+          "quote_or_fact": "Andrea Coro is the Executive Chef of Rosewood London. In his role, Chef Andrea is responsible for providing strategic direction..."
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79030932/andrea-coro",
+          "source_type": "news",
+          "quote_or_fact": "Andrea Coro has been appointed as Executive Chef at Rosewood London... effective 29th September 2025."
+        },
+        {
+          "source_url": "https://insights.ehotelier.com/people/2025/10/03/andrea-coro-promoted-to-executive-chef-at-rosewood-london/",
+          "source_type": "news",
+          "quote_or_fact": "Rosewood London announces the promotion of Andrea Coro to Executive Chef."
+        },
+        {
+          "source_url": "https://www.hotel-online.com/press_releases/release/rosewood-london-promotes-andrea-coro-to-executive-chef/",
+          "source_type": "other",
+          "quote_or_fact": "Rosewood London Promotes Andrea Coro to Executive Chef | Hotel Online"
+        },
+        {
+          "source_url": "https://www.restaurantonline.co.uk/Article/2025/10/10/this-key-personnel-changes-in-the-hospitality-sector-in-october/",
+          "source_type": "other",
+          "quote_or_fact": "People on the move: October 2025"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/andrea-coro-appointed-executive-chef-at-the-rosewood-london",
+          "source_type": "other",
+          "quote_or_fact": "Andrea Coro appointed executive chef at the Rosewood London"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/all-content/andrea-coro-appointed-executive-chef-at-the-rosewood-london",
+          "source_type": "other",
+          "quote_or_fact": "Andrea Coro appointed executive chef at the Rosewood London - All Content"
+        }
+      ]
+    },
+    {
+      "full_name": "Bana Toukan",
+      "title": "Director of Sales and Marketing",
+      "company": "Rosewood London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Rosewood London is delighted to announce the appointment of Bana Toukan as the Director of Sales and Marketing... Aug 23, 2025. | Bana Toukan - Rosewood London - LinkedIn | Rosewood London appoints new Director of Sales and Marketing | Rosewood London names new director of sales and marketing | Bana Toukan Email & Phone Number | Rosewood London Director ...",
+      "evidence": [
+        {
+          "source_url": "https://www.warmwelcomemagazine.com/industry-news/rosewood-london-appoints-bana-toukan-director-of-sales-and-marketing",
+          "source_type": "news",
+          "quote_or_fact": "Rosewood London is delighted to announce the appointment of Bana Toukan as the Director of Sales and Marketing... Aug 23, 2025."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/banatoukan",
+          "source_type": "other",
+          "quote_or_fact": "Bana Toukan - Rosewood London - LinkedIn"
+        },
+        {
+          "source_url": "https://insights.ehotelier.com/people/2022/08/26/rosewood-london-appoints-new-director-of-sales-and-marketing/",
+          "source_type": "other",
+          "quote_or_fact": "Rosewood London appoints new Director of Sales and Marketing"
+        },
+        {
+          "source_url": "https://www.aspiretravelclub.co.uk/news/rosewood-london-names-new-director-of-sales-and-marketing",
+          "source_type": "other",
+          "quote_or_fact": "Rosewood London names new director of sales and marketing"
+        },
+        {
+          "source_url": "https://rocketreach.co/bana-toukan-email_68920156",
+          "source_type": "other",
+          "quote_or_fact": "Bana Toukan Email & Phone Number | Rosewood London Director ..."
+        }
+      ]
+    },
+    {
+      "full_name": "Doris Woehnl",
+      "title": "Director of Revenue Management",
+      "company": "Rosewood London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Directory source; cross-verified via association with property in multiple listings.",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Doris Woehnl, is currently a Director of Revenue Management at Rosewood London. | Hotel Cateys 2023: Revenue Manager of the Year – Doris Woehnl ... | LCCA: Revenue Management Talk by Doris Woehnl from Rosewood London | LCCA: Revenue Management Talk by Doris Woehnl from Rosewood London | Guest speaker event with Doris Woehnl | LCCA Events | Directory source; cross-verified via association with property in multiple listings.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/doris-woehnl-email_59221314",
+          "source_type": "directory",
+          "quote_or_fact": "Doris Woehnl, is currently a Director of Revenue Management at Rosewood London."
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/hotel-cateys-2023-revenue-manager-doris-woehnl-rosewood",
+          "source_type": "other",
+          "quote_or_fact": "Hotel Cateys 2023: Revenue Manager of the Year – Doris Woehnl ..."
+        },
+        {
+          "source_url": "https://www.lcca.ac.uk/lcca-life/news/lcca-hosts-revenue-management-presentation-by-doris-woehnl-from-rosewood-hotel-london/",
+          "source_type": "other",
+          "quote_or_fact": "LCCA: Revenue Management Talk by Doris Woehnl from Rosewood London"
+        },
+        {
+          "source_url": "https://www.lcca.org.uk/lcca-life/news/guest-speaker-rosewood-hotel-delivers-presentation-on-revenue-management/",
+          "source_type": "other",
+          "quote_or_fact": "LCCA: Revenue Management Talk by Doris Woehnl from Rosewood London"
+        },
+        {
+          "source_url": "https://www.lcca.ac.uk/lcca-life/events/careers/guest-speaker-event-with-doris-woehnl-careers-event/",
+          "source_type": "other",
+          "quote_or_fact": "Guest speaker event with Doris Woehnl | LCCA Events"
+        },
+        {
+          "source_url": "https://content.yudu.com/web/28qwf/0A2bans/Caterer241123/html/79.html",
+          "source_type": "other",
+          "quote_or_fact": "Caterer 24/11/23"
+        }
+      ]
+    },
+    {
+      "full_name": "Andy Loudon",
+      "title": "Director of Bars",
+      "company": "Rosewood London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Rosewood London has announced the appointment of Andy Loudon as its director of bars... Jul 19, 2024. | Andy Loudon announced director of bars at Rosewood London ... | London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool | Andy Loudon announced director of bars at Rosewood London | New cocktail menu arrives at Scarfes Bar - The Spirits Business",
+      "evidence": [
+        {
+          "source_url": "https://drinksint.com/news/fullstory.php/aid/11298/Rosewood_London_appoints_new_director_of_bars.html",
+          "source_type": "news",
+          "quote_or_fact": "Rosewood London has announced the appointment of Andy Loudon as its director of bars... Jul 19, 2024."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/donna-callaghan-b2b52727_andy-loudon-announced-director-of-bars-at-activity-7221466136091992065-ZJw7",
+          "source_type": "other",
+          "quote_or_fact": "Andy Loudon announced director of bars at Rosewood London ..."
+        },
+        {
+          "source_url": "https://www.travelandleisure.com/chancery-rosewood-in-london-hotel-review-11941037",
+          "source_type": "other",
+          "quote_or_fact": "London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool"
+        },
+        {
+          "source_url": "https://classbarmag.com/news/fullstory.php/aid/1505/Andy_Loudon_announced_director_of_bars_at_Rosewood_London.html",
+          "source_type": "other",
+          "quote_or_fact": "Andy Loudon announced director of bars at Rosewood London"
+        },
+        {
+          "source_url": "https://www.thespiritsbusiness.com/2025/03/new-cocktail-menu-arrives-at-scarfes-bar/",
+          "source_type": "other",
+          "quote_or_fact": "New cocktail menu arrives at Scarfes Bar - The Spirits Business"
+        },
+        {
+          "source_url": "https://jiggerdaily.com/andy-loudon-scarfes-bar-cocktails-menu-london/",
+          "source_type": "other",
+          "quote_or_fact": "Andy Loudon (Scarfes Bar) : \"In a world where independent bars are pushing boundaries, hotel bars need to stay relevant by being just as creative and expressive\""
+        }
+      ]
+    },
+    {
+      "full_name": "Maela Jouy",
+      "title": "Director of Communications",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/maelajouy",
+      "email": "maela.jouy@rosewoodhotels.com",
+      "email2": null,
+      "phone": "+44 (0) 203 747 8702",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "HOTEL MEDIA CONTACT. Maela Jouy . Director of Communications E: maela.jouy@rosewoodhotels.com. T: +44 (0) 203 747 8702. | Director of communications @ rosewoodlondon @ rosewoodhotels | London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool | CELEBRATE THE FESTIVE SEASON AT ROSEWOOD LONDON | HOLBORN DINING ROOM & THE PIE ROOM CELEBRATE BRITISH PIE WEEK",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/london/media-hub",
+          "source_type": "official_site",
+          "quote_or_fact": "HOTEL MEDIA CONTACT. Maela Jouy . Director of Communications E: maela.jouy@rosewoodhotels.com. T: +44 (0) 203 747 8702."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/maelajouy",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of communications @ rosewoodlondon @ rosewoodhotels"
+        },
+        {
+          "source_url": "https://www.travelandleisure.com/chancery-rosewood-in-london-hotel-review-11941037",
+          "source_type": "other",
+          "quote_or_fact": "London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool"
+        },
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/london/media/press/2024/rosewood-london-festive-season-2024",
+          "source_type": "other",
+          "quote_or_fact": "CELEBRATE THE FESTIVE SEASON AT ROSEWOOD LONDON"
+        },
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/london/media/press/2025/rosewood-london-british-pie-week-2025",
+          "source_type": "other",
+          "quote_or_fact": "HOLBORN DINING ROOM & THE PIE ROOM CELEBRATE BRITISH PIE WEEK"
+        }
+      ]
+    },
+    {
+      "full_name": "Monica Bewak",
+      "title": "Director of Event Sales & Management",
+      "company": "Rosewood London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Monica is the Director of Event Sales & Management at Rosewood London. | Monica Bewak | Global luxury hospitality director | Passion for team success & seamless experiences | Development of growth strategies | Monica Dragosin - Rosewood London, London | Convene appoints new team members - Conference News | Convene hires experienced UK hospitality leaders Craig Bennett and Monica Bewak for international expansion | Event Industry News",
+      "evidence": [
+        {
+          "source_url": "https://www.facebook.com/rsvpclubofficial/videos/meet-our-speaker/420754562447508/",
+          "source_type": "x",
+          "quote_or_fact": "Monica is the Director of Event Sales & Management at Rosewood London."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/monicabewak",
+          "source_type": "other",
+          "quote_or_fact": "Monica Bewak | Global luxury hospitality director | Passion for team success & seamless experiences | Development of growth strategies"
+        },
+        {
+          "source_url": "https://leadquest.co.uk/monica+dragosin_rosewood-london-gb",
+          "source_type": "other",
+          "quote_or_fact": "Monica Dragosin - Rosewood London, London"
+        },
+        {
+          "source_url": "https://www.conference-news.co.uk/news/convene-appoints-new-team-members/",
+          "source_type": "other",
+          "quote_or_fact": "Convene appoints new team members - Conference News"
+        },
+        {
+          "source_url": "https://www.eventindustrynews.com/news/conference-news/convene-hires-experienced-uk-hospitality-leaders-craig-bennett-and-monica-bewak-for-international-expansion",
+          "source_type": "other",
+          "quote_or_fact": "Convene hires experienced UK hospitality leaders Craig Bennett and Monica Bewak for international expansion | Event Industry News"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79023777.html",
+          "source_type": "other",
+          "quote_or_fact": "Craig Bennett has been appointed General Manager at Convene at 22 Bishopsgate in London"
+        }
+      ]
+    },
+    {
+      "full_name": "Chris Tod",
+      "title": "Director of Talent Development",
+      "company": "Rosewood London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Director of Talent Development @ Rosewood London. | Chris Tod - Rosewood London | London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool | The Acorn Awards | Chris Tod",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/chris-tod-email_9256131",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Talent Development @ Rosewood London."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/chris-tod-166301b6",
+          "source_type": "other",
+          "quote_or_fact": "Chris Tod - Rosewood London"
+        },
+        {
+          "source_url": "https://www.travelandleisure.com/chancery-rosewood-in-london-hotel-review-11941037",
+          "source_type": "other",
+          "quote_or_fact": "London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool"
+        },
+        {
+          "source_url": "https://acornawards.co.uk/acornawards2020/en/node/speakerprofile-exclusive-hotels-and-venues-chris-tod",
+          "source_type": "other",
+          "quote_or_fact": "The Acorn Awards"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/chris-tod-166301b6_hospitality-hospitalitytraining-digitallearning-activity-7201154926905896961-tlJe",
+          "source_type": "other",
+          "quote_or_fact": "Chris Tod"
+        }
+      ]
+    },
+    {
+      "full_name": "Louis Stacher",
+      "title": "Director of Food and Beverage Operations",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/louis-stacher",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Louis Stacher. Director Of Food And Beverage Operations . @ rosewoodhotels .com. | Rosewood London... Food & Beverage management | London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool | Louis Stacher Email & Phone Number | Rosewood London Director ... | A Luxury Mayfair Hotel | London | The Chancery Rosewood",
+      "evidence": [
+        {
+          "source_url": "https://prospeo.io/c/rosewood-london-revenue",
+          "source_type": "directory",
+          "quote_or_fact": "Louis Stacher. Director Of Food And Beverage Operations . @ rosewoodhotels .com."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/louis-stacher",
+          "source_type": "linkedin",
+          "quote_or_fact": "Rosewood London... Food & Beverage management"
+        },
+        {
+          "source_url": "https://www.travelandleisure.com/chancery-rosewood-in-london-hotel-review-11941037",
+          "source_type": "other",
+          "quote_or_fact": "London's Most Talked About New Hotel Has a Chic Rooftop Bar With City Views and a Swimming Pool"
+        },
+        {
+          "source_url": "https://rocketreach.co/louis-stacher-email_108729978",
+          "source_type": "other",
+          "quote_or_fact": "Louis Stacher Email & Phone Number | Rosewood London Director ..."
+        },
+        {
+          "source_url": "https://www.rosewoodhotels.com/en/the-chancery-rosewood/",
+          "source_type": "other",
+          "quote_or_fact": "A Luxury Mayfair Hotel | London | The Chancery Rosewood"
+        },
+        {
+          "source_url": "https://tw.linkedin.com/company/rosewood-london",
+          "source_type": "other",
+          "quote_or_fact": "Rosewood London"
+        }
+      ]
+    },
+    {
+      "full_name": "José Viegas",
+      "title": "Director of Food and Beverage",
+      "company": "Rosewood London",
+      "linkedin_url": "https://uk.linkedin.com/in/josep-viegas",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Sources list varying but related F&B and sales leadership roles at the property.",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Director of Food And Beverage @ Rosewood London... Director of Sales and Marketing at Rosewood London. | Rosewood London | José Viegas' Post - LinkedIn | Congratulations to the entire team at Rosewood London for earning ... | #rosewoodlondon #rosewoodhotels #asenseoftaste | José Viegas | Sources list varying but related F&B and sales leadership roles at the property.",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/jose-viegas-email_762787446",
+          "source_type": "directory",
+          "quote_or_fact": "Director of Food And Beverage @ Rosewood London... Director of Sales and Marketing at Rosewood London."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/josep-viegas",
+          "source_type": "linkedin",
+          "quote_or_fact": "Rosewood London"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/josep-viegas_rosewoodlondon-rosewood-rosewoodhotels-activity-7339720935085608960-EVzE",
+          "source_type": "other",
+          "quote_or_fact": "José Viegas' Post - LinkedIn"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/josep-viegas_congratulations-to-the-entire-team-at-rosewood-activity-7296269392487628801-Glsm",
+          "source_type": "other",
+          "quote_or_fact": "Congratulations to the entire team at Rosewood London for earning ..."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/josep-viegas_rosewoodlondon-rosewoodhotels-asenseoftaste-activity-7312913415709110272-E3XF",
+          "source_type": "other",
+          "quote_or_fact": "#rosewoodlondon #rosewoodhotels #asenseoftaste | José Viegas"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/josep-viegas_rosewoodlondon-thechalet-rosewood-activity-7402415208268279808-BB-E",
+          "source_type": "other",
+          "quote_or_fact": "José Viegas' Post - LinkedIn"
+        }
+      ]
+    },
+    {
+      "full_name": "Sonia Cheng",
+      "title": "Chief Executive Officer",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group-level; directly tied to ownership and oversight of Rosewood London.",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / owner_exec; role confidence medium.",
+      "contact_evidence_summary": "Sonia Cheng Chief Executive Officer | Rosewood operation, led by Henry Cheng’s daughter Sonia... | Hong Kong's billionaire Cheng family puts luxury Rosewood Hotel in ... | Sonia Cheng on Rosewood Expansion, Food Curation, and Carlyle ... | Sonia Cheng: Building a family’s legacy in hotels and jewellery - The Business Times | Group-level; directly tied to ownership and oversight of Rosewood London.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Sonia Cheng Chief Executive Officer"
+        },
+        {
+          "source_url": "https://finance.yahoo.com/news/cheng-family-puts-rosewood-london-154854005.html",
+          "source_type": "news",
+          "quote_or_fact": "Rosewood operation, led by Henry Cheng’s daughter Sonia..."
+        },
+        {
+          "source_url": "https://e.vnexpress.net/news/business/property/hong-kong-s-billionaire-cheng-family-puts-luxury-rosewood-hotel-in-london-on-sale-amid-debt-pressure-4997584.html",
+          "source_type": "other",
+          "quote_or_fact": "Hong Kong's billionaire Cheng family puts luxury Rosewood Hotel in ..."
+        },
+        {
+          "source_url": "https://wwd.com/eye/people/sonia-cheng-rosewood-expansion-food-curation-carlyle-and-co-1235652753/",
+          "source_type": "other",
+          "quote_or_fact": "Sonia Cheng on Rosewood Expansion, Food Curation, and Carlyle ..."
+        },
+        {
+          "source_url": "https://www.businesstimes.com.sg/lifestyle/bt-luxe/bt-luxe/sonia-cheng-building-familys-legacy-hotels-and-jewellery",
+          "source_type": "other",
+          "quote_or_fact": "Sonia Cheng: Building a family’s legacy in hotels and jewellery - The Business Times"
+        },
+        {
+          "source_url": "https://en.wikipedia.org/wiki/Sonia_Cheng",
+          "source_type": "other",
+          "quote_or_fact": "Sonia Cheng"
+        },
+        {
+          "source_url": "https://falcon-test.ft.com/content/3ce62078-44ed-4b1e-9ed6-3a1adc9fcef4",
+          "source_type": "other",
+          "quote_or_fact": "Sonia Cheng: ‘The key is to design a hotel that doesn’t feel like a hotel’"
+        }
+      ]
+    },
+    {
+      "full_name": "Radha Arora",
+      "title": "President",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group-level leadership overseeing properties including Rosewood London.",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Radha Arora President | Group-level leadership overseeing properties including Rosewood London.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Radha Arora President"
+        }
+      ]
+    },
+    {
+      "full_name": "Anthony Ingham",
+      "title": "Chief Operating Officer",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group COO with operational responsibility for the portfolio.",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Anthony Ingham Chief Operating Officer | Group COO with operational responsibility for the portfolio.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Anthony Ingham Chief Operating Officer"
+        }
+      ]
+    },
+    {
+      "full_name": "Joanna Gunn",
+      "title": "Chief Brand Officer",
+      "company": "Rosewood Hotel Group",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Group-level brand leadership relevant to Rosewood London property.",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Joanna Gunn Chief Brand Officer London | Group-level brand leadership relevant to Rosewood London property.",
+      "evidence": [
+        {
+          "source_url": "https://www.rosewoodhotelgroup.com/en-us/the-group/our-team",
+          "source_type": "official_site",
+          "quote_or_fact": "Joanna Gunn Chief Brand Officer London"
+        }
+      ]
+    },
+    {
+      "full_name": "Jan Johansen",
+      "title": "Area Director of Finance, Business Partner - Central & Northern Europe",
+      "company": "Rosewood London",
+      "linkedin_url": "https://fr.linkedin.com/in/jan-johansen-35990184",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Regional finance role anchored to Rosewood London.",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Area Director of Finance, Business Partner - Central & Northern Europe · Rosewood London... London Area, United Kingdom. | Regional finance role anchored to Rosewood London.",
+      "evidence": [
+        {
+          "source_url": "https://fr.linkedin.com/in/jan-johansen-35990184",
+          "source_type": "linkedin",
+          "quote_or_fact": "Area Director of Finance, Business Partner - Central & Northern Europe · Rosewood London... London Area, United Kingdom."
+        }
+      ]
+    }
+  ]
+}

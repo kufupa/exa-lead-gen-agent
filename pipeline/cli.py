@@ -24,6 +24,7 @@ from pipeline.io import (
     run_id_for_url,
     write_pipeline_ui_artifact,
 )
+from pipeline.legacy_export import persist_pipeline_ui
 from pipeline.models import GrokDiscoveryResult, PipelineRunResult
 from pipeline.review_board import build_review_rows
 from pipeline.telemetry import new_telemetry
@@ -43,6 +44,9 @@ def run_pipeline(
     config: PipelineConfig,
     *,
     out_dir: Path,
+    jsons_dir: Path = Path("jsons"),
+    fulljsons_dir: Path = Path("fullJSONs"),
+    aggregate_sync: bool = True,
     dry_run: bool = False,
 ) -> PipelineRunResult:
     load_repo_dotenv(Path(__file__).resolve().parent.parent)
@@ -113,6 +117,8 @@ def run_pipeline(
     )
     rid = run_id_for_url(hotel_url)
     write_pipeline_ui_artifact(out_dir, rid, ui)
+    if aggregate_sync:
+        persist_pipeline_ui(ui, jsons_dir=jsons_dir, fulljsons_dir=fulljsons_dir)
 
     return PipelineRunResult(
         hotel=ui.resolved_org,
@@ -142,12 +148,26 @@ def main(argv: list[str] | None = None) -> int:
     run_p.add_argument("--skip-contact-mining", action="store_true")
     run_p.add_argument("--dry-run", action="store_true")
     run_p.add_argument("--json", action="store_true", help="Print PipelineRunResult JSON to stdout")
+    run_p.add_argument("--jsons-dir", type=Path, default=Path("jsons"))
+    run_p.add_argument("--fulljsons-dir", type=Path, default=Path("fullJSONs"))
+    run_p.add_argument(
+        "--no-aggregate-sync",
+        action="store_true",
+        help="Do not write jsons/*.enriched.json or rebuild fullJSONs",
+    )
 
     many = sub.add_parser("run-many", help="Run for each URL in a text file")
     many.add_argument("urls_file", type=Path)
     many.add_argument("--concurrency", type=int, default=2)
     many.add_argument("--out", type=Path, default=Path("outputs/pipeline"))
     many.add_argument("--dry-run", action="store_true")
+    many.add_argument("--jsons-dir", type=Path, default=Path("jsons"))
+    many.add_argument("--fulljsons-dir", type=Path, default=Path("fullJSONs"))
+    many.add_argument(
+        "--no-aggregate-sync",
+        action="store_true",
+        help="Do not write jsons/*.enriched.json or rebuild fullJSONs",
+    )
 
     args = p.parse_args(argv)
 
@@ -162,7 +182,15 @@ def main(argv: list[str] | None = None) -> int:
             skip_contact_mining=args.skip_contact_mining,
         )
         try:
-            res = run_pipeline(args.url, cfg, out_dir=args.out, dry_run=args.dry_run)
+            res = run_pipeline(
+                args.url,
+                cfg,
+                out_dir=args.out,
+                jsons_dir=args.jsons_dir,
+                fulljsons_dir=args.fulljsons_dir,
+                aggregate_sync=not args.no_aggregate_sync and not args.dry_run,
+                dry_run=args.dry_run,
+            )
         except Exception as e:
             print(f"error: {e}", file=sys.stderr)
             return 1
@@ -180,7 +208,15 @@ def main(argv: list[str] | None = None) -> int:
         for u in lines:
             print(f"--- {u}")
             try:
-                run_pipeline(u, cfg, out_dir=args.out, dry_run=args.dry_run)
+                run_pipeline(
+                    u,
+                    cfg,
+                    out_dir=args.out,
+                    jsons_dir=args.jsons_dir,
+                    fulljsons_dir=args.fulljsons_dir,
+                    aggregate_sync=not args.no_aggregate_sync and not args.dry_run,
+                    dry_run=args.dry_run,
+                )
             except Exception as e:
                 print(f"error {u}: {e}", file=sys.stderr)
         return 0

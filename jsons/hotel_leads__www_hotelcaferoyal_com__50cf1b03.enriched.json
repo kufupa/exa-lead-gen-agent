@@ -247,7 +247,7 @@
       "full_name": "Aimee Sieczko",
       "title": "Head of Marketing",
       "company": "Hotel Café Royal",
-      "linkedin_url": "https://uk.linkedin.com/in/aimee-sieczko-459aa0a0",
+      "linkedin_url": "https://www.linkedin.com/in/aimee-sieczko-459aa0a0",
       "email": "aimee.sieczko@hotelcaferoyal.com",
       "email2": null,
       "phone": null,
@@ -274,7 +274,98 @@
           "source_type": "linkedin",
           "quote_or_fact": "Profile confirms Head of Marketing role and public email in associated posts"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/aimee-sieczko-459aa0a0",
+        "display_name": "Aimee Sieczko",
+        "headline": "Head of Marketing | Luxury Hospitality",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A London-based marketing lead working in hospitality.I care about thoughtful…",
+        "experience": [
+          {
+            "title": "Press Officer",
+            "organization": "Rank Group",
+            "date_range": "Jun 2010 - Jun 2008",
+            "location": "Maidenhead",
+            "description": null
+          },
+          {
+            "title": "PR And Marketing Executive",
+            "organization": "Hilton",
+            "date_range": "Sep 2012 - Sep 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior PR Marketing Executive",
+            "organization": "Hilton",
+            "date_range": "Oct 2013 - Aug 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "Grace Hotels (now part of Auberge Resorts Collection)",
+            "date_range": "Sep 2015 - Oct 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Marketing And Communications Manager",
+            "organization": "Hilton",
+            "date_range": "Nov 2017 - Jun 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Marketing And Communications",
+            "organization": "Hilton",
+            "date_range": "Jun 2023 - Jul 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Marketing",
+            "organization": "Hotel Café Royal",
+            "date_range": "Dec 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Central Lancashire",
+            "degree_or_field": "Bachelor's degree",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "marketing",
+          "hospitality",
+          "director",
+          "communications",
+          "pr",
+          "digital",
+          "marketing communications",
+          "marketing digital",
+          "digital marketing"
+        ],
+        "activity_themes": [
+          "Luxury hospitality awards and recognitions",
+          "Hotel F&B team achievements and Hilton awards",
+          "London luxury hotel events and dinners",
+          "Walpole Power List and industry leadership",
+          "Concierge and business support awards",
+          "Professional development and management training",
+          "Client networking and hotel representation",
+          "Revenue and inter-generational hospitality forums"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/aimee-sieczko-459aa0a0"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Laura Cammarano",
@@ -326,7 +417,7 @@
       "full_name": "Hanna Popiel",
       "title": "Director of MICE Sales",
       "company": "Hotel Café Royal",
-      "linkedin_url": "https://uk.linkedin.com/in/hanna-popiel-404585100",
+      "linkedin_url": "https://www.linkedin.com/in/hanna-popiel-404585100",
       "email": "hanna.popiel@hotelcaferoyal.com",
       "email2": "eventsandgroups@hotelcaferoyal.com",
       "phone": null,
@@ -353,13 +444,93 @@
           "source_type": "official_site",
           "quote_or_fact": "Events and Groups: eventsandgroups@hotelcaferoyal.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/hanna-popiel-404585100",
+        "display_name": "Hanna Popiel",
+        "headline": "Director of MICE Sales at Hotel Café Royal",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 13 years and 9 months",
+        "experience": [
+          {
+            "title": "Hostess And Reservation Agent",
+            "organization": "The Dorchester",
+            "date_range": "May 2012 - Oct 2013",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist\nCompany: 501-1000 employees • Founded 1931 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "The Dorchester",
+            "date_range": "Oct 2013 - Mar 2017",
+            "location": null,
+            "description": "Department: Sales • Level: Manager\nCompany: 501-1000 employees • Founded 1931 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Senior Sales Executive - Entertainment Specialist",
+            "organization": "The Dorchester",
+            "date_range": "Mar 2017 - Oct 2017",
+            "location": null,
+            "description": "Company: 501-1000 employees • Founded 1931 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "The Dorchester",
+            "date_range": "Oct 2017 - Jun 2022",
+            "location": null,
+            "description": "Department: Sales • Level: Manager\nCompany: 501-1000 employees • Founded 1931 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Senior Sales Manager - Groups Events",
+            "organization": "Bvlgari Hotel London",
+            "date_range": "Jun 2022 - Aug 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Manager\nCompany: 201-500 employees • Founded 2012 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Director Of MICE Sales",
+            "organization": "Hotel Café Royal",
+            "date_range": "Aug 2024 - Present",
+            "location": "Greater London, England, United Kingdom",
+            "description": "Department: Sales • Level: Director\nCompany: 201-500 employees • Founded 2012 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+            "degree_or_field": "Bachelor, Latin Language and Literature",
+            "date_range": null
+          },
+          {
+            "school": "London Metropolitan University",
+            "degree_or_field": "Journalism",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "sales",
+          "entertainment",
+          "reservation",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Liked announcements of new managerial appointments in hospitality",
+          "Engaged with career moves and leadership updates at luxury brands",
+          "Interest in year-end reflections, gratitude, and personal summaries from professionals",
+          "Following hotel team events, Christmas lunches, and festive hospitality celebrations",
+          "Appreciation for talent development, incentive travel, and event industry posts"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Inna Nekrassova",
       "title": "Director of Revenue",
       "company": "Hotel Café Royal",
-      "linkedin_url": "https://uk.linkedin.com/in/inna-in-revenue",
+      "linkedin_url": "https://www.linkedin.com/in/inna-in-revenue",
       "email": null,
       "email2": null,
       "phone": null,
@@ -386,13 +557,123 @@
           "source_type": "official_site",
           "quote_or_fact": "Reservations contact details listed"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/inna-in-revenue",
+        "display_name": "Inna Nekrassova",
+        "headline": "Director of Revenue @ Hotel Café Royal | Hotel Catey  - RM of the Year",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "⭐️ Hotel Catey - Revenue Manager of the Year 2024 ⭐️ Boutique Hotelier Power List 2023 ⭐️ HOSPA Inspirational Leader Awards shortlist - Revenue Leader of the Year 2023 Commercially-minded and guest-centric leader with 16+ years in the hotel industry and a passion for all things revenue and data. Almost a decade of experience in senior reservations and revenue management roles. Recognised skills in leading teams to achieve outstanding service and financial goals within luxury market. Analytical, detail-oriented and an avid learner. 🔹 Certified in IDeaS G3 RMS 🔹 Mentor at University of Surrey",
+        "experience": [
+          {
+            "title": "Management Programme Participant",
+            "organization": "Red Carnation Hotels",
+            "date_range": "Jul 2013 - Aug 2015",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "Sep 2015 - Apr 2016",
+            "location": "London, United Kingdom",
+            "description": "The Milestone Hotel & Residences • Manager of the Quarter for January - March 2016"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "May 2016 - Jul 2017",
+            "location": "London, United Kingdom",
+            "description": "The Milestone Hotel & Residences • Led Reservations, Events and Revenue functions for 62 bedroom hotel and 6 residences • 3 direct reports (Reservations Agent, Reservations Supervisor and Events Coordinator) • Created and monitored promotions and packages to maximise revenue and in line with hotel’s strategies • Rate loading and maintenance in SynXis, Trust and Maestro PMS • Prepared and led weekly revenue meetings and quarterly 30-60-90 meetings • Oversaw group requests and group pricing"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "The Bulgari Hotel & Residences, London",
+            "date_range": "Aug 2017 - Jun 2019",
+            "location": "London, United Kingdom",
+            "description": "Headed Reservations department for 82 bedroom luxury hotel – team of 6 • Increased team engagement by +17%, as measured by employee engagement survey • Introduced monthly reservations calls audits, for the first time in hotel’s history • Improved reservation team’s average call audit score from 85% to 99.3% within 8 months • Awarded Tradition of Excellence Award by the hotel - leading to deliver impeccable service • Supported DORM in revenue functions and chairing revenue meetings in their absence • Awarded ‘Star Employee’ in LQA reports with 100% score 3 times"
+          },
+          {
+            "title": "Assistant Revenue Manager, UK Collection",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jun 2019 - Jun 2022",
+            "location": "London, United Kingdom",
+            "description": "Cluster role for 196 bedroom Four Seasons Hotel London at Park Lane and 134 bedroom Four Seasons Hotel Hampshire • Four Seasons Hampshire awarded 2021 Revenue Management Hotel of the Year EMEA • Contributed to +14% delivery on room revenue budget YTD Oct 2022 in Hampshire hotel and +42% on budget in Park Lane hotel • Achieved an RGI growth of 9% YOY in Hampshire in 2019, with both hotels achieving RGI of well over 100 in 2019 • Led and successfully delivered IDeaS G3 migration for Four Seasons Hampshire • Winner of Innovation Pathway 2021 competition - best business idea, that generated £50k+"
+          },
+          {
+            "title": "Senior Revenue Manager, UK Collection",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jul 2022 - Oct 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Promoted to Senior Cluster Revenue Manager for Four Seasons Hotel London at Park Lane and Four Seasons Hotel Hampshire"
+          },
+          {
+            "title": "Head Of Revenue",
+            "organization": "The Lanesborough",
+            "date_range": "Oct 2022 - Jan 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Heading Revenue and Reservations departments of 93 bedroom luxury hotel – team of 9 • Chairing commercial and strategy meetings weekly • Achieved highest ADR in Jul 2023 and highest room revenue in Jun 2024 on property’s record • Gained +1.9% growth in RevPAR vs comp set drop of -3.6% FY 2024 - Occ up +8.5% YOY • Achieved YOY RGI growth of +5.7% in 2024 and improved RGI ranking by +2 spots • Delivered room revenue growth of +8% and ADR growth of +13% on budget for 2023 • In 2023 achieved RevPAR growth of +3% YOY • Introduced and integrated Revenue Insight as no BI tools were used previously • Implemented reservations incentive programme and better call & conversion tools, helping to increase team’s LQA scores from 73% to 97% • Improved average LOS from 2.9 to 3.5 days and average lead time from 14 to 23 days in 2 yrs • Introduced new promotions that collectively generated over £2m since launching in 2023/2024 • Nominated for Leader of the Quarter for Q2 2023, Q1 2024 and Q3 2024"
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Hotel Café Royal",
+            "date_range": "Feb 2025 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Leading revenue and commercial function of 159 bedroom luxury hotel • Member of the Executive Committee • Chairing commercial meetings weekly"
+          }
+        ],
+        "education": [
+          {
+            "school": "Oxford Brookes University",
+            "degree_or_field": "Bachelor of Science (BSc), International Hospitality Management",
+            "date_range": "2009 - 2013"
+          },
+          {
+            "school": "The Hong Kong Polytechnic University",
+            "degree_or_field": "Bachelor of Science (BSc), Hotel Management",
+            "date_range": "2012 - 2012"
+          }
+        ],
+        "skills": [
+          "revenue management",
+          "detail oriented",
+          "employee engagement",
+          "hotel",
+          "reservations",
+          "management",
+          "luxury",
+          "avid",
+          "director",
+          "p",
+          "less",
+          "commercial",
+          "cluster",
+          "budget",
+          "hotels",
+          "innovation",
+          "strategy",
+          "property",
+          "promotions",
+          "reports",
+          "maintenance",
+          "pricing",
+          "engagement",
+          "reservation",
+          "audit"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/inna-in-revenue"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ton van Geffen",
       "title": "Head of Distribution and Loyalty",
       "company": "The Set Collection",
-      "linkedin_url": "https://nl.linkedin.com/in/ton-van-geffen-06435536",
+      "linkedin_url": "https://www.linkedin.com/in/ton-van-geffen-06435536",
       "email": null,
       "email2": null,
       "phone": null,
@@ -419,13 +700,152 @@
           "source_type": "official_site",
           "quote_or_fact": "The Set reservations contact details"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ton-van-geffen-06435536",
+        "display_name": "Ton van Geffen",
+        "headline": "Head of Distribution and Loyalty",
+        "location": "Amsterdam, North Holland, Netherlands (NL)",
+        "about": "Total Experience: 21 years and 1 month",
+        "experience": [
+          {
+            "title": "Night Auditor",
+            "organization": "Radisson Blu Astrid Hotel",
+            "date_range": "Sep 2002 - Dec 2002",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Night Manager",
+            "organization": "Sofitel Cocagne Eindhoven",
+            "date_range": "Feb 2005 - Nov 2009",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Assistent Front Office Manager",
+            "organization": "MGM Grand",
+            "date_range": "Dec 2009 - Jun 2011",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Shiftleader Front Desk",
+            "organization": "Novotel amsterdam city",
+            "date_range": "Jul 2011 - May 2013",
+            "location": null,
+            "description": "Department: Customer Service • Level: Senior"
+          },
+          {
+            "title": "Supervisor Front Desk",
+            "organization": "Conservatorium Hotel",
+            "date_range": "Jun 2013 - May 2015",
+            "location": "Van Baerlestraat 27",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "Conservatorium hotel",
+            "date_range": "Jan 2015 - Oct 2021",
+            "location": "Amsterdam Area, Netherlands",
+            "description": "Not your typical duty Manager. Responsible for the day to day running of the front desk together with the front desk manager and another Duty Manager. Making sure all quality standards are met in regards to leading hotels of the world and Amex fine hotels and resorts. Mid to long term planning of the front office department. Taking care of VIP clients and dealing with challenges in regards to personell, guests and policies and procedures.\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Conservatorium hotel",
+            "date_range": "Jan 2018 - Oct 2021",
+            "location": "Amsterdam Area, Netherlands",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager The Set Collection",
+            "organization": "The Set Collection",
+            "date_range": "Sep 2021 - Jul 2022",
+            "location": "Amsterdam Area",
+            "description": null
+          },
+          {
+            "title": "Loyalty And Guest Retention Manager",
+            "organization": "The Set Collection",
+            "date_range": "Jul 2022 - Oct 2024",
+            "location": "Amsterdam Area",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Loyalty And CRM Manager",
+            "organization": "The Set Collection",
+            "date_range": "Oct 2024 - Sep 2025",
+            "location": "Amsterdam, North Holland, Netherlands",
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Head Of Distribution And Loyalty",
+            "organization": "The Set",
+            "date_range": "Sep 2025 - Present",
+            "location": "Amsterdam, North Holland, Netherlands",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "front desk manager",
+          "office software",
+          "policy management",
+          "long term planning",
+          "planning",
+          "duty manager",
+          "crm",
+          "desk manager",
+          "hotels",
+          "quality standards",
+          "front office",
+          "night auditor",
+          "auditing",
+          "standards",
+          "set",
+          "distribution",
+          "front desk",
+          "collection",
+          "front office manager",
+          "shift leader",
+          "retention",
+          "guest retention",
+          "reservations",
+          "leading",
+          "management",
+          "office manager",
+          "supervisor",
+          "quality management",
+          "crm manager"
+        ],
+        "activity_themes": [
+          "Loyalty and awards conferences in travel industry",
+          "Job transitions in hospitality management",
+          "Luxury travel partnerships and global hotel alliances",
+          "Women leading travel events and networking",
+          "Luxury hotel group expansion and brand ethos",
+          "Personalization trends in hospitality",
+          "Industry events including ILTM Cannes"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/jelena-kezika_loyaltyandawards-travelindustry-partnership-activity-7429038121893117952-k3p-",
+          "https://www.linkedin.com/posts/florian-spierenburg-16b53a29_job-update-dear-network-with-the-start-activity-7414044074854469632-OhPN",
+          "https://www.linkedin.com/posts/luxurytravel-luxuryhotels-luxurylifestyle-activity-7420774984958259200-gloK",
+          "https://www.linkedin.com/posts/guido-van-den-berk-b557aa13_as-you-may-or-may-not-already-know-with-activity-7415022419322576896-ZE7j",
+          "https://www.linkedin.com/posts/kasiarudnik_wltevents-womenleadingtravel-wltcommunity-activity-7419829637473628160-Tyg_",
+          "https://www.linkedin.com/posts/the-set_theset-curatedbytheset-aspiretravelclub-activity-7422672479577620481-KH4I",
+          "https://www.linkedin.com/posts/ashleerthomas_incredible-achievement-so-well-deserved-activity-7406390665074405379-t7NH",
+          "https://www.linkedin.com/posts/kristi-gole-7687893_ghadiscovery-luxurytravel-partnerships-activity-7400862968961327104-8Gl4"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Eugene Leonard",
       "title": "General Manager",
       "company": "Hotel Café Royal",
-      "linkedin_url": "https://uk.linkedin.com/in/eugene-leonard-hotelier",
+      "linkedin_url": "https://www.linkedin.com/in/eugene-leonard-hotelier",
       "email": null,
       "email2": null,
       "phone": null,
@@ -452,13 +872,141 @@
           "source_type": "linkedin",
           "quote_or_fact": "General Manager at Hotel Café Royal"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/eugene-leonard-hotelier",
+        "display_name": "Eugene Leonard",
+        "headline": "General Manager at Hotel Cafe Royal",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Accomplished ultra-luxury Hotelier with over 25 years international experience across hospitality, major property development and Food & Beverage in the United States and Europe. Core competencies and strengths include: driving financial performance and increasing market share, delivering exceptional brand experience, attaining high level operational quality, creating a culture of excellence through passionate leadership, overall project management and hotel design, successful concept and outlet creation, identifying and pursuing key strategic business opportunities, all resulting in positive growth for some of the world’s best hotels.\n\nTotal Experience: 23 years and 6 months",
+        "experience": [
+          {
+            "title": "Guest Floor Services Manager",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "May 2001 - Nov 2001",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Food And Beverage Manager",
+            "organization": "The Clarence Hotel",
+            "date_range": "Nov 2001 - Feb 2003",
+            "location": "Dublin, Ireland",
+            "description": null
+          },
+          {
+            "title": "Conference Events Manager",
+            "organization": "Old Course Hotel, Golf Resort & Spa",
+            "date_range": "Mar 2003 - Aug 2005",
+            "location": "St Andrews, Fife Scotland",
+            "description": null
+          },
+          {
+            "title": "Assistant Food And Beverage Manager",
+            "organization": "Old Course Hotel, Golf Resort & Spa",
+            "date_range": "Aug 2005 - Jun 2006",
+            "location": "St Andrews, Fife Scotland",
+            "description": null
+          },
+          {
+            "title": "Food Beverage Director",
+            "organization": "The Cadogan Hotel London",
+            "date_range": "Jun 2006 - Mar 2008",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Events Groups",
+            "organization": "The Berkeley hotel",
+            "date_range": "Mar 2008 - Aug 2009",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Events",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Aug 2009 - Oct 2011",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Claridge's",
+            "date_range": "Oct 2011 - Apr 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Connaught Hotel",
+            "date_range": "Apr 2015 - Oct 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Claridge's",
+            "date_range": "Oct 2016 - May 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Maybourne Beverly Hills",
+            "date_range": "May 2020 - Jun 2023",
+            "location": "Beverly Hills, California, United States",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Hotel Café Royal",
+            "date_range": "Aug 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Shannon College of Hotel Management",
+            "degree_or_field": null,
+            "date_range": "1998 - 2002"
+          }
+        ],
+        "skills": [
+          "project management",
+          "luxury",
+          "hospitality",
+          "property",
+          "food",
+          "driving",
+          "leadership",
+          "management",
+          "hotel",
+          "design",
+          "hotels",
+          "director"
+        ],
+        "activity_themes": [
+          "Hospitality awards and AA Rosette recognitions",
+          "Leadership development and management training",
+          "Campaigns celebrating excellence in hospitality",
+          "Manager of the Month features and interviews",
+          "Luxury hotel leadership team events",
+          "Iconic hotel transitions and new chapters",
+          "Judging restaurant and hospitality awards"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/eugene-leonard-hotelier"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Marie Kelly",
       "title": "Director of Reservations / Member Liaison & Performance",
       "company": "The Set Collection",
-      "linkedin_url": "https://uk.linkedin.com/in/marie-kelly-4934a144",
+      "linkedin_url": "https://www.linkedin.com/in/marie-kelly-4934a144",
       "email": "marie.kelly@hotelcaferoyal.com",
       "email2": "reservations@thesetcollection.com",
       "phone": "+44 20 7406 3322",
@@ -480,13 +1028,119 @@
           "source_type": "linkedin",
           "quote_or_fact": "Director Of Reservations at The Set Collection; previously Reservations Manager at Hotel Café Royal"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/marie-kelly-4934a144",
+        "display_name": "Marie Kelly",
+        "headline": "Director of Reservations at The Set Collection",
+        "location": "Oxted, England, United Kingdom (GB)",
+        "about": "I am someone who is passionate about Five Star Luxury Service not just within Room Reservations but across all departments. I believe in offering the highest level of service for the guest journey from the start of their booking process until departure, and increasing guest loyalty for future business. I have a proven track record of increasing sales conversion and closure on all enquiries whilst motivating and valuing my team. Since January 2019 I have successfully incorporated three separate Reservation Teams across The Set Hotels, that has seen the teams merge together, cross sell each property and introduced a 24 hours Reservation Department. This has ensured that we are available to our booking partners at any time of day, regardless of the time zone. This has been my proudest achievement in the last 12 months, along with a high staff retention rate and scoring highly in our colleague opinion survey of 2019.",
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Tophams of Belgravia Hotel",
+            "date_range": "Jul 1997 - Jan 2006",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Market Area Dealership Co-ordinator",
+            "organization": "Mercedes-Benz of Sussex",
+            "date_range": "Jan 2006 - Jan 2008",
+            "location": null,
+            "description": "Responsible for four Mercedes-Benz sites) * My role was to oversee, book and organise all the market area training for the Sales Department. This was crucial to obtaining the KPI for the market area training and development. * All dealerships were measured on their CSI index scores which was included as part of my role to increase within the market place both for the brand and the dealership. We improved from position 15 to position 8, within eighteen months and the business benefited from a significant increase in the P&L. * Oversaw all front of house staff, and created the right first impression for all customers both on the phone and for customers visiting the dealerships."
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Malmaison",
+            "date_range": "Sep 2008 - Oct 2011",
+            "location": "Glasgow, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Malmaison Glasgow",
+            "date_range": "Sep 2008 - Oct 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Supervisor",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Dec 2011 - Jun 2012",
+            "location": null,
+            "description": "Key achievements with Jumeirah: * Built the reservations department from pre-opening, setting up all departmental policies and procedures, staff recruitment & training. * Winning ‘Manager of the Year 2013' and ‘Team of the Year 2013'. * The number one department for Medallia/JD Power Customer Satisfaction Surveys within the hotel. * Number one in the entire Jumeirah Group for IFH test calls to each Reservations Department in 2013 and achieving second position for 2014. * Personally securing key business accounts that generated £2.4 million in Rooms Revenue year-to-date. * Zero staff turnover from September 2012 until October 2014. * In the absence of the Director of Operations I chaired the weekly Op's Meeting with the relevant HOD's from May until September 2014. * Running the “Make a Difference” committee who look after social and corporate responsibilities for the property and the community"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Jun 2012 - Jul 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Hotel Café Royal",
+            "date_range": "Jul 2015 - Jan 2019",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Reservations",
+            "organization": "The Set Collection",
+            "date_range": "Jan 2019 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Steyning Grammar School",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "staff retention",
+          "front office",
+          "customer satisfaction",
+          "luxury",
+          "reservations",
+          "sales",
+          "reservation",
+          "hotels",
+          "property",
+          "director",
+          "responsible",
+          "training",
+          "kpi",
+          "p",
+          "less",
+          "recruitment",
+          "hotel",
+          "operations",
+          "running"
+        ],
+        "activity_themes": [
+          "Luxury hospitality industry news",
+          "Hotel team celebrations and milestones",
+          "London landmark hotel history and events",
+          "Executive appointments in luxury groups",
+          "Luxury travel brand strategies and summits",
+          "Women in travel leadership and networking"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/marie-kelly-4934a144"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Olga Mudryakova",
       "title": "Director of Sales and Marketing",
       "company": "Hotel Café Royal",
-      "linkedin_url": "https://uk.linkedin.com/in/olga-mudryakova",
+      "linkedin_url": "https://www.linkedin.com/in/olga-mudryakova",
       "email": null,
       "email2": null,
       "phone": null,
@@ -513,13 +1167,121 @@
           "source_type": "directory",
           "quote_or_fact": "Olga Mudryakova (Director of Sales and Marketing)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/olga-mudryakova",
+        "display_name": "Olga Mudryakova MIH",
+        "headline": "Director of Sales and Marketing at Hotel Café Royal",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced Director of Sales and Marketing with a demonstrated history of working in international hotel chains. Skilled in Rooms and Events Sales, Marketing and Budgeting. Strong sales professional with a Bachelor of Arts (B.A.) focused in Hospitality Administration/Management from International Hotel Management Institute in Switzerland.",
+        "experience": [
+          {
+            "title": "Sales Manager",
+            "organization": "Swissôtel Hotels & Resorts",
+            "date_range": "Apr 2005 - Jun 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Global Sales Manager",
+            "organization": "Rocco Forte Hotels",
+            "date_range": "Jul 2007 - Feb 2008",
+            "location": "Moscow, Russia",
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Ararat Park Hyatt Moscow",
+            "date_range": "Mar 2008 - Dec 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Associate Director Of Sales",
+            "organization": "Ararat Park Hyatt Moscow",
+            "date_range": "Jan 2011 - Nov 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Acting Director Of Sales And Marketing",
+            "organization": "Ararat Park Hyatt Moscow",
+            "date_range": "Dec 2013 - Mar 2014",
+            "location": "Moscow, Russian Federation",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Ararat Park Hyatt Moscow",
+            "date_range": "Apr 2014 - Sep 2016",
+            "location": "Moscow, Russian Federation",
+            "description": "Managing team of Rooms Sales, Events Sales, Revenue and PR&Digital Marketing"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Hyatt Regency London – The Churchill",
+            "date_range": "Sep 2016 - Aug 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Hyatt Regency London – The Churchill",
+            "date_range": "Aug 2018 - Jun 2024",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Hotel Café Royal",
+            "date_range": "Jun 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "IMI International Management Institute Switzerland",
+            "degree_or_field": "Bachelor of Arts (B.A.), Hospitality Administration/Management",
+            "date_range": "2000 - 2004"
+          }
+        ],
+        "skills": [
+          "director",
+          "sales",
+          "marketing",
+          "hotel",
+          "budgeting",
+          "arts",
+          "hospitality",
+          "administration",
+          "management",
+          "acting",
+          "pr",
+          "digital",
+          "hotel management",
+          "sales manager",
+          "digital marketing"
+        ],
+        "activity_themes": [
+          "Luxury hospitality events and celebrations",
+          "Professional training and development in hotels",
+          "Hospitality trade shows like FITUR",
+          "Luxury brand leadership and awards",
+          "Marketing strategies in upscale hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/olga-mudryakova"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Tom de Jong",
       "title": "Senior Director of Sales",
       "company": "The Set Collection",
-      "linkedin_url": "https://nl.linkedin.com/in/tom-de-jong-7a544035",
+      "linkedin_url": "https://www.linkedin.com/in/tom-de-jong-7a544035",
       "email": null,
       "email2": null,
       "phone": null,
@@ -541,7 +1303,120 @@
           "source_type": "linkedin",
           "quote_or_fact": "Senior Director of Sales at The Set"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/tom-de-jong-7a544035",
+        "display_name": "Tom de Jong",
+        "headline": "Senior Director of Sales at The Set",
+        "location": "Amsterdam, North Holland, Netherlands (NL)",
+        "about": "Total Experience: 17 years and 9 months",
+        "experience": [
+          {
+            "title": "Sales Co-ordinator",
+            "organization": "Hilton Worldwide",
+            "date_range": "Nov 2007 - Jun 2008",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Hilton Worldwide",
+            "date_range": "Jul 2008 - Oct 2010",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Hilton Worldwide",
+            "date_range": "Nov 2010 - Sep 2011",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Rosewood London",
+            "date_range": "Oct 2011 - Sep 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Rosewood London",
+            "date_range": "Oct 2014 - Sep 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Associate Director Of Sales",
+            "organization": "Conservatorium hotel",
+            "date_range": "Oct 2016 - May 2019",
+            "location": "Amsterdam Area, Netherlands",
+            "description": null
+          },
+          {
+            "title": "Acting Director Of Sales",
+            "organization": "Conservatorium hotel",
+            "date_range": "May 2018 - May 2019",
+            "location": "Amsterdam Area, Netherlands",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Conservatorium hotel",
+            "date_range": "Jun 2019 - Mar 2023",
+            "location": "Amsterdam Area, Netherlands",
+            "description": null
+          },
+          {
+            "title": "Senior Director Of Sales",
+            "organization": "The Set",
+            "date_range": "Apr 2023 - Present",
+            "location": "Amsterdam, North Holland, Netherlands",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Stenden",
+            "degree_or_field": "Bachelor's degree, International Hospitality Management",
+            "date_range": "2005 - 2008"
+          }
+        ],
+        "skills": [
+          "sales",
+          "acting",
+          "executive leadership",
+          "sales executive",
+          "senior sales",
+          "executive sales",
+          "director",
+          "director sales",
+          "coordinator",
+          "sales associate",
+          "sales management",
+          "sales coordinator",
+          "management"
+        ],
+        "activity_themes": [
+          "Luxury hospitality awards and recognitions",
+          "Hotel sales leadership and promotions",
+          "Travel industry networking and partnerships",
+          "Team achievements in hospitality",
+          "Career development stories"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/ray-barnes-b54a52a_teamamex-travelandconciergeservices-activity-7427714137767575552-OIcA",
+          "https://www.linkedin.com/posts/bart-hilgers_per-aspera-ad-astra-through-adversity-activity-7429507245950017536-m8jG",
+          "https://www.linkedin.com/posts/mark-rothman-magma-global_magmaglobal-travel-teamwork-activity-7427015569188503552-r0Pq",
+          "https://www.linkedin.com/posts/leagibert_proud-forbes5stars-excellence-activity-7427370985772900353-hzY7",
+          "https://www.linkedin.com/posts/tyler-branco-681b4267_luxefarer-travelleisure-travelleisurealist-activity-7428634753915854849-eBW0",
+          "https://www.linkedin.com/posts/the-set_theset-lunarnewyear-exceptionalhotels-activity-7429458610495107072-yxOj",
+          "https://www.linkedin.com/posts/gladys-camphuijsen_for-a-long-time-i-thought-independence-meant-activity-7429442902453379072-hjJm",
+          "https://www.linkedin.com/posts/florisdewit_thank-you-for-your-trust-gianluca-it-was-activity-7424069212912103424-5K02"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ashlee Thomas",
@@ -564,13 +1439,129 @@
           "source_type": "official_site",
           "quote_or_fact": "Ashlee Thomas - Director of Sales – North America"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ashleerthomas",
+        "display_name": "Ashlee R. Thomas",
+        "headline": "Luxury Hospitality Sales Leader",
+        "location": "New York, New York, United States",
+        "about": "Sales Leader with a demonstrated history of 20+ years of hospitality experience. Skilled… Total Experience: 24 years and 3 months",
+        "experience": [
+          {
+            "title": "Sales Coordinator",
+            "organization": "Swissotel, the Drake",
+            "date_range": "Jan 2000 - Jan 2002",
+            "location": null,
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Coordinator",
+            "organization": "St. Regis New York",
+            "date_range": "Jan 2003 - Jan 2005",
+            "location": null,
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Global Account Executive",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Jan 2005 - Jan 2007",
+            "location": null,
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Area Sales Manager",
+            "organization": "Kimpton Hotels",
+            "date_range": "Oct 2007 - Aug 2012",
+            "location": null,
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Corporate Sales",
+            "organization": "the Quin hotel (a Highgate Hotel)",
+            "date_range": "Jul 2012 - Jan 2016",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales - Americas",
+            "organization": "Global Hospitality Services",
+            "date_range": "Dec 2015 - Oct 2016",
+            "location": "Greater New York City Area",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales And Marketing - Dream Midtown",
+            "organization": "Dream Hotel Group",
+            "date_range": "Oct 2016 - Jan 2019",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Royalton Park Avenue",
+            "date_range": "Jan 2019 - Oct 2020",
+            "location": "New York, New York",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Business Industry Travel Sales",
+            "organization": "The Newbury Boston",
+            "date_range": "Oct 2020 - Oct 2024",
+            "location": "Boston, Massachusetts, United States",
+            "description": null
+          },
+          {
+            "title": "Global Director, Travel Industry Luxury Sales",
+            "organization": "Highgate",
+            "date_range": "Aug 2022 - Oct 2024",
+            "location": "New York City Metropolitan Area",
+            "description": "Work with Highgate leadership as we develop a Global Sales organization to drive revenue to 35 hand selected Luxury / Lifestyle hotels in the Highgate/Viceroy portfolio. Specific focus on the Travel Trade and Luxury Advisor community to leverage existing relationships and partnerships driving new business opportunities across the portfolio for increased revenues. Continue oversight of Luxury Leisure and Business Travel for the Newbury Boston - a Highgate Hotel"
+          },
+          {
+            "title": "Director Of Leisure Sales, North America",
+            "organization": "The Set Collection",
+            "date_range": "Oct 2024 - Present",
+            "location": "Northeast, New York, United States",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales",
+          "hospitality",
+          "director",
+          "luxury",
+          "leadership",
+          "hotels",
+          "partnerships",
+          "driving",
+          "hotel",
+          "marketing",
+          "sales manager",
+          "luxury lifestyle",
+          "business travel",
+          "new business opportunities"
+        ],
+        "activity_themes": [
+          "Luxury hotel promotions and industry achievements",
+          "Participation in ILTM and luxury travel events",
+          "Sustainable tourism and resort developments",
+          "Team and partner recognition at Highgate and Newbury Boston",
+          "Industry congratulations and award highlights",
+          "Hiring and career opportunities in hospitality sales"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/ashleerthomas_incredible-achievement-so-well-deserved-activity-7406390665074405379-t7NH"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ben Murphy",
       "title": "Director of Sales - Entertainment & Leisure",
       "company": "Hotel Café Royal",
-      "linkedin_url": "https://uk.linkedin.com/in/ben-murphy-29a338a2",
+      "linkedin_url": "https://www.linkedin.com/in/ben-murphy-29a338a2",
       "email": "eventsandgroups@hotelcaferoyal.com",
       "email2": null,
       "phone": "+44 (0)20 7406 3300",
@@ -587,7 +1578,110 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales and events roles referenced in context of commercial team"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ben-murphy-29a338a2",
+        "display_name": "Ben Murphy",
+        "headline": "Director of Sales - Entertainment & Leisure",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Currently the Director of Sales - Entertainment & Leisure at Hotel Café Royal… Total Experience: 14 years and 11 months",
+        "experience": [
+          {
+            "title": "Home Sales Advisor",
+            "organization": "Next PLC",
+            "date_range": "Nov 2010 - Nov 2012",
+            "location": null,
+            "description": "Department: Real Estate • Level: Specialist"
+          },
+          {
+            "title": "Lobby Executive",
+            "organization": "Hotel Café Royal",
+            "date_range": "Oct 2012 - Aug 2013",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Guest Relations Agent",
+            "organization": "EDITION",
+            "date_range": "Aug 2013 - Oct 2014",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Corporate Receptionist",
+            "organization": "Lloyd's of London",
+            "date_range": "Oct 2014 - Apr 2016",
+            "location": null,
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Reception Concierge",
+            "organization": "Christian Louboutin",
+            "date_range": "Apr 2016 - Nov 2016",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Guest Relations Executive",
+            "organization": "Chiltern Firehouse",
+            "date_range": "Nov 2016 - Mar 2018",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Bedroom Reservations Manager",
+            "organization": "Chiltern Firehouse",
+            "date_range": "Mar 2018 - Oct 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Revenue Manager",
+            "organization": "Chiltern Firehouse",
+            "date_range": "Oct 2018 - Jun 2023",
+            "location": "London, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Director Of Sales Revenue",
+            "organization": "Chiltern Firehouse",
+            "date_range": "Jun 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "All Saints Catholic School and Technology College",
+            "degree_or_field": null,
+            "date_range": "2005 - 2010"
+          },
+          {
+            "school": "Havering Sixth Form College",
+            "degree_or_field": "A Level, Communication and Media Studies",
+            "date_range": "2010 - 2012"
+          }
+        ],
+        "skills": [
+          "director",
+          "sales",
+          "entertainment",
+          "hotel",
+          "reservations"
+        ],
+        "activity_themes": [
+          "Luxury hotel career promotions in sales and revenue roles",
+          "Industry events including ILTM Cannes for hospitality networking",
+          "Festive celebrations and year-end events at premium hotels",
+          "General manager profiles in ultra-luxury hospitality",
+          "Awards and nominations in specialist luxury travel",
+          "AI applications in PR, communications and brand credibility",
+          "Podcasts on hospitality growth, momentum and collections"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Monica Bewak",
@@ -610,7 +1704,198 @@
           "source_type": "official_site",
           "quote_or_fact": "Deputy Head of Events & Groups works with Head/Regional Director of Events & Groups"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/monicabewak",
+        "display_name": "Monica Bewak",
+        "headline": "Global luxury hospitality director | Passion for team success & seamless experiences | Development of growth strategies",
+        "location": "London, England, United Kingdom",
+        "about": "Strategic and results-driven hospitality executive with 20+ years of international…",
+        "experience": [
+          {
+            "title": "Sales Associate",
+            "organization": "Disneyland Paris",
+            "date_range": "Jun 1998 - Aug 1998",
+            "location": "Marne-la-Vallée, France",
+            "description": null
+          },
+          {
+            "title": "Second Assistant To Anne Kopelson",
+            "organization": "Kopelson Entertainment",
+            "date_range": "Oct 1998 - Aug 1999",
+            "location": "Los Angeles, CA",
+            "description": null
+          },
+          {
+            "title": "Catering Assistant",
+            "organization": "Four Seasons Hotel Los Angeles at Beverly Hills",
+            "date_range": "Aug 1999 - May 2000",
+            "location": "Los Angeles, CA",
+            "description": null
+          },
+          {
+            "title": "Catering Manager",
+            "organization": "Four Seasons Hotel Los Angeles at Beverly Hills",
+            "date_range": "May 2000 - Aug 2002",
+            "location": "Los Angeles, CA",
+            "description": "Managed, sold and successfully serviced over $1 million in events per year by prospecting and securing local corporate and social events as well as weddings"
+          },
+          {
+            "title": "Catering Manager",
+            "organization": "The Pierre, New York, A Four Seasons Hotel",
+            "date_range": "Aug 2002 - Jul 2005",
+            "location": "New York, NY",
+            "description": "Sold and serviced over $7 million annually in events; managed high-end clientele for social occasions/weddings, fund-raising galas, kosher & MICE events of 400-800 guests; strengthened & developed long-term relationships for repeat business"
+          },
+          {
+            "title": "Associate Director Of Catering",
+            "organization": "Four Seasons Hotel George V, Paris",
+            "date_range": "Oct 2005 - Oct 2006",
+            "location": "Paris, France",
+            "description": "Co-managed Catering & Conference Services Department to exceed budget of €9 million; led team to qualify and acquire new clientele from local Parisian and international markets; produced monthly wine and literature events; managed high profile royalty and entertainment groups"
+          },
+          {
+            "title": "Associate Director Of Event Sales",
+            "organization": "Beverly Wilshire Beverly Hills, A Four Seasons Hotel",
+            "date_range": "Oct 2006 - Sep 2013",
+            "location": "Beverly Hills, CA",
+            "description": "Co-managed Catering & Conference Services Department to exceed budget of over $11 million; developed annual budget and team goals; entertained frequently to nurture client relationships; analyzed labor standards and operational effects"
+          },
+          {
+            "title": "Director Of Event Sales Group Services",
+            "organization": "Trump SoHo New York",
+            "date_range": "Sep 2013 - Feb 2015",
+            "location": "New York, NY",
+            "description": "Led Catering & Conference Services team to exceed forecast and strengthen client relations; partnered with Director of Revenue and Director of Sales & Marketing to analyze current and future business potential; created departmental standards; strengthened position through menu redesign including local partnerships"
+          },
+          {
+            "title": "Director Of Event Sales Planning, Group Services",
+            "organization": "Rosewood London",
+            "date_range": "Feb 2015 - Nov 2021",
+            "location": "London, United Kingdom",
+            "description": "Developing and managing selling strategy for luxury MICE and social markets; leading team to curate and execute flawless experiences; negotiating client and vendor contracts while cultivating relationships; nurturing and growing team; creating locally-sourced and nutritious menu options; supporting local and international properties in implementation of procedures & standards, acting as a benchmark for company-wide and future policies"
+          },
+          {
+            "title": "Task Force",
+            "organization": "Hôtel de Crillon, A Rosewood Hotel",
+            "date_range": "Mar 2017 - Mar 2017",
+            "location": null,
+            "description": "Pre-opening support to Event Sales team on systems setup and SOP adherence to corporate goals."
+          },
+          {
+            "title": "Task Force",
+            "organization": "Rosewood Castiglion del Bosco",
+            "date_range": "Jun 2017 - Jul 2017",
+            "location": null,
+            "description": "Leadership of and support to the Event Sales team, working with a global client base on large-scale, complex events in non-traditional event spaces. Guidance on daily administrative practices and processes to ensure alignment with corporate goals."
+          },
+          {
+            "title": "Task Force",
+            "organization": "Rosewood Miramar Beach",
+            "date_range": "May 2019 - Jun 2019",
+            "location": null,
+            "description": "Post-opening support to Event Sales and Finance teams regarding event financial processes and procedures, and systems setup according to corporate guidelines."
+          },
+          {
+            "title": "Director Of Sales, London",
+            "organization": "Convene",
+            "date_range": "Nov 2021 - Apr 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Pre-opening, development and management of sales strategy for meetings & events and co-working spaces in first international location; client, third party, tenant, sales and operational team relationship building and support; client entertainment for long-term growth and revenue security; real estate partnership for European expansion; marketing and PR support for local brand awareness"
+          },
+          {
+            "title": "Independent Consultant",
+            "organization": "MB Hospitality Advisory",
+            "date_range": "May 2023 - Oct 2023",
+            "location": null,
+            "description": "Supporting the hospitality world in its mission to define processes and procedures, passionately deliver incredible experiences and develop leaders of tomorrow."
+          },
+          {
+            "title": "Regional Director Of Events Groups",
+            "organization": "Hotel Café Royal",
+            "date_range": "Nov 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Leading the sales & operational teams in revenue & experiential successes, with a focus on pricing strategy, negotiation, accuracy of systems, team building & training, staff retention, P&L management, service standards, menu creation, brand recognition, client rapport & development, supplier relations."
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Southern California",
+            "degree_or_field": "Bachelor of Science, Marshall School of Business Administration, Split Emphasis in Marketing & Business Communication, Minor in French Language",
+            "date_range": "2000 - 2000"
+          },
+          {
+            "school": "Université de Paris, Cité Universitaire",
+            "degree_or_field": "Art History, History, French Language",
+            "date_range": "USC, Semester in Paris, France Program"
+          },
+          {
+            "school": "La Sorbonne",
+            "degree_or_field": "French Language",
+            "date_range": "USC, Semester in Paris, France Program"
+          },
+          {
+            "school": "Beverly Hills Lingual Institute",
+            "degree_or_field": "Basic - Advanced Italian Language",
+            "date_range": "2008 - 2012"
+          },
+          {
+            "school": "Alliance Française New York",
+            "degree_or_field": "Advanced French Language",
+            "date_range": "2005 - 2005"
+          },
+          {
+            "school": "UCLA Extension",
+            "degree_or_field": "French Language",
+            "date_range": "2000 - 2000"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "director",
+          "sales",
+          "pricing",
+          "strategy",
+          "negotiation",
+          "training",
+          "p",
+          "management",
+          "entertainment",
+          "security",
+          "marketing",
+          "pr",
+          "planning",
+          "selling",
+          "luxury",
+          "vendor",
+          "acting",
+          "catering",
+          "budget",
+          "weddings",
+          "galas",
+          "partnerships",
+          "sop",
+          "finance",
+          "leadership",
+          "pricing strategy",
+          "team building",
+          "staff retention",
+          "client rapport",
+          "development management",
+          "sales strategy",
+          "relationship building",
+          "real estate",
+          "brand awareness",
+          "vendor contracts",
+          "client relations"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/monicabewak"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Kirk McDonald",
@@ -633,13 +1918,151 @@
           "source_type": "official_site",
           "quote_or_fact": "Kirk McDonald - Director of Sales – Middle East"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kirkwmcdonald",
+        "display_name": "Kirk McDonald",
+        "headline": "Director Global Sales | Commercial Travel, Tourism and Airline Industry | MBA, University of Warwick",
+        "location": "Dubai, United Arab Emirates (AE)",
+        "about": "Total Experience: 17 years",
+        "experience": [
+          {
+            "title": "Business Development Manager, North America",
+            "organization": "Intrepid Travel",
+            "date_range": "Jan 2008 - Jan 2009",
+            "location": "Vancouver, Canada Area",
+            "description": null
+          },
+          {
+            "title": "Manager, Travel Industry Sales And Marketing - Canada",
+            "organization": "Greater Palm Springs Convention & Visitors Bureau",
+            "date_range": "Jun 2009 - Jun 2011",
+            "location": "Vancouver, Canada Area",
+            "description": null
+          },
+          {
+            "title": "Manager, Product And Business Development",
+            "organization": "Emirates",
+            "date_range": "Feb 2012 - Feb 2018",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Senior Manager Product Development And Distribution",
+            "organization": "VisitBritain",
+            "date_range": "Feb 2018 - Apr 2020",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Director Recruitment",
+            "organization": "The Recruit Hub",
+            "date_range": "May 2020 - Nov 2021",
+            "location": "United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Director, Global Sales - Middle East",
+            "organization": "Preferred Hotels & Resorts",
+            "date_range": "Nov 2021 - May 2025",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales - Middle East",
+            "organization": "The Set",
+            "date_range": "May 2025 - Present",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Warwick - Warwick Business School",
+            "degree_or_field": "Master of Business Administration - MBA",
+            "date_range": "2017 - 2019"
+          }
+        ],
+        "skills": [
+          "global sales development",
+          "supplier management",
+          "africa business development",
+          "development",
+          "development manager",
+          "group sales",
+          "management",
+          "led",
+          "across",
+          "positioning",
+          "analysis",
+          "data",
+          "operations",
+          "destination marketing",
+          "leisure sales",
+          "leadership",
+          "director",
+          "distribution management",
+          "commercial operations",
+          "leading",
+          "director sales",
+          "wholesale",
+          "commercial support",
+          "distribution",
+          "marketing",
+          "strategy",
+          "wholesale travel",
+          "streams",
+          "industry sales",
+          "business development manager",
+          "travel industry",
+          "market analysis",
+          "contracting",
+          "route development",
+          "sales marketing",
+          "sales development",
+          "support",
+          "core",
+          "development support",
+          "negotiating",
+          "senior management",
+          "industry relationships",
+          "membership sales",
+          "core business",
+          "product development",
+          "revenue streams",
+          "distribution strategy",
+          "commercial growth",
+          "program management",
+          "corporate",
+          "business negotiations",
+          "hotel accommodation",
+          "government",
+          "commercial",
+          "sales management",
+          "travel consultant",
+          "sales",
+          "negotiations",
+          "hotel operations",
+          "revenue",
+          "consultant",
+          "global sales",
+          "promotion",
+          "business development",
+          "recruitment"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/kirkwmcdonald"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Kasia Rudnik",
       "title": "Senior Director of Marketing",
       "company": "The Set Collection",
-      "linkedin_url": "https://uk.linkedin.com/in/kasiarudnik",
+      "linkedin_url": "https://www.linkedin.com/in/kasiarudnik",
       "email": null,
       "email2": null,
       "phone": null,
@@ -661,13 +2084,186 @@
           "source_type": "linkedin",
           "quote_or_fact": "Senior Director of Marketing at The Set"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kasiarudnik",
+        "display_name": "Kasia Rudnik",
+        "headline": "Senior Leader | Brand Marketing | Digital | Loyalty | Extensive international experience and a proven track record of delivering exceptional results.",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 20 years",
+        "experience": [
+          {
+            "title": "Front Desk Agent",
+            "organization": "IBB Hotels",
+            "date_range": "Oct 2005 - May 2006",
+            "location": "Lublin, Lublin District, Poland",
+            "description": null
+          },
+          {
+            "title": "Reservation Conference Coordinator",
+            "organization": "Mamaison Hotels & Residences",
+            "date_range": "May 2006 - Mar 2007",
+            "location": "Warsaw, Masovian District, Poland",
+            "description": null
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Hyatt Hotels",
+            "date_range": "Mar 2007 - Aug 2009",
+            "location": "Warsaw, Masovian District, Poland",
+            "description": null
+          },
+          {
+            "title": "Marketing PR Specialist",
+            "organization": "IHG InterContinantal Warsaw",
+            "date_range": "Sep 2009 - Dec 2011",
+            "location": "Warsaw, Masovian District, Poland",
+            "description": null
+          },
+          {
+            "title": "PR Marketing Manager",
+            "organization": "Marriott International",
+            "date_range": "Dec 2011 - Mar 2013",
+            "location": "Warsaw Area, Poland",
+            "description": null
+          },
+          {
+            "title": "Cluster ECommerce Manager Eastern Europe",
+            "organization": "Marriott International",
+            "date_range": "Apr 2013 - Mar 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Digital Client Services Manager Europe",
+            "organization": "Marriott International",
+            "date_range": "Apr 2015 - Jan 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of ECommerce",
+            "organization": "The Langham, London",
+            "date_range": "Jan 2018 - Jul 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Digital And CRM",
+            "organization": "The Set",
+            "date_range": "Aug 2021 - Apr 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Digital, CRM Loyalty",
+            "organization": "The Set",
+            "date_range": "Apr 2023 - Sep 2024",
+            "location": null,
+            "description": "1. Strategic Marketing: - Developing and executing innovative digital marketing strategies that elevate the brand's online presence and drive direct bookings. - Overseeing the creation of engaging content, social media campaigns and digital advertising to attract affluent travellers. - Analysing market trends and data to optimise marketing efforts and maximize ROI. 2. Customer Relationship Management (CRM): - Implemented a sophisticated CRM system to gather and analyse guest data, enabling personalised communication and targeted marketing. - Implementing and managing award-winning DISCOVERY loyalty programme. - Ensuring seamless integration of CRM tools across all touchpoints to maintain consistent and high-quality guest interactions. 3. Brand Loyalty and Guest Engagement: - Cultivating a deep understanding of guest preferences to tailor unique and culturally rich experiences that resonate with luxury travellers. - Developing exclusive offers and bespoke marketing campaigns that enhance guest loyalty and foster long-term relationships. - Coordinating with hotel managers and other departments to ensure a cohesive approach to guest satisfaction and retention. 4. Team Leadership and Collaboration: - Leading and mentoring a team of marketing and CRM professionals, fostering a culture of innovation and excellence. - Collaborating with hotel GMs, sales teams, and external partners to align marketing initiatives with overall business objectives. - Monitor and report on performance metrics, providing insights and recommendations to senior management. 5. Innovation and Technology Integration: - Implementing cutting-edge tools and platforms to enhance the guest journey from initial engagement to post-stay follow-up. - Ensuring the seamless integration of all marketing efforts and systems with existing hotel operations."
+          },
+          {
+            "title": "Senior Director Of Marketing",
+            "organization": "The Set",
+            "date_range": "Sep 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "As Senior Director of Marketing at The Set, I lead the strategic marketing direction for our curated collection of luxury hotels and residences, ensuring a strong, consistent brand presence across all touchpoints. My role encompasses brand development, digital strategy, content marketing to drive awareness, engagement and revenue. I oversee a central marketing team that supports both The Set and our owned hotels, acting as an in-house agency for creative design, digital marketing, and content strategy. Additionally, I collaborate closely with our hotels’ marketing teams, ensuring alignment while delivering tailored campaigns that enhance each property's unique positioning. Key responsibilities include: 1. Shaping and executing the global marketing strategy for The Set Collection 2. Strengthening brand identity and positioning across digital and offline channels 3. Leading content, social media, and digital performance strategies 4. Driving commercial success through innovative campaigns and partnerships 5. Supporting individual hotel marketing teams with strategic direction and execution 6. Managing relationships with agencies, media partners, and key stakeholders With a passion for luxury hospitality and brand storytelling, I’m dedicated to elevating The Set's presence in the global luxury travel landscape."
+          }
+        ],
+        "education": [
+          {
+            "school": "XXXIII LO",
+            "degree_or_field": "International Baccalaureate",
+            "date_range": "1997 - 2001"
+          },
+          {
+            "school": "Akademia Wychowania Fizycznego im. Józefa Piłsudskiego w Warszawie",
+            "degree_or_field": "BA",
+            "date_range": "2001 - 2004"
+          },
+          {
+            "school": "Hochschule Heilbronn - Hochschule für Technik, Wirtschaft und Informatik",
+            "degree_or_field": "MA",
+            "date_range": "2004 - 2005"
+          },
+          {
+            "school": "Breda University of Applied Sciences",
+            "degree_or_field": "MA",
+            "date_range": "2004 - 2005"
+          },
+          {
+            "school": "Bournemouth University",
+            "degree_or_field": "MA",
+            "date_range": "2004 - 2005"
+          }
+        ],
+        "skills": [
+          "director",
+          "marketing",
+          "luxury",
+          "hotels",
+          "digital",
+          "strategy",
+          "engagement",
+          "acting",
+          "creative",
+          "design",
+          "campaigns",
+          "property",
+          "positioning",
+          "driving",
+          "commercial",
+          "partnerships",
+          "hotel",
+          "hospitality",
+          "storytelling",
+          "sales",
+          "crm",
+          "advertising",
+          "management",
+          "integration",
+          "leadership",
+          "collaboration",
+          "mentoring",
+          "innovation",
+          "metrics",
+          "technology",
+          "operations",
+          "reservation",
+          "ecommerce",
+          "pr",
+          "cluster",
+          "strategic marketing",
+          "brand development",
+          "digital strategy",
+          "content marketing",
+          "digital marketing",
+          "content strategy",
+          "global marketing",
+          "marketing strategy",
+          "social media",
+          "relationship management",
+          "brand loyalty",
+          "guest satisfaction",
+          "team leadership",
+          "performance metrics",
+          "technology integration",
+          "client services",
+          "customer relationship management"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/kasiarudnik"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Amit Chakrawarti",
       "title": "Director of IT",
       "company": "Hotel Café Royal",
-      "linkedin_url": "https://uk.linkedin.com/in/amit-chakrawarti-16b4bbaa",
+      "linkedin_url": "https://www.linkedin.com/in/amit-chakrawarti-16b4bbaa",
       "email": "amit@hotelcaferoyal.com",
       "email2": null,
       "phone": null,
@@ -694,7 +2290,106 @@
           "source_type": "official_site",
           "quote_or_fact": "Amit Chakrawarti named as Data Protection contact"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/amit-chakrawarti-16b4bbaa",
+        "display_name": "Amit Chakrawarti",
+        "headline": "Director Of IT",
+        "location": "London Area, United Kingdom (GB)",
+        "about": "Total Experience: 18 years and 6 months",
+        "experience": [
+          {
+            "title": "IT Technician",
+            "organization": "Royal Garden Hotel London",
+            "date_range": "Aug 2005 - Dec 2010",
+            "location": "London",
+            "description": "Department: Engineering and Technical • Level: Specialist"
+          },
+          {
+            "title": "Sinior IT Technician",
+            "organization": "Royal Garden Hotel London",
+            "date_range": "Mar 2010 - Apr 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "IT Assistant",
+            "organization": "The Ned",
+            "date_range": "Jun 2018 - Mar 2019",
+            "location": null,
+            "description": "Department: Engineering and Technical • Level: Specialist"
+          },
+          {
+            "title": "IT Support Technician",
+            "organization": "Cygnet IT Services CIC",
+            "date_range": "Oct 2019 - Jan 2022",
+            "location": "Carshalton",
+            "description": "Duties will include: To provide on-site support and consultancy as required in accordance with customer’s needs. Resolving networking, hardware and software issues and providing preventative maintenance. To carry our fault diagnosis on-site and remotely, rectifying faults and where required arranging additional courses of action such as referral to senior staff or arranging third party maintenance or support. To ensure all items are logged correctly through the Service Desk following set procedures. To ensure tickets assigned, monitored and actioned to meet Service Level Agreements. To ensure customers have relevant and concise updates and feedback when working on their requests. Show less\n\nDepartment: Engineering and Technical • Level: Specialist"
+          },
+          {
+            "title": "Assistant It Manager",
+            "organization": "Shangri-La The Shard, London",
+            "date_range": "Jan 2022 - Aug 2022",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "IT Manager",
+            "organization": "COMO Metropolitan London",
+            "date_range": "Mar 2022 - Mar 2023",
+            "location": null,
+            "description": "Department: Engineering and Technical • Level: Manager"
+          },
+          {
+            "title": "IT Manager",
+            "organization": "Hotel Café Royal",
+            "date_range": "Mar 2023 - Jul 2025",
+            "location": null,
+            "description": "Department: Engineering and Technical • Level: Manager"
+          },
+          {
+            "title": "Director Of IT",
+            "organization": "Hotel Café Royal",
+            "date_range": "Apr 2025 - Present",
+            "location": null,
+            "description": "Department: Engineering and Technical • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Saraswati High Secondary",
+            "degree_or_field": "HSC, science, A",
+            "date_range": null
+          },
+          {
+            "school": "SNS commerce college",
+            "degree_or_field": "Graduate, Business/Commerce, General, A",
+            "date_range": "1992 - 1995"
+          }
+        ],
+        "skills": [
+          "service desk",
+          "service level agreements",
+          "director",
+          "consultancy",
+          "networking",
+          "software",
+          "maintenance",
+          "arranging",
+          "courses",
+          "less"
+        ],
+        "activity_themes": [
+          "Mental health awareness and team wellbeing events",
+          "Fundraising galas and charity initiatives"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/cafe-royal_mentalhealthawareness-teamwellbeing-batterseaparkrun-activity-7356233938316455939-dh1H",
+          "https://www.linkedin.com/posts/michael-glover-a0766a60_my-wonderful-team-and-i-were-honoured-to-activity-7341028347923021824-pk15"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Francesco Pappagallo",
@@ -717,7 +2412,130 @@
           "source_type": "official_site",
           "quote_or_fact": "Francesco Pappagallo - Digital Marketing Manager"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/francesco-pappagallo-264b30100",
+        "display_name": "Francesco Pappagallo",
+        "headline": "Digital Marketing Manager at The Set Collection",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Specialised in digital marketing, Facebook advertising expert with deep knowledge in Google AdWords and S.E.O, postgraduate in marketing communication at the University of Westminster, experienced in B2B and B2C marketing.",
+        "experience": [
+          {
+            "title": "Marketing Assistant",
+            "organization": "Nairobi Coffee",
+            "date_range": "Jun 2015 - Aug 2015",
+            "location": "Londra, Regno Unito",
+            "description": "Nairobi coffee and tea is an import and export beverage company based in London , my main tasks were: • Research about new potential market for the company’s product. • Conducting research about coffee and tea market worldwide. • Preparing detailed reports about the conducted researches. • Communicate with the different players of the company • Solving assigned task, following specific timelines and ways of working."
+          },
+          {
+            "title": "Marketing Assistant",
+            "organization": "Smarty Software",
+            "date_range": "Mar 2016 - Sep 2016",
+            "location": "Londra, Regno Unito",
+            "description": "Smarty Software is a London based technology start-up offering business automation software for small businesses the main tasks were: • Managing the website and updating content • Writing and scheduling targeted content for the website and social media • Create promotional and graphic material • Organize and promote Workshop and events • Gained a deep understanding of business automation software subject • Lead generation and database management • Developing key relationships with potential partners • Communicating with clients and partners via telephone and email marketing • Represent company at the networking and trade events"
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "365 Business Finance",
+            "date_range": "Sep 2016 - Oct 2020",
+            "location": "London, United Kingdom",
+            "description": "365 business finance is a fin-tech company specialised in merchant cash advances for SMEs. September 2016- August 2020. DIGITAL MARKETING MANAGER. - Facebook advertising: high generation of leads trough Facebook and Instagram ads channel, deep knowledge about the tool, creation of targeted audiences , managing multiple and successful campaigns. - Google Ad Words: creation of ads copy, research about most successful keywords and link phrases, A/B testing and budget management. - Social media management: creation of strategies and content marketing on the main social media channels of the company, driving traffic to the website, educating about the product and increasing awareness toward the brand. - S.E.O: Managing and optimising the organic ranking of the brand on the main searching engines. - Trades shows: booking organising and attending dedicated trades show, dealing with the logistic and the communication strategies during the events. - Email marketing: creation of targeted campaigns for both retention and acquisition. - Lead generation and database management trough Salesforce"
+          },
+          {
+            "title": "Digital Acquisition Manager",
+            "organization": "Deko",
+            "date_range": "Jun 2021 - Oct 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Deko pay is a fintech B2B company operating in the buy now and pay later industry."
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "The Set Collection",
+            "date_range": "Dec 2023 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "The Set Collection is a carefully curated luxury hotel group, comprising of some of the world’s best, likeminded, independent hotels."
+          }
+        ],
+        "education": [
+          {
+            "school": "Università degli Studi di Bari",
+            "degree_or_field": "Bachelor's Degree: Italian Literature",
+            "date_range": "2010 - 2014"
+          },
+          {
+            "school": "University of Westminster",
+            "degree_or_field": "Master of Arts (MA), Marketing Communication",
+            "date_range": "2015 - 2016"
+          }
+        ],
+        "skills": [
+          "digital",
+          "marketing",
+          "facebook",
+          "advertising",
+          "b2b",
+          "b2c",
+          "luxury",
+          "hotel",
+          "hotels",
+          "fintech",
+          "finance",
+          "instagram",
+          "campaigns",
+          "research",
+          "testing",
+          "budget",
+          "management",
+          "driving",
+          "database",
+          "salesforce",
+          "software",
+          "technology",
+          "automation",
+          "writing",
+          "scheduling",
+          "networking",
+          "coffee",
+          "import",
+          "export",
+          "reports",
+          "digital marketing",
+          "google adwords",
+          "marketing communication",
+          "b2c marketing",
+          "marketing digital",
+          "budget management",
+          "social media",
+          "content marketing",
+          "email marketing",
+          "lead generation",
+          "database management",
+          "website updating",
+          "content writing",
+          "import export",
+          "social media management"
+        ],
+        "activity_themes": [
+          "Luxury hotel group marketing and expansion plans",
+          "Hospitality industry awards and power lists",
+          "Luxury travel experiences and hotel reimaginings",
+          "Women leading travel sector events and networking",
+          "Brand storytelling focused on people in hospitality",
+          "High-end hotel openings and recognitions for 2026"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/adifferentrhythm-sixsenseslondon-sixsenses-activity-7422552709075054593-nAWv",
+          "https://www.linkedin.com/posts/the-set_theset-curatedbytheset-aspiretravelclub-activity-7422672479577620481-KH4I",
+          "https://www.linkedin.com/posts/remulate-protect_businesscommunity-localleadership-inspiringherts-activity-7422237305131864064-PoX9",
+          "https://www.linkedin.com/posts/hottest-hotel-openings-for-2026-activity-7416041199113019393-gBlJ",
+          "https://www.linkedin.com/posts/cafe-royal_were-incredibly-proud-to-share-that-our-activity-7421851457685000192-PG1X",
+          "https://www.linkedin.com/posts/eugene-leonard-hotelier_walpolepowerlist-activity-7421624939268546560-w8Bf",
+          "https://www.linkedin.com/posts/usturiunluxurytravel_bangkok-reimagined-at-the-siam-set-along-activity-7419272792413659136-KZzF",
+          "https://www.linkedin.com/posts/women-leading-travel_wltevents-womenleadingtravel-londonevents-activity-7419795397524652033-1aHL"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Robin Stangroom",
@@ -745,7 +2563,107 @@
           "source_type": "news",
           "quote_or_fact": "Robin Stangroom, CEO of The Set Collection"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/robin-stangroom-6a561b10b",
+        "display_name": "Robin Stangroom",
+        "headline": "CEO, The Set",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 19 years and 11 months",
+        "experience": [
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "Chesford Grange Hotel",
+            "date_range": "Jul 2004 - Sep 2006",
+            "location": "Warwickshire, England",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Chesford Grange Hotel",
+            "date_range": "Apr 2008 - Mar 2010",
+            "location": "Warwickshire, England",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Holiday Inn London Kensington Forum",
+            "date_range": "Mar 2010 - Feb 2011",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Feb 2011 - Jan 2012",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Jan 2012 - Dec 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Hotel Café Royal",
+            "date_range": "Dec 2014 - Nov 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Director Of Revenue Reservations",
+            "organization": "The Set hotels",
+            "date_range": "Dec 2016 - Apr 2019",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Vice President Of Revenue, Reservations Distribution",
+            "organization": "The Set Collection",
+            "date_range": "Apr 2019 - Dec 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chief Commercial Officer",
+            "organization": "The Set Collection",
+            "date_range": "Dec 2021 - May 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chief Executive Officer",
+            "organization": "The Set",
+            "date_range": "May 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "reservations",
+          "commercial",
+          "distribution",
+          "management",
+          "front office",
+          "revenue management"
+        ],
+        "activity_themes": [
+          "Luxury hospitality industry trends and reorientation",
+          "The Set Collection brand expansions and new hotel signings",
+          "Boutique hotels and Caribbean luxury travel",
+          "Luxury travel summits and 2026 trend forecasting",
+          "Personalization in luxury experiences and media features",
+          "Hospitality events, partnerships and Skift conferences"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Philip Haller",
@@ -773,13 +2691,228 @@
           "source_type": "news",
           "quote_or_fact": "Leonard will report directly to The Set Collection’s chief operating officer, Philip Haller"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/phillip-haller-433b3886",
+        "display_name": "Phillip Haller",
+        "headline": "International Senior Executive Director - Hospitality & Branding Specialist",
+        "location": "United Kingdom (GB)",
+        "about": "With extensive experience spanning operational excellence, hotel development, branding… Total Experience: 35 years",
+        "experience": [
+          {
+            "title": "Sales And Marketing Manager",
+            "organization": "Crown Gems Hotels",
+            "date_range": "Jan 1991 - Jan 1993",
+            "location": null,
+            "description": "Rathbone Hotel London and Royal Terrace Hotel, Edinburgh"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Forte Village Resort",
+            "date_range": "Jan 1993 - Jan 1996",
+            "location": "Sardinia",
+            "description": "A destination resort of un-paralleled beauty and dimension consisting of 7 hotels and 770 guestrooms in 25 hectares of land"
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Reid's Palace, A Belmond Hotel",
+            "date_range": "Jan 1996 - Jun 1998",
+            "location": "Madeira Island, Portugal",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Palazzo Arzaga",
+            "date_range": "Jan 1998 - Jan 2000",
+            "location": "Lake Garda",
+            "description": "Located near Lake Garda, Palazzo Arzaga is frescoed 15th century monastery transformed into a 5 star resort featuring 84 guestrooms, spa and two golf courses"
+          },
+          {
+            "title": "Director Of Sales Marketing- Resort Real Estate",
+            "organization": "San Roque Club, Andalucia",
+            "date_range": "Jan 2000 - Jan 2002",
+            "location": "Sotogrande, Spain",
+            "description": "A five star, exclusive Andalucian resort, golf club and real estate development in the golden triangle of golf . A successful sell of all of the real estate, repositioning of the hotel, launch of a lucrative membership program as well as the Seve Ballesteros Golf School and Mark Phillip's Andalucian Equestrian Programme"
+          },
+          {
+            "title": "Group Director Of Sales And Marketing",
+            "organization": "Boscolo Hotels",
+            "date_range": "Jan 2002 - Jan 2006",
+            "location": "Padova",
+            "description": "Boscolo Hotels, an Italian based hospitality company is comprised of 18 hotels primarily in Italy, Southern France and Prague. Creating a proper brand positioning, international sales and marketing structure, digital and revenue platform."
+          },
+          {
+            "title": "Managing Director",
+            "organization": "PH Hospitality Consulting",
+            "date_range": "Jan 2005 - Jan 2009",
+            "location": null,
+            "description": "A hospitality based consultancy focused on repositioning brands and individual hotels. Clients included Maison Alain Ducasse Paris, Les Collectionneurs, Pine Cliffs Resort Algarve, Mandarin Oriental Hotels, Forte Village Sardinia ,Sardinia Tourist Board, Punta Tragara Capri , San Roque-Andalusia Tourist Board and others."
+          },
+          {
+            "title": "Vice President Of Sales And Marketing",
+            "organization": "Lungarno Collection",
+            "date_range": "Jan 2009 - Jan 2013",
+            "location": null,
+            "description": "Owned by the Salvatore Ferragamo Family, Lungarno Collection owns and operates 9 unique hotels, retreats, luxury villas and Swan yachts. Key activities involved repositioning both the brand and individual hotels from a product/services perspective and branding strategy. Lungarno Collection garnered record revenues and fanfare as a justified cousin of a worldclass fashion brand. Created numerous synergies with Salvatore Ferragamo that included hotel product innovations, brand affinity marketing programs and event marketing."
+          },
+          {
+            "title": "Asset Management Project Consultancy",
+            "organization": "The Lakes by YOO",
+            "date_range": "Jan 2013 - Aug 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Partner",
+            "organization": "YOO",
+            "date_range": "Jan 2013 - Jun 2015",
+            "location": null,
+            "description": "A start-up hotel brand created from YOO, a world-class interior design firm owned by Philippe Starck & John Hitchcox. As a partner in the business, key responsibilities ranged from development to creating and rolling out the 5 star deluxe YOO Hotels & Resorts and the affordable diffusion YOO2 brands."
+          },
+          {
+            "title": "Senior Advisor",
+            "organization": "Starhotels Collezione",
+            "date_range": "Jan 2015 - Jan 2016",
+            "location": null,
+            "description": "Developed splinter luxury brand Starhotels Collezione ( 8 European hotels and one NY property) with operation standards, branding , marketing and revenue management. Complete development and launch of The Franklin, Knightsbridge. A new, boutique hotel designed by Anouska Hempel"
+          },
+          {
+            "title": "Executive Committee Member Vice President Of Brand",
+            "organization": "Rocco Forte Hotels",
+            "date_range": "Jan 2016 - Jan 2024",
+            "location": null,
+            "description": "Operational and brand management expertise, leading a team of professionals to strengthen the Rocco Forte Hotels brand worldwide, maximize revenue and help deliver the finest guest experience in our properties . Spearheaded the complete rebranding of the company as well as a number of innovative projects such as Hotel Savoy refurbishment program, Rocco Forte House & Private Villas, RF Friends recognition program and Irene Forte Spas"
+          },
+          {
+            "title": "Non Executive Director",
+            "organization": "Irene Forte Skincare",
+            "date_range": "Feb 2021 - Apr 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Chief Operating Officer",
+            "organization": "The Set",
+            "date_range": "Jan 2024 - Jul 2025",
+            "location": null,
+            "description": "Hotel Café Royal (London), Conservatorium Hotel (Amsterdam), Hotel Lutetia (Paris) Provide strategic and operational leadership across three flagship luxury hotels, each a unique blend of contemporary design and palatial heritage. Work closely with General Managers to drive excellence in guest experience, service delivery, and financial performance. Oversee all operational departments, including 11 restaurants and bars, event spaces, and meeting facilities.Lead key corporate functions globally: Quality & Training, Human Resources, Purchasing, Finance, Reservations & Distribution, Sales & Marketing. Managing day to day operation and service quality of The Conservatorium Hotel, leading continuous improvements in guest satisfaction and employee engagement"
+          },
+          {
+            "title": "Chief Operating Officer",
+            "organization": "The Set Collection",
+            "date_range": "Jan 2024 - Jul 2025",
+            "location": "London Area, United Kingdom",
+            "description": "Hotel Café Royal (London), Conservatorium Hotel (Amsterdam), Hotel Lutetia (Paris) Provide strategic and operational leadership across three flagship luxury hotels, each a unique blend of contemporary design and palatial heritage. Work closely with General Managers to drive excellence in guest experience, service delivery, and financial performance.Oversee all operational departments, including 11 restaurants and bars, event spaces, and meeting facilities.Lead key corporate functions globally: Quality & Training, Human Resources, Purchasing, Finance, Reservations & Distribution, Sales & Marketing. Managing day to day operation and service quality of The Conservatorium Hotel, leading continuous improvements in guest satisfaction and employee engagement"
+          },
+          {
+            "title": "Managing Partner",
+            "organization": "PH HOSPITALITY CONSULTING LIMITED",
+            "date_range": "Jul 2025 - Present",
+            "location": null,
+            "description": "Providing strategic overview in key areas such operations, finance , branding and commercial activities to luxury hotel hotels and brands. Current clients are in Italy, UK, France, Greece and The Maldives"
+          },
+          {
+            "title": "Director",
+            "organization": "Z.65 Vision Collaborative",
+            "date_range": "Jul 2025 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Principal Owner",
+            "organization": "PH Hospitality",
+            "date_range": "Jul 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Sheridan College",
+            "degree_or_field": "Hotel Management Diploma",
+            "date_range": "1985 - 1987"
+          },
+          {
+            "school": "Schiller International University London",
+            "degree_or_field": "Bachelor's Degree in Business and Hotel Management, Hotel management and Business",
+            "date_range": "1987 - 1989"
+          },
+          {
+            "school": "Schiller International Univiersity, London",
+            "degree_or_field": "Minor in Economics, Business Administration and Management, General",
+            "date_range": "1989 - 1990"
+          },
+          {
+            "school": "Financial Times",
+            "degree_or_field": "Non Executive Diploma",
+            "date_range": "2021 - 2022"
+          }
+        ],
+        "skills": [
+          "operational excellence",
+          "interior design",
+          "asset management",
+          "international sales",
+          "revenue management",
+          "golf courses",
+          "brand management",
+          "event marketing",
+          "service delivery",
+          "human resources",
+          "guest satisfaction",
+          "employee engagement",
+          "real estate",
+          "hotel",
+          "branding",
+          "operations",
+          "finance",
+          "commercial",
+          "luxury",
+          "hotels",
+          "design",
+          "diffusion",
+          "management",
+          "consultancy",
+          "director",
+          "sales",
+          "marketing",
+          "hospitality",
+          "positioning",
+          "digital",
+          "property",
+          "operation",
+          "spa",
+          "courses",
+          "beauty",
+          "projects",
+          "rf",
+          "retreats",
+          "strategy",
+          "fashion",
+          "mandarin",
+          "leadership",
+          "restaurants",
+          "training",
+          "purchasing",
+          "reservations",
+          "distribution",
+          "engagement",
+          "equestrian",
+          "real estate development"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/phillip-haller-433b3886"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Abigail Riley",
       "title": "Senior Marketing Manager",
       "company": "The Set Collection",
-      "linkedin_url": "https://uk.linkedin.com/in/abigail-riley-593226159",
+      "linkedin_url": "https://www.linkedin.com/in/abigail-riley-593226159",
       "email": "pressoffice@hotelcaferoyal.com",
       "email2": null,
       "phone": "+44 (0) 20 7406 3333",
@@ -801,7 +2934,123 @@
           "source_type": "linkedin",
           "quote_or_fact": "Senior Marketing Manager at The Set"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/abigail-riley-593226159",
+        "display_name": "Abigail Riley",
+        "headline": "Senior Marketing Manager at The Set",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced Digital Marketing Manager with a demonstrated history working in luxury, travel and start-ups. First-class graduate with a degree in International Relations with French from the University of Birmingham with an ERASMUS year at Sciences Po Aix.",
+        "experience": [
+          {
+            "title": "French English In-House Support Advisor",
+            "organization": "WeSwap.com",
+            "date_range": "Jun 2017 - Apr 2018 • 10 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Social Media And Community Executive",
+            "organization": "WeSwap.com",
+            "date_range": "May 2018 - Mar 2019 • 10 months",
+            "location": "London, United Kingdom",
+            "description": "I worked as a Social Media Executive at WeSwap, a unique peer-to-peer travel money platform, helping travellers everywhere get the fairest exchange rates. My role was to manage and maintain WeSwap's Facebook, Instagram, Twitter and LinkedIn accounts. My responsibilities included: - Developing and executing a social media strategy for each platform - Creating weekly reports to update the marketing team and business as a whole on engagement, following and social trends - Writing copy for all posts, ensuring they meet the brand tone of voice - Working closely with the design team to brief in and produce on-brand imagery to be used across all platforms - Develop and manage competitions, giveaways and campaigns to increase following and engagement - Run paid social campaigns for Facebook and Twitter - Managing public and private messages on all review platforms including Trustpilot, CompareHolidayMoney, Google Reviews and App Store reviews Achievements included: - Executing largest competition to date across WeSwap's social channels - Creating and implementing a process and training for customer support agents to reply to private messages on social platforms - Working with the CRM manager to create a social specific email as part of the customer journey - Producing videos as part of paid social campaigns - Forming relationships with a variety of small scale influencers to represent and advertise the brand"
+          },
+          {
+            "title": "Social Media Executive",
+            "organization": "Digital Hotelier",
+            "date_range": "Apr 2019 - Aug 2019 • 4 months",
+            "location": "London",
+            "description": "I worked as a Social Media Executive for a luxury travel tech scale-up that is in the process of building the world’s most rewarding travel & lifestyle platform. I managed social media accounts for clients in the UK, US and Canada, including the Montcalm and Park Grand Hotel chain. Responsibilities included: - Creating and implementing monthly social strategies for over eight accounts. - Ensuring all posts are scheduled and delivered on time to the correct platforms - Communicating social media trends and industry insights to clients - Managing and responding to public and private comments across all accounts - Providing monthly reports with updates on engagement, follower increase and global social trends"
+          },
+          {
+            "title": "Social Media Manager",
+            "organization": "Digital Hotelier",
+            "date_range": "Aug 2019 - Nov 2019 • 3 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Social Media Manager",
+            "organization": "The Langham, London",
+            "date_range": "Nov 2019 - Mar 2022 • 2 years and 4 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Social Media Manager",
+            "organization": "Langham Hospitality Group",
+            "date_range": "Jul 2021 - Mar 2022 • 8 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Digital Account Manager",
+            "organization": "AKA Communications",
+            "date_range": "Mar 2022 - Dec 2022 • 9 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "Raffles London at The OWO",
+            "date_range": "Dec 2022 - Dec 2024 • 2 years",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Marketing Manager",
+            "organization": "The Set",
+            "date_range": "Jan 2025 - Present • 1 year and 1 month",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Birmingham",
+            "degree_or_field": "Bachelor of Arts - BA, International Relations with French, First Class Honours",
+            "date_range": "2013 - 2017 • 4 years"
+          },
+          {
+            "school": "Sciences Po Aix",
+            "degree_or_field": "ERASMUS International Relations with French, International Relations",
+            "date_range": "2015 - 2016 • 1 year"
+          }
+        ],
+        "skills": [
+          "digital marketing",
+          "international relations",
+          "social media",
+          "media strategy",
+          "customer support",
+          "digital",
+          "marketing",
+          "luxury",
+          "aix",
+          "hotel",
+          "reports",
+          "engagement",
+          "less",
+          "rates",
+          "facebook",
+          "instagram",
+          "twitter",
+          "strategy",
+          "writing",
+          "design",
+          "campaigns",
+          "training",
+          "crm",
+          "producing"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/abigail-riley-593226159"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mathura Premaruban",
@@ -852,7 +3101,101 @@
           "source_type": "official_site",
           "quote_or_fact": "Michal Galili - Director of Sales- North America"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/michal-galili-censor-03663125",
+        "display_name": "Michal Galili Censor",
+        "headline": "Director of Sales North America, The Set",
+        "location": "Tel Aviv District, Israel (IL)",
+        "about": "Total Experience: 29 years and 2 months",
+        "experience": [
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Dan Panorama Tel Aviv",
+            "date_range": "Jan 1995 - Jan 2005",
+            "location": "Tel Aviv Area, Israel",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Marketing Sales",
+            "organization": "Carlton Tel Aviv Hotel",
+            "date_range": "Mar 2006 - Aug 2009",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "N. American Representative",
+            "organization": "Alrov Luxury Hotels Group and David Intercontinental, Tel Aviv",
+            "date_range": "Apr 2010 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales North",
+            "organization": "The Set",
+            "date_range": "Mar 2019 - Present",
+            "location": "Tel Aviv District, Israel",
+            "description": "Department: Sales • Level: Director\nCompany: 501-1000 employees • Founded 2011 • Public Company • Hospitality"
+          },
+          {
+            "title": "Director Of Sales North America",
+            "organization": "The Set",
+            "date_range": "Mar 2019 - Present",
+            "location": null,
+            "description": "Department: Sales • Level: Director\nCompany: 501-1000 employees • Founded 2011 • Public Company • Hospitality"
+          },
+          {
+            "title": "Sales And Marketing Specialist",
+            "organization": "The Set",
+            "date_range": "Mar 2019 - Present",
+            "location": null,
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Sales And Marketing Specialist",
+            "organization": "The Set Collection",
+            "date_range": "Mar 2019 - Present",
+            "location": "Tel Aviv District, Israel",
+            "description": "Department: Sales • Level: Specialist\nCompany: 501-1000 employees • Founded 2011 • Public Company • Hospitality"
+          },
+          {
+            "title": "Director Of Sales North America",
+            "organization": "The Set hotels & Alrov Luxury Hotels",
+            "date_range": "Mar 2019 - Present",
+            "location": "Washington D.C. Metro Area",
+            "description": "Department: Sales • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "management",
+          "sales",
+          "marketing specialist",
+          "director",
+          "office software",
+          "director sales",
+          "sales leadership",
+          "sales marketing",
+          "director marketing",
+          "specialist sales",
+          "front office manager",
+          "marketing",
+          "front office",
+          "office manager",
+          "marketing & sales"
+        ],
+        "activity_themes": [
+          "Luxury travel tradeshows and advisor events in Paris and Jerusalem",
+          "Hotel awards and recognitions (e.g. Best Hotel in London)",
+          "Boutique and luxury hotel features in the Caribbean and media",
+          "High-level hospitality networking and diplomatic events",
+          "Brand storytelling, marketing, and team highlights at The Set",
+          "Ultra luxury travel products including villas, yachts, and jets"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Louise Rios",
@@ -875,7 +3218,87 @@
           "source_type": "official_site",
           "quote_or_fact": "Louise Rios - Director of Sales – Latin America"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/louise-rios-b59675b4",
+        "display_name": "Louise Rios",
+        "headline": "Director of Sales Latam - The Set",
+        "location": "São Paulo, São Paulo, Brazil (BR)",
+        "about": "Working and serving with love, kindness and engagement has made me who I am. That’s why I literally fell in love for the luxury hospitality, focusing specially in the essence, true experience and well-being of the client. Willing to share the best of my skills and commitment in an admirable company, to be much useful for its growth and for my work companions.\n\nTotal Experience: 12 years",
+        "experience": [
+          {
+            "title": "Travel Advisor",
+            "organization": "Sete Mares Turismo",
+            "date_range": "Sep 2013 - Feb 2017",
+            "location": null,
+            "description": "To understand the clients profile, preferences, budget estimate and wishes • Aligning all the above items and suggest the best options • To recommend and plan itineraries, booking hotels, restaurants, activities and any extra service • Purchasing flight tickets and other services such as private jets, boats, tours, car rentals, travel insurance and etc."
+          },
+          {
+            "title": "Concierge",
+            "organization": "Palácio Tangará",
+            "date_range": "Apr 2017 - Oct 2017",
+            "location": "São Paulo, São Paulo",
+            "description": "Reaching and going beyond to the client’s expectations • To be a pro-active person to anticipate the clients needs • Search for all the alternatives to make sure everything possible has been done • Organizing the best itineraries, optimizing time, confirming bookings, offering the greatest suggestions and guaranteeing a true experience • Put yourself available for anything the client may need"
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Palácio Tangará",
+            "date_range": "Nov 2017 - Jan 2019",
+            "location": "São Paulo e Região, Brasil",
+            "description": "There is never a second chance to make a first impression. We always have to think about it in the first contact with the client. To be our better self since the first start • To be welcoming, always polite, all ears and show empathy • To be organized with the company procedures and administrations, to make a clean and practical environment to work at"
+          },
+          {
+            "title": "Sales At GFA - The Guest Finder Agency",
+            "organization": "GFA - The Guest Finder Agency",
+            "date_range": "Mar 2019 - May 2025",
+            "location": "São Paulo, Brazil",
+            "description": "Luxury Hotels Representation • To boost sales in our properties for the Brazilian market • Building and cultivating a strong relationship with our current and potential clients • To create sales actions and strategies for maximizing results • Planning an annual schedule for sales calls, events and selling campaigns • To coordinate fam trips with the clients • Promoting our products with presentations, trainings and marketing material such as newsletters and social media"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "The Set",
+            "date_range": "May 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "social media",
+          "travel insurance",
+          "engagement",
+          "luxury",
+          "hospitality",
+          "director",
+          "sales",
+          "hotels",
+          "planning",
+          "selling",
+          "campaigns",
+          "presentations",
+          "marketing",
+          "newsletters",
+          "budget",
+          "restaurants",
+          "purchasing",
+          "rentals",
+          "insurance",
+          "organized",
+          "organizing"
+        ],
+        "activity_themes": [
+          "Luxury hospitality awards (Michelin Keys, Tatler's Best 100, Condé Nast Readers' Choice)",
+          "The Set Summit 2025 events and industry leader conversations",
+          "Announcing new member hotels to The Set collection (e.g. Round Hill Hotel and Villas)",
+          "Promoting achievements and recognitions of The Set hotels across Asia, Europe and Caribbean",
+          "Industry events including ILTM Cannes and partner appreciation weeks"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/louise-rios-b59675b4"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -889,5 +3312,71 @@
     "succeeded": 20,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T23:50:57.420052+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 21,
+      "structured": 20,
+      "discovered": 0,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 2,
+        "content_pages": 21,
+        "cost_estimate": {
+          "approx_total_usd": 0.035,
+          "search_component_usd": 0.014,
+          "contents_component_usd": 0.021,
+          "counts": {
+            "search_requests": 2,
+            "content_pages": 21
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 56383,
+          "cached_prompt_text_tokens": 1280,
+          "completion_tokens": 23781,
+          "reasoning_tokens": 80131,
+          "output_tokens": 0,
+          "total_tokens": 160295
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.733934,
+          "token_component_usd": 0.733934,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 56383,
+            "cached_prompt_text_tokens": 1280,
+            "completion_tokens": 23781,
+            "reasoning_tokens": 80131,
+            "total_tokens_reported": 160295,
+            "output_like_tokens": 103912,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.768934
+    }
   }
 }

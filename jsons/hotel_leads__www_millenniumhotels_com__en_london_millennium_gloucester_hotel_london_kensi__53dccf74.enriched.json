@@ -251,7 +251,7 @@
       "full_name": "Birute Savickaite",
       "title": "Acting Director of Sales",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": "https://uk.linkedin.com/in/birute-savickaite-929520b8",
+      "linkedin_url": "https://www.linkedin.com/in/birute-savickaite-929520b8",
       "email": null,
       "email2": null,
       "phone": "+44 20 7331 6257",
@@ -278,13 +278,133 @@
           "source_type": "official_site",
           "quote_or_fact": "sales.london@millenniumhotels.co.uk and +44 (0) 20 7331 6257"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/birute-savickaite-929520b8",
+        "display_name": "Birute Savickaite",
+        "headline": "Assistant Director of Sales",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 13 years and 5 months",
+        "experience": [
+          {
+            "title": "Business Centre Operator",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Feb 2012 - Nov 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Club Lounge Attendant",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Nov 2013 - Sep 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Sep 2015 - Oct 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reception Supervisor",
+            "organization": "Millennium Hotel London Mayfair",
+            "date_range": "May 2017 - Sep 2018",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "M E Sales Executive",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Sep 2018 - Jan 2023",
+            "location": "Gloucester, United Kingdom",
+            "description": "Acting as a point of contact between customers and company. Negotiating terms of sales and agreements and closing sales with customers. Responding to customer queries and resolving their objections. Providing customers with detailed and accurate quotations and cost calculations. Creating and keeping a long lasting relationship with clients."
+          },
+          {
+            "title": "Senior M E Sales Convertor",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Nov 2021 - Jan 2023",
+            "location": null,
+            "description": "I am responding to enquiries, winning business through various sales techniques, in order to meet and surpass sales targets consistently. I work with a variety of customers, determine ways to simplify and improve the sales process. Keeping great relationships with the specific clients, serve and pursue opportunities to host new and repeat M&E business within our venues. Acting as a liaison between the clients and different departments within the venue/company to convey information, follow departmental procedures and constantly strive for future gains within the M&E team. Training new team members, conduct their performance reviews and setting of objectives"
+          },
+          {
+            "title": "Assistant Meetings And Events Manager",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Jan 2023 - Aug 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Sales Manager",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Aug 2023 - Feb 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Feb 2024 - Feb 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Feb 2025 - Sep 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Acting Director Of Sales",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "acting",
+          "director",
+          "sales",
+          "liaison",
+          "training",
+          "less",
+          "quotations",
+          "calculations",
+          "sales manager",
+          "sales process",
+          "performance reviews"
+        ],
+        "activity_themes": [
+          "Hosting FAM trips for travel partners and clients",
+          "Client appreciation and networking events",
+          "Hotel sustainability awards and green initiatives",
+          "Industry conferences and venue inspirations",
+          "Career moves and new beginnings in hospitality",
+          "Team celebrations and event hosting"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/dalia-batti_hopes-dreams-goals-activity-7412438123596386304-BVru",
+          "https://www.linkedin.com/posts/andrii-virchenko-23282031_letstalkbusiness-readyforbusiness-newbeginnings-activity-7414347166074159104-kQ2m",
+          "https://www.linkedin.com/posts/the-bailey-s-hotel-kensington_millenniumhotels-thebaileyshotellondon-activity-7402693665367695361-rTXK",
+          "https://www.linkedin.com/posts/aitooverseasconference-expediataap-asturias-activity-7402683176956895233-94ki",
+          "https://www.linkedin.com/posts/venuesearchlondon_a-little-dose-of-festive-inspiration-from-activity-7403723787147304961-MZ6x",
+          "https://www.linkedin.com/posts/bridge-representation_bridgerepresentation-famtrip-london-activity-7401951870367436800-p9UR",
+          "https://www.linkedin.com/posts/birute-savickaite-929520b8_such-a-great-evening-hosting-the-berg-hansen-activity-7402074392073248769-6Dzs",
+          "https://www.linkedin.com/posts/mohamed-ibrahim-568535101_i-want-to-share-that-i-completed-bachelor-activity-7397959298519113728-qi8l"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Aurelia D'Souza",
       "title": "Director of Sales",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/aurelia-d-souza-b280b729",
       "email": null,
       "email2": null,
       "phone": "+44 20 7331 6257",
@@ -306,13 +426,176 @@
           "source_type": "official_site",
           "quote_or_fact": "sales.london@millenniumhotels.co.uk"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/aurelia-d-souza-b280b729",
+        "display_name": "Aurelia D'Souza",
+        "headline": "Director of Sales",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A diligent and strategic Commercial Leader within the hospitality industry with a proven track record of driving performance and delivering impressive results. Leading by example, I always strive to create a culture of professionalism, learning and sharing knowledge, placing team members in a position to succeed, to achieve their personal goals, beat targets consistently and drive profits for my organisation. Driven by success and progression you can always count on me to get the job done!\n\nTotal Experience: 21 years and 8 months",
+        "experience": [
+          {
+            "title": "Front Office Receptionist",
+            "organization": "Ramee Group of Hotels, Resorts & Apartments",
+            "date_range": "Apr 2003 - Dec 2003",
+            "location": "Mumbai Area, India",
+            "description": "Key Responsibilities: • Responsible for the smooth process of check in and check out of all guests. • Handled all guests complaints"
+          },
+          {
+            "title": "Acting Team Leader-Reception",
+            "organization": "Hyatt Regency",
+            "date_range": "Jan 2004 - Dec 2005",
+            "location": "Mumbai Area, India",
+            "description": "Key Responsibilities: • Responsible for check in and check out of all VIP guests, large groups, airline crew and overseeing the running of the team on duty • Conducted regular trainings to mould the team into a group of focused individuals, aimed at achieving the organizations goal of meeting guest satisfaction. • Assisted in the creation and implementation of a full set of Front Office Policies and Procedures"
+          },
+          {
+            "title": "Business Centre Supervisor",
+            "organization": "glh Hotels",
+            "date_range": "Jan 2006 - Jun 2007",
+            "location": "London, United Kingdom",
+            "description": "Key Responsibilities: • Responsible for looking after clients attending meetings, making sure all requests were addressed in a timely manner"
+          },
+          {
+            "title": "Christmas Sales Executive",
+            "organization": "glh Hotels",
+            "date_range": "Jun 2007 - Dec 2008",
+            "location": "London, United Kingdom",
+            "description": "Key Responsibilities: • Responsible for dealing with enquiries, negotiating, closing deals, preparing contracts, collecting deposits and liaising with other departments • Dealt with over 950 enquiries during the Christmas period each year. • Achieved £470k (7500 covers in 2007) and over £580K (10,300 covers in 2008), the highest sales figures achieved till date. • Won the Employee of the month in November 2007 and October 2008 for performance in Christmas sales."
+          },
+          {
+            "title": "Meeting And Events Sales Executive",
+            "organization": "glh Hotels",
+            "date_range": "Jan 2009 - Apr 2011",
+            "location": "London, United Kingdom",
+            "description": "Key Responsibilities: • Handled telephone and email enquiries in a timely manner, produced proposals, negotiated and closed deals in a fast paced environment. • Acted as sole point of contact for the client from enquiry handling to event planning and logistical organisation • Conducted site inspections, menu tasting and assist on familiarisation trips to actively endorse the hotel and drive new businesses • Responsible for 10 cold calls per week • Assisted in the creation and implementation of procedures for enquiry handling, generating contracts and payment processes * The highest performer in sales consistently within a team of eight people"
+          },
+          {
+            "title": "Assistant Meeting Events Sales Manager (Acting Head Of Department)",
+            "organization": "glh Hotels",
+            "date_range": "May 2011 - Apr 2012",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Meeting Events Sales Manager (Head Of Department)",
+            "organization": "glh Hotels",
+            "date_range": "May 2012 - Mar 2013",
+            "location": "The Tower Hotel",
+            "description": "Key Responsibilities: • Responsible for sales and revenue of the largest Meeting and Event capacity within Guoman Hotels with 19 meeting rooms for upto 550 people and enquiries upto £34 Million per year • Involved and responsible for budgetary and financial management and strategic decision • Updated rate structure on a regular basis and compiled weekly forecasts and annual budgets in line with hotel sales activities • Responsible for diary management and yield to maximize revenue opportunities • Organized calling days to drive repeat business and conversion days to grow revenue within the team. • Prepared the Christmas brochure and sales strategy • Managed and mentored a team of four sales executives and one Intern • Set sales and upselling targets for individual executives and reviewed performance on a monthly basis • Visited, developed and maintained strong relationships with key conference agents and organized fam trips • Involved in exhibitions to increase brand awareness through proactive activities • Analysed competitor activities through telephone research and visiting competitor hotels"
+          },
+          {
+            "title": "Deputy Value Centre General Manager - Meetings Events",
+            "organization": "glh Hotels",
+            "date_range": "Apr 2013 - Nov 2014",
+            "location": "The Tower Hotel. St. Katherine's Way, L",
+            "description": "Part of London's largest owner/operator, I'm based at one of the UK's largest hotels the Tower. The hotel boasts a prime central London location opposite the iconic Tower Bridge, 801 bedrooms, 19 meeting and event spaces for up to 500 and turns over £40m annually."
+          },
+          {
+            "title": "Head Of Sales",
+            "organization": "CCT Venues",
+            "date_range": "Dec 2014 - Dec 2018",
+            "location": "Barbican, South Quay, Bank Street",
+            "description": "Key Responsibilities: • Responsible for sales and revenue of 80 meeting rooms across four venues • Work with the CEO and General Managers of each venue to make strategic input into the group marketing and sales plan for the company • Member of the board for London City Selection • Identify and evaluate new sales opportunities and work with the General Managers and Marketing Manager to capitalise on these opportunities • To identify new sales channels and maximise the business development from these channels • Network with key prospects to promote the CCT Venues brand and build awareness of the venues • To develop and maintain key account relationships • Ensure that CCT Venues are invited to bid for annual contracts"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Five Lakes Resort",
+            "date_range": "Jan 2019 - Apr 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Manager Of Meetings Incentives Conferences Events",
+            "organization": "InterContinental London - The O2",
+            "date_range": "Aug 2021 - Dec 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Millennium Gloucester Hotel",
+            "date_range": "Feb 2022 - Aug 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Thistle Marble Arch",
+            "date_range": "Aug 2024 - Mar 2025",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "InterContinental London - The O2",
+            "date_range": "Mar 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Mumbai",
+            "degree_or_field": "Bachelor of Commerce (B.Com.) Commerce",
+            "date_range": "1998 - 2003"
+          }
+        ],
+        "skills": [
+          "diligent",
+          "commercial",
+          "hospitality",
+          "driving",
+          "organisation",
+          "director",
+          "sales",
+          "responsible",
+          "marketing",
+          "deposits",
+          "incentives",
+          "hotels",
+          "management",
+          "budgets",
+          "hotel",
+          "yield",
+          "organized",
+          "strategy",
+          "proactive",
+          "research",
+          "planning",
+          "acting",
+          "running",
+          "hospitality industry",
+          "sales plan",
+          "business development",
+          "closing deals",
+          "front office",
+          "sales manager",
+          "financial management",
+          "diary management",
+          "sales strategy",
+          "brand awareness",
+          "event planning",
+          "site inspections",
+          "guest satisfaction"
+        ],
+        "activity_themes": [
+          "FAM trip to Australia with Hilton for Sydney and Melbourne",
+          "Engagement with group tours, CHR travel and BIM26 events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/aurelia-d-souza-b280b729",
+          "https://www.linkedin.com/posts/campbell4_australia-sydney-melbourne-activity-7423400796387504128-Yh5M",
+          "https://www.linkedin.com/posts/dave-picton-b444aa13_bim26-chrtravel-grouptours-activity-7422922210991943681-ZsTc"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Christian van Dam",
       "title": "Regional General Manager - London & South",
       "company": "Millennium Hotels and Resorts",
-      "linkedin_url": "https://uk.linkedin.com/in/christian-van-dam-37b15125",
+      "linkedin_url": "https://www.linkedin.com/in/christian-van-dam-37b15125",
       "email": null,
       "email2": null,
       "phone": null,
@@ -339,7 +622,113 @@
           "source_type": "official_site",
           "quote_or_fact": "Main phone +44 2073 736030 and reservations@millenniumhotels.co.uk"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/christian-van-dam-37b15125",
+        "display_name": "Christian van Dam",
+        "headline": "Regional General Manager - London & South",
+        "location": "London Area, United Kingdom (GB)",
+        "about": "A hardworking, dynamic and sales focused Senior General Manager with pre-opening and opening experience that has an energetic drive to deliver excellent results for his company. I have a solid record of effectively leading and managing luxury resorts and business hotels globally for the last twenty years in various locations such as Africa (South Africa and Zambia), Middle East (Turkey and Egypt), Europe ((London, Monaco and Portugal) and the United States of America (New York City). I have worked and represented the following groups of hotels and resorts: Sun International Hotel and Resorts, Rixos Hotels and Resorts and Millennium & Copthorne Hotels most recently since September 2010.\n\nTotal Experience: 20 years and 11 months",
+        "experience": [
+          {
+            "title": "General Manager Hotel Manager",
+            "organization": "Sun International",
+            "date_range": "Jan 1989 - Jan 2010",
+            "location": null,
+            "description": "The Cabanas Hotel - Sun City, South Africa The Royal Livingstone - Zambia The Palace of the Lost City - Sun City, South Africa The Sahara Sands Hotel, The Sahara Oasis Hotel and International Convention Centre - Egypt The Palace of the Lost City - Sun City, South Africa (reappointed)\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Tournant De Hall",
+            "organization": "Loews Hotels & Co",
+            "date_range": "Oct 1993 - Oct 1994",
+            "location": "Principality of Monaco",
+            "description": "Department: Trades • Level: Specialist"
+          },
+          {
+            "title": "Resort General Manager",
+            "organization": "Rixos Hotels",
+            "date_range": "May 2008 - Jan 2009",
+            "location": "Rixos Premiun Belek- Antalya, Turkey",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Cluster General Manager General Manager",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Sep 2010 - May 2022",
+            "location": "London, United Kingdom",
+            "description": "Copthorne Tara Hotel, Kensington, London, UK Millennium Hotel, London Mayfair, UK Millennium Gloucester & Conference Centre, Kensington, London, UK Millennium Baileys Hotel, Kensington, London, UK Millennium Broadway and Conference Center, New York, USA The Premier Hotel, New York, USA The Chelsea Harbour, Millennium and Copthorne Chelsea Football Club hotels"
+          },
+          {
+            "title": "Area General Manager - London",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "May 2022 - May 2024",
+            "location": null,
+            "description": "Millennium Gloucester Hotel & Conference Centre The Chelsea Harbour Hotel & Spa The Baileys Hotel The Millennium Hotel Knightsbridge The Copthorne Tara Hotel Copthorne Hotel Slough Windsor Copthorne Hotel Plymouth Copthorne Hotel Cardiff\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Regional General Manager - London And South",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "May 2024 - Present",
+            "location": null,
+            "description": "Millennium Gloucester Hotel and Conference Center Copthorne Tara Hotel Copthorne Hotel Windsor Slough Copthorne Cardiff Hotel Copthorne Plymouth Hotel Copthorne Gatwick Hotel Copthorne Effingham Hotel"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of South Africa/Universiteit van Suid-Afrika",
+            "degree_or_field": "Bachelor of Commerce - BCom, Business Administration and Management, General",
+            "date_range": "1989 - 1995"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Certificate in Executive Leadership, Business Administration and Management, General",
+            "date_range": "2005 - 2005"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Master Certificate in Essentials of Hospitality Management, Business Administration and Management, General",
+            "date_range": "2005 - 2006"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Financial Management, Business Administration and Management, General",
+            "date_range": "2006 - 2006"
+          },
+          {
+            "school": "London Institute of Business & Technology",
+            "degree_or_field": "Postgraduate - Level 7 Diploma in Strategic Management and Leadership, Business, Management, Marketing, and Related Support Services, Level 7 Diploma",
+            "date_range": "2021 - 2021"
+          },
+          {
+            "school": "London Institute of Business & Technology",
+            "degree_or_field": "Postgraduate - Level 7 Diploma in Hospitality and Tourism Management, Hospitality and Tourism Management, Level 7 Diploma",
+            "date_range": "2021 - 2022"
+          }
+        ],
+        "skills": [
+          "sales",
+          "luxury",
+          "hotels",
+          "africa",
+          "hotel",
+          "spa",
+          "cluster",
+          "football"
+        ],
+        "activity_themes": [
+          "Luxury hotel expansions and investments",
+          "Hospitality leadership and interviews",
+          "Luxury brand reinvention in hotels",
+          "Client appreciation and networking events",
+          "Guest feedback and TripAdvisor achievements",
+          "Strategic management in hospitality and tourism"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/christian-van-dam-37b15125"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ali Mehdi",
@@ -395,7 +784,33 @@
           "source_type": "official_site",
           "quote_or_fact": "marketing.london@millenniumhotels.co.uk"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anne-jensen-00978313",
+        "display_name": "Anne Jensen",
+        "headline": "Director of Sales & Marketing at Millennium & Copthorne Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Millennium & Copthorne Hotels",
+            "date_range": "Current",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "sales",
+          "marketing"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Carolyn Wishnowski",
@@ -423,7 +838,21 @@
           "source_type": "official_site",
           "quote_or_fact": "marketing.london@millenniumhotels.co.uk"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/carolynpereira",
+        "display_name": "Carolyn Wishnowski",
+        "headline": "Global Marketing, Brand Management & Customer Experience | Strategic Partnerships",
+        "location": "Singapore, Singapore (SG)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "weak",
+        "caveats": "Only basic profile header information available in fetched text; no experience, education, about, or other sections present."
+      }
     },
     {
       "full_name": "Danila Junglee",
@@ -457,7 +886,7 @@
       "full_name": "Samanta Bottin",
       "title": "Meetings & Events / Sales Support",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": "https://uk.linkedin.com/in/samanta-bottin-b698092b3",
+      "linkedin_url": "https://www.linkedin.com/in/samanta-bottin-b698092b3",
       "email": null,
       "email2": null,
       "phone": "+44 20 7331 6257",
@@ -479,13 +908,56 @@
           "source_type": "official_site",
           "quote_or_fact": "Venues contact +44 (0) 20 7331 6257"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/samanta-bottin-b698092b3",
+        "display_name": "Samanta Bottin",
+        "headline": "Meeting & Event Sales Manager- Planner at Millennium Gloucester Hotel London Kensington",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 3 years and 10 months",
+        "experience": [
+          {
+            "title": "Senior Meetings Events Planner",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Mar 2022 - Dec 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Administrative • Level: Senior"
+          },
+          {
+            "title": "Meetings Events Assistant Manager",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Jan 2024 - May 2025",
+            "location": null,
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Meeting Event Sales Manager- Planner",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "May 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "IGNITE London 2025 event planning, collaboration, and execution at Millennium Gloucester Hotel"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/gurbirsinghs_ignitelondon2025-connect-people-activity-7328806039481454592--N-I"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Aditya Gupta",
       "title": "Assistant Front Office Manager",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": "https://in.linkedin.com/in/aditya-gupta-621a5a1b8",
+      "linkedin_url": "https://www.linkedin.com/in/aditya-gupta-621a5a1b8",
       "email": null,
       "email2": null,
       "phone": "+44 20 7373 6030",
@@ -507,13 +979,101 @@
           "source_type": "official_site",
           "quote_or_fact": "General inquiries and front desk phone"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/aditya-gupta-621a5a1b8",
+        "display_name": "Aditya Gupta",
+        "headline": "Assistant Front office Manager | MS.c in International hotel management @ University of Surrey |Ex-Housekeeping Supervisor at Taj Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Completed hotel management from The Oberoi center of learning and development(OCLD) as a housekeeper. Ex- housekeeping supervisor at Taj Chandigarh, I have over 5 years of experience in the industry and currently pursuing my MSc in international hotel management from University of Surrey.\n\nTotal Experience: 7 years and 6 months",
+        "experience": [
+          {
+            "title": "Housekeeper",
+            "organization": "Oberoi Hotels & Resorts",
+            "date_range": "Aug 2016 - May 2019",
+            "location": "Shimla, Himachal Pradesh, India",
+            "description": null
+          },
+          {
+            "title": "Housekeeping Supervisor",
+            "organization": "Taj Hotels",
+            "date_range": "Sep 2019 - Sep 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Assistant",
+            "organization": "Holiday Inn Guildford",
+            "date_range": "May 2022 - Sep 2022",
+            "location": "United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office",
+            "organization": "Holiday Inn Guildford",
+            "date_range": "Sep 2022 - Mar 2023",
+            "location": "Guildford, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Supervisor Duty Manager",
+            "organization": "Holiday Inn Guildford",
+            "date_range": "Mar 2023 - Aug 2024",
+            "location": "Guildford, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Aug 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Oberoi Centre of Learning and Development",
+            "degree_or_field": "Bachelor's degree, Hotel management",
+            "date_range": "2016 - 2019"
+          },
+          {
+            "school": "Indira Gandhi National Open University",
+            "degree_or_field": "Bachelor's degree, Tourism and Travel Services Management",
+            "date_range": "2016 - 2019"
+          },
+          {
+            "school": "University of Surrey",
+            "degree_or_field": "Master of Science - MS, International Hotel management",
+            "date_range": "2022 - 2023"
+          }
+        ],
+        "skills": [
+          "hotel",
+          "management",
+          "housekeeping",
+          "food",
+          "hotel management",
+          "front office"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and front office management",
+          "Professional growth, learning culture and promotions",
+          "Personal development, mindset and discipline",
+          "AI applications in professional roles",
+          "Team events and hospitality industry activities"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/aditya-gupta-621a5a1b8"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sharmyn Carvalho",
       "title": "Assistant Groups Reservations Manager",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/sharmyn-carvalho-978552151",
       "email": null,
       "email2": null,
       "phone": "+44 20 7373 6030",
@@ -535,13 +1095,89 @@
           "source_type": "official_site",
           "quote_or_fact": "Group reservations phone and email"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sharmyn-carvalho-978552151",
+        "display_name": "Sharmyn Carvalho",
+        "headline": "Assistant Groups Reservation Manager at Millennium Gloucester Hotel London Kensington",
+        "location": "Erith, England, United Kingdom (GB)",
+        "about": "Total Experience: 15 years and 1 month",
+        "experience": [
+          {
+            "title": "Restaurant Hostess",
+            "organization": "Novotel Hotel Mumbai",
+            "date_range": "May 2009 - Oct 2009 • 5 months",
+            "location": "Mumbai, Maharashtra, India",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Operations Executive",
+            "organization": "Ottila International",
+            "date_range": "Feb 2010 - Mar 2022 • 12 years and 1 month",
+            "location": "Mumbai, Maharashtra, India",
+            "description": "Company: 201-500 employees • Founded 1997 • Privately Held • Travel Arrangements\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Team Head",
+            "organization": "Ottila International Pvt. Ltd.",
+            "date_range": "Apr 2022 - Oct 2023 • 1 year and 6 months",
+            "location": "Mumbai, Maharashtra, India",
+            "description": "Company: 201-500 employees • Founded 1997 • Privately Held • Travel Arrangements\nDepartment: Other • Level: Head"
+          },
+          {
+            "title": "Groups Reservation Supervisor",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Jan 2025 - Jul 2025 • 6 months",
+            "location": null,
+            "description": "Company: 10,001+ employees • Privately Held • Hospitality\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Assistant Groups Reservation Manager",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Jul 2025 - Present • 7 months",
+            "location": null,
+            "description": "Company: 10,001+ employees • Privately Held • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "St. Xavier's College, Mumbai",
+            "degree_or_field": "Bachelor of Commerce - BCom",
+            "date_range": "2005 - 2008 • 3 years"
+          }
+        ],
+        "skills": [
+          "reservation",
+          "operations"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and front office management",
+          "Team building events and staff engagement",
+          "Client appreciation and fam trips",
+          "Holiday and cultural celebrations in hotels",
+          "Health awareness initiatives including mental health",
+          "Employee recognition and awards",
+          "Tourism partnerships and hotel operations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_proud-to-be-a-hotelier-proud-to-be-a-sri-activity-7415691822058119168-KDa0",
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_drive-determination-and-discipline-the-activity-7417486978792976384-wjkd",
+          "https://www.linkedin.com/posts/indumini-sarathchandra_opentowork-managerialroles-leadershipready-activity-7414791433515335680-DxV2",
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_hospitalityleadership-frontofficemanagement-activity-7416399811144212480-h7bt",
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_careergrowth-hospitalityleadership-millenniumhotels-activity-7414221803662843904-piPK",
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_airlinehandling-hoteloperations-frontofficeleadership-activity-7411330216863621120-GPIX",
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_millenniumhotelsandresorts-leadership-activity-7410981997122199552-R4ny",
+          "https://www.linkedin.com/posts/millennium-gloucester-hotel-london-kensington_clientappreciation-mymillennium-millenniumgloucester-activity-7396556385305669632-Z5p1"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Nidhi Verma",
       "title": "Reservations Manager / Team Member",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/nidhi-verma-b048b958",
       "email": null,
       "email2": null,
       "phone": "+44 20 7373 6030",
@@ -563,13 +1199,128 @@
           "source_type": "official_site",
           "quote_or_fact": "reservations@millenniumhotels.co.uk and phone"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/nidhi-verma-b048b958",
+        "display_name": "Nidhi Verma",
+        "headline": "Human Resources at Millennium Gloucester Hotel",
+        "location": "United Kingdom (GB)",
+        "about": "I am certified Aviation, Hospitality & Travel Management trainer. Its been more then 15 years I have been part of Aviation and hospitality. I have done MBA in HR. Looking for new opportunities.\n\nTotal Experience: 16 years and 9 months",
+        "experience": [
+          {
+            "title": "Cabin Crew",
+            "organization": "jet airways",
+            "date_range": "Mar 2008 - May 2009",
+            "location": null,
+            "description": "worked as a cabin attendant .\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "INFLIGHT MANAGER",
+            "organization": "INTERG GLOBE AVIATION",
+            "date_range": "Jun 2009 - Dec 2016",
+            "location": null,
+            "description": "Building a world class team of professionals in aviation industry with responsibility of 42 crew members, establishing policies and procedures are followed for on time performance , facilitating 1. Training Crew. 2.Admin Duties. 3.Maintain Records. 4.Audit Flights. 5.Feedback and suggestions From Guests. 6. Maintain Team Work and Motivation. 7. Maintaining sales portals . 8.Achieve Sales Targets. 9. Mentoring team mates\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "HR TRAINER",
+            "organization": "LONDON ACADEMY QATAR",
+            "date_range": "Jan 2018 - Jun 2022",
+            "location": "Doha",
+            "description": "CONDUCT CLASSES FOR ACADEMIC & PROFESSIONAL COURSES. CONDUCT RECRUITMENT DRIVE. MAINATAIN EMPLOYEE SALARY & PERSONEL RECORDS. CONDUCT SALES TRAINING & PROMOTE MARKETING.\nDepartment: Human Resources • Level: Specialist"
+          },
+          {
+            "title": "Aviation, Hospitality Travel Management Trainer",
+            "organization": "Icon Training Centre",
+            "date_range": "Nov 2018 - Jun 2022",
+            "location": "Qatar",
+            "description": "DESIGN TRAINING MODULES. CONDUCT TRAINNIG SESSIONS ONLINE & CLASSROOM. DESIGN PROGRAME FOR STUDENTS AS PER CLIENT & STUDENT NEEDS. CONDUCT PPT SESSIONS AS WELL AS WET RUN AND DRY RUN AS PER THE COURSE.\nCompany: 11-50 employees • Founded 2017 • Educational • Education Administration Programs"
+          },
+          {
+            "title": "Travel Torism Trainer",
+            "organization": "Icon Academy Qatar",
+            "date_range": "Dec 2018 - Jun 2022",
+            "location": "Doha, Qatar",
+            "description": null
+          },
+          {
+            "title": "Human Resources Officer",
+            "organization": "Millennium Gloucester Hotel",
+            "date_range": "Feb 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Human Resources • Level: Specialist"
+          },
+          {
+            "title": "Human Resources",
+            "organization": "Millennium Gloucester Hotel",
+            "date_range": "Mar 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Human Resources • Level: Specialist"
+          }
+        ],
+        "education": [
+          {
+            "school": "Kumaun University, Nainital",
+            "degree_or_field": "Bachelor of Commerce (B.Com.), commerce",
+            "date_range": "2008 - 2011"
+          },
+          {
+            "school": "Sikkim Manipal University - Distance Education",
+            "degree_or_field": "Master of Business Administration (MBA), Human Resources Management and Services",
+            "date_range": "2012 - 2014"
+          }
+        ],
+        "skills": [
+          "aviation",
+          "hospitality",
+          "management",
+          "trainer",
+          "mba",
+          "hr",
+          "training",
+          "audit",
+          "flights",
+          "sales",
+          "portals",
+          "mentoring",
+          "design",
+          "courses",
+          "recruitment",
+          "salary",
+          "marketing",
+          "travel management",
+          "human resources",
+          "team work",
+          "sales training"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and career growth at Millennium Hotels",
+          "Airline handling, hotel operations and front office leadership",
+          "Client appreciation events and cultural celebrations",
+          "Training programs for growth, entrepreneurship and leadership",
+          "Women in aviation recognition and industry achievements",
+          "HR team meetings, long service awards and townhalls",
+          "Qatar Airways and airport operational highlights",
+          "Hospitality career facilitation and student training"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/ummerafran1_gettraining-growthmindset-leadershipdevelopment-activity-7417201775729909760-nLME",
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_airlinehandling-hoteloperations-frontofficeleadership-activity-7411330216863621120-GPIX",
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_careergrowth-hospitalityleadership-millenniumhotels-activity-7414221803662843904-piPK",
+          "https://www.linkedin.com/posts/millennium-gloucester-hotel-london-kensington_clientappreciation-mymillennium-millenniumgloucester-activity-7396556385305669632-Z5p1",
+          "https://www.linkedin.com/posts/dhanya-nair-charted-fellow-cipd-55b9a165_kitts-keralatourism-activity-7291318350259847168-dmuN",
+          "https://www.linkedin.com/posts/millennium-gloucester-hotel-london-kensington_millenniumhotel-chinesenewyear-celebration-activity-7289642145236361216-LzKN",
+          "https://www.linkedin.com/posts/millennium-hotels-&-resorts_millennium-mymillennium-merrychristmas-activity-7277473572913094657-IgNw",
+          "https://www.linkedin.com/posts/millennium-hotels-&-resorts_mhrlondontownhall-chairmanlegacy-30yearsstrong-activity-7269189010030219265-zLHD"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mohammed Nazeer Ahmed",
       "title": "Meetings & Events Assistant Manager",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/mohammed-nazeer-ahmed-9aba64224",
       "email": null,
       "email2": null,
       "phone": "+44 20 7331 6257",
@@ -591,13 +1342,141 @@
           "source_type": "official_site",
           "quote_or_fact": "Events/venues phone and email"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/mohammed-nazeer-ahmed-9aba64224",
+        "display_name": "Mohammed Nazeer Ahmed",
+        "headline": "Meeting & Events Assistance Manager",
+        "location": "United Kingdom (GB)",
+        "about": "As a passionate and results-driven Meetings & Events Assistant Manager with a Bachelor's degree in Business Administration from the University of Hertfordshire, where I developed expertise in marketing, finance, and management. My degree not only equipped me with analytical and strategic thinking skills but also instilled a deep understanding of customer-centric business practices. I bring over five years of progressive experience in Sales and hospitality, event planning, and client relationship management. Currently based in London, I thrive in dynamic, fast-paced environments where attention to detail, operational excellence, and customer satisfaction are paramount. At Millennium Gloucester Hotel London, I support the seamless execution of high-profile events, from initial enquiry to post-event analysis. My role involves strategic diary management, client communications, revenue optimisation, and cross-functional collaboration with Sales, F&B, and Operations teams. I take pride in delivering exceptional service while driving business growth and operational efficiency",
+        "experience": [
+          {
+            "title": "Sales Assistant",
+            "organization": "Beauty World",
+            "date_range": "Oct 2019 - Feb 2020",
+            "location": "Slough, England, United Kingdom",
+            "description": "Worked in a very busy environment, recognised for the ability to communicate with customers and provided an exceptional customer service. Restocked items on shelves while adhering to health and safety regulations. Handled deliveries in the back house. Provided assistance to colleagues during busy seasonal periods. Focused on maximizing sales by upselling and cross-selling products to customers, resulting in increased revenue."
+          },
+          {
+            "title": "Team Leader",
+            "organization": "KFC UK & Ireland",
+            "date_range": "Feb 2020 - Apr 2022",
+            "location": "Slough, England, United Kingdom",
+            "description": "Led a team consists of twenty team members. Achieved all sales targets on time. Assisted the Restaurant General Manager (RGM) with day-to-day operations, including inventory management and scheduling team rotas. Handled cash and banking operations. Reviewed cashier reports on a daily basis. Provided exceptional customer service by assisting colleagues with taking orders on the till, food preparation, and maintaining cleanliness. Coached and guided new team members to ensure a consistent experience for customers."
+          },
+          {
+            "title": "Reservations Supervisor",
+            "organization": "Ibis Budget London Heathrow",
+            "date_range": "Apr 2022 - May 2024",
+            "location": "Hounslow, London, United Kingdom",
+            "description": "Supervised daily Reservations operations of a hotel with 307 rooms, processed all requests, and controlled reservations to maximize revenue. Managed selling status of house daily, including flash report and allowances. Attended Revenue Strategy meetings and followed the program accordingly. Followed the Revenue Strategy program according to SOP. Reviewed created reservations for accuracy, achieving a {95%} error-free rate. Assisted Reservations' Manager with scheduling of rotas and timekeeping for the department and holiday tracker. Reviewed created reservations for accuracy. (Holiday Extras, Hotel beds and other FIT bookings with different rate codes). Collaborated closely with Front Office, Housekeeping, and Facilities Manager to ensure smooth hotel operations and guest satisfaction."
+          },
+          {
+            "title": "Meeting Events Executive",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Jun 2024 - Jun 2025",
+            "location": "Kensington, London, United Kingdom",
+            "description": "Oversee and manage confirmed Event enquiries from planning to execution, ensuring a seamless experience for clients and guests. Serve as the main point of contact for clients, conducting meet and greets, site visits, and pre-event meetings, while maintaining strong relationships with stakeholders. Manage deposits, contracts, and billing processes, ensuring payments are received on time and post-event invoices are settled. Work closely with Sales, Reservations, Food & Beverage, and Operations teams to ensure smooth event execution and exceptional service delivery. Actively cross-sell hotel services and optimise revenue opportunities in banqueting, catering, and other hotel departments. Attend departmental meetings, track event performance, and provide feedback to improve processes and customer experience. Closely monitor accounts’ revenue and business production. Analyse productivity figures for all selected accounts."
+          },
+          {
+            "title": "Assistant M E Manager",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Jul 2025 - Present",
+            "location": "Kensington, London, United Kingdom",
+            "description": "Diary & Planner Management: Supported the manager of Meetings and events of Conferences in managing the M&E diary to ensure smooth scheduling and space optimisation. Client Communication: Responded to proposals and enquiries within 24 hours and contracts within 48 hours, maintaining high standards of professionalism. Delphi S&C System: Maintained accurate client and market data to support strategic decisions. Revenue Growth: Identified opportunities to enhance client satisfaction and increase departmental revenue. Proposal & Contract Preparation: Created quotations and contracts aligned with client needs and hotel standards. Cross-Department Collaboration: Worked closely with Sales, Account Management, and Operations to support business development and event execution. Reporting: Produced weekly and monthly reports, including lost business, referrals, and production statistics. Event Coordination: Led pre-conference meetings, coordinated trial meals, site visits, and ensured operational readiness. Client Feedback Management: Handled feedback and escalated complaints to senior management when needed. Post-Event Analysis: Conducted post-event evaluations to identify areas for improvement and enhance future planning."
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Hertfordshire",
+            "degree_or_field": "Bachelor of Business Administration - BBA, Business Administration and Management, General",
+            "date_range": "2019 - 2023"
+          }
+        ],
+        "skills": [
+          "business administration",
+          "strategic thinking",
+          "event planning",
+          "relationship management",
+          "operational excellence",
+          "customer satisfaction",
+          "diary management",
+          "operational efficiency",
+          "market data",
+          "account management",
+          "business development",
+          "service delivery",
+          "customer experience",
+          "customer service",
+          "cross selling",
+          "inventory management",
+          "food preparation",
+          "front office",
+          "guest satisfaction",
+          "administration",
+          "marketing",
+          "finance",
+          "management",
+          "sales",
+          "hospitality",
+          "planning",
+          "hotel",
+          "analysis",
+          "communications",
+          "collaboration",
+          "operations",
+          "driving",
+          "efficiency",
+          "scheduling",
+          "delphi",
+          "preparation",
+          "quotations",
+          "reporting",
+          "reports",
+          "referrals",
+          "production",
+          "statistics",
+          "coordination",
+          "readiness",
+          "evaluations",
+          "deposits",
+          "billing",
+          "payments",
+          "reservations",
+          "food",
+          "catering",
+          "health",
+          "safety",
+          "regulations",
+          "selling",
+          "inventory",
+          "banking",
+          "flash",
+          "strategy",
+          "sop",
+          "housekeeping",
+          "client relationship management"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and career growth",
+          "Hotel team building and staff engagement",
+          "Airline handling and front office operations",
+          "Industry conferences and exhibitions",
+          "Training and entrepreneurship programs",
+          "Hotel anniversary and client celebrations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/mohammed-nazeer-ahmed-9aba64224"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Valancio Fernandes",
       "title": "Reservations Manager",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": "https://uk.linkedin.com/in/valancio-fernandes-164373234",
+      "linkedin_url": "https://www.linkedin.com/in/valancio-fernandes-164373234",
       "email": null,
       "email2": null,
       "phone": null,
@@ -619,13 +1498,73 @@
           "source_type": "official_site",
           "quote_or_fact": "Group reservations and reservations email listed"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/valancio-fernandes-164373234",
+        "display_name": "Valancio Fernandes",
+        "headline": "Reservations Manager at Millennium Gloucester Hotel",
+        "location": "Hounslow, England, United Kingdom (GB)",
+        "about": "Total Experience: 3 years and 9 months",
+        "experience": [
+          {
+            "title": "Groups Reservations Agent",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Mar 2022 - Oct 2022 • 7 months",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist\nCompany: 10,001+ employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Groups Reservations Supervisor",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Oct 2022 - Oct 2023 • 1 year",
+            "location": "Kensington, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist\nCompany: 10,001+ employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Assistant Reservations Manager",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Nov 2023 - Aug 2025 • 1 year and 9 months",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager\nCompany: 10,001+ employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Millennium Gloucester Hotel London Kensington",
+            "date_range": "Aug 2025 - Present • 5 months",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager\nCompany: 10,001+ employees • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "reservations"
+        ],
+        "activity_themes": [
+          "Hospitality career growth and leadership journeys",
+          "Team appreciation and employee recognition in hotels",
+          "Sustainability, community engagement and hotel initiatives",
+          "Personal career transitions and new beginnings",
+          "Hotel operations, culture and team celebrations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_careergrowth-hospitalityleadership-millenniumhotels-activity-7414221803662843904-piPK",
+          "https://www.linkedin.com/posts/mohammad-awais-parvaiz-028062146_after-five-years-in-the-charity-sector-i-activity-7408849022829932545-cHT2",
+          "https://www.linkedin.com/posts/thilan-don-831bb639a_hospitalityleadership-hoteloperations-activity-7408778628894932992-krWe",
+          "https://www.linkedin.com/posts/karthik-mohan-9754b417a_employeeofthemonth-hospitalityindustry-activity-7382479500443422720-87qw",
+          "https://www.linkedin.com/posts/m-hotel-singapore_internationalcoffeeday-hotellife-teamonthego-activity-7379441768519430144-qAOt",
+          "https://www.linkedin.com/posts/millennium-hotels-uk-eu-careers_sustainability-communityengagement-millenniumhotels-activity-7381698623165734912-kazJ",
+          "https://www.linkedin.com/posts/surbhi-agarwal-460ba578_newbeginnings-careerjourney-gratitude-activity-7379083173936209920-hxIs",
+          "https://www.linkedin.com/posts/keira-coghlan_teamwork-companyculture-firstofmany-activity-7378448277056372737-9XE7"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Himanshu Trivedi",
       "title": "Director of Revenue Management - UK & EU",
       "company": "Millennium Hotels and Resorts",
-      "linkedin_url": "https://in.linkedin.com/in/himanshu-trivedi-49512621",
+      "linkedin_url": "https://www.linkedin.com/in/himanshu-trivedi-49512621",
       "email": null,
       "email2": null,
       "phone": null,
@@ -647,13 +1586,133 @@
           "source_type": "official_site",
           "quote_or_fact": "UK sales office contact details"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/himanshu-trivedi-49512621",
+        "display_name": "Himanshu Trivedi",
+        "headline": "Director of Revenue Management - UK & EU",
+        "location": "India (IN)",
+        "about": "Total Experience: 14 years and 8 months",
+        "experience": [
+          {
+            "title": "SINIOR RESERVATION ASSOCIATE",
+            "organization": "boutique hotels india pvt.ltd",
+            "date_range": "Apr 2010 - Feb 2011",
+            "location": "Udaipur Area, India",
+            "description": "Company: 51-200 employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "CLUSTER RESERVATION EXECUTIVE",
+            "organization": "Hilton Worldwide",
+            "date_range": "Feb 2011 - Nov 2012",
+            "location": "New Delhi Area, India",
+            "description": "Company: 10,001+ employees • Founded 1919 • Public Company • Hospitality"
+          },
+          {
+            "title": "Deputy Revenue Manager",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jan 2014 - Sep 2016",
+            "location": "New Delhi Area, India",
+            "description": "Department: Finance & Accounting • Level: Manager\nCompany: 10,001+ employees • Founded 2003 • Public Company • Hospitality"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Holiday Inn City Centre Jaipur",
+            "date_range": "Oct 2016 - Aug 2017",
+            "location": "Jaipur, Rajasthan, India",
+            "description": "Department: Finance & Accounting • Level: Manager\nCompany: 201-500 employees • Founded 2014 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Aug 2017 - Aug 2018",
+            "location": "New Delhi, Delhi, India",
+            "description": "Department: Finance & Accounting • Level: Manager\nCompany: 10,001+ employees • Founded 2003 • Public Company • Hospitality"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Radisson Blu Plaza Delhi",
+            "date_range": "Aug 2018 - Sep 2022",
+            "location": "New Delhi Area, India",
+            "description": "Department: Finance & Accounting • Level: Manager\nCompany: 201-500 employees • Founded 1998 • Public Company • Hospitality"
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Radisson Hotel Group",
+            "date_range": "Nov 2020 - Sep 2022",
+            "location": "Radissson Blu Plaza Delhi Airport",
+            "description": "Department: Finance & Accounting • Level: Director\nCompany: 10,001+ employees • Partnership • Hospitality"
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Six Senses Hotels Resorts Spas",
+            "date_range": "Sep 2022 - Nov 2023",
+            "location": "India",
+            "description": "Department: Finance & Accounting • Level: Director\nCompany: 1001-5000 employees • Founded 1995 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Head - Revenue E-distribution",
+            "organization": "Espire Hospitality Group",
+            "date_range": "Sep 2022 - Nov 2023",
+            "location": "New Delhi, Delhi, India",
+            "description": "Company: 201-500 employees • Founded 2021 • Public Company • Hospitality"
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Nov 2023 - Present",
+            "location": "Singapore",
+            "description": "Driving revenue strategy with responsibility for over 1,000 rooms across high-demand markets in London and Paris\nDepartment: Finance & Accounting • Level: Director\nCompany: 10,001+ employees • Public Company • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "management",
+          "revenue strategy",
+          "driving revenue",
+          "revenue",
+          "front office",
+          "across",
+          "cluster computing",
+          "e-distribution",
+          "executive leadership",
+          "revenue manager",
+          "director",
+          "strategy",
+          "revenue management",
+          "reservation"
+        ],
+        "activity_themes": [
+          "Networking events and business connections in hospitality",
+          "Hiring for revenue management positions in luxury hotels",
+          "Annual strategy meetings and team alignment for hotels",
+          "Career transitions and new roles in hotel revenue management",
+          "Hotel partner nights, events and team celebrations",
+          "Loyalty program partnerships in global hospitality",
+          "Infrastructure developments and airport inaugurations",
+          "Responsible luxury initiatives by hotel groups",
+          "Record revenue achievements and GOP celebrations",
+          "Support for employee foundations and people initiatives"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/gurbirsinghs_networking-businesscommunity-connections-activity-7429057059985203200-mmVM",
+          "https://www.linkedin.com/posts/sarvesh-yadav-crme-33564923_revenuemanagement-hospitalityjobs-luxuryhotels-activity-7425557131933732864-k5F8",
+          "https://www.linkedin.com/posts/holiday-inn-city-centre-jaipur_holidayinnjaipur-ihghotels-winningways-activity-7417892607487369216-N_VG",
+          "https://www.linkedin.com/posts/amruta-deshpande-95b2a112_newrole-fphl-itchotels-activity-7413956663268835328-cbcN",
+          "https://www.linkedin.com/posts/crowne-plaza-mayur-vihar-b21ba7177_crowneplazamayurvihar-ihghotels-activity-7410193361053081600-JgL0",
+          "https://www.linkedin.com/posts/millennium-hotels-&-resorts_millenniumhotelsandresorts-mymillennium-activity-7410258785732243456-rn4A",
+          "https://www.linkedin.com/posts/adaniairportsholdingsltd_guwahatiairport-lgbia-airport-activity-7408146748029984769-UwDi",
+          "https://www.linkedin.com/posts/itchotels-activity-7403015380975345664--DeN"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lexi House",
       "title": "Senior Manager, Global Online Distribution",
       "company": "Millennium Hotels and Resorts",
-      "linkedin_url": "https://uk.linkedin.com/in/lexi-house-169a0742",
+      "linkedin_url": "https://www.linkedin.com/in/lexi-house-169a0742",
       "email": null,
       "email2": null,
       "phone": null,
@@ -675,7 +1734,138 @@
           "source_type": "official_site",
           "quote_or_fact": "Corporate and marketing contact channels"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lexi-house-169a0742",
+        "display_name": "Lexi House",
+        "headline": "Senior Manager, Global Online Distribution at Millennium Hotels and Resorts",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I provide guidance, support & recommendations to hotels to set smart strategies for revenue maximisation. In the complex world of OTA’s, bed banks & wholesalers all blurring the norms of distribution, I effectively create strategies to drive an optimal business mix of direct and third party revenue. Understanding when and how to leverage partner opportunities & strengths to supplement hotels direct brand business helps contribute to overall profitability. A hardworking, reliable, and organized individual, with a keen sense of time management, and effective communication skills, who is passionate about the Hospitality industry. I am adaptable with a good team work ethic who always strives for personal best. I am not afraid to use my initiative, which coupled by my vocational education and customer experience alongside my personal attributes, make me a highly desirable asset for your team.",
+        "experience": [
+          {
+            "title": "Silver Service Waitress Bar Person",
+            "organization": "MJ Recruitment Solutions",
+            "date_range": "Oct 2003 - Nov 2004",
+            "location": "Birmingham, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Management Trainee",
+            "organization": "Old Government House",
+            "date_range": "Feb 2005 - Jan 2006",
+            "location": "Guernsey, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Desk Agent",
+            "organization": "Birmingham Marriott Hotel",
+            "date_range": "May 2006 - Oct 2007",
+            "location": "Birmingham, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office GSA",
+            "organization": "JW Marriott Hotel, Dubai",
+            "date_range": "Oct 2007 - Jul 2008",
+            "location": "United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "Front Office Supervisor",
+            "organization": "Portsmouth Marriott Hotel",
+            "date_range": "Sep 2008 - Aug 2010",
+            "location": "Portsmouth, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Desk Supervisor",
+            "organization": "Grosvenor House, A JW Marriott Hotel",
+            "date_range": "Aug 2010 - Jun 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group's Coordinator Executive",
+            "organization": "London Marriott County Hall",
+            "date_range": "Jun 2012 - Nov 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Marriott Hotels",
+            "date_range": "Nov 2014 - Mar 2017",
+            "location": "UKRMRS - Luton",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Marriott International",
+            "date_range": "Mar 2017 - Jan 2018",
+            "location": "Golf & Country Club Cluster, UK Revenue Management Centre",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Jan 2018 - Mar 2019",
+            "location": "The Chelsea Harbour Hotel",
+            "description": null
+          },
+          {
+            "title": "Global Online Distribution Manager",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Apr 2019 - Apr 2024",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Manager, Global Online Distribution",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Apr 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Birmingham College of Food Tourism & Creative Studies",
+            "degree_or_field": "Ba Hons",
+            "date_range": "2003 - 2007"
+          }
+        ],
+        "skills": [
+          "time management",
+          "communication skills",
+          "hospitality industry",
+          "team work",
+          "work ethic",
+          "customer experience",
+          "distribution management",
+          "front office",
+          "hotels",
+          "distribution",
+          "profitability",
+          "organized",
+          "management",
+          "hospitality",
+          "education",
+          "silver"
+        ],
+        "activity_themes": [
+          "Hospitality industry milestones and anniversaries",
+          "Hotel brand expansions and new openings",
+          "Leadership in global distribution and contracting",
+          "Career progression and business reflections",
+          "AI and modern leadership strategies",
+          "Teamwork and professional development in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/lexi-house-169a0742"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Paul Chakola",
@@ -703,7 +1893,145 @@
           "source_type": "other",
           "quote_or_fact": "References to London hotel performance and revenue metrics"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/paul-emmanuel-chakola-0557721a",
+        "display_name": "Paul Emmanuel Chakola",
+        "headline": "Founder & CEO at Chakola's Hospitality",
+        "location": "Kochi, Kerala, India (IN)",
+        "about": "With over twenty years of international experience in luxury hotels and resorts around the globe, has enabled me to accomplish a strong record of achievement in providing Revenue Management expertise to significantly increase proficiency and profitability. Expertise includes : Revenue Management Strategies & Standards Adherence - Hotel Audits, Hotel Occupancy Levels Fulfilment; Remote Auditing, Training & Analysis; Branding; Supply Critical Analysis - Pricing, Occupancy, Revenue Goals & Commercial Planning Process; Budgeting & Forecasting - Hotels & Markets; Market Demand Evaluations Utilizing Turndown, Property Diagnostics, CRS Reports, Market Share, Competitive Pricing, STAR Data Reports; Hotel Rates & Inventory Management Analysis, Sales Strategies in Distribution Channels.",
+        "experience": [
+          {
+            "title": "Founder & CEO",
+            "organization": "Chakola's Hospitality",
+            "date_range": null,
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": null,
+            "degree_or_field": "Bachelor Degree in Hotel Management",
+            "date_range": null
+          },
+          {
+            "school": null,
+            "degree_or_field": "Hospitality Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "revenue management",
+          "inventory management",
+          "market analysis",
+          "tour operators",
+          "sales strategy",
+          "marketing operations",
+          "business plan",
+          "operational efficiency",
+          "rooms division",
+          "front office",
+          "guest satisfaction",
+          "staff training",
+          "budget process",
+          "sales operations",
+          "staff supervision",
+          "performance reviews",
+          "occupational health",
+          "corporate identity",
+          "budget development",
+          "database marketing",
+          "luxury",
+          "hotels",
+          "management",
+          "profitability",
+          "hotel",
+          "auditing",
+          "training",
+          "analysis",
+          "branding",
+          "pricing",
+          "commercial",
+          "planning",
+          "budgeting",
+          "forecasting",
+          "evaluations",
+          "property",
+          "diagnostics",
+          "reports",
+          "rates",
+          "inventory",
+          "sales",
+          "distribution",
+          "reservations",
+          "reporting",
+          "opera",
+          "spa",
+          "director",
+          "reservation",
+          "positioning",
+          "presentations",
+          "budget",
+          "strategy",
+          "leadership",
+          "marketing",
+          "operations",
+          "directing",
+          "commerce",
+          "statistics",
+          "selling",
+          "efficiency",
+          "database",
+          "adaptation",
+          "responsible",
+          "housekeeping",
+          "yield",
+          "ceos",
+          "africa",
+          "arranging",
+          "parks",
+          "performing",
+          "discipline",
+          "negotiations",
+          "collections",
+          "payments",
+          "food",
+          "software",
+          "audit",
+          "stores",
+          "cluster",
+          "cro",
+          "gds",
+          "surveying",
+          "interpreting",
+          "controlling",
+          "budgets",
+          "investments",
+          "schedules",
+          "coordination",
+          "supervision",
+          "determination",
+          "recruitment",
+          "hiring",
+          "regulations",
+          "health",
+          "safety",
+          "haccp",
+          "legal",
+          "tactics",
+          "consulting",
+          "compliance",
+          "completion",
+          "projects"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/paul-emmanuel-chakola-0557721a"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Olga Sommer",
@@ -731,7 +2059,122 @@
           "source_type": "other",
           "quote_or_fact": "Europe/London RevPAR and revenue performance discussion"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/olgasommer",
+        "display_name": "Olga Sommer SJS",
+        "headline": "Catey’s Revenue Manager Awards Winner Experienced hospitality leader / RM professional / Mentor / Speaker 20+ years in Travel and Hospitality sector. Hotel openings, successful strategy implementation.",
+        "location": "United Kingdom (GB)",
+        "about": "Over the years I have built extensive experience maximizing revenue and profitability in luxury boutique hotels in some of the most prestigious locations in London and the EU. Working with independent owners through to large international hotel chains, with properties up to 800 bedrooms, has given me a diverse depth of knowledge in the hospitality industry. Utilising my hands-on approach and experience has allowed me to gain great commercial awareness, helping me to assist teams driving room revenue for one region in excess of £120M per annum. One of the biggest passions is passing my knowledge and experience to the next generation of hoteliers. Have been actively involved in coaching and mentoring new talent entering the hospitality industry, especially in the revenue field. Speaker and panelist on weekly Revenue HACKS highlighting opportunities and strategies for businesses to bounce back and thrive in the current environment. Regular participant in cycle rides and other sporting events raising funds and awareness for various charities supporting the hospitality industry.\n\nTotal Experience: 17 years and 5 months",
+        "experience": [
+          {
+            "title": "Revenue Manager",
+            "organization": "DUKES Hotel",
+            "date_range": "Mar 2013 - Aug 2014",
+            "location": "London, United Kingdom",
+            "description": "Responsible for optimising DUKES LONDON’s global sales revenue and Revenue Generation Index, responsible for pricing strategy and optimising inventory, whilst providing full perspective of revenue performance across all rev"
+          },
+          {
+            "title": "Revenue Manager At Ham Yard Hotel",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Aug 2014 - Aug 2016",
+            "location": "London, United Kingdom",
+            "description": "• Directly responsible for revenue strategy delivering rooms revenue for 96 bedrooms + 21 apartments • In year two exceeded budget target by 10% through design and implementation of rate strategies across all markets, effectively managing business mix and working with new markets • Delivered 26% RevPAR growth YOY and RGI, full year position 1 of 6 in comp set • Successfully introduced reporting tools to the business for budgeting, forecasting and daily pick up, SOPs. • Introduced… Show more"
+          },
+          {
+            "title": "Operations Manager At The Knightbridge Hotel",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Aug 2016 - Jul 2017",
+            "location": null,
+            "description": "• Deputising for GM, responsible for the day to day smooth running of the hotel operation • Improved customer satisfaction and TripAdvisor scores through effective relationship management • Offered support, guidance and delivered training for all hotel team members, in excess of 60+, improving staff engagement • Improved Health & Safety scores by 5% through monitoring, training and vigorous daily, weekly, monthly checks • Increased direct bookings, lowered cost of sale through… Show more"
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Rocco Forte Hotels",
+            "date_range": "Jul 2017 - Nov 2017",
+            "location": "Brown's Hotel, London",
+            "description": "• Proposed and implemented reconfiguration of room types driving higher incremental rooms revenue through upsell • Supported Sales team with increased volume through introduction of higher room categories and providing additional access to inventory for key accounts • Responsible for day to day revenue management in the form of pricing, strategy and inventory control • Recruitment, training and development and performance management of a team of 5 • Analysis and reporting as… Show more"
+          },
+          {
+            "title": "Revenue Manager At Copthorne Tara Hotel",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Jan 2018 - Jan 2019",
+            "location": null,
+            "description": "• Was responsible for successful implementation and strategic direction as well as deployment of revenue management strategy for the largest asset in the region, which is 6th largest hotel in London. • Delivering 3% RevPAR and 5% ADR growth YOY in line with targets • Accurate budget writing and forecast submissions within 1% variance target • Completion of monthly trading review analysis, reporting, monthly Business revenue meetings with stakeholders • Establishing effective working… Show more"
+          },
+          {
+            "title": "Pre-Opening Revenue Manager For The Biltmore Mayfair Hotel, LXR Former Millennium Mayfair Hotel",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Jul 2018 - Jan 2019",
+            "location": null,
+            "description": "• Was part of pre-opening and rebranding team for a 5* The Biltmore Hotel in Mayfair, former Millennium Mayfair Hotel • Was supporting design and implementation of pre-opening strategies including competitor and market analysis, setting up strategy across all market segments, budget writing, room type configuration."
+          },
+          {
+            "title": "Senior Revenue Manager, Europe At Millennium Hotels And Resorts",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Feb 2019 - Sep 2019",
+            "location": null,
+            "description": "• Development, implementation of and training on several new tools within the business from new reports, system configuration, recruitment and on boarding support materials (Month End Pack, Product Bubble, Opera Rate Bucket Controls, Handover Documents, Task List, Recruitment and Induction Training packs as well as supporting with training and developing of new team members) • Supported IDeaS G3 implementation project for Europe with a potential for a Global rollout • Leading Revenue… Show more"
+          },
+          {
+            "title": "Senior Cluster Revenue Manager",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Sep 2019 - Mar 2020",
+            "location": "Copthorne Tara Hotel, The Chelsea Harbour Hotel",
+            "description": "• Part of Senior Leadership Team supporting provincial hotels and new revenue managers joining revenue team, overlooking performance, addressing business needs by strategic approach, working closely with Sales, PR & Marketing teams. • Responsible for the strategic direction and deployment of revenue management strategies for the largest asset in the region, which is 6th largest hotel in London, Copthorne Tara and all suites 5 * Chelsea Harbour Hotel."
+          },
+          {
+            "title": "Interim Director Of Revenue Management, Europe",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Oct 2019 - Dec 2019",
+            "location": "England, United Kingdom",
+            "description": "• Overseeing Revenue team and performance of 23 hotels in Europe in excess of £123m rooms revenue • Budget submission 2020 and presentation to stakeholders • Chairing Commercial Meetings with stakeholders, joining General Managers & Business Review Meetings • Responsible for successful implementation and running of tactical campaigns on brand website and OTAs delivering £500k per week"
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Nobu Hotel London Portman Square",
+            "date_range": "Aug 2020 - Mar 2022",
+            "location": "London, England, United Kingdom",
+            "description": "• Responsible for the strategic direction and deployment of revenue management strategies for newly opened luxury lifestyle hotel Nobu Hotel London Portman Square. • Overlooking all revenue streams, Reservations team and Distribution. • Played a key role in defining and driving the revenue strategy for the hotel and as part of the Hotel Executive Team."
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Leonardo Hotels UK & Ireland | Formerly Jurys Inn",
+            "date_range": "May 2022 - Dec 2022",
+            "location": "London, Glasgow, Cardiff, Cheltenham",
+            "description": "Responsible for Jurys Inn Cheltenham, Jurys Inn Cardiff, Leonardo Hotel Glasgow, Jurys Inn Glasgow"
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "CRIMSON HOTELS LIMITED",
+            "date_range": "Jan 2023 - Jan 2024",
+            "location": "London, England, United Kingdom",
+            "description": "100 Queen’s Gate, South Kensington, London, SW7 5AG The Trafalgar St James, Curio Collection by Hilton 2 Spring Garden, London, SW1A 2TS"
+          },
+          {
+            "title": "Revenue Management Consultant",
+            "organization": "Sommer Consulting",
+            "date_range": "Jan 2024 - Present",
+            "location": "United Kingdom",
+            "description": "Our mission is to support hotels in refining their strategies, optimizing revenue, and fostering business development."
+          },
+          {
+            "title": "Senior Multi Sites Revenue Manager (Germany, Austria, Georgia)",
+            "organization": "ASCOTT HOSPITALITY MANAGEMENT (UK) LIMITED",
+            "date_range": "Jul 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/olgasommer"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Richard Adler",
@@ -759,7 +2202,33 @@
           "source_type": "linkedin",
           "quote_or_fact": "Sales leadership mentions"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/richard-adler-39ba721",
+        "display_name": "Richard Adler",
+        "headline": null,
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Millennium Hotels & Resorts client appreciation events",
+          "30-year anniversary celebrations for Millennium Hotels",
+          "Sustainability and environmental initiatives at hotels",
+          "Corporate events, venues, and lunch & learns",
+          "Personal charity cycling fundraiser for Blood Cancer UK"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/millennium-gloucester-hotel-london-kensington_clientappreciation-mymillennium-millenniumgloucester-activity-7396556385305669632-Z5p1",
+          "https://www.linkedin.com/posts/millennium-hotels-&-resorts_millenniumhotelsandresorts-mhr30-mymillennium-activity-7395039692905275392-uOYi",
+          "https://www.linkedin.com/posts/accessbookings_accessbookings-accommodation-lunchandlearn-activity-7394772852358533120-8qgb",
+          "https://www.linkedin.com/posts/millennium-hotels-uk-eu-careers_sustainability-teamwork-copthornemanchester-activity-7376619121700130816-XcvD",
+          "https://www.linkedin.com/posts/richard-adler-39ba721_super-proud-of-my-brother-dan-a-who-has-activity-7339998099571978240-wFIp"
+        ],
+        "data_quality": "weak",
+        "caveats": "No headline, experience, education, about, or skills sections present in fetched text; limited to name, location, recommendations, and activity likes."
+      }
     },
     {
       "full_name": "Elaine Mccormack",
@@ -787,7 +2256,127 @@
           "source_type": "official_site",
           "quote_or_fact": "Regional sales office details"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/elaine-mccormack-50a40811",
+        "display_name": "Elaine McCormack",
+        "headline": "Group Sales Manager",
+        "location": "Dollar, Scotland, United Kingdom (GB)",
+        "about": "Sales Director with extensive experience in the hospitality industry in on property, regional and national roles. An effective people manager with a proven track record of leading sales teams to drive results. Strong background in developing and implementing sales strategies resulting in improved performance and thereby revenue growth.\n\nTotal Experience: 34 years and 6 months",
+        "experience": [
+          {
+            "title": "Director Of Sales",
+            "organization": "Hilton International Hotels",
+            "date_range": "Nov 1996 - Sep 1999",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Dec 1999 - Feb 2005",
+            "location": null,
+            "description": "Global Meetings and Events & Director of Sales - Millennium Gloucester Hotel Following an internal re-structure in addition to my previous responsibilities I then had a dual role covering both on property sales and Global Meetings and Events Responsible for the hotel achieving it's annual budget of between £15m and £17m total revenue - 610 bedrooms and residential conference facilities for up to 500 Preparation of annual Hotel sales and marketing plan Implementation and management of sales and marketing budget Generation of new corporate business as well as account management of existing accounts in the corporate, BTA, leisure and meetings and incentive markets Managing sales team of 9 Responsible for managing North American corporate and meetings/incentive business Developing local marketing initiatives Stand organisation and attendance at key trade shows e.g. Confex, EIBTM and IT&ME Three annual sales trips to US incentive agents and corporate meeting planners on behalf of our London hotels to generate both incentives and residential meetings"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Oct 2001 - Feb 2005",
+            "location": null,
+            "description": "Global Meetings and Events & Director of Sales - Millennium Gloucester Hotel Following an internal re-structure in addition to my previous responsibilities I then had a dual role covering both on property sales and Global Meetings and Events Responsible for the hotel achieving it's annual budget of between £15m and £17m total revenue - 610 bedrooms and residential conference facilities for up to 500 Preparation of annual Hotel sales and marketing plan Implementation and management of sales and marketing budget Generation of new corporate business as well as account management of existing accounts in the corporate, BTA, leisure and meetings and incentive markets Managing sales team of 9 Responsible for managing North American corporate and meetings/incentive business Developing local marketing initiatives Stand organisation and attendance at key trade shows e.g. Confex, EIBTM and IT&ME Three annual sales trips to US incentive agents and corporate meeting planners on behalf of our London hotels to generate both incentives and residential meetings"
+          },
+          {
+            "title": "Sales Marketing Manager",
+            "organization": "Alton Towers Hotels & Conference Centre",
+            "date_range": "Feb 2005 - Jul 2005",
+            "location": "Alton Staffordshire",
+            "description": "Short term contract. Coaching of the sales team on sales techniques and presentation skills in absence of Director of Sales Responsible for 300 bedrooms across two properties along with conference centre with capacity for residential conferences up to 500 delegates Training the conference sales team on enquiry handling, proactive selling techniques, maximising revenues from conference and banqueting inventory"
+          },
+          {
+            "title": "Regional Director Of Sales Marketing UK, Ireland Scandinavia",
+            "organization": "Concorde Hotels & Resorts",
+            "date_range": "Aug 2005 - Jan 2009",
+            "location": "London, United Kingdom",
+            "description": "Responsible for all strategic sales and marketing activity in UK, Ireland ,Scandinavia and Holland across MICE,corporate,BTA and leisure segments into 33 properties-11 owned and managed and 22 affiliate hotels in Europe Generation of €17.6m of UK MICE business and €3m corporate revenue to owned and managed hotels( 11 properties) Day to day running of the UK team of four staff Preparation of the annual sales and marketing plan and office budget Attendance at all major trade shows within the designated territory , Business Travel Show, Confex, IMEX and EIBTM Organisation of all client events, workshops, fam trips, hotel sales missions,etc"
+          },
+          {
+            "title": "UK Sales Director",
+            "organization": "Barcelo Hotels",
+            "date_range": "Apr 2009 - May 2011",
+            "location": "Hinckley, Leicestershire",
+            "description": "Responsible for driving all strategic sales activity for 21 UK properties. Team of 25 staff split into 5 geographical regions generating in excess of £15m revenue across corporate, meetings and events and association segments Newly created role so was responsible for re-focusing of the team under new structure and increasing customer facing activity in order to generate increased revenue Raising brand awareness through attendance all major trade shows, organisation of fam trips, client entertaining events Handling re-negotiation of all key preferred business travel and HBA partnerships e.g.Amex Expotel Coaching and guiding of each of the team through monthly field accompaniment"
+          },
+          {
+            "title": "Business Development Director",
+            "organization": "pro-ven",
+            "date_range": "Jun 2011 - Aug 2012",
+            "location": "Hemel Hempstead, England, United Kingdom",
+            "description": "pro-ven is a robust and dynamic company with a formidable track record in finding venues and booking accommodation From small meetings to major conferences, from group reservations to major room allocation management, we have the in-house talent to secure exceptional rates and deliver them to our clients with the smoothest administration"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Macdonald Hotels",
+            "date_range": "Aug 2012 - Jan 2013",
+            "location": "Hemel Hempstead, United Kingdom",
+            "description": "Whether it's a traditional coaching inn overlooking a peaceful lake or a contemporary hotel in a bustling city centre, each of our 45 Macdonald Hotels across the UK has its very own individual charm and character. What's more, from Scotland to the South of England, each and every one is run by real hoteliers with the genuine passion and experience to make your stay the best it can be. Serious about our food, we make it our dedication to serving only the highest quality food that makes us different."
+          },
+          {
+            "title": "Business Development Director",
+            "organization": "The Vineyard Group",
+            "date_range": "Feb 2013 - Nov 2015",
+            "location": "Watford, United Kingdom",
+            "description": "Business Development Director at The Vineyard at Stockross and the Donnington Valley Hotel and Spa Newbury"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Nadler Hotel Victoria",
+            "date_range": "Nov 2015 - May 2016",
+            "location": "London, England, United Kingdom",
+            "description": "Responsible for pre-opening sales for the new 4star accommodation only Nadler Victoria Hotel. Targeted with the generation of new local corporate accounts and inclusion in Global Corporate Travel programmes."
+          },
+          {
+            "title": "Director Of Sales Wokefield Estate",
+            "organization": "De Vere",
+            "date_range": "Aug 2016 - Oct 2020",
+            "location": "Reading, United Kingdom",
+            "description": "De Vere is a collection of modern, country estate hotels, with mansion houses at their heart, mixing leisure with market-leading conference facilities, which is currently undergoing an investment of more than £50m."
+          },
+          {
+            "title": "New Business Development",
+            "organization": "ToGather Events",
+            "date_range": "Nov 2020 - Oct 2022",
+            "location": "London, England, United Kingdom",
+            "description": "ToGather are an expert creative team of event professionals. ToGather are bringing people back together to reconnect, through live events, or virtual and hybrid experiences. Gather inspiration. Gather insight. We have the solutions ToGather now."
+          },
+          {
+            "title": "Business Development Manager",
+            "organization": "TribeSquared",
+            "date_range": "Oct 2021 - Oct 2022",
+            "location": "Chichester, England, United Kingdom",
+            "description": "TribeSquared was started in 2015 with an aim to be something more than just an agency for creating websites. We wanted to support not just businesses but also the digital professionals whose jobs centre around those websites. To this day, we have built long term relationships with our customers through hard work, fair practices and a friendly and supportive nature."
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Murrayshall Country Estate",
+            "date_range": "Oct 2022 - Oct 2024",
+            "location": "Scone, Scotland, United Kingdom",
+            "description": "Nestled between the towering trees, you’ll find Murrayshall, a luxury 4-star country house and estate. An evergreen landmark on the Perthshire landscape for over 400 years, the land spans over 365 acres with 2 parkland golf courses, several walks meandering through the gardens. A place where you’ll feel invigorated, energised and ready to take on your next adventure."
+          },
+          {
+            "title": "Cluster Sales Manager (Maternity Cover)",
+            "organization": "Resident Hotels",
+            "date_range": "Dec 2024 - Present",
+            "location": "Edinburgh, Scotland, United Kingdom",
+            "description": "Company: 201-500 employees • Founded 2006 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Saurabh Prakash",
@@ -815,13 +2404,156 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales office details"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/saurabh-prakash",
+        "display_name": "Saurabh Prakash",
+        "headline": "Interim Group COO and CCO | Global Hospitality Executive | Delivering GBP 1 Billion Commercial & Operations Performance and Enterprise Transformation Across 150 Hotels in 80 Countries",
+        "location": "Singapore, Singapore (SG)",
+        "about": "I am a global hospitality executive with extensive leadership experience as Chief…",
+        "experience": [
+          {
+            "title": "Voyager - Revenue Management And Reservations",
+            "organization": "Marriott International",
+            "date_range": "Jun 2002 - Jan 2004 • 1 year and 7 months",
+            "location": "Renaissance Mumbai Hotel and Convention Center",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Marriott International",
+            "date_range": "Jan 2004 - Dec 2006 • 2 years and 11 months",
+            "location": "Goa Marriott Resort",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Director Of Revenue Stratregy",
+            "organization": "Marriott International",
+            "date_range": "Jan 2007 - Apr 2009 • 2 years and 3 months",
+            "location": "Mumbai, Maharashtra, India",
+            "description": "-Responsible for Revenue strategy of the Renaissance Mumbai Hotel and Convention center and Marriott Executive Apartments - One of the largest convention centers in India at the time of over 13,000 sqft"
+          },
+          {
+            "title": "Director Of Revenue Strategy - Renaissance Kuala Lumpur Hotel",
+            "organization": "Marriott International",
+            "date_range": "May 2009 - Sep 2011 • 2 years and 4 months",
+            "location": "Kuala Lumpur, Malaysia",
+            "description": "Responsible for Revenue Strategy of one of the largest hotels (921 keys) of Marriott International in Asia Pacific."
+          },
+          {
+            "title": "Director Of Market Strategy - Beijing Central Business District",
+            "organization": "Marriott International",
+            "date_range": "Oct 2011 - Apr 2012 • 6 months",
+            "location": "Beijing, China",
+            "description": "Responsible for driving Market level revenue management strategy for priority hotels - The Ritz Carlton, Beijing, JW Marriott Hotel Beijing, Marriott City Wall Beijing and Renaissance Capital Beijing located in the CBD of Beijing."
+          },
+          {
+            "title": "Director Of Market Strategy - East China - Marriott Shanghai Downtown Cluster",
+            "organization": "Marriott International",
+            "date_range": "Apr 2012 - Mar 2013 • 11 months",
+            "location": "Shanghai",
+            "description": "Resposible for Market Strategy of 19 Marriott properties located in Greater Shanghai & East China. Total Room inventory 10,000 rooms and close to 350 million USD Rooms + Catering Revenue."
+          },
+          {
+            "title": "Director Of Market Strategy - East China",
+            "organization": "Marriott International",
+            "date_range": "Apr 2013 - Dec 2013 • 8 months",
+            "location": "Shanghai City, China",
+            "description": "Resposible for Market Strategy of 28 Marriott properties located in East China. Total Room inventory 11,736 rooms and close to 400 million USD Rooms + Catering Revenue yearly."
+          },
+          {
+            "title": "Area Director Of Revenue Strategy - Australia, Indonesia, Malaysia, Singapore South Korea",
+            "organization": "Marriott International",
+            "date_range": "Dec 2013 - Dec 2016 • 3 years",
+            "location": "Singapore",
+            "description": "- Responsible for Area Revenue Strategy for 30 hotels. - Managing 450 Million USD Rooms + Catering Revenue - Managing Teams spread across 5 Countries / 5 different cultures"
+          },
+          {
+            "title": "Regional Director Of Revenue Strategy - Asia Pacific Exluding Greater China",
+            "organization": "Marriott International",
+            "date_range": "Dec 2016 - Jul 2017 • 7 months",
+            "location": "Singapore",
+            "description": "- Heading the Revenue Strategy discipline covering close to 300 operating hotels and another 250 hotels in the pipeline in the Asia Pacific excluding China (APEC) region. - Managing 7 Area leadership Teams covering over 18 countries - Managing all Brands in the combined portfolio of Marriott International. - Managing Topline performance of close to 4 Billion USD per annum."
+          },
+          {
+            "title": "General Manager And Vice President, Asia Pacific",
+            "organization": "TSA Solutions",
+            "date_range": "Aug 2017 - Apr 2018 • 8 months",
+            "location": "Singapore",
+            "description": "1. Responsible for both Topline and Bottomline performance for the TSA Solutions business unit of Asia Pacific. 2. Lead and develop organization structure encompassing multiple teams- Sales, Business Development, Operations, Product Marketing, Service Delivery, HR, Finance and more. 3. Lead Asia Pacific growth strategy made up of development of people & business results with partnership of close to 500 hotels in the region and growing."
+          },
+          {
+            "title": "Vice President, Commercial, Asia Pacific",
+            "organization": "Radisson Hotel Group",
+            "date_range": "Apr 2018 - Apr 2019 • 1 year",
+            "location": "Singapore",
+            "description": "1. Leader of Commercial pillars in APAC including Sales, Marketing, Revenue Management, Distribution, Analytics, Digital and Loyalty. 2. Responsible for achieving EBITDA targets through developing and executing strategic Global and Continent initiatives that help drive performance of the 200+ operating and opening hotels in the region. 3. Asia Pacific Executive Committee Team member"
+          },
+          {
+            "title": "Group Vice President, Global Digital Marketing, Revenue Strategy, Loyalty Distribution",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "May 2019 - Oct 2021 • 2 years and 5 months",
+            "location": "Singapore",
+            "description": "Millennium Hotels & Resorts is a global hospitality group with 120+ hotels in 79 locations in Asia Pacific, Europe, Middle East and North America. In this role I am responsible for Global marketing with an omni-channel approach strategy for MHR with the following key components, 1. Leading Digital Marketing Strategy and transformation Globally. 2. Leading Global Revenue Management Strategy to drive RevPAR, Market share and revenues across MHR Group. 3. Growing the organization's Loyalty program & Partnerships 4. Driving Distribution channels strategy to grow revenues across the portfolio. 5. Leading innovation through Platform Technology with the objective of enhancing customer satisfaction."
+          },
+          {
+            "title": "Group Senior Vice President, Commercial",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Oct 2021 - Feb 2024 • 2 years and 4 months",
+            "location": null,
+            "description": "Heading Commercial function globally across 5 Continents, 20+ Countries & 70+ destinations 1. Part of Global Senior Leadership Team / Exco / C-Suite 2. Responsible for Topline delivery for the Group 3. Responsible for the following functions globally, - Digital Innovation & Transformation (across all touch points & Platforms) - Brands - Sales & Marketing - Digital Marketing - Loyalty & Partnerships - Revenue Strategy & Analytics - Distribution 4. Strategic Roadmap planning for the Commercial functions globally."
+          },
+          {
+            "title": "Chief Commercial Officer",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Feb 2024 - Sep 2024 • 7 months",
+            "location": null,
+            "description": "Lead Topline Strategy & Technology for the Group across 150 Hotels. Millennium Hotels and Resorts is Singapore’s largest homegrown operator of international hotel brands spanning 4 continents and 80 strategic destinations. With a portfolio that includes timeless masterpieces to lifestyle properties, Millennium Hotels and Resorts comprises of the brands: The Biltmore, Grand Millennium, Millennium, M Social, Studio M, M Hotel, Copthorne and Kingsgate. The Chief Commercial Officer portfolio includes : 1. Global Branding, Marketing & Loyalty 2. Global Revenue Strategy 3. Global Distribution & Call Centre Strategy 4. Global Digital Marketing, CRM & Platforms 5. Global Digital Innovation & Transformation 6. Information Technology & Infrastructure 7. Sales & Partnerships\nDepartment: C-Suite • Level: C-Level"
+          },
+          {
+            "title": "Interim Chief Operating Officer Chief Commercial Officer",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Sep 2024 - Present • 6 months",
+            "location": null,
+            "description": "1. Global Head for Operations, Finance, Commercial, HR, Legal & Asset Management / Develpment. 2. Responsible for Growth, Entrepreneurship & Transformation initaitives across the company. 3. Responsbile for Culture transformation to take MHR ahead with a 3 Year Road Map globally."
+          }
+        ],
+        "education": [
+          {
+            "school": "The University of Huddersfield",
+            "degree_or_field": "BA (Hons), Hospitality Management",
+            "date_range": "1999 - 2002 • 3 years"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Certificate, Strategic Leadership",
+            "date_range": "2009 - 2010 • 1 year"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Certificate, Ledership",
+            "date_range": "2016 - 2017 • 1 year"
+          },
+          {
+            "school": "HSMAI NYU",
+            "degree_or_field": "Certified Hospitality Digital Marketer (CHDM), Digital Marketing",
+            "date_range": null
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/saurabh-prakash"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Cinn Tan",
       "title": "Chief Commercial Officer",
       "company": "Millennium Hotels and Resorts",
-      "linkedin_url": "https://sg.linkedin.com/in/cinn",
+      "linkedin_url": "https://www.linkedin.com/in/cinn",
       "email": null,
       "email2": null,
       "phone": null,
@@ -843,7 +2575,81 @@
           "source_type": "other",
           "quote_or_fact": "Group commercial and revenue strategy"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/cinn",
+        "display_name": "Cinn Tan",
+        "headline": "Chief Commercial Officer | Global Hospitality Leader | Driving Multi-Market Growth, Brand Strength & Organizational Scale",
+        "location": "Singapore, Singapore (SG)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Couples Camp Program Facilitator",
+            "organization": "Chinese Family For Christ (CFFC) Singapore",
+            "date_range": "Mar 2013 -",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "YMCA International House Committee",
+            "organization": "YMCA",
+            "date_range": "Aug 2019 - Sep 2020",
+            "location": null,
+            "description": "The International House Committee is commissioned by the Board to provide advice and be a resource to YMCA’s hospitality business."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director sales",
+          "marketing",
+          "sales",
+          "leading",
+          "chief commercial officer",
+          "sales marketing",
+          "marketing & sales",
+          "overseeing",
+          "brand management",
+          "management",
+          "supplier management",
+          "commercial marketing",
+          "chief operating officer",
+          "sales & marketing",
+          "leadership",
+          "global marketing",
+          "brand & marketing",
+          "director",
+          "revenue",
+          "regional marketing",
+          "board",
+          "commercial officer",
+          "board governance",
+          "support",
+          "commercial & marketing",
+          "commercial",
+          "digital platforms"
+        ],
+        "activity_themes": [
+          "Hospitality industry awards and recognition",
+          "Leadership and organizational culture",
+          "ESG leadership and advisory roles",
+          "Hotel commercial talent reports",
+          "Strategic retreats and business planning",
+          "Community digital literacy initiatives",
+          "Corporate social responsibility"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/the-business-times_forcing-capitaland-investments-agile-asset-light-activity-7430405346462093312-T5yd",
+          "https://www.linkedin.com/posts/business-xyz-co_mission-statements-are-inspiring-core-activity-7431043498692370432-aPfV",
+          "https://www.linkedin.com/posts/heidigempel_we-stayed-this-weekend-at-pan-pacific-singapore-activity-7423591963490283521-Qc46",
+          "https://www.linkedin.com/posts/angwoonjiun_thetalentcraftsmen-activity-7410124558772391936-m93o",
+          "https://www.linkedin.com/posts/global-esg-leadership-organization_globalesgleadershiporganization-principaladvisor-activity-7408725591652499456-91RZ",
+          "https://www.linkedin.com/posts/pan-pacific-singapore_panpacifichotelsgroup-panpacificsingapore-activity-7399326052067524609-_nWE",
+          "https://www.linkedin.com/posts/chongeejay_wonderful-afternoon-spent-with-parents-grandparents-activity-7393277635725807616-D_Xi",
+          "https://www.linkedin.com/posts/cinn_hsmaifoundation-activity-7392785012217217024-wZr5"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Damien Yap",
@@ -899,13 +2705,105 @@
           "source_type": "official_site",
           "quote_or_fact": "Corporate contact channels"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/vella-ramasawmy-61578323",
+        "display_name": "Vella Ramasawmy",
+        "headline": "General Manager: Proven track record of managing hotels and resorts across Mauritius, the Middle East, Germany, Australia, New Zealand, Tokyo Thailand, India, and Macau.",
+        "location": "Melbourne, Victoria, Australia (AU)",
+        "about": "Throughout my career, I have been instrumental in delivering exceptional performance in managing hotels and resorts to generate revenues. I have a track record of receiving various awards on the basis of exceptional performance. I have demonstrated a history of developing businesses, enhancing operational capacities, and operational efficiencies as well as leading strategic sales and marketing initiatives for hotels, resorts, and restaurant properties. I am skilled in implementing continuous improvement and rebranding activities as well a driving productivity improvement and expense reduction. I have the innate leadership ability to manage hundreds of employees to reach operational excellence and deliver top-notch customer service. I am an expert in executing a “clear vision and voice” to align with high ethical standards and cultures of discipline that value integrity and transparency in the core business. Some of my areas of expertise are following below: · Hotel Operations Management · Financial Planning & Execution · P & L Accountability · Refurbishment & Renovations · Rebranding & Repositioning · Sales & Marketing Management · Revenue Expansion · Asset Management · HR Management · Project Planning & Execution · Cross-functional Team Leadership · Stakeholders Engagement · Relationship Building · Excellent Communication · Problem Resolution Connect with me today to find out how I will make your mission my mission, to help bring all of your business objectives into focus.",
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Park Hyatt Goa Resort and Spa",
+            "date_range": "Jan 2003 - Jan 2005",
+            "location": "India",
+            "description": "Having served in this role, I managed a five-star luxury resort on 49 acres with 251 rooms/suites, 5 restaurants, a spa facility and convention centre as well as tennis court, squash court, water sports facilities, kids club, movie theatre, and cooking school. Key Accomplishments: • Improved"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Grand Hyatt Muscat",
+            "date_range": "Jan 2005 - Jan 2007",
+            "location": "Muscat",
+            "description": "I re-built and improved strained Owner/Hyatt relationship. I administered financial issues and oversaw refurbishment of rooms, public areas, F&B outlets and staff housing. Key Accomplishments: • Accomplished an average of 85% with HYATT's Guest Mystery Shopper Report. • Collected outstanding Hyatt management fees, decreased accounts receivable from 220 to 42 days and reduced expatriates to 30%, and executed a proper cash flow management. • Enhanced employee opinion survey to 89%; executed service change addition to employee benefits scheme. • Succeeded to achieve GOP of 56% with #2 in Rev Par and transformed hotel from city resort to Corporate MICE hotel; set up the MICE market segment and changed airline crew business with volume corporate account."
+          },
+          {
+            "title": "General Manager And Head Of Operations, Kempinski Hotels For Thailand",
+            "organization": "Kempinski Hotels",
+            "date_range": "Jan 2007 - Jan 2008",
+            "location": "Bangkok",
+            "description": "Kempinski Resort and Spa Khao Lak (now J.W Marriott Khao Lak) and Kempinski Hotel and Residence Siam Bangkok: During this role, I managed the pre-opening a five-star resort and spa in Khao Lak with 303 rooms/suites and service residence, six restaurants and bars. I guided the project team in designing food and beverage concepts of the hotel in Bangkok with 303 rooms/suites and 98 service residences."
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Leela Kempinski Gurgaon",
+            "date_range": "Jan 2008 - Jan 2010",
+            "location": "Gurgaon, IN-HR",
+            "description": "As a General Manager, I led the pre and post opening a luxury business hotel with 322 rooms/suites and 92 service residences, a multi cuisine restaurant, an Italian restaurant, an Indian restaurant, a champagne and cocktail lounge, a private members club, an executives lounge, a night club, a fitness center, a 25,000 sq. ft. spa, a beauty salon, and a 30, 000 sq. ft. banquet facilities. I oversaw the marketing alliance with Kempinski Hotels and managed by The Leela palaces, hotels, and resorts; developed growth plans to operate five additional luxury hotels pan India. Key Accomplishments: • Served in dual roles of Project Manager and GM to escalate and complete hotel project. • Achieved the hotel positioning as #2 in Rev Par in Gurgaon; generated revenue of multi-million dollar with a GOP of 57%, surpassing the budget and attaining the status of best hotel in India in terms of reputation and financial performance. • Won several Awards as well as all the food and beverage outlets got awarded number one the best venue in their own category in Gurgaon."
+          },
+          {
+            "title": "Complex Hotel And Residences General Manager",
+            "organization": "Starcity Hotel & Casino",
+            "date_range": "Jan 2010 - Jan 2011",
+            "location": "Pyrmont, New South Wales, Australia",
+            "description": "In this role, I led the setup of new built hotel call the Darling as well as updated the standards and operating procedures of the existing hotel and residences. Complex consisted of 350 room's hotel, 150 residences 1.2.3 bedroom and the newly built hotel 150 rooms. I managed all VIP room for the casino and high rollers. Delivered services to the two types of customer such as long-term residence leisure guest and hotel daily corporate guest. I coordinated with the Vice President of Hospitality on a new restaurant concept and sign few freestanding restaurant operators to build some very nice restaurant with the multimillion Dollar casino renovations. I oversaw all the services and menus for the Private Jet. Supervised the implementation of resort host concept for the complex. Key Accomplishments: • Attracted the top high rollers by leading the renewal of hospitality services for all the high rollers and setting up the four top suites of the newly build hotel. • Played a key role in rebranding the image of start city casino such as transitioning the service apartment into residences concept, old hotel concept, and the new hotel resort host concept in room check in and check out."
+          },
+          {
+            "title": "General Manager",
+            "organization": "Kempinski Hotels",
+            "date_range": "Jan 2011 - Jan 2015",
+            "location": "Delhi, India",
+            "description": "During this role, I managed the coordination of pre-opening of first fully managed Kempinski in India, including Luxury hotel with 480 rooms within two towers three restaurants, one bar, one club lounge, two pools, two gym, and the largest banqueting facilities in India with 70,000 square feet. I handled a difficult assignment as the location of the property and challenges without creating any fuss. I assisted the owner in applying all the necessary licenses to operate the hotel. Key Accomplishments: • Successfully established the hotel with only $3K of cash flow due to shortage of fund; positioned the hotel in local market and attracted the local community. • Accomplished the positioning of resort as the best in the world and best new business hotel; enhanced the brand value. • Developed a friendly workforce to deliver top-notch customer service."
+          },
+          {
+            "title": "General Manager",
+            "organization": "Iconic Santorini, a boutique cave hotel",
+            "date_range": "Jan 2015 - Jan 2017",
+            "location": "Thira, Southern Aegean, Greece",
+            "description": "During this role, I maintained owner cash and asset during the capital control set by the Greek government with the goal to achieve 100% for the guest comments in trip advisor. I directed the financial improvements and property positioning within the international market, while achieving great reputation in Santorini as well as internationally. Key Accomplishments: • Updated the residences as well as food and beverage facilities. • Enhanced company value and productivity by making plans in increasing the average rate to €1K by 2016. • Voted as the best boutique hotel in Greece by World Travel mart. • Selected for the award of sexiest bedroom in the world and best Mr and Mrs Smith Hotel around the world."
+          },
+          {
+            "title": "General Manager Vice President",
+            "organization": "Banyan tree Macau",
+            "date_range": "Dec 2017 - Present",
+            "location": "Macao SAR",
+            "description": "During this role, I direct 246 Suites and 10 Pool villas and refurbish this beautiful luxury property with 99% occupancy year on year with the highest average room rate in Macau all year around. I manage the hosting of all the top casino customers and high FIT. Apply 88M Hong Kong dollar with the light refurbishment of the Suites, villas, and Banqueting areas along with nice curation. Key Accomplishments: • Saved amount by merging some services as outsource and share services; finished multi-millions dollars in EBITA. • Transformed the hotel from management agreement to franchise as part of the extending the management agreement for another 15 years. • Revamped the manpower and launched the concept enterprise thinking during COVID-19. • Renovated hotel and improved customer and staff satisfaction. • Improved hotel top and bottom line and positioned hotel as number one in macau. • Repositioned as an urban resort within the galaxy integrated complex. • Won multiple awards for the hotel and spa, the property achieved a five star Deluxe Forbes Rating."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "Hotel Operations Management",
+          "Financial Planning & Execution",
+          "P & L Accountability",
+          "Refurbishment & Renovations",
+          "Rebranding & Repositioning",
+          "Sales & Marketing Management",
+          "Revenue Expansion",
+          "Asset Management",
+          "HR Management",
+          "Project Planning & Execution",
+          "Cross-functional Team Leadership",
+          "Stakeholders Engagement",
+          "Relationship Building",
+          "Excellent Communication",
+          "Problem Resolution"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/vella-ramasawmy-61578323",
+          "https://www.linkedin.com/company/iconic-santorini-a-boutique-cave-hotel",
+          "https://www.linkedin.com/company/kempinski-hotels",
+          "https://www.linkedin.com/company/park-hyatt"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Andrew Tan",
       "title": "Cluster General Manager (Gloucester & Bailey's)",
       "company": "Millennium Gloucester Hotel London Kensington",
-      "linkedin_url": "https://sg.linkedin.com/in/andrew-tan-management-professional",
+      "linkedin_url": "https://www.linkedin.com/in/andrew-tan-management-professional",
       "email": null,
       "email2": null,
       "phone": null,
@@ -927,7 +2825,66 @@
           "source_type": "news",
           "quote_or_fact": "Andrew Tan has been appointed as General Manager"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/andrew-tan-management-professional",
+        "display_name": "Andrew Tan",
+        "headline": "Experienced Hotelier | General Manager | Strategy | Operations | Financial | Open Up Market | Sales & Marketing | F&B | MICE | People Development | Standards | H&S | Yield Management | Innovation | Pre-Opening (Asia, UK)",
+        "location": "Singapore, Singapore (SG)",
+        "about": "I am a Luxury Hotel General Manager and Hospitality Management Professional with over 20 years’ hospitality industry experience in the competitive markets of London, Singapore and China. Providing exceptional guest services and experiences is what motivated me to embark on a hospitality management career. Over the years I have learned that hands-on leadership to motivate high performing teams that exceed guest expectations ensures targets and strategic objectives are met that leads to enhanced brand loyalty and financial performance. Taking a 360-degree approach to management, I have a unique understanding of the intricacies of interdepartmental collaboration and stakeholder engagement that includes owners and can confidently manage across cultures. Being proactive, highly detail oriented and results driven has enabled me to transform underperforming properties and deliver successful pre-opening of new establishments, drilling down to identify areas of improvement, not just in systems and processes but also the physical structure of the premises to ensure product and service offerings are optimised. I specialise in identifying revenue generating opportunities combining business acumen with exceptional guest services to develop business, generate revenue and maximise profits. Please feel free to contact me here on LinkedIn. I look forward to connecting with you!",
+        "experience": [
+          {
+            "title": "General Manager - Pan Pacific Hotel And Serviced Suites Ningbo China (5 Star)",
+            "organization": "Pan Pacific Hotels Group",
+            "date_range": "Jul 2016 - Jan 2017",
+            "location": "Ningbo, Zhejiang, China",
+            "description": "Led a management team of nine with total employees of 410 in the formulation and execution of business strategies to ensure the hotel met its performance objectives, company standards and delivered sustainable profit. Directed hotel daily operations through innovation of a reward and recognition culture designed to coach and motivate passionate staff via feedback to maximise employee engagement to excel and guarantee quality and brand standards in service levels and efficiency leading to increased guest satisfaction. Developed collaborative stakeholder engagement strategies for community affairs, utilising diplomacy to b"
+          },
+          {
+            "title": "Vice President Sales, Asia",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Jan 2017 - Sep 2020",
+            "location": "Singapore",
+            "description": "Led Asia Sales Teams (four Cluster Leisure & Six Regional Corporate/MICE) of ten to drive and supervise all aspects of the sales and marketing process; educate and manage > 250 regional customers with combined annual revenue in excess of S$60 million with full P&L responsibility, financial projections and financial goals for the region. Core responsibilities: - Strategic PR - Strategic sales & marketing plans - Crisis management and contingency planning - Monthly reporting analytics and financial statements documentation - Information analysis of market conditions and industry trends - Setting of revenue targets - Setting of pricing strategies - Regional sales budget & demand forecasting - New client development and management - Evaluate market & propose product offerings - Regional branding Undertook prospecting, special events & writing creative oral reports for regional customer acquisition; researching to develop effective hospitality brand positioning; aligned sales & business strategy execution to maximise revenue and opportunities, exercising good judgment to collaborate and build corporate partnerships. Achievements: - Secured preferred partnerships with Travel Management Companies (TMCs) previously not engaged, including AMEX Transient, AMEX MICE, CWT M&E, BCD M&E and FCM. - Increased business development in all sectors, including Room Nights (RNS) growth at 25% YOY, and revenue growth of 18% YOY APAC POS into Singapore. Grew Singapore Hotels leisure segment by 14.69% YOY as a result of grouping 5 Singapore Hotels leisure team."
+          },
+          {
+            "title": "Enterprise Business Manager",
+            "organization": "Lithan",
+            "date_range": "Apr 2021 - Aug 2021",
+            "location": "Singapore",
+            "description": "Engaged in B2B solution sales to support enterprises in their digital transformation including digital skills acceleration, digital solutions implementation, digital talents development and digital workplace learning. Core responsibilities: - Lead Generation - Sales Engagement - Account Management"
+          },
+          {
+            "title": "General Manager - Amari Johor Bahru",
+            "organization": "UMLand (United Malayan Land Bhd)",
+            "date_range": "Apr 2022 - Apr 2023",
+            "location": "Johor Bahru, Johore, Malaysia",
+            "description": "Spearheaded management team (11) in restructuring and reorganisation, overseeing 137 total headcount in post-pandemic business plan formulation and execution. Core responsibilities: - Procedures Implementation - Creative Solutions Development - Performance Management - KPIs - Continuous Improvement Policies - Daily Operations - Reward and Recognition Initiatives - Coaching - Team Motivation - Employee Engagement - Service Excellence - Service Standards Quality - Guest Satisfaction - Stakeholder Engagement - Corporate Social Responsibility (CSR) - Business Partnership Development - Vendor Management - Owner Relationship Management - Management Company Engagement - Local Government Authorities Liaison - Regulatory Compliance - Licensing - Good Governance - Property Maintenance - New Business Promotions - External Catering Business Achievements: - Restored property to 5-star standard within 6 months including chiller repairs completion, new CCTV implementation and Halal Certificate accreditation from JAKIM. - Increased 2022 Average Daily Rate (ADR) by RM 80.00 (32%) leading to 2nd position out of 6 in ADR and 3rd out of 6 in RevPAR. - Delivered 50% increase in 2022 YTD Hotel Revenue at RM 26.774M vs. RM17.89M budget - Generated 64% increase in 2022 YTD Gross Operating Profit (GOP) at RM 6.3M vs. RM 3.85M million budget. - 2023 YTD Revenue currently exceeds budget by RM 887.3K (22%) with GOP also above budget by RM 40K (5%)."
+          },
+          {
+            "title": "General Manager - Suasana Iskandar Malaysia Medini Iskandar Malaysia",
+            "organization": "UMLand (United Malayan Land Bhd)",
+            "date_range": "May 2023 - Jun 2023",
+            "location": "Johor Bahru, Johore, Malaysia",
+            "description": "Oversee residential development - Suasana Iskandar Malaysia - comprising a 35-storey serviced apartment, Amari's 1st Malaysian hotel and Zenith Lifestyle Centre complete with international and specialty F&B, entertainment and wellness, alongside Medini Iskandar Malaysia - an integrated development including UMCity (mixed-use commercial) and Virdea Lakeside (green residential). Core responsibilities: - Operations Management - Facilities Management - Property Management"
+          },
+          {
+            "title": "General Manager - Grand Copthorne Waterfront Singapore",
+            "organization": "Millennium Hotels and Resorts",
+            "date_range": "Jul 2023 - Present",
+            "location": "Singapore, Singapore",
+            "description": "Spearhead comprehensive daily hotel operations service delivery covering front office (guest relations, front desk), housekeeping, engineering and maintenance, revenue management, sales & marketing and MICE to deliver exceptional guest experiences. Define overall hotel strategy and ensure team performance via heads of department with training and development programs to ensure service quality and standards with employee of the month reward schemes and recognition. Ensure conformity with industry standards and regulatory requirements including health and safety, identify and collaborate with internal and external parties on structural repairs and maintenance. Oversee sales & marketing promotions and incentives to drive brand awareness, loyalty and repeat business. Core Responsibilities: - Operations Management - Strategy Development - Training and Development - Employee Recognition Programs - Regulatory Compliance - Collaboration with internal and external stakeholders - Sales & Marketing Direction Achievements: • Oct 2023 – Total revenue SGD7.532M above budget by SGD1.2M with highest total revenue since 2014 and highest out of 6 Singapore properties. GOP SGD3.348M (44.5% margin) above budget by SGD1.06M with GOP almost 45% at SGD3.3M from SGD7.5M total revenue. MICE revenue at SGD2.47M highest since 2017. • Sep 2023 - Total revenue SGD6.5M, SGD384K above budget and highest total revenue since 2019, GOP SGD3.039M (at 47% margin), above budget at SGD862.1K. SGD6.5M revenue and SGD3M GOP – almost 50% representing extremely high profit margin. Highest recorded ADR at SGD285 since 2014. • Aug 2023 - Total revenue closed at SGD5.9M (rooms SGD3.6M, F&B SGD1.7M), above budget by SGD1M, Aug GOP above budget by SGD900K. • July 2023 - Highest recorded room revenue and RevPAR since 2015 despite 60 rooms out of order for 7 days. Hotel revenue SGD1.35M above budget. July GOP above budget by SGD988K."
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/andrew-tan-management-professional"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Galaxy Toh",
@@ -979,7 +2936,7 @@
       "full_name": "Jocelyn Ferrer",
       "title": "Global Loyalty, Partnerships & F&B Loyalty",
       "company": "Millennium Hotels and Resorts",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/jocelynlferrer",
       "email": "jocelyn.ferrer@millenniumhotels.com",
       "email2": null,
       "phone": null,
@@ -1002,7 +2959,7 @@
       "full_name": "Germaine Yap",
       "title": "Global Brand Governance, Brand Standards & Audits",
       "company": "Millennium Hotels and Resorts",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/germaine-yap-890867b8",
       "email": "germaine.yap@millenniumhotels.com",
       "email2": null,
       "phone": null,
@@ -1019,7 +2976,131 @@
           "source_type": "official_site",
           "quote_or_fact": "Lead tied to Millennium Hotels & Resorts global corporate context for this research run"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/germaine-yap-890867b8",
+        "display_name": "Germaine Yap",
+        "headline": "Cluster Marketing Communications Manager at JW Marriott Singapore South Beach and The St. Regis Singapore",
+        "location": "Singapore (SG)",
+        "about": "Passionate marketer and keen communicator with demostrated experience in the marketing and hospitality industry. Skilled in Marketing, Event Planning, Social Media, Advertising, Partnerships, Creative Thinking, Public Relations, Campaign Management, Project Management and Content Creation.\n\nTotal Experience: 12 years and 6 months",
+        "experience": [
+          {
+            "title": "Marketing Branding Executive",
+            "organization": "Novita",
+            "date_range": "Feb 2013 - Jul 2013",
+            "location": null,
+            "description": "Coordinate and manage overall marketing & branding efforts. Coordinate and manage all advertising & promotion requirements. Plan and execute marketing activities and campaigns. Formulate and implement marketing collaterals and materials. Keep abreast of market development trends and product innovation. Bring in new ideas and perspectives."
+          },
+          {
+            "title": "Marketing Executive",
+            "organization": "pediped Infant Footwear, LLC",
+            "date_range": "Nov 2013 - May 2015",
+            "location": "Singapore",
+            "description": "Grow the brand presence through Social Media platforms. Liaising with media publications on advertising and sourcing for advertising opportunities. Support to implement, coordinate and execute marketing campaigns. Work closely with graphic designers to ensure compliance of marketing assets comply to brand guideline. Monitoring marketing budget Sponsorship of media personalities and bloggers"
+          },
+          {
+            "title": "Marketing And Communications Executive",
+            "organization": "Furama Hotels International",
+            "date_range": "Jul 2015 - Apr 2019",
+            "location": null,
+            "description": "-Manage in-house graphic designer and work closely with E-marketing Manager to implement marketing communications programs and activities that are defined and agreed upon by the Group Marketing Communications Manager -Assist in the conceptualizing, development and execution of marketing collaterals, both online and print -Plan, coordinate and execute campaigns and tasks for branding, promotions, advertising, social media, email direct marketing and loyalty programs. -Responsible for content creation for online and offline marketing collaterals -Responsible for assisting with managing the review cycle of web content and interfacing with the E-Marketing Manager -Develop a strong working relationship with vendors like printer, production house, signage vendors that facilitate quick work turnaround -Build strong rapport with media reporters, editors and writers on local media platform to assure extensive media coverage -Write press release, speeches, letters and develop copy works on all marketing collaterals -Responsible for ensuring that Marketing Communications project are executed on time whilst meeting the Furama’s CI standards -Work very closely with the E-Marketing Manager to ensure that e-collaterals are distributed appropriately and effectively to the stipulated database -To work closely with E-Marketing Manager to generate useful email leads and manage useful customer / guests database -Act as gatekeeper to ensure job requisitions from other departments are channeled appropriately and deliverables meeting the deadlines set. -Managing all social media platforms -Responsible for managing annual budget -Organize PR events, and take charge of communications and related activities -Brand coordination to ensure consistency within Furama group and brand is accurately represented on all communication material"
+          },
+          {
+            "title": "Assistant Marketing Communications Country Manager",
+            "organization": "Furama Hotels International",
+            "date_range": "Apr 2019 - May 2021",
+            "location": null,
+            "description": "Marketing Strategy. Branding Management. Event Management. Content Curation. Public Relations. Partnerships. Team Management. Creative Thinking."
+          },
+          {
+            "title": "Marketing Communications Manager",
+            "organization": "PARKROYAL on Beach Road, Singapore",
+            "date_range": "May 2021 - Jun 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Cluster Marketing Communications Manager",
+            "organization": "JW Marriott Singapore South Beach and The St. Regis Singapore",
+            "date_range": "Jun 2022 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of London (Singapore Institute of Management)",
+            "degree_or_field": "Bachelor of Science in Economics and Management",
+            "date_range": "2010 - 2012"
+          }
+        ],
+        "skills": [
+          "marketing",
+          "hospitality",
+          "planning",
+          "advertising",
+          "partnerships",
+          "creative",
+          "management",
+          "cluster",
+          "communications",
+          "branding",
+          "campaigns",
+          "innovation",
+          "sourcing",
+          "compliance",
+          "budget",
+          "sponsorship",
+          "strategy",
+          "print",
+          "promotions",
+          "responsible",
+          "production",
+          "signage",
+          "database",
+          "pr",
+          "coordination",
+          "less",
+          "hospitality industry",
+          "event planning",
+          "social media",
+          "creative thinking",
+          "public relations",
+          "campaign management",
+          "project management",
+          "content creation",
+          "marketing communications",
+          "market development",
+          "product innovation",
+          "marketing strategy",
+          "event management",
+          "team management",
+          "direct marketing",
+          "loyalty programs",
+          "web content",
+          "marketing event planning",
+          "social media advertising"
+        ],
+        "activity_themes": [
+          "Hospitality and hotel marketing campaigns",
+          "Culinary chef announcements and restaurant recognitions",
+          "Team appreciation and MARCOM gatherings",
+          "Career achievements, certifications and sales targets",
+          "Festive promotions and artist collaborations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/exbert-jr-fadallan-74749b64_great-news-to-start-the-month-after-knowing-activity-7402136763147943936-DRqQ",
+          "https://www.linkedin.com/posts/helenebertoneche_culture-careercoaching-careertransition-activity-7399295846309298176-oJ8i",
+          "https://www.linkedin.com/posts/elaine-chan-147637a_pan-pacific-singapores-with-love-the-artists-activity-7389206445465993216-4aO2",
+          "https://www.linkedin.com/posts/elaine-chan-147637a_haitienlosg-activity-7385565326547144705-3-E_",
+          "https://www.linkedin.com/posts/elaine-chan-147637a_haitienlo-activity-7375824075451138048-8xVM",
+          "https://www.linkedin.com/posts/elaine-chan-147637a_blessed-and-thankful-for-this-marcom-team-activity-7308502839750729729-wUUI",
+          "https://www.linkedin.com/posts/charmaine-tham_im-happy-to-share-that-ive-obtained-a-new-activity-7258645906751651840-IPke",
+          "https://www.linkedin.com/posts/graemeching_a-large-part-of-our-work-at-the-ritz-carlton-activity-7232718236801196032-Wnqq"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -1033,5 +3114,71 @@
     "succeeded": 16,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T00:18:03.187629+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 23,
+      "structured": 22,
+      "discovered": 6,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 11,
+        "content_pages": 23,
+        "cost_estimate": {
+          "approx_total_usd": 0.1,
+          "search_component_usd": 0.077,
+          "contents_component_usd": 0.023,
+          "counts": {
+            "search_requests": 11,
+            "content_pages": 23
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 57686,
+          "cached_prompt_text_tokens": 1408,
+          "completion_tokens": 27484,
+          "reasoning_tokens": 78941,
+          "output_tokens": 0,
+          "total_tokens": 164111
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.751388,
+          "token_component_usd": 0.751388,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 57686,
+            "cached_prompt_text_tokens": 1408,
+            "completion_tokens": 27484,
+            "reasoning_tokens": 78941,
+            "total_tokens_reported": 164111,
+            "output_like_tokens": 106425,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.851388
+    }
   }
 }

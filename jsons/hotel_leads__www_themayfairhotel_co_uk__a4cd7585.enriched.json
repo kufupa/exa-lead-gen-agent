@@ -92,7 +92,7 @@
       "full_name": "Patrick Katzenberg",
       "title": "General Manager",
       "company": "The May Fair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/patrick-katzenberg-00064ab7",
+      "linkedin_url": "https://www.linkedin.com/in/patrick-katzenberg-00064ab7",
       "email": null,
       "email2": null,
       "phone": null,
@@ -119,13 +119,138 @@
           "source_type": "official_site",
           "quote_or_fact": "Corporate Rates & Sales. Email: mayfairsales@edwardian.com; Reservations phone and email listed"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/patrick-katzenberg-00064ab7",
+        "display_name": "Patrick Katzenberg",
+        "headline": "General Manager @The May Fair Hotel, Personal Licence Holder",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "As the General Manager of The May Fair, part of Edwardian Hotels London, I am dedicated… Total Experience: 19 years and 2 months",
+        "experience": [
+          {
+            "title": "Director Of Conference Banqueting",
+            "organization": "The May Fair Hotel",
+            "date_range": "Nov 2006 - Apr 2008",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Amora Hotel Wellington",
+            "date_range": "Apr 2008 - Apr 2009",
+            "location": "Wellington & Wairarapa, New Zealand",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "InterContinental Hotels Group (IHG)",
+            "date_range": "Apr 2009 - Apr 2010",
+            "location": "Wellington & Wairarapa, New Zealand",
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "The May Fair Hotel",
+            "date_range": "Apr 2010 - Dec 2011",
+            "location": "London, United Kingdom",
+            "description": "Director of Food & Beverage & member of the Executive (1st year Director of Events). The Hotel has 4 F&B outlets including one of London’s best bars http://www.themayfairhotel.co.uk/bar. The other outlet was Quince Restaurant by celebrity Chef Silvena Rowe specialising in Eastern Mediterranean cuisine http://www.quincelondon.com/. Responsible for Conference & Banqueting Operations/Sales department including a 3D Screening room & 16 Function Rooms. Room service & mini… Show more"
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Sofitel Luxury Hotels and Resorts",
+            "date_range": "Dec 2011 - Sep 2013",
+            "location": "Luxembourg",
+            "description": "Cluster Revenue Manager for 2 hotels: * Sofitel Luxembourg Le Grand Ducal * Sofitel Luxembourg Europe A striking design hotel in Luxembourg's historic center Sofitel Luxembourg Le Grand Ducal gazes magnificently over the picturesque Alzette and Pétrusse valleys and Luxembourgs UNESCO Old Town. Delight in modern life at Hotel Sofitel Luxembourg Europe the Kirchberg Plateau's only 5-star hotel"
+          },
+          {
+            "title": "General Manager Meeting Events",
+            "organization": "Radisson Blu Edwardian, London",
+            "date_range": "Sep 2013 - Mar 2014",
+            "location": "London, United Kingdom",
+            "description": "Cluster Hotel position, overseeing 14 meeting and events sales offices with 56 team members for the Edwardian Group London, including the May Fair Hotel 5*. Edwardian Group London has luxury five and four star hotels in iconic locations in central London, Manchester and Surrey, each with its own distinctive personality and atmosphere"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "The May Fair Hotel",
+            "date_range": "Mar 2014 - Oct 2018",
+            "location": "London Area, United Kingdom",
+            "description": "Part of Edwardian Hotels London. The May Fair Hotel: There are 5 star luxury hotels, and then there is The May Fair: an icon of expressive contemporary design, bringing together boutique attention to detail with grand hotel service. A legendary luxury hotel with a glamorous past, The May Fair was first opened by King George V in 1927 and offers 404 luxury hotel bedrooms, including 12 of the capital's most memorable hotel suites, a discreet spa, a fine-dining restaurant and the quintessential London Casino. The spirit of surrounding Mayfair is captured beautifully, especially in our destination May Fair Bar, breath taking Crystal Room and opulent Danziger Suite, which between them have played host to some of London's most extravagant events."
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Edwardian, London",
+            "date_range": "Oct 2018 - Mar 2024",
+            "location": null,
+            "description": "As the General Manager of two of London’s finest boutique hotels I am responsible for all hotel operations by proving and implementing developed strategies and services. I work very closely with my head of departments, team and directors of Edwardian Hotels London. Within this responsibility I have to account for needs of our owners, employees and our valued guests. We develop and implement business strategies for the hotel in accordance with the company’s philosophy and standards. My aim is to maximize revenue by developing and implementing sales, marketing, booking and revenue plans."
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Edwardian, London",
+            "date_range": "Jul 2022 - Mar 2024",
+            "location": null,
+            "description": "As the General Manager of two of London’s finest boutique hotels I am responsible for all hotel operations by proving and implementing developed strategies and services. I work very closely with my head of departments, team and directors of Edwardian Hotels London. Within this responsibility I have to account for needs of our owners, employees and our valued guests. We develop and implement business strategies for the hotel in accordance with the company’s philosophy and standards. My aim is to maximize revenue by developing and implementing sales, marketing, booking and revenue plans."
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Londoner Hotel",
+            "date_range": "Mar 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Bergiusschule Frankfurt - Hotelfachman",
+            "degree_or_field": "Hotelfachmann, Hospitality Administration/Management",
+            "date_range": "1995 - 1998"
+          },
+          {
+            "school": "University of Oxford - Said Business School",
+            "degree_or_field": "Oxford Transition to Leadership Programme, Business Administration and Management, General",
+            "date_range": "2014 - 2015"
+          },
+          {
+            "school": "Imperial College Business School",
+            "degree_or_field": "Executive Education - Smart Cities",
+            "date_range": "2016 - 2016"
+          }
+        ],
+        "skills": [
+          "fine dining",
+          "hotels",
+          "director",
+          "cluster",
+          "hotel",
+          "sales",
+          "luxury",
+          "food",
+          "mediterranean",
+          "cuisine",
+          "responsible",
+          "operations",
+          "3d",
+          "screening",
+          "design",
+          "p",
+          "philosophy",
+          "marketing",
+          "capital",
+          "spa",
+          "casino"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/patrick-katzenberg-00064ab7"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Hasnain N. Alloo",
       "title": "Executive Vice President & Commercial Director",
       "company": "Edwardian Hotels London",
-      "linkedin_url": "https://uk.linkedin.com/in/hasnainalloo",
+      "linkedin_url": "https://www.linkedin.com/in/hasnainalloo",
       "email": "hasnain.alloo@edwardian.com",
       "email2": null,
       "phone": "+447971334351",
@@ -152,13 +277,51 @@
           "source_type": "news",
           "quote_or_fact": "Katzenberg boasts solid experience with the Edwardian Hotels group, which operates both The May Fair Hotel and The Londoner"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/hasnainalloo",
+        "display_name": "Hasnain N. Alloo",
+        "headline": "EVP | Commercial Director at Edwardian Hotels London - The Londoner, The May Fair, The Edwardian Manchester",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Hasnain is proud to serve as the Commercial Director of Edwardian Hotels London, one of the largest privately-owned hospitality companies in the UK. A highly experienced hotelier, he has successfully worked across a range of roles within the sector during a career spanning more than two decades. An exemplary project manager, with a proven track-record of managing large teams, he started his current role in 2016 and is responsible for developing and implementing commercial strategies to accelerate growth and revenue across the group. He is devoted to understanding the expectations of guests to ensure that their needs are met at all times and inspires his diverse group of teams to create and provide exceptional experiences for anyone who walks through their hotel doors. Part of this work includes collaborating with all disciplines including the hospitality group’s in-house tech team to develop innovative services to improve customer experience. As a leader in the business, Hasnain has been instrumental in planning for The Londoner, the latest project by Edwardian Hotels London, set to open its doors late 2020 as the world’s first Super Boutique hotel in London’s Leicester Square. Hasnain is an avid user of social media, recognising its benefits of engaging with customers one-on-one as well as at scale. He also finds it benefits his understanding of key trends and traveller behaviours. In his personal time, Hasnain is committed to volunteering at Age UK.",
+        "experience": [
+          {
+            "title": "EVP | Commercial Director",
+            "organization": "Edwardian Hotels London",
+            "date_range": "2016 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Responsible for developing and implementing commercial strategies to accelerate growth and revenue across the group. Instrumental in planning for The Londoner, the latest project set to open late 2020 as the world’s first Super Boutique hotel in London’s Leicester Square. Collaborates with all disciplines including the in-house tech team to develop innovative services to improve customer experience. Manages large teams with focus on meeting guest expectations and providing exceptional experiences."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "commercial",
+          "director",
+          "hotels",
+          "hospitality",
+          "responsible",
+          "hotel",
+          "planning",
+          "avid",
+          "benefits",
+          "volunteering",
+          "project manager",
+          "customer experience",
+          "social media"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/hasnainalloo"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Anjie Keegel",
       "title": "Head of Sales",
       "company": "The May Fair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/anjie-keegel-368817a",
+      "linkedin_url": "https://www.linkedin.com/in/anjie-keegel-368817a",
       "email": "anjie.keegel@edwardian.com",
       "email2": "mayfairsales@edwardian.com",
       "phone": "+44 7722 282656",
@@ -185,13 +348,42 @@
           "source_type": "other",
           "quote_or_fact": "Appointment announcement as new Head of Business Travel and Meetings & Events Sales"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anjie-keegel-368817a",
+        "display_name": "Anjie Keegel",
+        "headline": "Head of Sales at Edwardian Hotels London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 4 years and 2 months",
+        "experience": [
+          {
+            "title": "Head Of Business Travel, Meetings Events",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Nov 2021 - Present • 4 years and 2 months",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 5001-10,000 employees • Founded 1977 • Privately Held • Hospitality\nDepartment: Operations • Level: Specialist"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "business travel"
+        ],
+        "activity_themes": [
+          "Liked post about returning to work after Christmas and New Year break",
+          "Personal trip to voco Edinburgh Royal Terrace hotel"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/donna-kay-b043a017_back-to-work-after-an-extended-wonderful-activity-7416452967270330368-ETMh"
+        ],
+        "data_quality": "partial",
+        "caveats": "Only one experience entry present in text; about section contains only total experience note"
+      }
     },
     {
       "full_name": "Sheetal Varia",
       "title": "Director of Revenue",
       "company": "Edwardian Hotels London",
-      "linkedin_url": "https://uk.linkedin.com/in/sheetal-varia-98a83a49",
+      "linkedin_url": "https://www.linkedin.com/in/sheetal-varia-98a83a49",
       "email": null,
       "email2": null,
       "phone": null,
@@ -218,13 +410,73 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales enquiries email listed for commercial team"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sheetal-varia-98a83a49",
+        "display_name": "Sheetal Varia",
+        "headline": "Director Of Revenue at Edwardian Hotels London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced Director Of Revenue with a demonstrated history of working in the hospitality industry. Skilled in Food & Beverage, MICROS, Hospitality Management, Data Analysis, and Hospitality Industry. Strong finance professional graduated from Queen Elizabeth School Barnet.\n\nTotal Experience: 20 years and 10 months",
+        "experience": [
+          {
+            "title": "Senior Central Controller",
+            "organization": "Radisson Blu Edwardian, London",
+            "date_range": "Mar 2004 - Mar 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager Finance",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Apr 2015 - Oct 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Oct 2016 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Queen Elizabeth School Barnet",
+            "degree_or_field": null,
+            "date_range": "1985 - 1991"
+          }
+        ],
+        "skills": [
+          "director",
+          "hospitality",
+          "food",
+          "micros",
+          "management",
+          "analysis",
+          "finance",
+          "hospitality industry",
+          "hospitality management",
+          "data analysis"
+        ],
+        "activity_themes": [
+          "Hospitality industry awards and recognitions",
+          "Charity events and fundraising challenges",
+          "AI and technology in hospitality",
+          "Environmental initiatives for conservation",
+          "Corporate team building and summits",
+          "Professional certifications and development"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Siraj Singh",
       "title": "Director of Marketing & E-Commerce",
       "company": "Edwardian Hotels London",
-      "linkedin_url": "https://uk.linkedin.com/in/siraj-singh-a3823b26",
+      "linkedin_url": "https://www.linkedin.com/in/siraj-singh-a3823b26",
       "email": null,
       "email2": null,
       "phone": null,
@@ -251,13 +503,100 @@
           "source_type": "news",
           "quote_or_fact": "Siraj Singh, Director of Marketing and E-commerce at Edwardian Hotels London, which owns The May Fair Hotel"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/siraj-singh-a3823b26",
+        "display_name": "Siraj Singh",
+        "headline": "Director of Marketing and E-Commerce for Edwardian Hotels London",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 17 years",
+        "experience": [
+          {
+            "title": "Customer Business Analyst (Industrial Placement Year)",
+            "organization": "Intel Corporation",
+            "date_range": "Jul 2006 - Aug 2007 • 1 year and 1 month",
+            "location": null,
+            "description": "Numerous responsibilities working both in a team of 12 people and independently, managing several different accounts, in which I was the customer’s first point of contact. Compiled and presented revenue data and financial reports on a weekly basis to key stakeholders within the corporation, including the senior managers of the Customer Business Organisation and of the Embedded Sales Group within Europe. Liaised with members of the finance, product and sales teams in order to meet customer’s needs. Constantly in sync with my accounts, heading large weekly call outs to customers in which sales and product managers attended, in order to help meet the quarterly goals set within the Embedded Sales Group. Completed many courses and internal training such as Effective Meetings, Public Speaking, DISC."
+          },
+          {
+            "title": "Work Experience",
+            "organization": "JWT",
+            "date_range": "Sep 2009 - Nov 2009 • 2 months",
+            "location": null,
+            "description": "Conducted intensive market research and analysed market trends in order to gain an insight into competitor behaviour. Participated in client meetings alongside senior JWT colleagues. Assisted in the co-ordination of a photo shoot."
+          },
+          {
+            "title": "Work Experience",
+            "organization": "MTV",
+            "date_range": "Mar 2010 - Mar 2010",
+            "location": null,
+            "description": "Undertook a complete audit and created a system where by stock can be tracked and monitored efficiently. Sourced and ordered company merchandise after understanding client needs."
+          },
+          {
+            "title": "E-Commerce Executive",
+            "organization": "The May Fair Hotel",
+            "date_range": "Apr 2010 - Present • 9 years and 8 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of E-Commerce",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Apr 2014 - Present • 11 years and 9 months",
+            "location": "London, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Aston University",
+            "degree_or_field": "Bsc, Business and Politics",
+            "date_range": "2004 - 2008 • 4 years"
+          },
+          {
+            "school": "University of Warwick - Warwick Business School",
+            "degree_or_field": "Msc, Marketing and Strategy",
+            "date_range": "2008 - 2009 • 1 year"
+          }
+        ],
+        "skills": [
+          "market research",
+          "public speaking",
+          "director",
+          "commerce",
+          "audit",
+          "research",
+          "reports",
+          "organisation",
+          "sales",
+          "finance",
+          "courses",
+          "training"
+        ],
+        "activity_themes": [
+          "Hotel culinary and hospitality awards",
+          "Luxury hotel promotions and features",
+          "Hospitality wedding planning stories",
+          "Diversity, equality and leadership initiatives",
+          "Hotel operational and guest updates"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/siraj-singh-a3823b26_we-are-thrilled-to-announce-that-peter-street-activity-7235037899639918592-b8mB",
+          "https://www.linkedin.com/posts/weddingplanning-hospitalitypro-groomzillaintraining-activity-7176218463684743169-1Tp2",
+          "https://www.linkedin.com/posts/gaurav-budhiraja-17466a10_lovelettersfrombritain-luxury-london-activity-6820419455844257792--06x",
+          "https://www.linkedin.com/posts/darren-carter-cpp-msyi-f-isrm-16a4278_a-sad-day-today-seeing-the-passing-of-prince-activity-6786347262986489856-kUNc",
+          "https://www.linkedin.com/posts/renusnehi_victory-diversity-equality-activity-6731256938576924673-jSej",
+          "https://www.linkedin.com/posts/kumar-mishra-17291a1a_theedwardianmanchester-guests-business-activity-6730122030869557248-6eq5"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Katie Fenn",
       "title": "Sales Director",
       "company": "Edwardian Hotels London",
-      "linkedin_url": "https://uk.linkedin.com/in/katie-fenn-42a19926",
+      "linkedin_url": "https://www.linkedin.com/in/katie-fenn-42a19926",
       "email": null,
       "email2": null,
       "phone": null,
@@ -284,13 +623,125 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales enquiries contact details"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/katie-fenn-42a19926",
+        "display_name": "Katie Fenn",
+        "headline": "Director Of Sales- Corporate at Edwardian Hotels London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "An experienced Sales Director skilled in strategy, partnerships and team leadership. A trained negotiator and driving force for business innovation and outstanding team culture.\n\nTotal Experience: 22 years and 2 months",
+        "experience": [
+          {
+            "title": "Distribution Exec",
+            "organization": "Sony Electronics",
+            "date_range": "Jan 2003 - Jan 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Conference Consultant",
+            "organization": "Logical Venue Solutions",
+            "date_range": "Mar 2003 - Nov 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Account Manager",
+            "organization": "Millennium and Copthorne Hotels and Resorts",
+            "date_range": "Jan 2006 - Jan 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Corporate Sales Manager",
+            "organization": "Lancaster London",
+            "date_range": "Dec 2007 - May 2011",
+            "location": null,
+            "description": "Corporate & MICE"
+          },
+          {
+            "title": "Senior Account Director",
+            "organization": "COMO Hotels & Resorts",
+            "date_range": "May 2011 - Feb 2013",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Corporate Sales",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Feb 2013 - Sep 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Sales",
+            "organization": "me&u",
+            "date_range": "Sep 2021 - Sep 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Account Director",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Sep 2022 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales- Corporate",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Mar 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Bournemouth University",
+            "degree_or_field": "BA Hons, Communication, 2:1",
+            "date_range": "2000 - 2003"
+          }
+        ],
+        "skills": [
+          "team leadership",
+          "business innovation",
+          "sales manager",
+          "sales",
+          "director",
+          "strategy",
+          "partnerships",
+          "leadership",
+          "driving",
+          "innovation",
+          "distribution"
+        ],
+        "activity_themes": [
+          "Hospitality industry networking and events",
+          "Business travel trends and corporate travel management",
+          "Hotel supplier awards and recognitions",
+          "Career transitions in travel and hospitality sector",
+          "Team initiatives and operational excellence in hotels",
+          "Industry events like ILTM Cannes"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/samantha-van-leeuwen-9063067_pwc-careerjourney-gratitude-activity-7414800945299070976-Emv0",
+          "https://www.linkedin.com/posts/claudia-jackson-96b87619_travelmanagement-activity-7419790953843990528-bON-",
+          "https://www.linkedin.com/posts/sarah-maxwell-559189a3_thepreferredlife-travelpr-activity-7419330555600683008-iNg4",
+          "https://www.linkedin.com/posts/adam-christini-715a103b_yesterday-i-was-fortunate-enough-to-receive-activity-7417176807579213826-tpGa",
+          "https://www.linkedin.com/posts/jonathan-sweeney-7362256_after-four-great-years-with-motive-partners-activity-7416775534157668352-r5LG",
+          "https://www.linkedin.com/posts/flock-together-media_events-eventsindustry-mice-activity-7414665859811418112-4kl7",
+          "https://www.linkedin.com/posts/patrick-katzenberg-00064ab7_edwardianhotels-themayfair-thelondoner-activity-7414240346563633152-ES2h",
+          "https://www.linkedin.com/posts/eric-de-neef_there-is-a-time-to-come-and-a-time-to-go-activity-7410254304718135296-pmiu"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Maria Dolores Ghiringhelli",
       "title": "Group Guest Experience Manager",
       "company": "Edwardian Hotels London",
-      "linkedin_url": "https://uk.linkedin.com/in/ghrmdl",
+      "linkedin_url": "https://www.linkedin.com/in/ghrmdl",
       "email": "maria.ghiringhelli@themayfairhotel.co.uk",
       "email2": null,
       "phone": null,
@@ -317,7 +768,85 @@
           "source_type": "official_site",
           "quote_or_fact": "Enquiries and reservations phone/email"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ghrmdl",
+        "display_name": "Maria Dolores Ghiringhelli",
+        "headline": "Group Guest Experience Manager at Edwardian Hotels London",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A passionate, determined and goal orientated individual who consistently aims to deliver outstanding service and fosters positive relationships with guests to promote customer satisfaction and loyalty. A positive, dedicated and enthusiastic leader. A natural team-builder with an ability to motivate people to perform to the highest standard. My ‘lead from the front’ approach along with my dynamism and creative approach enables me to achieve excellent service, effective management and inspire productivity within a team.\n\nTotal Experience: 11 years and 7 months",
+        "experience": [
+          {
+            "title": "Spa Receptionist Trainee",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2015 - Mar 2015",
+            "location": "Firenze, Italia",
+            "description": "Greeting and welcoming guests; Make guest reservations for spa services; Guest enrolment in special programs o"
+          },
+          {
+            "title": "Learning And Development Coordinator",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Apr 2015 - Aug 2015",
+            "location": "Firenze, Italia",
+            "description": "Continuously update training materials for existing courses and manage the development of new material. Responsible for the process of systematic data-collection and analysis to support the ongoing monitoring and evaluation. Schedule classes, based on availability of classrooms, equipment and instructors. Lead Trainings. Collaborate with HR Manager on implementation of Learning & Development programs."
+          },
+          {
+            "title": "Graduate Management Trainee",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Sep 2015 - Dec 2015",
+            "location": "Londra, Regno Unito",
+            "description": "The Graduate Management Programme is an 18 months fast track Future Leaders Programme designed to provide to the Management Trainee an exceptional and complete overview of hospitality and of the hotel operation. The first three months of the Programme offer a cross training in F&B, C&B, Rooms, S&M, Reservations, Revenue, Finance, HR and Customer Service across all the luxury hotels in part of The Edwardian Hotels London. At the end of the three months there is the opportunity for the Graduate Management Trainee to express her preference and to be allocated to the position and department she is interested in."
+          },
+          {
+            "title": "Reception Guest Relations Team Leader",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Jan 2016 - Jun 2017",
+            "location": "Radisson Blu Edwardian Mercer Street Hotel, London",
+            "description": "The Guest Service Team Leader role oversees daily operation of the Reception of the Hotel. The daily tasks are: Make sure that staff are highly trained, motivated and supervised; Delegate different customer service duties to team members to ensure a faster and smoother flow of operation through division of labor; Take care of the communication between the Night Manager and Assistant Managers, following up on guest requests and problems; Create better modes of operations to make customer service easier for both team members and customers; Ensure that all equipment and appliances needed by the customer team members are available and in good condition to enable smooth flow of operations and customer satisfactions; Analyse customer feedback and provide strategic direction to continuously improve overall rating; Actively listen and resolve guests’ complaints; Oversee and coordinate all arrivals and departures of VIPs guests; Promote all amenities, conveniences and programs offered; Be part of the Duty Managers Team of the Hotel; To assist on cover for night shift if needed."
+          },
+          {
+            "title": "Guest Relations Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Jul 2017 - Mar 2018",
+            "location": "London, United Kingdom",
+            "description": "Managing all aspects of the guest relations department. Building rapport with all the guests, to effectively resolve guest complaints in a timely manner and to act as a liaison for The May Fair Hotel's VIP guests to ensure that their expectations are exceeded at every opportunity. Acting as a duty manager for the hotel. Assisting FOHM in analysing Medallia feedback and putting action plans together to improve guest satisfaction. Assisting FOHM to analysing all feedback from guests identify trends and assist departments in improvement plans. Ensuring appropriate professional standards of behaviour, work standards, productivity, practices and customer care are enforced. Training of Front Office staff appropriately and proactively."
+          },
+          {
+            "title": "Reception Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Apr 2018 - Jan 2020",
+            "location": "London, United Kingdom",
+            "description": "To lead the operation of service excellence in the Concierge, Guest Relations and Reception to establish a winning and motivated guest service team and to deliver a great service experience which makes people feel special. To help to handle all aspects of Concierge, Guest Relations and Reception and to maintain upkeep and appearance of Hotel lobby and entrance. To train, o coach and to recognize staff. To research local area facilities, this may be of help and interest to guests. To establish working relations with relevant ticket agencies in order to provide a comprehensive Concierge service to guests. To ensure that guest service employees are up-to-date with local area knowledge. To cover Duty Manager shifts."
+          },
+          {
+            "title": "Assistant Front Of House Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Jan 2020 - Oct 2021",
+            "location": "London, United Kingdom",
+            "description": "To be accountable for overseeing the smooth operations of the Front Office department. To work alongside side the Front Office Manager and run the Front Office department effectively by ensuring maximum guest satisfaction, departmental profitability, achieving monthly goals and adhering to the standard required by the hotel. Maintain excellent communication with other hotel departments. Perform all tasks of a Front Office Staff as needed to facilitate service. Ensure that the Front Desk is appropriately staffed according to activity levels. Ensures that the front desk is aware of all new promotions and changes. Analyse, investigate, and resolve guests complaints."
+          },
+          {
+            "title": "Group Reservations Manager",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Oct 2021 - Nov 2022",
+            "location": "London, England, United Kingdom",
+            "description": "To manage the daily operations and efficient running of the Central Reservations Department of Edwardian Hotels London and our portfolio of 12 luxury hotels. Provide direction and leadership to Reservations team assisting them to achieve their potential and achieve overall departmental objectives. To drive the team to achieve goals (Revenue and Quality) and develop new ideas to improve processes To demonstrate an in depth knowledge and understanding of Hotel systems to include and not limited to PMS, CRM, SalesForce To ensure all administrative procedures are completed accurately and in accordance with the departmental and Hotel guidelines To ensure accurate, up to date contract information, rate agreements, data input into Opera Reservation System, for both existing and new clients To ensure that all accounting procedures are adhered to in conjunction with the Revenue Managers. To ensure together with the revenue team that all free sale and inventory are being kept up to date."
+          },
+          {
+            "title": "Group Guest Experience Manager",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Nov 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "To manage the operation and efficient running of the Central Guest Services department of Edwardian Hotels London and our portfolio of 12 luxury hotels. To inspire, lead and enable the team to provide seamless and unparalleled service whilst maintaining profitability and employee satisfaction. To ensure the team is kept updated with any promotions, changes or product enhancements to guarantee an up-to-date product knowledge of hotels portfolio. Key point of contact between the Guest Service team and finance team, ensuring financial compliance along all related process completed by the service team. Administrative support including accidents and incidents reports communicating and liaising with insurance companies as well as internal H&S and security departments. To monitor guest feedback, communication and continuously communicates with the front office teams to enhance guests' experience. To create an environment where the team is satisfied and continuously motivated by actively seeking feedback and make improvements and changes."
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Mohit Dua",
@@ -350,7 +879,77 @@
           "source_type": "official_site",
           "quote_or_fact": "Corporate Rates & Sales email and reservations contact details"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/mohit-dua-050b0214",
+        "display_name": "Mohit Dua",
+        "headline": "Director of Revenue & Distribution - Rooms at Edwardian Hotels London",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 19 years and 11 months",
+        "experience": [
+          {
+            "title": "Operation Support Exec Team Leader",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Feb 2006 - Sep 2007",
+            "location": "Radisson Edwardian Heathrow Hotel",
+            "description": null
+          },
+          {
+            "title": "Operation Support Manager",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Sep 2007 - Oct 2009",
+            "location": "Radisson Edwardian Heathrow Hotel",
+            "description": null
+          },
+          {
+            "title": "Cluster Central Operation Support Manager",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Oct 2009 - Jul 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Revenue Manager",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Aug 2011 - Jan 2019",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Distribution - Rooms",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Jan 2019 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Oxford Brookes University",
+            "degree_or_field": "B.Sc Hons, Hospitality and Restaurant Management",
+            "date_range": "2002 - 2005"
+          }
+        ],
+        "skills": [
+          "director",
+          "distribution",
+          "cluster",
+          "operation"
+        ],
+        "activity_themes": [
+          "Hospitality revenue strategy events",
+          "Hotel industry conferences and speakers",
+          "AI and data opportunities in hospitality",
+          "Career transitions in hotel groups",
+          "Travel partnerships and tourism markets",
+          "Radisson and Edwardian Hotels activities"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/mohit-dua-050b0214"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Anett Helbig",
@@ -389,7 +988,7 @@
       "full_name": "Fatima Anida",
       "title": "Sales Director (Middle East & Diplomatic)",
       "company": "The May Fair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/fatima-anida-96783983",
+      "linkedin_url": "https://www.linkedin.com/in/fatima-anida-96783983",
       "email": null,
       "email2": null,
       "phone": null,
@@ -416,13 +1015,84 @@
           "source_type": "official_site",
           "quote_or_fact": "Corporate sales email"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/fatima-anida-96783983",
+        "display_name": "Fatima Anida",
+        "headline": "Director of Sales Middle East & Diplomatic Market for Edwardian Hotels (The May Fair Hotel, The Londoner & The Edwardian Manchester Hotel) | Driving Revenue Growth & Global Market Expansion",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 11 years and 7 months",
+        "experience": [
+          {
+            "title": "Sales Director Middle East And Diplomatic Market - For Edwardian Hotels (14 Hotels)",
+            "organization": "The May Fair Hotel",
+            "date_range": "Jul 2014 - Present",
+            "location": "London, United Kingdom",
+            "description": "Director of Sales for the Middle East and Diplomatic market for the MayFair hotel, The Londoner & The Edwardian Manchester hotel, London. I have the privilege of championing 14 luxury properties, including The May Fair, The Londoner, and The Edwardian Manchester. My role goes beyond driving revenue, it’s about building meaningful relationships, understanding the cultural nuances of our Middle Eastern clientele, and delivering tailored experiences that inspire loyalty. I lead market strategies that open new doors, nurture partnerships with embassies and diplomatic missions, and craft bespoke campaigns that elevate our brand on the global stage. Whether representing our hotels at international trade shows or collaborating with internal teams to design high-impact sales initiatives, I thrive on connecting people, creating opportunities, and turning our guests’ expectations into lasting memories."
+          }
+        ],
+        "education": [
+          {
+            "school": "Tourism and Travel University in Marrakech Morocco",
+            "degree_or_field": "Hospitality Management degree, La Gestion Hoteliere",
+            "date_range": "2006 - 2008"
+          },
+          {
+            "school": "London Hotel School /Sunderland University London",
+            "degree_or_field": "Bachelor's degree in Hospitality and tourism Management, Tourism and Travel Services Marketing Operations",
+            "date_range": "2010 - 2013"
+          },
+          {
+            "school": "St. Patrick College",
+            "degree_or_field": "HND Diploma in Hospitality Management",
+            "date_range": "2011 - 2012"
+          },
+          {
+            "school": "Sunderland University, UK",
+            "degree_or_field": "Master of Hospitality Management",
+            "date_range": "2012 - 2013"
+          }
+        ],
+        "skills": [
+          "sales",
+          "director",
+          "hotels",
+          "hotel",
+          "luxury",
+          "driving",
+          "partnerships",
+          "missions",
+          "craft",
+          "campaigns",
+          "design",
+          "international trade",
+          "trade shows",
+          "connecting people"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and hotel events",
+          "Ramadan Iftar celebrations",
+          "Sustainability initiatives in Saudi Arabia",
+          "Leadership and networking in business associations",
+          "Luxury travel partnerships and fairs",
+          "Moroccan and Arab business community engagement",
+          "C-suite insights and executive events"
+        ],
+        "source_urls": [
+          "https://nl.www.linkedin.com/posts/fatima-anida-96783983_ramdan-iftar-the-may-fair-hotel-activity-7312453854791454720-YuHE",
+          "https://www.linkedin.com/posts/sulaiman-al-romi-31a78223_theluxuryleads-luxuryhospitality-leadership-activity-7383450796601978881-N117",
+          "https://www.linkedin.com/posts/sulaiman-al-romi-31a78223_anantara-preferredpartner-luxurytravel-activity-7325546595519811587-d9q1",
+          "https://www.linkedin.com/posts/sulaiman-al-romi-31a78223_iltm-20yearsofloveandluxury-iltm-activity-6876792480378056704-oHzX"
+        ],
+        "data_quality": "partial",
+        "caveats": "Only one experience entry present in text"
+      }
     },
     {
       "full_name": "Daniele Chimera",
       "title": "Deputy General Manager",
       "company": "The May Fair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/daniele-chimera-19b74989",
+      "linkedin_url": "https://www.linkedin.com/in/daniele-chimera-19b74989",
       "email": null,
       "email2": null,
       "phone": null,
@@ -449,13 +1119,132 @@
           "source_type": "official_site",
           "quote_or_fact": "Enquiries phone and email"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/daniele-chimera-19b74989",
+        "display_name": "Daniele Chimera",
+        "headline": "Deputy General Manager at The May Fair Hotel",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 18 years and 9 months",
+        "experience": [
+          {
+            "title": "Internship In Front Office, Back Office, Meeting And Congress, Administration",
+            "organization": "UNA Hotels & Resorts",
+            "date_range": "May 2007 - Nov 2007",
+            "location": "Catania Area, Italy",
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Front Desk Receptionist- Manager On Duty",
+            "organization": "UNA Hotels & Resorts",
+            "date_range": "Nov 2007 - Jul 2011",
+            "location": "Catania Area, Italy",
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Guest Services Agent",
+            "organization": "myhotels",
+            "date_range": "Jul 2011 - Feb 2012",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist\nCompany: 11-50 employees • Founded 1999 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "myhotels",
+            "date_range": "Feb 2012 - Feb 2014",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Manager\nCompany: 11-50 employees • Founded 1999 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Guest Relations Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Feb 2014 - Nov 2014",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager\nCompany: 201-500 employees • Privately Held • Travel Arrangements"
+          },
+          {
+            "title": "Reception Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Nov 2014 - Jun 2016",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager\nCompany: 201-500 employees • Privately Held • Travel Arrangements"
+          },
+          {
+            "title": "Senior Reception And Guest Relations Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Jun 2016 - Oct 2017",
+            "location": "London, United Kingdom",
+            "description": "Company: 201-500 employees • Privately Held • Travel Arrangements"
+          },
+          {
+            "title": "Assistant Front Of House Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Oct 2017 - Aug 2018",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager\nCompany: 201-500 employees • Privately Held • Travel Arrangements"
+          },
+          {
+            "title": "Front Of The House Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Aug 2018 - Feb 2020",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Manager\nCompany: 201-500 employees • Privately Held • Travel Arrangements"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Edwardian Sussex, London",
+            "date_range": "Feb 2020 - Feb 2022",
+            "location": "London, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager\nCompany: 1001-5000 employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Edwardian, London",
+            "date_range": "Jan 2022 - Jun 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager\nCompany: 1001-5000 employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Radisson Blu Edwardian, London",
+            "date_range": "Jun 2022 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager\nCompany: 1001-5000 employees • Privately Held • Hospitality"
+          },
+          {
+            "title": "Deputy General Manager",
+            "organization": "The May Fair Hotel",
+            "date_range": "Mar 2024 - Present",
+            "location": "Greater London, England, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager\nCompany: 201-500 employees • Privately Held • Travel Arrangements"
+          }
+        ],
+        "education": [
+          {
+            "school": "Liceo Classico Nicola Spedalieri",
+            "degree_or_field": "Maturita' Classica, Ancient/Classical Greek and Latin Language and Literature, Philosophy, Art",
+            "date_range": "2006 -"
+          }
+        ],
+        "skills": [
+          "administration",
+          "front office",
+          "back office"
+        ],
+        "activity_themes": [
+          "Aviation logistics, crew transport and airport operations",
+          "Team celebration, people first and hospitality excellence"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Rosario Crivari",
       "title": "Meeting & Events Operations Director",
       "company": "The May Fair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/rosario-crivari-b17a53111",
+      "linkedin_url": "https://www.linkedin.com/in/rosario-crivari-b17a53111",
       "email": "events@themayfairhotel.co.uk",
       "email2": "mayfairsales@edwardian.com",
       "phone": "+44 (0)20 7915 3898",
@@ -482,7 +1271,47 @@
           "source_type": "other",
           "quote_or_fact": "Expanding Groups and Events Team at The May Fair Hotel"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/rosario-crivari-b17a53111",
+        "display_name": "Rosario Crivari",
+        "headline": "Retired",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 37 years and 1 month",
+        "experience": [
+          {
+            "title": "Meeting Events Operation Director",
+            "organization": "The Mayfair Hotel",
+            "date_range": "Oct 1983 - Present",
+            "location": null,
+            "description": "Company: Hospitality\nDepartment: Operations • Level: Director"
+          },
+          {
+            "title": "In Room Dining Manager",
+            "organization": "Radisson Mayfair",
+            "date_range": "Jan 2018 - Nov 2020",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager\nRetired"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "operation",
+          "director"
+        ],
+        "activity_themes": [
+          "Hospitality team celebrations and events at luxury hotels like The Savoy",
+          "Career milestones and new GM roles in hotel industry",
+          "New Year's Eve galas and Roaring 20's events",
+          "Christmas messages to events management teams",
+          "Leadership, team building and annual hotel staff events",
+          "Obama Presidential Center, veterans and education initiatives",
+          "Professional development on why high performers quit"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Becky Casey",
@@ -510,7 +1339,29 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales enquiries email"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/becky-casey-955bb311",
+        "display_name": "Becky Casey",
+        "headline": null,
+        "location": "Greater Chicago Area (US)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Hospitality and hotel industry career transitions",
+          "Sales leadership appointments and new roles",
+          "Reflections on long-term careers and retirements",
+          "New Year professional goals and motivations",
+          "Mentorship, board roles, and industry networking"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/becky-casey-955bb311"
+        ],
+        "data_quality": "weak",
+        "caveats": "Fetched text contains name, location, recommendations, and liked posts only. No headline, experience entries, education, skills, or self-authored About section present."
+      }
     },
     {
       "full_name": "Declan Lott",
@@ -538,7 +1389,29 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales contact information"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/declan-lott-a0205b1",
+        "display_name": "Declan Lott",
+        "headline": null,
+        "location": "New York, New York, United States (US)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Luxury hospitality and hotel events",
+          "Corporate travel management and networking",
+          "Preferred Hotels & Resorts gatherings",
+          "Global business travel association activities",
+          "High-end travel experiences in NYC and London"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/declan-lott-a0205b1"
+        ],
+        "data_quality": "weak",
+        "caveats": "Profile text provides only name, location, and list of liked activity posts in hospitality/travel; no headline, about, experience, education or skills details present."
+      }
     },
     {
       "full_name": "Nico Fournier",
@@ -566,7 +1439,134 @@
           "source_type": "official_site",
           "quote_or_fact": "Corporate sales email"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/nicofournier1",
+        "display_name": "Nico Fournier MIH",
+        "headline": "Cluster Director of Sales & Marketing at COMO Metropolitan London & COMO The Halkin",
+        "location": "London Area, United Kingdom (GB)",
+        "about": "Total Experience: 16 years and 8 months",
+        "experience": [
+          {
+            "title": "Travel Trade Manager",
+            "organization": "Canadian Tourism Commission",
+            "date_range": "Jan 2009 - Nov 2013",
+            "location": "London, United Kingdom",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Global Account Director - Group Sales",
+            "organization": "The Ritz-Carlton Hotel Company L.L.C.",
+            "date_range": "Nov 2013 - Sep 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Relocation To New York City",
+            "organization": "Relocation to New York City",
+            "date_range": "Sep 2016 - Dec 2016",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Assistant Director Of Sales - The Surrey",
+            "organization": "Denihan Hospitality Group",
+            "date_range": "Jan 2017 - Jun 2018",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Director MICE Travel Industry Sales, International",
+            "organization": "The Dominick",
+            "date_range": "Jun 2018 - Sep 2019",
+            "location": "Greater New York City Area",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Group Sales",
+            "organization": "The Dominick",
+            "date_range": "Sep 2019 - Jul 2020",
+            "location": "Greater New York City Area",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Relocation To London And Proactive Work Search",
+            "organization": "Relocation to London",
+            "date_range": "Aug 2020 - Jan 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Work Coach Account Manager(fixed Term Contract)",
+            "organization": "Department for Work and Pensions (DWP)",
+            "date_range": "Feb 2021 - Nov 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales - The May Fair",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Nov 2021 - May 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales - The Londoner",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Jun 2022 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales - The Londoner The May Fair Hotel",
+            "organization": "Edwardian Hotels London",
+            "date_range": "Apr 2024 - Mar 2025",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Cluster Director Of Sales Marketing",
+            "organization": "COMO Hotels and Resorts",
+            "date_range": "Mar 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Director of Sales & Marketing for COMO Metropolitan London and COMO The Halkin\nDepartment: Sales • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "cluster",
+          "director",
+          "sales",
+          "marketing",
+          "p",
+          "less",
+          "relocation",
+          "proactive",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and concierge services at COMO hotels",
+          "Career honors and recognition by UK government and royalty",
+          "Judging panels for luxury travel industry awards",
+          "Professional reflections on successes and failures in hospitality",
+          "Interviews with hotel principals and industry leaders",
+          "Networking events and inspirational team gatherings",
+          "Career transitions and milestones at VisitBritain and events industry",
+          "Recruitment for general manager and hotel leadership roles"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/cataline-richmond-1612161_destinations-london-como-hotels-and-resorts-activity-7416644994503032832-G1gM",
+          "https://www.linkedin.com/posts/csawhney_one-of-the-highlights-of-my-career-so-far-activity-7420388291469856768-8KUZ",
+          "https://www.linkedin.com/posts/ziabapuji_360privatetravel-ttgluxuryawards-activity-7419720116248047616-hfU0",
+          "https://www.linkedin.com/posts/as-we-end-one-year-with-the-celebration-of-activity-7412222533178929152-TZBp",
+          "https://www.linkedin.com/posts/the-hotel-magazine_hospitality-hotelindustry-hotelier-activity-7418980730954850304-S91G",
+          "https://www.linkedin.com/posts/kayceechung440918_the-pleasure-is-all-ours-it-was-such-a-fun-activity-7417599621855801344-UD8l",
+          "https://www.linkedin.com/posts/gchristakis_after-6-incredible-years-my-time-with-visitbritain-activity-7417792194062925825-n64Z",
+          "https://www.linkedin.com/posts/liveleven_greatplacestowork-generalmanageroles-generalmanagerjobs-activity-7419424567338897409-6NJP"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -580,5 +1580,71 @@
     "succeeded": 14,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T01:36:10.467186+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 15,
+      "structured": 14,
+      "discovered": 0,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 0,
+        "content_pages": 15,
+        "cost_estimate": {
+          "approx_total_usd": 0.015,
+          "search_component_usd": 0.0,
+          "contents_component_usd": 0.015,
+          "counts": {
+            "search_requests": 0,
+            "content_pages": 15
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 33472,
+          "cached_prompt_text_tokens": 1792,
+          "completion_tokens": 11711,
+          "reasoning_tokens": 46372,
+          "output_tokens": 0,
+          "total_tokens": 91555
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.412216,
+          "token_component_usd": 0.412216,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 33472,
+            "cached_prompt_text_tokens": 1792,
+            "completion_tokens": 11711,
+            "reasoning_tokens": 46372,
+            "total_tokens_reported": 91555,
+            "output_like_tokens": 58083,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.427216
+    }
   }
 }

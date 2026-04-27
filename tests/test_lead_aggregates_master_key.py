@@ -26,4 +26,4 @@ def test_master_keeps_two_occurrences_same_person_two_hotels(tmp_path: Path) -> 
     assert doc["count"] == 2
     ids = {row["occurrence_id"] for row in doc["contacts"]}
     assert len(ids) == 2
-    assert all("::li:https://linkedin.com/in/pat-lee" in oid for oid in ids)
+    assert all("::li:https://www.linkedin.com/in/pat-lee" in oid for oid in ids)

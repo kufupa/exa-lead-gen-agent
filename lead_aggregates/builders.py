@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Iterable
 
 from hotel_decision_maker_research import is_generic_functional_email
+from linkedin_enrich.exa_fetch import normalize_linkedin_url
 from pipeline_metrics import count_xai_tools
 
 
@@ -15,9 +16,11 @@ def source_repo_rel(path: Path, jsons_dir: Path) -> str:
 
 
 def dedupe_key(c: dict[str, Any]) -> str:
-    li = (c.get("linkedin_url") or "").strip().lower()
-    if li:
-        return "li:" + li
+    li_raw = (c.get("linkedin_url") or "").strip()
+    if li_raw:
+        canon = normalize_linkedin_url(li_raw)
+        if canon:
+            return "li:" + canon.lower()
     e1 = (c.get("email") or "").strip().lower()
     if e1:
         return "em:" + e1
@@ -60,6 +63,13 @@ def score_for_pick_email(c: dict[str, Any]) -> tuple[int, int]:
         if v and not is_generic_functional_email(v):
             n += 1
     return (ig, n)
+
+
+def score_for_unified_pick(c: dict[str, Any]) -> tuple[int, int, int, int]:
+    """Lexicographic tie-break: phone score tuple, then email score tuple."""
+    p = score_for_pick(c)
+    e = score_for_pick_email(c)
+    return (p[0], p[1], e[0], e[1])
 
 
 def compact_usage(u: dict[str, Any] | None) -> dict[str, Any] | None:
@@ -253,6 +263,45 @@ def build_email_document(jsons_dir: Path) -> dict[str, Any]:
         "criteria": (
             "Contacts with named non-generic email or email2 (see hotel_decision_maker_research.is_generic_functional_email). "
             "Globally deduped; tie-break intimacy_grade then count of named emails."
+        ),
+        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "source_enriched_files": sorted(set(sources)),
+        "count": len(contacts),
+        "contacts": contacts,
+    }
+
+
+def build_intimate_unified_document(jsons_dir: Path) -> dict[str, Any]:
+    """One row per dedupe_key across contacts that qualify for phone and/or named-email lists."""
+    rows_by_key: dict[str, dict[str, Any]] = {}
+    sources: list[str] = []
+
+    for path in _iter_enriched_files(jsons_dir):
+        source_rel = source_repo_rel(path, jsons_dir)
+        sources.append(source_rel)
+        data = json.loads(path.read_text(encoding="utf-8"))
+        p1 = phase1_run_meta(data, path.name)
+        p2 = contact_enrichment_meta(data)
+        for c in data.get("contacts") or []:
+            if not isinstance(c, dict):
+                continue
+            if not (has_structured_phone(c) or has_named_email(c)):
+                continue
+            k = dedupe_key(c)
+            row = build_contact_row(c, phase1=p1, phase2=p2)
+            row["contact_key"] = k
+            prev = rows_by_key.get(k)
+            if prev is None or score_for_unified_pick(row) > score_for_unified_pick(prev):
+                rows_by_key[k] = row
+
+    contacts = sorted(rows_by_key.values(), key=lambda r: (r.get("full_name") or "").lower())
+    return {
+        "version": 1,
+        "criteria": (
+            "Contacts with structured phone and/or named non-generic email; globally deduped by "
+            "linkedin (canonical www) then email then name+company. Tie-break: lexicographic "
+            "(intimacy+phone extras, then intimacy+named-email count). Canonical single-row view "
+            "for outreach; see also intimate_phone_contacts.json and intimate_email_contacts.json."
         ),
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         "source_enriched_files": sorted(set(sources)),

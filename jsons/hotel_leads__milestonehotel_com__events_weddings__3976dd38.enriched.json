@@ -89,7 +89,7 @@
       "full_name": "Sarah Bristow",
       "title": "Head of UK Reservations",
       "company": "Red Carnation Hotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/sarah-bristow-15a05064",
       "email": "sbristow@rchmail.com",
       "email2": null,
       "phone": "+44 808 196 8893",
@@ -111,13 +111,87 @@
           "source_type": "official_site",
           "quote_or_fact": "Reservations Telephone: +44 20 7917 1000 UK tollfree: +44 808 196 8893 US tollfree: +1 833 477 8313 Email: bookms@milestonehotel.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sarah-bristow-15a05064",
+        "display_name": "Sarah Bristow",
+        "headline": "Head of UK Reservations at The Red Carnation Hotel Collection (Red Carnation Hotels)",
+        "location": "Beckenham, England, United Kingdom (GB)",
+        "about": "I feel very privileged to head up the UK Reservations team for The Red Carnation Hotel collection. Looking after 6 hotels in London, The Summer Lodge and Acorn Inn in Dorset as well as 100 Princes Street in Edinburgh.",
+        "experience": [
+          {
+            "title": "Receptionist",
+            "organization": "Principal Hayley Hotels and Conference Venues",
+            "date_range": "Apr 2007 - Nov 2007 • 7 months",
+            "location": "Selsdon Park Hotel",
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Reservations Co-Ordinator",
+            "organization": "Principal Hayley Hotels and Conference Venues",
+            "date_range": "Nov 2007 - Mar 2009 • 1 year and 4 months",
+            "location": "Selsdon Park Hotel",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Reservations Supervisor",
+            "organization": "Principal Hayley Hotels and Conference Venues",
+            "date_range": "Mar 2009 - Feb 2010 • 11 months",
+            "location": "Selsdon Park Hotel",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Cluster Reservations Manager",
+            "organization": "Principal Hayley HP Limited",
+            "date_range": "Apr 2010 - Jul 2013 • 3 years and 3 months",
+            "location": "Selsdon Park Hotel and Wotton House",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Reservations Revenue Manager",
+            "organization": "The Rubens at the Palace - part of the Red Carnation Hotel Collection",
+            "date_range": "Jul 2013 - May 2021 • 7 years and 10 months",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Head Of UK Reservations",
+            "organization": "The Red Carnation Hotel Collection (Red Carnation Hotels)",
+            "date_range": "May 2021 - Present • 4 years and 9 months",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Head"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "reservations",
+          "hotel",
+          "hotels",
+          "cluster"
+        ],
+        "activity_themes": [
+          "Revenue management forums and speaking events",
+          "Hospitality business development and hiring",
+          "Leadership meetings and team achievements",
+          "Management programme recruitment",
+          "Internal hospitality awards and recognition"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/inna-in-revenue_excited-to-speak-at-global-revenue-forum-activity-7421892280342458368-1Qkj",
+          "https://www.linkedin.com/posts/siobhan-loughman-a3034970_business-development-representative-latam-activity-7414371968533151744-r7gj",
+          "https://www.linkedin.com/posts/jo-lovegrove-89b2b14a_abigail-smith-lana-iazhevich-and-i-kicked-activity-7419040539880255489-lKie",
+          "https://www.linkedin.com/posts/arella-warner-61b7601a9_managementprogramme-futureleaders-earlycareers-activity-7420486255047610368-oROX",
+          "https://www.linkedin.com/posts/abdil-pambaya-90a9632a4_rch-activity-7408956738525282305-deAE"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Andrew Pike",
       "title": "Managing Director",
       "company": "The Milestone Hotel & Residences",
-      "linkedin_url": "https://uk.linkedin.com/in/andrewpike-milestone-hotel",
+      "linkedin_url": "https://www.linkedin.com/in/andrewpike-milestone-hotel",
       "email": "apike@milestonehotel.com",
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -145,7 +219,7 @@
       "full_name": "Pranav Ahuja",
       "title": "Hotel Manager",
       "company": "The Milestone Hotel & Residences",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/pranav-ahuja",
       "email": "pahuja@milestonehotel.com",
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -191,7 +265,7 @@
       "full_name": "Suzie Thompson",
       "title": "Vice President Commercial",
       "company": "Red Carnation Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/suziethompson-redcarnationhotels",
+      "linkedin_url": "https://www.linkedin.com/in/suziethompson-redcarnationhotels",
       "email": null,
       "email2": null,
       "phone": "+44 808 196 8893",
@@ -213,7 +287,116 @@
           "source_type": "news",
           "quote_or_fact": "Sarah Glanville, Red Carnation’s Director of Revenue ... support each general manager (context of commercial function Suzie leads)."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/suziethompson-redcarnationhotels",
+        "display_name": "Suzie Thompson",
+        "headline": "Vice President Commercial at The Red Carnation Hotel Collection (Red Carnation Hotels)",
+        "location": "United Kingdom (GB)",
+        "about": "With a robust leadership role at Red Carnation Hotels, my focus is on shaping global commercial strategies for an exquisite collection of luxury boutique hotels. The heart of my role lies in managing and strategically developing sales, marketing, revenue, distribution, and reservations teams. Success in these areas has been marked by the launch of four new properties, creating a central reservations office, leading significant technology projects such as Opera Cloud PMS, Salesforce CRM and a guest service app, whilst showcasing a commitment to sustainable luxury in the hospitality industry. Collaborating closely with strategic agency partnerships, we have optimized revenue growth opportunities across 18 properties worldwide. My approach is both creative and data-driven, ensuring that every decision aligns with our mission to deliver unparalleled customer experiences. This includes a keen emphasis on customer acquisition, conversion, retention, and cross/up-selling, all while fostering authentic, purpose-driven initiatives that support sustainable travel.\n\nTotal Experience: 23 years",
+        "experience": [
+          {
+            "title": "Reservations Manager",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Oct 2002 - Jan 2006 • 3 years and 3 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jan 2004 - Jan 2006 • 2 years",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Destination Manager London",
+            "organization": "lastminute.com",
+            "date_range": "Apr 2006 - Jan 2008 • 1 year and 9 months",
+            "location": "London, United Kingdom",
+            "description": "Product marketing for the London Hotel Category across all points of sale including lastminute.com, Travelocity.com and affiliate network."
+          },
+          {
+            "title": "Director Of Sales UK",
+            "organization": "Sabre Corporation",
+            "date_range": "Jan 2008 - Jul 2011 • 3 years and 6 months",
+            "location": "London, United Kingdom",
+            "description": "Head of UK Business Development, focused on building the UK customer portfolio in order to significantly grow market share and lead the industry in hotel distribution and marketing tech solutions."
+          },
+          {
+            "title": "Vice President Marketing",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "Jul 2011 - Dec 2016 • 5 years and 5 months",
+            "location": "London, United Kingdom",
+            "description": "Digital transformation and brand development of an international collection of 18 boutique hotels."
+          },
+          {
+            "title": "Vice President Marketing, Distribution Revenue Mgt",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "Jan 2017 - Oct 2019 • 2 years and 9 months",
+            "location": "London, United Kingdom",
+            "description": "Primarily focused on brand development, marketing, revenue management, distribution and commercial strategy. Proud to be part of a family owned, customer orientated business, recently recognised as the number 2 hotel brand in the world by Travel & Leisure and consistently reviewed as the top of traveller ranked hotels across all destinations on Tripadvisor."
+          },
+          {
+            "title": "Vice President Commercial",
+            "organization": "The Red Carnation Hotel Collection (Red Carnation Hotels)",
+            "date_range": "Oct 2019 - Present • 6 years and 3 months",
+            "location": "London, United Kingdom",
+            "description": "Responsible for the global commercial strategy for 18 luxury boutique hotels around the world. Properties include Ashford Castle in Ireland, The Milestone Hotel in London, Hotel d’angleterre Geneva, The Twelve Apostles in Cape Town, and Xigera Safari Lodge in Botswana. Day to day management and strategic development of the global sales, marketing, revenue, distribution, and reservations teams alongside strategic agency partnerships to optimise revenue opportunity for the collection."
+          }
+        ],
+        "education": [
+          {
+            "school": "Bournemouth University",
+            "degree_or_field": "BA Hons, International Hospitality Management",
+            "date_range": "1998 - 2002 • 4 years"
+          }
+        ],
+        "skills": [
+          "leadership",
+          "hotels",
+          "commercial",
+          "luxury",
+          "sales",
+          "marketing",
+          "distribution",
+          "reservations",
+          "technology",
+          "projects",
+          "opera",
+          "cloud",
+          "salesforce",
+          "crm",
+          "hospitality",
+          "partnerships",
+          "creative",
+          "selling",
+          "responsible",
+          "strategy",
+          "hotel",
+          "management",
+          "director",
+          "digital",
+          "guest service",
+          "hospitality industry",
+          "customer acquisition",
+          "cross selling",
+          "business development",
+          "marketing digital",
+          "digital transformation",
+          "brand development",
+          "product marketing",
+          "revenue management"
+        ],
+        "activity_themes": [
+          "Engaging with content on professional achievements and book publications in the travel industry"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/suziethompson-redcarnationhotels"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Warren Kelly",
@@ -288,7 +471,7 @@
       "full_name": "Jonathan Raggett",
       "title": "CEO",
       "company": "Red Carnation Hotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/jonathan-raggett-aa787097",
       "email": null,
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -305,13 +488,90 @@
           "source_type": "official_site",
           "quote_or_fact": "CEO Jonathan Raggett ... Joined The Red Carnation Hotel Collection in 1998."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jonathan-raggett-aa787097",
+        "display_name": "Jonathan Raggett",
+        "headline": "CEO Red Carnation Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "After almost forty years in the hospitality industry, I remain passionate about the opportunities that it offers to anyone who is prepared to work hard. Formal qualifications are not always necessary; a friendly personality, the right attitude and a willingness to learn are the keys to success.\n\nTotal Experience: 34 years and 8 months",
+        "experience": [
+          {
+            "title": "Manager",
+            "organization": "Maharani Hotel",
+            "date_range": "Jan 1991 - Jan 1993",
+            "location": "Durban, South Africa",
+            "description": null
+          },
+          {
+            "title": "Director And General Manager",
+            "organization": "The St Pierre Park Hotel",
+            "date_range": "Jan 1993 - Jan 1998",
+            "location": "Guernsey, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Rubens at the Palace and Hotel 41",
+            "date_range": "Jun 1998 - Sep 2000",
+            "location": null,
+            "description": "Responsible for a major £8m refurbishment to The Rubens at the Palace, a 174-bedroom property, to 4-star deluxe standards and opened London's first all-inclusive hotel, Hotel 41, which won Hotel of the Year – Group at the 2013 Catey Awards."
+          },
+          {
+            "title": "Managing Director",
+            "organization": "The Red Carnation Hotel Collection (Red Carnation Hotels)",
+            "date_range": "Sep 2000 - Present",
+            "location": "London, United Kingdom",
+            "description": "As Managing Director of Red Carnation Hotels, I am responsible for the operation of twenty luxury five star hotels across the globe - London, Edinburgh, Dorset, Ireland, Guernsey, Geneva, Palm Beach and Southern Africa. Red Carnation Hotels pride themselves on offering outstanding levels of comfort and an exceptional guest experience. In recent years hotels within the collection have received awards from various professional bodies; the company has been recognised for the training it…"
+          }
+        ],
+        "education": [
+          {
+            "school": "Westminster College",
+            "degree_or_field": "Hospitality Administration/Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "director",
+          "hotels",
+          "responsible",
+          "operation",
+          "luxury",
+          "africa",
+          "training",
+          "property",
+          "hotel",
+          "hospitality industry"
+        ],
+        "activity_themes": [
+          "Celebrating awards for Red Carnation Hotels (Egerton House, Hotel 41, Ashford Castle)",
+          "Supporting Hospitality Action charity events and cycle challenges",
+          "Fundraising and partnerships for leukaemia and cancer research",
+          "Hospitality leadership training at Cranfield School of Management",
+          "Recognition of hotel GMs, team achievements and work anniversaries",
+          "Industry networking at events like Les Clefs d'Or gala",
+          "Interest in South African history, storytelling and travel"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/jonathan-raggett-aa787097",
+          "https://www.linkedin.com/posts/jonathan-raggett-aa787097_redcarnationhotels-activity-7427720033214205952-0x1H",
+          "https://www.linkedin.com/posts/hospitality-action_hospitalityaction-wevegotyou-summercyclechallenge-activity-7427700563112308737-pwol",
+          "https://www.linkedin.com/posts/james-mclaughlin-49661317_really-proud-of-the-amazing-feedback-we-have-activity-7427445711614418945-PrCr",
+          "https://www.linkedin.com/posts/leo-forte-7752556a_superb-week-at-cranfield-school-of-management-activity-7425633867807494144-pti5",
+          "https://www.linkedin.com/posts/davisons-law_on-world-cancer-day-were-proud-to-announce-activity-7424748308608405504-PH-N",
+          "https://www.linkedin.com/posts/golden-keys-of-great-britain_lesclefsdor-lesclefsdorgb-inservicethroughfriendship-activity-7422267696710483968-S5Vu"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jorge Alvarez",
       "title": "Head Concierge",
       "company": "The Milestone Hotel & Residences",
-      "linkedin_url": "https://uk.linkedin.com/in/jorge-alvarez-1a8b795b",
+      "linkedin_url": "https://www.linkedin.com/in/jorge-alvarez-1a8b795b",
       "email": "conciergems@milestonehotel.com",
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -328,7 +588,94 @@
           "source_type": "official_site",
           "quote_or_fact": "Head Concierge conciergems@milestonehotel.com. Jorge Alvarez ... leads concierge team."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jorge-alvarez-1a8b795b",
+        "display_name": "Jorge Alvarez",
+        "headline": "IT Administrator at Society of Golden Keys of Great Britain and the Commonwealth - Head Concierge",
+        "location": "London, England, United Kingdom",
+        "about": "Experienced Deputy Head Concierge with a demonstrated history of working in the hospitality industry. Skilled in Hotel Management, Team Building, Organization Skills, Team Leadership, and MICROS. Strong support professional graduated from Ealing Hammersmith & West London College.\n\nTotal Experience: 19 years",
+        "experience": [
+          {
+            "title": "Luggage Porter",
+            "organization": "the montague on the Gardens Hotel",
+            "date_range": "Jul 2006 - Jan 2007",
+            "location": "15 Montague street",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Concierge",
+            "organization": "The Montague on the Gardens Hotel - Red Carnation Hotels",
+            "date_range": "Jun 2007 - Jan 2009",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Assistant Head Concierge",
+            "organization": "The Montague on the Garden Hotel",
+            "date_range": "Feb 2009 - Sep 2011",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Deputy Head Concierge",
+            "organization": "The Montague on the Gardens Hotel - Red Carnation",
+            "date_range": "Oct 2011 - Jul 2023",
+            "location": null,
+            "description": "Department: Customer Service • Level: Head"
+          },
+          {
+            "title": "IT Administrator",
+            "organization": "The Society of the Golden Keys of Great Britain & the Commonwealth",
+            "date_range": "Jan 2020 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Head Concierge",
+            "organization": "1 Hotels",
+            "date_range": "Jun 2023 - Jul 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Head Concierge",
+            "organization": "The Milestone Hotel & Residences - part of The Red Carnation Hotel Collection",
+            "date_range": "Jul 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Ealing Hammersmith & West London College",
+            "degree_or_field": "Tourism and Travel Services Marketing Operations",
+            "date_range": "2004 - 2008"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "hotel",
+          "management",
+          "leadership",
+          "micros",
+          "hospitality industry",
+          "hotel management",
+          "team building",
+          "organization skills",
+          "team leadership"
+        ],
+        "activity_themes": [
+          "Celebration of excellence in luxury hotels",
+          "Five-star hotel staffing and service standards"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/muchi-gubwe-39077712_𝙰-𝚌𝚎𝚕𝚎𝚋𝚛𝚊𝚝𝚒𝚘𝚗-𝚘𝚏-𝙴𝚡𝚌-activity-7417610423774056448-qdQ9",
+          "https://www.linkedin.com/posts/aliciadickwahlberg_a-five-star-hotel-cant-be-staffed-like-a-activity-7413889530962857986-k81i"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Emma Smith",
@@ -362,7 +709,7 @@
       "full_name": "Suzie Pagett",
       "title": "Sales Executive",
       "company": "The Milestone Hotel & Residences",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/suzie-norris",
       "email": "spagett@rchmail.com",
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -379,13 +726,119 @@
           "source_type": "other",
           "quote_or_fact": "Suzie Pagett Sales Executive spagett@rchmail.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/suzie-norris",
+        "display_name": "Suzie Norris",
+        "headline": "Executive Assistant Manager, The Chesterfield Mayfair Hotel",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 12 years and 2 months",
+        "experience": [
+          {
+            "title": "Centre Attendant And Lifeguard",
+            "organization": "East Staffordshire Borough Council",
+            "date_range": "Feb 2012 - Dec 2013",
+            "location": "Uttoxeter Leisure Centre",
+            "description": "This Part-Time Job has developed my responsibility and time management ability during my studies. It required ongoing Lifeguard training to which I committed for the duration of my employment. Good customer service was key for this role."
+          },
+          {
+            "title": "Trainee Chef And Waitress",
+            "organization": "Brookes Restaurant",
+            "date_range": "Sep 2013 - Jun 2014",
+            "location": "Oxford Brookes University, Headington Campus",
+            "description": "This has provided me with the opportunity to obtain the practical skills used in the Kitchen and Front of House of a working restaurant. Along with Food and Wine based learning during the Hospitality Operations Module Studied at University. During this period I took on the roles of Head Chef and Restaurant Host to develop my experience further."
+          },
+          {
+            "title": "Industrial Placement Student",
+            "organization": "Life's Kitchen Ltd",
+            "date_range": "Jun 2014 - Jul 2015",
+            "location": "City of London",
+            "description": "I am delighted to have worked for the Catering and Event Management Company, Life's Kitchen for my Placement year. Within the company I adopted the job roles Assistant Event Manager and Sales and Marketing assistant. In this I became aware of the planning and administration work required for each individual event to run smoothly as well as the operational management to achieve success. Additionally, I used Excel for financial services and analysis. This experience involved working for both Conference and Banqueting Events for Livery and Commercial Clients in the City of London."
+          },
+          {
+            "title": "Catering Assistant",
+            "organization": "Macdonald Randolph Hotel",
+            "date_range": "Jul 2016 - Feb 2017",
+            "location": "Oxford, United Kingdom",
+            "description": "The Macdonald Randolph hotel is an incredible five star venue. I have had the pleasure of assisting with the conference, banquet, exhibition and wedding events as well as bar and Acanthus restaurant service so far. I have since discovered that my future lies within the hotel environment and I thoroughly enjoy working as part of a diverse, multicultural community with close interactions between departments."
+          },
+          {
+            "title": "Sales Management Programme Participant",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "Sep 2017 - Dec 2018",
+            "location": "London, United Kingdom",
+            "description": "This graduate programme has allowed me to develop a hollistic view of hotel sales through adopting the role of both a Conference and Banqueting Executive and Room Reservations Agent role within this rotational 15 month programme. I am very grateful for the oppotunity of working with such inspirational hoteliers within this fascinating industry. Truly learning something new every day, I am very much looking forward to my further development ahead."
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Red Carnation Hotels - part of the TTC family of brands",
+            "date_range": "Jan 2019 - Dec 2020",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Executive Assistant Manager",
+            "organization": "The Red Carnation Hotel Collection (Red Carnation Hotels)",
+            "date_range": "Jan 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Abbots Bromley School for Girls",
+            "degree_or_field": "High School, A-Levels include: Business Studies, Biology, Geography and Chemistry, 240 UCAS Points",
+            "date_range": "1999 - 2013"
+          },
+          {
+            "school": "Oxford Brookes University",
+            "degree_or_field": "Bachelor's Degree, International Hospitality Management, First Class Honours",
+            "date_range": "2013 - 2017"
+          }
+        ],
+        "skills": [
+          "food",
+          "hospitality",
+          "operations",
+          "catering",
+          "sales",
+          "management",
+          "marketing",
+          "planning",
+          "administration",
+          "analysis",
+          "commercial",
+          "sales management",
+          "event management",
+          "financial services"
+        ],
+        "activity_themes": [
+          "Hospitality industry awards and recognitions",
+          "Sustainability and environmental impact reports",
+          "Charity challenges for Hospitality Action",
+          "Food and beverage events like Taste of London",
+          "Leadership appointments in luxury hotels",
+          "Career milestones within Red Carnation Hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/thomas-white-027aab15a_last-week-marked-the-end-of-my-time-with-activity-7247609222102749185-xBVO",
+          "https://www.linkedin.com/posts/ciarafitzpatrick_cateys-cateyawards-activity-7213855674655481858-djUq",
+          "https://www.linkedin.com/posts/jon-fassam-2a19a231_anybody-coming-to-taste-of-london-please-activity-7206678950507360258-v2ex",
+          "https://www.linkedin.com/posts/roberta-cherchi-052b2aa2_summer-challenge-2024-activity-7206403837383901184-xDxc",
+          "https://www.linkedin.com/posts/andrew-muir-40ba3193_acornawards-thecaterer-activity-7206642549527097346-_OVM",
+          "https://www.linkedin.com/posts/the-ritz-london_we-are-thrilled-to-announce-that-our-executive-activity-7205856250306117633-zyrx",
+          "https://www.linkedin.com/posts/redcarnationhotels_worldenvironmentday-maketravelmatter-climateaction-activity-7204157530808225792-Oo8H",
+          "https://www.linkedin.com/posts/redcarnationhotels_hospitalityaction-hospitalityaction-redcarnationhotels-activity-7204778542662873088-Sfed"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Isabelle Thomas",
       "title": "Press Officer",
       "company": "Red Carnation Hotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/isabelle-thomas-b3243bb3",
       "email": "ithomas@rchmail.com",
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -402,7 +855,152 @@
           "source_type": "official_site",
           "quote_or_fact": "Contact Isabelle Thomas for all press enquiries across our hotel collection ... Email: ithomas@rchmail.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/isabelle-thomas-b3243bb3",
+        "display_name": "Isabelle Thomas",
+        "headline": "Public Relations Director at Red Carnation Hotels",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 12 years",
+        "experience": [
+          {
+            "title": "Social Media Manager",
+            "organization": "MayThomas",
+            "date_range": "Sep 2014 - Sep 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Online English Tutor",
+            "organization": "TutorTutor",
+            "date_range": "Sep 2014 - Jul 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Hospitality",
+            "organization": "Wimbledon - The All England Lawn Tennis Club (Championships) Limited",
+            "date_range": "Jun 2015 - Jul 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Internship",
+            "organization": "Four bgb",
+            "date_range": "Jul 2015 - Aug 2015",
+            "location": "Four Communications, 20 St Thomas Street, London, SE1 9BF",
+            "description": null
+          },
+          {
+            "title": "Events Manager",
+            "organization": "Her Campus Media",
+            "date_range": "Sep 2015 - Jul 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Graduate Trainee",
+            "organization": "Four Communications",
+            "date_range": "Sep 2016 - Aug 2017",
+            "location": "20 St Thomas Street, London, SE1 9BF",
+            "description": null
+          },
+          {
+            "title": "Account Executive",
+            "organization": "Four Communications",
+            "date_range": "Aug 2017 - Nov 2017",
+            "location": "20 St Thomas St, London SE1 9BF",
+            "description": null
+          },
+          {
+            "title": "Senior Account Executive",
+            "organization": "Four Communications",
+            "date_range": "Nov 2017 - May 2018",
+            "location": "20 St Thomas St, London SE1 9BF",
+            "description": null
+          },
+          {
+            "title": "Account Manager",
+            "organization": "Four Communications",
+            "date_range": "Jun 2018 - Sep 2018",
+            "location": "20 St Thomas Street, London, SE1 9BF",
+            "description": "Managing a variety of clients in the Property PR team including luxury London and international global agencies and retirement developers."
+          },
+          {
+            "title": "Account Manager",
+            "organization": "OPHIR PR LTD",
+            "date_range": "Sep 2018 - Feb 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Account Manager",
+            "organization": "MMGY Grifco PR",
+            "date_range": "Feb 2020 - Jul 2021",
+            "location": null,
+            "description": "Following the merger of Ophir PR and Grifco PR."
+          },
+          {
+            "title": "Account Director",
+            "organization": "MMGY Grifco PR",
+            "date_range": "Jul 2021 - May 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Account Director",
+            "organization": "MMGY Grifco PR",
+            "date_range": "May 2023 - Jan 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Public Relations Director",
+            "organization": "The Red Carnation Hotel Collection (Red Carnation Hotels)",
+            "date_range": "Jan 2025 - Present",
+            "location": "London",
+            "description": "Delighted to be handling all UK and global PR (excluding US) for Red Carnation Hotels, a collection of 17 family-owned properties around the world united by a passion to deliver warm, sincere service and generous hospitality to every guest. With hotels located in London, Dorset, Ireland, Scotland, Guernsey, Geneva, South Africa, and Botswana, the collection includes the newly opened 100 Princes Street in the heart of Edinburgh, the magnificent Ashford Castle in Ireland, the historic Milestone Hotel & Residences in London, the iconic Oyster Box in South Africa and the breathtaking Xigera Safari Lodge in Botswana's Okavango Delta. Each property's distinct character reflects its unique location, brought to life by the passion and dedication of its incredible team. https://redcarnationhotels.com/"
+          }
+        ],
+        "education": [
+          {
+            "school": "Benenden School",
+            "degree_or_field": "A Levels: English (A*), Religious Studies (A*), Classical Civilisation (A) AS Levels: History (A) GCSEs: 7A*s, 2As",
+            "date_range": "2008 - 2013"
+          },
+          {
+            "school": "University of Bristol",
+            "degree_or_field": "Bachelor’s Degree, English Literature, Completed my degree with a high 2.1 - Dissertation thesis explored the social, legal and economic impact of prostituion in 16th and 17th drama and the effect it still has in society today.",
+            "date_range": "2013 - 2016"
+          }
+        ],
+        "skills": [
+          "director",
+          "pr",
+          "hotels",
+          "hospitality",
+          "africa",
+          "hotel",
+          "property",
+          "luxury",
+          "retirement",
+          "public relations",
+          "social media"
+        ],
+        "activity_themes": [
+          "Luxury hospitality awards and recognitions",
+          "Career promotions in PR, media and publishing",
+          "Red Carnation Hotels team updates and transitions",
+          "Luxury travel sector news and appointments",
+          "Leadership conferences in hospitality",
+          "PR industry reflections and achievements"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/isabelle-thomas-b3243bb3"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Serdal Hassan",
@@ -431,7 +1029,7 @@
       "full_name": "Katia De Luca",
       "title": "Front Office Manager",
       "company": "The Milestone Hotel & Residences",
-      "linkedin_url": "https://uk.linkedin.com/in/katia-de-luca-7605431a3",
+      "linkedin_url": "https://www.linkedin.com/in/katia-de-luca-7605431a3",
       "email": null,
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -453,13 +1051,95 @@
           "source_type": "official_site",
           "quote_or_fact": "guestservices@milestonehotel.com (Guest Services team)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/katia-de-luca-7605431a3",
+        "display_name": "Katia De Luca",
+        "headline": "Front Office Manager, The Milestone Hotel & Residencies",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 7 years and 9 months",
+        "experience": [
+          {
+            "title": "Front Office Receptionist",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Jan 2018 - Dec 2018",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Desk Receptionist",
+            "organization": "Est Hotel Santa Cesarea Terme",
+            "date_range": "Feb 2018 - Oct 2018",
+            "location": "Italy",
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Front Office Supervisor",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Jan 2019 - Aug 2021",
+            "location": null,
+            "description": "Nominated Best Employee of Year 2019\nDepartment: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Guest Relations Executive",
+            "organization": "The Ned",
+            "date_range": "Aug 2021 - Oct 2021",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Guest Relations Manager",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Oct 2021 - Sep 2023",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "St. Ermin's Hotel - Autograph Collection",
+            "date_range": "Sep 2023 - Jun 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The Milestone Hotel & Residences - part of The Red Carnation Hotel Collection",
+            "date_range": "Jun 2025 - Present",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Liceo Classico Statale \"F. Capece\"",
+            "degree_or_field": "Linguistico Internazionale",
+            "date_range": "2010 - 2015"
+          }
+        ],
+        "skills": [
+          "front office"
+        ],
+        "activity_themes": [
+          "AICR hospitality industry events",
+          "Team appreciation in Red Carnation hotels",
+          "Professional holiday greetings",
+          "Boutique hotelier roundtable discussions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/tobiascornet-therightbalance_im-excited-to-take-part-in-the-aicr-experience-activity-7414952677740306432-1IXV",
+          "https://www.linkedin.com/posts/lizmcgivern_careers-hospitality-hotels-activity-7407846012188504064-4KBj",
+          "https://www.linkedin.com/posts/philisiwe-gumede-bb43a429_merry-christmas-all-activity-7409862987358035969-FK8x",
+          "https://www.linkedin.com/posts/jing-xinchen-li-4a8601b_boutique-hotelier-x-tradelinens-roundtable-activity-7398803663382552576-wiw1"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ciara Fitzpatrick",
       "title": "Marketing Manager",
       "company": "Red Carnation Hotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/ciarafitzpatrick",
       "email": null,
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -481,7 +1161,35 @@
           "source_type": "news",
           "quote_or_fact": "Ciara Fitzpatrick, Marketing Manager at Red Carnation Hotels"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ciarafitzpatrick",
+        "display_name": "Ciara F.",
+        "headline": "Global B2B Marketing Manager Red Carnation Hotels | Marketing, Sustainability, Employee Advocacy",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 3 years and 10 months",
+        "experience": [
+          {
+            "title": "B2B Marketing Manager",
+            "organization": "The Red Carnation Hotel Collection (Red Carnation Hotels)",
+            "date_range": "Apr 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "b2b",
+          "marketing",
+          "b2b marketing"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/ciarafitzpatrick"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Nora Szőllősi",
@@ -510,7 +1218,7 @@
       "full_name": "Tzveta Ivanova",
       "title": "Senior Executive Manager, Housekeeping",
       "company": "The Milestone Hotel & Residences",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/tzveta-ivanova-73370838",
       "email": "tivanova@milestonehotel.com",
       "email2": null,
       "phone": "+44 20 7917 1000",
@@ -527,7 +1235,118 @@
           "source_type": "official_site",
           "quote_or_fact": "Senior Executive Manager, Housekeeping tivanova@milestonehotel.com."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/tzveta-ivanova-73370838",
+        "display_name": "Tzveta Ivanova",
+        "headline": "Senior Executive Manager Housekeeping services  at The Milestone Hotel and Residences",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced Executive Housekeeper with a demonstrated history of working in the hospitality industry. Skilled in Operations Management, Hospitality Industry, Management, Payroll, and Recruiting. Strong operations professional with a Bachelor's degree focused in music and piano from Academy of Art University,Plovdiv.\n\nTotal Experience: 30 years and 11 months",
+        "experience": [
+          {
+            "title": "Manager Cashier",
+            "organization": "Bingo Iberia, Plovdiv Bulgaria",
+            "date_range": "Jan 1994 - Jan 1999",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Housekeeper",
+            "organization": "Workbusters",
+            "date_range": "Jan 1999 - Jan 2003",
+            "location": null,
+            "description": "Department: Trades • Level: Specialist"
+          },
+          {
+            "title": "Floor Supervisor",
+            "organization": "The Hilton Hotel",
+            "date_range": "Jan 2004 - Jan 2006",
+            "location": null,
+            "description": "Responsible for maintaining the cleanliness and supply of all allocated areas to the standard set by the Hilton Hotel. Ensured that maintenance issues were reported and followed up promptly and correctly. Responsible for office administration in accordance with departmental procedures. Responsible for the supervision and primary discipline of staff of all allocated areas, to cooperate with other departments as directed. Managed Health & Safety standards and COSHH. As TBS trainer I did on the job training and assessment of the standards within the department and liaised with the HR department regarding training needs. Finished the “Hilton University's Becoming a Manager” Involved in Refurbishment. Department: Operations • Level: Specialist"
+          },
+          {
+            "title": "Assistant Executive Housekeeper",
+            "organization": "The Marriot Park Lane Hotel",
+            "date_range": "Mar 2006 - Oct 2008",
+            "location": null,
+            "description": "Assisted in the direction and management of the cleaning and maintenance of the hotel bedrooms and public areas designated to the Housekeeping Department (40-50 members of staff) achieving five star standards in both guest service and cleanliness and maintaining the fabric of the building. Responsible for all the training for staff in the Housekeeping Department. Responsible for managing payroll; attending and conducting meetings as required, interviewing new employees and in general fully assisting the Executive Housekeeper in every departmental aspect. Deputised for the Executive Housekeeper in her absence. Attended all 15 modules of Marriot's Essential skills training; Dirt School. Won the Leader of the Year award in 2007. Involved in Refurbishment. Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Executive Head Housekeeper",
+            "organization": "The Milestone Hotel & Residences - part of The Red Carnation Hotel Collection",
+            "date_range": "Oct 2008 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Responsible for the operational and strategic management of the Housekeeping department(40+ members of staff) including recruitment and selection, training and development, performance management, payroll and cost management, budget setting and forecasting. • Attended a variety of management training courses: Appraisals Skills, H&amp;S and Finance for RCH Managers; Managing People &amp; Performance; Recruitment &amp; Selection; Fire Marshall. • Won Manager of the Quarter and Manager of the year award few times during my tenure. • Won Red Carnation Housekeeper of the Year Award 2010. • Improved HK standards to an average of 98.1% on Mystery shopper results throughout the years. • Achieved several times a 100% AA Inspection. • Nominated for Catey Awards 2011 and shortlisted for AA Awards 2012 and 2014; nominated for Housekeeper of the year AA awards 2017 • Introduced several new room check standards and created SOP`s • Made several significant savings on my cost lines and POR`s (in guest and cleaning supplies, contract cleaning) without compromising standards. • Involved regularly in many refurbishments • Won Excellence by an Operations/Line Manager 2012 in HR Hospitality awards • Won Best Housekeeping Team Initiative Award 2016 – Springboard 2016 awards for Excellence • Won AA Housekeeper of 2017-2018 • Won Housekeeper of the Year 2019 CATEYS 2019 • Part of the Executive Team at the Milestone and chairing the regional Housekeeping and Maintenance meetings for Red Carnation Company • Overseeing &amp; mentoring both Guernsey RCH properties – Duke of Richmond and Old Government House since 2018 • Contributing to achieving 5 star FORBES, awarded in February 2020. Department: Operations • Level: Head"
+          },
+          {
+            "title": "Senior Executive Manager Housekeeping Services",
+            "organization": "The Milestone Hotel & Residences - part of The Red Carnation Hotel Collection",
+            "date_range": "Apr 2022 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Operations • Level: Senior"
+          }
+        ],
+        "education": [
+          {
+            "school": "Academy of Art University,Plovdiv, Bulgaria",
+            "degree_or_field": "Bachelor's degree focused in music and piano. Academy of Music, Art and Dancing, Bulgaria",
+            "date_range": "1992 - 1997"
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "operations management",
+          "guest service",
+          "strategic management",
+          "performance management",
+          "cost management",
+          "budget setting",
+          "office administration",
+          "hospitality",
+          "operations",
+          "management",
+          "payroll",
+          "recruiting",
+          "housekeeping",
+          "maintenance",
+          "hotel",
+          "training",
+          "interviewing",
+          "recruitment",
+          "budget",
+          "forecasting",
+          "appraisals",
+          "finance",
+          "inspection",
+          "sop",
+          "refurbishments",
+          "hr",
+          "mentoring",
+          "administration",
+          "supervision",
+          "discipline",
+          "health",
+          "safety",
+          "trainer",
+          "assessment"
+        ],
+        "activity_themes": [
+          "Supporting Hospitality Action charity events",
+          "Walk for Wellbeing fundraising and awareness",
+          "Community service through hotel kitchen initiatives",
+          "Helping others in need via Refettorio Felix"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/tzveta-ivanova-73370838",
+          "https://www.linkedin.com/posts/tzveta-ivanova-73370838_im-very-proud-to-say-hospitality-action-activity-7385742323625922560-AlAJ",
+          "https://www.linkedin.com/posts/tzveta-ivanova-73370838_walk-for-wellbeing-2025-london-activity-7385283105206747136-8HrZ",
+          "https://www.linkedin.com/posts/tzveta-ivanova-73370838_tzveta-ivanova-activity-7383044498043375616-_uBc",
+          "https://www.linkedin.com/posts/tzveta-ivanova-73370838_walk-for-wellbeing-2025-london-activity-7378833661242003457-xT7k",
+          "https://www.linkedin.com/posts/tzveta-ivanova-73370838_helpingothers-activity-7377239309550239744-srbe"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Daniel Putz",
@@ -602,7 +1421,7 @@
       "full_name": "Liz McGivern",
       "title": "Vice President People & Culture",
       "company": "Red Carnation Hotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/lizmcgivern",
       "email": null,
       "email2": null,
       "phone": "+44 20 7963 0706",
@@ -624,7 +1443,76 @@
           "source_type": "official_site",
           "quote_or_fact": "People & Culture Telephone: +44 20 7963 0706 Email: contactpandc@rchmail.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lizmcgivern",
+        "display_name": "Liz McGivern Assoc CIPD FIH",
+        "headline": "Vice President People & Culture at Red Carnation Hotels",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Hard working, dedicated and passionate about recruiting and retaining the talent within our hotels (and the industry). Also leading by example and inspiring people to do the best job they are capable of. I work hard to ensure we are a pro-active, involved People & Culture and Learning & Development department influencing the company and its people on a worldwide basis. I have a brilliant team in department in the UK and globally now and I am very proud of them all.",
+        "experience": [
+          {
+            "title": "Regional Training Manager",
+            "organization": "Hilton Hotels",
+            "date_range": "Dec 1997 - Sep 2001",
+            "location": null,
+            "description": "Responsible for training and development for all Hilton Hotels within in the M25, previously based at the London Hilton on Park Lane as Training and Quality Manager."
+          },
+          {
+            "title": "Training And Development Manager",
+            "organization": "Red Carnation Hotels",
+            "date_range": "Sep 2001 - Mar 2006",
+            "location": "London, United Kingdom",
+            "description": "Delivered training and organised learning throughout our properties."
+          },
+          {
+            "title": "Director Of Human Resources And Training",
+            "organization": "Red Carnation Hotels",
+            "date_range": "Sep 2006 - Mar 2012",
+            "location": null,
+            "description": "Overseeing HR and Training with our Managing Director."
+          },
+          {
+            "title": "Vice President People Culture",
+            "organization": "Red Carnation Hotels",
+            "date_range": "Mar 2012 - Present",
+            "location": null,
+            "description": "Overseeing the global operation of HR and Training at all the Red Carnation Hotels' properties."
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Roehampton",
+            "degree_or_field": "Certificate in Personnel Development",
+            "date_range": "1992 - 1994"
+          }
+        ],
+        "skills": [
+          "hard working",
+          "inspiring people",
+          "human resources",
+          "recruiting",
+          "hotels",
+          "operation",
+          "hr",
+          "training",
+          "director",
+          "responsible"
+        ],
+        "activity_themes": [
+          "Celebrating hospitality industry awards and team achievements",
+          "Leadership development workshops and management programs",
+          "Global recruitment and hiring for luxury hotel roles",
+          "Building strong company culture, trust and employee inspiration",
+          "Showcasing Red Carnation Hotels events, galas and conferences",
+          "Talent nurturing, career progression and industry recognition"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/lizmcgivern"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -638,5 +1526,71 @@
     "succeeded": 0,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T22:32:00.628587+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 12,
+      "structured": 10,
+      "discovered": 8,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 18,
+        "content_pages": 12,
+        "cost_estimate": {
+          "approx_total_usd": 0.138,
+          "search_component_usd": 0.126,
+          "contents_component_usd": 0.012,
+          "counts": {
+            "search_requests": 18,
+            "content_pages": 12
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 25040,
+          "cached_prompt_text_tokens": 640,
+          "completion_tokens": 10150,
+          "reasoning_tokens": 35902,
+          "output_tokens": 0,
+          "total_tokens": 71092
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.32524,
+          "token_component_usd": 0.32524,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 25040,
+            "cached_prompt_text_tokens": 640,
+            "completion_tokens": 10150,
+            "reasoning_tokens": 35902,
+            "total_tokens_reported": 71092,
+            "output_like_tokens": 46052,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.46324
+    }
   }
 }

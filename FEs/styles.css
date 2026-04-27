@@ -1,12 +1,14 @@
 :root {
-  --bg: #040505;
-  --panel: #0c0d10;
-  --panel-soft: #111216;
-  --line: #212532;
-  --text: #f7f8fb;
-  --muted: #9fa5b5;
-  --accent: #67c7ff;
-  --accent-soft: #a4deff;
+  --bg: #0a0a0a;
+  --panel: #131313;
+  --panel-soft: #0f0f0f;
+  --line: #222;
+  --text: #e5e5e5;
+  --muted: #999;
+  --accent: #93c5fd;
+  --accent-soft: #dbeafe;
+  --yes: #14532d;
+  --no: #7f1d1d;
 }
 
 *,
@@ -22,7 +24,7 @@ body {
 }
 
 body {
-  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   color: var(--text);
   background: var(--bg);
 }
@@ -39,24 +41,55 @@ body {
 .app-header {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
   border: 1px solid var(--line);
   border-radius: 10px;
   padding: 12px 16px;
-  background: var(--panel);
-}
-
-.app-header h1 {
-  margin: 0;
-  font-size: 1.05rem;
-  font-weight: 650;
+  background: #070707;
 }
 
 .app-header p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.86rem;
+  font-size: 0.84rem;
+}
+
+.pill {
+  border: 1px solid var(--line);
+  background: #0b0b0b;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
+.ghost-btn {
+  border: 1px solid #2a2a2a;
+  background: #151515;
+  color: var(--text);
+  border-radius: 999px;
+  padding: 8px 10px;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.phone-filter-btn.active {
+  border-color: var(--yes);
+  background: #1b3d25;
+}
+
+.contact-header .ghost-btn,
+.notes-actions .ghost-btn {
+  border-color: #2f2f2f;
+}
+
+.mark-btn-done {
+  border-color: var(--yes) !important;
+  background: #1a4f29 !important;
+}
+
+.mark-btn-undo {
+  border-color: var(--no) !important;
+  background: #6a2020 !important;
 }
 
 .layout {
@@ -86,7 +119,7 @@ body {
 }
 
 .hotel-block {
-  border: 1px solid #2b2f40;
+  border: 1px solid #272727;
   border-radius: 10px;
   background: var(--panel-soft);
 }
@@ -134,7 +167,7 @@ body {
   border-radius: 8px;
   padding: 9px 10px;
   text-align: left;
-  background: #10131c;
+  background: #0f0f0f;
   color: inherit;
   cursor: pointer;
 }
@@ -144,7 +177,7 @@ body {
 }
 
 .contact-row:hover {
-  border-color: #3c465f;
+  border-color: #3a3a3a;
 }
 
 .contact-main {
@@ -169,42 +202,30 @@ body {
 
 .contact-row button {
   align-self: start;
-  padding: 4px 8px;
-  border: 1px solid #2e3446;
-  border-radius: 6px;
-  background: #151925;
+  padding: 4px 10px;
+  border: 1px solid #2f2f2f;
+  border-radius: 999px;
+  background: var(--no);
   color: var(--text);
   font-size: 0.74rem;
   cursor: pointer;
 }
 
-.contact-row.active {
-  border-color: var(--accent);
+.contact-row button.mark-pending {
+  background: var(--yes);
+  border-color: #1f6f3a;
 }
 
-.contact-row.selected {
-  opacity: 0.6;
-}
-
-.contact-row.selected .contact-name {
-  text-decoration: line-through;
-}
-
-.right-panel {
-  padding: 14px;
-  overflow: auto;
-  max-height: calc(100vh - 130px);
+.contact-row button.mark-done {
+  background: var(--no);
+  border-color: #9b2c2c;
 }
 
 .empty-state {
-  color: var(--muted);
-  border: 1px dashed var(--line);
+  color: #777;
+  border: 1px dashed #2a2a2a;
   border-radius: 8px;
   padding: 30px 16px;
-}
-
-.hidden {
-  display: none;
 }
 
 .contact-panel {
@@ -224,26 +245,36 @@ body {
   font-size: 1.1rem;
 }
 
-.muted {
-  color: var(--muted);
+.contact-row + .contact-row {
+  margin-top: 0;
 }
 
-.contact-header .ghost-btn {
-  border: 1px solid #2f3548;
-  background: #151924;
-  color: var(--text);
-  border-radius: 8px;
-  padding: 8px 10px;
-  cursor: pointer;
-  white-space: nowrap;
+.contact-row.selected {
+  opacity: 0.55;
+}
+
+.contact-row.selected .contact-name {
+  text-decoration: line-through;
+}
+
+.right-panel {
+  padding: 14px;
+  overflow: auto;
+  max-height: calc(100vh - 130px);
+}
+
+.contact-panel {
+  display: grid;
+  gap: 12px;
 }
 
 .contact-block {
-  border: 1px solid #22263a;
+  border: 1px solid #222222;
   border-radius: 8px;
   padding: 10px 12px;
   display: grid;
   gap: 8px;
+  background: #0f0f0f;
 }
 
 .contact-block h3 {
@@ -257,9 +288,9 @@ body {
   width: 100%;
   min-height: 110px;
   resize: vertical;
-  border: 1px solid #262c40;
+  border: 1px solid #262626;
   border-radius: 8px;
-  background: #0a0d16;
+  background: #0a0a0a;
   color: var(--text);
   padding: 8px 10px;
   font: inherit;
@@ -269,6 +300,13 @@ body {
   display: flex;
   justify-content: flex-end;
   gap: 8px;
+}
+
+.contact-row.active {
+  border-color: var(--accent);
+}
+.muted {
+  color: var(--muted);
 }
 
 #evidenceList {

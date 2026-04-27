@@ -4,7 +4,7 @@ from pathlib import Path
 from lead_aggregates.store import AggregatesStore
 
 
-def test_rebuild_all_writes_four_files(tmp_path: Path) -> None:
+def test_rebuild_all_writes_five_files(tmp_path: Path) -> None:
     root = tmp_path
     jd = root / "jsons"
     jd.mkdir(parents=True)
@@ -35,6 +35,7 @@ def test_rebuild_all_writes_four_files(tmp_path: Path) -> None:
     assert (fd / "all_enriched_leads.json").exists()
     assert (fd / "intimate_phone_contacts.json").exists()
     assert (fd / "intimate_email_contacts.json").exists()
+    assert (fd / "intimate_unified_contacts.json").exists()
     assert (fd / "url_registry.json").exists()
     master = json.loads((fd / "all_enriched_leads.json").read_text(encoding="utf-8"))
     assert master["count"] == 1

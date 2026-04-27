@@ -133,7 +133,7 @@
       "full_name": "Henrik Muehle",
       "title": "Managing Director",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/henrik-muehle-1519891a",
       "email": "henrik.muehle@flemings.co.uk",
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -161,13 +161,131 @@
           "quote_or_fact": "Henrik Muehle, general manager at Flemings Mayfair Hotel"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/henrik-muehle-1519891a",
+        "display_name": "Henrik Muehle",
+        "headline": "Managing Director at Flemings Mayfair Hotel & Director Hotels Veladail Ltd - Flemings Mayfair, Down Hall Hotel, ByDistinction",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 35 years and 9 months",
+        "experience": [
+          {
+            "title": "Apprentice Hotelfachman",
+            "organization": "Sporthotel Alpina Garmisch-Partenkirchen",
+            "date_range": "Jan 1988 - Jan 1990",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Office",
+            "organization": "Hotel im Wasserturm",
+            "date_range": "Jan 1990 - Jul 1991",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Management Trainee",
+            "organization": "Impérial Palace Annecy",
+            "date_range": "Aug 1991 - Aug 1992",
+            "location": null,
+            "description": "Department: Administrative • Level: Intern"
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "Millennium & Copthorne Hotels",
+            "date_range": "Aug 1992 - Aug 1996",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Crowne Plaza Republique Paris",
+            "date_range": "Aug 1996 - Jan 1998",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Hotel L'Horizon Jersey",
+            "date_range": "Jan 1998 - Jan 2000",
+            "location": null,
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Deputy General Manager",
+            "organization": "Tylney Hall Hotel",
+            "date_range": "Jan 2000 - Jul 2002",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Capital Hotel & The Levin Hotel",
+            "date_range": "Jan 2002 - May 2009",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Managing Director",
+            "organization": "St. James's Hotel and Club",
+            "date_range": "Jun 2009 - Aug 2014",
+            "location": null,
+            "description": "Department: C-Suite • Level: Director"
+          },
+          {
+            "title": "Managing Director",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Aug 2014 - Present",
+            "location": "London, United Kingdom",
+            "description": "Department: C-Suite • Level: Director\nCompany: 51-200 employees • Founded 1851 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Advisory Board Executive Board Director 2012 Until 2022 - Since 2023 Regional Ambassador",
+            "organization": "Small Luxury Hotels of the World",
+            "date_range": "Nov 2012 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Trustee Fundraiser Volunteer For A London Based Homeless Charity",
+            "organization": "CHARITY BEGINS AT HOME",
+            "date_range": "Mar 2020 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Shareholder",
+            "organization": "ByDistinction",
+            "date_range": "Sep 2023 - Present",
+            "location": null,
+            "description": "Department: C-Suite • Level: Owner"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "front office",
+          "director",
+          "charity",
+          "operations",
+          "management"
+        ],
+        "activity_themes": [
+          "Luxury hotel appointments and new openings",
+          "Wellness performance in boutique hotels",
+          "Charity support for homeless causes",
+          "Hospitality networking events",
+          "Sustainability and community awards",
+          "Team expansions in luxury hospitality"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Katarzyna Pytt",
       "title": "Reservations & Revenue Manager",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/katarzyna-pytt-3248a912a",
+      "linkedin_url": "https://www.linkedin.com/in/katarzyna-pytt-3248a912a",
       "email": null,
       "email2": null,
       "phone": "+44 20 7016 5647",
@@ -195,13 +313,127 @@
           "quote_or_fact": "Reservations & Revenue Manager at Flemings Mayfair Hotel"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/katarzyna-pytt-3248a912a",
+        "display_name": "Katarzyna Pytt",
+        "headline": "Reservations & Revenue Manager",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 16 years and 1 month",
+        "experience": [
+          {
+            "title": "Executive Assistant",
+            "organization": "Gwarant-Security Janusz Pytt",
+            "date_range": "Jul 2009 - Jan 2010",
+            "location": "Warsaw, Masovian District, Poland",
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Human Resources Coordinator",
+            "organization": "Gwarant Sp. z o.o.",
+            "date_range": "Feb 2010 - Sep 2013",
+            "location": "Warsaw, Masovian District, Poland",
+            "description": "Department: Human Resources • Level: Specialist"
+          },
+          {
+            "title": "Financial Services Advisor",
+            "organization": "ING",
+            "date_range": "Sep 2010 - Sep 2013",
+            "location": "Warsaw, Masovian District, Poland",
+            "description": "Company: 10,001+ employees • Public Company • Banking\nDepartment: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Hostess",
+            "organization": "Hilton London Kensington",
+            "date_range": "Nov 2013 - Aug 2018",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "F B Team Leader",
+            "organization": "Hilton London Kensington",
+            "date_range": "Sep 2018 - Dec 2018",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Senior"
+          },
+          {
+            "title": "F B Supervisor",
+            "organization": "Hilton London Kensington",
+            "date_range": "Jan 2019 - Sep 2019",
+            "location": "London, United Kingdom",
+            "description": "Company: 201-500 employees • Public Company • Hospitality\n601 bedrooms, 10 meeting rooms\nDepartment: Operations • Level: Specialist"
+          },
+          {
+            "title": "F B Supervisor",
+            "organization": "The Westminster London, Curio Collection by Hilton",
+            "date_range": "Sep 2019 - Jul 2020",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 2021 • Privately Held • Hospitality\nPreviously DoubleTree Westminster by Hilton, 464 bedrooms\nDepartment: Operations • Level: Specialist"
+          },
+          {
+            "title": "Senior Call Centre Advisor",
+            "organization": "FM Cosmetics UK Ltd",
+            "date_range": "Aug 2020 - May 2022",
+            "location": "Greenford, England, UB6 8UQ",
+            "description": "Company: 10,001+ employees • Founded 2004 • Self-Employed • Wellness and Fitness Services\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "F B Supervisor (weekends)",
+            "organization": "Hilton London Kensington",
+            "date_range": "Nov 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 201-500 employees • Public Company • Hospitality\n601 bedrooms, 10 meeting rooms\nDepartment: Operations"
+          },
+          {
+            "title": "Reservations Agent",
+            "organization": "The Mandrake",
+            "date_range": "Jun 2022 - Jun 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 2017 • Privately Held • Hospitality\n33 luxurious bedrooms and suites\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Senior Reservations Revenue",
+            "organization": "The Mandrake",
+            "date_range": "Jun 2023 - Jun 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 2017 • Privately Held • Hospitality\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Reservations Revenue Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Jun 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1851 • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Wyższa Szkoła Zarządzania Personelem w Warszawie",
+            "degree_or_field": "Bachelor's degree, Sociology with HR Management",
+            "date_range": "2010 - 2013"
+          }
+        ],
+        "skills": [
+          "reservations",
+          "human resources",
+          "financial services"
+        ],
+        "activity_themes": [
+          "Hospitality revenue management and Global Revenue Forum events",
+          "Hotel leadership, recruitment and career advice",
+          "Hospitality technology and communication tools",
+          "Business networking and chamber events",
+          "Team performance, achievements and talent development in hospitality"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Colin Exton",
       "title": "Director of Sales & Marketing",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/colinexton",
+      "linkedin_url": "https://www.linkedin.com/in/colinexton",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -229,7 +461,139 @@
           "quote_or_fact": "reservations@flemings.co.uk for booking related outreach"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/colinexton",
+        "display_name": "Colin Exton",
+        "headline": "Director Of Sales Marketing at Flemings Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Twenty years’ successful experience in hotel management, sales, Marketing & PR in both offline and online markets. Specialist knowledge of key London and US markets in fashion, media, film/tv, music. Extensive contacts in the travel, hotel and media industry. Effective management of online channels. Excellent account/relationship management skills in both online and offline markets. Proven sales in both online and offline markets",
+        "experience": [
+          {
+            "title": "Deputy General Manager",
+            "organization": "Number Sixteen",
+            "date_range": "Jul 1989 - Jul 1991",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The Gore Hotel",
+            "date_range": "Jan 1991 - Jan 1994",
+            "location": null,
+            "description": "Responsible for the daily operations of the hotel ensuring staff and standards met with clients' expectations. Key responsibilities: Supervising all standards and quality of service throughout the hotel Managing all front-desk operations Managing reservations Control of the sales ledger including aged debtors Commission control Database management Staff recruitment and training"
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Gore Hotel",
+            "date_range": "Jul 1991 - Jun 2002",
+            "location": null,
+            "description": "Complete control of the seamless running of this internationally renowned luxury hotel in Kensington with two restaurants, a bar and meeting facilities. Awarded: *Top ten hotels in the world 1999 - Courvoisier Book of the Best *5-star 100/100 rating 2000 - The Unofficial Guide to London *Hotel of the Year 2001 – Which Hotel Guide"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "The Gore Hotel",
+            "date_range": "Jan 1994 - Jan 1997",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director",
+            "organization": "European Encounters",
+            "date_range": "Jun 2001 - Jun 2005",
+            "location": null,
+            "description": "Established my own management consultancy to provide sales, marketing and PR representation for independent contemporary and luxury hotels located in the US and UK as well as providing travel planning solutions, inc MICE, for media, corporate, fashion and entertainment industry clients. Hotels Represented inc: London - The Gore, Hazlitt's, The Rookery, myhotel Bloomsbury, myhotel Chelsea New York - Hotel QT, The Mercer Los Angeles - Chateau Marmont, Standard Hollywood, Downtown Standard, The Rosevelt Miami - The Raleigh, Standard Miami"
+          },
+          {
+            "title": "Director",
+            "organization": "Hotels London Ltd",
+            "date_range": "Jun 2005 - Mar 2009",
+            "location": null,
+            "description": "Hotels London was one of the UK's premier third party sites specialising in online sales and marketing for London hotels in addition to MICE and bespoke coprporate programmes."
+          },
+          {
+            "title": "European Sales Director",
+            "organization": "Hotels TV",
+            "date_range": "Mar 2009 - Sep 2009",
+            "location": null,
+            "description": "Hotels.tv produces online-ready videos for hotels worldwide, incorporating marketing and distribution to third party, video sharing and social networking sites."
+          },
+          {
+            "title": "Food Beverage Manager",
+            "organization": "Flemings Hotel Mayfair",
+            "date_range": "Feb 2010 - Sep 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Flemings Hotel",
+            "date_range": "Sep 2010 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel",
+          "management",
+          "sales",
+          "marketing",
+          "pr",
+          "fashion",
+          "film",
+          "director",
+          "responsible",
+          "operations",
+          "supervising",
+          "reservations",
+          "database",
+          "recruitment",
+          "training",
+          "food",
+          "hotels",
+          "consultancy",
+          "luxury",
+          "planning",
+          "entertainment",
+          "qt",
+          "less",
+          "running",
+          "restaurants",
+          "distribution",
+          "networking",
+          "hotel management",
+          "relationship management",
+          "management skills",
+          "front office",
+          "database management",
+          "recruitment training",
+          "online sales",
+          "travel planning",
+          "entertainment industry",
+          "social networking"
+        ],
+        "activity_themes": [
+          "Fashion editorials and celebrity photoshoots at Flemings Mayfair",
+          "Luxury hotel features in international magazines",
+          "Michelin Key awards and hospitality recognitions",
+          "High-profile guest visits including Hillary Clinton",
+          "Travel + Leisure hotel rankings and awards",
+          "Charity events such as CEO Sleepout UK",
+          "Festive decorations and seasonal hotel promotions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/antje-achter-zens-44431b55_london-calling-instyle-germany-fashion-editorial-activity-7421932059440373760-ybmk",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_styling-fashion-hair-activity-7422599146198597632-i4Nv",
+          "https://www.linkedin.com/posts/flemings-hotel-mayfair_flemingsmayfair-ormermayfair-hospitalitywithpurpose-activity-7406271820443779072-81aC",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_travel-london-hotelier-activity-7404818064007069696-fVLl",
+          "https://www.linkedin.com/posts/flemings-hotel-mayfair_flemingsmayfair-luxuryhotels-london-activity-7403764981537611776-lx83",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_hotels-london-hotelier-activity-7401903423492886528-hUdi",
+          "https://www.linkedin.com/posts/flemings-hotel-mayfair_flemingsmayfair-luxuryhotels-london-activity-7403744079978639360-EGfQ",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_flemings-mayfair-hotel-activity-7403739591050018816-mn82"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Karina Wong",
@@ -264,7 +628,7 @@
       "full_name": "Luke Jeffery",
       "title": "Ormer Reservations and Events Manager",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/luke-jeffery-745312375",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -287,13 +651,74 @@
           "quote_or_fact": "ormerrestaurant@flemings.co.uk; Reservations : 0207 016 5601"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/luke-jeffery-745312375",
+        "display_name": "Luke Jeffery",
+        "headline": "Meetings Event Manager At Flemings Ormer Mayfair at Flemings Mayfair Hotel",
+        "location": "City Of London, England, United Kingdom (GB)",
+        "about": "Total Experience: 8 years and 10 months",
+        "experience": [
+          {
+            "title": "Reception Supervisor",
+            "organization": "Oxford and Cambridge Club",
+            "date_range": "Jun 2016 - Mar 2020 • 3 years and 9 months",
+            "location": null,
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Emergency Dispatcher",
+            "organization": "NHS England",
+            "date_range": "Oct 2020 - Apr 2021 • 6 months",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Salon Manager",
+            "organization": "HARI's",
+            "date_range": "Apr 2021 - Jan 2023 • 1 year and 9 months",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Guest Services Manager",
+            "organization": "Dorsett Hospitality International",
+            "date_range": "Mar 2023 - May 2024 • 1 year and 2 months",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Meetings Event Manager At Flemings Ormer Mayfair",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Jun 2024 - Present • 1 year and 7 months",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Edge Hill University",
+            "degree_or_field": "Bachelor of Arts - BA Dance",
+            "date_range": "2013 - 2016 • 3 years"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [
+          "Hospitality worker skills compared to executive roles",
+          "Culinary innovation, vendor relationships and winery tours",
+          "Challenges in hospitality recruitment and HR",
+          "Luxury hotel appointments and concierge roles",
+          "Hotel quality awards and team excellence recognitions"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Florian Schaible",
       "title": "Austria, Germany, Switzerland Sales Contact",
       "company": "FL Hospitality (Flemings partner)",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/florian-schaible-90932413",
       "email": "fs@flospitality.com",
       "email2": null,
       "phone": "+43 664 881 968 75",
@@ -311,13 +736,78 @@
           "quote_or_fact": "Austria, Germany, Switzerland | Mr Florian Schaible | email: fs@flospitality.com | tel: +43 664 881 968 75"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/florian-schaible-90932413",
+        "display_name": "Florian Schaible",
+        "headline": "Self-Employd Managing Owner at flospitality",
+        "location": "Klagenfurt-Villach Area (AT)",
+        "about": "Total Experience: 20 years and 11 months",
+        "experience": [
+          {
+            "title": "Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Apr 2004 - Apr 2009",
+            "location": "Four Seasons Resort Aviara, North San Diego, CA, USA; Four Seasons Hotel Toronto, ON, Canada; Four Seasons Resort Nevis, West Indies",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "aenea designhotel",
+            "date_range": "Jan 2010 - Sep 2012",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Executive Assistant Manager",
+            "organization": "Tschuggen Grand Hotel",
+            "date_range": "Oct 2012 - Nov 2014",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Managing Owner",
+            "organization": "flospitality",
+            "date_range": "Nov 2014 - Present",
+            "location": "München, Bayern, Deutschland",
+            "description": "Department: C-Suite • Level: Owner"
+          }
+        ],
+        "education": [
+          {
+            "school": "Salzburger Tourismusschule Schloss Klessheim",
+            "degree_or_field": "Diploma, Hospitality Administration/Management",
+            "date_range": "1998 - 2003"
+          }
+        ],
+        "skills": [
+          "hotel"
+        ],
+        "activity_themes": [
+          "Luxury hospitality events and partner gatherings (Brunello Cucinelli, AMARA Cyprus)",
+          "flospitality international expansion and Brazil sales office",
+          "Luxury brand extensions (Maybach Ocean Club, NOT A HOTEL Japan)",
+          "Hotel openings, renovations and iconic properties (Kitzbühel, St. Moritz, La Mamounia)",
+          "Sustainability and authentic luxury experiences (Pure Life Experience 2025)"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/michelepintuspaci_flospitality-on-instagram-after-a-successful-activity-7405203634856099841-KEag",
+          "https://pt.www.linkedin.com/posts/nicolasauger_como-morei-em-florenca-e-visitei-essa-propriedade-activity-7401699627235790848-zFVi",
+          "https://www.linkedin.com/posts/janpetke_maybach-is-taking-its-signature-luxury-to-activity-7391768985689804800-kR6_",
+          "https://www.linkedin.com/posts/michelepintuspaci_a-wonderful-couple-of-days-in-cyprus-staying-activity-7395058109519593472-jbeb",
+          "https://pt.www.linkedin.com/posts/embark-beyond-brasil_tivemos-o-prazer-de-receber-flospitality-activity-7390050059146481664-XUfP",
+          "https://www.linkedin.com/posts/grace-hotel-la-margna-st-moritz_gracelamargna-gracestmoritz-stmoritz-activity-7381335522775834624-TZ91",
+          "https://www.linkedin.com/posts/pierre-jochem-6391a714_since-its-debut-la-mamounia-has-embodied-activity-7370858654255845376-HVTB",
+          "https://www.linkedin.com/posts/cpp-luxury-com_notahotel-yakushima-japan-activity-7374330079134281728-81dw"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Craig Farrell",
       "title": "Australia Sales Contact",
       "company": "La Collection / Flemings partner",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/craig-farrell-33746949",
       "email": "craig@lacollection.travel",
       "email2": null,
       "phone": "+61 437 788 660",
@@ -335,13 +825,134 @@
           "quote_or_fact": "Australia | Mr Craig Farrell | email: craig@lacollection.travel | tel: +61 437 788 660"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/craig-farrell-33746949",
+        "display_name": "Craig Farrell",
+        "headline": "Representing Luxury Properties and Unique Experiences Worldwide",
+        "location": "Greater Melbourne Area (AU)",
+        "about": "Total Experience: 18 years and 11 months",
+        "experience": [
+          {
+            "title": "Councillor",
+            "organization": "City of Greater Geelong",
+            "date_range": "Jan 2000 - Jan 2004",
+            "location": null,
+            "description": "Elected representitive for Buckley Ward Sport and Recreation Portfolio holder"
+          },
+          {
+            "title": "Travel Consultant",
+            "organization": "Showgroup",
+            "date_range": "Jan 2001 - Jan 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Trainer",
+            "organization": "Jetset Training College",
+            "date_range": "Jan 2003 - Nov 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director",
+            "organization": "Jetset Essendon",
+            "date_range": "Jan 2007 - Jan 2009",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Development Manager Victoria",
+            "organization": "Scenic - Luxury Cruises & Tours",
+            "date_range": "Mar 2013 - Mar 2015",
+            "location": "Victoria Area, Australia",
+            "description": null
+          },
+          {
+            "title": "Business Development Manager VIC TAS",
+            "organization": "Silversea Cruises",
+            "date_range": "Mar 2015 - Dec 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "National Business Development Manager",
+            "organization": "PONANT",
+            "date_range": "Jan 2017 - Apr 2022",
+            "location": "Melbourne, Australia",
+            "description": null
+          },
+          {
+            "title": "Co-Founder And Director Of Sales",
+            "organization": "La Collection",
+            "date_range": "May 2022 - Present",
+            "location": "Melbourne, Victoria, Australia",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Lea Seguier",
+            "date_range": "May 2022 - Apr 2023",
+            "location": "Melbourne, Victoria, Australia",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Jetset Training College",
+            "degree_or_field": "Certificate III in Travel, Retail Sales",
+            "date_range": "1997 - 1997"
+          },
+          {
+            "school": "ACT",
+            "degree_or_field": "Certificate IV in Training and Assessment",
+            "date_range": "2001 - 2001"
+          },
+          {
+            "school": "Jetset Training College",
+            "degree_or_field": "Certificate IV in Travel and Tourism",
+            "date_range": "2006 - 2006"
+          },
+          {
+            "school": "Jetset Training College",
+            "degree_or_field": "Advanced Diploma of Travel & Tourism, Marketing/Marketing Management, General",
+            "date_range": "2012 - 2013"
+          }
+        ],
+        "skills": [
+          "director",
+          "sales",
+          "trainer",
+          "sport",
+          "recreation",
+          "business development"
+        ],
+        "activity_themes": [
+          "Luxury expedition cruises and unique destinations in Indonesia and Papua New Guinea",
+          "Australian luxury travel market and personal experiences",
+          "Travel industry networking, appointments, and community events",
+          "Cultural festivals and immersive local traditions like Pasola in Sumba",
+          "Meaningful and community-focused luxury accommodations",
+          "Partnerships and trust-building in the luxury travel sector"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/leon-burman-20b1a311_marriottbonvoy-activity-7423835597024227328-_Uyl",
+          "https://www.linkedin.com/posts/karryon_togetherintravel-activity-7422750072699957248-x0CT",
+          "https://www.linkedin.com/posts/eva-saringala-97388b20_communityinresidence-modernistexperience-activity-7420493734343172096-AIJ6",
+          "https://www.linkedin.com/posts/michele-duncan-8046b1a1_smartflyer-australia-names-duncan-as-director-activity-7422463747937554432-DE4R",
+          "https://www.linkedin.com/posts/cap-karoso_pasola-festival-sumba-activity-7422213257073123328-Y2SF",
+          "https://www.linkedin.com/posts/pearl-expeditions-cruises_pearlexpeditions-papuanewguinea-expeditiontravel-activity-7422186734312148992-_-r6",
+          "https://www.linkedin.com/posts/chris-perkins-marketingexpert_i-told-you-it-was-a-work-trip-activity-7422123758326300673-oVOz",
+          "https://www.linkedin.com/posts/reece-farmilo-abb9b413_australiantravellers-outandabouttravel-activity-7421780429751578625-7T_a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Alexandru Ceban",
       "title": "Front Office Manager",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/alexandru-ceban-249258106",
+      "linkedin_url": "https://www.linkedin.com/in/alexandru-ceban-249258106",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -364,13 +975,120 @@
           "quote_or_fact": "Front Office Manager or similar leadership at Flemings Mayfair Hotel"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/alexandru-ceban-249258106",
+        "display_name": "Alexandru Ceban",
+        "headline": "Front Of House Manager at Flemings Mayfair Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A standards driven and detail-orientated Leader with accentuated ability to organize and plan well into the future. A candidate of the highest professional caliber who is hungry for a challenge and keen to make a real difference,proactively seeks improvements in every area of a company’s operations and someone who is never satisfied with the status quo. A forward thinker who can coach others to success. On a personal level a confident, professional and highly motivated individual who has a real flair for organization and an ability to inspire and lead others.\n\nTotal Experience: 14 years and 2 months",
+        "experience": [
+          {
+            "title": "Waiter",
+            "organization": "Ikos Resorts",
+            "date_range": "May 2011 - Dec 2013",
+            "location": "Greece",
+            "description": null
+          },
+          {
+            "title": "Head Waiter",
+            "organization": "D&D London",
+            "date_range": "May 2014 - Oct 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "The Westbury Hotel",
+            "date_range": "Oct 2015 - Jun 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Receptionist",
+            "organization": "The Connaught",
+            "date_range": "Jul 2017 - Jul 2018",
+            "location": "16 Carlos Place",
+            "description": null
+          },
+          {
+            "title": "Reception Supervisor",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Jun 2018 - Dec 2018",
+            "location": "London, Greater London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reception Supervisor",
+            "organization": "The Goring",
+            "date_range": "Dec 2018 - Jul 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Duty Manager",
+            "organization": "One Aldwych",
+            "date_range": "Jul 2021 - Apr 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reception Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Apr 2022 - Sep 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Sep 2022 - Nov 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Universitatea de Stat din Tiraspol",
+            "degree_or_field": "Bachelor's degree, Tourism and Travel Services Management",
+            "date_range": "2011 - 2014"
+          },
+          {
+            "school": "NVQ",
+            "degree_or_field": "Level 2, Business Administration and Management, General, Level 2",
+            "date_range": "2016 - 2017"
+          }
+        ],
+        "skills": [
+          "front office",
+          "operations"
+        ],
+        "activity_themes": [
+          "Luxury hospitality networking",
+          "Hotel leadership and career progression",
+          "Industry events and conferences",
+          "Hospitality awards and recognitions",
+          "F&B and retail advisory",
+          "Concierge and golden keys community"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/alexandru-ceban-249258106"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ryan Alden",
       "title": "Head Concierge",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/ryan-alden-06273247",
+      "linkedin_url": "https://www.linkedin.com/in/ryan-alden-06273247",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -393,13 +1111,98 @@
           "quote_or_fact": "Head concierge at Flemings Mayfair"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ryan-alden-06273247",
+        "display_name": "Ryan Alden",
+        "headline": "Head concierge at Flemings Mayfair",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 34 years and 5 months",
+        "experience": [
+          {
+            "title": "Concierge",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "Jan 1991 - Oct 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Head Concierge",
+            "organization": "Guoman Cumberland",
+            "date_range": "Oct 2005 - Jan 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Head Concierge Westminster",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "Nov 2012 - Dec 2014",
+            "location": "Westminster London",
+            "description": "Opening the door to the political heartland of Britain. InterContinental London Westminster opens its doors in November 2012, injecting a new lease of life into an historic former government building, Queen Anne’s Chambers. In an area where politics, business and influencers come together, the hotel is situated within a few minutes' walk of Westminster Abbey, Big Ben, and the Houses of Parliament, well within the eight minute division bell. The hotel will feature 256 rooms, 7 meeting rooms and exceptional dining at Blue Boar Smokehouse and Bar. The InterContinental Westminster will be the second London hotel from the luxury brand of the InterContinental Hotels Group which also owns the budget Holiday Inn brand, boutique Indigo hotels, and the Crowne Plaza chain. The new hotel joins the existing InterContinental London Park Lane which opened in 1975 Our beautiful 5 star property opens in 2012 and I am delighted to be part of such an exciting new opening."
+          },
+          {
+            "title": "Deputy Head Concierge",
+            "organization": "Conrad St james",
+            "date_range": "Sep 2014 - Dec 2014",
+            "location": "St James westminster",
+            "description": "Conrad London St James, 256 room five star hotel, 1 restaurant, 1 bar, 1 tea lounge, 7 meeting rooms, 1 In September was part of the team that rebranded to the Conrad London St James, working with the owning company and Conrad Brand team to ensure a successful rebrand in five weeks as well as the IHG team to ensure a smooth transition. Part of the Pre-Opening team for the InterContinental that opened in November 2012, had a successful opening ,establishing the hotel in the top 30 hotels in London on Trip Advisor and a guest survey satisfaction of 87.7% average over the two years."
+          },
+          {
+            "title": "Travelling",
+            "organization": "Travelling for 3 months",
+            "date_range": "Jan 2014 - Apr 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Concierge",
+            "organization": "Melia White House",
+            "date_range": "Apr 2015 - Apr 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Head Concierge",
+            "organization": "Flemings Mayfair",
+            "date_range": "Aug 2015 - Aug 2023",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Concierge",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Aug 2023 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "government",
+          "hotel",
+          "luxury",
+          "hotels",
+          "budget",
+          "property"
+        ],
+        "activity_themes": [
+          "Charity fundraising via CEO Sleepout UK for homelessness awareness and support",
+          "Luxury London hotels featured in GQ Magazine and LaListe awards",
+          "Recognition of top restaurants and wellness growth in hospitality",
+          "Team training, development and placement experiences in concierge services",
+          "Mental health advocacy including Mind ambassador initiatives",
+          "Industry networking and support for boutique hotel collections",
+          "Personal participation in sleepout events raising over £120,000"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lorena Somera",
       "title": "Operations Manager",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/lorena-somera-868478b5",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -422,13 +1225,47 @@
           "quote_or_fact": "Special shout out to Operations Manager Lorena who really went above and beyond"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lorena-somera-868478b5",
+        "display_name": "Lorena Somera",
+        "headline": "Executive Manager at The Capital Hotel",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "My mission at work is to provide seamless service and excellent standards at all times.\nTotal Experience: 32 years and 6 months",
+        "experience": [
+          {
+            "title": "Front Desk Manager Reception Manager",
+            "organization": "Le Meridien Piccadilly London",
+            "date_range": "Jul 1993 - Jul 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Executive Manager",
+            "organization": "The Capital Hotel",
+            "date_range": "Jul 2003 - Present",
+            "location": null,
+            "description": "Responsible for managing the Hotel in the General Manager’s absence in all aspects of the daily operation.\nDepartment: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "responsible",
+          "hotel",
+          "operation"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/lorena-somera-868478b5"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Andrew Sturge",
       "title": "Head Concierge",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/andrew-sturge-ba942b15",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -451,13 +1288,111 @@
           "quote_or_fact": "Our Head Concierge and Assistant Head Concierge are part of the Golden Keys global network"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/andrew-sturge-ba942b15",
+        "display_name": "Andrew Sturge",
+        "headline": "Head Concierge at The Flemings Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 39 years and 9 months",
+        "experience": [
+          {
+            "title": "Luggage Porter Concierge",
+            "organization": "Capital Hotel",
+            "date_range": "Jun 1986 - Oct 1991",
+            "location": null,
+            "description": "This was my first job in hotels and i started as afternoon tea waiter for the summer, and i then found out there was a position as a luggage porter from Sept 86. So i did luggage porter for 2 years as was just about to leave in September 1988 when i got promoted to be a Concierge."
+          },
+          {
+            "title": "Junior Concierge",
+            "organization": "The Lanesborough Hotel",
+            "date_range": "Oct 1991 - Jun 1992",
+            "location": null,
+            "description": "I started here when the Lanesborough first opened and we where expected it to get busy but it didnt so was advised to move on to further my career."
+          },
+          {
+            "title": "Concierge",
+            "organization": "The Connaught Hotel",
+            "date_range": "Jun 1992 - Feb 1993",
+            "location": "Mayfair",
+            "description": "This role included booking Theatres, Restaurants and advising our Guests of the best restaurants around London and England. I was holding a concierge position and enjoying it when the owner David Levin came in and ask me to return to the Capital Hotel."
+          },
+          {
+            "title": "Deputy Head Concierge",
+            "organization": "Capital Hotel in Knightsbridge",
+            "date_range": "Feb 1993 - Nov 2011",
+            "location": "Knightsbridge",
+            "description": "After working here for over 17years and doing everything from booking theatre tickets, private car hires and booking restaurants to organising private itineraries and looking after the switchboard and taking room service orders. I also had to cover the porters and doorman when they where busy and help them out."
+          },
+          {
+            "title": "Treasurer",
+            "organization": "The Society of the Golden Keys of Great Britain & the Commonwealth",
+            "date_range": "Apr 2009 - Present",
+            "location": "Great Britain",
+            "description": null
+          },
+          {
+            "title": "Assistant Chief Concierge",
+            "organization": "The Landmark London",
+            "date_range": "Dec 2011 - Aug 2014",
+            "location": "Marylebone",
+            "description": "After working in small hotels it is a big challenge to work in a 300 bedroom hotel, and in charge of over 22 staff members who look up to me for guidance and direction. We have a busy desk from 07.00 to 11pm and we handle a huge diversity of requests. I am now involved with covering a Manager on Duty shift twice a month, and also i am one of the departmental trainers in which i ensure each person has 7hours training a month."
+          },
+          {
+            "title": "Head Concierge",
+            "organization": "The Flemings Hotel",
+            "date_range": "Aug 2014 - Present",
+            "location": "Mayfair",
+            "description": "After starting at the Flemings Mayfair Hotel in August 2014, I have the responsibility to help rebuild and recruit new members for the Concierge team and to help move the hotel forward in standards and service to take on the other exclusive boutique 5 star hotels in London. My daily tasks include the day to day running of the department, organising rotas, timesheets, appraisal's, interviews and sourcing new suppliers for the Hotel and helping to promote the Flemings."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sourcing",
+          "organizing",
+          "tea",
+          "came",
+          "star",
+          "booking",
+          "room",
+          "get",
+          "hotel operations",
+          "concierge",
+          "itinerary planning",
+          "switchboard",
+          "standards",
+          "advising",
+          "treasury management",
+          "training",
+          "service",
+          "management",
+          "theatre",
+          "hotels",
+          "diversity",
+          "recruiting",
+          "promotion",
+          "waiter",
+          "doorman services",
+          "interviews",
+          "room service"
+        ],
+        "activity_themes": [
+          "Les Clefs d'Or / Golden Keys society committee meetings and events",
+          "Concierge awards, mentorship and service excellence in hospitality",
+          "Luxury hotel achievements including Michelin stars",
+          "Networking and friendship within the hospitality industry",
+          "Career stories, transitions and redundancies in hotels",
+          "Educational days and young concierge development"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Trinette Lee",
       "title": "Senior Sales Manager",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/trinette-lee-a1b623140",
+      "linkedin_url": "https://www.linkedin.com/in/trinette-lee-a1b623140",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -480,13 +1415,119 @@
           "quote_or_fact": "Senior Sales Manager at Flemings Mayfair Hotel"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/trinette-lee-a1b623140",
+        "display_name": "Trinette Lee",
+        "headline": "Luxury Hotel Sales Leader | Corporate & MICE Expert | Travel Agency Partnerships | Driving Revenue Growth | London-Based",
+        "location": "United Kingdom (GB)",
+        "about": "Energetic, innovative, positive and enthusiastic person with strong commercial network & sales experience in hotel industry.\n\nTotal Experience: 9 years",
+        "experience": [
+          {
+            "title": "Account Manager Travel Trade MICE",
+            "organization": "The Langham Hong Kong",
+            "date_range": "Jul 2010 - May 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Manager Corporate Sales",
+            "organization": "Harbour Grand Hong Kong",
+            "date_range": "May 2011 - Oct 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Manager (2 Hotels)",
+            "organization": "Crowne Plaza and Holiday Inn Express Hong Kong Kowloon East",
+            "date_range": "Oct 2012 - Jun 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Business Development Manager (2 Hotels)",
+            "organization": "Crowne Plaza and Holiday Inn Express Hong Kong Kowloon East",
+            "date_range": "Jul 2013 - Sep 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Hyatt Centric Victoria Harbour Hong Kong",
+            "date_range": "Nov 2017 - Jul 2019",
+            "location": "Hong Kong",
+            "description": null
+          },
+          {
+            "title": "Associate Director Of Sales",
+            "organization": "Hyatt Centric Victoria Harbour Hong Kong",
+            "date_range": "Aug 2019 - May 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "The Murray, Hong Kong, a Niccolo Hotel",
+            "date_range": "May 2020 - Oct 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Conrad London St. James",
+            "date_range": "Nov 2023 - Dec 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Conrad London St. James",
+            "date_range": "Jan 2025 - Jul 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Jul 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "commercial",
+          "sales",
+          "hotel",
+          "director",
+          "hotels",
+          "sales manager",
+          "business development"
+        ],
+        "activity_themes": [
+          "Luxury hotel media features and magazine mentions",
+          "Luxury travel advisor events and partnerships (ILTM Cannes)",
+          "Hospitality industry charity initiatives (Sleepout)",
+          "Hotel year-in-review and provenance highlights",
+          "Team placements and staff recognition in luxury hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/flemings-hotel-mayfair_flemingsmayfair-luxuryhotels-london-activity-7403764981537611776-lx83",
+          "https://www.linkedin.com/posts/flemings-hotel-mayfair_flemingsmayfair-luxuryhotels-london-activity-7403744079978639360-EGfQ",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_hotels-london-hotelier-activity-7401903423492886528-hUdi",
+          "https://www.linkedin.com/posts/flemings-hotel-mayfair_flemingsmayfair-luxuryhotels-london-activity-7401256154057617408-X7uP",
+          "https://www.linkedin.com/posts/cindiana-murdymootoo-59b16b5_iltmcannes-luxurytravel-traveladvisors-activity-7400525363900104704-mjkG",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_leading-london-ceos-sleepout-and-unite-against-activity-7399459340388290560-cpdj",
+          "https://www.linkedin.com/posts/frederick-warrack_i-am-pleased-to-share-that-i-have-concluded-activity-7399419640394907648-1SAQ"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Julia Radschun",
       "title": "Executive Assistant to the Managing Director",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/julia-radschun-126a92188",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -504,7 +1545,83 @@
           "quote_or_fact": "Julia Radschun Executive Assistant to Henrik Muehle - Managing Director"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/julia-radschun-126a92188",
+        "display_name": "Julia Radschun",
+        "headline": "PA/Office Manager at Mporium",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Great Team Player - Excellent organizational skills, Great attention to detail, Diary management, VIP‘s, Guest relations, Work well under pressure, Fluent in German including written communications,Travel arrangements Greeting company visitors, Acting as the first point of contact\n\nTotal Experience: 4 years and 8 months",
+        "experience": [
+          {
+            "title": "Corportate Receptionist PA",
+            "organization": "SAPINDA INTERNATIONAL SERVICES B.V. (UK)",
+            "date_range": "Oct 2014 - Mar 2015 • 5 months",
+            "location": "London, United Kingdom",
+            "description": "Operating a switchboard in a warm, confident and happy manner, Reservation of meeting rooms on a computerised meeting room booking system Meeting and greeting clients in reception. Ensuring clients receive VIP treatment Liaising with the PAs and executive directors, managing diaries and arranging meetings Typing reports and maintaining filing systems, with aplomb and professionalism Assisting in the co-ordination and preparation of meeting rooms Contributing to ad hoc projects, eye for detail and checking rooms are perfect each time Corporate Receptionist general duties and organising Travel Plans, booking private jets, booking last minute hotels and organising in general the travel schedule from my boss."
+          },
+          {
+            "title": "Lounge Manager",
+            "organization": "Virgin Money",
+            "date_range": "Mar 2015 - Feb 2017 • 1 year and 11 months",
+            "location": "London, United Kingdom",
+            "description": "Lounge Host - Also Banking Looking after all Virgin Money Customers, handling complaint and making sure all customers are happy and looked after. Maintaining counters and serving customers Ensuring that areas of work and tables are kept to a high standard of cleanliness throughout the day Maintaining stocks and supplies Complying with all company and legal procedures relating to food safety, hygiene, health and safety and personal requirements Carrying out training and reasonable requests as required by your line manager"
+          },
+          {
+            "title": "Office Manager PA",
+            "organization": "Mporium",
+            "date_range": "Feb 2017 - Jun 2019 • 2 years and 4 months",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "team player",
+          "organizational skills",
+          "diary management",
+          "travel arrangements",
+          "food safety",
+          "management",
+          "pressure",
+          "fluent",
+          "german",
+          "communications",
+          "acting",
+          "switchboard",
+          "reservation",
+          "treatment",
+          "arranging",
+          "typing",
+          "reports",
+          "preparation",
+          "projects",
+          "hotels",
+          "less",
+          "banking",
+          "stocks",
+          "legal",
+          "food",
+          "safety",
+          "hygiene",
+          "health",
+          "training"
+        ],
+        "activity_themes": [
+          "Hospitality and tourism milestones",
+          "Leadership, emotional intelligence and people management",
+          "Insurtech innovation and London events",
+          "AI, artificial intelligence and mentorship programs"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/katiesicairos_ihgmillionmoments-truehospitality-activity-7366477901778636803-nbMr",
+          "https://www.linkedin.com/posts/leadership-emotionalintelligence-peoplefirst-activity-7356270070953603072-AEmJ",
+          "https://www.linkedin.com/posts/nikolaussuehr_london-insurtech-innovation-activity-7288550698944724992-dy2P",
+          "https://www.linkedin.com/posts/aicore_theaicore-ai-artificialintelligence-activity-6732319583086104576-j-I9",
+          "https://www.linkedin.com/posts/ewannisbet_hmm-activity-6598543375656464384-QBm6"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Matteo Marin",
@@ -558,7 +1675,7 @@
       "full_name": "Lorenzo Zappacosta",
       "title": "Food and Beverage Manager",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/lorenzo-zappacosta-566263171",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -576,7 +1693,43 @@
           "quote_or_fact": "Lorenzo Zappacosta Food and Beverage Manager ... I began my career in Italy..."
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lorenzo-zappacosta-566263171",
+        "display_name": "Lorenzo Zappacosta",
+        "headline": "Food and Beverage Manager at Flemings Mayfair & Ormer Mayfair 1 star Michelin Guide",
+        "location": "London, England, United Kingdom",
+        "about": "I'm passionate and enthusiastic person with attention to detail, extensive knowledge of the hospitality industry, financial control and budgeting. A highly motivated and hardworking.",
+        "experience": [
+          {
+            "title": "Ormer Restaurant Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Mar 2022 - Present",
+            "location": "London Mayfair",
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Manager At Flemings Mayfair Ormer Mayfair 1 Star Michelin Guide",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Feb 2024 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "budgeting",
+          "food",
+          "hospitality industry",
+          "financial control"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/lorenzo-zappacosta-566263171"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sofian Msetfi",
@@ -606,7 +1759,7 @@
       "full_name": "Monica Querol",
       "title": "Human Resources Manager",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/monica-querol-a52552211",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -624,13 +1777,38 @@
           "quote_or_fact": "Monica Querol Human Resources Manager ... [+44 (0) 2074990000]"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/monica-querol-a52552211",
+        "display_name": "Monica Querol",
+        "headline": "Human Resources Manager at Flemings Mayfair Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Human Resources Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Current",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 1851 • Privately Held • Hospitality\nDepartment: Human Resources • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "human resources"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/monica-querol-a52552211"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Piotr Sikorski",
       "title": "Head Sommelier",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/piotr-sikorski-6a2794a1/en",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -648,13 +1826,136 @@
           "quote_or_fact": "Piotr Sikorski Head Sommelier ... The wine cellar at Ormer Mayfair holds some of the rarest and unique bottles"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/piotr-sikorski-6a2794a1/en",
+        "display_name": "Piotr Sikorski",
+        "headline": "Wine professional, dipWSET student. Head Sommelier at Flemings Mayfair Hotel",
+        "location": "London, England, United Kingdom",
+        "about": "I'm wine professional with over 15 years of experience within hospitality industry.\n\nTotal Experience: 17 years and 4 months",
+        "experience": [
+          {
+            "title": "Sommelier",
+            "organization": "School of Wine, Wine Bar in a Cellar",
+            "date_range": "May 2007 - May 2012",
+            "location": "Kraków Area, Poland",
+            "description": null
+          },
+          {
+            "title": "Head Sommelier",
+            "organization": "Winne Grono",
+            "date_range": "Oct 2012 - Oct 2013",
+            "location": "Kraków Area, Poland",
+            "description": null
+          },
+          {
+            "title": "Manager",
+            "organization": "Spazio Coffee&Cocktail Bar",
+            "date_range": "Nov 2013 - May 2014",
+            "location": "Kraków Area, Poland",
+            "description": null
+          },
+          {
+            "title": "Barista",
+            "organization": "Cafe Tektura",
+            "date_range": "May 2014 - Nov 2014",
+            "location": "Kraków Area, Poland",
+            "description": null
+          },
+          {
+            "title": "Wine Host",
+            "organization": "Vinopolis",
+            "date_range": "May 2015 - Oct 2015",
+            "location": "London, United Kingdom",
+            "description": "Wine Host in department of Wine Experience in Vinopolis."
+          },
+          {
+            "title": "Sommelier Manager",
+            "organization": "The Wine Parlour",
+            "date_range": "Oct 2015 - Jul 2016",
+            "location": "London, United Kingdom",
+            "description": "Sommelier and Duty Manager at small Wine Bar in Brixton."
+          },
+          {
+            "title": "General Manager",
+            "organization": "SHOT ESPRESSO LIMITED",
+            "date_range": "Jul 2016 - Feb 2017",
+            "location": "Parsons Green",
+            "description": "General Manager of Bistro by Shot, café and restaurant, located in Parsons Green."
+          },
+          {
+            "title": "Crew Member",
+            "organization": "International Wine Challenge",
+            "date_range": "Apr 2017 - May 2017",
+            "location": "Kia Oval",
+            "description": "Crew member for IWC 2017"
+          },
+          {
+            "title": "Consultant",
+            "organization": "Wine Consultancy",
+            "date_range": "May 2017 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sommelier",
+            "organization": "Shangri-La Hotels and Resorts",
+            "date_range": "Sep 2017 - Jan 2023",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Sommelier",
+            "organization": "Caprice Holdings Ltd.",
+            "date_range": "Jan 2023 - Jul 2023",
+            "location": null,
+            "description": "Head Sommelier at JSheekey Restaurant"
+          },
+          {
+            "title": "Head Sommelier",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Oct 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Wine & Spirit Education Trust",
+            "degree_or_field": "Advanced, Wine, Merit",
+            "date_range": "2015 - 2016"
+          },
+          {
+            "school": "Wine & Spirit Education Trust",
+            "degree_or_field": "Diploma, Wine",
+            "date_range": "2017 - 2019"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "green",
+          "hospitality industry"
+        ],
+        "activity_themes": [
+          "Michelin Guide awards for luxury hotels and restaurants",
+          "Curated wine cellars and selections at Michelin venues",
+          "New London restaurant openings with wine programs",
+          "Wine writers retreats and educational events",
+          "Hospitality industry work-life balance discussions",
+          "Team achievements and employee recognition in hotels",
+          "Fine dining experiences and wine industry networking"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/piotr-sikorski-6a2794a1/en"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Colleen Gallagher",
       "title": "Head Housekeeper",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/colleen-gallagher-7b8a661b9",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -672,13 +1973,71 @@
           "quote_or_fact": "Colleen Gallagher Head Housekeeper ... [+44 (0) 20 7499 0000]"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/colleen-gallagher-7b8a661b9",
+        "display_name": "Colleen Gallagher",
+        "headline": "Head Housekeeper at Flemings Mayfair Hotel",
+        "location": "City Of London, England, United Kingdom (GB)",
+        "about": "Total Experience: 18 years and 1 month",
+        "experience": [
+          {
+            "title": "Housekeeping Manager",
+            "organization": "Jurys Inn Hotel Group",
+            "date_range": "Dec 2004 - Aug 2006",
+            "location": "County Galway, Ireland",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Housekeeping Manager",
+            "organization": "Hilton London Metropole",
+            "date_range": "Aug 2009 - Sep 2010",
+            "location": "United Kingdom",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Senior Housekeeper",
+            "organization": "Royal Garden Hotel",
+            "date_range": "Aug 2010 - Dec 2020",
+            "location": null,
+            "description": "Department: Operations • Level: Senior"
+          },
+          {
+            "title": "Head Housekeeper",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Dec 2020 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Operations • Level: Head"
+          }
+        ],
+        "education": [
+          {
+            "school": "Galway-Mayo Institute of Technology",
+            "degree_or_field": "Bachelor's degree, Hotel and catering management",
+            "date_range": "1999 - 2004"
+          }
+        ],
+        "skills": [
+          "housekeeping"
+        ],
+        "activity_themes": [
+          "Nominations for Travel + Leisure World’s Best Awards for hotels",
+          "Hospitality leaders awarded MBE in New Year Honours",
+          "Ones to Watch features in hotel industry",
+          "CEO Sleepout events raising funds against homelessness",
+          "Partnerships between hotels and wellness brands",
+          "Hotel staff achievements and placements",
+          "Housekeepers association events and networking"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Diana Hristova",
       "title": "Assistant Head Housekeeper",
       "company": "Flemings Mayfair Hotel",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/diana-hristova-758b2b214",
       "email": null,
       "email2": null,
       "phone": "+44 20 7499 0000",
@@ -696,7 +2055,51 @@
           "quote_or_fact": "Diana Hristova Assistant Head Housekeeper ... [+44 (0) 020 7499 0000]"
         }
       ],
-      "linkedin_profile": null
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/diana-hristova-758b2b214",
+        "display_name": "Diana Hristova",
+        "headline": "Assistant Housekeeping Manager at Flemings Mayfair Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 9 years and 2 months",
+        "experience": [
+          {
+            "title": "Senior Supervisor",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Dec 2016 - Present",
+            "location": null,
+            "description": "Department: Operations • Level: Senior. Company: 51-200 employees • Founded 1851 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Assistant Housekeeping Manager",
+            "organization": "Flemings Mayfair Hotel",
+            "date_range": "Sep 2021 - Present",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager. Company: 51-200 employees • Founded 1851 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "housekeeping"
+        ],
+        "activity_themes": [
+          "CEO Sleepout UK charity fundraising for homeless",
+          "Michelin Key awards and luxury hotel recognitions",
+          "Hotel media features, reviews and promotions",
+          "Team achievements and new hospitality offerings"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/ceo-sleepout-uk_charity-fundraiser-compassion-activity-7394770756586541056-lI1P",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_london-press-tv-activity-7389265201444892672-Z0SR",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_down-hall-expands-wellness-offering-with-activity-7383421109150429184-y_9S",
+          "https://www.linkedin.com/posts/flemings-hotel-mayfair_tlworldsbest-flemingsmayfair-flemingsmayfair-activity-7393599153261531136-2Yf7",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_henrik-muehle-takes-on-ceo-sleepout-uk-for-activity-7384601836546183168-KiM0",
+          "https://www.linkedin.com/posts/flemings-hotel-mayfair_michelinguide-luxuryhotels-activity-7381803079454695425-qFE6",
+          "https://www.linkedin.com/posts/henrik-muehle-1519891a_michelinkeys-michelin-london-activity-7382008003610230784-VA-X",
+          "https://www.linkedin.com/posts/miguel-burgos-55884181_ceo-sleepout-london-2025-activity-7371615488684228610-dSAP"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Florentin Bucura",
@@ -735,5 +2138,71 @@
     "succeeded": 0,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T23:18:48.454062+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 17,
+      "structured": 17,
+      "discovered": 12,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 17,
+        "content_pages": 17,
+        "cost_estimate": {
+          "approx_total_usd": 0.136,
+          "search_component_usd": 0.119,
+          "contents_component_usd": 0.017,
+          "counts": {
+            "search_requests": 17,
+            "content_pages": 17
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 41625,
+          "cached_prompt_text_tokens": 3776,
+          "completion_tokens": 14516,
+          "reasoning_tokens": 51835,
+          "output_tokens": 0,
+          "total_tokens": 107976
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.474559,
+          "token_component_usd": 0.474559,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 41625,
+            "cached_prompt_text_tokens": 3776,
+            "completion_tokens": 14516,
+            "reasoning_tokens": 51835,
+            "total_tokens_reported": 107976,
+            "output_like_tokens": 66351,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.610559
+    }
   }
 }

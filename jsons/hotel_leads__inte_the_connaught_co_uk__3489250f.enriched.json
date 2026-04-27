@@ -263,7 +263,7 @@
       "full_name": "Sandeep Bhalla",
       "title": "Managing Director",
       "company": "The Connaught",
-      "linkedin_url": "https://uk.linkedin.com/in/sandeep-bhalla-6020995",
+      "linkedin_url": "https://www.linkedin.com/in/sandeep-bhalla-6020995",
       "email": "sbhalla@the-connaught.co.uk",
       "email2": null,
       "phone": "+44 (0)20 7314 3530",
@@ -377,7 +377,7 @@
       "full_name": "Simon Scoot",
       "title": "Chief Commercial Officer",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/simonscoot",
+      "linkedin_url": "https://www.linkedin.com/in/simonscoot",
       "email": "sscoot@maybourne.com",
       "email2": null,
       "phone": "+44 (0)20 7173 1896",
@@ -585,7 +585,7 @@
       "full_name": "Dani Degen",
       "title": "Global Head of Revenue & Reservations",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/dani-degen-9649bb25",
+      "linkedin_url": "https://www.linkedin.com/in/dani-degen-9649bb25",
       "email": "ddegen@maybourne.com",
       "email2": null,
       "phone": "+44 (0)20 7107 8911",
@@ -698,7 +698,7 @@
       "full_name": "Rachel Louis",
       "title": "Global Head of Sales",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/rachel-louis-4669781b",
+      "linkedin_url": "https://www.linkedin.com/in/rachel-louis-4669781b",
       "email": "ralouis@maybourne.com",
       "email2": null,
       "phone": "+44 (0)20 7107 8805",
@@ -822,7 +822,7 @@
       "full_name": "Jenny Watkins",
       "title": "Corporate Director of Revenue",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/jenny-w-50821032",
+      "linkedin_url": "https://www.linkedin.com/in/jenny-w-50821032",
       "email": null,
       "email2": null,
       "phone": null,
@@ -957,7 +957,7 @@
       "full_name": "Sarah Pemble",
       "title": "Regional Director of Sales, London",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/sarahpemble",
+      "linkedin_url": "https://www.linkedin.com/in/sarahpemble",
       "email": "spemble@maybourne.com",
       "email2": null,
       "phone": null,
@@ -1022,7 +1022,7 @@
       "full_name": "Janine Moeller",
       "title": "Director of Rooms",
       "company": "The Connaught",
-      "linkedin_url": "https://uk.linkedin.com/in/janine-moeller-mih-is-8a0a6793",
+      "linkedin_url": "https://www.linkedin.com/in/janine-moeller-mih-is-8a0a6793",
       "email": "jmoeller@the-connaught.co.uk",
       "email2": null,
       "phone": null,
@@ -1150,7 +1150,7 @@
       "full_name": "Patrick Antille",
       "title": "Corporate Director of Sales - USA & Canada",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/patrickantille",
+      "linkedin_url": "https://www.linkedin.com/in/patrickantille",
       "email": null,
       "email2": null,
       "phone": null,
@@ -1307,7 +1307,7 @@
       "full_name": "Katharina Kustos",
       "title": "Director of Sales",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/katharina-kustos-8bab2b10",
+      "linkedin_url": "https://www.linkedin.com/in/katharina-kustos-8bab2b10",
       "email": null,
       "email2": null,
       "phone": null,
@@ -2587,7 +2587,7 @@
       "full_name": "Chris Judd",
       "title": "CRM Manager",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/chris-judd-081710100",
+      "linkedin_url": "https://www.linkedin.com/in/chris-judd-081710100",
       "email": null,
       "email2": null,
       "phone": null,
@@ -2740,7 +2740,7 @@
       "full_name": "Simone Stewart",
       "title": "Global Head of Digital & eCommerce",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/simone-stewart-b1040332",
+      "linkedin_url": "https://www.linkedin.com/in/simone-stewart-b1040332",
       "email": null,
       "email2": null,
       "phone": null,
@@ -2880,7 +2880,7 @@
       "full_name": "Rebecca Burdess",
       "title": "Global Head of Guest Experience & Services",
       "company": "Maybourne Hotel Group",
-      "linkedin_url": "https://uk.linkedin.com/in/rebecca-burdess-59613458",
+      "linkedin_url": "https://www.linkedin.com/in/rebecca-burdess-59613458",
       "email": null,
       "email2": null,
       "phone": null,
@@ -3016,14 +3016,61 @@
   },
   "linkedin_enrichment": {
     "version": 1,
-    "enriched_at_utc": "2026-04-25T14:47:55.788265+00:00",
+    "enriched_at_utc": "2026-04-26T22:23:14.636058+00:00",
     "model": "grok-4.20-reasoning",
     "stats": {
-      "skipped": 0,
-      "fetched": 21,
-      "structured": 21,
-      "discovered": 2,
+      "skipped": 21,
+      "fetched": 0,
+      "structured": 0,
+      "discovered": 0,
       "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 1,
+        "content_pages": 0,
+        "cost_estimate": {
+          "approx_total_usd": 0.007,
+          "search_component_usd": 0.007,
+          "contents_component_usd": 0.0,
+          "counts": {
+            "search_requests": 1,
+            "content_pages": 0
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {},
+        "cost_estimate": {
+          "approx_total_usd": 0.0,
+          "token_component_usd": 0.0,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 0,
+            "cached_prompt_text_tokens": 0,
+            "completion_tokens": 0,
+            "reasoning_tokens": 0,
+            "total_tokens_reported": 0,
+            "output_like_tokens": 0,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.007
     }
   }
 }

@@ -74,7 +74,7 @@
       "full_name": "Elsa Remoy-Hodt",
       "title": "Global Managing Director",
       "company": "The Twenty Two",
-      "linkedin_url": "https://uk.linkedin.com/in/elsa-remoy-hodt-73609933",
+      "linkedin_url": "https://www.linkedin.com/in/elsa-remoy-hodt-73609933",
       "email": null,
       "email2": null,
       "phone": null,
@@ -101,7 +101,181 @@
           "source_type": "official_site",
           "quote_or_fact": "Primary contact for groups of 4+ rooms and general inquiries: stay@the22.london and +44 (0) 203 988 5022."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/elsa-remoy-hodt-73609933",
+        "display_name": "Elsa Remoy-Hodt",
+        "headline": "Global Managing Director at The Twenty Two. Boutique Hotel & Members Club in London & NYC",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 16 years and 4 months",
+        "experience": [
+          {
+            "title": "Volunteer Worker",
+            "organization": "Habitat for Humanity International",
+            "date_range": "Jan 1999 - Jan 2001",
+            "location": "Beius, Romania",
+            "description": "Worked alongside members of the host community to build decent, affordable houses; and advocated for improved housing and quality of the community, under the Global Village Program"
+          },
+          {
+            "title": "Housekeeping Floor Supervisor",
+            "organization": "Ramada Park Hôtel",
+            "date_range": "Apr 2005 - Oct 2005",
+            "location": null,
+            "description": "Internship position held during Bachelor Program. - Conducted orientation and in-service training to explain policies, work procedures, and to demonstrate use and maintenance of equipment - Inspected all rooms assigned to room attendants on a daily basis to ensure that standards and productivity levels were being met and maintained - Prepared reports concerning room occupancy, payroll, and department expenses"
+          },
+          {
+            "title": "VIP Service Coordinator",
+            "organization": "Fontainebleau Miami Beach",
+            "date_range": "Aug 2008 - Aug 2009",
+            "location": "Miami Beach, FL",
+            "description": "- Coordinated and assisted important hotel guests, celebrities and diplomats in organizing their accommodations, activities, events and special requests. - Analyzed the guest arrival reports in advance and worked closely with other departments ensuring all special requests are being achieved prior arrival. - Managed and maintained VIP guests’ accounts and preferences, organized special amenities according to guest profiles. - Directly responsible for physical room inspection and preparation according to VIP guests’ profile, ensuring standards and productivity levels were met and improved."
+          },
+          {
+            "title": "Asset Management Analyst Intern Hospitality Real Estate",
+            "organization": "Istithmar World Capital",
+            "date_range": "Aug 2011 - Nov 2011",
+            "location": null,
+            "description": "- Analyzed, reviewed and monitored operating and financial performances of the Fontainebleau Miami Beach, W Washington DC, Mandarin Oriental NY, Kerzner International and other assets, providing recommendations to maximize net operating income and return on investment - Identified and analyzed value enhancement opportunities within the portfolio; formulated and implemented solutions for owned assets - Designed and assessed financial models on asset operations, and presenting results to strategic partners and executives for investment decision making - Developed tracking tools and conducted market analysis to current assets and the hospitality industry, especially in the luxury segment and current assets, proposing asset (re)branding, efficient and effective sales and marketing strategies, and their implementations - Analyzed and monitored competitors’ operating performances, capital investments, sales and marketing plans to develop, improve and implement operating strategies on current asset holdings"
+          },
+          {
+            "title": "Asset Management Analyst Intern Hospitality",
+            "organization": "Trinity Hotel Investors",
+            "date_range": "Nov 2011 - Feb 2012",
+            "location": null,
+            "description": "- Assisted in the preparation of investment memorandums for prospective hotel and resort acquisitions to determine overall feasibility - Redesigned and expanded of historical hotel and resort performance to GAAP standards and analyzed to determine potential departmental revenue enhancement strategies and departmental expense efficiencies - Developed preliminary underwriting and forecasting for prospective hotel and resort acquisitions - Analyzed historical STR reports to determine market trends, to forecast forward-looking Occupancy and ADR assumptions - Conducted research projects including researching hotel companies and chains, with their respective presence in marketplace and local markets to determine overall economic feasibility for prospective investments - Assisted asset management department in monitoring operating databases and monthly financial performance for company-owned hotels, capital expenditure programs for on-going renovation projects and financial reporting requirements for investors and lenders."
+          },
+          {
+            "title": "Guest Relations Executive",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Sep 2012 - Apr 2014",
+            "location": "london, united kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Relations Executive At The Chiltern Firehouse",
+            "organization": "André Balazs Properties",
+            "date_range": "Apr 2014 - Jan 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Duty Manager At The Chiltern Firehouse",
+            "organization": "André Balazs Properties",
+            "date_range": "Jan 2016 - Mar 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Guest Relations Manager",
+            "organization": "The Ned",
+            "date_range": "Mar 2017 - Jul 2018",
+            "location": "London, Greater London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager At The Chiltern Firehouse",
+            "organization": "André Balazs Properties",
+            "date_range": "Jul 2018 - Jun 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Aug 2020 - Jun 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Developing a new hotel with an all-day public restaurant and a private members’ club, set within an Edwardian manor and opening on the historic Grosvenor Square in London’s Mayfair, Spring 2022."
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Twenty Two",
+            "date_range": "May 2022 - May 2024",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Twenty Two",
+            "date_range": "May 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Nova Southeastern University",
+            "degree_or_field": "Master of International Business Administration",
+            "date_range": "2010 - 2011"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Certificate, Hotel Real Estate Investments and Asset Management",
+            "date_range": "2011 - 2012"
+          }
+        ],
+        "skills": [
+          "hotel",
+          "spring",
+          "organizing",
+          "reports",
+          "organized",
+          "responsible",
+          "inspection",
+          "preparation",
+          "less",
+          "management",
+          "hospitality",
+          "mandarin",
+          "operations",
+          "analysis",
+          "luxury",
+          "branding",
+          "sales",
+          "marketing",
+          "capital",
+          "investments",
+          "acquisitions",
+          "gaap",
+          "underwriting",
+          "forecasting",
+          "research",
+          "projects",
+          "databases",
+          "hotels",
+          "renovation",
+          "reporting",
+          "investors",
+          "housekeeping",
+          "training",
+          "maintenance",
+          "payroll",
+          "expenses",
+          "asset management",
+          "real estate",
+          "decision making",
+          "market analysis",
+          "hospitality industry",
+          "financial reporting",
+          "front office"
+        ],
+        "activity_themes": [
+          "Hospitality awards and recognitions in London hotels",
+          "Chef collaborations and team expansions in luxury venues",
+          "Charity initiatives supporting children's hospitals",
+          "Recruitment and hiring for front-of-house hotel roles",
+          "Personal and professional milestones in the hospitality community"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/andrew-booth-b250a943_were-proud-to-share-that-the-jumeirah-carlton-activity-7422951270597963777-QVOZ",
+          "https://www.linkedin.com/posts/michellewalder_thrilled-to-be-working-with-chef-fer-again-activity-7405191118247731200-GcBu",
+          "https://www.linkedin.com/posts/andrew-booth-b250a943_were-proud-to-have-supported-the-delivery-activity-7409608798144946176-c1vb",
+          "https://www.linkedin.com/posts/richard-d-silva-2817a2106_ive-taken-on-a-new-member-to-my-very-own-activity-7411076645199138816-bN0d",
+          "https://www.linkedin.com/posts/guillaume-marly-fih-mi-3950a416_hiltonforthestay-activity-7400132182440189953-nQ1a",
+          "https://www.linkedin.com/posts/josephine-jul-jensen-483aab55_front-of-house-manager-at-the-twenty-two-activity-7394028894699532289-n1bg"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Stephanie Moran",
@@ -129,13 +303,46 @@
           "source_type": "official_site",
           "quote_or_fact": "Events and group bookings handled via stay@the22.london."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/stephanie-purohit-411064158",
+        "display_name": "Stephanie Moran",
+        "headline": "Global Head of Events at The Twenty Two",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Global Head of Events with a demonstrated history of working in the hospitality industry. Skilled in Communication & Networking. Strong operations professional graduated from the University of Sussex.",
+        "experience": [
+          {
+            "title": "Global Head of Events",
+            "organization": "The Twenty Two",
+            "date_range": null,
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Sussex",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "hospitality",
+          "networking",
+          "operations"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ben Hesketh",
       "title": "General Manager",
       "company": "The Twenty Two London",
-      "linkedin_url": "https://uk.linkedin.com/in/ben-hesketh-74721328",
+      "linkedin_url": "https://www.linkedin.com/in/ben-hesketh-74721328",
       "email": null,
       "email2": null,
       "phone": null,
@@ -157,13 +364,131 @@
           "source_type": "directory",
           "quote_or_fact": "Management team includes General Manager roles tied to property leadership."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ben-hesketh-74721328",
+        "display_name": "Ben Hesketh",
+        "headline": "General Manager at The Twenty Two",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 21 years and 9 months",
+        "experience": [
+          {
+            "title": "Restaurant Manager",
+            "organization": "Hakkasan Group",
+            "date_range": "Sep 2003 - Nov 2009",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Zuma Restaurants",
+            "date_range": "Nov 2009 - Feb 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Corinthia Hotels International",
+            "date_range": "Feb 2011 - May 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant General Manager",
+            "organization": "COYA London",
+            "date_range": "May 2012 - Jan 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Restaurant General Manager",
+            "organization": "Chiltern Firehouse",
+            "date_range": "Jan 2014 - Aug 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Metropolitan Pub Company",
+            "date_range": "Aug 2015 - Nov 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Annabels - General Manager - Restaurants",
+            "organization": "The Birley Clubs",
+            "date_range": "Jan 2017 - Sep 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "The Stratford",
+            "date_range": "Feb 2019 - Feb 2020",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hospitality Consultant",
+            "organization": "BJH Hospitality",
+            "date_range": "Mar 2020 - Jun 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Operations Director",
+            "organization": "THE GOODS SHED LIMITED",
+            "date_range": "May 2021 - Jun 2024",
+            "location": "Canterbury, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Operations",
+            "organization": "Macknade",
+            "date_range": "Jun 2024 - Jan 2026",
+            "location": "United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Jan 2026 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Brighton",
+            "degree_or_field": null,
+            "date_range": "1990 - 1995"
+          }
+        ],
+        "skills": [
+          "operations",
+          "hospitality",
+          "director",
+          "food",
+          "restaurants"
+        ],
+        "activity_themes": [
+          "Hospitality leadership appointments and GM announcements",
+          "Personal network updates from past roles at Coya, Macknade, JKS and Corinthia",
+          "UK restaurant, pub and food & beverage developments",
+          "Team milestones, birthdays and maternity leaves",
+          "Hotel and boutique property news including The Newt in Somerset",
+          "Brewery collaborations and Christmas period reflections"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sam Russell",
       "title": "Global Director of Sales & Events",
       "company": "The Twenty Two",
-      "linkedin_url": "https://uk.linkedin.com/in/sam-russell11",
+      "linkedin_url": "https://www.linkedin.com/in/sam-russell11",
       "email": null,
       "email2": null,
       "phone": null,
@@ -185,13 +510,130 @@
           "source_type": "linkedin",
           "quote_or_fact": "Sam Russell at The Twenty Two, sales professional with multi-market management focus."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sam-russell11",
+        "display_name": "Sam Russell",
+        "headline": "Global Commercial Director at The Twenty Two",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "A proven sales professional, focusing on strategic multi-market management within the luxury hotel industry. Commercially driven with over a decade of experience in on-property and global sales positions, covering the Entertainment, Leisure, MICE, & Business Travel segments. An outgoing, positive and socially confident person who receives energy from being around others. This translates into my passion for sales - connecting and networking with people in an international marketplace. Having grown up in a very welcoming and hospitable family, my passion for hospitality started at a young age. Graduating from Bournemouth University with a Bachelors of Science Degree in Hospitality Management in 2013, I have enjoyed mastering my expertise within the sales function of the 5 Star Hotel market since then. I am passionate about Music, Food and Sport. From the age of 12 to 16 I represented the United Kingdom Hockey team, gaining 8 caps for my country, whilst also captaining the South East of England Regional team and Buckinghamshire County teams from 10 to 17.",
+        "experience": [
+          {
+            "title": "Front Office Receptionist (University Placement - Work Experience From University)",
+            "organization": "Royal Garden Hotel",
+            "date_range": "Jun 2011 - Sep 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Office Receptionist",
+            "organization": "Royal Garden Hotel",
+            "date_range": "Aug 2013 - Mar 2014",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Entertainment Sales Executive",
+            "organization": "Royal Garden Hotel",
+            "date_range": "Apr 2014 - Aug 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Royal Garden Hotel",
+            "date_range": "Aug 2016 - Apr 2017",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Sales Manager - Entertainment",
+            "organization": "The Ned",
+            "date_range": "Apr 2017 - Feb 2019",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Manager - Entertainment Leisure",
+            "organization": "The Ned",
+            "date_range": "Feb 2019 - Aug 2022",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Sales Director - Leisure Entertainment",
+            "organization": "The Ned",
+            "date_range": "Aug 2022 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Responsible for the Leisure & Entertainment segments, globally for the The Ned brand."
+          },
+          {
+            "title": "Global Director Of Sales Events",
+            "organization": "The Twenty Two",
+            "date_range": "Feb 2024 - Nov 2025",
+            "location": null,
+            "description": "Overseeing our commercial strategies for hotel & events across the portfolio, which currently includes The Twenty London and The Twenty Two New York."
+          },
+          {
+            "title": "Global Commercial Director",
+            "organization": "The Twenty Two",
+            "date_range": "Nov 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Aylesbury College",
+            "degree_or_field": "NVQ Level 1 in Food Preperation",
+            "date_range": "2005 - 2006"
+          },
+          {
+            "school": "Aylesbury College",
+            "degree_or_field": "BTEC National Diploma in Hospitality Supervision",
+            "date_range": "2006 - 2008"
+          },
+          {
+            "school": "Bournemouth University",
+            "degree_or_field": "Bachelors of Science Degree in Hospitality Management",
+            "date_range": "2009 - 2013"
+          }
+        ],
+        "skills": [
+          "sales",
+          "management",
+          "luxury",
+          "hotel",
+          "property",
+          "entertainment",
+          "energy",
+          "networking",
+          "hospitality",
+          "science",
+          "mastering",
+          "food",
+          "sport",
+          "commercial",
+          "director",
+          "responsible",
+          "business travel",
+          "hospitality management",
+          "sales manager",
+          "front office"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/sam-russell11"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Josephine Jul Jensen",
       "title": "Director of Rooms Operations",
       "company": "The Twenty Two",
-      "linkedin_url": "https://uk.linkedin.com/in/josephine-jul-jensen-483aab55",
+      "linkedin_url": "https://www.linkedin.com/in/josephine-jul-jensen-483aab55",
       "email": null,
       "email2": null,
       "phone": null,
@@ -213,13 +655,165 @@
           "source_type": "directory",
           "quote_or_fact": "Key commercial and operations leadership listed in revenue context."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/josephine-jul-jensen-483aab55",
+        "display_name": "Josephine Jul Jensen",
+        "headline": "Global Director of Rooms Operations & Standards at The Twenty Two",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Experienced Guest Relations Manager and FOH Supervisor with a demonstrated history of working in the hospitality industry. Strong operations professional with a AP Degree focused in Service, Hospitality, and Tourism Management from Copenhagen Business Academy.",
+        "experience": [
+          {
+            "title": "Piccoline",
+            "organization": "ArjoHuntleigh",
+            "date_range": "Jul 2013 - Nov 2014",
+            "location": "Lynge",
+            "description": "Administrate the rental contracts. Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Costumer Service",
+            "organization": "ArjoHuntleigh",
+            "date_range": "Nov 2014 - Aug 2015",
+            "location": null,
+            "description": "Permanent worker in the department. Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Senior Receptionist Part Time Supervisor",
+            "organization": "SKT. PETRI",
+            "date_range": "Dec 2015 - Oct 2019",
+            "location": "Copenhagen, Denmark",
+            "description": null
+          },
+          {
+            "title": "Guest Relation Trainee",
+            "organization": "Clarion Hotel & Congress Malmö Live",
+            "date_range": "Aug 2016 - Oct 2016",
+            "location": "Malmö, Sverige",
+            "description": "3 months Internship. Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Guest Relations Coordinator",
+            "organization": "SKT. PETRI",
+            "date_range": "Sep 2018 - Oct 2019",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Guest Relations Manager",
+            "organization": "Strand Palace Hotel",
+            "date_range": "Oct 2019 - Jul 2020",
+            "location": "London, Greater London, Storbritannien",
+            "description": "Maternity Cover. Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Front Office Receptionist (Opening Team)",
+            "organization": "The Mayfair Townhouse",
+            "date_range": "Nov 2020 - Aug 2021",
+            "location": "London, England, Storbritannien",
+            "description": null
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "The Mayfair Townhouse",
+            "date_range": "Aug 2021 - Jan 2022",
+            "location": "London, England, Storbritannien",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Jan 2022 - Jun 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Jun 2022 - Apr 2023",
+            "location": "London, England, Storbritannien",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Apr 2023 - Jun 2024",
+            "location": "London, England, Storbritannien",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Jan 2024 - Jun 2024",
+            "location": "London og omegn, Storbritannien",
+            "description": "Department: Finance & Accounting • Level: Manager"
+          },
+          {
+            "title": "Director Of Front Of House",
+            "organization": "The Twenty Two",
+            "date_range": "May 2024 - Sep 2025",
+            "location": "London og omegn, Storbritannien",
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Global Director Of Rooms Operations Standards",
+            "organization": "The Twenty Two",
+            "date_range": "Sep 2025 - Present",
+            "location": "London og omegn, Storbritannien",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Faribault High School",
+            "degree_or_field": "High School Diploma",
+            "date_range": "2011 - 2012"
+          },
+          {
+            "school": "Frederiksvaerk Gymnasium",
+            "degree_or_field": null,
+            "date_range": "2011 - 2013"
+          },
+          {
+            "school": "Copenhagen Business Academy",
+            "degree_or_field": "AP Degree, Service, Hospitality, and Tourism Management",
+            "date_range": "2015 - 2018"
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "tourism management",
+          "front office",
+          "foh",
+          "hospitality",
+          "operations",
+          "tourism",
+          "management",
+          "reservations",
+          "director"
+        ],
+        "activity_themes": [
+          "Recruiting for Front of House Manager role at The Twenty Two",
+          "Building authentic professional relationships and networks",
+          "Identifying signs of broken workplace culture and retention issues",
+          "Critiquing repetitive luxury hotel VIP amenities and guest offerings",
+          "Team recognition and hospitality operational achievements"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/business_its-not-about-collecting-business-cards-activity-7386464544665018368-Qe7H",
+          "https://www.linkedin.com/posts/ericpartaker_silence-isnt-golden-at-work-its-a-warning-activity-7393995963574550528-SqTp",
+          "https://www.linkedin.com/posts/josephine-jul-jensen-483aab55_front-of-house-manager-at-the-twenty-two-activity-7394028894699532289-n1bg",
+          "https://www.linkedin.com/posts/paurussell1976_i-may-die-of-boredom-if-i-see-another-macaron-activity-7379536391761985536-OJys",
+          "https://www.linkedin.com/posts/eric-freitas-orford-36199a35_37-new-key-hotels-in-the-us-ecstatic-activity-7382074227874611200-Rcfh"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lachlan Bond",
       "title": "Director of Front Office",
       "company": "The Twenty Two London",
-      "linkedin_url": "https://uk.linkedin.com/in/lachlan-bond-b80736306",
+      "linkedin_url": "https://www.linkedin.com/in/lachlan-bond-b80736306",
       "email": null,
       "email2": null,
       "phone": "+44 (0) 203 988 5022",
@@ -241,13 +835,59 @@
           "source_type": "directory",
           "quote_or_fact": "Lachlan Bond, Front Office leadership at The Twenty Two."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lachlan-bond-b80736306",
+        "display_name": "Lachlan Bond",
+        "headline": "Director of Front Office at The Twenty Two New York",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 1 year and 4 months",
+        "experience": [
+          {
+            "title": "Front Office Manager",
+            "organization": "The Twenty Two",
+            "date_range": null,
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Front Office",
+            "organization": "The Twenty Two",
+            "date_range": "Sep 2024 - Present",
+            "location": "New York, United States",
+            "description": "Spearheading the launch of The Twenty Two’s second property in New York following the successful opening of its flagship in London. As Director of Front Office, I oversee all front-of-house operations, ensuring a seamless and exceptional guest experience that embodies the brand’s commitment to personalised luxury. Key responsibilities include: - Leading and developing a world-class Front Office team, including Guest Relations, Experience Coordinators, and Reservations. - Driving service excellence, operational efficiency, and guest satisfaction in a dynamic pre-opening environment. - Collaborating cross-functionally with Housekeeping, Engineering, and Food & Beverage to maintain the highest standards. - Implementing strategic initiatives to enhance the guest journey and elevate brand positioning in the New York market. Notable achievements: - Integral in the pre-opening and successful launch of The Twenty Two London, establishing it as a premier luxury destination. - Key player in expanding The Twenty Two brand to New York, overseeing recruitment, training, and operational readiness for the opening phase. - Developing service strategies tailored to the demands of a high-profile clientele, ensuring an unparalleled guest experience. Passionate about luxury hospitality, team development, and curating memorable stays that define The Twenty Two’s unique identity."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "reservations",
+          "driving",
+          "efficiency",
+          "housekeeping",
+          "engineering",
+          "food",
+          "positioning",
+          "luxury",
+          "recruitment",
+          "training",
+          "readiness",
+          "front office",
+          "operational efficiency",
+          "guest satisfaction",
+          "recruitment training"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Cyril Baligand",
       "title": "Director of Operations",
       "company": "The Twenty Two",
-      "linkedin_url": "https://uk.linkedin.com/in/cyril-baligand-5a049863",
+      "linkedin_url": "https://www.linkedin.com/in/cyril-baligand-5a049863",
       "email": null,
       "email2": null,
       "phone": "+44 (0) 203 988 5022",
@@ -269,7 +909,105 @@
           "source_type": "directory",
           "quote_or_fact": "Management team includes operations leadership."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/cyril-baligand-5a049863",
+        "display_name": "Cyril Baligand",
+        "headline": "Director Of Operations at The Twenty Two",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I've studied Catering, Hotel and Restaurant Management in my native France whilst beginning my waiting career in hotels and restaurants across central France. Following a move to the UK in 2007, i've joined Pearl, the then Chancery Court hotel and fine dining restaurant. From there, I've joined Lutyens on Fleet Street (the Prescott & Conran venue) as Assistant Manager, overseeing a large team across two restaurants and two bars. Gaining valuable experience as acting General Manager for a portion of my time with the company, I was later promoted to Private Club & Private Dining Manager. Where I exclusively managed the four private dining rooms and all-day members club. In 2015, I have joined as General Manager at The Ninth restaurant by the celebrity chef Jun Tanaka. The Ninth is an award winning 1 Michelin start restaurant and 3 AA rosettes. Located on Charlotte street in the heart of London’s buzzy Fitzrovia neighbourhood, the contemporary, yet warm and inviting 90-seater restaurant offers up simple but refined French Mediterranean-style dishes, all made for sharing. From 2018, I've joined the Frenchie Group team in London as a General Manager of its restaurant in Covent Garden. SInce December 2019, I am been promoted to Operations Director to FHG and taking care of all operations between France, UK and all other projects within the group.\n\nTotal Experience: 13 years and 2 months",
+        "experience": [
+          {
+            "title": "Assistant General Manager",
+            "organization": "Lutyens restaurant, bar and club",
+            "date_range": "Sep 2012 - Feb 2014",
+            "location": "85 Fleet street, London",
+            "description": "Joined as Assistant Manager, overseeing a large team across two restaurants and two bars. Gained valuable experience as acting General Manager for a portion of time with the company."
+          },
+          {
+            "title": "Club Private Dining Manager",
+            "organization": "Lutyens restaurant, bar and club",
+            "date_range": "Mar 2014 - Sep 2015",
+            "location": "85 Fleet Street",
+            "description": "Promoted to Private Club & Private Dining Manager. Exclusively managed the four private dining rooms and all-day members club."
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Ninth",
+            "date_range": "Oct 2015 - Apr 2018",
+            "location": "22 Charlotte Street, W1T 2NB",
+            "description": "Award winning 1 Michelin star restaurant and 3 AA rosettes. Contemporary 90-seater offering simple but refined French Mediterranean-style dishes, all made for sharing."
+          },
+          {
+            "title": "General Manager",
+            "organization": "Frenchie covent garden",
+            "date_range": "Apr 2018 - Dec 2019",
+            "location": "16 Henrietta street, WC2E 8QH",
+            "description": "General Manager of Frenchie restaurant in Covent Garden for the Frenchie Group team in London."
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "Frenchie Hospitality Group",
+            "date_range": "Dec 2019 - Sep 2023",
+            "location": null,
+            "description": "Promoted to Operations Director for FHG taking care of all operations between France, UK and all other projects within the group."
+          },
+          {
+            "title": "FnB Operations Consultant",
+            "organization": "Experimental Group",
+            "date_range": "Oct 2023 - Sep 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "The Twenty Two",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": "The Twenty Two is a 31-bedroom boutique lifestyle hotel, neighbourhood restaurant and private members club, set within a listed Edwardian manor that overlooks Mayfair’s iconic Grosvenor Square. Located at number 22 Grosvenor Square, the building has been redesigned into a West London hideaway for the creative and the curious."
+          }
+        ],
+        "education": [
+          {
+            "school": "CIFA Jean Lameloise",
+            "degree_or_field": "Hospitality Administration/Management",
+            "date_range": "2004 - 2007"
+          }
+        ],
+        "skills": [
+          "catering",
+          "hotel",
+          "management",
+          "hotels",
+          "restaurants",
+          "acting",
+          "mediterranean",
+          "operations",
+          "director",
+          "projects",
+          "creative",
+          "restaurant management",
+          "fine dining"
+        ],
+        "activity_themes": [
+          "Luxury hotel acquisitions by groups such as Experimental and Extendam",
+          "HR, executive search and awards in the hospitality sector",
+          "Management and operational updates from luxury hotels in London, Paris and beyond",
+          "French hospitality industry developments and international expansions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/firmdale-hotels-plc_firmdalehotels-warrenstreethotel-activity-7414984266138165248-oe8A",
+          "https://fr.www.linkedin.com/posts/extend-am_fiersdenosparticipations-investissement-activity-7422670550193504256-Z6se",
+          "https://www.linkedin.com/posts/romee-de-goriainoff-a3b51739_and-boom-we-are-so-honoured-to-take-over-activity-7422584385880821760-KnZ8",
+          "https://fr.www.linkedin.com/posts/experimentalgroup_experimental-quintadacomporta-activity-7422564505538244608-fSS_",
+          "https://fr.www.linkedin.com/posts/3-mois-déjà-de-cette-nouvelle-et-belle-aventure-activity-7420548226316967936-QF-H",
+          "https://www.linkedin.com/posts/hartstone-rochette_hartstonerochette-executivesearch-paris-activity-7401889225387974656-npPz",
+          "https://www.linkedin.com/posts/hartstone-rochette_hartstonerochette-executivesearch-meet-activity-7398631637540044800-iQTa",
+          "https://fr.www.linkedin.com/posts/hartstone-rochette_hartstonerochette-chrenscène-executivesearch-activity-7385929036067209218-10kr"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "India Elborne",
@@ -297,7 +1035,86 @@
           "source_type": "directory",
           "quote_or_fact": "Commercial leadership listed alongside sales roles."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/india-elborne-b7917379",
+        "display_name": "India Elborne",
+        "headline": "Business Development Director at The Twenty Two",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "With 10 years’ experience and enthusiasm for the hospitality and events industry, I have been fortunate in developing a strong set of invaluable skills I believe are paramount to the fast-paced & competitive environment found in most established venues i.e. restaurant, bar, events space or Club. With three years of management and leadership experience, I am a confident leader but just as much enjoy the team environment. I thrive off close contact with clients and as a result describe myself as a highly effective sales person reflected in past results. I bring a hardworking, organised and dedicated attitude to my work and business ethos as a whole; whether it be in areas such as events, customer care or brand development.",
+        "experience": [
+          {
+            "title": "Reception Manager",
+            "organization": "The Cinnamon kitchen",
+            "date_range": "Oct 2009 - Apr 2011",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Private Events",
+            "organization": "The Cinnamon Club",
+            "date_range": "Apr 2011 - Jan 2012",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Head Of Private Events",
+            "organization": "The Arts Club",
+            "date_range": "Jan 2012 - Apr 2020",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Head Of Events",
+            "organization": "The Twenty Two",
+            "date_range": "Nov 2020 - Jan 2023",
+            "location": null,
+            "description": "Department: Marketing • Level: Head"
+          },
+          {
+            "title": "Business Development Director",
+            "organization": "The Twenty Two",
+            "date_range": "Jan 2023 - Present",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Westminster College",
+            "degree_or_field": "National Diploma in Hospitality and Catering Management",
+            "date_range": "2004 - 2006"
+          },
+          {
+            "school": "Gresham's School",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "management",
+          "leadership",
+          "sales",
+          "director",
+          "customer care",
+          "brand development",
+          "business development",
+          "private events"
+        ],
+        "activity_themes": [
+          "Promoting The Twenty Two hospitality experiences and Sunday roasts",
+          "Sharing London dining, restaurant and lifestyle recommendations",
+          "Engaging with Vogue France and London Fashion Week content",
+          "Supporting luxury venue staff transitions and leadership announcements",
+          "Interacting with boutique hotel, events and Mayfair venue posts"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/india-elborne-b7917379"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Patrick Dooley",
@@ -325,13 +1142,102 @@
           "source_type": "linkedin",
           "quote_or_fact": "Team includes experience/guest relations leadership."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/patrick-dooley-a64555157",
+        "display_name": "Patrick Dooley",
+        "headline": "Director of Membership @ Moss New York",
+        "location": "United Kingdom (GB)",
+        "about": "Focused, personable fitness professional with a key understanding of client management, adaptive training techniques and brand growth. Core objective to continuously develop and nurture expertise in these areas in order to help achieve and sustain the goals any professional endeavour.\n\nTotal Experience: 7 years and 10 months",
+        "experience": [
+          {
+            "title": "Host",
+            "organization": "THE BOX SOHO LIMITED",
+            "date_range": "Jan 2018 - Jan 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Member Relations Manager",
+            "organization": "JOHN REED FITNESS, LLC",
+            "date_range": "Jan 2021 - Aug 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Of Membership",
+            "organization": "Palm Heights Hotel",
+            "date_range": "Jan 2022 - Jan 2024",
+            "location": "Cayman Islands",
+            "description": "I joined Palm Heights for the pre-opening of the wellness club to help define the vision and identity, ensuring its ethos was fully expressed through the member and guest experience. My role involved curating innovative programming and hosting VIPs, often personally guiding them through the Palm Heights community with an emphasis on connection and belonging. This approach fostered authentic, long-term relationships with influential global guests and extended the property’s network into New York and beyond."
+          },
+          {
+            "title": "Global Head Of Experience",
+            "organization": "The Twenty Two",
+            "date_range": "Jan 2024 - Jan 2025",
+            "location": null,
+            "description": "At The Twenty Two, I led the cultural and experiential strategy for both the London flagship and its international expansion into New York. I was responsible for defining the full member and guest journey, from atmosphere and music direction to high-level guest relations, ensuring a seamless and elevated experience at every touchpoint. Alongside curating the culture of the club, I built and trained the guest relations team, setting service standards that blended sophistication with warmth and reinforced The Twenty Two’s reputation as a world-class cultural and social hub."
+          },
+          {
+            "title": "Founder",
+            "organization": "Patrick Dooley Consulting LTD",
+            "date_range": "Mar 2025 - Present",
+            "location": null,
+            "description": "I founded my consultancy to advise clients in the hospitality and lifestyle sectors, drawing on an extensive global network of high-profile individuals and brands. My focus is on cultural programming, brand and communications strategy, community building, and PR initiatives that elevate visibility and engagement. By combining strategic insight with creative execution, I deliver impactful experiences that strengthen client positioning and drive long-term growth."
+          },
+          {
+            "title": "Director Of Membership",
+            "organization": "Moss New York",
+            "date_range": "Jul 2025 - Present",
+            "location": "New York, United States",
+            "description": null
+          },
+          {
+            "title": "Membership Director",
+            "organization": "Moss New York",
+            "date_range": "Jul 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "client management",
+          "member relations",
+          "fitness",
+          "management",
+          "training",
+          "director",
+          "strategy",
+          "responsible",
+          "curating",
+          "less",
+          "wellness",
+          "programming",
+          "hosting",
+          "property"
+        ],
+        "activity_themes": [
+          "Africa climate change and global health initiatives",
+          "Zimbabwe education and international student pathways",
+          "Zimbabwean rural farming and livestock solutions",
+          "African agriculture and workforce development"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/ceshharzimbabwe_africas-voice-in-climate-and-health-is-rising-activity-7306011426203099136-v56E",
+          "https://www.linkedin.com/posts/robin-pushapdeep_kaplanpathways-internationalstudents-zimbabwe-activity-7305229898128769024-fFXE",
+          "https://www.linkedin.com/posts/urban-farmer-pty-ltd_gettoknow-urbanfarmer-uflszimbabwe-activity-7305547460465065985-I6IP",
+          "https://www.linkedin.com/posts/bayer_our-mission-is-at-the-center-of-what-we-do-activity-7306222773335429121-YJDQ"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lachlan Bond",
       "title": "Front Office Manager",
       "company": "The Twenty Two London",
-      "linkedin_url": "https://uk.linkedin.com/in/lachlan-bond-ba9b4067",
+      "linkedin_url": "https://www.linkedin.com/in/lachlan-bond-ba9b4067",
       "email": null,
       "email2": null,
       "phone": null,
@@ -353,7 +1259,123 @@
           "source_type": "official_site",
           "quote_or_fact": "Front of House team and concierge contacts published."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lachlan-bond-ba9b4067",
+        "display_name": "Lachlan Bond",
+        "headline": "Hiring for The Twenty Two - New York",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Forever seeking ways to improve my professional career\n\nTotal Experience: 9 years and 6 months",
+        "experience": [
+          {
+            "title": "Head Cocktail Barman",
+            "organization": "Etoile Rouge",
+            "date_range": "Nov 2015 - May 2016",
+            "location": "Verbier, Switzerland",
+            "description": "Skills: Sales, Critical thinking, Perseverance, Cross-lingual communications. Responsibilities: Creating cocktails at the new & exclusive ‘Supper Club’. Hosting performance groups for the club."
+          },
+          {
+            "title": "Bar Floor Manager",
+            "organization": "Montpellier Wine Bar",
+            "date_range": "May 2016 - Jan 2017",
+            "location": "Cheltenham, England",
+            "description": "Skills: Leadership, Training, Dealing with conflict, Working under pressure. Responsibilities: Full responsibility of the business; from staff training to stocktake & ordering. Decreased the average turnover rate of staff from 2 weeks to 4 months."
+          },
+          {
+            "title": "Manager Of Bars",
+            "organization": "Thyme at Southrop Manor",
+            "date_range": "Jan 2017 - Aug 2017",
+            "location": "Gloucestershire, England",
+            "description": "Skills: Management, Meeting the requests of clients, Ordering, Stock control. Responsibilities: Responsible for the creation of seasonal cocktails and bar upkeep. Organising & monitoring stock control for the Member’s Bar. Was the welcoming face for returning exclusive guests."
+          },
+          {
+            "title": "Vice President Of The Student Governance Association",
+            "organization": "Les Roches Crans-Montana Global Hospitality",
+            "date_range": "Jan 2018 - Jun 2018",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "MIT",
+            "organization": "The Ned",
+            "date_range": "Sep 2018 - Sep 2019",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Relations Agent",
+            "organization": "The Ned",
+            "date_range": "Sep 2019 - May 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Night Manager",
+            "organization": "The NoMad Hotel London",
+            "date_range": "May 2021 - Jan 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Part of the opening team for NoMad London, which is their first venue outside USA, in the historic property of the old London Magistrates courts on Bow Street."
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Jan 2022 - Jun 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Developing a new hotel with an all-day public restaurant and a private members’ club, set within an Edwardian manor and opening on the historic Grosvenor Square in London’s Mayfair, Spring 2022."
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Jun 2022 - Sep 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Front Office",
+            "organization": "The Twenty Two",
+            "date_range": "Aug 2024 - Present",
+            "location": "New York, United States",
+            "description": "As Director of Front Office for The Twenty Two, I lead all guest-facing operational departments including Front Desk, Guest Relations, Concierge, Experience Coordinators (Butlers), Bellhops, and Room Reservations. I am responsible for shaping and maintaining our service culture across both the London and New York properties, ensuring a seamless, elevated experience for every guest. One of only two team members relocated to New York to support the U.S. opening, I was originally part of the London preopening team that helped define the brand’s ethos and service standards from the ground up. I have since overseen the preopening and launch of our New York property, building the team, structure, and guest journey from day one. My focus is equally on guest satisfaction and team wellbeing. I work closely with leadership to ensure all departments operate cohesively, with a strong emphasis on emotional intelligence, professionalism, and consistency. My goal is to create an environment where both guests and staff feel seen, supported, and valued."
+          }
+        ],
+        "education": [
+          {
+            "school": "European Bartenders School",
+            "degree_or_field": "Diploma, Mixology, 91%",
+            "date_range": "2015 - 2015"
+          },
+          {
+            "school": "Les Roches Global Hospitality Education - Bluche, Switzerland",
+            "degree_or_field": "Postgraduate Diploma in International Hospitality Management, Hospitality Administration/Management",
+            "date_range": "2017 - 2018"
+          }
+        ],
+        "skills": [
+          "director",
+          "property",
+          "sales",
+          "communications",
+          "cocktails",
+          "hosting",
+          "governance",
+          "training",
+          "management",
+          "responsible",
+          "front office",
+          "critical thinking",
+          "staff training",
+          "stock control"
+        ],
+        "activity_themes": [
+          "Attending BDNY event",
+          "Promoting hospitality industry event pass discount"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/lachlan-bond-ba9b4067"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Claudio Ribeiro",
@@ -381,7 +1403,138 @@
           "source_type": "linkedin",
           "quote_or_fact": "Restaurant and F&B team listed with reservations focus."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/claudio-ribeiro-9746394",
+        "display_name": "Claudio Ribeiro",
+        "headline": "Head Of F B Reservations at The Twenty Two",
+        "location": "United Kingdom (GB)",
+        "about": "An experienced manager in the restaurant industry with a proven track record in reservation, reception and event management. Have worked in the industry for over ten years across a variety of businesses. KEY SKILLS • Reservation and reception management. • Event management, conceptualisation and idea generation. • Staff administration and issues management. • Reporting on financial and performance related matters. . New opening.",
+        "experience": [
+          {
+            "title": "Reception Superviser",
+            "organization": "Plateau restaurant",
+            "date_range": "Nov 2003 - Oct 2005",
+            "location": "Canary Wharf, London",
+            "description": null
+          },
+          {
+            "title": "Reception Reservation Manager",
+            "organization": "Benares restaurant",
+            "date_range": "Nov 2005 - Sep 2007",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Pasha Restaurant",
+            "date_range": "Oct 2007 - Jan 2009",
+            "location": "Gloucester Rd, London",
+            "description": null
+          },
+          {
+            "title": "Store Manager",
+            "organization": "Villebrequin",
+            "date_range": "Feb 2009 - Feb 2011",
+            "location": "Burlington Arcade, London",
+            "description": null
+          },
+          {
+            "title": "Maitre D'",
+            "organization": "The Gilbert Scott",
+            "date_range": "Feb 2011 - Sep 2011",
+            "location": "Kings Cross, London",
+            "description": null
+          },
+          {
+            "title": "Maitre D' Yauatcha Soho",
+            "organization": "Hakkasan Group",
+            "date_range": "Nov 2011 - Jan 2013",
+            "location": "Greater London, England, United Kingdom",
+            "description": "Started my Hakkasan journey working as Maitre’d at Yauatcha restaurant. A very busy and well established Chinese restaurant in Soho."
+          },
+          {
+            "title": "Reservations Manager Yauatcha Soho",
+            "organization": "Hakkasan Group",
+            "date_range": "Jan 2013 - Nov 2013",
+            "location": "London Area, United Kingdom",
+            "description": "Promoted to Reservations and Events manager for Yauatcha Soho."
+          },
+          {
+            "title": "Central Reservations Events Manager UK",
+            "organization": "Hakkasan Group",
+            "date_range": "Nov 2013 - Feb 2019",
+            "location": "Soho, london",
+            "description": "Central Reservation & Events Manager for Hakkasan Group (Hakkasan Hanway Place, Hakkasan Mayfair, Yauatcha Soho, Yauatcha City & Sake no Hana)."
+          },
+          {
+            "title": "F B Reservations Events Manager",
+            "organization": "The Standard Hotel",
+            "date_range": "Mar 2019 - Dec 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Events Manager",
+            "organization": "Amazónico Restaurants",
+            "date_range": "Jan 2022 - Aug 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Events Manager",
+            "organization": "Clos Maggiore & Big Easy restaurants",
+            "date_range": "Sep 2023 - Jun 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "F B Reservations Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Jun 2024 - Jun 2025",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of F B Reservations",
+            "organization": "The Twenty Two",
+            "date_range": "Jun 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "reservation",
+          "management",
+          "administration",
+          "reporting",
+          "reservations",
+          "chinese",
+          "event management",
+          "idea generation",
+          "issues management"
+        ],
+        "activity_themes": [
+          "Restaurant openings and relaunches",
+          "Hospitality team culture and milestones",
+          "Industry growth and maturity insights",
+          "F&B reservation and events management recruitment",
+          "Dining partnerships and special events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/claudio-ribeiro-9746394",
+          "https://www.linkedin.com/posts/creative-restaurant-group_this-one-felt-pretty-special-for-some-time-activity-7425584064985788416-7yBG",
+          "https://www.linkedin.com/posts/los-mochis_last-friday-we-hosted-the-official-relaunch-activity-7425529668772134912-sR1X",
+          "https://www.linkedin.com/posts/constantin-marius-apostu-628673172_territory-time-gesture-activity-7425285232318291969-5RNS",
+          "https://www.linkedin.com/posts/kinsfolkandco_today-marks-a-major-milestone-as-the-newman-activity-7423749866066976769-HtaX",
+          "https://www.linkedin.com/posts/atul-kochhar-ab3a495_im-looking-for-a-restaurant-reservation-activity-7420393391349309440-I6Nf",
+          "https://www.linkedin.com/posts/vinicioalberelli_hospitality-oman-omanhospitality-activity-7420731280683782144-_SCF",
+          "https://www.linkedin.com/posts/markus-thesleff_it-all-about-a-culture-team-on-sunday-activity-7419438751430639616-BBk3"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Tiago Mira",
@@ -409,7 +1562,154 @@
           "source_type": "official_site",
           "quote_or_fact": "Restaurant reservations handled through published channels."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/tiago-mira-7570655a",
+        "display_name": "Tiago Mira",
+        "headline": "Director of F&B | Skill Development, Hospitality Industry",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "With over a decade of experience in the food and beverage industry, I have had the privilege of working at some of the most prestigious establishments, including The Ritz Hotel, Annabel's Mayfair, and The Goring Hotel. My career has been shaped by my dedication to providing exceptional service while leading and inspiring teams to deliver the highest standards of excellence. As a customer-focused, positive, and proactive professional, I am skilled at managing high-pressure environments and consistently exceeding client expectations, fostering long-term customer loyalty. In addition to my strong leadership and team management abilities, I possess robust financial skills, including comprehensive P&L management, allowing me to optimize performance and drive profitability. With excellent organizational skills, empathy, and problem-solving capabilities, I ensure smooth and efficient operations, always striving to exceed expectations. I firmly believe that success in this industry is built on collaboration, and I work to create a team-oriented environment where every individual contributes to delivering an unforgettable guest experience.",
+        "experience": [
+          {
+            "title": "Bartender",
+            "organization": "M'Ar de Ar Hotels",
+            "date_range": "Sep 2008 - Mar 2012",
+            "location": "Evora",
+            "description": null
+          },
+          {
+            "title": "Senior Bartender",
+            "organization": "Mandeville Hotel (Reform bar)",
+            "date_range": "May 2012 - Feb 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Bartender",
+            "organization": "One Aldwych",
+            "date_range": "Feb 2013 - Oct 2013",
+            "location": "Aldwych",
+            "description": "*Ensure courtesy to all the guests at all time *Ensure regular Clients are known and greeted accordingly *Ensure that the Food and Beverage service to guests is of the expected standard maintaining the reputation of the Hotel *Ensure good working knowledge of all Drinks, food and cocktails served in the bar *Ensure all Drinks produced are of a consistent standard at all time *Food and beverage order taking with Micros *Provide a friendly, courteous and professional service at all the time *Maintain good working relationships with colleagues and all departments *Bar Orders and Other responsibilities"
+          },
+          {
+            "title": "Head Bartender",
+            "organization": "One Aldwych",
+            "date_range": "Oct 2013 - Oct 2015",
+            "location": null,
+            "description": "Assisting the Lobby Bar Manager and supervisor with implementing and maintaining all standards, policies and procedures relating to food and beverage service in the Lobby bar, with a strong emphasis on staff training and development, guest satisfaction, product quality and profitability. Developing the bar staff into a knowledgeable and confident team. Main Responsibilities: * Oversee that the standards are kept at all time (Quality, consistency, etc) *Control that any part of the bar is kept in clean and tidy manner before, during and after the shift. *Control of all orders related to the bar (fruits, spirits, bar equipment) *Keep the communication within the bar and between bar and floor/management active on daily basis with detailed handover. *Ensuring that all the bar/floor staff has a good working knowledge of all drinks, food and cocktails served in the bar. *Ensuring attentive service and guests satisfaction at all time. *Ensuring that the all staff provides a friendly. courteous and professional service at all times. *Delegation of duties to the rest of the bar staff *Provide trainings, tastings and master classes to ensure the all bar staff is fully trained. *Drinks costing *Drinks creation *Dealing with minor issues *Inform the bar manager and supervisor on duty of special attention Guests Set an example on all these aspects to the rest of the bar team and follow up of any duty assigned to another member of staff. Leadership doesn't come with a position on the paper but is gained on the field."
+          },
+          {
+            "title": "Head Bartender",
+            "organization": "The Ritz London",
+            "date_range": "Oct 2015 - Dec 2017",
+            "location": "London, United Kingdom",
+            "description": "Main Responsibilities: *The Service of food and beverage to clients within the bar. *To ensure the smooth service and production of drinks by effectively managing the team of Bartenders. *To co-operate with the Bar manager and Assistant Manager in the development of both cocktail Menu and service. *To effectively manage stock as regards stocktaking and ordering, completing ullage and wastage reports. *To ensure the completion of Mise-en-place on a daily and shift basis. *To be fully conversant with the Food and Beverage menus; inclluding their presentation, accompaniments and availability. *To report promptly to the service needs of the guest in a polite and helpful manner. *Seat guests and offer an appropriate greeting, *To ensure a high standad of both service and cocktail making within the Bar. *To ensure the training of Bartenders is in line with SOPs. *Maximise sales."
+          },
+          {
+            "title": "Head Creative Mixologist",
+            "organization": "Annabel’s Club",
+            "date_range": "Dec 2017 - Mar 2019",
+            "location": "46 Berkeley Square",
+            "description": "To Provide a courteous, efficient and polite service to all guest in line within the Annabel’s Club costumer service values. To consistently prepare and deliver all drinks with the bar, in line with The Annabel’s Club standards ensuring a profitable and cost-effective operation. To Make sure that guests satisfaction is always a priority and we provide the best service possible to our members. Main responsibilities: - To be an ambassador for the delivery of outstanding level of customer service by being professional, efficient and polite in manner. -Train and mentoring the bar staff in order to deliver and outstanding service - develop standards and strategies in order to deliver the best service. -supervise all the bar’s and their staff to assure consistency is keep at all time. -Create and develop the Bar menus for 8 bars. -To be responsible for the management of the team on each service, delegating tasks where appropriate and ensuring smooth running of each service. -Maximise sales"
+          },
+          {
+            "title": "Bar Manager",
+            "organization": "The Goring",
+            "date_range": "Mar 2019 - Aug 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Lounge Bar Veranda General Manager",
+            "organization": "The Goring",
+            "date_range": "Aug 2021 - Jul 2022",
+            "location": "London, England, United Kingdom",
+            "description": "In my role as Lounge Bar & Veranda General Manager at The Goring, I developed sales strategies, managed daily operations, and negotiated deals with suppliers. Led team to uphold Forbes and LQA standards. • Coordinated directly with Head Chef for food menu changes • Mentored team for professional development • Ensured smooth transitions between daily services."
+          },
+          {
+            "title": "Head Of Bars",
+            "organization": "Bacchanalia London",
+            "date_range": "Aug 2022 - May 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Manage all bar operations at Bacchanalia London, overseeing recruitment, training, and menu development to drive profitability. º Implemented pre-opening and opening strategies to ensure smooth operation and cost control. º Coordinate special events and promotions to increase foot traffic and drive customer engagement. º Collaborate with the Head Chef to enhance the bar food offering and generate profit. º Assist with both PR and Marketing campaigns to increase both bar and restaurant visibility on all platforms."
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "The Twenty Two",
+            "date_range": "May 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Escola Profissional de Alvito",
+            "degree_or_field": null,
+            "date_range": "2005 - 2008"
+          },
+          {
+            "school": "cocktail team",
+            "degree_or_field": "Molecular Mixology",
+            "date_range": "2011 -"
+          }
+        ],
+        "skills": [
+          "food",
+          "hotel",
+          "proactive",
+          "pressure",
+          "leadership",
+          "management",
+          "p",
+          "profitability",
+          "operations",
+          "collaboration",
+          "director",
+          "creative",
+          "operation",
+          "mentoring",
+          "responsible",
+          "running",
+          "sales",
+          "less",
+          "recruitment",
+          "training",
+          "promotions",
+          "engagement",
+          "pr",
+          "marketing",
+          "campaigns",
+          "cocktails",
+          "micros",
+          "production",
+          "reports",
+          "completion",
+          "delegation",
+          "costing",
+          "inform",
+          "beverage industry",
+          "customer loyalty",
+          "team management",
+          "organizational skills",
+          "problem solving",
+          "customer service",
+          "recruitment training",
+          "menu development",
+          "cost control",
+          "special events",
+          "customer engagement",
+          "staff training",
+          "guest satisfaction",
+          "product quality"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/tiago-mira-7570655a",
+          "https://www.linkedin.com/posts/propel-info-limit"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Roberta Priore",
@@ -437,7 +1737,134 @@
           "source_type": "official_site",
           "quote_or_fact": "Front of House and concierge teams referenced with contact details."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/roberta-priore-05523b103",
+        "display_name": "Roberta P.",
+        "headline": "Senior Maitre’D | British Council EnglishScore, Ket",
+        "location": "United Kingdom (GB)",
+        "about": "Experienced in delivering exceptional service within luxury environments, I specialize in managing operations, anticipating client needs, and creating memorable guest experiences. As a trusted Maitre'D and Personal Assistant, I excel in communication, upselling, and ensuring seamless, high-quality service. Passionate about exceeding expectations and fostering client satisfaction. Let's connect!\n\nTotal Experience: 10 years and 7 months",
+        "experience": [
+          {
+            "title": "Assistant Floor Manager",
+            "organization": "La locanda di don carlo",
+            "date_range": "Feb 2011 - Jul 2012",
+            "location": "Nápoles, Campania, Italia",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Lottomatica",
+            "date_range": "Feb 2011 - Jul 2012",
+            "location": "Nápoles, Campania, Italia",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Waiter",
+            "organization": "Soho House & Co",
+            "date_range": "Dec 2013 - Mar 2014",
+            "location": "Londres, Inglaterra, Reino Unido",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Guest Relations Sales",
+            "organization": "Grendene S/A",
+            "date_range": "Oct 2014 - Oct 2016",
+            "location": "Londres, Inglaterra, Reino Unido",
+            "description": "Galeria Melissa London Concept store\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Customer Service Back Office",
+            "organization": "Ushuaïa Ibiza Beach Hotel",
+            "date_range": "May 2017 - Sep 2017",
+            "location": "Eivissa/Ibiza, Comunidad Autónoma de las Islas Baleares, España",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Business Trip Agent",
+            "organization": "CPM International Contact Centre",
+            "date_range": "Dec 2018 - Jul 2019",
+            "location": "barcelona",
+            "description": null
+          },
+          {
+            "title": "Head Receptionist Front And Backoffice",
+            "organization": "Artemisia Domus Luxury Hotel",
+            "date_range": "Mar 2019 - Mar 2020",
+            "location": "Nápoles, Campania, Italia",
+            "description": "Boutique Hotel"
+          },
+          {
+            "title": "Backoffice Quality Check",
+            "organization": "Start Srl",
+            "date_range": "Sep 2019 - Feb 2020",
+            "location": "Nápoles, Campania, Italia",
+            "description": "proposte commerciali di Energia e Telecomunicazioni."
+          },
+          {
+            "title": "Management Assistant PA",
+            "organization": "RICH Hair Care",
+            "date_range": "Aug 2020 - Oct 2022",
+            "location": "Londres, Inglaterra, Reino Unido",
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Maitre D'",
+            "organization": "The Twenty Two",
+            "date_range": "Apr 2022 - Jun 2024",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Senior Maitre'D",
+            "organization": "The Twenty Two",
+            "date_range": "Jun 2024 - Present",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          }
+        ],
+        "education": [
+          {
+            "school": "British Council EnglishScore",
+            "degree_or_field": "Ket",
+            "date_range": "2010 - 2011"
+          },
+          {
+            "school": "Belforte Diploma Linguistico",
+            "degree_or_field": "Diploma Linguistico",
+            "date_range": null
+          },
+          {
+            "school": "istituto Giovanni Verga Napoli",
+            "degree_or_field": "diploma linguistico, Foreign Languages and Literatures, General",
+            "date_range": null
+          },
+          {
+            "school": "British Council EnglishScore",
+            "degree_or_field": "Pet",
+            "date_range": "2010 - 2011"
+          }
+        ],
+        "skills": [
+          "luxury",
+          "operations",
+          "sales",
+          "management",
+          "customer service",
+          "back office",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Charity ultra marathons",
+          "Ibiza hospitality awards",
+          "Luxury event hosting"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/roberta-priore-05523b103"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Joyce Huang",
@@ -465,7 +1892,99 @@
           "source_type": "directory",
           "quote_or_fact": "Sales leadership and managers noted."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/joyce-huang-68b712170",
+        "display_name": "Joyce Huang",
+        "headline": "Senior Sales Manager at The Twenty Two New York",
+        "location": "New York City Metropolitan Area (US)",
+        "about": "Experienced Guest Service Representative with a demonstrated history of working in the hospitality industry. Skilled in Microsoft Word, Housekeeping, Leadership, Microsoft Excel, and Customer Service. Strong support professional with a Bachelor's degree focused in Hotel, Restaurant, and Tourism Managment from State University of New York College at Plattsburgh.",
+        "experience": [
+          {
+            "title": "Guest Service Agent",
+            "organization": "Walker Hotels",
+            "date_range": "Oct 2018 - Aug 2019",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Coordinator",
+            "organization": "Walker Hotels",
+            "date_range": "Aug 2019 - Jul 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Catering Coordinator",
+            "organization": "1 Hotels",
+            "date_range": "Jul 2021 - Nov 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Corporate Sales Manager",
+            "organization": "The Standard, East Village",
+            "date_range": "Nov 2022 - Sep 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Sep 2024 - Sep 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "State University of New York College at Plattsburgh",
+            "degree_or_field": "Bachelor's degree, Hotel, Restaurant, and Tourism Managment. Minor in Business. School of Business and Economics (AACSB Accredited)",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "microsoft",
+          "word",
+          "housekeeping",
+          "leadership",
+          "hotel",
+          "tourism",
+          "sales",
+          "catering",
+          "guest service",
+          "hospitality industry",
+          "microsoft word",
+          "microsoft excel",
+          "customer service",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Luxury travel trends and Capital One Travel reports",
+          "Hotel brand activations and pop culture collaborations (e.g. LABUBU)",
+          "SET2025 conference participation in New Orleans for lifestyle hotels",
+          "Luxury hospitality events, openings and seasonal experiences",
+          "Customer appreciation events for Marriott Luxury Brands and similar",
+          "Promoting special events and holiday programming at NYC hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/emilyeoreilly_capital-one-travels-2026-luxury-trendcast-activity-7404172590082326528-gcBA",
+          "https://www.linkedin.com/posts/michelheredia_popmartus-labubu-labubuinnyc-activity-7398769934866104320-s_3M",
+          "https://www.linkedin.com/posts/trevor-estock-b6214495_excited-to-be-heading-to-the-great-city-of-activity-7394120147751567360-Rb2G",
+          "https://www.linkedin.com/posts/rowanhand_properhotels-laketahoeproper-properhospitality-activity-7394200906042404865-0wC7",
+          "https://www.linkedin.com/posts/trevor-estock-b6214495_i-had-a-great-time-this-morning-at-yankee-activity-7392637658767917058-Xmhe"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Steven Rojas",
@@ -499,7 +2018,7 @@
       "full_name": "Violeta Julieta Majeri",
       "title": "Director of Housekeeping & Butlers",
       "company": "The Twenty Two",
-      "linkedin_url": "https://uk.linkedin.com/in/violeta-julieta-majeri-3083b232",
+      "linkedin_url": "https://www.linkedin.com/in/violeta-julieta-majeri-3083b232",
       "email": null,
       "email2": null,
       "phone": null,
@@ -521,7 +2040,114 @@
           "source_type": "directory",
           "quote_or_fact": "Violeta Julieta Majeri Director Of Housekeeping & Butlers @the22.london"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/violeta-julieta-majeri-3083b232",
+        "display_name": "Violeta Julieta Majeri",
+        "headline": "Director of Housekeeping and Butlers at The Twenty Two",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 20 years and 11 months",
+        "experience": [
+          {
+            "title": "Contract Manager At Hilton Metropole And Hilton Olympia",
+            "organization": "WGC Group",
+            "date_range": "Feb 2003 - May 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Area Manager",
+            "organization": "WGC Services",
+            "date_range": "Jan 2006 - Jan 2012",
+            "location": null,
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Assistant Head Housekeeper Park Plaza Westminster Bridge",
+            "organization": "PPHE Hotel Group",
+            "date_range": "Nov 2012 - Aug 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Head Housekeeper Park Plaza Westminster Bridge",
+            "organization": "PPHE Hotel Group",
+            "date_range": "Aug 2013 - Jan 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Executive Housekeeper",
+            "organization": "PPHE Hotel Group",
+            "date_range": "Feb 2015 - Dec 2016",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Executive Housekeeper at Park Plaza Victoria\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Executive Housekeeper",
+            "organization": "InterContinental London The O2",
+            "date_range": "Dec 2016 - Jun 2017",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Executive Housekeeper",
+            "organization": "South Place Hotel",
+            "date_range": "Jul 2017 - Sep 2019",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Executive Housekeeper",
+            "organization": "Treehouse Hotels",
+            "date_range": "Oct 2019 - Mar 2023",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Executive Housekeeper",
+            "organization": "The Twenty Two",
+            "date_range": "Apr 2023 - Jun 2024",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Director Of Housekeeping Buttlers",
+            "organization": "The Twenty Two",
+            "date_range": "Jun 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Liceul Radu Petrescu",
+            "degree_or_field": "matematics",
+            "date_range": "1991 - 1995"
+          },
+          {
+            "school": "Universitatea „Babeș-Bolyai” din Cluj-Napoca",
+            "degree_or_field": "Bachelor of Public Administration (B.B.A.)",
+            "date_range": "1996 - 2001"
+          }
+        ],
+        "skills": [
+          "director",
+          "housekeeping"
+        ],
+        "activity_themes": [
+          "Luxury hospitality recruitment in London",
+          "General Manager and Restaurant Manager roles in fine dining and hotels",
+          "Impact of exceptional guest service from personal travel experiences"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/privateequity-venturecapital-familyoffice-activity-7421131755409215489-CTJ1",
+          "https://www.linkedin.com/posts/luciararu_new-opening-alert-we-are-thrilled-activity-7422237151351926784-UnFf",
+          "https://www.linkedin.com/posts/findtalentgroup_we-are-looking-for-a-charismaticrestaurant-activity-7422602427364773889-j9r_"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Giuseppe Immesi",
@@ -544,7 +2170,116 @@
           "source_type": "directory",
           "quote_or_fact": "Giuseppe Immesi Director Of Property + Facilities @the22.london"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/giuseppe-immesi-09175965",
+        "display_name": "Giuseppe Immesi",
+        "headline": "Director of Property + Facilities at The Twenty Two",
+        "location": "London, England, United Kingdom",
+        "about": "An accomplished and high-achieving Engineering Director with 17+ years’ experience that includes leading teams and large-scale projects from inception to completion. Consistently ensures that projects are delivered in line with scope, schedule, budget and benefits. Excellent management and communication skills complemented with experience of implementing product quality improvement programs.\n\nTotal Experience: 24 years and 1 month",
+        "experience": [
+          {
+            "title": "Maintenance Engineer",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Jan 2002 - Aug 2006 • 4 years and 7 months",
+            "location": "London, United Kingdom",
+            "description": "Department: Engineering and Technical • Level: Specialist"
+          },
+          {
+            "title": "Chief Engineer",
+            "organization": "The Hoxton Hotel",
+            "date_range": "Aug 2006 - Sep 2010 • 4 years and 1 month",
+            "location": "London, United Kingdom",
+            "description": "• Member of the management team for the opening of the 209 bedrooms, a restaurant and bar that can seat up to 150 people and 7 conference rooms. • Controlled a £500K maintenance budget, a £1.5 Million capital budget and leadership of 4 Engineers/Technicians. • Identified and renegotiated with contractors/suppliers and successfully reduced maintenance costs by 30%. • Implemented a full hotel Health and Safety program that improved effectiveness and hotel understanding.\nDepartment: C-Suite • Level: C-Level"
+          },
+          {
+            "title": "Director Of Engineering",
+            "organization": "W Hotels",
+            "date_range": "Sep 2010 - Apr 2012 • 1 year and 7 months",
+            "location": "London, United Kingdom",
+            "description": "• Played a key role in the opening of the hotel on schedule with 176 bedrooms, 16 luxury suites, 2 floors of serviced apartments, event space, cocktail bar, members only night club and Spice Market restaurant. • Successfully negotiated £2 Million in compensation for the Starwood Group from the construction company as a result of property not being delivered to agreed quality. • Responsibility for a capital budget of over £1.5 Million to manage capital plan projects and controlled a £500K maintenance budget. • Managed day-to-day operations of the engineering department including 8 Engineers/Technicians.\nDepartment: Engineering and Technical • Level: Director"
+          },
+          {
+            "title": "Regional Director Engineering And Maintenance",
+            "organization": "Morgans Hotel Group",
+            "date_range": "Apr 2012 - Mar 2016 • 3 years and 11 months",
+            "location": "London, United Kingdom",
+            "description": "• Led the £38 Million refurbishment of the Sanderson and St Martins Lane hotel with capital project responsibility over £8 Million to project manage capital plan projects across the hotels. • Designed/implemented maintenance policies and procedures, maintained regulatory compliance and ensured a safe environment for guests and associates. • Developed/maintained project schedule to achieve best value and returns for the hotels. • Reviewed deliverables to ensure schedules were maintained, while meeting with quality standards, endorsing changes to plans where applicable. • Developed clear and achievable objectives relating to budget, labour resource, materials and scheduling. Ensured the timely completion of maintenance and repairs as well as compliance to regulations"
+          },
+          {
+            "title": "Director Of Engineering Maintenance At The Curtain Hotel Membersclub",
+            "organization": "The Curtain Hotel & Members Club",
+            "date_range": "Mar 2016 - Feb 2021 • 4 years and 11 months",
+            "location": "London, United Kingdom",
+            "description": "• Successfully managed the £75 Million construction and opening of The Curtain hotel and members club with 120 bedrooms, two floors of membership space, events space, private screening room and rooftop bar and pool. • Assigned capital expenditure project responsibility circa £500K for the support, redesign and completion from conception to implementation. • Managed snagging, certified all performance tests and conducted operating trials during the commission phase. • Negotiated with design build contractors and ensured that the project was delivered within schedule and budget. • Delivered training on safety, repair, GDPR compliance and maintenance, assessed performance and recognised individuals’ needs for further coaching and training. • Promoted involvement in all HSE activities, initiatives and programmes including ensuring the completion of fire inspections. Maintained records and licenses for the hotel as the Designated License Holder (DPS)."
+          },
+          {
+            "title": "Director Of Property Facilities",
+            "organization": "The Twenty Two",
+            "date_range": "Feb 2021 - Present • 5 years",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 201-500 employees • Founded 2022 • Privately Held • Hospitality\nDepartment: Operations • Level: Head"
+          }
+        ],
+        "education": [
+          {
+            "school": null,
+            "degree_or_field": "Perito Elettrotecnico (Engineering Electro Diploma)",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "engineering",
+          "director",
+          "projects",
+          "completion",
+          "budget",
+          "benefits",
+          "management",
+          "property",
+          "maintenance",
+          "hotel",
+          "construction",
+          "screening",
+          "capital",
+          "trials",
+          "design",
+          "contractors",
+          "training",
+          "safety",
+          "compliance",
+          "coaching",
+          "leadership",
+          "engineers",
+          "health",
+          "luxury",
+          "apartments",
+          "compensation",
+          "operations",
+          "hotels",
+          "safe",
+          "schedules",
+          "scheduling",
+          "regulations",
+          "communication skills",
+          "product quality",
+          "quality improvement",
+          "fire inspections",
+          "regulatory compliance"
+        ],
+        "activity_themes": [
+          "Luxury hotel awards and recognitions",
+          "Historical hospitality venues and preservation",
+          "Women in leadership and team inspiration",
+          "Pet-friendly luxury hotel policies",
+          "Boutique and super-boutique hotel openings",
+          "Hospitality recruitment and UK expansion",
+          "Team collaboration and venue planning days"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Michelle Walder",
@@ -572,7 +2307,157 @@
           "source_type": "news",
           "quote_or_fact": "Michelle Walder appointed Managing Director at The Twenty Two."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/michellewalder",
+        "display_name": "Michelle Walder",
+        "headline": "Head Of Operations, The Lifestyle Group In EAME at Hyatt",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Swiss & American citizenshipAccomplished, global boutique hotelier skilled in… Total Experience: 21 years and 4 months",
+        "experience": [
+          {
+            "title": "Food And Beverage Management Trainee",
+            "organization": "Boarding House - The Pearl",
+            "date_range": "Jun 2004 - Dec 2004",
+            "location": "Nantucket Island, Massachussetts",
+            "description": "Food and Beverage Management Trainee. Assisted in all daily restaurant operations in the main dining rooms as well as in the kitchen for two popular up-scale establishments."
+          },
+          {
+            "title": "Concierge - Internship",
+            "organization": "Mercer Hotel - Andre Balazs Properties",
+            "date_range": "Jun 2006 - Jan 2007",
+            "location": "Greater New York City Area",
+            "description": "Successfully fulfilled 6-month internship as a Front Office Management trainee, assisting daily with front desk, concierge, and guest services of 75-room luxury boutique hotel. Invited to continue working at the Mercer during semester breaks from Ecole Hôtelière de Lausanne."
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "The Standard Hotel, Highline - Andre Balazs Properties",
+            "date_range": "Jul 2008 - Mar 2009",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The Standard Hotel, Highline - Andre Balazs Properties",
+            "date_range": "Aug 2008 - Nov 2010",
+            "location": "Greater New York City Area; Miami Florida, Shelter Island New York",
+            "description": "Recruited from previous internship with Andre Balazs Properties. Developed front of house team focusing on recruitment, training, and development for 337-room boutique hotel. Additionally, was asked to task force two years in a row, for seasonal opening of the Sunset Beach Hotel in Shelter Island as well as front office management task force at Standard, Miami Beach. Promoted from Assistant Front Desk Manager to Front Desk Manager within the first 6 months after opening after showing strong control of front office department needs and flexibility to the challenges of the operation while focusing on the guest and employee experience."
+          },
+          {
+            "title": "Lead Coordinator - Centre Of Business Engagement",
+            "organization": "World Economic Forum",
+            "date_range": "Dec 2010 - Jul 2011",
+            "location": "Geneva Area, Switzerland; New York",
+            "description": "The position entailed working with various Managers and Coordinators within the department to manage and coordinate Industry events and initiatives. Additionally, helped on the Media Team to coordinate live Television Debates during the WEF in Davos, Press Junkets and Photographer communication. I was responsible for about 18 Team Coordinators to support and ensure the accurate progress of the projects and events."
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The NoMad Hotel New York",
+            "date_range": "Nov 2011 - Jul 2013",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms - Sydell Group",
+            "organization": "The NoMad Hotel New York",
+            "date_range": "Jul 2013 - May 2014",
+            "location": "Greater New York City Area",
+            "description": "Joined the pre-opening team for the 168-room luxury boutique hotel as Front Office Manager recruiting and training all employees for concierge, pbx, room service and bell team. Promoted to Director of Rooms in June, 2013 and continued to oversee 80 employees across front office, guest services, housekeeping and engineering departments. Additional assignment: opening task force in various operational roles at Line Los Angeles (398 rooms)."
+          },
+          {
+            "title": "General Manager At Casa Faena",
+            "organization": "Faena Group",
+            "date_range": "May 2014 - Feb 2015",
+            "location": "Miami Beach",
+            "description": "A short-term assignment responsible for all construction renovation items which included a total structural and decorative renovation of the historic 50-room property. Once reopened, managed the re-branding and marketing to a Faena branded property. Hotel was repositioned and staff retrained resulting in higher guest and staff satisfaction. One example of the successful retraining was our Tripadvisor rating from #202 to #9 in all of Miami Beach."
+          },
+          {
+            "title": "Director Of Operations",
+            "organization": "EDITION",
+            "date_range": "Feb 2015 - Feb 2016",
+            "location": "Greater New York City Area",
+            "description": "Due to my relationship with the Ian Schrager team from past projects, I took on a short-term, 1–year assignment to assist in opening the 273-room Edition Clocktower hotel. Reporting directly into the GM, I was responsible for all union operating departments including 40 housekeeping attendants, 8 front office agents, 3 concierges, 10 bellmen, 8 pbx/guest service agents, 6 room service servers and a team of about 30 in the lobby bar including managers, bartenders, bar backs and servers."
+          },
+          {
+            "title": "Director Of Rooms - The Ned",
+            "organization": "Soho House & Co / Sydell Group",
+            "date_range": "Jul 2016 - Mar 2017",
+            "location": "London, United Kingdom",
+            "description": "Collaborated with hotel General Manager in opening of 300K square foot luxury hotel with 272-rooms, nine restaurants, a fitness/wellness center, and private members club in the city of London. Created pre-opening budgets for guest rooms & hotel-related operations. Created standard operating procedures (SOPs), recruited, trained and managed the rooms team, including 40 housekeeping attendants, 30 front of house team members and 8 guest service agents out of a total of 700+ employees."
+          },
+          {
+            "title": "Director Of Front Office",
+            "organization": "The NoMad Hotel New York",
+            "date_range": "Mar 2017 - Oct 2018",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The NoMad Hotel New York",
+            "date_range": "Oct 2018 - Apr 2019",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "General Manager - Sydell Group",
+            "organization": "The NoMad Hotel New York",
+            "date_range": "May 2019 - Apr 2021",
+            "location": "Greater New York City Area",
+            "description": "Reporting into the COO and CEO directly, I managed one of New York City’s most successful boutique hotels with 168-luxury rooms, 140-seat Michelin-starred restaurant and the James Beard award winning NoMad bar. Oversaw all aspects of hotel, including finance, sales, human resources, engineering, revenue, guest experience, events, capital expenditure, and budgets. Collaborated with restaurant General Manager to direct food and beverage (F&B). Pre-pandemic, along with my team of department heads, I was responsible for 320 employees in total. Promoted from Hotel Manager to General Manager in 2018. Additional assignments included opening task force for sister properties: Ned London (272 rooms), Line Washington DC (220 rooms), Nomad Las Vegas (293 rooms), Freehand New York (400 rooms) and the upcoming Nomad London (93 rooms). In 2020, closed and reopened Nomad, NY and Line DC due to pandemic and was involved in all strategic planning to get the properties safely and successfully through the pandemic. Some of these strategies in 2020 and into 2021 involved creating new “business models” for the property such as pivoting all F&B outdoors and developing a robust delivery service. Managed re-closure of Nomad New York property due to corporate restructuring in April, 2021."
+          },
+          {
+            "title": "Founder",
+            "organization": "The C Card",
+            "date_range": "Mar 2020 - Present",
+            "location": null,
+            "description": "Developed non profit website / organization giving cancer patients and caregivers access to discounted hotel rooms at various partner hotels across New York City, Boston and Miami. These rooms benefit patients by providing safe, comfortable and affordable environments for individuals undergoing treatment as well as create a sense of escapism that can assist the body and mind in the healing process."
+          },
+          {
+            "title": "Director Of Operations - Task Force - Sydell Group",
+            "organization": "The NoMad Hotel London",
+            "date_range": "Jul 2021 - Feb 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Development And Project Director",
+            "organization": "Sydell Group",
+            "date_range": "Feb 2022 - Jun 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Managing Director",
+            "organization": "The Twenty Two",
+            "date_range": "Jun 2023 - Jun 2024",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Vice President Of Operations, Europe",
+            "organization": "Standard International, LLC",
+            "date_range": "Jun 2024 - Aug 2025",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Operations, The Lifestyle Group In EAME",
+            "organization": "Hyatt",
+            "date_range": "Jun 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/michellewalder"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -586,5 +2471,71 @@
     "succeeded": 18,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T03:44:30.595886+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 18,
+      "structured": 17,
+      "discovered": 0,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 0,
+        "content_pages": 18,
+        "cost_estimate": {
+          "approx_total_usd": 0.018,
+          "search_component_usd": 0.0,
+          "contents_component_usd": 0.018,
+          "counts": {
+            "search_requests": 0,
+            "content_pages": 18
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 43414,
+          "cached_prompt_text_tokens": 1984,
+          "completion_tokens": 20836,
+          "reasoning_tokens": 63090,
+          "output_tokens": 0,
+          "total_tokens": 127340
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.586813,
+          "token_component_usd": 0.586813,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 43414,
+            "cached_prompt_text_tokens": 1984,
+            "completion_tokens": 20836,
+            "reasoning_tokens": 63090,
+            "total_tokens_reported": 127340,
+            "output_like_tokens": 83926,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.604813
+    }
   }
 }

@@ -1,0 +1,3674 @@
+{
+  "target_url": "londonbridgehotel.com",
+  "generated_at_utc": "20260426T220409Z",
+  "model": "pipeline-v4",
+  "agent_count": null,
+  "max_turns": null,
+  "max_turns_effective": null,
+  "min_contacts": null,
+  "target_contacts": null,
+  "max_contacts": 30,
+  "extra_contact_pass": false,
+  "strict_evidence": true,
+  "allow_linkedin": true,
+  "usage": null,
+  "contact_enrichment": {
+    "version": 4,
+    "enriched_at_utc": "20260426T220409Z",
+    "mode": "pipeline-v4",
+    "model": "pipeline-v4",
+    "concurrency": null,
+    "skipped_pre_enrichment": 0,
+    "attempted": 30,
+    "succeeded": 30,
+    "failed": 0
+  },
+  "pipeline_v4": {
+    "input_url": "londonbridgehotel.com",
+    "resolved_org": {
+      "input_url": "londonbridgehotel.com",
+      "canonical_name": "London Bridge Hotel",
+      "property_name": "London Bridge Hotel",
+      "brand_name": null,
+      "management_company": null,
+      "ownership_group": "London Town Group",
+      "location_hint": "8-18 London Bridge Street, London SE1 9SG, UK",
+      "domains": [
+        "londonbridgehotel.com"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.londonbridgehotel.com/",
+          "title": "Official Hotel Website",
+          "source_type": "hotel_site",
+          "snippet": "An independent hotel located in London's Shard Quarter. ... four-star independent London hotel",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.londonbridgehotel.com/about-us/",
+          "title": "About Us Page",
+          "source_type": "hotel_site",
+          "snippet": "The London Bridge Hotel is a unique, four-star independent London hotel in the heart of the capital. ... As an independent hotel, London Bridge Hotel is able to provide more of a personal service",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "http://press.londonbridgehotel.com/wp-content/uploads/2015/01/London-Bridge-Hotel-Press-Kit.pdf",
+          "title": "London Bridge Hotel Press Kit / Fact Sheet",
+          "source_type": "press",
+          "snippet": "Ownership : London Bridge Hotel is owned and operated by an independent hotel company that also includes Kensington House Hotel in London and in New York The Mark Hotel. ... General Manager: Nicholas Cowell",
+          "fetched_text": null,
+          "published_date": "2015-01",
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://uk.linkedin.com/company/london-bridge-hotel",
+          "title": "LinkedIn Company Page",
+          "source_type": "linkedin",
+          "snippet": "This independent 4-star boutique London Bridge Hotel ... Similar pages include London Town Group of Companies. ... Alfredo De Leon, General Manager at London Bridge Hotel",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "title": "RocketReach Company Profile",
+          "source_type": "directory",
+          "snippet": "Lists multiple senior staff including Nick Cowell General Manager, Alfredo de Leon General Manager, Helene Janson Financial Controller, Louise Medland Revenue Manager, and others at London Bridge Hotel",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        }
+      ]
+    },
+    "aliases": [
+      {
+        "value": "London Bridge Hotel",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.londonbridgehotel.com/",
+        "quote": "London Bridge Hotel | A Welcoming Four-Star Hotel in London"
+      },
+      {
+        "value": "londonbridgehotel.com",
+        "kind": "domain",
+        "confidence": "high",
+        "source_url": "https://www.londonbridgehotel.com/",
+        "quote": null
+      },
+      {
+        "value": "Independent 4-Star Boutique",
+        "kind": "brand",
+        "confidence": "high",
+        "source_url": "https://uk.linkedin.com/company/london-bridge-hotel",
+        "quote": "This independent 4-star boutique London Bridge Hotel"
+      },
+      {
+        "value": "London Town Group",
+        "kind": "ownership",
+        "confidence": "medium",
+        "source_url": "https://uk.linkedin.com/company/london-bridge-hotel",
+        "quote": "Similar pages include London Town Group of Companies"
+      },
+      {
+        "value": "Independent hotel company (Kensington House Hotel, The Mark Hotel)",
+        "kind": "ownership",
+        "confidence": "medium",
+        "source_url": "http://press.londonbridgehotel.com/wp-content/uploads/2015/01/London-Bridge-Hotel-Press-Kit.pdf",
+        "quote": "owned and operated by an independent hotel company that also includes Kensington House Hotel in London and in New York The Mark Hotel"
+      },
+      {
+        "value": "London Bridge Hotel",
+        "kind": "historical",
+        "confidence": "high",
+        "source_url": "http://press.londonbridgehotel.com/wp-content/uploads/2015/01/London-Bridge-Hotel-Press-Kit.pdf",
+        "quote": "opened as the London Bridge Hotel in 1998"
+      }
+    ],
+    "candidates": [
+      {
+        "candidate_id": "c_4629ffc05771b9e6",
+        "full_name": "Alfredo De Leon",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "London Bridge Hotel",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/company/london-bridge-hotel",
+            "title": "LinkedIn Company Page",
+            "source_type": "linkedin",
+            "snippet": "Alfredo De Leon, General Manager at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Alfredo de Leon, General Manager at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/alfredodeleon",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "General Manager, LONDON BRIDGE HOTEL",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://londonbridgehotel.com/",
+            "title": "London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "London Bridge Hotel | A Welcoming Four-Star Hotel in London \n\nI would like to:\n\nBook a room Book a table Organise a meeting at Quarter Bar & Lounge at Londinium Restaurant for Afternoon Tea\n\nCheck Availability\n\nBook a table online or call+44 (0)20 7855 2297\n\nBook a table online or call+44 (0)20 7855 2223\n\nBook a table online or call+44 (0)20 7855 2297\n\nEnquire now or call+44 (0)20 7855 2205\n\n# An Independent Hotel Located In London’s Shard Quarter\n\nTake a unique mix of stylish design, indulgent comfort and a very warm welcome, and you’re close to what to expect at London Bridge Hotel. You’ll feel instantly at home at our four-star boutique London hotel, where service comes first. Guests return to us time and time again for this very reason. We’re positioned in one of London’s most diverse boroughs. With the bright lights of the City one way and the quirky stalls of the South Bank and Borough Market another, you’ll be spoilt for choice for things to do on both sides of London Bridge. Guests seeking an unforgettable stay in the heart of the city will find London Bridge Hotel the ideal choice.\n\n## Tour the Hotel\n\n## Amazing Weekend Deals\n\n## Offers\n\n- Tour the Hotel Click here to explore a 360 degree tour of our hotel and the surrounding area. READ MORE\n- Amazing Weekend Deals Spoil yourself and a loved one with a thoroughly indulgent London Bridge weekend stay from only £129. READ MORE\n- Offers Click here to view our exclusive offers to make your stay all the more memorable. READ MORE\n\n## Location\n\n",
+            "published_date": null,
+            "query": "\"Alfredo De Leon\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://leadquest.co.uk/alfredo+de+leon_london-bridge-hotel_6q-gb",
+            "title": "Alfredo De Leon - London Bridge Hotel, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Alfredo De Leon - London Bridge Hotel, London\n\nLondon Bridge Hotel Contact in London United Kingdom Edit| Remove\n\n# Alfredo De Leon\n\nHospitality at London Bridge Hotel · London\n\n[email protected]\n\nEdit Listing\n\nAlfredo De Leon was associated with London Bridge Hotel in 2023. They may have been associated with this organization before or after this year as well.\n\n## (4) Others with Similar First and Last Names\n\nName\n\nPosition\n\nBusiness\n\nCity\n\nAlfredo De Leon\n\ndirector\n\nat Tabard Developments Limited\n\n· London\n\nAlfredo De Leon\n\ndirector\n\nat Tiger Hotel Management Limited\n\n· London\n\nAlfredo De Leon\n\nsecretary\n\nat Gama Management Limited\n\n· Bridge, Kent\n\nAlfredo De Leon\n\nMember\n\nat Kensington House Hotel\n\n· Wales\n\n## London Bridge Hotel Business Data\n\n8-18 London Bridge St, London SE1 9SG, United Kingdom, England\n\n+44 20 7855 2200\n\n[email protected]\n\nwww.londonbridgehotel.com\n\nBizSeek Business Profile\n\n## Alfredo De Leon Coworkers at London Bridge Hotel (19)\n\nJustin Hurbert\n\nFinancial Director at London Bridge Hotel · London\n\nYehonatan Ella\n\nContractor at London Bridge Hotel · London\n\nRon Rose\n\nSales Manager at London Bridge Hotel · London\n\nN. Cowell\n\nGeneral Manager at London Bridge Hotel · London\n\nJulio Marques\n\nFood And Beverage Manager at London Bridge Hotel · London\n\nHeather Dorward\n\nSales Manager at London Bridge Hotel · London\n\nSusan Chan Clarke\n\nHospitality at London Bridge Hotel · London\n\nGeorge Tawdrous\n\nHospitality at London Bridge Hotel · London\n\nYitshak Isaac Ella\n\nsecretary at London Bridge Hotel · London\n\nAgnieszka Borowska- Jocz\n\nHospitality at London Bridge Hotel · London\n\nMamon Hamdah\n\nHospitality at London Bridge Hotel · London\n\nIvan Maurice Elias\n\ndirector at London Bridge Hotel · London\n\nFederico De Feudis\n\nHospitality at London Bridge Hotel · London\n\nAurelija Sakalaviciute\n\nHospitality at London Bridge Hotel · London\n\nRicardo Gaspar\n\nHospitality at London Bridge Hotel · London\n\nPaul O'Pray\n\nHospitality at London Bridge Hotel · London\n\nAnthony Carhart\n\nHospitality at London Bridge Hotel · London\n\nJurate Veriugaite\n\nSecurity and Investigations at London Bridge Hotel · London\n\nAhmed Majdouli\n\nHospitality at London Bridge Hotel · London\n\n## (24) Industry Contacts\n\nHotels and motels\n\nC. Morling\n\nManaging Director at Dot Zinc Ltd · London\n\nW. Dyson\n\nBentley & Mane · London\n\nLynde Gilbert\n\nSDM at Cathedral View Limited · London\n\nGama Management Limited Contacts\n\nAlfredo De Leon\n\nsecretary at Gama Management Limited · Bridge, Kent\n\nSimon Murad Elias\n\ndirector at Gama Management Limited · Bridge, Kent\n\nAlfredo Santos\n\nsecretary at Gama Management Limited · Bridge, Kent\n\nShangri-La Hotel at The Shard London Contacts\n\nZaneta Kalinaite\n\nHospitality at Shangri-La Hotel at The Shard London · London\n\nChai Ming Abbott\n\nsecretary at Shangri-La Hotel at The Shard London · London\n\nMadhu Rama Chandra Rao\n\ndirector at Shangri-La Hotel at The Shard London · London\n\nGiovanni Angelini\n\ndirector at Shangri-La Hotel at The Shard London · London\n\nChye Khoon Ho Kuok\n\ndirector at Shangri-La Hotel at The Shard London · London\n\n## (24) Industry Contacts\n\nFood and beverage service activities\n\nFish! Borough Market Restaurant Contacts\n\nA. McOnie\n\nManager at Fish! Borough Market Restaurant · London\n\nAndew Basford\n\nArea Manager at Fish! Borough Market Restaurant · London\n\nSam\n\ncamarero at Fish! Borough Market Restaurant · London\n\nVictor Freire\n\nFood Production at Fish! Borough Market Restaurant · London\n\nMaria Zizzi\n\nHospitality at Fish! Borough Market Restaurant · London\n\nWright Brothers Borough Market Contacts\n\nAndrei\n\nUnknown at Wright Brothers Borough Market · London\n\nHeather\n\nUnknown at Wright Brothers Borough Market · London\n\nEvelyn\n\nMain Server at Wright Brothers Borough Market · London\n\nConrad\n\nUnknown at Wright Brothers Borough Market · London\n\nImad\n\nUnknown at Wright Brothers Borough Market · London\n\nSt Christopher's Inn Pub Contacts\n\nBrian\n\nbartender at St Christopher's Inn Pub · London\n\nAntonio Gonzalez\n\nGeneral Manager at St Christopher's Inn Pub · London\n\nSir Rob Butler\n\nunknown at St Christopher's Inn Pub · London\n\nCopyright © LeadQuest :: 2026 :: All Rights Reserved\n\nRemoval Tool\n\nPrivacy Terms Contact",
+            "published_date": null,
+            "query": "\"Alfredo De Leon\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://leadquest.co.uk/alfredo+de+leon_gama-management-limited-gb",
+            "title": "Alfredo De Leon - Gama Management Limited, Bridge, Kent",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Alfredo De Leon - Gama Management Limited, Bridge, Kent\n\nGama Management Limited Contact in Bridge, Kent United Kingdom Edit| Remove\n\n# Alfredo De Leon\n\nsecretary at Gama Management Limited · Bridge, Kent\n\nEdit Listing\n\nAlfredo De Leon was associated with Gama Management Limited in 2019. They may have been associated with this organization before or after this year as well.\n\n## (4) Others with Similar First and Last Names\n\nName\n\nPosition\n\nBusiness\n\nCity\n\nAlfredo De Leon\n\ndirector\n\nat Tabard Developments Limited\n\n· London\n\nAlfredo De Leon\n\nHospitality\n\nat London Bridge Hotel\n\n· London\n\nAlfredo De Leon\n\nMember\n\nat Kensington House Hotel\n\n· Wales\n\nAlfredo De Leon\n\ndirector\n\nat Tiger Hotel Management Limited\n\n· London\n\n## Gama Management Limited Business Data\n\n8-18 London Bridge Street, London, Se1 9sg, United Kingdom\n\nBizSeek Business Profile\n\n## Alfredo De Leon Coworkers at Gama Management Limited (2)\n\nSimon Murad Elias\n\ndirector at Gama Management Limited · Bridge, Kent\n\nAlfredo Santos\n\nsecretary at Gama Management Limited · Bridge, Kent\n\n## (12) Industry Contacts\n\nHotels and motels\n\nC. Morling\n\nManaging Director at Dot Zinc Ltd · London\n\nLynde Gilbert\n\nSDM at Cathedral View Limited · London\n\nLondon Bridge Hotel Contacts\n\nJustin Hurbert\n\nFinancial Director at London Bridge Hotel · London\n\nYehonatan Ella\n\nContractor at London Bridge Hotel · London\n\nRon Rose\n\nSales Manager at London Bridge Hotel · London\n\nN. Cowell\n\nGeneral Manager at London Bridge Hotel · London\n\nJulio Marques\n\nFood And Beverage Manager at London Bridge Hotel · London\n\nShangri-La Hotel at The Shard London Contacts\n\nZaneta Kalinaite\n\nHospitality at Shangri-La Hotel at The Shard London · London\n\nChai Ming Abbott\n\nsecretary at Shangri-La Hotel at The Shard London · London\n\nMadhu Rama Chandra Rao\n\ndirector at Shangri-La Hotel at The Shard London · London\n\nGiovanni Angelini\n\ndirector at Shangri-La Hotel at The Shard London · London\n\nChye Khoon Ho Kuok\n\ndirector at Shangri-La Hotel at The Shard London · London\n\nCopyright © LeadQuest :: 2026 :: All Rights Reserved\n\nRemoval Tool\n\nPrivacy Terms Contact",
+            "published_date": null,
+            "query": "\"Alfredo De Leon\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://et.cybo.com/GB-kontakt/london-bridge-hotel_6q/Alfredo+De+Leon",
+            "title": "Alfredo De Leon - Hospitality ettevõttes London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Alfredo De Leon - Hospitality ettevõttes London Bridge Hotel\n\n- London Bridge Hotel\n- »\n- Alfredo De Leon\n\nHospitality\n\n# Alfredo De Leon\n\nLondon Bridge Hotel, London\n\n## Äriteave\n\nLondon Bridge Hotel\n\n4.5 · £££ · nüüd avatud\n\n8-18 London Bridge St, London SE1 9SG, United Kingdom · London\n\n## London Bridge Hotel Kontaktid\n\n︎\n\nFinancial Director @ London Bridge Hotel\n\n︎\n\nContractor @ London Bridge Hotel\n\n︎\n\nMüügijuht @ London Bridge Hotel\n\n︎\n\nPeajuhataja @ London Bridge Hotel\n\n︎\n\nFood And Beverage Manager @ London Bridge Hotel\n\n︎\n\nMüügijuht @ London Bridge Hotel\n\n︎\n\nHospitality @ London Bridge Hotel\n\n︎\n\nHospitality @ London Bridge Hotel\n\n︎\n\nSekretär @ London Bridge Hotel\n\n## MUUD ETTEVÕTETEL HUVIPAKKUVAD\n\n︎\n\nAlfredo De Leon London\n\nDirektor @ Tabard Developments Limited\n\n︎\n\nAlfredo De Leon Bridge\n\nSekretär @ Gama Management Limited\n\n︎\n\nAlfredo De Leon Wales\n\n@ Kensington House Hotel\n\n︎Eemalda Alfredo De Leon\n\nLähedane\n\nAntud tegevuse sooritamiseks pead olema sisse loginud. Soovid seda teha?\n\nVÕI\n\nTühistama",
+            "published_date": null,
+            "query": "\"Alfredo De Leon\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "+44 (0)20 7855 2297",
+            "confidence": "medium",
+            "source_url": "https://londonbridgehotel.com/",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "+44 (0)20 7855 2223",
+            "confidence": "medium",
+            "source_url": "https://londonbridgehotel.com/",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "+44 (0)20 7855 2205",
+            "confidence": "medium",
+            "source_url": "https://londonbridgehotel.com/",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "+44 20 7855 2200",
+            "confidence": "medium",
+            "source_url": "https://leadquest.co.uk/alfredo+de+leon_london-bridge-hotel_6q-gb",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": "https://uk.linkedin.com/in/alfredodeleon",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_f8482c788190a08b",
+        "full_name": "Nick Cowell",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "London Bridge Hotel",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "http://press.londonbridgehotel.com/wp-content/uploads/2015/01/London-Bridge-Hotel-Press-Kit.pdf",
+            "title": "2015 Press Kit",
+            "source_type": "press",
+            "snippet": "General Manager: Nicholas Cowell",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Nick Cowell, General Manager at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html",
+            "title": "TripAdvisor Reviews",
+            "source_type": "other",
+            "snippet": "Kind regards Nick Cowell General Manager (multiple responses)",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/nick-cowell-email_90872339",
+            "title": "Nick Cowell Email & Phone Number | London Bridge Hotel General ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.propertyweek.com/author/nicholas-cowell",
+            "title": "Nicholas Cowell | Property Week",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Nicholas Cowell | Property Week \n\n \n\n## HIP HIP AWAY\n\nMy first big surprise last week was the announcement that the government has finally abolished HIPs. I think that all residential agents have let out a huge sigh of relief that this useless bit of legislation has been done away with for good. I personally do not know of any agents,…\n\n## Cowell on Harleys, Hague and One Hyde Park\n\nHello and I suppose welcome to my very first property blog. First of all I would like to thank Giles Barrie for letting me have the enviable position to offer and impart my thoughts on the property industry.Well to begin with, I spent the whole of last week driving down…",
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.co.uk/Hotel_Feature-g186338-d192044-zft1-London_Bridge_Hotel.html",
+            "title": "London Bridge Hotel Rooms Pictures & Reviews (England)",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "London Bridge Hotel Rooms: Pictures & Reviews - Tripadvisor\nSkip to main content\n[London](https://www.tripadvisor.co.uk/ClientLink?value=ZWFoXy9Ub3VyaXNtLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQtVmFjYXRpb25zLmh0bWxfWDNP)[Hotels](https://www.tripadvisor.co.uk/ClientLink?value=RHVwXy9Ib3RlbHMtZzE4NjMzOC1Mb25kb25fRW5nbGFuZC1Ib3RlbHMuaHRtbF9vWEM=)[Things to Do](https://www.tripadvisor.co.uk/ClientLink?value=TFpyXy9BdHRyYWN0aW9ucy1nMTg2MzM4LUFjdGl2aXRpZXMtTG9uZG9uX0VuZ2xhbmQuaHRtbF9aczc=)[Restaurants](https://www.tripadvisor.co.uk/ClientLink?value=YWVDXy9SZXN0YXVyYW50cy1nMTg2MzM4LUxvbmRvbl9FbmdsYW5kLmh0bWxfQUdZ)[Flights](https://www.tripadvisor.co.uk/ClientLink?value=ZGxKXy9GbGlnaHRzLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQtQ2hlYXBfRGlzY291bnRfQWlyZmFyZXMuaHRtbF9YT1M=)[Holiday Rentals](https://www.tripadvisor.co.uk/ClientLink?value=ZHNCXy9WYWNhdGlvblJlbnRhbHMtZzE4NjMzOC1SZXZpZXdzLUxvbmRvbl9FbmdsYW5kLVZhY2F0aW9uX1JlbnRhbHMuaHRtbF81YnA=)[Cruises](https://www.tripadvisor.co.uk/ClientLink?value=SzdpXy9DcnVpc2VEZXN0aW5hdGlvbi1nNC1FdXJvcGVfUGN0)[Car Hire](https://www.tripadvisor.co.uk/ClientLink?value=Zm9XXy9SZW50YWxDYXJzLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQuaHRtbF9rVlc=)[Forums](https://www.tripadvisor.co.uk/ClientLink?value=dnVRXy9TaG93Rm9ydW0tZzE4NjMzOC1Mb25kb25fRW5nbGFuZC5odG1sX2hCWg==)\n[Europe](https://www.tripadvisor.co.uk/Tourism-g4-Europe-Vacations.html)\n[United Kingdom (UK)](https://www.tripadvisor.co.uk/Tourism-g186216-United_Kingdom-Vacations.html)\n[England](https://www.tripadvisor.co.uk/Tourism-g186217-England-Vacations.html)\n[London](https://www.tripadvisor.co.uk/Tourism-g186338-London_England-Vacations.html)\n[London Hotels](https://www.tripadvisor.co.uk/Hotels-g186338-London_England-Hotels.html)\n[London Bridge Hotel](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html)\nLondon Bridge Hotel Rooms\n# London Bridge Hotel Rooms Pictures & Reviews (England)\n[\nLondon Bridge Hotel\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html)\n*2 people*are viewing this hotel\nCheck In\n—/ —/ —Check Out\n—/ —/ —Guests\n1 room,2 adults,0 children\n![Booking.com](https://static.tacdn.com/img2/branding/hotels/Booking_Com_v2_384x164_Blue.png)\n£168\nView deal\nFully refundable before Fri, 23 May\nNo prepayment needed\n![Trip.com](https://static.tacdn.com/img2/branding/hotels/trip_logo_tripadvisor.png)\n£153\nView deal\nFully refundable before Fri, 23 May\nEarn Trip Coins after your stay\nPrices are provided by our partners, and reflect nightly room rates, including all taxes and fees known to our partners. Please see our partners for more details.\n# All You Need to Know About the Rooms\nat[\nLondon Bridge Hotel\n](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html)\n* ![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/0a/b3/78/apartment.jpg?w=700&h=-1&s=1)\n* ![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/0a/b3/69/apartment.jpg?w=700&h=-1&s=1)\n* ![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/4e/10/2f/superior-room.jpg?w=700&h=-1&s=1)\n* * Full view\n![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/0a/b3/69/apartment.jpg?w=1200&h=-1&s=1)\n![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/4e/10/2f/superior-room.jpg?w=1200&h=-1&s=1)\nRoom/Suite(407)\nRoom review highlights\n[\n](https://www.tripadvisor.co.uk/Profile/jonathanmZ9367NC)\n... condoms and some form of sex toy in the draw which showsroomnot cleaned properly after the last guest left. (I have...\n[\n](https://www.tripadvisor.co.uk/Profile/gj6)\nSpent a night here with my daughter, lovelyroomwith good comfy beds. Everything you needed in theroomand the bathroom was...\n[\n](https://www.tripadvisor.co.uk/Profile/SamrossC)\n... has everything you need. The beds are really comfy and theroomand bathroom were immaculate. We had a cooked breakfast both...\n[Read all room reviews(1,978)](#REVIEWS)[Read all reviews(3,300)](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html#REVIEWS)\nMost popular question about the rooms\nHi Does the standardroomrate include breakfast? Most booking sites listed “free breakfast” for this hotel? Thanks\n[\n](https://www.tripadvisor.co.uk/Profile/SarahT707)\nAnswer from[Sarah T](https://www.tripadvisor.co.uk/Profile/SarahT707)\nMay 2019\n... never included breakfast, but if you have an upgrade to a premiumroom, they will give you a voucher for coffee and a croissant\nRead more\n[Read all questions about the rooms(6)](#ANSWERS)[Read all Q&A(32)](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html#QUESTIONS)\nFeatured room amenities\nRoom service\n... Station and Borough Market, also, easily accessible to bars andrestaurantalong the Thames, we enjoyed looking at the pr...\nSafe\n... tea and coffee making facilities, iron and trouser press,safe, wardrobe, White Company toiletries and free water and fruit.\nBathrobes\nThe extra details made a difference -bathrobes, water, coffee machine etc.\nSee all room amenities(26)[See all hotel amenities](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html#ABOUT_TAB)\n## Reviews that mention rooms[Read all reviews](https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html#REVIEWS)\n[\nWrite a review\n](https://www.tripadvisor.co.uk/UserReviewEdit-g186338-d192044-London_Bridge_Hotel-London_England.html)\n[\n](https://www.tripadvisor.co.uk/Profile/jonathanmZ9367NC)\n[jonathan m](https://www.tripadvisor.co.uk/Profile/jonathanmZ9367NC)wrote a reviewDec 2024\n4contributions\n2.0 of 5 bubbles\n[Disappointedroomnot cleaned from last guest](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d192044-r986998603-London_Bridge_Hotel-London_England.html)\nWe stayed here for two night bed comfortable but we found condoms and some form of sex toy in the draw which showsroomnot cleaned properly after the last guest left. (I have photos)\nreception not bothered smiled and chuckled And due to this it felt like a big let down given the price of this hotel per night.\nThe quilt cover on the bed is the right size for bed but the quilt inside the cover was too small the cover and the bed and didn’t fill it corner to corner.\nFood and staff in hotel bar very good would recommend the meat plater.\nMy reservation is 1957516\nRead more\nRead less\nDate of stay:December 2024Trip type:Travelled as a couple\nRoom Tip:Check your room has been cleaned from last guest\nThis review is the subjective opinion of a Tripadvisor member and not of Tripadvisor LLC. Tripadvisor performs checks on reviews.\n0\n[\n](https://www.tripadvisor.co.uk/Profile/gj6)\n[Gill J](https://www.tripadvisor.co.uk/Profile/gj6)wrote a reviewMay 2024\nWinchester, United Kingdom172contributions112helpful votes\n5.0 of 5 bubbles\n[Perfect for Us](https://www.tripadvisor.co.uk/ShowUserReviews-g186338-d192044-r950985047-London_Bridge_Hotel-London_England.html)\nSpent a night here with my daughter, lovelyroomwith good comfy beds.\nEverything you needed in theroomand the bathroom was nice and clean.\nLocation is fantastic for walking out and Bourough Market is just a few steps away.\nBreakfast was great and best of all, every one of the staff that we met, from concierge , reception and bar staff were all super friendly and helpful 🙂Will stay again when next visiting London\nRead more\nRead less\nDate of stay:May 2024Trip type:Travelled with family\n4.0 of 5 bubblesValue\n5.0 of 5 bubblesRooms\n5.0 of 5 bubblesLocation\n5.0 of 5 bubblesCleanliness\n5.0 of 5 bubblesService\n5.0 of 5 bubblesSleep Quality\nThis review is the subjective opinion of a Tripadvisor member and not of Tripadvisor LLC. Tripadvisor performs checks on reviews.\n1\n[\n](https://www.tripadvisor.co.uk/Profile/SamrossC)\n[SamC](https://www.tripadvisor.co.uk/Profile/SamrossC)wrote a reviewDec 2019\nEastbourne, United Kingdom10contri",
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://leadquest.co.uk/n+cowell_london-bridge-hotel_6q-gb",
+            "title": "N. Cowell - London Bridge Hotel, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "N. Cowell - London Bridge Hotel, London\n\nLondon Bridge Hotel Contact in London United Kingdom Edit| Remove\n\n# N. Cowell\n\nGeneral Manager at London Bridge Hotel · London\n\n[email protected]\n\nEdit Listing\n\nN. Cowell was associated with London Bridge Hotel between 2010 and 2013. They may have been associated with this organization before or after these years as well.\n\n## (6) Others with Similar First and Last Names\n\nName\n\nPosition\n\nBusiness\n\nCity\n\nN. Cowell\n\nPartner\n\nat The Estate Office\n\n· London\n\nN. Cowell\n\nProprietor\n\nat Chorver Technologies\n\n· Bromley\n\nN. C. Cowell,\n\nCowell\n\nat Anagh Coar School\n\n· Douglas, South Lanarkshire\n\nJ. N. H. Cowell\n\nBranch Manager\n\nat Cash Xchange\n\n· Maldon, Essex\n\nN. P. Cowell\n\nPartner\n\nat Cavendish Dental Practice\n\n· Barrow-in-Furness\n\nJ. N. H. Cowell\n\nManaging Director\n\nat Cash Xchange\n\n· Northampton\n\n## London Bridge Hotel Business Data\n\n8-18 London Bridge St, London SE1 9SG, United Kingdom, England\n\n+44 20 7855 2200\n\n[email protected]\n\nwww.londonbridgehotel.com\n\nBizSeek Business Profile\n\n## N. Cowell Coworkers at London Bridge Hotel (19)\n\nJustin Hurbert\n\nFinancial Director at London Bridge Hotel · London\n\nYehonatan Ella\n\nContractor at London Bridge Hotel · London\n\nRon Rose\n\nSales Manager at London Bridge Hotel · London\n\nJulio Marques\n\nFood And Beverage Manager at London Bridge Hotel · London\n\nHeather Dorward\n\nSales Manager at London Bridge Hotel · London\n\nSusan Chan Clarke\n\nHospitality at London Bridge Hotel · London\n\nGeorge Tawdrous\n\nHospitality at London Bridge Hotel · London\n\nAlfredo De Leon\n\nHospitality at London Bridge Hotel · London\n\nYitshak Isaac Ella\n\nsecretary at London Bridge Hotel · London\n\nAgnieszka Borowska- Jocz\n\nHospitality at London Bridge Hotel · London\n\nMamon Hamdah\n\nHospitality at London Bridge Hotel · London\n\nIvan Maurice Elias\n\ndirector at London Bridge Hotel · London\n\nFederico De Feudis\n\nHospitality at London Bridge Hotel · London\n\nAurelija Sakalaviciute\n\nHospitality at London Bridge Hotel · London\n\nRicardo Gaspar\n\nHospitality at London Bridge Hotel · London\n\nPaul O'Pray\n\nHospitality at London Bridge Hotel · London\n\nAnthony Carhart\n\nHospitality at London Bridge Hotel · London\n\nJurate Veriugaite\n\nSecurity and Investigations at London Bridge Hotel · London\n\nAhmed Majdouli\n\nHospitality at London Bridge Hotel · London\n\n## (24) Industry Contacts\n\nHotels and motels\n\nC. Morling\n\nManaging Director at Dot Zinc Ltd · London\n\nW. Dyson\n\nBentley & Mane · London\n\nLynde Gilbert\n\nSDM at Cathedral View Limited · London\n\nGama Management Limited Contacts\n\nAlfredo De Leon\n\nsecretary at Gama Management Limited · Bridge, Kent\n\nSimon Murad Elias\n\ndirector at Gama Management Limited · Bridge, Kent\n\nAlfredo Santos\n\nsecretary at Gama Management Limited · Bridge, Kent\n\nShangri-La Hotel at The Shard London Contacts\n\nZaneta Kalinaite\n\nHospitality at Shangri-La Hotel at The Shard London · London\n\nChai Ming Abbott\n\nsecretary at Shangri-La Hotel at The Shard London · London\n\nMadhu Rama Chandra Rao\n\ndirector at Shangri-La Hotel at The Shard London · London\n\nGiovanni Angelini\n\ndirector at Shangri-La Hotel at The Shard London · London\n\nChye Khoon Ho Kuok\n\ndirector at Shangri-La Hotel at The Shard London · London\n\n## (24) Industry Contacts\n\nFood and beverage service activities\n\nFish! Borough Market Restaurant Contacts\n\nA. McOnie\n\nManager at Fish! Borough Market Restaurant · London\n\nAndew Basford\n\nArea Manager at Fish! Borough Market Restaurant · London\n\nSam\n\ncamarero at Fish! Borough Market Restaurant · London\n\nVictor Freire\n\nFood Production at Fish! Borough Market Restaurant · London\n\nMaria Zizzi\n\nHospitality at Fish! Borough Market Restaurant · London\n\nWright Brothers Borough Market Contacts\n\nAndrei\n\nUnknown at Wright Brothers Borough Market · London\n\nHeather\n\nUnknown at Wright Brothers Borough Market · London\n\nEvelyn\n\nMain Server at Wright Brothers Borough Market · London\n\nConrad\n\nUnknown at Wright Brothers Borough Market · London\n\nImad\n\nUnknown at Wright Brothers Borough Market · London\n\nSt Christopher's Inn Pub Contacts\n\nBrian\n\nbartender at St Christopher's Inn Pub · London\n\nAntonio Gonzalez\n\nGeneral Manager at St Christopher's Inn Pub · London\n\nSir Rob Butler\n\nunknown at St Christopher's Inn Pub · London\n\nCopyright © LeadQuest :: 2026 :: All Rights Reserved\n\nRemoval Tool\n\nPrivacy Terms Contact",
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/nicholas-cowell-8591366",
+            "title": "Nicholas Cowell | Director Cowell Group of Companies",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/nick-cowell-9003017",
+            "title": "nick cowell | General Manager at London Bridge Hotels Ltd",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/alfredodeleon",
+            "title": "Alfredo De Leon | General Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+            "title": "Nicola Ormondroyd | Office Manager & HR Administrator",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+            "title": "Daniel Garcia Arnau | Sales and Marketing Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/robert-naraine-57519716",
+            "title": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Cowell\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "+44 20 7855 2200",
+            "confidence": "medium",
+            "source_url": "https://leadquest.co.uk/n+cowell_london-bridge-hotel_6q-gb",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_6cefdddef17b0e9f",
+        "full_name": "Lisa Morley-Lynch",
+        "title": "Director of Sales and Marketing",
+        "normalized_title": "director of sales and marketing",
+        "company": "London Bridge Hotel",
+        "role_tier": 2,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/lisa-morley-lynch-email_77437030",
+            "title": "RocketReach",
+            "source_type": "directory",
+            "snippet": "Lisa Morley-Lynch ... Director of Sales and Marketing at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.travelweekly.com/Hotels/London/London-Bridge-Hotel-p3639324",
+            "title": "TravelWeekly",
+            "source_type": "directory",
+            "snippet": "Key Personnel: Lisa Morley, Director of Sales",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://wiza.co/d/london-bridge-hotel/2a95/lisa-morley-lynch",
+            "title": "Lisa Morley-Lynch - Director of Sales & Marketing at London Bridge ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Lisa Morley-Lynch - Director of Sales & Marketing at London Bridge Hotel - Wiza\n\nSolutions\n\nSolutions\n\nSalesFind validated prospect information\n\nRecruitingSource candidate contact information\n\nMarketingBuild targeted custom audiences\n\nAPIRealtime data with API calls\n\nHow it worksWatch a helpful video on Wiza and how to get the most out of itWatch video\n\nResources\n\nSupport Line\n\nKnowledge baseFind an answer for a question\n\nSupport\n\nGet in touch with our team\n\nLearn & Grow\n\nCustomersMeet the GTM teams using Wiza\n\nBlogHelpful ideas to succeed in sales\n\nWatch our demoSee Wiza in action\n\nBook a meetingGet a 1 on 1 product tour\n\nGet started for free\n\n# Lisa Morley-Lynch - Email & Phone Number\n\n### Director of Sales & Marketing at London Bridge Hotel\n\nLisa Morley-Lynch is based out of London Area, United Kingdom and works at London Bridge Hotel as Director of Sales & Marketing.\n\nReveal contact info for free\n\n## Lisa Morley-Lynch's Contact Information\n\nLisa Morley-Lynch's Work email\n\nl*****@london***.com\n\nValid\n\nFree Email Reveal\n\nLatest update\n\nOctober 31, 2025\n\nLocation\n\nLondon Area, United Kingdom\n\n## Lisa's current employer\n\n### London Bridge Hotel\n\nDescription\n\nLondon Bridge Hotel is an independent 4 star boutique hotel located near the River Thames in Southwark, ideal for a city getaway. Positio...\n\nWebsite\n\nHQ Location\n\nLondon, Greater london, United kingdom\n\nNumber of employees\n\n51-200\n\nIndustry\n\nHospitality\n\nLatest update\n\nApril 30, 2024\n\nRead about London Bridge Hotel Export\n\n## Frequent questions about Lisa Morley-Lynch\n\nWhat company is Lisa Morley-Lynch working for?\n\nLisa Morley-Lynch works for London Bridge Hotel.\n\nWhat is Lisa Morley-Lynch's function at London Bridge Hotel?\n\nLisa Morley-Lynch is Director of Sales & Marketing at London Bridge Hotel.\n\nWhere is Lisa Morley-Lynch based?\n\nLisa Morley-Lynch is based out of London Area, United Kingdom.\n\nWhat is Lisa Morley-Lynch's work email address?\n\nLisa Morley-Lynch's professional email address is l*****@london***.com\n\nWho are Lisa Morley-Lynch's co-workers?\n\nLisa Morley-Lynch's colleagues are Guy Lungwa-Loussi, Gracie Greene, Nikolaos Drosidis, Nicola Ormondroyd, Daniel Arnau, Helene Janson, Elisa Bandinu, Piero Chiricozzi, Costina Cratan, Marina Moschidou, Alfredo Leon, Jasmine Harry, Aurelija Velicke, Cristina Sande.\n\nFind anyone's contact info.\n\nGet 20 free email reveals\n\n## Lisa's co-workers\n\nNikolaos DrosidisReceptionist Team Leader\n\nNicola OrmondroydOffice Manager & Human Resources Administrator\n\nDaniel ArnauSales and Marketing Executive\n\nPiero ChiricozziSenior Sales Manager\n\nMarina MoschidouAssistant Reception Manager\n\nJasmine HarryHuman Resources Administrator\n\nCristina SandeSales Manager at London Bridge Hotel\n\nBrowse & Connect\n\n### Browse companies\n\nOur company index contains hundreds of thousands of businesses.\n\nWiza does not guarantee or claim any of the information found on this public directory to be 100% accurate or up to date.Information found here is gathered from a variety of online and offline sources.If you wish to exclude your personal data from this public directory please fill out the optout form.\n\nThe future of prospecting © 2026 Wiza\n\n“Wiza is a sales prospecting & engagement platform.”\n\nSolutions\n\nResources\n\nCompany\n\nDisclaimer: Wiza, Inc is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Microsoft or LinkedIn, or any of their subsidiaries or affiliates. The name LinkedIn, as well as related names, marks, logos, emblems, and images are registered trademarks of their respective owners.",
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "title": "Alfredo De Leon Email & Phone Number",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Alfredo De Leon Email & Phone Number | LONDON BRIDGE HOTEL General Manager Contact Information\n[![Alfredo De Leon Email & Phone Number](https://d2gjqh9j26unp0.cloudfront.net/profilepic/50d77b7d88e1fff742ee21db928f9f9a)](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n# [Alfredo De Leon Email & Phone Number](https://rocketreach.co/alfredo-de-leon-email_21438865)\n### General Manager\n@[London Bridge Hotel](https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7)\n[**Preparing profile…View Alfredo's Email & Phone Number(It's Free)](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n![Arrow](https://static.rocketreach.co/images/landing/profile/arrow.svg)\n5 free lookup(s) per month.\nNo credit card required.\n* **\n* **\n### **Alfredo De Leon Location\nLondon, GB\n### **Alfredo De Leon Work\n* 2020 - nowGeneral Manager @[London Bridge Hotel](https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7)\n* 2007 - 2020Financial Controller and HR Manager @[London Bridge Hotel](https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7)\n[View Department](https://rocketreach.co/london-bridge-hotel-finance-department_b4447460fa9333a7)\n* 2006 - 2007Group Credit Manager for London @ glh Hotels (formerly Thistle & Guoman Hotels)see more\n* 2001 - 2006Group Credit Manager, UK and France @ Real Hotels Group (formerly Choice Hotels Europe plc)\n* 2001 - 2001Accountant @[Jurys Inn Hotel Group](https://rocketreach.co/jurys-inn-hotel-group-profile_b5db7340f42e51b7)\n[View Department](https://rocketreach.co/jurys-inn-hotel-group-finance-department_b5db7340f42e51b7)\n* 1997 - 2000Financial Controller @[Chesterfield Mayfair](https://rocketreach.co/chesterfield-mayfair-profile_b4534d38fc8144ed)\n* 1996 - 1997Revenue Analyst @[The Ritz London](https://rocketreach.co/the-ritz-london-profile_b5c74b0ff42e0d15)\n[View Department](https://rocketreach.co/the-ritz-london-finance-department_b5c74b0ff42e0d15)\n* 1995 - 1996Accounts Assistant @[The Lanesborough](https://rocketreach.co/the-lanesborough-profile_b5d66289f42e32b8)\n[View Department](https://rocketreach.co/the-lanesborough-finance-department_b5d66289f42e32b8)\n* 1991 - 1994B and L Supervisor, Income Auditor @ Cunard Hotels Ltd (The Ritz Hotel, Stafford Hotel & Dukes Hotel)\n* 1988 - 1991B and L Supervisor, Income Auditor @ Portman Inter-continental Hotelsee less\n### **Alfredo De Leon Education\n* Don Bosco Technical College, Mandaluyong\n* Philippine School of Business Administration\nBachelor of Science (Accounting)\n### **Alfredo De Leon Skills\n* P&L\n* Budget Preparation\n* Accountingsee more\n* Cash Flow\n* Human Resources\n* Sales\n* Human Resources Administration\n* Forecasting\n* Credit Control\n* Strategic Planningsee less\n### Alfredo De Leon Summary\nAlfredo De Leon, based in London, GB, is currently a General Manager at LONDON BRIDGE HOTEL. Alfredo De Leon brings experience from previous roles at LONDON BRIDGE HOTEL, glh Hotels (formerly Thistle &amp; Guoman Hotels), Real Hotels Group (formerly Choice Hotels Europe plc) and Jurys Inn Hotel Group. Alfredo De Leon holds a Don Bosco Technical College, Mandaluyong. With a robust skill set that includes P&L, Budget Preparation, Accounting, Cash Flow, Human Resources and more. Alfredo De Leon has 2 emails and 2 mobile phone numbers on RocketReach.\n## [Alfredo De Leon Emails](https://rocketreach.co/alfredo-de-leon-email_21438865)\nFound 2 emails\n* [@gmail.com](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n* [@londonbridgehotel.com](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n## [Alfredo De Leon Phone Numbers](https://rocketreach.co/alfredo-de-leon-email_21438865)\nFound 2 phone numbers\n* [44750768XXXX](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n* [44750568XXXX](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n[**Preparing profile…View Alfredo's Email & Phone Number(It's Free)](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n![Arrow](https://static.rocketreach.co/images/landing/profile/arrow.svg)\n5 free lookup(s) per month.\nNo credit card required.\nIf you need more lookups,subscriptions start at €25(billed at $28 USD/month).\nRedirecting you to the search page.**\nIf you're not automatically redirected, pleaseclick here\n### Looking for a different**Alfredo De Leon**?\nFind contact details for**700 million**professionals.\n### Search\n**\n## Others Named**Alfredo De Leon**\n* [![Talentcor Employee Alfredo de Leon's profile photo](https://static.rocketreach.co/images/profile_pics/v2.1/dppm10.png)](https://rocketreach.co/alfredo-de-leon-email_59164063)\n[### Alfredo de Leon\n#### Account Manager\nat Talentcor\n](https://rocketreach.co/alfredo-de-leon-email_59164063)\n**Canada\nView\n**1****\n* thepeoplebank.com\n* [![Insight Employee Alfredo De Leon's profile photo](https://d2gjqh9j26unp0.cloudfront.net/profilepic/1de40a7114577524f39a95b86ae4a467)](https://rocketreach.co/alfredo-de-leon-email_236938968)\n[### Alfredo De Leon\n#### Server Engineer\nat Insight\n](https://rocketreach.co/alfredo-de-leon-email_236938968)\n**Phoenix, AZ, US\nView\n**2****\n* insight.com\n* army.mil\n* [![Fidelity Investments Employee Alfredo De Leon's profile photo](https://static.rocketreach.co/images/profile_pics/v2.1/dppm5.png)](https://rocketreach.co/alfredo-de-leon-email_254724306)\n[### Alfredo De Leon\n#### Senior Software Engineer\nat Fidelity Investments\n](https://rocketreach.co/alfredo-de-leon-email_254724306)\n**Dallas, Texas, United States\nView\n**3****\n* gmail.com\n* fmr.com\n* fidelity.com\n[View Similar Profiles](https://rocketreach.co/person?name=Alfredo%20De%20Leon&orderBy=popularity)\n## Top**London Bridge Hotel**Employees\n* [![London Bridge Hotel Employee Lisa Morley-Lynch's profile photo](https://static.rocketreach.co/images/profile_pics/v2.1/dppf6.png)](https://rocketreach.co/lisa-morley-lynch-email_77437030)\n[### Lisa Morley-Lynch\n#### Director of Sales and Marketing\nat London Bridge Hotel\n](https://rocketreach.co/lisa-morley-lynch-email_77437030)\n**London, Greater London, United Kingdom\nView\n**1****\n* londonbridgehotel.com\n* [![London Bridge Hotel Employee Alfredo De Leon's profile photo](https://d2gjqh9j26unp0.cloudfront.net/profilepic/50d77b7d88e1fff742ee21db928f9f9a)](https://rocketreach.co/alfredo-de-leon-email_21438865)\n[### Alfredo De Leon\n#### General Manager\nat London Bridge Hotel\n](https://rocketreach.co/alfredo-de-leon-email_21438865)\n**London, GB\nView\n**2****\n* londonbridgehotel.com\n* gmail.com\n**2****\n* 44750768XXXX\n* 44750568XXXX\n* [![London Bridge Hotel Employee Robert Naraine's profile photo](https://d2gjqh9j26unp0.cloudfront.net/profilepic/33355a8a474e845b36d65dff68bcc003)](https://rocketreach.co/robert-naraine-email_27383429)\n[### Robert Naraine\n#### Head Concierge\nat London Bridge Hotel\n](https://rocketreach.co/robert-naraine-email_27383429)\n**London, GB\nView\n**1****\n* londonbridgehotel.com\n* [![London Bridge Hotel Employee Guy Lungwa-Loussi's profile photo](https://d2gjqh9j26unp0.cloudfront.net/profilepic/13cab0114e5cec320c47bf3608b82270)](https://rocketreach.co/guy-lungwa-loussi-email_217566786)\n[### Guy Lungwa-Loussi\n#### Head chef\nat London Bridge Hotel\n](https://rocketreach.co/guy-lungwa-loussi-email_217566786)\n**London, GB\nView\n**1****\n* gmail.com\n* [![London Bridge Hotel Employee Louise Medland's profile photo](https://d2gjqh9j26unp0.cloudfront.net/profilepic/1a8a052bae970ef926b37beff82ed8c2)](https://rocketreach.co/louise-medland-email_102543269)\n[### Louise Medland\n#### Revenue Manager\nat London Bridge Hotel\n](https://rocketreach.co/louise-medland-email_102543269)\n**London, GB\nView\n**1****\n* londonbridgehotel.com\n* [![London Bridge Hotel Employee Helene Janson's profile photo](https://static.rocketreach.co/images/profile_pics/v2.1/dppf13.png)](https://rocketreach.co/helene-janson-email_321958461)\n[### Helene Janson\n#### Financial Controller\nat London Bridge Hotel\n](https://r",
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://salesflow.io/contact/lisa-morley-lynch-director-of-sales-&-marketing/",
+            "title": "Lisa Morley-Lynch - Director of Sales & Marketing - Salesflow ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.teamlondonbridge.co.uk/news/london-bridge-hotel-and-slm-bermondsey-unite-for-international-womens-day-celebration/",
+            "title": "London Bridge Hotel and SLM Bermondsey Unite for International ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "London Bridge Hotel and SLM Bermondsey Unite for International Women’s Day Celebration - Team London Bridge\n\nShare: Share Share on X Share on LinkedIn\n\n# London Bridge Hotel and SLM Bermondsey Unite for International Women’s Day Celebration\n\nA heartfelt act of generosity and community spirit marked this year’s International Women’s Day (IWD) in London Bridge, as a local business stepped up to support a small charity in a meaningful way.\n\nResponding to a call for collaboration from Team London Bridge, London Bridge Hotel extended its hospitality to the South London Mission (SLM) Bermondsey, ensuring an unforgettable celebration of female staff and volunteers.\n\nOn Monday, the SLM Bermondsey team gathered at London Bridge Hotel‘s Quarter Bar & Lounge for a special event that made them feel truly valued. The food and drinks were beautifully presented, and the outstanding service from the hotel’s team ensured that every guest felt special.\n\nLisa Morley-Lynch and Daniel Garcia, along with the entire team at London Bridge Hotel, were at the heart of this experience, creating an atmosphere of gratitude and recognition. As SLM Bermondsey shared afterward, this wasn’t just about a meal—it was about reinforcing the importance of their female staff and volunteers, reminding them that their contributions matter.\n\n“It was also wonderful to hear that this was not the first time London Bridge Hotel has supported the South London Mission,” the SLM team reflected. “Some of the presents we distribute at Christmas are sourced and wrapped by hotel staff, which we then pass on to our guests. Each step of this virtuous circle feeds into the wellbeing of our community and strengthens the partnership between the private and charity sectors.”\n\nAt Team London Bridge, we’re proud to help connect local businesses with the causes that matter most in our community. Though some of our team couldn’t be there on the day, we’re thrilled to have played a part in making this moment happen.\n\nLondon Bridge Hotel continues to be an incredible partner in community support, and they see the value in these connections too. “Thanks to Team London Bridge, we’re more aware of what’s happening locally, and with their help, we can fulfil part of our corporate social responsibility,” they said. “We love getting involved in the Gift Back campaign, volunteering, and donating gifts for local charities. Hosting events like this is just another way we can contribute.”\n\nThis event was a perfect example of what happens when businesses and charities come together—not just for one day, but in an ongoing effort to build a stronger, more connected community. Here’s to more collaborations that make a difference!\n\nIf your business would like to get involved in supporting local charities and initiatives, reach out to Sofia.",
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/alfredodeleon",
+            "title": "Alfredo De Leon | General Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/robert-naraine-57519716",
+            "title": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+            "title": "Daniel Garcia Arnau | Sales and Marketing Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/florin-paul-gheorghita-540256265",
+            "title": "Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/agnes-borowska-jocz-0791392b",
+            "title": "Agnes Borowska-Jocz | Reception Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Lisa Morley-Lynch\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "2007 - 2020",
+            "confidence": "medium",
+            "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "2006 - 2007",
+            "confidence": "medium",
+            "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "2001 - 2006",
+            "confidence": "medium",
+            "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "2001 - 2001",
+            "confidence": "medium",
+            "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "1997 - 2000",
+            "confidence": "medium",
+            "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_632b2a5e5c8a92eb",
+        "full_name": "Daniel Garcia",
+        "title": "Sales and Marketing Manager",
+        "normalized_title": "sales and marketing manager",
+        "company": "London Bridge Hotel",
+        "role_tier": 3,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/danielgarciaarnau",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Sales and Marketing Manager, Experience: London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/danielgarciaarnau_its-been-a-month-already-since-i-first-joined-activity-6953616313663549440-deum",
+            "title": "It's been a month already since I first joined LONDON BRIDGE ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Daniel Garcia\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.teamlondonbridge.co.uk/news/london-bridge-hotel-and-slm-bermondsey-unite-for-international-womens-day-celebration/",
+            "title": "London Bridge Hotel and SLM Bermondsey Unite for International ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "London Bridge Hotel and SLM Bermondsey Unite for International Women’s Day Celebration - Team London Bridge\n\nShare: Share Share on X Share on LinkedIn\n\n# London Bridge Hotel and SLM Bermondsey Unite for International Women’s Day Celebration\n\nA heartfelt act of generosity and community spirit marked this year’s International Women’s Day (IWD) in London Bridge, as a local business stepped up to support a small charity in a meaningful way.\n\nResponding to a call for collaboration from Team London Bridge, London Bridge Hotel extended its hospitality to the South London Mission (SLM) Bermondsey, ensuring an unforgettable celebration of female staff and volunteers.\n\nOn Monday, the SLM Bermondsey team gathered at London Bridge Hotel‘s Quarter Bar & Lounge for a special event that made them feel truly valued. The food and drinks were beautifully presented, and the outstanding service from the hotel’s team ensured that every guest felt special.\n\nLisa Morley-Lynch and Daniel Garcia, along with the entire team at London Bridge Hotel, were at the heart of this experience, creating an atmosphere of gratitude and recognition. As SLM Bermondsey shared afterward, this wasn’t just about a meal—it was about reinforcing the importance of their female staff and volunteers, reminding them that their contributions matter.\n\n“It was also wonderful to hear that this was not the first time London Bridge Hotel has supported the South London Mission,” the SLM team reflected. “Some of the presents we distribute at Christmas are sourced and wrapped by hotel staff, which we then pass on to our guests. Each step of this virtuous circle feeds into the wellbeing of our community and strengthens the partnership between the private and charity sectors.”\n\nAt Team London Bridge, we’re proud to help connect local businesses with the causes that matter most in our community. Though some of our team couldn’t be there on the day, we’re thrilled to have played a part in making this moment happen.\n\nLondon Bridge Hotel continues to be an incredible partner in community support, and they see the value in these connections too. “Thanks to Team London Bridge, we’re more aware of what’s happening locally, and with their help, we can fulfil part of our corporate social responsibility,” they said. “We love getting involved in the Gift Back campaign, volunteering, and donating gifts for local charities. Hosting events like this is just another way we can contribute.”\n\nThis event was a perfect example of what happens when businesses and charities come together—not just for one day, but in an ongoing effort to build a stronger, more connected community. Here’s to more collaborations that make a difference!\n\nIf your business would like to get involved in supporting local charities and initiatives, reach out to Sofia.",
+            "published_date": null,
+            "query": "\"Daniel Garcia\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+            "title": "Daniel Garcia Arnau | Sales and Marketing Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Daniel Garcia\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.comedy.co.uk/people/daniel_garcia/",
+            "title": "Daniel Garcia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Daniel Garcia\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.amazon.com/prime-video/actor/Daniel-Garcia/amzn1.dv.gti.54bbafba-1692-4abe-9d20-acee271d20d5/",
+            "title": "Daniel Garcia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Daniel Garcia\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/danielgarciaarnau",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_b896c1271621be62",
+        "full_name": "Helene Janson",
+        "title": "Financial Controller & HR Manager",
+        "normalized_title": "financial controller & hr manager",
+        "company": "London Bridge Hotel",
+        "role_tier": 3,
+        "role_family": "procurement_finance",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/helene-janson-a06638179",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Financial Controller & HR Manager, LONDON BRIDGE HOTEL",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Helene Janson, Financial Controller, London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://leadiq.com/c/london-bridge-hotel/5a1d9965230000520088232a",
+            "title": "LeadIQ",
+            "source_type": "directory",
+            "snippet": "Financial Controller: H. J.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/helene-janson-email_321958461",
+            "title": "Helene Janson Email & Phone Number | LONDON BRIDGE HOTEL ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Helene Janson\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "title": "Alfredo De Leon Email & Phone Number",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Helene Janson\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://wiza.co/d/london-bridge-hotel/2a95/helene-janson",
+            "title": "Helene Janson - Financial Controller at London Bridge Hotel - Wiza",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Helene Janson\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/helene-janson-a06638179",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_fc399a5d4b389bfa",
+        "full_name": "Louise Medland",
+        "title": "Revenue Manager",
+        "normalized_title": "revenue manager",
+        "company": "London Bridge Hotel",
+        "role_tier": 2,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/louise-medland-44b80220",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Revenue Manager, London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Louise Medland, Revenue Manager at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/louise-medland-email_102543269",
+            "title": "Louise Medland Email & Phone Number | London Bridge Hotel ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Louise Medland\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/pub/dir/Louise/Medland",
+            "title": "4 \"Louise Medland\" profiles - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Louise Medland\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-email-format_b4447460fa9333a7",
+            "title": "London Bridge Hotel Email Format | londonbridgehotel.com Emails",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Louise Medland\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/louise-medland-44b80220",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_b2a6b8708af4e488",
+        "full_name": "Robert Naraine",
+        "title": "Head Concierge",
+        "normalized_title": "head concierge",
+        "company": "London Bridge Hotel",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Robert Naraine, Head Concierge at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/london-bridge-hotel",
+            "title": "LinkedIn Company Page",
+            "source_type": "linkedin",
+            "snippet": "Robert Naraine, Head Concierge at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://leadiq.com/c/london-bridge-hotel/5a1d9965230000520088232a",
+            "title": "LeadIQ",
+            "source_type": "directory",
+            "snippet": "Head Concierge: R. N.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/robert-naraine-57519716",
+            "title": "Robert Naraine - Head Concierge at London Bridge Hotel ... - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.forbes.com/sites/lewisnunn/2026/04/15/an-insiders-guide-to-the-langham-london/",
+            "title": "An Insider’s Guide To The Langham, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "title": "Alfredo De Leon Email & Phone Number",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "http://londonbridgehotel.com/",
+            "title": "London Bridge Hotel | A Welcoming Four-Star Hotel in London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/pub/dir/Robert/Naraine",
+            "title": "5 \"Robert Naraine\" profiles - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/robert-naraine-57519716",
+            "title": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/aurelija-velicke-85b23495",
+            "title": "Aurelija Velicke | Reception Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+            "title": "Nicola Ormondroyd | Office Manager & HR Administrator",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/alfredodeleon",
+            "title": "Alfredo De Leon | General Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/florin-paul-gheorghita-540256265",
+            "title": "Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Robert Naraine\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_3ece8ce907f9472f",
+        "full_name": "Guy Lungwa-Loussi",
+        "title": "Head Chef",
+        "normalized_title": "head chef",
+        "company": "London Bridge Hotel",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Guy Lungwa-Loussi, Head Chef at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/guy-lungwa-loussi-250a2073",
+            "title": "Guy Lungwa-Loussi - London bridge hotel | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://wiza.co/d/london-bridge-hotel/2a95/guy-lungwa-loussi",
+            "title": "Guy Lungwa-Loussi - Head chef at London Bridge Hotel - Wiza",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+            "title": "Alfredo De Leon Email & Phone Number",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://wiza.co/d/london-bridge-hotel/2a95/alfredo-leon",
+            "title": "Alfredo Leon - General Manager at London Bridge Hotel - Wiza",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/guy-lungwa-loussi-250a2073",
+            "title": "Guy Lungwa-Loussi | CEO & Founder of GL Farm",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/alfredodeleon",
+            "title": "Alfredo De Leon | General Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+            "title": "Nicola Ormondroyd | Office Manager & HR Administrator",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/robert-naraine-57519716",
+            "title": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+            "title": "Daniel Garcia Arnau | Sales and Marketing Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Guy Lungwa-Loussi\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_dd178faf5a2ce4dc",
+        "full_name": "Aurelija Velicke",
+        "title": "Reception Manager",
+        "normalized_title": "reception manager",
+        "company": "London Bridge Hotel",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Aurelija Velicke, Reception Manager at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/aurelija-velicke-85b23495",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "Experience: London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://platinum-hospitality.co.uk/resume/aurelija-vbpebyiizm-hotel-receptionist-london-uk",
+            "title": "Catering &amp; Hospitality Recruitment Agency | Platinum Recruitment",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Aurelija Velicke\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://leadquest.co.uk/aurelija+sakalaviciute_london-bridge-hotel_6q-gb",
+            "title": "Aurelija Sakalaviciute - London Bridge Hotel, London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Aurelija Velicke\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://www.londonhotelsgb.org/en/property/the-aurelia/reviews.html",
+            "title": "Hotels, Accommodations and Lodgings in London, United Kingdom ≡ Only top-notch London Hotels, Handpicked Just for You",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Aurelija Velicke\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/aurelija-velicke-85b23495",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_f7846fd8667f6a8b",
+        "full_name": "Nicola Ormondroyd",
+        "title": "Office Manager and Human Resources Administrator",
+        "normalized_title": "office manager and human resources administrator",
+        "company": "London Bridge Hotel",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+            "title": "RocketReach Profile",
+            "source_type": "directory",
+            "snippet": "Nicola Ormondroyd, Office Manager and Human Resources Administrator at London Bridge Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/nicola-ormondroyd-17b9b5157",
+            "title": "Nicola Ormondroyd - Office Manager & HR Administrator - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://londonbridgehotel.com/",
+            "title": "London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://press.londonbridgehotel.com/doing-business/",
+            "title": "Doing Business – London Bridger Hotel Press Centre",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://teamlondonbridge.co.uk/",
+            "title": "Team London Bridge",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+            "title": "Nicola Ormondroyd | Office Manager & HR Administrator",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/robert-naraine-57519716",
+            "title": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/florin-paul-gheorghita-540256265",
+            "title": "Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+            "title": "Daniel Garcia Arnau | Sales and Marketing Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/aurelija-velicke-85b23495",
+            "title": "Aurelija Velicke | Reception Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nicola Ormondroyd\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_9281c8cfa6976ced",
+        "full_name": "Julio Marques",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "London Bridge Hotel",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://thecaterer.com/news/julio-marques-returns-to-london-bridge-hotel-as-general-manager",
+            "title": "The Caterer Article",
+            "source_type": "press",
+            "snippet": "Julio Marques returns to London Bridge hotel as general manager ... appointment of Julio Marques as general manager ... 2019",
+            "fetched_text": null,
+            "published_date": "2019-01-08",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/london-bridge-hotel_hotels-supportingeachother-hotelindustry-activity-6666652195942866944-itd6",
+            "title": "LinkedIn Post",
+            "source_type": "linkedin",
+            "snippet": "Our General Manager Julio Marques",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/alfredodeleon",
+            "title": "Alfredo De Leon | General Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julio Marques\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/agnes-borowska-jocz-0791392b",
+            "title": "Agnes Borowska-Jocz | Reception Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julio Marques\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/florin-paul-gheorghita-540256265",
+            "title": "Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julio Marques\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/aurelija-velicke-85b23495",
+            "title": "Aurelija Velicke | Reception Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julio Marques\" \"London Bridge Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/daniel-martins-910b5a48",
+            "title": "Daniel Martins",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julio Marques\" \"London Bridge Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Role dated to ~2019; may no longer be current"
+        ]
+      },
+      {
+        "candidate_id": "c_6c86b8aaf552d36b",
+        "full_name": "George Tawdrous",
+        "title": "Manager",
+        "normalized_title": "manager",
+        "company": "London Bridge Hotel",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/george-tawdrous-5a149449",
+            "title": "LinkedIn Profile",
+            "source_type": "linkedin",
+            "snippet": "M.MANAGER at LONDON BRIDGE HOTEL",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/george-tawdrous-5a149449",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Exact title abbreviated as M.Manager (possibly Maintenance, Meetings or similar); senior role at property supported by profile"
+        ]
+      },
+      {
+        "candidate_id": "c_737f29bc96a77ddd",
+        "full_name": "Lanese Carstens",
+        "title": "Managing Director @ Nurturing Revenue - LinkedIn",
+        "normalized_title": "managing director @ nurturing revenue - linkedin",
+        "company": null,
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/lanese-carstens",
+            "title": "Lanese Carstens - Managing Director @ Nurturing Revenue - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/lanese-carstens",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/lanese-carstens",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/lanese-carstens",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_1d3f5181f68d43a6",
+        "full_name": "Manolo Caria",
+        "title": "Director of Food & Beverage | Executive Committee",
+        "normalized_title": "director of food & beverage | executive committee",
+        "company": null,
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/manolocaria",
+            "title": "Manolo Caria - Director of Food & Beverage | Executive Committee",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/manolocaria",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/manolocaria",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/manolocaria",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_1affaea75d61e9f7",
+        "full_name": "Björn Baugatz | Project Manager @ STIC | New Business Development, Strategy",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/baugatz",
+            "title": "Björn Baugatz | Project Manager @ STIC | New Business Development, Strategy",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/baugatz",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/baugatz",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/baugatz",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_a277875f9d79613e",
+        "full_name": "Rehan Mansoor | Streamlining Business Operations | Hotel Business Intelligence Analyst | Project Manager | Productivity & Efficiency Expert | Data Analyst",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/rehan-mansoor-799845251",
+            "title": "Rehan Mansoor | Streamlining Business Operations | Hotel Business Intelligence Analyst | Project Manager | Productivity & Efficiency Expert | Data Analyst",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/rehan-mansoor-799845251",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/rehan-mansoor-799845251",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/rehan-mansoor-799845251",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_129be268ea669d5b",
+        "full_name": "Donovan Van Staden | Operations Director | Transforming Independent Hotels into Profitable, Guest-Centric Destinations | Luxury Hotel Management (LHM)",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/donovan-van-staden-67432a112",
+            "title": "Donovan Van Staden | Operations Director | Transforming Independent Hotels into Profitable, Guest-Centric Destinations | Luxury Hotel Management (LHM)",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/donovan-van-staden-67432a112",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/donovan-van-staden-67432a112",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/donovan-van-staden-67432a112",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_994e18c709d8d875",
+        "full_name": "Alfredo De Leon | General Manager at London Bridge Hotel",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/alfredodeleon",
+            "title": "Alfredo De Leon | General Manager at London Bridge Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/alfredodeleon",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/alfredodeleon",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/alfredodeleon",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_f3d95a7930350e56",
+        "full_name": "Guy Lungwa-Loussi | CEO & Founder of GL Farm",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/guy-lungwa-loussi-250a2073",
+            "title": "Guy Lungwa-Loussi | CEO & Founder of GL Farm",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/guy-lungwa-loussi-250a2073",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/guy-lungwa-loussi-250a2073",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/guy-lungwa-loussi-250a2073",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_409805a840412aa4",
+        "full_name": "Richard Almond | Hospitality Professional",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/richard-almond-160b5464",
+            "title": "Richard Almond | Hospitality Professional",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/richard-almond-160b5464",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/richard-almond-160b5464",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/richard-almond-160b5464",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_9745c86f01a6c57a",
+        "full_name": "Serena Bartolomeo | PMO Lead at CloudPay",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/serena-bartolomeo-08b624264",
+            "title": "Serena Bartolomeo | PMO Lead at CloudPay",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/serena-bartolomeo-08b624264",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/serena-bartolomeo-08b624264",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/serena-bartolomeo-08b624264",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_0b3c1643e5429d80",
+        "full_name": "Aung Khaing Min",
+        "title": "London Bridge Hotel",
+        "normalized_title": "london bridge hotel",
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/aungkhaingmin",
+            "title": "Aung Khaing Min - London Bridge Hotel | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/aungkhaingmin",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/aungkhaingmin",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/aungkhaingmin",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_2aee041bb908ee9a",
+        "full_name": "David Creasor | Owner at London Bridge",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/david-creasor-53b00061",
+            "title": "David Creasor | Owner at London Bridge",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" owner OR founder hotel",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/david-creasor-53b00061",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/david-creasor-53b00061",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/david-creasor-53b00061",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_b210e707cf38b3f3",
+        "full_name": "Alejandro Boschiazzo | Bulgari Hotel",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/alejandro-boschiazzo-43124529",
+            "title": "Alejandro Boschiazzo | Bulgari Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" owner OR founder hotel",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/alejandro-boschiazzo-43124529",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/alejandro-boschiazzo-43124529",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/alejandro-boschiazzo-43124529",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_1bd3522f06f7e3ed",
+        "full_name": "Nicola Ormondroyd | Office Manager & HR Administrator",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+            "title": "Nicola Ormondroyd | Office Manager & HR Administrator",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" owner OR founder hotel",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_ddebb9781ce1d54a",
+        "full_name": "Yannick Argac | Commercial Director at Doubletree by Hilton London",
+        "title": "Tower of London",
+        "normalized_title": "tower of london",
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/yannick-argac-6a15a3ab",
+            "title": "Yannick Argac | Commercial Director at Doubletree by Hilton London - Tower of London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"commercial director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/yannick-argac-6a15a3ab",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/yannick-argac-6a15a3ab",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/yannick-argac-6a15a3ab",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_3deb42dcca490ba3",
+        "full_name": "Claudia Scrase | Commercial Director at Four Seasons Hotel London at Tower Bridge",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/claudia-scrase-64a681232",
+            "title": "Claudia Scrase | Commercial Director at Four Seasons Hotel London at Tower Bridge",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"commercial director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/claudia-scrase-64a681232",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/claudia-scrase-64a681232",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/claudia-scrase-64a681232",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_128e6dde7b4d0cae",
+        "full_name": "Catalina Ababii | Director of Commercial",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/catalina-ababii-a08b47183",
+            "title": "Catalina Ababii | Director of Commercial",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"commercial director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/catalina-ababii-a08b47183",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/catalina-ababii-a08b47183",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/catalina-ababii-a08b47183",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_5f30c4ec88ae45a7",
+        "full_name": "Petra Meier | Commercial Director at Canopy by Hilton London City",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/petrameier",
+            "title": "Petra Meier | Commercial Director at Canopy by Hilton London City",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"commercial director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/petrameier",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/petrameier",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/petrameier",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_55394e8032f5172b",
+        "full_name": "Diarmuid Buckley | Commercial Director at The NoMad Hotel London",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/diarmuid-buckley-2a742714",
+            "title": "Diarmuid Buckley | Commercial Director at The NoMad Hotel London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"London Bridge Hotel\" \"commercial director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/diarmuid-buckley-2a742714",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/diarmuid-buckley-2a742714",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/diarmuid-buckley-2a742714",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      }
+    ],
+    "rejected_candidates": [],
+    "provider_costs": {
+      "xai_usd": 0.253925,
+      "exa_usd": 0.182,
+      "total_usd": 0.435925
+    },
+    "quality_metrics": {
+      "candidate_count": 30,
+      "useful_candidate_count": 6,
+      "tier1_count": 4,
+      "tier2_count": 2,
+      "direct_route_count": 10,
+      "department_route_count": 0,
+      "rejected_count": 0,
+      "exa_searches": 24,
+      "exa_fetches": 14,
+      "xai_calls": 1
+    },
+    "telemetry": {
+      "stages": [
+        {
+          "stage": "grok_discovery",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 98539,
+          "tokens_out": 11017,
+          "estimated_usd": 0.253925,
+          "seconds": 193.55725239999992,
+          "notes": [
+            "grok-4.20-reasoning discovery"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.968002599999636,
+          "notes": [
+            "864e5771590c"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.790564500000073,
+          "notes": [
+            "18e74d6f718d"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.205328500000178,
+          "notes": [
+            "387ea6077ff8"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.9588949999997567,
+          "notes": [
+            "573f09e8d13d"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.7422363000005134,
+          "notes": [
+            "16d7254e74e7"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.945270399999572,
+          "notes": [
+            "8a81c450b83d"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.1940569999997024,
+          "notes": [
+            "9768a8663557"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.9980881999999838,
+          "notes": [
+            "fb155dccbfee"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.8235718000005363,
+          "notes": [
+            "34a011c9d9fa"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.107315799999924,
+          "notes": [
+            "1f402bb18d4f"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.1426136000000042,
+          "notes": [
+            "58e7d10313b8"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.259843300000284,
+          "notes": [
+            "d307319b6fa4"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.7883892999998352,
+          "notes": [
+            "af4dbe513cad"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.698024200000873,
+          "notes": [
+            "a13f8869a913"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.173507399999835,
+          "notes": [
+            "6f71c044f9fb"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.962197500000002,
+          "notes": [
+            "aa084edde615"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.7662804999999935,
+          "notes": [
+            "089c089b6c68"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.9596417000002475,
+          "notes": [
+            "798f9f4dd338"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.514504400000078,
+          "notes": [
+            "ae8f8daadacf"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.661710000000312,
+          "notes": [
+            "8d719a5288b4"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.3223498000006657,
+          "notes": [
+            "https://londonbridgehotel.com/"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.0846584000000803,
+          "notes": [
+            "https://leadquest.co.uk/alfredo+de+leon_london-bridge-hotel_6q-gb"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.0275993000004746,
+          "notes": [
+            "https://leadquest.co.uk/alfredo+de+leon_gama-management-limited-gb"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 5.924891300000127,
+          "notes": [
+            "https://et.cybo.com/GB-kontakt/london-bridge-hotel_6q/Alfredo+De+Leon"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 8.153438700000152,
+          "notes": [
+            "https://rocketreach.co/nick-cowell-email_90872339"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.0633440999999948,
+          "notes": [
+            "https://www.propertyweek.com/author/nicholas-cowell"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 0.9102535000001808,
+          "notes": [
+            "https://www.tripadvisor.co.uk/Hotel_Feature-g186338-d192044-zft1-London_Bridge_H"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 0.9127500999993572,
+          "notes": [
+            "https://leadquest.co.uk/n+cowell_london-bridge-hotel_6q-gb"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.118322100000114,
+          "notes": [
+            "https://rocketreach.co/lisa-morley-lynch-email_77437030"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 4.120932400000129,
+          "notes": [
+            "https://wiza.co/d/london-bridge-hotel/2a95/lisa-morley-lynch"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.0827781000007235,
+          "notes": [
+            "https://rocketreach.co/alfredo-de-leon-email_21438865"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 11.076978799999779,
+          "notes": [
+            "https://salesflow.io/contact/lisa-morley-lynch-director-of-sales-&-marketing/"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 0.9171951999996963,
+          "notes": [
+            "https://www.teamlondonbridge.co.uk/news/london-bridge-hotel-and-slm-bermondsey-u"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 0.9163308000006509,
+          "notes": [
+            "https://www.teamlondonbridge.co.uk/news/london-bridge-hotel-and-slm-bermondsey-u"
+          ]
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.713357300000098,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.6209261999993032,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.0842756000001827,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.023174499999186,
+          "notes": []
+        }
+      ],
+      "exa_search_requests": 24,
+      "exa_content_pages": 14,
+      "errors": []
+    },
+    "needs_manual_org_review": false
+  },
+  "contacts": [
+    {
+      "full_name": "Alfredo De Leon",
+      "title": "General Manager",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/alfredodeleon",
+      "email": null,
+      "email2": null,
+      "phone": "+44 (0)20 7855 2205",
+      "phone2": "+44 (0)20 7855 2223",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Alfredo De Leon, General Manager at London Bridge Hotel | Alfredo de Leon, General Manager at London Bridge Hotel | General Manager, LONDON BRIDGE HOTEL | London Bridge Hotel | Alfredo De Leon - London Bridge Hotel, London",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/company/london-bridge-hotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Alfredo De Leon, General Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "source_type": "directory",
+          "quote_or_fact": "Alfredo de Leon, General Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/alfredodeleon",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager, LONDON BRIDGE HOTEL"
+        },
+        {
+          "source_url": "https://londonbridgehotel.com/",
+          "source_type": "other",
+          "quote_or_fact": "London Bridge Hotel | A Welcoming Four-Star Hotel in London \n\nI would like to:\n\nBook a room Book a table Organise a meeting at Quarter Bar & Lounge at Londinium Restaurant for Afternoon Tea\n\nCheck Availability\n\nBook a table online or call+44 (0)20 7855 2297\n\nBook a table online or call+44 (0)20 7855 2223\n\nBook a table online or call+44 (0)20 7855 2297\n\nEnquire now or call+44 (0)20 7855 2205\n\n# An Independent Hotel Located In London’s Shard Quarter\n\nTake a unique mix of stylish design, indulgent comfort and a very warm welcome, and you’re close to what to expect at London Bridge Hotel. You’ll feel instantly at home at our four-star boutique London hotel, where service comes first. Guests return to us time and time again for this very reason. We’re positioned in one of London’s most diverse boroughs. With the bright lights of the City one way and the quirky stalls of the South Bank and Borough Market another, you’ll be spoilt for choice for things to do on both sides of London Bridge. Gu"
+        },
+        {
+          "source_url": "https://leadquest.co.uk/alfredo+de+leon_london-bridge-hotel_6q-gb",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon - London Bridge Hotel, London\n\nLondon Bridge Hotel Contact in London United Kingdom Edit| Remove\n\n# Alfredo De Leon\n\nHospitality at London Bridge Hotel · London\n\n[email protected]\n\nEdit Listing\n\nAlfredo De Leon was associated with London Bridge Hotel in 2023. They may have been associated with this organization before or after this year as well.\n\n## (4) Others with Similar First and Last Names\n\nName\n\nPosition\n\nBusiness\n\nCity\n\nAlfredo De Leon\n\ndirector\n\nat Tabard Developments Limited\n\n· London\n\nAlfredo De Leon\n\ndirector\n\nat Tiger Hotel Management Limited\n\n· London\n\nAlfredo De Leon\n\nsecretary\n\nat Gama Management Limited\n\n· Bridge, Kent\n\nAlfredo De Leon\n\nMember\n\nat Kensington House Hotel\n\n· Wales\n\n## London Bridge Hotel Business Data\n\n8-18 London Bridge St, London SE1 9SG, United Kingdom, England\n\n+44 20 7855 2200\n\n[email protected]\n\nwww.londonbridgehotel.com\n\nBizSeek Business Profile\n\n## Alfredo De Leon Coworkers at London Bridge Hotel (19)\n\nJustin Hurbert\n\nFinancial Dire"
+        },
+        {
+          "source_url": "https://leadquest.co.uk/alfredo+de+leon_gama-management-limited-gb",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon - Gama Management Limited, Bridge, Kent\n\nGama Management Limited Contact in Bridge, Kent United Kingdom Edit| Remove\n\n# Alfredo De Leon\n\nsecretary at Gama Management Limited · Bridge, Kent\n\nEdit Listing\n\nAlfredo De Leon was associated with Gama Management Limited in 2019. They may have been associated with this organization before or after this year as well.\n\n## (4) Others with Similar First and Last Names\n\nName\n\nPosition\n\nBusiness\n\nCity\n\nAlfredo De Leon\n\ndirector\n\nat Tabard Developments Limited\n\n· London\n\nAlfredo De Leon\n\nHospitality\n\nat London Bridge Hotel\n\n· London\n\nAlfredo De Leon\n\nMember\n\nat Kensington House Hotel\n\n· Wales\n\nAlfredo De Leon\n\ndirector\n\nat Tiger Hotel Management Limited\n\n· London\n\n## Gama Management Limited Business Data\n\n8-18 London Bridge Street, London, Se1 9sg, United Kingdom\n\nBizSeek Business Profile\n\n## Alfredo De Leon Coworkers at Gama Management Limited (2)\n\nSimon Murad Elias\n\ndirector at Gama Management Limited · Bridge, Kent\n\nAlfredo Santos\n"
+        },
+        {
+          "source_url": "https://et.cybo.com/GB-kontakt/london-bridge-hotel_6q/Alfredo+De+Leon",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon - Hospitality ettevõttes London Bridge Hotel\n\n- London Bridge Hotel\n- »\n- Alfredo De Leon\n\nHospitality\n\n# Alfredo De Leon\n\nLondon Bridge Hotel, London\n\n## Äriteave\n\nLondon Bridge Hotel\n\n4.5 · £££ · nüüd avatud\n\n8-18 London Bridge St, London SE1 9SG, United Kingdom · London\n\n## London Bridge Hotel Kontaktid\n\n︎\n\nFinancial Director @ London Bridge Hotel\n\n︎\n\nContractor @ London Bridge Hotel\n\n︎\n\nMüügijuht @ London Bridge Hotel\n\n︎\n\nPeajuhataja @ London Bridge Hotel\n\n︎\n\nFood And Beverage Manager @ London Bridge Hotel\n\n︎\n\nMüügijuht @ London Bridge Hotel\n\n︎\n\nHospitality @ London Bridge Hotel\n\n︎\n\nHospitality @ London Bridge Hotel\n\n︎\n\nSekretär @ London Bridge Hotel\n\n## MUUD ETTEVÕTETEL HUVIPAKKUVAD\n\n︎\n\nAlfredo De Leon London\n\nDirektor @ Tabard Developments Limited\n\n︎\n\nAlfredo De Leon Bridge\n\nSekretär @ Gama Management Limited\n\n︎\n\nAlfredo De Leon Wales\n\n@ Kensington House Hotel\n\n︎Eemalda Alfredo De Leon\n\nLähedane\n\nAntud tegevuse sooritamiseks pead olema sisse loginud. "
+        }
+      ]
+    },
+    {
+      "full_name": "Nick Cowell",
+      "title": "General Manager",
+      "company": "London Bridge Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "+44 20 7855 2200",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "General Manager: Nicholas Cowell | Nick Cowell, General Manager at London Bridge Hotel | Kind regards Nick Cowell General Manager (multiple responses) | Nick Cowell Email & Phone Number | London Bridge Hotel General ... | Nicholas Cowell | Property Week",
+      "evidence": [
+        {
+          "source_url": "http://press.londonbridgehotel.com/wp-content/uploads/2015/01/London-Bridge-Hotel-Press-Kit.pdf",
+          "source_type": "news",
+          "quote_or_fact": "General Manager: Nicholas Cowell"
+        },
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "source_type": "directory",
+          "quote_or_fact": "Nick Cowell, General Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Review-g186338-d192044-Reviews-London_Bridge_Hotel-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "Kind regards Nick Cowell General Manager (multiple responses)"
+        },
+        {
+          "source_url": "https://rocketreach.co/nick-cowell-email_90872339",
+          "source_type": "other",
+          "quote_or_fact": "Nick Cowell Email & Phone Number | London Bridge Hotel General ..."
+        },
+        {
+          "source_url": "https://www.propertyweek.com/author/nicholas-cowell",
+          "source_type": "other",
+          "quote_or_fact": "Nicholas Cowell | Property Week \n\n \n\n## HIP HIP AWAY\n\nMy first big surprise last week was the announcement that the government has finally abolished HIPs. I think that all residential agents have let out a huge sigh of relief that this useless bit of legislation has been done away with for good. I personally do not know of any agents,…\n\n## Cowell on Harleys, Hague and One Hyde Park\n\nHello and I suppose welcome to my very first property blog. First of all I would like to thank Giles Barrie for letting me have the enviable position to offer and impart my thoughts on the property industry.Well to begin with, I spent the whole of last week driving down…"
+        },
+        {
+          "source_url": "https://www.tripadvisor.co.uk/Hotel_Feature-g186338-d192044-zft1-London_Bridge_Hotel.html",
+          "source_type": "other",
+          "quote_or_fact": "London Bridge Hotel Rooms: Pictures & Reviews - Tripadvisor\nSkip to main content\n[London](https://www.tripadvisor.co.uk/ClientLink?value=ZWFoXy9Ub3VyaXNtLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQtVmFjYXRpb25zLmh0bWxfWDNP)[Hotels](https://www.tripadvisor.co.uk/ClientLink?value=RHVwXy9Ib3RlbHMtZzE4NjMzOC1Mb25kb25fRW5nbGFuZC1Ib3RlbHMuaHRtbF9vWEM=)[Things to Do](https://www.tripadvisor.co.uk/ClientLink?value=TFpyXy9BdHRyYWN0aW9ucy1nMTg2MzM4LUFjdGl2aXRpZXMtTG9uZG9uX0VuZ2xhbmQuaHRtbF9aczc=)[Restaurants](https://www.tripadvisor.co.uk/ClientLink?value=YWVDXy9SZXN0YXVyYW50cy1nMTg2MzM4LUxvbmRvbl9FbmdsYW5kLmh0bWxfQUdZ)[Flights](https://www.tripadvisor.co.uk/ClientLink?value=ZGxKXy9GbGlnaHRzLWcxODYzMzgtTG9uZG9uX0VuZ2xhbmQtQ2hlYXBfRGlzY291bnRfQWlyZmFyZXMuaHRtbF9YT1M=)[Holiday Rentals](https://www.tripadvisor.co.uk/ClientLink?value=ZHNCXy9WYWNhdGlvblJlbnRhbHMtZzE4NjMzOC1SZXZpZXdzLUxvbmRvbl9FbmdsYW5kLVZhY2F0aW9uX1JlbnRhbHMuaHRtbF81YnA=)[Cruises](https://www.tripadvisor.co.uk/ClientLink?value=SzdpXy9DcnVpc2VEZXN"
+        },
+        {
+          "source_url": "https://leadquest.co.uk/n+cowell_london-bridge-hotel_6q-gb",
+          "source_type": "other",
+          "quote_or_fact": "N. Cowell - London Bridge Hotel, London\n\nLondon Bridge Hotel Contact in London United Kingdom Edit| Remove\n\n# N. Cowell\n\nGeneral Manager at London Bridge Hotel · London\n\n[email protected]\n\nEdit Listing\n\nN. Cowell was associated with London Bridge Hotel between 2010 and 2013. They may have been associated with this organization before or after these years as well.\n\n## (6) Others with Similar First and Last Names\n\nName\n\nPosition\n\nBusiness\n\nCity\n\nN. Cowell\n\nPartner\n\nat The Estate Office\n\n· London\n\nN. Cowell\n\nProprietor\n\nat Chorver Technologies\n\n· Bromley\n\nN. C. Cowell,\n\nCowell\n\nat Anagh Coar School\n\n· Douglas, South Lanarkshire\n\nJ. N. H. Cowell\n\nBranch Manager\n\nat Cash Xchange\n\n· Maldon, Essex\n\nN. P. Cowell\n\nPartner\n\nat Cavendish Dental Practice\n\n· Barrow-in-Furness\n\nJ. N. H. Cowell\n\nManaging Director\n\nat Cash Xchange\n\n· Northampton\n\n## London Bridge Hotel Business Data\n\n8-18 London Bridge St, London SE1 9SG, United Kingdom, England\n\n+44 20 7855 2200\n\n[email protected]\n\nwww.londonbridgeho"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/nicholas-cowell-8591366",
+          "source_type": "other",
+          "quote_or_fact": "Nicholas Cowell | Director Cowell Group of Companies"
+        },
+        {
+          "source_url": "https://linkedin.com/in/nick-cowell-9003017",
+          "source_type": "other",
+          "quote_or_fact": "nick cowell | General Manager at London Bridge Hotels Ltd"
+        },
+        {
+          "source_url": "https://linkedin.com/in/alfredodeleon",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon | General Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+          "source_type": "other",
+          "quote_or_fact": "Nicola Ormondroyd | Office Manager & HR Administrator"
+        },
+        {
+          "source_url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Garcia Arnau | Sales and Marketing Manager"
+        },
+        {
+          "source_url": "https://linkedin.com/in/robert-naraine-57519716",
+          "source_type": "other",
+          "quote_or_fact": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or"
+        }
+      ]
+    },
+    {
+      "full_name": "Lisa Morley-Lynch",
+      "title": "Director of Sales and Marketing",
+      "company": "London Bridge Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "1997 - 2000",
+      "phone2": "2001 - 2001",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 2 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Lisa Morley-Lynch ... Director of Sales and Marketing at London Bridge Hotel | Key Personnel: Lisa Morley, Director of Sales | Lisa Morley-Lynch - Director of Sales & Marketing at London Bridge ... | Alfredo De Leon Email & Phone Number | Lisa Morley-Lynch - Director of Sales & Marketing - Salesflow ...",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/lisa-morley-lynch-email_77437030",
+          "source_type": "directory",
+          "quote_or_fact": "Lisa Morley-Lynch ... Director of Sales and Marketing at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://www.travelweekly.com/Hotels/London/London-Bridge-Hotel-p3639324",
+          "source_type": "directory",
+          "quote_or_fact": "Key Personnel: Lisa Morley, Director of Sales"
+        },
+        {
+          "source_url": "https://wiza.co/d/london-bridge-hotel/2a95/lisa-morley-lynch",
+          "source_type": "other",
+          "quote_or_fact": "Lisa Morley-Lynch - Director of Sales & Marketing at London Bridge Hotel - Wiza\n\nSolutions\n\nSolutions\n\nSalesFind validated prospect information\n\nRecruitingSource candidate contact information\n\nMarketingBuild targeted custom audiences\n\nAPIRealtime data with API calls\n\nHow it worksWatch a helpful video on Wiza and how to get the most out of itWatch video\n\nResources\n\nSupport Line\n\nKnowledge baseFind an answer for a question\n\nSupport\n\nGet in touch with our team\n\nLearn & Grow\n\nCustomersMeet the GTM teams using Wiza\n\nBlogHelpful ideas to succeed in sales\n\nWatch our demoSee Wiza in action\n\nBook a meetingGet a 1 on 1 product tour\n\nGet started for free\n\n# Lisa Morley-Lynch - Email & Phone Number\n\n### Director of Sales & Marketing at London Bridge Hotel\n\nLisa Morley-Lynch is based out of London Area, United Kingdom and works at London Bridge Hotel as Director of Sales & Marketing.\n\nReveal contact info for free\n\n## Lisa Morley-Lynch's Contact Information\n\nLisa Morley-Lynch's Work email\n\nl*****@lo"
+        },
+        {
+          "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon Email & Phone Number | LONDON BRIDGE HOTEL General Manager Contact Information\n[![Alfredo De Leon Email & Phone Number](https://d2gjqh9j26unp0.cloudfront.net/profilepic/50d77b7d88e1fff742ee21db928f9f9a)](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n# [Alfredo De Leon Email & Phone Number](https://rocketreach.co/alfredo-de-leon-email_21438865)\n### General Manager\n@[London Bridge Hotel](https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7)\n[**Preparing profile…View Alfredo's Email & Phone Number(It's Free)](https://rocketreach.co/person?link=https://www.linkedin.com/in/alfredodeleon)\n![Arrow](https://static.rocketreach.co/images/landing/profile/arrow.svg)\n5 free lookup(s) per month.\nNo credit card required.\n* **\n* **\n### **Alfredo De Leon Location\nLondon, GB\n### **Alfredo De Leon Work\n* 2020 - nowGeneral Manager @[London Bridge Hotel](https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7)\n* 2007 - 2020Financial"
+        },
+        {
+          "source_url": "https://salesflow.io/contact/lisa-morley-lynch-director-of-sales-&-marketing/",
+          "source_type": "other",
+          "quote_or_fact": "Lisa Morley-Lynch - Director of Sales & Marketing - Salesflow ..."
+        },
+        {
+          "source_url": "https://www.teamlondonbridge.co.uk/news/london-bridge-hotel-and-slm-bermondsey-unite-for-international-womens-day-celebration/",
+          "source_type": "other",
+          "quote_or_fact": "London Bridge Hotel and SLM Bermondsey Unite for International Women’s Day Celebration - Team London Bridge\n\nShare: Share Share on X Share on LinkedIn\n\n# London Bridge Hotel and SLM Bermondsey Unite for International Women’s Day Celebration\n\nA heartfelt act of generosity and community spirit marked this year’s International Women’s Day (IWD) in London Bridge, as a local business stepped up to support a small charity in a meaningful way.\n\nResponding to a call for collaboration from Team London Bridge, London Bridge Hotel extended its hospitality to the South London Mission (SLM) Bermondsey, ensuring an unforgettable celebration of female staff and volunteers.\n\nOn Monday, the SLM Bermondsey team gathered at London Bridge Hotel‘s Quarter Bar & Lounge for a special event that made them feel truly valued. The food and drinks were beautifully presented, and the outstanding service from the hotel’s team ensured that every guest felt special.\n\nLisa Morley-Lynch and Daniel Garcia, along with th"
+        },
+        {
+          "source_url": "https://linkedin.com/in/alfredodeleon",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon | General Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/robert-naraine-57519716",
+          "source_type": "other",
+          "quote_or_fact": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or"
+        },
+        {
+          "source_url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Garcia Arnau | Sales and Marketing Manager"
+        },
+        {
+          "source_url": "https://linkedin.com/in/florin-paul-gheorghita-540256265",
+          "source_type": "other",
+          "quote_or_fact": "Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist"
+        },
+        {
+          "source_url": "https://linkedin.com/in/agnes-borowska-jocz-0791392b",
+          "source_type": "other",
+          "quote_or_fact": "Agnes Borowska-Jocz | Reception Manager at London Bridge Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Daniel Garcia",
+      "title": "Sales and Marketing Manager",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/danielgarciaarnau",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Sales and Marketing Manager, Experience: London Bridge Hotel | It's been a month already since I first joined LONDON BRIDGE ... | London Bridge Hotel and SLM Bermondsey Unite for International ... | Daniel Garcia Arnau | Sales and Marketing Manager | Daniel Garcia",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/danielgarciaarnau",
+          "source_type": "linkedin",
+          "quote_or_fact": "Sales and Marketing Manager, Experience: London Bridge Hotel"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/danielgarciaarnau_its-been-a-month-already-since-i-first-joined-activity-6953616313663549440-deum",
+          "source_type": "other",
+          "quote_or_fact": "It's been a month already since I first joined LONDON BRIDGE ..."
+        },
+        {
+          "source_url": "https://www.teamlondonbridge.co.uk/news/london-bridge-hotel-and-slm-bermondsey-unite-for-international-womens-day-celebration/",
+          "source_type": "other",
+          "quote_or_fact": "London Bridge Hotel and SLM Bermondsey Unite for International Women’s Day Celebration - Team London Bridge\n\nShare: Share Share on X Share on LinkedIn\n\n# London Bridge Hotel and SLM Bermondsey Unite for International Women’s Day Celebration\n\nA heartfelt act of generosity and community spirit marked this year’s International Women’s Day (IWD) in London Bridge, as a local business stepped up to support a small charity in a meaningful way.\n\nResponding to a call for collaboration from Team London Bridge, London Bridge Hotel extended its hospitality to the South London Mission (SLM) Bermondsey, ensuring an unforgettable celebration of female staff and volunteers.\n\nOn Monday, the SLM Bermondsey team gathered at London Bridge Hotel‘s Quarter Bar & Lounge for a special event that made them feel truly valued. The food and drinks were beautifully presented, and the outstanding service from the hotel’s team ensured that every guest felt special.\n\nLisa Morley-Lynch and Daniel Garcia, along with th"
+        },
+        {
+          "source_url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Garcia Arnau | Sales and Marketing Manager"
+        },
+        {
+          "source_url": "https://www.comedy.co.uk/people/daniel_garcia/",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Garcia"
+        },
+        {
+          "source_url": "https://www.amazon.com/prime-video/actor/Daniel-Garcia/amzn1.dv.gti.54bbafba-1692-4abe-9d20-acee271d20d5/",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Garcia"
+        }
+      ]
+    },
+    {
+      "full_name": "Helene Janson",
+      "title": "Financial Controller & HR Manager",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/helene-janson-a06638179",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / procurement_finance; role confidence medium.",
+      "contact_evidence_summary": "Financial Controller & HR Manager, LONDON BRIDGE HOTEL | Helene Janson, Financial Controller, London Bridge Hotel | Financial Controller: H. J. | Helene Janson Email & Phone Number | LONDON BRIDGE HOTEL ... | Alfredo De Leon Email & Phone Number",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/helene-janson-a06638179",
+          "source_type": "linkedin",
+          "quote_or_fact": "Financial Controller & HR Manager, LONDON BRIDGE HOTEL"
+        },
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "source_type": "directory",
+          "quote_or_fact": "Helene Janson, Financial Controller, London Bridge Hotel"
+        },
+        {
+          "source_url": "https://leadiq.com/c/london-bridge-hotel/5a1d9965230000520088232a",
+          "source_type": "directory",
+          "quote_or_fact": "Financial Controller: H. J."
+        },
+        {
+          "source_url": "https://rocketreach.co/helene-janson-email_321958461",
+          "source_type": "other",
+          "quote_or_fact": "Helene Janson Email & Phone Number | LONDON BRIDGE HOTEL ..."
+        },
+        {
+          "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon Email & Phone Number"
+        },
+        {
+          "source_url": "https://wiza.co/d/london-bridge-hotel/2a95/helene-janson",
+          "source_type": "other",
+          "quote_or_fact": "Helene Janson - Financial Controller at London Bridge Hotel - Wiza"
+        }
+      ]
+    },
+    {
+      "full_name": "Louise Medland",
+      "title": "Revenue Manager",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/louise-medland-44b80220",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Revenue Manager, London Bridge Hotel | Louise Medland, Revenue Manager at London Bridge Hotel | Louise Medland Email & Phone Number | London Bridge Hotel ... | 4 \"Louise Medland\" profiles - LinkedIn | London Bridge Hotel Email Format | londonbridgehotel.com Emails",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/louise-medland-44b80220",
+          "source_type": "linkedin",
+          "quote_or_fact": "Revenue Manager, London Bridge Hotel"
+        },
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "source_type": "directory",
+          "quote_or_fact": "Louise Medland, Revenue Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://rocketreach.co/louise-medland-email_102543269",
+          "source_type": "other",
+          "quote_or_fact": "Louise Medland Email & Phone Number | London Bridge Hotel ..."
+        },
+        {
+          "source_url": "https://www.linkedin.com/pub/dir/Louise/Medland",
+          "source_type": "other",
+          "quote_or_fact": "4 \"Louise Medland\" profiles - LinkedIn"
+        },
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-email-format_b4447460fa9333a7",
+          "source_type": "other",
+          "quote_or_fact": "London Bridge Hotel Email Format | londonbridgehotel.com Emails"
+        }
+      ]
+    },
+    {
+      "full_name": "Robert Naraine",
+      "title": "Head Concierge",
+      "company": "London Bridge Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Robert Naraine, Head Concierge at London Bridge Hotel | Robert Naraine, Head Concierge at London Bridge Hotel | Head Concierge: R. N. | Robert Naraine - Head Concierge at London Bridge Hotel ... - LinkedIn | An Insider’s Guide To The Langham, London",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "source_type": "directory",
+          "quote_or_fact": "Robert Naraine, Head Concierge at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/london-bridge-hotel",
+          "source_type": "linkedin",
+          "quote_or_fact": "Robert Naraine, Head Concierge at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://leadiq.com/c/london-bridge-hotel/5a1d9965230000520088232a",
+          "source_type": "directory",
+          "quote_or_fact": "Head Concierge: R. N."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/robert-naraine-57519716",
+          "source_type": "other",
+          "quote_or_fact": "Robert Naraine - Head Concierge at London Bridge Hotel ... - LinkedIn"
+        },
+        {
+          "source_url": "https://www.forbes.com/sites/lewisnunn/2026/04/15/an-insiders-guide-to-the-langham-london/",
+          "source_type": "other",
+          "quote_or_fact": "An Insider’s Guide To The Langham, London"
+        },
+        {
+          "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon Email & Phone Number"
+        },
+        {
+          "source_url": "http://londonbridgehotel.com/",
+          "source_type": "other",
+          "quote_or_fact": "London Bridge Hotel | A Welcoming Four-Star Hotel in London"
+        },
+        {
+          "source_url": "https://www.linkedin.com/pub/dir/Robert/Naraine",
+          "source_type": "other",
+          "quote_or_fact": "5 \"Robert Naraine\" profiles - LinkedIn"
+        },
+        {
+          "source_url": "https://linkedin.com/in/robert-naraine-57519716",
+          "source_type": "other",
+          "quote_or_fact": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or"
+        },
+        {
+          "source_url": "https://linkedin.com/in/aurelija-velicke-85b23495",
+          "source_type": "other",
+          "quote_or_fact": "Aurelija Velicke | Reception Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+          "source_type": "other",
+          "quote_or_fact": "Nicola Ormondroyd | Office Manager & HR Administrator"
+        },
+        {
+          "source_url": "https://linkedin.com/in/alfredodeleon",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon | General Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/florin-paul-gheorghita-540256265",
+          "source_type": "other",
+          "quote_or_fact": "Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist"
+        }
+      ]
+    },
+    {
+      "full_name": "Guy Lungwa-Loussi",
+      "title": "Head Chef",
+      "company": "London Bridge Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Guy Lungwa-Loussi, Head Chef at London Bridge Hotel | Guy Lungwa-Loussi - London bridge hotel | LinkedIn | Guy Lungwa-Loussi - Head chef at London Bridge Hotel - Wiza | Alfredo De Leon Email & Phone Number | Alfredo Leon - General Manager at London Bridge Hotel - Wiza",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "source_type": "directory",
+          "quote_or_fact": "Guy Lungwa-Loussi, Head Chef at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/guy-lungwa-loussi-250a2073",
+          "source_type": "other",
+          "quote_or_fact": "Guy Lungwa-Loussi - London bridge hotel | LinkedIn"
+        },
+        {
+          "source_url": "https://wiza.co/d/london-bridge-hotel/2a95/guy-lungwa-loussi",
+          "source_type": "other",
+          "quote_or_fact": "Guy Lungwa-Loussi - Head chef at London Bridge Hotel - Wiza"
+        },
+        {
+          "source_url": "https://rocketreach.co/alfredo-de-leon-email_21438865",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon Email & Phone Number"
+        },
+        {
+          "source_url": "https://wiza.co/d/london-bridge-hotel/2a95/alfredo-leon",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo Leon - General Manager at London Bridge Hotel - Wiza"
+        },
+        {
+          "source_url": "https://linkedin.com/in/guy-lungwa-loussi-250a2073",
+          "source_type": "other",
+          "quote_or_fact": "Guy Lungwa-Loussi | CEO & Founder of GL Farm"
+        },
+        {
+          "source_url": "https://linkedin.com/in/alfredodeleon",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon | General Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+          "source_type": "other",
+          "quote_or_fact": "Nicola Ormondroyd | Office Manager & HR Administrator"
+        },
+        {
+          "source_url": "https://linkedin.com/in/robert-naraine-57519716",
+          "source_type": "other",
+          "quote_or_fact": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or"
+        },
+        {
+          "source_url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Garcia Arnau | Sales and Marketing Manager"
+        }
+      ]
+    },
+    {
+      "full_name": "Aurelija Velicke",
+      "title": "Reception Manager",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/aurelija-velicke-85b23495",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Aurelija Velicke, Reception Manager at London Bridge Hotel | Experience: London Bridge Hotel | Catering &amp; Hospitality Recruitment Agency | Platinum Recruitment | Aurelija Sakalaviciute - London Bridge Hotel, London | Hotels, Accommodations and Lodgings in London, United Kingdom ≡ Only top-notch London Hotels, Handpicked Just for You",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "source_type": "directory",
+          "quote_or_fact": "Aurelija Velicke, Reception Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/aurelija-velicke-85b23495",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experience: London Bridge Hotel"
+        },
+        {
+          "source_url": "https://platinum-hospitality.co.uk/resume/aurelija-vbpebyiizm-hotel-receptionist-london-uk",
+          "source_type": "other",
+          "quote_or_fact": "Catering &amp; Hospitality Recruitment Agency | Platinum Recruitment"
+        },
+        {
+          "source_url": "https://leadquest.co.uk/aurelija+sakalaviciute_london-bridge-hotel_6q-gb",
+          "source_type": "other",
+          "quote_or_fact": "Aurelija Sakalaviciute - London Bridge Hotel, London"
+        },
+        {
+          "source_url": "https://www.londonhotelsgb.org/en/property/the-aurelia/reviews.html",
+          "source_type": "other",
+          "quote_or_fact": "Hotels, Accommodations and Lodgings in London, United Kingdom ≡ Only top-notch London Hotels, Handpicked Just for You"
+        }
+      ]
+    },
+    {
+      "full_name": "Nicola Ormondroyd",
+      "title": "Office Manager and Human Resources Administrator",
+      "company": "London Bridge Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Nicola Ormondroyd, Office Manager and Human Resources Administrator at London Bridge Hotel | Nicola Ormondroyd - Office Manager & HR Administrator - LinkedIn | London Bridge Hotel | Doing Business – London Bridger Hotel Press Centre | Team London Bridge",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/london-bridge-hotel-profile_b4447460fa9333a7",
+          "source_type": "directory",
+          "quote_or_fact": "Nicola Ormondroyd, Office Manager and Human Resources Administrator at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/nicola-ormondroyd-17b9b5157",
+          "source_type": "other",
+          "quote_or_fact": "Nicola Ormondroyd - Office Manager & HR Administrator - LinkedIn"
+        },
+        {
+          "source_url": "https://londonbridgehotel.com/",
+          "source_type": "other",
+          "quote_or_fact": "London Bridge Hotel"
+        },
+        {
+          "source_url": "https://press.londonbridgehotel.com/doing-business/",
+          "source_type": "other",
+          "quote_or_fact": "Doing Business – London Bridger Hotel Press Centre"
+        },
+        {
+          "source_url": "https://teamlondonbridge.co.uk/",
+          "source_type": "other",
+          "quote_or_fact": "Team London Bridge"
+        },
+        {
+          "source_url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+          "source_type": "other",
+          "quote_or_fact": "Nicola Ormondroyd | Office Manager & HR Administrator"
+        },
+        {
+          "source_url": "https://linkedin.com/in/robert-naraine-57519716",
+          "source_type": "other",
+          "quote_or_fact": "Robert Naraine | Head Concierge at London Bridge Hotel\nMember of Les Clefs d'Or"
+        },
+        {
+          "source_url": "https://linkedin.com/in/florin-paul-gheorghita-540256265",
+          "source_type": "other",
+          "quote_or_fact": "Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist"
+        },
+        {
+          "source_url": "https://linkedin.com/in/daniel-garcia-arnau-2aa35365",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Garcia Arnau | Sales and Marketing Manager"
+        },
+        {
+          "source_url": "https://linkedin.com/in/aurelija-velicke-85b23495",
+          "source_type": "other",
+          "quote_or_fact": "Aurelija Velicke | Reception Manager at London Bridge Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Julio Marques",
+      "title": "General Manager",
+      "company": "London Bridge Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Role dated to ~2019; may no longer be current",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Julio Marques returns to London Bridge hotel as general manager ... appointment of Julio Marques as general manager ... 2019 | Our General Manager Julio Marques | Alfredo De Leon | General Manager at London Bridge Hotel | Agnes Borowska-Jocz | Reception Manager at London Bridge Hotel | Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist | Role dated to ~2019; may no longer be current",
+      "evidence": [
+        {
+          "source_url": "https://thecaterer.com/news/julio-marques-returns-to-london-bridge-hotel-as-general-manager",
+          "source_type": "news",
+          "quote_or_fact": "Julio Marques returns to London Bridge hotel as general manager ... appointment of Julio Marques as general manager ... 2019"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/london-bridge-hotel_hotels-supportingeachother-hotelindustry-activity-6666652195942866944-itd6",
+          "source_type": "linkedin",
+          "quote_or_fact": "Our General Manager Julio Marques"
+        },
+        {
+          "source_url": "https://linkedin.com/in/alfredodeleon",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon | General Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/agnes-borowska-jocz-0791392b",
+          "source_type": "other",
+          "quote_or_fact": "Agnes Borowska-Jocz | Reception Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/florin-paul-gheorghita-540256265",
+          "source_type": "other",
+          "quote_or_fact": "Florin Paul Gheorghita | Head Receptionist & Duty Manager | 4★ London Hotel Experience | Guest Relations & Front Office Specialist"
+        },
+        {
+          "source_url": "https://linkedin.com/in/aurelija-velicke-85b23495",
+          "source_type": "other",
+          "quote_or_fact": "Aurelija Velicke | Reception Manager at London Bridge Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/daniel-martins-910b5a48",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Martins"
+        }
+      ]
+    },
+    {
+      "full_name": "George Tawdrous",
+      "title": "Manager",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/george-tawdrous-5a149449",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Exact title abbreviated as M.Manager (possibly Maintenance, Meetings or similar); senior role at property supported by profile",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "M.MANAGER at LONDON BRIDGE HOTEL | Exact title abbreviated as M.Manager (possibly Maintenance, Meetings or similar); senior role at property supported by profile",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/george-tawdrous-5a149449",
+          "source_type": "linkedin",
+          "quote_or_fact": "M.MANAGER at LONDON BRIDGE HOTEL"
+        }
+      ]
+    },
+    {
+      "full_name": "Lanese Carstens",
+      "title": "Managing Director @ Nurturing Revenue - LinkedIn",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/lanese-carstens",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Lanese Carstens - Managing Director @ Nurturing Revenue - LinkedIn | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/lanese-carstens",
+          "source_type": "other",
+          "quote_or_fact": "Lanese Carstens - Managing Director @ Nurturing Revenue - LinkedIn"
+        }
+      ]
+    },
+    {
+      "full_name": "Manolo Caria",
+      "title": "Director of Food & Beverage | Executive Committee",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/manolocaria",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Manolo Caria - Director of Food & Beverage | Executive Committee | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/manolocaria",
+          "source_type": "other",
+          "quote_or_fact": "Manolo Caria - Director of Food & Beverage | Executive Committee"
+        }
+      ]
+    },
+    {
+      "full_name": "Björn Baugatz | Project Manager @ STIC | New Business Development, Strategy",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/baugatz",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Björn Baugatz | Project Manager @ STIC | New Business Development, Strategy | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/baugatz",
+          "source_type": "other",
+          "quote_or_fact": "Björn Baugatz | Project Manager @ STIC | New Business Development, Strategy"
+        }
+      ]
+    },
+    {
+      "full_name": "Rehan Mansoor | Streamlining Business Operations | Hotel Business Intelligence Analyst | Project Manager | Productivity & Efficiency Expert | Data Analyst",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/rehan-mansoor-799845251",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Rehan Mansoor | Streamlining Business Operations | Hotel Business Intelligence Analyst | Project Manager | Productivity & Efficiency Expert | Data Analyst | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/rehan-mansoor-799845251",
+          "source_type": "other",
+          "quote_or_fact": "Rehan Mansoor | Streamlining Business Operations | Hotel Business Intelligence Analyst | Project Manager | Productivity & Efficiency Expert | Data Analyst"
+        }
+      ]
+    },
+    {
+      "full_name": "Donovan Van Staden | Operations Director | Transforming Independent Hotels into Profitable, Guest-Centric Destinations | Luxury Hotel Management (LHM)",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/donovan-van-staden-67432a112",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Donovan Van Staden | Operations Director | Transforming Independent Hotels into Profitable, Guest-Centric Destinations | Luxury Hotel Management (LHM) | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/donovan-van-staden-67432a112",
+          "source_type": "other",
+          "quote_or_fact": "Donovan Van Staden | Operations Director | Transforming Independent Hotels into Profitable, Guest-Centric Destinations | Luxury Hotel Management (LHM)"
+        }
+      ]
+    },
+    {
+      "full_name": "Alfredo De Leon | General Manager at London Bridge Hotel",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/alfredodeleon",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Alfredo De Leon | General Manager at London Bridge Hotel | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/alfredodeleon",
+          "source_type": "other",
+          "quote_or_fact": "Alfredo De Leon | General Manager at London Bridge Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Guy Lungwa-Loussi | CEO & Founder of GL Farm",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/guy-lungwa-loussi-250a2073",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Guy Lungwa-Loussi | CEO & Founder of GL Farm | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/guy-lungwa-loussi-250a2073",
+          "source_type": "other",
+          "quote_or_fact": "Guy Lungwa-Loussi | CEO & Founder of GL Farm"
+        }
+      ]
+    },
+    {
+      "full_name": "Richard Almond | Hospitality Professional",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/richard-almond-160b5464",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Richard Almond | Hospitality Professional | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/richard-almond-160b5464",
+          "source_type": "other",
+          "quote_or_fact": "Richard Almond | Hospitality Professional"
+        }
+      ]
+    },
+    {
+      "full_name": "Serena Bartolomeo | PMO Lead at CloudPay",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/serena-bartolomeo-08b624264",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Serena Bartolomeo | PMO Lead at CloudPay | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/serena-bartolomeo-08b624264",
+          "source_type": "other",
+          "quote_or_fact": "Serena Bartolomeo | PMO Lead at CloudPay"
+        }
+      ]
+    },
+    {
+      "full_name": "Aung Khaing Min",
+      "title": "London Bridge Hotel",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/aungkhaingmin",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Aung Khaing Min - London Bridge Hotel | LinkedIn | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/aungkhaingmin",
+          "source_type": "other",
+          "quote_or_fact": "Aung Khaing Min - London Bridge Hotel | LinkedIn"
+        }
+      ]
+    },
+    {
+      "full_name": "David Creasor | Owner at London Bridge",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/david-creasor-53b00061",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "David Creasor | Owner at London Bridge | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/david-creasor-53b00061",
+          "source_type": "other",
+          "quote_or_fact": "David Creasor | Owner at London Bridge"
+        }
+      ]
+    },
+    {
+      "full_name": "Alejandro Boschiazzo | Bulgari Hotel",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/alejandro-boschiazzo-43124529",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Alejandro Boschiazzo | Bulgari Hotel | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/alejandro-boschiazzo-43124529",
+          "source_type": "other",
+          "quote_or_fact": "Alejandro Boschiazzo | Bulgari Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Nicola Ormondroyd | Office Manager & HR Administrator",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Nicola Ormondroyd | Office Manager & HR Administrator | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/nicola-ormondroyd-17b9b5157",
+          "source_type": "other",
+          "quote_or_fact": "Nicola Ormondroyd | Office Manager & HR Administrator"
+        }
+      ]
+    },
+    {
+      "full_name": "Yannick Argac | Commercial Director at Doubletree by Hilton London",
+      "title": "Tower of London",
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/yannick-argac-6a15a3ab",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Yannick Argac | Commercial Director at Doubletree by Hilton London - Tower of London | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/yannick-argac-6a15a3ab",
+          "source_type": "other",
+          "quote_or_fact": "Yannick Argac | Commercial Director at Doubletree by Hilton London - Tower of London"
+        }
+      ]
+    },
+    {
+      "full_name": "Claudia Scrase | Commercial Director at Four Seasons Hotel London at Tower Bridge",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/claudia-scrase-64a681232",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Claudia Scrase | Commercial Director at Four Seasons Hotel London at Tower Bridge | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/claudia-scrase-64a681232",
+          "source_type": "other",
+          "quote_or_fact": "Claudia Scrase | Commercial Director at Four Seasons Hotel London at Tower Bridge"
+        }
+      ]
+    },
+    {
+      "full_name": "Catalina Ababii | Director of Commercial",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/catalina-ababii-a08b47183",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Catalina Ababii | Director of Commercial | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/catalina-ababii-a08b47183",
+          "source_type": "other",
+          "quote_or_fact": "Catalina Ababii | Director of Commercial"
+        }
+      ]
+    },
+    {
+      "full_name": "Petra Meier | Commercial Director at Canopy by Hilton London City",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/petrameier",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Petra Meier | Commercial Director at Canopy by Hilton London City | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/petrameier",
+          "source_type": "other",
+          "quote_or_fact": "Petra Meier | Commercial Director at Canopy by Hilton London City"
+        }
+      ]
+    },
+    {
+      "full_name": "Diarmuid Buckley | Commercial Director at The NoMad Hotel London",
+      "title": null,
+      "company": "London Bridge Hotel",
+      "linkedin_url": "https://linkedin.com/in/diarmuid-buckley-2a742714",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Diarmuid Buckley | Commercial Director at The NoMad Hotel London | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/diarmuid-buckley-2a742714",
+          "source_type": "other",
+          "quote_or_fact": "Diarmuid Buckley | Commercial Director at The NoMad Hotel London"
+        }
+      ]
+    }
+  ]
+}

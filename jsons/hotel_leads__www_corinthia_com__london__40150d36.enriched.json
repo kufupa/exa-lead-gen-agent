@@ -1,0 +1,2420 @@
+{
+  "target_url": "https://www.corinthia.com/london/",
+  "generated_at_utc": "20260426T193338Z",
+  "model": "pipeline-v4",
+  "agent_count": null,
+  "max_turns": null,
+  "max_turns_effective": null,
+  "min_contacts": null,
+  "target_contacts": null,
+  "max_contacts": 19,
+  "extra_contact_pass": false,
+  "strict_evidence": true,
+  "allow_linkedin": true,
+  "usage": null,
+  "contact_enrichment": {
+    "version": 4,
+    "enriched_at_utc": "20260426T193338Z",
+    "mode": "pipeline-v4",
+    "model": "pipeline-v4",
+    "concurrency": null,
+    "skipped_pre_enrichment": 0,
+    "attempted": 19,
+    "succeeded": 19,
+    "failed": 0
+  },
+  "pipeline_v4": {
+    "input_url": "https://www.corinthia.com/london/",
+    "resolved_org": {
+      "input_url": "https://www.corinthia.com/london/",
+      "canonical_name": "Corinthia London",
+      "property_name": "Corinthia London",
+      "brand_name": "Corinthia",
+      "management_company": "Corinthia Hotels Limited",
+      "ownership_group": "International Hotel Investments p.l.c. (IHI)",
+      "location_hint": "London, United Kingdom",
+      "domains": [
+        "corinthia.com",
+        "corinthiagroup.com"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.corinthia.com/en-gb/london/",
+          "title": "Official Corinthia London Page",
+          "source_type": "hotel_site",
+          "snippet": "Corinthia London is a five-star hotel... reflects the city’s dynamic spirit.",
+          "fetched_text": "Luxury Hotel in Central London | Corinthia London",
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://corinthiagroup.com/about/",
+          "title": "About | Corinthia Group",
+          "source_type": "company_site",
+          "snippet": "IHI owns and manages the Corinthia Brand. Its business consists in owning hotels and real estate, hotel management...",
+          "fetched_text": "IHI owns and manages the Corinthia Brand",
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Corinthia_Hotel_London",
+          "title": "Corinthia Hotel London - Wikipedia",
+          "source_type": "other",
+          "snippet": "The Corinthia London Hotel... acquired for a sum of £130 million by a consortium owned equally by Malta's IHI plc and two of its principal shareholders, the Libyan Foreign Investment Company and Nakheel Hotels of Dubai.",
+          "fetched_text": "former British Government building",
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.corinthia.com/en-gb/our-team/",
+          "title": "Our Team | Corinthia",
+          "source_type": "company_site",
+          "snippet": "Charlotte Weatherall. General Manager - London. Nick Sievewright. Director of Sales & Marketing - London.",
+          "fetched_text": "Executive Team and General Managers listing",
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Corinthia_Hotels",
+          "title": "Corinthia Hotels - Wikipedia",
+          "source_type": "other",
+          "snippet": "It is wholly owned by International Hotel Investments (IHI), which is part of the Corinthia Group of Companies.",
+          "fetched_text": "wholly owned by International Hotel Investments (IHI)",
+          "published_date": null,
+          "query": null,
+          "score": null
+        }
+      ]
+    },
+    "aliases": [
+      {
+        "value": "Corinthia London",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.corinthia.com/en-gb/london/",
+        "quote": "Luxury Hotel in Central London | Corinthia London"
+      },
+      {
+        "value": "Corinthia Hotel London",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://en.wikipedia.org/wiki/Corinthia_Hotel_London",
+        "quote": "The Corinthia London Hotel, at the corner of Northumberland Avenue and Whitehall Place"
+      },
+      {
+        "value": "Corinthia",
+        "kind": "brand",
+        "confidence": "high",
+        "source_url": "https://corinthiagroup.com/about/",
+        "quote": "IHI owns and manages the Corinthia Brand"
+      },
+      {
+        "value": "Corinthia Hotels Limited",
+        "kind": "management",
+        "confidence": "high",
+        "source_url": "https://www.corinthia.com/en-gb/development/",
+        "quote": "Corinthia Hotels Limited is a management company wholly owned by International Hotel Investments p.l.c (IHI)"
+      },
+      {
+        "value": "International Hotel Investments p.l.c. (IHI)",
+        "kind": "ownership",
+        "confidence": "high",
+        "source_url": "https://en.wikipedia.org/wiki/Corinthia_Hotels",
+        "quote": "wholly owned by International Hotel Investments (IHI), which is part of the Corinthia Group of Companies"
+      },
+      {
+        "value": "Pisani family",
+        "kind": "ownership",
+        "confidence": "medium",
+        "source_url": "https://corinthiagroup.com/about/",
+        "quote": "Founded six decades ago in Malta by the Pisani family"
+      },
+      {
+        "value": "Metropole Building",
+        "kind": "historical",
+        "confidence": "medium",
+        "source_url": "https://en.wikipedia.org/wiki/Corinthia_Hotel_London",
+        "quote": "the Metropole Building and the adjoining 10 Whitehall Place were acquired"
+      },
+      {
+        "value": "corinthia.com",
+        "kind": "domain",
+        "confidence": "high",
+        "source_url": "https://www.corinthia.com/en-gb/london/",
+        "quote": null
+      }
+    ],
+    "candidates": [
+      {
+        "candidate_id": "c_2544061eee327def",
+        "full_name": "Charlotte Weatherall",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "Corinthia London",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Charlotte Weatherall. General Manager - London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.corinthia.com/en-gb/latest-news/corinthia-london-appoints-new-general-manager/",
+            "title": "Corinthia London| New General Manager appointment",
+            "source_type": "press",
+            "snippet": "Charlotte Weatherall appointed General Manager at Corinthia London. Effective July 1 2025",
+            "fetched_text": null,
+            "published_date": "2025-06-02",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.thewalpole.co.uk/news/checking-in-with-charlotte-weatherall-corinthia-londons-new-general-manager",
+            "title": "Checking in with Charlotte Weatherall",
+            "source_type": "press",
+            "snippet": "Charlotte Weatherall, formerly the hotel's Director of Sales and Marketing",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.thecaterer.com/indepth/corinthia-london-gm-charlotte-weatherall-we-are-giving-people-a-reason-to-come-here",
+            "title": "Corinthia London GM Charlotte Weatherall on driving spend in a ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Corinthia London GM Charlotte Weatherall on driving spend in a cost of living crisis - InDepth\n\nao link\n\n## This is Hospitality\n\nThe Caterer’s campaign celebrating our amazing hospitality industry\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\n## Subscribe\n\nStart a subscription today from just £4.99\n\nMenu\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\n## New openings in March 2026: Restaurants, hotels and bars\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSubscribe\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nSectors\n\nNews\n\nInDepth\n\nProducts & Equipment\n\nEvents & Awards\n\nCareers\n\nTechnology\n\n# Corinthia London GM Charlotte Weatherall on driving spend in a cost of living crisis\n\nHotel 09 Mar 2026 by Caroline Baldwin\n\nThe general manager is taking the helm at the Corinthia London with a £192m loan in her pocket and big plans for spending it. She explains how the hotel is staying ahead of the competition\n\nYou need to be a premium member to view this. Join our community for just £4.99 per month, or £54.99 for a full year.\n\nSubscribe\n\nRemember Login\n\nRegister| Reset Password\n\n## Repeat or refresh: How do hotels manage technology when adding new sites?\n\n- Most read\n- Latest\n\n---\n\nChef\n\n## MasterChef: The Professionals 2026 winner revealed\n\n---\n\nFoodservice\n\n## Compass launches new brand as it bids to hit £350m turnover for sports and events\n\n---\n\nRestaurant\n\n## Just Eat under investigation for fake reviews\n\n---\n\nChef\n\n## Who are the final three competing in MasterChef: The Professionals 2026?\n\n---\n\nRestaurant\n\n## Brother Marcus founders on creating a buzz with their own brand of Mediterranean hospitality\n\n---\n\nSupplier\n\n## KFF centralises care home caterer support\n\n---\n\nPub & bar\n\n## Hackney’s Moth Club given reprieve from redevelopment\n\n---\n\nSupplier\n\n## Pernod Ricard and Jack Daniel’s maker confirm merger talks\n\n---\n\nRecipe\n\n## Shake up a michelada for your breakfast menu\n\n---\n\nDrinks Doctor\n\n## How to incorporate still wine into cocktails\n\n### Newsletter sign up\n\nStay informed with all the latest\n\nFirst Name\n\nLast Name\n\nInitials of First Names\n\nEmail\n\nSign Up\n\n### Newsletter Sign Up\n\nStay informed with the latest news\n\nSign Up\n\n### More from The Caterer\n\nDrinks Doctor\n\n## How to incorporate still wine into cocktails\n\nRecipe\n\n## Shake up a michelada for your breakfast menu\n\nPeople moves\n\n## Crafted brings in former Sircle and GuestHouse executives for leadership roles\n\nNews\n\n## What you might have missed on The Caterer this week\n\n### Most Popular\n\n---\n\nMichelin\n\n## Two-Michelin-starred restaurants in the UK & Ireland\n\n---\n\n## Jason Atherton and Spencer Metzger to open London restaurant Row on 5\n\n---\n\nChef\n\n## Recipe: Toledo Carcamusa\n\n---\n\nNews\n\n## Business leaders need to get up to speed with technology\n\n---\n\nIn-depth\n\n## The Caterer reveals the top 30 Best Places to Work in Hospitality 2024\n\n## Repeat or refresh: How do hotels manage technology when adding new sites?\n\n### Newsletter Sign Up\n\nStay informed with all the latest\n\nSign Up\n\n### Events & Awards\n\n## HRC\n\nMon Mar 30, 2026 ExCel London\n\nHRC is the UK’s leading trade event for hospitality and foodservice and takes place on 30 March-1 April 2026 at Excel London as part of Food, Drink & Hospitality Week. Over three days, you’ll meet the people behind the products, connecting face-to-face with suppliers, brand owners and operators who are bringing the latest ideas to the table.\n\n## The Caterer Supplier Awards\n\nThu Apr 16, 2026\n\nThe Caterer Supplier Awards celebrates the most creative and innovative businesses and brands from across the hospitality supply chain. Categories are judged by an independent panel of industry experts and the winners will be announced at the awards ceremony on 16 April 2026.\n\n## The Caterer People Summit 2026\n\nThu May 14, 2026 The Line, London\n\nThe Caterer is bringing together HR hospitality leaders to learn, debate and collaborate on topics including artificial intelligence, burnout and how to effectively engage the board, to help protect your people, strengthen your teams and prove why HR is central to business success, even in a challenging climate.\n\n## The Acorn Awards 2026\n\nSun Jun 7, 2026\n\nThe Acorn Awards, run in association with our headline sponsor CH&Co, recognise 30 of the brightest prospects in the hospitality industry under the age of 30. The awards, known as The Caterer’s 30 under 30, recognise people working in any sector of hospitality. Everybody is welcome to enter – you can nominate yourself or ask a colleague to nominate you and tell us about your achievements.\n\n#### The Caterer provides trusted hospitality news, analysis and trends for restaurants, hotels and catering professionals.\n\nSubscribe\n\nContribute\n\nT&Cs\n\nDisclaimer\n\nAbout Us\n\nMedia Centre\n\nCookie Policy\n\nOur Team\n\nFAQs\n\nPrivacy Policy\n\nRSS\n\nSitemap\n\nJacobs Media is a company registered in England and Wales, company number 08713328. 3rd Floor, 52 Grosvenor Gardens, London SW1W 0AU. © 2026 Jacobs Media\n\nWe use cookies so we can provide you with the best online experience. By continuing to browse this site you are agreeing to our use of cookies. Click on the banner to find out more.\n\nCookie SettingsAccept All Cookies\n\n",
+            "published_date": null,
+            "query": "\"Charlotte Weatherall\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=-bNgQaVolsY",
+            "title": "Charlotte Weatherall, general manager at the Corinthia London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "This is Hospitality: Charlotte Weatherall, general manager at the Corinthia London - YouTube\n\nThis is Hospitality: Charlotte Weatherall, general manager at the Corinthia London - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy & Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https://www.youtube.com/howyoutubeworks?utm_source=ythp&utm_medium=LeftNav&utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)\n&copy; 2026 Google LLC",
+            "published_date": null,
+            "query": "\"Charlotte Weatherall\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thewalpole.co.uk/news/charlotte-weatherall-inclusive-luxury-lgbtq-interview",
+            "title": "Charlotte Weatherall on being part of the LGBTQ+ community in the luxury sector | The Walpole",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Charlotte Weatherall on being part of the LGBTQ+ community in the luxury sector | The Walpole --\n\n###### Inclusive Luxury\n\n###### 28th June 2023\n\nWalpole: What does your role entail, and how long have you been doing it?\n\nCharlotte Weatherall: As Director of Sales & Marketing for Corinthia London, I am responsible for the ensuring the hotel is positioned to achieve the highest revenue performance possible. I have worked in luxury hospitality for over 20 years and been at Corinthia London for just over a year.\n\nWhat’s your career background and what makes you passionate about what you do?\n\nMy career in hospitality started with Starwood Hotels & Resorts completing their management training programme ‘Vita Futura’. From there I moved into sales and marketing, and have been fortunate to hold a number of roles in both disciplines in the UK and UAE with brands such as Westin, Rocco Forte, Mandarin Oriental, Langham and, now, Corinthia.\n\nI am fortunate enough to work with fantastically talented people who have an incomparable energy for making others happy. I feel truly privileged to experience luxury every day; travelling to the most amazing places, staying in beautiful hotels and dining in the best restaurants and be able to call it ‘work’. It's not hard to feel passionate about that!\n\nHow has your sexuality and/or gender identity been a source of strength on your journey into your sector?\n\nIdentifying openly as a lesbian was not something that came easily to me at the start of my career. I did not see many role models at that time and, as so much of my role involved building meaningful relationships with others, I lacked confidence sharing my sexuality, fearing judgement, worrying I would make them feel uncomfortable or the conversation would become awkward and having concerns that it would ultimately lead to discrimination for progression.\n\nHave you ever faced negativity towards your sexual orientation within your career – and, if so, what effect did that experience have on you?\n\nI have been very fortunate and am certainly not aware of any occasion where negativity has been directed towards me specifically because of my sexuality. Perhaps instead I would share that I have experienced uncomfortable moments or disappointing conversations caused by a lack of knowledge, in particular around the time my wife and I were expecting our first baby and having to explain my rights for paternity leave or receiving comments which left me feeling less respected as an equal parent in comparison to what I believe a heterosexual couple would experience. These moments have always left me more motivated to try and create a better, more understanding path for others after me.\n\nDo you think attitudes towards the LGBTQ+ community have shifted in your time in the industry?\n\nI think within certain identities hospitality has shifted significantly and provides one of the safest and most inclusive environments to work within, however there is still a long way for the industry – in particular, luxury hospitality – to go in ensuring the attitudes towards all identities are positively and equally welcomed, both as guests and employees.\n\nWhat’s a significant obstacle for members of the LGBTQ+ community in the workplace that you feel isn’t talked about enough - and why is it important to highlight?\n\nIt's important to talk about the needs of the trans community – I believe there is a reluctance to consider gender neutral changing facilities and toilets in hospitality. Also, we have grooming and uniform policies within our industry that tend to encourage a more traditional approach to gender stereotypes (hostesses in dresses and heels etc).\n\nIs there a person in your industry or sector from the LGBTQ+ community who inspires you or has helped you on your journey?\n\nBob Van Den Oord, CEO of Langham Hospitality Group, was the first gay man I worked for. He was always authentic and encouraged me to feel confident to be my authentic self as well. He would invite my wife to events, always speak about her and include her in conversations, and encouraged me to embrace and feel proud of the community I am part of.\n\nWhat career advice do you have for younger members of the LGBTQ+ community who are entering your industry?\n\nFind an environment that supports and encourages you to be your authentic self, you will flourish much better in it.\n\nWhat does Pride in the workplace mean to you?\n\nPride in the workplace is an environment which supports each individual being the most authentic version of themselves and their personality and opinions being valued and encouraged.\n\n##### Visit the Corinthia London Walpole member profile\n\n### More Features like this\n\n###### Editorial Partnership\n\n###### 6th February 2026\n\n#### Six buzzwords defining the direction of luxury right now\n\n###### Vision For Luxury\n\n###### 6th February 2026\n\n#### How Victoria Houghton is leading Hamilton & Inches through its 160th anniversary and beyond\n\n###### Editorial Partnership\n\n###### 5th February 2026\n\n#### Enticing Chinese luxury tourists to the UK\n\nGeneral Enquiries\n\nAbout British Luxury\n\nWhat Walpole does\n\nWalpole Team & Board\n\nMembership\n\nAbout Membership\n\nWalpole Members\n\nWalpole Partners\n\nCommunity\n\nEvents Calendar\n\nPast Events\n\nFlagship Events\n\nBritish Luxury Summit\n\nBritish Luxury Awards\n\nBrands of Tomorrow\n\nProgrammes\n\nRepresentation\n\nHow we Represent the Sector\n\nRegions\n\nUnited Kingdom\n\nEurope\n\nInternational\n\nUK Campaigning Policies\n\nTax Free Shopping, Taxation & Regulation\n\nEmployment, Skills & Training\n\nTourism & the Visitor Economy\n\nSustainability\n\nIntellectual Property & Selective Distribution\n\nEuropean Trade\n\nGlobal Trade\n\nKnowledge\n\nReports & Analysis\n\nInsights\n\nEditorial\n\nNews & Features\n\nWalpole Newsletters\n\nBook of British Luxury\n\n### Enquire about Joining\n\n###### Forename*\n\n###### Surname\n\n###### job title\n\n###### email*\n\n###### Brand*\n\n###### TURNOVER\n\n£5-10mn £10-20mn £20-40mn £40-100mn £100mn+\n\n###### message*\n\n###### Apply Now\n\n##### Thank you. This form has been submitted\n\n### Membership Fees\n\n###### Membership Tier\n\n01\n\n02\n\n03\n\n04\n\n05\n\n###### Brand Turnover\n\n£5-10m\n\n£10-20m\n\n£20-40m\n\n£40-100m\n\n£100m+\n\n###### Membership Fee\n\n£7,000\n\n£10,000\n\n£15,000\n\n£22,500\n\n£36,000\n\n### Membership Guide\n\nPlease provide your details to download this document\n\n###### Forename*\n\n###### Surname\n\n###### email*\n\n###### SUBMIT\n\n##### Thank you. This form has been submitted\n\nOops! Something went wrong while submitting the form.\n\n##### Get the latest luxury talking points, sector news and industry insights in your inbox each day by signing up to our newsletters, the Daily Luxury Digest and The Luxury Debrief.\n\n##### Daily Luxury Digest\n\nSent every working day, the Daily Luxury Digest is your essential news source for the latest developments in the luxury sector both in the UK and around the world.\n\n##### The Luxury Debrief\n\nSent every Friday afternoon, The Luxury Debrief newsletter brings you the most engaging articles and updates from the world of Walpole, as well as the week's top luxury talking points over the past week.\n\nFirst name Last name Company Email Address\n\nSIGN ME UP TO\n\nThe Daily Digest\n\nThe Luxury Debrief\n\n### Thank you! You have been subscribed to the Daily Digest",
+            "published_date": null,
+            "query": "\"Charlotte Weatherall\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "08713328. 3",
+            "confidence": "medium",
+            "source_url": "https://www.thecaterer.com/indepth/corinthia-london-gm-charlotte-weatherall-we-are-giving-people-a-reason-to-come-here",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "01\n\n02\n\n03\n\n04\n\n05",
+            "confidence": "medium",
+            "source_url": "https://www.thewalpole.co.uk/news/charlotte-weatherall-inclusive-luxury-lgbtq-interview",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_75b231146b28e712",
+        "full_name": "Nick Sievewright",
+        "title": "Director of Sales & Marketing",
+        "normalized_title": "director of sales & marketing",
+        "company": "Corinthia London",
+        "role_tier": 2,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Nick Sievewright. Director of Sales & Marketing - London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/nick-sievewright-54851718",
+            "title": "Nick Sievewright - Corinthia London - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Sievewright\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/nick-sievewright-54851718_corinthialondon-activity-7359579288762785792-3f-B",
+            "title": "#corinthialondon | Nick Sievewright | 52 comments - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Sievewright\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Our Team | Corinthia\n\nExecutive Team General Managers Directors of Sales & Marketing Global Sales Offices Marketing & PR\n\n## Simon P. Casson\n\n###### Chief Executive Officer\n\nMeet Simon\n\n## Roderick Micallef\n\n###### Chief Operating Officer\n\nMeet Roderick\n\n## Alberto Ramos\n\n###### Chief Financial Officer\n\nMeet Alberto\n\n## Christian Renz\n\n###### Chief Commercial Officer\n\nMeet Christian\n\n## Guido Fredrich\n\n###### CHIEF DEVELOPMENT OFFICER\n\nMeet Guido\n\n## Kirsten Lord\n\n###### CHIEF PEOPLE & CULTURE OFFICER\n\nMeet Kirsten\n\n## Charlotte Weatherall\n\n###### General Manager - London\n\n## Pradeep Raman\n\n###### Managing Director - New York\n\n## Danilo Zucchetti\n\n###### Managing Director - Rome\n\n## Nicolas Kipper\n\n###### Managing Director - Brussels\n\n## Todd Cilano\n\n###### Managing Director - Bucharest\n\n## Alexandra Pisani\n\n###### General Manager - Palace\n\n## Jonathan Pace\n\n###### Area General Manager - Malta\n\n## Cesar Silva\n\n###### General Manager - Lisbon\n\n## Eric Pere\n\n###### General Manager - Budapest\n\n## Fernando Rojo\n\n###### General Manager - St Petersburg\n\n## Reuben Mifsud\n\n###### General Manager - Tripoli\n\n## Joseph Pisani\n\n###### Managing Director - Tripoli\n\n## Mohammed Wazir\n\n###### General Manager - Gewan Island, Qatar\n\n## Nick Sievewright\n\n###### Director of Sales & Marketing - London\n\n## Carrie De Marte\n\n###### Director of Sales & Marketing - New York\n\n## Paola Polidori\n\n###### Director of Sales & Marketing - Rome\n\n## Claudia Venturini\n\n###### Director of Sales & Marketing - Brussels\n\n## Sandra Raileanu\n\n###### Director of Sales & Marketing - Bucharest\n\n## Susana Martins\n\n###### Director of Sales & Marketing - Lisbon\n\n## Olena Verenchuk\n\n###### Director of Sales and Marketing - Budapest\n\n## Polina Efimova\n\n###### Director of Sales & Marketing - St Petersburg\n\n## Carey Duckworth\n\n###### Head of Global Sales\n\n## Claire ten Hacken\n\n###### Director of Global Sales UK & France\n\n## Carolina Martins\n\n###### Director of Global Leisure Sales – Europe & Latin America\n\n## Rogelio Rodríguez\n\n###### Director of Global Sales, South Europe & LATAM\n\n## Jacqueline Kinsella\n\n###### Director of Global Sales, Germany, Austria & Switzerland\n\n## Dale Scharlat\n\n###### Director of Global Sales, Meetings & Incentives - USA\n\n## Raffaella Manetti\n\n###### Director of Global Sales, West Coast USA\n\n## Simona Maniaci\n\n###### Director of Global Sales – East Coast USA\n\n## Tarek Sayed Ali\n\n###### Senior Director of Global Sales, Middle East, Africa & Turkey\n\n## Nupur Dhandharia\n\n###### Director of Global Sales, India\n\n## Antony Rush\n\n###### Group Director of Entertainment\n\n## Emily Jewell\n\n###### Head of Global Marketing\n\n## Claire Blackshaw\n\n###### head of global pr & communications\n\nReservations",
+            "published_date": null,
+            "query": "\"Nick Sievewright\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hospitality-interiors.net/news/corinthia-london-appoints-karina-elias-as-hotel-manager/",
+            "title": "Corinthia London appoints Karina Elias as Hotel Manager | Hospitality Interiors",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Corinthia London appoints Karina Elias as Hotel Manager | Hospitality Interiors -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\n\nClose Menu\n\nLinkedIn X (Twitter) Instagram\n\nSubscribe to Magazine\n\nLinkedIn X (Twitter) Instagram\n\nSubscribe to Magazine\n\nShare\n\nFacebook Twitter LinkedIn\n\nCorinthia London has announced the appointment of Karina Elias as Hotel Manager. Karina joins the hotel’s Executive Committee, where she will play a key role in leading operations and enhancing the guest experience across all departments of the flagship London property.\n\nKarina brings a wealth of international experience in luxury hospitality, having worked with prestigious hotels across the UK, USA, and Brazil. Most recently, she oversaw all restaurants, bars, and events at Grosvenor House, A JW Marriott Hotel, as Director of Food & Beverage. Prior to this, Karina held leadership roles in London at The Langham and The Savoy, where she led award-winning teams and championed service innovation. Her earlier international experience includes positions at Four Seasons Hotel Boston, The Balsams Grand Resort Hotel in New Hampshire, and the Copacabana Palace Hotel in Rio de Janeiro, formerly of Orient Express Hotels, where she completed a Graduate Programme.\n\nKarina holds a Bachelor’s degree in Hospitality & Tourism Management and is known for her guest-centric leadership style, strategic mindset, and passion for operational excellence. She is also a strong advocate for diversity, equity, and inclusion within the workplace, reflecting Corinthia’s values of care, authenticity, and commitment to uplifting the lives of its guests, colleagues, and communities.\n\n“Karina’s operational expertise, global perspective, and inspiring leadership make her a tremendous addition to our Executive team,” said Charlotte Weatherall, General Manager, Corinthia London. “We are delighted to welcome her to Corinthia London and are confident she will play an instrumental role in shaping the hotel’s continued success.”\n\nKarina added, “I am thrilled to join Corinthia London, a property synonymous with timeless elegance and genuine hospitality, at such an exciting time. I look forward to working with the talented team to continue delivering exceptional guest experiences and further elevating the hotel’s reputation as one of London’s leading luxury destinations.”\n\nKarina’s appointment further strengthens Corinthia London’s Executive Committee, following the additions of Jasper Anderegg as Director of Rooms in May 2025 and Nick Sievewright as Director of Sales & Marketing in August 2025.\n\nPrevious Article The Shepherd Mayfair to open in Q1 2026\n\nNext Article Youth and Tim Groom Architects unveil design for Hyll Hotel\n\n--",
+            "published_date": null,
+            "query": "\"Nick Sievewright\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/nick-sievewright-54851718_absolutely-thrilled-to-announce-that-i-have-activity-6914254286092648448-GyJA",
+            "title": "Nick Sievewright's Post - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Nick Sievewright\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "nick.sievewright@corinthia.com",
+            "confidence": "high",
+            "source_url": "https://www.corinthia.com/en-gb/our-team/",
+            "rationale": "Explicitly listed next to name and title on official team page"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_f72ca85f0390a5ec",
+        "full_name": "Karina Elias",
+        "title": "Hotel Manager",
+        "normalized_title": "hotel manager",
+        "company": "Corinthia London",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "low",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thecaterer.com/news/karina-elias-joins-corinthia-london-as-hotel-manager",
+            "title": "Karina Elias joins Corinthia London as hotel manager",
+            "source_type": "press",
+            "snippet": "Karina Elias has been appointed hotel manager at Corinthia London... previously director of F&B at the JW Marriott",
+            "fetched_text": null,
+            "published_date": "2025-10-22",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/karina-eliasuk",
+            "title": "Karina Elias LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Hotel Manager · Corinthia, London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hospitality-interiors.net/news/corinthia-london-appoints-karina-elias-as-hotel-manager/",
+            "title": "Corinthia London appoints Karina Elias as Hotel Manager | Hospitality Interiors",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Corinthia London appoints Karina Elias as Hotel Manager | Hospitality Interiors -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\n\nClose Menu\n\nLinkedIn X (Twitter) Instagram\n\nSubscribe to Magazine\n\nLinkedIn X (Twitter) Instagram\n\nSubscribe to Magazine\n\nShare\n\nFacebook Twitter LinkedIn\n\nCorinthia London has announced the appointment of Karina Elias as Hotel Manager. Karina joins the hotel’s Executive Committee, where she will play a key role in leading operations and enhancing the guest experience across all departments of the flagship London property.\n\nKarina brings a wealth of international experience in luxury hospitality, having worked with prestigious hotels across the UK, USA, and Brazil. Most recently, she oversaw all restaurants, bars, and events at Grosvenor House, A JW Marriott Hotel, as Director of Food & Beverage. Prior to this, Karina held leadership roles in London at The Langham and The Savoy, where she led award-winning teams and championed service innovation. Her earlier international experience includes positions at Four Seasons Hotel Boston, The Balsams Grand Resort Hotel in New Hampshire, and the Copacabana Palace Hotel in Rio de Janeiro, formerly of Orient Express Hotels, where she completed a Graduate Programme.\n\nKarina holds a Bachelor’s degree in Hospitality & Tourism Management and is known for her guest-centric leadership style, strategic mindset, and passion for operational excellence. She is also a strong advocate for diversity, equity, and inclusion within the workplace, reflecting Corinthia’s values of care, authenticity, and commitment to uplifting the lives of its guests, colleagues, and communities.\n\n“Karina’s operational expertise, global perspective, and inspiring leadership make her a tremendous addition to our Executive team,” said Charlotte Weatherall, General Manager, Corinthia London. “We are delighted to welcome her to Corinthia London and are confident she will play an instrumental role in shaping the hotel’s continued success.”\n\nKarina added, “I am thrilled to join Corinthia London, a property synonymous with timeless elegance and genuine hospitality, at such an exciting time. I look forward to working with the talented team to continue delivering exceptional guest experiences and further elevating the hotel’s reputation as one of London’s leading luxury destinations.”\n\nKarina’s appointment further strengthens Corinthia London’s Executive Committee, following the additions of Jasper Anderegg as Director of Rooms in May 2025 and Nick Sievewright as Director of Sales & Marketing in August 2025.\n\nPrevious Article The Shepherd Mayfair to open in Q1 2026\n\nNext Article Youth and Tim Groom Architects unveil design for Hyll Hotel\n\n--",
+            "published_date": null,
+            "query": "\"Karina Elias\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thecaterer.com/news/hospitality-job-moves-karina-elias-mario-perera-david-taylor-and-more",
+            "title": "Hospitality job moves: Karina Elias, Mario Perera, David Taylor and more - News",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Karina Elias\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.boutiquehotelier.com/karina-elias-hotel-manager-at-corinthia/",
+            "title": "Karina Elias appointed as hotel manager of Corinthia London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Karina Elias\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/karina-eliasuk",
+        "needs_human_review": true,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_5459b4b96587ee73",
+        "full_name": "Jasper Anderegg",
+        "title": "Director of Rooms",
+        "normalized_title": "director of rooms",
+        "company": "Corinthia London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/jasperanderegg",
+            "title": "Jasper Anderegg LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Corinthia London · Director Of Rooms",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://globalhospitalitytalk.com/news/corinthia-london-appoints-karina-elias-as-hotel-manager/",
+            "title": "Corinthia London Appoints Karina Elias as Hotel Manager",
+            "source_type": "press",
+            "snippet": "following the additions of Jasper Anderegg as Director of Rooms",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/jasper-anderegg-email_11876266",
+            "title": "Jasper Anderegg Email & Phone Number | Corinthia London ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasper Anderegg\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hotel-online.com/news/andre-garrett-to-join-corinthia-hotel-london-as-executive-chef",
+            "title": "André Garrett to Join Corinthia Hotel London as Executive Chef | Hotel Online",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasper Anderegg\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thehotelpause.com/post/q-a-with-andr%C3%A9-garrett-executive-chef-at-corinthia-hotel-london",
+            "title": "Q&A with André Garrett – Executive Chef at Corinthia Hotel London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasper Anderegg\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79017128.html",
+            "title": "André Garrett has been appointed Executive Chef at Corinthia Hotel London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasper Anderegg\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/jasperanderegg",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_bbf2ed301caf6c0c",
+        "full_name": "Sam Acma",
+        "title": "Director of Finance",
+        "normalized_title": "director of finance",
+        "company": "Corinthia London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://rocketreach.co/sam-acma-email_840169812",
+            "title": "Sam Acma Profile",
+            "source_type": "directory",
+            "snippet": "Sam Acma... is currently a Director of Finance at Corinthia London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/company/corinthia-london",
+            "title": "Corinthia London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sam Acma\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://wiza.co/d/hawes-and-curtis/43ad/sam-acma",
+            "title": "Sam ACMA  - Email & Phone Number",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sam Acma\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/pub/dir/Sam/Acma",
+            "title": "80+ \"Sam Acma\" profiles | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sam Acma\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/pub/dir/Sam/Acma/gb-0-United-Kingdom",
+            "title": "60+ \"Sam Acma\" profiles - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sam Acma\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Name spelling confirmed via directory; limited additional press coverage"
+        ]
+      },
+      {
+        "candidate_id": "c_46a146f38a704ee7",
+        "full_name": "Giuseppe Calore",
+        "title": "Director of Revenue",
+        "normalized_title": "director of revenue",
+        "company": "Corinthia London",
+        "role_tier": 3,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/giuseppe-calore-73400759",
+            "title": "Giuseppe Calore LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Director Of Revenue · Corinthia London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/giuseppe-calore-73400759_reservations-services-agent-corinthia-london-activity-7070083409036881920-Vt-a",
+            "title": "We are hiring! Do you have a passion for hospitality, great ... - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Giuseppe Calore\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.corinthia.com/en-gb/london/offers/celebration-of-calabria/",
+            "title": "A Celebration of Calabria",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Giuseppe Calore\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/pub/dir/Giuseppe/Calore",
+            "title": "7 \"Giuseppe Calore\" profiles | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Giuseppe Calore\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/le-cordon-bleu-london_we-recently-welcomed-giuseppe-calore-director-activity-7420423616560873473-Ivqe",
+            "title": "We recently welcomed Giuseppe Calore, Director of Revenue at ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Giuseppe Calore\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/giuseppe-calore-73400759",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_117541b8887d6d11",
+        "full_name": "Aysun Mut",
+        "title": "Director of Spa",
+        "normalized_title": "director of spa",
+        "company": "BIOME by Corinthia London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/aysun-mut-63284829",
+            "title": "Aysun Mut LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Director of Spa at BIOME by Corinthia London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.corinthia.com/en-gb/london/spa-at-corinthia-london/meet-your-experts/",
+            "title": "Spa Experts",
+            "source_type": "hotel_site",
+            "snippet": "At Biome by Corinthia London, Aysun and her team...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79013761.html",
+            "title": "Aysun Mut has been appointed Spa Director at Corinthia London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Aysun Mut\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hotel-online.com/news/corinthia-hotel-london-appoints-aysun-mut-as-spa-director-for-espa-life",
+            "title": "Corinthia Hotel London Appoints Aysun Mut as Spa Director for ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Aysun Mut\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hotel-online.com/press_releases/release/corinthia-hotel-london-appoints-aysun-mut-as-spa-director-for-espa-life/",
+            "title": "Corinthia Hotel London Appoints Aysun Mut as Spa Director for ESPA Life at Corinthia | Hotel Online",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Aysun Mut\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://spa-life.international/news/article/new-spa-director-at-espa-life-at-corinthia/",
+            "title": "New spa director at ESPA Life at Corinthia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Aysun Mut\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/aysun-mut-63284829",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_bbe4ff94c47593da",
+        "full_name": "Julia Pimentel",
+        "title": "Director of Communications",
+        "normalized_title": "director of communications",
+        "company": "Corinthia London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/latest-news/corinthia-london-appoints-new-general-manager/",
+            "title": "Press Release",
+            "source_type": "press",
+            "snippet": "Hotel - Julia Pimentel, Director of Communications | +44 (0)7393 796697 | julia.pimentel@corinthia.com",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/julia-pimentel-4028298b",
+            "title": "Julia Pimentel - Corinthia London | LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julia Pimentel\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/the-pr-net_in-this-series-we-shift-the-spotlight-from-activity-7445094932320522240-66xC",
+            "title": "Meet the PR Pros Behind the Scenes: Debbie Flynn, Julia Pimentel ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julia Pimentel\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/julia-pimentel-4028298b_powerlist-alwayschic-activity-7290054412977209344-lO1h",
+            "title": "Julia Pimentel’s Post",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julia Pimentel\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.diarydirectory.com/newsarticle/corinthia-hotel-london-appoints-director-of-communications/58368",
+            "title": "Corinthia Hotel London appoints Director of Communications",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Julia Pimentel\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "julia.pimentel@corinthia.com",
+            "confidence": "high",
+            "source_url": "https://www.corinthia.com/en-gb/latest-news/corinthia-london-appoints-new-general-manager/",
+            "rationale": "Explicitly listed with title and phone in official press contact section"
+          },
+          {
+            "kind": "phone",
+            "value": "+44 (0)7393 796697",
+            "confidence": "high",
+            "source_url": "https://www.corinthia.com/en-gb/latest-news/corinthia-london-appoints-new-general-manager/",
+            "rationale": "Explicitly listed in official press release"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_7b1fbde1e51f1310",
+        "full_name": "Simon Naudi",
+        "title": "Group CEO",
+        "normalized_title": "group ceo",
+        "company": "Corinthia Group / IHI",
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Simon Naudi: Group CEO",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.corinthia.com/en-gb/latest-news/corinthia-hotels-announces-two-key-appointments/",
+            "title": "Key Appointments Announcement",
+            "source_type": "press",
+            "snippet": "promotion of Simon Naudi to Group CEO and Managing Director",
+            "fetched_text": null,
+            "published_date": "2024-01-26",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://corinthiagroup.com/where-do-we-go-from-here-simon-naudi/",
+            "title": "Where do we go from here? Simon Naudi | Corinthia Group",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Naudi\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://maltaceos.mt/simon-naudi-lisbon-deal-frees-up-capital-to-drive-corinthias-global-growth/",
+            "title": "Simon Naudi: Lisbon deal frees up capital to drive Corinthia’s global growth",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Naudi\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://corinthiagroup.com/directors/simon-naudi/",
+            "title": "Simon Naudi | Corinthia Group - Owners, Developers & Operators of the Corinthia Hotels and Real Estate Brand",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Naudi\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.leisureopportunities.co.uk/news/London-hotel-puts-Corinthia-on-the-map/273423",
+            "title": "London hotel puts Corinthia 'on the map'",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Naudi\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://hotelsmag.com/news/corinthia-balances-global-goals-with-boutique-scope/",
+            "title": "Corinthia balances global goals with boutique scope - HOTELSMag.com",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Naudi\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_4c051c41468865a7",
+        "full_name": "Roderick Micallef",
+        "title": "Chief Operating Officer",
+        "normalized_title": "chief operating officer",
+        "company": "Corinthia Hotels",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Roderick Micallef: Chief Operating Officer",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hotel-online.com/index.php/news/corinthia-hotels-appoints-roderick-micallef-as-vice-president-of-operations",
+            "title": "Corinthia Hotels Appoints Roderick Micallef as Vice-President of ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Roderick Micallef\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://maltaceos.mt/corinthia-hotels-stalwart-roderick-micallef-appointed-chief-projects-officer/",
+            "title": "Corinthia Hotels stalwart Roderick Micallef appointed Chief Projects Officer",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Roderick Micallef\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Roderick Micallef\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Roderick Micallef\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://whoswho.mt/en/roderick-micallef-named-chief-projects-officer-at-corinthia-hotels-limited",
+            "title": "Roderick Micallef named Chief Projects Officer at Corinthia Hotels Limited",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Roderick Micallef\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_ac95c70fe0ff96b1",
+        "full_name": "Christian Renz",
+        "title": "Chief Commercial Officer",
+        "normalized_title": "chief commercial officer",
+        "company": "Corinthia Hotels",
+        "role_tier": 4,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Christian Renz: Chief Commercial Officer",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/christian-renz-27086a8",
+            "title": "Christian Renz | Chief Commercial Officer (CCO) at Corinthia Hotels Limited",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Christian Renz\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hotel-online.com/news/corinthia-hotels-appoints-christian-renz-as-chief-commercial-officer",
+            "title": "Corinthia Hotels Appoints Christian Renz as Chief Commercial Officer",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Christian Renz\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Christian Renz\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Christian Renz\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalityandcateringnews.com/2019/11/corinthia-hotels-appoints-new-global-chief-commercial-officer/",
+            "title": "Corinthia Hotels appoints new Global Chief Commercial Officer - Hospitality & Catering News",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Christian Renz\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_3c869b8be8559617",
+        "full_name": "Kirsten Lord",
+        "title": "Chief People & Culture Officer",
+        "normalized_title": "chief people & culture officer",
+        "company": "Corinthia Hotels",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Kirsten Lord: Chief People & Culture Officer",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://corinthiagroup.com/an-enlightening-chat-with-kirsten-lord/",
+            "title": "An enlightening chat with Kirsten Lord  | Corinthia Group - Owners, Developers & Operators of the Corinthia Hotels and Real Estate Brand",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Kirsten Lord\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://rss.com/podcasts/lessons-from-the-boardroom/1970111/",
+            "title": "Kirsten Lord: Chief People and Culture Officer, Corinthia Hotels  | Podcast Episode on RSS.com",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Kirsten Lord\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Kirsten Lord\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Kirsten Lord\" \"Corinthia London\"",
+            "score": null
+          },
+          {
+            "url": "https://corinthiagroup.com/chl-leadership-summit-meets-at-corinthia-brussels/",
+            "title": "CHL Leadership Summit Meets at Corinthia Brussels | Corinthia Group - Owners, Developers & Operators of the Corinthia Hotels and Real Estate Brand",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Kirsten Lord\" \"Corinthia London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_2b4d98ca2beb0eaa",
+        "full_name": "Claire Blackshaw",
+        "title": "Head of Global PR & Communications",
+        "normalized_title": "head of global pr & communications",
+        "company": "Corinthia Hotels",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Claire Blackshaw: Head of Global PR & Communications",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/claireblackshaw",
+            "title": "Claire Blackshaw LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Head of Global PR & Communications · Corinthia Hotels",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "claire.blackshaw@corinthia.com",
+            "confidence": "high",
+            "source_url": "https://www.corinthia.com/en-gb/our-team/",
+            "rationale": "Explicitly listed on official team page"
+          }
+        ],
+        "linkedin_url": "https://uk.linkedin.com/in/claireblackshaw",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_b8a15ad44e177f40",
+        "full_name": "Emily Jewell",
+        "title": "Head of Global Marketing",
+        "normalized_title": "head of global marketing",
+        "company": "Corinthia Hotels",
+        "role_tier": 3,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Emily Jewell: Head of Global Marketing",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "emily.jewell@corinthia.com",
+            "confidence": "high",
+            "source_url": "https://www.corinthia.com/en-gb/our-team/",
+            "rationale": "Explicitly listed on official team page"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_ba0781072922a14f",
+        "full_name": "Carey Duckworth",
+        "title": "Head of Global Sales",
+        "normalized_title": "head of global sales",
+        "company": "Corinthia Hotels",
+        "role_tier": 3,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Carey Duckworth: Head of Global Sales",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "carey.duckworth@corinthia.com",
+            "confidence": "high",
+            "source_url": "https://www.corinthia.com/en-gb/our-team/",
+            "rationale": "Explicitly listed on official team page"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_9bcc36e30c910fa3",
+        "full_name": "Antony Rush",
+        "title": "Group Director of Entertainment",
+        "normalized_title": "group director of entertainment",
+        "company": "Corinthia Hotels",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/our-team/",
+            "title": "Our Team | Corinthia",
+            "source_type": "company_site",
+            "snippet": "Antony Rush: Group Director of Entertainment",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "antony.rush@corinthia.com",
+            "confidence": "high",
+            "source_url": "https://www.corinthia.com/en-gb/our-team/",
+            "rationale": "Explicitly listed on official team page"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Role is group-level but supports flagship London property events and F&B outlets"
+        ]
+      },
+      {
+        "candidate_id": "c_374d002be9ee4f4e",
+        "full_name": "Andrea Marton",
+        "title": "Director of Marketing and Communications",
+        "normalized_title": "director of marketing and communications",
+        "company": "Corinthia Hotels",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/press/",
+            "title": "Press Contacts",
+            "source_type": "company_site",
+            "snippet": "Director of Marketing and Communications Email: andrea.marton@corinthia.com",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "andrea.marton@corinthia.com",
+            "confidence": "high",
+            "source_url": "https://www.corinthia.com/en-gb/press/",
+            "rationale": "Explicitly listed in official press contacts"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Scope may be group or property-specific; tied to London flagship communications"
+        ]
+      },
+      {
+        "candidate_id": "c_79d410ea8e36508d",
+        "full_name": "Tom Kerridge",
+        "title": "Chef Patron (Kerridge's Bar & Grill)",
+        "normalized_title": "chef patron (kerridge's bar & grill)",
+        "company": "Corinthia London",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/london/",
+            "title": "Official Hotel Page",
+            "source_type": "hotel_site",
+            "snippet": "Kerridge's Bar & Grill serves bold British cuisine... by Tom Kerridge",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "Partner/collaborative role rather than full-time employee"
+        ]
+      },
+      {
+        "candidate_id": "c_7ee4cbc55494e64d",
+        "full_name": "Francesco Mazzei",
+        "title": "Chef (Mezzogiorno)",
+        "normalized_title": "chef (mezzogiorno)",
+        "company": "Corinthia London",
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.corinthia.com/en-gb/london/",
+            "title": "Official Hotel Page",
+            "source_type": "hotel_site",
+            "snippet": "Mezzogiorno by Francesco Mazzei is a journey through the soul of Southern Italy",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": [
+          "Partner/chef role with operational influence on F&B at property"
+        ]
+      }
+    ],
+    "rejected_candidates": [],
+    "provider_costs": {
+      "xai_usd": 0.213983,
+      "exa_usd": 0.12,
+      "total_usd": 0.333983
+    },
+    "quality_metrics": {
+      "candidate_count": 19,
+      "useful_candidate_count": 4,
+      "tier1_count": 3,
+      "tier2_count": 1,
+      "direct_route_count": 10,
+      "department_route_count": 0,
+      "rejected_count": 0,
+      "exa_searches": 16,
+      "exa_fetches": 8,
+      "xai_calls": 1
+    },
+    "telemetry": {
+      "stages": [
+        {
+          "stage": "grok_discovery",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 75991,
+          "tokens_out": 10141,
+          "estimated_usd": 0.213983,
+          "seconds": 188.38264749999507,
+          "notes": [
+            "grok-4.20-reasoning discovery"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.4171755999996094,
+          "notes": [
+            "216508823b8c"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.764851300002192,
+          "notes": [
+            "afc9f190628a"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6687583000020823,
+          "notes": [
+            "36e7342f7b35"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.4194247999985237,
+          "notes": [
+            "426a04326cca"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6598923999990802,
+          "notes": [
+            "809b30dbaf1c"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.636569700000109,
+          "notes": [
+            "5ff93582d05f"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.7506485000048997,
+          "notes": [
+            "fbf3af8655fa"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.7856256999948528,
+          "notes": [
+            "d651d453fa1d"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.0326274000035482,
+          "notes": [
+            "652cf8d01bb9"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.962417300004745,
+          "notes": [
+            "8a42415274a2"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.9075964000003296,
+          "notes": [
+            "598d6d263be3"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.9235705000028247,
+          "notes": [
+            "f2bb566746f2"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 2.0511662999997498,
+          "notes": [
+            "https://www.corinthia.com/en-gb/latest-news/corinthia-london-appoints-new-genera"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.9600779000029434,
+          "notes": [
+            "https://www.thecaterer.com/indepth/corinthia-london-gm-charlotte-weatherall-we-a"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 10.207994600001257,
+          "notes": [
+            "https://www.youtube.com/watch?v=-bNgQaVolsY"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.8300371000004816,
+          "notes": [
+            "https://www.thewalpole.co.uk/news/charlotte-weatherall-inclusive-luxury-lgbtq-in"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.819077100000868,
+          "notes": [
+            "https://www.thewalpole.co.uk/news/checking-in-with-charlotte-weatherall-corinthi"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 2.0509055000002263,
+          "notes": [
+            "https://corinthia.com/en-gb/our-team/"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 2.608512200000405,
+          "notes": [
+            "https://www.hospitality-interiors.net/news/corinthia-london-appoints-karina-elia"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.1825535000025411,
+          "notes": [
+            "https://www.hospitality-interiors.net/news/corinthia-london-appoints-karina-elia"
+          ]
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.1616394000011496,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.5728039999958128,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.2448474999982864,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.294170100001793,
+          "notes": []
+        }
+      ],
+      "exa_search_requests": 16,
+      "exa_content_pages": 8,
+      "errors": []
+    },
+    "needs_manual_org_review": false
+  },
+  "contacts": [
+    {
+      "full_name": "Charlotte Weatherall",
+      "title": "General Manager",
+      "company": "Corinthia London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "01\n\n02\n\n03\n\n04\n\n05",
+      "phone2": "08713328. 3",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Charlotte Weatherall. General Manager - London | Charlotte Weatherall appointed General Manager at Corinthia London. Effective July 1 2025 | Charlotte Weatherall, formerly the hotel's Director of Sales and Marketing | Corinthia London GM Charlotte Weatherall on driving spend in a ... | Charlotte Weatherall, general manager at the Corinthia London",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Charlotte Weatherall. General Manager - London"
+        },
+        {
+          "source_url": "https://www.corinthia.com/en-gb/latest-news/corinthia-london-appoints-new-general-manager/",
+          "source_type": "news",
+          "quote_or_fact": "Charlotte Weatherall appointed General Manager at Corinthia London. Effective July 1 2025"
+        },
+        {
+          "source_url": "https://www.thewalpole.co.uk/news/checking-in-with-charlotte-weatherall-corinthia-londons-new-general-manager",
+          "source_type": "news",
+          "quote_or_fact": "Charlotte Weatherall, formerly the hotel's Director of Sales and Marketing"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/indepth/corinthia-london-gm-charlotte-weatherall-we-are-giving-people-a-reason-to-come-here",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia London GM Charlotte Weatherall on driving spend in a cost of living crisis - InDepth\n\nao link\n\n## This is Hospitality\n\nThe Caterer’s campaign celebrating our amazing hospitality industry\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\nEvents & Awards\n\nCareers\n\nTechnology\n\nSearch The CatererSearch\n\nRemember Login\n\nRegister| Reset Password\n\n## Subscribe\n\nStart a subscription today from just £4.99\n\nMenu\n\nNews\n\nHotel\n\nRestaurant\n\nFoodservice\n\nPub & Bar\n\nChef\n\nOpenings\n\nInDepth\n\nFeatures\n\nAnalysis\n\nPeople\n\nSustainability\n\nMenuwatch\n\nRecipes\n\nDrinks Doctor\n\nTenders\n\nProducts & Equipment\n\nFood & drink\n\nEquipment\n\nTechnology\n\n## New openings in March 2026: Restaurants, hotels and bars\n\nSectors\n\nHotel\n\nRestaurant\n\nPub & Bar\n\nFoodservice\n\nSuppliers\n\nNew"
+        },
+        {
+          "source_url": "https://www.youtube.com/watch?v=-bNgQaVolsY",
+          "source_type": "other",
+          "quote_or_fact": "This is Hospitality: Charlotte Weatherall, general manager at the Corinthia London - YouTube\n\nThis is Hospitality: Charlotte Weatherall, general manager at the Corinthia London - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy & Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https://www.youtube.com/howyoutubeworks?utm_source=ythp&utm_medium=LeftNav&utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)[NFL Sunday Tic"
+        },
+        {
+          "source_url": "https://www.thewalpole.co.uk/news/charlotte-weatherall-inclusive-luxury-lgbtq-interview",
+          "source_type": "other",
+          "quote_or_fact": "Charlotte Weatherall on being part of the LGBTQ+ community in the luxury sector | The Walpole --\n\n###### Inclusive Luxury\n\n###### 28th June 2023\n\nWalpole: What does your role entail, and how long have you been doing it?\n\nCharlotte Weatherall: As Director of Sales & Marketing for Corinthia London, I am responsible for the ensuring the hotel is positioned to achieve the highest revenue performance possible. I have worked in luxury hospitality for over 20 years and been at Corinthia London for just over a year.\n\nWhat’s your career background and what makes you passionate about what you do?\n\nMy career in hospitality started with Starwood Hotels & Resorts completing their management training programme ‘Vita Futura’. From there I moved into sales and marketing, and have been fortunate to hold a number of roles in both disciplines in the UK and UAE with brands such as Westin, Rocco Forte, Mandarin Oriental, Langham and, now, Corinthia.\n\nI am fortunate enough to work with fantastically talente"
+        }
+      ]
+    },
+    {
+      "full_name": "Nick Sievewright",
+      "title": "Director of Sales & Marketing",
+      "company": "Corinthia London",
+      "linkedin_url": null,
+      "email": "nick.sievewright@corinthia.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 2 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Nick Sievewright. Director of Sales & Marketing - London | Nick Sievewright - Corinthia London - LinkedIn | #corinthialondon | Nick Sievewright | 52 comments - LinkedIn | Our Team | Corinthia | Corinthia London appoints Karina Elias as Hotel Manager | Hospitality Interiors",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Nick Sievewright. Director of Sales & Marketing - London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/nick-sievewright-54851718",
+          "source_type": "other",
+          "quote_or_fact": "Nick Sievewright - Corinthia London - LinkedIn"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/nick-sievewright-54851718_corinthialondon-activity-7359579288762785792-3f-B",
+          "source_type": "other",
+          "quote_or_fact": "#corinthialondon | Nick Sievewright | 52 comments - LinkedIn"
+        },
+        {
+          "source_url": "https://corinthia.com/en-gb/our-team/",
+          "source_type": "other",
+          "quote_or_fact": "Our Team | Corinthia\n\nExecutive Team General Managers Directors of Sales & Marketing Global Sales Offices Marketing & PR\n\n## Simon P. Casson\n\n###### Chief Executive Officer\n\nMeet Simon\n\n## Roderick Micallef\n\n###### Chief Operating Officer\n\nMeet Roderick\n\n## Alberto Ramos\n\n###### Chief Financial Officer\n\nMeet Alberto\n\n## Christian Renz\n\n###### Chief Commercial Officer\n\nMeet Christian\n\n## Guido Fredrich\n\n###### CHIEF DEVELOPMENT OFFICER\n\nMeet Guido\n\n## Kirsten Lord\n\n###### CHIEF PEOPLE & CULTURE OFFICER\n\nMeet Kirsten\n\n## Charlotte Weatherall\n\n###### General Manager - London\n\n## Pradeep Raman\n\n###### Managing Director - New York\n\n## Danilo Zucchetti\n\n###### Managing Director - Rome\n\n## Nicolas Kipper\n\n###### Managing Director - Brussels\n\n## Todd Cilano\n\n###### Managing Director - Bucharest\n\n## Alexandra Pisani\n\n###### General Manager - Palace\n\n## Jonathan Pace\n\n###### Area General Manager - Malta\n\n## Cesar Silva\n\n###### General Manager - Lisbon\n\n## Eric Pere\n\n###### General Manager - Buda"
+        },
+        {
+          "source_url": "https://www.hospitality-interiors.net/news/corinthia-london-appoints-karina-elias-as-hotel-manager/",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia London appoints Karina Elias as Hotel Manager | Hospitality Interiors -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\n\nClose Menu\n\nLinkedIn X (Twitter) Instagram\n\nSubscribe to Magazine\n\nLinkedIn X (Twitter) Instagram\n\nSubscribe to Magazine\n\nShare\n\nFacebook Twitter LinkedIn\n\nCorinthia London has announced the appointment of Karina Elias as Hotel Manager. Karina joins the hotel’s Executive Committee, where she will play a key role in leading operations and enhancing the guest experience across all departments of the flagship London property.\n\nKarina brings a wealth of international experience in luxury hospitality, having worked with prestigious hotels across the UK, USA, and Brazil. Most recently, she oversaw all restaurants, bars, and events at Grosvenor House, A JW Marriott Hotel, as Director of Food & Beverage. Prior to this, Karina held leadership roles in London at The Langham and The Savoy, where she led award-winning teams and championed service innovation. Her ea"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/nick-sievewright-54851718_absolutely-thrilled-to-announce-that-i-have-activity-6914254286092648448-GyJA",
+          "source_type": "other",
+          "quote_or_fact": "Nick Sievewright's Post - LinkedIn"
+        }
+      ]
+    },
+    {
+      "full_name": "Karina Elias",
+      "title": "Hotel Manager",
+      "company": "Corinthia London",
+      "linkedin_url": "https://uk.linkedin.com/in/karina-eliasuk",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence low.",
+      "contact_evidence_summary": "Karina Elias has been appointed hotel manager at Corinthia London... previously director of F&B at the JW Marriott | Hotel Manager · Corinthia, London | Corinthia London appoints Karina Elias as Hotel Manager | Hospitality Interiors | Hospitality job moves: Karina Elias, Mario Perera, David Taylor and more - News | Karina Elias appointed as hotel manager of Corinthia London",
+      "evidence": [
+        {
+          "source_url": "https://www.thecaterer.com/news/karina-elias-joins-corinthia-london-as-hotel-manager",
+          "source_type": "news",
+          "quote_or_fact": "Karina Elias has been appointed hotel manager at Corinthia London... previously director of F&B at the JW Marriott"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/karina-eliasuk",
+          "source_type": "linkedin",
+          "quote_or_fact": "Hotel Manager · Corinthia, London"
+        },
+        {
+          "source_url": "https://www.hospitality-interiors.net/news/corinthia-london-appoints-karina-elias-as-hotel-manager/",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia London appoints Karina Elias as Hotel Manager | Hospitality Interiors -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --\n\nClose Menu\n\nLinkedIn X (Twitter) Instagram\n\nSubscribe to Magazine\n\nLinkedIn X (Twitter) Instagram\n\nSubscribe to Magazine\n\nShare\n\nFacebook Twitter LinkedIn\n\nCorinthia London has announced the appointment of Karina Elias as Hotel Manager. Karina joins the hotel’s Executive Committee, where she will play a key role in leading operations and enhancing the guest experience across all departments of the flagship London property.\n\nKarina brings a wealth of international experience in luxury hospitality, having worked with prestigious hotels across the UK, USA, and Brazil. Most recently, she oversaw all restaurants, bars, and events at Grosvenor House, A JW Marriott Hotel, as Director of Food & Beverage. Prior to this, Karina held leadership roles in London at The Langham and The Savoy, where she led award-winning teams and championed service innovation. Her ea"
+        },
+        {
+          "source_url": "https://www.thecaterer.com/news/hospitality-job-moves-karina-elias-mario-perera-david-taylor-and-more",
+          "source_type": "other",
+          "quote_or_fact": "Hospitality job moves: Karina Elias, Mario Perera, David Taylor and more - News"
+        },
+        {
+          "source_url": "https://www.boutiquehotelier.com/karina-elias-hotel-manager-at-corinthia/",
+          "source_type": "other",
+          "quote_or_fact": "Karina Elias appointed as hotel manager of Corinthia London"
+        }
+      ]
+    },
+    {
+      "full_name": "Jasper Anderegg",
+      "title": "Director of Rooms",
+      "company": "Corinthia London",
+      "linkedin_url": "https://uk.linkedin.com/in/jasperanderegg",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Corinthia London · Director Of Rooms | following the additions of Jasper Anderegg as Director of Rooms | Jasper Anderegg Email & Phone Number | Corinthia London ... | André Garrett to Join Corinthia Hotel London as Executive Chef | Hotel Online | Q&A with André Garrett – Executive Chef at Corinthia Hotel London",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/jasperanderegg",
+          "source_type": "linkedin",
+          "quote_or_fact": "Corinthia London · Director Of Rooms"
+        },
+        {
+          "source_url": "https://globalhospitalitytalk.com/news/corinthia-london-appoints-karina-elias-as-hotel-manager/",
+          "source_type": "news",
+          "quote_or_fact": "following the additions of Jasper Anderegg as Director of Rooms"
+        },
+        {
+          "source_url": "https://rocketreach.co/jasper-anderegg-email_11876266",
+          "source_type": "other",
+          "quote_or_fact": "Jasper Anderegg Email & Phone Number | Corinthia London ..."
+        },
+        {
+          "source_url": "https://www.hotel-online.com/news/andre-garrett-to-join-corinthia-hotel-london-as-executive-chef",
+          "source_type": "other",
+          "quote_or_fact": "André Garrett to Join Corinthia Hotel London as Executive Chef | Hotel Online"
+        },
+        {
+          "source_url": "https://www.thehotelpause.com/post/q-a-with-andr%C3%A9-garrett-executive-chef-at-corinthia-hotel-london",
+          "source_type": "other",
+          "quote_or_fact": "Q&A with André Garrett – Executive Chef at Corinthia Hotel London"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79017128.html",
+          "source_type": "other",
+          "quote_or_fact": "André Garrett has been appointed Executive Chef at Corinthia Hotel London"
+        }
+      ]
+    },
+    {
+      "full_name": "Sam Acma",
+      "title": "Director of Finance",
+      "company": "Corinthia London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Name spelling confirmed via directory; limited additional press coverage",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Sam Acma... is currently a Director of Finance at Corinthia London | Corinthia London | Sam ACMA  - Email & Phone Number | 80+ \"Sam Acma\" profiles | LinkedIn | 60+ \"Sam Acma\" profiles - LinkedIn | Name spelling confirmed via directory; limited additional press coverage",
+      "evidence": [
+        {
+          "source_url": "https://rocketreach.co/sam-acma-email_840169812",
+          "source_type": "directory",
+          "quote_or_fact": "Sam Acma... is currently a Director of Finance at Corinthia London"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/company/corinthia-london",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia London"
+        },
+        {
+          "source_url": "https://wiza.co/d/hawes-and-curtis/43ad/sam-acma",
+          "source_type": "other",
+          "quote_or_fact": "Sam ACMA  - Email & Phone Number"
+        },
+        {
+          "source_url": "https://www.linkedin.com/pub/dir/Sam/Acma",
+          "source_type": "other",
+          "quote_or_fact": "80+ \"Sam Acma\" profiles | LinkedIn"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/pub/dir/Sam/Acma/gb-0-United-Kingdom",
+          "source_type": "other",
+          "quote_or_fact": "60+ \"Sam Acma\" profiles - LinkedIn"
+        }
+      ]
+    },
+    {
+      "full_name": "Giuseppe Calore",
+      "title": "Director of Revenue",
+      "company": "Corinthia London",
+      "linkedin_url": "https://uk.linkedin.com/in/giuseppe-calore-73400759",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Director Of Revenue · Corinthia London | We are hiring! Do you have a passion for hospitality, great ... - LinkedIn | A Celebration of Calabria | 7 \"Giuseppe Calore\" profiles | LinkedIn | We recently welcomed Giuseppe Calore, Director of Revenue at ...",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/giuseppe-calore-73400759",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director Of Revenue · Corinthia London"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/giuseppe-calore-73400759_reservations-services-agent-corinthia-london-activity-7070083409036881920-Vt-a",
+          "source_type": "other",
+          "quote_or_fact": "We are hiring! Do you have a passion for hospitality, great ... - LinkedIn"
+        },
+        {
+          "source_url": "https://www.corinthia.com/en-gb/london/offers/celebration-of-calabria/",
+          "source_type": "other",
+          "quote_or_fact": "A Celebration of Calabria"
+        },
+        {
+          "source_url": "https://www.linkedin.com/pub/dir/Giuseppe/Calore",
+          "source_type": "other",
+          "quote_or_fact": "7 \"Giuseppe Calore\" profiles | LinkedIn"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/le-cordon-bleu-london_we-recently-welcomed-giuseppe-calore-director-activity-7420423616560873473-Ivqe",
+          "source_type": "other",
+          "quote_or_fact": "We recently welcomed Giuseppe Calore, Director of Revenue at ..."
+        }
+      ]
+    },
+    {
+      "full_name": "Aysun Mut",
+      "title": "Director of Spa",
+      "company": "BIOME by Corinthia London",
+      "linkedin_url": "https://uk.linkedin.com/in/aysun-mut-63284829",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Director of Spa at BIOME by Corinthia London | At Biome by Corinthia London, Aysun and her team... | Aysun Mut has been appointed Spa Director at Corinthia London | Corinthia Hotel London Appoints Aysun Mut as Spa Director for ... | Corinthia Hotel London Appoints Aysun Mut as Spa Director for ESPA Life at Corinthia | Hotel Online",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/aysun-mut-63284829",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Spa at BIOME by Corinthia London"
+        },
+        {
+          "source_url": "https://www.corinthia.com/en-gb/london/spa-at-corinthia-london/meet-your-experts/",
+          "source_type": "official_site",
+          "quote_or_fact": "At Biome by Corinthia London, Aysun and her team..."
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79013761.html",
+          "source_type": "other",
+          "quote_or_fact": "Aysun Mut has been appointed Spa Director at Corinthia London"
+        },
+        {
+          "source_url": "https://www.hotel-online.com/news/corinthia-hotel-london-appoints-aysun-mut-as-spa-director-for-espa-life",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia Hotel London Appoints Aysun Mut as Spa Director for ..."
+        },
+        {
+          "source_url": "https://www.hotel-online.com/press_releases/release/corinthia-hotel-london-appoints-aysun-mut-as-spa-director-for-espa-life/",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia Hotel London Appoints Aysun Mut as Spa Director for ESPA Life at Corinthia | Hotel Online"
+        },
+        {
+          "source_url": "https://spa-life.international/news/article/new-spa-director-at-espa-life-at-corinthia/",
+          "source_type": "other",
+          "quote_or_fact": "New spa director at ESPA Life at Corinthia"
+        }
+      ]
+    },
+    {
+      "full_name": "Julia Pimentel",
+      "title": "Director of Communications",
+      "company": "Corinthia London",
+      "linkedin_url": null,
+      "email": "julia.pimentel@corinthia.com",
+      "email2": null,
+      "phone": "+44 (0)7393 796697",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Hotel - Julia Pimentel, Director of Communications | +44 (0)7393 796697 | julia.pimentel@corinthia.com | Julia Pimentel - Corinthia London | LinkedIn | Meet the PR Pros Behind the Scenes: Debbie Flynn, Julia Pimentel ... | Julia Pimentel’s Post | Corinthia Hotel London appoints Director of Communications",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/latest-news/corinthia-london-appoints-new-general-manager/",
+          "source_type": "news",
+          "quote_or_fact": "Hotel - Julia Pimentel, Director of Communications | +44 (0)7393 796697 | julia.pimentel@corinthia.com"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/julia-pimentel-4028298b",
+          "source_type": "other",
+          "quote_or_fact": "Julia Pimentel - Corinthia London | LinkedIn"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/the-pr-net_in-this-series-we-shift-the-spotlight-from-activity-7445094932320522240-66xC",
+          "source_type": "other",
+          "quote_or_fact": "Meet the PR Pros Behind the Scenes: Debbie Flynn, Julia Pimentel ..."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/julia-pimentel-4028298b_powerlist-alwayschic-activity-7290054412977209344-lO1h",
+          "source_type": "other",
+          "quote_or_fact": "Julia Pimentel’s Post"
+        },
+        {
+          "source_url": "https://www.diarydirectory.com/newsarticle/corinthia-hotel-london-appoints-director-of-communications/58368",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia Hotel London appoints Director of Communications"
+        }
+      ]
+    },
+    {
+      "full_name": "Simon Naudi",
+      "title": "Group CEO",
+      "company": "Corinthia Group / IHI",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / owner_exec; role confidence medium.",
+      "contact_evidence_summary": "Simon Naudi: Group CEO | promotion of Simon Naudi to Group CEO and Managing Director | Where do we go from here? Simon Naudi | Corinthia Group | Simon Naudi: Lisbon deal frees up capital to drive Corinthia’s global growth | Simon Naudi | Corinthia Group - Owners, Developers & Operators of the Corinthia Hotels and Real Estate Brand",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Simon Naudi: Group CEO"
+        },
+        {
+          "source_url": "https://www.corinthia.com/en-gb/latest-news/corinthia-hotels-announces-two-key-appointments/",
+          "source_type": "news",
+          "quote_or_fact": "promotion of Simon Naudi to Group CEO and Managing Director"
+        },
+        {
+          "source_url": "https://corinthiagroup.com/where-do-we-go-from-here-simon-naudi/",
+          "source_type": "other",
+          "quote_or_fact": "Where do we go from here? Simon Naudi | Corinthia Group"
+        },
+        {
+          "source_url": "https://maltaceos.mt/simon-naudi-lisbon-deal-frees-up-capital-to-drive-corinthias-global-growth/",
+          "source_type": "other",
+          "quote_or_fact": "Simon Naudi: Lisbon deal frees up capital to drive Corinthia’s global growth"
+        },
+        {
+          "source_url": "https://corinthiagroup.com/directors/simon-naudi/",
+          "source_type": "other",
+          "quote_or_fact": "Simon Naudi | Corinthia Group - Owners, Developers & Operators of the Corinthia Hotels and Real Estate Brand"
+        },
+        {
+          "source_url": "https://www.leisureopportunities.co.uk/news/London-hotel-puts-Corinthia-on-the-map/273423",
+          "source_type": "other",
+          "quote_or_fact": "London hotel puts Corinthia 'on the map'"
+        },
+        {
+          "source_url": "https://hotelsmag.com/news/corinthia-balances-global-goals-with-boutique-scope/",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia balances global goals with boutique scope - HOTELSMag.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Roderick Micallef",
+      "title": "Chief Operating Officer",
+      "company": "Corinthia Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Roderick Micallef: Chief Operating Officer | Corinthia Hotels Appoints Roderick Micallef as Vice-President of ... | Corinthia Hotels stalwart Roderick Micallef appointed Chief Projects Officer | Our Team | Corinthia | Our Team | Corinthia",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Roderick Micallef: Chief Operating Officer"
+        },
+        {
+          "source_url": "https://www.hotel-online.com/index.php/news/corinthia-hotels-appoints-roderick-micallef-as-vice-president-of-operations",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia Hotels Appoints Roderick Micallef as Vice-President of ..."
+        },
+        {
+          "source_url": "https://maltaceos.mt/corinthia-hotels-stalwart-roderick-micallef-appointed-chief-projects-officer/",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia Hotels stalwart Roderick Micallef appointed Chief Projects Officer"
+        },
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/our-team/",
+          "source_type": "other",
+          "quote_or_fact": "Our Team | Corinthia"
+        },
+        {
+          "source_url": "https://corinthia.com/en-gb/our-team/",
+          "source_type": "other",
+          "quote_or_fact": "Our Team | Corinthia"
+        },
+        {
+          "source_url": "https://whoswho.mt/en/roderick-micallef-named-chief-projects-officer-at-corinthia-hotels-limited",
+          "source_type": "other",
+          "quote_or_fact": "Roderick Micallef named Chief Projects Officer at Corinthia Hotels Limited"
+        }
+      ]
+    },
+    {
+      "full_name": "Christian Renz",
+      "title": "Chief Commercial Officer",
+      "company": "Corinthia Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Christian Renz: Chief Commercial Officer | Christian Renz | Chief Commercial Officer (CCO) at Corinthia Hotels Limited | Corinthia Hotels Appoints Christian Renz as Chief Commercial Officer | Our Team | Corinthia | Our Team | Corinthia",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Christian Renz: Chief Commercial Officer"
+        },
+        {
+          "source_url": "https://linkedin.com/in/christian-renz-27086a8",
+          "source_type": "other",
+          "quote_or_fact": "Christian Renz | Chief Commercial Officer (CCO) at Corinthia Hotels Limited"
+        },
+        {
+          "source_url": "https://www.hotel-online.com/news/corinthia-hotels-appoints-christian-renz-as-chief-commercial-officer",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia Hotels Appoints Christian Renz as Chief Commercial Officer"
+        },
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/our-team/",
+          "source_type": "other",
+          "quote_or_fact": "Our Team | Corinthia"
+        },
+        {
+          "source_url": "https://corinthia.com/en-gb/our-team/",
+          "source_type": "other",
+          "quote_or_fact": "Our Team | Corinthia"
+        },
+        {
+          "source_url": "https://www.hospitalityandcateringnews.com/2019/11/corinthia-hotels-appoints-new-global-chief-commercial-officer/",
+          "source_type": "other",
+          "quote_or_fact": "Corinthia Hotels appoints new Global Chief Commercial Officer - Hospitality & Catering News"
+        }
+      ]
+    },
+    {
+      "full_name": "Kirsten Lord",
+      "title": "Chief People & Culture Officer",
+      "company": "Corinthia Hotels",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Kirsten Lord: Chief People & Culture Officer | An enlightening chat with Kirsten Lord  | Corinthia Group - Owners, Developers & Operators of the Corinthia Hotels and Real Estate Brand | Kirsten Lord: Chief People and Culture Officer, Corinthia Hotels  | Podcast Episode on RSS.com | Our Team | Corinthia | Our Team | Corinthia",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Kirsten Lord: Chief People & Culture Officer"
+        },
+        {
+          "source_url": "https://corinthiagroup.com/an-enlightening-chat-with-kirsten-lord/",
+          "source_type": "other",
+          "quote_or_fact": "An enlightening chat with Kirsten Lord  | Corinthia Group - Owners, Developers & Operators of the Corinthia Hotels and Real Estate Brand"
+        },
+        {
+          "source_url": "https://rss.com/podcasts/lessons-from-the-boardroom/1970111/",
+          "source_type": "other",
+          "quote_or_fact": "Kirsten Lord: Chief People and Culture Officer, Corinthia Hotels  | Podcast Episode on RSS.com"
+        },
+        {
+          "source_url": "https://corinthia.com/en-gb/our-team/",
+          "source_type": "other",
+          "quote_or_fact": "Our Team | Corinthia"
+        },
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/our-team/",
+          "source_type": "other",
+          "quote_or_fact": "Our Team | Corinthia"
+        },
+        {
+          "source_url": "https://corinthiagroup.com/chl-leadership-summit-meets-at-corinthia-brussels/",
+          "source_type": "other",
+          "quote_or_fact": "CHL Leadership Summit Meets at Corinthia Brussels | Corinthia Group - Owners, Developers & Operators of the Corinthia Hotels and Real Estate Brand"
+        }
+      ]
+    },
+    {
+      "full_name": "Claire Blackshaw",
+      "title": "Head of Global PR & Communications",
+      "company": "Corinthia Hotels",
+      "linkedin_url": "https://uk.linkedin.com/in/claireblackshaw",
+      "email": "claire.blackshaw@corinthia.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Claire Blackshaw: Head of Global PR & Communications | Head of Global PR & Communications · Corinthia Hotels",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Claire Blackshaw: Head of Global PR & Communications"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/claireblackshaw",
+          "source_type": "linkedin",
+          "quote_or_fact": "Head of Global PR & Communications · Corinthia Hotels"
+        }
+      ]
+    },
+    {
+      "full_name": "Emily Jewell",
+      "title": "Head of Global Marketing",
+      "company": "Corinthia Hotels",
+      "linkedin_url": null,
+      "email": "emily.jewell@corinthia.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / other; role confidence medium.",
+      "contact_evidence_summary": "Emily Jewell: Head of Global Marketing",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Emily Jewell: Head of Global Marketing"
+        }
+      ]
+    },
+    {
+      "full_name": "Carey Duckworth",
+      "title": "Head of Global Sales",
+      "company": "Corinthia Hotels",
+      "linkedin_url": null,
+      "email": "carey.duckworth@corinthia.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Carey Duckworth: Head of Global Sales",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Carey Duckworth: Head of Global Sales"
+        }
+      ]
+    },
+    {
+      "full_name": "Antony Rush",
+      "title": "Group Director of Entertainment",
+      "company": "Corinthia Hotels",
+      "linkedin_url": null,
+      "email": "antony.rush@corinthia.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Role is group-level but supports flagship London property events and F&B outlets",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Antony Rush: Group Director of Entertainment | Role is group-level but supports flagship London property events and F&B outlets",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/our-team/",
+          "source_type": "official_site",
+          "quote_or_fact": "Antony Rush: Group Director of Entertainment"
+        }
+      ]
+    },
+    {
+      "full_name": "Andrea Marton",
+      "title": "Director of Marketing and Communications",
+      "company": "Corinthia Hotels",
+      "linkedin_url": null,
+      "email": "andrea.marton@corinthia.com",
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Scope may be group or property-specific; tied to London flagship communications",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Director of Marketing and Communications Email: andrea.marton@corinthia.com | Scope may be group or property-specific; tied to London flagship communications",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/press/",
+          "source_type": "official_site",
+          "quote_or_fact": "Director of Marketing and Communications Email: andrea.marton@corinthia.com"
+        }
+      ]
+    },
+    {
+      "full_name": "Tom Kerridge",
+      "title": "Chef Patron (Kerridge's Bar & Grill)",
+      "company": "Corinthia London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Partner/collaborative role rather than full-time employee",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Kerridge's Bar & Grill serves bold British cuisine... by Tom Kerridge | Partner/collaborative role rather than full-time employee",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Kerridge's Bar & Grill serves bold British cuisine... by Tom Kerridge"
+        }
+      ]
+    },
+    {
+      "full_name": "Francesco Mazzei",
+      "title": "Chef (Mezzogiorno)",
+      "company": "Corinthia London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Partner/chef role with operational influence on F&B at property",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / other; role confidence medium.",
+      "contact_evidence_summary": "Mezzogiorno by Francesco Mazzei is a journey through the soul of Southern Italy | Partner/chef role with operational influence on F&B at property",
+      "evidence": [
+        {
+          "source_url": "https://www.corinthia.com/en-gb/london/",
+          "source_type": "official_site",
+          "quote_or_fact": "Mezzogiorno by Francesco Mazzei is a journey through the soul of Southern Italy"
+        }
+      ]
+    }
+  ]
+}

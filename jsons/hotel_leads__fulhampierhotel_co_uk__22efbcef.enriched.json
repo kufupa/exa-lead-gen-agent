@@ -86,7 +86,7 @@
       "full_name": "Chris Wickham",
       "title": "Head of Sales - Events",
       "company": "Fulham Pier",
-      "linkedin_url": "https://uk.linkedin.com/in/chris-wickham-97ba2315",
+      "linkedin_url": "https://www.linkedin.com/in/chris-wickham-97ba2315",
       "email": "spacestohire@fulhampier.com",
       "email2": null,
       "phone": "020 3841 9053",
@@ -243,7 +243,7 @@
       "full_name": "Rachel Peacock",
       "title": "Head of Marketing",
       "company": "Fulham Pier",
-      "linkedin_url": "https://uk.linkedin.com/in/rachel-peacock-6bbb9378",
+      "linkedin_url": "https://www.linkedin.com/in/rachel-peacock-6bbb9378",
       "email": null,
       "email2": null,
       "phone": null,
@@ -601,7 +601,7 @@
       "full_name": "Jon Don-Carolis",
       "title": "Commercial Director",
       "company": "Fulham Pier / Fulham FC",
-      "linkedin_url": "https://uk.linkedin.com/in/jondoncarolis",
+      "linkedin_url": "https://www.linkedin.com/in/jondoncarolis",
       "email": "jdon-carolis@fulhamfc.com",
       "email2": null,
       "phone": null,
@@ -635,7 +635,7 @@
       "full_name": "Lina Lemezonaite",
       "title": "Commercial Director",
       "company": "Siggis Capital (Fulham Pier Hotel projects)",
-      "linkedin_url": "https://uk.linkedin.com/in/lina-lemezonaite-60133044",
+      "linkedin_url": "https://www.linkedin.com/in/lina-lemezonaite-60133044",
       "email": null,
       "email2": null,
       "phone": null,
@@ -822,7 +822,7 @@
       "full_name": "Janos Szabo",
       "title": "General Manager",
       "company": "Fulham Pier Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/janos-szabo-339a17331",
+      "linkedin_url": "https://www.linkedin.com/in/janos-szabo-339a17331",
       "email": null,
       "email2": null,
       "phone": "+44 (0)20 3006 2168",
@@ -907,7 +907,7 @@
       "full_name": "Anya McGeachan",
       "title": "Reservations Manager",
       "company": "Fulham Pier Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/anya-mcgeachan-888b59276",
+      "linkedin_url": "https://www.linkedin.com/in/anya-mcgeachan-888b59276",
       "email": "stay@fulhampierhotel.co.uk",
       "email2": null,
       "phone": "+44 (0)20 3006 2168",
@@ -1650,7 +1650,7 @@
       "full_name": "Jeremy Ford",
       "title": "Food Director",
       "company": "Fulham Pier",
-      "linkedin_url": "https://uk.linkedin.com/in/jeremyford1",
+      "linkedin_url": "https://www.linkedin.com/in/jeremyford1",
       "email": "jeremy.ford@sodexo.com",
       "email2": "stay@fulhampierhotel.co.uk",
       "phone": "0734112256",
@@ -2094,7 +2094,7 @@
       "full_name": "Monika Peda",
       "title": "Head of Creative Programme",
       "company": "Fulham Pier",
-      "linkedin_url": "https://uk.linkedin.com/in/monika-peda",
+      "linkedin_url": "https://www.linkedin.com/in/monika-peda",
       "email": null,
       "email2": null,
       "phone": null,
@@ -2134,7 +2134,7 @@
   },
   "linkedin_enrichment": {
     "version": 1,
-    "enriched_at_utc": "2026-04-25T14:38:12.489826+00:00",
+    "enriched_at_utc": "2026-04-26T22:23:12.543028+00:00",
     "model": "grok-4.20-reasoning",
     "stats": {
       "skipped": 16,
@@ -2142,6 +2142,53 @@
       "structured": 0,
       "discovered": 0,
       "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 0,
+        "content_pages": 2,
+        "cost_estimate": {
+          "approx_total_usd": 0.002,
+          "search_component_usd": 0.0,
+          "contents_component_usd": 0.002,
+          "counts": {
+            "search_requests": 0,
+            "content_pages": 2
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {},
+        "cost_estimate": {
+          "approx_total_usd": 0.0,
+          "token_component_usd": 0.0,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 0,
+            "cached_prompt_text_tokens": 0,
+            "completion_tokens": 0,
+            "reasoning_tokens": 0,
+            "total_tokens_reported": 0,
+            "output_like_tokens": 0,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.002
     }
   }
 }

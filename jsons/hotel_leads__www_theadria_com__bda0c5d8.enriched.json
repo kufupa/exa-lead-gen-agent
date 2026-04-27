@@ -89,7 +89,7 @@
       "full_name": "Dominik Feller",
       "title": "General Manager",
       "company": "The Adria",
-      "linkedin_url": "https://uk.linkedin.com/in/dominik-feller-mih-4718b440",
+      "linkedin_url": "https://www.linkedin.com/in/dominik-feller-mih-4718b440",
       "email": "dominik.feller@theadria.com",
       "email2": null,
       "phone": "+44 20 7118 8988",
@@ -116,13 +116,186 @@
           "source_type": "other",
           "quote_or_fact": "GM response provides dominik.feller@theadria.com for direct contact"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/dominik-feller-mih-4718b440",
+        "display_name": "Dominik Feller MIH",
+        "headline": "Passionate Hotelier | The Adria Hotel South Kensington - Creating a London Home for Travelers",
+        "location": "United Kingdom (GB)",
+        "about": "I’m a hospitality leader passionate about creating exceptional guest experiences while driving revenue growth and profitability. As General Manager of a luxury boutique hotel, I focus on blending operational excellence with genuine, personalised service. By empowering teams across Front and Back of House, including culinary, I foster a culture of creativity, accountability, and continuous improvement. My goal is to ensure every guest interaction reflects the hotel’s distinctive character while maximising performance and long-term success.\n\nTotal Experience: 28 years and 3 months",
+        "experience": [
+          {
+            "title": "3 Years Apprenticeship",
+            "organization": "First Class Comforthotel \"St Michael\"",
+            "date_range": "Aug 1997 - Aug 2000",
+            "location": "Morbach, Germany",
+            "description": "Consisting of practical work training & theoretical coursework. Supervised by the German Chamber of Industry & Commerce (a public institution)."
+          },
+          {
+            "title": "Front Office Agent",
+            "organization": "Novotel Bremer Kreuz",
+            "date_range": "Aug 2000 - Aug 2002",
+            "location": "Achim bei Bremen, Germany",
+            "description": "Continued working during national service\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Chief Orderly Of Sergeant Mess",
+            "organization": "National Service / German Federal Armed Forces",
+            "date_range": "Nov 2001 - Jul 2002",
+            "location": "Schwanewede, Germany",
+            "description": "Conscripted service"
+          },
+          {
+            "title": "Front Office Agent",
+            "organization": "Veermaster Hotel Deichgraf (formerly Mercure)",
+            "date_range": "Mar 2002 - Dec 2004",
+            "location": "Cuxhaven Area, Germany",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Receptionist",
+            "organization": "The Berners Hotel",
+            "date_range": "Mar 2004 - Jan 2006",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Front Desk AYS Night Agent",
+            "organization": "Grosvenor House, A JW Marriott Hotel",
+            "date_range": "Jan 2006 - Jun 2006",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Night Supervisor",
+            "organization": "Grosvenor House, A JW Marriott Hotel",
+            "date_range": "Jun 2006 - Nov 2007",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Specialist"
+          },
+          {
+            "title": "Night Manager",
+            "organization": "Grosvenor House, A JW Marriott Hotel",
+            "date_range": "Nov 2007 - Aug 2008",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Front Desk Manager",
+            "organization": "Grosvenor House, A JW Marriott Hotel",
+            "date_range": "Aug 2008 - Nov 2009",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Assistant Housekeeping Manager",
+            "organization": "Grosvenor House, A JW Marriott Hotel",
+            "date_range": "Dec 2009 - Nov 2010",
+            "location": "London, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Chief Steward",
+            "organization": "Grosvenor House, A JW Marriott Hotel",
+            "date_range": "Nov 2010 - Mar 2013",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: C-Level"
+          },
+          {
+            "title": "Back Of House Manager",
+            "organization": "D&D London",
+            "date_range": "Feb 2013 - May 2014",
+            "location": "Chelsea, London",
+            "description": "Back of House Manager @ Bluebird Chelsea\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Back Of House Manager",
+            "organization": "Rosewood London",
+            "date_range": "May 2014 - Nov 2014",
+            "location": "London",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Back Of House Manager, Bluebird Chelsea, Quaglinos Restaurant, 100 Wardour Street Restaurant Club",
+            "organization": "D&D London",
+            "date_range": "Nov 2014 - Nov 2016",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Assistant Director Of Food And Beverage",
+            "organization": "JW Marriott Grosvenor House London",
+            "date_range": "Dec 2016 - May 2021",
+            "location": "London, United Kingdom",
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Assistant Director Of Food And Beverage",
+            "organization": "Pan Pacific London",
+            "date_range": "Jun 2021 - May 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Pre Opening\nDepartment: Operations • Level: Director"
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Pan Pacific London",
+            "date_range": "May 2022 - Feb 2024",
+            "location": null,
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Adria - A member of The Leading Hotels of the World",
+            "date_range": "Feb 2024 - Present",
+            "location": "South Kensington, England, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager\nCompany: 11-50 employees • Founded 1870 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "Regional Schule Thalfang",
+            "degree_or_field": null,
+            "date_range": "1986 - 1997"
+          }
+        ],
+        "skills": [
+          "operational excellence",
+          "continuous improvement",
+          "front office",
+          "hospitality",
+          "driving",
+          "profitability",
+          "luxury",
+          "hotel",
+          "culinary",
+          "accountability",
+          "director",
+          "food",
+          "housekeeping",
+          "training",
+          "german",
+          "commerce"
+        ],
+        "activity_themes": [
+          "Luxury hotel marketing and resort launches",
+          "Networking with hospitality leaders and boutique hoteliers",
+          "Leadership transitions and director appointments in premium hotels",
+          "Team achievements and recognition at 5-star London hotels",
+          "Luxury travel and hospitality industry events in Europe",
+          "Recruitment for Director of Operations roles in GCC luxury hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/dominik-feller-mih-4718b440"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Robert Holland",
       "title": "Managing Director UK & Ireland",
       "company": "HotelPartner Revenue Management",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/robert-holland-fih-ba102013",
       "email": "robert.holland@hotelpartner.com",
       "email2": null,
       "phone": null,
@@ -144,13 +317,107 @@
           "source_type": "linkedin",
           "quote_or_fact": "Works under HotelPartner MD for UK revenue accounts including The Adria"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/robert-holland-fih-ba102013",
+        "display_name": "Robert Holland FIH",
+        "headline": "Managing Director UK & Ireland, HotelPartner Revenue Management",
+        "location": "Solihull, England, United Kingdom (GB)",
+        "about": "Experienced Hotelier with a proven track record of success in both the hotel and restaurant industries. Demonstrated results in Revenue Management, Food & Beverage and all areas of hotel operations, including budgeting, financial oversight, human resources, compliance, information systems, P&L, corporate communications, sales & marketing and general Hospitality Management roles. A technologist at heart looking to bring change to support the growth of our industry and ensure a bright future for the next generation of hoteliers. Always happy to opine on new tech and current challenges faced by hotels.\n\nTotal Experience: 20 years and 3 months",
+        "experience": [
+          {
+            "title": "Owner",
+            "organization": "Dish Dash",
+            "date_range": "Jul 2005 - May 2012 • 6 years and 10 months",
+            "location": null,
+            "description": "Department: C-Suite • Level: Owner"
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Bermondsey Square Hotel",
+            "date_range": "Jan 2010 - Feb 2017 • 7 years and 1 month",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Regional Operations Manager",
+            "organization": "Bespoke Hotels",
+            "date_range": "Jun 2014 - Feb 2017 • 2 years and 8 months",
+            "location": "London, United Kingdom",
+            "description": "Following Bespoke's instruction to provide management services to La Suite West in Bayswater, I have been given regional responsibility for this property in addition to my continued role at The Bermondsey Square Hotel. Bespoke are actively seeking further opportunities in London.\n\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Managing Director UK Ireland",
+            "organization": "HotelPartner Yield Management",
+            "date_range": "Mar 2017 - Present • 8 years and 11 months",
+            "location": "London, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 2006 • Self-Owned • Hospitality\n\nEstablished in 2006 in Switzerland, HotelPartner now have more than 500 clients in Europe ranging from family run hotels to mid-sized chains. Our unique proprietary revenue management system uses history, forecasts and competitor pricing to update online sales channels around the clock. Unlike other software only applications, our dedicated Revenue Managers will communicate with the hotel team to bespoke tailor the revenue strategy prior to implementation. Our system operates 24 hours a day 365… Show more\n\nDepartment: C-Suite • Level: Director"
+          },
+          {
+            "title": "Associate",
+            "organization": "Kyosei",
+            "date_range": "Jun 2025 - Present • 4 months",
+            "location": "Warwickshire, England, United Kingdom",
+            "description": "Department: Administrative • Level: Specialist"
+          }
+        ],
+        "education": [
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Professional Development Program Hospitality Administration/Management. Attended Cornell Summer PDP in 1991 (accounting),1992 (sales & marketing) & 1994 (HR management)",
+            "date_range": "1991 - 1994 • 3 years"
+          }
+        ],
+        "skills": [
+          "hotel",
+          "management",
+          "food",
+          "operations",
+          "budgeting",
+          "compliance",
+          "p",
+          "communications",
+          "sales",
+          "marketing",
+          "hospitality",
+          "hotels",
+          "director",
+          "pricing",
+          "software",
+          "strategy",
+          "instruction",
+          "property",
+          "revenue management",
+          "human resources",
+          "information systems",
+          "corporate communications",
+          "hospitality management",
+          "online sales"
+        ],
+        "activity_themes": [
+          "Hospitality industry networking events",
+          "Revenue management strategies for 2026",
+          "Hotel technology and innovation conferences",
+          "Michelin star achievements",
+          "AI research in hospitality",
+          "Hotelier awards and recognition",
+          "Global revenue forum discussions",
+          "Institute of Hospitality student events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/hotelier-de_start-in-einen-neuen-lebensabschnitt-hotelpartner-activity-7427771755269619712-Tqac",
+          "https://www.linkedin.com/posts/john-mclean-01540b1_thestaffordlondon-michaelcaines-michelinstar-activity-7427867222372433920-N9_x",
+          "https://www.linkedin.com/posts/robert-holland-fih-ba102013_news-accentuate-the-positive-activity-7425131530538242049-G1JG"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Gabriela Cojocaru",
       "title": "Senior Director of Revenue & Business Strategy",
       "company": "Bürgenstock Collection",
-      "linkedin_url": "https://ch.bold.pro/my/gabriela-cojocaru",
+      "linkedin_url": "https://www.linkedin.com/my/gabriela-cojocaru",
       "email": null,
       "email2": null,
       "phone": null,
@@ -206,7 +473,7 @@
       "full_name": "Megan Rowe",
       "title": "Front Office Duty Manager",
       "company": "The Adria",
-      "linkedin_url": "https://uk.linkedin.com/in/megan-rowe-903002277",
+      "linkedin_url": "https://www.linkedin.com/in/megan-rowe-903002277",
       "email": "megan.rowe@theadria.com",
       "email2": null,
       "phone": "+44 20 7118 8988",
@@ -228,13 +495,63 @@
           "source_type": "official_site",
           "quote_or_fact": "Reception/front office staff handle reservations, special deals; main phone +44 20 7118 8988 and stay@theadria.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/megan-rowe-903002277",
+        "display_name": "Megan Rowe",
+        "headline": "Front Office Duty Manager at The Adria - A member of The Leading Hotels of the World",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 3 years and 8 months",
+        "experience": [
+          {
+            "title": "Hotel Receptionist",
+            "organization": "Soho House & Co",
+            "date_range": "Jun 2022 - Jun 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Office Duty Manager",
+            "organization": "The Adria - A member of The Leading Hotels of the World",
+            "date_range": "Jun 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Leweston School",
+            "degree_or_field": null,
+            "date_range": "2010 - 2017"
+          }
+        ],
+        "skills": [
+          "front office",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Employee recognition and appreciation in luxury hotels",
+          "International luxury travel market showcases",
+          "Hospitality industry events and travel marts",
+          "Luxury hotel staff features and promotions",
+          "Team appreciation weeks in high-end hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/sebastian-annandale-b9993670_very-proud-of-angelica-timis-who-is-the-adria-activity-7138203094949027841-5YV7",
+          "https://www.linkedin.com/posts/the-burgenstock-collection_soon-its-time-to-showcase-the-bürgenstock-activity-7135914373159563265-XDAt",
+          "https://www.linkedin.com/posts/katara-hospitality_qtm-visitqatar-tourism-activity-7130840816234713089-7ZZD",
+          "https://www.linkedin.com/posts/vesa-lahtinen_the-adria-on-instagram-meet-vesa-our-fantastic-activity-7109915612776128513-eKuy",
+          "https://www.linkedin.com/posts/sebastian-annandale-b9993670_appreciation-activity-7109184495559262208-01sj"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sebastian Annandale",
       "title": "Guest Services / Front Office Manager",
       "company": "The Adria",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/sebastian-annandale-b9993670",
       "email": "Sebastian.Annandale@theadria.com",
       "email2": null,
       "phone": "+44 20 7118 8988",
@@ -256,13 +573,134 @@
           "source_type": "other",
           "quote_or_fact": "My Email address is Sebastian.Annandale@theadria.com for any further assistance."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sebastian-annandale-b9993670",
+        "display_name": "Sebastian Annandale",
+        "headline": "Area General Manager - Perle Hotels Skye",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 18 years and 3 months",
+        "experience": [
+          {
+            "title": "Apprenticeship In Hotel Management",
+            "organization": "Hotel Isartor",
+            "date_range": "Aug 2007 - Aug 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Guest Services Coordinator",
+            "organization": "Hyatt Andaz London",
+            "date_range": "Aug 2010 - Dec 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Office Receptionist",
+            "organization": "The Savoy Hotel",
+            "date_range": "Dec 2011 - Aug 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Guest Service Leader",
+            "organization": "Shangri-La Hotels and Resorts",
+            "date_range": "Aug 2014 - Aug 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Guest Relations Manager",
+            "organization": "The Bloomsbury Hotel",
+            "date_range": "Aug 2015 - Jun 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Guest Relations Manager",
+            "organization": "The Bloomsbury",
+            "date_range": "Jul 2016 - Mar 2019",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Of House Manager (Taskforce)",
+            "organization": "The Dupont Circle",
+            "date_range": "Apr 2018 - Jul 2018",
+            "location": "Washington D.C.",
+            "description": "Assisting Guest Relations and Front Desk during a transitional service period."
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "The Bloomsbury",
+            "date_range": "Apr 2019 - Jul 2022",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Adria - A member of The Leading Hotels of the World",
+            "date_range": "Oct 2022 - Jul 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Acting General Manager",
+            "organization": "The Adria - A member of The Leading Hotels of the World",
+            "date_range": "Jul 2023 - Mar 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Deputy General Manager",
+            "organization": "The Adria - A member of The Leading Hotels of the World",
+            "date_range": "Feb 2024 - Mar 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Hazlitt's Hotels Limited",
+            "date_range": "Jul 2025 - Oct 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Area General Manager",
+            "organization": "PERLE HOTELS LIMITED",
+            "date_range": "Dec 2025 - Present",
+            "location": "Isle Of Skye",
+            "description": "Bracken Hide Hotel Bosville Hotel Marmalade Hotel\nDepartment: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel",
+          "acting",
+          "management",
+          "guest service",
+          "front office",
+          "hotel management"
+        ],
+        "activity_themes": [
+          "Recruiting for Head Chef positions at Perle Hotels Skye",
+          "Searching for Head Chef for Perle team",
+          "Promoting Head Chef job opportunity at Perle Oban"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/sebastian-annandale-b9993670_please-see-below-and-apply-skye-awaits-activity-7416429763696955392-Fi8X",
+          "https://www.linkedin.com/posts/sebastian-annandale-b9993670_we-are-searching-for-a-head-chef-please-activity-7414719853011472384-9b2T",
+          "https://www.linkedin.com/posts/sebastian-annandale-b9993670_fantastic-opportunity-see-below-a-head-activity-7406768382567682048-uRwd"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Brigida Pes",
       "title": "Front Office Manager",
       "company": "The Adria",
-      "linkedin_url": "https://uk.linkedin.com/in/brigida-pes-819462183",
+      "linkedin_url": "https://www.linkedin.com/in/brigida-pes-819462183",
       "email": null,
       "email2": null,
       "phone": "+44 20 7118 8988",
@@ -284,13 +722,145 @@
           "source_type": "official_site",
           "quote_or_fact": "Our friendly and knowledgeable reception staff are also happy to answer questions about any special deals and offers that are available."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/brigida-pes-819462183",
+        "display_name": "Brigida Pes",
+        "headline": "Duty Manager at The Twenty Two",
+        "location": "United Kingdom",
+        "about": "I have good inter & intra-personal skills and enjoy meeting people from all different countries, cultures and beliefs. I have a cheerful and optimistic outlook to my work and enjoy working as part of a team as well as on my own initiative.\n\nTotal Experience: 13 years",
+        "experience": [
+          {
+            "title": "Dental Assistant",
+            "organization": "Dental Studio Sandro Massa",
+            "date_range": "May 2012 - Aug 2012",
+            "location": "Oristano Area, Italy",
+            "description": "A seasonal experience in a dental studio assisting the doctor with his daily patient."
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Residenza d'epoca Regina d'Arborea",
+            "date_range": "Feb 2013 - Feb 2014",
+            "location": "Oristano Area, Italy",
+            "description": "I had the opportunity, as part of the pre-opening team, to have an input in building the profile of the hotel with the manager. An ancient XIX Palace now a 7 rooms Boutique Hotel. I was able to contribute to discussions and decisions as to how to best promote the hotel in the Sardinian tourism market. This involved defining the type of service we want to offer, including pricing strategy place branding and promotional marketing. -Assist with arrival and departures -invoices, payment and bills -resolve guest complaints and ensure guest satisfaction -car parking arrangements -organized and prioritized all events, activities and operations in hotel."
+          },
+          {
+            "title": "Assistant Hotel Manager",
+            "organization": "Residenza d'epoca Regina d'Arborea",
+            "date_range": "Mar 2014 - Sep 2016",
+            "location": "Oristano Area, Italy",
+            "description": "Assisted Front Office Manager in daily operations and overall direction of the front desk. -filled out forms and made payments for taxes, as well as other government agencies. -conducted research, compiled gathered data, spreadsheets and reported. -administrated cash flow and credit card income."
+          },
+          {
+            "title": "Sign Language Interpreter",
+            "organization": "novatv",
+            "date_range": "Jan 2016 - Sep 2016",
+            "location": "Oristano Area, Italy",
+            "description": "Knowing the Italian Sign Language I had the opportunity to take part to a Regional project for a local television for signing news for hearing-impaired."
+          },
+          {
+            "title": "Nanny",
+            "organization": "Private family",
+            "date_range": "Oct 2016 - Apr 2019",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Relation Agent",
+            "organization": "The Adria",
+            "date_range": "May 2019 - Apr 2021",
+            "location": "London, Greater London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Crazy Pizza Knightsbridge",
+            "date_range": "Apr 2021 - Dec 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Relation Butler",
+            "organization": "The Adria",
+            "date_range": "Nov 2021 - Jul 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The Adria",
+            "date_range": "Jun 2022 - Jul 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Relations Executive",
+            "organization": "The Twenty Two",
+            "date_range": "Sep 2023 - Present",
+            "location": "United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "The Twenty Two",
+            "date_range": "Jul 2024 - Present",
+            "location": "United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Technical School for Touristic Operator and Touristic Guide",
+            "degree_or_field": "High School Diploma, Tourism and Travel Services Marketing Operations, diploma",
+            "date_range": "2006 - 2011"
+          },
+          {
+            "school": "UNO - L'Università a Oristano",
+            "degree_or_field": "Bachelor's degree, Tourism and Travel Services Management",
+            "date_range": "2012 - 2019"
+          }
+        ],
+        "skills": [
+          "outlook",
+          "hotel",
+          "operations",
+          "payments",
+          "government",
+          "research",
+          "spreadsheets",
+          "television",
+          "tourism",
+          "pricing",
+          "strategy",
+          "branding",
+          "marketing",
+          "parking",
+          "organized",
+          "front office",
+          "cash flow",
+          "sign language",
+          "pricing strategy",
+          "guest satisfaction"
+        ],
+        "activity_themes": [
+          "Luxury hotel awards and recognitions",
+          "New openings of premium hospitality brands",
+          "Leadership appointments in luxury hotels",
+          "Sustainability and scientific publications",
+          "Media mentions of London boutique hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/brigida-pes-819462183"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Nicolò Borgese",
       "title": "Corporate Events & Duty Manager",
       "company": "The Adria",
-      "linkedin_url": "https://uk.linkedin.com/in/nicolò-borgese",
+      "linkedin_url": "https://www.linkedin.com/in/nicolò-borgese",
       "email": null,
       "email2": null,
       "phone": "+44 20 7118 8988",
@@ -318,7 +888,7 @@
       "full_name": "Jihane Mamouri",
       "title": "VP Global Sales / Commercial Leadership",
       "company": "Katara Hospitality / Bürgenstock Collection",
-      "linkedin_url": "https://ae.linkedin.com/in/jihanemamouri",
+      "linkedin_url": "https://www.linkedin.com/in/jihanemamouri",
       "email": null,
       "email2": null,
       "phone": null,
@@ -340,7 +910,115 @@
           "source_type": "official_site",
           "quote_or_fact": "The Adria is part of the Bürgenstock Collection owned by Katara Hospitality"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jihanemamouri",
+        "display_name": "Jihane Mamouri",
+        "headline": "Chief Commercial Officer | MBA, Commercial Leadership, Luxury Hospitality",
+        "location": "France (FR)",
+        "about": "As a results driven commercial executive with a deep rooted background in luxury hospitality, I specialise in accelerating growth, forging strategic global partnerships, and leading high performing teams across sales, marketing, and revenue disciplines. Currently serving as CCO at Absheron Hotel Group, I oversee the commercial strategy for a portfolio of 12 luxury and lifestyle properties across Azerbaijan and the region. I lead the transformation of commercial functions, drive market positioning, and champion data driven performance and innovation with long term success in sight. Prior to this, I held senior leadership roles with luxury brands including Bürgenstock Collection (as VP Sales & Partnerships) and Jumeirah Group, where I spearheaded initiatives for key international markets and elevated brand presence serving at GSO level. Recognised for my strategic thinking, collaborative leadership style, and strong client orientation, I thrive in dynamic, multicultural environments where I can deliver measurable impact. I am passionate about developing talent, cultivating resilience within teams, and creating meaningful connections that drive commercial excellence. A former high level athlete, I bring a competitive edge, discipline, and endurance to everything I do, qualities that fuel my drive to lead with purpose and exceed expectations in fast paced, high stakes settings.",
+        "experience": [
+          {
+            "title": "Sales Executive",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Sep 2003 - Feb 2006 • 2 years and 5 months",
+            "location": "Toulouse Area, France",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Marketing Manager",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Mar 2006 - Jul 2007 • 1 year and 4 months",
+            "location": "Toulouse Area, France",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Senior Sales Marketing Manager",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Aug 2007 - Dec 2010 • 3 years and 4 months",
+            "location": "London The City",
+            "description": "Department: Sales • Level: Senior"
+          },
+          {
+            "title": "Long Distance Running Athlete",
+            "organization": "CNEA Font-Romeu",
+            "date_range": "Apr 2010 - Dec 2022 • 12 years and 8 months",
+            "location": "Font-Romeu-Odeillo-Viaduct, Occitanie, France",
+            "description": null
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "Mint Hotel Tower of London (converted to Hilton Worldwide)",
+            "date_range": "Dec 2010 - May 2012 • 1 year and 5 months",
+            "location": "London The City",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Sales Head Of Entertainment Sales",
+            "organization": "The Doyle Collection",
+            "date_range": "May 2012 - May 2014 • 2 years",
+            "location": null,
+            "description": "The Kensington Hotel / The Marylebone Hotel / The Bloomsbury Hotel Luxury boutique and individually designed hotels, award winning restaurants and bars, health facilities Responsible for The Kensington Hotel with the addition of a cluster function managing the Entertainment segment across all group, 10 hotels over 6 destinations (US, Ireland & UK) • Focus to drive new high rated Corporate base and grow existing with target to increase ADR by 15% • Manage Entertainment portfolio at cluster level with objective to develop brand awareness and increase international demand with US focus • Maintain close relationship with high end Leisure brands and ensure growth in fair share • Budget and segmentation • Control of the sales expenditure budgets"
+          },
+          {
+            "title": "Director Of Global Sales",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Jul 2014 - Nov 2022 • 8 years and 4 months",
+            "location": null,
+            "description": "Within the London based Global Sales Office for Western Europe; - Responsible for the revenue development (50M USD +) from all market segments of the France and Benelux outbound market for all 25 luxury Jumeirah properties worldwide, guiding each strategic business unit with the achievement of their financial objectives. - Build an aligned brand presence in the market through PR support agency by developing and maintaining relationships with key buying influencer, setting and monitoring strategic goals, championing Jumeirah’s brand and image and linking corporate policy and strategy as part of the regional Sales and Marketing team.\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Visiting Lecturer",
+            "organization": "IAE Pau-Bayonne",
+            "date_range": "Sep 2021 - Nov 2021 • 2 months",
+            "location": null,
+            "description": "The International Marketing Course for Master 2 Students aims at presenting a set of guiding principles for understanding consumers’ behavior, competitors’ dynamic and related variables that have an impact on marketing strategy. The program starts by identifying and measuring consumers' need, assessing the competitive environment, selecting the most appropriate customer targets and developing marketing strategy in order to satisfy consumers' needs. Presentation focuses on both theory and applications of marketing concepts through case studies, discussions, individual assignments, and group projects. Structure Chapter 1 Diagnosis SWOT and marketing survey Chapter 2 Strategy : segmentation targeting positioning Chapter 3 Mix Marketing : product price promotion place Chapter 4 International marketing and cross cultural marketing Objectives Students will: • learn how to critically analyse and solve marketing strategy related problems • develop analytical skills in the formulation and implementation of an integrated marketing concept • develop interpersonal and teamwork skills through group project activities Book references Armstrong Gary and Philip Kotler (2020) Principles of Marketing, Pearson.\nDepartment: Education • Level: Specialist"
+          },
+          {
+            "title": "Cluster Director Of Sales, ExComm.",
+            "organization": "Bürgenstock Collection",
+            "date_range": "Dec 2022 - Jan 2024 • 1 year and 1 month",
+            "location": null,
+            "description": "Hotels members of The Leading Hotels of the World - Member of the ExComm with overall management of the Sales & Events Departments (15 FTE). - Overseeing strategic key accounts across all segments and regions. - Actively manage Sales Representations across markets. - Work closely with The Leading Hotels of the World offices on a global basis including setting and implementing Performance Optimization Plan. - Manage relationships with Swiss Tourism to ensure relevant opportunities and promotions setup. - Drafting Annual Rooms & Events Budgets and Sales Plan in conjunction with the S&M budget. - Yield and Rate management with the Revenue Management. - Monthly trading reporting on achievements and strategy to Katara Hospitality asset management."
+          },
+          {
+            "title": "Vice President, Sales Partnerships",
+            "organization": "Bürgenstock Collection",
+            "date_range": "Jan 2024 - Mar 2025 • 1 year and 2 months",
+            "location": "Lausanne, Vaud, Switzerland",
+            "description": "Defined and led commercial strategy across Katara Hospitality and Bürgenstock Collection’s luxury Swiss portfolio. Drove revenue growth through high-impact global sales initiatives and strategic partnerships. Expanded market reach with a focus on UHNW, leisure, corporate, and diplomatic segments. Championed brand positioning and visibility across key international markets. Collaborated cross-functionally to align sales with operations, marketing, and ownership goals. Focused on long-term value creation and sustainable performance.\nDepartment: Sales • Level: President/Vice President"
+          },
+          {
+            "title": "Chief Commercial Officer",
+            "organization": "Absheron Hotel Group",
+            "date_range": "May 2025 - Present • 9 months",
+            "location": null,
+            "description": "Leading the development and execution of AHG Hotels & Resorts’ commercial strategy across a growing portfolio of properties and reporting to the CEO, the role includes: • Business development and strategic partnerships • Sales and distribution leadership • Revenue management and commercial performance • Brand positioning, marketing, and digital strategy • E-commerce and customer engagement With a focus on value creation, market expansion, and long-term growth, the role entails close collaboration with stakeholders to reinforce AHG’s presence both locally and internationally.\nDepartment: C-Suite • Level: C-Level"
+          }
+        ],
+        "education": [
+          {
+            "school": "Lycée Descartes",
+            "degree_or_field": "A level - High School, Literature",
+            "date_range": null
+          },
+          {
+            "school": "Université Paul Sabatier Toulouse III",
+            "degree_or_field": "Academic Degree, Sports Sciences",
+            "date_range": null
+          },
+          {
+            "school": "Institut national polytechnique de Toulouse",
+            "degree_or_field": "Master's - CNAM-ICSV-IPST, Sales & Marketing, MSc",
+            "date_range": "2005 - 2007"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sebastian Orzechowski",
@@ -396,7 +1074,91 @@
           "source_type": "official_site",
           "quote_or_fact": "The Adria is a member of The Leading Hotels of the World"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/chris-walker-9573aa47",
+        "display_name": "Chris Walker",
+        "headline": "Senior Vice President & Chief Commercial Officer",
+        "location": "New York, New York, United States",
+        "about": "Total Experience: 18 years and 1 month",
+        "experience": [
+          {
+            "title": "Sr Manager, Fine Hotels Resorts",
+            "organization": "American Express",
+            "date_range": "Jan 2007 - Oct 2009",
+            "location": "New York, NY",
+            "description": null
+          },
+          {
+            "title": "Director, Partner Marketing",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Oct 2009 - Oct 2012",
+            "location": "Chicago, IL",
+            "description": null
+          },
+          {
+            "title": "Vice President Brands, Hyatt Place And Hyatt House",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Oct 2012 - Oct 2014",
+            "location": "Chicago, IL",
+            "description": null
+          },
+          {
+            "title": "Senior Vice President, Sales, Americas",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Jan 2014 - Jan 2018",
+            "location": "New York, NY",
+            "description": null
+          },
+          {
+            "title": "Senior Vice President, Global Sales",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Jan 2019 - Jan 2021",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Senior Vice President Chief Commercial Officer",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Jan 2021 - Present",
+            "location": "New York, New York, United States",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "The University of Calgary",
+            "degree_or_field": "BSc, Geomatics Engineering",
+            "date_range": "1993 - 1997"
+          },
+          {
+            "school": "Harvard Business School",
+            "degree_or_field": "MBA",
+            "date_range": "2003 - 2005"
+          }
+        ],
+        "skills": [
+          "commercial",
+          "sales",
+          "director",
+          "marketing",
+          "hotels"
+        ],
+        "activity_themes": [
+          "Luxury hospitality industry events and conventions",
+          "New member additions to luxury hotel collections",
+          "Awards galas and recognitions in hospitality",
+          "Travel trade events and partner networking",
+          "Leadership promotions and career transitions",
+          "Corporate loyalty program celebrations",
+          "Partner appreciation dinners at luxury properties"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/chris-walker-9573aa47"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Chris K. Franzen",
@@ -424,7 +1186,190 @@
           "source_type": "official_site",
           "quote_or_fact": "Welcome The Adria London to the Bürgenstock Collection (press item)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/chrisfranzen",
+        "display_name": "Chris K. Franzen",
+        "headline": "Seasoned luxury resort & hotel operator with senior corporate experience; managing countrywide hospitality operations, and pre-opening expert. With leadership experience across several continents and countries.",
+        "location": "Zug, Zug, Switzerland (CH)",
+        "about": "Chris is a seasoned hospitality professional and consultant with over 30 years of experience in the luxury and upscale segment. He is currently the General Manager of the Waldorf Astoria Lusail Doha, a leading hotel in Qatar, and the COO of Aureus Advisors, a bespoke boutique hospitality consulting firm. He is passionate about delivering above-and-beyond moments for guests and colleagues, and believes in excellence of service and innovation as the key to success. He has a proven track record of financial performance, total quality management, sales and marketing, positioning, branding, talent management, portfolio management, and owner relations across five continents. He is also a guest columnist, a tourism ambassador, and a recipient of multiple awards for leadership and business excellence. Chris has also been listed on the GM's Power List 2023 for the Middle East.\n\nTotal Experience: 36 years and 9 months",
+        "experience": [
+          {
+            "title": "Executive Assistant Manager In Charge Of Rooms",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Feb 2006 - Jan 2009",
+            "location": "Dubai, United Arab Emirates",
+            "description": null
+          },
+          {
+            "title": "General Manager - Grand Hyatt Muscat Hotel",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Jan 2009 - Jan 2013",
+            "location": "Muscat Governorate, Oman",
+            "description": null
+          },
+          {
+            "title": "Ambassador Of Tourism For The Swiss Alpine Resort Of Zermatt",
+            "organization": "Zermatt - Matterhorn",
+            "date_range": "May 2010 - Present",
+            "location": "Zermatt, Valais, Switzerland",
+            "description": null
+          },
+          {
+            "title": "General Manager - Grand Hyatt Doha Hotel Villas",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Jan 2013 - Jun 2019",
+            "location": "Doha, Qatar",
+            "description": null
+          },
+          {
+            "title": "Area Vice President Qatar And The Sultanate Of Oman",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Jan 2016 - Jun 2019",
+            "location": "Doha, Qatar",
+            "description": null
+          },
+          {
+            "title": "Global Advisor",
+            "organization": "Guidepoint",
+            "date_range": "Jan 2019 - Present",
+            "location": "Mumbai, Maharashtra, India",
+            "description": "Serving as a Freelance Global Advisor for Guidepoint on various topics related to the Hospitality, Travel and Tourism industry."
+          },
+          {
+            "title": "General Manager Grand Hyatt Mumbai Hotel Residences",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Jun 2019 - Jul 2021",
+            "location": "Mumbai Area, India",
+            "description": null
+          },
+          {
+            "title": "Area Vice President Hyatt Western India General Manager Grand Hyatt Mumbai Hotel Residences",
+            "organization": "Hyatt Hotels Corporation",
+            "date_range": "Jun 2019 - Jul 2021",
+            "location": "Mumbai Area, India",
+            "description": null
+          },
+          {
+            "title": "Blue Mountains International Hotel Management School - Alumni Board",
+            "organization": "Blue Mountains International Hotel Management School",
+            "date_range": "Mar 2020 - Present",
+            "location": "Blue Mountains National Park, New South Wales, Australia",
+            "description": null
+          },
+          {
+            "title": "Guest Columnist",
+            "organization": "Hospitality Horizon",
+            "date_range": "Mar 2021 - Aug 2021",
+            "location": "Mumbai, Maharashtra, India",
+            "description": null
+          },
+          {
+            "title": "Pre-opening General Manager Waldorf Astoria",
+            "organization": "Waldorf Astoria Hotels & Resorts",
+            "date_range": "Jun 2021 - Sep 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Pre-opening Managing Director Waldorf Astoria",
+            "organization": "Waldorf Astoria Hotels & Resorts",
+            "date_range": "Jun 2021 - Sep 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Chief Executive Officer",
+            "organization": "Aureus Advisors LLC",
+            "date_range": "Jul 2021 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Managing Director",
+            "organization": "Waldorf Astoria Hotels & Resorts",
+            "date_range": "Jul 2021 - Mar 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Waldorf Astoria Hotels & Resorts",
+            "date_range": "Jul 2021 - Mar 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Guest Columnist For The Hospitality, Travel Tourism Industry",
+            "organization": "BW HOTELIER",
+            "date_range": "Aug 2021 - Present",
+            "location": "Delhi, India",
+            "description": null
+          },
+          {
+            "title": "Honorary Member, Global Chapter Of The DLC Hospitality Travel Committee",
+            "organization": "Della Leaders Club",
+            "date_range": "Sep 2021 - Present",
+            "location": "Mumbai, Maharashtra, India",
+            "description": null
+          },
+          {
+            "title": "GM's Power List 2023 Hotelier Middle East",
+            "organization": "Hotelier Middle East",
+            "date_range": "Jan 2023 - Dec 2023",
+            "location": null,
+            "description": "I was included in the General Manager's 100 Power List for the Middle East by The Hotelier Magazine, the industries leading publication in the area."
+          },
+          {
+            "title": "Newcomer Of The Year 2024",
+            "organization": "Karl F. Wild Hotel Rating",
+            "date_range": "Jan 2024 - Nov 2024",
+            "location": null,
+            "description": "Selected as Newcomer of the Year for the Year 2024 in the prestigious Karl F. Wild Hotel Rating."
+          },
+          {
+            "title": "Managing Director",
+            "organization": "Bürgenstock Hotels AG",
+            "date_range": "Apr 2024 - Present",
+            "location": "Bürgenstock, Switzerland",
+            "description": "I am responsible for the overall portfolio performance, strategic development, and owner relations of Switzerland’s largest hospitality investment, the Bürgenstock Hotels AG. With experience spanning several continents, I have an accomplished track record in luxury, upscale and select service hotels, having operated through some of the most demanding business scenarios including economic downturns, uprisings, pandemics, and embargoes. I am known to be strategically focused, financially disciplined, and result-oriented with a strong track record of leadership and innovation. I am passionate about delivering benchmark setting performances for the owners through astute management and strategies. I believe first and foremost in the excellence of service, and passion in everything we do being the key to our success. With a thorough background in Food & Beverage, substantial experience in Rooms Division and Sales, Marketing as well as Controlling, I have a holistic understanding of operations. I also possess thorough knowledge of Unions and negotiation tactics as well as handling challenging ownership situations for various properties. I have successfully launched several new food and beverage concepts that were later replicated in many other hotels across many countries. Recent accolades include being selected as Newcomer of the Year 2024 by the Karl Wild Hotel Rating in Switzerland and the inclusion in the General Manager’s Power List Middle East 2023, a sign of excellence for industry leaders who have excelled and set industry leading benchmarks. He also successfully executed Switzerland’s largest ever political conference in June of 2024, Peace for Ukraine, with over 100 delegations in attendance and almost 60 Heads of State. As of October 2024, Chris is also member of the board of Swiss Deluxe Hotels, covering 38 of Switzerland’s most prolific and luxurious hotels and resorts. Chris is also a member of the European Hotel Managers Association (EHMA) since 2024."
+          },
+          {
+            "title": "Member",
+            "organization": "EHMA - European Hotel Managers Association",
+            "date_range": "Aug 2024 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Board Member",
+            "organization": "Swiss Deluxe Hotels",
+            "date_range": "Nov 2024 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Executive Board Member",
+            "organization": "Film Commission Lucerne & Central Switzerland",
+            "date_range": "Oct 2025 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Member Board Of Directors",
+            "organization": "Industrie- und Handelskammer Zentralschweiz IHZ / Chamber of Commerce for Central Switzerland",
+            "date_range": "May 2025 - Present",
+            "location": "Lucerne, Switzerland",
+            "description": "Elected in May 2025 to the Board of Directors for the Chamber of Commerce for Central Switzerland."
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Daphne Foo",
@@ -447,13 +1392,126 @@
           "source_type": "official_site",
           "quote_or_fact": "Daphne Foo, Manager, Revenue Enablement, LHW"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/daphnefoo",
+        "display_name": "Daphne Foo",
+        "headline": "Revenue Enablement Manager at The Leading Hotels of the World",
+        "location": "Singapore (SG)",
+        "about": "Great interest and passionate about the hospitality industry. Always looking for new opportunities to grow and learn more about industry.\n\nTotal Experience: 7 years and 3 months",
+        "experience": [
+          {
+            "title": "Mentoring Scholarship Student Food Beverage Department",
+            "organization": "Blue Mountains International Hotel Management School",
+            "date_range": "Apr 2017 - Jun 2017",
+            "location": "Leura, New South Wales",
+            "description": null
+          },
+          {
+            "title": "Revenue Reservation Intern",
+            "organization": "The Westin Melbourne",
+            "date_range": "Sep 2018 - Feb 2019",
+            "location": "Melbourne, Australia",
+            "description": null
+          },
+          {
+            "title": "Reservations Agent",
+            "organization": "Sheraton Melbourne Hotel",
+            "date_range": "Feb 2019 - Oct 2019",
+            "location": "Melbourne, Australia",
+            "description": null
+          },
+          {
+            "title": "Reservations Sales Executive",
+            "organization": "Orchard Hotel Singapore",
+            "date_range": "Dec 2019 - Sep 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Executive",
+            "organization": "M Social Singapore",
+            "date_range": "Sep 2020 - Feb 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Reservations Executive",
+            "organization": "Dao by Dorsett AMTD Singapore",
+            "date_range": "Feb 2022 - Dec 2022",
+            "location": "Singapore, Singapore",
+            "description": null
+          },
+          {
+            "title": "Assistant Reservations Manager",
+            "organization": "Dao by Dorsett AMTD Singapore",
+            "date_range": "Dec 2022 - Jan 2024",
+            "location": "Singapore, Singapore",
+            "description": null
+          },
+          {
+            "title": "Assistant Revenue Reservations Manager",
+            "organization": "Dao by Dorsett AMTD Singapore",
+            "date_range": "Jan 2024 - Jun 2024",
+            "location": "Singapore",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager Revenue Analyst (Pre-Opening)",
+            "organization": "The Standard, Singapore",
+            "date_range": "Aug 2024 - Apr 2025",
+            "location": "Singapore, Singapore",
+            "description": null
+          },
+          {
+            "title": "Revenue Enablement Manager",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Apr 2025 - Present",
+            "location": "Singapore, Singapore",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "SIM Global Education",
+            "degree_or_field": "Diploma, Business Management Studies",
+            "date_range": "2014 - 2016"
+          },
+          {
+            "school": "Blue Mountains International Hotel Management School",
+            "degree_or_field": "Bachelor's degree, Business (International Hotel and Resort Managemenet)",
+            "date_range": "2017 - 2019"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "reservation",
+          "reservations",
+          "mentoring",
+          "food",
+          "sales",
+          "hospitality industry"
+        ],
+        "activity_themes": [
+          "Hospitality company transitions and rebranding",
+          "International luxury hotel partnerships and openings",
+          "Revenue management strategies and training",
+          "Leading Hotels of the World events and showcases",
+          "Diversity, inclusion and gender equality in hospitality",
+          "Hotel awards, career moves and industry recognitions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/daphnefoo"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ylenia Ficalora",
       "title": "Senior Performance Manager (Revenue)",
       "company": "HotelPartner Revenue Management",
-      "linkedin_url": "https://uk.linkedin.com/in/ylenia-ficalora-27b10976",
+      "linkedin_url": "https://www.linkedin.com/in/ylenia-ficalora-27b10976",
       "email": null,
       "email2": null,
       "phone": null,
@@ -475,7 +1533,149 @@
           "source_type": "news",
           "quote_or_fact": "Ylenia Ficalora has been appointed Senior Performance Manager at HotelPartner Revenue Management."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ylenia-ficalora-27b10976",
+        "display_name": "Ylenia Ficalora",
+        "headline": "Senior Performance Manager and Revenue Consultant",
+        "location": "United Kingdom (GB)",
+        "about": "Experienced Reservations and Revenue Manager with a demonstrated history of working in the hospitality industry. Skilled in Excel, PMS, Booking engines and Revenue Management Systems. Previous experience in operations.\n\nTotal Experience: 13 years",
+        "experience": [
+          {
+            "title": "Receptionist",
+            "organization": "Hotel Tonic",
+            "date_range": "Oct 2011 - May 2012",
+            "location": "Palermo Area, Italy",
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "Ypsigro Palace Hotel",
+            "date_range": "May 2012 - Oct 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Receptionist",
+            "organization": "The Arch London",
+            "date_range": "Oct 2013 - Aug 2014",
+            "location": "London, United Kingdom",
+            "description": "•Greeting guests in a professional manner • Delivering excellent customer service • Anticipating the guest needs, offering assistance where needed and assisting with their requests and queries efficiently and effectively. • Leading and coordinate reception team • Building strong relationships with key guest and internal clients • Monitoring and controlling housekeeping standards • Solving guests problems and arranging VIP amenities • Create a positive relationship with reception colleagues and maintaining high standard • Providing excellent communication standard • Keep the team motivated • Helping Reservation team dealing with booking enquires and GDS bookings"
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "The Arch London",
+            "date_range": "Sep 2014 - Sep 2015",
+            "location": "London, United Kingdom",
+            "description": "• Greeting guests in a professional manner • Delivering excellent customer service • Anticipating guest needs and offering assistance where necessary • Assisting with requests and queries efficiently and effectively • Leading and coordinating the reception team • Building strong relationships with key guest and internal clients • Monitoring and controlling housekeeping standards • Solving guests problems and arranging VIP amenities • Create a positive relationship with reception colleagues and maintaining high standard • Providing excellent communication standards • Working together to keep the team motivated • Helping Reservation team dealing with booking enquires, making bookings and dealing with travel agencies and companies (Covering Reservation shifts when needed) • Training new receptionist members to maintain service standards"
+          },
+          {
+            "title": "Reservations And Revenue Supervisor",
+            "organization": "The Arch London",
+            "date_range": "Sep 2015 - Mar 2016",
+            "location": "London, United Kingdom",
+            "description": "• Manage & maintain all reservations related systems to the highest degree of quality, including Opera, TravelClick & extranet systems • Manage rates & availability in order to constantly maximize occupancy, average rate & RevPAR, attracting market potential • Ensure that the highest level of services are provided to all guests & clients, at reservation stage • Maintain effective communication levels at all times to ensure that members are fully informed of relevant changes • Handle comments, complaints or queries with immediate action, speaking to departments concerned with a thorough follow up to the guests • Ensure correspondence filing is complete & accurate at all times ensuring any necessary records are up to date • Liaise closely with Housekeeping & Reception • Assist & support front office department with difficult guest situations • Provide complete training for all reservations agents • Assisting with 13 week forecast reports • Analyze past and present trends to improve future strategies • Perform daily, weekly and monthly checklist tasks for the maintenance of the yield management system • Maintain rate parity with third party sites through the extranet • Monitor competitor pricing and products to understand local market demand generators"
+          },
+          {
+            "title": "Reservations And Revenue Manager",
+            "organization": "Courthouse Hotel",
+            "date_range": "Apr 2016 - Mar 2017",
+            "location": "London, United Kingdom",
+            "description": "• Manage rates and availability in order to constantly maximize occupancy, ADR and RevPar. • Manage & maintain all reservations related systems to the highest degree of quality, including Opera, TravelClick & extranet systems • Daily pick-up analysis, strategy adjustments and reporting. • Create and develop pricing strategies in conjunction with the individuality of the hotel. • Provide weekly and monthly dynamic forecast of expected results • Responsible for assessing, analyzing and pricing group business strategies • Ensure all related systems are configured correctly, validated and working to full capacity • Competitor analysis • Evaluate performance of distribution partners and contracted rates (OTA, FIT, tour operator, corporate, consortia, groups, etc…)"
+          },
+          {
+            "title": "Reservations Manager (Rooms F B)",
+            "organization": "The Ned",
+            "date_range": "Apr 2017 - May 2019",
+            "location": "London, United Kingdom",
+            "description": "• Supervise and assist a team of 15 agents • Assignment of daily tasks for reservations team • Provide training to all new employees for all policies and procedures. • Responsible for implementation and maintenance of standards and procedures • Maximize revenues by ensuring all Reservation Agents are knowledgeable in room and restaurant products and hotel services • Conduct regularly departmental meeting, one to one reviews and appraisals with all team members • Constant check of rates productivity • Manage all guest issues and ensure response to all queries and monitor flow of restaurants and recommend ways to increase revenue. • Restaurants setups (Floor plans, special days, availability, pacing) in order to maximize revenue • Ensure all systems are configured correctly"
+          },
+          {
+            "title": "Revenue Systems Manager",
+            "organization": "The Ned",
+            "date_range": "May 2019 - Oct 2020",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Reservations And Revenue Manager",
+            "organization": "The NoMad Hotel London",
+            "date_range": "Oct 2020 - Mar 2025",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Performance Manager",
+            "organization": "HotelPartner Revenue Management",
+            "date_range": "Apr 2025 - Present",
+            "location": "United Kingdom",
+            "description": "Company: 51-200 employees • Founded 2006 • Self-Owned • Hospitality\nDepartment: Operations • Level: Senior"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Palermo",
+            "degree_or_field": "Bachelor's degree, Economics and Hospitality Management",
+            "date_range": "2008 - 2011"
+          },
+          {
+            "school": "ITT Marco Polo",
+            "degree_or_field": "High School Diploma, Tourism and Travel Services Management",
+            "date_range": "2002 - 2007"
+          }
+        ],
+        "skills": [
+          "reservations",
+          "hospitality",
+          "management",
+          "operations",
+          "training",
+          "responsible",
+          "maintenance",
+          "reservation",
+          "hotel",
+          "appraisals",
+          "rates",
+          "restaurants",
+          "less",
+          "controlling",
+          "housekeeping",
+          "arranging",
+          "opera",
+          "reports",
+          "yield",
+          "pricing",
+          "generators",
+          "gds",
+          "analysis",
+          "strategy",
+          "adjustments",
+          "reporting",
+          "distribution",
+          "hospitality industry",
+          "revenue management",
+          "floor plans",
+          "customer service",
+          "team building",
+          "front office",
+          "yield management"
+        ],
+        "activity_themes": [
+          "Sharing insights on positive yielding and its rewards for the hospitality industry",
+          "Discussing revenue management strategies and holding nerves on pricing in challenging 2026 market",
+          "Engaging with leadership development and ILM-accredited programmes",
+          "Interacting with industry news on accentuating the positive in hotel revenue"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/oliver-meyer-ba7047148_news-accentuate-the-positive-activity-7425642848227786753-3rFz",
+          "https://www.linkedin.com/posts/julia-trenker-7a27591a1_im-happy-to-share-that-i-have-completed-activity-7425489541324517376-OPRQ",
+          "https://www.linkedin.com/posts/ylenia-ficalora-27b10976_news-accentuate-the-positive-activity-7425173623918727168-R6Uf",
+          "https://www.linkedin.com/posts/robert-holland-fih-ba102013_news-accentuate-the-positive-activity-7425131530538242049-G1JG",
+          "https://www.linkedin.com/posts/matteo-delrio-28b8a8133_im-now-just-over-50-of-the-way-of-my-fundraising-activity-7424491"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Gary Redmond",
@@ -526,7 +1726,206 @@
           "source_type": "linkedin",
           "quote_or_fact": "The Adria - A member of The Leading Hotels of the World"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/malederman",
+        "display_name": "Michael Lederman",
+        "headline": "Vice President, Information Technology at The Leading Hotels of the World",
+        "location": "New York City Metropolitan Area (US)",
+        "about": "My passion is to find innovative ways to solve business problems and improve operations. By building and growing an IT organization, I ensure the highest level of service to the company and position the business to succeed and grow in the market place. I develop and execute innovative business and technology strategies to support and enhance the mission and business of the organization. I have the knowledge and ability to be a hands-on manager when needed with technical expertise in systems architecture, desktop and server virtualization, network engineering, business intelligence, data warehousing, software engineering and business process improvement. My industry experience includes financial services, e-commerce, retail, higher education, non-profit and performing arts. Specialties · Short and long-term IT Strategic Planning · IT Turnarounds, Team building, and restructuring · Leadership and mentorship of IT professionals · Business Process Improvement · IT Service Management and Operations · IT Governance · Project Management · Data Warehousing and Business Analysis · Vendor management and Outsourcing · eCommerce",
+        "experience": [
+          {
+            "title": "Systems Programmer",
+            "organization": "Rutgers University",
+            "date_range": "Jan 1996 - Jan 1999",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Consultant",
+            "organization": "Collective Technologies",
+            "date_range": "Jan 1999 - Dec 2000",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Unix Engineer Team Lead",
+            "organization": "Tradescape Technologies/Market XT",
+            "date_range": "Jul 1999 - Jul 2001",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Team Lead, U.S. Infrastructure Engineering",
+            "organization": "Mako Global Derivatives",
+            "date_range": "Dec 2001 - Jul 2002",
+            "location": "New York, NY",
+            "description": "Headed US team of Infrastructure engineers responsible for IT strategy and operations in Chicago and New York offices. Collaborated with developers and traders to ensure IT operations were aligned with business and development goals. Responsibilities included architecture, maintenance and support of New York and Chicago network, servers and desktop infrastructure, and trading floors. Worked closely with counterparts in UK and Amsterdam offices to coordinate consistent IT strategies across the organization."
+          },
+          {
+            "title": "Owner Co-Founder",
+            "organization": "Dumb Egg Enterprises",
+            "date_range": "Jul 2002 - Dec 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Systems Analyst",
+            "organization": "The Bank of New York",
+            "date_range": "Dec 2002 - Dec 2004",
+            "location": null,
+            "description": "Coordinated, implemented and supported electronic payment transmission between the Bank and some of its clients. Collaborated with internal and external business partners to establish project requirements, lead the implementation and provide on-going support. Analyzed, designed and implemented upgrades to improve the efficiency and reliability of data flow. Responsibilities included software development and deployment, quality assurance, client coordination and project management."
+          },
+          {
+            "title": "Vice President Of The Board",
+            "organization": "CIO/Arts",
+            "date_range": "May 2006 - Jul 2013",
+            "location": null,
+            "description": "CIO/Arts is an non-profit professional organization of senior IT leaders in the performing arts industry that are actively planning and implementing technology solutions. The membership includes organizations in the US, Canada and Australia. Technology is my passion and I have enjoyed serving as Vice President of CIO/Arts, an organization that facilitates technology and strategy collaboration amongst the senior technology leaders in some of the world’s most recognized performing arts organizations."
+          },
+          {
+            "title": "Director Of Information Technology CIO",
+            "organization": "Alvin Ailey Dance Foundation",
+            "date_range": "Jun 2006 - Jul 2013",
+            "location": "New York, NY",
+            "description": "At Ailey I built a robust IT department to support the needs of over 300 faculty and staff, 1500 students, and two globally touring dance companies. My team of full-time and consultant developers, support staff, network administrators and project managers are responsible for all aspects of Ailey's IT infrastructure, support and application development. I partner with the leadership of Ailey's Marketing, Development and Education initiatives to streamline their operations, improve their business processes, and identify strategic technologies that will keep Ailey at the fore-front of our industry. Key responsibilities include strategic business and technology planning, trend analysis project management, vendor management, staff development, infrastructure design, PCI compliance, and daily oversight of the IT department."
+          },
+          {
+            "title": "Vice President, Information Technology CIO",
+            "organization": "Massey Knakal Realty Services",
+            "date_range": "Aug 2013 - Jan 2015",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Managing Director, Strategy Innovation, Global Technology Solutions",
+            "organization": "Cushman & Wakefield",
+            "date_range": "Jan 2015 - Aug 2016",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Executive Committee",
+            "organization": "Society for Information Management (SIM) - New Jersey Chapter",
+            "date_range": "Jun 2015 - May 2017",
+            "location": null,
+            "description": "SIM is an association of senior IT executives, prominent academicians, selected consultants, and other IT thought leaders built on the foundation of local chapters, who come together to share and enhance their rich intellectual capital for the benefit of its members and their organizations."
+          },
+          {
+            "title": "Managing Director, IT Solution Design Delivery, Global Technology Solutions",
+            "organization": "Cushman & Wakefield",
+            "date_range": "Aug 2016 - Feb 2017",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Senior Director, Information Technology",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Mar 2017 - Jul 2018",
+            "location": "Greater New York City Area",
+            "description": null
+          },
+          {
+            "title": "Vice President, Information Technology",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Jul 2018 - Present",
+            "location": "Greater New York City Area",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Rutgers University",
+            "degree_or_field": "B.S., Computer Science",
+            "date_range": "1994 - 1998"
+          },
+          {
+            "school": "Columbia University - Columbia Business School",
+            "degree_or_field": "MBA",
+            "date_range": "2005 - 2006"
+          }
+        ],
+        "skills": [
+          "operations",
+          "technology",
+          "architecture",
+          "server",
+          "virtualization",
+          "engineering",
+          "intelligence",
+          "warehousing",
+          "software",
+          "commerce",
+          "retail",
+          "education",
+          "performing",
+          "arts",
+          "planning",
+          "restructuring",
+          "leadership",
+          "management",
+          "governance",
+          "analysis",
+          "vendor",
+          "outsourcing",
+          "ecommerce",
+          "director",
+          "strategy",
+          "innovation",
+          "sales",
+          "collaboration",
+          "infrastructure",
+          "marketing",
+          "trend",
+          "design",
+          "compliance",
+          "unix",
+          "engineers",
+          "maintenance",
+          "servers",
+          "trading",
+          "transmission",
+          "efficiency",
+          "reliability",
+          "deployment",
+          "assurance",
+          "coordination",
+          "consultants",
+          "capital",
+          "network engineering",
+          "business intelligence",
+          "data warehousing",
+          "software engineering",
+          "business process",
+          "process improvement",
+          "financial services",
+          "higher education",
+          "non profit",
+          "performing arts",
+          "strategic planning",
+          "team building",
+          "service management",
+          "project management",
+          "business analysis",
+          "vendor management",
+          "information technology",
+          "project managers",
+          "application development",
+          "trend analysis",
+          "staff development",
+          "business development",
+          "solution design",
+          "software development",
+          "quality assurance",
+          "business process improvement"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/malederman"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Alexandra Segal",
@@ -549,7 +1948,94 @@
           "source_type": "official_site",
           "quote_or_fact": "Alexandra Segal, Director, Digital Marketing, Leading Hotels of the World"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/alexandra-segal-2283591a",
+        "display_name": "Alexandra Segal",
+        "headline": "Digital Experience | Paid Media | E-Commerce | CRM",
+        "location": "Plainfield, New Jersey, United States (US)",
+        "about": "Accomplished digital marketing and e-commerce professional with over a decade of demonstrated experience translating business initiatives and online marketing strategies into bottom-line results in sales revenue and growth. Extensive experience in digital transformation programs, website and e-commerce management across international luxury, hospitality, CPG and SaaS verticals. Key attributes include the direction of digital marketing campaigns in performance and brand media (paid search, video, paid social, and programmatic), development of CRM programs, and website user experience optimization.\n\nTotal Experience: 15 years and 5 months",
+        "experience": [
+          {
+            "title": "English And Writing Tutor",
+            "organization": "Rutgers University",
+            "date_range": "Sep 2010 - Dec 2012",
+            "location": "New Brunswick, NJ",
+            "description": "• Teach undergraduate Educational Opportunity Fund Program students writing and comprehension skills, leading to better course preparedness, higher subject comprehension, and grade improvement. • Instruct on brainstorming of ideas, essay structure development, organization, grammar, vocabulary, and analytical skills, applicable to current subject as well as to overall learning and study habits.\n\nDepartment: Education • Level: Specialist"
+          },
+          {
+            "title": "Marketing Intern",
+            "organization": "SetFocus",
+            "date_range": "Jun 2012 - Aug 2",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Digital Marketing And Web Analytics Intern",
+            "organization": "Marvel Entertainment",
+            "date_range": "Jan 2013 - May 2013",
+            "location": "New York, NY",
+            "description": "• Use Google Analytics and comScore to analyze trends in website performance to aid in decision making of optimizing digital advertisement revenue via Google AdSense. • Organize and analyze statistical data using Excel for Marvel Augmented Reality application to gain insight on trends and develop detailed analysis on application usage and performance. Establish data relationships and interactions to optimize future marketing/promotional decision-making. • Conduct research on current and developing internet customer interaction trends across desktop, mobile, and tablet platforms. Analyze performance in each sector and make recommendations for segment expansions. • Perform digital online trend forecasting research for a 5-year plan"
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "Colavita USA",
+            "date_range": "Jun 2013 - Dec 2015",
+            "location": "Edison, NJ",
+            "description": "Marketing department lead responsible for establishing a digital-first content marketing focus and an internship program to develop and expand the marketing department. • Lead on strategy, planning, and execution for the brand’s digital properties, content and partner campaigns, resulting in a referral CTR of up to 6%. • Manage DTC e-commerce, executing product merchandising and promotion of 500+ products. Implement site performance reporting via Google Analytics. • Manage agency-executed paid search campaigns to increase brand awareness and e-commerce sales, resulting in a 300% increase in traffic. Spearhead SEO improvements for better search positioning. • Oversee branded promotions, advertising, partnerships, and events, conduct media planning and buying. Support sales initiatives with PR efforts, collateral materials and promotional items.\n\nDepartment: Marketing • Level: Manager"
+          },
+          {
+            "title": "Senior Marketing Manager",
+            "organization": "Colavita USA",
+            "date_range": "Dec 2015 - Jun 2016",
+            "location": "Edison, NJ",
+            "description": "Lead a team of three marketing professionals, three interns, and external consultants focusing on digital marketing initiatives and overall brand growth in the digital space. Achieved 130% growth in traffic and 25% growth in e-commerce revenue. • Develop marketing strategy for e-commerce, social media, CRM, events, partnerships, and sports sponsorships, working with internal team and content creators to deliver a unique brand voice and expand into third party sales channels. • Lead on event marketing: planning, organizing, and executing major trade shows, large-scale consumer, and private events.\n\nDepartment: Marketing • Level: Senior"
+          },
+          {
+            "title": "Digital Brand Marketing Strategist",
+            "organization": "Wyndham Hotel Group",
+            "date_range": "Jun 2016 - Dec 2016",
+            "location": "Greater New York City Area",
+            "description": "Manage the relationship between brand and digital marketing teams, ensuring successful planning communication, delivering campaign reporting, and advising on digital campaign strategy. Actively contribute to the re-launch of the Wyndham Hotels and Resorts portfolio of 15 brand websites during a digital transformation initiative. • Serve as main liaison between brand and digital marketing teams for 7 hotel brands, ensuring timely launches and updates of all promotional campaigns on brand.com sites. • Evaluate campaign effectiveness by collaborating with all digital marketing channels to create comprehensive reporting and present findings to upper management.\n\nDepartment: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "TAG Heuer",
+            "date_range": "Jan 2017 - Jul 2020",
+            "location": "Greater New York City Area",
+            "description": "Lead the growth and innovation of tagheuer.com in the US, focusing on site optimization, CRM program localization, strategic social media initiatives and partner marketing. Achieved an average annual sales growth rate of 34%. • Create campaign landing pages, manage content schedule, product launches and merchandising. • Develop, implement, and optimize US email strategy, focusing on improving brand engagement and e-commerce conversion. Increase qualified traffic by implementing A/B testing, segmentation and behavioral targeting using Salesforce Marketing Cloud. • Manage the posting of US content, including live coverage of events and local product promotions. Run tactical, geo-targeted paid social campaigns to amplify organic social reach to drive store traffic and awareness for local events. • Liaise between wholesale partners and third-party vendors to supply digital content using a content management platform. Plan, execute, and analyze monthly campaigns. Q/C content for accuracy, lead on campaign optimization and program improvements.\n\nDepartment: Marketing • Level: Manager"
+          },
+          {
+            "title": "Senior Digital Marketing Manager",
+            "organization": "TAG Heuer",
+            "date_range": "Jul 2020 - Apr 2021",
+            "location": "Springfield, New Jersey, United States",
+            "description": "E-commerce and digital media lead, responsible for driving direct to consumer growth and delivering a best-in-class digital consumer experience. North America lead for a global digital transformation project focusing on site, e-commerce and CRM improvements and market expansion. Managed 1 direct report. • Lead digital media marketing strategy for paid search, social, and programmatic display working directly with the media agency on budget allocation, campaign strategy, testing of new channels, ad formats and pilot studies. Delivered consistent sales growth of DTC channel (12% of US brand revenue and 85% of global DTC e-commerce business), exceeding monthly targets by an average of 300% and achieving 40% in ROAS improvements. • Deliver weekly site, media, and sales performance reports and recommendations to leadership, directly influencing real-time budget optimization and forecasting during the peak of the COVID-19 pandemic.\n\nDepartment: Marketing • Level: Senior"
+          },
+          {
+            "title": "Senior Digital Marketing Manager, SMB North America",
+            "organization": "SAP Concur",
+            "date_range": "Apr 2021 - Apr 2022",
+            "location": "Remote",
+            "description": "Digital marketing lead for the North America small business division (US and Canada), working directly with field marketing and global digital teams to deliver an SMB-optimized user experience on the SAP Concur website. • Lead collaboration across field marketing, product, and project management teams to deliver evergreen and SMB-specific page updates. Identify optimization and merchandising opportunities to increase engagement, lead conversion rate and pipeline. Evaluate digital tool effectiveness and identify opportunities for improvement. • Partner with the testing and personalization team to run on-site A/B tests and personalization based on targeted audience segments to deliver higher engagement and form fills. • Collaborate with the global social media and organic search teams to identify market-specific opportunities, test new strategies, and optimize performance based on budget, seasonal trends, and evergreen initiatives. Achieved a 50% increase in paid social site traffic, contributing to campaign impressions, and growing the retargeting audience pool."
+          },
+          {
+            "title": "Digital Marketing Director",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "May 2022 - Present",
+            "location": "New York, New York, United States",
+            "description": "Leading LHW brand strategy for CRM and paid media.\n\nDepartment: Marketing • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/alexandra-segal-2283591a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lauren Alba",
@@ -572,7 +2058,134 @@
           "source_type": "official_site",
           "quote_or_fact": "Lauren Alba, VP Global Marketing & Communications"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/laurenalba1",
+        "display_name": "Lauren Alba",
+        "headline": "VP of Marketing & Communications | Brand Builder & Storyteller | Luxury Hospitality",
+        "location": "Cranford, New Jersey, United States (US)",
+        "about": "Strategic communicator driving change and results in marketing communications strategy through brand management, content development, public relations, social media, event management, and customer experience.\n\nTotal Experience: 19 years and 9 months",
+        "experience": [
+          {
+            "title": "Communications Intern",
+            "organization": "Washington Wizards",
+            "date_range": "Jan 2005 - May 2005",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Account Supervisor",
+            "organization": "Coyne PR",
+            "date_range": "Jun 2006 - Oct 2010",
+            "location": null,
+            "description": "I began my career in marketing in Public Relations (June 2006) at Coyne Public Relations as an Account Coordinator, where I helped open the agency's first satellite office in New York City. In my four-plus years at the agency, I managed traditional and social media initiatives for high-profile clients that included the Harlem Globetrotters, ESPN, the United States Tennis Association, Lifetime Digital and Disney Sports, among others. Additionally, I helped to conceive and lead client…"
+          },
+          {
+            "title": "Manager, Social Media Marketing And Digital Communications",
+            "organization": "American Express",
+            "date_range": "Oct 2010 - Sep 2013",
+            "location": null,
+            "description": "In this role, I worked across all American Express Publishing brands (now part of Meredith Media)--Travel + Leisure, Food & Wine, Departures and Executive Travel—to develop and execute social media strategy and promotion. Led the development, implementation and measurement of AEP's social media strategy. Coordinated with internal editorial, consumer marketing, brand marketing, legal, technology and advertising teams to support their respective missions including brand awareness, audience…"
+          },
+          {
+            "title": "Senior Manager, Brand Digital And Social Media Marketing",
+            "organization": "American Express",
+            "date_range": "Sep 2013 - Jul 2014",
+            "location": "Greater New York City Area",
+            "description": "As part of the Global Advertising and Brand Management business unit of American Express, I oversaw the creation of brand content for the American Express brand across social media channels as well as digital media partnerships. In this role, I was the lead for the digital content creation for the the launch of the American Express Everyday credit card, managing agencies and a multi-million dollar budget to create supporting assets for the launch."
+          },
+          {
+            "title": "Director, Global Public Relations Media Partnerships",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Oct 2014 - Jun 2016",
+            "location": null,
+            "description": "Develop and oversee the global public relations strategy for 12 regions. Lead the development and onsite management of the company's annual hotel member event including setting the business session topics, securing speakers, logistics and drafting executive speeches."
+          },
+          {
+            "title": "Senior Director, Marketing Communications",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Jun 2016 - Jun 2021",
+            "location": "New York",
+            "description": "Head of the Marketing Communications team overseeing the development and execution of integrated marketing and communications strategies for LHW guests and LHW member hotels through brand strategy and management, content strategy and development, creative design services, public relations, social media and events."
+          },
+          {
+            "title": "Vice President, Global Marketing Communications",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Jun 2021 - Present",
+            "location": "New York, United States",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "George Mason University",
+            "degree_or_field": "BA, Communication",
+            "date_range": "2002 - 2006"
+          }
+        ],
+        "skills": [
+          "driving",
+          "marketing",
+          "communications",
+          "strategy",
+          "management",
+          "digital",
+          "publishing",
+          "food",
+          "editorial",
+          "legal",
+          "technology",
+          "advertising",
+          "missions",
+          "director",
+          "partnerships",
+          "hotel",
+          "logistics",
+          "hotels",
+          "creative",
+          "design",
+          "satellite",
+          "tennis",
+          "budget",
+          "marketing communications",
+          "communications strategy",
+          "brand management",
+          "content development",
+          "public relations",
+          "social media",
+          "event management",
+          "customer experience",
+          "global marketing",
+          "marketing digital",
+          "media strategy",
+          "consumer marketing",
+          "brand marketing",
+          "brand awareness",
+          "integrated marketing",
+          "brand strategy",
+          "content strategy",
+          "strategy development",
+          "digital media",
+          "content creation",
+          "social media marketing"
+        ],
+        "activity_themes": [
+          "Team and client success in creative production",
+          "Luxury education foundation and brand features in publications",
+          "New year goals and intentions in luxury PR",
+          "Storytelling about company people behind brands",
+          "Authentic personal and professional business investment"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/kevin-lamb-a510a76_congrats-to-our-team-and-a-massive-thank-activity-7417710914499633152-aUqC",
+          "https://www.linkedin.com/posts/the-luxury-education-foundation_luxuryeducationfoundation-curatormagazine-activity-7414440238200143873-V9Sc",
+          "https://www.linkedin.com/posts/alexandrawensley_luxurypr-newyeargoals-setyourintentions-activity-7412917135922020352-ei-t",
+          "https://www.linkedin.com/posts/erin-noss_companies-are-desperately-seeking-storytellers-activity-7406346079031689216-uCN7",
+          "https://www.linkedin.com/posts/gerald-j-graziano-38318925_myall-thejsocial-geraldj-activity-7406749192225968128-Kql0"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Phil Koserowski",
@@ -595,7 +2208,146 @@
           "source_type": "official_site",
           "quote_or_fact": "Phil Koserowski, SVP & Chief Marketing Officer (digital background noted)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/philkoserowski",
+        "display_name": "Philip Koserowski",
+        "headline": "Senior Vice President & Chief Marketing Officer at The Leading Hotels of the World",
+        "location": "New York, New York, United States",
+        "about": "Strategic thinker with a strong eye on execution. Skilled in finding creative solutions and focusing on high levels of efficiency. Hard worker always eager to learn and face new challenges. Thrives in fast paced, action-oriented environment. Proven leader who strives to bring the best out of his co-workers. Specialties: E-Business (10 years) Staff Supervision & Development (9 years) Internet Marketing & Advertising (11 years) Web Usability Engineering (8 years) Relationship Marketing (7 years) Email and Direct E-Marketing (7 years) Web Site Planning Design (11 years) Search Engine Optimization (6 years) Search Engine Advertising (6 years) Intranet, Extranet, Portal Development (8 years) Spherical Branding (3 years) Internet Tracking Technologies (11 years)",
+        "experience": [
+          {
+            "title": "Sr Manager Of Interactive Marketing",
+            "organization": "Fountain Technologies",
+            "date_range": "Jan 1996 - Jan 2000",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Internet Marketing",
+            "organization": "Quantex Microsystems",
+            "date_range": "Oct 1996 - Sep 2000",
+            "location": null,
+            "description": "Department: Marketing • Level: Director"
+          },
+          {
+            "title": "Manager Of Interactive Communications",
+            "organization": "DIMAC Marketing Partners",
+            "date_range": "Oct 2000 - Jan 2002",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Vice President",
+            "organization": "Harper and Case Interactive",
+            "date_range": "Jan 2002 - Jan 2004",
+            "location": null,
+            "description": "Department: C-Suite • Level: President/Vice President"
+          },
+          {
+            "title": "Vice President, Interactive Marketing",
+            "organization": "Sothebys International Realty",
+            "date_range": "Apr 2004 - May 2008",
+            "location": null,
+            "description": "Company: 10,001+ employees • Public Company • Real Estate\nDepartment: Marketing • Level: Specialist"
+          },
+          {
+            "title": "VP Interactive Marketing",
+            "organization": "Cendant",
+            "date_range": "Apr 2004 - May 2008",
+            "location": null,
+            "description": "Company: 10,001+ employees • Public Company • Travel Arrangements\nDepartment: Marketing • Level: Specialist"
+          },
+          {
+            "title": "VP Interactive Marketing",
+            "organization": "Realogy",
+            "date_range": "Apr 2004 - May 2008",
+            "location": null,
+            "description": "Company: 10,001+ employees • Public Company • Real Estate\nDepartment: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Partner, Interactive Marketing Director",
+            "organization": "Ogilvy & Mather",
+            "date_range": "May 2008 - Oct 2011",
+            "location": null,
+            "description": "Company: 10,001+ employees • Public Company • Advertising Services"
+          },
+          {
+            "title": "Vice President, Interactive Marketing",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Sep 2011 - Sep 2018",
+            "location": "Greater New York City Area",
+            "description": "Company: 201-500 employees • Founded 1928 • Privately Held • Hospitality\nDepartment: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Vice President, Digital Product Development And Marketing",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Sep 2018 - Jun 2021",
+            "location": "Greater New York City Area",
+            "description": "Company: 201-500 employees • Founded 1928 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Senior Vice President Chief Marketing Officer At The Leading Hotels Of The World",
+            "organization": "The Leading Hotels of the World",
+            "date_range": "Jun 2021 - Present",
+            "location": "New York, New York, United States",
+            "description": "Company: 201-500 employees • Founded 1928 • Privately Held • Hospitality\nDepartment: Marketing • Level: C-Level"
+          }
+        ],
+        "education": [
+          {
+            "school": "Seton Hall Prep",
+            "degree_or_field": null,
+            "date_range": "1988 - 1992"
+          },
+          {
+            "school": "University of Notre Dame",
+            "degree_or_field": "BA, Double Major Marketing and Computer Applications",
+            "date_range": "1992 - 1996"
+          }
+        ],
+        "skills": [
+          "creative solutions",
+          "hard worker",
+          "staff supervision",
+          "internet marketing",
+          "usability engineering",
+          "relationship marketing",
+          "site planning",
+          "interactive marketing",
+          "product development",
+          "creative",
+          "efficiency",
+          "supervision",
+          "marketing",
+          "advertising",
+          "usability",
+          "engineering",
+          "planning",
+          "design",
+          "optimization",
+          "intranet",
+          "branding",
+          "hotels",
+          "director",
+          "communications",
+          "digital",
+          "search engine optimization"
+        ],
+        "activity_themes": [
+          "Luxury hospitality summits and events",
+          "Hotel industry leadership transitions",
+          "Hall of Fame and recognitions in hospitality",
+          "New luxury hotel member additions",
+          "Digital innovation and commercial strategies for hotels",
+          "Luxury brand collaborations and book launches"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/philkoserowski"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -609,5 +2361,71 @@
     "succeeded": 12,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T01:18:32.676832+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 17,
+      "structured": 14,
+      "discovered": 2,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 4,
+        "content_pages": 17,
+        "cost_estimate": {
+          "approx_total_usd": 0.045,
+          "search_component_usd": 0.028,
+          "contents_component_usd": 0.017,
+          "counts": {
+            "search_requests": 4,
+            "content_pages": 17
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 40959,
+          "cached_prompt_text_tokens": 896,
+          "completion_tokens": 19942,
+          "reasoning_tokens": 61009,
+          "output_tokens": 0,
+          "total_tokens": 121910
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.566011,
+          "token_component_usd": 0.566011,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 40959,
+            "cached_prompt_text_tokens": 896,
+            "completion_tokens": 19942,
+            "reasoning_tokens": 61009,
+            "total_tokens_reported": 121910,
+            "output_like_tokens": 80951,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.611011
+    }
   }
 }

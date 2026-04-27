@@ -78,7 +78,7 @@
       "full_name": "Jeremy Goring",
       "title": "CEO",
       "company": "The Goring",
-      "linkedin_url": "https://uk.linkedin.com/in/jeremy-goring-2261a610",
+      "linkedin_url": "https://www.linkedin.com/in/jeremy-goring-2261a610",
       "email": "jgoring@thegoring.com",
       "email2": null,
       "phone": null,
@@ -105,13 +105,90 @@
           "source_type": "directory",
           "quote_or_fact": "To contact Jeremy Goring email at jgoring@thegoring.com"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jeremy-goring-2261a610",
+        "display_name": "Jeremy Goring",
+        "headline": "MD at The Goring\nChief Executive MD at The Goring Hotel",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 32 years and 1 month",
+        "experience": [
+          {
+            "title": "Food And Beverage",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 1989 - Jan 1992 • 3 years",
+            "location": "London, United Kingdom",
+            "description": "Company: 10,001+ employees • Privately Held • Hospitality\nDepartment: Trades • Level: Specialist"
+          },
+          {
+            "title": "Deputy General Manager",
+            "organization": "The Stafford",
+            "date_range": "Jan 1992 - Jan 1995 • 3 years",
+            "location": "London, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1912 • Privately Held • Hospitality\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Rosewood Hotels & Resorts",
+            "date_range": "Jan 1995 - Jan 1998 • 3 years",
+            "location": "London, United Kingdom",
+            "description": "The Lanesborough\nCompany: 10,001+ employees • Privately Held • Hospitality\nDepartment: Operations • Level: Director"
+          },
+          {
+            "title": "Hotel General Manager",
+            "organization": "Belmond",
+            "date_range": "Jan 1998 - Jan 2001 • 3 years",
+            "location": "Sydney, Australia",
+            "description": "The Observatory Hotel\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "CE MD At The Goring",
+            "organization": "The Goring",
+            "date_range": "Jan 2006 - Present • 19 years and 10 months",
+            "location": "London Area, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1910 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Co - Founder Trustee",
+            "organization": "Hotel School / hotelschool.org.uk",
+            "date_range": "Jan 2016 - Present • 9 years and 10 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chief Executive MD",
+            "organization": "The Goring Hotel",
+            "date_range": "Feb 2017 - Present • 8 years and 11 months",
+            "location": "London, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1910 • Privately Held • Hospitality\nDepartment: C-Suite • Level: C-Level"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hotel",
+          "director",
+          "food"
+        ],
+        "activity_themes": [
+          "Charity fundraising and events for Hospitality Action",
+          "Hotel School anniversaries, graduations and promotions",
+          "Book recommendations and holiday reads",
+          "Celebrating long-serving staff at The Goring",
+          "Back to the Floor events and hospitality industry support",
+          "Champagne auctions and industry networking"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/jeremy-goring-2261a610"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Celia Pestana-Beck",
       "title": "Revenue and Reservations Manager",
       "company": "The Goring",
-      "linkedin_url": "https://uk.linkedin.com/in/celia-pestana-beck-b36b8524",
+      "linkedin_url": "https://www.linkedin.com/in/celia-pestana-beck-b36b8524",
       "email": null,
       "email2": null,
       "phone": null,
@@ -138,13 +215,138 @@
           "source_type": "directory",
           "quote_or_fact": "Revenue and Reservations Manager @ The Goring"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/celia-pestana-beck-b36b8524",
+        "display_name": "Celia Pestana-Beck",
+        "headline": "Revenue & Reservations Professional, Luxury Hospitality",
+        "location": "United Kingdom (GB)",
+        "about": "Versatile results driven Hospitality Professional with a diverse wealth of experience in the smooth running of hotels, with over twenty years experience in the hospitality industry, across all departments. I thrive on my current successes of over delivering on budgets, achieving over 100% share of the Hotels Comp Set RGI and delivering a high level of Guest experience. I enjoy being part of, as well as Leading a successful and productive Team. Key areas of expertise: Revenue Management Distribution Leadership/Training, People Management & Development Operations Management Reservations Management Budgeting Forecasting Weddings & Exclusive Hires Management Corporate Sales Business Development Management Events Management Reception New openings\n\nTotal Experience: 24 years and 9 months",
+        "experience": [
+          {
+            "title": "Groups Co-ordinator",
+            "organization": "ANdAZ",
+            "date_range": "Nov 2000 - Jan 2004",
+            "location": "Liverpool Street",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "The Zetter Hotel & Townhouse",
+            "date_range": "Feb 2004 - Apr 2008",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Reservations Manager",
+            "organization": "The Zetter Hotel & Townhouse",
+            "date_range": "Apr 2008 - Apr 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "The Zetter Group",
+            "date_range": "Apr 2010 - Feb 2018",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Distribution",
+            "organization": "The Zetter Group",
+            "date_range": "Feb 2018 - Apr 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Management Analyst",
+            "organization": "The Grand Brighton",
+            "date_range": "Jun 2021 - Nov 2021",
+            "location": "Brighton and Hove, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Beaverbrook",
+            "date_range": "Dec 2021 - May 2022",
+            "location": "Leatherhead, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Revenue And Reservations Manager -Maternity Cover",
+            "organization": "Beaverbrook",
+            "date_range": "May 2022 - Feb 2023",
+            "location": "Leatherhead, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Groups Manager",
+            "organization": "Beaverbrook",
+            "date_range": "Mar 2023 - Oct 2024",
+            "location": "London & Leatherhead",
+            "description": null
+          },
+          {
+            "title": "Revenue And Reservations Manager",
+            "organization": "The Goring",
+            "date_range": "Nov 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "running",
+          "hotels",
+          "budgets",
+          "management",
+          "distribution",
+          "leadership",
+          "training",
+          "operations",
+          "reservations",
+          "budgeting",
+          "forecasting",
+          "weddings",
+          "sales",
+          "director",
+          "hospitality industry",
+          "revenue management",
+          "people management",
+          "management development",
+          "operations management",
+          "business development",
+          "development management"
+        ],
+        "activity_themes": [
+          "Luxury hotel openings and ribbon-cutting events",
+          "Leadership training and management development programs",
+          "Global revenue forums and industry content",
+          "Hospitality sales kick-offs and team events",
+          "PR awards and media coverage for luxury hotels",
+          "Professional networking in hospitality sector",
+          "Talent development and aspiring leaders cohorts"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/the-newman_today-we-cut-the-ribbon-and-officially-opened-activity-7423748895610101760-1TdR",
+          "https://www.linkedin.com/posts/rachelhotelier_ive-been-a-busy-bee-again-because-january-activity-7424211661487505410-IW0c",
+          "https://www.linkedin.com/posts/master-innholders_today-our-master-innholders-aspiring-leaders-activity-7424129792884609024-4lzK",
+          "https://www.linkedin.com/posts/claudine-gardner-47482812_emea-great-activity-7424796317715156992-QiLy",
+          "https://www.linkedin.com/posts/emma-hartland-mahon-4b701a56_we-are-so-proud-to-share-that-jpr-uk-has-activity-7423040526980911104-hVWs",
+          "https://www.linkedin.com/posts/george-titlow-55088aa9_i-thought-the-entire-day-was-brilliant-and-activity-7423024341476601857-DjDK",
+          "https://www.linkedin.com/posts/guyrbarnes_next-brand-future-activity-7421926210793811968-uyNA",
+          "https://www.linkedin.com/posts/inna-in-revenue_grf2026-activity-7422984367393906688-0pC6"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Paula McColgan",
       "title": "Director of Sales and Marketing",
       "company": "The Goring",
-      "linkedin_url": "https://uk.linkedin.com/in/paula-mccolgan-3542111b",
+      "linkedin_url": "https://www.linkedin.com/in/paula-mccolgan-3542111b",
       "email": "pmccolgan@thegoring.com",
       "email2": null,
       "phone": "+44 (0)20 7396 9000",
@@ -171,13 +373,95 @@
           "source_type": "official_site",
           "quote_or_fact": "Press contact details included in Who's Who PDF"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/paula-mccolgan-3542111b",
+        "display_name": "Paula McColgan",
+        "headline": "Director of Sales & Marketing at The Goring",
+        "location": "United Kingdom (GB)",
+        "about": "Polished, detailed, hands-on, high energy leader with over twenty five years' experience in global luxury hotels sales and marketing.",
+        "experience": [
+          {
+            "title": "Regional Director Of Sales",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Nov 1998 - Aug 2001",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Aug 2001 - Aug 2002",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Regional Director Of Sales",
+            "organization": "St. Regis Hotels & Resorts",
+            "date_range": "Aug 2002 - Dec 2003",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "The Lanesborough",
+            "date_range": "Jan 2004 - Jan 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales And Marketing At Kimpton Fitzroy London",
+            "organization": "Kimpton Hotels & Restaurants",
+            "date_range": "Nov 2016 - Jun 2019",
+            "location": "London, United Kingdom",
+            "description": "Kimpton Fitzroy London launched in October 2018 following a multi-million pound refurbishment from head to toe. Originally opened in 1898 by the Frederick Hotels Company, and designed by Charles Fitzroy Doll, The hotel is a listed, landmark ‘grande dame’ that occupies the eastern flank of Russell Square in Bloomsbury. Kimpton Fitzroy London combines the rich heritage of the original hotel with modern touches, vibrant bars and buzzing restaurants."
+          },
+          {
+            "title": "Director Of Sales Marketing - The Carlton Tower Jumeirah Jumeirah Lowndes Hotel",
+            "organization": "The Carlton Tower Jumeirah",
+            "date_range": "Jan 2020 - May 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "The Goring",
+            "date_range": "May 2021 - Present",
+            "location": null,
+            "description": "Impeccably English and perfectly individual. The Goring stands out from the crowd as London’s last family-owned luxury hotel, with over a hundred years of passion for hospitality and commitment to service. Our colleagues are trained to the highest standards of hospitality – always retaining a timely touch of fun. At The Goring, we love to indulge our guests and make them feel at home, and after 108 years, we still continue to surprise and delight even the most frequent of guests."
+          }
+        ],
+        "education": [],
+        "skills": [
+          "energy",
+          "luxury",
+          "hotels",
+          "sales",
+          "marketing",
+          "director",
+          "hotel",
+          "hospitality",
+          "restaurants"
+        ],
+        "activity_themes": [
+          "Luxury hospitality industry updates",
+          "Hotel sales, marketing and leadership",
+          "Industry events and networking in travel sector",
+          "Recruitment and career moves in luxury hotels",
+          "Team celebrations and business reflections"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/paula-mccolgan-3542111b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Charlotte Chiene",
       "title": "Director of Sales",
       "company": "The Goring",
-      "linkedin_url": "https://uk.linkedin.com/in/charlotte-chiene-4884b152",
+      "linkedin_url": "https://www.linkedin.com/in/charlotte-chiene-4884b152",
       "email": "cchiene@thegoring.com",
       "email2": null,
       "phone": "+44 (0)20 7396 9000",
@@ -204,13 +488,106 @@
           "source_type": "directory",
           "quote_or_fact": "Management team includes Paula McColgan (Director of Sales and Marketing) and related sales roles"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/charlotte-chiene-4884b152",
+        "display_name": "Charlotte Chiene",
+        "headline": "Director of Sales at The Goring",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 23 years and 6 months",
+        "experience": [
+          {
+            "title": "Talent Manager",
+            "organization": "19 Entertainment",
+            "date_range": "Jan 2000 - Jan 2009",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Entertainment Sales Manager",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Jan 2010 - Jan 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager Entertainment",
+            "organization": "The Dorchester, Coworth Park & 45 Park Lane",
+            "date_range": "Sep 2011 - Jun 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "The Dorchester, Coworth Park & 45 Park Lane",
+            "date_range": "Jun 2015 - Aug 2019",
+            "location": "Mayfair",
+            "description": null
+          },
+          {
+            "title": "Head Of Sales (Maternity Cover)",
+            "organization": "The Lanesborough",
+            "date_range": "Sep 2019 - Sep 2020",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales At The Carlton Tower Jumeirah And Jumeirah Lowndes Hotel",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Oct 2020 - Nov 2021",
+            "location": "London, England Metropolitan Area",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "The Goring",
+            "date_range": "Jul 2022 - Present",
+            "location": "Belgravia, London",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Regent's University London",
+            "degree_or_field": "Master's degree",
+            "date_range": "2022 - 2026"
+          }
+        ],
+        "skills": [
+          "director",
+          "sales",
+          "entertainment",
+          "hotel",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Luxury hospitality leadership and hotel sales",
+          "International luxury travel events and networking",
+          "Hotel collaborations, media features and sustainability",
+          "Luxury train and experiential travel promotion",
+          "Career returns and transitions in hospitality sales",
+          "Awards, team recognition and best places to work",
+          "Sales representation for independent luxury hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/global-travel-collection_wearegtc-iltmcannes-activity-7401332085736763392-wrkA",
+          "https://www.linkedin.com/posts/paula-mccolgan-3542111b_thegoring-luluguinness-activity-7404164946374131712-nmUh",
+          "https://www.linkedin.com/posts/ruurd-hooijer-3677108_one-year-of-newdam-one-year-since-launching-activity-7385703146737672192-HK24",
+          "https://www.linkedin.com/posts/nate-goodall-188407102_easternandorientalexpress-belmond-train-activity-7386671900493631488-VEqB",
+          "https://www.linkedin.com/posts/caroline-johnston-578a5332_after-a-wonderful-time-out-of-the-business-activity-7386840405759385600-iloR",
+          "https://www.linkedin.com/posts/jeet-chauhan-01b34b1b_boutiquehotelierawards2025-thegoring-sustainability-activity-7381972246967508992-XTmB",
+          "https://www.linkedin.com/posts/kate-dixon-7695844_luxurytravel-travel-hospitality-activity-7353063956011204609-55Vb",
+          "https://www.linkedin.com/posts/tillytrimble_as-my-placement-year-at-the-goring-hotel-activity-7344347020054216704-WQYL"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Michael Voigt",
       "title": "Managing Director",
       "company": "The Goring",
-      "linkedin_url": "https://uk.linkedin.com/in/michael-voigt-fih-mi-7547041b",
+      "linkedin_url": "https://www.linkedin.com/in/michael-voigt-fih-mi-7547041b",
       "email": null,
       "email2": null,
       "phone": "+44 (0)20 7396 9000",
@@ -237,13 +614,143 @@
           "source_type": "news",
           "quote_or_fact": "Michael Voigt named managing director at the Goring (Jun 2024)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/michael-voigt-fih-mi-7547041b",
+        "display_name": "Michael Voigt FIH MI",
+        "headline": "Managing Director @ The Goring | MBA, FIH, Master Innholder",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "As a Managing Director at The Goring, one of the most iconic and privately owned 5* hotels in London, I lead a team of passionate professionals who deliver impeccable English service and food to our guests. With over 15 years of senior management experience in deluxe hotels, I have a proven track record in business acumen, guest experience, and employee engagement. I am an entrepreneurial leader in the luxury hospitality profession, with credentials such as Fellow of the Institute of Hospitality, Master Innholder, and Freedom of the City of London. I am passionate about the service industry and its potential to create memorable moments, loyal customers, and positive impact. My mission is to uphold the highest standards of quality, innovation, and sustainability in hospitality, and to inspire and empower the next generation of hoteliers.\n\nTotal Experience: 25 years and 10 months",
+        "experience": [
+          {
+            "title": "Front Office Manager",
+            "organization": "The Connaught",
+            "date_range": "Jan 1998 - Jan 2002",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Rooms Division Director",
+            "organization": "One Aldwych",
+            "date_range": "Aug 2002 - Nov 2006",
+            "location": "London",
+            "description": "A Campbell Gray Hotel and part of Leading Hotels of the World"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Dukes Hotel",
+            "date_range": "Nov 2006 - Oct 2008",
+            "location": "London, United Kingdom",
+            "description": "A Campbell Gray Hotel and part of Leading Hotels of the World"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Sep 2008 - Jul 2010",
+            "location": "Dogmersfield",
+            "description": "Responsible for Hotel Operations including 240 staff"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "Pennyhill Park and Spa",
+            "date_range": "Jul 2010 - Jun 2012",
+            "location": "Bagshot",
+            "description": "Responsible for Hotel Operations with 260 staff"
+          },
+          {
+            "title": "Deputy Residential Lead Olympic Village",
+            "organization": "London 2012",
+            "date_range": "Jun 2012 - Oct 2012",
+            "location": "Olympic Village Stratford",
+            "description": "Pre-Opening of the Olympic Village London 2012 Training of 260 staff Running of Hotel in Olympic Village with 2500 Athletes Closing down of Village"
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Prince Akatoki London",
+            "date_range": "Jul 2013 - Oct 2015",
+            "location": "London",
+            "description": "Total responsibility for Hotel Operations including Sales and Marketing, Finance and HR Top 5 Hotels on Tripadivsor (out of 1064 in London) Oversee annual turnover of £9m Nominated for Catey awards top 3 independent Hotels in the UK Nominated for Best Employer in Hospitality 2014 Winner \"Springboard\" Employee retention award 2015 Best Housekeeper in the UK by the AA 2015"
+          },
+          {
+            "title": "General Manager",
+            "organization": "L'oscar London",
+            "date_range": "Oct 2015 - Jul 2020",
+            "location": "London WC1B 4AA",
+            "description": "General Manager at L'oscar Hotel London. Voted “Best new Boutique Hotel in Europe” at the “World Travel Awards” in 2019, the property is Grade II listed and interiors are created by leading designer \"Jacques Garcia\" (Hotel Costes Paris). An extraordinary luxury hotel with exceptionally high standards."
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Goring",
+            "date_range": "Jul 2020 - Present",
+            "location": "SW1W 0JW",
+            "description": "Iconic, privately owned London 5* Hotel, loved by guests, hoteliers, and everybody who experienced the impeccable English service and food."
+          },
+          {
+            "title": "Managing Director",
+            "organization": "The Goring",
+            "date_range": "Jun 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Ecole supérieure des Sciences économiques et commerciales",
+            "degree_or_field": "MBA in Hospitality",
+            "date_range": "1993 - 1995"
+          },
+          {
+            "school": "Cornell University; ESSEC",
+            "degree_or_field": "MBA, Hospitality Administration/Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "hotels",
+          "food",
+          "management",
+          "engagement",
+          "luxury",
+          "hospitality",
+          "loyal",
+          "innovation",
+          "sustainability",
+          "hotel",
+          "residential",
+          "training",
+          "running",
+          "property",
+          "interiors",
+          "operations",
+          "sales",
+          "marketing",
+          "finance",
+          "hr",
+          "responsible",
+          "business acumen",
+          "employee engagement",
+          "rooms division",
+          "front office"
+        ],
+        "activity_themes": [
+          "Sustainability initiatives and supplier engagement at The Goring",
+          "Luxury hotel awards and recognitions (Walpole Power List)",
+          "Team achievements in housekeeping and talent development",
+          "EHMA events on transforming hotel hospitality",
+          "Luxury hotel openings and industry collaborations",
+          "Professional networking in hospitality sector"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "James Gardiner",
       "title": "General Manager",
       "company": "The Goring",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/jgoring",
       "email": null,
       "email2": null,
       "phone": null,
@@ -265,7 +772,40 @@
           "source_type": "official_site",
           "quote_or_fact": "Contextual support from leadership team bios referencing GM-level roles."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jgoring",
+        "display_name": "James Goring",
+        "headline": "Principal at Goring & Straja Architects",
+        "location": "Berkeley, California, United States",
+        "about": "Total Experience: 30 years",
+        "experience": [
+          {
+            "title": "Principal",
+            "organization": "Goring & Straja Architects",
+            "date_range": "Jan 1996 - Present",
+            "location": null,
+            "description": "Department: C-Suite • Level: Senior. Recommendation from Steven Harrison: Jim does terrific architectural work - he is particularly gifted at working with clients, hearing what they need (in addition to what they say they want) and at realizing those needs in appropriate and humane architecture. He worked with me on the design of my house in Portola Valley which went on to win a Western Home Award from Sunset and the AIA."
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Field studies, travel, study, and research in architecture",
+          "Life decisions on architecture education choices including UC Berkeley",
+          "Travel experiences throughout the Mediterranean and Italian hilltowns",
+          "Personal and professional life updates",
+          "Architectural facilities and sunset views in San Miguel de Allende, Mexico",
+          "Mass timber, regenerative design, and sustainable headquarters projects",
+          "Project completions and openings serving new guests",
+          "Community engagement, urban planning, and landscape architecture collaborations"
+        ],
+        "source_urls": [
+          "https://github.com/jgoring"
+        ],
+        "data_quality": "partial",
+        "caveats": "Only a single experience entry provided despite 30 years total experience noted; no education or skills listed."
+      }
     },
     {
       "full_name": "Barbara Baldassini",
@@ -293,7 +833,77 @@
           "source_type": "official_site",
           "quote_or_fact": "reservations@thegoring.com as primary channel for booking-related inquiries."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/barbara-baldassini-b26a3b20b",
+        "display_name": "Barbara Baldassini",
+        "headline": "Reservations and Events Supervisor",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 8 years and 4 months",
+        "experience": [
+          {
+            "title": "Night Auditor",
+            "organization": "Novotel Edinburgh Centre",
+            "date_range": "Aug 2017 - Aug 2018",
+            "location": "Edinburgh City, Scotland, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Specialist"
+          },
+          {
+            "title": "Front Office Supervisor",
+            "organization": "Radisson Collection",
+            "date_range": "Aug 2018 - Jul 2021",
+            "location": null,
+            "description": "Department: Administrative • Level: Specialist"
+          },
+          {
+            "title": "Guest Services Manager",
+            "organization": "Page8 Hotel",
+            "date_range": "Jul 2021 - Oct 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "The Mandeville Hotel",
+            "date_range": "Oct 2022 - Jul 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Workplace Executive",
+            "organization": "Skyscanner",
+            "date_range": "Jul 2023 - Feb 2025",
+            "location": "Greater London, England, United Kingdom",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Reservations And Events Supervisor",
+            "organization": "The Goring",
+            "date_range": "Mar 2025 - Present",
+            "location": "Greater London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1910 • Privately Held • Hospitality • Department: Customer Service • Level: Specialist"
+          }
+        ],
+        "education": [
+          {
+            "school": "Università degli Studi di Verona",
+            "degree_or_field": "Bachelor's degree, Tourism",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "front office",
+          "reservations"
+        ],
+        "activity_themes": [
+          "The Goring named City Hotel of the Year in the 2025 Food and Travel Magazine Reader Awards"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/the-goring_thegoring-awardwinning-londonhotels-activity-7388588674785124352-65Sa"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Antonietta Blau",
@@ -321,7 +931,125 @@
           "source_type": "official_site",
           "quote_or_fact": "Commercial and operations leadership context for revenue team."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/antonietta-blau-524318123",
+        "display_name": "Antonietta Blau",
+        "headline": "Assistant Reservations and Revenue Manager at The Goring",
+        "location": "United Kingdom (GB)",
+        "about": "NonStop Consulting NonStop Consulting is a pan-European, award-winning, specialist recruitment consultancy covering multiple disciplines including life sciences, chemical, social care, technical, education and finance. As of 2019 we also have an office in Boston, USA, expanding our offering stateside. We are more than your average recruitment consultancy. We go above and beyond, working non stop to ensure the right solutions for the right people and are dedicated to fulfilling the expectations of all our customers. We provide licenced contract or labour leasing solutions, as well as permanent recruitment and executive search solutions. Our unique in-house Quality Assurance function builds on and re-enforces a strong culture of ethics and customer service. For more information, see our website: https://nonstop-recruitment.com/",
+        "experience": [
+          {
+            "title": "Trainee",
+            "organization": "Iberotel",
+            "date_range": "Jun 2014 - Sep 2014",
+            "location": "Egypt",
+            "description": null
+          },
+          {
+            "title": "Senior Receptionist",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "Jun 2016 - Jun 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Service Agent",
+            "organization": "The Sheraton Grand Park Lane Hotel",
+            "date_range": "Jun 2017 - Mar 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Agent",
+            "organization": "The Beaumont Hotel",
+            "date_range": "Mar 2018 - Dec 2019",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Agent",
+            "organization": "Hotel Café Royal",
+            "date_range": "Dec 2019 - Mar 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Trainee Recruitment Consultant",
+            "organization": "NonStop Consulting",
+            "date_range": "Nov 2020 - Dec 2020",
+            "location": "Germany",
+            "description": null
+          },
+          {
+            "title": "Recruitment Consultant",
+            "organization": "NonStop Consulting",
+            "date_range": "Dec 2020 - May 2021",
+            "location": "Germany",
+            "description": null
+          },
+          {
+            "title": "Reservations Supervisor",
+            "organization": "The Goring",
+            "date_range": "May 2021 - Sep 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Reservations And Revenue Manager",
+            "organization": "The Goring",
+            "date_range": "Sep 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "The English International College, Spain",
+            "degree_or_field": null,
+            "date_range": "2001 - 2012"
+          },
+          {
+            "school": "University of Kent",
+            "degree_or_field": "Bachelor’s Degree, Fine/Studio Arts, General",
+            "date_range": "2014 - 2017"
+          }
+        ],
+        "skills": [
+          "consulting",
+          "recruitment",
+          "consultancy",
+          "education",
+          "finance",
+          "leasing",
+          "assurance",
+          "ethics",
+          "reservations",
+          "chemicals",
+          "consultants",
+          "life sciences",
+          "executive search",
+          "quality assurance",
+          "customer service",
+          "guest service"
+        ],
+        "activity_themes": [
+          "Hospitality career progression and management",
+          "Recruitment and staffing industry updates",
+          "Professional development and education achievements",
+          "Sustainability initiatives in hospitality",
+          "Leadership training and executive programs",
+          "Personal milestones, health awareness and sobriety",
+          "Job search strategies and career transitions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/antonietta-blau-524318123",
+          "https://nonstop-recruitment.com/",
+          "https://nonstop-recruitment.com/chemical/"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Adrien Lecerf",
@@ -344,7 +1072,101 @@
           "source_type": "official_site",
           "quote_or_fact": "Adrien Lecerf, Front Office Manager... Heading up the Front Office team with over eight years of hospitality experience."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/adrien-lecerf-00b508b8",
+        "display_name": "Adrien Lecerf",
+        "headline": "Front Office Manager at The Goring - AICR UK Committee Member",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 8 years and 3 months",
+        "experience": [
+          {
+            "title": "Receptionist Guest Relations",
+            "organization": "Club Med",
+            "date_range": "Dec 2016 - Apr 2017",
+            "location": "Avoriaz",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Office Receptionist",
+            "organization": "The Stafford London",
+            "date_range": "May 2017 - Dec 2017",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Receptionist Concierge",
+            "organization": "Le K2 Collections",
+            "date_range": "Jan 2018 - Apr 2018",
+            "location": "Courchevel, French Alps",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Office Receptionist",
+            "organization": "Shangri-La The Shard, London",
+            "date_range": "Nov 2018 - Mar 2019",
+            "location": "London, United Kingdom",
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Front Office Departmental Trainer",
+            "organization": "Shangri-La The Shard, London",
+            "date_range": "Mar 2019 - Oct 2021",
+            "location": null,
+            "description": "Department: Education • Level: Specialist"
+          },
+          {
+            "title": "Assistant Reception Manager",
+            "organization": "The Goring",
+            "date_range": "Dec 2021 - Sep 2023",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "The Goring",
+            "date_range": "Sep 2023 - Dec 2024",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The Goring",
+            "date_range": "Dec 2024 - Present",
+            "location": null,
+            "description": "Department: Administrative • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Santa Barbara City College",
+            "degree_or_field": "Associate’s Degree, Hotel management",
+            "date_range": "2013 - 2015"
+          },
+          {
+            "school": "Vatel France",
+            "degree_or_field": "Bachelor’s Degree, Hotel Management",
+            "date_range": "2015 - 2016"
+          }
+        ],
+        "skills": [
+          "trainer",
+          "front office"
+        ],
+        "activity_themes": [
+          "MIALD leadership development modules",
+          "AICR UK committee events and soirées",
+          "Hospitality leadership training",
+          "Hotel industry awards and recognitions",
+          "The Goring staff achievements and celebrations",
+          "World's Best Receptionist competition"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/adrien-lecerf-00b508b8"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Samantha Lopez",
@@ -372,13 +1194,118 @@
           "source_type": "official_site",
           "quote_or_fact": "Guest contact and service emphasis throughout site."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/samantha-lopez-8b925512",
+        "display_name": "Samantha Lopez",
+        "headline": "Guest Relations Manager at The Goring",
+        "location": "London, England, United Kingdom",
+        "about": "I am a passionate, meticulous and highly organised professional and dynamic Guest Services and Relations Manager with over 25 years’ expertise in front line 5-star luxury guest services in a diverse range of hotel, corporate and aviation settings. As an engaging leader, I build strong relationships at all levels and with clients alike. I provide outstanding attention to detail and I'm always prepared go the extra mile. I am results driven with sound commercial acumen and business focus with the ability to think outside the box I continuously deliver raising service standards to the next level. KEY SKILLS: ❖ Exemplary customer service ❖ Training and cross training ❖ Outstanding communication ❖ HR and legal perspective ❖ Marketing hotel and guest products ❖ Team management ❖ Financial and revenue aspects ❖ Multi lingual - English and Hindi ❖ Repeat business and services ❖ Follow up services\n\nTotal Experience: 32 years and 11 months",
+        "experience": [
+          {
+            "title": "Reservations",
+            "organization": "Singapore Airlines",
+            "date_range": "Apr 1992 - Nov 1992",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Flight Attendant",
+            "organization": "East West Airlines",
+            "date_range": "Dec 1992 - Feb 1994",
+            "location": null,
+            "description": "Department: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Senior Flight Attendant",
+            "organization": "Saudi Arabian Airlines",
+            "date_range": "Apr 1994 - Apr 2004",
+            "location": null,
+            "description": "In this diverse role, I supervised the overall performance of a team of Flight Attendants and managed the department goals for First/Business/Economy Class and Certificates for Outstanding Performance, as well as carrying out skillful negotiation and managed demanding situations using diplomacy at all times.\n\nDepartment: Customer Service • Level: Senior"
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "The Lanesborough",
+            "date_range": "Aug 2004 - Apr 2011",
+            "location": "London, United Kingdom",
+            "description": "I started as Night Auditor in 2004, then progressed to Switchboard in 2005, and to Restaurant Hostess in 2006, Receptionist in 2006, Front Desk Supervisor in 2008, promoted to Assistant Front Office Manager in 2010. In the Assistant Front Office Manager role I supervised a team of 6 and liaised with Butlers and Housekeeping. I verified billing instructions, credit limit reports and handled guest complaints. I proudly won Employee of The Year 2009 Award, and nominated for The Receptionist of The Year 2007 by AICR UK.\n\nDepartment: Administrative • Level: Manager"
+          },
+          {
+            "title": "Opening Team",
+            "organization": "Dorchester Collection",
+            "date_range": "Apr 2011 - Nov 2011",
+            "location": "London, United Kingdom",
+            "description": "As the Opening Team in this high profile role I implemented the pioneering \"Host\" concept in Hospitality Management and created Standard Operating Procedures. I oversaw the Floor Manager, Duty Manager, Personal Butler services, VIP amenities, guest relations, housekeeping and Concierge duty departments and managed room/suite reservations for rooms and restaurants covering all guest requests, reports and handovers."
+          },
+          {
+            "title": "Guest Relations Executive Duty Manager",
+            "organization": "The Dorchester",
+            "date_range": "Apr 2011 - Aug 2012",
+            "location": "London, United Kingdom",
+            "description": "One of the world’s most iconic luxury hotels: I established strong relationships with guests and ensured the highest level of hospitality and service was provided. Performed Duty Management responsibilities, managed associates, liaised with Butlers for all VIP guests and bespoke amenities and requirements and represented the hotel in guest or hotel related situations and built strong relationships with high profile VIP guests.\n\nDepartment: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Front Of House Supervisor",
+            "organization": "Baker & McKenzie LLP",
+            "date_range": "Sep 2012 - Jun 2013",
+            "location": "London, United Kingdom",
+            "description": "Working for this corporate law firm I led two reception areas with 9 receptionists and all associated people management requirements and managed the expectations for all front of house including; global guests, events and clients.\n\nDepartment: Customer Service • Level: Specialist"
+          },
+          {
+            "title": "Elite Manager",
+            "organization": "Office Concierge",
+            "date_range": "Jul 2013 - Apr 2014",
+            "location": "London, United Kingdom",
+            "description": "In this role I led the largest portfolio of 95 receptionists, 10 lunch cover receptionists and 3 Team Leaders and provided the best matched receptionists to 250 building receptions in the West End, City and Canary Wharf. I managed all aspects of people management, liaised closely with HR and Operations and created SOPs for Team Leaders to operate with consistency across their teams. I carried out multiple site visit, conducted spot checks on reception teams to ensure standards maintained.\n\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Client Services Manager",
+            "organization": "Office Concierge Ltd",
+            "date_range": "Apr 2014 - Nov 2014",
+            "location": "London, United Kingdom",
+            "description": "Working for this leading independent provider of reception services in London, I coordinated high profile client portfolios for clients such as Land Securities, Apple, Derwent London, Grosvenor Estates, ‘The Gherkin’ 30 St Mary Axe (CBRE), 20 Gracechurch Street (BNP Paribas) and Dentsu Aegis Media. I managed direct staff of 2 Account Managers and 4 Team Leaders and indirect staff of 70 front of house receptionists. I developed, trained and monitored Account Manager and Team Leader performance and ensured training needs identified and met at all levels whilst maintaining KPI/SLA targets for each site and team compliance. I supported the HR function and developed knowledge of HR issues to be conversant across all aspects, alongside monitoring all Health and Safety procedural requirements. I spearheaded service initiatives across sites and delivered to clients and liaised with clients, attended client meetings to ensure client satisfaction and participated in new tenders, client presentations and pitches.\n\nDepartment: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Client Services Operations Manager",
+            "organization": "Morgan Stanley",
+            "date_range": "Jan 2015 - Aug 2015",
+            "location": "London & Glasgow, United Kingdom",
+            "description": "A specialist provider of high quality, tailored guest services, I worked in this role based at MS offices in London and Glasgow and managed a team of 40 across 2 sites including receptionists, helpdesks, central reservations and switchboard. I developed all aspects of client service in line with the company’s vision and values and led from the front as an ambassador providing all front of house services to exceptional standards. I designed and changed standards for the front of house roles encapsulating hospitality aspects and provided regular team training on provision of upgraded services and creating the right impression and ensured comprehensive knowledge of all staff and clients to deliver efficient and time focused service. I oversaw the requirements of all staff, senior stakeholders, through to VIP guests, ensuring all needs were met whilst project managing all catering, business meeting, venue management across the offices.\n\nDepartment: Operations • Level: Manager"
+          },
+          {
+            "title": "Guest Relations Manager",
+            "organization": "The Goring",
+            "date_range": "Aug 2015 - Present",
+            "location": "London, United Kingdom",
+            "description": "Working for London's last remaining family-owned 5 star luxury hotel I lead the department to the highest standard, managing 3 footmen to deliver the ultimate 5-star luxury service to top end suites and liaising across all departments accordingly. I oversee VVIP clientele including heads of state, royalty, ambassadors and A-list Hollywood stars. I carry out training for the team to ensure quality and standards are maintained and an innovative vision is guaranteed. My key achievements in the role include the introduction of high profile cross training of footmen/butlers with Buckingham Palace and developed a close working relationship in order to develop a flawless service to the highest level of Royal Household standards and training of Buckingham Palace footmen/butlers to the Goring’s highest level of 5 star Forbes standards. I also streamlined the Guest Relations department into a fully functioning standalone department within the hotel and restructured the department to provide the highest level of service operating standards and procedures. I created bespoke personalised services offering a ‘customer service journey’ and VIP and enhanced services, which incorporated the introduction of handwritten cards for every client to provide bespoke and clear service requirements and the implementation of new service ideas in various areas, including guest amenities, improvements, and Duty Manager shifts.\n\nDepartment: Customer Service • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "Exemplary customer service",
+          "Training and cross training",
+          "Outstanding communication",
+          "HR and legal perspective",
+          "Marketing hotel and guest products",
+          "Team management",
+          "Financial and revenue aspects",
+          "Multi lingual - English and Hindi",
+          "Repeat business and services",
+          "Follow up services"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/samantha-lopez-8b925512"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Richard Hart",
       "title": "IT Manager",
       "company": "The Goring",
-      "linkedin_url": "https://uk.linkedin.com/in/richard-hart-63804995",
+      "linkedin_url": "https://www.linkedin.com/in/richard-hart-63804995",
       "email": null,
       "email2": null,
       "phone": null,
@@ -400,7 +1327,47 @@
           "source_type": "official_site",
           "quote_or_fact": "Leadership and operations structure implies dedicated IT/digital support for systems."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/richard-hart-63804995",
+        "display_name": "Richard Hart",
+        "headline": "IT Manager at The Goring",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 29 years and 4 months",
+        "experience": [
+          {
+            "title": "Front Office Support Sales And Catering Support",
+            "organization": "Micros-Fidelio UK Ltd.",
+            "date_range": "Sep 1996 - Jun 2000",
+            "location": "Slough",
+            "description": "Company: Founded 1989 • Software Development"
+          },
+          {
+            "title": "Technical Product Manager - Sales And Caterting",
+            "organization": "Micros Fidelio EAME",
+            "date_range": "Jun 2000 - Oct 2001",
+            "location": "Germany",
+            "description": null
+          },
+          {
+            "title": "IT Manager",
+            "organization": "The Goring",
+            "date_range": "Oct 2001 - Present",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 1910 • Privately Held • Hospitality\nDepartment: Engineering and Technical • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "front office",
+          "sales",
+          "catering"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "David Morgan-Hewitt",
@@ -433,7 +1400,31 @@
           "source_type": "news",
           "quote_or_fact": "David Morgan-Hewitt reflects on 35 years at The Goring... moved to the position of chairman."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/david-morgan-hewitt-7249312a",
+        "display_name": "David Morgan-Hewitt",
+        "headline": "Managing Director at The Goring",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Total Experience: 34 years and 11 months",
+        "experience": [
+          {
+            "title": "Managing Director",
+            "organization": "The Goring",
+            "date_range": "Dec 1990 - Present • 34 years and 11 months",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 1910 • Privately Held • Hospitality\nDepartment: C-Suite • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sophie Ford",
@@ -456,7 +1447,74 @@
           "source_type": "directory",
           "quote_or_fact": "The The Goring management team includes ... Sophie Ford (Human Resources Manager)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sophie-ford-712b4a53",
+        "display_name": "Sophie Ford",
+        "headline": "Human Resources Manager at The Goring",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 16 years",
+        "experience": [
+          {
+            "title": "Human Resources Co-ordinator",
+            "organization": "Marriott International",
+            "date_range": "Jan 2010 - Jan 2013",
+            "location": null,
+            "description": "Department: Human Resources • Level: Specialist\nCompany: 10,001+ employees • Public Company • Hospitality"
+          },
+          {
+            "title": "HR Coordinator",
+            "organization": "London Marriott Park Lane",
+            "date_range": "Jan 2013 - Jun 2014",
+            "location": null,
+            "description": "Department: Human Resources • Level: Specialist"
+          },
+          {
+            "title": "Personnel And Development Officer",
+            "organization": "The Beaumont",
+            "date_range": "Jun 2014 - Jan 2016",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 2014 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Human Resources Officer",
+            "organization": "Cheval Residences Serviced Apartments in London",
+            "date_range": "Feb 2016 - Jun 2016",
+            "location": "London",
+            "description": "Company: 201-500 employees • Founded 1982 • Privately Held • Hospitality\nDepartment: Human Resources • Level: Specialist"
+          },
+          {
+            "title": "Human Resources Manager",
+            "organization": "Marriott Hotels",
+            "date_range": "Jun 2016 - Jun 2017",
+            "location": "Marriott Bexleyheath",
+            "description": "Company: 10,001+ employees • Public Company • Hospitality\nDepartment: Human Resources • Level: Manager"
+          },
+          {
+            "title": "Human Resources Manager",
+            "organization": "The Goring",
+            "date_range": "Jun 2017 - Present",
+            "location": null,
+            "description": "Company: 51-200 employees • Founded 1910 • Privately Held • Hospitality\nDepartment: Human Resources • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hr",
+          "human resources"
+        ],
+        "activity_themes": [
+          "Hospitality awards and recognitions",
+          "Sustainability and green initiatives",
+          "Team achievements and events",
+          "Best Places to Work listings",
+          "Michelin star and restaurant awards",
+          "HR and recruitment networking"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "John Andrews",
@@ -484,13 +1542,87 @@
           "source_type": "official_site",
           "quote_or_fact": "‘Big John’ Andrews, Director of Concierge... make guests smile."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/john-aka-big-john-andrews-0b5506a0",
+        "display_name": "John Andrews",
+        "headline": "Head Concierge at The Goring",
+        "location": "London, United Kingdom",
+        "about": "Total Experience: 37 years and 9 months",
+        "experience": [
+          {
+            "title": "Page Boy Messenger",
+            "organization": "Churchill Hotel",
+            "date_range": "Jun 1988 - Aug 1989",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Luggage Porter",
+            "organization": "Churchill Hotel",
+            "date_range": "Aug 1989 - Aug 1990",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Junior Concierge",
+            "organization": "The Berkeley",
+            "date_range": "Aug 1990 - May 1997",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Concierge",
+            "organization": "The Lanesborough",
+            "date_range": "May 1997 - Jan 2006",
+            "location": "London, United Kingdom",
+            "description": "Received my Golden Keys in 1997"
+          },
+          {
+            "title": "Assistant Head Concierge",
+            "organization": "The Lanesborough",
+            "date_range": "Jan 2006 - Feb 2008",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Concierge",
+            "organization": "The Goring",
+            "date_range": "Feb 2008 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "William De Ferrers",
+            "degree_or_field": "Secondary School Education, Nothing worth remembering! 🤣",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "concierge",
+          "concierge assistant"
+        ],
+        "activity_themes": [
+          "Luxury hospitality awards and recognitions",
+          "Concierge community and Golden Keys events",
+          "Hotel promotions and leadership appointments",
+          "Sustainability in hospitality",
+          "Luxury travel and cruise experiences"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/john-aka-big-john-andrews-0b5506a0"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Fernanda Lewis",
       "title": "Director of Housekeeping",
       "company": "The Goring",
-      "linkedin_url": "https://uk.linkedin.com/in/fernanda-lewis-a2428b35",
+      "linkedin_url": "https://www.linkedin.com/in/fernanda-lewis-a2428b35",
       "email": null,
       "email2": null,
       "phone": null,
@@ -512,7 +1644,95 @@
           "source_type": "linkedin",
           "quote_or_fact": "Today, we celebrate our fabulous Director of Housekeeping, Fernanda Lewis..."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/fernanda-lewis-a2428b35",
+        "display_name": "Fernanda Lewis",
+        "headline": "Director of Housekeeping @ The Goring Chairperson @ UKHA Housekeepers Association London and SE | The Hotel Cateys Housekeeper of the Year 2018",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 21 years",
+        "experience": [
+          {
+            "title": "Head Housekeeper",
+            "organization": "The Elizabeth Hotel",
+            "date_range": "Nov 2003 - Mar 2007",
+            "location": "Belgravia",
+            "description": "Department: Operations • Level: Head"
+          },
+          {
+            "title": "Head Housekeeper",
+            "organization": "Cranley Hotel",
+            "date_range": "Mar 2007 - Apr 2009",
+            "location": "South Kensington",
+            "description": "Promoted • Department: Operations • Level: Head"
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Durley House, Franklyn Hotels and Resorts",
+            "date_range": "Jan 2009 - Mar 2013",
+            "location": "Sloane Street, Knightsbridge",
+            "description": "Promoted as Operations Manager • Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Head Housekeeper",
+            "organization": "Taj Hotels",
+            "date_range": "May 2014 - Apr 2016",
+            "location": "Buckingham Gate",
+            "description": "Leading a large team, delivering outstanding service at St James Court a Taj Hotel."
+          },
+          {
+            "title": "Executive Head Housekeeper",
+            "organization": "The Goring",
+            "date_range": "Apr 2016 - May 2024",
+            "location": "Belgravia",
+            "description": "Leading the Housekeeping Department at London's last remaining family-owned luxury hotel. The Goring is the genuine article - a grand hotel with impeccable manners and a subtle streak of wit and wonder. Department: Operations • Level: Head"
+          },
+          {
+            "title": "Chairperson",
+            "organization": "UKHA United Kingdom Housekeepers Association",
+            "date_range": "Apr 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: C-Suite • Level: C-Level"
+          },
+          {
+            "title": "Director Of Housekeeping",
+            "organization": "The Goring",
+            "date_range": "Apr 2024 - Present",
+            "location": null,
+            "description": "Department: Operations • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Unirp",
+            "degree_or_field": "Bachelor of Arts - BA",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "housekeeping",
+          "operations",
+          "hotel"
+        ],
+        "activity_themes": [
+          "Hospitality housekeeping humor",
+          "Christmas and holiday wishes in hospitality",
+          "UKHA member updates and events",
+          "Burnout prevention in luxury hospitality",
+          "Hotel school initiatives for the disadvantaged",
+          "Hospitality Action charity support",
+          "Charity grants and seasonal giving",
+          "Luxury hotel Christmas events",
+          "Career transitions and reflections in hospitality",
+          "Business year-in-review and customer appreciation"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/fernanda-lewis-a2428b35"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jeet Chauhan",
@@ -535,13 +1755,175 @@
           "source_type": "official_site",
           "quote_or_fact": "Jeet Chauhan, Director of Food & Beverage... oversees each aspect with nothing short of perfection."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jeet-chauhan-01b34b1b",
+        "display_name": "Jeet Chauhan",
+        "headline": "Director of Food and Beverage at The Goring Hotel | Ex Savoy Hotel.",
+        "location": "United Kingdom (GB)",
+        "about": "Extensive knowledge in customer services, implementing sales & marketing strategies, creating financial & sales system reports and team management. • Planning & executing marketing campaigns for business growth • Cost control & budgeting • Managing purchase orders, creating & manipulating system reports • Recruitment, training & team-management • Commercial awareness • Quality leadership • Public relation expert • Quality control • Excellent Operational Management\n\nTotal Experience: 18 years and 6 months",
+        "experience": [
+          {
+            "title": "Trainee",
+            "organization": "Hotel Hans Plaza",
+            "date_range": "Jun 2005 - Sep 2005",
+            "location": "New Delhi, Inda",
+            "description": "Training in food production and food n beverage service."
+          },
+          {
+            "title": "Trainee",
+            "organization": "Jaypee Hotels & Resorts",
+            "date_range": "Jun 2006 - Dec 2006",
+            "location": "Agra, India",
+            "description": "Training in all major depts. – front office, housekeeping, food production and food n beverage service."
+          },
+          {
+            "title": "Supervisor",
+            "organization": "The Park – Agni Night Club, Mist Restaurant",
+            "date_range": "Sep 2007 - Dec 2009",
+            "location": "New Delhi, India",
+            "description": null
+          },
+          {
+            "title": "Food Beverage Executive",
+            "organization": "The Imperial",
+            "date_range": "Feb 2010 - May 2010",
+            "location": "New Delhi, India",
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Jimmy’s World Restaurants Limited",
+            "date_range": "Jun 2010 - Jul 2015",
+            "location": "Wimbledon, London UK",
+            "description": "Managing a high volume restaurant, improving all controllable costs thereby maximizing financial performance. • Involved in the preparation of SWOT analysis to give an overview of current & future plan to achieve better results. • Generate financial system reports for sales, labor and cost analysis. • Launched growth plans by building and managing a customer database for on-going communications. • Increased Quarterly sale by formulating market research & business trends and… Show more"
+          },
+          {
+            "title": "Chef The Rang",
+            "organization": "The Savoy",
+            "date_range": "Aug 2015 - May 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Dining Room Manager",
+            "organization": "The Savoy",
+            "date_range": "Jun 2017 - Sep 2018",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Part of the re-opening team of the second oldest restaurant in London. • Ensuring that service complies with restaurant and Savoy’s standard. • Setting important goals for team members to the overall goals of the department (colleague, brand & guests). • Creating rota’s, overtime management & leased labor control. • Ensuring the smooth running of operation and enabling the seamless transition between services."
+          },
+          {
+            "title": "Assistant General Manager Simpson's In The Strand",
+            "organization": "The Savoy",
+            "date_range": "Oct 2018 - Dec 2019",
+            "location": "London, United Kingdom",
+            "description": "Effectively run the restaurant and the business in the absence of the General Manager from March 2019 up to the present time • Responsible for day to day operations of the department. • Developing a high level of guest satisfaction. • Reviewing and monitoring expenditure and keep them in line with the department’s budget and forecast. • Responsible for all hiring and training procedures within the company parameters. • Planning team roaster and managing departmental holiday… Show more"
+          },
+          {
+            "title": "Thames Foyer Manager",
+            "organization": "The Savoy",
+            "date_range": "Jan 2020 - Aug 2020",
+            "location": "London, England, United Kingdom",
+            "description": "Implementing Fairmont service standards through disciplined administration of departmental Standard Operating Procedures. • Developing the leadership skills of leaders in the Restaurant. • Ensuring that effective working relationships and clear communication are maintained with all colleagues and leaders in the restaurant and other departments. • To develop and administer the departmental Employee Engagement Survey Action Plan and use monthly Peakon data. • To critically assess… Show more"
+          },
+          {
+            "title": "Food And Beverage Operations Manager",
+            "organization": "The Savoy",
+            "date_range": "Sep 2020 - Jun 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Director Of Food And Beverage",
+            "organization": "The Savoy",
+            "date_range": "Jun 2021 - Oct 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "The Goring",
+            "date_range": "Oct 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Central Board of Secondary Education",
+            "degree_or_field": "Business/Commerce, General",
+            "date_range": "2000 - 2002"
+          },
+          {
+            "school": "Graphic Era Deemed to be University",
+            "degree_or_field": "Bachelor’s Degree, BHMCT (Bachelor of hotel management and catering technology)",
+            "date_range": "2004 - 2008"
+          }
+        ],
+        "skills": [
+          "sales",
+          "marketing",
+          "reports",
+          "management",
+          "planning",
+          "campaigns",
+          "budgeting",
+          "purchase",
+          "recruitment",
+          "training",
+          "commercial",
+          "leadership",
+          "director",
+          "food",
+          "operations",
+          "administration",
+          "engagement",
+          "production",
+          "housekeeping",
+          "preparation",
+          "analysis",
+          "database",
+          "communications",
+          "research",
+          "running",
+          "operation",
+          "responsible",
+          "budget",
+          "hiring",
+          "team management",
+          "cost control",
+          "purchase orders",
+          "recruitment training",
+          "commercial awareness",
+          "quality control",
+          "leadership skills",
+          "employee engagement",
+          "front office",
+          "swot analysis",
+          "cost analysis",
+          "market research",
+          "labor control",
+          "guest satisfaction"
+        ],
+        "activity_themes": [
+          "Hospitality industry awards and finalist recognitions",
+          "Career journeys and experiences across global hotels",
+          "Team member achievements and promotions in luxury hotels",
+          "Judging industry awards like Restaurant Manager of the Year",
+          "Welcoming new team members and celebrating energy",
+          "Personal reflections, birthdays, and inspirational quotes",
+          "Experiential learning and student exposure in hospitality"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Graham Squire",
       "title": "Executive Chef",
       "company": "The Goring",
-      "linkedin_url": "https://uk.linkedin.com/in/graham-squire-a19a00a8",
+      "linkedin_url": "https://www.linkedin.com/in/graham-squire-a19a00a8",
       "email": null,
       "email2": null,
       "phone": null,
@@ -563,7 +1945,28 @@
           "source_type": "official_site",
           "quote_or_fact": "Graham Squire, Executive Chef... appointed Executive Chef at The Goring in April 2022."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/graham-squire-a19a00a8",
+        "display_name": "Graham Squire",
+        "headline": null,
+        "location": "United Kingdom (GB)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "The Goring hotel awards and recognitions",
+          "Hospitality team milestones and anniversaries",
+          "Sustainability and green initiatives",
+          "Luxury hotel collaborations and events",
+          "AA Awards and Forbes Travel Guide honors",
+          "Holiday themes including Christmas tree design"
+        ],
+        "source_urls": [],
+        "data_quality": "weak",
+        "caveats": "Fetched text contains only name, location, and liked activities related to The Goring hotel; no headline, about, experience, education or skills present."
+      }
     },
     {
       "full_name": "Jean-Baptiste Lemoine",
@@ -586,7 +1989,103 @@
           "source_type": "official_site",
           "quote_or_fact": "Jean-Baptiste Lemoine, Deputy Director of Food and Beverage... enriches the story of each dish... joined The Goring in 2015."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jean-baptiste-lemoine-60516a11b",
+        "display_name": "Jean-Baptiste Lemoine",
+        "headline": "Deputy Director of Food and Beverage",
+        "location": "London, England, United Kingdom",
+        "about": "I am a very dedicated sommelier with excellent communication and client facing skills, developed through my experience as an assistant head sommelier within a prestigious 5-star Forbes hotel. Guest interaction and customer satisfaction are my priorities. I deliver outstanding customer service by bringing knowledge and enthusiasm. I am open-minded and hard-worker, keeping the work organised. Discovering new unusual wines fascinates me, thus I constantly improve my knowledge by travelling and taking part of different wine tasting in London.\n\nTotal Experience: 13 years",
+        "experience": [
+          {
+            "title": "Sommelier",
+            "organization": "Hotel de Paris Monaco",
+            "date_range": "Sep 2012 - Jan 2014",
+            "location": "Monaco",
+            "description": "Department: Trades • Level: Specialist"
+          },
+          {
+            "title": "Assistant Head Sommelier",
+            "organization": "The Goring",
+            "date_range": "Apr 2014 - Mar 2017",
+            "location": "London, United Kingdom",
+            "description": "Department: Trades • Level: Specialist"
+          },
+          {
+            "title": "Head Sommelier",
+            "organization": "The Goring",
+            "date_range": "May 2017 - Jul 2021",
+            "location": null,
+            "description": "Department: Customer Service • Level: Head"
+          },
+          {
+            "title": "Director Of Wine",
+            "organization": "The Goring",
+            "date_range": "Jul 2021 - Dec 2022",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Restaurant Manager Director Of Wine",
+            "organization": "The Goring",
+            "date_range": "Dec 2022 - Oct 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Deputy Director Of Food And Beverage",
+            "organization": "The Goring",
+            "date_range": "Oct 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Operations • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Lycée Hotelier Professionnel de St Meen-Le-Grand",
+            "degree_or_field": "Brevet D'etudes Professionel, Restauration, Mention Congratulations from the jury",
+            "date_range": "2007 - 2009"
+          },
+          {
+            "school": "Lycée Hotelier Professionnel de St Meen-Le-Grand",
+            "degree_or_field": "BAC PRO Restauration Service et Commercialisation, Hotellerie and restauration, Mention Bien",
+            "date_range": "2009 - 2011"
+          },
+          {
+            "school": "Lycée Hotelier Professionnel de St Meen-Le-Grand",
+            "degree_or_field": "Mention Complémentaire de Sommellerie Sommelier Positive",
+            "date_range": "2011 - 2012"
+          },
+          {
+            "school": "Lycée Hotelier Professionnel de St Meen-Le-Grand",
+            "degree_or_field": "Mention Complémentaire de Sommellerie, Sommelier, Positive",
+            "date_range": "2011 - 2012"
+          }
+        ],
+        "skills": [
+          "hotel",
+          "director",
+          "food",
+          "customer satisfaction",
+          "customer service",
+          "open minded",
+          "hard worker",
+          "wine tasting",
+          "outstanding customer service"
+        ],
+        "activity_themes": [
+          "The Goring hotel achievements and team recognitions",
+          "Hospitality leadership and professional development",
+          "Sustainability initiatives in luxury hotels",
+          "Culinary innovation and industry events",
+          "Awards and workplace culture in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/jean-baptiste-lemoine-60516a11b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -600,5 +2099,71 @@
     "succeeded": 17,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T02:58:11.988667+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 18,
+      "structured": 18,
+      "discovered": 1,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 1,
+        "content_pages": 18,
+        "cost_estimate": {
+          "approx_total_usd": 0.025,
+          "search_component_usd": 0.007,
+          "contents_component_usd": 0.018,
+          "counts": {
+            "search_requests": 1,
+            "content_pages": 18
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 45440,
+          "cached_prompt_text_tokens": 2048,
+          "completion_tokens": 15428,
+          "reasoning_tokens": 52903,
+          "output_tokens": 0,
+          "total_tokens": 113771
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.49718,
+          "token_component_usd": 0.49718,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 45440,
+            "cached_prompt_text_tokens": 2048,
+            "completion_tokens": 15428,
+            "reasoning_tokens": 52903,
+            "total_tokens_reported": 113771,
+            "output_like_tokens": 68331,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.52218
+    }
   }
 }

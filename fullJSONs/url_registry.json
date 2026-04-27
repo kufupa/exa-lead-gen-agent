@@ -1,15 +1,159 @@
 {
   "version": 1,
-  "updated_at_utc": "2026-04-26T20:44:22.940062+00:00",
+  "updated_at_utc": "2026-04-27T10:27:52.530948+00:00",
   "urls": {
-    "https://chesterfieldmayfair.com": {
+    "https://116pallmall.com": {
       "status": "enriched",
-      "research_json": "jsons/hotel_leads__chesterfieldmayfair_com__b5965ba9.json",
-      "enriched_json": "jsons/hotel_leads__chesterfieldmayfair_com__b5965ba9.enriched.json",
+      "research_json": "jsons/hotel_leads__116pallmall_com__0cab9398.json",
+      "enriched_json": "jsons/hotel_leads__116pallmall_com__0cab9398.enriched.json",
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.882037+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.230304+00:00"
+    },
+    "https://ampersandhotel.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__ampersandhotel_com__361d28d1.json",
+      "enriched_json": "jsons/hotel_leads__ampersandhotel_com__361d28d1.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.233364+00:00"
+    },
+    "https://artotellondonhoxton.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__artotellondonhoxton_com__ab835f23.json",
+      "enriched_json": "jsons/hotel_leads__artotellondonhoxton_com__ab835f23.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.241492+00:00"
+    },
+    "https://athenaeumhotel.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__athenaeumhotel_com__e25746a5.json",
+      "enriched_json": "jsons/hotel_leads__athenaeumhotel_com__e25746a5.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.249380+00:00"
+    },
+    "https://bestwestern.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__bestwestern_co_uk__d9cebfcb.json",
+      "enriched_json": "jsons/hotel_leads__bestwestern_co_uk__d9cebfcb.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.256596+00:00"
+    },
+    "https://blakemorehydepark.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__blakemorehydepark_com__24ed9b3c.json",
+      "enriched_json": "jsons/hotel_leads__blakemorehydepark_com__24ed9b3c.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.263591+00:00"
+    },
+    "https://blakeshotels.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__blakeshotels_com__8ccc16df.json",
+      "enriched_json": "jsons/hotel_leads__blakeshotels_com__8ccc16df.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.271412+00:00"
+    },
+    "https://blueorchid.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__blueorchid_com__9fc425fb.json",
+      "enriched_json": "jsons/hotel_leads__blueorchid_com__9fc425fb.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.277927+00:00"
+    },
+    "https://chesterfieldmayfair.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__redcarnation_people_culture_focus.json",
+      "enriched_json": "jsons/hotel_leads__redcarnation_people_culture_focus.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.351074+00:00"
+    },
+    "https://claridges.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__claridges_co_uk__907ea772.json",
+      "enriched_json": "jsons/hotel_leads__claridges_co_uk__907ea772.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.289297+00:00"
+    },
+    "https://claytonhotels.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__claytonhotels_com__8f0a6289.json",
+      "enriched_json": "jsons/hotel_leads__claytonhotels_com__8f0a6289.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.297478+00:00"
+    },
+    "https://conferencehotelgroup.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__conferencehotelgroup_com__dc596b7b.json",
+      "enriched_json": "jsons/hotel_leads__conferencehotelgroup_com__dc596b7b.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.306302+00:00"
+    },
+    "https://dalatahotelgroup.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__dalatahotelgroup_com__manual_manual.json",
+      "enriched_json": "jsons/hotel_leads__dalatahotelgroup_com__manual_manual.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.319142+00:00"
+    },
+    "https://fulhampierhotel.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__fulhampierhotel_co_uk__22efbcef.json",
+      "enriched_json": "jsons/hotel_leads__fulhampierhotel_co_uk__22efbcef.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.323584+00:00"
+    },
+    "https://inte.the-connaught.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__inte_the_connaught_co_uk__3489250f.json",
+      "enriched_json": "jsons/hotel_leads__inte_the_connaught_co_uk__3489250f.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.328595+00:00"
+    },
+    "https://kayagnhlondon.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__kayagnhlondon_com__1b40d608.json",
+      "enriched_json": "jsons/hotel_leads__kayagnhlondon_com__1b40d608.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.333726+00:00"
+    },
+    "https://londonbridgehotel.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__londonbridgehotel_com__d0cdc8a5.json",
+      "enriched_json": "jsons/hotel_leads__londonbridgehotel_com__d0cdc8a5.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.341616+00:00"
     },
     "https://milestonehotel.com/events/weddings": {
       "status": "enriched",
@@ -18,7 +162,34 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.888269+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.345079+00:00"
+    },
+    "https://montcalmcollection.com/montcalm-mayfair": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__montcalmcollection_com__montcalm_mayfair__0a98b0dd.json",
+      "enriched_json": "jsons/hotel_leads__montcalmcollection_com__montcalm_mayfair__0a98b0dd.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.348075+00:00"
+    },
+    "https://sunstreethotel.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__sunstreethotel_com__9f9541ed.json",
+      "enriched_json": "jsons/hotel_leads__sunstreethotel_com__9f9541ed.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.354082+00:00"
+    },
+    "https://templarlondon.com/groups": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__templarlondon_com__groups__b0fcc7e0.json",
+      "enriched_json": "jsons/hotel_leads__templarlondon_com__groups__b0fcc7e0.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.356312+00:00"
     },
     "https://thecadoganhotel.hotelinlondon.net/en": {
       "status": "enriched",
@@ -27,7 +198,25 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.891270+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.361297+00:00"
+    },
+    "https://thelondoner.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__thelondoner_co_uk__987a215f.json",
+      "enriched_json": "jsons/hotel_leads__thelondoner_co_uk__987a215f.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.367832+00:00"
+    },
+    "https://themandrake.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__themandrake_com__feba0c67.json",
+      "enriched_json": "jsons/hotel_leads__themandrake_com__feba0c67.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.371824+00:00"
     },
     "https://w6hotel.co.uk": {
       "status": "enriched",
@@ -36,7 +225,16 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.893276+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.374823+00:00"
+    },
+    "https://www.15hatfields.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_15hatfields_com__df980cc4.json",
+      "enriched_json": "jsons/hotel_leads__www_15hatfields_com__df980cc4.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.378610+00:00"
     },
     "https://www.apexhotels.co.uk": {
       "status": "enriched",
@@ -45,7 +243,25 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.897276+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.382607+00:00"
+    },
+    "https://www.corinthia.com/london": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_corinthia_com__london__40150d36.json",
+      "enriched_json": "jsons/hotel_leads__www_corinthia_com__london__40150d36.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.387604+00:00"
+    },
+    "https://www.flemings-mayfair.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_flemings_mayfair_co_uk__588a4528.json",
+      "enriched_json": "jsons/hotel_leads__www_flemings_mayfair_co_uk__588a4528.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.392011+00:00"
     },
     "https://www.fourseasons.com": {
       "status": "enriched",
@@ -54,7 +270,25 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.902882+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.396011+00:00"
+    },
+    "https://www.gemhotels.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_gemhotels_com__1d87b692.json",
+      "enriched_json": "jsons/hotel_leads__www_gemhotels_com__1d87b692.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.399005+00:00"
+    },
+    "https://www.grangehotels.com": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_grangehotels_com__f9b95d80.json",
+      "enriched_json": "jsons/hotel_leads__www_grangehotels_com__f9b95d80.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.402276+00:00"
     },
     "https://www.hotelcaferoyal.com": {
       "status": "enriched",
@@ -63,7 +297,16 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.905923+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.408287+00:00"
+    },
+    "https://www.landmarklondon.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_landmarklondon_co_uk__240060d6.json",
+      "enriched_json": "jsons/hotel_leads__www_landmarklondon_co_uk__240060d6.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.411763+00:00"
     },
     "https://www.leonardo-hotels.com": {
       "status": "enriched",
@@ -72,7 +315,16 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.912453+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.416765+00:00"
+    },
+    "https://www.mandeville.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_mandeville_co_uk__d613c79c.json",
+      "enriched_json": "jsons/hotel_leads__www_mandeville_co_uk__d613c79c.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.420807+00:00"
     },
     "https://www.millenniumhotels.com/en/london/millennium-gloucester-hotel-london-kensington": {
       "status": "enriched",
@@ -81,7 +333,7 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.923825+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.425588+00:00"
     },
     "https://www.onehundredshoreditch.com/hotel-info": {
       "status": "enriched",
@@ -90,7 +342,16 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.976981+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.500656+00:00"
+    },
+    "https://www.rosewoodhotels.com/en/london": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_rosewoodhotels_com__en_london__a6ebb6a4.json",
+      "enriched_json": "jsons/hotel_leads__www_rosewoodhotels_com__en_london__a6ebb6a4.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.438286+00:00"
     },
     "https://www.seacontainerslondon.com": {
       "status": "enriched",
@@ -99,7 +360,16 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.980576+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.506550+00:00"
+    },
+    "https://www.sixsenses.com/en/hotels-resorts/europe/united-kingdom/london": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_sixsenses_com__en_hotels_resorts_europe_united_kingdom_london__774f701b.json",
+      "enriched_json": "jsons/hotel_leads__www_sixsenses_com__en_hotels_resorts_europe_united_kingdom_london__774f701b.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.447540+00:00"
     },
     "https://www.starhotels.com": {
       "status": "enriched",
@@ -108,7 +378,16 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.944038+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.452551+00:00"
+    },
+    "https://www.sterminshotel.co.uk": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_sterminshotel_co_uk__3eb438aa.json",
+      "enriched_json": "jsons/hotel_leads__www_sterminshotel_co_uk__3eb438aa.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.457531+00:00"
     },
     "https://www.theadria.com": {
       "status": "enriched",
@@ -117,7 +396,7 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.949161+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.462530+00:00"
     },
     "https://www.thegoring.com": {
       "status": "enriched",
@@ -126,7 +405,16 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.983695+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.512737+00:00"
+    },
+    "https://www.thehari.com/london": {
+      "status": "enriched",
+      "research_json": "jsons/hotel_leads__www_thehari_com__london__556b2f87.json",
+      "enriched_json": "jsons/hotel_leads__www_thehari_com__london__556b2f87.enriched.json",
+      "error": null,
+      "claimed_by": null,
+      "last_started_at_utc": null,
+      "last_finished_at_utc": "2026-04-27T10:27:52.474112+00:00"
     },
     "https://www.themayfairhotel.co.uk": {
       "status": "enriched",
@@ -135,7 +423,7 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.985689+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.516737+00:00"
     },
     "https://www.thistle.com": {
       "status": "enriched",
@@ -144,7 +432,7 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.994532+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.530948+00:00"
     },
     "https://www.westlodgepark.co.uk": {
       "status": "enriched",
@@ -153,7 +441,7 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.971996+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.489364+00:00"
     },
     "https://www.11cadogangardens.co.uk": {
       "status": "enriched",
@@ -162,7 +450,7 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.973974+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.494648+00:00"
     },
     "https://collezione.starhotels.com/en/our-hotels/the-pelham-london": {
       "status": "enriched",
@@ -171,7 +459,7 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.988223+00:00"
+      "last_finished_at_utc": "2026-04-27T10:27:52.521671+00:00"
     },
     "https://www.thetwentytwo.com/london": {
       "status": "enriched",
@@ -180,167 +468,7 @@
       "error": null,
       "claimed_by": null,
       "last_started_at_utc": null,
-      "last_finished_at_utc": "2026-04-22T21:50:47.992387+00:00"
-    },
-    "https://inte.the-connaught.co.uk": {
-      "status": "researching",
-      "research_json": "jsons/hotel_leads__inte_the_connaught_co_uk__3489250f.json",
-      "enriched_json": "jsons/hotel_leads__inte_the_connaught_co_uk__3489250f.enriched.json",
-      "claimed_by": "pid:23756",
-      "last_started_at_utc": "2026-04-25T13:41:45.820741+00:00",
-      "error": null
-    },
-    "https://fulhampierhotel.co.uk": {
-      "status": "researching",
-      "research_json": "jsons/hotel_leads__fulhampierhotel_co_uk__22efbcef.json",
-      "enriched_json": "jsons/hotel_leads__fulhampierhotel_co_uk__22efbcef.enriched.json",
-      "claimed_by": "pid:22896",
-      "last_started_at_utc": "2026-04-25T13:53:21.377833+00:00",
-      "error": null
-    },
-    "https://www.sixsenses.com/en/hotels-resorts/europe/united-kingdom/london": {
-      "status": "researching",
-      "research_json": "jsons/hotel_leads__www_sixsenses_com__en_hotels_resorts_europe_united_kingdom_london__774f701b.json",
-      "enriched_json": "jsons/hotel_leads__www_sixsenses_com__en_hotels_resorts_europe_united_kingdom_london__774f701b.enriched.json",
-      "claimed_by": "pid:23756",
-      "last_started_at_utc": "2026-04-25T13:41:45.703677+00:00",
-      "error": null
-    },
-    "https://themandrake.com": {
-      "status": "researching",
-      "research_json": "jsons/hotel_leads__themandrake_com__feba0c67.json",
-      "enriched_json": "jsons/hotel_leads__themandrake_com__feba0c67.enriched.json",
-      "claimed_by": "pid:23756",
-      "last_started_at_utc": "2026-04-25T13:41:45.928018+00:00",
-      "error": null
-    },
-<<<<<<< Updated upstream
-    "https://montcalmcollection.com/montcalm-mayfair": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__montcalmcollection_com__montcalm_mayfair__0a98b0dd.json",
-      "enriched_json": "jsons/hotel_leads__montcalmcollection_com__montcalm_mayfair__0a98b0dd.enriched.json",
-      "claimed_by": "pid:24884",
-      "last_started_at_utc": "2026-04-25T14:49:30.692801+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-25T15:07:59.894358+00:00"
-    },
-    "https://www.gemhotels.com": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__www_gemhotels_com__1d87b692.json",
-      "enriched_json": "jsons/hotel_leads__www_gemhotels_com__1d87b692.enriched.json",
-      "claimed_by": "pid:24884",
-      "last_started_at_utc": "2026-04-25T14:49:30.796720+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-25T15:09:56.963519+00:00"
-    },
-    "https://www.sterminshotel.co.uk": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__www_sterminshotel_co_uk__3eb438aa.json",
-      "enriched_json": "jsons/hotel_leads__www_sterminshotel_co_uk__3eb438aa.enriched.json",
-      "claimed_by": "pid:24884",
-      "last_started_at_utc": "2026-04-25T14:49:30.834845+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-25T15:13:11.700058+00:00"
-    },
-    "https://sunstreethotel.com": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__sunstreethotel_com__9f9541ed.json",
-      "enriched_json": "jsons/hotel_leads__sunstreethotel_com__9f9541ed.enriched.json",
-      "claimed_by": "pid:24884",
-      "last_started_at_utc": "2026-04-25T14:49:30.912664+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-25T15:17:25.067608+00:00"
-    },
-    "https://templarlondon.com/groups": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__templarlondon_com__groups__b0fcc7e0.json",
-      "enriched_json": "jsons/hotel_leads__templarlondon_com__groups__b0fcc7e0.enriched.json",
-      "claimed_by": "pid:24884",
-      "last_started_at_utc": "2026-04-25T15:07:59.950577+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-25T15:34:27.411325+00:00"
-    },
-    "https://www.landmarklondon.co.uk": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__www_landmarklondon_co_uk__240060d6.json",
-      "enriched_json": "jsons/hotel_leads__www_landmarklondon_co_uk__240060d6.enriched.json",
-      "claimed_by": "pid:24884",
-      "last_started_at_utc": "2026-04-25T15:09:57.019210+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-25T15:26:34.349102+00:00"
-    },
-    "https://www.flemings-mayfair.co.uk": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__www_flemings_mayfair_co_uk__588a4528.json",
-      "enriched_json": "jsons/hotel_leads__www_flemings_mayfair_co_uk__588a4528.enriched.json",
-      "claimed_by": "4e27a869-818d-4792-8718-b13b8e01839c::pid5224",
-      "last_started_at_utc": "2026-04-26T14:00:08.156521+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-26T14:18:31.962584+00:00"
-    },
-    "https://ampersandhotel.com": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__ampersandhotel_com__361d28d1.json",
-      "enriched_json": "jsons/hotel_leads__ampersandhotel_com__361d28d1.enriched.json",
-      "claimed_by": "dc0d01a5-450f-4975-992e-003c24489ad2::pid5224",
-      "last_started_at_utc": "2026-04-26T14:00:08.250501+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-26T14:09:39.262496+00:00"
-    },
-    "https://www.15hatfields.com": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__www_15hatfields_com__df980cc4.json",
-      "enriched_json": "jsons/hotel_leads__www_15hatfields_com__df980cc4.enriched.json",
-      "claimed_by": "29f17d21-8094-4cc8-9ef6-ed90f5792af3::pid5224",
-      "last_started_at_utc": "2026-04-26T14:09:39.339400+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-26T14:18:33.702506+00:00"
-    },
-    "https://www.hazlittshotel.com/rooms": {
-      "status": "failed",
-      "research_json": "jsons/hotel_leads__www_hazlittshotel_com__rooms__f14a6731.json",
-      "enriched_json": "jsons/hotel_leads__www_hazlittshotel_com__rooms__f14a6731.enriched.json",
-      "claimed_by": "1c8a5760-829a-4cd5-be9e-6b95df8ba3dd::pid5224",
-      "last_started_at_utc": "2026-04-26T14:18:32.036685+00:00",
-      "error": "Traceback (most recent call last):\n  File \"C:\\Users\\gamin\\Desktop\\startup\\exa-lead-gen-agent\\hotel_decision_maker_research.py\", line 919, in <module>\n  File \"C:\\Users\\gamin\\Desktop\\startup\\exa-lead-gen-agent\\hotel_decision_maker_research.py\", line 817, in main\n    \n  File \"C:\\Users\\gamin\\Desktop\\startup\\exa-lead-gen-agent\\hotel_decision_maker_research.py\", line 741, in _run_research\n    args.max_contacts,\n^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\xai_sdk\\sync\\chat.py\", line 109, in sample\n    response_pb = self._stub.GetCompletion(self._make_request(1))\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_interceptor.py\", line 276, in __call__\n    response, ignored_call = self._with_call(\n                             ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_interceptor.py\", line 331, in _with_call\n    return call.result(), call\n           ^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_channel.py\", line 438, in result\n    raise self\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_interceptor.py\", line 314, in continuation\n    response, call = self._thunk(new_method).with_call(\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_channel.py\", line 1173, in with_call\n    return _end_unary_response_blocking(state, call, True, None)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\gamin\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\grpc\\_channel.py\", line 990, in _end_unary_response_blocking\n    raise _InactiveRpcError(state)  # pytype: disable=not-instantiable\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ngrpc._channel._InactiveRpcError: <_InactiveRpcError of RPC that terminated with:\n\tstatus = StatusCode.DEADLINE_EXCEEDED\n\tdetails = \"Request timeout exceeded\"\n\tdebug_error_string = \"UNKNOWN:Error received from peer  {grpc_message:\"Request timeout exceeded\", grpc_status:4}\"\n>\n",
-      "last_finished_at_utc": "2026-04-26T14:50:14.700835+00:00"
-    },
-    "https://www.grangehotels.com": {
-      "status": "enriched",
-      "research_json": "jsons/hotel_leads__www_grangehotels_com__f9b95d80.json",
-      "enriched_json": "jsons/hotel_leads__www_grangehotels_com__f9b95d80.enriched.json",
-      "claimed_by": "523965fa-b2f7-43a1-a19e-d3bfea9cbd22::pid65456",
-      "last_started_at_utc": "2026-04-26T15:20:39.651992+00:00",
-      "error": null,
-      "last_finished_at_utc": "2026-04-26T15:31:10.465660+00:00"
-=======
-    "https://www.thehari.com/london": {
-      "status": "failed",
-      "research_json": "jsons/hotel_leads__www_thehari_com__london__f92c758d.json",
-      "enriched_json": "jsons/hotel_leads__www_thehari_com__london__f92c758d.enriched.json",
-      "claimed_by": "05f50299-e25d-47df-803c-6892ada1f95f::pid112220",
-      "last_started_at_utc": "2026-04-26T20:34:22.678231+00:00",
-      "error": "phase1 subprocess timeout",
-      "last_finished_at_utc": "2026-04-26T20:44:22.719510+00:00"
-    },
-    "https://www.rosewoodhotels.com/en/london": {
-      "status": "failed",
-      "research_json": "jsons/hotel_leads__www_rosewoodhotels_com__en_london__a6ebb6a4.json",
-      "enriched_json": "jsons/hotel_leads__www_rosewoodhotels_com__en_london__a6ebb6a4.enriched.json",
-      "claimed_by": "0e8b0804-fb48-4816-8cdd-7fd95cd7bcb5::pid112220",
-      "last_started_at_utc": "2026-04-26T20:34:22.775336+00:00",
-      "error": "phase1 subprocess timeout",
-      "last_finished_at_utc": "2026-04-26T20:44:22.869000+00:00"
-    },
-    "https://www.corinthia.com/london": {
-      "status": "failed",
-      "research_json": "jsons/hotel_leads__www_corinthia_com__london__5f797df1.json",
-      "enriched_json": "jsons/hotel_leads__www_corinthia_com__london__5f797df1.enriched.json",
-      "claimed_by": "bc938348-b965-49ef-a90d-ecfb522be1e4::pid112220",
-      "last_started_at_utc": "2026-04-26T20:34:22.828171+00:00",
-      "error": "phase1 subprocess timeout",
-      "last_finished_at_utc": "2026-04-26T20:44:22.940062+00:00"
->>>>>>> Stashed changes
+      "last_finished_at_utc": "2026-04-27T10:27:52.526832+00:00"
     }
   }
 }

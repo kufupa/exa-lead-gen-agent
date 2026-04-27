@@ -84,7 +84,7 @@
       "full_name": "Gavin Allison",
       "title": "Global Head of IT",
       "company": "Lore Group",
-      "linkedin_url": "https://uk.linkedin.com/in/gavin-a-979811217",
+      "linkedin_url": "https://www.linkedin.com/in/gavin-a-979811217",
       "email": null,
       "email2": null,
       "phone": null,
@@ -111,13 +111,122 @@
           "source_type": "linkedin",
           "quote_or_fact": "Profile lists Gavin Allison as Global Head of IT at Lore Group with responsibility for hotel systems."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/gavin-a-979811217",
+        "display_name": "Gavin A.",
+        "headline": "Group Director of Technology at Lore Group | Hospitality Technology | Innovation | Project Management | IT Transformation",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Technically and commercially astute IT Director with a global mindset gained via international experience. Adopted a motivational leadership style to engage, empower and enthuse IT teams while embedding cultures of Service Excellence. Scoped and led critical technology projects from inception to completion at pace and in line with budgets, resulting in significant cost savings, improved productivity, enhanced team performance, and impressive customer experiences. Cisco and Microsoft certified, committed towards lifelong learning and professional development; completed multiple courses, including Senior Leadership. Innovation-led, receptive to (and passionate about) emerging technologies, Including developments in virtualized environments and cloud frameworks.\n\nTotal Experience: 24 years",
+        "experience": [
+          {
+            "title": "Interface Installer",
+            "organization": "Micros-Fidelio UK Ltd.",
+            "date_range": "Jan 2002 - Jan 2005",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Technical Installer",
+            "organization": "MICROS Systems Inc",
+            "date_range": "Jan 2005 - Jan 2007",
+            "location": "District of Columbia, United States",
+            "description": null
+          },
+          {
+            "title": "Director Of IT",
+            "organization": "Four Seasons Hotels and Resorts",
+            "date_range": "Jan 2007 - Jun 2014",
+            "location": "Costa Rica and U.K.",
+            "description": null
+          },
+          {
+            "title": "Director Of IT",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Jun 2014 - Jun 2016",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Information Technology Director",
+            "organization": "Cheval Collection Ltd.",
+            "date_range": "Jul 2016 - Apr 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Regional I.T. Director",
+            "organization": "Lore Group",
+            "date_range": "Apr 2022 - Aug 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Global Head Of IT",
+            "organization": "Lore Group",
+            "date_range": "Aug 2023 - Jan 2026",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Director Of Technology",
+            "organization": "Lore Group",
+            "date_range": "Jan 2026 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Woodmead",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "director",
+          "leadership",
+          "technology",
+          "projects",
+          "completion",
+          "budgets",
+          "cisco",
+          "microsoft",
+          "courses",
+          "innovation",
+          "cloud",
+          "cost savings",
+          "emerging technologies",
+          "information technology"
+        ],
+        "activity_themes": [
+          "Hospitality technology expos and events (NoVacancy London 2026)",
+          "Sustainability topics and green initiatives in hospitality",
+          "Hotel guest technology experiences including TV systems",
+          "AI tools like ChatGPT for professional caricatures and development",
+          "Networking and sponsor events in the hospitality industry",
+          "Lore Group property reimaginings and suite updates",
+          "Leadership and commercial importance of Technology Directors in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/natallie-cobden-mih-846a3a49_pacific-london-activity-7420412083558604800-g0n5",
+          "https://www.linkedin.com/posts/grace-greensitt_the-great-green-balloon-debate-is-back-and-activity-7427322248350367744-2DLt",
+          "https://www.linkedin.com/posts/james-richmond-8a67592_i-often-hear-the-hotel-tv-should-feel-like-activity-7426713608149061632-IHZi",
+          "https://www.linkedin.com/posts/natallie-cobden-mih-846a3a49_miami-england-scan-activity-7427417291958575104-W-hd",
+          "https://www.linkedin.com/posts/mitzpatel_lets-be-honest-hospitality-industry-events-activity-7427262499688845313-CY9P",
+          "https://www.linkedin.com/posts/from-one-email-to-a-full-show-floor-thirteen-activity-7427061186447228929-wR8y",
+          "https://www.linkedin.com/posts/hospa_hospasponsors-hospitality-broadwicksoho-activity-7426958485113864192-bmWB",
+          "https://www.linkedin.com/posts/mrsantana_its-always-wonderful-to-catchup-with-some-activity-7426597178770522112-jzH0"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Filomena Vitoriano",
       "title": "Director of Revenue",
       "company": "Lore Group",
-      "linkedin_url": "https://uk.linkedin.com/in/magdalena-pontus",
+      "linkedin_url": "https://www.linkedin.com/in/magdalena-pontus",
       "email": null,
       "email2": null,
       "phone": null,
@@ -144,13 +253,164 @@
           "source_type": "official_site",
           "quote_or_fact": "Commercial and rooms leadership structure supports revenue oversight for One Hundred Shoreditch."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/magdalena-pontus",
+        "display_name": "Magdalena Pontus",
+        "headline": "Revenue Manager specialising in Customer Service and Success",
+        "location": "Dorking, England, United Kingdom (GB)",
+        "about": "Proven success in enhancing revenues through the delivery of outstanding services and experiences, and developing processes and systems. Commercially aware and can recognise potential business opportunities. Strong communicator who can converse at all levels. Utilises leadership abilities to motivate and support a team to work as a unit and deliver excellent services. Experienced in forecasting, report production and compliance. Proficient in business strategies, research, analysis and staff development.",
+        "experience": [
+          {
+            "title": "Reservations Supervisor I C Hotel And Groups",
+            "organization": "Taj Hotels Resorts and Palaces (Crowne Plaza London St. James Hotel 4* Deluxe and 51 Buckingham Gate)",
+            "date_range": "Aug 2008 - May 2010",
+            "location": "London",
+            "description": "• Group Reservations Management • Leadership • People Management • Staff Development • Organisation • Communications"
+          },
+          {
+            "title": "Group Reservations Manager",
+            "organization": "Taj Hotels Resorts and Palaces (Crowne Plaza London St. James Hotel 4* Deluxe and 51 Buckingham Gate)",
+            "date_range": "Jun 2010 - Sep 2011",
+            "location": "London, United Kingdom",
+            "description": "• Group Reservations Management • Customer Services • Contract Management • Client Relations • Communications • Stakeholder Engagement • Staff Development"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "InterContinental London Park Lane",
+            "date_range": "Oct 2011 - Sep 2013",
+            "location": "London, United Kingdom",
+            "description": "• Office Management • Processing Bookings, Adjustments and Cancellations • Reservations Management • Inventory Management • People Management • Staff Development • Appraisals • Performance Management • VIP Services • Corporate and Wholesale Rate Loading"
+          },
+          {
+            "title": "Cluster Reservations Manager",
+            "organization": "The Montcalm Luxury Hotels",
+            "date_range": "Oct 2013 - Sep 2014",
+            "location": "London",
+            "description": "• Reservations Management • Operations Management • Property Management • People Management • Systems Utilisation • Report Production • Stakeholder Engagement • Communications • Commercial Awareness • Staff Development • Cost Controls"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Taj Hotels Palaces Resorts Safaris",
+            "date_range": "Sep 2014 - Aug 2016",
+            "location": "London, United Kingdom",
+            "description": "• Reservations Management • Operations Management • Property Management • People Management • Systems Utilisation • Report Production • Stakeholder Engagement • Communications • Commercial Awareness • Staff Development"
+          },
+          {
+            "title": "London Cluster Reservations Manager",
+            "organization": "The Doyle Collection",
+            "date_range": "Aug 2016 - Feb 2018",
+            "location": "London",
+            "description": "• People Management • Property/ Inventory Management • Reservations Management • Performance Management • Corporate Rate Loading • Issue Resolution & Complaints Management • Commercial Awareness • ADR, Occupancy and Revenue Evaluations • Market Resources • Report Production • Policy Development • Customer Services"
+          },
+          {
+            "title": "Head Of Global Reservations",
+            "organization": "Q Apartments International",
+            "date_range": "Feb 2018 - Feb 2019",
+            "location": "London, Greater London, United Kingdom",
+            "description": "• Operational Management • People Management • Staff Development • OTA Channel Management • Content Management • Strategic Planning • Policy Development • Marketing Strategies • Stakeholder Engagement • Targets • Pricing Structures • Complaints Management"
+          },
+          {
+            "title": "Portfolio Revenue Customer Success Manager",
+            "organization": "Magnuson Hotels",
+            "date_range": "Mar 2019 - Jul 2024",
+            "location": "London, United Kingdom",
+            "description": "• International Property Portfolio Management • Stakeholder Engagement • Systems Development • Business Development • Commercial Awareness • OTA Channel Management • Content Management • Issue Resolution • Customer Services • Analysis • Market Research • Pricing Strategies"
+          },
+          {
+            "title": "Regional Reservations Manager",
+            "organization": "Lore Group",
+            "date_range": "Aug 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Administrative • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Trade High School",
+            "degree_or_field": "Diploma of Education, Tourism and Hospitality",
+            "date_range": null
+          },
+          {
+            "school": "High School of Banking and Management",
+            "degree_or_field": "Diploma of Education, International Administration",
+            "date_range": null
+          },
+          {
+            "school": "The Open University",
+            "degree_or_field": "Diploma of Higher Education, Leadership and Management",
+            "date_range": "2019 - 2019"
+          }
+        ],
+        "skills": [
+          "leadership",
+          "forecasting",
+          "production",
+          "compliance",
+          "research",
+          "analysis",
+          "reservations",
+          "cluster",
+          "management",
+          "operations",
+          "property",
+          "engagement",
+          "communications",
+          "commercial",
+          "pricing",
+          "inventory",
+          "evaluations",
+          "planning",
+          "marketing",
+          "structures",
+          "c",
+          "hotel",
+          "organisation",
+          "processing",
+          "adjustments",
+          "appraisals",
+          "wholesale",
+          "team work",
+          "staff development",
+          "operations management",
+          "property management",
+          "people management",
+          "stakeholder engagement",
+          "commercial awareness",
+          "portfolio management",
+          "business development",
+          "channel management",
+          "content management",
+          "market research",
+          "inventory management",
+          "performance management",
+          "policy development",
+          "contract management",
+          "client relations",
+          "strategic planning",
+          "office management"
+        ],
+        "activity_themes": [
+          "Hospitality industry networking and events",
+          "Leadership and hotel management conferences",
+          "Hotel team development and training",
+          "Revenue management, PR and storytelling in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/revparmedia_were-thrilled-to-welcome-hailey-dearborn-activity-7421628762884272128-F1Ko",
+          "https://www.linkedin.com/posts/greta-ogorodnikovaite-01483b165_a-week-on-the-move-filled-with-strengthening-activity-7420133297831264258-IPxB",
+          "https://www.linkedin.com/posts/institute-of-hospitality_imin-masterinnholders-hotelleadershipconference-activity-7419059642691096576-l4BR",
+          "https://www.linkedin.com/posts/six-senses-london_sixsenses-sixsenseslondon-ihg-activity-7417520231725756416-fCrD"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "PJ Kenny",
       "title": "Regional General Manager London",
       "company": "Lore Group",
-      "linkedin_url": "https://uk.linkedin.com/in/p-j-kenny-266984a",
+      "linkedin_url": "https://www.linkedin.com/in/p-j-kenny-266984a",
       "email": null,
       "email2": null,
       "phone": null,
@@ -177,13 +437,37 @@
           "source_type": "linkedin",
           "quote_or_fact": "Profile confirms hospitality leadership roles progressing to regional GM at Lore Group."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/p-j-kenny-266984a",
+        "display_name": "P.J. Kenny",
+        "headline": "General Manager at Jurys Inns Group LTD",
+        "location": "Southampton, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Jurys Inns Group LTD",
+            "date_range": "(Current)",
+            "location": null,
+            "description": "Department: C-Suite • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/p-j-kenny-266984a"
+        ],
+        "data_quality": "partial",
+        "caveats": "Limited profile details available with no dates, description or additional roles"
+      }
     },
     {
       "full_name": "André Mateus",
       "title": "Revenue Executive",
       "company": "One Hundred Shoreditch",
-      "linkedin_url": "https://uk.linkedin.com/in/andre-fb-mateus",
+      "linkedin_url": "https://www.linkedin.com/in/andre-fb-mateus",
       "email": null,
       "email2": null,
       "phone": null,
@@ -205,13 +489,67 @@
           "source_type": "directory",
           "quote_or_fact": "André Mateus, Revenue Executive at One Hundred Shoreditch, previous roles at Lore Group."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/andre-fb-mateus",
+        "display_name": "Andre Mateus",
+        "headline": "Revenue Executive at One Hundred Shoreditch",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 1 year and 6 months",
+        "experience": [
+          {
+            "title": "Revenue Executive",
+            "organization": "One Hundred Shoreditch",
+            "date_range": "Jul 2024 - Present",
+            "location": null,
+            "description": "Company: 201-500 employees • Founded 2021 • Privately Held • Hospitality\nDepartment: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Escola Secundária Dr. Augusto César da Silva Ferreira",
+            "degree_or_field": null,
+            "date_range": null
+          },
+          {
+            "school": "Instituto Politécnico do Porto",
+            "degree_or_field": "Degree, Hospitality Management",
+            "date_range": "2006 - 2009"
+          },
+          {
+            "school": "Instituto Politécnico do Porto",
+            "degree_or_field": "Post-Graduation, Hospitality Management",
+            "date_range": "2010 - 2011"
+          }
+        ],
+        "skills": [
+          "reservations"
+        ],
+        "activity_themes": [
+          "Hotel awards for innovative technology",
+          "Revenue management and breakfast performance tracking",
+          "Hospitality team recruitment",
+          "International hotel partnerships and events",
+          "Professional communication and wisdom principles",
+          "Technology implementation in hotel groups"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/loregroup_were-proud-to-share-that-lore-group-has-activity-7399341145379614723-RKZF",
+          "https://www.linkedin.com/posts/alexandregras_hotelrevenue-hospitality-revenuemanagement-activity-7389597456314871808-Hw4e",
+          "https://www.linkedin.com/posts/melvin-vella-97621261_reach-out-if-youd-like-to-be-part-of-our-activity-7383412078943944704-oBrB",
+          "https://www.linkedin.com/posts/elaine-cassar-smith-4bb4649_hotelscom-vbro-arsenalfc-activity-7379600425488117761-dora",
+          "https://www.linkedin.com/posts/mark-jonathan-heyburn_before-you-speak-let-your-words-pass-through-activity-7380719396085792768-h5P4",
+          "https://www.linkedin.com/posts/gavin-a-979811217_loregroup-activity-7376281931962802176-vD4n"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Helen Sayer",
       "title": "Hotel Manager",
       "company": "One Hundred Shoreditch",
-      "linkedin_url": "https://uk.linkedin.com/in/helen-sayer-297a4b47",
+      "linkedin_url": "https://www.linkedin.com/in/helen-sayer-297a4b47",
       "email": null,
       "email2": null,
       "phone": "+44 207-613-9800",
@@ -233,7 +571,121 @@
           "source_type": "directory",
           "quote_or_fact": "Helen Sayer, Hotel Manager at One Hundred Shoreditch."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/helen-sayer-297a4b47",
+        "display_name": "Helen Sayer",
+        "headline": "Hotel Manager at One Hundred Shoreditch",
+        "location": "United Kingdom (GB)",
+        "about": "I am a confident and gregarious person who thrives in social situations and have the ability to strike up an immediate rapport with people from across the spectrum of ages and backgrounds. I consider myself to be mature and resilient and am able to adapt well to new and challenging situations. I possess excellent communication skills and am able to engage with others, both individually and in group situations, in a persuasive and friendly manner. I have been involved in the hospitality area since the age of fifteen and my ambition is to continue to forge a career in the industry. I derive great satisfaction from delivering excellent customer service and I find the working environment in hospitality to be stimulating, exhilarating and wonderfully rewarding. I thrive on responsibility and enjoy taking on leadership positions which involve the organisation and motivation of people. I have a wealth of experience in leading teams and taking responsibility for personnel and know that I can establish excellent working relationships at all levels. My personal style is open and collaborative but I am also able to demonstrate firm leadership when required.",
+        "experience": [
+          {
+            "title": "Food And Beverage Supervisor",
+            "organization": "Rockliffe Hall Hotel, Golf & Spa Resort",
+            "date_range": "Sep 2010 - Sep 2011",
+            "location": "Darlington, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Graduate Trainee In Hospitality Management",
+            "organization": "Firmdale Hotels",
+            "date_range": "Sep 2011 - Nov 2013",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reception Supervisor",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Nov 2013 - Apr 2014",
+            "location": "Haymarket Hotel",
+            "description": null
+          },
+          {
+            "title": "Reception Manager",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "Apr 2014 - May 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reception Manager",
+            "organization": "Firmdale Hotels PLC",
+            "date_range": "May 2016 - Mar 2017",
+            "location": "The Soho Hotel",
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "Ace Hotel / Atelier Ace",
+            "date_range": "Mar 2017 - Dec 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Rooms",
+            "organization": "The Hoxton",
+            "date_range": "Jan 2019 - Jan 2022",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Regional General Manager",
+            "organization": "Native",
+            "date_range": "Jan 2022 - Mar 2024",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Experimental Group",
+            "date_range": "Mar 2024 - Sep 2025",
+            "location": "Cowley, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "One Hundred Shoreditch",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "TEESSIDE UNIVERSITY",
+            "degree_or_field": "Forensic Phychology, Psychology",
+            "date_range": "2006 - 2009"
+          }
+        ],
+        "skills": [
+          "communication skills",
+          "customer service",
+          "front office",
+          "hospitality management",
+          "hospitality",
+          "leadership",
+          "organisation",
+          "hotel",
+          "management",
+          "food",
+          "excellent communication skills"
+        ],
+        "activity_themes": [
+          "Hospitality leadership and team culture",
+          "Sustainability and ESG achievements",
+          "Luxury hotel guest experiences",
+          "Hotel design and awards",
+          "New property openings",
+          "Housekeeping and operational excellence",
+          "Industry events and networking",
+          "Hospitality awards and recognitions"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/helen-sayer-297a4b47"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Fabien Dini",
@@ -261,7 +713,179 @@
           "source_type": "official_site",
           "quote_or_fact": "Lore DISCOVERY loyalty programme referenced, managed under group digital leadership."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/fabien-dini-7380702b",
+        "display_name": "Fabien Dini",
+        "headline": "Head of Digital Marketing & Loyalty",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "I’m an ambitious and passionate Digital Marketeer with a wealth of experience in online hotel distribution. My 10+ years of experience across different countries enables me to consistently surpass performance objectives driving significant impact and contribution to traffic, lead-generation, conversion, revenue and return on ad spend goals. I continuously apply my knowledge and experience to form new ideas with a dedicated approach ensuring full delivery of new and evolved strategies.\n\nTotal Experience: 15 years",
+        "experience": [
+          {
+            "title": "Assistant Buyer",
+            "organization": "Up2date Shanghai",
+            "date_range": "May 2006 - Jul 2006",
+            "location": "Chine",
+            "description": "✓ Sourcing: Meet customer needs in price and quality. ✓ Order Management ✓ Quality Control ✓ Review of samples ✓ Production sites audits ✓ Ensuring timely delivery of the merchandise through consistent communication and follow-up with customers and suppliers."
+          },
+          {
+            "title": "Assistant Project Manager",
+            "organization": "On a marche sur la lune",
+            "date_range": "May 2008 - Jul 2008",
+            "location": "Région de Lille, France",
+            "description": "✓ Participation in brainstorming and creative research ✓ Designing and writing strategic recommendations and concepts ✓ Contact, management and follow-up of the suppliers ✓ Elaboration of budgets ✓ Creation of communication materials: brochures, flyers, etc. ✓ Orchestrating and editing Events"
+          },
+          {
+            "title": "Web Project Manager",
+            "organization": "ATS Environmental Services",
+            "date_range": "May 2010 - May 2011",
+            "location": "Région de New York City , États-Unis",
+            "description": "✓ SEM: Management of online ad campaigns through Adwords, YSM, Facebook, Adcenter. ✓ Reporting using different web analytics tools (Google Analytics, SEM Rush, Market Samuraï, SEObook...) and recommendations in order to improve the overall performance. ✓ Management of several website redesign projects: Search for designers, establish guidelines and budget, review the mock-ups, constant follow-up etc. ✓ Creation & Management of several Marketing campaigns: Online contests, Landing pages building, Convertion Rate Optimization, etc. ✓ Social Media Optimization: Management of Facebook and Twitter pages. Daily content posting, e-reputation management. ✓ SEO: Site Architecture Improvement, Keyword Research, Link Building, etc. ✓ Recruitment of 3 Interns"
+          },
+          {
+            "title": "SEM Manager",
+            "organization": "TRAVELHORIZON GROUP",
+            "date_range": "Jul 2011 - Aug 2012",
+            "location": "Région de Aix-En-Provence , France",
+            "description": null
+          },
+          {
+            "title": "SEM Project Manager",
+            "organization": "Accor",
+            "date_range": "Aug 2012 - Nov 2014",
+            "location": "Région de Paris, France",
+            "description": "Managing all paid search activities worldwide across all Accor websites including accorhotels.com and brand websites (ibis, Mercure, Novotel, Sofitel, Pullman ...). ✓ Defining, implementing and coordinating the PPC strategy worldwide. ✓ Managing all aspects of paid search marketing including search engines, social platforms, and mobile search. ✓ Reporting to brands, countries and top management."
+          },
+          {
+            "title": "E-commerce Manager UK Ireland",
+            "organization": "Accor",
+            "date_range": "Nov 2014 - May 2017",
+            "location": "London, Royaume-Uni",
+            "description": "As E-Commerce Manager, I'm in charge of our digital marketing strategy and performance for our direct channels. As well as being responsible for a team of three people, I manage digital advertising budgets of several million pounds. ✓ Search Engine Marketing: Plan and execute Paid Search and Natural Search campaigns with nominated agencies for Accorhotels.com and brand websites (ibis, Sofitel, Novotel, Mercure, etc.). ✓ Ensure implementation and update of Accorhotels.com website content. ✓ Monitor Relationship Marketing campaigns performance. ✓ Display Advertising: online display advertising campaigns for Accorhotels.com ✓ Social Media Campaigns: Monitor Paid and Organic campaigns throughout our UK Social Media pages ✓ Strategic Accounts: Performance Management of several key partners such as TripAdvisor, Trivago, Google Hotel Finder, etc. ✓ Affiliate Marketing"
+          },
+          {
+            "title": "Digital Marketing Manager",
+            "organization": "The Set Hotels",
+            "date_range": "May 2017 - Oct 2020",
+            "location": "London, United Kingdom",
+            "description": "As Regional Digital Marketing Manager at The Set Hotels, I am leading the global Digital Marketing Strategy for the group (3 luxury properties in Paris, London & Amsterdam). This includes management of all digital media strategies across channels (PPC, paid social, programmatic, metasearch, OTAs, emailing, GDS, etc.), development and performance monitoring of the property and group websites (dev, analytics, SEO, content). Working closely with each Revenue Management & Marketing team, my role requires a strong balance between driving digital performance to achieve revenue objectives through our direct channels, while elevating positioning as the brand expands."
+          },
+          {
+            "title": "Regional Director Of Digital Marketing",
+            "organization": "The Set Hotels",
+            "date_range": "Aug 2019 - Oct 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Strategist",
+            "organization": "Lore Group",
+            "date_range": "Oct 2020 - Apr 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Digital",
+            "organization": "Lore Group",
+            "date_range": "Apr 2022 - Present",
+            "location": "London",
+            "description": null
+          },
+          {
+            "title": "Head Of Digital Marketing Loyalty",
+            "organization": "Lore Group",
+            "date_range": "Feb 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Institut Supérieur Européen de Gestion",
+            "degree_or_field": "Bachelor EXE, Marketing & Communication",
+            "date_range": "2007 - 2008"
+          },
+          {
+            "school": "University of Central Lancashire",
+            "degree_or_field": "Bachelor, International Business Communication",
+            "date_range": "2008 - 2009"
+          },
+          {
+            "school": "University of Central Lancashire",
+            "degree_or_field": "Master Intercultural Business Communication",
+            "date_range": "2009 - 2010"
+          }
+        ],
+        "skills": [
+          "digital",
+          "hotel",
+          "distribution",
+          "driving",
+          "marketing",
+          "sourcing",
+          "management",
+          "production",
+          "hotels",
+          "strategy",
+          "luxury",
+          "ppc",
+          "gds",
+          "property",
+          "websites",
+          "analytics",
+          "seo",
+          "positioning",
+          "less",
+          "sem",
+          "campaigns",
+          "facebook",
+          "reporting",
+          "projects",
+          "budget",
+          "optimization",
+          "twitter",
+          "architecture",
+          "research",
+          "recruitment",
+          "mobile",
+          "commerce",
+          "responsible",
+          "advertising",
+          "budgets",
+          "director",
+          "creative",
+          "designing",
+          "writing",
+          "brochures",
+          "flyers",
+          "editing",
+          "lead generation",
+          "digital marketing",
+          "order management",
+          "quality control",
+          "marketing strategy",
+          "digital media",
+          "revenue management",
+          "management marketing",
+          "project manager",
+          "web analytics",
+          "google analytics",
+          "performance management",
+          "social media",
+          "reputation management",
+          "keyword research",
+          "link building",
+          "relationship marketing",
+          "display advertising",
+          "affiliate marketing"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/fabien-dini-7380702b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Fiona Morgan",
@@ -289,7 +913,88 @@
           "source_type": "linkedin",
           "quote_or_fact": "Company page references Lore Group sales leadership and events."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/fionamorgan",
+        "display_name": "Fiona Morgan",
+        "headline": "Hospitality/Commercial/ Senior Leadership/Brand + Sales Strategy/Hotelier",
+        "location": "United Kingdom (GB)",
+        "about": "30 years of London Sales & Marketing experience working with some of the best lifestyle hotels in the capital. Pre opening and opening experience, critical path planning, revenue distribution, traditional and digital marketing planning and execution. Overall business objectives and strategy creation. Sales objectives and planning through to execution. Owner experience, while maintaining composure and a very strong sense of humour! Self starter, results driven, with an emphasis on revenue growth, attracting the \"right crowd\" and remaining relevant in the market.",
+        "experience": [
+          {
+            "title": "Director Of Business Travel UK Europe",
+            "organization": "Millennium & Copthorne Hotels",
+            "date_range": "Apr 1999 - Dec 2003",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "COMO Hotels & Resorts",
+            "date_range": "Jan 2004 - Feb 2006",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Regional Sales Marketing Director London",
+            "organization": "Morgans Hotel Group",
+            "date_range": "Apr 2006 - Aug 2013",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Founder",
+            "organization": "FM & CO",
+            "date_range": "Jan 2014 - Dec 2022",
+            "location": "London, United Kingdom",
+            "description": "FM & CO. IS A LONDON BASED CONSULTING COMPANY THAT SPECIALISES IN COMMERCIAL SALES, MARKETING & PR FOR THE HOTEL INDUSTRY. WE SUPPORT LIFESTYLE HOTELS IN MAINTAINING THEIR BRAND INTEGRITY BY STRATEGIC PLANNING AND WORKING WITH LIKE MINDED CLIENTS TO REACH THEIR COMMERCIAL GOALS."
+          },
+          {
+            "title": "Global Director Of Sales, Marketing PR",
+            "organization": "Lore Group",
+            "date_range": "Nov 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales",
+          "marketing",
+          "hotels",
+          "capital",
+          "planning",
+          "distribution",
+          "digital",
+          "strategy",
+          "director",
+          "pr",
+          "consulting",
+          "commercial",
+          "hotel",
+          "integrity",
+          "digital marketing",
+          "self starter",
+          "strategic planning",
+          "business travel"
+        ],
+        "activity_themes": [
+          "Luxury and lifestyle hotel openings in London and Europe",
+          "Hospitality recruiting, promotions and career milestones",
+          "Sustainability, social impact and ESG in hotels",
+          "Industry events, conferences (e.g. AIME) and awards",
+          "Sales, marketing and leadership transitions in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/fionamorgan",
+          "https://www.linkedin.com/posts/annie-ward-tolputt-6a570698_introducing-the-next-chapter-at-sea-containers-activity-7425876901669281792-7YfD",
+          "https://www.linkedin.com/posts/michellewhittemore_panpacificlondon-hospitalityjobs-careerinhotels-activity-7425232636303953920-_Z56",
+          "https://www.linkedin.com/posts/christopherhartleygha_gha-ghadiscovery-success-activity-7422138272979623936-2Dfs",
+          "https://www.linkedin.com/posts/simone-cartwright-4b2715ba_excited-to-be-heading-back-to-aime-next-week-activity-7424649473274081281-QP0Q"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Hannah Robinson",
@@ -317,7 +1022,157 @@
           "source_type": "official_site",
           "quote_or_fact": "Global sales, marketing and PR leadership page."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/hannah-sheard",
+        "display_name": "Hannah Robinson",
+        "headline": "Head of Global Sales  | 14+ Years of Sales & Account Management Experience | Passion for Music",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A highly motivated and results-oriented sales professional with over 14 years of experience driving success in account management, strategy, and team leadership. Proven track record of exceeding targets and fostering strong partnerships across diverse industries including Entertainment, Leisure, MICE, and Corporate Sales. My expertise lies in developing and implementing effective business strategies that maximise efficiency and ensure client satisfaction. I am passionate about building relationships and delivering exceptional results. Currently, I work as Head of Global Sales at Lore Group.\n\nTotal Experience: 13 years and 7 months",
+        "experience": [
+          {
+            "title": "Receptionist, F B Coordinator, Reservations Coordinator",
+            "organization": "Mercure Hotels",
+            "date_range": "Oct 2008 - May 2011",
+            "location": "Sheffield, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Management Trainee F B, Sales, Reservation, Front Desk",
+            "organization": "Macdonald Hotels",
+            "date_range": "May 2011 - Nov 2011",
+            "location": "Berystede, Ascot",
+            "description": null
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Mercure Hotels",
+            "date_range": "Nov 2011 - Aug 2012",
+            "location": "Sheffield, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Account Executive",
+            "organization": "Mercure Hotels",
+            "date_range": "Aug 2013 - Mar 2014",
+            "location": "Sheffield, England, United Kingdom",
+            "description": "As above; specialising in awards, events and product launches"
+          },
+          {
+            "title": "Account Executive",
+            "organization": "Pullman Hotels & Resorts",
+            "date_range": "Apr 2014 - Apr 2015",
+            "location": "London, England, United Kingdom",
+            "description": "Responsible for pitching, curating and delivering client proposals. Effectively managed customer budget to maximize revenue."
+          },
+          {
+            "title": "Account Manager - Corporate",
+            "organization": "Pullman Hotels & Resorts",
+            "date_range": "May 2015 - Aug 2015",
+            "location": "London, United Kingdom",
+            "description": "Effectively managed an extensive portfolio of accounts from finance to technology services. Achieve agreed revenue targets, identify new business opportunities, and compile analysis and actions plan. Organise and host client events, represent the hotel at exhibitions, trade shows and presentations."
+          },
+          {
+            "title": "Global Account Manager",
+            "organization": "AccorHotels",
+            "date_range": "Apr 2015 - Apr 2018",
+            "location": "London, United Kingdom",
+            "description": "Account manager for 50 UK based agency accounts specialising in the entertainment & groups industry for AccorHotels globally. Specialised in global music label partnerships for talent touring with Accorhotels worldwide. Responsible for growing and maintaining the partnership of each account to a minimum of 3% reaching an average growth of 7%. Represented the company at various industry events UK and internationally. Key global contact for pitches, rate agreements and negotiation challenges within hotels including contracts."
+          },
+          {
+            "title": "Director Of Entertainment Sales",
+            "organization": "Hotel Café Royal",
+            "date_range": "Apr 2018 - Mar 2021",
+            "location": "London, United Kingdom",
+            "description": "Account lead for all entertainment client accounts. Building and maintaining partnerships for the entertainment industry. Account lead for all entertainment industry accounts and travel management companies (TMC). Built new partnerships and strengthened previously neglected partnerships for a young contemporary luxury hotel. Exceeded targets reaching an average growth of 200% YOY (2018-2019). Experienced managing all levels of entertainment industry partnerships including; management, artist relations, talent and C Level executives. Exploring new business opportunities and streamlining the customer process to simplify their experience through partnership feedback with average turnaround time minimised from 24 hours to 2 hours. Coaching, managing and leading team members to reach their highest potential including two successful team member promotions."
+          },
+          {
+            "title": "Global Sales Director",
+            "organization": "The Set Collection",
+            "date_range": "Feb 2021 - Jan 2025",
+            "location": "London, England, United Kingdom",
+            "description": "Key Responsibilities: - Develop and implement global sales strategy to maximise revenue for global entertainment accounts - Lead and mentor sales team - Build and maintain relationships with key luxury and entertainment clients - Identify and pursue new business opportunities aligned with the brand - Monitor market trends and adapt strategies for competitive advantage - Report on sales performance, forecasts, and budgets to senior management"
+          },
+          {
+            "title": "Head Of Global Sales",
+            "organization": "Lore Group",
+            "date_range": "Jan 2025 - Present",
+            "location": "London",
+            "description": "- Set and execute global sales strategy across key global markets - Manage and lead global sales team - Monitor performance, market trends, and pipeline to drive revenue growth - Align sales activity with marketing, revenue management, and operations"
+          }
+        ],
+        "education": [
+          {
+            "school": "Sir Thomas Wharton Academy",
+            "degree_or_field": null,
+            "date_range": "2002 - 2009"
+          },
+          {
+            "school": "Sheffield Hallam University",
+            "degree_or_field": "Business Management, BUSINESS, MANAGEMENT, MARKETING, AND RELATED SUPPORT SERVICES",
+            "date_range": "2009 - 2013"
+          }
+        ],
+        "skills": [
+          "sales",
+          "driving",
+          "management",
+          "strategy",
+          "leadership",
+          "partnerships",
+          "entertainment",
+          "efficiency",
+          "marketing",
+          "operations",
+          "director",
+          "luxury",
+          "hotel",
+          "artist",
+          "coaching",
+          "promotions",
+          "negotiation",
+          "hotels",
+          "budgets",
+          "reservations",
+          "curating",
+          "budget",
+          "reservation",
+          "finance",
+          "technology",
+          "analysis",
+          "presentations",
+          "results oriented",
+          "account management",
+          "team leadership",
+          "building relationships",
+          "sales strategy",
+          "revenue management",
+          "entertainment industry",
+          "travel management",
+          "product launches",
+          "hotel management",
+          "trade shows",
+          "new business opportunities"
+        ],
+        "activity_themes": [
+          "Networking in live touring, travel and hospitality",
+          "Recruitment for ambitious London-based teams",
+          "Private equity investment in hospitality and cafe groups",
+          "Mentoring and giving back to the hospitality industry",
+          "Women in leadership and advisory boards",
+          "Building travel agency and hotel partnerships"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/laila-forrester-a8195ba5_so-grateful-for-my-time-at-ntrp-live-touring-activity-7424755301825802240-TGcq",
+          "https://www.linkedin.com/posts/ellie-muir-81a641170_fancy-joining-one-of-the-most-ambitious-teams-activity-7424455881024655360-GQvh",
+          "https://www.linkedin.com/posts/foresight-for-growing-companies_privateequity-investing-hospitality-activity-7422613026740117504-h35C",
+          "https://www.linkedin.com/posts/nicola-alexander-26209b1b_its-time-for-me-to-give-back-to-the-industry-activity-7422616134773964800-zM-_",
+          "https://www.linkedin.com/posts/naureen-ahmed-28253a35_confidence-inspireinfluencelive-womeninleadership-activity-7398631482979721216-BALr",
+          "https://www.linkedin.com/posts/the-stafford_we-had-the-pleasure-of-welcoming-our-friends-activity-7419749610883162112-lbU5"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Stephanie Wan",
@@ -345,13 +1200,144 @@
           "source_type": "official_site",
           "quote_or_fact": "Rooms Division recruitment and leadership structure."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/stephanie-wan-a8755734",
+        "display_name": "Stephanie Wan",
+        "headline": "Head of Rooms | Lore Group",
+        "location": "United Kingdom (GB)",
+        "about": "Luxury hospitality professional, with a dedicated focus on driving brand quality standards, team development and exceeding business targets. Strong pre-opening experience, including knowledge of hotel re-branding operations.\n\nTotal Experience: 11 years and 8 months",
+        "experience": [
+          {
+            "title": "Front Desk Agent (Pre-Opening)",
+            "organization": "The London EDITION",
+            "date_range": "Jul 2013 - May 2014",
+            "location": "London, United Kingdom",
+            "description": "Joined as part of the pre-opening team, ahead of the EDITION brand relaunch in London, September 2013. First 3 months spent assisting the Front Office Manager with team recruitment and departmental setup for the operation."
+          },
+          {
+            "title": "Front Office Supervisor",
+            "organization": "The London EDITION",
+            "date_range": "May 2014 - Jul 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Duty Manager",
+            "organization": "The London EDITION",
+            "date_range": "Jul 2015 - Dec 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Front Office Manager",
+            "organization": "The London EDITION",
+            "date_range": "Dec 2015 - May 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Front Office",
+            "organization": "The London EDITION",
+            "date_range": "May 2016 - Sep 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Guest Experience Manager",
+            "organization": "The Upper House",
+            "date_range": "Sep 2016 - Feb 2017",
+            "location": "Hong Kong",
+            "description": "As a Guest Experience Manager, I was supporting the full Front of House Operations made up of the Reception, Guest Relations, Concierge, Bellmen, Valet and Call Centre teams."
+          },
+          {
+            "title": "Front Of House Taskforce (Opening Rebranding)",
+            "organization": "Principal Hotel Company",
+            "date_range": "Jul 2017 - Sep 2017",
+            "location": "Edinburgh, City of Edinburgh, United Kingdom",
+            "description": "FOH Taskforce for pre-opening, ahead of the brand relaunch of The Roxburgh Hotel, to Principal Edinburgh Charlotte Square, in September 2017."
+          },
+          {
+            "title": "Front Of House Manager (Pre-Opening)",
+            "organization": "The Barcelona EDITION",
+            "date_range": "Nov 2017 - Mar 2020",
+            "location": "Barcelona Area, Spain",
+            "description": "I joined the pre-opening team 9 months prior to the hotel opening in July 2018. Involved in the setup of the whole department, leading all areas within Front of House including Reception, Concierge, Bellmen and Guest Experience. During this time, I have had the opportunity to support as Taskforce at the Castillo Hotel Son Vida in Mallorca (a Luxury Collection Hotel) during their Marriott International and Starwood merger, as well as representing the EDITION Brand team as a FOH Trainer for the Pre-opening Countdown at The West Hollywood EDITION."
+          },
+          {
+            "title": "Front Of House Manager (Pre-Opening)",
+            "organization": "Nobu Hotel London Portman Square",
+            "date_range": "Jul 2020 - Nov 2021",
+            "location": "London, England, United Kingdom",
+            "description": "Overseeing the Front of House Operations from Pre-Opening, including Reception, Concierge and VIP Experience."
+          },
+          {
+            "title": "Director Of Rooms (Pre-Opening)",
+            "organization": "One Hundred Shoreditch",
+            "date_range": "Nov 2021 - Dec 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Overseeing the Rooms Operations from Pre-Opening, including Front of House, Guest Engagement, Guest Services and Housekeeping."
+          },
+          {
+            "title": "Head Of Rooms",
+            "organization": "Lore Group",
+            "date_range": "Dec 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Overseeing the Rooms function across our portfolio of Luxury and Lifestyle properties, and championing the Group's new Loyalty partnership with Global Hotel Alliance."
+          }
+        ],
+        "education": [
+          {
+            "school": "Bristol University",
+            "degree_or_field": "2:1, Sociology",
+            "date_range": "2007 - 2010"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Hospitality Management Certificate",
+            "date_range": "May 2020"
+          }
+        ],
+        "skills": [
+          "luxury",
+          "hospitality",
+          "driving",
+          "hotel",
+          "branding",
+          "operations",
+          "p",
+          "less",
+          "foh",
+          "recruitment",
+          "operation",
+          "director",
+          "engagement",
+          "housekeeping",
+          "trainer",
+          "team development",
+          "luxury lifestyle",
+          "front office"
+        ],
+        "activity_themes": [
+          "Luxury hospitality leadership and hotel pre-openings",
+          "Brand culture, high standards and team development",
+          "Promotions and achievements in premium hotels",
+          "Global Hotel Alliance partnerships and loyalty programs",
+          "Sustainability, social impact and work-life balance in hospitality",
+          "Industry awards, training and professional milestones"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/stephanie-wan-a8755734"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Matthew Thomas",
       "title": "Chief Operating Officer",
       "company": "Lore Group",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/matthew-thomas-52026718",
       "email": null,
       "email2": null,
       "phone": null,
@@ -373,7 +1359,147 @@
           "source_type": "official_site",
           "quote_or_fact": "Executive leadership team."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/matthew-thomas-52026718",
+        "display_name": "Matthew Thomas",
+        "headline": "Chief Operating Officer, Lore Group",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 33 years and 4 months",
+        "experience": [
+          {
+            "title": "Food Beverage Management Trainee",
+            "organization": "The Ritz London",
+            "date_range": "Sep 1990 - Jun 1992",
+            "location": "London",
+            "description": "Department: Operations • Level: Intern"
+          },
+          {
+            "title": "Sommelier",
+            "organization": "Omni Hotels",
+            "date_range": "Jul 1992 - Sep 1993",
+            "location": "Hong Kong",
+            "description": "Formally - Omni, The Hong Kong Hotel Currently - Marco Polo, Hong Kong Hotel. Department: Trades • Level: Specialist"
+          },
+          {
+            "title": "Mandarin Grill Retaurant Manager Captain's Bar Manager Assistant Head Waiter Caviar Captain",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Sep 1993 - Nov 1999",
+            "location": "Hong Kong",
+            "description": "Mandarin Oriental, Hong Kong"
+          },
+          {
+            "title": "Conran Restaurants Manager",
+            "organization": "D&D London",
+            "date_range": "Dec 1999 - Sep 2002",
+            "location": "London, United Kingdom",
+            "description": "Le Pont De La Tour Responsible for managing the restaurant (170 seating), bar and grill (100 seating), grocery store, wine merchant, coffee kiosk and private dining (25 seating)"
+          },
+          {
+            "title": "Food Beverage Manager Manager Of Foliage, Michelin Star Restaurant",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Sep 2002 - Jun 2007",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Pre-Opening Management Team, Tokyo",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Oct 2005 - Dec 2005",
+            "location": "Tokyo, Japan",
+            "description": null
+          },
+          {
+            "title": "Pre-Opening Management Team, Prague",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Sep 2006 - Sep 2006",
+            "location": "Prague, Czechia",
+            "description": null
+          },
+          {
+            "title": "Director Of Food Beverage",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Jul 2007 - Mar 2010",
+            "location": "Hong Kong, Hong Kong SAR",
+            "description": "Department: Operations • Level: Director"
+          },
+          {
+            "title": "Resident Manager",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Apr 2010 - Mar 2013",
+            "location": "Boston, Massachusetts, United States",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Standard Hotels",
+            "date_range": "Apr 2013 - Jul 2014",
+            "location": "New York City",
+            "description": "An Andre Balazs Property. Department: Administrative • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Soho House & Co",
+            "date_range": "Jul 2014 - Nov 2015",
+            "location": "New York City",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "General Manager",
+            "organization": "Soho House & Co",
+            "date_range": "Sep 2015 - Nov 2015",
+            "location": "Istanbul",
+            "description": "Department: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Chief Operating Officer Managing Director Of Europe",
+            "organization": "Soho House & Co",
+            "date_range": "Nov 2015 - Nov 2021",
+            "location": "London, England, United Kingdom",
+            "description": "Amsterdam, Barcelona, Berlin, Istanbul, Mykonos, Paris, Rome, Tel Aviv"
+          },
+          {
+            "title": "Chief Executive Officer, Hospitality Collection By Timothy Oulton",
+            "organization": "Timothy Oulton",
+            "date_range": "Dec 2021 - Feb 2023",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Chief Operating Officer",
+            "organization": "Lore Group",
+            "date_range": "Feb 2023 - Present",
+            "location": "London, New York",
+            "description": "Department: C-Suite • Level: C-Level"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "food",
+          "restaurants",
+          "responsible",
+          "grocery",
+          "coffee",
+          "management",
+          "hotel",
+          "director",
+          "property",
+          "mandarin",
+          "hospitality"
+        ],
+        "activity_themes": [
+          "Hospitality leadership transitions and anniversaries",
+          "Luxury hotel industry news and acquisitions",
+          "Leadership development and team building",
+          "Cultural tourism and events",
+          "Diversity, equality and pride celebrations",
+          "New hotel openings and expansions",
+          "Personal growth and positive energy"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "David Taylor",
@@ -406,7 +1532,158 @@
           "source_type": "news",
           "quote_or_fact": "David Taylor appointed CEO at Lore Group."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/davidtaylorhotels",
+        "display_name": "David Taylor MI FIH",
+        "headline": "CEO at Lore Group",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "CEO of Lore Group - 2018/2019 Hotelier of the Year. - Winner of the prestigious ‘Manager of the Year’ award at the 2015 Cateys. - Master Innholder. - Trustee of The Savoy Educational Trust. - Feoffee of Old Swinford Hospital School.\n\nTotal Experience: 30 years and 6 months",
+        "experience": [
+          {
+            "title": "Trainee",
+            "organization": "Hyatt Regency Birmingham",
+            "date_range": "Jan 1995 - Jan 1996",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Agency Sales Specialist",
+            "organization": "Jarvis Hotels",
+            "date_range": "Jan 1996 - Jan 1997",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Corporate Sales Manager",
+            "organization": "Forte Hotels",
+            "date_range": "Jan 1997 - Jan 1999",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Business Development Manager",
+            "organization": "Great Eastern Hotel",
+            "date_range": "Jan 1999 - Jan 2001",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Sofitel St James London",
+            "date_range": "Jan 2001 - Jan 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Jumeirah Carlton Tower - London",
+            "date_range": "Jan 2003 - Jan 2005",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Great Eastern Hotel",
+            "date_range": "Jan 2004 - Jan 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Hoxton",
+            "date_range": "Jul 2006 - Apr 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Chairman",
+            "organization": "St Julian Scholars",
+            "date_range": "Apr 2011 - May 2013",
+            "location": null,
+            "description": "Responsible for the alumni association of hoteliers who had been awarded the prestigious Master Innholders Scholarship"
+          },
+          {
+            "title": "General Manager",
+            "organization": "EDITION",
+            "date_range": "Apr 2012 - Apr 2015",
+            "location": "London, United Kingdom",
+            "description": "EDITION Hotels marks the next chapter in the lifestyle hotel story. The new Brand was conceived by Ian Schrager in a partnership with Marriott International. It combines the personal, intimate, individualized and unique lodging experience that Ian Schrager is known for, with the global reach, operational expertise and scale of Marriott."
+          },
+          {
+            "title": "Chief Operating Officer",
+            "organization": "Principal Hotel Company",
+            "date_range": "Apr 2015 - Jul 2018",
+            "location": "London, United Kingdom",
+            "description": "My role was to lead a team that have created a new hotel brand for some iconic ‘Grand Dame’ hotels for leading Private Equity expert Starwood Capital. PRINCIPAL brought together a collection of UK hotels in cities that have shaped Britain’s history. Based in landmark buildings in well-known neighbourhoods, each hotel celebrated the stories of its surroundings and offered guests a well-considered blend of heritage and modernity: the “Best of British.” With the backing of Starwood Capital, the hotel received a multi-million Capex programme to help position them uniquely with a view of them being sold as a portfolio. Principal was sold to French Real-Estate Investor Covivio for £858 Million representing a substantial return for Starwood."
+          },
+          {
+            "title": "Trustee",
+            "organization": "Savoy Educational Trust",
+            "date_range": "Jan 2018 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Vice President - UK Operations",
+            "organization": "InterContinental Hotels Group (IHG®)",
+            "date_range": "Jul 2018 - Apr 2020",
+            "location": "London, United Kingdom",
+            "description": "Responsible for the successful integration of 12 award winning UK hotels from Starwood Capital into the IHG Family along with IHG's UK Managed Hotels including the Flagship Intercontinental London Park Lane. The acquisition of Principal established IHG as the leading luxury hotel operator in the UK, taking it to more than 2,000 rooms in this valuable, fast growing segment including the flagship Kimpton Fitzroy in London."
+          },
+          {
+            "title": "COO",
+            "organization": "Lore Group",
+            "date_range": "May 2020 - Dec 2021",
+            "location": "London, England, United Kingdom",
+            "description": "Lore Group is an international hospitality company operating in Europe and the United States. In addition to its portfolio of hotel real estate assets, Lore Group also create and manage independent hotels under the Lore Collection. Lore Collection developed and managed the highly awarded Pulitzer, Amsterdam, Sea Containers London and Riggs Washington, D.C.. Lore group recently opened Lyle; also in Washington DC and will open One Hundred Shoreditch (the former ACE Hotel) in Spring 2022. For more information please visit www.loregroup.com"
+          },
+          {
+            "title": "Feoffee (Trustee)",
+            "organization": "Old Swinford Hospital School",
+            "date_range": "Jun 2021 - Present",
+            "location": "Stourbridge, England, United Kingdom",
+            "description": "Feoffee (Trustee) of my former Boarding School Old Swinford Hospital. Very proud old boy and ambassador for this forward looking academic institution."
+          },
+          {
+            "title": "Chief Executive Officer",
+            "organization": "Lore Group",
+            "date_range": "Dec 2021 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Lore Group is an international hospitality company operating in Europe and the United States. In addition to its portfolio of hotel real estate assets, Lore Group also create and manage independent hotels under the Lore Collection. Lore Collection developed and managed the highly awarded Pulitzer, Amsterdam, Sea Containers London and Riggs Washington, D.C.. Lore group recently opened Lyle; also in Washington DC and One Hundred Shoreditch (the former ACE Hotel) most recently in London. For more information please visit www.loregroup.com"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "hospitality",
+          "hotel",
+          "hotels",
+          "director",
+          "sales",
+          "marketing",
+          "lodging",
+          "operations",
+          "integration",
+          "capital",
+          "luxury",
+          "real estate",
+          "private equity",
+          "business development"
+        ],
+        "activity_themes": [
+          "Boarding school leadership appointments",
+          "Luxury hospitality talent and global conversations",
+          "Sea Containers London suite reimagining",
+          "Lore Group graduate training and development",
+          "Cross-cultural hospitality insights",
+          "Career promotions within hospitality industry"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/davidtaylorhotels"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Anna Ashmore",
@@ -434,7 +1711,146 @@
           "source_type": "official_site",
           "quote_or_fact": "Marketing and PR under global director with supporting team."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anna-ashmore-44378574",
+        "display_name": "Anna Ashmore",
+        "headline": "Regional Director of Marketing at Lore Hotels. Sea Containers London & One Hundred Shoreditch",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Driven brand marketing and digital strategist with creative flair and a proven leadership record of building quality brands to deliver profitable results. Extensive experience within the casual and luxury leisure and hospitality sector, from independent start-ups to established, multi-brand global groups. Proven track record in strategic planning, developing and managing creative and digital marketing communications as a science to drive engagement, build brand advocacy and effect positive change. Highly adept at engaging senior stakeholders and fostering productive, collaborative sales & marketing departments through a positive team culture.\n\nTotal Experience: 22 years and 2 months",
+        "experience": [
+          {
+            "title": "PR Marketing Officer",
+            "organization": "The End & AKA",
+            "date_range": "Mar 2003 - Oct 2005 • 2 years and 7 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Events Marketing Manager",
+            "organization": "The Cuckoo Club",
+            "date_range": "Oct 2005 - Mar 2010 • 4 years and 5 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Event Sales",
+            "organization": "Geronimo Inns",
+            "date_range": "Apr 2010 - Oct 2013 • 3 years and 6 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Marketing",
+            "organization": "Dirty Bones",
+            "date_range": "Oct 2013 - Sep 2016 • 2 years and 11 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Group Head Of Sales Marketing",
+            "organization": "Dirty Bones",
+            "date_range": "Oct 2016 - Jun 2019 • 2 years and 8 months",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Brand Marketing Digital Consultant",
+            "organization": "Freelance",
+            "date_range": "Jul 2019 - Jul 2021 • 2 years",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Marketing, UK",
+            "organization": "Hakkasan Group",
+            "date_range": "Jan 2020 - Dec 2020 • 11 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Marketing",
+            "organization": "MJMK Restaurants",
+            "date_range": "Jul 2021 - Jan 2024 • 2 years and 6 months",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Regional Director Of Marketing",
+            "organization": "Lore Group",
+            "date_range": "Jan 2024 - Present • 2 years and 1 month",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "digital marketing",
+          "leadership",
+          "sales",
+          "across",
+          "marketing events",
+          "events",
+          "digital marketing communications",
+          "event management",
+          "stakeholders",
+          "communications",
+          "brand marketing",
+          "collaborative sales",
+          "brands",
+          "business development",
+          "communications consultant",
+          "marketing strategy",
+          "recruiting",
+          "pr & marketing",
+          "strategy",
+          "development",
+          "creativity",
+          "brand management",
+          "network sales",
+          "hospitality",
+          "marketing support",
+          "event marketing",
+          "support",
+          "marketing",
+          "adept",
+          "pr",
+          "start-ups",
+          "marketing communications",
+          "digital strategist",
+          "event sales",
+          "sales head",
+          "events sales",
+          "marketing management",
+          "sales & marketing",
+          "brand advocacy",
+          "managing",
+          "director",
+          "processes",
+          "director marketing",
+          "coordination",
+          "new sales",
+          "management",
+          "best practices",
+          "event marketing strategy",
+          "strategic planning",
+          "collaboration",
+          "planning",
+          "digital consultant",
+          "training",
+          "quality management",
+          "recruiting training",
+          "networking",
+          "dev",
+          "track",
+          "consultant",
+          "advocacy"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Melvin Vella",
@@ -457,7 +1873,92 @@
           "source_type": "official_site",
           "quote_or_fact": "Brand marketing and digital content referenced in site and offers."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/melvin-vella-97621261",
+        "display_name": "Melvin Vella",
+        "headline": "Living at the intersection of Brand, Culture and Lifestyle. Senior Brand Marketing Manager at Lore Group",
+        "location": "Hackney, England, United Kingdom (GB)",
+        "about": "Senior Brand Marketing Manager with 8+ years’ experience across branding, culture…",
+        "experience": [
+          {
+            "title": "Retail Sales Assistant",
+            "organization": "Diesel",
+            "date_range": "May 2006 - May 2007",
+            "location": "Malta",
+            "description": null
+          },
+          {
+            "title": "Coffee Wine Head Barista",
+            "organization": "Fontanella",
+            "date_range": "Jun 2006 - Mar 2010",
+            "location": "Malta",
+            "description": "• Confirmed guest orders including any special requests from the lounge server using the bar’s point-of-sales system. • Prepared and served a selection of beverages from the menu while ensuring proper pouring, mixing, and blending according to established recipes and established standards whilst offering vivid descriptions of the each item’s, origin, taste and preparation methods to guests. • Managed a team of 8 Baristas from 2008 till 2010 at Vinum Winebar."
+          },
+          {
+            "title": "Assistant Merchandiser VM",
+            "organization": "PULL&BEAR",
+            "date_range": "May 2007 - Sep 2009",
+            "location": "Malta",
+            "description": "- Supported and managed the intake of stock into the retail business. - Provided administrative support to the merchandising/planning and buying team by analysing reports (Forecasts + stock levels). - Supported the merchandiser to produce a monthly terminal stock report for the current season. - Ensured on-time delivery of orders to the warehouse by liaising with suppliers on a weekly basis & effectively communicating any changes to the Buying & Merchandising teams. - Answered customer emails/phone calls and built a database of loyal customers."
+          },
+          {
+            "title": "Tourist Information Officer",
+            "organization": "Malta Tourism Authority",
+            "date_range": "Sep 2009 - Mar 2016",
+            "location": "Mdina",
+            "description": "- Provided consistently high levels of customer service in a way that promotes Malta, added to the enjoyment of visitors and value to the information service. - Delivered pro-active levels of ticket and retail sales to enhance the financial performance of the Tourist Information Center. - Responded to inquiries in person at the Tourist Information Center, by phone or by email providing accurate and relevant information which actively encourages people to visit. - Compiled reports on seasonal events outcomes. - Staff training and supervision when required."
+          },
+          {
+            "title": "Europe Marketing Executive",
+            "organization": "Malta Tourism Authority",
+            "date_range": "Mar 2016 - Feb 2019",
+            "location": "Malta",
+            "description": "- Managed dynamic marketing strategies aligned with company objectives alongside the CMO. - Led and managed campaign briefs and initiated campaign kickoffs in collaboration with agency partners. - Curated the annual social media calendar for various social media platforms. - Compiled detailed monthly reports encompassing budgetary and digital marketing activities. - Planned, executed, and managed bespoke press trip programs targeting VIP guests, with a strong emphasis on Influencer Marketing. - Attended international trade shows to nurture supplier relationships and negotiate marketing agreements."
+          },
+          {
+            "title": "International Marketing Coordinator",
+            "organization": "Preferred Hotels & Resorts",
+            "date_range": "Apr 2019 - Apr 2021",
+            "location": "London, United Kingdom",
+            "description": "- Managed the marketing mix for 350 hotels, with a primary focus on social media platforms, reporting directly to the Director of Marketing. - Strategized and curated engaging social media content calendar, driving brand visibility and engagement. - Developed, executed, and spearheaded successful multi-channel campaigns, collaborating with both internal teams and external partners. - Played a key role in planning and implementing the annual marketing plan alongside the international marketing team, ensuring activities were data-driven, measurable, and within budgetary constraints. - Monitored and analyzed comprehensive marketing reports for all digital marketing initiatives, leveraging platforms such as Google Analytics, social media metrics, and Power BI. - Optimized and updated CRM tools to facilitate targeted marketing activities. - Acted as a brand ambassador, participating in press trips to foster brand awareness and strengthen relationships."
+          },
+          {
+            "title": "Marketing Executive",
+            "organization": "The City Pub Group Plc",
+            "date_range": "May 2021 - Sep 2022",
+            "location": "London, England, United Kingdom",
+            "description": "- Developed and executed comprehensive marketing strategies and tactics to drive customer acquisition and retention across content, CRM, digital, app and social channels, reporting directly to the Head of Marketing. - Contributed to the creation and execution of the promotional marketing activity calendar, from concept generation to production and implementation, with a primary focus on Social Media and newsletters. - Created engaging content to drive social media interaction and enhance brand awareness campaigns. - Managed digital paid advertising platforms, including Facebook, Instagram, and Google Ads. - Provided support for centrally-organized events and promotions. - Led and managed app content and promotional calendar, from content curation to scheduling. - Delivered weekly reports on communications and social media performance."
+          },
+          {
+            "title": "Marketing Manager",
+            "organization": "SUITCASE Magazine",
+            "date_range": "Sep 2022 - Aug 2023",
+            "location": "London, England, United Kingdom",
+            "description": "BRAND MARKETING - Collaborated closely with the CEO and the Strategy Director to establish brand objectives, chart strategic direction, and effectively execute comprehensive marketing campaigns across the entire marketing mix. - Developed and implemented marketing campaigns across paid and organic social media, newsletters, and digital paid advertising. - Crafted and nurtured the social media presence and fostered the growth of the vibrant SUITCASE community. - Analyzed and reported the performance of all digital marketing campaigns, evaluating their effectiveness against predetermined goals such as ROI and KPIs. - Leveraged strong analytical skills to assess the end-to-end customer experience across various channels and touchpoints. PARTNERSHIP MARKETING - Collaborated with partners to devise mutually beneficial marketing plans aligned with shared objectives. - Accountable for attaining partner marketing and sales objectives. - Led, executed, and evaluated campaign performance while implementing continuous improvements. - Effectively managed cross-functional teams and internal resources to prioritize campaign delivery. KEY HIGHLIGHTS - Achieved an impressive social media net audience growth of 2,993.8% within 90 days, resulting in a significant expansion of the brand's online reach and engagement. - Successfully enhanced the newsletter database, driving a remarkable growth rate of 36% during the same 90-day period. - Leveraged social paid advertising strategies to effectively reach an impressive 33 million accounts, bolstering brand visibility and awareness."
+          },
+          {
+            "title": "Brand Marketing Manager at One Hundred Shoreditch",
+            "organization": "Lore Group",
+            "date_range": "Aug 2023 - Jan 2026",
+            "location": "London, England, United Kingdom",
+            "description": "Marketing Strategy & Brand Management - Collaborate with the Marketing Director to design and implement creative, multi-channel marketing strategies for the hotel and F&B outlets. - Focus on driving brand awareness, commercial growth, and customer engagement through innovative campaigns, brand partnerships, and creative programming. - Track and report on ROI, ensuring alignment with business objectives and cultural positioning. Brand & PR Management - Ensure brand consistency across all channels, leading omnichannel collaborations and events. - Manage PR agency relationships and spearhead key initiatives like the 100 Club loyalty scheme, while building connections with key opinion leaders (KOLs) and brand ambassadors to enhance reach. Digital & Brand Collateral - Drive digital strategy optimisation across all platforms, including email marketing, SEO, and social media. - Oversee accurate, on-brand digital and printed marketing materials for the hotel and F&B outlets. Partnerships & Programming - Develop and execute innovative monthly programming and brand partnerships, managing timelines, budgets, and deliverables. - Ensure successful event execution, working collaboratively with internal teams. Commercials & Reporting - Manage and track marketing budgets, analyse campaign performance, and measure ROI. - Provide regular performance reports, aligning marketing initiatives with business growth. - Lead and develop the marketing team to ensure the execution of strategic goals."
+          },
+          {
+            "title": "Senior Brand Marketing Manager",
+            "organization": "Lore Group",
+            "date_range": "Jan 2026 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Federica Gallo",
@@ -480,7 +1981,119 @@
           "source_type": "directory",
           "quote_or_fact": "Federica Gallo, Sales Manager at One Hundred Shoreditch (2023 onwards)."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/federica-gallo-8a2213168",
+        "display_name": "Federica Gallo",
+        "headline": "London Region Sales Manager - Entertainment and Corporate",
+        "location": "London, England, United Kingdom",
+        "about": "Managing the Entertainment market for Lore Group London Region representing the vibrant One Hundred Shoreditch and iconic Sea Containers. I have a Bachelor's degree in Business, Management, Marketing, and Advertising from Università LUMSA, and I am passionate about hospitality and customer relationship management. I have over six years of sales and marketing experience in the hospitality industry, working with various types of clients and agencies. I have managed corporate, transient, consortia, and long stay accounts for Native, a leading provider of apart hotels and apartments in London. I have also worked as a Sales Manager at Mama Shelter London and Ace Hotel London, where I increased bookings, revenue, and customer satisfaction. I have contributed to the success of these organizations by using my new business development, CRM, and negotiation skills. I am eager to bring my diverse perspectives and experiences to the team and align my goals with the organization's culture and vision.",
+        "experience": [
+          {
+            "title": "Marketing Coordinator",
+            "organization": "DELFINA DELETTREZ LIMITED",
+            "date_range": "Feb 2015 - Nov 2018",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Ace Hotel London",
+            "date_range": "Nov 2018 - Oct 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Event Sales Manager",
+            "organization": "Mixology Events",
+            "date_range": "Nov 2020 - Feb 2021",
+            "location": null,
+            "description": "From the inquiry to the quick conversion, I have overachieved the monthly sales targets with consistency and attention to detailed client's needs. Corporate and private events."
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Native",
+            "date_range": "Oct 2021 - Feb 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "London Sales Manager",
+            "organization": "Native",
+            "date_range": "Feb 2022 - Aug 2022",
+            "location": null,
+            "description": "Managing corporate, transient agencies, consortia and long stay agencies for our beautiful London properties: 3 Apart Hotels and an expanding collection of apartment in the most gorgeous parts of town."
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Mama Shelter London",
+            "date_range": "Aug 2022 - May 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "One Hundred Shoreditch",
+            "date_range": "May 2023 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Total account management from prospecting to contracting and beyond. Working within the corporate and group segments, I plan and execute activities and promos to strengthen the relations with my clients. Great negotiator and RFP savvy"
+          },
+          {
+            "title": "Regional Sales Manager",
+            "organization": "Lore Group",
+            "date_range": "Jan 2025 - Present",
+            "location": null,
+            "description": "Total account management corporate and entertainment segments both transiently and groups."
+          }
+        ],
+        "education": [
+          {
+            "school": "Università LUMSA",
+            "degree_or_field": "Bachelor's degree Business Management Marketing and Related Support Services",
+            "date_range": "2007 - 2011"
+          }
+        ],
+        "skills": [
+          "entertainment",
+          "management",
+          "marketing",
+          "advertising",
+          "hospitality",
+          "sales",
+          "hotels",
+          "apartments",
+          "hotel",
+          "crm",
+          "negotiation",
+          "rfp",
+          "business management",
+          "relationship management",
+          "hospitality industry",
+          "sales manager",
+          "customer satisfaction",
+          "business development",
+          "negotiation skills",
+          "account management",
+          "private events",
+          "customer relationship management",
+          "new business development"
+        ],
+        "activity_themes": [
+          "Hospitality career transitions and leadership updates",
+          "Role of music in experiential hospitality design",
+          "MICE and sales appointments in luxury hotel groups",
+          "Industry networking in London hospitality sector"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/federica-gallo-8a2213168",
+          "https://www.linkedin.com/posts/mariuscanchel_music-is-not-decoration-it-is-not-a-playlist-activity-7414960685253566464-nqwp",
+          "https://www.linkedin.com/posts/luca-garofalo-30b71646_let-me-share-with-you-all-that-the-last-activity-7414265225463427072-bEzB",
+          "https://www.linkedin.com/posts/lotte-kolster-72001b234_exciting-job-update-thrilled-to-announce-activity-7415442160465936384-0AGy",
+          "https://it.www.linkedin.com/posts/bianchi-group-s.r.l._bianchigroup-pressurizzazione-impiantitecnologici-activity-7415452325068152832-baDe"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Chris Mullings",
@@ -503,7 +2116,71 @@
           "source_type": "official_site",
           "quote_or_fact": "Events and sales roles within commercial operations."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/chris-mullings-a8765091",
+        "display_name": "Chris Mullings",
+        "headline": "Regional Events Operations Manager | Sea Containers & 100 Shoreditch",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 12 years and 9 months",
+        "experience": [
+          {
+            "title": "Event's Operations Supervisor",
+            "organization": "Claridge's",
+            "date_range": "Apr 2013 - Aug 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Events Operations Manager",
+            "organization": "Claridge's",
+            "date_range": "Aug 2015 - Aug 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Event Operations",
+            "organization": "The Carlton Tower Jumeirah",
+            "date_range": "Jun 2021 - Oct 2022",
+            "location": "Knightsbridge, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Regional Events Operations Manager London",
+            "organization": "Lore Group",
+            "date_range": "Nov 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Sea Containers | 100 Shoreditch\nCompany: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Operations • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Kent",
+            "degree_or_field": "Bachelor's degree, Political Science and Government",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "operations",
+          "director"
+        ],
+        "activity_themes": [
+          "Luxury hospitality career promotions and team joins",
+          "Work anniversaries at Maybourne and Claridge's",
+          "Event operations team recognitions and achievements",
+          "International client meetings in Middle East hospitality",
+          "Transitions in luxury events leadership roles"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/rachel-deley-ba133b36_i-am-delighted-to-share-that-i-have-now-officially-activity-7414686644550868992-j8Aq",
+          "https://www.linkedin.com/posts/mathildechabernaud_workanniversary-houseofmaybourne-creatingmemories-activity-7414753940569018368-u13r",
+          "https://www.linkedin.com/posts/claridgeshotel_we-are-incredibly-proud-to-announce-that-activity-7394282878186070016-KNfE",
+          "https://www.linkedin.com/posts/victoria-hernandez-bras_what-an-incredible-week-it-has-been-meeting-activity-7391473478954078208-KatQ",
+          "https://www.linkedin.com/posts/hannah-evitts-_after-an-amazing-few-years-leading-luxury-activity-7389601997768851456-ROnk"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Jacqueline Kneebone",
@@ -531,7 +2208,113 @@
           "source_type": "other",
           "quote_or_fact": "Sustainability responsibilities at properties including One Hundred Shoreditch."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jacqueline-kneebone-64632526",
+        "display_name": "Jacqueline Kneebone",
+        "headline": "Head of Sustainability and Wellness - Lore Group",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Purpose-driven hospitality leader with a proven track record of coordinating wellness and sustainability initiatives at both regional and group levels within the luxury leisure industry on an international stage. Recognised for leading high-impact strategies to enhance guest experiences, drive operational efficiency, and promote sustainability practices. Skilled in project management, stakeholder engagement, and fostering strategic partnerships to achieve business objectives. Natural affinity for completing feasibility studies, developing unique spa concepts, and overseeing brand collaborations to maximise revenue and brand reputation. Utilised analytical qualities while overseeing financial responsibility for multiple business divisions; managed payroll for large teams, oversaw budget planning, yield management, and cost structures to ensure financial efficiency. Recipient of numerous awards and accolades, including recognition as a \"top-performing manager\" for commitment to excellence and innovation.\n\nTotal Experience: 20 years and 5 months",
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Paris Gallery LLC",
+            "date_range": "Dec 2004 - Jan 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Spa And Retail",
+            "organization": "Morgans Hotel Group",
+            "date_range": "Jun 2010 - Feb 2014",
+            "location": "Sanderson",
+            "description": null
+          },
+          {
+            "title": "Regional Director Of Spa And Retail",
+            "organization": "sbe Lifestyle Hospitality",
+            "date_range": "Mar 2014 - Jul 2018",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Front Of House And Wellness",
+            "organization": "Sea Containers London",
+            "date_range": "Aug 2018 - May 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms Division And Wellness",
+            "organization": "Sea Containers London",
+            "date_range": "Apr 2021 - Sep 2021",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Regional Director For ESG",
+            "organization": "Lore Group",
+            "date_range": "Oct 2021 - May 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Sustainability And Wellness",
+            "organization": "Lore Group",
+            "date_range": "Jun 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Cornell University",
+            "degree_or_field": null,
+            "date_range": "2012 - 2014"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "wellness",
+          "sustainability",
+          "luxury",
+          "efficiency",
+          "management",
+          "engagement",
+          "partnerships",
+          "spa",
+          "payroll",
+          "budget",
+          "planning",
+          "yield",
+          "structures",
+          "performing",
+          "innovation",
+          "director",
+          "retail",
+          "leisure industry",
+          "operational efficiency",
+          "project management",
+          "stakeholder engagement",
+          "strategic partnerships",
+          "feasibility studies",
+          "yield management",
+          "rooms division"
+        ],
+        "activity_themes": [
+          "Sustainability and ESG practices in hospitality",
+          "Leadership and innovation in wellness and hospitality",
+          "Arts, creativity and their impact on health",
+          "Nature-first and farm hospitality trends",
+          "Sustainability awards and industry partnerships",
+          "Hospitality sales missions and events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/jacqueline-kneebone-64632526"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Pádraic Randles",
@@ -582,7 +2365,171 @@
           "source_type": "news",
           "quote_or_fact": "Special thanks to Jade Venus who arranged an upgrade."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/jadevenus",
+        "display_name": "Jade Venus",
+        "headline": "Gallery Manager at The National Gallery",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Over twenty years experience delivering excellence in customer service and managing diverse teams. Further ten years experience in management roles, across hospitality, events, marketing, and retail. KEY STRENGTHS • Exceptional knowledge of hotel and hospitality business operations • Proven success in event and project delivery • Consistent track record of leading teams and developing talent • 15 plus years experience exceeding target profits • Strong understanding of arts and culture\n\nTotal Experience: 17 years and 6 months",
+        "experience": [
+          {
+            "title": "Head Waitress And Catering Event Organiser",
+            "organization": "Tartine Catering",
+            "date_range": "May 2003 - Dec 2006 • 3 years and 7 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Customer Service Associate And Multimedia Co-ordinator",
+            "organization": "Borders",
+            "date_range": "Mar 2007 - Jul 2008 • 1 year and 4 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Shop Assistant",
+            "organization": "The Book Grocer",
+            "date_range": "Aug 2008 - Aug 2009 • 1 year",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Permanent Retail Assistant",
+            "organization": "National Gallery of Victoria",
+            "date_range": "Jan 2009 - Aug 2009 • 7 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Sales",
+            "organization": "Paperchase",
+            "date_range": "Sep 2011 - Dec 2013 • 2 years and 3 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Events And Marketing Assistant At London Art Fair",
+            "organization": "Upper Street Events Ltd",
+            "date_range": "Oct 2014 - Jan 2015 • 3 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Project Co-ordinator And Marketing Manager",
+            "organization": "Tactile Projects",
+            "date_range": "Nov 2014 - Jun 2015 • 7 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Desk Agent",
+            "organization": "Ace Hotel / Atelier Ace",
+            "date_range": "Jun 2015 - Jun 2016 • 1 year",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Hotel Manager",
+            "organization": "citizenM hotels",
+            "date_range": "Oct 2017 - Jan 2019 • 1 year and 3 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Co-ordinator Reservations Agent",
+            "organization": "Sea Containers London",
+            "date_range": "Jun 2019 - Oct 2021 • 2 years and 4 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Check-in And Chat Volunteer",
+            "organization": "FoodCycle",
+            "date_range": "Jan 2021 - Present • 2 years and 10 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Guest Engagement Manager",
+            "organization": "One Hundred Shoreditch",
+            "date_range": "Oct 2021 - Jan 2023 • 1 year and 3 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Visitor Engagement And Operations Manager",
+            "organization": "Tate",
+            "date_range": "Apr 2023 - Nov 2024 • 1 year and 7 months",
+            "location": "London, England, United Kingdom",
+            "description": "Duty Manager of Tate Modern and Tate Britain, leading global art museums with over 6 million visitors combined annually, showcasing British and Modern art free to the public, alongside daily corporate public and school events, hosted in gallery, cinema, bar, café, restaurant, and other conference spaces. • Ensured the safety and security of the property, its assets, staff, visitors and reputation at all times, including co-ordinating any required incident response across multiple departments. • Committed leader in creating and developing an exceptional visitor experience guided by warmth, compassion and generosity, through the management of a large 150 plus team to deliver outstanding service throughout their roles. • Championed excellence in venue presentation and operational standards, managing the ongoing demands of exhibiting art and performances in an historical building, by liaising with internal departments and external contractors, to ensure accessibility and diversity were prioritised, while meeting technical and legislative venue requirements. • Lead operations manager for visitor donations, managing all soft and hardware issues, compiling and reconciling any accounting and audit needs, with yearly target achieved for 2023/2024."
+          },
+          {
+            "title": "Gallery Manager",
+            "organization": "The National Gallery",
+            "date_range": "Nov 2024 - Present • 1 year and 3 months",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Goldsmiths, University of London",
+            "degree_or_field": "Master of Fine Arts (M.F.A.) Fine Art",
+            "date_range": "2009 - 2011 • 2 years"
+          }
+        ],
+        "skills": [
+          "management",
+          "hospitality",
+          "marketing",
+          "retail",
+          "hotel",
+          "operations",
+          "arts",
+          "catering",
+          "engagement",
+          "multimedia",
+          "sales",
+          "museums",
+          "cinema",
+          "safety",
+          "security",
+          "property",
+          "compassion",
+          "contractors",
+          "accessibility",
+          "diversity",
+          "accounting",
+          "audit",
+          "reservations",
+          "customer service",
+          "business operations",
+          "project delivery",
+          "modern art",
+          "incident response"
+        ],
+        "activity_themes": [
+          "National Gallery achievements and tourism rankings",
+          "Arts leadership appointments and sector news",
+          "Professional networking and team development",
+          "Tate Modern history and installation teams",
+          "Cultural events and afternoon tea collaborations",
+          "Career milestones in museum operations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/the-national-gallery_the-national-gallery-has-been-ranked-among-activity-7395019304015908864-me65",
+          "https://www.linkedin.com/posts/peridot-partners-ltd_the-national-gallery-holds-a-world-renowned-activity-7378745459709845505-XHwS",
+          "https://www.linkedin.com/posts/anagrigorovici_last-week-we-gathered-to-play-a-heads-up-activity-7379062680067932161-qx0k",
+          "https://www.linkedin.com/posts/doc-cleaning-limited_doc-cleaning-attends-2025-european-cleaning-activity-7382126341543899136-mT7F",
+          "https://www.linkedin.com/posts/the-times_gabriele-finaldi-could-be-forgiven-for-nipping-activity-7371089986680528896-BEVD",
+          "https://www.linkedin.com/posts/jadevenus_time-to-get-busy-activity-7371502133688377344-k-tC",
+          "https://www.linkedin.com/posts/ellie-wyant-9548b647_10-years-a-few-weeks-ago-i-celebrated-a-activity-7366556954913034242-dJN8",
+          "https://www.linkedin.com/posts/mikei-hall-7ba0264a_the-original-art-installation-team-tate-modern-activity-7364233944411566080-GvSv"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Besnik Kadiali",
@@ -605,7 +2552,55 @@
           "source_type": "official_site",
           "quote_or_fact": "Regional operational leadership includes engineering and technical roles."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/besnik-kadiali-337730195",
+        "display_name": "Besnik Kadiali",
+        "headline": "Regional Director of Engineering, Security & Projects",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 13 years and 2 months",
+        "experience": [
+          {
+            "title": "Director Of Engineering, Security Projects",
+            "organization": "SEA CONTAINERS HOTEL LIMITED",
+            "date_range": "Dec 2012 - Jan 2023",
+            "location": null,
+            "description": "Company: Hospitality"
+          },
+          {
+            "title": "Regional Director Of Engineering, Security Projects",
+            "organization": "Lore Group",
+            "date_range": "Jan 2019 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 1001-5000 employees • Privately Held • Hospitality\nDepartment: Operations • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "engineering",
+          "security",
+          "projects"
+        ],
+        "activity_themes": [
+          "Hospitality industry updates and new hotel suites",
+          "Geopolitical topics including Ukraine peace efforts",
+          "Personal growth, mindset and skill development",
+          "Networking visits and industry connections",
+          "Lore Group team, culture and property initiatives"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/rachel-deley-ba133b36_exciting-times-for-us-in-new-york-activity-7387158976548999168-UOuH",
+          "https://www.linkedin.com/posts/jon-dawson-88807128_introducing-the-new-cabin-suites-at-sea-containers-activity-7317947879791235073-f594",
+          "https://www.linkedin.com/posts/keir-starmer_today-i-spoke-to-world-leaders-on-how-we-activity-7306667073584189442-30kW",
+          "https://www.linkedin.com/posts/sergioleandro1304_mindset-alert-never-join-the-easy-crowd-activity-7246118840516919296-HGBe",
+          "https://www.linkedin.com/posts/networking-connections-activity-7113474225125875712-kCRG",
+          "https://www.linkedin.com/posts/jon-dawson-88807128_family-discovery-detail-activity-7098004032882888705-K7sC",
+          "https://www.linkedin.com/posts/stuartgraingersmithmsc_an-interesting-course-well-worth-doing-activity-6653659341670895616-8jlt"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -619,5 +2614,71 @@
     "succeeded": 19,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T02:32:08.593276+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 19,
+      "structured": 18,
+      "discovered": 1,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 1,
+        "content_pages": 19,
+        "cost_estimate": {
+          "approx_total_usd": 0.026,
+          "search_component_usd": 0.007,
+          "contents_component_usd": 0.019,
+          "counts": {
+            "search_requests": 1,
+            "content_pages": 19
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 48790,
+          "cached_prompt_text_tokens": 1152,
+          "completion_tokens": 21437,
+          "reasoning_tokens": 60763,
+          "output_tokens": 0,
+          "total_tokens": 130990
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.588706,
+          "token_component_usd": 0.588706,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 48790,
+            "cached_prompt_text_tokens": 1152,
+            "completion_tokens": 21437,
+            "reasoning_tokens": 60763,
+            "total_tokens_reported": 130990,
+            "output_like_tokens": 82200,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.614706
+    }
   }
 }

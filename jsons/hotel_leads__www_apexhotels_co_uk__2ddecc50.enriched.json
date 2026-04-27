@@ -285,7 +285,7 @@
       "full_name": "Isaac Ayuso",
       "title": "Group Digital Marketing Manager",
       "company": "Apex Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/isaacmab",
+      "linkedin_url": "https://www.linkedin.com/in/isaacmab",
       "email": "isaac.ayuso@apexhotels.co.uk",
       "email2": null,
       "phone": "+44 7484 064546",
@@ -307,13 +307,138 @@
           "source_type": "news",
           "quote_or_fact": "Isaac Ayuso, Group Digital Marketing Manager... By leveraging the Cendyn Digital Marketing Platform, Apex Hotels achieved significant year-over-year direct booking growth."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/isaacmab",
+        "display_name": "Isaac Ayuso",
+        "headline": "Digital Marketing Expert | Brand | Acquisition | Performance | Growth & Innovation",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Total Experience: 15 years and 9 months",
+        "experience": [
+          {
+            "title": "Marketing Assistant",
+            "organization": "Leader Mobile srl",
+            "date_range": "Jun 2009 - May 2010",
+            "location": "España",
+            "description": null
+          },
+          {
+            "title": "Head Of Communication (University Project)",
+            "organization": "Universidad de Valladolid",
+            "date_range": "Oct 2010 - Jul 2011",
+            "location": "Segovia, España",
+            "description": null
+          },
+          {
+            "title": "Assistant Manager",
+            "organization": "PizzaExpress",
+            "date_range": "Jan 2012 - Jan 2017",
+            "location": "Edinburgh, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Marketing Coordinator",
+            "organization": "The BIG Project",
+            "date_range": "Jan 2017 - Dec 2019",
+            "location": "Edinburgh, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "PPC Specialist",
+            "organization": "Apex Hotels",
+            "date_range": "Dec 2019 - May 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Digital Marketing Lead",
+            "organization": "Apex Hotels",
+            "date_range": "May 2021 - Sep 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Digital Marketing Manager",
+            "organization": "Apex Hotels",
+            "date_range": "Sep 2023 - Present",
+            "location": "Edinburgh, Scotland, United Kingdom",
+            "description": "As the Group Digital Marketing Manager at Apex Hotels, I lead a dynamic team of three specialists to drive our digital presence across multiple channels. Our mission is to enhance brand visibility, optimise customer engagement, and maximise conversion rates to support the company’s growth objectives. Key Responsibilities: - Strategic Leadership: Spearhead the planning, execution, and optimisation of digital marketing strategies across Paid Search, Paid Social, Display, Email, SEO, Affiliate, and Metasearch channels. - Team Management: Manage and mentor a team of three: a PPC & SEO Specialist, a Paid Media Specialist, and a Digital Marketing Executive, fostering a collaborative and innovative work environment. - Performance Analytics: Develop measurement strategies and KPIs to assess campaign performance, leveraging tools like Google Analytics and Google Tag Manager for in-depth analysis and insights. - Campaign Optimisation: Plan and refine digital campaigns, ensuring alignment with business objectives and budget constraints to achieve maximum ROI. - Market Research: Identify new market opportunities by researching trends and conducting keyword and audience analysis, ensuring our strategies are ahead of the curve. - Stakeholder Collaboration: Partner with key stakeholders in the wider commercial team to maximise opportunities, aligning digital strategies with broader business goals. Achievements: - Successfully increased direct revenue and website traffic across various business sources, including Accommodation, Food & Beverage, Meetings & Events, and Spa. - Enhanced the performance and workflows of the in-house digital marketing team, significantly increasing efficiency and campaign effectiveness. - Developed and implemented a comprehensive digital strategy that supports city centre and country house hotels, restaurants, meeting spaces, and spas, ensuring tailored approaches for diverse market segments."
+          }
+        ],
+        "education": [
+          {
+            "school": "Universidad de Valladolid",
+            "degree_or_field": "Advertising and Public Relations",
+            "date_range": "2006 - 2011"
+          },
+          {
+            "school": "Edinburgh College",
+            "degree_or_field": "Interactive Media",
+            "date_range": "2012 - 2014"
+          },
+          {
+            "school": "Edinburgh Napier University",
+            "degree_or_field": "Creative Computing",
+            "date_range": "2014 - 2015"
+          }
+        ],
+        "skills": [
+          "digital marketing",
+          "customer engagement",
+          "strategic leadership",
+          "team management",
+          "google analytics",
+          "market research",
+          "digital strategy",
+          "google tag manager",
+          "digital",
+          "marketing",
+          "hotels",
+          "engagement",
+          "rates",
+          "leadership",
+          "planning",
+          "seo",
+          "management",
+          "ppc",
+          "analytics",
+          "analysis",
+          "campaigns",
+          "budget",
+          "research",
+          "collaboration",
+          "commercial",
+          "food",
+          "spa",
+          "efficiency",
+          "strategy",
+          "restaurants"
+        ],
+        "activity_themes": [
+          "Hospitality digital marketing and search engine trends for hotel bookings",
+          "Performance optimization and revenue growth in hotels",
+          "Leadership, mentoring and team development in marketing",
+          "Industry networking events and business leader development",
+          "CX, marketing strategy and Scottish hospitality sector",
+          "Hotel achievements, transformations and nominations"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/isaacmab_hospitalitymarketing-digitalstrategy-searchmarketing-activity-7419149101214363649-k75O",
+          "https://www.linkedin.com/posts/averil-wilson-357184a_its-a-great-day-when-you-see-the-what-the-activity-7417334627079626752-GR_h",
+          "https://www.linkedin.com/posts/brianfrasermrg_im-back-out-of-office-is-officially-activity-7406985146006020097-eInY",
+          "https://www.linkedin.com/posts/kirsty-hays-assoc-cipd-4b969817b_a-big-thank-you-to-thrive-for-hosting-such-activity-7407481108835241984-r1k_",
+          "https://www.linkedin.com/posts/chris-ward-56346812_proud-moment-alert-in-our-first-full-season-activity-7401684610763620352-0jlc",
+          "https://www.linkedin.com/posts/carysrees25_marketingstrategy-cx-hospitalitymarketing-activity-7404490078754013184-XtX3"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Craig Fletcher",
       "title": "Revenue & Sales Director",
       "company": "Apex Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/craig-fletcher-rm",
+      "linkedin_url": "https://www.linkedin.com/in/craig-fletcher-rm",
       "email": null,
       "email2": null,
       "phone": null,
@@ -341,7 +466,7 @@
       "full_name": "Yvonne Brennan",
       "title": "Brand & Guest Experience Director",
       "company": "Apex Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/yvonneseator",
+      "linkedin_url": "https://www.linkedin.com/in/yvonneseator",
       "email": null,
       "email2": null,
       "phone": null,
@@ -363,13 +488,39 @@
           "source_type": "official_site",
           "quote_or_fact": "Marketing marketing@apexhotels.co.uk"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/yvonneseator",
+        "display_name": "Yvonne Brennan",
+        "headline": "International Marketing & Brand Operator",
+        "location": "United Kingdom (GB)",
+        "about": "15 years senior-level experience within commercial organisations setting revenue-generation, brand-building and audience-growth communications strategies, with passion for people development. Skilled in deploying rigorous project governance, managing risk, and aligning campaigns to strategic priorities. Recognised for ability to influence at senior level, embed continuous improvement, and develop effective, positive relationships across business functions. Experience across varied sectors including SaaS, travel, finance and events, creating high-performing & engaged teams, leading in turn to successful project outcomes.",
+        "experience": [],
+        "education": [],
+        "skills": [
+          "commercial",
+          "communications",
+          "governance",
+          "risk",
+          "campaigns",
+          "saas",
+          "finance",
+          "performing",
+          "people development",
+          "project governance",
+          "continuous improvement"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": "No specific experience or education entries listed in the profile text."
+      }
     },
     {
       "full_name": "Susan Brown",
       "title": "Revenue Manager",
       "company": "Apex Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/susan-brown-7a7792a1",
+      "linkedin_url": "https://www.linkedin.com/in/susan-brown-7a7792a1",
       "email": null,
       "email2": null,
       "phone": null,
@@ -391,13 +542,112 @@
           "source_type": "official_site",
           "quote_or_fact": "Reservations 0800 049 8000"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/susan-brown-7a7792a1",
+        "display_name": "Susan Brown",
+        "headline": "Revenue and Events Manager",
+        "location": "Airdrie, Scotland, United Kingdom (GB)",
+        "about": "Total Experience: 17 years and 3 months",
+        "experience": [
+          {
+            "title": "Rooms Controller",
+            "organization": "Marriott Hotels",
+            "date_range": "Nov 2008 - Nov 2009",
+            "location": "Edinburgh, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reception Supervisor",
+            "organization": "Marriott Hotels",
+            "date_range": "Nov 2009 - Aug 2010",
+            "location": "Edinburgh, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Agent",
+            "organization": "Radisson Blu",
+            "date_range": "Aug 2010 - Oct 2013",
+            "location": "Glasgow, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Reservations Supervisor",
+            "organization": "Radisson Blu",
+            "date_range": "Oct 2013 - Feb 2018",
+            "location": "Glasgow, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Lead Revenue Creative (Revenue Office Manager)",
+            "organization": "Radisson RED",
+            "date_range": "Feb 2018 - May 2019",
+            "location": "Glasgow, United Kingdom",
+            "description": "Opened the first Radisson RED in the UK. Managing revenue for 174 beds, 3 meeting rooms and private events in RED Sky Bar."
+          },
+          {
+            "title": "Group, Conference And Events Sales Manager",
+            "organization": "DoubleTree by Hilton Glasgow Westerwood Spa and Golf Resort",
+            "date_range": "May 2019 - Oct 2023",
+            "location": null,
+            "description": "Managing a team of 5 people. Sales and Revenue management for 148 beds and 10 meetings spaces."
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "The Address Collective",
+            "date_range": "Oct 2023 - Nov 2024",
+            "location": "Glasgow, Scotland, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Apex Hotels",
+            "date_range": "Nov 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Glasgow Caledonian University",
+            "degree_or_field": "Bachelor of Arts (B.A.), Tourism and Travel Services Management",
+            "date_range": "2005 - 2008"
+          },
+          {
+            "school": "HOSPA",
+            "degree_or_field": "Revenue Managment, Pass with Merit",
+            "date_range": "2023 - 2024"
+          }
+        ],
+        "skills": [
+          "creative",
+          "reservations",
+          "sales",
+          "management",
+          "private events",
+          "sales manager",
+          "revenue management"
+        ],
+        "activity_themes": [
+          "Career transitions and new roles in Scottish hospitality",
+          "Revenue management insights and white paper launches",
+          "Hotel events, ballroom openings, and large conferences",
+          "Industry awards, shortlists, and leadership recognition",
+          "Networking at executive sessions, FAM trips, and ICCA meetings",
+          "Professional handovers, exits, and new ventures in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/susan-brown-7a7792a1"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ben Pope",
       "title": "Cluster Revenue Manager / Reservations Manager",
       "company": "Apex Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/ben-pope-7aa70318",
+      "linkedin_url": "https://www.linkedin.com/in/ben-pope-7aa70318",
       "email": null,
       "email2": null,
       "phone": null,
@@ -419,13 +669,82 @@
           "source_type": "official_site",
           "quote_or_fact": "Reservations phone and edinburgh.reservations@apexhotels.co.uk"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ben-pope-7aa70318",
+        "display_name": "Ben Pope",
+        "headline": "Cluster Revenue Manager at Apex Hotels",
+        "location": "Edinburgh, Scotland, United Kingdom (GB)",
+        "about": "Experienced Reservations Manager with a demonstrated history of working in the hospitality industry. Strong operations professional skilled in MICROS, Front Office, Hospitality Management, and Customer Service.",
+        "experience": [
+          {
+            "title": "Assistant Contact Centre Manager",
+            "organization": "Apex Hotels",
+            "date_range": "Jan 2004 - Aug 2012",
+            "location": null,
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Reservations Centre Manager",
+            "organization": "Apex Hotels",
+            "date_range": "Aug 2012 - Present",
+            "location": "Edinburgh, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Apex Hotels",
+            "date_range": "Nov 2018 - Present",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "Edinburgh Napier University",
+            "degree_or_field": "BA Joint Hons, Hospitality & Entrepreneurship",
+            "date_range": "1999 - 2003"
+          }
+        ],
+        "skills": [
+          "hospitality industry",
+          "front office",
+          "hospitality management",
+          "customer service",
+          "reservations",
+          "hospitality",
+          "operations",
+          "micros",
+          "management",
+          "cluster"
+        ],
+        "activity_themes": [
+          "Scottish nature restoration and wildlife conservation",
+          "Outdoor activities: hiking, climbing, camping",
+          "Professional development and self-employment",
+          "Hospitality industry awards and team events",
+          "Charity gatherings and community causes",
+          "Early careers and rent-free living programs"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/team-handshake_handshakeeurope-liverentfree-earlycareers-activity-7351599493382819841-E-oi",
+          "https://www.linkedin.com/posts/ignitison-energysmart-activity-7337823645773234176-Ssjq",
+          "https://www.linkedin.com/posts/susan-heaton-730a5b47_this-year-marks-20-years-of-self-employment-activity-7333091917989113856-E9vf",
+          "https://www.linkedin.com/posts/danny-carden-96253a38_cracking-day-representing-the-ramblers-at-activity-7333514896233447424-s6rE",
+          "https://www.linkedin.com/posts/thomas-widrow_naturerestoration-scotland-activity-7325528612919468032-r-89",
+          "https://www.linkedin.com/posts/danny-carden-96253a38_it-should-hardly-come-as-a-shock-to-me-by-activity-7325976688096329729-EPjd",
+          "https://www.linkedin.com/posts/cairngorms-national-park-authority_international-beaver-day-activity-7315056356162506752-YUtK",
+          "https://www.linkedin.com/posts/elenaconsoli_teaching-yoga-in-unconventional-spaces-is-activity-7314997204883034112-iWXk"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lyndsey Gibson",
       "title": "Front Office Manager (Dundee)",
       "company": "Apex Hotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/lindsay-gibson-31191622",
       "email": "lyndsey.gibson@apexhotels.co.uk",
       "email2": null,
       "phone": null,
@@ -447,13 +766,178 @@
           "source_type": "official_site",
           "quote_or_fact": "Dundee property reservation email and phone."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lindsay-gibson-31191622",
+        "display_name": "Lindsay Gibson",
+        "headline": "Senior Consultant at PKF Hospitality | Development & Advisory",
+        "location": "Los Angeles, California, United States",
+        "about": "As an internationally ranked athlete and a proud alumni of USC, Lindsay Gibson diligently works with Rosano Partners as a Transaction Coordinator and Cannabis Property Specialist within the Cannabis Investment Sales Group. Gibson focuses on cultivation, manufacturing and retail spaces throughout the state of California and works closely with progressive municipalities to ensure quality listings corresponding with current legislation. With Gibson’s approachable and charismatic demeanor, she is adept at negotiating, serving and recognizing clients’ needs. Additionally, her immense knowledge within the cannabis market allows her to identify and underwrite properties at their highest potential. Gibson and her team provide their clients with a strategic advantage in the cannabis market and continue to act on current and future ordinances for legal marijuana businesses.",
+        "experience": [
+          {
+            "title": "Store Owner Assistant",
+            "organization": "Ambiance",
+            "date_range": "Jan 2009 - Jan 2010",
+            "location": "Rochester, New York Area",
+            "description": "Assisted a renowned interior designer in her grand home and gift store, Ambiance. I happily contributed to the necessary efforts to ensure superior customer service and to maintain a smooth running business. Tasks included: interacting with owner, employees and customers, filing paperwork, organizing the stock room, answering phone calls, assembling furniture, controlling shipments and assisting the owner in any fashion."
+          },
+          {
+            "title": "Lead Hostess",
+            "organization": "Indigo Restaurant",
+            "date_range": "May 2011 - Aug 2012",
+            "location": "Atlanta, Georgia",
+            "description": "Worked as the main hostess at Indigo, a 4 star restaurant located in Atlanta Georgia. Being the first employee to interact with the guests, I focused on creating a welcoming and luxurious atmosphere to best represent the restaurant. Tasks included: scheduling reservations through OpenTable software, accommodating to the guests’ wishes, interacting with the chefs and managers, and ensuring a quality experience for all guests."
+          },
+          {
+            "title": "USC Rowing Team",
+            "organization": "University of Southern California",
+            "date_range": "Aug 2012 - May 2016",
+            "location": null,
+            "description": "Team captain 2014-2015"
+          },
+          {
+            "title": "Volunteer",
+            "organization": "A Place Called Home",
+            "date_range": "Jan 2014 - Apr 2014",
+            "location": "Greater Los Angeles Area",
+            "description": "Volunteer at an after school program for underprivileged youth at A Place Called Home in South Central, Los Angeles. Engaged with students ranging from ages 8-18 years old during their recess time as I both coach and participate in all sports games. My time was spent working with my volunteer partners formulating proper games based on the kids’ attitudes within the limited space available. Tasks include: problem solving, diffusing arguments, encouraging appropriate behavior and ultimately being an influential adult that the kids can trust."
+          },
+          {
+            "title": "Guest And Host Services Representative Property Manager",
+            "organization": "onefinestay",
+            "date_range": "May 2015 - Aug 2015",
+            "location": "Los Angeles",
+            "description": "Summer represenative at an international property management and home rental company. Worked within Los Angeles guest and host relations to ensure customer satisfaction throughout the host’s time away and the guests in stay. In addition to local service, I also helped manage hosts and guests located in London, Paris and New York with onefinestay’s databases and software. Tasks included: persistent communication with hosts and guests, managing properties, spontaneous problem solving, efficient use of company’s multi databases, communication and teamwork with the sales and home department."
+          },
+          {
+            "title": "Associate And Transaction Coordinator, Cannabis Investment Group",
+            "organization": "Rosano Capital Partners",
+            "date_range": "Feb 2017 - Jan 2019",
+            "location": "700 S Flower St Los Angeles, CA 90017",
+            "description": "Managed and amplified firm's top producing team with deep market knowledge of cannabis legislation throughout California. Managed all sale and lease transactions through juridical hurtles and extensive escrow timelines. Created a proprietary and interactive map of all qualified properties in the Greater Los Angeles Area to enhance team's productivity and profitability."
+          },
+          {
+            "title": "Senior Strategy And Operations Director, Senior Associate",
+            "organization": "Rosano Capital Partners",
+            "date_range": "Nov 2018 - Jun 2022",
+            "location": null,
+            "description": "Develop and implement retention strategies/KPIs to maximize Rosano Partners impact in the LA and SD market. Manage accounting, office support staff and control company wide CRM."
+          },
+          {
+            "title": "Senior Construction Project Manager Asset Manager",
+            "organization": "Roman Group LLC",
+            "date_range": "Mar 2019 - Jun 2022",
+            "location": null,
+            "description": "Responsible for the development, management and stabilization of commercial and residential projects while maintaining profitability and schedule adherence to assure investor return. Enthusiastically implements and executes the conceptual planning/design, permitting, construction, and turnover."
+          },
+          {
+            "title": "Principal",
+            "organization": "Gibson Enterprise",
+            "date_range": "Sep 2023 - Present",
+            "location": "Los Angeles, California, United States",
+            "description": "Distressed Repositioning, Rescue Capital, Ground Up Development & Advisory"
+          },
+          {
+            "title": "Development Consultant",
+            "organization": "Local Equity",
+            "date_range": "Jan 2024 - Jan 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Consultant",
+            "organization": "PKF hospitality group",
+            "date_range": "Mar 2024 - Jan 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Consultant",
+            "organization": "PKF hospitality group",
+            "date_range": "Jan 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Southern California",
+            "degree_or_field": "Bachelor's degree, Political Science and Government, Sociology",
+            "date_range": "2012 - 2016"
+          },
+          {
+            "school": "USC Dollinger Master of Real Estate Development",
+            "degree_or_field": null,
+            "date_range": "2022 - 2023"
+          }
+        ],
+        "skills": [
+          "property",
+          "sales",
+          "manufacturing",
+          "retail",
+          "municipalities",
+          "legislation",
+          "legal",
+          "management",
+          "databases",
+          "software",
+          "teamwork",
+          "scheduling",
+          "reservations",
+          "strategy",
+          "operations",
+          "director",
+          "sd",
+          "accounting",
+          "crm",
+          "construction",
+          "commercial",
+          "residential",
+          "projects",
+          "profitability",
+          "planning",
+          "design",
+          "permitting",
+          "producing",
+          "escrow",
+          "organizing",
+          "controlling",
+          "rescue",
+          "capital",
+          "property management",
+          "customer satisfaction",
+          "problem solving",
+          "retention strategies",
+          "project manager",
+          "development management",
+          "customer service"
+        ],
+        "activity_themes": [
+          "Hospitality industry trends and boutique hotels",
+          "Commercial real estate leasing and industrial properties",
+          "Real estate restructuring and investment panels",
+          "Leadership, bold moves and professional development",
+          "Sports contracts, athlete careers and NFL insights",
+          "USC athletics and alumni achievements"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/nadine-watt_had-a-wonderful-time-on-the-restructured-activity-7402151912130699265-FoFO",
+          "https://www.linkedin.com/posts/robert-feathers-sior-62683775_kiddermathews-industrialtenantrep-inlandempireindustrial-activity-7403960849339457536-X2rD",
+          "https://www.linkedin.com/posts/ariela-kiradjian_boutiquehotels-luxuryhotels-blla-activity-7398794147777822720-x4kT",
+          "https://www.linkedin.com/posts/devon-kennard-b1080547_everybody-loves-to-talk-about-10-million-activity-7396229793782042624-P7rF",
+          "https://www.linkedin.com/posts/joeyhughestcla_15-years-ago-facebook-reminded-me-of-something-activity-7393779992788230144-MOJC",
+          "https://www.linkedin.com/posts/michelleosborne_power-moves-only-dont-miss-sam-bakhshandehpour-activity-7391916698607669248-msR9"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Averil Wilson",
       "title": "Managing Director",
       "company": "Apex Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/averil-wilson-357184a",
+      "linkedin_url": "https://www.linkedin.com/in/averil-wilson-357184a",
       "email": null,
       "email2": null,
       "phone": null,
@@ -475,13 +959,78 @@
           "source_type": "news",
           "quote_or_fact": "Averil Wilson, Managing Director of Apex Hotels, commented on new appointments."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/averil-wilson-357184a",
+        "display_name": "Averil Wilson",
+        "headline": "Board Director at Apex Hospitality Group, Managing Director - Apex Hotels",
+        "location": "Edinburgh, Scotland, United Kingdom (GB)",
+        "about": "Total Experience: 33 years and 3 months",
+        "experience": [
+          {
+            "title": "Associate Director, Transaction Services",
+            "organization": "KPMG",
+            "date_range": "Jan 1992 - Jan 2006",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Finance Director, UK",
+            "organization": "Lionsgate",
+            "date_range": "Jan 2006 - Aug 2009",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Wholesale Equity Finance",
+            "organization": "Lloyds Banking Group",
+            "date_range": "Jun 2010 - Aug 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Finance Director",
+            "organization": "Apex Hotels",
+            "date_range": "Aug 2011 - Jan 2020",
+            "location": "Edinburgh, United Kingdom",
+            "description": "Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Managing Director",
+            "organization": "Apex Hotels",
+            "date_range": "Jan 2020 - Present",
+            "location": "Edinburgh, United Kingdom",
+            "description": "Department: C-Suite • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "finance",
+          "wholesale"
+        ],
+        "activity_themes": [
+          "Apex Hotels shortlisted for community awards",
+          "Apex Scholars Lunch and Learn events with university students",
+          "Partnerships with event companies for Apex London hotels",
+          "Hotel refurbishment projects including Dunblane Hydro",
+          "Sustainability initiatives like renewable energy and EV charging",
+          "Recognition for exceptional hotel properties like The Resident Edinburgh",
+          "Supporting next generation business leaders and scholarship recipients",
+          "Commentary on tax rises impacting the hospitality sector"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/averil-wilson-357184a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Kim Davis",
       "title": "Group Sales Director",
       "company": "Apex Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/kimwilkinson1",
+      "linkedin_url": "https://www.linkedin.com/in/kimwilkinson1",
       "email": null,
       "email2": null,
       "phone": null,
@@ -503,7 +1052,105 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales and Groups contact details"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/kimwilkinson1",
+        "display_name": "Kim Davis",
+        "headline": "Group Director of Sales at Apex Hotels •London  •Edinburgh •Dundee •Glasgow  •Bath",
+        "location": "Edinburgh, Scotland, United Kingdom (GB)",
+        "about": "Group Sales Director for Apex Hotels.Management of both the Pro-Active and Re-Active Sales & Events Teams, including Corporate & MICE for 10 UK Hotels including London, Edinburgh, Dundee, Bath & Glasgow.\n\nTotal Experience: 36 years and 5 months",
+        "experience": [
+          {
+            "title": "Sales Administrator",
+            "organization": "Kellys MFP",
+            "date_range": "Sep 1989 - Dec 1996",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Trainee Para Legal In Conveyancing",
+            "organization": "Kippen Campbell",
+            "date_range": "Dec 1996 - Nov 1997",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Manager",
+            "organization": "ML",
+            "date_range": "Nov 1997 - Oct 1998",
+            "location": null,
+            "description": "Pre opening Manager of store, selling high end designer clothing via prospecting and appointments."
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Bett Inns",
+            "date_range": "Jun 1998 - Jun 2000",
+            "location": null,
+            "description": "Corporate Account Manager looking after local accommodation and event bookers"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Dundee & Angus Convention Bureau",
+            "date_range": "Jan 2000 - Jul 2003",
+            "location": "Dundee, Scotland, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Apex Hotels",
+            "date_range": "Jul 2003 - May 2008",
+            "location": null,
+            "description": "Opening Sales Manager for Apex City Quay & Spa (Dundee). A Group role responsible for Key Account Management of Corporate & MICE clients"
+          },
+          {
+            "title": "Business Development Director, Dundee",
+            "organization": "Apex Hotels",
+            "date_range": "May 2008 - Jan 2015",
+            "location": null,
+            "description": "Head of Sales & Events Planning Departments for Apex Hotels - Scotland"
+          },
+          {
+            "title": "Director Of Sales, Central Scotland",
+            "organization": "Apex Hotels",
+            "date_range": "Jan 2015 - Sep 2019",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Director Of Sales",
+            "organization": "Apex Hotels",
+            "date_range": "Sep 2019 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales",
+          "director",
+          "hotels",
+          "management",
+          "selling",
+          "spa",
+          "responsible",
+          "planning",
+          "legal",
+          "conveyancing",
+          "sales manager",
+          "account management",
+          "business development",
+          "key account management"
+        ],
+        "activity_themes": [
+          "Engagement on topics of trust and courage"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/kimwilkinson1",
+          "https://www.linkedin.com/posts/kimwilkinson1_great-post-sheena-so-well-said-trust-and-activity-7422175661466947585-dhME"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Angela Vickers",
@@ -526,7 +1173,79 @@
           "source_type": "official_site",
           "quote_or_fact": "Angela Vickers – CEO... driving force behind our operational and strategic direction decision making."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/angela-vickers-93775218",
+        "display_name": "Angela Vickers",
+        "headline": "Board Director at Apex Hospitality Group\nManaging Director, Monogram Collective",
+        "location": "Edinburgh, Scotland, United Kingdom (GB)",
+        "about": "Total Experience: 25 years and 9 months",
+        "experience": [
+          {
+            "title": "Audit Senior",
+            "organization": "KPMG UK",
+            "date_range": "Aug 1989 - Jan 1993",
+            "location": "Glasgow",
+            "description": "Department: Finance & Accounting • Level: Senior\nCompany: 10,001+ employees • Founded 1987 • Partnership • Business Consulting and Services"
+          },
+          {
+            "title": "Group Financial Controller",
+            "organization": "Stakis / Hilton Hotels",
+            "date_range": "Jan 1993 - Jan 2001",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Finance Director Corporate Services",
+            "organization": "Damovo",
+            "date_range": "Jul 2001 - Mar 2004",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Director"
+          },
+          {
+            "title": "Managing Director",
+            "organization": "Apex Hotels",
+            "date_range": "Apr 2004 - Dec 2015",
+            "location": null,
+            "description": "Department: C-Suite • Level: Director\nCompany: 501-1000 employees • Founded 1996 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "University of Glasgow",
+            "degree_or_field": "BAcc, Accountancy",
+            "date_range": "1986 - 1989"
+          },
+          {
+            "school": "Institute of Chaterted Accountants of Scotland",
+            "degree_or_field": "CA, Accountancy",
+            "date_range": "1989 - 1992"
+          },
+          {
+            "school": "University of Strathclyde",
+            "degree_or_field": "Master's Degree, Executive Masters in Hospitality and Tourism Leadership, Master of Science with Distinction. The Executive Masters was awarded in partnership with Cornell School of Hotel Administration, Ithaca, New York and Ecole hoteliere de Lausanne, Switzerland.",
+            "date_range": "2012 - 2014"
+          }
+        ],
+        "skills": [
+          "audit",
+          "finance",
+          "director"
+        ],
+        "activity_themes": [
+          "Scottish hospitality and hotel industry events",
+          "Leadership development and Vistage chair conferences",
+          "Sustainability initiatives in hotels",
+          "Luxury hotel delegations and networking",
+          "Professional promotions and business updates",
+          "Industry books, podcasts and crowdfunding"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/angela-vickers-93775218"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Max Simpkins",
@@ -554,13 +1273,100 @@
           "source_type": "official_site",
           "quote_or_fact": "Groups & Events contact details"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/max-simpkins-41152a9b",
+        "display_name": "Max Simpkins",
+        "headline": "Account Director, Global Sales - Group  -SITE GB board member.",
+        "location": "London, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Sales And Marketing Assistant",
+            "organization": "ITC Hotels",
+            "date_range": "Jan 2014 - Dec 2014",
+            "location": null,
+            "description": "ITC Maurya New Delhi - A Luxury Collection Hotel\nDepartment: Sales • Level: Specialist"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Taj Hotels Palaces Resorts Safaris",
+            "date_range": "Jan 2015 - Jan 2017",
+            "location": "London, United Kingdom",
+            "description": "Worked as a Sales Executive for the Taj 51 Buckingham Gate Suites & Residences (5*) and St. James’ Court, a Taj Hotel, London (4* deluxe).\nDepartment: Sales • Level: Manager"
+          },
+          {
+            "title": "Senior Sales Executive",
+            "organization": "Shangri-La Group",
+            "date_range": "Jan 2017 - Dec 2017",
+            "location": "London, United Kingdom",
+            "description": "Department: Sales • Level: Senior"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Shangri-La Hotels and Resorts",
+            "date_range": "Jul 2017 - Jan 2022",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Director",
+            "organization": "Apex Hotels",
+            "date_range": "Dec 2021 - May 2023",
+            "location": "London • Bath • Edinburgh • Glasgow • Dundee",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales -MICE Director Of Group Sales GSO",
+            "organization": "Langham Hospitality Group",
+            "date_range": "May 2023 - Oct 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Account Director, Global Sales - Group (London)",
+            "organization": "Shangri-La Group",
+            "date_range": "Oct 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Department: Sales"
+          }
+        ],
+        "education": [
+          {
+            "school": "Marlwood high school Avon Bristol",
+            "degree_or_field": "GCSE's & AS leves",
+            "date_range": "2003 - 2009"
+          },
+          {
+            "school": "City of Bristol college",
+            "degree_or_field": "BTEC National Extended Diploma in Hospitality, Hospitality Administration/Management",
+            "date_range": "2009 - 2010"
+          },
+          {
+            "school": "IHTTI School of Hotel Management",
+            "degree_or_field": "Bachelor's degree, Hotel/Motel Administration/Management, 1st class honours. Ambassador of Swiss education group. Activities and Societies: Sports",
+            "date_range": "2010 - 2014"
+          }
+        ],
+        "skills": [
+          "sales manager",
+          "director",
+          "sales",
+          "marketing"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/max-simpkins-41152a9b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ronnie MacKay",
       "title": "Cluster General Manager / GM Dundee",
       "company": "Apex Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/ronnie-mackay-12b68a123",
+      "linkedin_url": "https://www.linkedin.com/in/ronnie-mackay-12b68a123",
       "email": null,
       "email2": null,
       "phone": "01382 202 404",
@@ -577,7 +1383,81 @@
           "source_type": "official_site",
           "quote_or_fact": "Ronnie MacKay, General Manager of Apex City Quay Hotel & Spa."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ronnie-mackay-12b68a123",
+        "display_name": "Ronnie MacKay",
+        "headline": "Cluster General Manager at Apex Hotels",
+        "location": "Edinburgh, Scotland, United Kingdom (GB)",
+        "about": "Total Experience: 32 years and 5 months",
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Macdonald Hotels & Resorts",
+            "date_range": "Sep 1993 - Apr 1999 • 5 years and 7 months",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Hand Picked Hotels",
+            "date_range": "Apr 1999 - Jan 2017 • 17 years and 9 months",
+            "location": "Norton House Hotel and Spa",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Hand Picked Hotels",
+            "date_range": "Jan 2017 - Jun 2017 • 5 months",
+            "location": "St Pierre Park Hotel, Spa and Golf Resort",
+            "description": null
+          },
+          {
+            "title": "Regional Managing Director",
+            "organization": "Macdonald Hotels & Resorts",
+            "date_range": "Jun 2017 - Mar 2018 • 9 months",
+            "location": "Scotland - Central Belt",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Apex Hotels",
+            "date_range": "Mar 2018 - Mar 2022 • 4 years",
+            "location": "Dundee City Quay Hotel & Spa",
+            "description": null
+          },
+          {
+            "title": "Cluster General Manager",
+            "organization": "Apex Hotels",
+            "date_range": "Mar 2022 - Present • 3 years and 11 months",
+            "location": "Edinburgh City, Scotland, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Robert Gordon's",
+            "degree_or_field": "Bachelor of Arts (B.A.), Hotel, Catering and Institutional Administration",
+            "date_range": "1985 - 1989 • 4 years"
+          }
+        ],
+        "skills": [
+          "cluster",
+          "director"
+        ],
+        "activity_themes": [
+          "Apex Hotels expansions and property integrations",
+          "Hospitality awards and industry events",
+          "Team achievements and hotel reopenings",
+          "Charity events and community giving",
+          "Fundraising and networking in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/ronnie-mackay-12b68a123"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Carol Nicklin",
@@ -623,7 +1503,32 @@
           "source_type": "news",
           "quote_or_fact": "Anna Hart has been appointed as People & Culture Director."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anna-h-71a87b17",
+        "display_name": "Anna H.",
+        "headline": "People Director/CPO/HRD               Culture Change | People Strategy | Organisational Development | C-Suite & Board Stakeholder Management",
+        "location": "United Kingdom (GB)",
+        "about": null,
+        "experience": [],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Celebrating apprenticeship graduates and team support in hospitality",
+          "Promoting National Apprenticeship Week and hotel-based scholarship programs",
+          "Congratulating scholars and young people starting careers",
+          "Parenting advice on repairing mistakes and relationships",
+          "Highlighting concerns about AI misuse on social media",
+          "New year workplace reflections and culture insights",
+          "Retirement transitions after long careers without breaks",
+          "Responsible puppy rehoming and avoiding red flags",
+          "Facilitation, presentation skills, and relaxed delivery",
+          "HR leadership roles, organizational design, and economic development partnerships"
+        ],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": "Fetched text contains only profile header and activity feed (shares/likes). No About, Experience, Education, or Skills sections available."
+      }
     },
     {
       "full_name": "Norman Springford",
@@ -646,7 +1551,37 @@
           "source_type": "directory",
           "quote_or_fact": "Norman Springford, Founder/Director of Apex Hotels Limited."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/norman-springford-4111a31b",
+        "display_name": "Norman Springford",
+        "headline": "Director : Apex Hotels",
+        "location": "Edinburgh, Scotland, United Kingdom (GB)",
+        "about": "Total Experience: 46 years",
+        "experience": [
+          {
+            "title": "Founder",
+            "organization": "Apex Hotels",
+            "date_range": "Jan 1980 - Present",
+            "location": null,
+            "description": "Company: 501-1000 employees • Founded 1996 • Privately Held • Hospitality\nDepartment: C-Suite • Level: Founder"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [
+          "Hospitality partnerships with Glasgow School of Art",
+          "Hotel revenue management and career transitions",
+          "Business support themes in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/gavin-ellis-4100a32_gavin-ellis-partners-with-glasgow-school-activity-7102313454836830208-TZsA",
+          "https://www.linkedin.com/posts/shaun-mclenaghan-05324870_a-week-ago-brought-my-time-with-sandman-hotel-activity-7084264568910147586-0tWQ",
+          "https://www.linkedin.com/posts/alan-bolchover-0174209_send-in-the-cavalry-activity-6981376485882228736-19uP"
+        ],
+        "data_quality": "partial",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -660,5 +1595,71 @@
     "succeeded": 12,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T23:05:25.759129+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 13,
+      "structured": 12,
+      "discovered": 1,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 3,
+        "content_pages": 13,
+        "cost_estimate": {
+          "approx_total_usd": 0.034,
+          "search_component_usd": 0.021,
+          "contents_component_usd": 0.013,
+          "counts": {
+            "search_requests": 3,
+            "content_pages": 13
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 27551,
+          "cached_prompt_text_tokens": 3456,
+          "completion_tokens": 9270,
+          "reasoning_tokens": 36502,
+          "output_tokens": 0,
+          "total_tokens": 73323
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.323513,
+          "token_component_usd": 0.323513,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 27551,
+            "cached_prompt_text_tokens": 3456,
+            "completion_tokens": 9270,
+            "reasoning_tokens": 36502,
+            "total_tokens_reported": 73323,
+            "output_like_tokens": 45772,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.357513
+    }
   }
 }

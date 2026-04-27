@@ -88,7 +88,7 @@
       "full_name": "Angela Day",
       "title": "Head of Public Relations",
       "company": "Iconic Luxury Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/angela-day-45b90346",
+      "linkedin_url": "https://www.linkedin.com/in/angela-day-45b90346",
       "email": "angela@iconicluxuryhotels.com",
       "email2": null,
       "phone": "01304 617755",
@@ -115,13 +115,46 @@
           "source_type": "linkedin",
           "quote_or_fact": "Head Of Public Relations at Iconic Luxury Hotels"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/angela-day-45b90346",
+        "display_name": "Angela Day",
+        "headline": "Head Of Public Relations at Iconic Luxury Hotels",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 26 years and 9 months",
+        "experience": [
+          {
+            "title": "Public Relations Manager",
+            "organization": "Chewton Glen",
+            "date_range": "Apr 1999 - Dec 2016",
+            "location": "Hampshire, England, United Kingdom",
+            "description": "Department: Marketing • Level: Manager\nCompany: 201-500 employees • Founded 1966 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Head Of Public Relations",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Jan 2017 - Present",
+            "location": null,
+            "description": "Department: Marketing • Level: Head\nCompany: 501-1000 employees • Founded 2016 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "public relations"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/angela-day-45b90346"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Silmiya Hendricks",
       "title": "Commercial Director",
       "company": "Iconic Hotels & Resorts",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/silmiya-hendricks-52699832",
       "email": null,
       "email2": null,
       "phone": null,
@@ -148,13 +181,146 @@
           "source_type": "x",
           "quote_or_fact": "X handle tied to Silmiya Hendricks (Iconic Hotels commercial leadership)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/silmiya-hendricks-52699832",
+        "display_name": "Silmiya Hendricks",
+        "headline": "Director of Global Sales at L+R Hotels",
+        "location": "United Kingdom (GB)",
+        "about": "Experienced Commercial Leader with 26+ years in luxury hospitality, delivering record-breaking growth across five-star brands in the UK, Middle East, and Asia. Recognised by Walpole, Condé Nast, and Boutique Hotelier for innovation in guest experience and brand strategy. Currently leading the commercial function at Iconic Luxury Hotels, driving global expansion and multi-property revenue. Passionate about team leadership, strategic partnerships, and elevating brand presence in the global luxury market.\n\nTotal Experience: 25 years and 11 months",
+        "experience": [
+          {
+            "title": "Sales Executive",
+            "organization": "Hilton Colombo",
+            "date_range": "Oct 1999 - Dec 2003",
+            "location": "Sri Lanka",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Park Plaza - London",
+            "date_range": "Feb 2004 - Oct 2005",
+            "location": "New London/Norwich, Connecticut Area",
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Durrants Hotel - London",
+            "date_range": "Nov 2005 - Jul 2008",
+            "location": null,
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Director Of Corporate Sales - Hilton London Metropole",
+            "organization": "Hilton Worldwide",
+            "date_range": "Jul 2008 - Dec 2010",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Cluster Director Of Sales - Hilton London Paddington And Hilton London Euston",
+            "organization": "Hilton Worldwide",
+            "date_range": "Jan 2011 - Jan 2012",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales - Hilton Doha",
+            "organization": "Hilton Worldwide",
+            "date_range": "Jan 2012 - Apr 2014",
+            "location": "Doha, Qatar",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Millennium & Copthorne Hotels",
+            "date_range": "Apr 2014 - Aug 2016",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Cluster Director Of Sales And Marketing",
+            "organization": "Millennium Hotel London Mayfair and Knigtsbridge",
+            "date_range": "Aug 2016 - Mar 2017",
+            "location": "Mayfair London",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Lucknam Park Hotel & Spa",
+            "date_range": "Mar 2017 - Mar 2022",
+            "location": "Chippenham, Wiltshire, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Commercial Director",
+            "organization": "Lucknam Park Hotel & Spa",
+            "date_range": "May 2019 - Oct 2021",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director, Member Services UK Ireland",
+            "organization": "Relais & Châteaux",
+            "date_range": "Oct 2021 - Jan 2023",
+            "location": "United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Commercial Director",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Jan 2023 - Sep 2025",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Global Sales",
+            "organization": "L+R Hotels",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": "Department: Sales • Level: Director"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "brand strategy",
+          "team leadership",
+          "strategic partnerships",
+          "sales manager",
+          "commercial",
+          "luxury",
+          "hospitality",
+          "innovation",
+          "strategy",
+          "hotels",
+          "driving",
+          "property",
+          "leadership",
+          "partnerships",
+          "director",
+          "sales",
+          "marketing",
+          "cluster"
+        ],
+        "activity_themes": [
+          "Recruiting for Group Sales Manager role at L+R Hotels",
+          "Hosting and attending luxury hotel festive season events",
+          "Luxury hospitality guest appreciation and 2026 outlook"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/lisa-lernoux-dock-4794806_group-sales-manager-job-search-on-google-activity-7413866937925025792-uKTd",
+          "https://www.linkedin.com/posts/catherine-bunn_christmas-mice-strandpalace-activity-7411778417345470464-3rc9",
+          "https://it.www.linkedin.com/posts/excelsiorvenice_hotelvenice-excelsiorexperience-theexcelsiorvenice-activity-7412432671500349440-nMoV"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Cheryl Kanarens",
       "title": "Cluster Director of Revenue",
       "company": "Iconic Hotels & Resorts",
-      "linkedin_url": "https://uk.linkedin.com/in/cheryl-kanarens-8b21a77a",
+      "linkedin_url": "https://www.linkedin.com/in/cheryl-kanarens-8b21a77a",
       "email": null,
       "email2": null,
       "phone": null,
@@ -176,13 +342,121 @@
           "source_type": "news",
           "quote_or_fact": "HQ unites experts across Commercial, Operations... senior roles in... Revenue (context for central revenue leadership)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/cheryl-kanarens-8b21a77a",
+        "display_name": "Cheryl Kanarens",
+        "headline": "Cluster Director Of Revenue at Iconic Hotels & Resorts",
+        "location": "Monxton, England, United Kingdom (GB)",
+        "about": "Dedicated, confident and adaptable Revenue Manager with expertise in high volume conference, corporate and leisure sectors within 4 & 5 star hotels. An expert in identifying opportunities for growth by applying revenue management across all areas of the business with proven results. Highly experienced in sourcing, implementing and managing revenue management systems. Works closely with all stakeholders to plan, prepare, implement and review strategies. Accomplished team leader but equally happy working alone.\n\nTotal Experience: 29 years and 7 months",
+        "experience": [
+          {
+            "title": "Receptionist",
+            "organization": "HOTEL DE FRANCE",
+            "date_range": "May 1990 - May 1991",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "QMH UK Limited",
+            "date_range": "Jan 1991 - Jan 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Crowne Plaza Nottingham",
+            "date_range": "Jan 1991 - Jan 2009",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "The Grand, York",
+            "date_range": "Sep 2013 - Feb 2020",
+            "location": "York",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Sep 2020 - Dec 2020",
+            "location": "Chewton Glen",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Iconic Hotels & Resorts",
+            "date_range": "Sep 2020 - Dec 2020",
+            "location": "Chewton Glen",
+            "description": null
+          },
+          {
+            "title": "Group Revenue Director",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Dec 2020 - Sep 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Revenue Director",
+            "organization": "Iconic Hotels & Resorts",
+            "date_range": "Dec 2020 - Sep 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Cluster Director Of Revenue",
+            "organization": "London + Regional Hotels",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Cluster Director Of Revenue",
+            "organization": "Iconic Hotels & Resorts",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Isle of Wight College of Arts and Technology",
+            "degree_or_field": "City & Guilds Hotel & Book Keeping & Reception 709",
+            "date_range": "1986 - 1987"
+          }
+        ],
+        "skills": [
+          "hotels",
+          "management",
+          "sourcing",
+          "cluster",
+          "director",
+          "luxury",
+          "revenue management"
+        ],
+        "activity_themes": [
+          "Luxury boutique hotel openings and launches",
+          "Revenue management community events and Global Revenue Forum",
+          "Staff long-service celebrations and team welcomes",
+          "Hospitality company rebranding to Iconic Hotels & Resorts",
+          "Corporate integrations of L+R and Iconic hotels",
+          "Guest experience focus and hospitality innovation"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/cheryl-kanarens-8b21a77a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Samantha Rieu",
       "title": "General Manager",
       "company": "11 Cadogan Gardens",
-      "linkedin_url": "https://uk.linkedin.com/in/samantha-rieu-fih-is-56665212",
+      "linkedin_url": "https://www.linkedin.com/in/samantha-rieu-fih-is-56665212",
       "email": "samantha@11cadogangardens.com",
       "email2": "press@iconichotelsresorts.com",
       "phone": "+44 (0)20 7730 7000",
@@ -209,13 +483,167 @@
           "source_type": "linkedin",
           "quote_or_fact": "General Manager 11 Cadogan Gardens & Apartments and Chelsea Townhouse"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/samantha-rieu-fih-is-56665212",
+        "display_name": "Samantha Rieu FIH IS",
+        "headline": "General Manager 11 Cadogan Gardens & Apartments and Chelsea Townhouse- Cornell University - Innholder scholar - IECS",
+        "location": "London Area, United Kingdom (GB)",
+        "about": "Experienced General Manager Strong creative, commercial & operational hospitality… Total Experience: 20 years and 3 months",
+        "experience": [
+          {
+            "title": "Management Internship",
+            "organization": "Stapleford Park",
+            "date_range": "Apr 2004 - Sep 2004",
+            "location": "Leicestershire, England, United Kingdom",
+            "description": "Support F&B manager, Head Housekeeper and Sales Team during internship of 6 months"
+          },
+          {
+            "title": "In Room Dining Manager",
+            "organization": "Fairmont Copley Plaza",
+            "date_range": "Jun 2005 - Sep 2006",
+            "location": null,
+            "description": "Managing day to day operations of Room Service and Mini Bar team Sales and management of Private Parties in bedrooms Suites - show rounds, functions sheet creations and delivery with the IRD team Assistant Restaurant Manager with Breakfast and Lunch service in the Oak Room"
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "The Savoy, A Fairmont Managed Hotel",
+            "date_range": "Oct 2006 - Dec 2007",
+            "location": null,
+            "description": "Managing day to day operation of the Thames Foyer and River Restaurant ( breakfast, lunch, afternoon tea, dinner) Training of the team Working along side F&B director for financial & marketing strategies and team retention"
+          },
+          {
+            "title": "Assistant Banqueting Operations Manager",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Dec 2007 - Dec 2009",
+            "location": null,
+            "description": "Managing of the day to day operation of the events and banqueting offers at MOLON - meetings, receptions, weddings, Press junkets Managing VIP events such as Royal Blues dinners, Roux Scholarship, product launch or film release Creation and introduction of the terrace space for events Creation of a casual training program to ensure 5* service level at all events 6 meetings spaces of various sizes. Capacity for 250 sit down dinner or 1000 for standing reception"
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Restaurant Roussillon",
+            "date_range": "Jan 2010 - May 2012",
+            "location": null,
+            "description": "Managing the day to day operations of the 1* Michelin restaurant Assistant general manager with strategic marketing to promote restaurant Introducing social media platforms & various partnerships Training of the team Working with chef for menu creation"
+          },
+          {
+            "title": "Project Manager Event Consultant",
+            "organization": "Self Employed",
+            "date_range": "Jun 2012 - Oct 2013",
+            "location": null,
+            "description": "Opening project of events and meeting rooms in small 5* boutique hotel in London Creation, promotion and selling of of those events spaces"
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "Harvey Nichols",
+            "date_range": "Nov 2013 - Nov 2015",
+            "location": "London, United Kingdom",
+            "description": "Restaurant Manager at the Cafe/Terrace, Espresso Bar and Fifth Floor Restaurant 100 seats Cafe and 100 seats on the terrace 50 seats in the restaurant Plus bar"
+          },
+          {
+            "title": "Opening F B Manager",
+            "organization": "BaxterStorey",
+            "date_range": "Nov 2015 - Dec 2017",
+            "location": "London, United Kingdom",
+            "description": "Looking after client dining, hospitality, events operations and events bookings. Opening of 5 Broadgate. Large international Bank. 5* luxury facilities & event spaces. 50 meeting rooms of various capacity, auditorium 300 seats, conference space for 300, 4 terraces for 100 personne each, 14 dining rooms and chefs table."
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "DUKES LONDON",
+            "date_range": "Dec 2017 - Jan 2022",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Looking after F&B, Reception, Guest Relations, Concierge, Housekeeping and Maintenance. 87 bedrooms hotel. Awarded GM of the future at IHS 2019 by Master Innholders"
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Beaumont Hotel",
+            "date_range": "Jan 2022 - Dec 2023",
+            "location": "London, England, United Kingdom",
+            "description": "- 72 bedrooms going on 101 by September 2023 - currently soft refurbishing all our rooms by March 2023 - train and retain our team members - growing our F&B outlets: Magritte Bar & Terrace, Gatsbys Tea Lounge, The Colony and our events spaces - support all HODs in their department, allowing them to grow and strive - gained 5* bubble rating in January 2023 for our Beaumont Spa and were part of the finalist spa in London"
+          },
+          {
+            "title": "General Manager",
+            "organization": "11 Cadogan Gardens",
+            "date_range": "Jun 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Cluster GM over over 2 hotels 5* Relais &Châteaux part of Iconic Luxury Hotels 11 Cadogan Gardens 56 bedrooms and 6 x 2-3 bedroom Appartments looking after strategic, commercial and operational aspect of those properties in Chelsea"
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Chelsea Townhouse",
+            "date_range": "Jun 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": "Cluster GM over over 2 hotels 5* Relais &Châteaux part of Iconic Luxury Hotels The Chelsea Townhouse 36 bedrooms"
+          }
+        ],
+        "education": [
+          {
+            "school": "Cornell University",
+            "degree_or_field": "GMP",
+            "date_range": "2023 - 2024"
+          }
+        ],
+        "skills": [
+          "product launch",
+          "strategic marketing",
+          "social media",
+          "project manager",
+          "sales management",
+          "creative",
+          "commercial",
+          "hospitality",
+          "cluster",
+          "hotels",
+          "luxury",
+          "operations",
+          "operation",
+          "receptions",
+          "weddings",
+          "dinners",
+          "film",
+          "training",
+          "marketing",
+          "partnerships",
+          "director",
+          "hotel",
+          "refurbishing",
+          "spa",
+          "housekeeping",
+          "maintenance",
+          "selling",
+          "sales",
+          "management"
+        ],
+        "activity_themes": [
+          "Hospitality industry roundtables and UK Hospitality discussions",
+          "Luxury hotel guest experiences and anniversaries",
+          "General Managers networking and professional events",
+          "Team long service celebrations and hotel culture",
+          "Hospitality recruitment and job opportunities",
+          "Careers insight days and education in hospitality",
+          "Hotelier awards, recognition and finalists",
+          "Hotel wellness activities and running clubs",
+          "Employee satisfaction and leadership in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/samantha-rieu-fih-is-56665212",
+          "https://www.linkedin.com/posts/it-was-a-pleasure-to-join-the-round-table-activity-7427059347249164288-I8Im",
+          "https://www.linkedin.com/posts/lisapierson1_where-better-to-celebrate-our-wedding-activity-7427355796016959488-8d_9",
+          "https://www.linkedin.com/posts/andrew-stembridge-a85b505_on-20th-march-i-will-be-joining-general-activity-7427279877801816064-MccA",
+          "https://www.linkedin.com/posts/andrew-stembridge-a85b505_longservice-teamculture-hospitalityexcellence-activity-7427036917227151360-0X3W",
+          "https://www.linkedin.com/posts/mike-searle-1a9b25105_accounts-assistant11-cadogan-gardens-chelsea-activity-7426686357600653312-BCk0",
+          "https://www.linkedin.com/posts/angelamaher-flight_future-finder-futures-for-all-activity-7425565343902965760-RBUi",
+          "https://www.linkedin.com/posts/the-hotel-magazine_bma2026-hotelieroftheyearaward-finalist-activity-7425559754309025792-jlXv"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Amrita Makkar",
       "title": "Director of Commercial Strategy",
       "company": "Iconic Hotels & Resorts",
-      "linkedin_url": "https://uk.linkedin.com/in/amrita-makkar-crme-69295a4b",
+      "linkedin_url": "https://www.linkedin.com/in/amrita-makkar-crme-69295a4b",
       "email": null,
       "email2": null,
       "phone": null,
@@ -237,13 +665,84 @@
           "source_type": "news",
           "quote_or_fact": "significant hires in 2025 including Amrita Makkar, Strategy Director"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/amrita-makkar-crme-69295a4b",
+        "display_name": "Amrita Makkar",
+        "headline": "Director of Commercial Strategy, Iconic Hotels & Resorts",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A driven, results focused leader with a passion for people, performance, and purpose. Known for my creative energy and strategic mindset, I take a hands-on approach to leadership, motivating teams, inspiring collaboration, and delivering exceptional outcomes. With a strong commercial focus and sharp analytical skills, I consistently deliver impactful business results. I thrive in dynamic environments where innovation, accountability, and high standards shape success. Whether leading cross-functional teams or navigating complex challenges, I go the extra mile to turn ambition into achievement.",
+        "experience": [
+          {
+            "title": "Revenue Manager",
+            "organization": "Principal Hotel Company",
+            "date_range": "Jul 2014 - Jul 2016",
+            "location": null,
+            "description": "Internal promotion to Revenue manage the company’s Flagship hotel in London following tough competition from internal & external candidates. Responsible for a department of 15 team members, overseeing Rooms and Conference and Events, with assistance of 2 direct reports – Reservations Manager and Conference Planning Manager. Growing total Revenue from all POS in conjunction with Regional Director of Revenue & Regional General Manager while taking measured amount of risk. Implementing effective property strategies including pricing and inventory management to all market segments. Understanding the composition of the property profitability and use it to evaluate ideal business mix and lead time. Working closely with Regional Director of Revenue and Regional Sales Manager to set appropriate strategies in place to achieve budgeted targets. Identifying and sharing revenue trends and modify strategy accordingly, including channel mix, segmentation mix shift when required, LOS and lead time management and country mix. Chair weekly Revenue & Sales Meetings and Forecast meetings. Delivery of monthly financial reviews with CEO and board of directors. Budgeting for 2015 and 2016."
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Principal Hotel Company",
+            "date_range": "Apr 2016 - Sep 2018",
+            "location": "London, United Kingdom",
+            "description": "Part of pre-opening team. Hotel opened following a multi-million refurbishment. Stand alone role. Part of the Senior leaders team. Hotel rewarded 5 stars by AA on the 3rd September, 2018 Responsible for maximizing revenue from all departments through setting effective revenue strategies in place with focus on delivering bottom line revenues. Repositioning of the hotel in luxury life style 5 star London market. Implement pricing strategies for a soft opening period, followed by a completely refurbished opening in Q3 2018 targeting the luxury market set. Pricing for all market segments, including assisting DOSM with setting corporate negotiations in place. Effectively managing all distribution channels with focus on gain versus cost of distribution. Targeted on achieving RGI goals post refurbishment in the 5-star market with an official comp set, a conference comp set and an aspirational comp set in place. Work closely with Reservations and Meetings and Events team on site, as well as communicating effectively to the central reservations team. Pricing for group business, including residential conferences concentrating on total revenue gain. Work closely with the Regional Director of Revenue, E-commerce Director and Commercial Director of the group to set appropriate strategies in place to achieve budgeted targets. Produce weekly forecast for rolling 3 months. Chair weekly Revenue & Sales Meetings and Forecast meetings. Delivery of monthly financial reviews with CEO and board of directors. Prepare yearly budgets. Revenue managed our sister property De Vere Cotswold Water Park from July – September 2017, mainly responsible for accommodation revenue. Exceeded budget every month since taking over this property and achieving first position in RGI in the competitor set. Revenue managed our sister property Principal York from September 2017-February 2018."
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "The Standard Hotels",
+            "date_range": "Oct 2018 - Dec 2021",
+            "location": null,
+            "description": "Part of the pre-opening team, joined the leadership team to open the brand’s first international hotel (opened July 2019). Responsible for initial and 5-year budget projections to ensure target performance was achieved in the stabilised year. Responsible for all short- and long-term forecasts including Weekly Forecasts, 30 60 90 Forecasts, in the Month Forecast and Full Year Forecast. Brought in a Revenue Optimisation culture throughout the hotel’s departments to deliver room revenue projection. Implemented revenue strategies to progressively position the hotel as a RevPAR leader within its comp set. Implemented and ensured necessary revenue management disciplines were in place, providing dedicated attention to the property’s need to maximize total revenue through profitable market and channel segmentation mix, pattern management and ancillary spend. Conduct weekly Revenue, Sales and Marketing meetings with a focus on pricing, demand patterns, booking behaviour, pace, promotional activity, digital spend and conversion rates. Work with internal and external partners, enabling the property to ensure proper placement on web channels, assess need periods and upcoming promotional opportunities. Take ownership and present monthly financial reviews to Standard International Management & ownership team."
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "The Standard Hotels",
+            "date_range": "Mar 2019 - Dec 2021",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Part of the pre-opening team, joined the leadership team to open the brand’s first international hotel (opened July 2019). Responsible for initial and 5-year budget projections to ensure target performance was achieved in the stabilised year. Responsible for all short- and long-term forecasts including Weekly Forecasts, 30 60 90 Forecasts, in the Month Forecast and Full Year Forecast. Brought in a Revenue Optimisation culture throughout the hotel’s departments to deliver £15m room revenue projection. Implemented revenue strategies to progressively position the hotel as a RevPAR leader within its comp set. Implemented and ensured necessary revenue management disciplines were in place, providing dedicated attention to the property’s need to maximize total revenue through profitable market and channel segmentation mix, pattern management and ancillary spend. Conduct weekly Revenue, Sales and Marketing meetings with a focus on pricing, demand patterns, booking behaviour, pace, promotional activity, digital spend and conversion rates. Work with internal and external partners, enabling the property to ensure proper placement on web channels, assess need periods and upcoming promotional opportunities. Take ownership and present monthly financial reviews to Standard International Management & ownership team."
+          },
+          {
+            "title": "Regional Director Of Revenue Management",
+            "organization": "Virgin Hotels",
+            "date_range": "Jan 2022 - Dec 2023",
+            "location": "Edinburgh, Scotland, United Kingdom",
+            "description": "Part of pre-opening team and Leadership team for Edinburgh and Glasgow. Responsible for opening and positioning Virgin Hotels in the UK and Europe as 5-star luxury lifestyle properties. Preparing Pre-opening and Post opening operating budgets for both properties. In charge of comprehensive sales and revenue projects, coordinating various aspects such as strategic planning, market analysis, business development, distribution strategy and building strong business partnerships. Set up Revenue & Reservation teams at both properties and trained the teams to work together to reach room revenue goal, while consistently upholding the brand’s culture and identity. Develop and implement innovative pricing strategies to maximise revenue and market share in all segments. Analyse cost of acquisition per segment and create awareness in Revenue and Sales department of the profitability of each segment. Drive strategies and create a revenue culture to capture and increase direct revenue contribution. Delivery of monthly financial reviews with Asset Manager, Ownership, and Head Office. Assisting with 5-year Proforma and revenue outlook for new developments for Virgin Hotels across UK & Europe."
+          },
+          {
+            "title": "Regional Commercial Director, UK",
+            "organization": "Virgin Hotels",
+            "date_range": "Jan 2024 - Aug 2025",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Commercial Strategy",
+            "organization": "Iconic Hotels & Resorts",
+            "date_range": "Aug 2025 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Commercial Strategy",
+            "organization": "L+R Hotels",
+            "date_range": "Aug 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Andrew Stembridge",
       "title": "Executive Director",
       "company": "Iconic Hotels & Resorts",
-      "linkedin_url": "https://uk.linkedin.com/in/andrew-stembridge-a85b505",
+      "linkedin_url": "https://www.linkedin.com/in/andrew-stembridge-a85b505",
       "email": null,
       "email2": null,
       "phone": null,
@@ -265,7 +764,178 @@
           "source_type": "linkedin",
           "quote_or_fact": "Iconic Hotels & Resorts - Andrew Stembridge"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/andrew-stembridge-a85b505",
+        "display_name": "Andrew Stembridge",
+        "headline": "Strategic Leadership in Luxury Hospitality | Focused on Growth, Value & Exceptional Experiences",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "Passionate hospitality leader with over three decades of experience shaping some of the…",
+        "experience": [
+          {
+            "title": "Food And Beverage Assistant",
+            "organization": "Gleneagles",
+            "date_range": "Jan 1990 - Jan 1990",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Supervisor",
+            "organization": "Harbor View Hotel",
+            "date_range": "Jan 1991 - Jan 1992",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "Hotel du Vin at One Devonshire Gardens",
+            "date_range": "Jan 1993 - Jan 1994",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Manager",
+            "organization": "Malmaison",
+            "date_range": "Jan 1994 - Jan 1995",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Food And Beverage Assistant",
+            "organization": "Sonnenalp Hotel of Vail",
+            "date_range": "Jan 1995 - Jan 1996",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant General Manager",
+            "organization": "Blantyre",
+            "date_range": "Apr 1995 - Oct 1996",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Manager",
+            "organization": "Blantyre",
+            "date_range": "Apr 1995 - Oct 1996",
+            "location": "Lenox, Massachusettes",
+            "description": null
+          },
+          {
+            "title": "Member",
+            "organization": "St Julian Scholars",
+            "date_range": "Jan 1998 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Scotsman Hotel Group Ltd",
+            "date_range": "Jan 2001 - Jan 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "SCOTSMAN EDINBURGH HOTEL LIMITED",
+            "date_range": "Jan 2001 - Jan 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Managing Director",
+            "organization": "Chewton Glen Hotel & Spa",
+            "date_range": "Oct 2003 - Present",
+            "location": "New Forest, Hampshire",
+            "description": null
+          },
+          {
+            "title": "Member Of The International Executive Board",
+            "organization": "Relais & Châteaux",
+            "date_range": "Nov 2009 - Oct 2017",
+            "location": null,
+            "description": "Served two terms advising Relais & Chateaux on their global strategy"
+          },
+          {
+            "title": "Managing Director",
+            "organization": "Cliveden House",
+            "date_range": "Feb 2012 - Present",
+            "location": "Berkshire",
+            "description": "One of the world's finest luxury hotels, this grand stately home is set in the heart of the Berkshire countryside, surrounded by 376 acres of magnificent National Trust managed Grade I listed formal gardens and parkland. Cliveden has wonderful panoramic views over the River Thames and is one of the finest luxury hotels near London and Heathrow Airport."
+          },
+          {
+            "title": "Chairman",
+            "organization": "The Master Innholders",
+            "date_range": "Sep 2012 - Sep 2014",
+            "location": "London, United Kingdom",
+            "description": "The formation of the Master Innholders was the first step taken by the WCI towards renewing its old links with innkeeping. In common with many other Livery Companies it had few links with the modern day industry. The award of membership is open to practicing hotel general managers by application each year. Full details can be viewed on the new members section. Candidates have to undergo a rigorous interview where they have to clearly demonstrate not only their innkeeping ability, but also continuing support for improving standards within the industry. With the full support of the Worshipful Company of Innholders and the Institute of Hospitality, the Master Innholders have slowly grown in number and have increased their influence and charitable activities within the hotel industry. The Master Innholders organises the annual General Managers’ Conference in London. The next conference will take place on 14th and 15th January 2013 at Grosvenor House. There are about 100 Master Innholders, all of whom are, or have been, prominent hoteliers, dedicated and committed to promoting best practice in the industry."
+          },
+          {
+            "title": "Executive Director",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Jan 2017 - Present",
+            "location": "London, United Kingdom",
+            "description": "A collection of some of the UK's most Iconic Hotels, including London + Regional owned and managed properties (Chewton Glen, Cliveden House, The Lygon Arms, The Mayfair Townhouse) and 11 Cadogan Gardens, which is operated under Management Contract for The Cadogan Estate. Constantly looking for new acquisitions or management contracts to add to the collection and for talent to join our teams"
+          },
+          {
+            "title": "Director",
+            "organization": "The Lygon Arms Hotel",
+            "date_range": "Sep 2017 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "The Edinburgh Academy",
+            "degree_or_field": null,
+            "date_range": "1976 - 1982"
+          },
+          {
+            "school": "Earlston High School",
+            "degree_or_field": "Higher Grades",
+            "date_range": "1983 - 1989"
+          },
+          {
+            "school": "University of Strathclyde",
+            "degree_or_field": "BA (Hons), Hotel Management & Tourism",
+            "date_range": "1989 - 1993"
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "GMP, Hotel Management",
+            "date_range": "1998 - 1998"
+          },
+          {
+            "school": "Cranfield University - Cranfield School of Management",
+            "degree_or_field": "BLP",
+            "date_range": "2010 - 2011"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "director",
+          "hotels",
+          "management",
+          "acquisitions",
+          "strategy",
+          "food",
+          "luxury",
+          "hotel",
+          "global strategy"
+        ],
+        "activity_themes": [
+          "Hospitality industry awards and recognitions",
+          "Leadership and GM of the Year celebrations",
+          "Welcoming new talent to iconic luxury hotels",
+          "Global hospitality talent and culture gatherings",
+          "Culinary career opportunities in luxury collections",
+          "Networking with boutique hoteliers and associations"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Tatiana Stacke",
@@ -293,7 +963,102 @@
           "source_type": "official_site",
           "quote_or_fact": "Press page references sales/marketing leadership in context of property team"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/tatiana-stacke-10336344",
+        "display_name": "Tatiana Stacke",
+        "headline": "Cluster Director of Sales and Marketing I Specialist in Luxury Travel & Hospitality",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A passionate, dedicated and revenue oriented Sales professional who thrives on challenges and opportunities to enhance business growth. Greatly focused on exceeding customers’ satisfaction, this enthusiastic individual excels at building long-lasting and productive business relationships. A strong team leader, who loves managing, inspiring and motivating team members to exceed targets and adhere to the company vision and values. Personal motto: \" Choose a job you love, and you will never have to work a day in your life. \"\n\nTotal Experience: 20 years and 6 months",
+        "experience": [
+          {
+            "title": "Assistant Product Manager",
+            "organization": "Louis Vuitton",
+            "date_range": "Jul 2001 - Dec 2001",
+            "location": "Paris",
+            "description": null
+          },
+          {
+            "title": "Operations And Sales Manager",
+            "organization": "Fifi Chachnil",
+            "date_range": "Nov 2002 - Feb 2006",
+            "location": "Paris",
+            "description": null
+          },
+          {
+            "title": "Co-founder - Sales And Production Director",
+            "organization": "AOI",
+            "date_range": "Feb 2006 - Jun 2007",
+            "location": "Paris , France",
+            "description": null
+          },
+          {
+            "title": "National B2B Sales Director - French Market",
+            "organization": "PALAIS DES THÉS",
+            "date_range": "Jul 2007 - Jan 2016",
+            "location": "Paris , France",
+            "description": null
+          },
+          {
+            "title": "Meetings Events Sales Executive",
+            "organization": "The Mandeville Hotel",
+            "date_range": "Jul 2018 - Feb 2019",
+            "location": "London, Royaume-Uni",
+            "description": null
+          },
+          {
+            "title": "Corporate And Groups Sales Manager",
+            "organization": "The Mandeville Hotel",
+            "date_range": "Feb 2019 - Nov 2020",
+            "location": "London, Royaume-Uni",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales And Reservations",
+            "organization": "Mama Shelter London",
+            "date_range": "May 2021 - May 2022",
+            "location": "Londres, Angleterre, Royaume-Uni",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales And Marketing At 11 Cadogan Gardens And The Chelsea Townhouse",
+            "organization": "11 Cadogan Gardens",
+            "date_range": "Jun 2022 - Present",
+            "location": "Londres, Angleterre, Royaume-Uni",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "NEOMA Business School",
+            "degree_or_field": null,
+            "date_range": "1998 - 2001"
+          }
+        ],
+        "skills": [
+          "sales",
+          "director",
+          "marketing",
+          "production",
+          "operations",
+          "reservations",
+          "b2b",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Luxury hospitality leadership and hotel rebrandings",
+          "Sales and marketing director appointments in hotels",
+          "New hotel openings and industry milestones",
+          "Hospitality networking events and forums",
+          "Employee satisfaction and leadership in hospitality",
+          "Sustainability and biodiversity in luxury travel"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/tatiana-stacke-10336344"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Shan Kanagasingham",
@@ -321,7 +1086,169 @@
           "source_type": "news",
           "quote_or_fact": "Iconic Hotels & Resorts Unveils Consolidated Brand and New COO Appointment"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/shan-kanagasingham-2b2a682b",
+        "display_name": "Shan Kanagasingham",
+        "headline": "Senior Vice President, Operations, Openings and Transitions at Auberge Collection",
+        "location": "Miami, Florida, United States (US)",
+        "about": "Total Experience: 33 years and 1 month",
+        "experience": [
+          {
+            "title": "Assistant Director Of Guest Services",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "Oct 1992 - Apr 1994",
+            "location": "Kapalua, Maui",
+            "description": null
+          },
+          {
+            "title": "Conference Services Manager",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "Apr 1994 - Jul 1996",
+            "location": "Laguna Niguel, California",
+            "description": null
+          },
+          {
+            "title": "Assistant Vice President, Corporate Activities",
+            "organization": "Smith Barney, Inc.",
+            "date_range": "Jul 1996 - Sep 1997",
+            "location": "New York, New York",
+            "description": null
+          },
+          {
+            "title": "Director Of Conference Services",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "Sep 1997 - Aug 1999",
+            "location": "Singapore",
+            "description": null
+          },
+          {
+            "title": "Director Of Incentives, Midwest And Southeast Sales",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "Aug 1999 - Jan 2001",
+            "location": "New Orleans, Louisiana",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Ritz-Carlton Hotel Company, L.L.C.",
+            "date_range": "Jan 2001 - Apr 2002",
+            "location": "New Orleans, Louisiana",
+            "description": null
+          },
+          {
+            "title": "Industry Consultant",
+            "organization": "Various Global Assignments",
+            "date_range": "Apr 2002 - Aug 2003",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms",
+            "organization": "Raffles Hotels & Resorts",
+            "date_range": "Aug 2003 - Nov 2004",
+            "location": "Beverly Hills, California",
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms",
+            "organization": "The Mandarin Oriental, Hong Kong",
+            "date_range": "Nov 2004 - Mar 2007",
+            "location": "Hong Kong",
+            "description": null
+          },
+          {
+            "title": "Area General Manager",
+            "organization": "The Tides South Beach and Viceroy Miami",
+            "date_range": "Mar 2007 - Feb 2011",
+            "location": "Miami",
+            "description": null
+          },
+          {
+            "title": "General Manager, The Surrey",
+            "organization": "Denihan Hospitality Group",
+            "date_range": "Apr 2011 - Apr 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager, The Surrey",
+            "organization": "Relais & Châteaux",
+            "date_range": "Apr 2011 - Apr 2014",
+            "location": "New York, New York",
+            "description": null
+          },
+          {
+            "title": "Area General Manager",
+            "organization": "SH Hotels & Resorts",
+            "date_range": "Apr 2014 - Sep 2015",
+            "location": null,
+            "description": "1 Hotel Central Park and 1 Hotel Brooklyn Bridge"
+          },
+          {
+            "title": "Vice President, Operations",
+            "organization": "SH Hotels & Resorts",
+            "date_range": "Sep 2015 - Oct 2016",
+            "location": null,
+            "description": "1 Hotels and Baccarat Hotels and Residences"
+          },
+          {
+            "title": "Senior Vice President, Operations",
+            "organization": "SH Hotels & Resorts",
+            "date_range": "Oct 2016 - May 2017",
+            "location": null,
+            "description": "1 Hotels"
+          },
+          {
+            "title": "Senior Vice President, Operations",
+            "organization": "Auberge Collection",
+            "date_range": "Jun 2017 - Oct 2019",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Vice President, Operations",
+            "organization": "Auberge Resorts Collection",
+            "date_range": "Jun 2017 - Oct 2019",
+            "location": "New York, New York",
+            "description": null
+          },
+          {
+            "title": "Senior Vice President, Operations, Openings And Transitions",
+            "organization": "Auberge Collection",
+            "date_range": "Oct 2019 - Present",
+            "location": "Miami, Florida",
+            "description": null
+          },
+          {
+            "title": "Senior Vice President, Operations, Openings And Transitions",
+            "organization": "Auberge Resorts Collection",
+            "date_range": "Oct 2019 - Present",
+            "location": "Miami, Florida",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Les Roches, Crans Montana",
+            "degree_or_field": "Hospitality Administration/Management",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "operations",
+          "director",
+          "incentives",
+          "sales",
+          "hotel"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/shan-kanagasingham-2b2a682b"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Anna Allamby",
@@ -349,7 +1276,92 @@
           "source_type": "official_site",
           "quote_or_fact": "Uses Synxis for bookings; reservations@11cadogangardens.com as primary contact"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/anna-allamby-a5021a1a",
+        "display_name": "Anna Allamby",
+        "headline": "Central Reservations Manager at Iconic Luxury Hotels",
+        "location": "Greater Southampton Area (GB)",
+        "about": "A results driven senior professional with an outstanding track record of achievement in the hotel sector. I possess commercial and business acumen, with strong capability for effecting positive change in challenging market places. I excel in developing innovative and creative solutions to problems, with the persistence and resilience to achieve profitability and quality within corporate and small business environments, through beneficial and productive networking and relationship building. I am highly effective at bringing skills and expertise to new environments. And I love sport climbing, off grid travel, my family Inc my dogs and all sorts of water related sports! Career Achievements: ● Solely responsible for choosing and implementing a change of PMS and distribution system across five hotels ● Best results in the UK Reservations Audits at IHG Hotels ● Integral part of the team opening beautiful Novotel London Paddington ● Created Revenue Management from scratch and achieved outstanding great results in increasing business; first year – increase on sales- RevPar by 87% after year one, then additional 23% in year two by introducing completely new strategy with increase on net rooms sales within 3 years by 170% ● Working on a new business project for the Quantum Group (planning of the new 4* Hotel & Conference centre)",
+        "experience": [
+          {
+            "title": "Front Office Team Leader",
+            "organization": "Novotel London Paddington",
+            "date_range": "Sep 2008 - Jun 2009",
+            "location": null,
+            "description": "Responsibilities • Integrating, training, developing, motivating and supervising the newly created Front Office Team • Creating standard operation procedures and ensuring their implementation • Communicating and reinforcing company vision to the co-workers • Organising guest arrivals and departures and ensuring the smooth running"
+          },
+          {
+            "title": "Guest Services Manager",
+            "organization": "Ramada Encore Bournemouth",
+            "date_range": "Jun 2009 - Aug 2009",
+            "location": null,
+            "description": "Responsibilities • Effective supervision and control of the reception team ensuring that all procedures and company standards are maintained • Allocation tasks and checking results against set standards • Ensuring that all the reception procedures are carried out properly and checking level of customers satisfaction • Dealing with complaints and compliments and making compensatory allowances • In charge of restaurant and bar area • Checking stock and preparing orders • Checking all invoices, resolving any payment queries • Conduct regular staff briefing and attending departmental and hotel meetings • Ensuring that all employees adhere to company health, hygiene, safety & emergency procedures • Handling all aspects of guest arrival and departures"
+          },
+          {
+            "title": "Front Office Manager, Royal Bath Hotel",
+            "organization": "De Vere Hotels",
+            "date_range": "Sep 2009 - Jan 2010",
+            "location": null,
+            "description": "Responsibilities • Reviewing all SOP’s and setting new standards and targets, establishing and ensuring implementation of action plan for Front Office team. • Seeking opportunities and developing strategies to improve guest experience (Y.E.S.) • Following any customer feedback and establishing a good relationship with key customers • Dealing with complaints and compliments and making compensatory allowances • Leading by example and motivation employees to make people feel special • Attending weekly HODs meeting ensuring that all correct data is prepared • Fully liaising with Conference and Banqueting and Sales, being aware of any special requests, taking part in show rounds • Completing assigned Duty Manager Shifts • Inducting all new starters into Operation Support according to company standards - Company induction, Opera training, departmental induction plan • Communicating and reinforcing company vision to the co-workers • Controlling departmental cost and budget, managing the rotas based on forecasts of occupancy and key events taking place in the hotel"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Hallmark Hotels",
+            "date_range": "Feb 2010 - Aug 2011",
+            "location": null,
+            "description": "● Full accountably for all individual and group reservations from the initial enquiry to arrival at the hotel ● Successfully maximised revenue through strategic up-selling techniques and effective negotiation skills ● Collaborated with the Sales Manager to develop and convert future sales leads ● Analysed competitor activities, market conditions and any other factors that could have potentially affected the profit of the hotel ● Developed comprehensive understanding of the hotel’s business, collaborated with numerous departments to meet the hotels corporate aims and objectives ● Monitored and updated third party websites, GDS and the hotel website, ensured the correct rates were visible over the relevant channels ● Increased revenue growth by creating and promoting new packages resulting in enhanced revenue in Accommodation, F&B and Spa departments ● Provided training to the Reception Team, Duty Managers and Sales team in system ● Supported General Manager, Operations Manager, Sales Manager, Reception Manager and Events Coordinator to ensure smooth running of the Hotel ● Played a key role in creating hotels Business Plan and Budget for 2011 ● Responsible for updating daily and weekly forecasts and submitted them to the General Manager"
+          },
+          {
+            "title": "Reservations Manager At Holiday Inn",
+            "organization": "InterContinental Hotels Group",
+            "date_range": "May 2011 - May 2012",
+            "location": "Eastleigh",
+            "description": "● Motivated and drove the reservations team; ensured a professional and team orientated working environment, with the direct management of one team member ● Ensured that the hotels reservations call standards were maintained; held full control of quality of utilising the reservation system bringing the detailed audit result from 73% to 92% accuracy achieving 1st and 2nd place in IHG Hotels UK ● Implemented new system of documentation of groups and increased ADR and Revenue achieved through this medium; re-negotiated 2nd biggest transient market production by revaluating contracted rates with best producing agents ● Monitored all sales to ensure that the budget was achieved by maximising on room sales through managing the rate levels and occupancy strategy, worked in collaboration with the cluster Revenue Manager ● Monitored the average rate and the total rooms revenue of the hotel and ensured all staff were aware of targets ● Demonstrated a management style that promoted effective development and use of team members through regular reviews and coaching ● Maintained and developed positive relationships with all clients: ● Responsible for enhancing social marketing strategies and reorganised social media advertising ● Prepared all rooms related documentation and analysis for Trading Reviews, distributed to the General Manager and Operations Manager, attending Trading Reviews"
+          },
+          {
+            "title": "Group Revenue Manager",
+            "organization": "Quantum Hotel Group",
+            "date_range": "May 2012 - Apr 2017",
+            "location": "Bournemouth, United Kingdom",
+            "description": "● Develop pricing strategies, including building rates for rooms and packages and determining discounts and specialty rates ● Forecasting pricing and revenue based on demand and market trends ● Evaluating trends in the economy and hospitality industry ● Creating promotional plans to increase revenue ● Understanding inventory management processes ● Generating revenue reports ● Implement agreed pricing and inventory management strategies ● Maintaining effective communication links with the hotels in order to achieve the budgeted objectives ● Regularly produce MI information and statistics highlighting revenue potential and loss; identifying patterns and trends to mitigate any lost revenue ● Tasked with setting up of room revenue budget following corporate aims and objectives ● Facilitate structured training across all staff levels on PMS and reservation ● Constantly review customer journey from booking to check out to enhance and promote an environment of excellent customer service to create an unforgettable customer experience ● Creating, planning and achieving departmental business plan and budgets ● Choosing and implementing change of PMS /EPOS system across five properties (Rezlynx /Roomlynx)"
+          },
+          {
+            "title": "Corporate Sales Manager",
+            "organization": "Grand Harbour Hotel",
+            "date_range": "May 2017 - May 2018",
+            "location": "Southampton, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Operations Manager C B",
+            "organization": "GRAND HARBOUR HOTEL TRADING LIMITED",
+            "date_range": "May 2018 - Sep 2018",
+            "location": "Southampton, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Of Office And Revenue",
+            "organization": "Clarenco LLP",
+            "date_range": "Sep 2018 - Sep 2019",
+            "location": "Portsmouth, United Kingdom",
+            "description": "Head of Office and Revenue at Stunning Solent Forts"
+          },
+          {
+            "title": "Central Reservations Manager",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Sep 2019 - Present",
+            "location": "New Milton",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Hubert Mih",
@@ -372,7 +1384,113 @@
           "source_type": "directory",
           "quote_or_fact": "Hubert Mih (Director of Sales and Marketing)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/hubert-losguardi-92334a7",
+        "display_name": "Hubert Losguardi",
+        "headline": "Boutique Hotelier Power Players List 2024 Leisure Sales Director, UK Europe at L+R Hotels",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 17 years and 8 months",
+        "experience": [
+          {
+            "title": "Sales And Marketing Coordinator",
+            "organization": "Starwood Hotels & Resorts",
+            "date_range": "Oct 2007 - Oct 2009",
+            "location": null,
+            "description": "Sheraton Skyline Hotel London Heathrow. Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Account Executive",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "Nov 2009 - May 2010",
+            "location": null,
+            "description": "The Park Tower Knightsbridge Hotel, a Luxury Collection Hotel | Sheraton Grand London Park Lane | Formerly known as Le Méridien Piccadilly Hotel (now rebranded as The Dilly) | Closure of the Sheraton Belgravia Hotel (now rebranded as The Hari) | Development & pre-opening of the W London, Leicester Square. Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "Radisson Hotel Group",
+            "date_range": "Jul 2010 - Dec 2012",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Formerly known as Radisson Blu Hotel Portman Square (now rebranded as Nobu Hotel London Portman Square). Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Corporate Sales Manager",
+            "organization": "EDITION",
+            "date_range": "Feb 2013 - Apr 2015",
+            "location": null,
+            "description": "The London EDITION | Opened on 12th September 2013 (part of the opening team). Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Senior Sales Manager, Key Accounts And Entertainment Responsible For The Americas And Asia-Pacific",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Apr 2015 - Oct 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Acting Head Of Sales",
+            "organization": "Jumeirah",
+            "date_range": "Oct 2015 - Aug 2016",
+            "location": null,
+            "description": "Formerly known as Grosvenor House Suites, by Jumeirah Living (now rebranded as Grosvenor House Suites). Completed a full rebranding from 'Grosvenor House Apartments, by Jumeirah Living' to 'Grosvenor House Suites, by Jumeirah Living'. Department: Education • Level: Head"
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "Nobu Hospitality",
+            "date_range": "Oct 2016 - Feb 2018",
+            "location": "London, United Kingdom",
+            "description": "Nobu Hotel Shoreditch | Opened on 12th June 2017 (part of the opening team). Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Head Of Sales And Marketing",
+            "organization": "DUKES LONDON",
+            "date_range": "Mar 2018 - Jul 2020",
+            "location": "London, Greater London, United Kingdom",
+            "description": "DUKES LONDON is part of DUKES COLLECTION and is a member of Small Luxury Hotels of the World. Completed an extensive multi-million pound refurbishment in 2018. Department: Sales • Level: Head"
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Jul 2020 - Sep 2025",
+            "location": null,
+            "description": "The Mayfair Townhouse | Opened on 17th May 2021 (part of the opening team). Department: Sales • Level: Director"
+          },
+          {
+            "title": "Leisure Sales Director, UK Europe",
+            "organization": "L+R Hotels",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": "Company: 1001-5000 employees • Founded 1990 • Privately Held • Hospitality"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "sales",
+          "director",
+          "acting",
+          "apartments",
+          "hotel",
+          "marketing",
+          "entertainment",
+          "responsible",
+          "luxury",
+          "hotels",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Hospitality leadership conferences and masterclasses",
+          "Luxury hotel awards voting and recognition",
+          "Insights on luxury hotel operations and builds",
+          "Team appreciation and festive events in hotels",
+          "Upselling initiatives and revenue strategies",
+          "Inspirational hotel design and independent properties"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/hubert-losguardi-92334a7"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sabine Kern",
@@ -395,7 +1513,125 @@
           "source_type": "directory",
           "quote_or_fact": "Global Sales Director mentioned in Iconic employee directory"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sabine-kern-92075711",
+        "display_name": "Sabine Kern",
+        "headline": "Director of Global Sales",
+        "location": "London, England, United Kingdom",
+        "about": "Total Experience: 23 years and 8 months",
+        "experience": [
+          {
+            "title": "Sales Executive",
+            "organization": "Marriott Hotels",
+            "date_range": "Jan 2001 - Jan 2004",
+            "location": null,
+            "description": "Department: Sales • Level: Manager"
+          },
+          {
+            "title": "Senior Sales Manager",
+            "organization": "Raffles Hotel Vier Jahreszeiten",
+            "date_range": "Feb 2005 - Oct 2007",
+            "location": "Hamburg Area, Germany",
+            "description": "Department: Sales • Level: Senior"
+          },
+          {
+            "title": "Director Of Sales Marketing Pre-Opening Team",
+            "organization": "St. James's Hotel and Club",
+            "date_range": "Oct 2007 - Oct 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "The Hempel",
+            "date_range": "Oct 2008 - Dec 2012",
+            "location": "London, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Aró - Internet Business Development",
+            "date_range": "Jan 2013 - Aug 2014",
+            "location": "London, United Kingdom",
+            "description": "Department: Sales • Level: Director"
+          },
+          {
+            "title": "Hotel Management Consultant",
+            "organization": "Luxury Hotel Sales & Marketing",
+            "date_range": "Sep 2014 - Jan 2015",
+            "location": "London, United Kingdom",
+            "description": "Department: Consulting • Level: Specialist"
+          },
+          {
+            "title": "Director Of Sales And Marketing",
+            "organization": "EDITION",
+            "date_range": "Feb 2015 - May 2020",
+            "location": "London, United Kingdom",
+            "description": "Department: Sales • Level: Director\n\nThe London EDITION blends ground breaking innovation, great design, outstanding dining and entertainment with personal, friendly, modern service. Located in Fitzrovia on the edge of London’s Soho neighbourhood, this luxury boutique hotel preserves the finest aspects of an iconic landmark building, but reinvents the spaces within to create a dynamic fusion of old and new, past and present."
+          },
+          {
+            "title": "Director Of Sales Marketing London Pre-opening Broadwick Soho",
+            "organization": "Salt Hotels",
+            "date_range": "May 2020 - Dec 2020",
+            "location": "London, England, United Kingdom",
+            "description": "Salt Hotels is a family business born from a lifetime of hospitality experience. Our mission is simple. We create settings and scenarios that connect people together. We create a home for our guests - and we care for our employees like family. We encourage people to be themselves and create honest, genuine, and thoughtful experiences. We are passionate about our role within our local communities through education, employment, charity & community partnerships."
+          },
+          {
+            "title": "Director Of Sales Marketing",
+            "organization": "Broadwick Soho",
+            "date_range": "Sep 2020 - Aug 2024",
+            "location": "London, England, United Kingdom",
+            "description": "A glorious hotel, created by a group of friends.\n\nDepartment: Sales • Level: Director"
+          },
+          {
+            "title": "Commercial Director NOBU Hotel London",
+            "organization": "Nobu Hotel London Portman Square",
+            "date_range": "Sep 2024 - Sep 2025",
+            "location": "Greater London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Global Sales (on Maternity Leave)",
+            "organization": "London & Regional Properties",
+            "date_range": "Sep 2025 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 51-200 employees • Founded 1987 • Privately Held • Real Estate"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "sales",
+          "marketing",
+          "hotel",
+          "management",
+          "commercial",
+          "innovation",
+          "design",
+          "entertainment",
+          "luxury",
+          "hotels",
+          "hospitality",
+          "education",
+          "charity",
+          "partnerships",
+          "sales manager",
+          "hotel management"
+        ],
+        "activity_themes": [
+          "Luxury hospitality leadership conferences and growth strategies",
+          "Corporate rebranding and identity launches for hotel groups",
+          "Career journeys and leadership progression in luxury hotels",
+          "Networking events, FAM trips and supplier partnerships in travel",
+          "Insights on experiential travel, inverse distribution and modern marketing",
+          "Industry awards, power lists and luxury travel judging panels",
+          "Sales missions, agency visits and boutique hotel community building"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ante Salapic",
@@ -418,7 +1654,144 @@
           "source_type": "directory",
           "quote_or_fact": "Revenue leadership references including cluster roles at Iconic"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ante-salapic-64489471",
+        "display_name": "Ante Salapic",
+        "headline": "Cluster Director of Revenue Management at L&R Hotels",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 13 years and 10 months",
+        "experience": [
+          {
+            "title": "Flotilla Skipper",
+            "organization": "Sunsail",
+            "date_range": "May 2008 - Sep 2012",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Internship In Croatian Touristic Board In Moscow",
+            "organization": "Croatian National Tourist Board",
+            "date_range": "Feb 2009 - Jun 2009",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Department",
+            "organization": "Melia White House Hotel",
+            "date_range": "Mar 2013 - Jun 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Yield Executive",
+            "organization": "Melia White House Hotel",
+            "date_range": "Jul 2015 - Mar 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Acting Revenue Manager (Maternity Cover)",
+            "organization": "Melia White House Hotel",
+            "date_range": "Mar 2016 - Jan 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Revenue Manager",
+            "organization": "Melia White House",
+            "date_range": "Jan 2017 - Sep 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Cluster Revenue Manager",
+            "organization": "Doubletree by Hilton London Hyde Park, Crowne Plaza Ealing",
+            "date_range": "Sep 2017 - Feb 2018",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "ME London Hotel",
+            "date_range": "Mar 2018 - Aug 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Of House Manager",
+            "organization": "ME London Hotel",
+            "date_range": "Aug 2020 - Sep 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "The Mayfair Townhouse at Iconic Luxury Hotels",
+            "date_range": "Sep 2022 - Jan 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Cluster Revenue Director - London",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Jan 2025 - Jun 2025",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Cluster Revenue Director",
+            "organization": "L+R Hotels",
+            "date_range": "Jun 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Zagreb School Of Economic And Business",
+            "degree_or_field": "Bachelor of Business Administration (B.B.A.), Economics and Management",
+            "date_range": "2005 - 2012"
+          },
+          {
+            "school": "Plekhanov International School Of Business",
+            "degree_or_field": "Bachelor of Business Administration (B.B.A.)",
+            "date_range": "2009 - 2009"
+          },
+          {
+            "school": "Lomonosov Moscow State University (MSU)",
+            "degree_or_field": "TORFL 4, Russian Language",
+            "date_range": "2010 - 2010"
+          },
+          {
+            "school": "Bournemouth University",
+            "degree_or_field": "Msc in Tourism and Hospitality",
+            "date_range": "2012 - 2013"
+          }
+        ],
+        "skills": [
+          "cluster",
+          "director",
+          "management",
+          "yield",
+          "acting",
+          "sales",
+          "revenue management"
+        ],
+        "activity_themes": [
+          "London hotel developments and construction",
+          "Revenue management forecasting and innovation",
+          "Hospitality industry events and forums",
+          "Luxury hotel rebranding initiatives",
+          "Next-generation revenue manager insights",
+          "Corporate revenue team achievements"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/ante-salapic-64489471"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Gemma McAloon",
@@ -441,7 +1814,128 @@
           "source_type": "news",
           "quote_or_fact": "significant hires in 2025 including ... Gemma Mc Aloon, Director of Brand & Communications"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/gemma-mc-aloon-6b739a16",
+        "display_name": "Gemma Mc Aloon",
+        "headline": "Director of Brand & Communications",
+        "location": "United Kingdom (GB)",
+        "about": "Dynamic Communications Director, and accomplished leader with 15 years’ experience in the industry, spanning global markets including London, Singapore, and New York. Successfully launched and expanded W Communications' North American operations with a strategic hub in New York. Recognized for building and fostering high-performing teams, driving commercial results, and delivering sustained year-over-year growth in an evolving industry.\n\nTotal Experience: 13 years and 10 months",
+        "experience": [
+          {
+            "title": "Intern",
+            "organization": "Neil Reading PR",
+            "date_range": "Oct 2009 - Nov 2009",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Account Executive - Account Manager",
+            "organization": "W Communications",
+            "date_range": "Nov 2009 - Aug 2013",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Account Manager",
+            "organization": "W Communications",
+            "date_range": "Sep 2013 - Jan 2015",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Account Manager",
+            "organization": "W Communications",
+            "date_range": "Feb 2015 - Jun 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Account Director",
+            "organization": "W Communications",
+            "date_range": "Jul 2016 - Sep 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Account Director",
+            "organization": "W Communications",
+            "date_range": "Oct 2017 - Oct 2018",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director",
+            "organization": "W Communications",
+            "date_range": "Nov 2018 - Jul 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director",
+            "organization": "W Communications - Singapore",
+            "date_range": "Jul 2019 - Sep 2019",
+            "location": null,
+            "description": "Supporting W’s expansion in APAC and growth of its Singapore hub. Working across its consumer and corporate practice, brand experience included Bang & Oulfsen, MHD Moët Hennessy Diageo, Viacom, Bawah Resorts, Food Panda, private members club 1880 and PS Cafe."
+          },
+          {
+            "title": "SVP North America",
+            "organization": "W Communications North America",
+            "date_range": "Sep 2021 - Present",
+            "location": "New York, United States",
+            "description": "Spearheaded the North American expansion of W Communications, from one founding client to 'Best Consumer Agency'. Assembled and developed a high-performing team in New York and cross market, alongside building a client roster of domestic and international brands. Working cross sector and market to deliver campaigns for Nathan's Famous, TJX Group, citizenM, British Airways, F1 Arcade, POP MART, The Independent, Disney, Secret Media Network, Fever, Nothing Technology and more."
+          },
+          {
+            "title": "Director Of Brand Communications",
+            "organization": "Iconic Hotels & Resorts",
+            "date_range": "May 2025 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Brand Communications",
+            "organization": "L+R Hotels",
+            "date_range": "May 2025 - Present",
+            "location": "London",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Ulster University",
+            "degree_or_field": "1st class honors Social Scienes",
+            "date_range": "2005 - 2009"
+          }
+        ],
+        "skills": [
+          "communications",
+          "director",
+          "operations",
+          "performing",
+          "driving",
+          "commercial",
+          "campaigns",
+          "pop",
+          "technology",
+          "food"
+        ],
+        "activity_themes": [
+          "What makes a hotel iconic: stories, character and people",
+          "Creative careers involving books, games, films, furniture and kitchens",
+          "UKinbound awards shortlist for hotel accommodation provider",
+          "Rebranding and portfolio alignment for Iconic Hotels & Resorts",
+          "Luxury hotel name change and continued experiences"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/iconichotelsresorts_iconichotels-palmhouse-palmbeach-activity-7425491999794872321-q5t7",
+          "https://www.linkedin.com/posts/charlie-bowden-3639b929_books-games-kitchens-films-furniture-activity-7425504538213826561-rJ85",
+          "https://www.linkedin.com/posts/strand-palace-hotel_ukinbound-londonhotel-strandpalace-activity-7423004876294713344-uG36",
+          "https://www.linkedin.com/posts/sam-woolmore-8265a58a_excited-to-introduce-iconic-hotels-resorts-activity-7424564954038444032-e0pD",
+          "https://www.linkedin.com/posts/lisa-lernoux-dock-4794806_excited-to-share-some-big-news-iconic-luxury-activity-7424754045392773120-YjB-"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Amy Tomkins",
@@ -464,7 +1958,93 @@
           "source_type": "directory",
           "quote_or_fact": "References to loyalty/CRM and reservations team members in Iconic employee directory summaries"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/amy-tomkins-668790a8",
+        "display_name": "Amy Tomkins",
+        "headline": "VIP Loyalty Manager at Iconic Luxury Hotels",
+        "location": "New Milton, England, United Kingdom (GB)",
+        "about": "Experienced Reservations Manager with a demonstrated history of working in the hospitality industry. Skilled in Hospitality Management, Hotel Management, Hospitality Industry, Event Management, and Tourism. Strong operations professional Experienced virtual assistant Supporting business owners, professionals, entrepreneurs and busy working families with 5* personal assistance and administration support.\n\nTotal Experience: 19 years and 10 months",
+        "experience": [
+          {
+            "title": "Assistant Manager",
+            "organization": "P&O Cruises",
+            "date_range": "Jan 2004 - Feb 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Events Co-ordinator Rhinefield House",
+            "organization": "Hand Picked Hotels",
+            "date_range": "Jan 2007 - Jan 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Events Co-ordinator",
+            "organization": "Chewton Glen",
+            "date_range": "Jan 2012 - Feb 2014",
+            "location": "Hampshire, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Central Reservations Manager",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Feb 2014 - Nov 2019",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "VIP Loyalty Manager",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Oct 2019 - Present",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Virtual Assistant",
+            "organization": "The Contemporary PA",
+            "date_range": "May 2020 - Present",
+            "location": "Hampshire, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Brockenhurst college",
+            "degree_or_field": "Travel and Tourism",
+            "date_range": "1999 - 2001"
+          }
+        ],
+        "skills": [
+          "reservations",
+          "hospitality",
+          "management",
+          "hotel",
+          "tourism",
+          "operations",
+          "administration",
+          "hospitality industry",
+          "hospitality management",
+          "hotel management",
+          "event management"
+        ],
+        "activity_themes": [
+          "Luxury hospitality leadership conferences",
+          "Corporate wellness and spa experiences",
+          "Charity balls and fundraising events",
+          "Networking in travel and chamber events",
+          "Luxury travel tours in London",
+          "Executive assistants community",
+          "Walpole Power List in luxury sector",
+          "Iconic Luxury Hotels marketing features"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/amy-tomkins-668790a8"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Paul McDonnell",
@@ -487,7 +2067,124 @@
           "source_type": "directory",
           "quote_or_fact": "Management team includes rooms/operations leadership references"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/paul-mcdonnell-b066b385",
+        "display_name": "Paul McDonnell",
+        "headline": "Director Of Rooms at Iconic Luxury Hotels",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 34 years and 10 months",
+        "experience": [
+          {
+            "title": "Duty Manager",
+            "organization": "Hilton",
+            "date_range": "Jan 1990 - Apr 2009",
+            "location": "Birmingham, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Restaurant Manager",
+            "organization": "The Belfry Hotel & Resort",
+            "date_range": "Aug 2009 - Aug 2010",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Operations Manager",
+            "organization": "Honiley Court Hotel",
+            "date_range": "Aug 2010 - Sep 2011",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Front Office Manager",
+            "organization": "The Belfry Hotel & Resort",
+            "date_range": "Sep 2011 - Dec 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Group Reservations M E Sales Executive",
+            "organization": "The Belfry Hotel & Resort",
+            "date_range": "Dec 2014 - Feb 2017",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Central Group Reservations Manager",
+            "organization": "Macdonald Hotels & Resorts",
+            "date_range": "Feb 2017 - Nov 2018",
+            "location": "Birmingham, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Meeting And Events Sales Manager",
+            "organization": "Village Hotels",
+            "date_range": "Dec 2018 - Jul 2019",
+            "location": "Walsall, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Billesley Manor",
+            "date_range": "Jul 2019 - Jan 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations And Events Manager",
+            "organization": "Crowne Plaza Solihull",
+            "date_range": "Jan 2020 - Aug 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Park Regis Birmingham",
+            "date_range": "Dec 2021 - Oct 2022",
+            "location": "Birmingham, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms",
+            "organization": "Iconic Luxury Hotels",
+            "date_range": "Apr 2023 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "director",
+          "reservations",
+          "sales",
+          "operations",
+          "front office",
+          "sales manager"
+        ],
+        "activity_themes": [
+          "Hospitality industry awards and shortlists",
+          "Gala dinners and networking events",
+          "Hospitality career discussions and panels",
+          "VisitBritain tourism representation",
+          "Hotel group rebranding announcements",
+          "Leadership conferences and innovation",
+          "Hospitality management awards",
+          "Investment and development in hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/strand-palace-hotel_ukinbound-londonhotel-strandpalace-activity-7423004876294713344-uG36",
+          "https://www.linkedin.com/posts/beam-org_wearebeamuk-beamgaladinner-activity-7425490084096950273-BCsd",
+          "https://www.linkedin.com/posts/paulharnedy_delighted-to-be-back-where-my-hospitality-activity-7425229235922833408-sYYp",
+          "https://www.linkedin.com/posts/chris-haywood-9548a132_visit-britain-on-monday-i-had-the-activity-7424854532389527552-f4PY",
+          "https://www.linkedin.com/posts/lisa-lernoux-dock-4794806_excited-to-share-some-big-news-iconic-luxury-activity-7424754045392773120-YjB-",
+          "https://www.linkedin.com/posts/aimee-smith-087275a3_switchawards-teamswitch-newyear-activity-7424430105831153664-z5oc",
+          "https://www.linkedin.com/posts/gemma-mc-aloon-6b739a16_leadership-careerchange-hospitalitymarketing-activity-7424438916100911105-gpeL",
+          "https://www.linkedin.com/posts/iconichotelsresorts_iconichotelsandresorts-hospitalityinnovation-activity-7424384668008882177-B0-O"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Amanda Toste",
@@ -515,7 +2212,144 @@
           "source_type": "linkedin",
           "quote_or_fact": "Sales Manager, 11 Cadogan Gardens, Chelsea (team context)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/amanda-toste-26254b16b",
+        "display_name": "Amanda Toste",
+        "headline": "Sales Manager at 11 Cadogan Gardens",
+        "location": "London, England, United Kingdom",
+        "about": "With a passion for orchestrating projects and driving sales success, I’m a Sales Project Coordinator experienced in fast-paced, dynamic environments. I’ve partnered with executives and sales teams to deliver global enablement projects, events, and data-driven reporting solutions that improve performance and client engagement. Known for turning complex challenges into streamlined processes, I help teams focus on what they do best — growing pipelines, strengthening relationships, and achieving results.\n\nTotal Experience: 9 years and 7 months",
+        "experience": [
+          {
+            "title": "Estagiário",
+            "organization": "Voyage Privé",
+            "date_range": "Oct 2013 - Jun 2014",
+            "location": "Rio de Janeiro, Brasil",
+            "description": null
+          },
+          {
+            "title": "Estagiário",
+            "organization": "RIT TV",
+            "date_range": "Jul 2016 - Nov 2017",
+            "location": "Rio de Janeiro, Brasil",
+            "description": null
+          },
+          {
+            "title": "Estagiária",
+            "organization": "Massiv",
+            "date_range": "Nov 2017 - Aug 2018",
+            "location": "Rio de Janeiro, Brasil",
+            "description": null
+          },
+          {
+            "title": "Executivo De Marketing",
+            "organization": "Sniper Franquia",
+            "date_range": "Dec 2017 - Dec 2018",
+            "location": "Rio de Janeiro, Brasil",
+            "description": null
+          },
+          {
+            "title": "Hostess",
+            "organization": "The Stafford London",
+            "date_range": "Aug 2019 - Jul 2021",
+            "location": "London Area, United Kingdom",
+            "description": "Welcomed guests to the famous American Bar and Courtyard with a consistently friendly and professional approach, enhancing the guest experience."
+          },
+          {
+            "title": "Reservations Sales Agent",
+            "organization": "The Stafford London",
+            "date_range": "Jul 2021 - Aug 2022",
+            "location": "London Area, United Kingdom",
+            "description": "Converted inbound enquiries into bookings while maintaining CRM accuracy in Opera PMS. Enhanced revenue per client through upselling and improved lead-source tracking for better sales insights. - Handled inbound sales enquiries, converting high-value prospects into bookings. - Maintained CRM accuracy with Opera PMS, ensuring consistent follow-up and account tracking. - Identified and executed upsell opportunities, improving revenue per client. - Optimised sales reporting processes by introducing lead-source tracking for better attribution."
+          },
+          {
+            "title": "Sales Coordinator",
+            "organization": "The Stafford London",
+            "date_range": "Aug 2022 - May 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Oversaw account management and event sales, securing bookings and growing client relationships. Developed a post-event follow-up process that boosted repeat business and expanded corporate partnerships. - Managed a portfolio of corporate and B2B accounts, securing bookings and driving upsell opportunities. - Represented the brand at industry trade shows and networking events, strengthening client relationships. - Introduced a post-event follow-up process that improved repeat business and unlocked new opportunities. - Delivered tailored proposals, leveraging a consultative approach to align solutions with client goals."
+          },
+          {
+            "title": "Sales Advisor",
+            "organization": "August",
+            "date_range": "Apr 2023 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Managed B2B sales pipelines, qualifying leads and positioning tailored solutions across travel, retail, and lifestyle sectors. Introduced a HubSpot lead system that increased conversion by 35% and strengthened social selling strategies. - Managed B2B pipelines (outbound & inbound) via HubSpot, qualifying leads and identifying decision-makers across travel, retail, and lifestyle. - Consulted with prospective partners to identify needs and deliver customised business solutions. - Developed a lead prioritisation system in HubSpot, increasing conversion speed by 35%. - Co-created campaign content and LinkedIn outreach strategies to expand visibility and strengthen market penetration."
+          },
+          {
+            "title": "Sales Project Coordinator",
+            "organization": "Ennismore",
+            "date_range": "Mar 2024 - Dec 2025",
+            "location": "London Area, United Kingdom",
+            "description": "Drive global sales enablement projects, supporting leadership with strategy alignment, KPI reporting, and process automation. Created scalable Excel dashboards and playbooks that improve pipeline visibility, decision-making, and team performance. - Lead sales enablement projects across global territories, equipping teams with resources to drive pipeline growth and client acquisition. - Partner with senior leadership to align sales strategy, KPI reporting, and performance tracking across SMB and enterprise accounts. - Designed and implemented a scalable playbook for account segmentation and outreach, boosting conversion efficiency across regions. - Deliver project presentations on value-based communication strategies, enhancing engagement and account retention. - Oversee budget tracking and expense reconciliation in SAP Concur to support cross-functional projects. - Created and automated reporting dashboards in Excel, improving KPI visibility, decision-making speed, and efficiency across sales teams."
+          },
+          {
+            "title": "Sales Manager",
+            "organization": "11 Cadogan Gardens",
+            "date_range": "Nov 2025 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Estácio",
+            "degree_or_field": "Tecnólogo, Produção Audiovisual",
+            "date_range": "2015 - 2018"
+          }
+        ],
+        "skills": [
+          "projects",
+          "driving",
+          "sales",
+          "reporting",
+          "engagement",
+          "pipelines",
+          "b2b",
+          "positioning",
+          "retail",
+          "hubspot",
+          "selling",
+          "leadership",
+          "strategy",
+          "kpi",
+          "automation",
+          "segmentation",
+          "efficiency",
+          "presentations",
+          "budget",
+          "reconciliation",
+          "sap",
+          "concur",
+          "management",
+          "partnerships",
+          "networking",
+          "marketing",
+          "reservations",
+          "crm",
+          "opera",
+          "sales manager",
+          "market penetration",
+          "sales enablement",
+          "process automation",
+          "excel dashboards",
+          "decision making",
+          "sales strategy",
+          "account management",
+          "trade shows"
+        ],
+        "activity_themes": [
+          "Hotel leadership conferences in London",
+          "Luxury hospitality industry networking",
+          "New hotel openings and team expansions",
+          "Awards and recognitions in hospitality",
+          "Business chamber networking events",
+          "Milestones for hotel portfolios like Ennismore and The Hoxton"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ian Richardson",
@@ -543,7 +2377,136 @@
           "source_type": "other",
           "quote_or_fact": "Past GM responses on guest reviews confirm historical leadership"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ian-richardson-5755648",
+        "display_name": "Ian Richardson",
+        "headline": "Interim General Manager at Maroma, a Belmond Hotel",
+        "location": "Greater London, England, United Kingdom (GB)",
+        "about": "Transformational luxury hospitality leader with over 20 years of experience as a General Manager across five-star hotels, serviced residences, and members’ clubs in London and internationally. I’ve led some of the capital’s most prestigious properties, including The Cadogan, A Belmond Hotel, 11 Cadogan Gardens and The Chelsea Townhouse (Iconic Luxury Hotels), and Jumeirah Carlton Tower. Known for delivering business turnarounds, developing award-winning teams, and executing major refurbishments and property launches, I thrive at the intersection of operations, brand storytelling, and ownership strategy. Whether relaunching heritage icons or launching new lifestyle concepts, I consistently drive operational excellence, guest satisfaction, and profitability. I’m now seeking my next leadership challenge in London — ideally managing a luxury hotel, branded residence, or lifestyle-led estate.\n\nTotal Experience: 26 years and 8 months",
+        "experience": [
+          {
+            "title": "Leisure Director",
+            "organization": "The Hurlingham Club",
+            "date_range": "Sep 1994 - Sep 2000",
+            "location": null,
+            "description": "Responsible for all sporting and related social activities at this famous private members club, comprising a 44 acre estate with 40 tennis Courts, Health and Fitness Centre, Indoor and Outdoor Swimming Pools, Cricket Pitch, 8 Bowls and Croquet Lawns and Grade II listed Clubhouse. Responsible for development and maintenance of all facilities, and ensuring professional operational standards and processes were applied in the context of a committee led private members club."
+          },
+          {
+            "title": "General Manager",
+            "organization": "Champneys Piccadilly",
+            "date_range": "Sep 2000 - Jan 2001",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Champneys CityPoint",
+            "date_range": "Jan 2001 - Jul 2002",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager London CityClubs",
+            "organization": "Champneys",
+            "date_range": "Jul 2002 - Mar 2003",
+            "location": null,
+            "description": "Joined Champneys as GM at the Piccadilly Club but quickly promoted to Opening GM of the new flagship CityPoint Club in Moorgate. Successfully opened this 45,000 sq.ft fitness and spa facility, and then promoted to manage both Piccadilly and Moorgate Clubs."
+          },
+          {
+            "title": "General Manager, Islington",
+            "organization": "Esporta",
+            "date_range": "May 2003 - Jun 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Manager - Peak Health Club And Spa",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Jun 2004 - Sep 2010",
+            "location": null,
+            "description": "Oversee operations at the Peak Health Club and Spa at the Jumeirah Carlton Tower Hotel at Knightsbridge and work on European Spa Development for Jumeirah"
+          },
+          {
+            "title": "Interim Revenue Manager",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Mar 2010 - Sep 2010",
+            "location": "Jumeirah Carlton Tower and Jumeirah Lowndes Hotels",
+            "description": "Responsible for all revenue management functions across both properties to ensure effective delivery of business strategy (forecasting, distribution, pricing, yield management)"
+          },
+          {
+            "title": "General Manager, Jumeirah Lowndes Hotel",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Sep 2010 - Sep 2019",
+            "location": "Belgravia, London",
+            "description": "Responsible for the successful operation and financial performance of this luxury 88-bedroom boutique hotel in the heart of Knightsbridge (turnover £8.5m, FTE 70 Staff) Following a period of poor financial performance, appointed GM in 2010, and undertook a review of sales and marketing strategy and staffing structure in the last quarter of that year. From 2011 onwards the hotel has achieved budgeted profit every year since, with record profits in 2012, and record Rooms’ Revenue in 2016. - Completed refurbishment of all bedrooms in Q1 2014 on time and to budget - 35% growth in Net Profit between 2010 and 2013 (45% 2012 vs 2010) - Winner of 2012 Jumeirah Group “Market Share beyond Compare” (Best Year on Year Market Share Growth in the Jumeirah Group, and the 2013 Jumeirah Group “Sales Surge” Award (Best above budget profit performance in the Jumeirah Group) - 23% increase in Rooms Revenue growth from 2010 to 2013 - Customer Satisfaction Index grown from 752 in 2010 to 840 in 2017 - Refurbishment, rebranding and re-launch of Restaurant and Bar in 2011"
+          },
+          {
+            "title": "Interim General Manager - Grosvenor House Suites By Jumeirah Living",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Nov 2014 - Jun 2015",
+            "location": null,
+            "description": "Responsible for the successful operation and financial performance of this ultra-luxury property comprising 133 serviced apartments (198 bedrooms) on Park Lane. Chosen by Jumeirah following the departure of the previous GM to stabilise and refocus both colleagues and the business following a challenging 2014, and provide leadership to improve financial performance and service levels. During my tenure RevPAR grew 15.6% (vs Comp Set 0.4%), and the Customer Satisfaction Index grew 24 points."
+          },
+          {
+            "title": "Pre-Opening Opening General Manager, Jumeirah Nanjing Hotel",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Apr 2018 - Oct 2018",
+            "location": "Nanjing, Jiangsu, China",
+            "description": "Successfully opened Jumeirah’s flagship hotel in China, comprising 260 keys, five F&B outlets, and full wellness facilities. - Customizing and executing comprehensive pre-opening plan - Project management and execution of snagging and commissioning processes - Maintained and developed owner relations in a challenging government environment - Onboarding, training and developing 345 colleagues to brand standards. - Hotel successfully opened on 8th September 2018 - Jumeirah Nanjing finished with the highest CSI (Customer Satisfaction Index) score in the Jumeirah portfolio at the end of 2018"
+          },
+          {
+            "title": "Interim General Manager Jumeirah Carlton Tower Hotel",
+            "organization": "Jumeirah Group / Jumeirah Hotels & Resorts",
+            "date_range": "Jan 2019 - Sep 2019",
+            "location": "London, United Kingdom",
+            "description": "Given full operational responsibility for this 216 bedroom five red star hotel with three F&B outlets, C&E space and comprehensive wellness facilities with P&L responsibility for turnover of £40m (£27m rooms, £9m F&B, £4m OOD) in January 2019, in addition to my role at Jumeirah Lowndes Hotel. - In April 2019, it was announced that the property would be closing for a full refurbishment on 1st September 2019. - Successfully planned and executed the closure of the hotel whilst maintaining service standards and delivering an above budget financial performance for the year."
+          },
+          {
+            "title": "General Manager",
+            "organization": "11 Cadogan Gardens, The Chelsea Townhouse and The Apartments by 11 Cadogan Gardens",
+            "date_range": "Jun 2020 - Jun 2024",
+            "location": "London, England, United Kingdom",
+            "description": "I was fortunate to oversee these three amazing properties, and an equally amazing team! 11 Cadogan Gardens and the Chelsea Townhouse are the only two Relais & Chateaux properties in London, flanked by the six luxury apartments of the Apartments by 11 Cadogan Gardens, and peacefully situated around a leafy garden square, yet just seconds from the Kings Road, Sloane Square and Sloane Street"
+          },
+          {
+            "title": "Interim General Manager",
+            "organization": "The Cadogan, A Belmond Hotel",
+            "date_range": "Jun 2024 - Oct 2024",
+            "location": "London Area, United Kingdom",
+            "description": "At the request of ownership, assumed leadership of the property pending the arrival of the next GM, providing stability, a focus on excellence, and navigation through the annual budget cycle. During my tenure the hotel achieved 2 Michelin Key status, was voted 6th Best London Hotel in the Condé Nast Traveller Readers Awards, and secured it’s highest LQA Audit of 90%, ranking it 7th out of the 72 participating London Hotels."
+          },
+          {
+            "title": "Interim General Manager",
+            "organization": "Maroma, A Belmond Hotel",
+            "date_range": "Jul 2025 - Present",
+            "location": "Mexico",
+            "description": "Nestled between lush jungle and the sparkling Caribbean Sea, Maroma is a truly magical destination that embodies the spirit of Riviera Maya — a place where timeless elegance meets warm, authentic Mexican hospitality. Learn more about this extraordinary hotel here: https://lnkd.in/d785aYKs"
+          }
+        ],
+        "education": [
+          {
+            "school": "Loughborough University",
+            "degree_or_field": "BSc (Hons) Physical Education, Sports Science and Recreation Management",
+            "date_range": "1985 - 1988"
+          },
+          {
+            "school": "Kingston University",
+            "degree_or_field": "MBA",
+            "date_range": null
+          },
+          {
+            "school": "Cornell University",
+            "degree_or_field": "Hotel Real Estate Investments and Asset Management Certificate",
+            "date_range": "2017 - 2017"
+          }
+        ],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Rowen Babe",
@@ -566,7 +2529,86 @@
           "source_type": "official_site",
           "quote_or_fact": "11 Cadogan Gardens - Head Chef Rowen Babe"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/rowen-babe-032bb71b2",
+        "display_name": "Rowen Babe",
+        "headline": "Executive Chef at The Winding Stair",
+        "location": "Dublin, County Dublin, Ireland",
+        "about": "Total Experience: 10 years and 3 months",
+        "experience": [
+          {
+            "title": "Executive Chef",
+            "organization": "Market Cafe & Les Nenettes",
+            "date_range": "Sep 2015 - May 2017",
+            "location": "London, England, United Kingdom",
+            "description": "The Market Café is a Modern British Bistro with a large focus on weekend brunches. With a restaurant that can seat up to 110 people, with average dinner covers of around 50-60 and weekend brunch covers of 300-500 people this was an extremely busy kitchen. With a brigade of 7 chefs we managed turn it from a food GP of 36% down to 29% in the space of about four months. With a weekly food turnover now of £15,000-£20,000 it ha shown an increase of 20% from the same times in 2014-2015. Les Nenettes is a small French Bistro, opened in February, located in Hackney open all day serving Brunch, Lunch and Dinner. With seating of 40 inside and 25 outside with an extremely small kitchen we have got this up and running in under 3 months. A brigade of 5 chefs and 2 KPs. As Executive Chef I was responsible for the day to day running of both restaurants and more recently, designing and opening the Les Nenettes Restaurant."
+          },
+          {
+            "title": "Head Chef",
+            "organization": "EAT 17",
+            "date_range": "Jun 2017 - Jul 2019",
+            "location": "London, England, United Kingdom",
+            "description": "Eat 17 Restaurant is a neighbourhood bistro with a large clientele of regular diners. With seating of around 70 covers Eat 17 does on average around 1300 covers a week. Open for lunch and dinner Monday-Friday, and brunch, lunch and dinner on the weekends, it is a fast paced restaurant while still maintaining its high standards in food and service. As the Head Chef my responsibilities include, rota, wage costings, menu design and implementation, menu costings and all aspects of health and safety."
+          },
+          {
+            "title": "Executive Chef",
+            "organization": "DHP Family",
+            "date_range": "Jul 2019 - Aug 2020",
+            "location": "London, England, United Kingdom",
+            "description": "The Oslo Bar and Restaurant is a busy bar/restaurant/live music venue. It is based in Hackney, East London and is a joint restaurant/bar and live music venue. I was employed as the Executive Chef to oversee the complete overhaul of the Oslo kitchen. In early July we created a new plan and direction for the Oslo kitchen. After a reorganisation of the kitchen and surrounding areas to improve efficiency, we focused on staff training and taking the food back to basics with 90% of the items being made in house. With regular food training, on tasting, allergens, coffee training, wine training and an in house 10 module health, hygiene and safety program we re-launched the Oslo kitchen. The restaurant has a maximum seating of 80pax and is open for lunch and dinner 7 days a week. With a focus on fresh food, using local suppliers where possible, such as the E5 Bakehouse, Fin and Flounder & Cream Lab. The restaurant is marketed as an inviting gastro pub, serving fresh, homemade comfort food. With daily changing specials, a very busy Sunday lunch and a packed restaurant on music nights, the Oslo has transformed into a staple East London dining choice."
+          },
+          {
+            "title": "Executive Head Chef",
+            "organization": "11 Cadogan Gardens",
+            "date_range": "Aug 2020 - Aug 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Head Chef",
+            "organization": "Dorian Restaurant",
+            "date_range": "Mar 2022 - Sep 2022",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Executive Chef",
+            "organization": "The Winding Stair",
+            "date_range": "Oct 2022 - Present",
+            "location": "Dublin, County Dublin, Ireland",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "staff training",
+          "food service",
+          "overhaul",
+          "efficiency",
+          "training",
+          "food",
+          "coffee",
+          "health",
+          "hygiene",
+          "safety",
+          "running",
+          "responsible",
+          "restaurants",
+          "designing",
+          "design"
+        ],
+        "activity_themes": [
+          "Restaurant soft openings and full houses in London hotels",
+          "New career chapters in hospitality"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/christopher-prow-67b77619_londonrestaurant-london-londonfood-activity-6977162445375078401-Puqc",
+          "https://www.linkedin.com/posts/enrico-savino-5a8918a4_a-new-chapter-activity-6970100155291201536-sTy2"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -580,5 +2622,71 @@
     "succeeded": 16,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T02:15:57.263280+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 18,
+      "structured": 18,
+      "discovered": 1,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 1,
+        "content_pages": 18,
+        "cost_estimate": {
+          "approx_total_usd": 0.025,
+          "search_component_usd": 0.007,
+          "contents_component_usd": 0.018,
+          "counts": {
+            "search_requests": 1,
+            "content_pages": 18
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 51620,
+          "cached_prompt_text_tokens": 2048,
+          "completion_tokens": 23423,
+          "reasoning_tokens": 76051,
+          "output_tokens": 0,
+          "total_tokens": 151094
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.696398,
+          "token_component_usd": 0.696398,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 51620,
+            "cached_prompt_text_tokens": 2048,
+            "completion_tokens": 23423,
+            "reasoning_tokens": 76051,
+            "total_tokens_reported": 151094,
+            "output_like_tokens": 99474,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.721398
+    }
   }
 }

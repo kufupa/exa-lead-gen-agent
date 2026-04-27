@@ -96,7 +96,7 @@
       "full_name": "Katie Snow",
       "title": "Director of Marketing and Communications",
       "company": "The Cadogan, A Belmond Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/katieesnow",
+      "linkedin_url": "https://www.linkedin.com/in/katieesnow",
       "email": "katie.snow@belmond.com",
       "email2": null,
       "phone": null,
@@ -129,7 +129,7 @@
       "full_name": "Lydia Cook",
       "title": "UK Communications Manager",
       "company": "Belmond",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/lydia-cook-0203752a",
       "email": "lydia.cook@belmond.com",
       "email2": null,
       "phone": null,
@@ -146,7 +146,127 @@
           "source_type": "official_site",
           "quote_or_fact": "Lydia Cook, UK Communications Manager (lydia.cook@belmond.com)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/lydia-cook-0203752a",
+        "display_name": "Lydia Cook",
+        "headline": "UK Communications Manager, Belmond | LVMH",
+        "location": "United Kingdom (GB)",
+        "about": "A Communications professional with over 14 years of expertise in the luxury travel, hospitality, culture, and retail sectors, spanning international markets across the U.K., APAC and the Middle East. Experienced in both in-house and agency environments, with a strong track record of crafting results-driven, impactful communication strategies and brand narratives that build brand visibility and engagement.\n\nTotal Experience: 16 years",
+        "experience": [
+          {
+            "title": "Internship Trainee",
+            "organization": "Bell Pottinger",
+            "date_range": "May 2009 - Jun 2009",
+            "location": "London Area, United Kingdom",
+            "description": "A role providing hands-on experience in Public Relations, focused on B2B communications skills."
+          },
+          {
+            "title": "Account Executive",
+            "organization": "Four bgb (Four Communications)",
+            "date_range": "Sep 2009 - Jun 2011",
+            "location": "London, United Kingdom",
+            "description": "Worked in the travel and tourism PR sector in London, across a diverse portfolio of accounts, including luxury brands such as One&Only Resorts, Oberoi Hotels & Resorts, Atlantis The Palm (Dubai), and the tourist board for St. Vincent and the Grenadines. Handled day-to-day responsibilities such as drafting press releases, pitching story ideas to media, organizing individual and group press trips abroad, and attending press meetings. Acted as the liaison between clients and media, representing the company professionally in all communications. Contributed creative ideas for new business pitches and developed tailored PR strategies for clients."
+          },
+          {
+            "title": "PR Consultant",
+            "organization": "The Portsmouth Group",
+            "date_range": "Sep 2011 - Oct 2015",
+            "location": "Dubai",
+            "description": "Based in the Dubai head office of a GCC communications agency, specializing in tourism and leisure sectors with high-profile clients such as Rocco Forte Hotels, Rezidor Hotel Group, Design Days Dubai, CHANEL, Patek Philippe, and Abu Dhabi Tourism & Culture Authority projects, including Abu Dhabi Art and Louvre Abu Dhabi. Served as lead consultant, managing a cross-functional team of English and Arabic-speaking colleagues, overseeing annual PR planning, budget tracking, drafting compelling press releases and client speeches, delivering timely media coverage reports, supporting key industry events, and organizing press conferences. Contributed to successful new business pitches by providing strategic analysis, developing PR concepts, and presenting to stakeholders in a boardroom environment."
+          },
+          {
+            "title": "PR Manager, Hotels (Maternity Cover)",
+            "organization": "Belmond",
+            "date_range": "Jan 2016 - Apr 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Public Relations Manager, Asia-Pacific Russia",
+            "organization": "Belmond",
+            "date_range": "Apr 2017 - Nov 2020",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Public Relations Manager, EMEA",
+            "organization": "Belmond",
+            "date_range": "Nov 2020 - Apr 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "UK Communications Manager",
+            "organization": "Belmond",
+            "date_range": "Apr 2022 - Present",
+            "location": "London, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "The Manchester Metropolitan University",
+            "degree_or_field": "2:1 BA Honours, Advertising and Brand Management",
+            "date_range": "2005 - 2009"
+          },
+          {
+            "school": "CIPR Qualifications",
+            "degree_or_field": "Certificate in Training, Strategic Thinking in PR",
+            "date_range": "2023 - "
+          },
+          {
+            "school": "Chigwell School",
+            "degree_or_field": null,
+            "date_range": null
+          },
+          {
+            "school": "The Leys School",
+            "degree_or_field": null,
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "communications",
+          "luxury",
+          "hospitality",
+          "retail",
+          "engagement",
+          "pr",
+          "hotels",
+          "tourism",
+          "hotel",
+          "design",
+          "projects",
+          "arabic",
+          "planning",
+          "budget",
+          "reports",
+          "organizing",
+          "analysis",
+          "liaison",
+          "creative",
+          "b2b",
+          "press releases",
+          "press conferences",
+          "strategic analysis",
+          "public relations"
+        ],
+        "activity_themes": [
+          "Belmond hotel openings, culinary destinations and property unveilings",
+          "Luxury train experiences featured in global media",
+          "LVMH career development and empowerment initiatives",
+          "Luxury hospitality hiring and brand announcements",
+          "Great British Brands and UK luxury sector insights",
+          "Promotions and milestones in media/publishing",
+          "Independent school rankings and alumni achievements"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/lydia-cook-0203752a"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ottavia Palomba",
@@ -175,7 +295,7 @@
       "full_name": "Alexandra Withers",
       "title": "Senior Manager, Global Product Communications",
       "company": "Belmond",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/alexa-withers-b7a15763",
       "email": "alexandra.withers@belmond.com",
       "email2": null,
       "phone": null,
@@ -192,13 +312,181 @@
           "source_type": "official_site",
           "quote_or_fact": "Alexa Withers / Alexandra Withers, Senior Manager, Global Product Communications (alexandra.withers@belmond.com)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/alexa-withers-b7a15763",
+        "display_name": "Alexa Withers",
+        "headline": "Senior Manager, Global Communications at Belmond (LVMH)",
+        "location": "United Kingdom (GB)",
+        "about": "Senior level communications and PR specialist combining agency experience with in-house…",
+        "experience": [
+          {
+            "title": "Business Development Marketing Intern",
+            "organization": "Enhesa",
+            "date_range": "Jun 2013 - Aug 2013",
+            "location": "Brussels Area, Belgium",
+            "description": null
+          },
+          {
+            "title": "Communications & Marketing Officer",
+            "organization": "University of Exeter Erasmus Society",
+            "date_range": "Jul 2013 - Jun 2014",
+            "location": null,
+            "description": "Managing the external communications, publicity and marketing for the university’s third largest society. The advertising campaigns and events that I organised encouraged over 400 international members to join the society. I was also involved with the organisation of social events such as balls and weekend trips to English cities, as well as the general administration of the society."
+          },
+          {
+            "title": "Telethon Fundraiser",
+            "organization": "University of Exeter",
+            "date_range": "Oct 2013 - May 2014",
+            "location": "Exeter, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "International Business Developer",
+            "organization": "1000mercis",
+            "date_range": "Sep 2014 - Feb 2015",
+            "location": "Paris Area, France",
+            "description": null
+          },
+          {
+            "title": "Junior Account Executive",
+            "organization": "Manifest London",
+            "date_range": "Sep 2015 - Jan 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Junior Account Executive",
+            "organization": "The M Collective",
+            "date_range": "Jan 2016 - May 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Account Executive",
+            "organization": "The M Collective",
+            "date_range": "May 2016 - Sep 2016",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Account Executive",
+            "organization": "The M Collective",
+            "date_range": "Sep 2016 - Sep 2017",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Account Manager",
+            "organization": "The M Collective",
+            "date_range": "Sep 2017 - Aug 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Account Manager",
+            "organization": "The M Collective",
+            "date_range": "Sep 2018 - Apr 2019",
+            "location": "London, United Kingdom",
+            "description": "An independent communications consultancy for the most inspiring travel and lifestyle brands. • Aqua Expeditions, Luxury River Cruise • British Virgin Islands, Tourism Board • Costa Smeralda Luxury Collection, Sardinia • Historic Sussex Hotels: Bailiffscourt; Ockenden Manor; The Spread Eagle • Hotel du Petit Moulin, Pavillon des Lettres & Pavillon de la Reine, Paris • Marugal Distinctive Hotel Management, Spain & France: Akelarre; Cap Rocat; Gecko; Le Barn; Le Relais de Chambord; Torralbenc; Totem; Urso • Monte-Carlo - Société Des Bains De Mer • No.15 Great Pulteney, Bath • Thai Airways • The Fife Arms, Scotland • The Merrion, Ireland Previous accounts: ArcelorMittal Orbit; Domaine de Manville, Provence"
+          },
+          {
+            "title": "Senior Account Manager",
+            "organization": "Bacchus Agency",
+            "date_range": "Apr 2019 - Jan 2020",
+            "location": "London, United Kingdom",
+            "description": "Bacchus specialises in brand development, creative communications, brand imaging and identity, regional and global campaigns, content creation, collaborations and marketing, creative production, strategic partnerships and influencer relations. • Domes Hotels, Greece • Experimental Group: London, Paris, Verbier, Menorca, Venice • Gucci Garden & Gucci Osteria, Italy • Mama Shelter Global & Mama London • Rosewood Global & Rosewood London • SH Hotels & Resorts Global & Treehouse London • The Stratford, London"
+          },
+          {
+            "title": "Senior Account Manager",
+            "organization": "Perowne International",
+            "date_range": "Jan 2020 - Feb 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Junior Account Director",
+            "organization": "Perowne International",
+            "date_range": "Feb 2021 - Mar 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Account Director",
+            "organization": "Perowne International",
+            "date_range": "Apr 2022 - Jul 2022",
+            "location": "London",
+            "description": "• The Newt in Somerset - official sponsor of the RHS Chelsea Flower Show • Masseria Calderisi, Italy • Hôtel Madame Rêve, Paris • Gleneagles Townhouse, Edinburgh • Babylonstoren, South Africa • Château Troplong Mondot, France • Eleven Experience, Global Adventure Travel including Deplar Farm, Iceland • Gleneagles, Scotland • Maisons et Hôtels Sibuet, France Previous Clients: Nobu Hotel Warsaw; Scott Dunn; Garden Day 2020"
+          },
+          {
+            "title": "Senior Manager, Global Product Communications",
+            "organization": "Belmond",
+            "date_range": "Jul 2022 - Present",
+            "location": "London",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "St Bartholomew’s School",
+            "degree_or_field": "A Levels: A* A A in French, Spanish & English Beginners Mandarin - Pass Young Enterprise - Merit Chosen to receive school's Modern Languages & English Language prizes",
+            "date_range": "2008 - 2010"
+          },
+          {
+            "school": "University of Exeter",
+            "degree_or_field": "Bachelor of Arts (B.A.), Spanish & French, 2:1 with Distinction in French",
+            "date_range": "2010 - 2014"
+          }
+        ],
+        "skills": [
+          "communications",
+          "pr",
+          "director",
+          "marketing",
+          "consultancy",
+          "luxury",
+          "tourism",
+          "hotels",
+          "management",
+          "creative",
+          "imaging",
+          "campaigns",
+          "production",
+          "partnerships",
+          "adventure travel",
+          "business development",
+          "hotel management",
+          "brand development",
+          "content creation",
+          "strategic partnerships",
+          "international business",
+          "africa"
+        ],
+        "activity_themes": [
+          "Luxury hospitality and Belmond hotel events",
+          "British publishing milestones with Country Life Magazine",
+          "Travel features in Country & Town House magazine",
+          "African fashion celebrations at Mount Nelson",
+          "World's 50 Best Hotels recognitions",
+          "Skiing and winter adventure travel in St Moritz"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/country-life-mag_editorinchief-countrylifemagazine-britishpublishing-activity-7389616655665926144-WPHm",
+          "https://www.linkedin.com/posts/luke-abrahams-0244b267_headlining-the-travel-section-of-the-latest-activity-7392523854927245312-pu5Q",
+          "https://www.linkedin.com/posts/damiaboudress_mount-nelson-a-belmond-hotel-recently-hosted-activity-7394346076968894464-KqmO",
+          "https://www.linkedin.com/posts/alexa-withers-b7a15763_a-brilliant-evening-in-great-company-with-activity-7394330954753949696-lRgn",
+          "https://www.linkedin.com/posts/marisol-ledesma_33-of-the-worlds-50-best-hotels-wow-activity-7393689913797341184-3RoF",
+          "https://www.linkedin.com/posts/luke-abrahams-0244b267_piste-off-for-country-town-house-i-went-activity-7393614193675087872-r95Z"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Hanna Bornebusch",
       "title": "Communications / PR Contact (Europe & Africa)",
       "company": "Belmond",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/hanna-bornebusch-16b9785a/en",
       "email": "hanna.bornebusch@belmond.com",
       "email2": null,
       "phone": null,
@@ -215,13 +503,83 @@
           "source_type": "official_site",
           "quote_or_fact": "Email: hanna.bornebusch@belmond.com (communications team)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/hanna-bornebusch-16b9785a/en",
+        "display_name": "Hanna Bornebusch",
+        "headline": "PR Manager @ La Residencia, A Belmond Hotel",
+        "location": "Greater Palma de Mallorca Metropolitan Area (ES)",
+        "about": "Total Experience: 13 years and 9 months",
+        "experience": [
+          {
+            "title": "Event Manager",
+            "organization": "Primarena",
+            "date_range": "Nov 2011 - Nov 2013",
+            "location": null,
+            "description": "Department: Marketing • Level: Manager"
+          },
+          {
+            "title": "Booking And Operations Manager",
+            "organization": "Aigua Charter",
+            "date_range": "Jan 2014 - Sep 2014",
+            "location": "Palma",
+            "description": "Department: Operations • Level: Specialist"
+          },
+          {
+            "title": "Production Manager",
+            "organization": "abcMallorca",
+            "date_range": "Jan 2015 - Mar 2018",
+            "location": "Palma Area, Spain",
+            "description": "Department: Operations • Level: Manager"
+          },
+          {
+            "title": "PR-Manager",
+            "organization": "La Residencia, A Belmond Hotel",
+            "date_range": "Mar 2018 - Present",
+            "location": "Deià, Mallorca",
+            "description": "Department: Marketing • Level: Manager\nCompany: 51-200 employees • Public Company • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "Justus-Liebig-Universität Giessen",
+            "degree_or_field": "Diplom, Wirtschaftsromanistin",
+            "date_range": "1994 - 2001"
+          }
+        ],
+        "skills": [
+          "pr",
+          "operations",
+          "production"
+        ],
+        "activity_themes": [
+          "Hotel team recognition and appreciation",
+          "Housekeeping and concierge awards",
+          "Employee family engagement events",
+          "Luxury hospitality awards (Michelin Keys)",
+          "Industry nominations and votes",
+          "Local Mallorca restaurant openings",
+          "Creativity and entrepreneurship podcasts"
+        ],
+        "source_urls": [
+          "https://es.www.linkedin.com/posts/peptoniferreiro_este-reconocimiento-de-lqa-no-es-mío-es-activity-7395007604407795712-R0oO",
+          "https://www.linkedin.com/posts/alejandra-de-la-cruz-valenzuela-89849080_recap-housekeeping-week-2025-nuestro-equipo-activity-7382886416638287873-FFdI",
+          "https://www.linkedin.com/posts/sophiebroadhead_creativitychat-podcast-creativeentrepreneurs-activity-7378522965686132736-I2pi",
+          "https://www.linkedin.com/posts/cendrine-klein-530964_employeeexperience-laresidencia-makethemoment-activity-7378820969664163840-xBEN",
+          "https://www.linkedin.com/posts/belmond_la_residencia_belmond-laresidencia-deià-activity-7382458386291904512-_V9A",
+          "https://www.linkedin.com/posts/hanna-bornebusch-16b9785a_vote-vote-vote-please-activity-7360928771593465856-D5Fg",
+          "https://www.linkedin.com/posts/belmond_la_residencia_belmond-activity-7360699239552708610-LfHk",
+          "https://www.linkedin.com/posts/antonio-mus-darder-2941b6196_llumisal-fsmallorca-activity-7349517429967900672-4Uc_"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Carolyn Beaudry",
       "title": "Senior Manager, Global Brand Advocacy & Events",
       "company": "Belmond",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/carolynbeaudry",
       "email": "carolyn.beaudry@belmond.com",
       "email2": null,
       "phone": null,
@@ -238,7 +596,60 @@
           "source_type": "official_site",
           "quote_or_fact": "Carolyn Beaudry, Senior Manager, Global Brand Advocacy & Events (carolyn.beaudry@belmond.com)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/carolynbeaudry",
+        "display_name": "Carolyn Beaudry",
+        "headline": "Senior Manager - Global Brand Advocacy & Events at Belmond",
+        "location": "United Kingdom (GB)",
+        "about": "Experienced Account Director with a demonstrated history of working in the luxury goods industry - specifically, in the beauty, fashion and lifestyle categories. Skilled in public relations/communications, brand partnerships, and event & influencer management.",
+        "experience": [
+          {
+            "title": "Senior Manager - Global Brand Advocacy Events",
+            "organization": "Belmond",
+            "date_range": "Jul 2022 - Present • 3 years and 7 months",
+            "location": "London, England, United Kingdom",
+            "description": "Company: 5001-10,000 employees • Public Company • Hospitality\nDepartment: Marketing • Level: Manager"
+          }
+        ],
+        "education": [
+          {
+            "school": "The University of Western Ontario",
+            "degree_or_field": "Bachelor of Arts (BA), Sociology",
+            "date_range": "2007 - 2011"
+          },
+          {
+            "school": "Academy of Design at RCC Institute of Technology",
+            "degree_or_field": "Diploma, Fashion Marketing and Merchandising, Honours, President's List",
+            "date_range": "2011 - 2013"
+          }
+        ],
+        "skills": [
+          "director",
+          "luxury",
+          "beauty",
+          "fashion",
+          "communications",
+          "partnerships",
+          "management",
+          "advocacy",
+          "luxury goods",
+          "public relations"
+        ],
+        "activity_themes": [
+          "Belmond executive appointments and recognitions",
+          "Luxury art fairs and cultural events",
+          "Culinary director appointments and restaurant openings",
+          "Sustainability and environmental impact in hospitality",
+          "Slow luxury travel and hotel renovations",
+          "Industry events including ILTM Cannes and NRF"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/carolynbeaudry"
+        ],
+        "data_quality": "partial",
+        "caveats": "Only current role is detailed in the provided text; no prior experience entries listed despite 'demonstrated history' mentioned in About section."
+      }
     },
     {
       "full_name": "Anastasia Aroukatos",
@@ -289,13 +700,174 @@
           "source_type": "official_site",
           "quote_or_fact": "Sales and reservations contacts referenced via reservations.cad@belmond.com on related pages"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/clemenceln",
+        "display_name": "Clémence Le Norcy",
+        "headline": "Director Of Sales at The Cadogan, A Belmond Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "My career ambition to work in sales for the luxury hotels industry was developed throughout my education and reaffirmed by a variety of professional experiences in hotels that have inspired me to aim for excellence.\n\nTotal Experience: 9 years and 10 months",
+        "experience": [
+          {
+            "title": "Head Waitress",
+            "organization": "Hôtel Royal Thalasso La Baule",
+            "date_range": "Jul 2013 - Aug 2013",
+            "location": "La Baule",
+            "description": "Responsible for 20 tables for the entire stay of the customer • Ensuring customer satisfaction by making guests feels cared for, valued, and respected • Ensuring good communication between the kitchen staff and the waitresses • Ensuring orderly conduct during the service"
+          },
+          {
+            "title": "Events Manager Assistant",
+            "organization": "GL events - Maison de la Mutualité",
+            "date_range": "Aug 2014 - Jan 2015",
+            "location": "Paris",
+            "description": "Assisted the events managers in the organization of diverse events for 10 to 2000 attendees • Collaborated with customers in strategic choices for events and tailored recommendations • Conducted site inspections with customers, promoting the company’s resources and services • Managed commercial negotiations until signing of the contract • Coordinated operational departments during the event"
+          },
+          {
+            "title": "Sales Assistant",
+            "organization": "Hôtel Le Fouquet's Paris",
+            "date_range": "Feb 2015 - Jul 2015",
+            "location": "Paris",
+            "description": "Supported the external sales department as well as the property events teams required • Actioned responses on property on behalf of international team • Planned the team’s sales trips (itineraries, flights, sales calls, collateral delivery) • Updated sales tools: fact sheets, brochures, advertising • Ensured administrative follow-up (preparing corporate contracts, end-of-month reports)"
+          },
+          {
+            "title": "Sales And Marketing Assistant",
+            "organization": "The St. Regis Bora Bora Resort",
+            "date_range": "Oct 2016 - Feb 2017",
+            "location": "Bora Bora",
+            "description": "Assisted DOSM and entire sales & marketing team as required • Coordinated and conducted familiarization and press trips at the resort • Responsible for updating all resort collateral in line with the new St. Regis brand standards • Liaised with operational departments for daily luxury travel agent requests • Sourced product and suppliers to renew resort’s giveaways stocks • In charge of updating Instagram account including finding and creating new content"
+          },
+          {
+            "title": "Executive Assistant To The General Manager",
+            "organization": "The St. Regis Bora Bora Resort",
+            "date_range": "Mar 2017 - Jun 2017",
+            "location": "Bora Bora",
+            "description": "Provided assistance to the General Manager in any aspect of his work • Administrated the day-to-day operation of the Executive Office • Maintained confidential filling system for correspondence, policies, standards, and various matters • Assisted departmental leaders in completing special projects as required"
+          },
+          {
+            "title": "Sales Coordinator",
+            "organization": "Hotel Café Royal",
+            "date_range": "Jul 2017 - Dec 2018",
+            "location": "London, Royaume-Uni",
+            "description": "Reactive and proactive position within a Sales Team of 12 people based in the hotel • Looking after the French market (leisure, groups and corporate) • Assisting the sales managers on a daily basis, looking after their clients in their absence (site inspection, entertainment) • Anticipating the business needs of the Sales team • Working closely with the Vice President of Sales and Marketing of The Set Hotels (S&M plan, budget)"
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Hotel Café Royal",
+            "date_range": "Jan 2019 - Mar 2020",
+            "location": "London, Royaume-Uni",
+            "description": "Markets: France (Leisure, MICE & corporate), London (Fashion & Luxury Goods, Diplomatic) • Maintaining and developing existing relationships with key accounts • Identifying and prospecting new qualified accounts • Organising and conducting site inspection and familiarisation trips at the hotel • Attending trade shows (AMEX, LHW trade shows) and sales trips (France)"
+          },
+          {
+            "title": "Sales Manager - Hotel Café Royal Hôtel Lutetia",
+            "organization": "The Set Collection",
+            "date_range": "Mar 2020 - Mar 2022",
+            "location": "London, Royaume-Uni",
+            "description": "Europe - Leisure, MICE and corporate London - Fashion and luxury goods"
+          },
+          {
+            "title": "Global Sales Manager",
+            "organization": "The Set Collection",
+            "date_range": "Mar 2022 - Mar 2023",
+            "location": "London, England, United Kingdom",
+            "description": "Southern Europe, UK, Fashion & Luxury Goods"
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "Hotel Café Royal",
+            "date_range": "Apr 2023 - Sep 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Fashion & Luxury Goods, Latin America Leading a team of six"
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "The Cadogan, A Belmond Hotel",
+            "date_range": "Oct 2024 - Present",
+            "location": "London",
+            "description": "Department: Sales • Level: Director"
+          }
+        ],
+        "education": [
+          {
+            "school": "Lycée Benjamin Franklin, Auray (56)",
+            "degree_or_field": "Scientific Baccalaureat with honors",
+            "date_range": "2009 - 2010"
+          },
+          {
+            "school": "Lycée Dupuy de Lôme, Lorient (56)",
+            "degree_or_field": "Intensive general program for Top Schools",
+            "date_range": "2010 - 2012"
+          },
+          {
+            "school": "Rennes School of Business",
+            "degree_or_field": "Master of Science (MSc) International Luxury and Brand Management",
+            "date_range": "2012 - 2016"
+          },
+          {
+            "school": "Universidade Federal do Rio de Janeiro",
+            "degree_or_field": "Marketing - International & Strategic Management",
+            "date_range": "2014 - "
+          }
+        ],
+        "skills": [
+          "sales",
+          "luxury",
+          "hotels",
+          "education",
+          "director",
+          "commercial",
+          "negotiations",
+          "operation",
+          "projects",
+          "marketing",
+          "responsible",
+          "collateral",
+          "stocks",
+          "instagram",
+          "fashion",
+          "inspection",
+          "hotel",
+          "property",
+          "flights",
+          "brochures",
+          "advertising",
+          "reports",
+          "latin",
+          "proactive",
+          "entertainment",
+          "budget",
+          "site inspections",
+          "luxury goods",
+          "trade shows",
+          "customer satisfaction",
+          "sales manager",
+          "latin america"
+        ],
+        "activity_themes": [
+          "Luxury hotel culinary leadership appointments at Belmond properties",
+          "Michelin-starred chef integrations and new eras for heritage hotels",
+          "Recruitment for marketing and communication roles in luxury hospitality",
+          "Career transitions in prestigious fine dining and hotel groups",
+          "British luxury industry recognitions and affiliations like Walpole"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/toru-machida-3b16505_i-have-no-words-to-describe-how-humbled-and-activity-7423509333407358977-qHCV",
+          "https://fr.www.linkedin.com/posts/pierre-fauret-934ba618_je-recrute-monma-future-adjointe-au-activity-7420097178993332224-m_PF",
+          "https://www.linkedin.com/posts/alessandro-scaffidi-abbate-12b239243_after-a-short-break-i-am-delighted-to-share-activity-7419671029561675776-QLhF",
+          "https://www.linkedin.com/posts/waldorf-astoria-london-admiralty-arch_introducing-waldorf-astoria-london-admiralty-activity-7419373605844688896-p8z0",
+          "https://www.linkedin.com/posts/christianboyens_meet-the-three-michelin-star-chef-taking-activity-7419389002698571776-1t1H",
+          "https://www.linkedin.com/posts/clemenceln_thrilled-to-share-that-today-belmond-proudly-activity-7419364413742235648-XOI-",
+          "https://www.linkedin.com/posts/niall-kingston-84304b47_lemanoir-arnauddonckele-belmond-activity-7419350888105906176-_Z9y",
+          "https://www.linkedin.com/posts/le-manoir-aux-quat'saisons_belmond-activity-7419325352990117888-8E1k"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Federica Meluzzi",
       "title": "Divisional Director of Revenue Management, Southern Europe",
       "company": "Belmond",
-      "linkedin_url": "https://it.linkedin.com/in/meluzzifederica",
+      "linkedin_url": "https://www.linkedin.com/in/meluzzifederica",
       "email": null,
       "email2": null,
       "phone": null,
@@ -317,13 +889,93 @@
           "source_type": "other",
           "quote_or_fact": "Area Revenue Manager role reports into Divisional Director of Revenue Southern Europe"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/meluzzifederica",
+        "display_name": "Federica Meluzzi",
+        "headline": "Divisional Director of Revenue Management, Southern Europe at Belmond",
+        "location": "Milan, Lombardy, Italy (IT)",
+        "about": "Total Experience: 16 years and 7 months",
+        "experience": [
+          {
+            "title": "Revenue Reservations Manager",
+            "organization": "Starhotels Rosa Grand",
+            "date_range": "Apr 2004 - Nov 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Revenue Manager",
+            "organization": "Hotel Principe di Savoia",
+            "date_range": "Nov 2006 - Apr 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Hotel Principe di Savoia",
+            "date_range": "Jan 2009 - Nov 2014",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "The New York Palace Spa & Fitness Center",
+            "date_range": "Mar 2010 - Apr 2010",
+            "location": "New York, United States",
+            "description": "Conducted the team of our sister Hotel during a transition and helped them to implement new strategies and procedures and monitored productivity and quality of staff performance."
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Le Richemond",
+            "date_range": "Jul 2011 - Aug 2011",
+            "location": "Geneva, Switzerland",
+            "description": "Leaded a team to implement DC standards and develop new strategies and procedures to ensure maximum performance on all channels"
+          },
+          {
+            "title": "Director Of Revenue Management",
+            "organization": "Mandarin Oriental Hotel Group",
+            "date_range": "Nov 2014 - Jun 2021",
+            "location": "Milan Area, Italy",
+            "description": null
+          },
+          {
+            "title": "Divisional Director of Revenue Management, Southern Europe",
+            "organization": "Belmond",
+            "date_range": "Jun 2021 - Present",
+            "location": "Milan, Lombardy, Italy",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "revenue management",
+          "director",
+          "management",
+          "hotel",
+          "reservations"
+        ],
+        "activity_themes": [
+          "Belmond leadership meetings and reflections",
+          "Luxury hotel general manager appointments",
+          "Hospitality awards and team recognitions",
+          "Top hotel rankings and achievements",
+          "Belmond property team introductions",
+          "Leadership development and resilience",
+          "Luxury hotel openings and events"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/meluzzifederica"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "David Silver",
       "title": "Director of Revenue Management (Corporate)",
       "company": "Belmond",
-      "linkedin_url": "https://uk.linkedin.com/in/davidrsilver1",
+      "linkedin_url": "https://www.linkedin.com/in/davidrsilver1",
       "email": null,
       "email2": null,
       "phone": null,
@@ -345,7 +997,148 @@
           "source_type": "directory",
           "quote_or_fact": "David Silver ... Director of Revenue Management, Corporate at Belmond"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/davidrsilver1",
+        "display_name": "David Silver",
+        "headline": "Director of Revenue Management, Corporate at Belmond",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "A highly self motivated dedicated professional with passion for delivering great hospitality and service to guests. Experienced across many departments coupled with calm yet measured management style ensures good teamwork, people development, job satisfaction and the realisation of revenue and profit targets. Encouraging innovation from teams so that boundaries are pushed, the status quo challenged, and the guest experience enhanced. Specialties: Revenue Management\n\nTotal Experience: 35 years and 4 months",
+        "experience": [
+          {
+            "title": "Floor Houekeeper",
+            "organization": "Churchill Inter-Continental Hotel",
+            "date_range": "Jan 1989 - Apr 1991",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Agent",
+            "organization": "Churchill Inter-Continental Hotel",
+            "date_range": "Apr 1991 - Dec 1992",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Supervisor",
+            "organization": "Churchill Inter-Continental Hotel",
+            "date_range": "Dec 1992 - Oct 1994",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Churchill Inter-Continental Hotel",
+            "date_range": "Oct 1994 - Dec 1998",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Sales Executive",
+            "organization": "Churchill Inter-Continental Hotel",
+            "date_range": "Mar 1997 - Aug 1997",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Churchill Inter-Continental Hotel",
+            "date_range": "Aug 1997 - Dec 1998",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "Millennium Gloucester",
+            "date_range": "Jan 1999 - Mar 1999",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Morgans Hotel Group (Formerly Ian Schrager Hotels)",
+            "date_range": "Apr 1999 - Feb 2004",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms Revenue Manager",
+            "organization": "Andaz (Formerly Great Eastern Hotel)",
+            "date_range": "Mar 2004 - Nov 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms Revenue Manager",
+            "organization": "Andaz Liverpool Street, Hyatt International",
+            "date_range": "Mar 2004 - Nov 2008",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Dukes Hotel",
+            "date_range": "Dec 2008 - Nov 2009",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Revenue Manager",
+            "organization": "Guoman & Thistle hotels",
+            "date_range": "Jun 2010 - Jul 2012",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms",
+            "organization": "Thompson Hotels",
+            "date_range": "Jul 2012 - Mar 2015",
+            "location": "Belgraves - London",
+            "description": null
+          },
+          {
+            "title": "Interim General Manager",
+            "organization": "Thompson Hotels",
+            "date_range": "Jan 2014 - Jul 2014",
+            "location": "Belgraves - London",
+            "description": null
+          },
+          {
+            "title": "Director Of Revenue Management, Corporate",
+            "organization": "Belmond",
+            "date_range": "May 2015 - Present",
+            "location": "London, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "self motivated",
+          "dedicated professional",
+          "hospitality service",
+          "people development",
+          "revenue management",
+          "hospitality",
+          "management",
+          "teamwork",
+          "innovation",
+          "director",
+          "reservations",
+          "sales"
+        ],
+        "activity_themes": [
+          "Global revenue forums and industry events",
+          "Belmond brand art fairs and property unveilings",
+          "Leadership training and development in hospitality",
+          "Luxury hotel operations and networking",
+          "Hospitality career journeys and contractor projects"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/davidrsilver1"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lucie Faucon",
@@ -373,13 +1166,154 @@
           "source_type": "news",
           "quote_or_fact": "Lucie Faucon: Director of Sales, The Cadogan, London"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/fauconlucie",
+        "display_name": "Lucie Faucon",
+        "headline": "Director Of Sales at Orient Express Sailing Yachts",
+        "location": "Paris, Île-de-France, France",
+        "about": "Total Experience: 12 years and 1 month",
+        "experience": [
+          {
+            "title": "Sales Assistant Receptionnist (Internship)",
+            "organization": "Hôtel & Spa La Baronnie - Châteaux & Hôtels Collection",
+            "date_range": "May 2011 - Aug 2011",
+            "location": "Île de Ré - France",
+            "description": "Participate in increasing brand awareness of a former guesthouse which has turned into a hotel in 2010 - Conduct benchmarking analysis - Develop new strategies and promotional ideas - Contact partners to update hotel information (GDS, Tourism offices, tourist guides…) - Optimize online marketing - Develop customer loyalty - Welcome clients, manage bookings and deal with requests."
+          },
+          {
+            "title": "Assistant To The General Manager To The Human Ressources Manager (Internship)",
+            "organization": "Ramada Plaza Hotel",
+            "date_range": "Aug 2012 - Feb 2013",
+            "location": "Nouméa, New Caledonia",
+            "description": "Involved in recruiting hiring and training - Maintain and update HR Data Base and personnel files - Organize meetings for the Work Council, the Shop Steward, the Health & Safety Committee - Schedule appointments for the GM - Draft minutes of weekly Board meetings - Perform several clerical duties, having a deep knowledge of local employment and labor laws"
+          },
+          {
+            "title": "Sales Event Coordinator (Internship)",
+            "organization": "Sofitel Luxury Hotels and Resorts",
+            "date_range": "Mar 2013 - Aug 2013",
+            "location": "Région de Strasbourg, France",
+            "description": "Preparation of tailored proposals following customer specifications - Complete organization of events from confirmation to post-event follow-up - Solicit bids from service providers - Check all event arrangements prior the client arrival - Liaise closely with other departments to ensure smooth running of all events - Greet clients on arrival, ensure success of events and anticipate guest needs - Respond to complaints - Handle invoices and agency commissions"
+          },
+          {
+            "title": "Sales Assistant (Internship)",
+            "organization": "Marriott International",
+            "date_range": "May 2014 - Oct 2014",
+            "location": "Event Booking Center in Marriott International Cluster in Paris",
+            "description": "Looking after Incentive and Leisure markets for the 12 Marriott Hotels in Paris (Renaissance, Marriott, AC Hotels, Courtyard). - Qualifying new requests and identifying customers needs - Sending quotations, working closely with Revenue Managers - Establishing commercial proposals and contracts - Negotiation (payment terms, room rate, complimentary policies...) - Up-selling and Cross-selling - Entering new requests into Opera - Following-up on the bookings and keeping records into the software - Supporting the team by issuing daily and monthly reports Group Reviews, Monitoring sales representatives' results on a daily basis to have an overview on their goal achievement / Issuing reports monthly of number of leads, turnover, conversion rate, reasons for unconfirmed bookings... - Participation and animation of team meetings"
+          },
+          {
+            "title": "Sales Executive, Groups",
+            "organization": "Starwood Hotels & Resorts Worldwide, Inc.",
+            "date_range": "May 2015 - Apr 2017",
+            "location": "Starwood Central London Hotels",
+            "description": "Looking after Groups for the 5 Starwood Hotels in central London The W London Leicester Square / Sheraton Grand London Park Lane / Le Meridien Piccadilly / Aloft London ExCel / The Park Tower Knightsbridge, A Luxury Collection Hotel - Managing a portfolio of 30 UK Agencies and DMCs - Prospecting group business across Europe &amp; China to drive leads into all 5 hotels - Attending Trade Shows (IBTM, IMEX, EXPO in China) and running Sales Calls within Europe"
+          },
+          {
+            "title": "Sales Manager, Group Luxury Sales",
+            "organization": "The Westbury Mayfair, A Luxury Collection Hotel, London",
+            "date_range": "Apr 2017 - Mar 2019",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Sales Manager - Luxury Travel",
+            "organization": "The Westbury Mayfair, A Luxury Collection Hotel, London",
+            "date_range": "Jul 2018 - Mar 2019",
+            "location": "London, Royaume-Uni",
+            "description": null
+          },
+          {
+            "title": "Senior Sales Manager - Leisure",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Mar 2019 - Feb 2020",
+            "location": "London, Greater London, United Kingdom",
+            "description": "Claridge’s The Connaught The Berkeley"
+          },
+          {
+            "title": "Assistant Director Of Sales",
+            "organization": "The Cadogan, A Belmond Hotel",
+            "date_range": "Feb 2020 - May 2022",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "The Cadogan, A Belmond Hotel",
+            "date_range": "May 2022 - Sep 2024",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "New Luxury Hotel in London - Opening 2026",
+            "date_range": "Sep 2024 - Feb 2025",
+            "location": "London Area, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Sales",
+            "organization": "Orient Express Sailing Yachts",
+            "date_range": "Apr 2025 - Present",
+            "location": "Paris, Île-de-France, France",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Charles Darwin University",
+            "degree_or_field": "Diploma of English for Academic Purpose",
+            "date_range": "2008 - 2008"
+          },
+          {
+            "school": "ESC Rennes School of Business",
+            "degree_or_field": "Master of Science in Leisure & Tourism Management",
+            "date_range": "2010 - 2014"
+          },
+          {
+            "school": "IEMI-CMH Academy, Paris",
+            "degree_or_field": "Master of Business Administration (MBA) in International Luxury and Hospitality Management",
+            "date_range": "2014 - 2015"
+          }
+        ],
+        "skills": [
+          "director",
+          "sales",
+          "hr",
+          "health",
+          "safety",
+          "luxury",
+          "quotations",
+          "commercial",
+          "negotiation",
+          "selling",
+          "opera",
+          "software",
+          "reports",
+          "running",
+          "benchmarking",
+          "analysis",
+          "hotel",
+          "gds",
+          "tourism",
+          "marketing",
+          "hotels",
+          "sales manager",
+          "cross selling",
+          "online marketing",
+          "customer loyalty"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Russell Platt",
       "title": "General Manager",
       "company": "The Cadogan, A Belmond Hotel",
-      "linkedin_url": "https://uk.linkedin.com/in/russell-platt-b810a413",
+      "linkedin_url": "https://www.linkedin.com/in/russell-platt-b810a413",
       "email": null,
       "email2": null,
       "phone": null,
@@ -406,13 +1340,157 @@
           "source_type": "linkedin",
           "quote_or_fact": "General Manager · The Cadogan, A Belmond Hotel"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/russell-platt-b810a413",
+        "display_name": "Russell Platt",
+        "headline": "General Manager at The Cadogan, A Belmond Hotel",
+        "location": "United Kingdom (GB)",
+        "about": "I am an energetic, positive and passionate leader with extensive experience in the London five star luxury hotel market. I am dedicated to continuously developing teams across all areas of the hotel in order to deliver exceptional and memorable guest experiences. Previous experience includes food and beverage management, catering and event management, and rooms division management.\n\nTotal Experience: 28 years and 5 months",
+        "experience": [
+          {
+            "title": "Banqueting, Restaurant And Bar Supervision",
+            "organization": "Pan Pacific Hotel Vancouver",
+            "date_range": "Jul 1997 - Oct 2005",
+            "location": null,
+            "description": "Events operations, food and beverage service including Supervising three outlets: hotel restaurant: 120 seats, hotel lounge: 80 seats and terrace in the summer: 50 seats."
+          },
+          {
+            "title": "Assistant Events Operations Manager",
+            "organization": "The Berkeley hotel",
+            "date_range": "Dec 2005 - Apr 2007",
+            "location": null,
+            "description": "Managing the operation of events including meetings, conferences, roadshows and a wide range of social celebrations including weddings. Planning and managing the roles of all staff involved in a team of up to 40 for larger events."
+          },
+          {
+            "title": "Events And Groups Executive",
+            "organization": "The Berkeley hotel",
+            "date_range": "Apr 2007 - May 2008",
+            "location": null,
+            "description": "Event and group management and planning for events ranging from 10-250 guests for corporate meetings, conferences and roadshows. Social event planning and management including weddings, barmitzvahs and batmitzvahs."
+          },
+          {
+            "title": "Events Manager",
+            "organization": "The Dorchester",
+            "date_range": "May 2008 - Sep 2010",
+            "location": null,
+            "description": "Event sales and management including Conducting Client meetings, site visits and menu tastings.Total event planning from start to finish for corporate and social events for 10-500 people including conferences, product launches, charitable events, weddings and Barmitzvahs."
+          },
+          {
+            "title": "River Restaurant Breakfast Manager",
+            "organization": "Fairmont Hotels and Resorts - The Savoy",
+            "date_range": "Sep 2010 - Sep 2011",
+            "location": "London, United Kingdom",
+            "description": "Managing breakfast service in the River Restaurant. Duties also included scheduling, conducting colleague reviews, development and recruiting."
+          },
+          {
+            "title": "Breakfast Manager",
+            "organization": "Fairmont Hotels and Resorts - The Savoy",
+            "date_range": "Sep 2011 - Aug 2012",
+            "location": null,
+            "description": "Managing a team for breakfast service in two outlets:The Thames foyer and River Restaurant and Management of lunch service in the River Restaurant. Duties also include: scheduling, colleague reviews, conducting monthly meetings and developing staff."
+          },
+          {
+            "title": "Assistant Director Of Events And Groups At Claridge's",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Aug 2012 - Oct 2012",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Events And Groups At Claridge's",
+            "organization": "Maybourne Hotel Group",
+            "date_range": "Oct 2012 - Jul 2015",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "Claridge's",
+            "date_range": "Jul 2015 - Jan 2018",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Director Of Food And Beverage",
+            "organization": "The Dorchester",
+            "date_range": "Jan 2018 - May 2021",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Director Of Rooms EAM",
+            "organization": "The Dorchester",
+            "date_range": "May 2021 - Sep 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Hotel Manager",
+            "organization": "The Savoy",
+            "date_range": "Sep 2022 - Sep 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "The Cadogan, A Belmond Hotel",
+            "date_range": "Sep 2024 - Present",
+            "location": "London Area, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Camosun College, Victoria, British Columbia, Canada",
+            "degree_or_field": "Associate's degree Hotel and Restaurant Management",
+            "date_range": "1994 - 1997"
+          }
+        ],
+        "skills": [
+          "rooms division management",
+          "event management",
+          "rooms division",
+          "sales management",
+          "event planning",
+          "product launches",
+          "restaurant management",
+          "luxury",
+          "hotel",
+          "food",
+          "management",
+          "catering",
+          "director",
+          "sales",
+          "planning",
+          "finish",
+          "weddings",
+          "supervision",
+          "operations",
+          "supervising",
+          "scheduling",
+          "operation",
+          "recruiting"
+        ],
+        "activity_themes": [
+          "Luxury hospitality career transitions and farewells",
+          "Belmond hotel group talent announcements and renovations",
+          "Leadership appointments in F&B, operations and HR roles",
+          "Reflections on long-term careers in 5-star hotels",
+          "Industry networking and event production insights"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/russell-platt-b810a413"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Lucie Canfield",
       "title": "Head of Digital Development",
       "company": "Belmond",
-      "linkedin_url": "https://uk.linkedin.com/in/lucie-canfield",
+      "linkedin_url": "https://www.linkedin.com/in/lucie-canfield",
       "email": null,
       "email2": null,
       "phone": null,
@@ -462,7 +1540,91 @@
           "source_type": "linkedin",
           "quote_or_fact": "Belmond corporate leadership"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/iain-langridge-4b6b299",
+        "display_name": "Iain Langridge",
+        "headline": "Vice President Global Operations & Divisional Leader, North America, Caribbean, Africa & Asia Pacific, Belmond (LVMH)",
+        "location": "United Kingdom (GB)",
+        "about": "Total Experience: 17 years and 4 months",
+        "experience": [
+          {
+            "title": "Senior Regional General Manager",
+            "organization": "Louvre Hotels Group",
+            "date_range": "Sep 2008 - Jun 2014",
+            "location": "Région de Paris, France",
+            "description": "Company: 10,001+ employees • Founded 1976 • Privately Held • Hospitality\nDepartment: C-Suite • Level: Manager"
+          },
+          {
+            "title": "Director Of International Operations",
+            "organization": "Louvre Hotels Group",
+            "date_range": "Jun 2014 - Jan 2015",
+            "location": "Région de Paris, France",
+            "description": "Company: 10,001+ employees • Founded 1976 • Privately Held • Hospitality\nDepartment: Operations • Level: Director"
+          },
+          {
+            "title": "Corporate Director Of Operations",
+            "organization": "DAMAC Hotels & Resorts",
+            "date_range": "Jan 2015 - Jan 2017",
+            "location": "Dubai",
+            "description": "Company: 1001-5000 employees • Founded 2002 • Public Company • Hospitality\nDepartment: Operations • Level: Director"
+          },
+          {
+            "title": "Chief Operating Officer And Head Of Development - Asia Pacific",
+            "organization": "Louvre Hotels Group (Jin Jiang)",
+            "date_range": "Feb 2017 - Mar 2020",
+            "location": "Shanghai City, China",
+            "description": null
+          },
+          {
+            "title": "Managing Director - Asia Pacific Division",
+            "organization": "Belmond",
+            "date_range": "Mar 2020 - Jan 2023",
+            "location": "Bangkok, Thaïlande",
+            "description": "Company: 5001-10,000 employees • Public Company • Hospitality"
+          },
+          {
+            "title": "Vice President Divisional Leader, Northern Europe, Africa Asia Pacific",
+            "organization": "Belmond (LVMH)",
+            "date_range": "Jan 2023 - Nov 2023",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Vice President Global Operations Divisional Leader Northern Europe, Africa Asia Pacific",
+            "organization": "Belmond",
+            "date_range": "Nov 2023 - Dec 2024",
+            "location": "Londres, Angleterre, Royaume-Uni",
+            "description": "Company: 5001-10,000 employees • Public Company • Hospitality\nDepartment: Operations • Level: President/Vice President"
+          },
+          {
+            "title": "Vice President Global Operations Divisional Leader, N.America, Caribbean, Africa Asia, Belmond",
+            "organization": "Belmond",
+            "date_range": "Nov 2024 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "operations",
+          "africa",
+          "director",
+          "global operations"
+        ],
+        "activity_themes": [
+          "Belmond Safaris staff recognition and retirements",
+          "Slow luxury, innovation and leadership in hospitality",
+          "Belmond lodge portfolio growth and appointments",
+          "Venice Simplon-Orient Express launches and experiences",
+          "LVMH brand events and collaborations",
+          "Luxury hotel event highlights including Fire & Friends",
+          "Global business summits and networking"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Laura Di Bert",
@@ -485,7 +1647,97 @@
           "source_type": "official_site",
           "quote_or_fact": "Communications team including Laura Di Bert (context from full team listing)"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/laura-di-bert-54321624",
+        "display_name": "Laura Di Bert",
+        "headline": "Director of Communications / Luxury & Hospitality Expert / PR / Italian Market Connoisseur / Multilingual / Open to Hybrid Roles in Italy and Europe",
+        "location": "Italy (IT)",
+        "about": "After two decades in executive roles, I am embracing a transformational moment in my…",
+        "experience": [
+          {
+            "title": "Event Coordinator",
+            "organization": "Sheraton Diana Majestic",
+            "date_range": "Mar 2003 - Jul 2003",
+            "location": "Milan",
+            "description": "Stage post Master\nDepartment: Marketing • Level: Specialist"
+          },
+          {
+            "title": "Sales Marketing Assistant",
+            "organization": "Park Hyatt Milano",
+            "date_range": "Aug 2003 - Sep 2006",
+            "location": "Milano, Italia",
+            "description": "Department: Sales • Level: Specialist"
+          },
+          {
+            "title": "Trainee Marketing Assistance",
+            "organization": "Park Hyatt Sidney",
+            "date_range": "Jan 2006 - Jan 2006",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Public Guest Relations Manager",
+            "organization": "Splendido, A Belmond Hotel",
+            "date_range": "Mar 2007 - Feb 2008",
+            "location": "Portofino",
+            "description": "Department: Customer Service • Level: Manager"
+          },
+          {
+            "title": "Public Relations Manager Hotel Cipriani",
+            "organization": "Hotel Cipriani, A Belmond Hotel",
+            "date_range": "Jan 2008 - Jan 2012",
+            "location": "Venice",
+            "description": "Company: 51-200 employees • Public Company • Hospitality"
+          },
+          {
+            "title": "Regional Director Of Public Relations Belmond Hotels, Italy, Spain Portugal",
+            "organization": "Belmond",
+            "date_range": "Jan 2013 - Aug 2025",
+            "location": "Milano",
+            "description": "Director Pr of Belmond Hotels In Italy Hotel Cipriani, a Belmond Hotel Venice Villa San Michele, a Belmond Hotel Florence Hotel Splendido, a Belmond Hotel Portofino Hotel Splendido Mare, a Belmond Hotel Portofino Hotel Caruso, a Belmond Hotel Ravello Grand Hotel Timeo, a Belmond Hotel Taormina Villa Sant’Andrea, a Belmond Hotel Taormina, La Residencia, a Belmond Hotel, Mallorca Reid’s, a Belmond Hotel Madeira\nDepartment: Sales • Level: Manager\nCompany: 5001-10,000 employees • Public Company • Hospitality"
+          }
+        ],
+        "education": [
+          {
+            "school": "Universität Regensburg",
+            "degree_or_field": "Romanistik und Germanistik, Sprach und Literaturwissenschaft, 1,5. Teacher Italian culture at the Univerity of Regensburg",
+            "date_range": "1994 - 2001"
+          },
+          {
+            "school": "MIB School of Management",
+            "degree_or_field": "MIB Master in Tourism Business, marketing, public relations, event organization, business plan, finance",
+            "date_range": "2002 - 2003"
+          }
+        ],
+        "skills": [
+          "director",
+          "hotels",
+          "pr",
+          "hotel",
+          "sales",
+          "marketing",
+          "public relations"
+        ],
+        "activity_themes": [
+          "Luxury hospitality trends and new hotel openings",
+          "2026 luxury travel trends and branded residences",
+          "Gastronomy as vision and culinary culture",
+          "Team building and human connection in hotels",
+          "Craftsmanship in global luxury brands",
+          "Leadership and continuous learning in hospitality",
+          "Cruise industry growth and investments"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/laura-di-bert-54321624",
+          "https://www.linkedin.com/posts/naya-poultidou-3070478b_the-art-of-craftsmanship-is-back-inthespotlight-activity-7419061737276014592-pQhV",
+          "https://www.linkedin.com/posts/villa-d-este-s-p-a_villadestelacollezione-palazzoveneziacomo-activity-7403044560819458049-ayXo",
+          "https://it.www.linkedin.com/posts/clelia-torelli-b4572330_luxuryhotelsmood-hospitalityindustry-cruisedesign-activity-7417838050778497024-bvf0",
+          "https://www.linkedin.com/posts/guido-balestra-09281310_a-brief-post-related-to-a-beautiful-team-activity-7419066943334182912-hNqQ"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sabrina Panizza",
@@ -508,13 +1760,216 @@
           "source_type": "official_site",
           "quote_or_fact": "Sabrina Panizza referenced in global/local comms team"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/sabrina-panizza-bb876748",
+        "display_name": "Sabrina Panizza",
+        "headline": "Communications & Marketing Strategist",
+        "location": "United Kingdom (GB)",
+        "about": "A motivated, results-driven professional with over 15 years’ experience in the creative and luxury industries, and a proven track record of exceeding expectations in fast-paced environments. My diverse background, combined with a passion for creativity and staying up-to-date with the latest trends, allowed me to successfully develop and lead PR and marketing campaigns for a variety of clients operating in lifestyle sectors, such as hospitality, art, design architecture and property.\n\nTotal Experience: 16 years and 3 months",
+        "experience": [
+          {
+            "title": "Assistant To The Attache For Cultural Affairs Intern",
+            "organization": "Italian Cultural Institute in Athens",
+            "date_range": "Jan 2008 - Apr 2008",
+            "location": "Athens, Greece",
+            "description": "Assisting to the Cultural Affairs Attaché with managing the art department."
+          },
+          {
+            "title": "Gallery Assistant Assistant Curator",
+            "organization": "N.O. Gallery",
+            "date_range": "Sep 2010 - Nov 2011",
+            "location": "Milan Area, Italy",
+            "description": "• All around assistance in the gallery • Organization and coordination of international scale events and exhibitions • Press liaisons"
+          },
+          {
+            "title": "Assistant To The Director Assistant Curator",
+            "organization": "Nilufar gallery-Historical and contemporary design",
+            "date_range": "Jan 2011 - Jan 2013",
+            "location": "Via della Spiga 32, Milan",
+            "description": "• Sales and clients management • Exhibitions coordination and management • Day-to-day operations management • Press liaisons • International art fairs coordination and management: Pavilion of Art & Design, London Pavillon des Arts et du Design, Paris Salone Internazionale del Mobile, Milan Design Miami/Basel Design Days Dubai"
+          },
+          {
+            "title": "Creative Manager",
+            "organization": "CAFE ROYAL",
+            "date_range": "Apr 2013 - Apr 2014",
+            "location": "London, United Kingdom",
+            "description": "• Maintaining the brand integrity throughout the business, reporting directly to the General Manager and the Owners • Enhancing the overall guest experience and the ambient experience, managing the furniture layouts and finishing touches • Overseeing the installation of design elements in the public areas and guestrooms, collaborating with all operational departments for their understanding of the design integrity • Managing the relationship with architects and designers: David…"
+          },
+          {
+            "title": "Account Executive",
+            "organization": "ING MEDIA",
+            "date_range": "May 2014 - Jun 2015",
+            "location": "London, United Kingdom",
+            "description": "ING is a PR and communications agency specialising in the built environment. Our clients work in property, architecture, regeneration, design, culture and consultancy and are dedicated to creating better buildings, places, products and assets."
+          },
+          {
+            "title": "Account Manager",
+            "organization": "ING MEDIA",
+            "date_range": "Jul 2015 - Aug 2017",
+            "location": "London, United Kingdom",
+            "description": "ING is a PR and communications agency specialising in the built environment. Our clients work in property, architecture, regeneration, design, culture and consultancy and are dedicated to creating better buildings, places, products and assets. Active role in expanding the agency's luxury portfolio. Current projects include prime residential developments Holland Park Villas and Burlington Gate by Native Land, as well as Belmont by Alchemi Group. Past clients include Squat London…"
+          },
+          {
+            "title": "Account Manager",
+            "organization": "PRCO International",
+            "date_range": "Sep 2017 - Mar 2018",
+            "location": "London, United Kingdom",
+            "description": "PRCO is a global communications group, delivering integrated solutions to companies in the travel, real estate, and luxury lifestyle sectors. Across its six wholly-owned international offices, PRCO specialises in reaching high-net-worth audiences through strategic global campaigns supported by in-depth industry knowledge, established media relationships and luxury network. Current clients include luxury residential property developments as well as International interior design studio"
+          },
+          {
+            "title": "Account Director",
+            "organization": "PRCO International",
+            "date_range": "Apr 2018 - Sep 2020",
+            "location": "London, United Kingdom",
+            "description": "PRCO is a global communications group, delivering integrated solutions to companies in the travel, real estate, and luxury lifestyle sectors. Across its six wholly-owned international offices, PRCO specialises in reaching high-net-worth audiences through strategic global campaigns supported by in-depth industry knowledge, established media relationships and luxury network."
+          },
+          {
+            "title": "Freelance Senior PR Consultant",
+            "organization": "Freelance",
+            "date_range": "Sep 2020 - Jun 2024",
+            "location": null,
+            "description": "Sectors include hospitality, travel, property, design, art and architecture"
+          },
+          {
+            "title": "Public Relations Consultant",
+            "organization": "Maison Communications",
+            "date_range": "Oct 2020 - Mar 2023",
+            "location": "London",
+            "description": "Porperty and interior design"
+          },
+          {
+            "title": "Co-Founder Creative Director",
+            "organization": "Pl Studio.",
+            "date_range": "Oct 2020 - Present",
+            "location": "London, England, United Kingdom",
+            "description": "With over 15 years’ experience in the creative and luxury industries, we design playfully sophisticated interiors and eclectic spaces with character and flair."
+          },
+          {
+            "title": "Public Relations Consultant",
+            "organization": "KARLA OTTO",
+            "date_range": "Jun 2023 - Jun 2024",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Senior Account Director",
+            "organization": "ING Media",
+            "date_range": "Mar 2023 - Jun 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Divisional Communications Manager, Trains Cruises",
+            "organization": "Belmond",
+            "date_range": "Jun 2024 - Oct 2025",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Senior Communications Manager, Trains Cruises",
+            "organization": "Belmond",
+            "date_range": "Oct 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Libera Università di Lingue e Comunicazione IULM",
+            "degree_or_field": "BA, Arts & Cultural Management, 110/110 with distinction",
+            "date_range": "2003 - 2007"
+          },
+          {
+            "school": "Università Cattolica del Sacro Cuore",
+            "degree_or_field": "MA, Art History, 110/110 with distinction",
+            "date_range": "2009 - 2011"
+          },
+          {
+            "school": "Central Saint Martins-University of Arts London",
+            "degree_or_field": "Interior Styling - Short course",
+            "date_range": "2013 - "
+          },
+          {
+            "school": "London College of Fashion",
+            "degree_or_field": "Personal Fashion Styling",
+            "date_range": "2015 - 2015"
+          },
+          {
+            "school": "London College of Fashion",
+            "degree_or_field": null,
+            "date_range": "2015 - 2015"
+          },
+          {
+            "school": "London College of Fashion",
+            "degree_or_field": "Fashion Media Styling: Editorial",
+            "date_range": "2016 - "
+          },
+          {
+            "school": "London College of Style",
+            "degree_or_field": "Personal Styling Diploma",
+            "date_range": "2017 - 2017"
+          },
+          {
+            "school": "British Academy of Interior Design",
+            "degree_or_field": "Interior Design",
+            "date_range": "2019 - 2021"
+          }
+        ],
+        "skills": [
+          "real estate",
+          "luxury lifestyle",
+          "interior design",
+          "public relations",
+          "operations management",
+          "creative",
+          "luxury",
+          "pr",
+          "marketing",
+          "campaigns",
+          "hospitality",
+          "design",
+          "architecture",
+          "property",
+          "director",
+          "communications",
+          "consultancy",
+          "coordination",
+          "cruises",
+          "residential",
+          "projects",
+          "interiors",
+          "integrity",
+          "reporting",
+          "sales",
+          "management",
+          "operations",
+          "arts",
+          "mobile"
+        ],
+        "activity_themes": [
+          "Promoting Belmond's Venice Simplon-Orient-Express luxury train journeys",
+          "Completion of Inside LVMH Certificate",
+          "Engagement with luxury gift guides and Robb Report",
+          "Featured coverage of slow luxury travel on CNN",
+          "Luxury lifestyle, hospitality and design sector updates"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/in/sabrina-panizza-bb876748",
+          "https://www.linkedin.com/posts/sabrina-panizza-bb876748_a-luxurious-journey-through-europe-aboard-activity-7415810369182744576-CB-E",
+          "https://www.linkedin.com/posts/insidelvmh-lvmh-luxuryindustry-activity-7408832049421234176-GXcF",
+          "https://www.linkedin.com/posts/the-ultimate-gift-guide-by-robb-report-monaco-activity-7407727855771643904-9GYJ",
+          "https://www.linkedin.com/posts/sabrina-panizza-bb876748_the-art-of-slow-luxury-cnn-activity-7407757852464955392-Hw0s"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Hannah Egerton",
       "title": "Communications Contact",
       "company": "Belmond",
-      "linkedin_url": "https://uk.linkedin.com/in/hannah-egerton",
+      "linkedin_url": "https://www.linkedin.com/in/hannah-egerton",
       "email": "hannah.egerton@belmond.com",
       "email2": null,
       "phone": null,
@@ -559,7 +2014,141 @@
           "source_type": "official_site",
           "quote_or_fact": "Executive Chef Michael Turner"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/michael-turner-b83431163",
+        "display_name": "Michael Turner",
+        "headline": "Executive Chef",
+        "location": "United Kingdom (GB)",
+        "about": "Experienced in high end fine dining, Managing a large brigade, large catering events, banquets, kitchen set ups, staff management and general administration. Level 3 in Health & Safety and food hygiene\n\nTotal Experience: 13 years and 1 month",
+        "experience": [
+          {
+            "title": "Head Chef",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Sep 2011 - Sep 2019",
+            "location": null,
+            "description": "Bread Street Kitchen"
+          },
+          {
+            "title": "Sous Chef",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Jan 2018 - Apr 2018",
+            "location": null,
+            "description": "Petrus\nInterim Supporting role"
+          },
+          {
+            "title": "Head Chef",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Jun 2019 - Sep 2019",
+            "location": null,
+            "description": "Lucky Cat by Gordon Ramsay\nSupporting with the opening of the new restaurant"
+          },
+          {
+            "title": "Head Chef",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Sep 2019 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": "The Savoy Grill, by Gordon Ramsay"
+          },
+          {
+            "title": "Executive Sous Chef",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Apr 2021 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Executive Head Chef - Savoy Grill",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Mar 2022 - Mar 2024",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Executive Head Chef",
+            "organization": "Gordon Ramsay Restaurants",
+            "date_range": "Jan 2023 - Feb 2024",
+            "location": "London, England, United Kingdom",
+            "description": "Overseeing both The Savoy Grill and The River Restaurant inside the Savoy hotel for Gordon Ramsay Restaurants Relaunching the Iconic Savoy Grill to great critical acclaim Responsible for leading the kitchen design, developing new menus and training the teams ahead of the relaunch"
+          },
+          {
+            "title": "Executive Chef",
+            "organization": "The Beaumont Hotel",
+            "date_range": "Mar 2024 - Dec 2024",
+            "location": "Mayfair London",
+            "description": "Overseeing the food across multiple outlets inside the Beaumont hotel London"
+          },
+          {
+            "title": "Consultant Executive Chef",
+            "organization": "Freelance",
+            "date_range": "Jan 2025 - Aug 2025",
+            "location": null,
+            "description": "From Executive Chef to Restaurant Consultant | Helping Restaurants Elevate Standards, Operations & Profitability With a career as an Executive Chef leading some of London’s most prestigious restaurants, I bring firsthand expertise in high-level kitchen operations, menu development, and team leadership. Now, as a restaurant consultant, I help restaurant owners and operators achieve excellence in both the kitchen and front of house—improving efficiency, profitability, and overall guest experience. How I Help Restaurants Succeed: ✅ Kitchen & Back-of-House Optimization – Streamlining workflows, reducing waste, and maximizing efficiency ✅ Menu Engineering & Profit Maximization – Designing menus that balance creativity, cost control, and customer appeal ✅ Staff Training & Leadership Development – Building high-performance teams with strong kitchen culture and leadership ✅ Operational Excellence & Cost Control – Identifying opportunities to boost profitability without sacrificing quality ✅ Concept Development & New Openings – Assisting with launch strategies, branding, and kitchen setup for success I understand the challenges of running a high-caliber restaurant because I’ve lived them. My mission is to help restaurants refine their operations, elevate their culinary standards, and achieve sustainable growth. 📩 Let’s connect and discuss how I can help take your restaurant to the next level."
+          },
+          {
+            "title": "Executive Chef",
+            "organization": "The Cadogan, A Belmond Hotel",
+            "date_range": "Sep 2025 - Present",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Westminster Kingsway College",
+            "degree_or_field": "Culinary Arts/Chef Training",
+            "date_range": null
+          }
+        ],
+        "skills": [
+          "catering",
+          "banquets",
+          "management",
+          "administration",
+          "health",
+          "safety",
+          "food",
+          "hygiene",
+          "restaurants",
+          "operations",
+          "profitability",
+          "leadership",
+          "efficiency",
+          "optimization",
+          "engineering",
+          "designing",
+          "training",
+          "branding",
+          "running",
+          "culinary",
+          "hotel",
+          "responsible",
+          "design",
+          "high performance teams",
+          "fine dining",
+          "staff management",
+          "general administration",
+          "menu development",
+          "team leadership",
+          "menu engineering",
+          "profit maximization",
+          "cost control",
+          "staff training",
+          "leadership development",
+          "operational excellence",
+          "concept development"
+        ],
+        "activity_themes": [
+          "Luxury hotel promotions and leadership appointments",
+          "Executive chef hires and transitions at prestigious venues",
+          "Culinary excellence and gastronomy in London",
+          "Hospitality operations, consultancy and team recognition",
+          "High-end restaurant openings and relaunches"
+        ],
+        "source_urls": [],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -573,5 +2162,71 @@
     "succeeded": 11,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-26T22:46:23.722164+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 16,
+      "structured": 13,
+      "discovered": 4,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 6,
+        "content_pages": 16,
+        "cost_estimate": {
+          "approx_total_usd": 0.058,
+          "search_component_usd": 0.042,
+          "contents_component_usd": 0.016,
+          "counts": {
+            "search_requests": 6,
+            "content_pages": 16
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 38014,
+          "cached_prompt_text_tokens": 2624,
+          "completion_tokens": 16582,
+          "reasoning_tokens": 46048,
+          "output_tokens": 0,
+          "total_tokens": 100644
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.447085,
+          "token_component_usd": 0.447085,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 38014,
+            "cached_prompt_text_tokens": 2624,
+            "completion_tokens": 16582,
+            "reasoning_tokens": 46048,
+            "total_tokens_reported": 100644,
+            "output_like_tokens": 62630,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.505085
+    }
   }
 }

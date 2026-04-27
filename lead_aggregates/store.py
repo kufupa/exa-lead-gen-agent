@@ -11,6 +11,7 @@ from filelock import FileLock
 from lead_aggregates.atomic import atomic_write_json
 from lead_aggregates.builders import (
     build_email_document,
+    build_intimate_unified_document,
     build_master_document,
     build_phone_document,
     registry_from_enriched_scan,
@@ -22,6 +23,7 @@ T = TypeVar("T")
 ALL_ENRICHED = "all_enriched_leads.json"
 INTIMATE_PHONE = "intimate_phone_contacts.json"
 INTIMATE_EMAIL = "intimate_email_contacts.json"
+INTIMATE_UNIFIED = "intimate_unified_contacts.json"
 REGISTRY = "url_registry.json"
 
 
@@ -70,10 +72,12 @@ class AggregatesStore:
             master = build_master_document(self.jsons_dir)
             phone = build_phone_document(self.jsons_dir)
             email = build_email_document(self.jsons_dir)
+            unified = build_intimate_unified_document(self.jsons_dir)
             reg = registry_from_enriched_scan(self.jsons_dir)
             atomic_write_json(self._path(ALL_ENRICHED), master)
             atomic_write_json(self._path(INTIMATE_PHONE), phone)
             atomic_write_json(self._path(INTIMATE_EMAIL), email)
+            atomic_write_json(self._path(INTIMATE_UNIFIED), unified)
             atomic_write_json(self._path(REGISTRY), reg)
 
         self.run_locked(write_all)
@@ -149,9 +153,11 @@ class AggregatesStore:
             master = build_master_document(self.jsons_dir)
             phone = build_phone_document(self.jsons_dir)
             email = build_email_document(self.jsons_dir)
+            unified = build_intimate_unified_document(self.jsons_dir)
             atomic_write_json(self._path(ALL_ENRICHED), master)
             atomic_write_json(self._path(INTIMATE_PHONE), phone)
             atomic_write_json(self._path(INTIMATE_EMAIL), email)
+            atomic_write_json(self._path(INTIMATE_UNIFIED), unified)
             reg = _read_json(self._path(REGISTRY)) or empty_registry()
             if not _entry_claim_ok(reg):
                 return False
@@ -188,6 +194,8 @@ class AggregatesStore:
         def w() -> None:
             doc = build_phone_document(self.jsons_dir)
             atomic_write_json(self._path(INTIMATE_PHONE), doc)
+            uni = build_intimate_unified_document(self.jsons_dir)
+            atomic_write_json(self._path(INTIMATE_UNIFIED), uni)
 
         self.run_locked(w)
 
@@ -195,5 +203,7 @@ class AggregatesStore:
         def w() -> None:
             doc = build_email_document(self.jsons_dir)
             atomic_write_json(self._path(INTIMATE_EMAIL), doc)
+            uni = build_intimate_unified_document(self.jsons_dir)
+            atomic_write_json(self._path(INTIMATE_UNIFIED), uni)
 
         self.run_locked(w)

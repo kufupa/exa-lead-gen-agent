@@ -40,7 +40,7 @@
       "full_name": "Niccolo' Consigli",
       "title": "General Manager",
       "company": "Sun Street Hotel (Bespoke Hotels)",
-      "linkedin_url": "https://uk.linkedin.com/in/niccolo-consigli-mih-84955240",
+      "linkedin_url": "https://www.linkedin.com/in/niccolo-consigli-mih-84955240",
       "email": "generalmanager@sunstreethotel.com",
       "email2": null,
       "phone": null,
@@ -225,7 +225,7 @@
       "full_name": "Angela Rhodes",
       "title": "Cluster Revenue Manager",
       "company": "Bespoke Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/angela-rhodes-23779614",
+      "linkedin_url": "https://www.linkedin.com/in/angela-rhodes-23779614",
       "email": null,
       "email2": null,
       "phone": null,
@@ -502,7 +502,7 @@
       "full_name": "Vitor Regalo",
       "title": "Director of Sales",
       "company": "Sun Street Hotel (Bespoke Hotels)",
-      "linkedin_url": "https://uk.linkedin.com/in/vitor-regalo-16b484171",
+      "linkedin_url": "https://www.linkedin.com/in/vitor-regalo-16b484171",
       "email": "sales@sunstreethotel.com",
       "email2": null,
       "phone": "0203 988 7700",
@@ -668,7 +668,7 @@
       "full_name": "Paul Hemmings",
       "title": "Director of Sales and Marketing",
       "company": "Sun Street Hotel (Bespoke Hotels)",
-      "linkedin_url": "https://uk.linkedin.com/in/paul-hemmings-76b7b436",
+      "linkedin_url": "https://www.linkedin.com/in/paul-hemmings-76b7b436",
       "email": null,
       "email2": null,
       "phone": null,
@@ -760,7 +760,7 @@
       "full_name": "Perry Thomas",
       "title": "Group IT Director",
       "company": "Bespoke Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/perry-thomas-14577370",
+      "linkedin_url": "https://www.linkedin.com/in/perry-thomas-14577370",
       "email": null,
       "email2": null,
       "phone": null,
@@ -835,7 +835,7 @@
       "full_name": "Kathryn Whittaker",
       "title": "Senior Cluster Revenue Manager",
       "company": "Bespoke Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/kathryn-whittaker-554a7547",
+      "linkedin_url": "https://www.linkedin.com/in/kathryn-whittaker-554a7547",
       "email": null,
       "email2": null,
       "phone": null,
@@ -971,7 +971,7 @@
       "full_name": "Jacqueline Watson",
       "title": "Regional Revenue Manager",
       "company": "Bespoke Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/jacqueline-watson-656a2781",
+      "linkedin_url": "https://www.linkedin.com/in/jacqueline-watson-656a2781",
       "email": null,
       "email2": null,
       "phone": null,
@@ -1266,7 +1266,7 @@
       "full_name": "Konstantina Soulka",
       "title": "Events Sales Manager",
       "company": "Sun Street Hotel (Bespoke Hotels)",
-      "linkedin_url": "https://uk.linkedin.com/in/konstantina-soulka-bb1a64199",
+      "linkedin_url": "https://www.linkedin.com/in/konstantina-soulka-bb1a64199",
       "email": null,
       "email2": null,
       "phone": null,
@@ -1688,14 +1688,61 @@
   },
   "linkedin_enrichment": {
     "version": 1,
-    "enriched_at_utc": "2026-04-25T15:17:23.880444+00:00",
+    "enriched_at_utc": "2026-04-26T22:33:34.363890+00:00",
     "model": "grok-4.20-reasoning",
     "stats": {
-      "skipped": 0,
-      "fetched": 13,
-      "structured": 13,
+      "skipped": 13,
+      "fetched": 0,
+      "structured": 0,
       "discovered": 0,
       "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 0,
+        "content_pages": 0,
+        "cost_estimate": {
+          "approx_total_usd": 0.0,
+          "search_component_usd": 0.0,
+          "contents_component_usd": 0.0,
+          "counts": {
+            "search_requests": 0,
+            "content_pages": 0
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {},
+        "cost_estimate": {
+          "approx_total_usd": 0.0,
+          "token_component_usd": 0.0,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 0,
+            "cached_prompt_text_tokens": 0,
+            "completion_tokens": 0,
+            "reasoning_tokens": 0,
+            "total_tokens_reported": 0,
+            "output_like_tokens": 0,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.0
     }
   }
 }

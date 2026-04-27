@@ -323,7 +323,7 @@
       "full_name": "Juozas Jonauskas",
       "title": "Director of Operations",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/juozas-jonauskas-5b7485aa",
+      "linkedin_url": "https://www.linkedin.com/in/juozas-jonauskas-5b7485aa",
       "email": "juozas@themandrake.com",
       "email2": null,
       "phone": "+44 (0)7427 634114",
@@ -430,7 +430,7 @@
       "full_name": "Eljesa Saciri",
       "title": "General Manager",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/eljesa-saciri",
+      "linkedin_url": "https://www.linkedin.com/in/eljesa-saciri",
       "email": null,
       "email2": null,
       "phone": null,
@@ -538,7 +538,7 @@
       "full_name": "Jose Adea",
       "title": "Revenue Manager",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/jose-adea-9aa35930",
+      "linkedin_url": "https://www.linkedin.com/in/jose-adea-9aa35930",
       "email": null,
       "email2": null,
       "phone": null,
@@ -674,7 +674,7 @@
       "full_name": "Darren Evans",
       "title": "Director of Revenue Management",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/darren-evans-22a35a211",
+      "linkedin_url": "https://www.linkedin.com/in/darren-evans-22a35a211",
       "email": null,
       "email2": null,
       "phone": null,
@@ -735,7 +735,7 @@
       "full_name": "Jeremy Daudin",
       "title": "Director of Sales and Marketing",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/jeremydaudin",
+      "linkedin_url": "https://www.linkedin.com/in/jeremydaudin",
       "email": null,
       "email2": null,
       "phone": null,
@@ -777,7 +777,7 @@
       "full_name": "Karolina Rutkauskaite",
       "title": "Sales and Events Manager",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/karolina-rutkauskaite-aa486830",
+      "linkedin_url": "https://www.linkedin.com/in/karolina-rutkauskaite-aa486830",
       "email": null,
       "email2": null,
       "phone": "+44 (0)20 3146 7770",
@@ -925,7 +925,7 @@
       "full_name": "Rahela Krulic",
       "title": "Guest Relations Manager / Groups and Events Sales",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/rahela-krulic-4a4753198",
+      "linkedin_url": "https://www.linkedin.com/in/rahela-krulic-4a4753198",
       "email": null,
       "email2": null,
       "phone": null,
@@ -1188,7 +1188,7 @@
       "full_name": "Olivia Harrison",
       "title": "Senior Marketing Executive",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/olivia-harrison-198794245",
+      "linkedin_url": "https://www.linkedin.com/in/olivia-harrison-198794245",
       "email": null,
       "email2": null,
       "phone": null,
@@ -1320,7 +1320,7 @@
       "full_name": "Joseph Quilter",
       "title": "People and Culture Director",
       "company": "The Mandrake",
-      "linkedin_url": "https://uk.linkedin.com/in/joseph-quilter-6aa21743",
+      "linkedin_url": "https://www.linkedin.com/in/joseph-quilter-6aa21743",
       "email": null,
       "email2": null,
       "phone": "+44 (0)20 3146 7770",
@@ -1926,14 +1926,61 @@
   },
   "linkedin_enrichment": {
     "version": 1,
-    "enriched_at_utc": "2026-04-25T15:27:08.333555+00:00",
+    "enriched_at_utc": "2026-04-26T22:46:29.462352+00:00",
     "model": "grok-4.20-reasoning",
     "stats": {
-      "skipped": 0,
-      "fetched": 14,
-      "structured": 14,
-      "discovered": 2,
+      "skipped": 14,
+      "fetched": 0,
+      "structured": 0,
+      "discovered": 0,
       "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 3,
+        "content_pages": 0,
+        "cost_estimate": {
+          "approx_total_usd": 0.021,
+          "search_component_usd": 0.021,
+          "contents_component_usd": 0.0,
+          "counts": {
+            "search_requests": 3,
+            "content_pages": 0
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {},
+        "cost_estimate": {
+          "approx_total_usd": 0.0,
+          "token_component_usd": 0.0,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 0,
+            "cached_prompt_text_tokens": 0,
+            "completion_tokens": 0,
+            "reasoning_tokens": 0,
+            "total_tokens_reported": 0,
+            "output_like_tokens": 0,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.021
     }
   }
 }

@@ -1,0 +1,3631 @@
+{
+  "target_url": "thelondoner.co.uk",
+  "generated_at_utc": "20260426T220427Z",
+  "model": "pipeline-v4",
+  "agent_count": null,
+  "max_turns": null,
+  "max_turns_effective": null,
+  "min_contacts": null,
+  "target_contacts": null,
+  "max_contacts": 24,
+  "extra_contact_pass": false,
+  "strict_evidence": true,
+  "allow_linkedin": true,
+  "usage": null,
+  "contact_enrichment": {
+    "version": 4,
+    "enriched_at_utc": "20260426T220427Z",
+    "mode": "pipeline-v4",
+    "model": "pipeline-v4",
+    "concurrency": null,
+    "skipped_pre_enrichment": 0,
+    "attempted": 24,
+    "succeeded": 24,
+    "failed": 0
+  },
+  "pipeline_v4": {
+    "input_url": "thelondoner.co.uk",
+    "resolved_org": {
+      "input_url": "thelondoner.co.uk",
+      "canonical_name": "The Londoner",
+      "property_name": "The Londoner",
+      "brand_name": "Legend Collection",
+      "management_company": "Edwardian Hotels London",
+      "ownership_group": "Edwardian Hotels London",
+      "location_hint": "Leicester Square, London, UK",
+      "domains": [
+        "thelondoner.com",
+        "thelondoner.co.uk",
+        "edwardian.com"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.thelondoner.com/about-us",
+          "title": "About Us - The Londoner",
+          "source_type": "hotel_site",
+          "snippet": "The Londoner is owned and operated by Edwardian Hotels London; a privately owned hotel group founded by Jasminder Singh OBE in 1977. ... The Londoner is a proud member of Preferred Hotels & Resorts’ Legend Collection.",
+          "fetched_text": "Edwardian Pastoria Hotels Ltd. The Londoner is owned and operated by Edwardian Hotels London.",
+          "published_date": null,
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.forbes.com/profile/jasminder-singh/",
+          "title": "Jasminder Singh & family - Forbes",
+          "source_type": "press",
+          "snippet": "Hotelier Jasminder Singh's Edwardian Hotels London group owns 12 high-end hotels in London and Manchester, including The May Fair Hotel. ... The group's $400 million luxury development at Leicester Square, The Londoner hotel, opened in the fall of 2021.",
+          "fetched_text": null,
+          "published_date": "2021-04-05",
+          "query": null,
+          "score": null
+        },
+        {
+          "url": "https://www.thelondoner.com/about-us",
+          "title": "About Us",
+          "source_type": "hotel_site",
+          "snippet": "world's first super boutique hotel ... on the southwest corner of Leicester Square",
+          "fetched_text": null,
+          "published_date": null,
+          "query": null,
+          "score": null
+        }
+      ]
+    },
+    "aliases": [
+      {
+        "value": "The Londoner",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.thelondoner.com/about-us",
+        "quote": "The Londoner is a new hotel category of one – the world's first super boutique hotel."
+      },
+      {
+        "value": "Edwardian Hotels London",
+        "kind": "management",
+        "confidence": "high",
+        "source_url": "https://www.thelondoner.com/about-us",
+        "quote": "owned and operated by Edwardian Hotels London"
+      },
+      {
+        "value": "Edwardian Hotels London",
+        "kind": "ownership",
+        "confidence": "high",
+        "source_url": "https://www.forbes.com/profile/jasminder-singh/",
+        "quote": "Jasminder Singh's Edwardian Hotels London group owns ... The Londoner hotel"
+      },
+      {
+        "value": "Legend Collection",
+        "kind": "brand",
+        "confidence": "high",
+        "source_url": "https://www.thelondoner.com/about-us",
+        "quote": "proud member of Preferred Hotels & Resorts’ Legend Collection"
+      },
+      {
+        "value": "thelondoner.co.uk",
+        "kind": "domain",
+        "confidence": "high",
+        "source_url": "https://thelondoner.co.uk/",
+        "quote": "Official hotel URL"
+      },
+      {
+        "value": "The Londoner Leicester Square",
+        "kind": "property",
+        "confidence": "high",
+        "source_url": "https://www.costar.com/article/118870004/opening-of-the-londoner-makes-for-biggest-central-london-hotel-buzz-in-25-years",
+        "quote": "350-room property on the southwest corner of Leicester Square"
+      },
+      {
+        "value": "Super Boutique Hotel",
+        "kind": "property",
+        "confidence": "medium",
+        "source_url": "https://www.thelondoner.com/about-us",
+        "quote": "the world's first super boutique hotel"
+      },
+      {
+        "value": "Jasminder Singh OBE",
+        "kind": "ownership",
+        "confidence": "high",
+        "source_url": "https://www.forbes.com/profile/jasminder-singh/",
+        "quote": "founded by Jasminder Singh OBE in 1977"
+      }
+    ],
+    "candidates": [
+      {
+        "candidate_id": "c_5a883cacf57e075e",
+        "full_name": "Michael Cheung",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "The Londoner Hotel",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/michaelquinncheung",
+            "title": "Michael Cheung LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "General Manager, The Londoner Hotel, London, United Kingdom. Michael Cheung is an experienced General Manager in the Hospitality Industry.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g186338-d23208911-zft1-The_Londoner_Hotel.html",
+            "title": "Tripadvisor Response",
+            "source_type": "other",
+            "snippet": "Yours sincerely, Michael Cheung General Manager.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/michaelquinncheung_love-letters-from-britain-the-londoner-activity-6820467546358091776-HBgr",
+            "title": "Love Letters From Britain | The Londoner | Michael Cheung - LinkedIn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Michael Cheung\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/michaelquinncheung",
+            "title": "Michael Cheung | General Manager at The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Michael Cheung\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d23208911-r1055085680-The_Londoner_Hotel-London_England.html",
+            "title": "5 stars - I will be back - Review of The Londoner Hotel, London ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Michael Cheung\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/michael-cheung-ba434324",
+            "title": "Michael Cheung | Software Developer at MyKnowledgeMap",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Michael Cheung\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://sg.linkedin.com/in/michaelkcheung",
+            "title": "Michael Cheung | Co-founder, General Partner at Makers Fund",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Michael Cheung\" \"The Londoner\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/michaelquinncheung",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_d735f9ba5ad6abe6",
+        "full_name": "Patrick Katzenberg",
+        "title": "General Manager - Guest Experience",
+        "normalized_title": "general manager - guest experience",
+        "company": "The Londoner",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.independenthotelshow.co.uk/news-hub/hotelier-edit-patrick-katzenberg-londoner",
+            "title": "The Hotelier Edit: Patrick Katzenberg, The Londoner",
+            "source_type": "press",
+            "snippet": "General Manager- Guest Experience Patrick Katzenberg ... The Londoner, which opened in 2021 right in the heart of London.",
+            "fetched_text": null,
+            "published_date": "2025-04-14",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/patrick-katzenberg-00064ab7_edwardianhotels-themayfair-thelondoner-activity-7414240346563633152-ES2h",
+            "title": "LinkedIn Post",
+            "source_type": "linkedin",
+            "snippet": "General Manager, leading the hotel into its next evolution.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/patrick-katzenberg-00064ab7",
+            "title": "Patrick Katzenberg | General Manager @The May Fair Hotel, Personal Licence Holder",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Patrick Katzenberg\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://thehotelmagazine.co.uk/the-londoner-recognised-with-conde-nast-travellers-2024-readers-choice-award-20-in-hotels-london-europe/",
+            "title": "The Londoner Recognised With Condé Nast Traveller's 2024 Readers’ Choice Award “20 in Hotels, London - Europe” » hotel magazine",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "The Londoner Recognised With Condé Nast Traveller's 2024 Readers’ Choice Award “20 in Hotels, London - Europe” » hotel magazine\n\n# The Londoner Recognised With Condé Nast Traveller's 2024 Readers’ Choice Award “20 in Hotels, London - Europe”\n\nThe World’s Best Hotels, Cruises, Countries, Cities, Resorts, Trains, Airlines, Airports, Spas, Islands, Beaches, Insurance, Luggage, Villas, and Tour Operators\n\nCondé Nast Traveller announced the results of its annual Readers’ Choice Awards with The Londoner recognised as the #20 Best Hotel in London, Europe.\n\nMore than 125,000 Condé Nast Traveller readers across the United Kingdom submitted responses rating their travel experiences across the globe to offer a comprehensive look at the places they eagerly anticipate revisiting. The Readers’ Choice Awards, with their unparalleled legacy as the travel industry’s longest-running and most prestigious accolades, remain the ultimate symbol and acknowledgment of excellence within the travel sector. The full list of winners can be found here.\n\nPatrick Katzenberg, General Manager at The Londoner, expressed: “We are thrilled to be recognised by Condé Nast Traveller’s readers as one of the top 20 hotels in the UK. This award is a testament to our team’s unwavering commitment to delivering exceptional experiences and our unique vision of contemporary luxury in the heart of London.”\n\nThe 2024 Readers’ Choice Awards are published on Condé Nast Traveller’s website at cntraveller.com/inspiration/readers-choice-awards and celebrated in the November issue.",
+            "published_date": null,
+            "query": "\"Patrick Katzenberg\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=JCmziQYajLI",
+            "title": "An Audience With...Patrick Katzenberg | The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "# An Audience With...Patrick Katzenberg | The Londoner Hotel | Winged Boots\n\n- Channel: Winged Boots | Bespoke Luxury Travel\n- Length: 06:30\n- Views: 69\n- Likes: 1\n- Published: 2025-09-22T07:06:05-07:00\n- Category: Travel & Events\n- Language: en\n\n## Description\n\nStep inside one of London’s most imaginative properties with Patrick Katzenberg, General Manager of The Londoner, as he shares the story behind the world’s first “super boutique” hotel—and what that means for the discerning traveller.\n\nIn this episode of “An Audience With…” by Winged Boots, Patrick unpacks how The Londoner merges theatrical flair with quiet luxury, combining grand scale with deeply personal service. From hidden whisky rooms and West End partnerships to immersive design details that honour the hotel’s Leicester Square roots, discover how this standout address is redefining what a city stay can feel like.\n\nWhat you’ll uncover in this interview:\n– Why “super boutique” is the future of urban luxury\n– How The Londoner balances scale with intimacy across its 16 floors\n– The art of curation—from exclusive art partnerships to whisky rarities\n– What makes the hotel’s residence feel like a private members’ club\n– Why Winged Boots clients choose The Londoner for bespoke city breaks\n\nWith six dining venues, two cinemas, a rooftop bar and a resident-only speakeasy, The Londoner is more than a place to stay—it’s a destination in its own right.\n\nDiscover more about bespoke city getaways with Winged Boots: www.wingedboots.co.uk\n\n## Transcript\n\ndelighted to introduce myself and my role and the hotel and what it means to be a super boutique hotel. So my name is Patrick Kudenberg. Um I am one of the general managers here. We actually operate the property with three general managers. We as I said I look after the customer experience. We've got someone that looks and focuses on the strategy plus we've got one of our general manager focusing on the operations of the hotel. And I think maybe I explain a little bit about what this term super fatigue means to us. It's um when the chairman purchased the land here in Leicester Square um he wanted to create something and give something back to London and um super petique. The hotel is on a grand scale. We're talking 16 floors, 350 bedrooms, two cinemas, a ballroom, six food and beverage outlets, but all of the experiences here in hotel should be super boutique. So they should all be distinct, they should be all be calming, they should be exciting. um all of these things that boutique maybe stands for and what the new traveler possibly is looking for. The Londoner is quite a bold statement. Um it is quite an exciting property. We are very much connected with the theater with the West End taking the location being right on Leicester Square. So you will see knots throughout the whole hotel to the theater, the West End and all the institution that we work with. For example, you enter the lobby and you see the velvety wavy curtains in the lobby.\nThese are a not to the theatrical curtains. You uh you've got all of our powder rooms are actually a not to the backstage dressing rooms. You see the first outlet that you come into which is the stage, our champagne bar. It's actually served in three acts where you've got you're starting in the morning with a beautiful breakfast, afternoon tea, and then the enmo in the evening is a live performance. and our connection to the arts is not just what we've replicated in hotel but it goes back to we do have the relationships with let's say the national gallery which is right located right next to the hotel with the VNA so we do have access to some of the most soldout exhibitions some of the most sold theater shows just within the proximity of this hotel is about 40 theaters and um it's great to have these relationships with these institutions here in London and one of some of the hidden touches that you'll in the hotel is probably one of my favorites. It's the whiskey room. You'll it's hidden away. It's a speak easy bar which is part of our residence.\nBasically, every guest that is staying here in hotel will have access to our residence which is the club lounge, but it's more like a private members club.\nYou enter into the Y bar which is designed. You've got all graffiti around you but all back projected into beautiful wood. You then go into the drawing room where guests can play board games in the afternoon. We've got a um drinks trolley there. And then we've got just next to the powder rooms, you've got a whiskey room which is just hidden away. And you've got some of the rarest bottles there. You've got a 1938 Mallen.\nYou've got Mommov's Kate from 1850. So, lots of different bottles. And it took over a year to create this experience of all of those whisies in there. So, it's something that's a little bit hidden and quite special to us. Yeah. How do we bring modern um experiences to life here at the hotel? I think it goes back to the super boutique again. It's very much the seamless experience, this personal touch. Um, getting to know all of the customer. That's one of the key roles that I look after. And this is for all of the team member to have these conversations with the guests and then to really bring this alive, have the conversations about guests that are in town, for the theaters, to understand what is going on in London, the exhibitions, to see it for yourself, what is going on, what's happening in London, and to really bring that back to the customer. I think to stay ahead of the curve and with the Londoner hotel scene to evolve over those years and as fast and with many openings within London we um and the expectations from the customer very much are also food and beverage lights. So I think this is one of the things that you see within the Londoner with having six different outlets. Very different from our Japanese rooftop bar to our stage to our refuel by the pool, our um wellness floor that has um a pool, a gym that is not normally what you expect in a hotel gym. It's it's a again on a grand scale.\nYou've got two personal trainers there.\nYou've got the refuel bar with where you can have some great bites either up in a cabana poolside or just after a workout.\nWe've you've got your hairdresser, your nail bar, you've got um a barber within the hotel. So, I think it's just meeting all of those needs that the customer might have. Plus, we've got our French Mediterranean restaurant or our pup Joshua's Tavern, which is located right next to National Gallery at the back of the hotel. Wing Boots has been an excellent partner in terms of creating and creating this seamless experience for for a customer traveling whether it is the booking experience with Wing Boots to the private jet that you've arranged to London to the arrival at the hotel where we then take over and deliver the exploitation that Wing Boots has promised the client and has um offered an experience within London.\nWhat would 24 hours at the Londoner um include for a Wing Boot client? I think it can be everything and anything, but I think for me personally, start the day with a great breakfast in Witcoms, whether it's out on our terrace or in the main restaurant. Then go next door to the National Gallery, see some of the fantastic shows, exhibitions that are on. We've got some great ones coming up.\nWe just had Fangok. We've just had the um the painting the rise of Sienna, the painting exhibitions. So, I think that would be sort of my morning great lunch um either in our stage or go outside to one of the fantastic restaurants. Again, you're in the west end, you're in the heart of London. Possibly. I'd love to do a bit of sightseeing, but maybe do it differently. Take a little mini tour through London and um focus on some special subjects and then in the evenings has to be the theater. London has some incredible um productions currently and I think getting tickets to some of the soldout shows again we've got partnerships whether it's the Almeida whethe",
+            "published_date": null,
+            "query": "\"Patrick Katzenberg\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/oren-wolf-47003019",
+            "title": "Oren Wolf | Group CEO at CWPG",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Patrick Katzenberg\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/tom-broughton-952a209",
+            "title": "Tom Broughton | Founder Assemble Media Group",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Patrick Katzenberg\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/le-guide-du-londonien-78351a2b",
+            "title": "Le Guide Du Londonien | TV panelist, Media Consultant, Publisher (Journalist), Performer/Songwriter at Jembe Media (Le Guide)",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Patrick Katzenberg\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/andrew-baroudi-884b31189",
+            "title": "Andrew Baroudi | Conference Producer | Creative Producer | Founder @themedium",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Patrick Katzenberg\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/lee-dalby-0a8b8516",
+            "title": "lee dalby | counter at now wave",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Patrick Katzenberg\" \"The Londoner\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "2025-09-22",
+            "confidence": "medium",
+            "source_url": "https://www.youtube.com/watch?v=JCmziQYajLI",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_2db0163959a7f49b",
+        "full_name": "Charles Oak",
+        "title": "Hotel Director",
+        "normalized_title": "hotel director",
+        "company": "The Londoner",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thewalpole.co.uk/news/out-of-office-charles-oak-the-londoner",
+            "title": "Charles Oak, Hotel Director of The Londoner",
+            "source_type": "press",
+            "snippet": "Charles Oak, Hotel Director of The Londoner, shares his Out of Office essentials.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://live.skift.com/speaker/charles-oak/",
+            "title": "Charles Oak - Hotel Director",
+            "source_type": "other",
+            "snippet": "Charles Oak is the hotel director of The Londoner, the latest project by Edwardian Hotels London.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g186338-d23208911-zft1-The_Londoner_Hotel.html",
+            "title": "Tripadvisor",
+            "source_type": "other",
+            "snippet": "Charles Oak Director of The Londoner Hotel",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.thelondoner.com/press/charles-oak-hotel-director-the-londoner",
+            "title": "Charles Oak, Hotel director, The Londoner",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Charles Oak, Hotel director, The Londoner | The Londoner\n[![Official Logo of The Londoner Hotel](https://image-tc.galaxy.tf/wipng-bo81gar0c7429akwh73wnmr6a/ldr-master-gold-pantone-c.png)![Pictorial mark of The Londoner Hotel](https://image-tc.galaxy.tf/wisvg-by9om9dwdf4yc39qwgoc0zih4/home-hero-slider-icon.svg)](https://www.thelondoner.com/)\nBook Now\n![Close icon](https://www.thelondoner.com/integration/the-londoner/public/images/svg/ico-close.svg)\n### Book Rooms & Suites\nCheck In\nCheck Out\nRooms\nAdults\nAdd CodeAdd CodeDiscount CodeGroup AttendeeRate Access/Corporate CodeTravel Agency Code\nAdd Code\nBook Rooms & Suites\n[Modify/Cancel Reservation](#modal-modify)\n[I Prefer Loyalty Members](https://be.synxis.com/?Hotel=9967)\n![Close icon](https://www.thelondoner.com/integration/the-londoner/public/images/svg/ico-close-dark.svg)\n### Modify/Cancel Reservation\nConfirmation Number\nA nine-digit numerical number\nModify\nBack\n### Book a Table\nRestaurantRestaurant8 at The LondonerThe StageWhitcomb'sJoshua's Tavern\nBook a Table\n![Close icon](https://www.thelondoner.com/integration/the-londoner/public/images/svg/ico-close-dark.svg)\n![Close icon](https://www.thelondoner.com/integration/the-londoner/public/images/svg/ico-close-dark.svg)\n![Close icon](https://www.thelondoner.com/integration/the-londoner/public/images/svg/ico-close-dark.svg)\n![Close icon](https://www.thelondoner.com/integration/the-londoner/public/images/svg/ico-close-dark.svg)\nBack\n### Book Londoner Life\nSelect EventSelect EventWays of Seeing: Guided Gallery VisitsEnergy Healing SessionsAmazing London ToursTruBe x Kama SkincareFragrance ProfilingExpress LunchChampagne Afternoon TeaDrip HydrationLive PerformancesWeekend DJsSunday RoastPub Quiz\nBook event\nBack\n### Meetings &amp; Events Enquiry\nFirst Name\nLast Name\nEmail Address\nContact Number\nRequest for Proposal\nBack\n### Book a Treatment\nChoose from belowChoose from belowSpa TreatmentsHiro Miyoshi Hair & BeautyJoe Vipond\n[Book a Treatment](#)\nBack\n[+44 20 7451 0101]()\n[reservations@thelondoner.com](mailto:reservations@thelondoner.com)\n38 Leicester Square, London,\nWC2H 7DX, United Kingdom\n**The Londoner**\n38 Leicester Square, London,\nWC2H 7DX, United Kingdom\n[+44 20 7451 0101]()\n[reservations@thelondoner.com](mailto:reservations@thelondoner.com)\n![The Logo of Boutique Hotelier used at The Londoner Hotel](https://image-tc.galaxy.tf/wijpeg-ejmvqisc60ucilaxwydfgnrwk/boutique-hotelier-logo_wide.jpg?crop=0%2C50%2C800%2C450)\n#### 08/04/2021 |In the News\n## Charles Oak, Hotel director, The Londoner\n[Return to Press Releases](https://www.thelondoner.com/press)\n[To The Top](#top)\n[telephone icon]()[Book Now](#)[](mailto:reservations@thelondoner.com)",
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.instagram.com/charles.oak/",
+            "title": "Charles Oak - Instagram",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Charles Oak (@charles.oak) • Instagram photos and videos\n\nCharles Oak (@charles.oak) • Instagram photos and videos",
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://uk.linkedin.com/in/charlesoak",
+            "title": "Charles P Oak FIH | Hotelier",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=KoAHJui8oHY",
+            "title": "Charles Oak, The Londoner, on reputation and recruitment - YouTube",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.businessldn.co.uk/news-publications/podcasts/inside-the-londoner-leicester-square",
+            "title": "Inside the Londoner, Leicester Square | BusinessLDN (Previously London First)",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Inside the Londoner, Leicester Square | BusinessLDN (Previously London First)\n\n# Inside the Londoner, Leicester Square\n\n02.12.2021\n\nLaura Osborne and Mark Hilton spoke to Charles Oak, Hotel Director of the Londoner, a new super-boutique hotel in the heart of the capital. From opening a new 16-storey hotel in uncertain times, through to the importance of its art collection and cultural contribution, Charles shares the highs and lows of bringing this new iconic destination to the capital.\n\n- Share this page",
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/lee-dalby-0a8b8516",
+            "title": "lee dalby | counter at now wave",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/craig-higgins-7756b0258",
+            "title": "Craig Higgins | Graphic installation",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/david-wareham-9ab392b2",
+            "title": "David Wareham | Safety advisor and trainer",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/dan-curtis-54a6911b",
+            "title": "Dan Curtis | Fashion designer at Red Mutha and creator of Vuggaz.",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/joanna-blackburn-0196b6231",
+            "title": "Joanna Blackburn",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Charles Oak\" \"The Londoner\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "email",
+            "value": "reservations@thelondoner.com",
+            "confidence": "medium",
+            "source_url": "https://www.thelondoner.com/press/charles-oak-hotel-director-the-londoner",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "02.12.2021",
+            "confidence": "medium",
+            "source_url": "https://www.businessldn.co.uk/news-publications/podcasts/inside-the-londoner-leicester-square",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_6d6cfe0fd19c72a1",
+        "full_name": "Rudy Fão",
+        "title": "Executive Director of Hotel Operations",
+        "normalized_title": "executive director of hotel operations",
+        "company": "The Londoner Hotel",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft6217-The_Londoner_Hotel.html",
+            "title": "Tripadvisor Response",
+            "source_type": "other",
+            "snippet": "Yours Sincerely, Rudy Fão Executive Director of Hotel Operations The Londoner Hotel.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.signalhire.com/companies/the-londoner-hotel",
+            "title": "SignalHire Company Profile",
+            "source_type": "directory",
+            "snippet": "Executive Director of Hotel Operations.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.facebook.com/100064496207772/photos/920266233466575/",
+            "title": "客房管理、機械操作等。 其後澳門倫敦人酒店行政總監, Rudy Fao ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": "Facebook\n\nFacebook\nFacebook\n[\nLog in\n](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https://www.facebook.com/100064496207772/photos/920266233466575/)\nLog in\n[Forgotten account?](https://www.facebook.com/recover/initiate?ars=royal_blue_bar)\n![No photo description available.](https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/486286026_1075832811243249_3115301590457603116_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=WQHUt1O0t-cQ7kNvwHEhRos&_nc_oc=Ado1QcvibHHg10RnISG2arMFVneYtuV2G1B-xfnVi476L-HL2dTNZowlyFrGbbFG8zo&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=grBE3nR5iQOOBaFEG4EVbw&_nc_ss=79289&oh=00_Af3UejlQdoC2PP_g53BjorlXCtcaLD_eJNlX3jsoSzWSpA&oe=69F46748)\n[\n](https://www.facebook.com/?__tn__=*F)\n[\n](https://www.facebook.com/stories/106653824827824/UzpfSVNDOjEyOTA5MjA0MzI0MDI0MjA=/?view_single=false&__tn__=%3C%3C*F)\n## [Sands China Careers 金沙中國工作機會](https://www.facebook.com/sandschinacareers?__tn__=-UC*F)\n[30 August 2024](https://www.facebook.com/photo/?fbid=920266233466575&set=a.626574472835754&__tn__=,O*F) · Shared with Public\n為進一步促進澳門與内地在旅遊及商貿等多個領域的交流合作，金沙中國接待23名來自澳門旅遊大學與南京旅遊職業學院的學生及教職員，到不同的酒店營運部門及員工後勤區進行實地考察。在酒店禮賓部和前台部主管的帶領下，讓學生們深入了解酒店行業的運作流程，包括前台接待、客房管理、機械操作等。\n其後澳門倫敦人酒店行政總監, Rudy Fao先生向學生們分享澳門倫敦人御園和專屬會所–華庭，如何為客戶提供的個性化專屬服務，讓學生們了解在服務行業中維持客戶關係的關鍵。\nTo further promote exchanges and cooperation between Macau and Mainland China in tourism and commerce, Sands China received 23 students and faculty members from UTM and Nanjing Institute of Tourism and Hospitality to have a fieldwork to different hotel …\nSee more\n1\n**\n**\nLike\n**\nComment\n## Comments\n## No comments yet\nBe the first to comment.\n**\nSee more on Facebook\nSee more on Facebook\nEmail address or phone number\nPassword\nLog in\n[Forgotten password?](https://www.facebook.com/recover/initiate?ars=royal_blue_bar)\nor\nCreate new account\nAllow the use of cookies from Facebook on this browser?\nWe use cookies and similar technologies to help provide and improve content on [Meta Products](https://www.facebook.com/help/1561485474074139). We also use them to provide a safer experience by using information that we receive from cookies on and off Facebook, and to provide and improve Meta Products for people who have an account.\n**\nEssential cookies: These cookies are required to use Meta Products and are necessary for our sites to work as intended.\n**\nCookies from other companies: We use these cookies to show you ads off Meta Products and to provide features such as maps and videos on Meta Products. These cookies are optional.\nYou have control over the optional cookies that we use. Learn more about cookies and how we use them, and review or change your choices at any time in our [Cookies Policy](https://www.facebook.com/policies/cookies/).\nAbout cookies\n![](https://www.facebook.com/images/cookies/cookie_info_card_image_1.png)\nWhat are cookies?\nLearn more\n![](https://www.facebook.com/images/cookies/cookie_info_card_image_2.png)\nWhy do we use cookies?\nLearn more\n![](https://www.facebook.com/images/cookies/cookie_info_card_image_3.png)\nWhat are Meta Products?\nLearn more\n![](https://www.facebook.com/images/cookies/cookie_info_card_image_4.png)\nYour cookie choices\nLearn more\nCookies from other companies\nWe use cookies from [other companies](https://www.facebook.com/privacy/policies/cookies/?annotations[0]=explanation/3_companies_list) in order to show you ads off our Products, and provide features such as maps, payment services and video.\nChoose cookies by category\nHow we use these cookies\nIf you allow these cookies\nIf you don't allow these cookies\nOther ways you can control your information\nManage your ad experience in Accounts Centre\nMore information about online advertising\nControlling cookies with browser settings\nAllow all cookies\nDecline optional cookies\nAllow all cookies\nDecline optional cookies",
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/ShowUserReviews-g664891-d21794489-r894847015-The_Londoner_Hotel-Macau.html",
+            "title": "Great! - Review of The Londoner Hotel, Macau, China - Tripadvisor",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9656-The_Londoner_Hotel.html",
+            "title": "Does The Londoner Hotel have a concierge? Pictures & Reviews",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9161-The_Londoner_Hotel.html",
+            "title": "The Londoner Hotel Room Service: Pictures & Reviews - Tripadvisor",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9166-The_Londoner_Hotel.html",
+            "title": "Does The Londoner Hotel have a bar or lounge? Pictures & Reviews",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/andrej-sarko-purkevic-416a82b4",
+            "title": "Andrej Sarko Purkevic | Bar Manager at The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/rado-donev-5714421b7",
+            "title": "Rado Donev | Head Doorman at the Londoner Hotel \nLondon",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/fernando-begue-barbosa-93a5b1263",
+            "title": "Fernando Begue Barbosa | House Chief Steward at The Londoner Hotel - Hospitality | Housekeeping",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/selbi-a-69b160272",
+            "title": "Selbi A. | Reception Manager at The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner Hotel\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/rafael-goncalves-b4232a210",
+            "title": "Rafael Goncalves | Reception Manager at The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Rudy Fão\" \"The Londoner Hotel\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "phone",
+            "value": "100064496207772",
+            "confidence": "medium",
+            "source_url": "https://www.facebook.com/100064496207772/photos/920266233466575/",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "920266233466575",
+            "confidence": "medium",
+            "source_url": "https://www.facebook.com/100064496207772/photos/920266233466575/",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "39.30808-6",
+            "confidence": "medium",
+            "source_url": "https://www.facebook.com/100064496207772/photos/920266233466575/",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "1075832811243249",
+            "confidence": "medium",
+            "source_url": "https://www.facebook.com/100064496207772/photos/920266233466575/",
+            "rationale": "Found in page text"
+          },
+          {
+            "kind": "phone",
+            "value": "3115301590457603116",
+            "confidence": "medium",
+            "source_url": "https://www.facebook.com/100064496207772/photos/920266233466575/",
+            "rationale": "Found in page text"
+          }
+        ],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_c6a24e044e28fe0a",
+        "full_name": "Hannah Millar-Case",
+        "title": "Director of Sales",
+        "normalized_title": "director of sales",
+        "company": "The Londoner",
+        "role_tier": 2,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.boutiquehotelier.com/the-londoner-makes-four-senior-appointments-ahead-of-june-opening/",
+            "title": "The Londoner makes four senior appointments",
+            "source_type": "press",
+            "snippet": "Hannah Millar-Case as director of sales",
+            "fetched_text": null,
+            "published_date": "2020-02-03",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.travelweekly.com/Hotels/London/The-Londoner-p54447327",
+            "title": "Key Personnel",
+            "source_type": "directory",
+            "snippet": "Hannah Millar-Case, Director of Sales",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79020005/hannah-millar-case",
+            "title": "Hannah Millar-Case has been appointed as Director of Sales at The ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://et.cybo.com/GB-kontakt/the-londoner-hotel_1Z/Hannah+Millar-+Case",
+            "title": "Hannah Millar- Case - Hospitality ettevõttes The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/bulletin/related-file/Boutique%20Hotel%20News%20The%20Londoner.pdf",
+            "title": null,
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.idcrawl.com/hannah-millar",
+            "title": "Hannah Millar",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://rocketreach.co/little-emperors-management_b5e41d54f42e6413",
+            "title": "Little Emperors Management",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/hannahmillarcase",
+            "title": "Hannah Millar-Case | Vice President, MyLER at Little Emperors & Co",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/lee-dalby-0a8b8516",
+            "title": "lee dalby | counter at now wave",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/rachel-millar-443133274",
+            "title": "Rachel Millar | City University London Broadcast Journalism",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/david-wareham-9ab392b2",
+            "title": "David Wareham | Safety advisor and trainer",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/dan-curtis-54a6911b",
+            "title": "Dan Curtis | Fashion designer at Red Mutha and creator of Vuggaz.",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hannah Millar-Case\" \"The Londoner\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Appointment from 2020; current status may have evolved"
+        ]
+      },
+      {
+        "candidate_id": "c_5759a28790227c54",
+        "full_name": "Siraj Singh",
+        "title": "Director of Marketing and E-Commerce",
+        "normalized_title": "director of marketing and e-commerce",
+        "company": "Edwardian Hotels London",
+        "role_tier": 3,
+        "role_family": "it_digital",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.travelweekly.com/Hotels/London/The-Londoner-p54447327",
+            "title": "Key Personnel",
+            "source_type": "directory",
+            "snippet": "Siraj Singh, Marketing Director",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.instagram.com/reel/C2kmb0aN4yB/",
+            "title": "Instagram Announcement",
+            "source_type": "social",
+            "snippet": "Siraj Singh, our Director of Marketing and E-Commerce ... recognised on the Walpole Power List 2024.",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://executivetraveller.net/siraj-singh-and-the-londoner-the-worlds-first-super-boutique-hotel/",
+            "title": "Siraj Singh and The Londoner – The World's First Super Boutique ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://ilha.org/spotlight-on-siraj-singh-director-of-marketing-and-e-commerce-the-londoner/",
+            "title": "SPOTLIGHT ON Siraj Singh, Director of Marketing and E-Commerce, The Londoner - International Luxury Hotel Association",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/officers/-Pgx-qii8VQSNw4YCskJwrsT2Ic/appointments",
+            "title": "Siraj SINGH",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://find-and-update.company-information.service.gov.uk/company/01316061/filing-history",
+            "title": "EDWARDIAN GROUP LIMITED filing history - Find and update company information - GOV.UK",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://theorg.com/org/the-may-fair-hotel/org-chart/siraj-singh",
+            "title": "Siraj Singh",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/siraj-singh-a3823b26",
+            "title": "Siraj Singh | Director of Marketing and  E - Commerce for Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/kris-leszczynski-38ab143b",
+            "title": "Kris Leszczynski | Group General Manager, Service Operations at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/russ-brown-42ab8888",
+            "title": "Russ Brown | Operations Manager at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/mohit-dua-050b0214",
+            "title": "Mohit Dua | Director of Revenue & Distribution - Rooms at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/alroy-tinoco-1685b41a1",
+            "title": "Alroy Tinoco | Head Bartender at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Siraj Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_ed88bd70b03eaa47",
+        "full_name": "Hasnain Alloo",
+        "title": "Executive Vice President and Commercial Director",
+        "normalized_title": "executive vice president and commercial director",
+        "company": "Edwardian Hotels London",
+        "role_tier": 2,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thelondoner.com/press/press-releases",
+            "title": "Press Releases",
+            "source_type": "hotel_site",
+            "snippet": "According to Hasnain Alloo, Executive Vice President and Commercial Director for Edwardian Hotels London, which owns and operates The Londoner",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/hasnainalloo_london-manchester-activity-7406419056314040321-hviW",
+            "title": "#london #manchester | Hasnain N. Alloo",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.thelondoner.com/press/press-releases/the-londoner-hotel-accepted-into-global-luxury-travel-group-virtuoso",
+            "title": "The Londoner Hotel Accepted Into Global Luxury Travel Group ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.travelport.com/customer-story/a-landmark-launch",
+            "title": "A landmark launch | Travelport",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.linkedin.com/posts/thelondoner_atmdubai-atm2023-atm-activity-7056981741797810176-uvlT",
+            "title": "The Londoner Hotel’s Post",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/hasnainalloo",
+            "title": "Hasnain N. Alloo | EVP | Commercial Director at Edwardian Hotels London - The Londoner, The May Fair, The Edwardian Manchester",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/muntasir-alloo-89b385273",
+            "title": "Muntasir Alloo | Sales Executive at Edwardian Hotels London (The May Fair | The Londoner | Edwardian Manchester)",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/kris-leszczynski-38ab143b",
+            "title": "Kris Leszczynski | Group General Manager, Service Operations at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/mohit-dua-050b0214",
+            "title": "Mohit Dua | Director of Revenue & Distribution - Rooms at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/russ-brown-42ab8888",
+            "title": "Russ Brown | Operations Manager at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Hasnain Alloo\" \"Edwardian Hotels London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_f7677c84fe205df9",
+        "full_name": "Becky Casey",
+        "title": "Vice President of Sales, North America",
+        "normalized_title": "vice president of sales, north america",
+        "company": "The Londoner / Edwardian Hotels London",
+        "role_tier": 4,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.hotel-online.com/news/the-londoner-appoints-becky-casey-as-new-vice-president-of-sales-north-america-for-the-londoner-and-edwardian-hotels-london",
+            "title": "The Londoner Appoints Becky Casey as New Vice President of Sales",
+            "source_type": "press",
+            "snippet": "Vice President of Sales for North America for The Londoner and the wider Edwardian Hotels London portfolio",
+            "fetched_text": null,
+            "published_date": "2023-06-30",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79026753.html",
+            "title": "Becky Casey has been appointed Vice President Sales North America at The Londoner and Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hospitalitynet.org/appointment/79026753/becky-casey",
+            "title": "Becky Casey has been appointed as Vice President Sales North ...",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hotel-online.com/tags/the-londoner",
+            "title": "the londoner | Hotel Online",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.hotel-online.com/tags/becky-casey",
+            "title": "Becky Casey | Hotel Online",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/becky-casey-14330677",
+            "title": "Becky Casey | Web Design & Development at Hacketts Pipeline",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner / Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/chris-davies-91055212a",
+            "title": "Chris Davies | Food and Beverage Training and Development Manager at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner / Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/kris-leszczynski-38ab143b",
+            "title": "Kris Leszczynski | Group General Manager, Service Operations at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner / Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/vanessa-fongang-5ab909210",
+            "title": "Vanessa Fongang | Night guest experience Ambassador at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner / Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/mohit-dua-050b0214",
+            "title": "Mohit Dua | Director of Revenue & Distribution - Rooms at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Becky Casey\" \"The Londoner / Edwardian Hotels London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_c5180d663f431432",
+        "full_name": "Sheetal Varia",
+        "title": "Director of Revenue",
+        "normalized_title": "director of revenue",
+        "company": "Edwardian Hotels London",
+        "role_tier": 3,
+        "role_family": "commercial_revenue",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/sheetal-varia-98a83a49",
+            "title": "Sheetal Varia LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Experienced Director Of Revenue with a demonstrated history of working in the hospitality industry ... Edwardian Hotels London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "http://www.shesource.org/experts/profile/nisha-varia",
+            "title": "Nisha Varia - SheSource - Women’s Media Center",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sheetal Varia\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.iflr1000.com/Lawyer/shehara-varia/Profile/21798",
+            "title": "Shehara Varia",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sheetal Varia\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.filesure.in/director/sheetal-sharad-varia/02233499",
+            "title": "SHEETAL SHARAD VARIA",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sheetal Varia\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://the-dots.com/users/sheetal-varma-759807",
+            "title": "Sheetal Varma Exhibition Programme Manager | The Dots",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sheetal Varia\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.cntraveller.in/story/my-summer-london-sheetal-mafatlal/",
+            "title": "My summer in London: Sheetal Mafatlal | Condé Nast Traveller India",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Sheetal Varia\" \"The Londoner\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/sheetal-varia-98a83a49",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Tied to Edwardian portfolio including The Londoner"
+        ]
+      },
+      {
+        "candidate_id": "c_e4675c752bc6102a",
+        "full_name": "Joao Teixeira",
+        "title": "Director of Sales - The Londoner & The May Fair Hotels",
+        "normalized_title": "director of sales - the londoner & the may fair hotels",
+        "company": "Edwardian Hotels London",
+        "role_tier": 2,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/joao-teixeira-41380a15a",
+            "title": "Joao Teixeira LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Director of Sales - The Londoner & The May Fair Hotels · Edwardian Hotels London",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://southwarknews.co.uk/news/community/little-portugal-celebrations-following-lambeth-plans-to-invest-in-area/",
+            "title": "As Lambeth council promises to shine light on ‘Little Portugal’, what does the future look like for the South Lambet",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Joao Teixeira\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "http://www.dailymail.co.uk/sport/football/article-2558396/Joao-Teixeira-profile-Liverpool-midfielder-Portugal.html",
+            "title": "Joao Teixeira, the Liverpool midfielder from Portugal who models his game on Kaka | Daily Mail Online",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Joao Teixeira\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.dailymail.co.uk/sport/football/article-2558396/Joao-Teixeira-profile-Liverpool-midfielder-Portugal.html?ITO=1490&amp;ns_mchannel=rss&amp;ns_campaign=1490",
+            "title": "IN THE SPOTLIGHT: Joao Teixeira, the Liverpool midfielder from Portugal who models his game on Kaka and made his first team debut from the bench against Fulham",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Joao Teixeira\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://www.joaotx.com/",
+            "title": "João Teixeira",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Joao Teixeira\" \"The Londoner\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/joao-teixeira-41380a15a",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_04ea8c71697905af",
+        "full_name": "Nico Fournier",
+        "title": "Cluster Director of Sales & Marketing",
+        "normalized_title": "cluster director of sales & marketing",
+        "company": "Edwardian Hotels London",
+        "role_tier": 2,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/nicofournier1",
+            "title": "Nico Fournier LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Director of Sales - The Londoner & The May Fair Hotel. Edwardian Hotels London. Apr 2024 - Mar 2025",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/nicofournier1",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Recent transition noted in profile"
+        ]
+      },
+      {
+        "candidate_id": "c_23380b8a79f0b120",
+        "full_name": "Anjie Keegel",
+        "title": "Head of Sales",
+        "normalized_title": "head of sales",
+        "company": "Edwardian Hotels London",
+        "role_tier": 3,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://uk.linkedin.com/in/anjie-keegel-368817a",
+            "title": "Anjie Keegel LinkedIn",
+            "source_type": "linkedin",
+            "snippet": "Edwardian Hotels London ... Head of Sales",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://docs.edwardian.com/documents/46986/356157/Anjie%20Keegal%20Introducing%20our%20new%20Head%20of%20Business%20Travel%20and%20Meetings%20%26%20Events%20Sales%20.pdf",
+            "title": "Appointment Announcement",
+            "source_type": "press",
+            "snippet": "Anjie Keegel as the new Head of Business Travel and Meetings & Events Sales",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": "https://uk.linkedin.com/in/anjie-keegel-368817a",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Role spans Edwardian properties including The Londoner"
+        ]
+      },
+      {
+        "candidate_id": "c_dba2359bb3c36a38",
+        "full_name": "Jasminder Singh",
+        "title": "Founder and Chairman",
+        "normalized_title": "founder and chairman",
+        "company": "Edwardian Hotels London",
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.forbes.com/profile/jasminder-singh/",
+            "title": "Forbes Profile",
+            "source_type": "press",
+            "snippet": "Jasminder Singh's Edwardian Hotels London group owns ... The Londoner hotel, opened in the fall of 2021. Singh purchased his first hotel... partnered with Radisson...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://www.thelondoner.com/about-us",
+            "title": "About Us",
+            "source_type": "hotel_site",
+            "snippet": "privately owned hotel group founded by Jasminder Singh OBE in 1977",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/peter-malmros-5a231a228",
+            "title": "Peter Malmros | UAS-operatör & fjärrpilot inom Specifik Kategori (STS) | Skynaviq - ackrediterade drönarinsatser,",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasminder Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/dimitrios-zachiotis-b341721a3",
+            "title": "Dimitrios Zachiotis | Food & Beverage Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasminder Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/russ-brown-42ab8888",
+            "title": "Russ Brown | Operations Manager at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasminder Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/ankit-singh1103",
+            "title": "Ankit Singh | General Manager at Radisson Blu Hotel London Leicester Square",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasminder Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/kris-leszczynski-38ab143b",
+            "title": "Kris Leszczynski | Group General Manager, Service Operations at Edwardian Hotels London",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jasminder Singh\" \"Edwardian Hotels London\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": []
+      },
+      {
+        "candidate_id": "c_8bb0f91668c4e509",
+        "full_name": "Jason Kitt",
+        "title": "Director of Meetings and Events Sales",
+        "normalized_title": "director of meetings and events sales",
+        "company": "The Londoner",
+        "role_tier": 3,
+        "role_family": "sales_events",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.boutiquehotelier.com/the-londoner-makes-four-senior-appointments-ahead-of-june-opening/",
+            "title": "Senior Appointments",
+            "source_type": "press",
+            "snippet": "Jason Kitt as director of meeting and events sales",
+            "fetched_text": null,
+            "published_date": "2020-02-03",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/andrew-baroudi-884b31189",
+            "title": "Andrew Baroudi | Conference Producer | Creative Producer | Founder @themedium",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jason Kitt\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/tom-broughton-952a209",
+            "title": "Tom Broughton | Founder Assemble Media Group",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jason Kitt\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/oren-wolf-47003019",
+            "title": "Oren Wolf | Group CEO at CWPG",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jason Kitt\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/lee-dalby-0a8b8516",
+            "title": "lee dalby | counter at now wave",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jason Kitt\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/le-guide-du-londonien-78351a2b",
+            "title": "Le Guide Du Londonien | TV panelist, Media Consultant, Publisher (Journalist), Performer/Songwriter at Jembe Media (Le Guide)",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Jason Kitt\" \"The Londoner\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "2020 appointment; verify current tenure"
+        ]
+      },
+      {
+        "candidate_id": "c_15941ce6b6634f87",
+        "full_name": "Simon Wong",
+        "title": "General Manager",
+        "normalized_title": "general manager",
+        "company": "The Londoner",
+        "role_tier": 1,
+        "role_family": "gm_ops",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://www.thecaterer.com/news/simon-wong-general-manager-the-londoner",
+            "title": "Simon Wong appointed general manager",
+            "source_type": "press",
+            "snippet": "Simon Wong has been appointed general manager of Edwardian Hotels London's (EHL) the Londoner hotel",
+            "fetched_text": null,
+            "published_date": "2020-01-31",
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://hoteldesigns.net/industry-news/the-brit-list-top-25-hoteliers-of-2024/",
+            "title": "The Brit List",
+            "source_type": "press",
+            "snippet": "General Manager | The Londoner. Simon Wong is the General Manager...",
+            "fetched_text": null,
+            "published_date": null,
+            "query": null,
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/andrej-sarko-purkevic-416a82b4",
+            "title": "Andrej Sarko Purkevic | Bar Manager at The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Wong\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/michaelquinncheung",
+            "title": "Michael Cheung | General Manager at The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Wong\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/daniel-henry-4865181a3",
+            "title": "Daniel Henry | Senior Events Manager at The Londoner",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Wong\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/laura-girard-274525b3",
+            "title": "Laura Girard | Catering & Conference Planning Manager",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Wong\" \"The Londoner\"",
+            "score": null
+          },
+          {
+            "url": "https://linkedin.com/in/mihafl",
+            "title": "Mihaela Florea | Rooms Division Manager at The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"Simon Wong\" \"The Londoner\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [],
+        "linkedin_url": null,
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": null,
+        "notes": [
+          "Former GM (2020+); may no longer be current"
+        ]
+      },
+      {
+        "candidate_id": "c_044fda949fb7901c",
+        "full_name": "Michael Cheung | General Manager at The Londoner Hotel",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/michaelquinncheung",
+            "title": "Michael Cheung | General Manager at The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/michaelquinncheung",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/michaelquinncheung",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/michaelquinncheung",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_1a41d26912f72b8e",
+        "full_name": "Chris Un | Director of Hotel Operations",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/chris-un-74653486",
+            "title": "Chris Un | Director of Hotel Operations",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/chris-un-74653486",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/chris-un-74653486",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/chris-un-74653486",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_15ae36a35a15e058",
+        "full_name": "Thomas Boreham | Groups & Planning Manager The Londoner Hotel",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/thomas-boreham-806b38157",
+            "title": "Thomas Boreham | Groups & Planning Manager The Londoner Hotel",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/thomas-boreham-806b38157",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/thomas-boreham-806b38157",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/thomas-boreham-806b38157",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_2b7f6136ea8804d8",
+        "full_name": "Daniel Henry | Senior Events Manager at The Londoner",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/daniel-henry-4865181a3",
+            "title": "Daniel Henry | Senior Events Manager at The Londoner",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/daniel-henry-4865181a3",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/daniel-henry-4865181a3",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/daniel-henry-4865181a3",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_accc63f195e09d02",
+        "full_name": "The Londoner | Student website",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/the-londoner-457a3984",
+            "title": "The Londoner | Student website",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" \"managing director\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/the-londoner-457a3984",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/the-londoner-457a3984",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/the-londoner-457a3984",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_04a837ca7ca2b3fd",
+        "full_name": "Elijah King | General Partner",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/elijah-king-300261b3",
+            "title": "Elijah King | General Partner",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/elijah-king-300261b3",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/elijah-king-300261b3",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/elijah-king-300261b3",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_8a0f602174b8ed08",
+        "full_name": "Charles Gardner",
+        "title": "Chief Executive Officer at The Londoner Dortmund",
+        "normalized_title": "chief executive officer at the londoner dortmund",
+        "company": null,
+        "role_tier": 1,
+        "role_family": "owner_exec",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/charles-gardner-688086342",
+            "title": "Charles Gardner – Chief Executive Officer at The Londoner Dortmund",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/charles-gardner-688086342",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/charles-gardner-688086342",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/charles-gardner-688086342",
+        "needs_human_review": false,
+        "needs_contact_mining": true,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_4518bfce066a11a0",
+        "full_name": "Rose Thomas",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "medium",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/rosielondoner",
+            "title": "Rose Thomas",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/rosielondoner",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/rosielondoner",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/rosielondoner",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      },
+      {
+        "candidate_id": "c_30261bb9f89f279d",
+        "full_name": "David Cotter | Concierge at The Londoner",
+        "title": null,
+        "normalized_title": null,
+        "company": null,
+        "role_tier": 4,
+        "role_family": "other",
+        "current_role_confidence": "medium",
+        "relationship_confidence": "high",
+        "evidence": [
+          {
+            "url": "https://linkedin.com/in/david-cotter-486bba58",
+            "title": "David Cotter | Concierge at The Londoner",
+            "source_type": "other",
+            "snippet": null,
+            "fetched_text": null,
+            "published_date": null,
+            "query": "\"The Londoner\" CEO OR \"chief executive\"",
+            "score": null
+          }
+        ],
+        "contact_routes": [
+          {
+            "kind": "linkedin",
+            "value": "https://linkedin.com/in/david-cotter-486bba58",
+            "confidence": "medium",
+            "source_url": "https://linkedin.com/in/david-cotter-486bba58",
+            "rationale": "LinkedIn profile URL from search result"
+          }
+        ],
+        "linkedin_url": "https://linkedin.com/in/david-cotter-486bba58",
+        "needs_human_review": false,
+        "needs_contact_mining": false,
+        "reason_kept": "exa_people_gap",
+        "notes": [
+          "exa_people_gap"
+        ]
+      }
+    ],
+    "rejected_candidates": [],
+    "provider_costs": {
+      "xai_usd": 0.220929,
+      "exa_usd": 0.196,
+      "total_usd": 0.416929
+    },
+    "quality_metrics": {
+      "candidate_count": 24,
+      "useful_candidate_count": 9,
+      "tier1_count": 5,
+      "tier2_count": 4,
+      "direct_route_count": 8,
+      "department_route_count": 0,
+      "rejected_count": 0,
+      "exa_searches": 26,
+      "exa_fetches": 14,
+      "xai_calls": 1
+    },
+    "telemetry": {
+      "stages": [
+        {
+          "stage": "grok_discovery",
+          "provider": "xai",
+          "calls": 1,
+          "tokens_in": 58185,
+          "tokens_out": 9427,
+          "estimated_usd": 0.220929,
+          "seconds": 146.39861790000032,
+          "notes": [
+            "grok-4.20-reasoning discovery"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.2392785000001822,
+          "notes": [
+            "55ca521488e8"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.168450000000121,
+          "notes": [
+            "fe32f6b35d43"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.8281013999994684,
+          "notes": [
+            "0021f1f1536f"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.412101800000528,
+          "notes": [
+            "a2b9e1922c46"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.416365400000359,
+          "notes": [
+            "a439446c1dc5"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.5192918000002464,
+          "notes": [
+            "45c3c08c35b6"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.5349056000004566,
+          "notes": [
+            "c1a62364a3f9"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6260339999998905,
+          "notes": [
+            "0063934ffcf7"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.6808020999997098,
+          "notes": [
+            "243d0c7c1dca"
+          ]
+        },
+        {
+          "stage": "exa_verify:person_verify",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.5538496999997733,
+          "notes": [
+            "fa0f022efd5c"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.2031569000000673,
+          "notes": [
+            "b878bf8e1064"
+          ]
+        },
+        {
+          "stage": "exa_verify:people_gap",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.7115875999998025,
+          "notes": [
+            "97a18af1dbb9"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.4939893000000666,
+          "notes": [
+            "a6a221f4e70d"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.3665589000002,
+          "notes": [
+            "f505ffa17f1e"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.9117474999993647,
+          "notes": [
+            "b9ef8dccc0a2"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.007191500000772,
+          "notes": [
+            "f885822f09a7"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.4035175000008167,
+          "notes": [
+            "579b756c2056"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.842523799999981,
+          "notes": [
+            "1f2c40667c3e"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.257044300000416,
+          "notes": [
+            "d2c6e6a292c3"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.74666630000047,
+          "notes": [
+            "5b64016cc2b8"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 3.03836820000015,
+          "notes": [
+            "28f2c9567ac0"
+          ]
+        },
+        {
+          "stage": "exa_verify:profile_lookup",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.717747800000325,
+          "notes": [
+            "85b9e37061fd"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 11.333172200000263,
+          "notes": [
+            "https://www.tripadvisor.com/ShowUserReviews-g186338-d23208911-r1055085680-The_Lo"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 0.9093745999998646,
+          "notes": [
+            "https://www.independenthotelshow.co.uk/news-hub/hotelier-edit-patrick-katzenberg"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.3008300000001327,
+          "notes": [
+            "https://thehotelmagazine.co.uk/the-londoner-recognised-with-conde-nast-traveller"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 7.113411299999825,
+          "notes": [
+            "https://www.youtube.com/watch?v=JCmziQYajLI"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.2592135999993843,
+          "notes": [
+            "https://www.thelondoner.com/press/charles-oak-hotel-director-the-londoner"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 5.100712100000237,
+          "notes": [
+            "https://www.instagram.com/charles.oak/"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 11.164499199999227,
+          "notes": [
+            "https://www.youtube.com/watch?v=KoAHJui8oHY"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 1.1514507000001686,
+          "notes": [
+            "https://www.businessldn.co.uk/news-publications/podcasts/inside-the-londoner-lei"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 5.1358540999999605,
+          "notes": [
+            "https://www.facebook.com/100064496207772/photos/920266233466575/"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 11.013495500000317,
+          "notes": [
+            "https://www.tripadvisor.com/ShowUserReviews-g664891-d21794489-r894847015-The_Lon"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 10.515866299999288,
+          "notes": [
+            "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9656-The_Londoner"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 9.861568000000261,
+          "notes": [
+            "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9161-The_Londoner"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 10.918874099999812,
+          "notes": [
+            "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9166-The_Londoner"
+          ]
+        },
+        {
+          "stage": "exa_fetch",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.001,
+          "seconds": 10.950843200000236,
+          "notes": [
+            "https://www.hospitalitynet.org/appointment/79020005/hannah-millar-case"
+          ]
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.5401587999995172,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 1.5968204000000696,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.0209170999996786,
+          "notes": []
+        },
+        {
+          "stage": "contact_route_site",
+          "provider": "exa",
+          "calls": 1,
+          "tokens_in": 0,
+          "tokens_out": 0,
+          "estimated_usd": 0.007,
+          "seconds": 2.172509099999843,
+          "notes": []
+        }
+      ],
+      "exa_search_requests": 26,
+      "exa_content_pages": 14,
+      "errors": []
+    },
+    "needs_manual_org_review": false
+  },
+  "contacts": [
+    {
+      "full_name": "Michael Cheung",
+      "title": "General Manager",
+      "company": "The Londoner Hotel",
+      "linkedin_url": "https://uk.linkedin.com/in/michaelquinncheung",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "General Manager, The Londoner Hotel, London, United Kingdom. Michael Cheung is an experienced General Manager in the Hospitality Industry. | Yours sincerely, Michael Cheung General Manager. | Love Letters From Britain | The Londoner | Michael Cheung - LinkedIn | Michael Cheung | General Manager at The Londoner Hotel | 5 stars - I will be back - Review of The Londoner Hotel, London ...",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/michaelquinncheung",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager, The Londoner Hotel, London, United Kingdom. Michael Cheung is an experienced General Manager in the Hospitality Industry."
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Feature-g186338-d23208911-zft1-The_Londoner_Hotel.html",
+          "source_type": "other",
+          "quote_or_fact": "Yours sincerely, Michael Cheung General Manager."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/michaelquinncheung_love-letters-from-britain-the-londoner-activity-6820467546358091776-HBgr",
+          "source_type": "other",
+          "quote_or_fact": "Love Letters From Britain | The Londoner | Michael Cheung - LinkedIn"
+        },
+        {
+          "source_url": "https://linkedin.com/in/michaelquinncheung",
+          "source_type": "other",
+          "quote_or_fact": "Michael Cheung | General Manager at The Londoner Hotel"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g186338-d23208911-r1055085680-The_Londoner_Hotel-London_England.html",
+          "source_type": "other",
+          "quote_or_fact": "5 stars - I will be back - Review of The Londoner Hotel, London ..."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/michael-cheung-ba434324",
+          "source_type": "other",
+          "quote_or_fact": "Michael Cheung | Software Developer at MyKnowledgeMap"
+        },
+        {
+          "source_url": "https://sg.linkedin.com/in/michaelkcheung",
+          "source_type": "other",
+          "quote_or_fact": "Michael Cheung | Co-founder, General Partner at Makers Fund"
+        }
+      ]
+    },
+    {
+      "full_name": "Patrick Katzenberg",
+      "title": "General Manager - Guest Experience",
+      "company": "The Londoner",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "2025-09-22",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "General Manager- Guest Experience Patrick Katzenberg ... The Londoner, which opened in 2021 right in the heart of London. | General Manager, leading the hotel into its next evolution. | Patrick Katzenberg | General Manager @The May Fair Hotel, Personal Licence Holder | The Londoner Recognised With Condé Nast Traveller's 2024 Readers’ Choice Award “20 in Hotels, London - Europe” » hotel magazine | An Audience With...Patrick Katzenberg | The Londoner Hotel",
+      "evidence": [
+        {
+          "source_url": "https://www.independenthotelshow.co.uk/news-hub/hotelier-edit-patrick-katzenberg-londoner",
+          "source_type": "news",
+          "quote_or_fact": "General Manager- Guest Experience Patrick Katzenberg ... The Londoner, which opened in 2021 right in the heart of London."
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/patrick-katzenberg-00064ab7_edwardianhotels-themayfair-thelondoner-activity-7414240346563633152-ES2h",
+          "source_type": "linkedin",
+          "quote_or_fact": "General Manager, leading the hotel into its next evolution."
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/patrick-katzenberg-00064ab7",
+          "source_type": "other",
+          "quote_or_fact": "Patrick Katzenberg | General Manager @The May Fair Hotel, Personal Licence Holder"
+        },
+        {
+          "source_url": "https://thehotelmagazine.co.uk/the-londoner-recognised-with-conde-nast-travellers-2024-readers-choice-award-20-in-hotels-london-europe/",
+          "source_type": "other",
+          "quote_or_fact": "The Londoner Recognised With Condé Nast Traveller's 2024 Readers’ Choice Award “20 in Hotels, London - Europe” » hotel magazine\n\n# The Londoner Recognised With Condé Nast Traveller's 2024 Readers’ Choice Award “20 in Hotels, London - Europe”\n\nThe World’s Best Hotels, Cruises, Countries, Cities, Resorts, Trains, Airlines, Airports, Spas, Islands, Beaches, Insurance, Luggage, Villas, and Tour Operators\n\nCondé Nast Traveller announced the results of its annual Readers’ Choice Awards with The Londoner recognised as the #20 Best Hotel in London, Europe.\n\nMore than 125,000 Condé Nast Traveller readers across the United Kingdom submitted responses rating their travel experiences across the globe to offer a comprehensive look at the places they eagerly anticipate revisiting. The Readers’ Choice Awards, with their unparalleled legacy as the travel industry’s longest-running and most prestigious accolades, remain the ultimate symbol and acknowledgment of excellence within the travel sector. The "
+        },
+        {
+          "source_url": "https://www.youtube.com/watch?v=JCmziQYajLI",
+          "source_type": "other",
+          "quote_or_fact": "# An Audience With...Patrick Katzenberg | The Londoner Hotel | Winged Boots\n\n- Channel: Winged Boots | Bespoke Luxury Travel\n- Length: 06:30\n- Views: 69\n- Likes: 1\n- Published: 2025-09-22T07:06:05-07:00\n- Category: Travel & Events\n- Language: en\n\n## Description\n\nStep inside one of London’s most imaginative properties with Patrick Katzenberg, General Manager of The Londoner, as he shares the story behind the world’s first “super boutique” hotel—and what that means for the discerning traveller.\n\nIn this episode of “An Audience With…” by Winged Boots, Patrick unpacks how The Londoner merges theatrical flair with quiet luxury, combining grand scale with deeply personal service. From hidden whisky rooms and West End partnerships to immersive design details that honour the hotel’s Leicester Square roots, discover how this standout address is redefining what a city stay can feel like.\n\nWhat you’ll uncover in this interview:\n– Why “super boutique” is the future of urban luxury\n– How The London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/oren-wolf-47003019",
+          "source_type": "other",
+          "quote_or_fact": "Oren Wolf | Group CEO at CWPG"
+        },
+        {
+          "source_url": "https://linkedin.com/in/tom-broughton-952a209",
+          "source_type": "other",
+          "quote_or_fact": "Tom Broughton | Founder Assemble Media Group"
+        },
+        {
+          "source_url": "https://linkedin.com/in/le-guide-du-londonien-78351a2b",
+          "source_type": "other",
+          "quote_or_fact": "Le Guide Du Londonien | TV panelist, Media Consultant, Publisher (Journalist), Performer/Songwriter at Jembe Media (Le Guide)"
+        },
+        {
+          "source_url": "https://linkedin.com/in/andrew-baroudi-884b31189",
+          "source_type": "other",
+          "quote_or_fact": "Andrew Baroudi | Conference Producer | Creative Producer | Founder @themedium"
+        },
+        {
+          "source_url": "https://linkedin.com/in/lee-dalby-0a8b8516",
+          "source_type": "other",
+          "quote_or_fact": "lee dalby | counter at now wave"
+        }
+      ]
+    },
+    {
+      "full_name": "Charles Oak",
+      "title": "Hotel Director",
+      "company": "The Londoner",
+      "linkedin_url": null,
+      "email": "reservations@thelondoner.com",
+      "email2": null,
+      "phone": "02.12.2021",
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Charles Oak, Hotel Director of The Londoner, shares his Out of Office essentials. | Charles Oak is the hotel director of The Londoner, the latest project by Edwardian Hotels London. | Charles Oak Director of The Londoner Hotel | Charles Oak, Hotel director, The Londoner | Charles Oak - Instagram",
+      "evidence": [
+        {
+          "source_url": "https://www.thewalpole.co.uk/news/out-of-office-charles-oak-the-londoner",
+          "source_type": "news",
+          "quote_or_fact": "Charles Oak, Hotel Director of The Londoner, shares his Out of Office essentials."
+        },
+        {
+          "source_url": "https://live.skift.com/speaker/charles-oak/",
+          "source_type": "other",
+          "quote_or_fact": "Charles Oak is the hotel director of The Londoner, the latest project by Edwardian Hotels London."
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Feature-g186338-d23208911-zft1-The_Londoner_Hotel.html",
+          "source_type": "other",
+          "quote_or_fact": "Charles Oak Director of The Londoner Hotel"
+        },
+        {
+          "source_url": "https://www.thelondoner.com/press/charles-oak-hotel-director-the-londoner",
+          "source_type": "other",
+          "quote_or_fact": "Charles Oak, Hotel director, The Londoner | The Londoner\n[![Official Logo of The Londoner Hotel](https://image-tc.galaxy.tf/wipng-bo81gar0c7429akwh73wnmr6a/ldr-master-gold-pantone-c.png)![Pictorial mark of The Londoner Hotel](https://image-tc.galaxy.tf/wisvg-by9om9dwdf4yc39qwgoc0zih4/home-hero-slider-icon.svg)](https://www.thelondoner.com/)\nBook Now\n![Close icon](https://www.thelondoner.com/integration/the-londoner/public/images/svg/ico-close.svg)\n### Book Rooms & Suites\nCheck In\nCheck Out\nRooms\nAdults\nAdd CodeAdd CodeDiscount CodeGroup AttendeeRate Access/Corporate CodeTravel Agency Code\nAdd Code\nBook Rooms & Suites\n[Modify/Cancel Reservation](#modal-modify)\n[I Prefer Loyalty Members](https://be.synxis.com/?Hotel=9967)\n![Close icon](https://www.thelondoner.com/integration/the-londoner/public/images/svg/ico-close-dark.svg)\n### Modify/Cancel Reservation\nConfirmation Number\nA nine-digit numerical number\nModify\nBack\n### Book a Table\nRestaurantRestaurant8 at The LondonerThe StageWhitcomb's"
+        },
+        {
+          "source_url": "https://www.instagram.com/charles.oak/",
+          "source_type": "other",
+          "quote_or_fact": "Charles Oak (@charles.oak) • Instagram photos and videos\n\nCharles Oak (@charles.oak) • Instagram photos and videos"
+        },
+        {
+          "source_url": "https://uk.linkedin.com/in/charlesoak",
+          "source_type": "other",
+          "quote_or_fact": "Charles P Oak FIH | Hotelier"
+        },
+        {
+          "source_url": "https://www.youtube.com/watch?v=KoAHJui8oHY",
+          "source_type": "other",
+          "quote_or_fact": "Charles Oak, The Londoner, on reputation and recruitment - YouTube"
+        },
+        {
+          "source_url": "https://www.businessldn.co.uk/news-publications/podcasts/inside-the-londoner-leicester-square",
+          "source_type": "other",
+          "quote_or_fact": "Inside the Londoner, Leicester Square | BusinessLDN (Previously London First)\n\n# Inside the Londoner, Leicester Square\n\n02.12.2021\n\nLaura Osborne and Mark Hilton spoke to Charles Oak, Hotel Director of the Londoner, a new super-boutique hotel in the heart of the capital. From opening a new 16-storey hotel in uncertain times, through to the importance of its art collection and cultural contribution, Charles shares the highs and lows of bringing this new iconic destination to the capital.\n\n- Share this page"
+        },
+        {
+          "source_url": "https://linkedin.com/in/lee-dalby-0a8b8516",
+          "source_type": "other",
+          "quote_or_fact": "lee dalby | counter at now wave"
+        },
+        {
+          "source_url": "https://linkedin.com/in/craig-higgins-7756b0258",
+          "source_type": "other",
+          "quote_or_fact": "Craig Higgins | Graphic installation"
+        },
+        {
+          "source_url": "https://linkedin.com/in/david-wareham-9ab392b2",
+          "source_type": "other",
+          "quote_or_fact": "David Wareham | Safety advisor and trainer"
+        },
+        {
+          "source_url": "https://linkedin.com/in/dan-curtis-54a6911b",
+          "source_type": "other",
+          "quote_or_fact": "Dan Curtis | Fashion designer at Red Mutha and creator of Vuggaz."
+        },
+        {
+          "source_url": "https://linkedin.com/in/joanna-blackburn-0196b6231",
+          "source_type": "other",
+          "quote_or_fact": "Joanna Blackburn"
+        }
+      ]
+    },
+    {
+      "full_name": "Rudy Fão",
+      "title": "Executive Director of Hotel Operations",
+      "company": "The Londoner Hotel",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": "100064496207772",
+      "phone2": "1075832811243249",
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "high",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Yours Sincerely, Rudy Fão Executive Director of Hotel Operations The Londoner Hotel. | Executive Director of Hotel Operations. | 客房管理、機械操作等。 其後澳門倫敦人酒店行政總監, Rudy Fao ... | Great! - Review of The Londoner Hotel, Macau, China - Tripadvisor | Does The Londoner Hotel have a concierge? Pictures & Reviews",
+      "evidence": [
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft6217-The_Londoner_Hotel.html",
+          "source_type": "other",
+          "quote_or_fact": "Yours Sincerely, Rudy Fão Executive Director of Hotel Operations The Londoner Hotel."
+        },
+        {
+          "source_url": "https://www.signalhire.com/companies/the-londoner-hotel",
+          "source_type": "directory",
+          "quote_or_fact": "Executive Director of Hotel Operations."
+        },
+        {
+          "source_url": "https://www.facebook.com/100064496207772/photos/920266233466575/",
+          "source_type": "other",
+          "quote_or_fact": "Facebook\n\nFacebook\nFacebook\n[\nLog in\n](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https://www.facebook.com/100064496207772/photos/920266233466575/)\nLog in\n[Forgotten account?](https://www.facebook.com/recover/initiate?ars=royal_blue_bar)\n![No photo description available.](https://scontent-lhr8-2.xx.fbcdn.net/v/t39.30808-6/486286026_1075832811243249_3115301590457603116_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=13d280&_nc_ohc=WQHUt1O0t-cQ7kNvwHEhRos&_nc_oc=Ado1QcvibHHg10RnISG2arMFVneYtuV2G1B-xfnVi476L-HL2dTNZowlyFrGbbFG8zo&_nc_zt=23&_nc_ht=scontent-lhr8-2.xx&_nc_gid=grBE3nR5iQOOBaFEG4EVbw&_nc_ss=79289&oh=00_Af3UejlQdoC2PP_g53BjorlXCtcaLD_eJNlX3jsoSzWSpA&oe=69F46748)\n[\n](https://www.facebook.com/?__tn__=*F)\n[\n](https://www.facebook.com/stories/106653824827824/UzpfSVNDOjEyOTA5MjA0MzI0MDI0MjA=/?view_single=false&__tn__=%3C%3C*F)\n## [Sands China Careers 金沙中國工作機會](https://www.facebook.com/sandschinacareers?__tn__=-UC*F)\n[30 August 2024](https://www.facebook.com/ph"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/ShowUserReviews-g664891-d21794489-r894847015-The_Londoner_Hotel-Macau.html",
+          "source_type": "other",
+          "quote_or_fact": "Great! - Review of The Londoner Hotel, Macau, China - Tripadvisor"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9656-The_Londoner_Hotel.html",
+          "source_type": "other",
+          "quote_or_fact": "Does The Londoner Hotel have a concierge? Pictures & Reviews"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9161-The_Londoner_Hotel.html",
+          "source_type": "other",
+          "quote_or_fact": "The Londoner Hotel Room Service: Pictures & Reviews - Tripadvisor"
+        },
+        {
+          "source_url": "https://www.tripadvisor.com/Hotel_Feature-g664891-d21794489-zft9166-The_Londoner_Hotel.html",
+          "source_type": "other",
+          "quote_or_fact": "Does The Londoner Hotel have a bar or lounge? Pictures & Reviews"
+        },
+        {
+          "source_url": "https://linkedin.com/in/andrej-sarko-purkevic-416a82b4",
+          "source_type": "other",
+          "quote_or_fact": "Andrej Sarko Purkevic | Bar Manager at The Londoner Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/rado-donev-5714421b7",
+          "source_type": "other",
+          "quote_or_fact": "Rado Donev | Head Doorman at the Londoner Hotel \nLondon"
+        },
+        {
+          "source_url": "https://linkedin.com/in/fernando-begue-barbosa-93a5b1263",
+          "source_type": "other",
+          "quote_or_fact": "Fernando Begue Barbosa | House Chief Steward at The Londoner Hotel - Hospitality | Housekeeping"
+        },
+        {
+          "source_url": "https://linkedin.com/in/selbi-a-69b160272",
+          "source_type": "other",
+          "quote_or_fact": "Selbi A. | Reception Manager at The Londoner Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/rafael-goncalves-b4232a210",
+          "source_type": "other",
+          "quote_or_fact": "Rafael Goncalves | Reception Manager at The Londoner Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Hannah Millar-Case",
+      "title": "Director of Sales",
+      "company": "The Londoner",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Appointment from 2020; current status may have evolved",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Hannah Millar-Case as director of sales | Hannah Millar-Case, Director of Sales | Hannah Millar-Case has been appointed as Director of Sales at The ... | Hannah Millar- Case - Hospitality ettevõttes The Londoner Hotel | https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/bulletin/related-file/Boutique%20Hotel%20News%20The%20Londoner.pdf | Appointment from 2020; current status may have evolved",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/the-londoner-makes-four-senior-appointments-ahead-of-june-opening/",
+          "source_type": "news",
+          "quote_or_fact": "Hannah Millar-Case as director of sales"
+        },
+        {
+          "source_url": "https://www.travelweekly.com/Hotels/London/The-Londoner-p54447327",
+          "source_type": "directory",
+          "quote_or_fact": "Hannah Millar-Case, Director of Sales"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79020005/hannah-millar-case",
+          "source_type": "other",
+          "quote_or_fact": "Hannah Millar-Case has been appointed as Director of Sales at The ..."
+        },
+        {
+          "source_url": "https://et.cybo.com/GB-kontakt/the-londoner-hotel_1Z/Hannah+Millar-+Case",
+          "source_type": "other",
+          "quote_or_fact": "Hannah Millar- Case - Hospitality ettevõttes The Londoner Hotel"
+        },
+        {
+          "source_url": "https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/bulletin/related-file/Boutique%20Hotel%20News%20The%20Londoner.pdf",
+          "source_type": "other",
+          "quote_or_fact": "https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/bulletin/related-file/Boutique%20Hotel%20News%20The%20Londoner.pdf"
+        },
+        {
+          "source_url": "https://www.idcrawl.com/hannah-millar",
+          "source_type": "other",
+          "quote_or_fact": "Hannah Millar"
+        },
+        {
+          "source_url": "https://rocketreach.co/little-emperors-management_b5e41d54f42e6413",
+          "source_type": "other",
+          "quote_or_fact": "Little Emperors Management"
+        },
+        {
+          "source_url": "https://linkedin.com/in/hannahmillarcase",
+          "source_type": "other",
+          "quote_or_fact": "Hannah Millar-Case | Vice President, MyLER at Little Emperors & Co"
+        },
+        {
+          "source_url": "https://linkedin.com/in/lee-dalby-0a8b8516",
+          "source_type": "other",
+          "quote_or_fact": "lee dalby | counter at now wave"
+        },
+        {
+          "source_url": "https://linkedin.com/in/rachel-millar-443133274",
+          "source_type": "other",
+          "quote_or_fact": "Rachel Millar | City University London Broadcast Journalism"
+        },
+        {
+          "source_url": "https://linkedin.com/in/david-wareham-9ab392b2",
+          "source_type": "other",
+          "quote_or_fact": "David Wareham | Safety advisor and trainer"
+        },
+        {
+          "source_url": "https://linkedin.com/in/dan-curtis-54a6911b",
+          "source_type": "other",
+          "quote_or_fact": "Dan Curtis | Fashion designer at Red Mutha and creator of Vuggaz."
+        }
+      ]
+    },
+    {
+      "full_name": "Siraj Singh",
+      "title": "Director of Marketing and E-Commerce",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / it_digital; role confidence medium.",
+      "contact_evidence_summary": "Siraj Singh, Marketing Director | Siraj Singh, our Director of Marketing and E-Commerce ... recognised on the Walpole Power List 2024. | Siraj Singh and The Londoner – The World's First Super Boutique ... | SPOTLIGHT ON Siraj Singh, Director of Marketing and E-Commerce, The Londoner - International Luxury Hotel Association | Siraj SINGH",
+      "evidence": [
+        {
+          "source_url": "https://www.travelweekly.com/Hotels/London/The-Londoner-p54447327",
+          "source_type": "directory",
+          "quote_or_fact": "Siraj Singh, Marketing Director"
+        },
+        {
+          "source_url": "https://www.instagram.com/reel/C2kmb0aN4yB/",
+          "source_type": "x",
+          "quote_or_fact": "Siraj Singh, our Director of Marketing and E-Commerce ... recognised on the Walpole Power List 2024."
+        },
+        {
+          "source_url": "https://executivetraveller.net/siraj-singh-and-the-londoner-the-worlds-first-super-boutique-hotel/",
+          "source_type": "other",
+          "quote_or_fact": "Siraj Singh and The Londoner – The World's First Super Boutique ..."
+        },
+        {
+          "source_url": "https://ilha.org/spotlight-on-siraj-singh-director-of-marketing-and-e-commerce-the-londoner/",
+          "source_type": "other",
+          "quote_or_fact": "SPOTLIGHT ON Siraj Singh, Director of Marketing and E-Commerce, The Londoner - International Luxury Hotel Association"
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/officers/-Pgx-qii8VQSNw4YCskJwrsT2Ic/appointments",
+          "source_type": "other",
+          "quote_or_fact": "Siraj SINGH"
+        },
+        {
+          "source_url": "https://find-and-update.company-information.service.gov.uk/company/01316061/filing-history",
+          "source_type": "other",
+          "quote_or_fact": "EDWARDIAN GROUP LIMITED filing history - Find and update company information - GOV.UK"
+        },
+        {
+          "source_url": "https://theorg.com/org/the-may-fair-hotel/org-chart/siraj-singh",
+          "source_type": "other",
+          "quote_or_fact": "Siraj Singh"
+        },
+        {
+          "source_url": "https://linkedin.com/in/siraj-singh-a3823b26",
+          "source_type": "other",
+          "quote_or_fact": "Siraj Singh | Director of Marketing and  E - Commerce for Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/kris-leszczynski-38ab143b",
+          "source_type": "other",
+          "quote_or_fact": "Kris Leszczynski | Group General Manager, Service Operations at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/russ-brown-42ab8888",
+          "source_type": "other",
+          "quote_or_fact": "Russ Brown | Operations Manager at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/mohit-dua-050b0214",
+          "source_type": "other",
+          "quote_or_fact": "Mohit Dua | Director of Revenue & Distribution - Rooms at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/alroy-tinoco-1685b41a1",
+          "source_type": "other",
+          "quote_or_fact": "Alroy Tinoco | Head Bartender at Edwardian Hotels London"
+        }
+      ]
+    },
+    {
+      "full_name": "Hasnain Alloo",
+      "title": "Executive Vice President and Commercial Director",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "According to Hasnain Alloo, Executive Vice President and Commercial Director for Edwardian Hotels London, which owns and operates The Londoner | #london #manchester | Hasnain N. Alloo | The Londoner Hotel Accepted Into Global Luxury Travel Group ... | A landmark launch | Travelport | The Londoner Hotel’s Post",
+      "evidence": [
+        {
+          "source_url": "https://www.thelondoner.com/press/press-releases",
+          "source_type": "official_site",
+          "quote_or_fact": "According to Hasnain Alloo, Executive Vice President and Commercial Director for Edwardian Hotels London, which owns and operates The Londoner"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/hasnainalloo_london-manchester-activity-7406419056314040321-hviW",
+          "source_type": "other",
+          "quote_or_fact": "#london #manchester | Hasnain N. Alloo"
+        },
+        {
+          "source_url": "https://www.thelondoner.com/press/press-releases/the-londoner-hotel-accepted-into-global-luxury-travel-group-virtuoso",
+          "source_type": "other",
+          "quote_or_fact": "The Londoner Hotel Accepted Into Global Luxury Travel Group ..."
+        },
+        {
+          "source_url": "https://www.travelport.com/customer-story/a-landmark-launch",
+          "source_type": "other",
+          "quote_or_fact": "A landmark launch | Travelport"
+        },
+        {
+          "source_url": "https://www.linkedin.com/posts/thelondoner_atmdubai-atm2023-atm-activity-7056981741797810176-uvlT",
+          "source_type": "other",
+          "quote_or_fact": "The Londoner Hotel’s Post"
+        },
+        {
+          "source_url": "https://linkedin.com/in/hasnainalloo",
+          "source_type": "other",
+          "quote_or_fact": "Hasnain N. Alloo | EVP | Commercial Director at Edwardian Hotels London - The Londoner, The May Fair, The Edwardian Manchester"
+        },
+        {
+          "source_url": "https://linkedin.com/in/muntasir-alloo-89b385273",
+          "source_type": "other",
+          "quote_or_fact": "Muntasir Alloo | Sales Executive at Edwardian Hotels London (The May Fair | The Londoner | Edwardian Manchester)"
+        },
+        {
+          "source_url": "https://linkedin.com/in/kris-leszczynski-38ab143b",
+          "source_type": "other",
+          "quote_or_fact": "Kris Leszczynski | Group General Manager, Service Operations at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/mohit-dua-050b0214",
+          "source_type": "other",
+          "quote_or_fact": "Mohit Dua | Director of Revenue & Distribution - Rooms at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/russ-brown-42ab8888",
+          "source_type": "other",
+          "quote_or_fact": "Russ Brown | Operations Manager at Edwardian Hotels London"
+        }
+      ]
+    },
+    {
+      "full_name": "Becky Casey",
+      "title": "Vice President of Sales, North America",
+      "company": "The Londoner / Edwardian Hotels London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 4 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Vice President of Sales for North America for The Londoner and the wider Edwardian Hotels London portfolio | Becky Casey has been appointed Vice President Sales North America at The Londoner and Edwardian Hotels London | Becky Casey has been appointed as Vice President Sales North ... | the londoner | Hotel Online | Becky Casey | Hotel Online",
+      "evidence": [
+        {
+          "source_url": "https://www.hotel-online.com/news/the-londoner-appoints-becky-casey-as-new-vice-president-of-sales-north-america-for-the-londoner-and-edwardian-hotels-london",
+          "source_type": "news",
+          "quote_or_fact": "Vice President of Sales for North America for The Londoner and the wider Edwardian Hotels London portfolio"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79026753.html",
+          "source_type": "other",
+          "quote_or_fact": "Becky Casey has been appointed Vice President Sales North America at The Londoner and Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://www.hospitalitynet.org/appointment/79026753/becky-casey",
+          "source_type": "other",
+          "quote_or_fact": "Becky Casey has been appointed as Vice President Sales North ..."
+        },
+        {
+          "source_url": "https://www.hotel-online.com/tags/the-londoner",
+          "source_type": "other",
+          "quote_or_fact": "the londoner | Hotel Online"
+        },
+        {
+          "source_url": "https://www.hotel-online.com/tags/becky-casey",
+          "source_type": "other",
+          "quote_or_fact": "Becky Casey | Hotel Online"
+        },
+        {
+          "source_url": "https://linkedin.com/in/becky-casey-14330677",
+          "source_type": "other",
+          "quote_or_fact": "Becky Casey | Web Design & Development at Hacketts Pipeline"
+        },
+        {
+          "source_url": "https://linkedin.com/in/chris-davies-91055212a",
+          "source_type": "other",
+          "quote_or_fact": "Chris Davies | Food and Beverage Training and Development Manager at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/kris-leszczynski-38ab143b",
+          "source_type": "other",
+          "quote_or_fact": "Kris Leszczynski | Group General Manager, Service Operations at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/vanessa-fongang-5ab909210",
+          "source_type": "other",
+          "quote_or_fact": "Vanessa Fongang | Night guest experience Ambassador at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/mohit-dua-050b0214",
+          "source_type": "other",
+          "quote_or_fact": "Mohit Dua | Director of Revenue & Distribution - Rooms at Edwardian Hotels London"
+        }
+      ]
+    },
+    {
+      "full_name": "Sheetal Varia",
+      "title": "Director of Revenue",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/sheetal-varia-98a83a49",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Tied to Edwardian portfolio including The Londoner",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / commercial_revenue; role confidence medium.",
+      "contact_evidence_summary": "Experienced Director Of Revenue with a demonstrated history of working in the hospitality industry ... Edwardian Hotels London | Nisha Varia - SheSource - Women’s Media Center | Shehara Varia | SHEETAL SHARAD VARIA | Sheetal Varma Exhibition Programme Manager | The Dots | Tied to Edwardian portfolio including The Londoner",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/sheetal-varia-98a83a49",
+          "source_type": "linkedin",
+          "quote_or_fact": "Experienced Director Of Revenue with a demonstrated history of working in the hospitality industry ... Edwardian Hotels London"
+        },
+        {
+          "source_url": "http://www.shesource.org/experts/profile/nisha-varia",
+          "source_type": "other",
+          "quote_or_fact": "Nisha Varia - SheSource - Women’s Media Center"
+        },
+        {
+          "source_url": "https://www.iflr1000.com/Lawyer/shehara-varia/Profile/21798",
+          "source_type": "other",
+          "quote_or_fact": "Shehara Varia"
+        },
+        {
+          "source_url": "https://www.filesure.in/director/sheetal-sharad-varia/02233499",
+          "source_type": "other",
+          "quote_or_fact": "SHEETAL SHARAD VARIA"
+        },
+        {
+          "source_url": "https://the-dots.com/users/sheetal-varma-759807",
+          "source_type": "other",
+          "quote_or_fact": "Sheetal Varma Exhibition Programme Manager | The Dots"
+        },
+        {
+          "source_url": "https://www.cntraveller.in/story/my-summer-london-sheetal-mafatlal/",
+          "source_type": "other",
+          "quote_or_fact": "My summer in London: Sheetal Mafatlal | Condé Nast Traveller India"
+        }
+      ]
+    },
+    {
+      "full_name": "Joao Teixeira",
+      "title": "Director of Sales - The Londoner & The May Fair Hotels",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/joao-teixeira-41380a15a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Director of Sales - The Londoner & The May Fair Hotels · Edwardian Hotels London | As Lambeth council promises to shine light on ‘Little Portugal’, what does the future look like for the South Lambet | Joao Teixeira, the Liverpool midfielder from Portugal who models his game on Kaka | Daily Mail Online | IN THE SPOTLIGHT: Joao Teixeira, the Liverpool midfielder from Portugal who models his game on Kaka and made his first team debut from the bench against Fulham | João Teixeira",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/joao-teixeira-41380a15a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales - The Londoner & The May Fair Hotels · Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://southwarknews.co.uk/news/community/little-portugal-celebrations-following-lambeth-plans-to-invest-in-area/",
+          "source_type": "other",
+          "quote_or_fact": "As Lambeth council promises to shine light on ‘Little Portugal’, what does the future look like for the South Lambet"
+        },
+        {
+          "source_url": "http://www.dailymail.co.uk/sport/football/article-2558396/Joao-Teixeira-profile-Liverpool-midfielder-Portugal.html",
+          "source_type": "other",
+          "quote_or_fact": "Joao Teixeira, the Liverpool midfielder from Portugal who models his game on Kaka | Daily Mail Online"
+        },
+        {
+          "source_url": "https://www.dailymail.co.uk/sport/football/article-2558396/Joao-Teixeira-profile-Liverpool-midfielder-Portugal.html?ITO=1490&amp;ns_mchannel=rss&amp;ns_campaign=1490",
+          "source_type": "other",
+          "quote_or_fact": "IN THE SPOTLIGHT: Joao Teixeira, the Liverpool midfielder from Portugal who models his game on Kaka and made his first team debut from the bench against Fulham"
+        },
+        {
+          "source_url": "https://www.joaotx.com/",
+          "source_type": "other",
+          "quote_or_fact": "João Teixeira"
+        }
+      ]
+    },
+    {
+      "full_name": "Nico Fournier",
+      "title": "Cluster Director of Sales & Marketing",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/nicofournier1",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Recent transition noted in profile",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 2 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Director of Sales - The Londoner & The May Fair Hotel. Edwardian Hotels London. Apr 2024 - Mar 2025 | Recent transition noted in profile",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/nicofournier1",
+          "source_type": "linkedin",
+          "quote_or_fact": "Director of Sales - The Londoner & The May Fair Hotel. Edwardian Hotels London. Apr 2024 - Mar 2025"
+        }
+      ]
+    },
+    {
+      "full_name": "Anjie Keegel",
+      "title": "Head of Sales",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": "https://uk.linkedin.com/in/anjie-keegel-368817a",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Role spans Edwardian properties including The Londoner",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Edwardian Hotels London ... Head of Sales | Anjie Keegel as the new Head of Business Travel and Meetings & Events Sales | Role spans Edwardian properties including The Londoner",
+      "evidence": [
+        {
+          "source_url": "https://uk.linkedin.com/in/anjie-keegel-368817a",
+          "source_type": "linkedin",
+          "quote_or_fact": "Edwardian Hotels London ... Head of Sales"
+        },
+        {
+          "source_url": "https://docs.edwardian.com/documents/46986/356157/Anjie%20Keegal%20Introducing%20our%20new%20Head%20of%20Business%20Travel%20and%20Meetings%20%26%20Events%20Sales%20.pdf",
+          "source_type": "news",
+          "quote_or_fact": "Anjie Keegel as the new Head of Business Travel and Meetings & Events Sales"
+        }
+      ]
+    },
+    {
+      "full_name": "Jasminder Singh",
+      "title": "Founder and Chairman",
+      "company": "Edwardian Hotels London",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": null,
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / owner_exec; role confidence medium.",
+      "contact_evidence_summary": "Jasminder Singh's Edwardian Hotels London group owns ... The Londoner hotel, opened in the fall of 2021. Singh purchased his first hotel... partnered with Radisson... | privately owned hotel group founded by Jasminder Singh OBE in 1977 | Peter Malmros | UAS-operatör & fjärrpilot inom Specifik Kategori (STS) | Skynaviq - ackrediterade drönarinsatser, | Dimitrios Zachiotis | Food & Beverage Manager | Russ Brown | Operations Manager at Edwardian Hotels London",
+      "evidence": [
+        {
+          "source_url": "https://www.forbes.com/profile/jasminder-singh/",
+          "source_type": "news",
+          "quote_or_fact": "Jasminder Singh's Edwardian Hotels London group owns ... The Londoner hotel, opened in the fall of 2021. Singh purchased his first hotel... partnered with Radisson..."
+        },
+        {
+          "source_url": "https://www.thelondoner.com/about-us",
+          "source_type": "official_site",
+          "quote_or_fact": "privately owned hotel group founded by Jasminder Singh OBE in 1977"
+        },
+        {
+          "source_url": "https://linkedin.com/in/peter-malmros-5a231a228",
+          "source_type": "other",
+          "quote_or_fact": "Peter Malmros | UAS-operatör & fjärrpilot inom Specifik Kategori (STS) | Skynaviq - ackrediterade drönarinsatser,"
+        },
+        {
+          "source_url": "https://linkedin.com/in/dimitrios-zachiotis-b341721a3",
+          "source_type": "other",
+          "quote_or_fact": "Dimitrios Zachiotis | Food & Beverage Manager"
+        },
+        {
+          "source_url": "https://linkedin.com/in/russ-brown-42ab8888",
+          "source_type": "other",
+          "quote_or_fact": "Russ Brown | Operations Manager at Edwardian Hotels London"
+        },
+        {
+          "source_url": "https://linkedin.com/in/ankit-singh1103",
+          "source_type": "other",
+          "quote_or_fact": "Ankit Singh | General Manager at Radisson Blu Hotel London Leicester Square"
+        },
+        {
+          "source_url": "https://linkedin.com/in/kris-leszczynski-38ab143b",
+          "source_type": "other",
+          "quote_or_fact": "Kris Leszczynski | Group General Manager, Service Operations at Edwardian Hotels London"
+        }
+      ]
+    },
+    {
+      "full_name": "Jason Kitt",
+      "title": "Director of Meetings and Events Sales",
+      "company": "The Londoner",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "2020 appointment; verify current tenure",
+      "decision_maker_score": "medium",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 3 / sales_events; role confidence medium.",
+      "contact_evidence_summary": "Jason Kitt as director of meeting and events sales | Andrew Baroudi | Conference Producer | Creative Producer | Founder @themedium | Tom Broughton | Founder Assemble Media Group | Oren Wolf | Group CEO at CWPG | lee dalby | counter at now wave | 2020 appointment; verify current tenure",
+      "evidence": [
+        {
+          "source_url": "https://www.boutiquehotelier.com/the-londoner-makes-four-senior-appointments-ahead-of-june-opening/",
+          "source_type": "news",
+          "quote_or_fact": "Jason Kitt as director of meeting and events sales"
+        },
+        {
+          "source_url": "https://linkedin.com/in/andrew-baroudi-884b31189",
+          "source_type": "other",
+          "quote_or_fact": "Andrew Baroudi | Conference Producer | Creative Producer | Founder @themedium"
+        },
+        {
+          "source_url": "https://linkedin.com/in/tom-broughton-952a209",
+          "source_type": "other",
+          "quote_or_fact": "Tom Broughton | Founder Assemble Media Group"
+        },
+        {
+          "source_url": "https://linkedin.com/in/oren-wolf-47003019",
+          "source_type": "other",
+          "quote_or_fact": "Oren Wolf | Group CEO at CWPG"
+        },
+        {
+          "source_url": "https://linkedin.com/in/lee-dalby-0a8b8516",
+          "source_type": "other",
+          "quote_or_fact": "lee dalby | counter at now wave"
+        },
+        {
+          "source_url": "https://linkedin.com/in/le-guide-du-londonien-78351a2b",
+          "source_type": "other",
+          "quote_or_fact": "Le Guide Du Londonien | TV panelist, Media Consultant, Publisher (Journalist), Performer/Songwriter at Jembe Media (Le Guide)"
+        }
+      ]
+    },
+    {
+      "full_name": "Simon Wong",
+      "title": "General Manager",
+      "company": "The Londoner",
+      "linkedin_url": null,
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "Former GM (2020+); may no longer be current",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "Pipeline v4 kept as tier 1 / gm_ops; role confidence medium.",
+      "contact_evidence_summary": "Simon Wong has been appointed general manager of Edwardian Hotels London's (EHL) the Londoner hotel | General Manager | The Londoner. Simon Wong is the General Manager... | Andrej Sarko Purkevic | Bar Manager at The Londoner Hotel | Michael Cheung | General Manager at The Londoner Hotel | Daniel Henry | Senior Events Manager at The Londoner | Former GM (2020+); may no longer be current",
+      "evidence": [
+        {
+          "source_url": "https://www.thecaterer.com/news/simon-wong-general-manager-the-londoner",
+          "source_type": "news",
+          "quote_or_fact": "Simon Wong has been appointed general manager of Edwardian Hotels London's (EHL) the Londoner hotel"
+        },
+        {
+          "source_url": "https://hoteldesigns.net/industry-news/the-brit-list-top-25-hoteliers-of-2024/",
+          "source_type": "news",
+          "quote_or_fact": "General Manager | The Londoner. Simon Wong is the General Manager..."
+        },
+        {
+          "source_url": "https://linkedin.com/in/andrej-sarko-purkevic-416a82b4",
+          "source_type": "other",
+          "quote_or_fact": "Andrej Sarko Purkevic | Bar Manager at The Londoner Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/michaelquinncheung",
+          "source_type": "other",
+          "quote_or_fact": "Michael Cheung | General Manager at The Londoner Hotel"
+        },
+        {
+          "source_url": "https://linkedin.com/in/daniel-henry-4865181a3",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Henry | Senior Events Manager at The Londoner"
+        },
+        {
+          "source_url": "https://linkedin.com/in/laura-girard-274525b3",
+          "source_type": "other",
+          "quote_or_fact": "Laura Girard | Catering & Conference Planning Manager"
+        },
+        {
+          "source_url": "https://linkedin.com/in/mihafl",
+          "source_type": "other",
+          "quote_or_fact": "Mihaela Florea | Rooms Division Manager at The Londoner Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Michael Cheung | General Manager at The Londoner Hotel",
+      "title": null,
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/michaelquinncheung",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Michael Cheung | General Manager at The Londoner Hotel | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/michaelquinncheung",
+          "source_type": "other",
+          "quote_or_fact": "Michael Cheung | General Manager at The Londoner Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Chris Un | Director of Hotel Operations",
+      "title": null,
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/chris-un-74653486",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Chris Un | Director of Hotel Operations | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/chris-un-74653486",
+          "source_type": "other",
+          "quote_or_fact": "Chris Un | Director of Hotel Operations"
+        }
+      ]
+    },
+    {
+      "full_name": "Thomas Boreham | Groups & Planning Manager The Londoner Hotel",
+      "title": null,
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/thomas-boreham-806b38157",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Thomas Boreham | Groups & Planning Manager The Londoner Hotel | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/thomas-boreham-806b38157",
+          "source_type": "other",
+          "quote_or_fact": "Thomas Boreham | Groups & Planning Manager The Londoner Hotel"
+        }
+      ]
+    },
+    {
+      "full_name": "Daniel Henry | Senior Events Manager at The Londoner",
+      "title": null,
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/daniel-henry-4865181a3",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Daniel Henry | Senior Events Manager at The Londoner | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/daniel-henry-4865181a3",
+          "source_type": "other",
+          "quote_or_fact": "Daniel Henry | Senior Events Manager at The Londoner"
+        }
+      ]
+    },
+    {
+      "full_name": "The Londoner | Student website",
+      "title": null,
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/the-londoner-457a3984",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "The Londoner | Student website | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/the-londoner-457a3984",
+          "source_type": "other",
+          "quote_or_fact": "The Londoner | Student website"
+        }
+      ]
+    },
+    {
+      "full_name": "Elijah King | General Partner",
+      "title": null,
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/elijah-king-300261b3",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Elijah King | General Partner | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/elijah-king-300261b3",
+          "source_type": "other",
+          "quote_or_fact": "Elijah King | General Partner"
+        }
+      ]
+    },
+    {
+      "full_name": "Charles Gardner",
+      "title": "Chief Executive Officer at The Londoner Dortmund",
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/charles-gardner-688086342",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "high",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Charles Gardner – Chief Executive Officer at The Londoner Dortmund | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/charles-gardner-688086342",
+          "source_type": "other",
+          "quote_or_fact": "Charles Gardner – Chief Executive Officer at The Londoner Dortmund"
+        }
+      ]
+    },
+    {
+      "full_name": "Rose Thomas",
+      "title": null,
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/rosielondoner",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "Rose Thomas | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/rosielondoner",
+          "source_type": "other",
+          "quote_or_fact": "Rose Thomas"
+        }
+      ]
+    },
+    {
+      "full_name": "David Cotter | Concierge at The Londoner",
+      "title": null,
+      "company": "The Londoner",
+      "linkedin_url": "https://linkedin.com/in/david-cotter-486bba58",
+      "email": null,
+      "email2": null,
+      "phone": null,
+      "phone2": null,
+      "x_handle": null,
+      "other_contact_detail": "exa_people_gap",
+      "decision_maker_score": "low",
+      "intimacy_grade": "low",
+      "fit_reason": "exa_people_gap",
+      "contact_evidence_summary": "David Cotter | Concierge at The Londoner | exa_people_gap",
+      "evidence": [
+        {
+          "source_url": "https://linkedin.com/in/david-cotter-486bba58",
+          "source_type": "other",
+          "quote_or_fact": "David Cotter | Concierge at The Londoner"
+        }
+      ]
+    }
+  ]
+}

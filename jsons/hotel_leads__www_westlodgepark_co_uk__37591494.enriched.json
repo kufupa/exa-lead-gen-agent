@@ -73,7 +73,7 @@
       "full_name": "Odette Howse",
       "title": "Reservations Manager",
       "company": "Beales Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/odette-howse-327394144",
+      "linkedin_url": "https://www.linkedin.com/in/odette-howse-327394144",
       "email": "odettehowse@bealeshotels.co.uk",
       "email2": null,
       "phone": "020 8216 3900",
@@ -95,13 +95,37 @@
           "source_type": "linkedin",
           "quote_or_fact": "Experience: BEALE'S HOTELS LIMITED"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/odette-howse-327394144",
+        "display_name": "Odette Howse",
+        "headline": "Reservations at BEALE'S HOTELS LIMITED",
+        "location": "Hatfield, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Reservations",
+            "organization": "BEALE'S HOTELS LIMITED",
+            "date_range": "Current",
+            "location": null,
+            "description": "Company: Hospitality\nDepartment: Customer Service • Level: Specialist"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "reservations"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Ashley Beale",
       "title": "Director and General Manager",
       "company": "Beales Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/ashley-beale-015692104",
+      "linkedin_url": "https://www.linkedin.com/in/ashley-beale-015692104",
       "email": "ashleybeale@bealeshotels.co.uk",
       "email2": null,
       "phone": "020 8216 3900",
@@ -123,7 +147,98 @@
           "source_type": "official_site",
           "quote_or_fact": "Ashley Beale. Director and General Manager."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/ashley-beale-015692104",
+        "display_name": "Ashley Beale",
+        "headline": "General Manager at Beales Ltd",
+        "location": "United Kingdom (GB)",
+        "about": "Experienced Manager with a demonstrated history of working in many roles within the hospitality industry. Skilled in upholding the finest service standards & meeting and anticipating guest needs before they themselves know what they require. Strong professional with a Bachelor's degree in International Hospitality Management from Bournemouth University.\n\nTotal Experience: 9 years and 1 month",
+        "experience": [
+          {
+            "title": "Executive Lounge Waiter",
+            "organization": "Red Carnation Hotels",
+            "date_range": "Jun 2015 - Jun 2016",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Player Restaurant Waiter",
+            "organization": "Tottenham Hotspur Football Club",
+            "date_range": "Jan 2018 - Apr 2018",
+            "location": "Enfield, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Supervisor",
+            "organization": "Yard Sale Pizza",
+            "date_range": "Apr 2018 - Oct 2018",
+            "location": "London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Assistant Manager",
+            "organization": "West Lodge Park Hotel",
+            "date_range": "Oct 2018 - Apr 2019",
+            "location": "Hadley Wood, Greater London, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "Supervisor",
+            "organization": "The Hurlingham Club",
+            "date_range": "Apr 2019 - Sep 2020",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Assistant Manager",
+            "organization": "The Hurlingham Club",
+            "date_range": "Sep 2020 - Apr 2021",
+            "location": null,
+            "description": null
+          },
+          {
+            "title": "Retail Online Manager",
+            "organization": "Beales Ltd",
+            "date_range": "Apr 2021 - Mar 2022",
+            "location": "London, England, United Kingdom",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "Beales Ltd",
+            "date_range": "Feb 2022 - Present",
+            "location": "Saxmundham, England, United Kingdom",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "Bournemouth University",
+            "degree_or_field": "Bachelor's degree, International Hospitality Management, 2:1",
+            "date_range": "2013 - 2017"
+          }
+        ],
+        "skills": [
+          "hospitality",
+          "management",
+          "retail",
+          "hospitality industry",
+          "hospitality management"
+        ],
+        "activity_themes": [
+          "Career development and starting first Deputy GM role",
+          "Positive two-year journey working at Beales Hotels",
+          "Climate change, biodiversity loss and sustainability topics"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/john-mills-b26b03ab_so-excited-to-start-my-first-ever-deputy-activity-6887419693985013760-xw5C",
+          "https://www.linkedin.com/posts/john-mills-b26b03ab_what-a-fantastic-two-year-journey-working-activity-6805817596198301696-vKGT",
+          "https://www.linkedin.com/posts/bournemouth-university_spotlight-activity-6631613663415533568-tNaD"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Andrew Beale",
@@ -157,7 +272,7 @@
       "full_name": "Emma Beale",
       "title": "Group Revenue Manager",
       "company": "Beales Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/emma-beale-68294317b",
+      "linkedin_url": "https://www.linkedin.com/in/emma-beale-68294317b",
       "email": "emmabeale@bealeshotels.co.uk",
       "email2": null,
       "phone": "020 8216 3900",
@@ -179,13 +294,63 @@
           "source_type": "linkedin",
           "quote_or_fact": "Group Revenue Manager at BEALE'S LIMITED"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/emma-beale-68294317b",
+        "display_name": "Emma Beale",
+        "headline": "Group Revenue Manager at BEALE’S LIMITED",
+        "location": "London Area, United Kingdom (GB)",
+        "about": "Total Experience: 11 years and 4 months",
+        "experience": [
+          {
+            "title": "Management Development Program",
+            "organization": "BEALE'S LIMITED",
+            "date_range": "Sep 2014 - Mar 2020 • 5 years and 6 months",
+            "location": null,
+            "description": "Department: Human Resources • Level: Specialist\nCompany: 51-200 employees • Founded 1895 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Reservations Manager",
+            "organization": "BEALE'S LIMITED",
+            "date_range": "Mar 2020 - Dec 2025 • 5 years and 9 months",
+            "location": "London",
+            "description": "Department: Administrative • Level: Manager\nCompany: 51-200 employees • Founded 1895 • Privately Held • Hospitality"
+          },
+          {
+            "title": "Group Revenue Manager",
+            "organization": "BEALE'S LIMITED",
+            "date_range": "Aug 2025 - Present • 5 months",
+            "location": null,
+            "description": "Department: Finance & Accounting • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [
+          "management development",
+          "reservations",
+          "management"
+        ],
+        "activity_themes": [
+          "Reopening of refurbished hotel terrace",
+          "Career journeys and experiences in hospitality",
+          "Company page updates for Beale's Limited",
+          "New role starts at Hand Picked hotels"
+        ],
+        "source_urls": [
+          "https://www.linkedin.com/posts/john-mills-b26b03ab_very-excited-to-have-started-my-hand-picked-activity-6806260758272331776-E2ZS",
+          "https://www.linkedin.com/posts/emma-beale-68294317b_beales-limited-linkedin-activity-6808063516277309440-7Ti-",
+          "https://www.linkedin.com/posts/john-mills-b26b03ab_what-a-fantastic-two-year-journey-working-activity-6805817596198301696-vKGT",
+          "https://www.linkedin.com/posts/emma-beale-68294317b_we-are-very-excited-to-be-reopening-our-newly-activity-6783334604356009984-5zK6"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     },
     {
       "full_name": "Pam Hudson",
       "title": "Group Marketing Manager",
       "company": "Beales Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/pam-hudson-3585402a",
+      "linkedin_url": "https://www.linkedin.com/in/pam-hudson-3585402a",
       "email": null,
       "email2": null,
       "phone": "020 8216 3900",
@@ -207,7 +372,31 @@
           "source_type": "official_site",
           "quote_or_fact": "Group site with contact routes to marketing/commercial team"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/pam-hudson-3585402a",
+        "display_name": "Pam Hudson",
+        "headline": "Group Marketing Manager at Beales",
+        "location": "Bournemouth, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Group Marketing Manager",
+            "organization": "Beales",
+            "date_range": "Current",
+            "location": null,
+            "description": null
+          }
+        ],
+        "education": [],
+        "skills": [
+          "marketing"
+        ],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Daniella Moorby",
@@ -471,7 +660,7 @@
       "full_name": "Matthew Croxford",
       "title": "Deputy General Manager",
       "company": "Beales Hotels",
-      "linkedin_url": null,
+      "linkedin_url": "https://www.linkedin.com/in/matthew-croxford-41540079",
       "email": "matthewcroxford@bealeshotels.co.uk",
       "email2": null,
       "phone": null,
@@ -488,7 +677,29 @@
           "source_type": "official_site",
           "quote_or_fact": "Matthew Croxford Deputy General Manager matthewcroxford@bealeshotels.co.uk"
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/matthew-croxford-41540079",
+        "display_name": "Matthew Croxford",
+        "headline": "Restaurant Manager at Beales hotels",
+        "location": "Stevenage, England, United Kingdom (GB)",
+        "about": null,
+        "experience": [
+          {
+            "title": "Restaurant Manager",
+            "organization": "Beales hotels",
+            "date_range": "Current",
+            "location": null,
+            "description": "Department: Operations • Level: Manager"
+          }
+        ],
+        "education": [],
+        "skills": [],
+        "activity_themes": [],
+        "source_urls": [],
+        "data_quality": "partial",
+        "caveats": null
+      }
     },
     {
       "full_name": "Sharon Nobinger",
@@ -517,7 +728,7 @@
       "full_name": "Chris Hall",
       "title": "Former General Manager",
       "company": "Beales Hotels",
-      "linkedin_url": "https://uk.linkedin.com/in/chris-hall-943a76165",
+      "linkedin_url": "https://www.linkedin.com/in/chris-hall-943a76165",
       "email": "chrishall@bealeshotels.co.uk",
       "email2": null,
       "phone": null,
@@ -539,7 +750,50 @@
           "source_type": "official_site",
           "quote_or_fact": "Chris Hall is General Manager and Andrew Beale is Managing Director."
         }
-      ]
+      ],
+      "linkedin_profile": {
+        "linkedin_url": "https://www.linkedin.com/in/chris-hall-943a76165",
+        "display_name": "Chris Hall",
+        "headline": "General Manager at West Lodge Park Hotel",
+        "location": "London, England, United Kingdom (GB)",
+        "about": "An industry professional with over 20 years experience. I started out in pubs & restaurants and eventually moved on hotels. I progressed through a number of roles and then moved into managerial positions in the 4* hotel sector then progressing to GM. I have a broad range of skills across both front office, revenue and F&B and have worked from 3* up to 5* level in Britain & Ireland.\n\nTotal Experience: 19 years and 3 months",
+        "experience": [
+          {
+            "title": "General Manager",
+            "organization": "Beales Hotel",
+            "date_range": "Sep 2006 - Mar 2014",
+            "location": "Hatfield",
+            "description": null
+          },
+          {
+            "title": "General Manager",
+            "organization": "BEALE'S HOTELS LIMITED",
+            "date_range": "May 2014 - Present",
+            "location": "North London",
+            "description": null
+          }
+        ],
+        "education": [
+          {
+            "school": "University College Birmingham",
+            "degree_or_field": "BA (Hons), Hospitality & Food Management",
+            "date_range": "1998 - 2001"
+          }
+        ],
+        "skills": [
+          "restaurants",
+          "hotels",
+          "managerial",
+          "hotel",
+          "front office"
+        ],
+        "activity_themes": [],
+        "source_urls": [
+          "https://www.linkedin.com/in/chris-hall-943a76165"
+        ],
+        "data_quality": "strong",
+        "caveats": null
+      }
     }
   ],
   "contact_enrichment": {
@@ -553,5 +807,71 @@
     "succeeded": 2,
     "failed": [],
     "batch_id": null
+  },
+  "linkedin_enrichment": {
+    "version": 1,
+    "enriched_at_utc": "2026-04-27T02:03:11.924155+00:00",
+    "model": "grok-4.20-reasoning",
+    "stats": {
+      "skipped": 0,
+      "fetched": 6,
+      "structured": 6,
+      "discovered": 1,
+      "errors": 0
+    },
+    "telemetry": {
+      "exa": {
+        "search_requests": 14,
+        "content_pages": 6,
+        "cost_estimate": {
+          "approx_total_usd": 0.104,
+          "search_component_usd": 0.098,
+          "contents_component_usd": 0.006,
+          "counts": {
+            "search_requests": 14,
+            "content_pages": 6
+          },
+          "rates_used": {
+            "search_usd_per_1000": 7.0,
+            "contents_usd_per_1000": 1.0
+          }
+        }
+      },
+      "xai": {
+        "usage": {
+          "prompt_tokens": 8135,
+          "cached_prompt_text_tokens": 1280,
+          "completion_tokens": 2307,
+          "reasoning_tokens": 11676,
+          "output_tokens": 0,
+          "total_tokens": 22118
+        },
+        "cost_estimate": {
+          "approx_total_usd": 0.097864,
+          "token_component_usd": 0.097864,
+          "xai_tool_component_usd": 0.0,
+          "counts": {
+            "prompt_tokens": 8135,
+            "cached_prompt_text_tokens": 1280,
+            "completion_tokens": 2307,
+            "reasoning_tokens": 11676,
+            "total_tokens_reported": 22118,
+            "output_like_tokens": 13983,
+            "server_side_tool_invocations": 0,
+            "server_side_tool_usage": {},
+            "web_search_invocations_estimated": 0,
+            "x_search_invocations_estimated": 0
+          },
+          "rates_used": {
+            "input_usd_per_million_tokens": 2.0,
+            "output_usd_per_million_tokens": 6.0,
+            "cached_prompt_input_usd_per_million_tokens": 0.2,
+            "web_search_usd_per_1000_invocations": 5.0,
+            "x_search_usd_per_1000_invocations": 5.0
+          }
+        }
+      },
+      "combined_approx_usd": 0.201864
+    }
   }
 }
