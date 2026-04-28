@@ -10,6 +10,44 @@
         All: {{ summary.total }} · Pending: {{ summary.pending }} · Done:
         {{ summary.done }} · Skipped: {{ summary.skipped }}
       </p>
+      <form
+        class="crm-search-form"
+        hx-get="/crm"
+        hx-target="#crm-main"
+        hx-swap="outerHTML"
+      >
+        <input
+          id="crm-search"
+          class="crm-search-input"
+          type="search"
+          name="search"
+          value="{{ search or '' }}"
+          placeholder="Search hotels or contacts"
+          aria-label="Search hotels or contacts"
+        />
+        <input
+          type="hidden"
+          name="phones_only"
+          value="{{ 'true' if phones_only else 'false' }}"
+        />
+        {% if selected_id %}
+          <input
+            type="hidden"
+            name="selected"
+            value="{{ selected_id }}"
+          />
+        {% endif %}
+        <button class="btn btn-primary crm-search-submit" type="submit">Search</button>
+        <a
+          class="btn btn-secondary crm-search-clear"
+          hx-get="/crm?phones_only={{ 'true' if phones_only else 'false' }}{% if selected_id %}&selected={{ selected_id | crm_url }}{% endif %}"
+          hx-target="#crm-main"
+          hx-swap="outerHTML"
+          href="/crm?phones_only={{ 'true' if phones_only else 'false' }}{% if selected_id %}&selected={{ selected_id | crm_url }}{% endif %}"
+        >
+          Clear
+        </a>
+      </form>
     </div>
     {% include "_hotel_list.html" %}
   </aside>

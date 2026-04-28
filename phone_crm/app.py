@@ -20,6 +20,7 @@ from phone_crm.queries import (
     build_summary,
     fetch_contact,
     fetch_contacts,
+    filter_contacts_by_search,
     find_next_contact_id,
     update_notes,
     update_notes_and_status,
@@ -67,6 +68,7 @@ def _render_main(
     phones_only: bool,
     selected_id: str | None,
     selected_contact,
+    search: str = "",
     error: str | None = None,
 ):
     return templates.TemplateResponse(
@@ -79,6 +81,7 @@ def _render_main(
             "phones_only": phones_only,
             "selected_id": selected_id,
             "contact": selected_contact,
+            "search": search,
             "error": error,
             "contact_display": build_contact_display(selected_contact),
         },
@@ -89,6 +92,7 @@ def _render_main_error(
     request: Request,
     phones_only: bool,
     error: str | None = None,
+    search: str = "",
 ):
     return templates.TemplateResponse(
         request=request,
@@ -100,6 +104,7 @@ def _render_main_error(
             "phones_only": phones_only,
             "selected_id": None,
             "contact": None,
+            "search": search,
             "error": error,
             "contact_display": build_contact_display(None),
         },
@@ -111,6 +116,7 @@ def _render_contact_error(
     request: Request,
     error: str,
     phones_only: bool = True,
+    search: str = "",
 ):
     return templates.TemplateResponse(
         request=request,
@@ -120,6 +126,7 @@ def _render_contact_error(
             "contact": None,
             "error": error,
             "phones_only": phones_only,
+            "search": search,
             "contact_display": build_contact_display(None),
         },
         status_code=500,
@@ -130,6 +137,7 @@ def _render_contact_detail(
     request: Request,
     contact,
     phones_only: bool = True,
+    search: str = "",
 ):
     return templates.TemplateResponse(
         request=request,
@@ -138,6 +146,7 @@ def _render_contact_detail(
             "request": request,
             "contact": contact,
             "phones_only": phones_only,
+            "search": search,
             "contact_display": build_contact_display(contact),
         },
     )
@@ -175,13 +184,16 @@ async def crm_list(
     request: Request,
     phones_only: bool = Query(default=True),
     selected: Optional[str] = Query(default=None),
+    search: str = Query(default=""),
     _user: str = Depends(require_user),
 ) -> HTMLResponse:
     try:
+        normalized_search = (search or "").strip()
         with open_connection(load_settings()) as conn:
             contacts = fetch_contacts(conn, phones_only=phones_only)
-        groups = build_groups(contacts, phones_only=phones_only)
-        summary = build_summary(contacts)
+        filtered_contacts = filter_contacts_by_search(contacts, normalized_search)
+        groups = build_groups(filtered_contacts, phones_only=phones_only)
+        summary = build_summary(filtered_contacts)
         requested_selected = selected.strip() if selected else None
         selected_id = _pick_selected(groups, requested_selected, phones_only=phones_only)
         selected_contact = (
@@ -199,10 +211,16 @@ async def crm_list(
             phones_only,
             selected_id,
             selected_contact,
+            search=normalized_search,
         )
     except Exception as error:
         logger.exception("Failed loading CRM list")
-        return _render_main_error(request, phones_only, _error_message(error))
+        return _render_main_error(
+            request,
+            phones_only,
+            _error_message(error),
+            search=normalized_search,
+        )
 
 
 @app.get("/contact", response_class=HTMLResponse)
@@ -226,9 +244,11 @@ async def save_notes(
     request: Request,
     id: str = Form(...),
     notes: str = Form(""),
+    search: str = Form(""),
     phones_only: bool = Form(True),
     _user: str = Depends(require_user),
 ) -> HTMLResponse:
+    normalized_search = (search or "").strip()
     try:
         with open_connection(load_settings()) as conn:
             updated = update_notes(conn, id, notes)
@@ -248,10 +268,16 @@ async def save_notes(
             request,
             selected_contact,
             phones_only=phones_only,
+            search=normalized_search,
         )
     except Exception as error:
         logger.exception("Failed saving contact notes")
-        return _render_contact_error(request, _error_message(error), phones_only=phones_only)
+        return _render_contact_error(
+            request,
+            _error_message(error),
+            phones_only=phones_only,
+            search=normalized_search,
+        )
 
 
 @app.post("/contact/status", response_class=HTMLResponse)
@@ -262,8 +288,10 @@ async def set_status(
     notes: str = Form(""),
     notes_mirror: str = Form(""),
     phones_only: bool = Form(True),
+    search: str = Form(default=""),
     _user: str = Depends(require_user),
 ) -> HTMLResponse:
+    normalized_search = (search or "").strip()
     if status not in ALLOWED_STATUS:
         return templates.TemplateResponse(
             request=request,
@@ -276,6 +304,7 @@ async def set_status(
                 "selected_id": None,
                 "contact": None,
                 "error": "Invalid status",
+                "search": normalized_search,
                 "contact_display": build_contact_display(None),
             },
             status_code=400,
@@ -286,7 +315,10 @@ async def set_status(
     try:
         with open_connection(load_settings()) as conn:
             updated = update_notes_and_status(conn, id, normalized_notes, status)
-            contacts = fetch_contacts(conn, phones_only=phones_only)
+            contacts = filter_contacts_by_search(
+                fetch_contacts(conn, phones_only=phones_only),
+                normalized_search,
+            )
         groups = build_groups(contacts, phones_only=phones_only)
         summary = build_summary(contacts)
         selected_id = id
@@ -309,7 +341,8 @@ async def set_status(
             phones_only,
             selected_id,
             selected_contact,
+            search=normalized_search,
         )
     except Exception as error:
         logger.exception("Failed updating contact status")
-        return _render_main_error(request, phones_only, _error_message(error))
+        return _render_main_error(request, phones_only, _error_message(error), search=normalized_search)

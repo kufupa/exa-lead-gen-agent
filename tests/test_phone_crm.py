@@ -11,6 +11,7 @@ from phone_crm.queries import (
     build_groups,
     fetch_contacts,
     find_next_contact_id,
+    filter_contacts_by_search,
     normalize_rows_from_json,
     update_notes_and_status,
     row_to_contact,
@@ -136,19 +137,24 @@ def _row(
     hotel_name: str,
     full_name: str,
     status: str = "pending",
+    title: str = "",
+    phone: str = "",
+    phone2: str = "",
+    primary_handle: str = "",
+    target_url: str = "https://hotel.example",
     has_contact_route: bool = True,
     has_phone: bool = False,
 ) -> ContactRow:
     return ContactRow(
         occurrence_id=occurrence_id,
         source_enriched_json="jsons/file.enriched.json",
-        target_url="https://hotel.example",
+        target_url=target_url,
         hotel_name=hotel_name,
         full_name=full_name,
-        title="",
-        primary_handle="",
-        phone="",
-        phone2="",
+        title=title,
+        primary_handle=primary_handle,
+        phone=phone,
+        phone2=phone2,
         email="",
         email2="",
         linkedin_url="",
@@ -163,6 +169,59 @@ def _row(
         notes="",
         payload={},
     )
+
+
+def test_filter_contacts_by_search_blank_search_returns_original_rows() -> None:
+    rows = [
+        _row(occurrence_id="a1", hotel_name="Hotel One", full_name="Alice"),
+        _row(occurrence_id="a2", hotel_name="Hotel Two", full_name="Bob"),
+    ]
+
+    assert filter_contacts_by_search(rows, None) == rows
+    assert filter_contacts_by_search(rows, "") == rows
+    assert filter_contacts_by_search(rows, "   ") == rows
+
+
+def test_filter_contacts_by_search_matches_hotel_name() -> None:
+    rows = [
+        _row(occurrence_id="a1", hotel_name="Grand Mirage", full_name="Alice"),
+        _row(occurrence_id="a2", hotel_name="Azure Bay", full_name="Bob"),
+    ]
+
+    assert filter_contacts_by_search(rows, "mirage") == [rows[0]]
+
+
+def test_filter_contacts_by_search_matches_contact_name_or_title() -> None:
+    rows = [
+        _row(occurrence_id="a1", hotel_name="Hotel One", full_name="Alice Johnson"),
+        _row(
+            occurrence_id="a2",
+            hotel_name="Hotel Two",
+            full_name="Bob",
+            title="Director of Sales",
+        ),
+    ]
+
+    assert filter_contacts_by_search(rows, "alice") == [rows[0]]
+    assert filter_contacts_by_search(rows, "director") == [rows[1]]
+
+
+def test_filter_contacts_by_search_matches_phone_substring() -> None:
+    rows = [
+        _row(occurrence_id="a1", hotel_name="Hotel One", full_name="Alice", phone="+44 20 1234 5678"),
+        _row(occurrence_id="a2", hotel_name="Hotel Two", full_name="Bob"),
+    ]
+
+    assert filter_contacts_by_search(rows, "1234") == [rows[0]]
+
+
+def test_filter_contacts_by_search_no_match_returns_empty_list() -> None:
+    rows = [
+        _row(occurrence_id="a1", hotel_name="Hotel One", full_name="Alice"),
+        _row(occurrence_id="a2", hotel_name="Hotel Two", full_name="Bob"),
+    ]
+
+    assert filter_contacts_by_search(rows, "nonexistent") == []
 
 
 def test_build_groups_sorts_by_pending_count_then_name() -> None:

@@ -44,6 +44,28 @@ def row_to_contact(row: Any) -> ContactRow:
     )
 
 
+def filter_contacts_by_search(rows: list[ContactRow], search: str | None) -> list[ContactRow]:
+    if not search or not search.strip():
+        return list(rows)
+    needle = str(search).strip().lower()
+    def row_matches(row: ContactRow) -> bool:
+        return any(
+            needle in str(value).lower()
+            for value in (
+                row.hotel_name,
+                row.full_name,
+                row.title,
+                row.phone,
+                row.phone2,
+                row.primary_handle,
+                row.target_url,
+            )
+            if value is not None
+        )
+
+    return [row for row in rows if row_matches(row)]
+
+
 def fetch_contacts(conn: psycopg.Connection, phones_only: bool) -> list[ContactRow]:
     with conn.cursor() as cur:
         cur.execute(

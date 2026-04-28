@@ -145,10 +145,10 @@ def test_crm_route_shows_detail_mark_action_for_selected(monkeypatch) -> None:
     response = client.get("/crm?selected=occ-1")
     _teardown_mocks()
     assert response.status_code == 200
-    assert 'class="btn btn-primary btn-done ghost-btn ghost-btn-small mark-btn-done"' in response.text
+    assert 'class="btn btn-done mark-btn-done"' in response.text
     assert "Undo review" not in response.text
     assert "Undo skip" not in response.text
-    assert 'class="btn btn-secondary btn-skip ghost-btn ghost-btn-small mark-btn-skip"' in response.text
+    assert 'class="btn btn-skip mark-btn-skip"' in response.text
     assert 'class="contact-block contact-detail-card"' in response.text
     assert f"<h2>{contact.full_name}</h2>" in response.text
 
@@ -162,6 +162,100 @@ def test_crm_route_shows_empty_state_when_no_contacts(monkeypatch) -> None:
     client = TestClient(app)
     monkeypatch.setattr(crm_app, "fetch_contacts", fake_fetch_contacts)
     response = client.get("/crm")
+    _teardown_mocks()
+    assert response.status_code == 200
+    assert "Choose a contact from the hotel list." in response.text
+
+
+def test_crm_route_applies_search_filter(monkeypatch) -> None:
+    matching_contact = replace(_sample_contact(), occurrence_id="occ-match", full_name="Brie Contact")
+    other_contact = replace(_sample_contact(), occurrence_id="occ-other", full_name="Other Contact")
+    filtered_calls: list[str] = []
+
+    def fake_fetch_contacts(_conn, phones_only: bool) -> list[ContactRow]:
+        return [matching_contact, other_contact]
+
+    def fake_filter_contacts(rows: list[ContactRow], search: str | None) -> list[ContactRow]:
+        filtered_calls.append(search or "")
+        return [row for row in rows if search and search.lower() in row.full_name.lower()]
+
+    _setup_mocks(monkeypatch)
+    monkeypatch.setattr(crm_app, "fetch_contacts", fake_fetch_contacts)
+    monkeypatch.setattr(crm_app, "filter_contacts_by_search", fake_filter_contacts)
+    client = TestClient(app)
+    response = client.get("/crm?search=brie")
+    _teardown_mocks()
+    assert response.status_code == 200
+    assert filtered_calls == ["brie"]
+    assert matching_contact.full_name in response.text
+    assert other_contact.full_name not in response.text
+
+
+def test_crm_route_uses_blank_search_when_omitted(monkeypatch) -> None:
+    matching_contact = replace(_sample_contact(), occurrence_id="occ-match", full_name="Brie Contact")
+    other_contact = replace(_sample_contact(), occurrence_id="occ-other", full_name="Other Contact")
+    filtered_calls: list[str] = []
+
+    def fake_fetch_contacts(_conn, phones_only: bool) -> list[ContactRow]:
+        return [matching_contact, other_contact]
+
+    def fake_filter_contacts(rows: list[ContactRow], search: str | None) -> list[ContactRow]:
+        filtered_calls.append(search or "")
+        return rows
+
+    _setup_mocks(monkeypatch)
+    monkeypatch.setattr(crm_app, "fetch_contacts", fake_fetch_contacts)
+    monkeypatch.setattr(crm_app, "filter_contacts_by_search", fake_filter_contacts)
+    client = TestClient(app)
+    response = client.get("/crm")
+    _teardown_mocks()
+    assert response.status_code == 200
+    assert filtered_calls == [""]
+    assert matching_contact.full_name in response.text
+    assert other_contact.full_name in response.text
+
+
+def test_crm_route_treats_whitespace_search_as_blank(monkeypatch) -> None:
+    matching_contact = replace(_sample_contact(), occurrence_id="occ-match", full_name="Brie Contact")
+    other_contact = replace(_sample_contact(), occurrence_id="occ-other", full_name="Other Contact")
+    filtered_calls: list[str] = []
+
+    def fake_fetch_contacts(_conn, phones_only: bool) -> list[ContactRow]:
+        return [matching_contact, other_contact]
+
+    def fake_filter_contacts(rows: list[ContactRow], search: str | None) -> list[ContactRow]:
+        filtered_calls.append(search or "")
+        return rows
+
+    _setup_mocks(monkeypatch)
+    monkeypatch.setattr(crm_app, "fetch_contacts", fake_fetch_contacts)
+    monkeypatch.setattr(crm_app, "filter_contacts_by_search", fake_filter_contacts)
+    client = TestClient(app)
+    response = client.get("/crm", params={"search": "   \t"})
+    _teardown_mocks()
+    assert response.status_code == 200
+    assert filtered_calls == [""]
+    assert matching_contact.full_name in response.text
+    assert other_contact.full_name in response.text
+
+
+def test_crm_route_shows_empty_state_when_search_no_matches(monkeypatch) -> None:
+    _setup_mocks(monkeypatch)
+    contacts = [
+        replace(_sample_contact(), occurrence_id="occ-match", full_name="Brie Contact"),
+        replace(_sample_contact(), occurrence_id="occ-other", full_name="Other Contact"),
+    ]
+
+    def fake_fetch_contacts(_conn, phones_only: bool) -> list[ContactRow]:
+        return contacts
+
+    def fake_filter_contacts(rows: list[ContactRow], search: str | None) -> list[ContactRow]:
+        return []
+
+    monkeypatch.setattr(crm_app, "fetch_contacts", fake_fetch_contacts)
+    monkeypatch.setattr(crm_app, "filter_contacts_by_search", fake_filter_contacts)
+    client = TestClient(app)
+    response = client.get("/crm?search=definitely-not-found")
     _teardown_mocks()
     assert response.status_code == 200
     assert "Choose a contact from the hotel list." in response.text
@@ -395,6 +489,81 @@ def test_status_update_preserves_non_default_phones_only(monkeypatch) -> None:
     assert fetch_calls == [False]
     assert build_groups_calls == [False]
     assert find_next_calls == [(contact.occurrence_id, False)]
+
+
+def test_status_update_preserves_search_and_selected(monkeypatch) -> None:
+    current = replace(
+        _sample_contact(),
+        occurrence_id="occ-1",
+        full_name="Alice Alpha",
+        status="pending",
+    )
+    next_contact = replace(
+        _sample_contact(),
+        occurrence_id="occ-2",
+        full_name="Aaron Alpha",
+        status="pending",
+    )
+    out_of_scope = replace(
+        _sample_contact(),
+        occurrence_id="occ-3",
+        full_name="Beta Hotel",
+    )
+    filter_calls: list[str] = []
+    build_groups_calls: list[bool] = []
+    find_next_calls: list[tuple[str, bool]] = []
+
+    _setup_mocks(monkeypatch)
+
+    def fake_update_notes_and_status(_conn, occurrence_id: str, notes: str, status: str) -> ContactRow:
+        return replace(current, status=status, notes=notes)
+
+    def fake_fetch_contacts(_conn, phones_only: bool) -> list[ContactRow]:
+        return [
+            replace(current, status="done"),
+            next_contact,
+            out_of_scope,
+        ]
+
+    def fake_filter_contacts(rows: list[ContactRow], search: str | None) -> list[ContactRow]:
+        filter_calls.append(search or "")
+        return [row for row in rows if (search or "").strip().lower() in row.full_name.lower()]
+
+    def fake_build_groups(rows: list[ContactRow], phones_only: bool = False):
+        build_groups_calls.append(phones_only)
+        return crm_queries.build_groups(rows, phones_only=phones_only)
+
+    def fake_find_next_contact_id(rows: list[ContactRow], current_id: str | None, phones_only: bool = False):
+        find_next_calls.append((current_id, phones_only))
+        return "occ-2"
+
+    monkeypatch.setattr(crm_app, "update_notes_and_status", fake_update_notes_and_status)
+    monkeypatch.setattr(crm_app, "fetch_contacts", fake_fetch_contacts)
+    monkeypatch.setattr(crm_app, "filter_contacts_by_search", fake_filter_contacts)
+    monkeypatch.setattr(crm_app, "build_groups", fake_build_groups)
+    monkeypatch.setattr(crm_app, "find_next_contact_id", fake_find_next_contact_id)
+
+    client = TestClient(app)
+    response = client.post(
+        "/contact/status",
+        data={
+            "id": current.occurrence_id,
+            "status": "done",
+            "notes": "left voicemail",
+            "phones_only": "true",
+            "search": "  Alpha  ",
+        },
+    )
+    _teardown_mocks()
+
+    assert response.status_code == 200
+    assert filter_calls == ["Alpha"]
+    assert build_groups_calls == [True]
+    assert find_next_calls == [(current.occurrence_id, True)]
+    assert 'selected=occ-2&phones_only=true&search=Alpha' in response.text
+    assert 'name="search" value="Alpha"' in response.text
+    assert 'data-contact-id="occ-2"' in response.text
+    assert "Beta Hotel" not in response.text
 
 
 def test_render_main_error_template_response_works() -> None:

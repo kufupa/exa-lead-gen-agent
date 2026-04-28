@@ -67,6 +67,7 @@
               class="notes-mirror"
               data-notes-mirror
             />
+            <input type="hidden" name="search" value="{{ search | default('', true) }}" />
             <button type="submit" class="btn btn-done mark-btn-done">Mark done</button>
           </form>
           <form
@@ -90,6 +91,7 @@
               class="notes-mirror"
               data-notes-mirror
             />
+            <input type="hidden" name="search" value="{{ search | default('', true) }}" />
             <button type="submit" class="btn btn-skip mark-btn-skip">Mark skipped</button>
           </form>
         {% elif contact.status == "done" %}
@@ -114,6 +116,7 @@
               class="notes-mirror"
               data-notes-mirror
             />
+            <input type="hidden" name="search" value="{{ search | default('', true) }}" />
             <button type="submit" class="btn btn-secondary">Undo review</button>
           </form>
         {% elif contact.status == "skipped" %}
@@ -138,6 +141,7 @@
               class="notes-mirror"
               data-notes-mirror
             />
+            <input type="hidden" name="search" value="{{ search | default('', true) }}" />
             <button type="submit" class="btn btn-secondary">Undo skip</button>
           </form>
         {% endif %}
@@ -159,6 +163,7 @@
           name="phones_only"
           value="{{ 'true' if phones_only else 'false' }}"
         />
+        <input type="hidden" name="search" value="{{ search | default('', true) }}" />
         <textarea
           id="notesText"
           name="notes"
