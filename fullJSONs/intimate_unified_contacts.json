@@ -1,7 +1,7 @@
 {
   "version": 1,
   "criteria": "Contacts with structured phone and/or named non-generic email; globally deduped by linkedin (canonical www) then email then name+company. Tie-break: lexicographic (intimacy+phone extras, then intimacy+named-email count). Canonical single-row view for outreach; see also intimate_phone_contacts.json and intimate_email_contacts.json.",
-  "generated_at_utc": "2026-04-27T21:31:19.089874+00:00",
+  "generated_at_utc": "2026-04-28T09:51:46.114845+00:00",
   "source_enriched_files": [
     "jsons/hotel_leads__116pallmall_com__0cab9398.enriched.json",
     "jsons/hotel_leads__ampersandhotel_com__361d28d1.enriched.json",
