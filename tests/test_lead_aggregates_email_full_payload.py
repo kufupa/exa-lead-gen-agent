@@ -134,17 +134,44 @@ def test_email_document_dedupes_same_email_same_hotel_and_tracks_duplicate(tmp_p
     assert row["duplicate_occurrences"][0]["source_enriched_json"] == "jsons/a.enriched.json"
 
 
-def test_email_document_keeps_same_email_for_different_hotels_as_separate_outreach_targets(tmp_path: Path) -> None:
+def test_email_document_merges_same_email_across_different_hotels(tmp_path: Path) -> None:
     jsons_dir = tmp_path / "jsons"
     jsons_dir.mkdir()
-    _write_enriched(jsons_dir / "a.enriched.json", target_url="https://hotel-a.example/", contacts=[_contact(company="Hotel A")])
-    _write_enriched(jsons_dir / "b.enriched.json", target_url="https://hotel-b.example/", contacts=[_contact(company="Hotel B")])
+    weak = _contact(company="Hotel A", phone=None, intimacy_grade="low")
+    strong = _contact(company="Hotel B", phone="+44 20 0000 0000", intimacy_grade="high")
+    _write_enriched(jsons_dir / "a.enriched.json", target_url="https://hotel-a.example/", contacts=[weak])
+    _write_enriched(jsons_dir / "b.enriched.json", target_url="https://hotel-b.example/", contacts=[strong])
 
     doc = build_email_document(jsons_dir)
 
-    assert doc["count"] == 2
-    assert sorted(row["target_url"] for row in doc["contacts"]) == ["https://hotel-a.example/", "https://hotel-b.example/"]
-    assert all(row["email_key"] == "alex.person@example.com" for row in doc["contacts"])
+    assert doc["count"] == 1
+    row = doc["contacts"][0]
+    assert row["email_key"] == "alex.person@example.com"
+    assert row["company"] == "Hotel B"
+    assert row["merged_occurrence_count"] == 2
+    assert row["duplicate_occurrence_count"] == 1
+    assert set(row["related_target_urls"]) == {"https://hotel-a.example/", "https://hotel-b.example/"}
+    assert len(row["merged_occurrences"]) == 2
+    assert {occ["contact"]["company"] for occ in row["merged_occurrences"]} == {"Hotel A", "Hotel B"}
+
+
+def test_email_document_merged_occurrences_keep_full_payload(tmp_path: Path) -> None:
+    jsons_dir = tmp_path / "jsons"
+    jsons_dir.mkdir()
+    first = _contact(custom_enrichment_blob={"angle": "first hotel"})
+    second = _contact(custom_enrichment_blob={"angle": "second hotel"})
+    _write_enriched(jsons_dir / "a.enriched.json", target_url="https://hotel-a.example/", contacts=[first])
+    _write_enriched(jsons_dir / "b.enriched.json", target_url="https://hotel-b.example/", contacts=[second])
+
+    doc = build_email_document(jsons_dir)
+    row = doc["contacts"][0]
+
+    assert len(row["merged_occurrences"]) == 2
+    for occ in row["merged_occurrences"]:
+        assert occ["contact"]["custom_enrichment_blob"] in ({"angle": "first hotel"}, {"angle": "second hotel"})
+        assert occ["source_run"]["model"] == "pipeline-v4"
+        assert occ["pipeline_v4_candidate"]["candidate_id"] == "c_alex"
+        assert occ["pipeline_v4_candidate_match"]["status"] == "matched_linkedin"
 
 
 def test_email_document_does_not_attach_ambiguous_name_only_candidate(tmp_path: Path) -> None:

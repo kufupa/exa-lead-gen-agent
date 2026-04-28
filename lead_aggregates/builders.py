@@ -362,17 +362,46 @@ def build_full_email_contact_row(
     return flat
 
 
-def _duplicate_summary(row: dict[str, Any]) -> dict[str, Any]:
-    return {
-        "occurrence_id": row.get("occurrence_id"),
-        "source_enriched_json": row.get("source_enriched_json"),
-        "target_url": row.get("target_url"),
-        "full_name": row.get("full_name"),
-        "title": row.get("title"),
-        "company": row.get("company"),
-        "email_key": row.get("email_key"),
-        "contact_key": row.get("contact_key"),
-    }
+def _email_occurrence_payload(row: dict[str, Any]) -> dict[str, Any]:
+    payload = dict(row)
+    for key in (
+        "merged_occurrence_count",
+        "merged_occurrence_ids",
+        "merged_occurrences",
+        "related_target_urls",
+        "related_hotel_canonical_urls",
+        "duplicate_occurrence_count",
+        "duplicate_occurrences",
+    ):
+        payload.pop(key, None)
+    return payload
+
+
+def _finalize_email_group(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    if not rows:
+        raise ValueError("cannot finalize empty email group")
+    winner_idx = 0
+    winner = rows[winner_idx]
+    for idx, row in enumerate(rows[1:], start=1):
+        if score_for_pick_email(row) > score_for_pick_email(winner):
+            winner = row
+            winner_idx = idx
+
+    occurrences = [_email_occurrence_payload(row) for row in rows]
+    duplicates = [occ for idx, occ in enumerate(occurrences) if idx != winner_idx]
+    target_urls = sorted({str(occ.get("target_url") or "") for occ in occurrences if occ.get("target_url")})
+    hotel_urls = sorted(
+        {str(occ.get("hotel_canonical_url") or "") for occ in occurrences if occ.get("hotel_canonical_url")}
+    )
+
+    winner["merged_occurrence_count"] = len(occurrences)
+    winner["merged_occurrence_ids"] = [occ.get("occurrence_id") for occ in occurrences if occ.get("occurrence_id")]
+    winner["merged_occurrences"] = occurrences
+    winner["related_target_urls"] = target_urls
+    winner["related_hotel_canonical_urls"] = hotel_urls
+    winner["duplicate_occurrence_count"] = len(duplicates)
+    winner["duplicate_occurrences"] = duplicates
+    return winner
 
 
 def build_contact_row(
@@ -494,7 +523,7 @@ def build_email_document(jsons_dir: Path) -> dict[str, Any]:
     master = build_master_document(jsons_dir)
     runs = _run_by_source(master)
     source_cache: dict[str, dict[str, Any]] = {}
-    rows_by_key: dict[str, dict[str, Any]] = {}
+    groups_by_email: dict[str, list[dict[str, Any]]] = {}
     sources = list(master.get("source_enriched_files") or [])
 
     for warehouse_row in master.get("contacts") or []:
@@ -508,35 +537,23 @@ def build_email_document(jsons_dir: Path) -> dict[str, Any]:
         email_key = primary_named_email(contact)
         if not email_key or not target_url:
             continue
-        dedupe_target = canonical_hotel_url(target_url)
-        row_key = f"{email_key}\x1f{dedupe_target}"
         source_doc = _load_source_doc(source_rel, jsons_dir, source_cache)
         row = build_full_email_contact_row(
             warehouse_row,
             source_run=runs.get(source_rel),
             source_doc=source_doc,
         )
-        prev = rows_by_key.get(row_key)
-        if prev is None:
-            rows_by_key[row_key] = row
-            continue
-        if score_for_pick_email(row) > score_for_pick_email(prev):
-            row["duplicate_occurrences"] = [*prev.get("duplicate_occurrences", []), _duplicate_summary(prev)]
-            row["duplicate_occurrence_count"] = len(row["duplicate_occurrences"])
-            rows_by_key[row_key] = row
-        else:
-            prev.setdefault("duplicate_occurrences", []).append(_duplicate_summary(row))
-            prev["duplicate_occurrence_count"] = len(prev["duplicate_occurrences"])
+        groups_by_email.setdefault(email_key, []).append(row)
 
     contacts = sorted(
-        rows_by_key.values(),
+        (_finalize_email_group(rows) for rows in groups_by_email.values()),
         key=lambda r: ((r.get("full_name") or "").lower(), r.get("email_key") or "", r.get("target_url") or ""),
     )
     return {
-        "version": 2,
+        "version": 3,
         "criteria": (
-            "Contacts with named non-generic email or email2. One row per primary named email + canonical hotel URL. "
-            "Rows preserve flat compatibility fields plus full contact/source payload for cold-email generation. "
+            "Contacts with named non-generic email or email2. One row per primary named email. "
+            "Rows preserve flat compatibility fields plus full merged occurrence payloads for cold-email generation. "
             "Triage/generation/send state is intentionally excluded and remains in outreach_email_state.json."
         ),
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),

@@ -149,6 +149,8 @@ def main() -> int:
     def pick_ids() -> list[str]:
         doc = store.load_validated()
         out = generation_candidates(doc)
+        valid_current_ids = set(index)
+        out = [oid for oid in out if oid in valid_current_ids]
         if netlocs:
             by_id = doc.get("by_id") or {}
             out = [oid for oid in out if row_matches_hotel_netlocs(by_id.get(oid) or {}, netlocs)]

@@ -156,3 +156,42 @@ def test_merge_snapshot_keeps_provenance_for_full_payload_rows() -> None:
     assert "triage" not in snap
     assert "generation" not in snap
     assert "contact" not in snap
+
+
+def test_merge_snapshot_keeps_email_merge_summary() -> None:
+    intimate = {
+        "version": 3,
+        "generated_at_utc": "2026-01-01T00:00:00+00:00",
+        "contacts": [
+            {
+                "full_name": "Alex Person",
+                "title": "GM",
+                "company": "Ex Hotel",
+                "email": "alex.person@exhotel.com",
+                "target_url": "https://hotel-a.example/",
+                "hotel_canonical_url": "https://hotel-a.example",
+                "source_enriched_json": "jsons/a.enriched.json",
+                "occurrence_id": "jsons/a.enriched.json::em:alex.person@exhotel.com",
+                "contact_key": "em:alex.person@exhotel.com",
+                "email_key": "alex.person@exhotel.com",
+                "merged_occurrence_count": 2,
+                "merged_occurrence_ids": [
+                    "jsons/a.enriched.json::em:alex.person@exhotel.com",
+                    "jsons/b.enriched.json::em:alex.person@exhotel.com",
+                ],
+                "related_target_urls": ["https://hotel-a.example/", "https://hotel-b.example/"],
+                "related_hotel_canonical_urls": ["https://hotel-a.example", "https://hotel-b.example"],
+            }
+        ],
+    }
+
+    state, added, refreshed = merge_intimates_into_state(intimate, None)
+
+    assert added == 1
+    assert refreshed == 0
+    row = next(iter(state["by_id"].values()))
+    snap = row["intimate_snapshot"]
+    assert snap["merged_occurrence_count"] == 2
+    assert snap["related_hotel_canonical_urls"] == ["https://hotel-a.example", "https://hotel-b.example"]
+    oid = next(iter(state["by_id"]))
+    assert oid in state["indexes"]["by_hotel"]["https://hotel-b.example"]

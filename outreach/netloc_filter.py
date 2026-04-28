@@ -31,7 +31,18 @@ def row_hotel_netloc(row: dict) -> str:
     return urlparse((row.get("hotel_canonical_url") or "").strip()).netloc.lower()
 
 
+def row_hotel_netlocs(row: dict) -> frozenset[str]:
+    urls: list[str] = []
+    primary = (row.get("hotel_canonical_url") or "").strip()
+    if primary:
+        urls.append(primary)
+    related = row.get("related_hotel_canonical_urls")
+    if isinstance(related, list):
+        urls.extend(str(u).strip() for u in related if str(u).strip())
+    return frozenset(urlparse(u).netloc.lower() for u in urls if u)
+
+
 def row_matches_hotel_netlocs(row: dict, netlocs: frozenset[str]) -> bool:
     if not netlocs:
         return True
-    return row_hotel_netloc(row) in netlocs
+    return bool(row_hotel_netlocs(row) & netlocs)

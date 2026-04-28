@@ -27,6 +27,10 @@ def _row_hash(contact_row: dict[str, Any]) -> str:
         "occurrence_id": contact_row.get("occurrence_id"),
         "contact_key": contact_row.get("contact_key"),
         "email_key": contact_row.get("email_key"),
+        "merged_occurrence_count": contact_row.get("merged_occurrence_count"),
+        "merged_occurrence_ids": contact_row.get("merged_occurrence_ids"),
+        "related_target_urls": contact_row.get("related_target_urls"),
+        "related_hotel_canonical_urls": contact_row.get("related_hotel_canonical_urls"),
     }
     blob = json.dumps(subset, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return hashlib.sha256(blob.encode("utf-8")).hexdigest()[:40]
@@ -43,6 +47,10 @@ def _snapshot(contact_row: dict[str, Any]) -> dict[str, Any]:
         "company": contact_row.get("company"),
         "contact_key": contact_row.get("contact_key"),
         "email_key": contact_row.get("email_key"),
+        "merged_occurrence_count": contact_row.get("merged_occurrence_count"),
+        "merged_occurrence_ids": contact_row.get("merged_occurrence_ids"),
+        "related_target_urls": contact_row.get("related_target_urls"),
+        "related_hotel_canonical_urls": contact_row.get("related_hotel_canonical_urls"),
     }
 
 
@@ -61,6 +69,10 @@ def _new_row(
         "primary_email": primary_email,
         "target_url": target_url,
         "hotel_canonical_url": hotel_canonical,
+        "related_target_urls": snapshot.get("related_target_urls") if isinstance(snapshot.get("related_target_urls"), list) else [],
+        "related_hotel_canonical_urls": snapshot.get("related_hotel_canonical_urls")
+        if isinstance(snapshot.get("related_hotel_canonical_urls"), list)
+        else [],
         "intimate_snapshot": snapshot,
         "intimate_row_hash": row_hash,
         "intimate_doc_generated_at_utc": intimate_generated_at,
@@ -142,6 +154,14 @@ def merge_intimates_into_state(
             existing["primary_email"] = pem
             existing["target_url"] = target_url
             existing["hotel_canonical_url"] = hotel_canonical
+            existing["related_target_urls"] = (
+                snap.get("related_target_urls") if isinstance(snap.get("related_target_urls"), list) else []
+            )
+            existing["related_hotel_canonical_urls"] = (
+                snap.get("related_hotel_canonical_urls")
+                if isinstance(snap.get("related_hotel_canonical_urls"), list)
+                else []
+            )
             refreshed += 1
 
     state["version"] = state.get("version") or 1

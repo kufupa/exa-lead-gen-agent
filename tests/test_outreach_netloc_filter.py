@@ -17,3 +17,11 @@ def test_row_matches_hotel_netlocs() -> None:
     assert row_matches_hotel_netlocs(row_ok, nl) is True
     assert row_matches_hotel_netlocs(row_no, nl) is False
     assert row_matches_hotel_netlocs(row_ok, frozenset()) is True
+
+
+def test_row_matches_related_hotel_netlocs() -> None:
+    row = {
+        "hotel_canonical_url": "https://hotel-a.example",
+        "related_hotel_canonical_urls": ["https://hotel-b.example"],
+    }
+    assert row_matches_hotel_netlocs(row, netlocs_from_hotel_urls(["https://hotel-b.example/"]))
