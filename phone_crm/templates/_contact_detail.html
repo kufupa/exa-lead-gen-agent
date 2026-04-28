@@ -32,16 +32,116 @@
 
   <section class="contact-block contact-detail-card" id="contactPanel" data-status="{{ contact.status }}" data-contact-id="{{ contact.occurrence_id }}">
     <header class="contact-heading">
-      <h2>{{ contact_display.hero_name }}</h2>
-      <p class="hero-meta">{{ contact_display.hero_title }}</p>
-      <a
-        class="hero-hotel"
-        href="{{ contact_display.hotel_url }}"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {{ contact_display.hero_hotel }}
-      </a>
+      <div class="contact-heading-main">
+        <h2>{{ contact_display.hero_name }}</h2>
+        <p class="hero-meta">{{ contact_display.hero_title }}</p>
+        <a
+          class="hero-hotel"
+          href="{{ contact_display.hotel_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ contact_display.hero_hotel }}
+        </a>
+      </div>
+      <div class="contact-heading-actions">
+        {% if contact.status == "pending" %}
+          <form
+            class="status-form status-form-inline"
+            hx-post="/contact/status"
+            hx-target="#crm-main"
+            hx-swap="outerHTML"
+            method="post"
+          >
+            <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+            <input
+              type="hidden"
+              name="phones_only"
+              value="{{ 'true' if phones_only else 'false' }}"
+            />
+            <input type="hidden" name="status" value="done" />
+            <input
+              type="hidden"
+              name="notes_mirror"
+              value="{{ contact_display.notes | default('', true) }}"
+              class="notes-mirror"
+              data-notes-mirror
+            />
+            <button type="submit" class="btn btn-done mark-btn-done">Mark done</button>
+          </form>
+          <form
+            class="status-form status-form-inline"
+            hx-post="/contact/status"
+            hx-target="#crm-main"
+            hx-swap="outerHTML"
+            method="post"
+          >
+            <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+            <input
+              type="hidden"
+              name="phones_only"
+              value="{{ 'true' if phones_only else 'false' }}"
+            />
+            <input type="hidden" name="status" value="skipped" />
+            <input
+              type="hidden"
+              name="notes_mirror"
+              value="{{ contact_display.notes | default('', true) }}"
+              class="notes-mirror"
+              data-notes-mirror
+            />
+            <button type="submit" class="btn btn-skip mark-btn-skip">Mark skipped</button>
+          </form>
+        {% elif contact.status == "done" %}
+          <form
+            class="status-form status-form-inline"
+            hx-post="/contact/status"
+            hx-target="#crm-main"
+            hx-swap="outerHTML"
+            method="post"
+          >
+            <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+            <input
+              type="hidden"
+              name="phones_only"
+              value="{{ 'true' if phones_only else 'false' }}"
+            />
+            <input type="hidden" name="status" value="pending" />
+            <input
+              type="hidden"
+              name="notes_mirror"
+              value="{{ contact_display.notes | default('', true) }}"
+              class="notes-mirror"
+              data-notes-mirror
+            />
+            <button type="submit" class="btn btn-secondary">Undo review</button>
+          </form>
+        {% elif contact.status == "skipped" %}
+          <form
+            class="status-form status-form-inline"
+            hx-post="/contact/status"
+            hx-target="#crm-main"
+            hx-swap="outerHTML"
+            method="post"
+          >
+            <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
+            <input
+              type="hidden"
+              name="phones_only"
+              value="{{ 'true' if phones_only else 'false' }}"
+            />
+            <input type="hidden" name="status" value="pending" />
+            <input
+              type="hidden"
+              name="notes_mirror"
+              value="{{ contact_display.notes | default('', true) }}"
+              class="notes-mirror"
+              data-notes-mirror
+            />
+            <button type="submit" class="btn btn-secondary">Undo skip</button>
+          </form>
+        {% endif %}
+      </div>
     </header>
 
     <section class="detail-section">
@@ -72,12 +172,20 @@
           data-notes-mirror
         />
         <div class="notes-actions">
-          <button id="notesSaveBtn" type="submit" class="btn btn-primary notesSaveBtn">Save notes</button>
+          <button
+            id="notesSaveBtn"
+            type="submit"
+            class="btn btn-primary notesSaveBtn"
+            data-loading-label="Saving..."
+          >
+            Save notes
+          </button>
           <button
             id="notesDiscardBtn"
             type="button"
             class="btn btn-secondary notesDiscardBtn"
             data-discard-notes
+            data-loading-label="Discarding..."
           >
             Discard
           </button>
@@ -173,105 +281,6 @@
       </details>
     </section>
 
-    <section class="detail-section">
-      <h3>Actions</h3>
-      {% if contact.status == "pending" %}
-        <form
-          class="status-form"
-          hx-post="/contact/status"
-          hx-target="#crm-main"
-          hx-swap="outerHTML"
-          method="post"
-        >
-          <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
-          <input
-            type="hidden"
-            name="phones_only"
-            value="{{ 'true' if phones_only else 'false' }}"
-          />
-          <input type="hidden" name="status" value="done" />
-          <input
-            type="hidden"
-            name="notes_mirror"
-            value="{{ contact_display.notes | default('', true) }}"
-            class="notes-mirror"
-            data-notes-mirror
-          />
-          <button type="submit" class="btn btn-primary btn-done ghost-btn ghost-btn-small mark-btn-done">Mark done</button>
-        </form>
-        <form
-          class="status-form"
-          hx-post="/contact/status"
-          hx-target="#crm-main"
-          hx-swap="outerHTML"
-          method="post"
-        >
-          <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
-          <input
-            type="hidden"
-            name="phones_only"
-            value="{{ 'true' if phones_only else 'false' }}"
-          />
-          <input type="hidden" name="status" value="skipped" />
-          <input
-            type="hidden"
-            name="notes_mirror"
-            value="{{ contact_display.notes | default('', true) }}"
-            class="notes-mirror"
-            data-notes-mirror
-          />
-          <button type="submit" class="btn btn-secondary btn-skip ghost-btn ghost-btn-small mark-btn-skip">Mark skipped</button>
-        </form>
-      {% elif contact.status == "done" %}
-        <form
-          class="status-form"
-          hx-post="/contact/status"
-          hx-target="#crm-main"
-          hx-swap="outerHTML"
-          method="post"
-        >
-          <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
-          <input
-            type="hidden"
-            name="phones_only"
-            value="{{ 'true' if phones_only else 'false' }}"
-          />
-          <input type="hidden" name="status" value="pending" />
-          <input
-            type="hidden"
-            name="notes_mirror"
-            value="{{ contact_display.notes | default('', true) }}"
-            class="notes-mirror"
-            data-notes-mirror
-          />
-          <button type="submit" class="btn btn-secondary">Undo review</button>
-        </form>
-      {% elif contact.status == "skipped" %}
-        <form
-          class="status-form"
-          hx-post="/contact/status"
-          hx-target="#crm-main"
-          hx-swap="outerHTML"
-          method="post"
-        >
-          <input type="hidden" name="id" value="{{ contact.occurrence_id }}" />
-          <input
-            type="hidden"
-            name="phones_only"
-            value="{{ 'true' if phones_only else 'false' }}"
-          />
-          <input type="hidden" name="status" value="pending" />
-          <input
-            type="hidden"
-            name="notes_mirror"
-            value="{{ contact_display.notes | default('', true) }}"
-            class="notes-mirror"
-            data-notes-mirror
-          />
-          <button type="submit" class="btn btn-secondary">Undo skip</button>
-        </form>
-      {% endif %}
-    </section>
   </section>
 {% else %}
   <section class="contact-block contact-detail-card">

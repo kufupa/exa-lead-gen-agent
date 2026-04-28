@@ -125,10 +125,26 @@ body {
 }
 
 .hotel-accordion {
-  border: 1px solid var(--line);
+  border: 1px solid #e2e8f0;
   border-radius: 10px;
   overflow: hidden;
-  background: rgba(15, 23, 42, 0.7);
+  background: rgba(248, 250, 252, 0.08);
+}
+
+.hotel-accordion--selected {
+  border-color: rgba(56, 189, 248, 0.55);
+  background: transparent;
+  outline: 0;
+}
+
+.hotel-accordion--selected .hotel-summary {
+  color: #ffffff;
+  background: rgba(34, 211, 238, 0.22);
+  outline: 2px solid var(--accent);
+}
+
+.hotel-accordion--selected .contact-rows {
+  background: transparent;
 }
 
 .hotel-summary {
@@ -230,11 +246,28 @@ body {
 }
 
 .contact-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 1rem;
   border-bottom: 1px solid var(--line);
   padding-bottom: 0.8rem;
 }
 
-.contact-heading h2 {
+.contact-heading-main {
+  min-width: 0;
+}
+
+.contact-heading-main h2 {
+  margin: 0;
+}
+
+.contact-heading-actions {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  justify-self: end;
+  flex-wrap: nowrap;
   margin: 0;
 }
 
@@ -242,6 +275,11 @@ body {
   display: inline-block;
   margin-top: 0.35rem;
   color: var(--accent);
+}
+
+.status-form-inline {
+  margin: 0;
+  display: inline-flex;
 }
 
 .detail-section {
@@ -275,7 +313,7 @@ body {
 
 .notes-actions {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   gap: 0.5rem;
   position: sticky;
   bottom: 0.2rem;
@@ -292,6 +330,36 @@ body {
   cursor: pointer;
 }
 
+.btn.is-loading {
+  position: relative;
+  opacity: 0.8;
+  cursor: wait;
+}
+
+.btn.is-loading::before {
+  content: "";
+  position: absolute;
+  left: 0.6rem;
+  top: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-top: -0.45rem;
+  border: 2px solid rgba(255, 255, 255, 0.42);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: crm-btn-spin 0.7s linear infinite;
+}
+
+.btn.is-loading {
+  padding-left: 1.95rem;
+}
+
+@keyframes crm-btn-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .btn-primary {
   background: var(--accent);
   border-color: var(--accent-strong);
@@ -303,7 +371,8 @@ body {
 }
 
 .btn-done {
-  background: var(--done);
+  background: #16a34a;
+  border-color: #15803d;
 }
 
 .btn-skip {
