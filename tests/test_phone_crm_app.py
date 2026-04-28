@@ -311,6 +311,30 @@ def test_crm_route_shows_rich_contact_details(monkeypatch) -> None:
     assert "View full JSON" in response.text
     assert "fit_reason" in response.text or "decision_maker_score" in response.text
 
+    payload_section_start = response.text.index('<section class="detail-section payload-section">')
+    payload_section = response.text[payload_section_start:]
+    assert "<details open>" in payload_section
+    summary_indices = []
+    cursor = 0
+    while True:
+        summary_idx = payload_section.find("<summary>", cursor)
+        if summary_idx == -1:
+            break
+        summary_indices.append(summary_idx)
+        cursor = summary_idx + len("<summary>")
+
+    def _summary_has_open(summary_idx: int) -> None:
+        open_tag_start = payload_section.rfind("<details", 0, summary_idx)
+        assert open_tag_start != -1
+        open_tag_end = payload_section.find(">", open_tag_start)
+        assert open_tag_end != -1
+        assert "open" in payload_section[open_tag_start:open_tag_end + 1]
+
+    assert len(summary_indices) >= 2
+    for summary_idx in summary_indices:
+        _summary_has_open(summary_idx)
+    assert payload_section.count("<details open>") >= 3
+
 
 def test_notes_route_posts_notes_and_rerenders(monkeypatch) -> None:
     contact = _sample_enriched_contact()

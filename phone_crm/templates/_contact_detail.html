@@ -4,7 +4,7 @@
     <li class="payload-node payload-node--scalar">
       <span class="payload-label">{{ entry.label }}:</span>
       {% if (entry.value | length) > 500 %}
-        <details>
+        <details open>
           <summary>{{ entry.value[:500] }}…</summary>
           <pre><code>{{ entry.value }}</code></pre>
         </details>
@@ -14,7 +14,7 @@
     </li>
   {% else %}
     <li class="payload-node payload-node--{{ entry.kind }}">
-      <details>
+      <details open>
         <summary>{{ entry.label }}</summary>
         <ul class="payload-children">
           {% if entry.children %}
@@ -272,7 +272,7 @@
 
     <section class="detail-section payload-section">
       <h3>Full payload</h3>
-      <details>
+      <details open>
         <summary>View hierarchical payload</summary>
         <ul class="payload-tree">
           {% for entry in contact_display.payload_fields %}
@@ -280,7 +280,7 @@
           {% endfor %}
         </ul>
       </details>
-      <details>
+      <details open>
         <summary>View full JSON</summary>
         <pre><code>{{ contact_display.payload | tojson(indent=2) }}</code></pre>
       </details>
